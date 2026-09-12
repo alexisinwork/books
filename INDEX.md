@@ -1,29 +1,34 @@
 # Все файлы мастерской
 
-Текущий комплект передан по просьбе автора без дальнейших доработок. Все материалы — отдельными файлами.
+Рабочий репозиторий — [alexisinwork/books](https://github.com/alexisinwork/books). [Правила единого хранилища](SOURCE-OF-TRUTH.md) описывают выбор основного текста, версии и хранение отчётов.
 
 | Папка | Содержание |
 |---|---|
-| [default](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/default/START_HERE.md) | Универсальная система: начало проекта, шаблоны, скрипты, скиллы, проверки и управление версиями. |
-| [buro](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/buro/START_HERE.md) | «Бюро»: три романа, источники, канон, развитие книг и собственный профиль работы. |
-| [kontakt](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/kontakt/START_HERE.md) | «Контакт» / «Разлад»: материалы серии и планы семи книг, отдельные папки развития. Готовых рукописей в источниках нет. |
-| [riokka](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/riokka/START_HERE.md) | «Контрактник Риокки»: шесть романов, рассказы, канон, скиллы и редактура первой книги. |
+| [default](default/START_HERE.md) | Чистый шаблон: инструкции, стиль, инструменты, формы непрерывности и проверок. |
+| [buro](buro/START_HERE.md) | «Бюро»: три романа, исходники, канон и рабочие файлы серии. |
+| [kontakt](kontakt/START_HERE.md) | «Контакт» / «Разлад»: материалы серии и планы семи книг. |
+| [riokka](riokka/START_HERE.md) | «Контрактник Риокки»: романы, рассказы и отдельная редакция первой книги. |
 
-## Книга 1
+## Риокка — книга 1
 
-- [Редакторская версия DOCX](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/riokka/books/book-01/revisions/2026-09-12/revised.docx)
-- [Все 204 изменённых абзаца: было → стало](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/riokka/books/book-01/revisions/2026-09-12/ALL-CHANGES.md)
-- [Технический diff](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/riokka/books/book-01/revisions/2026-09-12/all-changes.diff)
-- [Исходный окончательный DOCX](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/riokka/books/book-01/manuscript/master.docx)
+[Страница книги с версиями и статусами](riokka/books/book-01/README.md).
 
-Редактура выполнена по окончательному DOCX, который читал брат. Исходник сохранён. Новая версия предназначена для авторского просмотра; финальная проверка оформления остановлена по просьбе немедленно выдать результат (просмотрены 172 из 252 страниц).
+- [Исходный окончательный DOCX](riokka/books/book-01/manuscript/master.docx)
+- [Последняя редакция DOCX от 12 сентября 2026 года](riokka/books/book-01/revisions/2026-09-12/revised.docx)
+- [Все 204 изменённых абзаца: было → стало](riokka/books/book-01/revisions/2026-09-12/ALL-CHANGES.md)
+- [Технический diff](riokka/books/book-01/revisions/2026-09-12/all-changes.diff)
+- [Манифест выбора версии](riokka/books/book-01/book.json)
 
-## Учёт и запуск
+Последняя редакция предназначена для авторского просмотра. Её наличие не меняет выбранный мастер; полная проверка вёрстки ещё не подтверждена.
 
-- [Полный список файлов](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/FILES.json)
-- [Реестр исходников](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/SOURCE-CATALOG.json)
-- [Результаты выполненных проверок](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/WORKSPACE-VALIDATION.json)
-- [Точное состояние передачи](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/DELIVERY-STATUS.json)
-- [Инструкция по GitHub](sandbox:/workspace/scratch/9fd86a160c30/writing-studio/CREATE-REPOSITORY.md)
+## Дополнительные проверки и учёт
 
-48 записей исходников проверены побайтно (47 уникальных контрольных сумм). GitHub-репозиторий не создан: доступное подключение не предоставляет создание репозитория в нужном аккаунте. Перенос на Google Drive не завершён.
+- [LanguageTool, Razdel, pymorphy3, Vale, Pandoc, python-docx: ссылки и подключение](riokka/guides/REPOSITORIES.md)
+- [Стиль и маршруты проектов](STYLE.md)
+- [Полный список файлов](FILES.json)
+- [Реестр исходников](SOURCE-CATALOG.json)
+- [Отчёт проверок исходной поставки](WORKSPACE-VALIDATION.json)
+- [Состояние размещения и редакторской передачи](DELIVERY-STATUS.json)
+- [Подключение к существующему GitHub-репозиторию](CREATE-REPOSITORY.md)
+
+Исходные файлы сохраняются с контрольными суммами. Проверки каждой новой версии имеют собственный охват и отчёт; результат прежнего прогона не переносится на новую редакцию автоматически.
