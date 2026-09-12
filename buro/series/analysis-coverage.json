@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "project_id": "buro",
+  "date": "2026-09-12",
+  "sources": [
+    {
+      "id": "world",
+      "semantic_read": "complete",
+      "role": "early design; distinctions from manuscript documented"
+    },
+    {
+      "id": "publication",
+      "semantic_read": "complete",
+      "role": "genre promise, names, summaries, release material"
+    },
+    {
+      "id": "omnibus",
+      "semantic_read": "selected_passages",
+      "full_literary_audit": false,
+      "technical_scan": "all 10266 lines / all 2155809 bytes; 133 explicit chapters; 128 literal hook markers",
+      "reviewed_ranges_inclusive": [
+        [
+          1,
+          136
+        ],
+        [
+          3320,
+          3419
+        ],
+        [
+          3422,
+          3500
+        ],
+        [
+          3660,
+          3692
+        ],
+        [
+          5507,
+          5539
+        ],
+        [
+          6653,
+          6753
+        ],
+        [
+          9546,
+          9630
+        ],
+        [
+          9788,
+          9810
+        ],
+        [
+          9876,
+          9905
+        ],
+        [
+          10215,
+          10266
+        ]
+      ],
+      "additional_method": "Targeted exact-line reads for memory, communication and chronology findings; quotes preserved in continuity queue.",
+      "not_done": [
+        "continuous reading of all novels",
+        "full scene segmentation",
+        "all character arcs",
+        "complete resource/time ledger",
+        "full spelling and typography pass",
+        "reader-edition render"
+      ]
+    }
+  ],
+  "caution": "Ranges describe passages used in the semantic setup, not proof that every claim in a range has been audited. Technical coverage is not reading coverage."
+}

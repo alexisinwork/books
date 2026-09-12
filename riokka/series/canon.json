@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "status": "requires_reconciliation",
+  "facts": [],
+  "source_priority": [
+    "author_current_instruction",
+    "author_selected_book_master",
+    "verified_anchors",
+    "series_intent"
+  ],
+  "verified_end_state_reference": "../books/book-01/end-state.json",
+  "planning_source": "../methods/originals/SERIES-BIBLE-Контрактник-Риокка.md",
+  "excluded_state_source": "../methods/originals/ENTITY_STATE.yaml",
+  "exclusion_reason": "Содержит проект Разлад; не использовать как состояние Риокки"
+}

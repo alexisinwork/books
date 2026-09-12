@@ -1,0 +1,90 @@
+{
+  "default": {
+    "doctor": {
+      "exit_code": 0,
+      "output": "{\n  \"books\": 0,\n  \"errors\": [],\n  \"warnings\": [],\n  \"scope\": \"File integrity, IDs and selected version; not prose quality, full canon or layout.\"\n}\n",
+      "stderr": ""
+    },
+    "tests": {
+      "exit_code": 0,
+      "output": "",
+      "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.258s\n\nOK\n"
+    },
+    "originals": {
+      "exit_code": 0,
+      "output": "{\n  \"checked\": 0,\n  \"errors\": [],\n  \"scope\": \"No source manifest in this clean project.\"\n}\n",
+      "stderr": ""
+    },
+    "historical_system": {
+      "exit_code": 0,
+      "output": "{\n  \"checked\": 3,\n  \"errors\": [],\n  \"scope\": \"Listed files only; successful hashes do not certify literary analysis.\"\n}\n",
+      "stderr": ""
+    }
+  },
+  "buro": {
+    "doctor": {
+      "exit_code": 0,
+      "output": "{\n  \"books\": 3,\n  \"errors\": [],\n  \"warnings\": [\n    \"book-01: voice is a proposal\",\n    \"book-01: source not confirmed final by author\",\n    \"book-02: voice is a proposal\",\n    \"book-02: source not confirmed final by author\",\n    \"book-03: voice is a proposal\",\n    \"book-03: source not confirmed final by author\"\n  ],\n  \"scope\": \"File integrity, IDs and selected version; not prose quality, full canon or layout.\"\n}\n",
+      "stderr": ""
+    },
+    "tests": {
+      "exit_code": 0,
+      "output": "",
+      "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.269s\n\nOK\n"
+    },
+    "originals": {
+      "exit_code": 0,
+      "output": "{\n  \"checked\": 3,\n  \"errors\": [],\n  \"omnibus_reconstructed\": true,\n  \"scope\": \"Original bytes only; not proof of literary quality or full reading.\"\n}\n",
+      "stderr": ""
+    },
+    "historical_system": {
+      "exit_code": 0,
+      "output": "{\n  \"checked\": 3,\n  \"errors\": [],\n  \"scope\": \"Listed files only; successful hashes do not certify literary analysis.\"\n}\n",
+      "stderr": ""
+    }
+  },
+  "kontakt": {
+    "doctor": {
+      "exit_code": 0,
+      "output": "{\n  \"books\": 7,\n  \"errors\": [],\n  \"warnings\": [\n    \"book-01: voice is a proposal\",\n    \"book-01: no selected master\",\n    \"book-02: voice is a proposal\",\n    \"book-02: no selected master\",\n    \"book-03: voice is a proposal\",\n    \"book-03: no selected master\",\n    \"book-04: voice is a proposal\",\n    \"book-04: no selected master\",\n    \"book-05: voice is a proposal\",\n    \"book-05: no selected master\",\n    \"book-06: voice is a proposal\",\n    \"book-06: no selected master\",\n    \"book-07: voice is a proposal\",\n    \"book-07: no selected master\"\n  ],\n  \"scope\": \"File integrity, IDs and selected version; not prose quality, full canon or layout.\"\n}\n",
+      "stderr": ""
+    },
+    "tests": {
+      "exit_code": 0,
+      "output": "",
+      "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.276s\n\nOK\n"
+    },
+    "originals": {
+      "exit_code": 0,
+      "output": "{\n  \"checked\": 15,\n  \"errors\": [],\n  \"omnibus_reconstructed\": false,\n  \"scope\": \"Original bytes only; not proof of literary quality or full reading.\"\n}\n",
+      "stderr": ""
+    },
+    "historical_system": {
+      "exit_code": 0,
+      "output": "{\n  \"checked\": 3,\n  \"errors\": [],\n  \"scope\": \"Listed files only; successful hashes do not certify literary analysis.\"\n}\n",
+      "stderr": ""
+    }
+  },
+  "riokka": {
+    "doctor": {
+      "exit_code": 0,
+      "output": "{\n  \"books\": 6,\n  \"errors\": [],\n  \"warnings\": [\n    \"book-00: voice is a proposal\",\n    \"book-00: source not confirmed final by author\",\n    \"book-01: voice is a proposal\",\n    \"book-02: voice is a proposal\",\n    \"book-02: source not confirmed final by author\",\n    \"book-03: voice is a proposal\",\n    \"book-03: source not confirmed final by author\",\n    \"book-04: voice is a proposal\",\n    \"book-04: source not confirmed final by author\",\n    \"book-05: voice is a proposal\",\n    \"book-05: source not confirmed final by author\"\n  ],\n  \"scope\": \"File integrity, IDs and selected version; not prose quality, full canon or layout.\"\n}\n",
+      "stderr": ""
+    },
+    "tests": {
+      "exit_code": 0,
+      "output": "",
+      "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.281s\n\nOK\n"
+    },
+    "originals": {
+      "exit_code": 0,
+      "output": "{\n  \"checked\": 30,\n  \"errors\": [],\n  \"omnibus_reconstructed\": false,\n  \"scope\": \"Original bytes only; not proof of literary quality or full reading.\"\n}\n",
+      "stderr": ""
+    },
+    "historical_system": {
+      "exit_code": 0,
+      "output": "{\n  \"checked\": 3,\n  \"errors\": [],\n  \"scope\": \"Listed files only; successful hashes do not certify literary analysis.\"\n}\n",
+      "stderr": ""
+    }
+  }
+}

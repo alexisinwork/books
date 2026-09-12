@@ -1,0 +1,14 @@
+interface:
+  display_name: Черновик сцены и главы
+  short_description: Написание по версии, канону и голосу конкретной книги
+  default_prompt: Используй $ru-book-writer, чтобы написать сцену по текущей версии
+    книги и её профилю подачи.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

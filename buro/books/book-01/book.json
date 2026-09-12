@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "project_id": "buro",
+  "book_id": "book-01",
+  "title": "Чистый лист",
+  "book_type": "fiction",
+  "stage": "revision_candidate",
+  "master": {
+    "path": "manuscript/master.md",
+    "format": "text",
+    "sha256": "a9653b8100bfdbc6d6ef77bbd2453e7d058aa45aa536c1f6a82d60339fb20159",
+    "status": "candidate",
+    "authority": "Exact byte range of the supplied omnibus; author has not confirmed this as the final manuscript"
+  },
+  "voice": "voice.json",
+  "canon": "../../series/canon.json",
+  "audit_status": "structure_and_selected_passages",
+  "source_omnibus": {
+    "path": "../../sources/originals/ТРИЛОГИЯ-Бюро-ОМНИБУС(1).md",
+    "sha256": "66e4d092a94950d7c3a030013252e39d9aff502a079eb445fab9e16b036d6e05",
+    "line_start": 12,
+    "line_end": 3419,
+    "byte_start": 354,
+    "byte_end_exclusive": 716922
+  }
+}

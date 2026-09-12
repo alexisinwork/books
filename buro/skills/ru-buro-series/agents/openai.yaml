@@ -1,0 +1,14 @@
+interface:
+  display_name: Бюро несостоявшихся миров
+  short_description: Развитие и проверка трилогии Бюро по источникам
+  default_prompt: Используй $ru-buro-series для следующего прохода выбранной книги
+    по её версии и профилю.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

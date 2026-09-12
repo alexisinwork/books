@@ -1,0 +1,14 @@
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.docx binary
+*.pdf binary
+*.zip binary
+
+sources/originals/** -text
+methods/history/** -text
+methods/originals/** -text
+reports/previous-deliverables/** -text
+legacy-skills/** -text
+books/**/manuscript/** -text

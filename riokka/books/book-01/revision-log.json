@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-01",
+  "source_sha256": null,
+  "record_type": "revision-log",
+  "fields": [
+    "id",
+    "reason",
+    "old_source",
+    "new_source",
+    "changes",
+    "affected_checks",
+    "decision"
+  ],
+  "items": [
+    {
+      "action": "apply_audit_revision",
+      "source_sha256": "ae84ad2fe0f044d9888f20d3def629d8afeacc39bf56d0525827c9b93d82fcba",
+      "output": {
+        "path": "revisions/2026-09-12/revised.docx",
+        "sha256": "adc44ba62e68b4d9cb9c9dbb1f2c138cc248ba2731bb6ff884d4c5916924f059",
+        "status": "applied_for_author_review",
+        "changes": "revisions/2026-09-12/ALL-CHANGES.md"
+      },
+      "issue_groups": 25,
+      "changed_paragraphs": 204
+    }
+  ]
+}

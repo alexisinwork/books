@@ -1,0 +1,46 @@
+# Начать работу
+
+В общем репозитории четыре независимых каталога: `default` — образец для новых проектов; `buro`, `kontakt`, `riokka` — существующие серии. Для продолжения серии откройте её START_HERE.md. Здесь описан запуск чистого проекта.
+
+Нужен Python 3.10 или новее. В примерах команда называется `python`; на macOS/Linux это может быть `python3`, на Windows — `py -3`. Все команды работают с локальными файлами и сами не отправляют рукописи в интернет.
+
+## Создать новый проект
+
+Из корня общего репозитория:
+
+```sh
+python default/tools/studio.py new-project --root default --out my-new-series --id my-new-series --title "Новая серия"
+```
+
+Команда копирует рабочие файлы, скиллы и методики; создаёт новое `workspace_uid`, обнуляет книги и ссылки на внешние аккаунты, согласует `project_id` в заготовках и каноне. ID не должен повторяться у соседнего проекта. Существующая папка назначения остаётся без изменений. Шаблон не пополняйте своим сюжетом: он должен оставаться чистым.
+
+Если вы уже скопировали default вручную, удобнее удалить только эту ещё пустую копию и создать её командой выше. Либо смените `project_id` в `project.json`, `series/canon.json`, `series/glossary.json` и JSON внутри `templates/book`, задайте `kind: "book-project"`, обнулите `external`, затем выполните doctor. Не начинайте с копии готовой чужой серии.
+
+## Создать книгу
+
+Перейдите в папку проекта. Из неё:
+
+```sh
+python tools/studio.py new-book --id book-01 --title "Моя книга" --profile custom
+python tools/studio.py doctor
+```
+
+Для другой формы используйте `--type nonfiction` или `--type memoir`. Профиль выбирается отдельно: `--profile intimate-lyrical`, например, задаёт только стартовые решения. `--differentiation distinct` отмечает желание отличить подачу; `related` разрешает сознательное сходство.
+
+Заполните `books/book-01/brief.md`, отредактируйте `voice.json`, начните `manuscript`. План можно развивать вместе с черновиком. После работы обновляйте `session.md` и только изменившиеся факты.
+
+## Назначить основной файл и продолжить
+
+Поместите существующий текст в `books/book-01/manuscript/`. Затем:
+
+```sh
+python tools/studio.py set-master --book book-01 --path manuscript/master.docx --format docx --reason "Автор выбрал этот DOCX"
+python tools/studio.py snapshot --book book-01
+python tools/studio.py context --book book-01 --task "Продолжить текущую сцену" --out sessions/next-context.md
+```
+
+Для Markdown/TXT используйте соответствующее имя и `--format text`. `snapshot` не редактирует рукопись: создаёт поисковый текст и адреса абзацев. После изменения основного файла повторите set-master с причиной новой редакции, затем snapshot. Результаты старого аудита требуют перепривязки.
+
+`context` выдаёт стартовые файлы и указатели. Полный текст и нужные факты мира читатель или ИИ открывает дополнительно; команда не означает, что книга уже прочитана.
+
+Дальше: [рабочий цикл](guides/WORKFLOW.md), [различия подачи](guides/VOICE.md), [применение прежней системы](guides/SYSTEM-APPLICATION.md), [GitHub и Drive](guides/DRIVE-AND-GITHUB.md). Проверка инструментов: `python -m unittest discover -s tests -v`.

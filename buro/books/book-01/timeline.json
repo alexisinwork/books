@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "project_id": "buro",
+  "book_id": "book-01",
+  "source_sha256": "a9653b8100bfdbc6d6ef77bbd2453e7d058aa45aa536c1f6a82d60339fb20159",
+  "record_type": "timeline",
+  "fields": [
+    "event_id",
+    "reference_point",
+    "start",
+    "duration",
+    "travel",
+    "global_deadline",
+    "local_window",
+    "assumption",
+    "anchors"
+  ],
+  "items": [
+    {
+      "event_id": "first-window",
+      "reference_point": "Открытие тома",
+      "start": "Последние примерно 11 минут",
+      "duration": "Сокращается по репликам Стаха",
+      "travel": "Через створ на перевалку",
+      "global_deadline": "Распад мира",
+      "local_window": "Минуты до закрытия",
+      "assumption": "Нужен полный числовой расчёт; не подставлять скорость без основания",
+      "anchors": [
+        {
+          "source": "sources/originals/ТРИЛОГИЯ-Бюро-ОМНИБУС(1).md",
+          "source_sha256": "66e4d092a94950d7c3a030013252e39d9aff502a079eb445fab9e16b036d6e05",
+          "source_line_start": 23,
+          "source_line_end": 23,
+          "book_id": "book-01",
+          "master_line_start": 12,
+          "master_line_end": 12,
+          "quote": "Тридцать четыре сверх квоты. И ещё, дай-то регламент, минут одиннадцать на то, чтобы это число подросло."
+        },
+        {
+          "source": "sources/originals/ТРИЛОГИЯ-Бюро-ОМНИБУС(1).md",
+          "source_sha256": "66e4d092a94950d7c3a030013252e39d9aff502a079eb445fab9e16b036d6e05",
+          "source_line_start": 49,
+          "source_line_end": 49,
+          "book_id": "book-01",
+          "master_line_start": 38,
+          "master_line_end": 38,
+          "quote": "— Не за что, — сказал он. — Работа такая."
+        },
+        {
+          "source": "sources/originals/ТРИЛОГИЯ-Бюро-ОМНИБУС(1).md",
+          "source_sha256": "66e4d092a94950d7c3a030013252e39d9aff502a079eb445fab9e16b036d6e05",
+          "source_line_start": 63,
+          "source_line_end": 63,
+          "book_id": "book-01",
+          "master_line_start": 52,
+          "master_line_end": 52,
+          "quote": "**390.** **395.** Он гнал поток, считывая рельеф толпы привычным взглядом — кто сейчас споткнётся, кого надо подхватить под локоть, кто из стариков встал в очередь умирать из вежливости, уступив место молодым, и кого за эту вежливость надо тихо переставить вперёд, пока он не передумал. Это он умел. Это, пожалуй, было единственное, что он умел по-настоящему, — выносить чужих людей из чужого конца света быстрее, чем конец света успевал захлопнуться."
+        }
+      ]
+    }
+  ],
+  "coverage": "Seed dates and durations from excerpts. No full chronology or reconciliation claimed."
+}

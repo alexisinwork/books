@@ -1,0 +1,14 @@
+interface:
+  display_name: Аудит книги по тексту
+  short_description: Полный разбор сцен, чисел, знаний и причинности
+  default_prompt: Используй $ru-book-auditor для работы с этой книгой и её окончательной
+    версией.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

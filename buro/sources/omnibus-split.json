@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "project_id": "buro",
+  "source_path": "sources/originals/ТРИЛОГИЯ-Бюро-ОМНИБУС(1).md",
+  "source_sha256": "66e4d092a94950d7c3a030013252e39d9aff502a079eb445fab9e16b036d6e05",
+  "source_bytes": 2155809,
+  "line_numbering": "one-based inclusive; byte ranges are zero-based half-open",
+  "preservation": "No newline, Unicode normalization, service marker, title, or separator was removed.",
+  "reconstruction": "Concatenate segment bytes in the given order.",
+  "segments": [
+    {
+      "kind": "front_matter",
+      "path": "sources/omnibus-front-matter.md",
+      "source_line_start": 1,
+      "source_line_end": 11,
+      "source_byte_start": 0,
+      "source_byte_end_exclusive": 354,
+      "bytes": 354,
+      "sha256": "cd9daaf5702ab592793f9acfae06a2c83c11763af8957ddda2519ad787ac6a2b"
+    },
+    {
+      "kind": "book",
+      "book_id": "book-01",
+      "title": "Чистый лист",
+      "path": "books/book-01/manuscript/master.md",
+      "source_line_start": 12,
+      "source_line_end": 3419,
+      "source_byte_start": 354,
+      "source_byte_end_exclusive": 716922,
+      "bytes": 716568,
+      "sha256": "a9653b8100bfdbc6d6ef77bbd2453e7d058aa45aa536c1f6a82d60339fb20159"
+    },
+    {
+      "kind": "book",
+      "book_id": "book-02",
+      "title": "По раскладу",
+      "path": "books/book-02/manuscript/master.md",
+      "source_line_start": 3420,
+      "source_line_end": 6706,
+      "source_byte_start": 716922,
+      "source_byte_end_exclusive": 1432031,
+      "bytes": 715109,
+      "sha256": "16aedb2f212cf8e8f208cbd75fad39a985e7ed0e078a60e295af17cd4f01e4f5"
+    },
+    {
+      "kind": "book",
+      "book_id": "book-03",
+      "title": "Перо без руки",
+      "path": "books/book-03/manuscript/master.md",
+      "source_line_start": 6707,
+      "source_line_end": 10266,
+      "source_byte_start": 1432031,
+      "source_byte_end_exclusive": 2155809,
+      "bytes": 723778,
+      "sha256": "385de89a47b602d694d68698ee3bb6fcc89a42a7487cc6caa3f294221a156797"
+    }
+  ],
+  "initial_verification": {
+    "byte_identical": true,
+    "reconstructed_sha256": "66e4d092a94950d7c3a030013252e39d9aff502a079eb445fab9e16b036d6e05"
+  }
+}

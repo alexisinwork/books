@@ -1,0 +1,14 @@
+interface:
+  display_name: Редактор читательского отзыва
+  short_description: Проверка отзывов и точные правки с защитой голоса
+  default_prompt: Используй $ru-book-revision для работы с этой книгой и её окончательной
+    версией.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

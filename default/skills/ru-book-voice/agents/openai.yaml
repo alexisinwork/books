@@ -1,0 +1,14 @@
+interface:
+  display_name: Подача и голос книги
+  short_description: Разные голоса книг с сохранением авторского замысла
+  default_prompt: Используй $ru-book-voice, чтобы разработать подачу этой книги и
+    проверить её на короткой сцене.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

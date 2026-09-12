@@ -1,0 +1,14 @@
+interface:
+  display_name: Контакт и Разлад
+  short_description: Развитие семи томов Разлада с отдельными голосами
+  default_prompt: Используй $ru-kontakt-series для следующего прохода выбранной книги
+    по её версии и профилю.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
