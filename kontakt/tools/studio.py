@@ -104,7 +104,7 @@ def new_project(args):
         for candidate in out.parent.glob('*/project.json'):
             if read(candidate).get('project_id') == pid:
                 raise ValueError('A sibling project already uses this ID: ' + pid)
-    names = ['AGENTS.md', 'README.md', 'START_HERE.md', 'CHANGELOG.md', 'RIGHTS.md',
+    names = ['AGENTS.md', 'STYLE.md', 'README.md', 'START_HERE.md', 'CHANGELOG.md', 'RIGHTS.md',
              '.gitignore', '.gitattributes', '.github', 'templates', 'profiles', 'series',
              'guides', 'tools', 'tests', 'skills', 'examples', 'integrations', 'methods']
     ignore = shutil.ignore_patterns('.git', '__pycache__', '*.pyc', '.DS_Store',
@@ -256,14 +256,31 @@ def context(args):
     if book['master'] is not None:
         checked_master(bp, book, args.allow_candidate)
     paths = ['book.json', 'brief.md', 'voice.json', 'session.md']
+    if (bp / 'STYLE.md').is_file():
+        paths.insert(3, 'STYLE.md')
+    project_paths = ['STYLE.md']
     pieces = ['# Контекст рабочей сессии', 'Задача: ' + args.task,
               'Книга: ' + book['book_id'], 'Включены только перечисленные файлы. Рукопись и канон надо читать по указанным путям.']
+    for rel in project_paths:
+        pieces.extend(['\n## ' + rel, inside(root, rel).read_text(encoding='utf-8')])
     for rel in paths:
-        text = (bp / rel).read_text(encoding='utf-8')
+        text = inside(bp, rel).read_text(encoding='utf-8')
         pieces.extend(['\n## ' + (bp / rel).relative_to(root).as_posix(), text])
-    pieces += ['\n## Следующие источники', '- ' + (bp / 'plan.md').relative_to(root).as_posix(),
-               '- ' + (bp / 'knowledge.json').relative_to(root).as_posix(),
-               '- series/canon.json (только относящиеся к задаче факты)',
+    pieces += ['\n## Прочитать до письма', '- AGENTS.md', '- guides/SCENE-EDITING.md']
+    for rel in ['plan.md', 'characters.json', 'scenes.json', 'timeline.json',
+                'knowledge.json', 'resources.json', 'promises.json', 'end-state.json', 'audit/issues.json']:
+        pieces.append('- ' + (bp / rel).relative_to(root).as_posix())
+    canon = (bp / book['canon']).resolve().relative_to(root).as_posix()
+    pieces += ['- ' + canon + ' (только относящиеся к сцене факты)', '- series/glossary.json']
+    for rel in ['series/CANON-POLICY.md', 'series/continuity-queue.json']:
+        if (root / rel).is_file():
+            pieces.append('- ' + rel)
+    pieces += ['Сверьте состояние перед сценой и знания каждого участника; не переносите в них финал тома. '
+               'Отсутствующий факт запишите в audit/issues.json книги с resolution_status: unresolved.',
+               '\n## После правки',
+               'Обновите все затронутые зависимости по guides/SCENE-EDITING.md, версии, извлечения и якоря. '
+               'Выполните проверки прозы и технические проверки; запишите результат и открытые вопросы '
+               'в revision-log.json и session.md книги.',
                'Не включены автоматически: другие тома, отзывы, полный текст, личные биографии и старые варианты.']
     if book['master']:
         pieces += ['Мастер: ' + (bp / book['master']['path']).relative_to(root).as_posix(),
@@ -273,7 +290,8 @@ def context(args):
         raise ValueError('Context output already exists; choose a new filename.')
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text('\n\n'.join(pieces) + '\n', encoding='utf-8')
-    return {'written': out.relative_to(root).as_posix(), 'included_files': paths}
+    return {'written': out.relative_to(root).as_posix(), 'included_files': paths,
+            'project_files': project_paths}
 
 
 def doctor(args):

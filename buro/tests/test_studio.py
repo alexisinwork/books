@@ -19,6 +19,7 @@ class StudioTests(unittest.TestCase):
         self.root = Path(self.tmp.name)
         for name in ['templates', 'profiles', 'skills', 'series']:
             shutil.copytree(ROOT / name, self.root / name)
+        shutil.copy2(ROOT / 'STYLE.md', self.root / 'STYLE.md')
         studio.write(self.root / 'project.json', {'schema_version': 1, 'project_id': 'trial', 'books': []})
         for name in ['canon', 'glossary']:
             path = self.root / 'series' / (name + '.json')
@@ -101,6 +102,31 @@ class StudioTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             studio.context(args)
 
+    def test_context_carries_style_and_points_to_the_selected_canon_and_state(self):
+        self.new('first')
+        self.new('second')
+        (self.root / 'STYLE.md').write_text('Стиль проекта: точность наблюдения.', encoding='utf-8')
+        (self.root / 'books/first/STYLE.md').write_text('Стиль этой книги: сдержанный диалог.', encoding='utf-8')
+        (self.root / 'books/second/STYLE.md').write_text('ЧУЖОЙ-СТИЛЬ-ВТОРОГО-ТОМА', encoding='utf-8')
+        _, _, bp, book = studio.get_book(self.root, 'first')
+        (self.root / 'series/canon.json').rename(self.root / 'series/selected-canon.json')
+        book['canon'] = '../../series/selected-canon.json'
+        studio.write(bp / 'book.json', book)
+        args = argparse.Namespace(root=self.root, book='first', allow_candidate=False,
+            task='Revise a scene', out='sessions/style-context.md')
+
+        studio.context(args)
+
+        text = (self.root / args.out).read_text(encoding='utf-8')
+        self.assertIn('Стиль проекта: точность наблюдения.', text)
+        self.assertIn('Стиль этой книги: сдержанный диалог.', text)
+        self.assertNotIn('ЧУЖОЙ-СТИЛЬ-ВТОРОГО-ТОМА', text)
+        self.assertIn('- series/selected-canon.json', text)
+        for name in ['characters.json', 'knowledge.json', 'scenes.json', 'timeline.json', 'audit/issues.json']:
+            self.assertIn('- books/first/' + name, text)
+        self.assertIn('resolution_status: unresolved', text)
+        self.assertIn('guides/SCENE-EDITING.md', text)
+
     def test_candidate_is_not_silently_author_selected(self):
         self.new()
         self.master()
@@ -174,6 +200,8 @@ class ProjectCreationTests(unittest.TestCase):
         self.assertIsNone(data['external']['google_drive'])
         self.assertEqual(studio.read(target / 'series/canon.json')['project_id'], 'new-world')
         self.assertTrue(result['workspace_uid'])
+        self.assertEqual((target / 'STYLE.md').read_bytes(), (self.template / 'STYLE.md').read_bytes())
+        self.assertTrue((target / 'guides/SCENE-EDITING.md').is_file())
         self.assertEqual((target / 'tools/studio.py').read_bytes(), (self.template / 'tools/studio.py').read_bytes())
         with self.assertRaises(ValueError):
             studio.new_project(self.args())
