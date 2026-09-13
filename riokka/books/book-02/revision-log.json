@@ -103,6 +103,31 @@
       "affected_checks": "revisions/2026-09-13-10al/audit/REPORT.md",
       "remaining_questions": [],
       "scope_note": "Оригинал и мастер книги 2 не переписаны; изменён отдельный рабочий вариант для авторской вычитки."
+    },
+    {
+      "id": "B02-ENSEMBLE-R1-20260913",
+      "date": "2026-09-13",
+      "decision": "applied_for_author_review",
+      "reason": "Поручение автора: отдельно переписать книгу 2 по сопоставленным аудитам Astra, Claude и Gemini.",
+      "old_source": {
+        "path": "revisions/2026-09-13-10al/revised.md",
+        "sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
+      },
+      "new_source": {
+        "path": "revisions/2026-09-13-ensemble-r1/revised.md",
+        "sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe"
+      },
+      "previous_book": {
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "status": "selected_master; ensemble candidate does not alter transition facts"
+      },
+      "ensemble_run": "audit/ensemble/book-02-2026-09-13-r1",
+      "changes": "revisions/2026-09-13-ensemble-r1/changes.json",
+      "readable_changes": "revisions/2026-09-13-ensemble-r1/БЫЛО-СТАЛО.md",
+      "continuity": "revisions/2026-09-13-ensemble-r1/continuity",
+      "affected_checks": "revisions/2026-09-13-ensemble-r1/audit/REPORT.md",
+      "remaining_questions": [],
+      "scope_note": "Применены ENS-001—ENS-007; ENS-008 отклонён. Мастер и originals не изменены."
     }
   ]
 }

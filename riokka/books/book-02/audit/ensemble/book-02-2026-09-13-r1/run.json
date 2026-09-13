@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "run_id": "book-02-2026-09-13-r1",
+  "project_id": "riokka",
+  "book_id": "book-02",
+  "created_at": "2026-09-13T18:22:53+00:00",
+  "status": "verified",
+  "source": {
+    "path": "riokka/books/book-02/revisions/2026-09-13-10al/revised.md",
+    "sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+    "status": "author_decisions_applied_for_proofreading",
+    "authority": "working_revision"
+  },
+  "reader": {
+    "path": "riokka/books/book-02/revisions/2026-09-13-10al/revised.md",
+    "sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+    "relation": "source_text"
+  },
+  "independence": {
+    "astra": "disclosed limitation: author exposed Claude and Gemini findings before this pass; report is structural validation and synthesis, not a blind diagnosis",
+    "claude": "must not read current Astra or Gemini reports before lock",
+    "gemini": "isolated packet only; no repository canon, audits or change hints"
+  },
+  "reports": {
+    "astra": {
+      "file": "astra-diagnosis.md",
+      "status": "locked",
+      "sha256": "f4679b046e9682e9782d42eb22e7e3a2a239853600eb597501dc730d14f81ecf",
+      "locked_at": "2026-09-13T19:19:25+00:00"
+    },
+    "claude": {
+      "file": "claude-diagnosis.md",
+      "status": "locked",
+      "sha256": "e44439b457f20e7717b13ae9f9e9c538cb2668af583f54bb8a8548b4e54ce883",
+      "locked_at": "2026-09-13T18:36:41+00:00"
+    },
+    "gemini": {
+      "file": "gemini-blind-read.md",
+      "status": "locked",
+      "sha256": "5a9a236350b6e8a9da71dcf6c580397316dcd82479532ec0511e84b17865ac91",
+      "locked_at": "2026-09-13T18:28:26+00:00"
+    },
+    "reconciliation": {
+      "file": "reconciliation.md",
+      "status": "locked",
+      "sha256": "27c12db8d4c016f55c645b94c841d717a8832ef3b327251ddc3ed0c058dd3289",
+      "locked_at": "2026-09-13T19:20:29+00:00"
+    },
+    "verification": {
+      "file": "verification.md",
+      "status": "locked",
+      "sha256": "2297385e2e305ade90f4018af4c4d5f0030fc336378caf19d35b4447847642c5",
+      "locked_at": "2026-09-13T19:40:58+00:00"
+    }
+  },
+  "author_decisions": {
+    "file": "author-decisions.md",
+    "status": "locked",
+    "sha256": "4d13e80f6cf8478b8a6d381de7592fb80027d93643a36b6e9d1b849fd412732f",
+    "locked_at": "2026-09-13T19:20:50+00:00"
+  },
+  "issue_ledger": "issue-ledger.json"
+}

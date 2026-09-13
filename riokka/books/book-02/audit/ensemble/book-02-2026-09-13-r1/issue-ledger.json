@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "run_id": "book-02-2026-09-13-r1",
+  "project_id": "riokka",
+  "book_id": "book-02",
+  "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+  "status": "verified",
+  "items": [
+    {
+      "id": "ENS-001",
+      "category": "pov_continuity",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "agreement": "single_report_verified",
+      "locations": [
+        {
+          "chapter": 22,
+          "line": 2388,
+          "quote": "Рэй задержался на этой строке."
+        }
+      ],
+      "observation": "В главе с POV Гарма два абзаца сообщают внутреннее знание Рэя.",
+      "reader_effect": "Перспектива скачет без перехода и ломает единственную главу Гарма.",
+      "evidence": "Claude указал точное место; профиль книги закрепляет в главе 22 третье лицо Гарма; текст подтверждает конфликт.",
+      "proposed_actions": [
+        "Переписать абзац только из доступных Гарму наблюдений и подозрений."
+      ],
+      "dependencies": [
+        "chapter 22",
+        "voice.scene_overrides",
+        "Ray knowledge timing"
+      ],
+      "author_decision": {
+        "status": "modified",
+        "basis": "Автор 2026-09-13 поручил переписать необходимые места книги 2 по анализам всех моделей и передал редакторский выбор; применяется ограниченный вариант сводного реестра."
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-13-ensemble-r1/revised.md: chapter 22",
+          "revisions/2026-09-13-ensemble-r1/voice.json"
+        ],
+        "revision_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "revisions/2026-09-13-ensemble-r1/audit/REPORT.md; exact changes in БЫЛО-СТАЛО.md"
+      },
+      "origin_reports": [
+        "astra",
+        "claude"
+      ]
+    },
+    {
+      "id": "ENS-002",
+      "category": "chronology_resources",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "agreement": "single_report_verified",
+      "locations": [
+        {
+          "chapter": 19,
+          "line": 2076,
+          "quote": "оставить место Лусу по уговору"
+        },
+        {
+          "chapter": 21,
+          "line": 2228,
+          "quote": "Лус. Фиксер."
+        }
+      ],
+      "observation": "Лус включён в план и договор до сцены знакомства; из-за этого раньше времени зафиксированы 35 мест Коры и 176 мест конвоя.",
+      "reader_effect": "Читатель видит монтажную ошибку и не понимает, когда именно Лус получил место.",
+      "evidence": "Claude сопоставил главы 19 и 21; арифметика вместимости подтверждает возможность естественного перехода 36/175 к 35/176.",
+      "proposed_actions": [
+        "В главе 19 планировать 36 жителей на Миле и 175 на транспортах без Луса.",
+        "В главе 21 сделать место Луса явной ценой: одно имя Коры переводится на пятый транспорт."
+      ],
+      "dependencies": [
+        "chapters 19,21 and later counts",
+        "Last Mile capacity 40",
+        "211 settlers"
+      ],
+      "author_decision": {
+        "status": "modified",
+        "basis": "Автор 2026-09-13 поручил переписать необходимые места книги 2 по анализам всех моделей и передал редакторский выбор; применяется ограниченный вариант сводного реестра."
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-13-ensemble-r1/revised.md: chapters 19 and 21",
+          "revisions/2026-09-13-ensemble-r1/continuity/resources.json"
+        ],
+        "revision_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "revisions/2026-09-13-ensemble-r1/audit/REPORT.md; exact changes in БЫЛО-СТАЛО.md"
+      },
+      "origin_reports": [
+        "astra",
+        "claude"
+      ]
+    },
+    {
+      "id": "ENS-003",
+      "category": "character_motivation",
+      "severity": "major",
+      "certainty": "strong_reader_inference",
+      "agreement": "convergent_reader_signal",
+      "locations": [
+        {
+          "chapter": 25,
+          "line": 2540,
+          "quote": "И я сделал то, что делает Эсквайр, а не я"
+        }
+      ],
+      "observation": "Кай использует страх Ерма почти сразу после формулировки, хотя это перелом его нравственной практики.",
+      "reader_effect": "Холодный читатель перестаёт верить плавности превращения Кая и воспринимает цинизм как резкий авторский поворот.",
+      "evidence": "Gemini Pro и сводный Flash/Pro-аудит независимо отметили главу 25; Claude подтвердил силу поступка и отдачи, значит нужен шарнир выбора, а не удаление сцены.",
+      "proposed_actions": [
+        "Добавить короткую попытку найти другой ход и сознательное решение под таймером, связанное с опытом Семари.",
+        "Сохранить некрасивый поступок, Ерма и позднюю отдачу."
+      ],
+      "dependencies": [
+        "chapter 25",
+        "Kai arc",
+        "chapter 31 payoff",
+        "Book 1 memory"
+      ],
+      "author_decision": {
+        "status": "modified",
+        "basis": "Автор 2026-09-13 поручил переписать необходимые места книги 2 по анализам всех моделей и передал редакторский выбор; применяется ограниченный вариант сводного реестра."
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-13-ensemble-r1/revised.md: chapter 25"
+        ],
+        "revision_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "revisions/2026-09-13-ensemble-r1/audit/REPORT.md; exact changes in БЫЛО-СТАЛО.md"
+      },
+      "origin_reports": [
+        "astra",
+        "gemini"
+      ]
+    },
+    {
+      "id": "ENS-004",
+      "category": "promise_payoff",
+      "severity": "moderate",
+      "certainty": "textual",
+      "agreement": "single_report_verified",
+      "locations": [
+        {
+          "chapter": 1,
+          "line": 149,
+          "quote": "У меня пометка на обороте."
+        },
+        {
+          "chapter": 3,
+          "line": 391,
+          "quote": "Мою тоже сохраните."
+        },
+        {
+          "chapter": 51,
+          "line": 4920,
+          "quote": "Те, кого ещё можно посадить"
+        }
+      ],
+      "observation": "Переданный лист Сальдо остаётся непрочитанным и не входит в систему доказательств финала.",
+      "reader_effect": "Предмет с прямым будущим назначением выглядит забытым обещанием.",
+      "evidence": "Claude проследил лист через весь том; в поздних сценах Сальдо присутствует, поэтому отдача возможна без новой сюжетной ветки.",
+      "proposed_actions": [
+        "Прочитать лист при Сальдо перед новым рейсом.",
+        "Сделать проверяемую копию с отмеченным происхождением и вернуть оригинал владельцу.",
+        "Не придумывать суммы или новые преступления."
+      ],
+      "dependencies": [
+        "chapters 1,3,51",
+        "Soldo character",
+        "Veda provenance procedure"
+      ],
+      "author_decision": {
+        "status": "modified",
+        "basis": "Автор 2026-09-13 поручил переписать необходимые места книги 2 по анализам всех моделей и передал редакторский выбор; применяется ограниченный вариант сводного реестра."
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-13-ensemble-r1/revised.md: chapters 1 and 51",
+          "revisions/2026-09-13-ensemble-r1/continuity/promises.json"
+        ],
+        "revision_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "revisions/2026-09-13-ensemble-r1/audit/REPORT.md; exact changes in БЫЛО-СТАЛО.md"
+      },
+      "origin_reports": [
+        "astra",
+        "claude"
+      ]
+    },
+    {
+      "id": "ENS-005",
+      "category": "pace_exposition",
+      "severity": "moderate",
+      "certainty": "editorial_inference",
+      "agreement": "partial_convergence",
+      "locations": [
+        {
+          "chapter": 2,
+          "line": 355,
+          "quote": "Была партия"
+        },
+        {
+          "chapter": 12,
+          "line": 1428,
+          "quote": "Слухач адаптируется"
+        },
+        {
+          "chapter": 26,
+          "line": 2646,
+          "quote": "Твой покупатель рычагов"
+        },
+        {
+          "chapter": 27,
+          "line": 2786,
+          "quote": "отказаться от проверки"
+        },
+        {
+          "chapter": 28,
+          "line": 2898,
+          "quote": "Есть лестница"
+        }
+      ],
+      "observation": "Несколько сцен повторно объясняют уже понятую мысль: история Маноса раскрыта до главы 44, цена слухача повторена, Дрозд и Дживс говорят длиннее действия, отказ Рэя проверить журнал сформулирован несколько раз.",
+      "reader_effect": "Темп проседает перед кульминацией и процедурная точность превращается в пояснение.",
+      "evidence": "Claude описал повторные функции и дубль; Gemini отдельно отметил Дрозда и внутренние монологи 27–28 как места остановки.",
+      "proposed_actions": [
+        "Сократить ранний пересказ Маноса до затравки, сохранив полный рассказ в главе 44.",
+        "Оставить точную цену слухача в главе 19, в 12 только отказ считать до опыта.",
+        "Сжать Дрозда, повтор Рэя и финальную речь Дживса, сохраняя предметные действия."
+      ],
+      "dependencies": [
+        "chapters 2,12,19,26,27,28,44",
+        "Manos reveal timing",
+        "Jeeves and Ray voices"
+      ],
+      "author_decision": {
+        "status": "modified",
+        "basis": "Автор 2026-09-13 поручил переписать необходимые места книги 2 по анализам всех моделей и передал редакторский выбор; применяется ограниченный вариант сводного реестра."
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-13-ensemble-r1/revised.md: chapters 2, 12, 26, 27, 28"
+        ],
+        "revision_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "revisions/2026-09-13-ensemble-r1/audit/REPORT.md; exact changes in БЫЛО-СТАЛО.md"
+      },
+      "origin_reports": [
+        "astra",
+        "claude",
+        "gemini"
+      ]
+    },
+    {
+      "id": "ENS-006",
+      "category": "line_editing_production",
+      "severity": "minor",
+      "certainty": "textual",
+      "agreement": "single_report_verified",
+      "locations": [
+        {
+          "chapter": 2,
+          "line": 297,
+          "quote": "Где узел?"
+        },
+        {
+          "chapter": 12,
+          "line": 1330,
+          "quote": "Семари когда-то было медового цвета"
+        },
+        {
+          "chapter": 24,
+          "line": 2548,
+          "quote": "посмотрела на меня долго"
+        },
+        {
+          "chapter": 37,
+          "line": 3690,
+          "quote": "Она замолчала, и Джулия"
+        },
+        {
+          "chapter": 18,
+          "line": 2040,
+          "quote": "-----"
+        }
+      ],
+      "observation": "В тексте остались локальные сбои атрибуции, согласования, повтор жеста, тавтология местоимения, повтор эпитета книг и случайные межглавные разделители.",
+      "reader_effect": "Они заставляют перечитывать фразу и создают производственную неоднородность перед DOCX.",
+      "evidence": "Claude дал точные координаты; все места подтверждаются исходником. Подзаголовки главы 18 имеют самостоятельную функцию и сохраняются.",
+      "proposed_actions": [
+        "Исправить точные строки.",
+        "Удалить только межглавные разделители; внутриглавную отбивку главы 18 сохранить.",
+        "Пересчитать объём одной описанной методикой."
+      ],
+      "dependencies": [
+        "local prose",
+        "Markdown to DOCX conversion",
+        "volume metadata"
+      ],
+      "author_decision": {
+        "status": "modified",
+        "basis": "Автор 2026-09-13 поручил переписать необходимые места книги 2 по анализам всех моделей и передал редакторский выбор; применяется ограниченный вариант сводного реестра."
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-13-ensemble-r1/revised.md: local language and separator repairs"
+        ],
+        "revision_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "revisions/2026-09-13-ensemble-r1/audit/REPORT.md; exact changes in БЫЛО-СТАЛО.md"
+      },
+      "origin_reports": [
+        "astra",
+        "claude"
+      ]
+    },
+    {
+      "id": "ENS-007",
+      "category": "mystery_clarity",
+      "severity": "moderate",
+      "certainty": "reader_confusion",
+      "agreement": "single_reader_signal_verified",
+      "locations": [
+        {
+          "chapter": 27,
+          "line": 2746,
+          "quote": "РАСХОЖДЕНИЙ НЕТ."
+        }
+      ],
+      "observation": "Неочевидно, почему система не выявляет физическое отсутствие Рэя при правке под его именем.",
+      "reader_effect": "Читатель принимает намеренную угрозу за неясную механику всемогущей системы.",
+      "evidence": "Gemini прямо задал вопрос; сцена уже показывает подменённый журнал и запуганного свидетеля, поэтому достаточно назвать круговую сверку.",
+      "proposed_actions": [
+        "Уточнить, что ответ системы ссылается на тот же спорный журнал и не является независимой проверкой."
+      ],
+      "dependencies": [
+        "chapter 27",
+        "anonymous hand mystery",
+        "Ray knowledge"
+      ],
+      "author_decision": {
+        "status": "modified",
+        "basis": "Автор 2026-09-13 поручил переписать необходимые места книги 2 по анализам всех моделей и передал редакторский выбор; применяется ограниченный вариант сводного реестра."
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-13-ensemble-r1/revised.md: chapter 27"
+        ],
+        "revision_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "revisions/2026-09-13-ensemble-r1/audit/REPORT.md; exact changes in БЫЛО-СТАЛО.md"
+      },
+      "origin_reports": [
+        "astra",
+        "gemini"
+      ]
+    },
+    {
+      "id": "ENS-008",
+      "category": "macro_structure",
+      "severity": "moderate",
+      "certainty": "taste_hypothesis",
+      "agreement": "model_disagreement",
+      "locations": [
+        {
+          "chapter": 44,
+          "line": 4364,
+          "quote": "Глава 44. Семьдесят"
+        },
+        {
+          "chapter": 46,
+          "line": 4532,
+          "quote": "Глава 46. Свод"
+        },
+        {
+          "chapter": 50,
+          "line": 4892,
+          "quote": "Глава 50. Седьмое"
+        }
+      ],
+      "observation": "Предложены перенос главы 44 и слияние финальных глав 46–47/50.",
+      "reader_effect": "Возможен более быстрый хвост, но перенос может ослабить эмоциональный пик и нарушить ранее заданный объём.",
+      "evidence": "Claude предлагает структурную перестановку; Gemini называет главу 44 эмоциональной вершиной и оценивает финал как сильный, не отмечая его среди мест остановки.",
+      "proposed_actions": [
+        "Для текущей редакции сохранить порядок и 51 главу; устранить повторы точечно."
+      ],
+      "dependencies": [
+        "chapters 44-51",
+        "ten author-sheet target",
+        "cold-reader final response"
+      ],
+      "author_decision": {
+        "status": "rejected",
+        "basis": "Автор поручил принять лучшее решение по совокупности моделей. Gemini защищает положение главы 44 и финал, а макрослияние угрожает целевому объёму 10 авторских листов; выбран точечный темповый проход."
+      },
+      "implementation": {
+        "status": "not_applicable",
+        "targets": [],
+        "revision_sha256": null
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": "Rejected author decision; 51-chapter structure preserved."
+      },
+      "origin_reports": [
+        "claude",
+        "gemini"
+      ]
+    }
+  ]
+}
