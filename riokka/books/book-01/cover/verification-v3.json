@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-13T20:53:40.478378+00:00",
+  "status": "passed_concept_review",
+  "author_selection_status": "author_review_candidate",
+  "scope": "Обложка book-01 v3: PNG, канонические предметные детали, типографика, сравнение миниатюр, документация и копии. Не литературный аудит и не печатная цветопроба.",
+  "method": "built-in image_gen generation from two references, followed by one built-in tonal edit; generated PNGs copied byte-for-byte",
+  "assets": [
+    {
+      "path": "riokka/books/book-01/cover/cover-concept-v1.png",
+      "sha256": "668fa81ffd91599f34892dcbd637df20ad35cd20509f707215b75f017886ef10",
+      "format": "PNG",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "png_decode": "passed"
+    },
+    {
+      "path": "riokka/books/book-01/cover/cover-concept-v2-calm.png",
+      "sha256": "761ffea6724f4f7c4f728fea923c3eb4cfbe65b668624a0f98e20b043c360c0b",
+      "format": "PNG",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "png_decode": "passed"
+    },
+    {
+      "path": "riokka/books/book-01/cover/iterations/cover-concept-v3-sprout-base.png",
+      "sha256": "34eb5b2a72d30851583bdbc391c04d3816626f50537ba5a9c5a67ae664fcbe60",
+      "format": "PNG",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "png_decode": "passed"
+    },
+    {
+      "path": "riokka/books/book-01/cover/cover-concept-v3-sprout.png",
+      "sha256": "11f9fbb0e15d990140a2949a523266a2929c8aff8aebe2f6bc0bbfbd4a3a8e4c",
+      "format": "PNG",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "png_decode": "passed"
+    },
+    {
+      "path": "riokka/books/book-02/cover/cover-concept-v2-ledger.png",
+      "sha256": "8a5bc5acf9e450467907c0d09efb9d7247722f3a04ca1968b957462a69d42231",
+      "format": "PNG",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "png_decode": "passed"
+    },
+    {
+      "path": "riokka/books/book-01/cover/proof-v3-series.png",
+      "sha256": "a2d60c3ca07f1cfb0f90a51d9a4590601079cec77e613cb51c6609d9806a749a",
+      "format": "PNG",
+      "size": [
+        880,
+        640
+      ],
+      "mode": "RGB",
+      "png_decode": "passed"
+    }
+  ],
+  "generation": [
+    {
+      "prompt": "prompt-v3-sprout.txt",
+      "prompt_sha256": "f0a22e51f0d831d2a6ab87e7ef3b3a5fec2185434b86d84c0f10d44f2c83900e",
+      "reference_images": [
+        "cover-concept-v2-calm.png",
+        "../../book-02/cover/cover-concept-v2-ledger.png"
+      ],
+      "output": "iterations/cover-concept-v3-sprout-base.png"
+    },
+    {
+      "prompt": "prompt-v3-sprout-tone.txt",
+      "prompt_sha256": "4423e0c0bb449701d206a15fea9d7f1121930e0fa9d0bba5fb60649bb07dd1d8",
+      "edit_target": "iterations/cover-concept-v3-sprout-base.png",
+      "output": "cover-concept-v3-sprout.png"
+    }
+  ],
+  "manuscript_source": {
+    "path": "riokka/books/book-01/manuscript/master.docx",
+    "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+    "snapshot_sha256": "30288d9363d93a420ba8aa86dcf3876c00a57e2540c0268a2ed0d7a31e0fe00d",
+    "state_before_scene": "Глава 34, p1032–1050: трюм, утро третьих суток, решение открыть неизвестный груз. Содержимое становится известно в главе 35.",
+    "reading_coverage": "Глава 14 p522; полностью главы 34–36; реестры characters/resources/scenes/timeline/knowledge/promises и политика канона.",
+    "anchors": [
+      {
+        "chapter": 14,
+        "p": 522,
+        "paragraph_sha256": "7a046a606acea4b3b6e2c4d19c77cfc1aa1178e203898fa49524007a026d3c9d",
+        "verified_in_master_docx": true
+      },
+      {
+        "chapter": 34,
+        "p": 1032,
+        "paragraph_sha256": "4f87a470fb5ca769b63d9fc29d8400c66ff6d7f2a683d9df346e01c82d4faccf",
+        "verified_in_master_docx": true
+      },
+      {
+        "chapter": 34,
+        "p": 1034,
+        "paragraph_sha256": "4c3dd410bf2b79cb687c1b6b54a56cbda40000e46acfd1444865e1e1c6a0b0c2",
+        "verified_in_master_docx": true
+      },
+      {
+        "chapter": 35,
+        "p": 1059,
+        "paragraph_sha256": "b12760c65e6d34fe211db33e647b1b342957a1f74309a58566aaf7b1c2445651",
+        "verified_in_master_docx": true
+      },
+      {
+        "chapter": 35,
+        "p": 1060,
+        "paragraph_sha256": "1fd91ffda3f134f8c576e4461fc209a2aa050744d723c7d0ed05b9e117fc20e9",
+        "verified_in_master_docx": true
+      },
+      {
+        "chapter": 35,
+        "p": 1061,
+        "paragraph_sha256": "84a94196aa3ba1b55dce4160d007ba8ad4ca45da5193065c0e1623488d4dec3d",
+        "verified_in_master_docx": true
+      },
+      {
+        "chapter": 35,
+        "p": 1062,
+        "paragraph_sha256": "a52f26573b6d4a12f497f3047f8e099408535373fb47c093dda1438ce04eacce",
+        "verified_in_master_docx": true
+      },
+      {
+        "chapter": 35,
+        "p": 1074,
+        "paragraph_sha256": "c3d1916a2d6babed73295f585c2d6d52bb8d30185b87917130b21b32ba1e18c5",
+        "verified_in_master_docx": true
+      },
+      {
+        "chapter": 36,
+        "p": 1086,
+        "paragraph_sha256": "8a7481f2e8f11a819adb4cf628323add794edf5cf0df8453a16290bfa9bce62d",
+        "verified_in_master_docx": true
+      }
+    ],
+    "unchanged": true
+  },
+  "preserved_sources": [
+    {
+      "path": "riokka/books/book-01/manuscript/master.docx",
+      "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+      "unchanged": true
+    },
+    {
+      "path": "riokka/books/book-01/derived/manuscript.txt",
+      "sha256": "a8259c78aa7e914ad8000c672c7d2f85955efb1b64347609bfe8a024457b5dbb",
+      "unchanged": true
+    },
+    {
+      "path": "riokka/books/book-01/cover/cover-concept-v1.png",
+      "sha256": "668fa81ffd91599f34892dcbd637df20ad35cd20509f707215b75f017886ef10",
+      "unchanged": true
+    },
+    {
+      "path": "riokka/books/book-01/cover/cover-concept-v2-calm.png",
+      "sha256": "761ffea6724f4f7c4f728fea923c3eb4cfbe65b668624a0f98e20b043c360c0b",
+      "unchanged": true
+    },
+    {
+      "path": "riokka/books/book-02/cover/cover-concept-v1.png",
+      "sha256": "4f33e8915bab6a8aa2502f7a6ea445cc36ca90870459ad73014b863603a7d416",
+      "unchanged": true
+    },
+    {
+      "path": "riokka/books/book-02/cover/cover-concept-v2-ledger.png",
+      "sha256": "8a5bc5acf9e450467907c0d09efb9d7247722f3a04ca1968b957462a69d42231",
+      "unchanged": true
+    }
+  ],
+  "manual_visual_review": {
+    "reviewer": "Codex",
+    "coverage": [
+      "Исходный рендер v3 и тональная доводка целиком",
+      "Сравнение с v2-calm и v2-ledger при ширине 256 px",
+      "Миниатюры 100 px в цвете и серой шкале"
+    ],
+    "result": "Лицо, руки и росток образуют камерное действие; фоновые светильники приглушены. В 100 px различимы лицо, рука и светлая точка ростка; детали листьев и мелкая строка номера книги теряются.",
+    "exact_cyrillic_manually_checked": [
+      "КОНТРАКТНИК",
+      "КНИГА 1",
+      "АНТИДОТ С СЕМАРИ"
+    ],
+    "additional_readable_text": "none observed",
+    "limits": [
+      "Полная длина ящика не видна из-за кадрирования.",
+      "Черты портрета, светильники и мятная подсветка — оформительская трактовка.",
+      "Сравнительный лист не проверяет тиражную печать."
+    ]
+  },
+  "proof": {
+    "path": "proof-v3-series.png",
+    "sha256": "a2d60c3ca07f1cfb0f90a51d9a4590601079cec77e613cb51c6609d9806a749a",
+    "method": "Pillow 11.3.0, Lanczos resize at 256/100 px; grayscale via ImageOps.grayscale; diagnostic sheet only, no modification of cover PNGs"
+  },
+  "desktop_copies": [
+    {
+      "source": "riokka/books/book-01/cover/cover-concept-v3-sprout.png",
+      "copy": "/mnt/c/Users/alexi/Desktop/Риокка-1_Обложка-v3-росток.png",
+      "sha256": "11f9fbb0e15d990140a2949a523266a2929c8aff8aebe2f6bc0bbfbd4a3a8e4c",
+      "byte_identical": true
+    },
+    {
+      "source": "riokka/books/book-01/cover/proof-v3-series.png",
+      "copy": "/mnt/c/Users/alexi/Desktop/Риокка_Обложки-сравнение-v3.png",
+      "sha256": "a2d60c3ca07f1cfb0f90a51d9a4590601079cec77e613cb51c6609d9806a749a",
+      "byte_identical": true
+    }
+  ],
+  "remaining_questions": [
+    "Окончательный выбор автором нового концепта v3."
+  ],
+  "document_links": {
+    "status": "passed",
+    "checked_count": 33,
+    "files": [
+      "riokka/COVER-STYLE.md",
+      "riokka/books/book-01/README.md",
+      "riokka/books/book-01/cover/README.md"
+    ]
+  }
+}

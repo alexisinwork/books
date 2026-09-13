@@ -2,7 +2,7 @@
 
 Авторитетная окончательная версия проекта — [manuscript/master.docx](manuscript/master.docx), SHA-256 `2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172`. Автор предоставил обновлённый DOCX 13 сентября 2026 года, поручил внести точечную корректуру и после повторной проверки назначить его мастером. Markdown-версия автором удалена и не используется.
 
-Выбранное автором направление обложки: [cover/cover-concept-v2-calm.png](cover/cover-concept-v2-calm.png), PNG 1024 × 1536. Первый вариант сохранён как `cover/cover-concept-v1.png`; профиль для следующих обложек серии записан в [COVER-STYLE.md](../../COVER-STYLE.md).
+Новый концепт обложки по поручению автора — [v3-sprout: Кай и ящик с ростком](cover/cover-concept-v3-sprout.png), PNG 1024 × 1536, SHA-256 `11f9fbb0e15d990140a2949a523266a2929c8aff8aebe2f6bc0bbfbd4a3a8e4c`. Статус — для авторского просмотра. Ранее выбранная [v2-calm](cover/cover-concept-v2-calm.png) сохранена вместе с v1; она остаётся исходным эталоном типографики. [История, промпты и проверка](cover/README.md), [сравнение со вторым томом](cover/proof-v3-series.png), [профиль серии](../../COVER-STYLE.md).
 
 Предыдущий мастер сохранён в [archive/master-before-author-updated-final-2026-09-13.docx](archive/master-before-author-updated-final-2026-09-13.docx). Полученная с Desktop авторская основа до точечных правок и более ранние редакции также сохранены в `archive/` и `revisions/`.
 
