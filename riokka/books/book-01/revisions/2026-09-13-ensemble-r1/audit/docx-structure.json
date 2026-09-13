@@ -1,0 +1,71 @@
+{
+  "source": {
+    "path": "manuscript/master.docx",
+    "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+    "bytes": 176310
+  },
+  "candidate": {
+    "path": "revisions/2026-09-13-ensemble-r1/revised.docx",
+    "sha256": "bb2b68f7d92d7cb25bd426bc7761d8ee7524e60c3f61e47ba7497c7215cf2116",
+    "bytes": 177394
+  },
+  "package": {
+    "source_parts": 12,
+    "candidate_parts": 12,
+    "added": [],
+    "removed": [],
+    "changed": [
+      "word/document.xml"
+    ],
+    "format_parts_byte_identical": {
+      "word/styles.xml": true,
+      "word/numbering.xml": true,
+      "word/settings.xml": true,
+      "word/fontTable.xml": true,
+      "word/theme/theme1.xml": true,
+      "word/header1.xml": false,
+      "word/footer1.xml": false
+    }
+  },
+  "body": {
+    "source_paragraphs": 1247,
+    "candidate_paragraphs": 1252,
+    "source_tables": 0,
+    "candidate_tables": 0,
+    "headings_identical": true,
+    "heading_count": 42,
+    "source_style_counts": {
+      "normal": 1205,
+      "Heading 1": 42
+    },
+    "candidate_style_counts": {
+      "normal": 1210,
+      "Heading 1": 42
+    },
+    "sections_identical": true,
+    "candidate_sections": [
+      {
+        "page_width": 7560310,
+        "page_height": 10692130,
+        "top_margin": 914400,
+        "bottom_margin": 914400,
+        "left_margin": 914400,
+        "right_margin": 914400,
+        "header_distance": 449580,
+        "footer_distance": 449580
+      }
+    ],
+    "revision_tags": {
+      "ins": 0,
+      "del": 0,
+      "moveFrom": 0,
+      "moveTo": 0,
+      "commentRangeStart": 0,
+      "commentReference": 0
+    }
+  },
+  "render": {
+    "status": "not_run",
+    "reason": "No LibreOffice/soffice executable in WSL and Microsoft Word COM is not registered on Windows. The original master already has a prior 250-page visual audit; this candidate preserves all OOXML formatting parts byte-for-byte."
+  }
+}

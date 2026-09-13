@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "run_id": "book-01-2026-09-13-r1",
+  "project_id": "riokka",
+  "book_id": "book-01",
+  "created_at": "2026-09-13T18:23:34+00:00",
+  "status": "verified",
+  "source": {
+    "path": "riokka/books/book-01/revisions/2026-09-13-final-point-corrections/revised.docx",
+    "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+    "status": "applied_and_promoted_to_master",
+    "authority": "working_revision"
+  },
+  "reader": {
+    "path": "riokka/books/book-01/derived/manuscript.txt",
+    "sha256": "a8259c78aa7e914ad8000c672c7d2f85955efb1b64347609bfe8a024457b5dbb",
+    "relation": "supplied_reader_projection"
+  },
+  "independence": {
+    "astra": "disclosed limitation: synthesis began after Gemini findings were exposed by the author; not a blind independent report",
+    "claude": "not run for Book 1; locked report is an explicit absence declaration, not a Claude diagnosis",
+    "gemini": "isolated packet only; no repository canon, audits or change hints"
+  },
+  "reports": {
+    "astra": {
+      "file": "astra-diagnosis.md",
+      "status": "locked",
+      "sha256": "47573a48e08185043eca2d2a29367bd9118e8d5020c987700aa0c652a2567630",
+      "locked_at": "2026-09-13T18:58:56+00:00"
+    },
+    "claude": {
+      "file": "claude-diagnosis.md",
+      "status": "locked",
+      "sha256": "ac7bde947967dee42bd32bcfae7d07ab71c874cc55f54ebd5a6a539adc85b76f",
+      "locked_at": "2026-09-13T18:58:56+00:00"
+    },
+    "gemini": {
+      "file": "gemini-blind-read.md",
+      "status": "locked",
+      "sha256": "b1ef122c125d91650c8118ddfc8d7794968e2dc5d96323ddadc069598f15acbd",
+      "locked_at": "2026-09-13T18:28:25+00:00"
+    },
+    "reconciliation": {
+      "file": "reconciliation.md",
+      "status": "locked",
+      "sha256": "d156c757309d5f66a714bf09403a111d221e36cb377d66bb4a04fd22d05274e0",
+      "locked_at": "2026-09-13T18:59:55+00:00"
+    },
+    "verification": {
+      "file": "verification.md",
+      "status": "locked",
+      "sha256": "8d2b27bc6eca5c70fc4575c9de9e1a95ef2bd01b5ce1d5ed23ad0c2d094f4d41",
+      "locked_at": "2026-09-13T19:14:45+00:00"
+    }
+  },
+  "author_decisions": {
+    "file": "author-decisions.md",
+    "status": "locked",
+    "sha256": "c8785f7893cb3a87ec4bfc205028f1b29152a1538f431e6b0f28e276c7e0492b",
+    "locked_at": "2026-09-13T19:00:16+00:00"
+  },
+  "issue_ledger": "issue-ledger.json",
+  "supplementary_inputs": [
+    {
+      "path": "riokka/books/book-01/audit/final-2026-09-13-after-point-corrections/OVERALL.md",
+      "sha256": "5595bcd6c92bbeeb6264c72bb64934a62677fe1666a741398568bd7e56337d4b",
+      "role": "prior full verification 42/42"
+    },
+    {
+      "path": "riokka/series/audit/2026-09-13-gemini-dilogy/riokka-gemini-audit.md",
+      "sha256": "2544eb2f5edf2b812afa31ff1f1576cfd6d7e6754fe7bd5789fd023a9b0a3c8b",
+      "role": "Gemini Flash/Pro cross-book aggregate"
+    }
+  ]
+}

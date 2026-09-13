@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-01",
+  "source_sha256": "bb2b68f7d92d7cb25bd426bc7761d8ee7524e60c3f61e47ba7497c7215cf2116",
+  "record_type": "knowledge",
+  "fields": [
+    "fact_id",
+    "holder",
+    "state_known_guessed_false",
+    "known_from_scene",
+    "source",
+    "reader_access",
+    "anchors"
+  ],
+  "items": [
+    {
+      "fact_id": "B01-K-OREN-SKILL-KAI",
+      "holder": "Кай",
+      "state_known_guessed_false": "known: семарийский сорт требует рук и лет обучения; глобальная уникальность Орена ещё не известна",
+      "known_from_scene": "глава 7, разговор в питомнике",
+      "source": "слова Орена о Сати и годах обучения",
+      "reader_access": "прямой",
+      "anchors": [
+        {
+          "chapter": 7,
+          "p": 324,
+          "quote": "Сати кое-что схватила. Но руки — это годы."
+        },
+        {
+          "chapter": 7,
+          "p": 342,
+          "quote": "этот сорт держится не только на лекарстве и планете, но и на руках, которым нужны годы обучения"
+        }
+      ]
+    },
+    {
+      "fact_id": "B01-K-LOCK-KEY",
+      "holder": "Дживс и Кай",
+      "state_known_guessed_false": "known: служебный номер контура в замке совпадает с транспортной меткой и маршрутом",
+      "known_from_scene": "глава 14, анализ платформы",
+      "source": "сканирование Дживса",
+      "reader_access": "прямой",
+      "anchors": [
+        {
+          "chapter": 14,
+          "p": 542,
+          "quote": "В замке есть служебный ключ допуска, Кай"
+        }
+      ]
+    },
+    {
+      "fact_id": "B01-K-OREN-SKILL-JULIA",
+      "holder": "Джулия, затем Кай",
+      "state_known_guessed_false": "known: Орен — единственный живой мастер, которого удалось подтвердить для материнского культивара",
+      "known_from_scene": "главы 37–38",
+      "source": "вывод Джулии и разговор с Ореном",
+      "reader_access": "прямой до сообщения Каю",
+      "anchors": [
+        {
+          "chapter": 38,
+          "p": 1130,
+          "quote": "он узнал культивар, знает, как с ним работать, и других живых мастеров назвать не смог"
+        }
+      ]
+    },
+    {
+      "fact_id": "B01-K-ZATISHYE",
+      "holder": "Дживс и Кай",
+      "state_known_guessed_false": "быстрая проверка: clean; после глубокого разбора: метка Рэя и чужое управление",
+      "known_from_scene": "глава 38 после стыковки",
+      "source": "служебный контур станции",
+      "reader_access": "последовательно вместе с Каем",
+      "anchors": [
+        {
+          "chapter": 38,
+          "p": 1136,
+          "quote": "Глубокий разбор причальной метки требовал двенадцати минут."
+        },
+        {
+          "chapter": 38,
+          "p": 1149,
+          "quote": "Верхний слой служебного контура был чистым. Слишком чистым."
+        }
+      ]
+    },
+    {
+      "fact_id": "B01-K-GATE-REARMING",
+      "holder": "Кай и Джулия",
+      "state_known_guessed_false": "known: первый автомат разряжен; inferred before return and confirmed on sight: охранник мог открыть стойку и взять новый магазин",
+      "known_from_scene": "главы 22–25",
+      "source": "разоружение у поста, прошедшие 35 минут, открытая стойка и новый магазин",
+      "reader_access": "прямой вместе с Каем",
+      "anchors": [
+        {
+          "chapter": 22,
+          "p": 767,
+          "quote": "Я забрал его и только тогда кивнул Джулии опустить ствол."
+        },
+        {
+          "chapter": 25,
+          "p": 825,
+          "quote": "Новый магазин уже сидел в автомате"
+        }
+      ]
+    }
+  ],
+  "revision_context": {
+    "path": "revisions/2026-09-13-ensemble-r1/revised.docx",
+    "sha256": "bb2b68f7d92d7cb25bd426bc7761d8ee7524e60c3f61e47ba7497c7215cf2116",
+    "status": "author_requested_working_revision"
+  }
+}

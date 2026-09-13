@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-01",
+  "source_sha256": "bb2b68f7d92d7cb25bd426bc7761d8ee7524e60c3f61e47ba7497c7215cf2116",
+  "record_type": "promises",
+  "fields": [
+    "id",
+    "promise",
+    "setup",
+    "misreading",
+    "reveal",
+    "payoff",
+    "cost",
+    "status",
+    "anchors"
+  ],
+  "items": [
+    {
+      "id": "B01-P-TIMKA-ISKIN",
+      "promise": "рассказать Тимке подробную историю про искина",
+      "setup": "Лина просит Кая закончить обещанный ею рассказ",
+      "misreading": "в одной промежуточной фразе обещание было ошибочно отнесено к самому кораблю",
+      "reveal": "Кай точно называет историю про искина обещанием матери",
+      "payoff": "Тимка остаётся на корабле, пока не дослушает; обещание продолжается в следующем томе",
+      "cost": "Кай принимает заботу о Тимке после смерти Лины",
+      "status": "open_carried_forward",
+      "anchors": [
+        {
+          "chapter": 25,
+          "p": 840,
+          "quote": "Оставьте ему про искина."
+        },
+        {
+          "chapter": 25,
+          "p": 841,
+          "quote": "Я расскажу. Слышишь? Подробно."
+        },
+        {
+          "chapter": 41,
+          "p": 1219,
+          "quote": "история про искина, которую обещала ему мать"
+        },
+        {
+          "chapter": 42,
+          "p": 1239,
+          "quote": "Мама обещала, что ворчливый корабль расскажет мне про себя ещё столько всего"
+        }
+      ]
+    }
+  ],
+  "revision_context": {
+    "path": "revisions/2026-09-13-ensemble-r1/revised.docx",
+    "sha256": "bb2b68f7d92d7cb25bd426bc7761d8ee7524e60c3f61e47ba7497c7215cf2116",
+    "status": "author_requested_working_revision"
+  }
+}

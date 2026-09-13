@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-01",
+  "source_sha256": "bb2b68f7d92d7cb25bd426bc7761d8ee7524e60c3f61e47ba7497c7215cf2116",
+  "record_type": "resources",
+  "fields": [
+    "id",
+    "entity",
+    "unit",
+    "time",
+    "opening",
+    "incoming",
+    "outgoing",
+    "closing",
+    "included_in_group",
+    "anchors"
+  ],
+  "items": [
+    {
+      "id": "B01-R-SEMARI-SURVIVORS",
+      "entity": "люди Семари",
+      "unit": "человек",
+      "time": "Семари → после смерти Лины",
+      "opening": 50,
+      "incoming": 0,
+      "outgoing": 1,
+      "closing": 49,
+      "included_in_group": "49 спасённых с Семари, включая Орена и Тимку",
+      "anchors": [
+        {
+          "chapter": 27,
+          "p": 881,
+          "quote": "ДОСТАВЛЕНО: 49 из 50."
+        },
+        {
+          "chapter": 28,
+          "p": 912,
+          "quote": "Было сорок девять — стало пятьдесят четыре."
+        }
+      ]
+    },
+    {
+      "id": "B01-R-PASSENGERS",
+      "entity": "люди с Каем перед поселением",
+      "unit": "человек",
+      "time": "«Сухой док» → тихий мир",
+      "opening": 49,
+      "incoming": 5,
+      "outgoing": 2,
+      "closing": 52,
+      "included_in_group": "Орен уходит к Рэю; Тимка остаётся с Каем и не входит в 52 поселенцев",
+      "anchors": [
+        {
+          "chapter": 28,
+          "p": 912,
+          "quote": "Было сорок девять — стало пятьдесят четыре."
+        },
+        {
+          "chapter": 38,
+          "p": 1145,
+          "quote": "ЖИВЫЕ ДУШИ: 49 из 50 учтены."
+        },
+        {
+          "chapter": 42,
+          "p": 1232,
+          "quote": "Пятьдесят два человека сошли по рампе"
+        }
+      ]
+    },
+    {
+      "id": "B01-R-ANTIDOTE",
+      "entity": "складские брикеты риокки-противоядия",
+      "unit": "брикет",
+      "time": "от склада Сартена до тихого мира",
+      "opening": 60,
+      "incoming": 0,
+      "outgoing": 53,
+      "closing": 7,
+      "included_in_group": "40 на рабочие фильтры + 12 на маскировку корпуса + 1 в ящик-обманку",
+      "anchors": [
+        {
+          "chapter": 11,
+          "p": 451,
+          "quote": "ГРУЗ: антидот ×60."
+        },
+        {
+          "chapter": 28,
+          "p": 903,
+          "quote": "Сорок рабочих брикетов шли на эвакуационные фильтры; из двадцати резервных двенадцать остались на обшивке. Восемь я убрал отдельно."
+        },
+        {
+          "chapter": 36,
+          "p": 1091,
+          "quote": "Один из восьми оставшихся складских брикетов"
+        },
+        {
+          "chapter": 42,
+          "p": 1230,
+          "quote": "семь оставшихся складских брикетов"
+        }
+      ]
+    }
+  ],
+  "revision_context": {
+    "path": "revisions/2026-09-13-ensemble-r1/revised.docx",
+    "sha256": "bb2b68f7d92d7cb25bd426bc7761d8ee7524e60c3f61e47ba7497c7215cf2116",
+    "status": "author_requested_working_revision"
+  }
+}

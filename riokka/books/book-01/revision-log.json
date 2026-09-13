@@ -172,6 +172,54 @@
       },
       "result": "passed_release_gate",
       "open_issues": []
+    },
+    {
+      "action": "apply_ensemble_revision_candidate",
+      "date": "2026-09-13",
+      "source": {
+        "path": "manuscript/master.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "status": "author_selected_master_unchanged"
+      },
+      "output": {
+        "path": "revisions/2026-09-13-ensemble-r1/revised.docx",
+        "sha256": "bb2b68f7d92d7cb25bd426bc7761d8ee7524e60c3f61e47ba7497c7215cf2116",
+        "status": "author_review_candidate"
+      },
+      "ensemble_run": "audit/ensemble/book-01-2026-09-13-r1",
+      "issue_ids": [
+        "ENS-001"
+      ],
+      "chapters": [
+        22,
+        23,
+        25,
+        26,
+        27
+      ],
+      "changes": "revisions/2026-09-13-ensemble-r1/ALL-CHANGES.md",
+      "machine_log": "revisions/2026-09-13-ensemble-r1/changes.json",
+      "dependencies_updated": [
+        "candidate continuity/scenes.json",
+        "candidate continuity/timeline.json",
+        "candidate continuity/knowledge.json",
+        "candidate continuity/resources.json",
+        "candidate continuity/promises.json",
+        "candidate continuity/motifs.json",
+        "candidate continuity/end-state.json",
+        "book.json",
+        "session.md"
+      ],
+      "verification": {
+        "report": "revisions/2026-09-13-ensemble-r1/audit/REPORT.md",
+        "chapters": "42/42 structural; chapters 22, 23, 25, 26, 27 semantic/prose",
+        "anchors": "50 checked, 0 errors",
+        "mechanical_signals": 0,
+        "languagetool": "6.6 full text, changed hits manually reviewed",
+        "docx": "OOXML formatting parts identical; 42 headings; no tracked changes",
+        "render": "not_run_no_available_renderer"
+      },
+      "decision": "candidate_only_pending_author_read"
     }
   ]
 }

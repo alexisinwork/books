@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-01",
+  "source_sha256": "bb2b68f7d92d7cb25bd426bc7761d8ee7524e60c3f61e47ba7497c7215cf2116",
+  "record_type": "motifs",
+  "fields": [
+    "id",
+    "form",
+    "appearances",
+    "function_each_time",
+    "meaning_change",
+    "payoff",
+    "decision",
+    "anchors"
+  ],
+  "items": [
+    {
+      "id": "B01-M-RULE-SEVEN",
+      "form": "седьмое правило Эсквайра",
+      "appearances": "карточка и недосказанное правило на протяжении тома",
+      "function_each_time": "связывает профессиональную гордость Кая с тем, как Рэй использует его предсказуемость",
+      "meaning_change": "из запрета на страх становится предупреждением против заказчика, который знает исполнителя лучше него самого",
+      "payoff": "правило произнесено полностью в финале",
+      "decision": "verified_text_overrides_old_plan",
+      "anchors": [
+        {
+          "chapter": 42,
+          "p": 1249,
+          "quote": "Бойся заказчика, который знает тебя лучше, чем ты сам."
+        }
+      ]
+    }
+  ],
+  "revision_context": {
+    "path": "revisions/2026-09-13-ensemble-r1/revised.docx",
+    "sha256": "bb2b68f7d92d7cb25bd426bc7761d8ee7524e60c3f61e47ba7497c7215cf2116",
+    "status": "author_requested_working_revision"
+  }
+}
