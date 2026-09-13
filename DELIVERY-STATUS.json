@@ -20,28 +20,26 @@
     "byte_identical": true
   },
   "book_1": {
-    "baseline": "Author-selected final DOCX copied from Windows Desktop on 2026-09-13",
+    "baseline": "Author-updated DOCX from Windows Desktop plus approved final corrections on 2026-09-13",
     "master": "riokka/books/book-01/manuscript/master.docx",
-    "master_sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
-    "changed_paragraphs": 204,
-    "revision": "riokka/books/book-01/revisions/2026-09-12/revised.docx",
-    "change_log": "riokka/books/book-01/revisions/2026-09-12/ALL-CHANGES.md",
-    "revision_status": "superseded_by_author_selected_final",
-    "text_validation": "failed_release_gate_open_critical_issues",
-    "verification_report": "riokka/books/book-01/audit/final-2026-09-13/OVERALL.md",
+    "master_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+    "author_requested_point_replacements": 19,
+    "revision": "riokka/books/book-01/revisions/2026-09-13-final-point-corrections/revised.docx",
+    "change_log": "riokka/books/book-01/revisions/2026-09-13-final-point-corrections/ALL-CHANGES.md",
+    "revision_status": "applied_and_promoted_to_master",
+    "text_validation": "passed_release_gate",
+    "verification_report": "riokka/books/book-01/audit/final-2026-09-13-after-point-corrections/OVERALL.md",
     "chapter_coverage": "42/42",
     "visual_review": {
-      "pages_viewed": 252,
-      "total_pages": 252,
+      "pages_viewed": 250,
+      "total_pages": 250,
       "complete": true,
-      "result": "Three unintended blank pages found: 177, 191, 220."
+      "result": "No blank, clipped, overlapping or missing-content pages found."
     },
     "promoted_to_author_final": true,
-    "open_critical_issues": [
-      "FINAL-TIME-01",
-      "FINAL-TIME-02",
-      "FINAL-CAUSE-01"
-    ]
+    "open_critical_issues": [],
+    "open_issue_ids": [],
+    "windows_desktop_synced": true
   },
   "coverage": {
     "riokka": "Six novels, stories and working system. Book 1 has its separately recorded final audit; Book 2 has a complete 51-chapter editorial revision and transition check against the author-selected Book 1. Other novels retain inventory and selected continuity analysis.",
@@ -75,6 +73,8 @@
       "B02-23",
       "B02-24"
     ],
-    "windows_import_folder": "not automatically synchronized; working copy remains /home/alexi/books"
+    "windows_import_folder": "not automatically synchronized; working copy remains /home/alexi/books",
+    "current_book_1_master_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+    "transition_recheck_required": true
   }
 }

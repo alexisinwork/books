@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_id": "riokka",
   "book_id": "book-01",
-  "source_sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
+  "source_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
   "record_type": "release/release",
   "fields": [
     "id",
@@ -44,6 +44,33 @@
       "end_state_version": "end-state.json@44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
       "status": "failed_release_gate",
       "report": "audit/final-2026-09-13/OVERALL.md"
+    },
+    {
+      "id": "verification-2026-09-13-after-point-corrections",
+      "file": "manuscript/master.docx",
+      "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+      "date": "2026-09-13",
+      "checks_done": [
+        "19/19 author-requested point corrections",
+        "8 additional exact text corrections found during recheck",
+        "approved paragraph and counter separation",
+        "removal of six empty Heading 1 paragraphs and three redundant page breaks",
+        "42/42 chapters manually rechecked by three independent readers",
+        "47/47 exact-anchor guards",
+        "timeline, knowledge, people, promises and resources reconciled",
+        "LanguageTool 6.6 full-text run",
+        "DOCX package inspection",
+        "LibreOffice 26.2.6.3 PDF render",
+        "DOCX/PDF normalized-text identity",
+        "visual review of pages 1-250",
+        "12/12 project unit tests",
+        "studio doctor",
+        "source-original verification"
+      ],
+      "remaining_decisions": [],
+      "end_state_version": "end-state.json@2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+      "status": "ready",
+      "report": "audit/final-2026-09-13-after-point-corrections/OVERALL.md"
     }
   ]
 }

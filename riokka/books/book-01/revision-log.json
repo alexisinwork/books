@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_id": "riokka",
   "book_id": "book-01",
-  "source_sha256": null,
+  "source_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
   "record_type": "revision-log",
   "fields": [
     "id",
@@ -87,6 +87,91 @@
       "output": "audit/final-2026-09-13/MANUAL-BEFORE-AFTER.md",
       "scope": "recommended before/after replacements for all confirmed FINAL issues plus separately marked optional prose variants",
       "text_modified": false
+    },
+    {
+      "action": "select_master",
+      "previous": {
+        "path": "manuscript/master.docx",
+        "format": "docx",
+        "sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
+        "status": "author_selected",
+        "authority": "Автор 13 сентября 2026 года указал DOCX с Windows Desktop как окончательную отредактированную и перепроверенную версию книги 1."
+      },
+      "current": {
+        "path": "manuscript/master.docx",
+        "format": "docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "status": "author_selected",
+        "authority": "Автор 13 сентября 2026 года предоставил обновлённый DOCX с исправлениями и прямо поручил внести обязательную точечную корректуру, повторно проверить все 42 главы и обновить мастер."
+      }
+    },
+    {
+      "action": "record_final_point_correction_lineage",
+      "date": "2026-09-13",
+      "author_source": {
+        "path": "archive/author-updated-before-point-corrections-2026-09-13.docx",
+        "sha256": "e570f7555d125f81812563ba095e49775c4a40ef7ea1733c32ba895f3d91601b"
+      },
+      "previous_master": {
+        "path": "archive/master-before-author-updated-final-2026-09-13.docx",
+        "sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3"
+      },
+      "output": {
+        "path": "revisions/2026-09-13-final-point-corrections/revised.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "master_path": "manuscript/master.docx",
+        "status": "applied_and_promoted"
+      },
+      "changes": "revisions/2026-09-13-final-point-corrections/ALL-CHANGES.md",
+      "machine_log": "revisions/2026-09-13-final-point-corrections/changes.json",
+      "scope": {
+        "author_requested_point_replacements": 19,
+        "additional_exact_text_corrections": 8,
+        "paragraph_separations": 2,
+        "empty_heading_paragraphs_removed": 6,
+        "redundant_page_breaks_removed": 3
+      },
+      "dependencies_updated": [
+        "book.json",
+        "derived/snapshot.json",
+        "derived/manuscript.txt",
+        "scenes.json",
+        "timeline.json",
+        "knowledge.json",
+        "resources.json",
+        "promises.json",
+        "motifs.json",
+        "end-state.json",
+        "audit/issues.json",
+        "release/release.json",
+        "release/checklist.md"
+      ]
+    },
+    {
+      "action": "verify_final_after_manual_transfer",
+      "date": "2026-09-13",
+      "source": {
+        "path": "manuscript/master.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172"
+      },
+      "scope": "42/42 chapters; prose, logic, knowledge, timeline, people, resources, promises, DOCX structure, pages 1-250",
+      "report": "audit/final-2026-09-13-after-point-corrections/OVERALL.md",
+      "checks": {
+        "chapter_reports": [
+          "audit/final-2026-09-13-after-point-corrections/chapters-01-14.md",
+          "audit/final-2026-09-13-after-point-corrections/chapters-15-28.md",
+          "audit/final-2026-09-13-after-point-corrections/chapters-29-42.md"
+        ],
+        "anchor_guard": "47 checked, 0 errors",
+        "mechanical_signals": 0,
+        "languagetool": "6.6 full text, 777 raw signals context-reviewed",
+        "docx": "1247 paragraphs, 42 headings, no comments or tracked changes",
+        "render": "250 pages, 0 blank, normalized text identical, pages 1-250 visually reviewed",
+        "tests": "12/12 passed",
+        "originals": "30 checked, 0 errors"
+      },
+      "result": "passed_release_gate",
+      "open_issues": []
     }
   ]
 }

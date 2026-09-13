@@ -11,9 +11,9 @@
   },
   "current_master": {
     "path": "manuscript/master.docx",
-    "source_sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
+    "source_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
     "verification_date": "2026-09-13",
-    "report": "audit/final-2026-09-13/OVERALL.md",
+    "report": "audit/final-2026-09-13-after-point-corrections/OVERALL.md",
     "manual_change_sheet": "audit/final-2026-09-13/MANUAL-BEFORE-AFTER.md"
   },
   "items": [
@@ -799,26 +799,58 @@
       "severity": "critical",
       "certainty": "text_conflict",
       "title": "Общий таймер не учитывает двое суток перелёта",
-      "status": "proposed",
-      "resolution_status": "unresolved",
+      "status": "verified",
+      "resolution_status": "resolved",
       "observation": "После значения 53:40:56 текст прямо показывает двое суток между Сухим доком и Семари, но по прибытии окно равно 52:40:08, то есть уменьшилось примерно на час.",
       "effect": "Главный контрактный дедлайн перестаёт соответствовать показанному ходу времени и подрывает последующие расчёты срочности.",
       "proposal": "Выбрать каноническую длительность общего окна и согласовать все его значения с двумя сутками перелёта; затем повторно проверить всю шкалу до эвакуации.",
       "anchors": [
-        {"chapter": 1, "p": 105, "quote": "ДУШ: 50. ОКНО: 84 ч."},
-        {"chapter": 3, "p": 209, "quote": "ОКНО: 53:40:56."},
-        {"chapter": 5, "p": 245, "quote": "Между «Сухим доком» и Семари было двое суток пустоты"},
-        {"chapter": 5, "p": 261, "quote": "До Семари сутки."},
-        {"chapter": 6, "p": 279, "quote": "ОКНО: 52:40:08."}
+        {
+          "chapter": 1,
+          "p": 105,
+          "quote": "ДУШ: 50. ОКНО: 84 ч."
+        },
+        {
+          "chapter": 3,
+          "p": 209,
+          "quote": "ОКНО: 53:40:56."
+        },
+        {
+          "chapter": 5,
+          "p": 245,
+          "quote": "Между «Сухим доком» и Семари было двое суток пустоты"
+        },
+        {
+          "chapter": 5,
+          "p": 261,
+          "quote": "До Семари сутки."
+        },
+        {
+          "chapter": 6,
+          "p": 279,
+          "quote": "ОКНО: 52:40:08."
+        }
       ],
-      "dependencies": ["chapters 1-6", "all later window values", "Semari evacuation deadline"],
-      "decision": "Не исправлялось: авторское значение окна не выбрано.",
+      "dependencies": [
+        "chapters 1-6",
+        "all later window values",
+        "Semari evacuation deadline"
+      ],
+      "decision": "Таймер перелёта пересобран: от «Сухого дока» до Семари меньше часа; все последующие значения сохранены и проверены.",
       "verification": {
         "path": "manuscript/master.docx",
         "sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
         "coverage": "chapters 1-14 plus independent cross-review",
         "result": "failed",
         "report": "audit/final-2026-09-13/OVERALL.md"
+      },
+      "resolved_in_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+      "resolution_verification": {
+        "path": "manuscript/master.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "coverage": "chapters 1-42 and pages 1-250",
+        "result": "passed",
+        "report": "audit/final-2026-09-13-after-point-corrections/OVERALL.md"
       }
     },
     {
@@ -828,26 +860,59 @@
       "severity": "critical",
       "certainty": "text_conflict",
       "title": "Один перенос опечатывания равен пятнадцати и шести часам",
-      "status": "proposed",
-      "resolution_status": "unresolved",
+      "status": "verified",
+      "resolution_status": "resolved",
       "observation": "Рэй и Дживс задают перенос на пятнадцать часов, а приказ Дельма, исполнение и поздний пересказ называют тот же перенос шестичасовым. Разные базы отсчёта в тексте не установлены.",
       "effect": "Конфликт находится в причинной оси эвакуационной кульминации и меняет фактическое окно героев.",
       "proposal": "Выбрать одно значение и синхронизировать приказ Рэя, расчёт Дживса, приказ Дельма, закрытие буёв и пересказ Маноса.",
       "anchors": [
-        {"chapter": 19, "p": 688, "quote": "Сдвинь на пятнадцать часов раньше."},
-        {"chapter": 20, "p": 704, "quote": "На пятнадцать часов раньше."},
-        {"chapter": 21, "p": 733, "quote": "перенести на шесть часов раньше срока"},
-        {"chapter": 21, "p": 740, "quote": "на шесть часов раньше, чем кто-то внизу рассчитывал успеть"},
-        {"chapter": 31, "p": 968, "quote": "Шесть часов, Кай. Те самые шесть"}
+        {
+          "chapter": 19,
+          "p": 688,
+          "quote": "Сдвинь на пятнадцать часов раньше."
+        },
+        {
+          "chapter": 20,
+          "p": 704,
+          "quote": "На пятнадцать часов раньше."
+        },
+        {
+          "chapter": 21,
+          "p": 733,
+          "quote": "перенести на шесть часов раньше срока"
+        },
+        {
+          "chapter": 21,
+          "p": 740,
+          "quote": "на шесть часов раньше, чем кто-то внизу рассчитывал успеть"
+        },
+        {
+          "chapter": 31,
+          "p": 968,
+          "quote": "Шесть часов, Кай. Те самые шесть"
+        }
       ],
-      "dependencies": ["chapters 19-26", "chapter 31", "timer 18:10 to 03:10", "cause of the last evacuation route"],
-      "decision": "Не исправлялось: каноническое значение требует авторского решения.",
+      "dependencies": [
+        "chapters 19-26",
+        "chapter 31",
+        "timer 18:10 to 03:10",
+        "cause of the last evacuation route"
+      ],
+      "decision": "Все упоминания переноса опечатывания приведены к пятнадцати часам.",
       "verification": {
         "path": "manuscript/master.docx",
         "sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
         "coverage": "chapters 15-28 plus independent cross-review through chapter 31",
         "result": "failed",
         "report": "audit/final-2026-09-13/OVERALL.md"
+      },
+      "resolved_in_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+      "resolution_verification": {
+        "path": "manuscript/master.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "coverage": "chapters 1-42 and pages 1-250",
+        "result": "passed",
+        "report": "audit/final-2026-09-13-after-point-corrections/OVERALL.md"
       }
     },
     {
@@ -857,26 +922,59 @@
       "severity": "critical",
       "certainty": "missing_link",
       "title": "Выгрузка на Затишье создаёт заложников до окончания проверки",
-      "status": "proposed",
-      "resolution_status": "unresolved",
+      "status": "verified",
+      "resolution_status": "resolved",
       "observation": "Кай распознаёт засаду и знает, что служебная сеть доступна лишь после стыковки, но после стыковки выводит сорок восемь людей в сектор раньше, чем Дживс заканчивает проверку. Воздух и снабжение позволяют временно оставить их на борту.",
       "effect": "Захват Орена зависит от неиспользованного безопасного хода героя; именно выгруженные люди становятся рычагом турелей.",
       "proposal": "Показать неизбежное физическое или процедурное вынуждение к немедленной выгрузке либо убедительный ложный чистый результат проверки до выхода людей.",
       "anchors": [
-        {"chapter": 38, "p": 1130, "quote": "в служебную сеть нас до стыковки не пустят"},
-        {"chapter": 38, "p": 1132, "quote": "Здесь ждали. Одного определенного борта. Моего."},
-        {"chapter": 38, "p": 1135, "quote": "Я сдавал сорок восемь по списку в приемный сектор"},
-        {"chapter": 38, "p": 1145, "quote": "После стыковки открылся служебный контур. Я закончил разбор причальной метки."},
-        {"chapter": 39, "p": 1156, "quote": "секторные турели, чужое управление; двери уже заблокированы"}
+        {
+          "chapter": 38,
+          "p": 1130,
+          "quote": "в служебную сеть нас до стыковки не пустят"
+        },
+        {
+          "chapter": 38,
+          "p": 1132,
+          "quote": "Здесь ждали. Одного определенного борта. Моего."
+        },
+        {
+          "chapter": 38,
+          "p": 1135,
+          "quote": "Я сдавал сорок восемь по списку в приемный сектор"
+        },
+        {
+          "chapter": 38,
+          "p": 1145,
+          "quote": "После стыковки открылся служебный контур. Я закончил разбор причальной метки."
+        },
+        {
+          "chapter": 39,
+          "p": 1156,
+          "quote": "секторные турели, чужое управление; двери уже заблокированы"
+        }
       ],
-      "dependencies": ["chapters 38-41", "Oren's voluntary surrender", "Rey's leverage", "Kai's defeat and lesson"],
-      "decision": "Не исправлялось: отсутствующее вынуждение не следует из текущего текста.",
+      "dependencies": [
+        "chapters 38-41",
+        "Oren's voluntary surrender",
+        "Rey's leverage",
+        "Kai's defeat and lesson"
+      ],
+      "decision": "В текст введено вынуждение 8 минут допуска против 12 минут глубокого разбора; позднее обнаружение ловушки причинно обосновано.",
       "verification": {
         "path": "manuscript/master.docx",
         "sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
         "coverage": "chapters 28-42 plus independent cross-review of ship capacity and acceptance sequence",
         "result": "failed",
         "report": "audit/final-2026-09-13/OVERALL.md"
+      },
+      "resolved_in_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+      "resolution_verification": {
+        "path": "manuscript/master.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "coverage": "chapters 1-42 and pages 1-250",
+        "result": "passed",
+        "report": "audit/final-2026-09-13-after-point-corrections/OVERALL.md"
       }
     },
     {
@@ -886,23 +984,43 @@
       "severity": "major",
       "certainty": "text_conflict",
       "title": "Кай усиливает ранние слова Орена до глобальной уникальности",
-      "status": "proposed",
-      "resolution_status": "unresolved",
+      "status": "verified",
+      "resolution_status": "resolved",
       "observation": "В p342 Кай вспоминает, будто Орен уже вслух объявил свои руки единственными во всей обитаемой. В фактическом разговоре p324 Орен говорит лишь о годах обучения, чувствительности ростков к чужим рукам и отсутствии планеты.",
       "effect": "Кай получает знание раньше показанного источника, а позднее раскрытие Орена частично предрешается.",
       "proposal": "Ослабить формулировку p342 до того, что реально сказал Орен, либо раньше дать ему явную реплику об уникальности мастерства.",
       "anchors": [
-        {"chapter": 7, "p": 324, "quote": "Сати кое-что схватила. Но руки — это годы. Ростки чужих рук не любят, чахнут."},
-        {"chapter": 7, "p": 342, "quote": "сказал вслух, что во всей обитаемой вселенной только его руки умеют будить этот сорт риокки"}
+        {
+          "chapter": 7,
+          "p": 324,
+          "quote": "Сати кое-что схватила. Но руки — это годы. Ростки чужих рук не любят, чахнут."
+        },
+        {
+          "chapter": 7,
+          "p": 342,
+          "quote": "сказал вслух, что во всей обитаемой вселенной только его руки умеют будить этот сорт риокки"
+        }
       ],
-      "dependencies": ["chapters 7 and 35-38", "Kai knowledge state", "Oren reveal"],
-      "decision": "Не исправлялось: источник заявленного знания в текущем тексте отсутствует.",
+      "dependencies": [
+        "chapters 7 and 35-38",
+        "Kai knowledge state",
+        "Oren reveal"
+      ],
+      "decision": "Знание Кая ограничено годами обучения; уникальность Орена подтверждается позднее Джулией и разговором с Ореном.",
       "verification": {
         "path": "manuscript/master.docx",
         "sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
         "coverage": "chapters 1-14 with later reveal anchors",
         "result": "failed",
         "report": "audit/final-2026-09-13/OVERALL.md"
+      },
+      "resolved_in_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+      "resolution_verification": {
+        "path": "manuscript/master.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "coverage": "chapters 1-42 and pages 1-250",
+        "result": "passed",
+        "report": "audit/final-2026-09-13-after-point-corrections/OVERALL.md"
       }
     },
     {
@@ -912,24 +1030,49 @@
       "severity": "major",
       "certainty": "missing_link",
       "title": "Биометрия замка и маршрутная метка соединены без источника",
-      "status": "proposed",
-      "resolution_status": "unresolved",
+      "status": "verified",
+      "resolution_status": "resolved",
       "observation": "Джулия описывает замок как проверку живой руки по сосудистому рисунку и близкой крови. Сразу после этого Дживс без показанного сканирования или реестра сообщает, что замок ждёт руку, связанную с конкретной маршрутной меткой и почерком.",
       "effect": "Существенный вывод об адресате выглядит полученным из недоступных данных и размывает правила хастовского замка.",
       "proposal": "Назвать читаемый идентификатор замка, запись допуска или отдельный канал, по которому Дживс связывает владельца биометрии с маршрутной меткой.",
       "anchors": [
-        {"chapter": 14, "p": 540, "quote": "Он читает живую руку под кожей: ток, рисунок сосудов"},
-        {"chapter": 14, "p": 546, "quote": "Дживс. Замок. Под кого он прописан?"},
-        {"chapter": 14, "p": 548, "quote": "Замок ждет руку, прописанную под тот самый почерк"}
+        {
+          "chapter": 14,
+          "p": 540,
+          "quote": "Он читает живую руку под кожей: ток, рисунок сосудов"
+        },
+        {
+          "chapter": 14,
+          "p": 546,
+          "quote": "Дживс. Замок. Под кого он прописан?"
+        },
+        {
+          "chapter": 14,
+          "p": 548,
+          "quote": "Замок ждет руку, прописанную под тот самый почерк"
+        }
       ],
-      "dependencies": ["chapter 14", "box recipient", "Ray route marker", "later box opening"],
-      "decision": "Не исправлялось: технический мост в текущем тексте не показан.",
+      "dependencies": [
+        "chapter 14",
+        "box recipient",
+        "Ray route marker",
+        "later box opening"
+      ],
+      "decision": "Служебный ключ допуска связан с транспортной меткой отдельно от биометрического рисунка.",
       "verification": {
         "path": "manuscript/master.docx",
         "sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
         "coverage": "chapter 14 and dependent opening in chapter 40",
         "result": "failed",
         "report": "audit/final-2026-09-13/OVERALL.md"
+      },
+      "resolved_in_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+      "resolution_verification": {
+        "path": "manuscript/master.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "coverage": "chapters 1-42 and pages 1-250",
+        "result": "passed",
+        "report": "audit/final-2026-09-13-after-point-corrections/OVERALL.md"
       }
     },
     {
@@ -939,26 +1082,55 @@
       "severity": "major",
       "certainty": "text_conflict",
       "title": "Пустые заголовочные абзацы и три пустые страницы",
-      "status": "proposed",
-      "resolution_status": "unresolved",
+      "status": "verified",
+      "resolution_status": "resolved",
       "observation": "DOCX содержит шесть пустых абзацев со стилем Heading 1 в p501-p505 и p510. Полный рендер LibreOffice содержит пустые страницы 177, 191 и 220; они не образуют последовательного правила начала глав на нечётной полосе.",
       "effect": "Читательский файл выглядит технически невычищенным и получает случайные пустые полосы.",
       "proposal": "Удалить лишние пустые заголовочные абзацы и проверить параметры разрыва перед главами 28, 31 и 36; затем повторить полный рендер в Word или LibreOffice.",
       "anchors": [
-        {"chapter": 12, "p": 501, "quote": ""},
-        {"chapter": 12, "p": 510, "quote": ""},
-        {"page": 177, "quote": "blank page"},
-        {"page": 191, "quote": "blank page"},
-        {"page": 220, "quote": "blank page"}
+        {
+          "chapter": 12,
+          "p": 501,
+          "quote": ""
+        },
+        {
+          "chapter": 12,
+          "p": 510,
+          "quote": ""
+        },
+        {
+          "page": 177,
+          "quote": "blank page"
+        },
+        {
+          "page": 191,
+          "quote": "blank page"
+        },
+        {
+          "page": 220,
+          "quote": "blank page"
+        }
       ],
-      "dependencies": ["DOCX styles", "chapter page breaks", "reader PDF export"],
-      "decision": "Не исправлялось: проверка должна сохранить авторский DOCX без изменений.",
+      "dependencies": [
+        "DOCX styles",
+        "chapter page breaks",
+        "reader PDF export"
+      ],
+      "decision": "Удалены шесть пустых Heading 1 и три лишних разрыва; в PDF 250 страниц, пустых страниц нет.",
       "verification": {
         "path": "audit/final-2026-09-13/checks/render/master.pdf",
         "sha256": "d4c411080fbb22c076f8889271162194e8177cf4b1cba8d51aaa39c8b5763cd3",
         "coverage": "pages 1-252",
         "result": "failed",
         "report": "audit/final-2026-09-13/checks/render-audit.json"
+      },
+      "resolved_in_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+      "resolution_verification": {
+        "path": "manuscript/master.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "coverage": "chapters 1-42 and pages 1-250",
+        "result": "passed",
+        "report": "audit/final-2026-09-13-after-point-corrections/OVERALL.md"
       }
     },
     {
@@ -968,29 +1140,141 @@
       "severity": "minor",
       "certainty": "text_conflict",
       "title": "Локальная корректурная очередь финального мастера",
-      "status": "proposed",
-      "resolution_status": "unresolved",
+      "status": "verified",
+      "resolution_status": "resolved",
       "observation": "Ручное чтение и автоматические сигналы подтвердили локальные пропуски букв, пробелов и запятых, сбои управления и согласования, склейку реплик разных говорящих и одно несогласованное числовое утверждение.",
       "effect": "Ошибки не ломают роман целиком, но мешают считать заявленный финальный текст корректурно чистым.",
       "proposal": "Исправить точные места из трёх поглавных отчётов одним корректурным проходом, не принимая необязательные стилистические варианты автоматически.",
       "anchors": [
-        {"chapter": 3, "p": 199, "quote": "какая во не живет сила"},
-        {"chapter": 8, "p": 361, "quote": "меньше,чем тебе"},
-        {"chapter": 11, "p": 455, "quote": "Сорок. Почти вдвое"},
-        {"chapter": 19, "p": 688, "quote": "Сроки опечатывание Семари"},
-        {"chapter": 20, "p": 712, "quote": "— Дживс, что по маршруту? — спросил я. — Корабли картеля"},
-        {"chapter": 42, "p": 1228, "quote": "Сати шла первой — медик, который последние дни почти не спал, а теперь распрямился"}
+        {
+          "chapter": 3,
+          "p": 199,
+          "quote": "какая во не живет сила"
+        },
+        {
+          "chapter": 8,
+          "p": 361,
+          "quote": "меньше,чем тебе"
+        },
+        {
+          "chapter": 11,
+          "p": 455,
+          "quote": "Сорок. Почти вдвое"
+        },
+        {
+          "chapter": 19,
+          "p": 688,
+          "quote": "Сроки опечатывание Семари"
+        },
+        {
+          "chapter": 20,
+          "p": 712,
+          "quote": "— Дживс, что по маршруту? — спросил я. — Корабли картеля"
+        },
+        {
+          "chapter": 42,
+          "p": 1228,
+          "quote": "Сати шла первой — медик, который последние дни почти не спал, а теперь распрямился"
+        }
       ],
-      "dependencies": ["p198", "p199", "p226", "p242", "p256", "p361", "p411", "p449", "p455", "p482", "p582", "p610", "p662", "p663", "p688", "p712", "p1142", "p1205", "p1223", "p1227", "p1228", "p1231", "p1235"],
-      "decision": "Не исправлялось: поручение было на повторную проверку принятого текста и общий вывод.",
+      "dependencies": [
+        "p198",
+        "p199",
+        "p226",
+        "p242",
+        "p256",
+        "p361",
+        "p411",
+        "p449",
+        "p455",
+        "p482",
+        "p582",
+        "p610",
+        "p662",
+        "p663",
+        "p688",
+        "p712",
+        "p1142",
+        "p1205",
+        "p1223",
+        "p1227",
+        "p1228",
+        "p1231",
+        "p1235"
+      ],
+      "decision": "Утверждённая корректура и дополнительные точные находки повторного поглавного чтения применены и проверены.",
       "verification": {
         "path": "manuscript/master.docx",
         "sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
         "coverage": "chapters 1-42, LanguageTool and manual read",
         "result": "failed",
         "report": "audit/final-2026-09-13/OVERALL.md"
+      },
+      "resolved_in_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+      "resolution_verification": {
+        "path": "manuscript/master.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "coverage": "chapters 1-42 and pages 1-250",
+        "result": "passed",
+        "report": "audit/final-2026-09-13-after-point-corrections/OVERALL.md"
+      }
+    },
+    {
+      "id": "FINAL-RECHECK-2026-09-13",
+      "source_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+      "category": "release/full_recheck",
+      "severity": "none",
+      "certainty": "direct_text",
+      "title": "Повторная проверка после ручного переноса",
+      "status": "verified",
+      "resolution_status": "resolved",
+      "observation": "Три независимых поглавных прохода и общая интеграционная проверка не оставили блокирующих или неблокирующих ошибок в текущем мастере.",
+      "effect": "Книга 1 прошла выпускной барьер проекта.",
+      "anchors": [
+        {
+          "chapter": 5,
+          "p": 245,
+          "quote": "От «Сухого дока» до Семари оставалось меньше часа пустоты"
+        },
+        {
+          "chapter": 19,
+          "p": 682,
+          "quote": "Сроки опечатывания Семари"
+        },
+        {
+          "chapter": 38,
+          "p": 1131,
+          "quote": "Глубокий разбор причальной метки требовал двенадцати минут."
+        },
+        {
+          "chapter": 38,
+          "p": 1140,
+          "quote": "ЖИВЫЕ ДУШИ: 49 из 50 учтены."
+        },
+        {
+          "chapter": 42,
+          "p": 1227,
+          "quote": "Пятьдесят два человека сошли по рампе"
+        },
+        {
+          "chapter": 42,
+          "p": 1244,
+          "quote": "Бойся заказчика, который знает тебя лучше, чем ты сам."
+        }
+      ],
+      "dependencies": [
+        "revisions/2026-09-13-final-point-corrections/changes.json",
+        "audit/final-2026-09-13-after-point-corrections/checks/verification-anchors.json"
+      ],
+      "decision": "accepted_applied_verified",
+      "verification": {
+        "path": "manuscript/master.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "coverage": "42/42 chapters; 47/47 exact anchors; pages 1-250",
+        "result": "passed",
+        "report": "audit/final-2026-09-13-after-point-corrections/OVERALL.md"
       }
     }
   ],
-  "note": "Первые 25 групп относятся к прежнему мастеру и сохранены как история. Семь записей FINAL-* относятся к авторскому мастеру SHA 44f3e5…; все они являются предложениями, текст не изменён."
+  "note": "Первые 25 групп относятся к мастеру ae84… и сохранены как история. Семь FINAL-* записей аудита SHA 44f3… закрыты в текущем мастере. Текущая повторная проверка привязана к SHA 2651e6…; нерешённых выпускных замечаний по книге 1 нет."
 }

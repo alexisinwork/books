@@ -4,30 +4,30 @@
   "book_id": "book-01",
   "title": "Антидот с Семари",
   "book_type": "fiction",
-  "stage": "author_final_reverification_with_open_issues",
+  "stage": "ready_for_release",
   "master": {
     "path": "manuscript/master.docx",
     "format": "docx",
-    "sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
+    "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
     "status": "author_selected",
-    "authority": "Автор 13 сентября 2026 года указал DOCX с Windows Desktop как окончательную отредактированную и перепроверенную версию книги 1."
+    "authority": "Автор 13 сентября 2026 года предоставил обновлённый DOCX с исправлениями и прямо поручил внести обязательную точечную корректуру, повторно проверить все 42 главы и обновить мастер."
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "42_chapters_rechecked_release_gate_failed",
+  "audit_status": "42_chapters_rechecked_release_gate_passed",
   "original": "../../sources/originals/Контрактник Риокка — Книга 1 — Антидот с Семари.docx",
   "working_revision": {
-    "path": "revisions/2026-09-12/revised.docx",
-    "sha256": "adc44ba62e68b4d9cb9c9dbb1f2c138cc248ba2731bb6ff884d4c5916924f059",
-    "status": "superseded_by_author_selected_final",
-    "changes": "revisions/2026-09-12/ALL-CHANGES.md"
+    "path": "revisions/2026-09-13-final-point-corrections/revised.docx",
+    "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+    "status": "applied_and_promoted_to_master",
+    "changes": "revisions/2026-09-13-final-point-corrections/ALL-CHANGES.md"
   },
   "final_verification": {
     "date": "2026-09-13",
-    "source_sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
-    "report": "audit/final-2026-09-13/OVERALL.md",
+    "source_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+    "report": "audit/final-2026-09-13-after-point-corrections/OVERALL.md",
     "manual_change_sheet": "audit/final-2026-09-13/MANUAL-BEFORE-AFTER.md",
     "chapter_coverage": "42/42",
-    "status": "failed_release_gate_open_critical_issues"
+    "status": "passed_release_gate"
   }
 }
