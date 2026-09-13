@@ -27,8 +27,8 @@
       "status": "editorial_revision_for_review",
       "resolution_status": "unresolved",
       "book_id": "book-02",
-      "source_sha256": "7b7b9f332cd2477632b2f44fa54b97bd147b19ee4055ad737fc47151372d295b",
-      "previous_book_sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
+      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+      "previous_book_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
       "issues": "../books/book-02/revisions/2026-09-13-10al/audit/issues.json",
       "issue_ids": [
         "B02-03",
@@ -52,8 +52,22 @@
       ],
       "task": "После выбора редакции второго тома сверить входы следующих: Орен у Рэя, прариокка утрачена, обычный росток посажен; Веда на борту; 109 имён ещё ищут; судьба 389 с Делянки неизвестна. До выбора не подменять состояния новых томов этим вариантом.",
       "current_book_1_master_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
-      "transition_recheck_required": true,
-      "transition_recheck_reason": "Редакция книги 2 сверялась с предыдущим мастером книги 1 SHA 44f3…; конечное состояние не изменилось, но точный SHA-зависимый переход нужно перепроверить перед принятием книги 2."
+      "transition_recheck_required": false,
+      "transition_recheck_reason": "Переход повторно сверен с текущим авторским мастером книги 1 SHA 2651e6b7…; проверены финальные позиции персонажей и 579 точных цитатных якорей.",
+      "open_issue_ids": [
+        "B02-03",
+        "B02-04",
+        "B02-05",
+        "B02-06",
+        "B02-13",
+        "B02-15",
+        "B02-19",
+        "B02-20",
+        "B02-21",
+        "B02-22",
+        "B02-23",
+        "B02-24"
+      ]
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "source_sha256": "7b7b9f332cd2477632b2f44fa54b97bd147b19ee4055ad737fc47151372d295b",
+  "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+  "checked_file_sha256": "6b80a7bd78b97b5a32594466f0c0de62d4eb403aadbc4da91b16f7cabb2bb820",
   "software": {
     "name": "LanguageTool",
     "version": "6.6",
@@ -8,213 +9,208 @@
     "premium": false,
     "status": ""
   },
-  "coverage": "whole reader.txt, 51 chapters",
-  "signals": 1015,
-  "corrected_after_initial_pass": [
-    "Делянка стало → стала",
-    "в всходы → во всходы",
-    "с слабыми → со слабыми",
-    "Кей → Кай",
-    "Джулие → Джулии (отдельная словоформа)",
-    "Зелёня → Зеленя",
-    "согласование деепричастий",
-    "запятая в увозишь, кого можешь"
-  ],
+  "coverage": "whole reader.txt, 51 chapters; all non-dictionary signals in the 12 changed chapters inspected",
+  "signals": 1002,
+  "categories": {
+    "TYPOS": 858,
+    "STYLE": 98,
+    "PUNCTUATION": 18,
+    "GRAMMAR": 25,
+    "EXTEND": 3
+  },
+  "comparison_with_previous_revision": {
+    "previous_signals": 1015,
+    "current_signals": 1002,
+    "difference": -13
+  },
+  "manual_correction_after_check": "«На пост Рэй не вызвал» → «Пост Рэй так и не вызвал»",
   "remaining_rule_decisions": [
     {
       "rule": "MORFOLOGIK_RULE_RU_RU",
-      "signals": 854,
-      "decision": "proper_names_world_terms_and_deliberate_voice_reviewed_as_vocabulary_signals"
+      "signals": 858,
+      "decision": "proper names, world terms and deliberate colloquial forms; reviewed as vocabulary signals"
     },
     {
       "rule": "Many_PNN",
-      "signals": 71,
-      "decision": "advisory_repetition_or_style; deliberate character voice retained; no automatic rewrite"
+      "signals": 60,
+      "decision": "advisory repetition or style; reviewed in context, no automatic rewrite"
     },
     {
       "rule": "OPREDELENIA",
-      "signals": 35,
-      "decision": "advisory_repetition_or_style; deliberate character voice retained; no automatic rewrite"
-    },
-    {
-      "rule": "KAK_PRAVILO",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Unify_PADJ_NN_case",
-      "signals": 2,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Verb_comma_Verb",
-      "signals": 2,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Pravopisanie_slitno1",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+      "signals": 30,
+      "decision": "advisory repetition or style; reviewed in context, no automatic rewrite"
     },
     {
       "rule": "Comma_before_kak",
       "signals": 4,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Unify_PADJ_NN_number",
-      "signals": 2,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "PREP_V_and_Noun",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Pnn_compose_error",
-      "signals": 3,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Parnoje_upotrebl_NI",
-      "signals": 2,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "dlya_togo_chtoby_2",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Verb_and_PREP",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "DoubleNOT",
-      "signals": 2,
-      "decision": "advisory_repetition_or_style; deliberate character voice retained; no automatic rewrite"
-    },
-    {
-      "rule": "ABREV_DOT",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Comma_Chtobi_2VERB",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Sklonenije_chislitelnih",
-      "signals": 2,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Ne_narech",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Verb_number",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "pretenzia_na",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Pravopisanie_po-prezhnemu",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "CHTO_COMMA",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "PUNCT_VB_INF_OBOROT",
-      "signals": 3,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "PREP_C_and_ADJ",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+      "decision": "reviewed in sentence context; not accepted automatically"
     },
     {
       "rule": "DoubleNE",
       "signals": 4,
-      "decision": "advisory_repetition_or_style; deliberate character voice retained; no automatic rewrite"
-    },
-    {
-      "rule": "COMPLEX_SOUZ_PUNCT",
-      "signals": 2,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "V_tom_chisle",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "TO_JE",
-      "signals": 2,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "PUNCT_DPT",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Unify_Adj_NN_case",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "NI_NA_GRAN",
-      "signals": 1,
-      "decision": "advisory_repetition_or_style; deliberate character voice retained; no automatic rewrite"
-    },
-    {
-      "rule": "GDE_COMMA",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "NN_N_pril_prich",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "PREP_Pro_And_Noun",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
-    },
-    {
-      "rule": "Predlogi_iz_s",
-      "signals": 1,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+      "decision": "advisory repetition or style; reviewed in context, no automatic rewrite"
     },
     {
       "rule": "O_P_padeg",
       "signals": 4,
-      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "PUNCT_VB_INF_OBOROT",
+      "signals": 3,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Pnn_compose_error",
+      "signals": 3,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "COMPLEX_SOUZ_PUNCT",
+      "signals": 2,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "DoubleNOT",
+      "signals": 2,
+      "decision": "advisory repetition or style; reviewed in context, no automatic rewrite"
+    },
+    {
+      "rule": "Parnoje_upotrebl_NI",
+      "signals": 2,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Sklonenije_chislitelnih",
+      "signals": 2,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "TO_JE",
+      "signals": 2,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Unify_PADJ_NN_case",
+      "signals": 2,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Unify_PADJ_NN_number",
+      "signals": 2,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Verb_comma_Verb",
+      "signals": 2,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "ABREV_DOT",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "CHTO_COMMA",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Comma_Chtobi_2VERB",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "KAK_PRAVILO",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "NI_NA_GRAN",
+      "signals": 1,
+      "decision": "advisory repetition or style; reviewed in context, no automatic rewrite"
+    },
+    {
+      "rule": "NN_N_pril_prich",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Ne_narech",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "PREP_C_and_ADJ",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "PREP_Pro_And_Noun",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "PREP_V_and_Noun",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "PUNCT_DPT",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Pravopisanie_po-prezhnemu",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Pravopisanie_slitno1",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Predlogi_iz_s",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Unify_Adj_NN_case",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "V_tom_chisle",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Verb_and_PREP",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "Verb_number",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "dlya_togo_chtoby_2",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
+    },
+    {
+      "rule": "pretenzia_na",
+      "signals": 1,
+      "decision": "reviewed in sentence context; not accepted automatically"
     }
   ],
   "examples_preserved": [
-    "Счёт не ихний — речь Гната",
-    "Гесте — имя, не падежная ошибка",
-    "ко всем трёмстам восьмидесяти девяти — дательный падеж",
-    "в двухстах одиннадцати — предложный падеж",
-    "тоже оружие — присоединение, не то же оружие",
-    "Посаженная веточка — причастие от посадить с НН",
-    "чёрным по серому — образ бумаги, не наречие по-серому"
+    "character and world names such as Дживс, Орен, Манос, Семари and прариокка",
+    "colloquial character speech such as «дядь Орен»",
+    "deliberate broken emphasis such as «Он покупает не чтобы иметь»",
+    "case forms independently checked where LanguageTool offered a conflicting heuristic"
   ],
-  "result": "signals_reviewed_with_context; not a certificate of flawless prose"
+  "result": "signals reviewed with context; no unresolved mandatory correction found in the changed passages"
 }
