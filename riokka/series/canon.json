@@ -2,7 +2,22 @@
   "schema_version": 1,
   "project_id": "riokka",
   "status": "requires_reconciliation",
-  "facts": [],
+  "facts": [
+    {
+      "id": "RIOKKA-LAST-MILE-CAPACITY",
+      "statement": "«Последняя миля» вмещает не более 40 живых людей одновременно, включая экипаж и пассажиров.",
+      "status": "author_confirmed",
+      "authority": "Прямое решение автора 13 сентября 2026 года при подготовке книги 2 к вычитке.",
+      "applies_to": [
+        "book-01",
+        "book-02",
+        "book-03",
+        "book-04",
+        "book-05"
+      ],
+      "implementation": "В книге 2 массовая эвакуация Велда выполнена шестью кораблями: 35 велдовцев летят на «Миле» вместе с Каем, Джулией, Тимкой, Ведой и Лусом; ещё 176 — на пяти законных транспортах Сома."
+    }
+  ],
   "source_priority": [
     "author_current_instruction",
     "author_selected_book_master",

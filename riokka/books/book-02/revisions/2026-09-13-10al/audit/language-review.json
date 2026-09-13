@@ -1,6 +1,7 @@
 {
-  "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-  "checked_file_sha256": "6b80a7bd78b97b5a32594466f0c0de62d4eb403aadbc4da91b16f7cabb2bb820",
+  "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+  "checked_file": "derived/reader.txt",
+  "checked_file_sha256": "89154e5f494f038af02a59baaa9e39ba5639563c66d238ad1f4f1c8d25617324",
   "software": {
     "name": "LanguageTool",
     "version": "6.6",
@@ -9,208 +10,221 @@
     "premium": false,
     "status": ""
   },
-  "coverage": "whole reader.txt, 51 chapters; all non-dictionary signals in the 12 changed chapters inspected",
-  "signals": 1002,
+  "coverage": "whole reader.txt, 51 chapters; all 27 non-dictionary signals in the 19 chapters touched by the prose pass or author decisions inspected in context",
+  "signals": 984,
+  "dictionary_signals": 845,
+  "non_dictionary_signals": 139,
   "categories": {
-    "TYPOS": 858,
-    "STYLE": 98,
-    "PUNCTUATION": 18,
+    "EXTEND": 3,
     "GRAMMAR": 25,
-    "EXTEND": 3
+    "PUNCTUATION": 17,
+    "STYLE": 94,
+    "TYPOS": 845
   },
   "comparison_with_previous_revision": {
-    "previous_signals": 1015,
-    "current_signals": 1002,
-    "difference": -13
+    "previous_signals": 1002,
+    "current_signals": 984,
+    "difference": -18
   },
-  "manual_correction_after_check": "«На пост Рэй не вызвал» → «Пост Рэй так и не вызвал»",
-  "remaining_rule_decisions": [
+  "manual_corrections_after_first_author_decision_check": [
+    "«Пятью тридцать шесть» → «Пять по тридцать шесть» в двух расчётах.",
+    "Исправлены две склейки повторённых фраз после автоматической вставки.",
+    "Уточнено перераспределение одной пассажирки между синим и жёлтым транспортами.",
+    "Убраны лишние запятые между однородными придаточными в сцене погрузки.",
+    "Уточнены формулировки шестого допуска, учёта Ерма, отдельной вместимости «Мили» и отдельных манифестов экипажей пяти транспортов."
+  ],
+  "rule_decisions": [
     {
       "rule": "MORFOLOGIK_RULE_RU_RU",
-      "signals": 858,
-      "decision": "proper names, world terms and deliberate colloquial forms; reviewed as vocabulary signals"
+      "signals": 845,
+      "decision": "имена, термины мира и намеренная разговорная речь; не исправляются автоматически"
     },
     {
       "rule": "Many_PNN",
-      "signals": 60,
-      "decision": "advisory repetition or style; reviewed in context, no automatic rewrite"
+      "signals": 59,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
       "rule": "OPREDELENIA",
-      "signals": 30,
-      "decision": "advisory repetition or style; reviewed in context, no automatic rewrite"
+      "signals": 29,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
       "rule": "Comma_before_kak",
       "signals": 4,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "DoubleNE",
-      "signals": 4,
-      "decision": "advisory repetition or style; reviewed in context, no automatic rewrite"
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
       "rule": "O_P_padeg",
       "signals": 4,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "PUNCT_VB_INF_OBOROT",
-      "signals": 3,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
       "rule": "Pnn_compose_error",
       "signals": 3,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
-      "rule": "COMPLEX_SOUZ_PUNCT",
-      "signals": 2,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "DoubleNOT",
-      "signals": 2,
-      "decision": "advisory repetition or style; reviewed in context, no automatic rewrite"
-    },
-    {
-      "rule": "Parnoje_upotrebl_NI",
-      "signals": 2,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "Sklonenije_chislitelnih",
-      "signals": 2,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "TO_JE",
-      "signals": 2,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "rule": "PUNCT_VB_INF_OBOROT",
+      "signals": 3,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
       "rule": "Unify_PADJ_NN_case",
       "signals": 2,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "Unify_PADJ_NN_number",
-      "signals": 2,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
       "rule": "Verb_comma_Verb",
       "signals": 2,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
-      "rule": "ABREV_DOT",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "rule": "Unify_PADJ_NN_number",
+      "signals": 2,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
-      "rule": "CHTO_COMMA",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "rule": "Parnoje_upotrebl_NI",
+      "signals": 2,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
-      "rule": "Comma_Chtobi_2VERB",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "rule": "DoubleNOT",
+      "signals": 2,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "DoubleNE",
+      "signals": 2,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "TO_JE",
+      "signals": 2,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
       "rule": "KAK_PRAVILO",
       "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "NI_NA_GRAN",
-      "signals": 1,
-      "decision": "advisory repetition or style; reviewed in context, no automatic rewrite"
-    },
-    {
-      "rule": "NN_N_pril_prich",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "Ne_narech",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "PREP_C_and_ADJ",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "PREP_Pro_And_Noun",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "PREP_V_and_Noun",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "PUNCT_DPT",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "Pravopisanie_po-prezhnemu",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
       "rule": "Pravopisanie_slitno1",
       "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
-      "rule": "Predlogi_iz_s",
+      "rule": "PREP_V_and_Noun",
       "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "Unify_Adj_NN_case",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "V_tom_chisle",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "Verb_and_PREP",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
-    },
-    {
-      "rule": "Verb_number",
-      "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
       "rule": "dlya_togo_chtoby_2",
       "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "Verb_and_PREP",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "ABREV_DOT",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "Comma_Chtobi_2VERB",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "Sklonenije_chislitelnih",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "Ne_narech",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "Verb_number",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     },
     {
       "rule": "pretenzia_na",
       "signals": 1,
-      "decision": "reviewed in sentence context; not accepted automatically"
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "Pravopisanie_po-prezhnemu",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "CHTO_COMMA",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "PREP_C_and_ADJ",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "COMPLEX_SOUZ_PUNCT",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "V_tom_chisle",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "PUNCT_DPT",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "Unify_Adj_NN_case",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "NI_NA_GRAN",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "SoglasovanieNN_Verb",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "NN_N_pril_prich",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "PREP_Pro_And_Noun",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
+    },
+    {
+      "rule": "Predlogi_iz_s",
+      "signals": 1,
+      "decision": "проверено в контексте; оставшиеся срабатывания являются стилевыми рекомендациями или ложными морфологическими/пунктуационными совпадениями"
     }
   ],
   "examples_preserved": [
-    "character and world names such as Дживс, Орен, Манос, Семари and прариокка",
-    "colloquial character speech such as «дядь Орен»",
-    "deliberate broken emphasis such as «Он покупает не чтобы иметь»",
-    "case forms independently checked where LanguageTool offered a conflicting heuristic"
+    "имена и термины мира: Дживс, Орен, Манос, Семари, прариокка",
+    "разговорная форма Тимки «дядь Орен»",
+    "намеренно обрывистые конструкции персонажей",
+    "правильное причастие «посаженная» и согласование «пять транспортов легли», ошибочно отмеченные эвристикой"
   ],
-  "result": "signals reviewed with context; no unresolved mandatory correction found in the changed passages"
+  "result": "passed_with_advisory_signals; no unresolved mandatory correction in the author-decision passages"
 }

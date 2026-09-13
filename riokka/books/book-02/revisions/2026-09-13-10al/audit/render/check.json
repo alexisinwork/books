@@ -1,20 +1,23 @@
 {
-  "source_html_sha256": "87d0dbd145f5365848396cfccee1417d94f9f4e3d619b4caa0c0f724364c3484",
-  "source_manuscript_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-  "renderer": "LibreOffice 26.2 Writer/Web PDF export",
-  "preview_pdf_sha256": "f88f1394ccd3f31bbd0da9ad0c940e7af96de7d4704691e534fab19c2b451d99",
-  "pages": 387,
+  "source_manuscript_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+  "source_docx": "C:\\Users\\alexi\\Desktop\\Риокка — Книга 2 — Прочие убытки — для вычитки.docx",
+  "source_docx_sha256": "a44403895fea8352ec1f0368d1536e2adf1f5bfe24ba1cbb11c7695d0219c3d0",
+  "renderer": "LibreOffice 26.2 Writer PDF export",
+  "preview_pdf_sha256": "1be2dfa2b6859f26a955377bdc4fa6094832a33515fdec73258940256db364f4",
+  "pages": 353,
   "sample_pages": [
     1,
     2,
-    97,
-    194,
-    291,
-    387
+    88,
+    176,
+    264,
+    353
   ],
   "empty_pages": [],
   "text_outside_page": [],
+  "min_words_on_nonempty_page": 18,
   "visual_sample": "render/preview.png",
-  "scope": "All PDF pages checked for empty text and out-of-page word bounds; six pages prepared for visual inspection. This is a LibreOffice HTML render, not a browser screenshot.",
-  "visual_result": "passed; six-page contact sheet inspected, no clipping, overlap or missing body text observed"
+  "representative_page": 254,
+  "scope": "All DOCX-rendered PDF pages checked for empty text and out-of-page word bounds; six pages and one full-size evacuation page prepared for visual inspection.",
+  "visual_result": "passed; layout matches the inspected Book 1 template, with no clipping, overlap, missing text or broken typography"
 }

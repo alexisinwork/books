@@ -2,9 +2,9 @@
   "schema_version": 1,
   "project_id": "riokka",
   "book_id": "book-02",
-  "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+  "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
   "record_type": "scenes",
-  "status": "editorial_revision_for_author_review",
+  "status": "author_decisions_applied_for_proofreading",
   "authority": "Факты написанного варианта; не заменяют принятый канон серии.",
   "items": [
     {
@@ -18,12 +18,13 @@
         "После высадки 52 человек показана расцепка Генты; сохранены состав команды, могила Лины и единственный материнский корень. Расцепка — новое связующее решение, которого нет в финале первого тома."
       ],
       "reason": "Разделить этап вывоза и доставку; показать команду и самостоятельность спасённого, связать документы с ответственностью. Сверено с авторским финалом 1 SHA-256 44f3e5…. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 1 (исходная 1); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 1 (исходная 1); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 1,
@@ -31,7 +32,7 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 1,
           "original_chapter": 1,
           "p": 3,
@@ -39,7 +40,7 @@
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O02",
@@ -52,12 +53,13 @@
         "Показаны сорвавшийся первый след брата и уход в мелкие контракты; обещание из финала первого тома сохраняется."
       ],
       "reason": "Устранить двойной вызов и год вместо месяца; дать проверяемое основание доверия Маносу без будущего знания. Проверка стыков: Один приём вызова, длительность карьеры Маноса не сокращена до трёх лет. Сверено с авторским финалом 1 SHA-256 44f3e5…. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация. Союз уже предложен в первом томе; точное место тайника Тимка узнаёт в главе 17. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 2 (исходная 2); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 2 (исходная 2); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 2,
@@ -65,7 +67,7 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 2,
           "original_chapter": 2,
           "p": 211,
@@ -73,7 +75,7 @@
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O03",
@@ -85,12 +87,13 @@
         "Попутный перевозчик Сома с 30 свободными местами и каналом запроса; последняя передача Сальдо."
       ],
       "reason": "Показать доставочную цепь Сальдо и подготовить ограниченный дальнейший маршрут Делянки; убрать невозможные три недели размышления и ошибку про пленённого брата. Проверка стыков: После Семари и четырёх мелких дел включая Сальдо в опыте 27 контрактов; 22 остаются прежними чистыми.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 3 (исходная 3); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 3 (исходная 3); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 3,
@@ -98,7 +101,7 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 3,
           "original_chapter": 3,
           "p": 369,
@@ -106,7 +109,7 @@
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O04",
@@ -118,12 +121,13 @@
         "Возврат насосной запчасти после отказа идентификации, ручной водовоз и локальная площадка."
       ],
       "reason": "Сделать последствия стирания материальными; различить наблюдение и догадку об общем исполнителе. Проверка стыков: После Семари и четырёх мелких дел включая Сальдо в опыте 27 контрактов; 22 остаются прежними чистыми.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 4 (исходная 4); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 4 (исходная 4); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 4,
@@ -131,7 +135,7 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 4,
           "original_chapter": 4,
           "p": 467,
@@ -139,7 +143,7 @@
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O05",
@@ -151,12 +155,13 @@
         "Тилла перебирает семена; изготовленные жителями носилки; примерка маршрута переноски."
       ],
       "reason": "Развить самостоятельную работу Зелени и Тиллы, подготовить погрузку и убрать знание числа мест из будущей главы. Проверка стыков: Велд ещё впереди; родной мир Джулии Кай знает из рассказа, а не видел сам. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 5 (исходная 5); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 5 (исходная 5); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 5,
@@ -164,7 +169,7 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 5,
           "original_chapter": 5,
           "p": 588,
@@ -172,7 +177,7 @@
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O06",
@@ -184,12 +189,13 @@
         "Перекрёстная проверка чужих посадок и снятия с рейса; договор с распорядителем; одно дополнительное место после снятия ложа; маршрут через перевозчика Сома пока запрошен."
       ],
       "reason": "Сохранить 71 спасаемого и цену ящика, показать цену и ограничение подмены имён, не считать отказ матери волей Сейки. Проверка стыков: После Семари и четырёх мелких дел включая Сальдо в опыте 27 контрактов; 22 остаются прежними чистыми. Проверка стыков: Не все владельцы освободившихся мест умерли; возврат имён и риск двойной записи оставлены открытыми.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 6 (исходная 6); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 6 (исходная 6); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 6,
@@ -197,7 +203,7 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 6,
           "original_chapter": 6,
           "p": 674,
@@ -205,7 +211,7 @@
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O07",
@@ -217,12 +223,13 @@
         "Катер конвоя, семейные связи под чужими именами, связь Зелени с Корнеем и согласованный перевод работницы водовода."
       ],
       "reason": "Объяснить физическую доставку к бую и появление места Зелени; сохранить 71 и её самостоятельный выбор. Проверка стыков: Индивидуальные подтверждения смерти не распространяются на всех; место Деланы освобождает женщина подходящего профиля. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 7 (исходная 7); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 7 (исходная 7); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 7,
@@ -230,7 +237,7 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 7,
           "original_chapter": 7,
           "p": 836,
@@ -238,7 +245,7 @@
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O08",
@@ -251,12 +258,13 @@
         "Прариокка остаётся в климатическом вкладыше; пересадка в обычную землю не производится."
       ],
       "reason": "Закрыть исчезновение пассажиров и различить вывоз, передачу и доставку; не объявлять погибшими 389 по одному исчезновению адреса. Проверка стыков: Проверка конвоя показана как возврат к эпизоду главы 7, не повторная погрузка; согласованы носилки и единственный рукав передачи. Сверено с авторским финалом 1 SHA-256 44f3e5….",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 8 (исходная 8); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 8 (исходная 8); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 8,
@@ -264,7 +272,7 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 8,
           "original_chapter": 8,
           "p": 940,
@@ -272,7 +280,7 @@
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O09",
@@ -284,12 +292,13 @@
         "Спор о записи отказа, ожидание Сейки, распределение остатка воды учениками водников."
       ],
       "reason": "Различить отказ, нехватку мест и смерть; показать действия оставшихся, сохранить точку зрения Корнея. Проверка стыков: Подлинник папки один; POV Корнея не знает будущих Кору и Веду.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 9 (исходная 9); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 9 (исходная 9); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 9,
@@ -297,7 +306,7 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 9,
           "original_chapter": 9,
           "p": 1051,
@@ -305,32 +314,33 @@
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O10",
       "original_chapter": 10,
       "pov": "Кай, первое лицо",
       "state_before": "Миля свободна от 30 пассажиров, они у перевозчика. На экипаже нет лишних едоков. Манос назвал Велд; до транзита остаётся часть суток.",
-      "state_after": "Кай принимает запрос Веды и собирается осмотреть ярус. Джулия и Дживс установили, что большой вывоз требует разгрузки длинномера, независимого воздуха, креплений и прохода, которых ещё нет.",
+      "state_after": "Кай принимает запрос Веды. Проверка трюма фиксирует постоянный предел «Мили»: 40 живых людей вместе с экипажем; большого вывоза одним корпусом быть не может.",
       "new_proposals": [
-        "Обмер грузового отсека и перечень недостающего оборудования; практическая проверка прохода."
+        "Автором утверждён постоянный предел «Последней мили»: 40 живых людей одновременно вместе с экипажем и пассажирами."
       ],
-      "reason": "Заранее поставить предел будущей эвакуации 211; не превращать прежнюю вместимость в молча бесконечный трюм.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "reason": "Заранее поставить предел будущей эвакуации 211; не превращать прежнюю вместимость в молча бесконечный трюм. Решение автора 13 сентября 2026 года: утверждены ответы анкеты; для массовой перевозки применён строгий предел 40 и шестикорабельный маршрут.",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 10 (исходная 10); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 10 (исходная 10); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 10,
-      "chapter_sha256": "a0903365606d0c972fa0b5758c9037185d320775fee7538fc178ed74f7bcc655",
+      "chapter_sha256": "997ecaeeb659047ddc48576ce2b908e3caecdbaa41b7cceff2282622ef0a3f35",
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 10,
           "original_chapter": 10,
           "p": 1142,
@@ -338,7 +348,7 @@
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O11",
@@ -350,12 +360,13 @@
         "Проверка двух маршрутов и условные сигналы, незавершённый разговор о выборе корабля с ребёнком."
       ],
       "reason": "Сохранить ранние знания Джулии из оригинала тома 1 и дать ей самостоятельное действие вместо роли советчика. В актуальном первом томе в одиннадцать лет у Джулии было подозрение; голос приказавшего она не распознала.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 11 (исходная 11); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 11 (исходная 11); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 11,
@@ -363,15 +374,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 11,
           "original_chapter": 11,
-          "p": 1246,
+          "p": 1248,
           "quote": "## Глава 11. Та, что считает первой",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O12",
@@ -384,12 +395,13 @@
         "Слухач становится рабочим названием опыта с единственной прариоккой. Возможность контакта проверяется в главе 20; прежний урок Орена о ней не придуман."
       ],
       "reason": "Ограничить новое применение риокки физическим контактом и аппаратурой; подготовить проверку вместо внезапного всесильного растения. Сверено с авторским финалом 1 SHA-256 44f3e5…. Рабочее название введено после Делянки; эксперимент предшествует прорыву.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 12 (исходная 12); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 12 (исходная 12); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 12,
@@ -397,15 +409,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 12,
           "original_chapter": 12,
-          "p": 1326,
+          "p": 1328,
           "quote": "## Глава 12. Медовый мир наоборот",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O13",
@@ -417,12 +429,13 @@
         "Неотправленное сообщение, оплата следующей декады хозяйке, собственная запись об утаивании."
       ],
       "reason": "Сделать сокрытие конкретным поступком с последующим основанием для разговора; не передавать Каю тайное знание.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 13 (исходная 13); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 13 (исходная 13); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 13,
@@ -430,15 +443,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 13,
           "original_chapter": 13,
-          "p": 1434,
+          "p": 1436,
           "quote": "## Глава 13. Поправка ниоткуда",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O14",
@@ -450,12 +463,13 @@
         "Письменный допуск к описи и требование сверки Ведой, перечень аварийного оборудования."
       ],
       "reason": "Дать причинный путь к заключённой и подготовить добычу воздуха через ту же легенду. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 14 (исходная 14); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 14 (исходная 14); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 14,
@@ -463,15 +477,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 14,
           "original_chapter": 14,
-          "p": 1506,
+          "p": 1508,
           "quote": "## Глава 14. Вор ловит вора",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O15",
@@ -483,12 +497,13 @@
         "Совместная проверка статусов пяти записей, отказ Веды отдавать оригинал отдельно от себя, инвентарная карточка регенератора."
       ],
       "reason": "Сохранить свидетельские границы и самостоятельность Веды, устранить шесть дней и телепортацию бумажного оригинала.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 15 (исходная 15); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 15 (исходная 15); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 15,
@@ -496,15 +511,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 15,
           "original_chapter": 15,
-          "p": 1594,
+          "p": 1596,
           "quote": "## Глава 15. Книга имён",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O16",
@@ -516,12 +531,13 @@
         "Ограниченное наблюдение за водой и дощечкой, проверка выхода и физической ловушки."
       ],
       "reason": "Дать вес встрече без преждевременного чтения мыслей Орена и убрать лишние сутки. Проверка стыков: Убрана выдуманная точная речь с Семари о слухаче и заранее понятая забастовка; мотив узнаётся у Орена 33.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 16 (исходная 16); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 16 (исходная 16); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 16,
@@ -529,15 +545,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 16,
           "original_chapter": 16,
-          "p": 1730,
+          "p": 1732,
           "quote": "## Глава 16. Близко",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O17",
@@ -549,12 +565,13 @@
         "Наблюдение через внутреннюю камеру, различение звука вентилятора, договор о безопасном наблюдении без отключения воздуха."
       ],
       "reason": "Сохранить детское любопытство и субъективное чувство без превращения Тимки во всезнающий прибор.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 17 (исходная 17); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 17 (исходная 17); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 17,
@@ -562,15 +579,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 17,
           "original_chapter": 17,
-          "p": 1788,
+          "p": 1790,
           "quote": "## Глава 17. Что слышит инженер",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O18",
@@ -582,12 +599,13 @@
         "Проверка нижнего горизонта Лотом и отметка времени вместо креста; прямое согласие Сивы и её бытовые требования."
       ],
       "reason": "Развить активное участие спасаемых и подготовить полный список; сохранить Сиву субъектом выбора.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 18 (исходная 18); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 18 (исходная 18); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 18,
@@ -595,48 +613,49 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 18,
           "original_chapter": 18,
-          "p": 1888,
+          "p": 1890,
           "quote": "## Глава 18. Перекличка",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O19",
       "original_chapter": 19,
       "pov": "Кай, первое лицо",
-      "state_before": "211 известны по книге, личные ограничения и местонахождение проверяют. Есть опись лома и найден номер регенератора; Миля не подготовлена.",
-      "state_after": "План семейными волнами составлен. Длинномер разгружен; аварийный регенератор и кассеты доставлены к Миле. Треснувшая кассета исключена, стационарная линия яруса работает, ключ у Коры. Проверка подключения и воды ещё впереди.",
+      "state_before": "211 известны по книге, личные ограничения и местонахождение проверяют. «Миля» принимает не более 40 живых вместе с экипажем.",
+      "state_after": "Сом подтвердил пять законных вахтовых транспортов по 36 пассажирских мест. 176 велдовцев распределены между ними, 35 — на «Милю»; вместе с Каем, Джулией, Тимкой, Ведой и Лусом на «Миле» ровно 40. Проверены позывные, списки, связные и системы жизнеобеспечения каждого борта.",
       "new_proposals": [
-        "Снятие резервной установки без отключения действующего воздуха, проверка соседних линий, кассеты и обратимое управление Коры, грузовая площадка по описи Гарма."
+        "Шестикорабельный маршрут: пять законных транспортов Сома для 176 велдовцев и «Последняя миля» для 35 велдовцев плюс пять остальных живых; четыре места на транспортах остаются свободными."
       ],
-      "reason": "Заработать вместимость и двое суток воздуха материальной подготовкой; исключить скрытое отключение чужого дыхания. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "reason": "Заработать вместимость и двое суток воздуха материальной подготовкой; исключить скрытое отключение чужого дыхания. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация. Решение автора 13 сентября 2026 года: утверждены ответы анкеты; для массовой перевозки применён строгий предел 40 и шестикорабельный маршрут.",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 19 (исходная 19); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 19 (исходная 19); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 19,
-      "chapter_sha256": "a3a0e974a6ffddb38c07951cbecd4b701ed2fb4b98738a007e5744ed6d0abea2",
+      "chapter_sha256": "20a2ae4875e8a3a5a5b1c9d942fb16033924f76227adec138a557f69832d2355",
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 19,
           "original_chapter": 19,
-          "p": 2056,
+          "p": 2058,
           "quote": "## Глава 19. План А",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O20",
@@ -649,12 +668,13 @@
         "Корневая среда сохранена; контактирует только внешнее волокно. Срок до транзита Орена продолжает уменьшаться."
       ],
       "reason": "Показать материальный контакт и ограниченный результат, убрать открытый вакуум для незащищённого растения и учебник манипуляций. Сверено с авторским финалом 1 SHA-256 44f3e5….",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 20 (исходная 20); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 20 (исходная 20); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 20,
@@ -662,15 +682,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 20,
           "original_chapter": 20,
-          "p": 2152,
+          "p": 2134,
           "quote": "## Глава 20. Вас не звали",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O21",
@@ -682,12 +702,13 @@
         "Повторный приход исполнителя за печатью, опись Веды, передача под видом лома и подтверждение Джулии."
       ],
       "reason": "Довести вынос Веды до фактического места на корабле, сохранить её действия и показать сведения, которые мог получить Лус.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 21 (исходная 21); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 21 (исходная 21); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 21,
@@ -695,48 +716,49 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 21,
           "original_chapter": 21,
-          "p": 2236,
+          "p": 2218,
           "quote": "## Глава 21. Оказия",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O22",
       "original_chapter": 22,
       "pov": "Гарм, третье лицо",
       "state_before": "Гарм получил приказ ускорить закрытие и исполнить Веду; знает скупщика, не знает его полного плана.",
-      "state_after": "Усиление долгового шлюза снимает обход с карьерного поста. Выход самого Гарма ещё не подтверждён. Он заметил демонтаж регенератора и приказал наблюдать за погрузкой, не задерживая.",
+      "state_after": "Гарм замечает демонтаж регенератора как рассчитанную приманку и подозревает план одного переполненного корабля. Пять обратных плеч закрывающего конвоя в доступной ему ведомости не видны.",
       "new_proposals": [
         "Перераспределение ограниченного караула и серое поле допуска Гарма, подозрение по регенератору."
       ],
-      "reason": "Дать цену усилению охраны и подготовить одинокого учётчика без всеведущего злодея. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "reason": "Дать цену усилению охраны и подготовить одинокого учётчика без всеведущего злодея. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей. Решение автора 13 сентября 2026 года: утверждены ответы анкеты; для массовой перевозки применён строгий предел 40 и шестикорабельный маршрут.",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 22 (исходная 22); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 22 (исходная 22); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 22,
-      "chapter_sha256": "e0a7c129ab2b900e292a5ad5d052efd26faf5d65a789b5cdd6e144d1ac585b7c",
+      "chapter_sha256": "ed6f145558b0eebd985038d4b9e05c89d68769c389b2ff6c8675daabf38d60cb",
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 22,
           "original_chapter": 22,
-          "p": 2338,
+          "p": 2320,
           "quote": "## Глава 22. Свернуть",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O23",
@@ -748,12 +770,13 @@
         "Передача исходных строк, отделение неизвестного от пустого, ранний запрос Кая о соседних операциях без получения будущего числа."
       ],
       "reason": "Дать герою реальную попытку увидеть внешние последствия, сохранить позднее раскрытие 109 и ограничить уверенность Маноса. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 23 (исходная 23); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 23 (исходная 23); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 23,
@@ -761,48 +784,49 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 23,
           "original_chapter": 23,
-          "p": 2418,
+          "p": 2402,
           "quote": "## Глава 23. Расписание",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O24",
       "original_chapter": 24,
       "pov": "Кай, первое лицо",
       "state_before": "Корабль готовят, есть экспериментальный способ имитации на час. До транзита Орена 10 часов, закрытия 14. Право Гарма на людей ограничено приказом сверху.",
-      "state_after": "Кай и Джулия проверили выкуп, два рейса, чужой борт; доступных решений в срок не нашли, не объявляют невозможность всех решений во вселенной. Кай выбирает колонию, Джулия помогает.",
+      "state_after": "Пять законных транспортов дают только 180 мест из необходимых 211. Шестым корпусом остаётся «Миля», строго ограниченная 40 живыми; без слухача она не пройдёт кольцо. Кай выбирает потратить слухача на общий выход конвоя.",
       "new_proposals": [
-        "Проверка допусков Гарма и трёх альтернатив по ресурсам/времени, отказ вытеснять чужих пассажиров."
+        "Проверены выкуп, перегруз, шестой законный транспорт и превышение предела «Мили»; доступный маршрут требует пяти транспортов и «Мили» в одном окне."
       ],
-      "reason": "Сделать выбор следствием конкретных ограничений, нормализовать уменьшающиеся сроки. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "reason": "Сделать выбор следствием конкретных ограничений, нормализовать уменьшающиеся сроки. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей. Решение автора 13 сентября 2026 года: утверждены ответы анкеты; для массовой перевозки применён строгий предел 40 и шестикорабельный маршрут.",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 24 (исходная 24); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 24 (исходная 24); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 24,
-      "chapter_sha256": "c7037d49ba30dcb12a2abd205e768d9e877080f637c773b6f3ee8cde98d701f5",
+      "chapter_sha256": "82293d242164ec80f6852fd69fbaf318e46fca44234cac0018cba5fb83bded4b",
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 24,
           "original_chapter": 24,
-          "p": 2508,
+          "p": 2492,
           "quote": "## Глава 24. Выбери",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O25",
@@ -814,12 +838,13 @@
         "Оставленная кружка, видимый жетон, передача учётчика связному с ответственностью Кая."
       ],
       "reason": "Дать последствия манипуляции и не потерять человека между обещанием и погрузкой.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 25 (исходная 25); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 25 (исходная 25); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 25,
@@ -827,15 +852,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 25,
           "original_chapter": 25,
-          "p": 2592,
+          "p": 2562,
           "quote": "## Глава 25. Цена угла",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O26",
@@ -847,12 +872,13 @@
         "Подготовка проверяемой дезинформации на основе реальных номеров с отделённым списком людей."
       ],
       "reason": "Показать её работу и пределы уверенности, сохранить последующую передачу знания Каю. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 26 (исходная 26); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 26 (исходная 26); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 26,
@@ -860,15 +886,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 26,
           "original_chapter": 26,
-          "p": 2674,
+          "p": 2644,
           "quote": "## Глава 26. Заметает",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O27",
@@ -880,12 +906,13 @@
         "Живое подтверждение дежурного и закрытый незаполненный запрос; подготовка ложки без всезнающего прогноза."
       ],
       "reason": "Показать выбор не знать как поступок, а не магическое изменение памяти. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 27 (исходная 27); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 27 (исходная 27); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 27,
@@ -893,15 +920,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 27,
           "original_chapter": 27,
-          "p": 2754,
+          "p": 2724,
           "quote": "## Глава 27. Своя рука",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O28",
@@ -913,12 +940,13 @@
         "Передача двух выписок Дрозда и обязательство Джулии объяснить отдельный канал, проверка независимости свидетельств."
       ],
       "reason": "Дать Каю показанный источник доводов следующей встречи и сохранить позднее знание о Лусе.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 28 (исходная 28); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 28 (исходная 28); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 28,
@@ -926,15 +954,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 28,
           "original_chapter": 28,
-          "p": 2854,
+          "p": 2824,
           "quote": "## Глава 28. Фальшивый закат",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O29",
@@ -946,12 +974,13 @@
         "Разговор о конкретном уходе за Ореном вместо принятия навязанного морального торга."
       ],
       "reason": "Развить встречу действием и частичным обязательством, сохранить статус пленника и уменьшающийся дедлайн.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 29 (исходная 29); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 29 (исходная 29); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 29,
@@ -959,15 +988,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 29,
           "original_chapter": 29,
-          "p": 2934,
+          "p": 2904,
           "quote": "## Глава 29. Брат",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O30",
@@ -979,12 +1008,13 @@
         "Просмотр действующей формы передачи и пустого поля конечного приёма, конкретный соблазн возвращения Орена к Тимке."
       ],
       "reason": "Сделать отказ трудным и доказательным, не наделяя Кая тайным знанием о будущем приказе.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 30 (исходная 30); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 30 (исходная 30); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 30,
@@ -992,15 +1022,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 30,
           "original_chapter": 30,
-          "p": 3022,
+          "p": 2992,
           "quote": "## Глава 30. Цена, которую он назовёт",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O31",
@@ -1012,12 +1042,13 @@
         "Имя Ерм, проверка его и двух рабочих в книге, прямое признание обмана; фактическая передача сведений и резервный путь."
       ],
       "reason": "Синхронизировать пассажирский учёт и знания до главы 32; вернуть ответственность Кая людям, которых он использовал.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 31 (исходная 31); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 31 (исходная 31); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 31,
@@ -1025,15 +1056,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 31,
           "original_chapter": 31,
-          "p": 3100,
+          "p": 3070,
           "quote": "## Глава 31. Трещина",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O32",
@@ -1045,12 +1076,13 @@
         "Показанная утечка ложного плана; вскрытие крепежа, освобождение нижней двери и проверка пути телом."
       ],
       "reason": "Довести подготовку Джулии до действия, обосновать запасной выход и исключить ложное знание результата обмана. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 32 (исходная 32); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 32 (исходная 32); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 32,
@@ -1058,15 +1090,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 32,
           "original_chapter": 32,
-          "p": 3192,
+          "p": 3162,
           "quote": "## Глава 32. Ва-банк",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O33",
@@ -1079,12 +1111,13 @@
         "Орен задерживает передачу метода и готовность среды, работая с обычными пробами. Прариокка остаётся в тайнике Кая; малый подарок не является вторым материнским корнем."
       ],
       "reason": "Сохранить решение Орена без всеведения и детского знакомства; различить его выбор и обязанность Кая его одобрить. Проверка стыков: Орен не знает пяти будущих целей и не обещает буквального стирания существования растением; его расчёт остаётся личным выбором. Сверено с авторским финалом 1 SHA-256 44f3e5…. Кай называет Веду до того, как Орен употребляет её имя.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 33 (исходная 33); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 33 (исходная 33); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 33,
@@ -1092,15 +1125,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 33,
           "original_chapter": 33,
-          "p": 3256,
+          "p": 3226,
           "quote": "## Глава 33. Плохой садовник",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O34",
@@ -1113,12 +1146,13 @@
         "Рэй требует подготовки метода и среды и знает, что единственный материнский корень остался у Кая."
       ],
       "reason": "Дать физическое напряжение отпусканию, связать подготовку с исходом и удержать два растения раздельно. Сверено с авторским финалом 1 SHA-256 44f3e5….",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 34 (исходная 34); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 34 (исходная 34); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 34,
@@ -1126,15 +1160,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 34,
           "original_chapter": 34,
-          "p": 3362,
+          "p": 3332,
           "quote": "## Глава 34. Тот, кто пришёл сам",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O35",
@@ -1146,12 +1180,13 @@
         "Разговор о снятии ухода, расход из обеспечения Рэя, автономная копия поправки."
       ],
       "reason": "Развить трещину конкретным ограниченным поступком, не превращая её в переход на сторону Кая.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 35 (исходная 35); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 35 (исходная 35); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 35,
@@ -1159,15 +1194,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 35,
           "original_chapter": 35,
-          "p": 3438,
+          "p": 3408,
           "quote": "## Глава 35. Поправка с именем",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O36",
@@ -1180,12 +1215,13 @@
         "Чужой приказ подтверждает риск для Орена, но не доказывает каждый его расчёт."
       ],
       "reason": "Согласовать известное участникам, убрать двойной абзац и арифметическую подмену 30 случаев трёхлетним декадным календарём. Сверено с авторским финалом 1 SHA-256 44f3e5…. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 36 (исходная 36); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 36 (исходная 36); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 36,
@@ -1193,48 +1229,49 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 36,
           "original_chapter": 36,
-          "p": 3516,
+          "p": 3486,
           "quote": "## Глава 36. Узор",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O37",
       "original_chapter": 37,
       "pov": "Кай, первое лицо",
-      "state_before": "Орен отказался, Кай должен сам выбрать действие. Слухач ещё цел после короткой пробы, оборудование подключено.",
-      "state_after": "Кай выбрал колонию. Итоговый расчёт 216 мест: 211+Веда+Кай+Джулия+Тимка+Лус; Ерм и двое рабочих уже внутри 211. Воздух проверен на 2 суток с ограниченным резервом. Тимка знает отказ Орена и обычный росток, остаётся внутри при погрузке.",
+      "state_before": "Орен отказался, Кай должен сам выбрать действие. Слухач готов к часовой нагрузке; шесть корпусов и списки проверены.",
+      "state_after": "Итоговый расчёт подтверждён: 176 велдовцев на пяти транспортах, 35 велдовцев на «Миле»; с Каем, Джулией, Тимкой, Ведой и Лусом на «Миле» строго 40. В ведомости группы Кая 216 человек, экипажи транспортов учитываются отдельно. Тимка знает об отказе Орена и остаётся внутри при погрузке.",
       "new_proposals": [
-        "Итоговая ведомость всех тел, проверка креплений, детская задача внутри корабля и честный ответ об Орене."
+        "Итоговая ведомость шести корпусов, отдельные ресурсы каждого борта, проверка 35 пассажирских креплений «Мили» и детская задача внутри корабля."
       ],
-      "reason": "Закрыть арифметику и передать отказ ребёнку без утешительного переписывания выбора. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "reason": "Закрыть арифметику и передать отказ ребёнку без утешительного переписывания выбора. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей. Решение автора 13 сентября 2026 года: утверждены ответы анкеты; для массовой перевозки применён строгий предел 40 и шестикорабельный маршрут.",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 37 (исходная 37); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 37 (исходная 37); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 37,
-      "chapter_sha256": "80414eb7d3340b9a757422069ba568de5e2924364c665360e5aa42f3ed5168a6",
+      "chapter_sha256": "312e757a7374bb7a43e42822456738ada260b486071a211a7890beb5dc0eb05a",
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 37,
           "original_chapter": 37,
-          "p": 3598,
+          "p": 3568,
           "quote": "## Глава 37. Одна дверь",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O38",
@@ -1246,12 +1283,13 @@
         "Материальная архивная выписка с отвергнутой ссылкой и последняя проверка доступной карты перед выходом."
       ],
       "reason": "Сохранить знания из первого тома и сделать вопрос внешней цены действием, не всеведущим предупреждением. В актуальном первом томе в одиннадцать лет у Джулии было подозрение; голос приказавшего она не распознала.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 38 (исходная 38); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 38 (исходная 38); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 38,
@@ -1259,100 +1297,102 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 38,
           "original_chapter": 38,
-          "p": 3718,
+          "p": 3680,
           "quote": "## Глава 38. Кем заплатишь",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O39",
       "original_chapter": 39,
       "pov": "Кай, первое лицо",
-      "state_before": "Расчёт 216 тел и 2 суток готов, имена 211 проверены. Слухач после короткой пробы готов к часовой нагрузке в защищённой нише. Эффект ложного маршрута неизвестен.",
-      "state_after": "Корабль вошёл в кольцо и состыковался с площадкой. Ложная дверь отвела основной караул. Погрузка дошла до 188, осталось 23; Сива, Лот с сыном и Ерм прошли. Внеплановые запросы изнашивают волокно, тепло/влажность наблюдаются.",
+      "state_before": "Шесть бортов, списки 211 и ресурсы каждого корпуса проверены. Слухач после короткой пробы готов к часовой нагрузке в защищённой нише.",
+      "state_after": "Шесть кораблей вошли в кольцо и состыковались с площадкой. Пять законных транспортов принимают свои цветовые группы; «Миля» принимает 35 велдовцев. Перераспределение одного пассажира использует реальное свободное место без превышения вместимости.",
       "new_proposals": [
-        "Защищённая установка и приёмно-передающий контур, контролируемая стыковка, погрузка Лота/Сивы/Ерма, наблюдение за третьим контуром.",
-        "При контакте в прорыве исходная среда корней сохранена."
+        "Общее окно для шести кораблей, пять связных и цветовые списки, проверка каждого рукава и перенос строки между бортами только после подтверждения свободного ремня."
       ],
-      "reason": "Сделать прорыв последовательностью действий, убрать открытый вакуум, Тиллу с чужого мира и ошибки времени/знания. Проверка стыков: Кора остаётся на пороге до последнего; Ерм не входит дважды; ребёнка выводят действием, а не угрозой остаться строкой. Сверено с авторским финалом 1 SHA-256 44f3e5….",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "reason": "Сделать прорыв последовательностью действий, убрать открытый вакуум, Тиллу с чужого мира и ошибки времени/знания. Проверка стыков: Кора остаётся на пороге до последнего; Ерм не входит дважды; ребёнка выводят действием, а не угрозой остаться строкой. Сверено с авторским финалом 1 SHA-256 44f3e5…. Решение автора 13 сентября 2026 года: утверждены ответы анкеты; для массовой перевозки применён строгий предел 40 и шестикорабельный маршрут.",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 39 (исходная 39); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 39 (исходная 39); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 39,
-      "chapter_sha256": "98d16aa149583f913b60171f26bc7edd6bf75880e0e39ad0659051e96997fa26",
+      "chapter_sha256": "729ec0973929df3197e317b270e2339920aeef26a044c6326708ce12c85112ba",
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 39,
           "original_chapter": 39,
-          "p": 3790,
+          "p": 3752,
           "quote": "## Глава 39. Соседний буй",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O40",
       "original_chapter": 40,
       "pov": "Кай, первое лицо",
-      "state_before": "188, затем 196 из Кориной группы на борту; остальные ещё идут. Кай не слышал частного разговора Дельма в книге 1.",
-      "state_after": "Дживс впервые называет командира по карточке. Дельм закрыл тревогу; мотив и прошлый проход Каю известны только как вывод. После Коры и Ниты 211; с Ведой, тремя членами команды и Лусом 216. Прариокка погибла после выхода.",
+      "state_before": "196 из 211 уже распределены по шести корпусам; остальные ещё идут. «Миля» не может принять сорок первого живого.",
+      "state_after": "Кора закрывает список 211. Лус входит последним отдельным пассажиром; на «Миле» 35 велдовцев плюс Веда, Лус, Кай, Джулия и Тимка — ровно 40. Все шесть кораблей выходят; прариокка погибает после прохода последнего корпуса.",
       "new_proposals": [
-        "Проверка пустого рукава и граница списка Коры, отдельный подсчёт Луса/экипажа, ответ Дельма на повторный запрос."
+        "Отдельный подсчёт Кориной группы, экипажа, Веды и Луса; слухач удерживает общее окно до выхода всех шести кораблей."
       ],
-      "reason": "Свести числа и момент утраты маскировки, показать ограничение нулевых потерь и не додумывать биографию Дельма. Проверка стыков: 211 показано после перехода Коры и Ниты; причина назначения Дельма не утверждается перед оговоркой. Частный разговор Дельма с Касом известен читателю; Кай узнаёт командира по карточке и не знает причин его прежней службы.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "reason": "Свести числа и момент утраты маскировки, показать ограничение нулевых потерь и не додумывать биографию Дельма. Проверка стыков: 211 показано после перехода Коры и Ниты; причина назначения Дельма не утверждается перед оговоркой. Частный разговор Дельма с Касом известен читателю; Кай узнаёт командира по карточке и не знает причин его прежней службы. Решение автора 13 сентября 2026 года: утверждены ответы анкеты; для массовой перевозки применён строгий предел 40 и шестикорабельный маршрут.",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 40 (исходная 40); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 40 (исходная 40); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 40,
-      "chapter_sha256": "d70bd6113d7338e54ea5e6ca76d2399e3014aff90f15ee4a8ef13104599c2035",
+      "chapter_sha256": "4068d37b30f50ec3a8ea79161ed963e458d3c2dfd865e3d601c197164cbec197",
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 40,
           "original_chapter": 40,
-          "p": 3902,
+          "p": 3860,
           "quote": "## Глава 40. Тот, кто стирает строку",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O41",
       "original_chapter": 41,
       "pov": "Кай, первое лицо",
-      "state_before": "Лус на борту по уговору, 216 тел учтены. Кай знает о луче связи; результат дезинформации уже виден.",
+      "state_before": "Лус на «Миле» по уговору; на борту ровно 40 живых. В ведомости группы Кая 216 человек, экипажи пяти транспортов идут по собственным манифестам. Кай знает о луче связи; результат дезинформации уже виден.",
       "state_after": "Лусу обещана безопасная доставка и возвращение передатчика, доступ к делам не дан. Он отдельно внесён пассажиром, просится в будущую команду, получает отказ; позднее высажен на тихом мире.",
       "new_proposals": [
         "Хранение передатчика с распиской, отдельное пассажирское место и явные условия вместо стирания имени.",
         "Рэй не находится на тихом мире. Условия Лусу сообщаются в показанном разговоре; сведения из будущей реплики не используются заранее."
       ],
-      "reason": "Различить спасение, учёт и доверие; сохранить отказ принимать в команду без исчезновения человека из ведомости. Сверено с авторским финалом 1 SHA-256 44f3e5…. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "reason": "Различить спасение, учёт и доверие; сохранить отказ принимать в команду без исчезновения человека из ведомости. Сверено с авторским финалом 1 SHA-256 44f3e5…. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей. Решение автора 13 сентября 2026 года: утверждены ответы анкеты; для массовой перевозки применён строгий предел 40 и шестикорабельный маршрут.",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 41 (исходная 41); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 41 (исходная 41); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 41,
@@ -1360,82 +1400,83 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 41,
           "original_chapter": 41,
-          "p": 3976,
+          "p": 3934,
           "quote": "## Глава 41. Поздно",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O42",
       "original_chapter": 42,
       "pov": "Кай, первое лицо",
-      "state_before": "216 человек летят двое суток. Прариокка погибла, обычный подарок Орена жив. Подтверждений конечной доставки 71 с Делянки пока нет.",
-      "state_after": "211 колонистов и Веда высажены; Сива жива, Лус получил передатчик и ушёл. Подтверждены 30 и 41 по разным маршрутам. Гента осталась складом, 52 первых поселенца на земле. Обычный росток посажен. Веда вошла в команду; Назар родился второй ночью, к числу доставленных не прибавляется. 109 ещё неизвестны.",
+      "state_before": "Шесть кораблей летят двое суток. На «Миле» ровно 40, на пяти транспортах — 176 велдовцев и отдельные экипажи перевозчика. В ведомости группы Кая 216 человек. Прариокка погибла, обычный подарок Орена жив.",
+      "state_after": "Все 211 велдовцев и Веда высажены. Кора называет свою общину «Колонией Велда» и размещает её за гребнем на том же тихом мире, где уже живёт поселение Сати. Подтверждены оба маршрута Делянки; обычный росток посажен; Назар рождается второй ночью.",
       "new_proposals": [
-        "Сцены быта и ремонта в тесном трюме, нехватка воды и мест после посадки; подтверждения обеих частей Делянки; передача обычного ростка; согласие Стеши на имя Назара.",
-        "Возвращение подтверждает оставленную Генту и 52 первых поселенца. Деревянная птица Гната отделена от сланца с его счётом."
+        "Двухсуточный полёт шести кораблей с раздельными перекличками и ремонтом на месте; высадка по шести рампам; «Колония Велда» за гребнем как отдельная община на тихом мире."
       ],
-      "reason": "Завершить физическую доставку и расход ресурсов; восстановить факты выбранной книги 1 и порядок знания, различить совпадающие числа разных групп. Проверка стыков: Стыки с посадкой и последующим отлётом проверены: четыре человека команды; 211 пассажиров и Назар учтены отдельно. Сверено с авторским финалом 1 SHA-256 44f3e5…. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "reason": "Завершить физическую доставку и расход ресурсов; восстановить факты выбранной книги 1 и порядок знания, различить совпадающие числа разных групп. Проверка стыков: Стыки с посадкой и последующим отлётом проверены: четыре человека команды; 211 пассажиров и Назар учтены отдельно. Сверено с авторским финалом 1 SHA-256 44f3e5…. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация. Решение автора 13 сентября 2026 года: утверждены ответы анкеты; для массовой перевозки применён строгий предел 40 и шестикорабельный маршрут.",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 42 (исходная 42); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 42 (исходная 42); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 42,
-      "chapter_sha256": "231f2eecc57d61cead7aadb48da29864b5fac2a918cd7900ff14045346ab3d6d",
+      "chapter_sha256": "62998cd3b26367ea11206e4840b60b8616b1caa2f7e5f3d00f07d20128727dc1",
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 42,
           "original_chapter": 42,
-          "p": 4068,
+          "p": 4026,
           "quote": "## Глава 42. Хорошая плохая земля",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O43",
       "original_chapter": 43,
       "pov": "Кай, первое лицо",
-      "state_before": "Миля остаётся на земле после рождения Назара; общих итогов закрытий ещё нет.",
-      "state_after": "Манос вышел из модуля на попутном борту в окно сверок; след на посту остался. Передаёт полученный свод сразу. Веда помогает различать источники.",
+      "state_before": "Пять транспортов завершили доставку и ушли после приёмки; «Миля» остаётся на земле после рождения Назара.",
+      "state_after": "Джулия сводит расписки пяти транспортов. Манос передаёт неполный свод; Веда помогает отделить доказанные связи от пробелов.",
       "new_proposals": [
         "Предметный рассказ о проходе поста, ограничение ложного списания, сверка зависимых источников с Ведой."
       ],
-      "reason": "Оставить физическую высадку и дальнейшие сцены на одной земле; не делать бумажную смерть магическим щитом, убрать всеведение и повторное утаивание. Сведения из частной сцены Дельма в первом томе не выданы за доступный Маносу служебный приказ.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "reason": "Оставить физическую высадку и дальнейшие сцены на одной земле; не делать бумажную смерть магическим щитом, убрать всеведение и повторное утаивание. Сведения из частной сцены Дельма в первом томе не выданы за доступный Маносу служебный приказ. Решение автора 13 сентября 2026 года: утверждены ответы анкеты; для массовой перевозки применён строгий предел 40 и шестикорабельный маршрут.",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 43 (исходная 43); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 43 (исходная 43); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 43,
-      "chapter_sha256": "fb26386c44a9771e7cb86371cc63b8ab5ecac83fc20e004a8e6b9ae1b2183cd8",
+      "chapter_sha256": "74610d70c98606f9acc6d357f45619434018006addfdba9785ed27573ea70abd",
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 43,
           "original_chapter": 43,
-          "p": 4340,
+          "p": 4268,
           "quote": "## Глава 43. Сроки кончаются у всех",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O44",
@@ -1447,12 +1488,13 @@
         "Разговоры с Гесте и повитухой, записи о инструментах и рождении, процедура передачи без проверки конечного устройства людей."
       ],
       "reason": "Дать старой вине конкретное действие, различить потерю следа и доказанную смерть, убрать выдуманную преемственность кораблей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 44 (исходная 44); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 44 (исходная 44); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 44,
@@ -1460,15 +1502,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 44,
           "original_chapter": 44,
-          "p": 4436,
+          "p": 4364,
           "quote": "## Глава 44. Семьдесят",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O46",
@@ -1481,12 +1523,13 @@
         "Рэй проверяет приказ в связи с методом Орена; второго материнского корня у него нет."
       ],
       "reason": "Развить трещину в убеждениях без мгновенного перехода на сторону брата; убрать недоступное знание и повтор первой реакции. Сверено с авторским финалом 1 SHA-256 44f3e5…. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 45 (исходная 46); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 45 (исходная 46); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 45,
@@ -1494,15 +1537,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 45,
           "original_chapter": 46,
-          "p": 4500,
+          "p": 4428,
           "quote": "## Глава 45. Почерк без имени",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O47",
@@ -1514,12 +1557,13 @@
         "Сверка времени получения, источников и частей итога; отличение совпадения от умысла; запрос имён."
       ],
       "reason": "Сохранить удар 109 и ответственность расширить обзор без ложной причинности, всеведения и подмены неизвестного смертью. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 46 (исходная 47); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 46 (исходная 47); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 46,
@@ -1527,15 +1571,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 46,
           "original_chapter": 47,
-          "p": 4604,
+          "p": 4532,
           "quote": "## Глава 46. Свод",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O48",
@@ -1547,12 +1591,13 @@
         "Разговор взрослых о последствиях, бытовая остановка, проект проверки смежных маршрутов."
       ],
       "reason": "Устранить скрытое знание Дживса и утверждение об идеальном спасении; связать последствия с проверкой будущих маршрутов и подготовить книгу Тимки без опережения событий.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 47 (исходная 48); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 47 (исходная 48); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 47,
@@ -1560,15 +1605,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 47,
           "original_chapter": 48,
-          "p": 4672,
+          "p": 4600,
           "quote": "## Глава 47. Прочие убытки",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O49",
@@ -1580,12 +1625,13 @@
         "Совместное безопасное изготовление и проверка книги, прямое объяснение ребёнку, границы его ответственности."
       ],
       "reason": "Сохранить сильный предметный финал сцены, исправить речь/знания и снять назначение ребёнка моральным спасителем взрослого. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 48 (исходная 49); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 48 (исходная 49); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 48,
@@ -1593,15 +1639,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 48,
           "original_chapter": 49,
-          "p": 4738,
+          "p": 4666,
           "quote": "## Глава 48. Добро пожаловать",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O45",
@@ -1614,12 +1660,13 @@
         "На собрании учтена утрата единственного материнского корня; у Рэя не осталось его спящего двойника."
       ],
       "reason": "Перенести действие после подготовки предмета и знания; сделать союз работающим, ограничить выводы, убрать невозможную стопку удалённых оригиналов. Сверено с авторским финалом 1 SHA-256 44f3e5…. Ручной разбор сигналов LanguageTool: согласование/имена/предлог/пунктуация.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 49 (исходная 45); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 49 (исходная 45); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 49,
@@ -1627,15 +1674,15 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 49,
           "original_chapter": 45,
-          "p": 4826,
+          "p": 4754,
           "quote": "## Глава 49. Недоимка",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O50",
@@ -1647,12 +1694,13 @@
         "Короткая работа с карточкой и креплением стола вместо нового абсолютного морального правила."
       ],
       "reason": "Сохранить известное раскрытие и действующую тему, убрать недоказанный заговор под каждый шаг героя. Финальный стилевой проход: сокращён повторный авторский вывод, усилено действие и разведены голоса персонажей.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 50 (исходная 50); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 50 (исходная 50); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 50,
@@ -1660,48 +1708,49 @@
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 50,
           "original_chapter": 50,
-          "p": 4964,
+          "p": 4892,
           "quote": "## Глава 50. Седьмое",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     },
     {
       "id": "B02-O51",
       "original_chapter": 51,
       "pov": "Кай, первое лицо",
-      "state_before": "Недоимка создана. 109 мест пусты. 52 первых поселенца и новые группы на земле, Веда в экипаже. Прариокка погибла, обычный росток посажен.",
-      "state_after": "Миля с Каем, Джулией, Тимкой и Ведой отправилась через пополнение к последней подтверждённой линии перевода Орена. Дальнейший адрес ещё ищут. Гента остаётся складом, регенератор требует расходников перед новой массовой посадкой.",
+      "state_before": "Недоимка создана; 109 мест пусты. На тихом мире действуют поселение Сати и «Колония Велда». Веда вошла в команду; прариокка погибла, обычный росток посажен.",
+      "state_after": "«Миля» с Каем, Джулией, Тимкой и Ведой уходит через пополнение к последней подтверждённой линии перевода Орена. У люка закреплено постоянное правило: не более 40 живых. Для нового массового вывоза нужны отдельные корабли и маршруты.",
       "new_proposals": [
-        "Прощания и проверка остатков, неизменность физической вместимости корабля, первый этап нового курса с ограничением достоверности."
+        "Постоянная бирка о пределе 40; пять временных транспортов не становятся частью «Мили»; новый курс начинается только с подтверждённого участка."
       ],
-      "reason": "Закончить последствия главных предметов и обязательств без нового всеведения, невозможного глобального уничтожения всех ключей и обещания заранее знать цену.",
-      "decision": "applied_for_author_review",
-      "prose_check": "full manuscript style pass; character-voice and repetition review recorded in audit/PROSE-PASS.md",
+      "reason": "Закончить последствия главных предметов и обязательств без нового всеведения, невозможного глобального уничтожения всех ключей и обещания заранее знать цену. Решение автора 13 сентября 2026 года: утверждены ответы анкеты; для массовой перевозки применён строгий предел 40 и шестикорабельный маршрут.",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "prose_check": "full manuscript prose pass; LanguageTool signals manually triaged; author decisions recorded in AUTHOR-QUESTIONS.md",
       "verification": {
-        "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
-        "scope": "Глава 51 (исходная 51); текст, голос, стыки и состояние",
-        "result": "passed_with_editorial_questions",
+        "file": "revised.md",
+        "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+        "scope": "Глава 51 (исходная 51); текст, голос, стыки, знания и состояние",
+        "result": "passed",
         "report": "audit/PROSE-PASS.md"
       },
       "chapter": 51,
-      "chapter_sha256": "4a51ad9feed3b9e8cebf60ff3961a9177a9b92da1a211930a53f2e5b99726e4b",
+      "chapter_sha256": "8c19b9e25da598f786c8ee276b90e7686e9f5128a3a7350fbdb8b2bdf6571064",
       "anchors": [
         {
           "source": "revised.md",
-          "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502",
+          "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
           "chapter": 51,
           "original_chapter": 51,
-          "p": 4992,
+          "p": 4920,
           "quote": "## Глава 51. Те, кого ещё можно посадить",
           "verification_status": "verified"
         }
       ],
-      "source_sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
     }
   ]
 }

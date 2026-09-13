@@ -61,7 +61,7 @@
       },
       "new_source": {
         "path": "revisions/2026-09-13-10al/revised.md",
-        "sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+        "sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
       },
       "previous_book": {
         "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
@@ -71,21 +71,38 @@
       "readable_changes": "revisions/2026-09-13-10al/БЫЛО-СТАЛО.md",
       "continuity": "revisions/2026-09-13-10al/continuity",
       "affected_checks": "revisions/2026-09-13-10al/audit/PROSE-PASS.md",
-      "remaining_questions": [
-        "B02-03",
-        "B02-04",
-        "B02-05",
-        "B02-06",
-        "B02-13",
-        "B02-15",
-        "B02-19",
-        "B02-20",
-        "B02-21",
-        "B02-22",
-        "B02-23",
-        "B02-24"
-      ],
+      "remaining_questions": [],
       "scope_note": "Изменены язык и сценическое действие в 12 главах; сюжетные состояния, мастер 2 и оригиналы не изменены."
+    },
+    {
+      "id": "B02-AUTHOR-DECISIONS-20260913",
+      "date": "2026-09-13",
+      "decision": "author_confirmed_and_applied_for_proofreading",
+      "reason": "Применены ответы автора на 12 вопросов; для пункта 3 установлен постоянный предел «Мили» 40 живых и построен шестикорабельный маршрут; пункт 12 решён после проверки книги 3.",
+      "old_source": {
+        "path": "revisions/2026-09-13-10al/archive/revised-before-author-decisions-72876834.md",
+        "sha256": "728768347f81b43e43b83ba8063fd3bcf92676584177ebfca516a49ddcf0c502"
+      },
+      "new_source": {
+        "path": "revisions/2026-09-13-10al/revised.md",
+        "sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985"
+      },
+      "previous_book": {
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "status": "author_selected"
+      },
+      "next_book_checked": {
+        "path": "../book-03/manuscript/master.md",
+        "sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+        "scope": "начало, общая линия и поиск сведений о Делянке/Корнее"
+      },
+      "answers": "revisions/2026-09-13-10al/AUTHOR-QUESTIONS.md",
+      "changes": "revisions/2026-09-13-10al/changes.json",
+      "readable_changes": "revisions/2026-09-13-10al/БЫЛО-СТАЛО.md",
+      "continuity": "revisions/2026-09-13-10al/continuity",
+      "affected_checks": "revisions/2026-09-13-10al/audit/REPORT.md",
+      "remaining_questions": [],
+      "scope_note": "Оригинал и мастер книги 2 не переписаны; изменён отдельный рабочий вариант для авторской вычитки."
     }
   ]
 }
