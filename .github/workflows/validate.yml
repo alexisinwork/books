@@ -3,6 +3,14 @@ on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
 jobs:
+  ensemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Editorial ensemble tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Validate shared agent skills
+        run: python3 tools/editorial_ensemble.py validate-schemas
   validate:
     runs-on: ubuntu-latest
     strategy:

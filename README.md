@@ -22,3 +22,5 @@
 Файл «Система работы с книгами» сохранён и применён в default/methods/history и default/guides/SYSTEM-APPLICATION.md. Инструменты, проверки и рабочие формы развивают эту систему.
 
 Рабочий репозиторий — [alexisinwork/books](https://github.com/alexisinwork/books). Текущее размещение описано в [DELIVERY-STATUS.json](DELIVERY-STATUS.json); [WORKSPACE-VALIDATION.json](WORKSPACE-VALIDATION.json) хранит отчёт исходной поставки, а новые прогоны фиксируются отдельно с версией и охватом.
+
+Независимая редакторская система для ChatGPT/Codex, Claude Code и Gemini CLI описана в [EDITORIAL-ENSEMBLE.md](EDITORIAL-ENSEMBLE.md). Общие навыки находятся в `.agents/skills`, а `CLAUDE.md` и `GEMINI.md` подключают единый `AGENTS.md` без отдельного набора канона.

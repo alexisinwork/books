@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/alexisinwork/books/editorial/schemas/run.schema.json",
+  "title": "Editorial ensemble run",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "run_id",
+    "project_id",
+    "book_id",
+    "status",
+    "source",
+    "reader",
+    "reports",
+    "author_decisions",
+    "issue_ledger"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "run_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "project_id": {"type": "string", "minLength": 1},
+    "book_id": {"type": "string", "minLength": 1},
+    "status": {
+      "enum": [
+        "prepared",
+        "diagnosis_in_progress",
+        "diagnoses_complete",
+        "reconciled",
+        "author_decided",
+        "verified"
+      ]
+    },
+    "source": {"$ref": "#/$defs/artifact"},
+    "reader": {"$ref": "#/$defs/artifact"},
+    "reports": {
+      "type": "object",
+      "required": ["astra", "claude", "gemini", "reconciliation", "verification"],
+      "additionalProperties": {"$ref": "#/$defs/report"}
+    },
+    "author_decisions": {"$ref": "#/$defs/report"},
+    "issue_ledger": {"type": "string", "const": "issue-ledger.json"}
+  },
+  "$defs": {
+    "artifact": {
+      "type": "object",
+           "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "status": {"type": "string"},
+        "authority": {"type": "string"},
+        "relation": {"type": "string"}
+      }
+    },
+    "report": {
+      "type": "object",
+      "required": ["file", "status", "sha256"],
+      "properties": {
+        "file": {"type": "string", "minLength": 1},
+        "status": {"enum": ["draft", "locked"]},
+        "sha256": {
+          "oneOf": [
+            {"type": "null"},
+            {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+          ]
+        },
+        "locked_at": {"type": "string"}
+      }
+    }
+  }
+}

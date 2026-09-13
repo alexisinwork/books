@@ -1,13 +1,57 @@
 {
-  "count_excluding_this_index": 1116,
+  "count_excluding_this_index": 1141,
   "files": [
+    {
+      "path": ".agents/skills/ru-approved-revision/SKILL.md",
+      "bytes": 3496
+    },
+    {
+      "path": ".agents/skills/ru-approved-revision/agents/openai.yaml",
+      "bytes": 320
+    },
+    {
+      "path": ".agents/skills/ru-chief-editor/SKILL.md",
+      "bytes": 3445
+    },
+    {
+      "path": ".agents/skills/ru-chief-editor/agents/openai.yaml",
+      "bytes": 280
+    },
+    {
+      "path": ".agents/skills/ru-cold-reader/SKILL.md",
+      "bytes": 2918
+    },
+    {
+      "path": ".agents/skills/ru-cold-reader/agents/openai.yaml",
+      "bytes": 313
+    },
+    {
+      "path": ".agents/skills/ru-editorial-reconciler/SKILL.md",
+      "bytes": 2943
+    },
+    {
+      "path": ".agents/skills/ru-editorial-reconciler/agents/openai.yaml",
+      "bytes": 334
+    },
+    {
+      "path": ".agents/skills/ru-literary-editor/SKILL.md",
+      "bytes": 3359
+    },
+    {
+      "path": ".agents/skills/ru-literary-editor/agents/openai.yaml",
+      "bytes": 293
+    },
+    {
+      "path": ".claude/skills",
+      "bytes": 17
+    },
     {
       "path": ".gitattributes",
       "bytes": 597
     },
     {
       "path": ".github/workflows/validate.yml",
-      "bytes": 534
+      "bytes": 820
     },
     {
       "path": ".gitignore",
@@ -15,7 +59,11 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 6335
+      "bytes": 8473
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 1284
     },
     {
       "path": "CREATE-REPOSITORY.md",
@@ -26,12 +74,20 @@
       "bytes": 4256
     },
     {
+      "path": "EDITORIAL-ENSEMBLE.md",
+      "bytes": 11670
+    },
+    {
+      "path": "GEMINI.md",
+      "bytes": 1582
+    },
+    {
       "path": "INDEX.md",
-      "bytes": 2998
+      "bytes": 3100
     },
     {
       "path": "README.md",
-      "bytes": 4290
+      "bytes": 4663
     },
     {
       "path": "SOURCE-CATALOG.json",
@@ -39,7 +95,7 @@
     },
     {
       "path": "SOURCE-OF-TRUTH.md",
-      "bytes": 8164
+      "bytes": 9368
     },
     {
       "path": "STYLE.md",
@@ -1344,6 +1400,42 @@
     {
       "path": "default/tools/verify_sources.py",
       "bytes": 1868
+    },
+    {
+      "path": "editorial/schemas/issue-ledger.schema.json",
+      "bytes": 4006
+    },
+    {
+      "path": "editorial/schemas/run.schema.json",
+      "bytes": 2018
+    },
+    {
+      "path": "editorial/templates/astra-diagnosis.md",
+      "bytes": 1205
+    },
+    {
+      "path": "editorial/templates/author-decisions.md",
+      "bytes": 699
+    },
+    {
+      "path": "editorial/templates/claude-diagnosis.md",
+      "bytes": 1239
+    },
+    {
+      "path": "editorial/templates/gemini-blind-read.md",
+      "bytes": 1496
+    },
+    {
+      "path": "editorial/templates/issue-ledger.json",
+      "bytes": 195
+    },
+    {
+      "path": "editorial/templates/reconciliation.md",
+      "bytes": 1221
+    },
+    {
+      "path": "editorial/templates/verification.md",
+      "bytes": 1137
     },
     {
       "path": "kontakt/.gitattributes",
@@ -4464,6 +4556,14 @@
     {
       "path": "riokka/tools/verify_sources.py",
       "bytes": 1868
+    },
+    {
+      "path": "tests/test_editorial_ensemble.py",
+      "bytes": 5995
+    },
+    {
+      "path": "tools/editorial_ensemble.py",
+      "bytes": 26680
     }
   ]
 }
