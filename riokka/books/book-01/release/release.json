@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_id": "riokka",
   "book_id": "book-01",
-  "source_sha256": null,
+  "source_sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
   "record_type": "release/release",
   "fields": [
     "id",
@@ -13,5 +13,37 @@
     "remaining_decisions",
     "end_state_version"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "verification-2026-09-13-author-final",
+      "file": "manuscript/master.docx",
+      "sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
+      "date": "2026-09-13",
+      "checks_done": [
+        "42/42 chapters manually audited by three independent readers",
+        "material findings cross-reviewed",
+        "snapshot and exact-anchor guards",
+        "LanguageTool 6.6 full-text run",
+        "DOCX package inspection",
+        "LibreOffice 26.2.6.3 PDF render",
+        "DOCX/PDF normalized-text identity",
+        "visual review of pages 1-252",
+        "12/12 project unit tests",
+        "studio doctor",
+        "source-original verification"
+      ],
+      "remaining_decisions": [
+        "FINAL-TIME-01",
+        "FINAL-TIME-02",
+        "FINAL-CAUSE-01",
+        "FINAL-KNOW-01",
+        "FINAL-TECH-01",
+        "FINAL-LAYOUT-01",
+        "FINAL-LINE-01"
+      ],
+      "end_state_version": "end-state.json@44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
+      "status": "failed_release_gate",
+      "report": "audit/final-2026-09-13/OVERALL.md"
+    }
+  ]
 }

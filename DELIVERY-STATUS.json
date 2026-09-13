@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
   "delivery": "versioned_github_workspace",
   "github": {
     "created": true,
@@ -20,18 +20,28 @@
     "byte_identical": true
   },
   "book_1": {
-    "baseline": "Author-final DOCX read by the brother",
+    "baseline": "Author-selected final DOCX copied from Windows Desktop on 2026-09-13",
+    "master": "riokka/books/book-01/manuscript/master.docx",
+    "master_sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
     "changed_paragraphs": 204,
     "revision": "riokka/books/book-01/revisions/2026-09-12/revised.docx",
     "change_log": "riokka/books/book-01/revisions/2026-09-12/ALL-CHANGES.md",
-    "text_validation": "passed",
+    "revision_status": "superseded_by_author_selected_final",
+    "text_validation": "failed_release_gate_open_critical_issues",
+    "verification_report": "riokka/books/book-01/audit/final-2026-09-13/OVERALL.md",
+    "chapter_coverage": "42/42",
     "visual_review": {
-      "pages_viewed": 172,
+      "pages_viewed": 252,
       "total_pages": 252,
-      "complete": false,
-      "reason": "Stopped at author request to deliver immediately."
+      "complete": true,
+      "result": "Three unintended blank pages found: 177, 191, 220."
     },
-    "promoted_to_author_final": false
+    "promoted_to_author_final": true,
+    "open_critical_issues": [
+      "FINAL-TIME-01",
+      "FINAL-TIME-02",
+      "FINAL-CAUSE-01"
+    ]
   },
   "coverage": {
     "riokka": "Six novels, stories and working system; Book 1 revised. Other novels have inventory and selected continuity analysis, not a full semantic audit.",

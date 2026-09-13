@@ -4,22 +4,30 @@
   "book_id": "book-01",
   "title": "Антидот с Семари",
   "book_type": "fiction",
-  "stage": "revision_for_author_review",
+  "stage": "author_final_reverification_with_open_issues",
   "master": {
     "path": "manuscript/master.docx",
     "format": "docx",
-    "sha256": "ae84ad2fe0f044d9888f20d3def629d8afeacc39bf56d0525827c9b93d82fcba",
+    "sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
     "status": "author_selected",
-    "authority": "Окончательный DOCX по прямому указанию автора; его читал брат"
+    "authority": "Автор 13 сентября 2026 года указал DOCX с Windows Desktop как окончательную отредактированную и перепроверенную версию книги 1."
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "25_issue_groups_addressed_in_separate_revision",
+  "audit_status": "42_chapters_rechecked_release_gate_failed",
   "original": "../../sources/originals/Контрактник Риокка — Книга 1 — Антидот с Семари.docx",
   "working_revision": {
     "path": "revisions/2026-09-12/revised.docx",
     "sha256": "adc44ba62e68b4d9cb9c9dbb1f2c138cc248ba2731bb6ff884d4c5916924f059",
-    "status": "applied_for_author_review",
+    "status": "superseded_by_author_selected_final",
     "changes": "revisions/2026-09-12/ALL-CHANGES.md"
+  },
+  "final_verification": {
+    "date": "2026-09-13",
+    "source_sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
+    "report": "audit/final-2026-09-13/OVERALL.md",
+    "manual_change_sheet": "audit/final-2026-09-13/MANUAL-BEFORE-AFTER.md",
+    "chapter_coverage": "42/42",
+    "status": "failed_release_gate_open_critical_issues"
   }
 }

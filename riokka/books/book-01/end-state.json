@@ -2,18 +2,33 @@
   "schema_version": 1,
   "project_id": "riokka",
   "book_id": "book-01",
-  "source_sha256": "ae84ad2fe0f044d9888f20d3def629d8afeacc39bf56d0525827c9b93d82fcba",
-  "status": "reconciled_in_prior_audit",
+  "source_sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
+  "status": "verified_against_author_selected_master",
   "reconciliation": {
     "rescued_from_semari_alive": 49,
     "lina_dead": 1,
     "oren_with_rey": 1,
     "additional_family": 5,
+    "alive_before_oren_departure": 54,
     "passengers_with_kai_before_settlement": 53,
     "timka_leaves_with_kai": 1,
-    "settlers_remaining_proposed_explicit_count": 52,
+    "settlers_remaining_explicit_count": 52,
+    "antidote_briquettes_taken": 60,
+    "antidote_briquettes_reserved_separately": 8,
+    "antidote_briquettes_used_for_decoy": 1,
+    "antidote_briquettes_remaining": 7,
     "rule_seven_revealed_to_reader": true
   },
-  "evidence_reference": "audit/editorial-map.json",
-  "note": "52 оставшихся поселенца — расчёт согласования, предложенный для явного закрепления в тексте; не готовая новая цитата."
+  "evidence_reference": "audit/final-2026-09-13/OVERALL.md",
+  "verification": {
+    "date": "2026-09-13",
+    "coverage": "chapters 1-42",
+    "result": "passed_for_counts_resources_and_final_state",
+    "remaining_questions": [
+      "FINAL-CAUSE-01",
+      "FINAL-TIME-01",
+      "FINAL-TIME-02"
+    ]
+  },
+  "note": "Число 52 прямо закреплено в p1228 текущего мастера. Открытые вопросы времени и приёмки не меняют подтверждённый конечный счёт."
 }
