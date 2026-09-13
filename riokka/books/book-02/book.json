@@ -4,7 +4,7 @@
   "book_id": "book-02",
   "title": "Прочие убытки",
   "book_type": "fiction",
-  "stage": "manuscript_received",
+  "stage": "editorial_revision_completed",
   "master": {
     "path": "manuscript/master.md",
     "format": "text",
@@ -14,15 +14,20 @@
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "inventory_only",
+  "audit_status": "source51_read_revision_checked_open_canon_proposals",
   "original": "../../sources/originals/КОНТРАКТНИК-2-Прочие-убытки.md",
   "working_revision": {
     "path": "revisions/2026-09-13-10al/revised.md",
     "format": "text",
-    "sha256": "822c97c481a1160e3a9da8d1c45a787173322c0146938a136426490a64273942",
-    "status": "in_progress_for_author_review",
+    "sha256": "7b7b9f332cd2477632b2f44fa54b97bd147b19ee4055ad737fc47151372d295b",
+    "status": "completed_for_author_review",
     "source_sha256": "81641a85ee25e78bc1e57348b279e7a88317551b166cfa831f33bd8f99431d32",
     "continuity": "revisions/2026-09-13-10al/continuity",
-    "change_log": "revisions/2026-09-13-10al/changes.diff"
+    "change_log": "revisions/2026-09-13-10al/БЫЛО-СТАЛО.md",
+    "previous_book_sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
+    "printed_chars_with_spaces": 405856,
+    "author_sheets": 10.1464,
+    "transition": "revisions/2026-09-13-10al/TRANSITION-BOOK-1.md",
+    "audit": "revisions/2026-09-13-10al/audit/REPORT.md"
   }
 }

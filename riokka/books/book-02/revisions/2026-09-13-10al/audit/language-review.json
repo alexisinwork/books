@@ -1,0 +1,220 @@
+{
+  "source_sha256": "7b7b9f332cd2477632b2f44fa54b97bd147b19ee4055ad737fc47151372d295b",
+  "software": {
+    "name": "LanguageTool",
+    "version": "6.6",
+    "buildDate": "2025-03-27 20:50:25 +0100",
+    "apiVersion": 1,
+    "premium": false,
+    "status": ""
+  },
+  "coverage": "whole reader.txt, 51 chapters",
+  "signals": 1015,
+  "corrected_after_initial_pass": [
+    "Делянка стало → стала",
+    "в всходы → во всходы",
+    "с слабыми → со слабыми",
+    "Кей → Кай",
+    "Джулие → Джулии (отдельная словоформа)",
+    "Зелёня → Зеленя",
+    "согласование деепричастий",
+    "запятая в увозишь, кого можешь"
+  ],
+  "remaining_rule_decisions": [
+    {
+      "rule": "MORFOLOGIK_RULE_RU_RU",
+      "signals": 854,
+      "decision": "proper_names_world_terms_and_deliberate_voice_reviewed_as_vocabulary_signals"
+    },
+    {
+      "rule": "Many_PNN",
+      "signals": 71,
+      "decision": "advisory_repetition_or_style; deliberate character voice retained; no automatic rewrite"
+    },
+    {
+      "rule": "OPREDELENIA",
+      "signals": 35,
+      "decision": "advisory_repetition_or_style; deliberate character voice retained; no automatic rewrite"
+    },
+    {
+      "rule": "KAK_PRAVILO",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Unify_PADJ_NN_case",
+      "signals": 2,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Verb_comma_Verb",
+      "signals": 2,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Pravopisanie_slitno1",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Comma_before_kak",
+      "signals": 4,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Unify_PADJ_NN_number",
+      "signals": 2,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "PREP_V_and_Noun",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Pnn_compose_error",
+      "signals": 3,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Parnoje_upotrebl_NI",
+      "signals": 2,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "dlya_togo_chtoby_2",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Verb_and_PREP",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "DoubleNOT",
+      "signals": 2,
+      "decision": "advisory_repetition_or_style; deliberate character voice retained; no automatic rewrite"
+    },
+    {
+      "rule": "ABREV_DOT",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Comma_Chtobi_2VERB",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Sklonenije_chislitelnih",
+      "signals": 2,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Ne_narech",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Verb_number",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "pretenzia_na",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Pravopisanie_po-prezhnemu",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "CHTO_COMMA",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "PUNCT_VB_INF_OBOROT",
+      "signals": 3,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "PREP_C_and_ADJ",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "DoubleNE",
+      "signals": 4,
+      "decision": "advisory_repetition_or_style; deliberate character voice retained; no automatic rewrite"
+    },
+    {
+      "rule": "COMPLEX_SOUZ_PUNCT",
+      "signals": 2,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "V_tom_chisle",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "TO_JE",
+      "signals": 2,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "PUNCT_DPT",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Unify_Adj_NN_case",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "NI_NA_GRAN",
+      "signals": 1,
+      "decision": "advisory_repetition_or_style; deliberate character voice retained; no automatic rewrite"
+    },
+    {
+      "rule": "GDE_COMMA",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "NN_N_pril_prich",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "PREP_Pro_And_Noun",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "Predlogi_iz_s",
+      "signals": 1,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    },
+    {
+      "rule": "O_P_padeg",
+      "signals": 4,
+      "decision": "context_reviewed; remaining signals not accepted as mandatory corrections"
+    }
+  ],
+  "examples_preserved": [
+    "Счёт не ихний — речь Гната",
+    "Гесте — имя, не падежная ошибка",
+    "ко всем трёмстам восьмидесяти девяти — дательный падеж",
+    "в двухстах одиннадцати — предложный падеж",
+    "тоже оружие — присоединение, не то же оружие",
+    "Посаженная веточка — причастие от посадить с НН",
+    "чёрным по серому — образ бумаги, не наречие по-серому"
+  ],
+  "result": "signals_reviewed_with_context; not a certificate of flawless prose"
+}

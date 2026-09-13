@@ -1,0 +1,17 @@
+{
+  "tests": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_live_canon_is_not_copied_as_clean_template (test_studio.ProjectCreationTests.test_live_canon_is_not_copied_as_clean_template) ... ok\ntest_new_project_refuses_symlink_and_unsafe_nesting (test_studio.ProjectCreationTests.test_new_project_refuses_symlink_and_unsafe_nesting) ... ok\ntest_new_project_resets_connections_and_book_state (test_studio.ProjectCreationTests.test_new_project_resets_connections_and_book_state) ... ok\ntest_candidate_is_not_silently_author_selected (test_studio.StudioTests.test_candidate_is_not_silently_author_selected) ... ok\ntest_clean_creation_and_independent_voice (test_studio.StudioTests.test_clean_creation_and_independent_voice) ... ok\ntest_context_carries_style_and_points_to_the_selected_canon_and_state (test_studio.StudioTests.test_context_carries_style_and_points_to_the_selected_canon_and_state) ... ok\ntest_context_is_scoped_and_does_not_overwrite (test_studio.StudioTests.test_context_is_scoped_and_does_not_overwrite) ... ok\ntest_differentiation_warns_only_when_requested (test_studio.StudioTests.test_differentiation_warns_only_when_requested) ... ok\ntest_fake_docx_requires_explicit_text_choice (test_studio.StudioTests.test_fake_docx_requires_explicit_text_choice) ... ok\ntest_hash_guard_prevents_stale_evidence (test_studio.StudioTests.test_hash_guard_prevents_stale_evidence) ... ok\ntest_new_book_rolls_back_after_manifest_failure (test_studio.StudioTests.test_new_book_rolls_back_after_manifest_failure) ... ok\ntest_refuses_overwrite_and_path_escape (test_studio.StudioTests.test_refuses_overwrite_and_path_escape) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.297s\n\nOK\n"
+  },
+  "doctor": {
+    "exit_code": 0,
+    "stdout": "{\n  \"books\": 7,\n  \"errors\": [],\n  \"warnings\": [\n    \"book-01: voice is a proposal\",\n    \"book-01: no selected master\",\n    \"book-02: voice is a proposal\",\n    \"book-02: no selected master\",\n    \"book-03: voice is a proposal\",\n    \"book-03: no selected master\",\n    \"book-04: voice is a proposal\",\n    \"book-04: no selected master\",\n    \"book-05: voice is a proposal\",\n    \"book-05: no selected master\",\n    \"book-06: voice is a proposal\",\n    \"book-06: no selected master\",\n    \"book-07: voice is a proposal\",\n    \"book-07: no selected master\"\n  ],\n  \"scope\": \"File integrity, IDs and selected version; not prose quality, full canon or layout.\"\n}\n",
+    "stderr": ""
+  },
+  "originals": {
+    "exit_code": 0,
+    "stdout": "{\n  \"checked\": 15,\n  \"errors\": [],\n  \"omnibus_reconstructed\": false,\n  \"scope\": \"Original bytes only; not proof of literary quality or full reading.\"\n}\n",
+    "stderr": ""
+  }
+}

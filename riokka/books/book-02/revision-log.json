@@ -13,5 +13,42 @@
     "affected_checks",
     "decision"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "B02-10AL-20260913",
+      "date": "2026-09-13",
+      "decision": "applied_for_author_review",
+      "reason": "Поручение автора: прочитать том2, довести до10 авторских листов и согласовать переход с обновлённым финалом1.",
+      "old_source": {
+        "path": "manuscript/master.md",
+        "sha256": "81641a85ee25e78bc1e57348b279e7a88317551b166cfa831f33bd8f99431d32"
+      },
+      "new_source": {
+        "path": "revisions/2026-09-13-10al/revised.md",
+        "sha256": "7b7b9f332cd2477632b2f44fa54b97bd147b19ee4055ad737fc47151372d295b"
+      },
+      "previous_book": {
+        "sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
+        "status": "author_selected"
+      },
+      "changes": "revisions/2026-09-13-10al/changes.json",
+      "readable_changes": "revisions/2026-09-13-10al/БЫЛО-СТАЛО.md",
+      "continuity": "revisions/2026-09-13-10al/continuity",
+      "affected_checks": "revisions/2026-09-13-10al/audit/REPORT.md",
+      "remaining_questions": [
+        "B02-03",
+        "B02-04",
+        "B02-05",
+        "B02-06",
+        "B02-13",
+        "B02-15",
+        "B02-19",
+        "B02-20",
+        "B02-21",
+        "B02-22",
+        "B02-23"
+      ],
+      "scope_note": "Мастер2 и оригиналы не изменены. Изменения фактов непринятого варианта не перенесены в канон/тома3–5."
+    }
+  ]
 }

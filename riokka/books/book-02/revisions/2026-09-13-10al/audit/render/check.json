@@ -1,0 +1,33 @@
+{
+  "source_html_sha256": "9e6eaf58b4d33704c9dde59db932a0172fc05ddf6c25d56bf388b9c17a79ae26",
+  "source_manuscript_sha256": "7b7b9f332cd2477632b2f44fa54b97bd147b19ee4055ad737fc47151372d295b",
+  "renderer": "LibreOffice 26.2 Writer/Web PDF export",
+  "preview_pdf_sha256": "36c343c5ccc0148ec3773abc2397bae2c8be29ace4d447a6dae4fa9726af4959",
+  "pages": 388,
+  "sample_pages": [
+    1,
+    3,
+    98,
+    195,
+    292,
+    388
+  ],
+  "empty_pages": [],
+  "text_outside_page": [],
+  "visual_sample": "preview.png",
+  "scope": "All PDF pages checked for empty text and out-of-page word bounds; six pages prepared for visual inspection. This is a LibreOffice HTML render, not a browser screenshot.",
+  "visual_result": "Six sampled pages inspected: Cyrillic text readable, headings and paragraph spacing preserved, no clipping seen. The initially joined TOC links were changed to separate list items before this final render.",
+  "full_pdf_text_match_ignoring_whitespace": false,
+  "pdf_text_match_except_arrow_extraction_order": true,
+  "pdf_text_extraction_limitation": "PDF extraction changes the reading order of arrow glyphs inside flow lines; text and arrow count are preserved. HTML text comparison is exact.",
+  "arrow_glyph_counts": {
+    "source": 12,
+    "pdf": 12
+  },
+  "additional_visual_pages": [
+    43
+  ],
+  "visual_pages_reviewed": 7,
+  "additional_visual_sample": "arrow-page.png",
+  "arrow_visual_result": "Page 43 inspected: arrow glyphs appear in the correct positions. The difference is in PDF text extraction order."
+}

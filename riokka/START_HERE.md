@@ -16,3 +16,5 @@ python tools/studio.py context --book book-01 --task "Выбрать правк�
 В templates/book сохранён чистый образец. Предложения по разной подаче находятся в voice.json каждого тома; они не меняют текст и не утверждены автоматически. Исходные файлы неизменны и перечислены с хешами в sources/source-manifest.json.
 
 Дополнительные проверки — [guides/REPOSITORIES.md](guides/REPOSITORIES.md). Единое хранилище — [SOURCE-OF-TRUTH.md](../SOURCE-OF-TRUTH.md), фактическое размещение — [DELIVERY-STATUS.json](../DELIVERY-STATUS.json).
+
+Том 2 доведён до 10 авторских листов: [текст, было—стало и переход из актуального романа 1](books/book-02/README.md). Это законченная редакторская версия с отдельными состояниями и открытыми решениями канона.

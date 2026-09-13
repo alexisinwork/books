@@ -44,9 +44,37 @@
     ]
   },
   "coverage": {
-    "riokka": "Six novels, stories and working system; Book 1 revised. Other novels have inventory and selected continuity analysis, not a full semantic audit.",
+    "riokka": "Six novels, stories and working system. Book 1 has its separately recorded final audit; Book 2 has a complete 51-chapter editorial revision and transition check against the author-selected Book 1. Other novels retain inventory and selected continuity analysis.",
     "buro": "Three novels copied exactly from omnibus; selected semantic analysis.",
     "kontakt": "Seven book outlines and series materials; no complete manuscripts supplied.",
     "default": "Copyable writing system, scripts, templates and skills."
+  },
+  "book_2": {
+    "revision": "riokka/books/book-02/revisions/2026-09-13-10al/revised.md",
+    "revision_sha256": "7b7b9f332cd2477632b2f44fa54b97bd147b19ee4055ad737fc47151372d295b",
+    "status": "completed_editorial_revision_for_author_review",
+    "printed_chars_with_spaces": 405856,
+    "author_sheets": 10.1464,
+    "chapters": 51,
+    "previous_book_sha256": "44f3e518456591d03ca5800c63d8a5e3a61ef7651926e6c53b9ce0c35515caa3",
+    "transition": "riokka/books/book-02/revisions/2026-09-13-10al/TRANSITION-BOOK-1.md",
+    "change_log": "riokka/books/book-02/revisions/2026-09-13-10al/БЫЛО-СТАЛО.md",
+    "verification_report": "riokka/books/book-02/revisions/2026-09-13-10al/audit/REPORT.md",
+    "promoted_to_author_final": false,
+    "open_issue_ids": [
+      "B02-03",
+      "B02-04",
+      "B02-05",
+      "B02-06",
+      "B02-13",
+      "B02-15",
+      "B02-19",
+      "B02-20",
+      "B02-21",
+      "B02-22",
+      "B02-23",
+      "B02-24"
+    ],
+    "windows_import_folder": "not automatically synchronized; working copy remains /home/alexi/books"
   }
 }
