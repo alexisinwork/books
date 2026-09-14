@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "book_id": "story-02-fair-killer",
+  "from_version": "draft-v2",
+  "to_version": "draft-v3",
+  "base_target_sha256": "703b831984127e59061e6a87fd72728ecdb3097f84ff235cf59691a3347e4a8e",
+  "result_target_sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7",
+  "base_translation_sha256": "1cc9554fe1824db409ffc5cb56ae67297a735ce1abe366d21d8d9593b46a5227",
+  "result_translation_sha256": "cd2a5f5e30434029356af23638b2f859fbd216224ed1175a244967fee7d0831c",
+  "source": {
+    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+    "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0"
+  },
+  "author_answers": {
+    "path": "stories-ru-uk-pilot/adaptation/author-answers-2026-09-14/answers.json",
+    "sha256": "8738a4eaccd69d49872c5fc063e658716a4dc5d79e47b441ea545ee4ea59be69"
+  },
+  "plan": {
+    "path": "stories-ru-uk-pilot/adaptation/author-answers-2026-09-14/revision-plan.json",
+    "sha256": "f9469305a31a488180bdd4947b3c831a3c9b84f93497491be11f8dd707abfa11"
+  },
+  "preserved": [
+    {
+      "answer": "Q4",
+      "p": 155,
+      "reason": "Самооправдание Лайта сознательно расходится с признанием в p246; это подтверждённый автором разрыв самообраза и поступков."
+    },
+    {
+      "answer": "Q4",
+      "p": 246,
+      "reason": "Признание в прекращении проверок и гибели невинных сохранено."
+    },
+    {
+      "answer": "Q5",
+      "p": 5,
+      "text": "Один безгучний ляск пролунав у тиші кабінету.",
+      "reason": "Повтор начала, первого заказа и финала образует кольцевую композицию."
+    },
+    {
+      "answer": "Q5",
+      "p": 66,
+      "text": "Один безгучний ляск пролунав у тиші кабінету."
+    },
+    {
+      "answer": "Q5",
+      "p": 248,
+      "text": "Один безгучний ляск пролунав у тиші…"
+    }
+  ],
+  "unchanged_blocks": 233,
+  "prior_change_history": {
+    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v2/changes.json",
+    "sha256": "34f816ab6f8225f9ac2f2ce978d02794aa5d1826afa6ec12d3e72b998b7cb232"
+  },
+  "title_change": {
+    "before": "Справедливий убивця",
+    "after": "Справедливий вбивця",
+    "answer": "TITLE2",
+    "scope": "Название рассказа, заголовки читательских файлов и метаданные. Эвфонические варианты вбивця/убивця в прозе не подменяются сплошной заменой."
+  },
+  "resolutions": [
+    {
+      "source_p": 87,
+      "edits": [
+        {
+          "p": 87,
+          "before": "покликав сина й знову запустив двигуни",
+          "after": "покликав сина й спробував знову запустити двигуни",
+          "answer": "ADDITIONAL",
+          "reason": "Попытка запуска вызывает сигнал блокировки при ребёнке у сопел; защитная система действует так, как объясняет отец."
+        }
+      ],
+      "status": "applied_under_author_instruction"
+    },
+    {
+      "source_p": 123,
+      "edits": [
+        {
+          "p": 123,
+          "before": "Це останні слова мого батька. Перед тим, як його вбили.",
+          "after": "Так казав мій батько. До того, як його вбили.",
+          "answer": "ADDITIONAL",
+          "reason": "Джулія узнаёт знакомую отцовскую фразу, не зная его последних слов в закрытом кабинете. Нового свидетеля или записи не добавлено; раскрытие личности убийцы остаётся в финале."
+        }
+      ],
+      "status": "applied_under_author_instruction"
+    },
+    {
+      "source_p": 181,
+      "edits": [
+        {
+          "p": 181,
+          "before": "цей пішак міг перестрибнути через одну фігуру на вибір по вертикалі й «убити» її",
+          "after": "цей пішак міг перестрибнути по вертикалі через одну фігуру й «убити» ту, що стояла за нею",
+          "answer": "ADDITIONAL",
+          "reason": "Правило согласовано с последующим ходом: конь служит препятствием, ферзь — целью. Действие партии и метафора Лайта сохранены; новые ограничения частоты хода не добавлены."
+        }
+      ],
+      "status": "applied_under_author_instruction"
+    }
+  ],
+  "scope": "Author-answer revision; no new independent reviewer findings fabricated or attributed."
+}

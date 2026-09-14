@@ -23,7 +23,7 @@
     {
       "id": "story-01-reptiloids-src01",
       "status": "proposed",
-      "resolution_status": "unresolved",
+      "resolution_status": "resolved",
       "category": "source_ambiguity_or_inconsistency",
       "severity": "S2",
       "certainty": "observed_difference_not_authorial_intent",
@@ -99,15 +99,24 @@
         "story-01-reptiloids-c000-p000029"
       ],
       "verification": {
-        "source": "checked",
-        "resolution": "pending_author_if_plot_change_requested"
+        "result": "applied_or_preserved_as_directed",
+        "target_path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/target.uk.txt",
+        "target_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+        "check_path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/local-review.json",
+        "check_sha256": "f503a4214f5cc57d28696f8bf2624282f2dac0cac4cd9a2326decd46f2d87dab"
       },
-      "decision": null
+      "decision": {
+        "status": "accepted",
+        "answer_id": "Q1",
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/decisions/2026-09-14-author-answers.json",
+        "sha256": "ae31abbb015a6938ef29d8e757b5344e0e6dc005df043b4c50c51d0a83caa34a"
+      },
+      "resolution_scope": "Current Ukrainian working edition only; original Russian observation retained"
     },
     {
       "id": "story-01-reptiloids-src02",
       "status": "proposed",
-      "resolution_status": "unresolved",
+      "resolution_status": "resolved",
       "category": "source_ambiguity_or_inconsistency",
       "severity": "S2",
       "certainty": "observed_difference_not_authorial_intent",
@@ -167,10 +176,19 @@
         "story-01-reptiloids-c000-p000048"
       ],
       "verification": {
-        "source": "checked",
-        "resolution": "pending_author_if_plot_change_requested"
+        "result": "applied_or_preserved_as_directed",
+        "target_path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/target.uk.txt",
+        "target_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+        "check_path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/local-review.json",
+        "check_sha256": "f503a4214f5cc57d28696f8bf2624282f2dac0cac4cd9a2326decd46f2d87dab"
       },
-      "decision": null
+      "decision": {
+        "status": "accepted",
+        "answer_id": "Q3",
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/decisions/2026-09-14-author-answers.json",
+        "sha256": "ae31abbb015a6938ef29d8e757b5344e0e6dc005df043b4c50c51d0a83caa34a"
+      },
+      "resolution_scope": "Current Ukrainian working edition only; original Russian observation retained"
     },
     {
       "id": "story-01-reptiloids-src03",

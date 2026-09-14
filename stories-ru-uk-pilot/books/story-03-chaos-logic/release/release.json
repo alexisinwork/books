@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_id": "stories-ru-uk-pilot",
   "book_id": "story-03-chaos-logic",
-  "source_sha256": null,
+  "source_sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
   "record_type": "release/release",
   "fields": [
     "id",
@@ -13,5 +13,24 @@
     "remaining_decisions",
     "end_state_version"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "author-reading-2026-09-14-v3",
+      "kind": "working_reader_delivery",
+      "file": "editions/uk/draft-v4/reader/Логіка хаосу — українська версія.docx",
+      "sha256": "c3fc4d27d042626a3b3e5a11db1463b56195a553042ec856e0f3e05f9e78fb6e",
+      "date": "2026-09-14",
+      "checks_done": [
+        "exact source coverage",
+        "author plan application",
+        "current frozen inputs",
+        "local revision prose and continuity",
+        "DOCX extraction and PDF render",
+        "supplemental naturalness signals"
+      ],
+      "remaining_decisions": "No further author answer required for this batch; full independent literary gate remains open.",
+      "end_state_version": "editions/uk/draft-v4/continuity.json",
+      "author_canonical_approval": false
+    }
+  ]
 }

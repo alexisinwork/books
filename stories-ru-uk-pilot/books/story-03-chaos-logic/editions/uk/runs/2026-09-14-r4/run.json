@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T18:52:59+00:00",
+  "status": "awaiting_reviews",
+  "packet": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v3/packet.json",
+    "sha256": "4ebf5146b7881d5e10dcb1c78552d0de0a218cdd2907db86d352c15cf5bdff65"
+  },
+  "source": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+    "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+    "format": "docx",
+    "status": "author_selected",
+    "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+    "role": "master_inventory",
+    "language": "ru"
+  },
+  "glossary": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/glossary.json",
+    "sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15"
+  },
+  "translation_sha256": "edf151e1f78c0bc71eaac49755faf311735b940198a8f4cd1ae303e3729a9cdd",
+  "target_language": "uk",
+  "target_file": "ukrainian.txt",
+  "target_sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960",
+  "mechanical_check_sha256": "c572ae8a2f882a0f13550ff780789d230956a451d6cdb876c42b72fed3ca5b0c",
+  "translator": {
+    "model": "Astra/Codex runtime: author-answer revision of prior Sol translation; exact provider ID not exposed",
+    "client": "Codex coordinator; local author-answer revision"
+  },
+  "reports": {}
+}

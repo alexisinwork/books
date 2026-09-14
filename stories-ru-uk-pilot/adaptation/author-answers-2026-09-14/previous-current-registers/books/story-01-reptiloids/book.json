@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "project_id": "stories-ru-uk-pilot",
+  "book_id": "story-01-reptiloids",
+  "title": "Рептилоиды",
+  "book_type": "fiction",
+  "stage": "adaptation_pilot_author_reading",
+  "master": {
+    "path": "sources/originals/Рептилоиды.docx",
+    "format": "docx",
+    "sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+    "status": "author_selected",
+    "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+    "language": "ru",
+    "role": "RU_SOURCE_MASTER",
+    "selection_status": "author_selected_for_pilot",
+    "scope": "This author-selected story file only; no cross-project canonical authority."
+  },
+  "voice": "voice.json",
+  "canon": "source-canon.json",
+  "audit_status": "partial_independent_reviews_completed",
+  "original_language": "ru",
+  "canonical_language": "ru",
+  "language_state": "ru_source_selected_uk_working_translation_complete",
+  "legacy_sources": [
+    {
+      "path": "sources/originals/Рептилоиды.docx",
+      "sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+      "language": "ru",
+      "role": "RU_SOURCE_MASTER",
+      "status": "author_selected_for_pilot"
+    }
+  ],
+  "editions": {
+    "uk": {
+      "path": "editions/uk",
+      "role": "UA_WORKING_EDITION",
+      "status": "working_translation_complete",
+      "source_language": "ru",
+      "target_language": "uk",
+      "source_path": "sources/originals/Рептилоиды.docx",
+      "source_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+      "source_role": "RU_SOURCE_MASTER",
+      "source_status": "author_selected_for_pilot",
+      "author_basis": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+      "current_draft": "draft-v3",
+      "target_file": "editions/uk/draft-v3/target.uk.txt",
+      "target_sha256": "adb6b9cd347169dae6e25a02ac191795c9772548240c161ff41db2427077bf42",
+      "reader_docx": "editions/uk/draft-v3/reader/Рептилоїди — українська версія.docx",
+      "quality_assessment": "editions/uk/QA-ASSESSMENT-v3.md",
+      "required_literary_release_gate": "open",
+      "author_canonical_approval": false
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T18:52:58+00:00",
+  "status": "awaiting_reviews",
+  "packet": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v2/packet.json",
+    "sha256": "0c23ed523f09bb48f991a38d8daa4bf091cdcb805cd4e000e69722c39b438b58"
+  },
+  "source": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/sources/originals/Рептилоиды.docx",
+    "sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+    "format": "docx",
+    "status": "author_selected",
+    "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+    "role": "master_inventory",
+    "language": "ru"
+  },
+  "glossary": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/glossary.json",
+    "sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71"
+  },
+  "translation_sha256": "153b6ee925dc0826aaf240447594c86dce743c7526106763049d4b28963285a0",
+  "target_language": "uk",
+  "target_file": "ukrainian.txt",
+  "target_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+  "mechanical_check_sha256": "9fe6385c0d24b802b18485ba211abae2b170e8b58997b7af2a9f2e8ef1f1502b",
+  "translator": {
+    "model": "Astra/Codex runtime: author-answer revision of prior Sol translation; exact provider ID not exposed",
+    "client": "Codex coordinator; local author-answer revision"
+  },
+  "reports": {}
+}

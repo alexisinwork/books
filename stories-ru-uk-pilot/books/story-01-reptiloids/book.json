@@ -35,7 +35,7 @@
     "uk": {
       "path": "editions/uk",
       "role": "UA_WORKING_EDITION",
-      "status": "working_translation_complete",
+      "status": "author_answers_applied_working_edition",
       "source_language": "ru",
       "target_language": "uk",
       "source_path": "sources/originals/Рептилоиды.docx",
@@ -43,13 +43,22 @@
       "source_role": "RU_SOURCE_MASTER",
       "source_status": "author_selected_for_pilot",
       "author_basis": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
-      "current_draft": "draft-v3",
-      "target_file": "editions/uk/draft-v3/target.uk.txt",
-      "target_sha256": "adb6b9cd347169dae6e25a02ac191795c9772548240c161ff41db2427077bf42",
-      "reader_docx": "editions/uk/draft-v3/reader/Рептилоїди — українська версія.docx",
-      "quality_assessment": "editions/uk/QA-ASSESSMENT-v3.md",
+      "current_draft": "draft-v4",
+      "target_file": "editions/uk/draft-v4/target.uk.txt",
+      "target_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+      "reader_docx": "editions/uk/draft-v4/reader/Рептилоїди — українська версія.docx",
+      "quality_assessment": "editions/uk/QA-ASSESSMENT-v4.md",
       "required_literary_release_gate": "open",
-      "author_canonical_approval": false
+      "author_canonical_approval": false,
+      "title": "Рептилоїди",
+      "target_path": "editions/uk/draft-v4/target.uk.txt",
+      "reader_path": "editions/uk/draft-v4/reader/Рептилоїди — українська версія.docx",
+      "input_manifest": "editions/uk/INPUTS-V2.json",
+      "preparation_packet": "editions/uk/preparation/pilot/ready-v2",
+      "continuity_path": "editions/uk/draft-v4/continuity.json",
+      "author_decisions": [
+        "editions/uk/decisions/2026-09-14-author-answers.json"
+      ]
     }
   }
 }

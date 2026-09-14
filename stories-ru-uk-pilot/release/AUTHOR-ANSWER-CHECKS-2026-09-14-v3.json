@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "status": "passed_author_answer_delivery_checks",
+  "scope": "Three revised complete Ukrainian working editions; no unrelated workspace changes included",
+  "books": [
+    {
+      "book_id": "story-01-reptiloids",
+      "new_draft": "draft-v4",
+      "target_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+      "changed_blocks": 5,
+      "unchanged_blocks": 49,
+      "source_units": 54,
+      "current_inputs_verified": 21,
+      "local_review": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/local-review.json",
+      "mechanical_check": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/final-checks.json"
+    },
+    {
+      "book_id": "story-02-fair-killer",
+      "new_draft": "draft-v3",
+      "target_sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7",
+      "changed_blocks": 3,
+      "unchanged_blocks": 233,
+      "source_units": 236,
+      "current_inputs_verified": 21,
+      "local_review": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v3/local-review.json",
+      "mechanical_check": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v3/final-checks.json"
+    },
+    {
+      "book_id": "story-03-chaos-logic",
+      "new_draft": "draft-v4",
+      "target_sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960",
+      "changed_blocks": 13,
+      "unchanged_blocks": 297,
+      "source_units": 310,
+      "current_inputs_verified": 25,
+      "local_review": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v4/local-review.json",
+      "mechanical_check": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v4/final-checks.json"
+    }
+  ],
+  "total_source_units": 600,
+  "total_changed_blocks": 21,
+  "docx_pages": 105,
+  "desktop_receipt": "stories-ru-uk-pilot/release/DESKTOP-DELIVERY-2026-09-14-v3.json",
+  "required_full_literary_gate": "open",
+  "code_check": "Both dated migration scripts parsed and executed with exact replacement, hash and no-overwrite assertions. No unrelated broad tests rerun.",
+  "concurrent_workspace_note": "Shared Ukrainian STYLE changed in another workstream after translation/checks. Release verified in isolated worktree against the frozen original style; supplemental new naturalness scanner run on all three targets and returned no signals."
+}

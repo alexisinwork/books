@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "project_id": "stories-ru-uk-pilot",
+  "book_id": "story-02-fair-killer",
+  "source_sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+  "record_type": "revision-log",
+  "fields": [
+    "id",
+    "reason",
+    "old_source",
+    "new_source",
+    "changes",
+    "affected_checks",
+    "decision"
+  ],
+  "items": [
+    {
+      "action": "select_master",
+      "previous": null,
+      "current": {
+        "path": "sources/originals/Справедливый убийца.docx",
+        "format": "docx",
+        "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "language": "ru"
+      }
+    },
+    {
+      "id": "prepare-ru-uk-pilot-v1",
+      "reason": "Full translation authorized; isolated source-bound preparation.",
+      "old_source": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+        "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+        "format": "docx",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "new_source": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+        "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+        "format": "docx",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "changes": "Seven edition documents, proposed glossary/voices, meaning obligations and exact source-unit map; no source prose edits.",
+      "affected_checks": [
+        "Source hash and anchors",
+        "Packet coverage",
+        "Independent translation review not yet run"
+      ],
+      "decision": "Preparation only; target master not promoted."
+    }
+  ]
+}

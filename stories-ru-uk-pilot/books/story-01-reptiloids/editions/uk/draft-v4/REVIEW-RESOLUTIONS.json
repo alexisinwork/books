@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "book_id": "story-01-reptiloids",
+  "from_version": "draft-v3",
+  "to_version": "draft-v4",
+  "base_target_sha256": "adb6b9cd347169dae6e25a02ac191795c9772548240c161ff41db2427077bf42",
+  "result_target_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+  "base_translation_sha256": "15423faccd586d8d2e6db9bbee85ae0b3300f2bff052a5994f3941f4aa9ac75f",
+  "result_translation_sha256": "153b6ee925dc0826aaf240447594c86dce743c7526106763049d4b28963285a0",
+  "source": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/sources/originals/Рептилоиды.docx",
+    "sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408"
+  },
+  "author_answers": {
+    "path": "stories-ru-uk-pilot/adaptation/author-answers-2026-09-14/answers.json",
+    "sha256": "8738a4eaccd69d49872c5fc063e658716a4dc5d79e47b441ea545ee4ea59be69"
+  },
+  "plan": {
+    "path": "stories-ru-uk-pilot/adaptation/author-answers-2026-09-14/revision-plan.json",
+    "sha256": "f9469305a31a488180bdd4947b3c831a3c9b84f93497491be11f8dd707abfa11"
+  },
+  "preserved": [
+    {
+      "answer": "Q2",
+      "p": 17,
+      "text": "Та й заговори ваші яйцем по голові викачували! А вам і викачувати нема на чому!",
+      "reason": "Author explicitly chose to keep this wording."
+    },
+    {
+      "p": 55,
+      "reason": "The final revelation about Oleg is unchanged."
+    }
+  ],
+  "unchanged_blocks": 49,
+  "prior_change_history": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v3/changes.json",
+    "sha256": "0ac0e255339fa3b448915504598f3afc3fb60f13ef0c5efcbb261de42ad822c4"
+  },
+  "resolutions": [
+    {
+      "source_p": 1,
+      "edits": [
+        {
+          "p": 1,
+          "before": "після довгого робочого дня на фабриці",
+          "after": "після довгої нічної зміни на фабриці",
+          "answer": "Q3",
+          "reason": "Explicit author clarification: the men have finished a night shift, which connects naturally to the dawn in p48."
+        }
+      ],
+      "status": "applied_under_author_instruction"
+    },
+    {
+      "source_p": 14,
+      "edits": [
+        {
+          "p": 14,
+          "before": "Пелагеє Гінеколаївно",
+          "after": "Пелагіє Гінеколаївно",
+          "answer": "Q1",
+          "reason": "Vocative of the author-selected name Пелагія Гінеколаївна."
+        }
+      ],
+      "status": "applied_under_author_instruction"
+    },
+    {
+      "source_p": 17,
+      "edits": [
+        {
+          "p": 17,
+          "before": "проскрипіла Пелагея",
+          "after": "проскрипіла Пелагія",
+          "answer": "Q1",
+          "reason": "Normalize the narrator’s name reference; keep the egg joke unchanged under Q2."
+        }
+      ],
+      "status": "applied_under_author_instruction"
+    },
+    {
+      "source_p": 21,
+      "edits": [
+        {
+          "p": 21,
+          "before": "Пелагеї Миколаївни",
+          "after": "Пелагії Гінеколаївни",
+          "answer": "Q1",
+          "reason": "Genitive of the author-selected name and patronymic."
+        }
+      ],
+      "status": "applied_under_author_instruction"
+    },
+    {
+      "source_p": 29,
+      "edits": [
+        {
+          "p": 29,
+          "before": "Пелагея Гінеколаївна",
+          "after": "Пелагія Гінеколаївна",
+          "answer": "Q1",
+          "reason": "Normalize the same character’s nominative name."
+        }
+      ],
+      "status": "applied_under_author_instruction"
+    }
+  ],
+  "scope": "Author-answer revision; no new independent reviewer findings fabricated or attributed."
+}

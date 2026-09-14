@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "book_id": "story-03-chaos-logic",
+  "target_sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960",
+  "translation_sha256": "edf151e1f78c0bc71eaac49755faf311735b940198a8f4cd1ae303e3729a9cdd",
+  "result": "passed_exact_author_plan_application",
+  "source_docx_unchanged": true,
+  "previous_draft_files_unchanged": 31,
+  "frozen_inputs_verified": 25,
+  "inputs_manifest": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/INPUTS-V3.json",
+    "sha256": "366ecc81b3577542e5094f34a0e42ac7d15657fd854f347e4f2b0d09faa99571"
+  },
+  "exact_replacements": 14,
+  "changed_blocks": 13,
+  "unchanged_blocks": 297,
+  "source_units": 310,
+  "emphasis_metadata_unchanged": true,
+  "preserved_decisions_checked": [
+    {
+      "answer": "Q6",
+      "p": 38,
+      "text": "Мені лише 60 років.",
+      "reason": "Фактический возраст сохранён; младший возраст в p157 — шутка о самоощущении."
+    },
+    {
+      "answer": "Q9",
+      "p": 324,
+      "text": "Жодні бажання не варті людського життя. Навіть благі.",
+      "reason": "Ранее подтверждённое направление смысла не отменяется старым вопросником."
+    },
+    {
+      "p": 308,
+      "reason": "Нераскрытый мотив Рязанцева не дописан."
+    },
+    {
+      "p": 309,
+      "reason": "Связь гибели дочери Шенга с прошлым Ники не выдумана."
+    },
+    {
+      "p": 314,
+      "reason": "Ложная одиночная версия Шенга и её инженерное опровержение сохранены."
+    }
+  ],
+  "arithmetic": {
+    "height_m": 4589,
+    "speed_m_per_s": 20,
+    "self_destruct_height_m": 200,
+    "time_to_sea_s": 229.45,
+    "time_to_self_destruct_s": 219.45,
+    "assumption": "Conditional estimate at the current constant descent speed; no acceleration or new physical law asserted."
+  },
+  "limits": "Exact application and local continuity check; not a full independent literary assessment."
+}

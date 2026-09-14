@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_id": "stories-ru-uk-pilot",
   "book_id": "story-02-fair-killer",
-  "source_sha256": null,
+  "source_sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
   "record_type": "release/release",
   "fields": [
     "id",
@@ -13,5 +13,24 @@
     "remaining_decisions",
     "end_state_version"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "author-reading-2026-09-14-v3",
+      "kind": "working_reader_delivery",
+      "file": "editions/uk/draft-v3/reader/Справедливий вбивця — українська версія.docx",
+      "sha256": "0f952debfd8b3d314d91f9d242e55fd8df4487bcca1df281697722f3d5b622dc",
+      "date": "2026-09-14",
+      "checks_done": [
+        "exact source coverage",
+        "author plan application",
+        "current frozen inputs",
+        "local revision prose and continuity",
+        "DOCX extraction and PDF render",
+        "supplemental naturalness signals"
+      ],
+      "remaining_decisions": "No further author answer required for this batch; full independent literary gate remains open.",
+      "end_state_version": "editions/uk/draft-v3/continuity.json",
+      "author_canonical_approval": false
+    }
+  ]
 }

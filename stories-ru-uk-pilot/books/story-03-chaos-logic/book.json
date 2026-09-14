@@ -35,7 +35,7 @@
     "uk": {
       "path": "editions/uk",
       "role": "UA_WORKING_EDITION",
-      "status": "working_translation_complete",
+      "status": "author_answers_applied_working_edition",
       "source_language": "ru",
       "target_language": "uk",
       "source_path": "sources/originals/Логика хаоса.docx",
@@ -43,18 +43,21 @@
       "source_role": "RU_SOURCE_MASTER",
       "source_status": "author_selected_for_pilot",
       "author_basis": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
-      "current_draft": "draft-v3",
-      "target_path": "editions/uk/draft-v3/target.uk.txt",
-      "target_sha256": "e4ee59805218b2bc8b971176ac2def0ba9aead38558f2f0d8751276d5bd40604",
-      "reader_path": "editions/uk/draft-v3/reader/Логіка хаосу — українська версія.docx",
-      "quality_assessment": "editions/uk/QA-ASSESSMENT-v3.md",
+      "current_draft": "draft-v4",
+      "target_path": "editions/uk/draft-v4/target.uk.txt",
+      "target_sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960",
+      "reader_path": "editions/uk/draft-v4/reader/Логіка хаосу — українська версія.docx",
+      "quality_assessment": "editions/uk/QA-ASSESSMENT-v4.md",
       "required_literary_release_gate": "open",
       "author_canonical_approval": false,
-      "input_manifest": "editions/uk/INPUTS-V2.json",
-      "preparation_packet": "editions/uk/preparation/pilot/ready-v2",
+      "input_manifest": "editions/uk/INPUTS-V3.json",
+      "preparation_packet": "editions/uk/preparation/pilot/ready-v3",
       "author_decisions": [
-        "editions/uk/decisions/2026-09-14-final-meaning.json"
-      ]
+        "editions/uk/decisions/2026-09-14-final-meaning.json",
+        "editions/uk/decisions/2026-09-14-author-answers.json"
+      ],
+      "title": "Логіка хаосу",
+      "continuity_path": "editions/uk/draft-v4/continuity.json"
     }
   }
 }

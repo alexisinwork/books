@@ -54,6 +54,26 @@
         "Independent translation review not yet run"
       ],
       "decision": "Preparation only; target master not promoted."
+    },
+    {
+      "id": "author-answers-2026-09-14",
+      "reason": "Apply author answers and expressly delegated continuity edits",
+      "old_source": {
+        "path": "editions/uk/draft-v2/target.uk.txt",
+        "sha256": "703b831984127e59061e6a87fd72728ecdb3097f84ff235cf59691a3347e4a8e"
+      },
+      "new_source": {
+        "path": "editions/uk/draft-v3/target.uk.txt",
+        "sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7",
+        "role": "UA_WORKING_EDITION"
+      },
+      "changes": "editions/uk/draft-v3/changes.json",
+      "decision": "editions/uk/decisions/2026-09-14-author-answers.json",
+      "continuity": "editions/uk/draft-v3/continuity.json",
+      "verification": "editions/uk/draft-v3/local-review.json",
+      "ru_source_registers": "Unchanged historical observations; UK facts and entry-state overrides are in the linked continuity layer.",
+      "delivery": "../../delivery/2026-09-14-v3",
+      "full_literary_release_gate": "open"
     }
   ]
 }

@@ -1,0 +1,905 @@
+{
+  "schema_version": 1,
+  "project_id": "stories-ru-uk-pilot",
+  "book_id": "story-03-chaos-logic",
+  "source_sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+  "record_type": "audit/issues",
+  "fields": [
+    "id",
+    "status",
+    "resolution_status",
+    "category",
+    "severity",
+    "certainty",
+    "anchors",
+    "observation",
+    "reader_effect",
+    "proposed_change",
+    "dependencies",
+    "verification",
+    "decision"
+  ],
+  "items": [
+    {
+      "id": "story-03-chaos-logic-src01",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "observed_difference_not_authorial_intent",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 1,
+          "p": 38,
+          "source_id": "story-03-chaos-logic-c001-p000038",
+          "quote": "— Мне всего-то 60 лет. Только второе дыхание открылось.",
+          "quote_ru": "— Мне всего-то 60 лет. Только второе дыхание открылось.",
+          "paragraph_sha256": "2b3b26b6d83f59d5c03ca922bbba398d681685fdf94c0df5c7612523ceae1406"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 2,
+          "p": 157,
+          "source_id": "story-03-chaos-logic-c002-p000157",
+          "quote": "— Хорошая мысль, соглашусь. И добавлю. Вот у меня по молодости было только хорошее. И радовался я этому хорошему каждый день, и ничто меня не сдерживало. Даже тот факт, что с таким наслаждением по жизни долго не протянеш",
+          "quote_ru": "— Хорошая мысль, соглашусь. И добавлю. Вот у меня по молодости было только хорошее. И радовался я этому хорошему каждый день, и ничто меня не сдерживало. Даже тот факт, что с таким наслаждением по жизни долго не протянеш",
+          "paragraph_sha256": "bcd0be41f08a4a57e12b275db14e93e0ec270a7da603979f52241eb7bc957031"
+        }
+      ],
+      "observation": "Возраст Вольфа: «всего-то 60 лет» и «мне и полтинника нет ещё». Намеренная шутка или ошибка не установлены.",
+      "reader_effect": "May change interpretation if silently normalized.",
+      "proposed_change": "Сохранить обе возрастные формулы; не выбрать число за автора.",
+      "dependencies": [
+        "story-03-chaos-logic-c001-p000038",
+        "story-03-chaos-logic-c002-p000157"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "pending_author_if_plot_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src02",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "observed_difference_not_authorial_intent",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 3,
+          "p": 189,
+          "source_id": "story-03-chaos-logic-c003-p000189",
+          "quote": "База находилась на близлежащих островах Трейлл у берегов Гренландии. Поскольку Гренландия не особо связана с континентальной Европой, Евразийским Союзом или Атлантическим Альянсом, изначально первые четыре базы было реше",
+          "quote_ru": "База находилась на близлежащих островах Трейлл у берегов Гренландии. Поскольку Гренландия не особо связана с континентальной Европой, Евразийским Союзом или Атлантическим Альянсом, изначально первые четыре базы было реше",
+          "paragraph_sha256": "5c02c275174d2985c8998123082935dba26239d996cd08ecfa7f32c518162678"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 3,
+          "p": 191,
+          "source_id": "story-03-chaos-logic-c003-p000191",
+          "quote": "К чему это я? Атлантические станции и базы удобнее для их жителей в плане работы, но и опасность внезапной атаки заставляет службу безопасности быть постоянно на нервах, что не помогает чувствовать себя расслабленными. С",
+          "quote_ru": "К чему это я? Атлантические станции и базы удобнее для их жителей в плане работы, но и опасность внезапной атаки заставляет службу безопасности быть постоянно на нервах, что не помогает чувствовать себя расслабленными. С",
+          "paragraph_sha256": "d3e1e1ac422fc680983da923567bb6d1165f5cb43d3d2280d04decead0ef6866"
+        }
+      ],
+      "observation": "Свальбард назван местом станции Альянса, затем оттуда прибывает делегация Союза и обсуждается вторая союзная станция.",
+      "reader_effect": "May change interpretation if silently normalized.",
+      "proposed_change": "Сохранить обе привязки и явную неопределённость; не переставлять базы от себя.",
+      "dependencies": [
+        "story-03-chaos-logic-c003-p000189",
+        "story-03-chaos-logic-c003-p000191"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "pending_author_if_plot_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src03",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "observed_difference_not_authorial_intent",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 2,
+          "p": 140,
+          "source_id": "story-03-chaos-logic-c002-p000140",
+          "quote": "— 4589 метров, — ответил проводник.",
+          "quote_ru": "— 4589 метров, — ответил проводник.",
+          "paragraph_sha256": "21b63b419e4964bfb3ae45906c7ab186f4a7fcb67c36c1e4734e1d1f65bec4c6"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 2,
+          "p": 142,
+          "source_id": "story-03-chaos-logic-c002-p000142",
+          "quote": "— 20 метров в секунду.",
+          "quote_ru": "— 20 метров в секунду.",
+          "paragraph_sha256": "90563268f11a3fadc71401fe14c53f744b3d3c98e7e959af2a5c4444f411f9d7"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 2,
+          "p": 143,
+          "source_id": "story-03-chaos-logic-c002-p000143",
+          "quote": "— Значит, у нас всего примерно... три с половиной минуты, — ловко посчитал я в уме.",
+          "quote_ru": "— Значит, у нас всего примерно... три с половиной минуты, — ловко посчитал я в уме.",
+          "paragraph_sha256": "3280263f26bb9122068497186f55cb9b67db4c17df5bb6299341d5d12b11e577"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 2,
+          "p": 144,
+          "source_id": "story-03-chaos-logic-c002-p000144",
+          "quote": "— Примерно. Команда, слушать внимательно. Система безопасности взорвет станцию в двухстах метрах над морем, чтобы защитить потенциально важную информацию, если ее не успеют сохранить. Поэтому у нас есть ровно три минуты ",
+          "quote_ru": "— Примерно. Команда, слушать внимательно. Система безопасности взорвет станцию в двухстах метрах над морем, чтобы защитить потенциально важную информацию, если ее не успеют сохранить. Поэтому у нас есть ровно три минуты ",
+          "paragraph_sha256": "33bd21b723b96005780a9a839924cbeeca1b02478031db3d70232875729d1df0"
+        }
+      ],
+      "observation": "4589 м, 20 м/с, около 3,5 мин и 3 мин 5 с при пороге 200 м не образуют очевидный единый расчёт.",
+      "reader_effect": "May change interpretation if silently normalized.",
+      "proposed_change": "Передать все числа как в источнике; никакого ремонта скорости/таймера.",
+      "dependencies": [
+        "story-03-chaos-logic-c002-p000140",
+        "story-03-chaos-logic-c002-p000142",
+        "story-03-chaos-logic-c002-p000143",
+        "story-03-chaos-logic-c002-p000144"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "pending_author_if_plot_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src04",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "observed_difference_not_authorial_intent",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 2,
+          "p": 95,
+          "source_id": "story-03-chaos-logic-c002-p000095",
+          "quote": "— Может быть, не такой ты и дурак, каким хочешь казаться. Одно крепление сломало металлическую обшивку в гравитационной лаборатории, выпустив гравитоний. Взрыв создал термическую реакцию для взаимодействия с гравитонием.",
+          "quote_ru": "— Может быть, не такой ты и дурак, каким хочешь казаться. Одно крепление сломало металлическую обшивку в гравитационной лаборатории, выпустив гравитоний. Взрыв создал термическую реакцию для взаимодействия с гравитонием.",
+          "paragraph_sha256": "342929bda40885e3a46883645c51c6d16f4ea7be750afe4b81b727a3bdced4b9"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 4,
+          "p": 258,
+          "source_id": "story-03-chaos-logic-c004-p000258",
+          "quote": "— Но называть такое вещество антигравитонием нельзя, — Ника отошла от Чарльза.",
+          "quote_ru": "— Но называть такое вещество антигравитонием нельзя, — Ника отошла от Чарльза.",
+          "paragraph_sha256": "8362d819097fb4e7325bda59232f0205f8df3f43c9d33ac21b7a2790f9b69b21"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 4,
+          "p": 259,
+          "source_id": "story-03-chaos-logic-c004-p000259",
+          "quote": "— Я знаю, это рабочее название. Существование антивещества в нашей Вселенной не доказано. Но звучит красиво.",
+          "quote_ru": "— Я знаю, это рабочее название. Существование антивещества в нашей Вселенной не доказано. Но звучит красиво.",
+          "paragraph_sha256": "ed0519c5dceedb9a48704fc64173abba34328b2c0f67bb331e359ba6e68dd5cc"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 4,
+          "p": 260,
+          "source_id": "story-03-chaos-logic-c004-p000260",
+          "quote": "— А как же у тебя с самочувствием? Уже давно доказано, насколько плохо влияет отсутствие гравитации на человека: недоокисление крови, расстройство сна — как начало конца. Я уже молчу про полную дистрофию мышц и все остал",
+          "quote_ru": "— А как же у тебя с самочувствием? Уже давно доказано, насколько плохо влияет отсутствие гравитации на человека: недоокисление крови, расстройство сна — как начало конца. Я уже молчу про полную дистрофию мышц и все остал",
+          "paragraph_sha256": "a8e9fe0eda361efeb2a9a7fd07505ba1591fd8f72febc431ab931af08dd4f3c3"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 4,
+          "p": 261,
+          "source_id": "story-03-chaos-logic-c004-p000261",
+          "quote": "— Нет гравитации — тогда к чему прикрепляться мышцам и как течь всем жидкостям организма? —ловко подметил я со своего места и подумал: «Как же я не позаботился спросить у брата о здоровье? Отличный брат... Брат года».",
+          "quote_ru": "— Нет гравитации — тогда к чему прикрепляться мышцам и как течь всем жидкостям организма? —ловко подметил я со своего места и подумал: «Как же я не позаботился спросить у брата о здоровье? Отличный брат... Брат года».",
+          "paragraph_sha256": "8132bce108e26d316b20892153e31f97e445987f738048d98eee31c9ea3df5f6"
+        }
+      ],
+      "observation": "Объяснения спинов, антивещества и физиологии содержат спорные научные утверждения; название антигравитония позднее названо рабочим.",
+      "reader_effect": "May change interpretation if silently normalized.",
+      "proposed_change": "Сохранять атрибуцию персонажам и различие рабочего названия; не подменять научный мир реальной статьёй.",
+      "dependencies": [
+        "story-03-chaos-logic-c002-p000095",
+        "story-03-chaos-logic-c004-p000258",
+        "story-03-chaos-logic-c004-p000259",
+        "story-03-chaos-logic-c004-p000260",
+        "story-03-chaos-logic-c004-p000261"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "pending_author_if_plot_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src05",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "observed_difference_not_authorial_intent",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 1,
+          "p": 42,
+          "source_id": "story-03-chaos-logic-c001-p000042",
+          "quote": "На этой веселой ноте мы вошли в зал, где нас уже ожидала слегка побагровевшая, но по-прежнему очень привлекательная, товарищ Ника Пастернак! Невысокого, по моему мнению, роста, она была весьма хороша собой: легкий рабочи",
+          "quote_ru": "На этой веселой ноте мы вошли в зал, где нас уже ожидала слегка побагровевшая, но по-прежнему очень привлекательная, товарищ Ника Пастернак! Невысокого, по моему мнению, роста, она была весьма хороша собой: легкий рабочи",
+          "paragraph_sha256": "5920326210438315794843117491659725d7517e7b3df934e86aec1abd7fa903"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 1,
+          "p": 48,
+          "source_id": "story-03-chaos-logic-c001-p000048",
+          "quote": "Что же там такого произошло, что она стала… ну… этой женщиной? На записях первых проб была жизнерадостная девушка, а сейчас льдина в человеческом обличье. У нас с ней разница всего ничего, а она ведет себя как заправский",
+          "quote_ru": "Что же там такого произошло, что она стала… ну… этой женщиной? На записях первых проб была жизнерадостная девушка, а сейчас льдина в человеческом обличье. У нас с ней разница всего ничего, а она ведет себя как заправский",
+          "paragraph_sha256": "96ff2d50b0ee332196f576be585e1dc7ed13a68d9a9f7c01db1e3f304b601f58"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 6,
+          "p": 309,
+          "source_id": "story-03-chaos-logic-c006-p000309",
+          "quote": "Собравшись вместе, мы неустанно обсуждали идеи хаоса и неопределенности бытия. И однажды случился он — тот самый разговор, который что-то в тебе меняет. Шенг, в очередной раз обсуждая тему нелинейности, ни с того ни с се",
+          "quote_ru": "Собравшись вместе, мы неустанно обсуждали идеи хаоса и неопределенности бытия. И однажды случился он — тот самый разговор, который что-то в тебе меняет. Шенг, в очередной раз обсуждая тему нелинейности, ни с того ни с се",
+          "paragraph_sha256": "be4df8d0df3394391fbba02d0f0da76371f6859d89414779a2c0a30655915b50"
+        }
+      ],
+      "observation": "Прошлое Ники и гибель дочери Шенга не соединены явным фактом.",
+      "reader_effect": "May change interpretation if silently normalized.",
+      "proposed_change": "Не создавать родство, общую аварию или реткон; тайна Ники остаётся открытой.",
+      "dependencies": [
+        "story-03-chaos-logic-c001-p000042",
+        "story-03-chaos-logic-c001-p000048",
+        "story-03-chaos-logic-c006-p000309"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "pending_author_if_plot_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src06",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "observed_difference_not_authorial_intent",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 6,
+          "p": 308,
+          "source_id": "story-03-chaos-logic-c006-p000308",
+          "quote": "Вторым, был Михаил Рязанцев, инженер. Его мотивов я не знал, а делиться своими идеями он не спешил. Я долго к нему присматривался, потому что тёмная лошадка — это слишком рискованно. Но других инженеров у меня не было. С",
+          "quote_ru": "Вторым, был Михаил Рязанцев, инженер. Его мотивов я не знал, а делиться своими идеями он не спешил. Я долго к нему присматривался, потому что тёмная лошадка — это слишком рискованно. Но других инженеров у меня не было. С",
+          "paragraph_sha256": "7eea313f2d00a33eff0d1757a197f853c149295919e9bca2787d84d9048ae1f5"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 6,
+          "p": 324,
+          "source_id": "story-03-chaos-logic-c006-p000324",
+          "quote": "Мы никогда не сможем понять причины тех или иных действий, совершенных людьми. Михаил, причины поступка которого не известны. Мики, который имел прекрасные цели научного знания. Шенг, который просто хотел спасти больше ж",
+          "quote_ru": "Мы никогда не сможем понять причины тех или иных действий, совершенных людьми. Михаил, причины поступка которого не известны. Мики, который имел прекрасные цели научного знания. Шенг, который просто хотел спасти больше ж",
+          "paragraph_sha256": "61e09c7cf873a4e2aabe5cfb631f67a8ee7a218ab87031042518b280b9a1b2f7"
+        }
+      ],
+      "observation": "Причина участия Рязанцева прямо оставлена неизвестной.",
+      "reader_effect": "May change interpretation if silently normalized.",
+      "proposed_change": "Не заполнять пропуск мотивом денег, шантажа, политики или карьеры.",
+      "dependencies": [
+        "story-03-chaos-logic-c006-p000308",
+        "story-03-chaos-logic-c006-p000324"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "pending_author_if_plot_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src07",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "observed_difference_not_authorial_intent",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 6,
+          "p": 310,
+          "source_id": "story-03-chaos-logic-c006-p000310",
+          "quote": "Не все согласились с этим. Меня, как и Шенга, убедить было несложно ввиду того, что мы имели сходные взгляды на этот вопрос, а вот Михаила нужно было убеждать. Рязанцев согласился после месяцев обсуждений. На выходе мы с",
+          "quote_ru": "Не все согласились с этим. Меня, как и Шенга, убедить было несложно ввиду того, что мы имели сходные взгляды на этот вопрос, а вот Михаила нужно было убеждать. Рязанцев согласился после месяцев обсуждений. На выходе мы с",
+          "paragraph_sha256": "be5b60dbc45577f5e7cf3aaf3284fcf55f9f771fba904d572feb88c5a5befa11"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 6,
+          "p": 312,
+          "source_id": "story-03-chaos-logic-c006-p000312",
+          "quote": "— Самое интересное, что нет. Поскольку у него было достаточно свободного времени, он не хотел нас сдавать. Он придумал теорию, которая звучала следующим образом. Шенг, разобравшись с чертежами выпускного клапана, понял, ",
+          "quote_ru": "— Самое интересное, что нет. Поскольку у него было достаточно свободного времени, он не хотел нас сдавать. Он придумал теорию, которая звучала следующим образом. Шенг, разобравшись с чертежами выпускного клапана, понял, ",
+          "paragraph_sha256": "1c982256e8bbf1d754ffe0ba285238f3169ce0b777efbe3a670145d42503290a"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 6,
+          "p": 314,
+          "source_id": "story-03-chaos-logic-c006-p000314",
+          "quote": "— Сопротивления материалов! — выкрикнул Рязанцев. — Будь он специалистом в области инженерии и, в особенности, строения выхлопной системы, он бы понял, что такая подстава не сработает. Учитывая, что каждая смена меняется",
+          "quote_ru": "— Сопротивления материалов! — выкрикнул Рязанцев. — Будь он специалистом в области инженерии и, в особенности, строения выхлопной системы, он бы понял, что такая подстава не сработает. Учитывая, что каждая смена меняется",
+          "paragraph_sha256": "7b1ee494dc20b99e474d421c6edbf68595982a4e635c543dd6cb624913abff7a"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 6,
+          "p": 315,
+          "source_id": "story-03-chaos-logic-c006-p000315",
+          "quote": "— Итак, мы вышли на Рязанцева, — продолжил разговор Уайт. — ИИ, который использовался на базе, провел аналитику и выяснил, что Михаил и Шенг в последние полгода проводили невероятно много времени вместе. А работали они с",
+          "quote_ru": "— Итак, мы вышли на Рязанцева, — продолжил разговор Уайт. — ИИ, который использовался на базе, провел аналитику и выяснил, что Михаил и Шенг в последние полгода проводили невероятно много времени вместе. А работали они с",
+          "paragraph_sha256": "d4c7246b708299d95aeb249958c97392310f902fb9144e4b4659ed95539ea5ba"
+        }
+      ],
+      "observation": "Формулировки о двух лабораториях, всех станциях и одиночной версии Шенга требуют сохранения уровня рассказа.",
+      "reader_effect": "May change interpretation if silently normalized.",
+      "proposed_change": "Считать p312 описанием придуманной Шенгом версии, не вторым подтверждённым преступлением; при сомнении вынести в заметки, не сокращать.",
+      "dependencies": [
+        "story-03-chaos-logic-c006-p000310",
+        "story-03-chaos-logic-c006-p000312",
+        "story-03-chaos-logic-c006-p000314",
+        "story-03-chaos-logic-c006-p000315"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "pending_author_if_plot_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src08",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "observed_difference_not_authorial_intent",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 4,
+          "p": 218,
+          "source_id": "story-03-chaos-logic-c004-p000218",
+          "quote": "— Здравствуйте, мистер Гарри Арчер. Чувствуете себя хорошо? — уверенно и с улыбкой произнес один из вошедших в комнату мужчин. — Меня зовут Майкл Уайт, и я подполковник военно-воздушных сил и заместитель генерала Пирса. ",
+          "quote_ru": "— Здравствуйте, мистер Гарри Арчер. Чувствуете себя хорошо? — уверенно и с улыбкой произнес один из вошедших в комнату мужчин. — Меня зовут Майкл Уайт, и я подполковник военно-воздушных сил и заместитель генерала Пирса. ",
+          "paragraph_sha256": "d78fef9891854a6dfb9fbe00ea4ce611bfc06c7548f0f915c684c49618f028c6"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 6,
+          "p": 319,
+          "source_id": "story-03-chaos-logic-c006-p000319",
+          "quote": "— У вас есть только пять минут, мистер Арчер, — вставая, сказал полковник. — Потом мы его заберем. И поскольку мы прекрасно понимаем, что стало результатом их диверсий, ваш брат задержится у нас на какое-то время, — Уайт",
+          "quote_ru": "— У вас есть только пять минут, мистер Арчер, — вставая, сказал полковник. — Потом мы его заберем. И поскольку мы прекрасно понимаем, что стало результатом их диверсий, ваш брат задержится у нас на какое-то время, — Уайт",
+          "paragraph_sha256": "874a6c227d59a281cf9d34863074003dacab4e4bc5e74be119cb78f83f9f8b2d"
+        }
+      ],
+      "observation": "Майкл Уайт введён подполковником, а в p319 назван полковником.",
+      "reader_effect": "May change interpretation if silently normalized.",
+      "proposed_change": "Сохранить локальные звания; не повышать его чин по всему рассказу.",
+      "dependencies": [
+        "story-03-chaos-logic-c004-p000218",
+        "story-03-chaos-logic-c006-p000319"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "pending_author_if_plot_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src09",
+      "status": "verified",
+      "resolution_status": "resolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "source_wording_verified; author_intent_not_inferred",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 324,
+          "source_id": "story-03-chaos-logic-c006-p000324",
+          "quote": "Мы никогда не сможем понять причины тех или иных действий, совершенных людьми. Михаил, причины поступка которого не известны. Мики, который имел прекрасные цели научного знания. Шенг, который просто хотел спасти больше жизней. И мой брат. Брат, который совершил проступок во имя своих идеалов и нашел то, что искал. Но разве жертвы стоят того? Глупой надежды, что случайность можно приструнить? Наивного желания порядка во всем и всегда? И потери тех, кого можно было не терять? Ни одна жизнь не стоит желаний других. Даже благих.",
+          "paragraph_sha256": "61e09c7cf873a4e2aabe5cfb631f67a8ee7a218ab87031042518b280b9a1b2f7"
+        }
+      ],
+      "observation": "Исходная оценочная формула была двусмысленной. Автор явно уточнил: «Никакие желания не стоят человеческой жизни».",
+      "reader_effect": "Требует авторского выбора, если будет поручена содержательная редактура.",
+      "proposed_change": "Применено в UK p324: «Жодні бажання не варті людського життя. Навіть благі». Русский оригинал сохранён.",
+      "dependencies": [
+        "story-03-chaos-logic-c006-p000324"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "resolved_by_explicit_author_answer",
+        "implementation": "passed",
+        "target_path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v3/target.uk.txt",
+        "target_sha256": "e4ee59805218b2bc8b971176ac2def0ba9aead38558f2f0d8751276d5bd40604",
+        "check_path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v3/author-decision-check.json",
+        "check_sha256": "e9985a64b7b717ca0f2bece0593ed333aacecbac1bf3a06b410e6e41b2d937fd"
+      },
+      "decision": {
+        "status": "accepted",
+        "id": "chaos-author-meaning-2026-09-14-01",
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/decisions/2026-09-14-final-meaning.json",
+        "sha256": "ef3d8329414eb18836aaeace95e9d0be5fae6d427a5d156f5bfb00ac0099f5b2",
+        "author_statement": "Никакие желания не стоят человеческой жизни",
+        "scope": "Meaning of UK working-edition p324 only"
+      }
+    },
+    {
+      "id": "story-03-chaos-logic-src10",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "source_wording_verified; author_intent_not_inferred",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 99,
+          "source_id": "story-03-chaos-logic-c002-p000099",
+          "quote": "— Арчеры, — твёрдым и отчасти низким, с придыханием, голосом Ники Пастернак отозвалось мобильное устройство, — где вас носит? Подходите к лаборатории. Нужно продумать план действий.",
+          "paragraph_sha256": "fc8807550d9212e77066d45f34f08e839e42ab9b9a4ccb5881c3fdd1cefd1c6b"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 101,
+          "source_id": "story-03-chaos-logic-c002-p000101",
+          "quote": "Мы вышли из химической лаборатории и подошли к центру станции — конференц-залу. Проходя рукав, связывающий лаборатории с залом, я заметил легкое повышение температуры воздуха. Наверное, из-за взрыва терморегуляторы полетели. Нужно будет глянуть, что к чему. Брат уже начал успокаиваться, но необычный всплеск эмоций был ему к лицу. Словно если его спросить, который час, он не расскажет тебе о работе часов и в чем разница между механикой и кварцевым типом работы шестеренок внутри.",
+          "paragraph_sha256": "554657d1c91cf40e55d66e109247b57b12ceaab6389b644c1c9a368fb7a60462"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 102,
+          "source_id": "story-03-chaos-logic-c002-p000102",
+          "quote": "— Заходите, — напряженно заявила капитан станции. — Вольфу досталось, но умирать ему еще рано, — продолжила Пастернак, показывая ладонью на Ульриха.",
+          "paragraph_sha256": "4c832723ee5559ca0b22af09712a8c2481a2980f3f2007bb422f3544a3d2bceb"
+        }
+      ],
+      "observation": "Ніка вызывает Арчеров в лабораторию, а показанная встреча происходит в конференц-зале без нового указания.",
+      "reader_effect": "Требует авторского выбора, если будет поручена содержательная редактура.",
+      "proposed_change": "Не подменять маршрут или приказ без авторского решения.",
+      "dependencies": [
+        "story-03-chaos-logic-c002-p000099",
+        "story-03-chaos-logic-c002-p000101",
+        "story-03-chaos-logic-c002-p000102"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "awaiting_author_if_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src11",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "source_wording_verified; author_intent_not_inferred",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 20,
+          "source_id": "story-03-chaos-logic-c001-p000020",
+          "quote": "Мы вышли из нашего жилища. Станция была построена по принципу компонентного подхода, что было весьма разумно с точки зрения производства и практического применения: она состояла из четырех заменяемых жилых модулей, санузла, конференц-зала, модуля общественного взаимодействия (проще говоря, места, где все, кто не был в этот день на вахте, проводили свободное время) и двух лабораторий: химико-физических процессов и по изучению гравитония. Поскольку летающая платформа создана в основном для исследований этого элемента, то данная секция — самая объёмная и занимает аж треть всей площади! Вторую треть занимают конференц-зал, две лаборатории и общий зал, а последнюю — жилые модули и санузел. Места вполне достаточно для группы из четырех или шести исследователей. Мы хоть и не космонавты, но здесь тоже не самые комфортные условия — всё же недалеко от высоты Эвереста!",
+          "paragraph_sha256": "92f928ecf8f4a2cb53b7bbd11cf49193a455d3ff65901169cdc8f72bc16f5c95"
+        }
+      ],
+      "observation": "Гравитониевая секция занимает треть площади, но обе лаборатории затем снова входят во вторую треть.",
+      "reader_effect": "Требует авторского выбора, если будет поручена содержательная редактура.",
+      "proposed_change": "Сохранить схему источника; уточнить распределение помещений в отдельной редакции.",
+      "dependencies": [
+        "story-03-chaos-logic-c001-p000020"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "awaiting_author_if_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src12",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "source_wording_verified; author_intent_not_inferred",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 61,
+          "source_id": "story-03-chaos-logic-c001-p000061",
+          "quote": "— Хорошо, тогда все на рабочие места. У меня на носу разговор с начальством о ходе наших экспериментов по получению гравитония-243. А поскольку этого самого гравитония у нас нет, то и доклад будет напряженный. Всем понятны задачи?",
+          "paragraph_sha256": "9b6012186e3307ec78c38d3f3fb04a4c5eb89aafa38ddb02e3dca821749956a8"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 95,
+          "source_id": "story-03-chaos-logic-c002-p000095",
+          "quote": "— Может быть, не такой ты и дурак, каким хочешь казаться. Одно крепление сломало металлическую обшивку в гравитационной лаборатории, выпустив гравитоний. Взрыв создал термическую реакцию для взаимодействия с гравитонием. Металлокерамические осколки, сгорев, выделили ещё больше тепла, что ускорило скорость частиц гравитония, и атомарные спины изменили своё направление, сделав гравитоний антивеществом. А следовательно — антигравитонием! И теперь, — сделав многозначительную паузу, он достал из кармана плаща левитирующую колбу с каким-то веществом, — у нас есть опытный образец и полное описание формирующего фактора для воссоздания эксперимента! Больше у нашего вида нет тайн! Благодаря этому открытию мы сможем решить последнюю загадку мироздания: тайну Хаоса, — с воодушевлением в голосе произнес Чарльз.",
+          "paragraph_sha256": "342929bda40885e3a46883645c51c6d16f4ea7be750afe4b81b727a3bdced4b9"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 144,
+          "source_id": "story-03-chaos-logic-c002-p000144",
+          "quote": "— Примерно. Команда, слушать внимательно. Система безопасности взорвет станцию в двухстах метрах над морем, чтобы защитить потенциально важную информацию, если ее не успеют сохранить. Поэтому у нас есть ровно три минуты и пять секунд. Я иду в лабораторию за гравитонием — это самый важный элемент. Ты, Чарльз, идешь за данными в химическую и физическую лаборатории, чтобы позже узнать статические данные за бортом и узнать, что спровоцировало катастрофу. Ты, Гарри, помогаешь старшему лейтенанту Вольфу дойти до вашего жилого модуля. Настройте двигатель станции на ручное управление отсеком. Хорошо, что инженеры компонентного подхода всегда оставляют несколько запасных способов частичной отстыковки и один жилой модуль с автопилотом. Всем понятно? У нас с мистером Арчером есть всего пара минут на сбор данных и закрытие шлюза модуля. За дело.",
+          "paragraph_sha256": "33bd21b723b96005780a9a839924cbeeca1b02478031db3d70232875729d1df0"
+        }
+      ],
+      "observation": "Гравитоний объявлен отсутствующим, затем используется в лаборатории. В первом контексте указан гравитоний-243; возможно, имеется в виду конкретный изотоп, но это не подтверждено.",
+      "reader_effect": "Требует авторского выбора, если будет поручена содержательная редактура.",
+      "proposed_change": "Не изобретать различие изотопов или объём образца; сохранить обе формулировки.",
+      "dependencies": [
+        "story-03-chaos-logic-c001-p000061",
+        "story-03-chaos-logic-c002-p000095",
+        "story-03-chaos-logic-c002-p000144"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "awaiting_author_if_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src13",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S3",
+      "certainty": "source_wording_verified; author_intent_not_inferred",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 130,
+          "source_id": "story-03-chaos-logic-c002-p000130",
+          "quote": "— Воздуха значительно поубавилось, но, из-за дыры от улетевшего модуля, данные могли быть испорчены. Это нам ничего не даст. А значит, остаётся три варианта развития событий, учитывая все данные. Первый — это случайность, и тогда вариант небольшого изменения параметров выпускного клапана связан со статической вероятностью неполадки даже такого проверенного элемента, как двигатель обратной тяги. Второй — что кто-то из нашей либо из предыдущих команд перенастроил датчики. И третий, как по мне, самый маловероятный, — что это сделал мистер Вольф.",
+          "paragraph_sha256": "8fdd3c0de7ed9ccc8b52a72c9fa34e2dbad4351272e9c669a27c9dd3dfbfa626"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 144,
+          "source_id": "story-03-chaos-logic-c002-p000144",
+          "quote": "— Примерно. Команда, слушать внимательно. Система безопасности взорвет станцию в двухстах метрах над морем, чтобы защитить потенциально важную информацию, если ее не успеют сохранить. Поэтому у нас есть ровно три минуты и пять секунд. Я иду в лабораторию за гравитонием — это самый важный элемент. Ты, Чарльз, идешь за данными в химическую и физическую лаборатории, чтобы позже узнать статические данные за бортом и узнать, что спровоцировало катастрофу. Ты, Гарри, помогаешь старшему лейтенанту Вольфу дойти до вашего жилого модуля. Настройте двигатель станции на ручное управление отсеком. Хорошо, что инженеры компонентного подхода всегда оставляют несколько запасных способов частичной отстыковки и один жилой модуль с автопилотом. Всем понятно? У нас с мистером Арчером есть всего пара минут на сбор данных и закрытие шлюза модуля. За дело.",
+          "paragraph_sha256": "33bd21b723b96005780a9a839924cbeeca1b02478031db3d70232875729d1df0"
+        }
+      ],
+      "observation": "В русском источнике стоят «статическая вероятность» и «статические данные». Для вероятности ожидается «статистическая»; технический смысл второго сочетания не установлен.",
+      "reader_effect": "Требует авторского выбора, если будет поручена содержательная редактура.",
+      "proposed_change": "Не утверждать новую физическую или измерительную модель; оставить вопрос терминологии источника.",
+      "dependencies": [
+        "story-03-chaos-logic-c002-p000130",
+        "story-03-chaos-logic-c002-p000144"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "awaiting_author_if_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src14",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S3",
+      "certainty": "source_wording_verified; author_intent_not_inferred",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 139,
+          "source_id": "story-03-chaos-logic-c002-p000139",
+          "quote": "— Теорий у нас теперь две. И времени на их обсуждение у нас уже нет, — закончила мою мысль капитан. — Расчетная высота? — спросила Ника пустоту перед собой.",
+          "paragraph_sha256": "7696f90bd61b3561aef08b58591c47b3141433c8f8ed61524532bcd2f00b8fca"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 140,
+          "source_id": "story-03-chaos-logic-c002-p000140",
+          "quote": "— 4589 метров, — ответил проводник.",
+          "paragraph_sha256": "21b63b419e4964bfb3ae45906c7ab186f4a7fcb67c36c1e4734e1d1f65bec4c6"
+        }
+      ],
+      "observation": "На запрос высоты отвечает «проводник», ранее не представленный отдельно от бортового компьютера/ИИ.",
+      "reader_effect": "Требует авторского выбора, если будет поручена содержательная редактура.",
+      "proposed_change": "Не назначать нового участника или тождество за автора.",
+      "dependencies": [
+        "story-03-chaos-logic-c002-p000139",
+        "story-03-chaos-logic-c002-p000140"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "awaiting_author_if_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src15",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S3",
+      "certainty": "source_wording_verified; author_intent_not_inferred",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 312,
+          "source_id": "story-03-chaos-logic-c006-p000312",
+          "quote": "— Самое интересное, что нет. Поскольку у него было достаточно свободного времени, он не хотел нас сдавать. Он придумал теорию, которая звучала следующим образом. Шенг, разобравшись с чертежами выпускного клапана, понял, что если совсем немного перенастроить параметры выхлопа, то можно с точностью до секунды организовать задержанный взрыв. Всё рассчитав, он спланировал действия вплоть до секунды. Поскольку все исследовательские группы работали на всех станциях, он смог на нужное время перенастроить все клапаны на всех станциях, чтобы убрать от себя подозрения. Он только одного не учел.",
+          "paragraph_sha256": "1c982256e8bbf1d754ffe0ba285238f3169ce0b777efbe3a670145d42503290a"
+        }
+      ],
+      "observation": "Свободное время причинно связано с нежеланием Шенга выдать товарищей, хотя далее объясняет возможность продумать ложную версию.",
+      "reader_effect": "Требует авторского выбора, если будет поручена содержательная редактура.",
+      "proposed_change": "Не менять причинную связь без авторского решения; исходная шероховатость отмечена.",
+      "dependencies": [
+        "story-03-chaos-logic-c006-p000312"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "awaiting_author_if_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-03-chaos-logic-src16",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S3",
+      "certainty": "source_wording_verified; author_intent_not_inferred",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 55,
+          "source_id": "story-03-chaos-logic-c001-p000055",
+          "quote": "— Спасибо. Что касается вас, сержант Арчер, будьте любезны прибраться в физической лаборатории и вымыть соответствующие посудины. Завтра мы будем проводить новые замеры частиц Хейленберга.",
+          "paragraph_sha256": "bc898a646be6a7285a3fa7e931405a260ed4394bf7dd22e676d698c627632195"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+          "format": "docx",
+          "language": "ru",
+          "p": 239,
+          "source_id": "story-03-chaos-logic-c004-p000239",
+          "quote": "— Ты представитель младшего офицерского состава, у тебя нет пока еще доступа к важной информации. В отличие от меня.",
+          "paragraph_sha256": "0b032b246fc7a75ff2a65a07a4998b2125d5ada8ef5cc1583bc5b3fa01c92517"
+        }
+      ],
+      "observation": "Гарри назван сержантом и одновременно представителем младшего офицерского состава; отдельная система званий не объяснена.",
+      "reader_effect": "Требует авторского выбора, если будет поручена содержательная редактура.",
+      "proposed_change": "Сохранить исходные звания; их унификацию не считать переводческим решением.",
+      "dependencies": [
+        "story-03-chaos-logic-c001-p000055",
+        "story-03-chaos-logic-c004-p000239"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "awaiting_author_if_change_requested"
+      },
+      "decision": null
+    }
+  ]
+}

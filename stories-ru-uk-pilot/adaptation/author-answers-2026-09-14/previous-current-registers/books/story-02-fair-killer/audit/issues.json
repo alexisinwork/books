@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "project_id": "stories-ru-uk-pilot",
+  "book_id": "story-02-fair-killer",
+  "source_sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+  "record_type": "audit/issues",
+  "fields": [
+    "id",
+    "status",
+    "resolution_status",
+    "category",
+    "severity",
+    "certainty",
+    "anchors",
+    "observation",
+    "reader_effect",
+    "proposed_change",
+    "dependencies",
+    "verification",
+    "decision"
+  ],
+  "items": [
+    {
+      "id": "story-02-fair-killer-src01",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "observed_difference_not_authorial_intent",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 0,
+          "p": 155,
+          "source_id": "story-02-fair-killer-c000-p000155",
+          "quote": "– Во-первых, не я решаю, кому умереть, я просто делаю свою работу. К тому же этих людей всё равно убьет какой-то наемник, – он показал ей большой палец. – А у меня точно не будет невинных жертв. Во-вторых, – он показал у",
+          "quote_ru": "– Во-первых, не я решаю, кому умереть, я просто делаю свою работу. К тому же этих людей всё равно убьет какой-то наемник, – он показал ей большой палец. – А у меня точно не будет невинных жертв. Во-вторых, – он показал у",
+          "paragraph_sha256": "490923ae95616dffc6e018fa4d467c6e69deefb84dc3459bef3b94ce277bce99"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 0,
+          "p": 246,
+          "source_id": "story-02-fair-killer-c000-p000246",
+          "quote": "– С годами я понял, что с твоим отцом вышла промашка, поскольку, хоть он и был вынужденным злом, у него были благие намерения, но о них я узнал много позже. На тот момент я принял правильное решение. Первые несколько дес",
+          "quote_ru": "– С годами я понял, что с твоим отцом вышла промашка, поскольку, хоть он и был вынужденным злом, у него были благие намерения, но о них я узнал много позже. На тот момент я принял правильное решение. Первые несколько дес",
+          "paragraph_sha256": "4d64212ee40745ed272de950d86f7549bde27195a72fffae8a5ccbbd9fcfaeb9"
+        }
+      ],
+      "observation": "Лайт утверждает, что всегда проверяет жертв, а в финале признаёт, что перестал делать это через десять лет и убил невинных. Это может быть характеристикой его самооправдания.",
+      "reader_effect": "May change interpretation if silently normalized.",
+      "proposed_change": "Сохранить оба высказывания; не исправлять «всегда» на «раньше» без отдельного решения.",
+      "dependencies": [
+        "story-02-fair-killer-c000-p000155",
+        "story-02-fair-killer-c000-p000246"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "pending_author_if_plot_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-02-fair-killer-src02",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "observed_difference_not_authorial_intent",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 0,
+          "p": 5,
+          "source_id": "story-02-fair-killer-c000-p000005",
+          "quote": "Один беззвучный хлопок раздался в тишине кабинета.",
+          "quote_ru": "Один беззвучный хлопок раздался в тишине кабинета.",
+          "paragraph_sha256": "c5df215cd47ab72de6e42626c7e33b66490c7f11583bf20723b3c409cdbfbc7c"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 0,
+          "p": 66,
+          "source_id": "story-02-fair-killer-c000-p000066",
+          "quote": "Один беззвучный хлопок раздался в тишине кабинета.",
+          "quote_ru": "Один беззвучный хлопок раздался в тишине кабинета.",
+          "paragraph_sha256": "c5df215cd47ab72de6e42626c7e33b66490c7f11583bf20723b3c409cdbfbc7c"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 0,
+          "p": 248,
+          "source_id": "story-02-fair-killer-c000-p000248",
+          "quote": "Один беззвучный хлопок раздался в тишине...",
+          "quote_ru": "Один беззвучный хлопок раздался в тишине...",
+          "paragraph_sha256": "2216c2c2933e91fbf5d9a54925fbacf62ed9a77a8dba3fbecc2f4bf4479452ec"
+        }
+      ],
+      "observation": "Формула «беззвучный хлопок раздался» акустически парадоксальна и повторяется композиционно.",
+      "reader_effect": "May change interpretation if silently normalized.",
+      "proposed_change": "Сохранить узнаваемый повтор и степень недосказанности; не расписывать звук/попадание заново.",
+      "dependencies": [
+        "story-02-fair-killer-c000-p000005",
+        "story-02-fair-killer-c000-p000066",
+        "story-02-fair-killer-c000-p000248"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "pending_author_if_plot_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-02-fair-killer-src03",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "observed_difference_not_authorial_intent",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 0,
+          "p": 36,
+          "source_id": "story-02-fair-killer-c000-p000036",
+          "quote": "Через несколько лет Андрей Хаст уже уничтожил всех бандитов в округе, а после и во всем городе, и начал заниматься продажей наркотиков и разбоем сам. Он должен был делать вид, что это всё еще разборки внутри группировок:",
+          "quote_ru": "Через несколько лет Андрей Хаст уже уничтожил всех бандитов в округе, а после и во всем городе, и начал заниматься продажей наркотиков и разбоем сам. Он должен был делать вид, что это всё еще разборки внутри группировок:",
+          "paragraph_sha256": "5fec9090b7ac13cd2f4dd4ebace30eb8c1dff0f1d1d3d3bd8a4c058c3b5f28cf"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 0,
+          "p": 41,
+          "source_id": "story-02-fair-killer-c000-p000041",
+          "quote": "Андрей Хаст занимался «улучшением общества» уже десять лет, а ему не удалось даже захватить контроль над собственным городом! Уровень и умения представителей преступного клана были намного выше, чем он мог себе представи",
+          "quote_ru": "Андрей Хаст занимался «улучшением общества» уже десять лет, а ему не удалось даже захватить контроль над собственным городом! Уровень и умения представителей преступного клана были намного выше, чем он мог себе представи",
+          "paragraph_sha256": "f67c5354112ffa1ec4b26b643cc620c6b72f5b4de5ff87d1a57a536265666438"
+        }
+      ],
+      "observation": "Упомянуты смена личности/имени Хаста и разные длительности захвата преступных сетей; подробная календарная сетка и новое имя отсутствуют.",
+      "reader_effect": "May change interpretation if silently normalized.",
+      "proposed_change": "Не изобретать даты, новое имя или связь с хронологией других текстов.",
+      "dependencies": [
+        "story-02-fair-killer-c000-p000036",
+        "story-02-fair-killer-c000-p000041"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "pending_author_if_plot_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-02-fair-killer-src04",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "observed_difference_not_authorial_intent",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 0,
+          "p": 2,
+          "source_id": "story-02-fair-killer-c000-p000002",
+          "quote": "Лайт отработанным движением достал пистолет отца, вставил шумопоглощающий фильтр и два раза моргнул, включая «Глаза Хиггса» – они видят бозоны одноименного ученого и могут определить тип материала, массу и объем. Пепельн",
+          "quote_ru": "Лайт отработанным движением достал пистолет отца, вставил шумопоглощающий фильтр и два раза моргнул, включая «Глаза Хиггса» – они видят бозоны одноименного ученого и могут определить тип материала, массу и объем. Пепельн",
+          "paragraph_sha256": "93fc27d8da901a98e98c8cec4f038a4bd40806d34e6072737d1faeb3e8ea7b5b"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 0,
+          "p": 37,
+          "source_id": "story-02-fair-killer-c000-p000037",
+          "quote": "Там он решил заниматься полезным для общества делом – выращиванием риокки. Он не знал, но оказалось, что его там очень ждут и всегда рады видеть, потому что он легенда всей планеты. И после нескольких исследований оказал",
+          "quote_ru": "Там он решил заниматься полезным для общества делом – выращиванием риокки. Он не знал, но оказалось, что его там очень ждут и всегда рады видеть, потому что он легенда всей планеты. И после нескольких исследований оказал",
+          "paragraph_sha256": "e48604d5bc880e4fcaef87a90ff28174d1300193d7999f4a1f9e833c363003ea"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 0,
+          "p": 85,
+          "source_id": "story-02-fair-killer-c000-p000085",
+          "quote": "Мальчик кивнул и отошел на несколько метров. Сопла громко изрыгнули плазму из себя и шумно стали подогревать гранитную плитку плацдарма. Мальчик начал неспешно, но уверенно подходить всё ближе и ближе… Но при пересечении",
+          "quote_ru": "Мальчик кивнул и отошел на несколько метров. Сопла громко изрыгнули плазму из себя и шумно стали подогревать гранитную плитку плацдарма. Мальчик начал неспешно, но уверенно подходить всё ближе и ближе… Но при пересечении",
+          "paragraph_sha256": "81b06ee5bd5b26d331cf12bc49794a03736d7186752a264af0a455488494b08e"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "status": "author_selected",
+          "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+          "role": "master_inventory",
+          "language": "ru",
+          "chapter": 0,
+          "p": 181,
+          "source_id": "story-02-fair-killer-c000-p000181",
+          "quote": "В доме Накима Винга его жена уже закончила готовить ужин и прибиралась на кухне в ожидании Кирвы. Лайт с отцом в это время играли в чикайоки – местный аналог шахмат. Единственным различием было то, что одна из пешек, что",
+          "quote_ru": "В доме Накима Винга его жена уже закончила готовить ужин и прибиралась на кухне в ожидании Кирвы. Лайт с отцом в это время играли в чикайоки – местный аналог шахмат. Единственным различием было то, что одна из пешек, что",
+          "paragraph_sha256": "70788c8dbd844f5af882986f94b5a2f94f4b689dbabcdcbaa6f86703c69f1907"
+        }
+      ],
+      "observation": "Фантастические технологии и правила изложены прямо; их научная корректность не удостоверена подготовкой.",
+      "reader_effect": "May change interpretation if silently normalized.",
+      "proposed_change": "Сохранять описанные функции и точные термины; вопросы реальной науки не ремонтировать внутри перевода.",
+      "dependencies": [
+        "story-02-fair-killer-c000-p000002",
+        "story-02-fair-killer-c000-p000037",
+        "story-02-fair-killer-c000-p000085",
+        "story-02-fair-killer-c000-p000181"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "pending_author_if_plot_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-02-fair-killer-src05",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "source_wording_verified; author_intent_not_inferred",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "language": "ru",
+          "p": 85,
+          "source_id": "story-02-fair-killer-c000-p000085",
+          "quote": "Мальчик кивнул и отошел на несколько метров. Сопла громко изрыгнули плазму из себя и шумно стали подогревать гранитную плитку плацдарма. Мальчик начал неспешно, но уверенно подходить всё ближе и ближе… Но при пересечении какой-то неосязаемой границы, которая известна только бездушной машине, двигатели резко выключились, а в динамиках во всеуслышание громко прозвучало оповещение: «Опасность. Человек у двигателей. Экстренное выключение. Опасность. Чел…». Мальчик отошел на шаг назад, и двигатели завелись вновь. Шаг вперед – и снова сигнал. Но мать Лайта всё еще была обеспокоена.",
+          "paragraph_sha256": "81b06ee5bd5b26d331cf12bc49794a03736d7186752a264af0a455488494b08e"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "language": "ru",
+          "p": 87,
+          "source_id": "story-02-fair-killer-c000-p000087",
+          "quote": "– Они просто не включатся. Вот, смотри, – Винг-старший подозвал сына и снова запустил двигатели. Зазвучал тот же сигнал. – Видишь? Это очень безопасно, – он снова вернулся к Лоре.",
+          "paragraph_sha256": "18400a57049a8282af860d99ae805c69172f590e4b0c7e2496434b0c586452d8"
+        }
+      ],
+      "observation": "Завершённый запуск двигателя в p87 соседствует с блокировкой при присутствии ребёнка у сопел; это формулировка RU, не ошибка украинского времени.",
+      "reader_effect": "Требует авторского выбора, если будет поручена содержательная редактура.",
+      "proposed_change": "Не менять завершённый запуск на попытку без авторского решения.",
+      "dependencies": [
+        "story-02-fair-killer-c000-p000085",
+        "story-02-fair-killer-c000-p000087"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "awaiting_author_if_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-02-fair-killer-src06",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "source_wording_verified; author_intent_not_inferred",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "language": "ru",
+          "p": 181,
+          "source_id": "story-02-fair-killer-c000-p000181",
+          "quote": "В доме Накима Винга его жена уже закончила готовить ужин и прибиралась на кухне в ожидании Кирвы. Лайт с отцом в это время играли в чикайоки – местный аналог шахмат. Единственным различием было то, что одна из пешек, что решалось заранее, была изначально убийцей – эта пешка могла проходить через одну фигуру на выбор по вертикали и «убивать» ее. Это был козырь в рукаве каждого игрока, и искусство правильной игры в чикайоки скрывалось за мастерством правильного выбора пешки и момента, когда ею нужно воспользоваться.",
+          "paragraph_sha256": "70788c8dbd844f5af882986f94b5a2f94f4b689dbabcdcbaa6f86703c69f1907"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "language": "ru",
+          "p": 183,
+          "source_id": "story-02-fair-killer-c000-p000183",
+          "quote": "– Эх, Лайти, ты всё еще торопишься… – хозяин дома перевернул пешку, одним движением перескочил через коня и «убил» ферзя. – Ты проиграл.",
+          "paragraph_sha256": "8281ae3604d6d03c771d25b51d61938c84d65a4effcd0ee263311e30212b8e02"
+        }
+      ],
+      "observation": "По правилу пешка-убийца проходит через одну фигуру по вертикали и убивает её. В показанном ходе она перескакивает через коня и убивает ферзя. Соотношение правила и хода не пояснено.",
+      "reader_effect": "Требует авторского выбора, если будет поручена содержательная редактура.",
+      "proposed_change": "Уточнить устройство игры только по отдельному авторскому ответу; в переводе оставить оба описания.",
+      "dependencies": [
+        "story-02-fair-killer-c000-p000181",
+        "story-02-fair-killer-c000-p000183"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "awaiting_author_if_change_requested"
+      },
+      "decision": null
+    },
+    {
+      "id": "story-02-fair-killer-src07",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "category": "source_ambiguity_or_inconsistency",
+      "severity": "S2",
+      "certainty": "source_wording_verified; author_intent_not_inferred",
+      "anchors": [
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "language": "ru",
+          "p": 65,
+          "source_id": "story-02-fair-killer-c000-p000065",
+          "quote": "– Спасибо. Проследи, чтобы моя дочь была в безопасности. Я не хочу, чтобы ей навредили. Я вижу в твоих глазах, что в тебе еще есть благородство. Ты найдешь нужные инструкции в левом ящике, – и хозяин кабинета указал взглядом на нужный ящик стола. – Делай, что должен, Эсквайр.",
+          "paragraph_sha256": "cbe17833a76a6c032f3b12738ea069f29d39264b6ec6794c335b3a6675f8faf3"
+        },
+        {
+          "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+          "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+          "format": "docx",
+          "language": "ru",
+          "p": 123,
+          "source_id": "story-02-fair-killer-c000-p000123",
+          "quote": "– Это последние слова моего отца. Перед тем как его убили. Его звали…",
+          "paragraph_sha256": "b8299361a6b294c67ac1f26003c0a41b509e14a5615c1fd7abe6ee9744ba565f"
+        }
+      ],
+      "observation": "Джулія знает последние слова отца; в выбранном источнике канал передачи ей этих слов не показан.",
+      "reader_effect": "Требует авторского выбора, если будет поручена содержательная редактура.",
+      "proposed_change": "Не добавлять свидетеля, запись или иной новый канал знания.",
+      "dependencies": [
+        "story-02-fair-killer-c000-p000065",
+        "story-02-fair-killer-c000-p000123"
+      ],
+      "verification": {
+        "source": "checked",
+        "resolution": "awaiting_author_if_change_requested"
+      },
+      "decision": null
+    }
+  ]
+}

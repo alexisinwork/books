@@ -87,6 +87,26 @@
         "target_sha256": "e4ee59805218b2bc8b971176ac2def0ba9aead38558f2f0d8751276d5bd40604",
         "full_literary_release_gate": "open"
       }
+    },
+    {
+      "id": "author-answers-2026-09-14",
+      "reason": "Apply author answers and expressly delegated continuity edits",
+      "old_source": {
+        "path": "editions/uk/draft-v3/target.uk.txt",
+        "sha256": "e4ee59805218b2bc8b971176ac2def0ba9aead38558f2f0d8751276d5bd40604"
+      },
+      "new_source": {
+        "path": "editions/uk/draft-v4/target.uk.txt",
+        "sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960",
+        "role": "UA_WORKING_EDITION"
+      },
+      "changes": "editions/uk/draft-v4/changes.json",
+      "decision": "editions/uk/decisions/2026-09-14-author-answers.json",
+      "continuity": "editions/uk/draft-v4/continuity.json",
+      "verification": "editions/uk/draft-v4/local-review.json",
+      "ru_source_registers": "Unchanged historical observations; UK facts and entry-state overrides are in the linked continuity layer.",
+      "delivery": "../../delivery/2026-09-14-v3",
+      "full_literary_release_gate": "open"
     }
   ]
 }

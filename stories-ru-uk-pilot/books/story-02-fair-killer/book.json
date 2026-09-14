@@ -35,7 +35,7 @@
     "uk": {
       "path": "editions/uk",
       "role": "UA_WORKING_EDITION",
-      "status": "working_translation_complete",
+      "status": "author_answers_applied_working_edition",
       "source_language": "ru",
       "target_language": "uk",
       "source_path": "sources/originals/Справедливый убийца.docx",
@@ -43,13 +43,20 @@
       "source_role": "RU_SOURCE_MASTER",
       "source_status": "author_selected_for_pilot",
       "author_basis": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
-      "current_draft": "draft-v2",
-      "target_path": "editions/uk/draft-v2/target.uk.txt",
-      "target_sha256": "703b831984127e59061e6a87fd72728ecdb3097f84ff235cf59691a3347e4a8e",
-      "reader_path": "editions/uk/draft-v2/reader/Справедливий убивця — українська версія.docx",
-      "quality_assessment": "editions/uk/QA-ASSESSMENT-v2.md",
+      "current_draft": "draft-v3",
+      "target_path": "editions/uk/draft-v3/target.uk.txt",
+      "target_sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7",
+      "reader_path": "editions/uk/draft-v3/reader/Справедливий вбивця — українська версія.docx",
+      "quality_assessment": "editions/uk/QA-ASSESSMENT-v3.md",
       "required_literary_release_gate": "open",
-      "author_canonical_approval": false
+      "author_canonical_approval": false,
+      "title": "Справедливий вбивця",
+      "input_manifest": "editions/uk/INPUTS-V2.json",
+      "preparation_packet": "editions/uk/preparation/pilot/ready-v2",
+      "continuity_path": "editions/uk/draft-v3/continuity.json",
+      "author_decisions": [
+        "editions/uk/decisions/2026-09-14-author-answers.json"
+      ]
     }
   }
 }
