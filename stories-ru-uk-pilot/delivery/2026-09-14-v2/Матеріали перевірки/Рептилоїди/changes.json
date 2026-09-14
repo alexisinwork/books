@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "book_id": "story-01-reptiloids",
+  "from": "draft-v1",
+  "to": "draft-v3",
+  "decision_status": "editorial_trial_not_author_accepted",
+  "source_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+  "base_target_sha256": "504f5a34b32df383ac1cb7cdf4932a9420d906a79222f1609dbb5450e8ec1cc7",
+  "reports": [
+    "editions/uk/qa/astra-r1/REPORT.md#A1",
+    "editions/uk/qa/opus-r1/REPORT.md#F1",
+    "editions/uk/qa/opus-r1/REPORT.md#F2",
+    "editions/uk/qa/opus-r1/REPORT.md#F3",
+    "editions/uk/qa/opus-r1/REPORT.md#F4",
+    "editions/uk/qa/opus-r1/REPORT.md#U1",
+    "editions/uk/qa/opus-r1/REPORT.md#U2"
+  ],
+  "changes": [
+    {
+      "source_id": "story-01-reptiloids-c000-p000001",
+      "before": "важко опустившись на стільці",
+      "after": "з важкими зітханнями опустившись на стільці",
+      "finding": "astra-r1/A1; opus-r1/S4"
+    },
+    {
+      "source_id": "story-01-reptiloids-c000-p000014",
+      "before": "Дімон нас розважив",
+      "after": "Дімон над нами пожартував",
+      "finding": "opus-r1/F3"
+    },
+    {
+      "source_id": "story-01-reptiloids-c000-p000016",
+      "before": "перетер за «Динамо» — «Шахтар»",
+      "after": "потеревенив про «Динамо» — «Шахтар»",
+      "finding": "opus-r1/F4"
+    },
+    {
+      "source_id": "story-01-reptiloids-c000-p000017",
+      "before": "змови ваші яйцем по голові викачували",
+      "after": "заговори ваші яйцем по голові викачували",
+      "finding": "opus-r1/F1",
+      "constraint": "possible wordplay only; author intent unresolved",
+      "status": "proposed"
+    },
+    {
+      "source_id": "story-01-reptiloids-c000-p000023",
+      "before": "з усмішкою запитав",
+      "after": "криво всміхнувшись, запитав",
+      "finding": "opus-r1/F2"
+    },
+    {
+      "source_id": "story-01-reptiloids-c000-p000031",
+      "before": "замкнені двері",
+      "after": "зачинені двері",
+      "finding": "opus-r1/S4"
+    },
+    {
+      "source_id": "story-01-reptiloids-c000-p000034",
+      "before": "Закопаємося там у сніг. — Мужики побігли в бік лісу.",
+      "after": "Закопаємося там у сніг.\n\nМужики побігли в бік лісу.",
+      "finding": "opus-r1/S4"
+    },
+    {
+      "source_id": "story-01-reptiloids-c000-p000043",
+      "before": "двері були замкнені",
+      "after": "двері були зачинені",
+      "finding": "opus-r1/S4"
+    },
+    {
+      "source_id": "story-01-reptiloids-c000-p000046",
+      "before": "Не бійся, — Олег був переконливий",
+      "after": "Не бійся.\n\nОлег був переконливий",
+      "finding": "opus-r1/S4"
+    },
+    {
+      "source_id": "story-01-reptiloids-c000-p000049",
+      "before": "зауважив Дімо",
+      "after": "зауважив Діма",
+      "finding": "opus-r1/U1",
+      "status": "editorial_trial"
+    },
+    {
+      "source_id": "story-01-reptiloids-c000-p000055",
+      "before": "знімає маску і, блиснувши жовтими очима, прошипів",
+      "after": "знімає маску і, блиснувши жовтими очима, шипить",
+      "finding": "opus-r1/U2",
+      "status": "editorial_trial"
+    },
+    {
+      "source_id": "story-01-reptiloids-c000-p000029",
+      "before": "не зводячи з них очей",
+      "after": "не зводячи очей з рептилоїдів",
+      "finding": "astra-target-only-r2/UK-R2-02",
+      "reason": "В русском «к двери» не является множественным антецедентом «них». В украинском «до дверей» стало им; явное существительное восстанавливает исходный объект взгляда.",
+      "editor": "Astra",
+      "status": "editorial_trial"
+    }
+  ],
+  "parent_target_sha256": "06671274e8946e808b8bcfab05ae2c549fac11ab67578f3c3e310a223ff8bbee",
+  "target_sha256": "adb6b9cd347169dae6e25a02ac191795c9772548240c161ff41db2427077bf42",
+  "alignment_update": "Один общий блок54source→58target раскрыт в54точных source-aligned блока;4локальных разделения сохранены. Порядок и текст от этого не изменились."
+}

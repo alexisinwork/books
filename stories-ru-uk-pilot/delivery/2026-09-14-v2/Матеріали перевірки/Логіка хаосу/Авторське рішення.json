@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "chaos-author-meaning-2026-09-14-01",
+  "book_id": "story-03-chaos-logic",
+  "date": "2026-09-14",
+  "origin": "Explicit author answer in this conversation to the question about the final moral statement",
+  "author_statement_ru": "Никакие желания не стоят человеческой жизни",
+  "status": "accepted",
+  "scope": "Meaning of the two final sentences of source paragraph 324 in the Ukrainian working edition only",
+  "source_anchor": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+    "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+    "source_id": "story-03-chaos-logic-c006-p000324",
+    "p": 324,
+    "quote": "Ни одна жизнь не стоит желаний других. Даже благих."
+  },
+  "previous_target": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v2/target.uk.txt",
+    "sha256": "ce72a7811a8a23dd6a613251091abd39159f3a1d1e6f2a149a13aafb65b287a5",
+    "quote": "Жодне життя не варте бажань інших. Навіть благих."
+  },
+  "implemented_target": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v3/target.uk.txt",
+    "sha256": "e4ee59805218b2bc8b971176ac2def0ba9aead38558f2f0d8751276d5bd40604",
+    "quote": "Жодні бажання не варті людського життя. Навіть благі."
+  },
+  "uk_wording_by": "Astra / Codex, implementing the author-confirmed Russian meaning",
+  "exact_uk_wording_authored_or_separately_approved_by_user": false,
+  "canonical_master_approval": false,
+  "dependencies": [
+    "story-03-chaos-logic-c006-p000324",
+    "story-03-chaos-logic-src09",
+    "astra-target-only-r1:F01",
+    "chapter-06.json",
+    "reader DOCX",
+    "full RU–UK comparison",
+    "author questions"
+  ]
+}

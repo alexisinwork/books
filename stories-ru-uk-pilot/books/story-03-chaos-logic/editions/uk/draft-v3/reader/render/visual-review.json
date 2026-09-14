@@ -1,0 +1,25 @@
+{
+  "reviewer": "Astra / Codex image inspection",
+  "result": "passed",
+  "docx_sha256": "f73c5ff1f1a910fa8023f538ac4deddeb0596c924c8054c6b5ea126295a4b141",
+  "pdf_sha256": "c21ce41c2fac777dbd44fea63bdd57784f879fc7ece8830ed58f8229c3fa7924",
+  "scope": {
+    "full_size_pages": [
+      55
+    ],
+    "pages_1_through_54": "Pixel-identical to draft-v2 pages, which were already visually inspected",
+    "comparison_evidence": "comparison-v2.json",
+    "prior_review_sha256": "6ce6866183010ef8fd17b9aa04235d8458505feadab019c4784a51e1168a3100"
+  },
+  "images": [
+    {
+      "file": "page-055.png",
+      "sha256": "e8aa0767fa2850646ec1806edbdf53c05e2831ba8e327373981e99fd1e3fecdb"
+    }
+  ],
+  "observations": [
+    "Read the updated final page at full size: the exact author-confirmed moral meaning is present.",
+    "No clipping, overlap or missing glyphs; final bold paragraph and spacing retained.",
+    "All preceding page raster samples match the previously inspected v2; no claim of a new independent full reading."
+  ]
+}

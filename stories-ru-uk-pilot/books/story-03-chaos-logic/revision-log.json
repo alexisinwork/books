@@ -54,6 +54,39 @@
         "Independent translation review not yet run"
       ],
       "decision": "Preparation only; target master not promoted."
+    },
+    {
+      "id": "chaos-author-meaning-2026-09-14-01",
+      "reason": "Explicit author meaning clarification for the final moral statement",
+      "old_source": {
+        "path": "editions/uk/draft-v2/target.uk.txt",
+        "sha256": "ce72a7811a8a23dd6a613251091abd39159f3a1d1e6f2a149a13aafb65b287a5",
+        "role": "UA_WORKING_EDITION"
+      },
+      "new_source": {
+        "path": "editions/uk/draft-v3/target.uk.txt",
+        "sha256": "e4ee59805218b2bc8b971176ac2def0ba9aead38558f2f0d8751276d5bd40604",
+        "role": "UA_WORKING_EDITION"
+      },
+      "changes": "editions/uk/draft-v3/changes.json",
+      "decision": "editions/uk/decisions/2026-09-14-final-meaning.json",
+      "affected_checks": [
+        "source p324 / target P308",
+        "chapter-06 synchronization",
+        "new 19-input packet",
+        "DOCX extraction and final page render",
+        "author questions and reader package"
+      ],
+      "unchanged_dependencies": {
+        "source_canon_and_ru_derived_files": "RU source bytes unchanged; observations remain bound to RU",
+        "characters_knowledge_timeline_resources": "Only retrospective moral evaluation clarified; no facts or information timing changed",
+        "other_stories": "No edits"
+      },
+      "verification": {
+        "result": "passed_local_author_correction_checks",
+        "target_sha256": "e4ee59805218b2bc8b971176ac2def0ba9aead38558f2f0d8751276d5bd40604",
+        "full_literary_release_gate": "open"
+      }
     }
   ]
 }

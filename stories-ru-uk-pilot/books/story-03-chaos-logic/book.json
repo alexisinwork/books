@@ -43,13 +43,18 @@
       "source_role": "RU_SOURCE_MASTER",
       "source_status": "author_selected_for_pilot",
       "author_basis": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
-      "current_draft": "draft-v2",
-      "target_path": "editions/uk/draft-v2/target.uk.txt",
-      "target_sha256": "ce72a7811a8a23dd6a613251091abd39159f3a1d1e6f2a149a13aafb65b287a5",
-      "reader_path": "editions/uk/draft-v2/reader/Логіка хаосу — українська версія.docx",
-      "quality_assessment": "editions/uk/QA-ASSESSMENT-v2.md",
+      "current_draft": "draft-v3",
+      "target_path": "editions/uk/draft-v3/target.uk.txt",
+      "target_sha256": "e4ee59805218b2bc8b971176ac2def0ba9aead38558f2f0d8751276d5bd40604",
+      "reader_path": "editions/uk/draft-v3/reader/Логіка хаосу — українська версія.docx",
+      "quality_assessment": "editions/uk/QA-ASSESSMENT-v3.md",
       "required_literary_release_gate": "open",
-      "author_canonical_approval": false
+      "author_canonical_approval": false,
+      "input_manifest": "editions/uk/INPUTS-V2.json",
+      "preparation_packet": "editions/uk/preparation/pilot/ready-v2",
+      "author_decisions": [
+        "editions/uk/decisions/2026-09-14-final-meaning.json"
+      ]
     }
   }
 }

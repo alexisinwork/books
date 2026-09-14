@@ -566,8 +566,8 @@
     },
     {
       "id": "story-03-chaos-logic-src09",
-      "status": "proposed",
-      "resolution_status": "unresolved",
+      "status": "verified",
+      "resolution_status": "resolved",
       "category": "source_ambiguity_or_inconsistency",
       "severity": "S2",
       "certainty": "source_wording_verified; author_intent_not_inferred",
@@ -583,17 +583,29 @@
           "paragraph_sha256": "61e09c7cf873a4e2aabe5cfb631f67a8ee7a218ab87031042518b280b9a1b2f7"
         }
       ],
-      "observation": "Фраза «Ни одна жизнь не стоит желаний других. Даже благих» меняет направление оценки относительно соседнего осуждения жертв. Точное желаемое значение задано автору отдельным вопросом; ответа пока нет.",
+      "observation": "Исходная оценочная формула была двусмысленной. Автор явно уточнил: «Никакие желания не стоят человеческой жизни».",
       "reader_effect": "Требует авторского выбора, если будет поручена содержательная редактура.",
-      "proposed_change": "До ответа сохранить исходную формулировку; предложено «Жодні бажання не варті чужого життя. Навіть благі».",
+      "proposed_change": "Применено в UK p324: «Жодні бажання не варті людського життя. Навіть благі». Русский оригинал сохранён.",
       "dependencies": [
         "story-03-chaos-logic-c006-p000324"
       ],
       "verification": {
         "source": "checked",
-        "resolution": "awaiting_author_if_change_requested"
+        "resolution": "resolved_by_explicit_author_answer",
+        "implementation": "passed",
+        "target_path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v3/target.uk.txt",
+        "target_sha256": "e4ee59805218b2bc8b971176ac2def0ba9aead38558f2f0d8751276d5bd40604",
+        "check_path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v3/author-decision-check.json",
+        "check_sha256": "e9985a64b7b717ca0f2bece0593ed333aacecbac1bf3a06b410e6e41b2d937fd"
       },
-      "decision": null
+      "decision": {
+        "status": "accepted",
+        "id": "chaos-author-meaning-2026-09-14-01",
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/decisions/2026-09-14-final-meaning.json",
+        "sha256": "ef3d8329414eb18836aaeace95e9d0be5fae6d427a5d156f5bfb00ac0099f5b2",
+        "author_statement": "Никакие желания не стоят человеческой жизни",
+        "scope": "Meaning of UK working-edition p324 only"
+      }
     },
     {
       "id": "story-03-chaos-logic-src10",
