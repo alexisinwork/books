@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "book_id": "book-01",
+  "status": "prepared_not_translated",
+  "source": {
+    "path": "riokka/books/book-01/manuscript/master.docx",
+    "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+    "format": "docx",
+    "status": "author_selected",
+    "authority": "Автор 13 сентября 2026 года предоставил обновлённый DOCX с исправлениями и прямо поручил внести обязательную точечную корректуру, повторно проверить все 42 главы и обновить мастер.",
+    "role": "master_inventory",
+    "language": "ru"
+  },
+  "source_language": "ru",
+  "target_language": "uk",
+  "book_manifest": {
+    "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-01.json",
+    "sha256": "4f2b348e8a2916e29166d7d827a6cb6a2a053495bb7b72d004c1ed1b8c31522f"
+  },
+  "chapters": [
+    1,
+    2,
+    3
+  ],
+  "source_segments_sha256": "1f2afdb8defd15c78d5ec456c7b6a42e457ab04262594ad175c33aafa448c664",
+  "source_reader_file": "source.ru.txt",
+  "source_reader_sha256": "2bb8ef40336467bef527dc915f4abade19dedb51782144a384db5a3bbff94c74",
+  "inputs": [
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/adapter.md",
+      "sha256": "94d2f6a7eab9202f78da8ef4998d76cb8065fdc8b170bf89f9815c8b00239cc0"
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/reviewer.md",
+      "sha256": "b9d2b49d446e4c16ae869992cb71c323d6f45b64fa7f6352c40bff91eaca4631"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "8d0dbc8e8efdc98506d270b72d02081345797e5b7908696c1c96f15cafb4b928"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/OLEK_UA_STYLE.md",
+      "sha256": "7362b531353937dee0711a3071a3ce3d606a9a04949fe9ad2ffce09029e776d0"
+    },
+    {
+      "path": "BOOK_SYSTEM/REVIEW.md",
+      "sha256": "28287699a5742b060a373fb065d23f72019df50c62ece91bee2dcffb755ceeaa"
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/BOOK_BIBLE.md",
+      "sha256": "49a2d72a7d09bf1ce77713ec5ae83504b521ab20f6295268632289bf8fed3b72"
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/AUTHOR_INTENT.md",
+      "sha256": "71465b6c910542dcf8c07fc1e49f03e792dca1633133fb3c8974240462e85aa3"
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/UA_STYLE_GUIDE.md",
+      "sha256": "37afcc9d0da6ddeb60b1aca5b8d642eb19d1f8e15e239d5affbf6727c05234ae"
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/GLOSSARY_RU_UA.md",
+      "sha256": "72569cfaeccaaa9a156b8279859c89a7befb12218e61df2ac8e6dac018118215"
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/CHARACTER_VOICES.md",
+      "sha256": "7fa3522b58c8ed8192061a71f51b4d6dc620546022780b07273e0d419889fe64"
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/MEANING_LEDGER.md",
+      "sha256": "78ee77620ba9696fab0d1a9f4a36d6ff327c959f8033d1d8ede30db01d880eb1"
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/DECISION_LOG.md",
+      "sha256": "320493faacc752371e37713253674f51953493b62eb7c5b3d2f549fe533de898"
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/meaning-ledger.json",
+      "sha256": "5e0a84f9e95605d19a69c086c4dbdb5e1e911833d8cdd22b95d228f4c91a9c55"
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/glossary.json",
+      "sha256": "70f72871bc96a1ca73211861a44413ae84e4bce900cef52968bdfe6550256fdd"
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+      "sha256": "750f7c902f43902eb6af2d421f615bdb3e9733edf34790d0bf8ca5df9eb74ce7"
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/voices.json",
+      "sha256": "8ceb22097acec6b8350e86de9392cb51d8bcedafa69e50a2daed8d832237d27d"
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/adaptation-ledger.json",
+      "sha256": "83c428c90fafe9f83bd9727bf3201d8ba4319e71d49ef0ae2b6fcf52b24a4494"
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/calibration-plan.json",
+      "sha256": "e775c0a18d5863069fa63e346346074cb718ed2687678163883514dacd53f911"
+    }
+  ],
+  "source_segment_count": 197,
+  "ru_lexical_tokens": 5789,
+  "extraction_scope": "Nonempty source body units in selected chapters; blank layout units omitted. DOCX inline run emphasis retained in segment records; layout not rendered.",
+  "created_at": "2026-09-14T16:56:18+00:00"
+}

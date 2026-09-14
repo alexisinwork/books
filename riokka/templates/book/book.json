@@ -8,5 +8,20 @@
   "master": null,
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "not_started"
+  "audit_status": "not_started",
+  "original_language": "uk",
+  "canonical_language": "uk",
+  "language_state": "not_written",
+  "legacy_sources": [],
+  "editions": {
+    "uk": {
+      "role": "canonical_original",
+      "status": "not_started"
+    },
+    "en": {
+      "role": "derived_edition",
+      "source_language": "uk",
+      "status": "not_started"
+    }
+  }
 }

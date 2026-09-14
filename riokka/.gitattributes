@@ -12,3 +12,7 @@ methods/originals/** -text
 reports/previous-deliverables/** -text
 legacy-skills/** -text
 books/**/manuscript/** -text
+# Frozen adaptation inputs preserve bytes and source paragraph whitespace.
+**/SOURCE/** -text
+**/source.ru.txt -text -whitespace
+**/source.uk.txt -text -whitespace

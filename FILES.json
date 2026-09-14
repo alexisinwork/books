@@ -1,9 +1,34 @@
 {
-  "count_excluding_this_index": 1307,
+  "count_excluding_this_index": 1462,
+  "scope": "Git-index delivery snapshot. Sizes describe committed/staged bytes; unrelated working-tree edits and untracked files are intentionally excluded. Regenerate after selecting a delivery, not by adding all dirty work.",
   "files": [
     {
+      "path": ".agents/skills/book-language-review/SKILL.md",
+      "bytes": 2625
+    },
+    {
+      "path": ".agents/skills/book-language-review/agents/openai.yaml",
+      "bytes": 360
+    },
+    {
+      "path": ".agents/skills/book-showrunner/SKILL.md",
+      "bytes": 2253
+    },
+    {
+      "path": ".agents/skills/book-showrunner/agents/openai.yaml",
+      "bytes": 321
+    },
+    {
+      "path": ".agents/skills/literary-adaptation/SKILL.md",
+      "bytes": 3618
+    },
+    {
+      "path": ".agents/skills/literary-adaptation/agents/openai.yaml",
+      "bytes": 332
+    },
+    {
       "path": ".agents/skills/ru-approved-revision/SKILL.md",
-      "bytes": 3496
+      "bytes": 4267
     },
     {
       "path": ".agents/skills/ru-approved-revision/agents/openai.yaml",
@@ -11,7 +36,7 @@
     },
     {
       "path": ".agents/skills/ru-chief-editor/SKILL.md",
-      "bytes": 3445
+      "bytes": 4268
     },
     {
       "path": ".agents/skills/ru-chief-editor/agents/openai.yaml",
@@ -19,7 +44,7 @@
     },
     {
       "path": ".agents/skills/ru-cold-reader/SKILL.md",
-      "bytes": 2918
+      "bytes": 3527
     },
     {
       "path": ".agents/skills/ru-cold-reader/agents/openai.yaml",
@@ -27,7 +52,7 @@
     },
     {
       "path": ".agents/skills/ru-editorial-reconciler/SKILL.md",
-      "bytes": 2943
+      "bytes": 3852
     },
     {
       "path": ".agents/skills/ru-editorial-reconciler/agents/openai.yaml",
@@ -35,7 +60,7 @@
     },
     {
       "path": ".agents/skills/ru-literary-editor/SKILL.md",
-      "bytes": 3359
+      "bytes": 4159
     },
     {
       "path": ".agents/skills/ru-literary-editor/agents/openai.yaml",
@@ -47,7 +72,7 @@
     },
     {
       "path": ".gitattributes",
-      "bytes": 597
+      "bytes": 761
     },
     {
       "path": ".github/workflows/validate.yml",
@@ -59,11 +84,143 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 8473
+      "bytes": 10599
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/SCHEMA.md",
+      "bytes": 6922
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/WORKFLOW.md",
+      "bytes": 8723
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/adapter.md",
+      "bytes": 3951
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/author-meaning-check.md",
+      "bytes": 854
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/calibration.md",
+      "bytes": 1516
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/context-scan.md",
+      "bytes": 1217
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/human-editor.md",
+      "bytes": 1130
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/reviewer.md",
+      "bytes": 2088
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/target-only-en.md",
+      "bytes": 1180
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/target-only-uk.md",
+      "bytes": 1975
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/routes/ru-en.md",
+      "bytes": 1294
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/routes/ru-uk.md",
+      "bytes": 1168
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/routes/uk-en.md",
+      "bytes": 1737
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/templates/AUTHOR_INTENT.md",
+      "bytes": 1999
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/templates/BOOK_BIBLE.md",
+      "bytes": 1368
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/templates/CHARACTER_VOICES.md",
+      "bytes": 1452
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/templates/DECISION_LOG.md",
+      "bytes": 1570
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/templates/GLOSSARY.md",
+      "bytes": 1572
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/templates/MEANING_LEDGER.md",
+      "bytes": 1399
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/templates/STYLE_GUIDE.md",
+      "bytes": 1602
+    },
+    {
+      "path": "BOOK_SYSTEM/CHANGELOG-2026-09-14.md",
+      "bytes": 5216
+    },
+    {
+      "path": "BOOK_SYSTEM/CORE.md",
+      "bytes": 4776
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/en/STYLE.md",
+      "bytes": 2095
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/ru-legacy/README.md",
+      "bytes": 1361
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/OLEK_UA_STYLE.md",
+      "bytes": 1486
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "bytes": 4725
+    },
+    {
+      "path": "BOOK_SYSTEM/README.md",
+      "bytes": 4757
+    },
+    {
+      "path": "BOOK_SYSTEM/REVIEW.md",
+      "bytes": 4341
+    },
+    {
+      "path": "BOOK_SYSTEM/TOOLS.md",
+      "bytes": 9154
+    },
+    {
+      "path": "BOOK_SYSTEM/VERSIONS.md",
+      "bytes": 4769
+    },
+    {
+      "path": "BOOK_SYSTEM/WRITING.md",
+      "bytes": 5694
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-preparation.json",
+      "bytes": 67717
+    },
+    {
+      "path": "BOOK_SYSTEM/models.json",
+      "bytes": 1721
     },
     {
       "path": "CLAUDE.md",
-      "bytes": 1284
+      "bytes": 1975
     },
     {
       "path": "CREATE-REPOSITORY.md",
@@ -75,11 +232,11 @@
     },
     {
       "path": "EDITORIAL-ENSEMBLE.md",
-      "bytes": 11670
+      "bytes": 10226
     },
     {
       "path": "GEMINI.md",
-      "bytes": 1582
+      "bytes": 2335
     },
     {
       "path": "INDEX.md",
@@ -87,7 +244,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 4663
+      "bytes": 5086
     },
     {
       "path": "SOURCE-CATALOG.json",
@@ -95,11 +252,11 @@
     },
     {
       "path": "SOURCE-OF-TRUTH.md",
-      "bytes": 9368
+      "bytes": 10310
     },
     {
       "path": "STYLE.md",
-      "bytes": 1882
+      "bytes": 2413
     },
     {
       "path": "WORKSPACE-VALIDATION.json",
@@ -107,7 +264,7 @@
     },
     {
       "path": "buro/.gitattributes",
-      "bytes": 276
+      "bytes": 440
     },
     {
       "path": "buro/.github/ISSUE_TEMPLATE/editorial.md",
@@ -127,7 +284,7 @@
     },
     {
       "path": "buro/AGENTS.md",
-      "bytes": 8338
+      "bytes": 9299
     },
     {
       "path": "buro/CHANGELOG.md",
@@ -147,11 +304,11 @@
     },
     {
       "path": "buro/START_HERE.md",
-      "bytes": 2934
+      "bytes": 3789
     },
     {
       "path": "buro/STYLE.md",
-      "bytes": 3823
+      "bytes": 4423
     },
     {
       "path": "buro/books/README.md",
@@ -475,7 +632,7 @@
     },
     {
       "path": "buro/guides/REPOSITORIES.md",
-      "bytes": 12859
+      "bytes": 14152
     },
     {
       "path": "buro/guides/SCALING-AND-MAINTENANCE.md",
@@ -483,7 +640,7 @@
     },
     {
       "path": "buro/guides/SCENE-EDITING.md",
-      "bytes": 16532
+      "bytes": 17412
     },
     {
       "path": "buro/guides/SCHEMA.md",
@@ -516,6 +673,10 @@
     {
       "path": "buro/integrations/combined-validate.yml",
       "bytes": 558
+    },
+    {
+      "path": "buro/language-editions.json",
+      "bytes": 1947
     },
     {
       "path": "buro/methods/history/README.md",
@@ -571,7 +732,7 @@
     },
     {
       "path": "buro/project.json",
-      "bytes": 744
+      "bytes": 1217
     },
     {
       "path": "buro/series/CANON-POLICY.md",
@@ -631,7 +792,7 @@
     },
     {
       "path": "buro/skills/ru-book-architect/SKILL.md",
-      "bytes": 4501
+      "bytes": 5520
     },
     {
       "path": "buro/skills/ru-book-architect/agents/openai.yaml",
@@ -651,7 +812,7 @@
     },
     {
       "path": "buro/skills/ru-book-auditor/SKILL.md",
-      "bytes": 5528
+      "bytes": 6530
     },
     {
       "path": "buro/skills/ru-book-auditor/agents/openai.yaml",
@@ -667,11 +828,11 @@
     },
     {
       "path": "buro/skills/ru-book-auditor/scripts/book_snapshot.py",
-      "bytes": 7428
+      "bytes": 7517
     },
     {
       "path": "buro/skills/ru-book-revision/SKILL.md",
-      "bytes": 3535
+      "bytes": 4537
     },
     {
       "path": "buro/skills/ru-book-revision/agents/openai.yaml",
@@ -687,7 +848,7 @@
     },
     {
       "path": "buro/skills/ru-book-voice/SKILL.md",
-      "bytes": 5401
+      "bytes": 6438
     },
     {
       "path": "buro/skills/ru-book-voice/agents/openai.yaml",
@@ -703,7 +864,7 @@
     },
     {
       "path": "buro/skills/ru-book-writer/SKILL.md",
-      "bytes": 5583
+      "bytes": 6585
     },
     {
       "path": "buro/skills/ru-book-writer/agents/openai.yaml",
@@ -719,7 +880,7 @@
     },
     {
       "path": "buro/skills/ru-buro-series/SKILL.md",
-      "bytes": 2979
+      "bytes": 3956
     },
     {
       "path": "buro/skills/ru-buro-series/agents/openai.yaml",
@@ -775,7 +936,7 @@
     },
     {
       "path": "buro/templates/book/book.json",
-      "bytes": 278
+      "bytes": 614
     },
     {
       "path": "buro/templates/book/brief.md",
@@ -939,7 +1100,7 @@
     },
     {
       "path": "buro/tools/studio.py",
-      "bytes": 20455
+      "bytes": 25196
     },
     {
       "path": "buro/tools/verify_package.py",
@@ -951,7 +1112,7 @@
     },
     {
       "path": "default/.gitattributes",
-      "bytes": 276
+      "bytes": 440
     },
     {
       "path": "default/.github/ISSUE_TEMPLATE/editorial.md",
@@ -971,7 +1132,7 @@
     },
     {
       "path": "default/AGENTS.md",
-      "bytes": 7996
+      "bytes": 8957
     },
     {
       "path": "default/CHANGELOG.md",
@@ -987,11 +1148,11 @@
     },
     {
       "path": "default/START_HERE.md",
-      "bytes": 4669
+      "bytes": 5524
     },
     {
       "path": "default/STYLE.md",
-      "bytes": 3771
+      "bytes": 4371
     },
     {
       "path": "default/books/README.md",
@@ -1015,7 +1176,7 @@
     },
     {
       "path": "default/guides/REPOSITORIES.md",
-      "bytes": 12859
+      "bytes": 14152
     },
     {
       "path": "default/guides/SCALING-AND-MAINTENANCE.md",
@@ -1023,7 +1184,7 @@
     },
     {
       "path": "default/guides/SCENE-EDITING.md",
-      "bytes": 16532
+      "bytes": 17412
     },
     {
       "path": "default/guides/SCHEMA.md",
@@ -1044,6 +1205,10 @@
     {
       "path": "default/integrations/combined-validate.yml",
       "bytes": 534
+    },
+    {
+      "path": "default/language-editions.json",
+      "bytes": 457
     },
     {
       "path": "default/methods/history/README.md",
@@ -1099,7 +1264,7 @@
     },
     {
       "path": "default/project.json",
-      "bytes": 334
+      "bytes": 807
     },
     {
       "path": "default/series/book-matrix.md",
@@ -1127,7 +1292,7 @@
     },
     {
       "path": "default/skills/ru-book-architect/SKILL.md",
-      "bytes": 4501
+      "bytes": 5520
     },
     {
       "path": "default/skills/ru-book-architect/agents/openai.yaml",
@@ -1147,7 +1312,7 @@
     },
     {
       "path": "default/skills/ru-book-auditor/SKILL.md",
-      "bytes": 5528
+      "bytes": 6530
     },
     {
       "path": "default/skills/ru-book-auditor/agents/openai.yaml",
@@ -1163,11 +1328,11 @@
     },
     {
       "path": "default/skills/ru-book-auditor/scripts/book_snapshot.py",
-      "bytes": 7428
+      "bytes": 7517
     },
     {
       "path": "default/skills/ru-book-revision/SKILL.md",
-      "bytes": 3535
+      "bytes": 4537
     },
     {
       "path": "default/skills/ru-book-revision/agents/openai.yaml",
@@ -1183,7 +1348,7 @@
     },
     {
       "path": "default/skills/ru-book-voice/SKILL.md",
-      "bytes": 5401
+      "bytes": 6438
     },
     {
       "path": "default/skills/ru-book-voice/agents/openai.yaml",
@@ -1199,7 +1364,7 @@
     },
     {
       "path": "default/skills/ru-book-writer/SKILL.md",
-      "bytes": 5583
+      "bytes": 6585
     },
     {
       "path": "default/skills/ru-book-writer/agents/openai.yaml",
@@ -1227,7 +1392,7 @@
     },
     {
       "path": "default/templates/book/book.json",
-      "bytes": 278
+      "bytes": 614
     },
     {
       "path": "default/templates/book/brief.md",
@@ -1391,7 +1556,7 @@
     },
     {
       "path": "default/tools/studio.py",
-      "bytes": 20455
+      "bytes": 25196
     },
     {
       "path": "default/tools/verify_package.py",
@@ -1403,11 +1568,11 @@
     },
     {
       "path": "editorial/schemas/issue-ledger.schema.json",
-      "bytes": 4006
+      "bytes": 4022
     },
     {
       "path": "editorial/schemas/run.schema.json",
-      "bytes": 2018
+      "bytes": 2340
     },
     {
       "path": "editorial/templates/astra-diagnosis.md",
@@ -1426,6 +1591,10 @@
       "bytes": 1496
     },
     {
+      "path": "editorial/templates/gemini-flash-diagnosis.md",
+      "bytes": 1193
+    },
+    {
       "path": "editorial/templates/issue-ledger.json",
       "bytes": 195
     },
@@ -1439,7 +1608,7 @@
     },
     {
       "path": "kontakt/.gitattributes",
-      "bytes": 276
+      "bytes": 440
     },
     {
       "path": "kontakt/.github/ISSUE_TEMPLATE/editorial.md",
@@ -1459,7 +1628,7 @@
     },
     {
       "path": "kontakt/AGENTS.md",
-      "bytes": 7996
+      "bytes": 8957
     },
     {
       "path": "kontakt/CHANGELOG.md",
@@ -1479,11 +1648,11 @@
     },
     {
       "path": "kontakt/START_HERE.md",
-      "bytes": 803
+      "bytes": 1658
     },
     {
       "path": "kontakt/STYLE.md",
-      "bytes": 3810
+      "bytes": 4410
     },
     {
       "path": "kontakt/books/README.md",
@@ -2151,7 +2320,7 @@
     },
     {
       "path": "kontakt/guides/REPOSITORIES.md",
-      "bytes": 12859
+      "bytes": 14152
     },
     {
       "path": "kontakt/guides/SCALING-AND-MAINTENANCE.md",
@@ -2159,7 +2328,7 @@
     },
     {
       "path": "kontakt/guides/SCENE-EDITING.md",
-      "bytes": 16532
+      "bytes": 17412
     },
     {
       "path": "kontakt/guides/SCHEMA.md",
@@ -2180,6 +2349,10 @@
     {
       "path": "kontakt/integrations/combined-validate.yml",
       "bytes": 534
+    },
+    {
+      "path": "kontakt/language-editions.json",
+      "bytes": 2732
     },
     {
       "path": "kontakt/methods/history/README.md",
@@ -2235,7 +2408,7 @@
     },
     {
       "path": "kontakt/project.json",
-      "bytes": 942
+      "bytes": 1415
     },
     {
       "path": "kontakt/series/CANON-POLICY.md",
@@ -2279,7 +2452,7 @@
     },
     {
       "path": "kontakt/skills/ru-book-architect/SKILL.md",
-      "bytes": 4501
+      "bytes": 5520
     },
     {
       "path": "kontakt/skills/ru-book-architect/agents/openai.yaml",
@@ -2299,7 +2472,7 @@
     },
     {
       "path": "kontakt/skills/ru-book-auditor/SKILL.md",
-      "bytes": 5528
+      "bytes": 6530
     },
     {
       "path": "kontakt/skills/ru-book-auditor/agents/openai.yaml",
@@ -2315,11 +2488,11 @@
     },
     {
       "path": "kontakt/skills/ru-book-auditor/scripts/book_snapshot.py",
-      "bytes": 7428
+      "bytes": 7517
     },
     {
       "path": "kontakt/skills/ru-book-revision/SKILL.md",
-      "bytes": 3535
+      "bytes": 4537
     },
     {
       "path": "kontakt/skills/ru-book-revision/agents/openai.yaml",
@@ -2335,7 +2508,7 @@
     },
     {
       "path": "kontakt/skills/ru-book-voice/SKILL.md",
-      "bytes": 5401
+      "bytes": 6438
     },
     {
       "path": "kontakt/skills/ru-book-voice/agents/openai.yaml",
@@ -2351,7 +2524,7 @@
     },
     {
       "path": "kontakt/skills/ru-book-writer/SKILL.md",
-      "bytes": 5583
+      "bytes": 6585
     },
     {
       "path": "kontakt/skills/ru-book-writer/agents/openai.yaml",
@@ -2367,7 +2540,7 @@
     },
     {
       "path": "kontakt/skills/ru-kontakt-series/SKILL.md",
-      "bytes": 2951
+      "bytes": 3928
     },
     {
       "path": "kontakt/skills/ru-kontakt-series/agents/openai.yaml",
@@ -2459,7 +2632,7 @@
     },
     {
       "path": "kontakt/templates/book/book.json",
-      "bytes": 281
+      "bytes": 617
     },
     {
       "path": "kontakt/templates/book/brief.md",
@@ -2623,7 +2796,7 @@
     },
     {
       "path": "kontakt/tools/studio.py",
-      "bytes": 20455
+      "bytes": 25196
     },
     {
       "path": "kontakt/tools/verify_package.py",
@@ -2635,7 +2808,7 @@
     },
     {
       "path": "riokka/.gitattributes",
-      "bytes": 276
+      "bytes": 440
     },
     {
       "path": "riokka/.github/ISSUE_TEMPLATE/editorial.md",
@@ -2655,7 +2828,7 @@
     },
     {
       "path": "riokka/AGENTS.md",
-      "bytes": 6634
+      "bytes": 7595
     },
     {
       "path": "riokka/CHANGELOG.md",
@@ -2679,11 +2852,11 @@
     },
     {
       "path": "riokka/START_HERE.md",
-      "bytes": 3172
+      "bytes": 4027
     },
     {
       "path": "riokka/STYLE.md",
-      "bytes": 3850
+      "bytes": 4450
     },
     {
       "path": "riokka/books/README.md",
@@ -3170,6 +3343,122 @@
       "bytes": 724269
     },
     {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/AUTHOR_INTENT.md",
+      "bytes": 2032
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/BOOK_BIBLE.md",
+      "bytes": 1454
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/CHARACTER_VOICES.md",
+      "bytes": 1515
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/DECISION_LOG.md",
+      "bytes": 1634
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/EN_STYLE_GUIDE.md",
+      "bytes": 1617
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/GLOSSARY_UA_EN.md",
+      "bytes": 1635
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+      "bytes": 211
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/MEANING_LEDGER.md",
+      "bytes": 1462
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/SOURCE/source-reference.json",
+      "bytes": 830
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/audit/issues.json",
+      "bytes": 578
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/audit/status.json",
+      "bytes": 355
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/edition.json",
+      "bytes": 1213
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/glossary.json",
+      "bytes": 250
+    },
+    {
+      "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/meaning-ledger.json",
+      "bytes": 166
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/AUTHOR_INTENT.md",
+      "bytes": 2090
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/BOOK_BIBLE.md",
+      "bytes": 1983
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/CHARACTER_VOICES.md",
+      "bytes": 1573
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/DECISION_LOG.md",
+      "bytes": 1697
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/GLOSSARY_RU_UA.md",
+      "bytes": 1693
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+      "bytes": 211
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/MEANING_LEDGER.md",
+      "bytes": 1520
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/SOURCE/source-reference.json",
+      "bytes": 1411
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/UA_STYLE_GUIDE.md",
+      "bytes": 1617
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/audit/issues.json",
+      "bytes": 152
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/audit/status.json",
+      "bytes": 355
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/chapter-map.json",
+      "bytes": 6763
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/edition.json",
+      "bytes": 1811
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/glossary.json",
+      "bytes": 34248
+    },
+    {
+      "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/meaning-ledger.json",
+      "bytes": 32852
+    },
+    {
       "path": "riokka/books/book-01/end-state.json",
       "bytes": 1454
     },
@@ -3484,6 +3773,122 @@
     {
       "path": "riokka/books/book-02/derived/snapshot.json",
       "bytes": 823635
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/AUTHOR_INTENT.md",
+      "bytes": 2027
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/BOOK_BIBLE.md",
+      "bytes": 1449
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/CHARACTER_VOICES.md",
+      "bytes": 1510
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/DECISION_LOG.md",
+      "bytes": 1629
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/EN_STYLE_GUIDE.md",
+      "bytes": 1612
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/GLOSSARY_UA_EN.md",
+      "bytes": 1630
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+      "bytes": 211
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/MEANING_LEDGER.md",
+      "bytes": 1457
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/SOURCE/source-reference.json",
+      "bytes": 641
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/audit/issues.json",
+      "bytes": 578
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/audit/status.json",
+      "bytes": 355
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/edition.json",
+      "bytes": 1024
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/glossary.json",
+      "bytes": 250
+    },
+    {
+      "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/meaning-ledger.json",
+      "bytes": 166
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/AUTHOR_INTENT.md",
+      "bytes": 2083
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/BOOK_BIBLE.md",
+      "bytes": 2001
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/CHARACTER_VOICES.md",
+      "bytes": 1566
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/DECISION_LOG.md",
+      "bytes": 1715
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/GLOSSARY_RU_UA.md",
+      "bytes": 1686
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+      "bytes": 211
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/MEANING_LEDGER.md",
+      "bytes": 1513
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/SOURCE/source-reference.json",
+      "bytes": 1036
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/UA_STYLE_GUIDE.md",
+      "bytes": 1612
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/audit/issues.json",
+      "bytes": 670
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/audit/status.json",
+      "bytes": 355
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/chapter-map.json",
+      "bytes": 6768
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/edition.json",
+      "bytes": 1458
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/glossary.json",
+      "bytes": 30140
+    },
+    {
+      "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/meaning-ledger.json",
+      "bytes": 640
     },
     {
       "path": "riokka/books/book-02/end-state.json",
@@ -4214,6 +4619,122 @@
       "bytes": 816665
     },
     {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/AUTHOR_INTENT.md",
+      "bytes": 2025
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/BOOK_BIBLE.md",
+      "bytes": 1447
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/CHARACTER_VOICES.md",
+      "bytes": 1508
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/DECISION_LOG.md",
+      "bytes": 1627
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/EN_STYLE_GUIDE.md",
+      "bytes": 1610
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/GLOSSARY_UA_EN.md",
+      "bytes": 1628
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+      "bytes": 211
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/MEANING_LEDGER.md",
+      "bytes": 1455
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/SOURCE/source-reference.json",
+      "bytes": 641
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/audit/issues.json",
+      "bytes": 578
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/audit/status.json",
+      "bytes": 355
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/edition.json",
+      "bytes": 1024
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/glossary.json",
+      "bytes": 250
+    },
+    {
+      "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/meaning-ledger.json",
+      "bytes": 166
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/AUTHOR_INTENT.md",
+      "bytes": 2081
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/BOOK_BIBLE.md",
+      "bytes": 1999
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/CHARACTER_VOICES.md",
+      "bytes": 1564
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/DECISION_LOG.md",
+      "bytes": 1713
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/GLOSSARY_RU_UA.md",
+      "bytes": 1684
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+      "bytes": 211
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/MEANING_LEDGER.md",
+      "bytes": 1511
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/SOURCE/source-reference.json",
+      "bytes": 1036
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/UA_STYLE_GUIDE.md",
+      "bytes": 1610
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/audit/issues.json",
+      "bytes": 670
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/audit/status.json",
+      "bytes": 355
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/chapter-map.json",
+      "bytes": 8106
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/edition.json",
+      "bytes": 1458
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/glossary.json",
+      "bytes": 28530
+    },
+    {
+      "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/meaning-ledger.json",
+      "bytes": 11403
+    },
+    {
       "path": "riokka/books/book-03/end-state.json",
       "bytes": 269
     },
@@ -4511,7 +5032,7 @@
     },
     {
       "path": "riokka/guides/REPOSITORIES.md",
-      "bytes": 12859
+      "bytes": 14152
     },
     {
       "path": "riokka/guides/SCALING-AND-MAINTENANCE.md",
@@ -4519,7 +5040,7 @@
     },
     {
       "path": "riokka/guides/SCENE-EDITING.md",
-      "bytes": 16532
+      "bytes": 17412
     },
     {
       "path": "riokka/guides/SCHEMA.md",
@@ -4544,6 +5065,10 @@
     {
       "path": "riokka/integrations/combined-validate.yml",
       "bytes": 558
+    },
+    {
+      "path": "riokka/language-editions.json",
+      "bytes": 3456
     },
     {
       "path": "riokka/legacy-skills/README.md",
@@ -4699,7 +5224,7 @@
     },
     {
       "path": "riokka/project.json",
-      "bytes": 749
+      "bytes": 1222
     },
     {
       "path": "riokka/reports/README.md",
@@ -4767,7 +5292,7 @@
     },
     {
       "path": "riokka/skills/ru-book-architect/SKILL.md",
-      "bytes": 4501
+      "bytes": 5520
     },
     {
       "path": "riokka/skills/ru-book-architect/agents/openai.yaml",
@@ -4787,7 +5312,7 @@
     },
     {
       "path": "riokka/skills/ru-book-auditor/SKILL.md",
-      "bytes": 5528
+      "bytes": 6530
     },
     {
       "path": "riokka/skills/ru-book-auditor/agents/openai.yaml",
@@ -4803,11 +5328,11 @@
     },
     {
       "path": "riokka/skills/ru-book-auditor/scripts/book_snapshot.py",
-      "bytes": 7428
+      "bytes": 7517
     },
     {
       "path": "riokka/skills/ru-book-revision/SKILL.md",
-      "bytes": 3535
+      "bytes": 4537
     },
     {
       "path": "riokka/skills/ru-book-revision/agents/openai.yaml",
@@ -4823,7 +5348,7 @@
     },
     {
       "path": "riokka/skills/ru-book-voice/SKILL.md",
-      "bytes": 5401
+      "bytes": 6438
     },
     {
       "path": "riokka/skills/ru-book-voice/agents/openai.yaml",
@@ -4839,7 +5364,7 @@
     },
     {
       "path": "riokka/skills/ru-book-writer/SKILL.md",
-      "bytes": 5583
+      "bytes": 6585
     },
     {
       "path": "riokka/skills/ru-book-writer/agents/openai.yaml",
@@ -4855,7 +5380,7 @@
     },
     {
       "path": "riokka/skills/ru-riokka-series/SKILL.md",
-      "bytes": 2975
+      "bytes": 3952
     },
     {
       "path": "riokka/skills/ru-riokka-series/agents/openai.yaml",
@@ -5043,7 +5568,7 @@
     },
     {
       "path": "riokka/templates/book/book.json",
-      "bytes": 278
+      "bytes": 614
     },
     {
       "path": "riokka/templates/book/brief.md",
@@ -5211,7 +5736,7 @@
     },
     {
       "path": "riokka/tools/studio.py",
-      "bytes": 20455
+      "bytes": 25196
     },
     {
       "path": "riokka/tools/verify_package.py",
@@ -5222,12 +5747,108 @@
       "bytes": 1868
     },
     {
+      "path": "riokka/translation/preparation-2026-09-14/CHARACTER-VOICES.md",
+      "bytes": 6287
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/GLOSSARY-PROPOSALS.md",
+      "bytes": 4705
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/START_HERE.md",
+      "bytes": 8265
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/adaptation-ledger.json",
+      "bytes": 33853
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/calibration-plan.json",
+      "bytes": 2195
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/glossary.json",
+      "bytes": 582523
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/pilot/book-01-chapters-01-03/packet.json",
+      "bytes": 4660
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/pilot/book-01-chapters-01-03/source-segments.json",
+      "bytes": 106440
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/pilot/book-01-chapters-01-03/source.ru.txt",
+      "bytes": 64786
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-00.json",
+      "bytes": 687
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-01.json",
+      "bytes": 1929
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-02.json",
+      "bytes": 3307
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-03.json",
+      "bytes": 3533
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-04.json",
+      "bytes": 1716
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-05.json",
+      "bytes": 724
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/sources.json",
+      "bytes": 56155
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/terminology-seed.json",
+      "bytes": 44603
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/voices.json",
+      "bytes": 37549
+    },
+    {
+      "path": "riokka/translation/preparation-2026-09-14/ВОПРОСЫ-К-АВТОРУ.md",
+      "bytes": 4443
+    },
+    {
       "path": "tests/test_editorial_ensemble.py",
-      "bytes": 5995
+      "bytes": 7194
+    },
+    {
+      "path": "tests/test_language_system.py",
+      "bytes": 4010
+    },
+    {
+      "path": "tests/test_literary_translation.py",
+      "bytes": 11980
     },
     {
       "path": "tools/editorial_ensemble.py",
-      "bytes": 26680
+      "bytes": 28166
+    },
+    {
+      "path": "tools/language_qa.py",
+      "bytes": 4356
+    },
+    {
+      "path": "tools/literary_translation.py",
+      "bytes": 31892
+    },
+    {
+      "path": "tools/prepare_language_editions.py",
+      "bytes": 6727
     }
   ]
 }

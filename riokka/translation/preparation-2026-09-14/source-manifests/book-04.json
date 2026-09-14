@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-04",
+  "title": "Почерк без имени",
+  "book_type": "fiction",
+  "stage": "manuscript_received",
+  "master": {
+    "path": "manuscript/master.md",
+    "format": "text",
+    "sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553",
+    "status": "candidate",
+    "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена"
+  },
+  "voice": "voice.json",
+  "canon": "../../series/canon.json",
+  "audit_status": "inventory_only",
+  "original": "../../sources/originals/КОНТРАКТНИК-4-Почерк-без-имени.md",
+  "continuation_basis": {
+    "previous_book": "book-03",
+    "file": "../book-03/revisions/2026-09-13-expanded/revised.md",
+    "sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+    "status": "author_selected",
+    "authority": "Прямой ответ автора «да» на вопрос об этой редакции как основе тома 4.",
+    "decision_file": "../book-03/revisions/2026-09-13-expanded/author-decisions.json",
+    "continuity": "../book-03/revisions/2026-09-13-expanded/continuity",
+    "end_state": "../book-03/revisions/2026-09-13-expanded/continuity/end-state.json",
+    "creative_development_authorized": [
+      "Рука",
+      "Ильс",
+      "работник из угрозы Орену",
+      "место передачи Данека"
+    ],
+    "instructions": "CONTINUATION-BASIS.md"
+  },
+  "next_work": "Develop the Book 4 revision from the author-selected Book 3 baseline and authorized open plot lines"
+}

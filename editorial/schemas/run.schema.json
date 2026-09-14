@@ -16,7 +16,9 @@
     "issue_ledger"
   ],
   "properties": {
-    "schema_version": {"const": 1},
+    "schema_version": {"enum": [1, 2]},
+    "language": {"enum": ["uk", "en", "ru"]},
+    "required_diagnoses": {"const": ["astra", "claude", "gemini_flash", "gemini"]},
     "run_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
     "project_id": {"type": "string", "minLength": 1},
     "book_id": {"type": "string", "minLength": 1},
@@ -40,6 +42,7 @@
     "author_decisions": {"$ref": "#/$defs/report"},
     "issue_ledger": {"type": "string", "const": "issue-ledger.json"}
   },
+  "allOf": [{"if": {"properties": {"schema_version": {"const": 2}}}, "then": {"required": ["language", "required_diagnoses"], "properties": {"reports": {"required": ["gemini_flash"]}}}}],
   "$defs": {
     "artifact": {
       "type": "object",

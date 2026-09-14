@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "book_id": "book-03",
+  "source": {
+    "path": "riokka/books/book-03/manuscript/master.md",
+    "sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+    "format": "text",
+    "status": "candidate",
+    "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена",
+    "role": "master_inventory",
+    "language": "ru"
+  },
+  "coverage": "Selective evidence only; full context extraction not_run. Root seed is riokka/translation/preparation-2026-09-14/adaptation-ledger.json",
+  "items": [
+    {
+      "id": "B03-WEED-001",
+      "type": "metaphor",
+      "evidence_kind": "text_observation",
+      "anchors": [
+        {
+          "book_id": "book-03",
+          "path": "riokka/books/book-03/manuscript/master.md",
+          "sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+          "chapter": 8,
+          "p": 356,
+          "quote_ru": "— Я три года думал так же, — передавал Дрозд через Джулию, и она проговаривала его слова ровно, без интонации, как переводчик, отдающий чужую речь. — Что наверху кто-то собирает. Из жадности. Жадность я понимаю, с жадностью я работаю. Я ошибался. Это не собирательство, контрактник. Это прополка. И источник — последняя грядка.",
+          "paragraph_sha256": "2cdc4775fbba516790af3efccdd701f7247ca7a0125c33ab3a1d6a1e2fc360f3",
+          "quote": "— Я три года думал так же, — передавал Дрозд через Джулию, и она проговаривала его слова ровно, без интонации, как переводчик, отдающий чужую речь. — Что наверху кто-то собирает. Из жадности. Жадность я понимаю, с жадностью я работаю. Я ошибался. Это не собирательство, контрактник. Это прополка. И источник — последняя грядка."
+        }
+      ],
+      "function": "Противопоставление собирательства и прополки поддержано образом последней грядки; нельзя перевести эти части несвязанными эвфемизмами.",
+      "must_preserve": true,
+      "reader_may_infer": "Связь отбора/удаления с целой садовой метафорой.",
+      "reader_must_not_infer_yet": null,
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "SER-CHIK-001",
+      "type": "callback",
+      "evidence_kind": "model_hypothesis",
+      "anchors": [
+        {
+          "book_id": "book-00",
+          "path": "riokka/books/book-00/manuscript/master.docx",
+          "sha256": "fa42c7f4560e8a8affc669c8fd5d8d4548842b89981bda7d2ec2e7e6f8e8f42d",
+          "chapter": 2,
+          "p": 20,
+          "quote_ru": "Тот вечер — последний нормальный вечер моей жизни, хотя тогда он был просто вторником — мы с отцом доигрывали партию в чикайоки. Мать гремела на кухне, заканчивала ужин и ждала Кирву, которого позвали, потому что отец считал, что человека надо кормить, даже если человек — Кирва. У нас не было камина, как у тех, к кому отец возил грузы; у нас был обогреватель с одной рабочей спиралью, и отец грел над ним руки, и эта одна спираль — единственное тёплое пятно в той комнате, которое я помню до сих пор, хотя забыл лица куда более важные.",
+          "paragraph_sha256": "e8f383c536457d24d814de07247445c3141dbcd9c6eea4679329f319e471e947",
+          "quote": "Тот вечер — последний нормальный вечер моей жизни, хотя тогда он был просто вторником — мы с отцом доигрывали партию в чикайоки. Мать гремела на кухне, заканчивала ужин и ждала Кирву, которого позвали, потому что отец считал, что человека надо кормить, даже если человек — Кирва. У нас не было камина, как у тех, к кому отец возил грузы; у нас был обогреватель с одной рабочей спиралью, и отец грел над ним руки, и эта одна спираль — единственное тёплое пятно в той комнате, которое я помню до сих пор, хотя забыл лица куда более важные."
+        },
+        {
+          "book_id": "book-03",
+          "path": "riokka/books/book-03/manuscript/master.md",
+          "sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+          "chapter": 42,
+          "p": 1352,
+          "quote_ru": "## Глава 42. Чикайоки",
+          "paragraph_sha256": "40668fcae74eabc03eb6529ccfadb06641e9f1b6f7b5e33620eb6ac0b900a8e9",
+          "quote": "## Глава 42. Чикайоки"
+        }
+      ],
+      "function": "Название игры присутствует в воспоминании с отцом и в заголовке главы 42 другого тома. Наличие общего названия проверено, полный механизм callback ещё нет.",
+      "must_preserve": true,
+      "reader_may_infer": "Единое имя игры; неизвестную функцию не заменять выдуманной отсылкой.",
+      "reader_must_not_infer_yet": null,
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "B03-TERM-001",
+      "type": "ambiguity",
+      "evidence_kind": "text_observation",
+      "anchors": [
+        {
+          "book_id": "book-03",
+          "path": "riokka/books/book-03/manuscript/master.md",
+          "sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+          "chapter": 42,
+          "p": 1356,
+          "quote_ru": "Веда подтвердила поправку в ту самую минуту, у замка, когда решалось всё. Она вышла в общий канал — ровно, регистраторски, тем голосом, которым произносят факт, заранее отделённый от его цены, потому что цену в этом голосе нести нельзя, иначе не выговоришь.",
+          "paragraph_sha256": "219d2776ba54056a61783d451e931c0f4e516eaf3a5f4ef16d8c3010705f9eb1",
+          "quote": "Веда подтвердила поправку в ту самую минуту, у замка, когда решалось всё. Она вышла в общий канал — ровно, регистраторски, тем голосом, которым произносят факт, заранее отделённый от его цены, потому что цену в этом голосе нести нельзя, иначе не выговоришь."
+        },
+        {
+          "book_id": "book-03",
+          "path": "riokka/books/book-03/manuscript/master.md",
+          "sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+          "chapter": 42,
+          "p": 1358,
+          "quote_ru": "— Рэй, — сказала она. — Я довела до конца ту строку, что рука дописывала в твой план. Я её дочитала всю, до пометки. И я обязана тебе её прочесть, потому что ты имеешь право знать, кем тебя записали. Ты помечен не «к обнулению». Запомни разницу, она важная. Ты помечен «по готовности».",
+          "paragraph_sha256": "cb4bfb811a86c5ea9cc8c52279beb1fd2772ca8ee4c9291b14944b1b7b776ed4",
+          "quote": "— Рэй, — сказала она. — Я довела до конца ту строку, что рука дописывала в твой план. Я её дочитала всю, до пометки. И я обязана тебе её прочесть, потому что ты имеешь право знать, кем тебя записали. Ты помечен не «к обнулению». Запомни разницу, она важная. Ты помечен «по готовности»."
+        }
+      ],
+      "function": "Веда прямо требует различать пометки «к обнулению» и «по готовности». Не сглаживать их до двух синонимов уничтожения.",
+      "must_preserve": true,
+      "reader_may_infer": "Две разные метки и подчёркнутая необходимость различения.",
+      "reader_must_not_infer_yet": "Не разъяснять скрытые последствия пометки сверх исходной реплики.",
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    }
+  ]
+}

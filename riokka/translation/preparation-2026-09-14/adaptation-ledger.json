@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "status": "selective_preparation_seed",
+  "coverage": "Selected exact passages; 2 cross-context hypotheses and 2 author-supplied search targets. Not full-book meaning extraction. Books 0 and 3 anchors refer to candidate masters.",
+  "entries": [
+    {
+      "id": "B01-HUM-001",
+      "type": "humour",
+      "evidence_kind": "text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 1,
+          "p": 6,
+          "quote_ru": "Когда тебе говорят «все под контролем», беги. Когда это говоришь ты сам — беги вдвое быстрее.",
+          "paragraph_sha256": "1d029beefd8906092c56c51f4bfdd5943a60a5d21e778d3ee43c757daa851d2d"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 1,
+          "p": 16,
+          "quote_ru": "Девять минут сорок секунд. Шестьдесят один процент. Дживс умеет приободрить.",
+          "paragraph_sha256": "2398748bb164b0506b5c8372215561f120ecdf09f9b1140ae9d0a999a25ad094"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 1,
+          "p": 17,
+          "quote_ru": "— Уточняю, — отозвался в ухе ровный, до отвращения воспитанный голос корабельного искина. — Под контролем находятся четыре из семи переменных. Оставшиеся три я бы охарактеризовал как «творческие».",
+          "paragraph_sha256": "c6ff92f6d549ae1cc2832d3a1f402f996ee6d44b6634b80e59c7a0fa10cfcc88"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 1,
+          "p": 19,
+          "quote_ru": "— Вы любите результат. Творчество вы терпите.",
+          "paragraph_sha256": "71f611a74b24672bc77232c957cd544d51056a02112db0ac9e9bdb79882ef669"
+        }
+      ],
+      "function": "Самоироническая установка и учтивое уточнение риска: числовая точность не утешает, а подрывает формулу «под контролем».",
+      "must_preserve": true,
+      "reader_may_infer": "Риск и сухой комизм без пояснительного комментария.",
+      "reader_must_not_infer_yet": null,
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "B01-TECH-001",
+      "type": "causality",
+      "evidence_kind": "text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 1,
+          "p": 56,
+          "quote_ru": "Глаз Хиггса — честный механический инквизитор, который по отраженному сигналу определяет материал и которому все равно, что ты написал в накладной. В футляре старика Хана лежала не виолончель. Там лежало его прошлое, и прошлое это было из той стали, за которую на Чонсан-привратной ставят к стенке без долгих бесед.",
+          "paragraph_sha256": "8dea072be2af5efd6a1757e65283858af18c7033e363cf9c2270cccef22cfca0"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 1,
+          "p": 65,
+          "quote_ru": "В тот же миг я повел ладонью по верхнему ребру футляра — небрежно, будто придерживаю чужой багаж, чтоб не упал. Из рукава мне в пальцы скользнула полоска риокки, тонкая, как закладка, серая и теплая. Я прижал ее ко шву футляра. Риокка сделала то, ради чего я таскаю ее во внутреннем кармане все эти контракты: впитала рисунок металла под собой, перестроила сама себя и прикинулась тем, чем ее попросили. Глаз Хиггса не взвешивает груз — он читает сигнатуру поверхности, отраженный росчерк материала, и верит ему, как верят почерку. Подмени росчерк — и под ним хоть броневая сталь. Просят дерево — будет дерево. Прибор смотрел теперь на честную лиственную породу и был собой доволен.",
+          "paragraph_sha256": "6d912de098b55aaab2bb52050ab1c10a5036eb72b47f44d6f3cae93c2ddaa679"
+        }
+      ],
+      "function": "Сканер читает отражённую сигнатуру материала, не накладную и не вес. Риокка подменяет воспринимаемую поверхность; образ почерка поддерживает объяснение действия.",
+      "must_preserve": true,
+      "reader_may_infer": "Локальный способ обмана прибора и его пределы, только в этой версии.",
+      "reader_must_not_infer_yet": null,
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "B01-CLUE-001",
+      "type": "foreshadowing",
+      "evidence_kind": "model_hypothesis",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 1,
+          "p": 110,
+          "quote_ru": "— Анонимный. Через три подставных контура. — Короткая тишина, в которой искин делал то, чего я ему никогда не приказывал. Он сомневался. — И еще. Маршрутную метку этого запроса я уже видел однажды. На контракте, который мы не брали.",
+          "paragraph_sha256": "88fb0b004d3b5d28cad8a33e269cb2680c7dc6f3cea2823b582a68257703b200"
+        }
+      ],
+      "function": "Уже встречавшаяся маршрутная метка и необычное сомнение искина выглядят как подготовка связи. Payoff и авторский замысел пока не проверены.",
+      "must_preserve": true,
+      "reader_may_infer": "Запрос напоминает ранее отвергнутый контракт.",
+      "reader_must_not_infer_yet": "Не добавлять имя заказчика, объяснение совпадения или будущий payoff.",
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "B01-MOTIF-001",
+      "type": "ambiguity",
+      "evidence_kind": "text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 3,
+          "p": 196,
+          "quote_ru": "Я слушал его и видел нас обоих маленьких, за щербатым столом под желтой лампой, у соседа Гордея, который подобрал двух чужих мальчишек и растил, как умел: не лаской, которой у него не было, а правилами, которые знал назубок. Он щелкал нас деревянной ложкой по лбам — по очереди, не разбирая, кто виноват, потому что считал нас одним целым. И в чем-то был прав. Мы и были им: доедали друг за другом, договаривали друг за друга, дрались одной командой против всей улицы.",
+          "paragraph_sha256": "8129a6943b12e80d29bde5c391093098998b7283faa37f518493c930976fa74a"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 3,
+          "p": 197,
+          "quote_ru": "«Все достойны выжить», — повторял Гордей, и мы кивали в такт, два одинаковых затылка, и оба, клянусь, понимали это правило сердцем. А потом выросли — и оказалось, что одно и то же правило мы поняли с разных сторон. Я услышал в нем: спасай каждого, кто в доме. Он услышал: тот, кто дом поджег, права на это слово лишился сам, — и его, поджигателя, в число достойных можно не вписывать. Одна лампа, один стол, одна ложка по лбу — а двое раскололись пополам, как раскалывается полено: ровно по слою, что рос внутри с самого начала.",
+          "paragraph_sha256": "4d8efab1629bf06f19cfd81ec3e1f1c65f1939aa0f9af0aa1e9f65d4079f9ff6"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 3,
+          "p": 198,
+          "quote_ru": "Я все думал потом: была ли это та самая развилка — или нас раскроили заранее, и трещина шла внутри задолго до того, как мы про нее узнали. Гордей нас не лепил. Он получил двух готовых мальчишек и старался хотя бы держать нас в одной упряжке. Старался честно. Не вышло.",
+          "paragraph_sha256": "264adbac46be59bff0ef93b2864ac0e70132410337e711d8559d8f145700ce93"
+        }
+      ],
+      "function": "Одинаковое правило воспитателя приводит братьев к различным моральным выводам. Рассказчик не разрешает вопрос о моменте возникновения раскола.",
+      "must_preserve": true,
+      "reader_may_infer": "Противоположные трактовки общего правила и сомнение рассказчика.",
+      "reader_must_not_infer_yet": "Не объявлять одну психологическую причину раскола установленным фактом.",
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "B01-CHAR-001",
+      "type": "voice",
+      "evidence_kind": "text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 3,
+          "p": 199,
+          "quote_ru": "На этом разговор кончился. Не потому, что мне нечего было ответить — у меня в горле застряло столько ответов, что я мог бы говорить до утра. А потому что повышать на него голос означало однажды поднять на него руку, а такого я не сделаю, как и не подниму руку ни на кого, пока меня не загонят в угол. Я слишком хорошо знаю, какая во мне живет сила, когда я спускаю ее с поводка. Я развернулся и ушёл искать следующий контракт.",
+          "paragraph_sha256": "85cfa5893100b8f0a6c0eb70868aac3e0d80f083a0124c07592576163d6cd93b"
+        }
+      ],
+      "function": "Отказ повышать голос обусловлен страхом собственной силы и границей насилия, а не отсутствием ответа.",
+      "must_preserve": true,
+      "reader_may_infer": "Внутреннее ограничение и неозвученные ответы.",
+      "reader_must_not_infer_yet": null,
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "B01-IMG-001",
+      "type": "metaphor",
+      "evidence_kind": "text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 8,
+          "p": 369,
+          "quote_ru": "— Затем, что живой соперник полезнее мертвого напарника, — сказала Джулия. — А ты, кажется, все-таки скорее напарник. Жаль. С соперниками мне проще. — Она пошла вниз, к тропе на склады, и, не оборачиваясь, бросила через плечо: — И вот еще. Контракт под тебя написали слишком хорошо. По мерке. А по мерке шьют только на того, кого любят. Или на того, кого знают наизусть, до каждого рефлекса. На лице у тебя написано: кандидат есть. Когда соберешься его назвать вслух, найди меня. Это будет наш с тобой настоящий разговор, а не вот это все.",
+          "paragraph_sha256": "fb789404f588d4b1c0bdf79403c971bd58bbaa867007aebddbba8c06e45ccced"
+        }
+      ],
+      "function": "Контракт «по мерке» — не просто одежная идиома: Джулия выводит знание заказчиком рефлексов адресата.",
+      "must_preserve": true,
+      "reader_may_infer": "Контракт подозрительно точно рассчитан на Кая.",
+      "reader_must_not_infer_yet": "Не назвать подозреваемого раньше исходного текста.",
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "B01-VOICE-001",
+      "type": "voice",
+      "evidence_kind": "text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 16,
+          "p": 593,
+          "quote_ru": "— Я уже инженер, — поправил Тимка строго, не отпуская материнского рукава. — Я чиню. Я фильтр чиню, и насос чинил, и дверь в теплице. — И без перехода, тем требовательным тоном, каким дети мгновенно берут взрослого в оборот: — Это твой корабль в лощине? Серый, уродливый? И это правда, что корабль думает?",
+          "paragraph_sha256": "b1cdd05685063c5732beb1b2e9238e52b2ee649bf29b7e8edd106ba1475243a4"
+        }
+      ],
+      "function": "Самостоятельно заявленная инженерность и внезапные детские вопросы различают Тимку и взрослых.",
+      "must_preserve": true,
+      "reader_may_infer": "Конкретная компетенция вместе с детской манерой.",
+      "reader_must_not_infer_yet": null,
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "B01-PROMISE-001",
+      "type": "causality",
+      "evidence_kind": "text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 20,
+          "p": 716,
+          "quote_ru": "— Со мной семь человек, и некоторые сами не дойдут, — сказала она. — Сварщик, две бабушки, слепой Влас. Кто их поведет по нижнему ярусу, если не я? Ты будешь тащить ящик. Джулия — замыкать. Но кому-то надо идти серединой и держать их вместе. Милс и Хино, конечно, ребята крепкие, но они всем не помогут. А я умею держать людей вместе, ты видел. — Она поправила старику лямку. — Я приду со следующей. Я обещала Тимке. Я не нарушаю обещаний детям, контрактник. Это единственная религия, которая у меня осталась.",
+          "paragraph_sha256": "ffd0eed63ed75122355e876806538498f21dac8be1fd63c6855c5ffd8c627dff"
+        }
+      ],
+      "function": "Лина выбирает вести людей и связывает возвращение с обещанием Тимке. Возможная поздняя отдача не проверена в этом проходе.",
+      "must_preserve": true,
+      "reader_may_infer": "Её собственное решение, обещание и распределение обязанностей.",
+      "reader_must_not_infer_yet": "Не добавлять предзнаменование дальнейшей судьбы.",
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "B03-WEED-001",
+      "type": "metaphor",
+      "evidence_kind": "text_observation",
+      "anchors": [
+        {
+          "book_id": "book-03",
+          "path": "riokka/books/book-03/manuscript/master.md",
+          "sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+          "chapter": 8,
+          "p": 356,
+          "quote_ru": "— Я три года думал так же, — передавал Дрозд через Джулию, и она проговаривала его слова ровно, без интонации, как переводчик, отдающий чужую речь. — Что наверху кто-то собирает. Из жадности. Жадность я понимаю, с жадностью я работаю. Я ошибался. Это не собирательство, контрактник. Это прополка. И источник — последняя грядка.",
+          "paragraph_sha256": "2cdc4775fbba516790af3efccdd701f7247ca7a0125c33ab3a1d6a1e2fc360f3"
+        }
+      ],
+      "function": "Противопоставление собирательства и прополки поддержано образом последней грядки; нельзя перевести эти части несвязанными эвфемизмами.",
+      "must_preserve": true,
+      "reader_may_infer": "Связь отбора/удаления с целой садовой метафорой.",
+      "reader_must_not_infer_yet": null,
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "SER-CHIK-001",
+      "type": "callback",
+      "evidence_kind": "model_hypothesis",
+      "anchors": [
+        {
+          "book_id": "book-00",
+          "path": "riokka/books/book-00/manuscript/master.docx",
+          "sha256": "fa42c7f4560e8a8affc669c8fd5d8d4548842b89981bda7d2ec2e7e6f8e8f42d",
+          "chapter": 2,
+          "p": 20,
+          "quote_ru": "Тот вечер — последний нормальный вечер моей жизни, хотя тогда он был просто вторником — мы с отцом доигрывали партию в чикайоки. Мать гремела на кухне, заканчивала ужин и ждала Кирву, которого позвали, потому что отец считал, что человека надо кормить, даже если человек — Кирва. У нас не было камина, как у тех, к кому отец возил грузы; у нас был обогреватель с одной рабочей спиралью, и отец грел над ним руки, и эта одна спираль — единственное тёплое пятно в той комнате, которое я помню до сих пор, хотя забыл лица куда более важные.",
+          "paragraph_sha256": "e8f383c536457d24d814de07247445c3141dbcd9c6eea4679329f319e471e947"
+        },
+        {
+          "book_id": "book-03",
+          "path": "riokka/books/book-03/manuscript/master.md",
+          "sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+          "chapter": 42,
+          "p": 1352,
+          "quote_ru": "## Глава 42. Чикайоки",
+          "paragraph_sha256": "40668fcae74eabc03eb6529ccfadb06641e9f1b6f7b5e33620eb6ac0b900a8e9"
+        }
+      ],
+      "function": "Название игры присутствует в воспоминании с отцом и в заголовке главы 42 другого тома. Наличие общего названия проверено, полный механизм callback ещё нет.",
+      "must_preserve": true,
+      "reader_may_infer": "Единое имя игры; неизвестную функцию не заменять выдуманной отсылкой.",
+      "reader_must_not_infer_yet": null,
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "B03-TERM-001",
+      "type": "ambiguity",
+      "evidence_kind": "text_observation",
+      "anchors": [
+        {
+          "book_id": "book-03",
+          "path": "riokka/books/book-03/manuscript/master.md",
+          "sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+          "chapter": 42,
+          "p": 1356,
+          "quote_ru": "Веда подтвердила поправку в ту самую минуту, у замка, когда решалось всё. Она вышла в общий канал — ровно, регистраторски, тем голосом, которым произносят факт, заранее отделённый от его цены, потому что цену в этом голосе нести нельзя, иначе не выговоришь.",
+          "paragraph_sha256": "219d2776ba54056a61783d451e931c0f4e516eaf3a5f4ef16d8c3010705f9eb1"
+        },
+        {
+          "book_id": "book-03",
+          "path": "riokka/books/book-03/manuscript/master.md",
+          "sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+          "chapter": 42,
+          "p": 1358,
+          "quote_ru": "— Рэй, — сказала она. — Я довела до конца ту строку, что рука дописывала в твой план. Я её дочитала всю, до пометки. И я обязана тебе её прочесть, потому что ты имеешь право знать, кем тебя записали. Ты помечен не «к обнулению». Запомни разницу, она важная. Ты помечен «по готовности».",
+          "paragraph_sha256": "cb4bfb811a86c5ea9cc8c52279beb1fd2772ca8ee4c9291b14944b1b7b776ed4"
+        }
+      ],
+      "function": "Веда прямо требует различать пометки «к обнулению» и «по готовности». Не сглаживать их до двух синонимов уничтожения.",
+      "must_preserve": true,
+      "reader_may_infer": "Две разные метки и подчёркнутая необходимость различения.",
+      "reader_must_not_infer_yet": "Не разъяснять скрытые последствия пометки сверх исходной реплики.",
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": null,
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "AUTHOR-QUESTION-001",
+      "type": "humour",
+      "evidence_kind": "author_statement",
+      "anchors": [],
+      "function": "Автор указал на шутку про бабушку, но её точный фрагмент в этом подготовительном проходе не установлен.",
+      "must_preserve": true,
+      "reader_may_infer": null,
+      "reader_must_not_infer_yet": null,
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": "User's preparation request in this conversation, 2026-09-14",
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    },
+    {
+      "id": "AUTHOR-QUESTION-002",
+      "type": "wordplay",
+      "evidence_kind": "author_statement",
+      "anchors": [],
+      "function": "Автор выделил контраст «картинка / событие»; точные связанные фрагменты и обязательная функция пока требуют указания или полного поиска.",
+      "must_preserve": true,
+      "reader_may_infer": null,
+      "reader_must_not_infer_yet": null,
+      "setup_ids": [],
+      "payoff_ids": [],
+      "dependencies": [
+        "Exact final-source selection",
+        "Full-context review",
+        "Future target anchors"
+      ],
+      "resolution_status": "unresolved",
+      "author_decision": null,
+      "author_statement_basis": "User's preparation request in this conversation, 2026-09-14",
+      "target_status": "pending",
+      "target_anchors": [],
+      "verification": {
+        "source_anchor_check": "pending_script",
+        "bilingual": "not_run",
+        "opus": "not_run",
+        "gemini_flash": "not_run",
+        "gemini_pro": "not_run"
+      }
+    }
+  ]
+}

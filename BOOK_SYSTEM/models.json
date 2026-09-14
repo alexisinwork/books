@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "policy_date": "2026-09-14",
+  "basis": "Последнее поручение автора: Astra — архитектура; Sol — производство; литературная проверка всегда Opus + Gemini 3.8 + Gemini 3.1 Pro.",
+  "roles": {
+    "showrunner": {"requested_model": "gpt-6-astra", "tasks": ["concept", "arcs", "reveals", "ending", "periodic_audit", "reconciliation"]},
+    "writer": {"requested_model": "gpt-5.6-sol", "tasks": ["uk_original", "scene_drafts", "targeted_revision"]},
+    "primary_adapter": {"requested_model": null, "selection": "author_choice_after_blind_sol_opus_calibration", "status": "not_selected"},
+    "opus": {"requested_model": "claude-opus-5", "required_literary_review": true},
+    "gemini_flash": {"requested_model": "gemini-3.8-flash", "required_literary_review": true},
+    "gemini_pro": {"requested_model": "Gemini 3.1 Pro", "api_id": null, "required_literary_review": true, "note": "Record actual client model ID at launch; product label is not an assumed API alias."}
+  },
+  "account_availability": "not_checked",
+  "model_calls_during_preparation": 0,
+  "sources_checked": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra",
+    "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+    "https://www.anthropic.com/news/claude-opus-5",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+  ],
+  "claim_limit": "Role assignment is the author's workflow choice, not an official literary-translation benchmark. Verify actual versions and availability at each run; no silent substitutions."
+}

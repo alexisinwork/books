@@ -15,3 +15,7 @@
 **/books/**/audit/**/checks/candidate-manuscript.txt -whitespace
 # Preserve the leading space on empty context lines in the generated unified diff.
 riokka/books/book-02/revisions/2026-09-13-10al/changes.diff -whitespace
+# Frozen adaptation inputs preserve bytes and source paragraph whitespace.
+**/SOURCE/** -text
+**/source.ru.txt -text -whitespace
+**/source.uk.txt -text -whitespace

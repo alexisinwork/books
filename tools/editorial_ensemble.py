@@ -24,6 +24,7 @@ SHA_RE = re.compile(r"^[0-9a-f]{64}$")
 REPORTS = {
     "astra": "astra-diagnosis.md",
     "claude": "claude-diagnosis.md",
+    "gemini_flash": "gemini-flash-diagnosis.md",
     "gemini": "gemini-blind-read.md",
     "reconciliation": "reconciliation.md",
     "verification": "verification.md",
@@ -227,6 +228,7 @@ def validate_issue(item: dict) -> None:
         "astra",
         "claude",
         "gemini",
+        "gemini_flash",
     }:
         raise EnsembleError(f"Invalid origin_reports in {item['id']}")
     decision = item["author_decision"]
@@ -293,8 +295,17 @@ def validate_report(text: str, run: dict, role: str) -> None:
         raise EnsembleError(f"Report {role} is unexpectedly short")
 
 
+def diagnosis_roles(run: dict) -> tuple:
+    if run.get("schema_version") == 2:
+        required = ("astra", "claude", "gemini_flash", "gemini")
+        if run.get("required_diagnoses") != list(required):
+            raise EnsembleError("Schema 2 requires Astra, Opus, Gemini Flash and Gemini Pro")
+        return required
+    return ("astra", "claude", "gemini")
+
+
 def refresh_status(run: dict) -> None:
-    first = [run["reports"][key]["status"] for key in ("astra", "claude", "gemini")]
+    first = [run["reports"][key]["status"] for key in diagnosis_roles(run)]
     if run["reports"]["verification"]["status"] == "locked":
         run["status"] = "verified"
     elif run["author_decisions"]["status"] == "locked":
@@ -339,17 +350,20 @@ def cmd_init(args: argparse.Namespace) -> dict:
         render(template_dir / "issue-ledger.json", values), encoding="utf-8"
     )
     run = {
-        "schema_version": 1,
+        "schema_version": 2,
         "run_id": args.run_id,
         "project_id": project["project_id"],
         "book_id": args.book,
         "created_at": now(),
         "status": "prepared",
+        "language": getattr(args, "language", None) or book.get("canonical_language") or project.get("language_policy", {}).get("legacy_existing_source", "ru"),
+        "required_diagnoses": ["astra", "claude", "gemini_flash", "gemini"],
         "source": source,
         "reader": reader,
         "independence": {
             "astra": "must not read current Claude or Gemini reports before lock",
             "claude": "must not read current Astra or Gemini reports before lock",
+            "gemini_flash": "independent full-text literary/continuity analysis; no current peer reports",
             "gemini": "isolated packet only; no repository canon, audits or change hints",
         },
         "reports": {
@@ -376,11 +390,16 @@ def cmd_record(args: argparse.Namespace) -> dict:
     root = Path(args.root).resolve()
     run_dir, run = load_run(root, args.run)
     role = args.role
+    integrity = verify_run(root, run_dir, run, False)
+    if integrity["errors"]:
+        raise EnsembleError("; ".join(integrity["errors"]))
+    if role not in run["reports"]:
+        raise EnsembleError("Role not present in this historical run; create a new run")
     if role == "reconciliation" and not all(
         run["reports"][key]["status"] == "locked"
-        for key in ("astra", "claude", "gemini")
+        for key in diagnosis_roles(run)
     ):
-        raise EnsembleError("Reconciliation requires three locked diagnoses")
+        raise EnsembleError("Reconciliation requires all mandatory locked diagnoses")
     if role == "verification" and run["author_decisions"]["status"] != "locked":
         raise EnsembleError("Verification requires locked author decisions")
     entry = run["reports"][role]
@@ -463,6 +482,9 @@ def cmd_lock_decisions(args: argparse.Namespace) -> dict:
 def cmd_blind_pack(args: argparse.Namespace) -> dict:
     root = Path(args.root).resolve()
     run_dir, run = load_run(root, args.run)
+    integrity = verify_run(root, run_dir, run, False)
+    if integrity["errors"]:
+        raise EnsembleError("; ".join(integrity["errors"]))
     if run["reports"]["gemini"]["status"] == "locked":
         raise EnsembleError("Gemini report is already locked")
     if args.out:
@@ -518,8 +540,11 @@ def cmd_blind_pack(args: argparse.Namespace) -> dict:
 def verify_run(root: Path, run_dir: Path, run: dict, require_complete: bool) -> dict:
     errors = []
     try:
-        if run.get("schema_version") != 1 or not RUN_ID_RE.fullmatch(run.get("run_id", "")):
+        if run.get("schema_version") not in {1, 2} or not RUN_ID_RE.fullmatch(run.get("run_id", "")):
             errors.append("invalid run identity")
+        required = diagnosis_roles(run)
+        if not set(required).issubset(run["reports"]):
+            errors.append("required diagnosis report is missing")
         for key in ("source", "reader"):
             record = run[key]
             path = inside(root, root / record["path"])
@@ -612,7 +637,7 @@ def cmd_validate_schemas(args: argparse.Namespace) -> dict:
         "ru-editorial-reconciler",
         "ru-approved-revision",
     }
-    if set(skills) != expected:
+    if not expected.issubset(skills):
         raise EnsembleError(f"Unexpected skill set: {skills}")
     return {"result": "passed", "schemas": checked, "skills": skills}
 
@@ -628,6 +653,7 @@ def parser() -> argparse.ArgumentParser:
     init.add_argument("--run-id", required=True)
     init.add_argument("--source", help="explicit source path")
     init.add_argument("--reader-file", help="verified UTF-8 reading projection")
+    init.add_argument("--language", choices=["uk", "en", "ru"], help="Actual source language, not the future edition language")
     init.set_defaults(func=cmd_init)
 
     record = commands.add_parser("record", help="lock a completed report")

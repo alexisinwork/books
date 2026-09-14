@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "book_id": "book-03",
+  "source_sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+  "items": [
+    {
+      "id": "BOOK-03-UK-SOURCE",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "certainty": "missing_link",
+      "observation": "candidate_ru_reference; final translation source requires author selection",
+      "anchors": [],
+      "dependencies": [
+        "all target chapters",
+        "glossary locking",
+        "meaning-ledger target anchors",
+        "publication"
+      ],
+      "author_decision": null,
+      "verification": {
+        "status": "not_run"
+      }
+    }
+  ]
+}

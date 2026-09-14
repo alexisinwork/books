@@ -113,7 +113,7 @@ class EditorialEnsembleTest(unittest.TestCase):
             )
             self.assertTrue((packet / ".gemini/skills/ru-cold-reader/SKILL.md").is_file())
 
-            for role in ("astra", "claude", "gemini"):
+            for role in ("astra", "claude", "gemini_flash", "gemini"):
                 self.final_report(role)
                 self.call("record", "--run", self.run_rel, "--role", role)
 
@@ -161,6 +161,26 @@ class EditorialEnsembleTest(unittest.TestCase):
         )
         self.assertNotEqual(failed.returncode, 0)
         self.assertIn("Source hash mismatch", failed.stdout)
+
+    def test_flash_is_required_for_new_runs_and_old_schema_keeps_three_roles(self):
+        self.call("init", "--project", "sample", "--book", "book-01", "--run-id", "test-run", "--language", "uk")
+        for role in ("astra", "claude", "gemini"):
+            self.final_report(role)
+            self.call("record", "--run", self.run_rel, "--role", role)
+        run_file = self.run_dir / "run.json"
+        run = json.loads(run_file.read_text())
+        self.assertEqual(run["language"], "uk")
+        self.assertNotEqual(run["status"], "diagnoses_complete")
+        self.final_report("reconciliation")
+        self.assertNotEqual(self.call("record", "--run", self.run_rel, "--role", "reconciliation", check=False).returncode, 0)
+        # Historical-schema fixture, not a migration of a real locked run.
+        run["schema_version"] = 1
+        run.pop("required_diagnoses")
+        run.pop("language")
+        run["reports"].pop("gemini_flash")
+        run_file.write_text(json.dumps(run))
+        self.call("record", "--run", self.run_rel, "--role", "reconciliation")
+        self.assertEqual(json.loads(self.call("verify", "--run", self.run_rel).stdout)["result"], "passed")
 
 
 if __name__ == "__main__":

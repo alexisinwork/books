@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "project_id": "buro",
+  "decision_date": "2026-09-14",
+  "default_new_original": "uk",
+  "english_original_requires_explicit_choice": true,
+  "english_edition_source": "author_approved_uk_canonical_master",
+  "english_locale_default": "en-US",
+  "scope": "Language policy only. Does not relabel, replace or promote existing manuscripts. Titles in book.json remain historical until explicitly edited.",
+  "books": [
+    {
+      "book_id": "book-01",
+      "book_manifest": "books/book-01/book.json",
+      "existing_source_language": "ru",
+      "new_prose_language": "uk",
+      "master_at_policy_setup": {
+        "path": "books/book-01/manuscript/master.md",
+        "sha256": "a9653b8100bfdbc6d6ef77bbd2453e7d058aa45aa536c1f6a82d60339fb20159",
+        "status": "candidate"
+      },
+      "ua_canonical_master": null,
+      "canonical_promotion": "not_performed",
+      "legacy_migration_prepared": false
+    },
+    {
+      "book_id": "book-02",
+      "book_manifest": "books/book-02/book.json",
+      "existing_source_language": "ru",
+      "new_prose_language": "uk",
+      "master_at_policy_setup": {
+        "path": "books/book-02/manuscript/master.md",
+        "sha256": "16aedb2f212cf8e8f208cbd75fad39a985e7ed0e078a60e295af17cd4f01e4f5",
+        "status": "candidate"
+      },
+      "ua_canonical_master": null,
+      "canonical_promotion": "not_performed",
+      "legacy_migration_prepared": false
+    },
+    {
+      "book_id": "book-03",
+      "book_manifest": "books/book-03/book.json",
+      "existing_source_language": "ru",
+      "new_prose_language": "uk",
+      "master_at_policy_setup": {
+        "path": "books/book-03/manuscript/master.md",
+        "sha256": "385de89a47b602d694d68698ee3bb6fcc89a42a7487cc6caa3f294221a156797",
+        "status": "candidate"
+      },
+      "ua_canonical_master": null,
+      "canonical_promotion": "not_performed",
+      "legacy_migration_prepared": false
+    }
+  ]
+}

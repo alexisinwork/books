@@ -1,0 +1,1569 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-14",
+  "result": "preparation_implemented_and_mechanically_verified",
+  "scope": "Workshop language architecture and Riokka 1-3 preparation only; no literary translation produced.",
+  "tests": [
+    {
+      "command": "python3 -m unittest discover -s tests -v",
+      "exit_code": 0,
+      "output": "test_declared_source_hash_mismatch_stops_init (test_editorial_ensemble.EditorialEnsembleTest.test_declared_source_hash_mismatch_stops_init) ... ok\ntest_flash_is_required_for_new_runs_and_old_schema_keeps_three_roles (test_editorial_ensemble.EditorialEnsembleTest.test_flash_is_required_for_new_runs_and_old_schema_keeps_three_roles) ... ok\ntest_full_empty_issue_cycle_and_tamper_detection (test_editorial_ensemble.EditorialEnsembleTest.test_full_empty_issue_cycle_and_tamper_detection) ... ok\ntest_language_signals_do_not_claim_full_grammar_review (test_language_system.LanguageSystemTests.test_language_signals_do_not_claim_full_grammar_review) ... ok\ntest_standalone_project_carries_language_system_and_helpers (test_language_system.LanguageSystemTests.test_standalone_project_carries_language_system_and_helpers) ... ok\ntest_ukrainian_letters_apostrophes_and_english_headings (test_language_system.LanguageSystemTests.test_ukrainian_letters_apostrophes_and_english_headings) ... ok\ntest_changed_source_and_packet_are_detected (test_literary_translation.TranslationTests.test_changed_source_and_packet_are_detected) ... ok\ntest_freeze_blind_isolation_and_report_lock (test_literary_translation.TranslationTests.test_freeze_blind_isolation_and_report_lock) ... ok\ntest_heading_merge_fails (test_literary_translation.TranslationTests.test_heading_merge_fails) ... ok\ntest_locked_term_and_numerals (test_literary_translation.TranslationTests.test_locked_term_and_numerals) ... ok\ntest_negative_chapter_refused_before_packet_creation (test_literary_translation.TranslationTests.test_negative_chapter_refused_before_packet_creation) ... ok\ntest_omission_duplicate_and_reordering_fail (test_literary_translation.TranslationTests.test_omission_duplicate_and_reordering_fail) ... ok\ntest_preparation_preserves_source_and_creates_no_target (test_literary_translation.TranslationTests.test_preparation_preserves_source_and_creates_no_target) ... ok\ntest_refuses_existing_packet_and_path_escape (test_literary_translation.TranslationTests.test_refuses_existing_packet_and_path_escape) ... ok\ntest_split_and_merge_preserve_coverage (test_literary_translation.TranslationTests.test_split_and_merge_preserve_coverage) ... ok\ntest_target_language_pair_checked (test_literary_translation.TranslationTests.test_target_language_pair_checked) ... ok\ntest_uk_to_en_uses_uk_source_and_checks_english (test_literary_translation.TranslationTests.test_uk_to_en_uses_uk_source_and_checks_english) ... ok\ntest_unchaptered_story_is_complete_without_invented_heading (test_literary_translation.TranslationTests.test_unchaptered_story_is_complete_without_invented_heading) ... ok\ntest_wrong_source_projection_and_empty_target_fail (test_literary_translation.TranslationTests.test_wrong_source_projection_and_empty_target_fail) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 1.022s\n\nOK\n"
+    },
+    {
+      "command": "python3 -m unittest discover -s default/tests -v",
+      "exit_code": 0,
+      "output": "test_live_canon_is_not_copied_as_clean_template (test_studio.ProjectCreationTests.test_live_canon_is_not_copied_as_clean_template) ... ok\ntest_new_project_refuses_symlink_and_unsafe_nesting (test_studio.ProjectCreationTests.test_new_project_refuses_symlink_and_unsafe_nesting) ... ok\ntest_new_project_resets_connections_and_book_state (test_studio.ProjectCreationTests.test_new_project_resets_connections_and_book_state) ... ok\ntest_candidate_is_not_silently_author_selected (test_studio.StudioTests.test_candidate_is_not_silently_author_selected) ... ok\ntest_clean_creation_and_independent_voice (test_studio.StudioTests.test_clean_creation_and_independent_voice) ... ok\ntest_context_carries_style_and_points_to_the_selected_canon_and_state (test_studio.StudioTests.test_context_carries_style_and_points_to_the_selected_canon_and_state) ... ok\ntest_context_is_scoped_and_does_not_overwrite (test_studio.StudioTests.test_context_is_scoped_and_does_not_overwrite) ... ok\ntest_differentiation_warns_only_when_requested (test_studio.StudioTests.test_differentiation_warns_only_when_requested) ... ok\ntest_fake_docx_requires_explicit_text_choice (test_studio.StudioTests.test_fake_docx_requires_explicit_text_choice) ... ok\ntest_hash_guard_prevents_stale_evidence (test_studio.StudioTests.test_hash_guard_prevents_stale_evidence) ... ok\ntest_new_book_rolls_back_after_manifest_failure (test_studio.StudioTests.test_new_book_rolls_back_after_manifest_failure) ... ok\ntest_refuses_overwrite_and_path_escape (test_studio.StudioTests.test_refuses_overwrite_and_path_escape) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.178s\n\nOK\n"
+    },
+    {
+      "command": "python3 -m unittest discover -s buro/tests -v",
+      "exit_code": 0,
+      "output": "test_live_canon_is_not_copied_as_clean_template (test_studio.ProjectCreationTests.test_live_canon_is_not_copied_as_clean_template) ... ok\ntest_new_project_refuses_symlink_and_unsafe_nesting (test_studio.ProjectCreationTests.test_new_project_refuses_symlink_and_unsafe_nesting) ... ok\ntest_new_project_resets_connections_and_book_state (test_studio.ProjectCreationTests.test_new_project_resets_connections_and_book_state) ... ok\ntest_candidate_is_not_silently_author_selected (test_studio.StudioTests.test_candidate_is_not_silently_author_selected) ... ok\ntest_clean_creation_and_independent_voice (test_studio.StudioTests.test_clean_creation_and_independent_voice) ... ok\ntest_context_carries_style_and_points_to_the_selected_canon_and_state (test_studio.StudioTests.test_context_carries_style_and_points_to_the_selected_canon_and_state) ... ok\ntest_context_is_scoped_and_does_not_overwrite (test_studio.StudioTests.test_context_is_scoped_and_does_not_overwrite) ... ok\ntest_differentiation_warns_only_when_requested (test_studio.StudioTests.test_differentiation_warns_only_when_requested) ... ok\ntest_fake_docx_requires_explicit_text_choice (test_studio.StudioTests.test_fake_docx_requires_explicit_text_choice) ... ok\ntest_hash_guard_prevents_stale_evidence (test_studio.StudioTests.test_hash_guard_prevents_stale_evidence) ... ok\ntest_new_book_rolls_back_after_manifest_failure (test_studio.StudioTests.test_new_book_rolls_back_after_manifest_failure) ... ok\ntest_refuses_overwrite_and_path_escape (test_studio.StudioTests.test_refuses_overwrite_and_path_escape) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.219s\n\nOK\n"
+    },
+    {
+      "command": "python3 -m unittest discover -s kontakt/tests -v",
+      "exit_code": 0,
+      "output": "test_live_canon_is_not_copied_as_clean_template (test_studio.ProjectCreationTests.test_live_canon_is_not_copied_as_clean_template) ... ok\ntest_new_project_refuses_symlink_and_unsafe_nesting (test_studio.ProjectCreationTests.test_new_project_refuses_symlink_and_unsafe_nesting) ... ok\ntest_new_project_resets_connections_and_book_state (test_studio.ProjectCreationTests.test_new_project_resets_connections_and_book_state) ... ok\ntest_candidate_is_not_silently_author_selected (test_studio.StudioTests.test_candidate_is_not_silently_author_selected) ... ok\ntest_clean_creation_and_independent_voice (test_studio.StudioTests.test_clean_creation_and_independent_voice) ... ok\ntest_context_carries_style_and_points_to_the_selected_canon_and_state (test_studio.StudioTests.test_context_carries_style_and_points_to_the_selected_canon_and_state) ... ok\ntest_context_is_scoped_and_does_not_overwrite (test_studio.StudioTests.test_context_is_scoped_and_does_not_overwrite) ... ok\ntest_differentiation_warns_only_when_requested (test_studio.StudioTests.test_differentiation_warns_only_when_requested) ... ok\ntest_fake_docx_requires_explicit_text_choice (test_studio.StudioTests.test_fake_docx_requires_explicit_text_choice) ... ok\ntest_hash_guard_prevents_stale_evidence (test_studio.StudioTests.test_hash_guard_prevents_stale_evidence) ... ok\ntest_new_book_rolls_back_after_manifest_failure (test_studio.StudioTests.test_new_book_rolls_back_after_manifest_failure) ... ok\ntest_refuses_overwrite_and_path_escape (test_studio.StudioTests.test_refuses_overwrite_and_path_escape) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.207s\n\nOK\n"
+    },
+    {
+      "command": "python3 -m unittest discover -s riokka/tests -v",
+      "exit_code": 0,
+      "output": "test_live_canon_is_not_copied_as_clean_template (test_studio.ProjectCreationTests.test_live_canon_is_not_copied_as_clean_template) ... ok\ntest_new_project_refuses_symlink_and_unsafe_nesting (test_studio.ProjectCreationTests.test_new_project_refuses_symlink_and_unsafe_nesting) ... ok\ntest_new_project_resets_connections_and_book_state (test_studio.ProjectCreationTests.test_new_project_resets_connections_and_book_state) ... ok\ntest_candidate_is_not_silently_author_selected (test_studio.StudioTests.test_candidate_is_not_silently_author_selected) ... ok\ntest_clean_creation_and_independent_voice (test_studio.StudioTests.test_clean_creation_and_independent_voice) ... ok\ntest_context_carries_style_and_points_to_the_selected_canon_and_state (test_studio.StudioTests.test_context_carries_style_and_points_to_the_selected_canon_and_state) ... ok\ntest_context_is_scoped_and_does_not_overwrite (test_studio.StudioTests.test_context_is_scoped_and_does_not_overwrite) ... ok\ntest_differentiation_warns_only_when_requested (test_studio.StudioTests.test_differentiation_warns_only_when_requested) ... ok\ntest_fake_docx_requires_explicit_text_choice (test_studio.StudioTests.test_fake_docx_requires_explicit_text_choice) ... ok\ntest_hash_guard_prevents_stale_evidence (test_studio.StudioTests.test_hash_guard_prevents_stale_evidence) ... ok\ntest_new_book_rolls_back_after_manifest_failure (test_studio.StudioTests.test_new_book_rolls_back_after_manifest_failure) ... ok\ntest_refuses_overwrite_and_path_escape (test_studio.StudioTests.test_refuses_overwrite_and_path_escape) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 1.682s\n\nOK\n"
+    }
+  ],
+  "project_checks": [
+    {
+      "command": "python3 default/tools/studio.py doctor --root default",
+      "project": "default",
+      "kind": "doctor",
+      "exit_code": 0,
+      "report": {
+        "books": 0,
+        "errors": [],
+        "warnings": [],
+        "scope": "File integrity, IDs and selected version; not prose quality, full canon or layout."
+      }
+    },
+    {
+      "command": "python3 default/tools/verify_sources.py --root default",
+      "project": "default",
+      "kind": "originals",
+      "exit_code": 0,
+      "report": {
+        "checked": 0,
+        "errors": [],
+        "scope": "No source manifest in this clean project."
+      }
+    },
+    {
+      "command": "python3 buro/tools/studio.py doctor --root buro",
+      "project": "buro",
+      "kind": "doctor",
+      "exit_code": 0,
+      "report": {
+        "books": 3,
+        "errors": [],
+        "warnings": [
+          "book-01: voice is a proposal",
+          "book-01: source not confirmed final by author",
+          "book-02: voice is a proposal",
+          "book-02: source not confirmed final by author",
+          "book-03: voice is a proposal",
+          "book-03: source not confirmed final by author"
+        ],
+        "scope": "File integrity, IDs and selected version; not prose quality, full canon or layout."
+      }
+    },
+    {
+      "command": "python3 buro/tools/verify_sources.py --root buro",
+      "project": "buro",
+      "kind": "originals",
+      "exit_code": 0,
+      "report": {
+        "checked": 3,
+        "errors": [],
+        "omnibus_reconstructed": true,
+        "scope": "Original bytes only; not proof of literary quality or full reading."
+      }
+    },
+    {
+      "command": "python3 kontakt/tools/studio.py doctor --root kontakt",
+      "project": "kontakt",
+      "kind": "doctor",
+      "exit_code": 0,
+      "report": {
+        "books": 7,
+        "errors": [],
+        "warnings": [
+          "book-01: voice is a proposal",
+          "book-01: no selected master",
+          "book-02: voice is a proposal",
+          "book-02: no selected master",
+          "book-03: voice is a proposal",
+          "book-03: no selected master",
+          "book-04: voice is a proposal",
+          "book-04: no selected master",
+          "book-05: voice is a proposal",
+          "book-05: no selected master",
+          "book-06: voice is a proposal",
+          "book-06: no selected master",
+          "book-07: voice is a proposal",
+          "book-07: no selected master"
+        ],
+        "scope": "File integrity, IDs and selected version; not prose quality, full canon or layout."
+      }
+    },
+    {
+      "command": "python3 kontakt/tools/verify_sources.py --root kontakt",
+      "project": "kontakt",
+      "kind": "originals",
+      "exit_code": 0,
+      "report": {
+        "checked": 15,
+        "errors": [],
+        "omnibus_reconstructed": false,
+        "scope": "Original bytes only; not proof of literary quality or full reading."
+      }
+    },
+    {
+      "command": "python3 riokka/tools/studio.py doctor --root riokka",
+      "project": "riokka",
+      "kind": "doctor",
+      "exit_code": 0,
+      "report": {
+        "books": 6,
+        "errors": [],
+        "warnings": [
+          "book-00: voice is a proposal",
+          "book-00: source not confirmed final by author",
+          "book-01: voice is a proposal",
+          "book-02: voice is a proposal",
+          "book-02: source not confirmed final by author",
+          "book-03: voice is a proposal",
+          "book-03: source not confirmed final by author",
+          "book-04: voice is a proposal",
+          "book-04: source not confirmed final by author",
+          "book-05: voice is a proposal",
+          "book-05: source not confirmed final by author"
+        ],
+        "scope": "File integrity, IDs and selected version; not prose quality, full canon or layout."
+      }
+    },
+    {
+      "command": "python3 riokka/tools/verify_sources.py --root riokka",
+      "project": "riokka",
+      "kind": "originals",
+      "exit_code": 0,
+      "report": {
+        "checked": 30,
+        "errors": [],
+        "omnibus_reconstructed": false,
+        "scope": "Original bytes only; not proof of literary quality or full reading."
+      }
+    }
+  ],
+  "skill_validation": [
+    {
+      "skill": ".agents/skills/book-language-review",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": ".agents/skills/book-showrunner",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": ".agents/skills/literary-adaptation",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": ".agents/skills/ru-approved-revision",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": ".agents/skills/ru-chief-editor",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": ".agents/skills/ru-cold-reader",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": ".agents/skills/ru-editorial-reconciler",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": ".agents/skills/ru-literary-editor",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "buro/skills/ru-book-architect",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "buro/skills/ru-book-auditor",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "buro/skills/ru-book-revision",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "buro/skills/ru-book-voice",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "buro/skills/ru-book-writer",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "buro/skills/ru-buro-series",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "default/skills/ru-book-architect",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "default/skills/ru-book-auditor",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "default/skills/ru-book-revision",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "default/skills/ru-book-voice",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "default/skills/ru-book-writer",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "kontakt/skills/ru-book-architect",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "kontakt/skills/ru-book-auditor",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "kontakt/skills/ru-book-revision",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "kontakt/skills/ru-book-voice",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "kontakt/skills/ru-book-writer",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "kontakt/skills/ru-kontakt-series",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "riokka/skills/ru-book-architect",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "riokka/skills/ru-book-auditor",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "riokka/skills/ru-book-revision",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "riokka/skills/ru-book-voice",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "riokka/skills/ru-book-writer",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    },
+    {
+      "skill": "riokka/skills/ru-riokka-series",
+      "exit_code": 0,
+      "result": "Skill is valid!\n"
+    }
+  ],
+  "preparation": {
+    "result": "passed_preparation_checks",
+    "books": 6,
+    "glossary_entries": 75,
+    "anchors_checked": 301,
+    "translated_prose": "not_created",
+    "semantic_translation_review": "not_run",
+    "reader_response": "not_run",
+    "full_series_entity_audit": "not_run"
+  },
+  "artifacts": {
+    "artifacts": [
+      {
+        "path": ".agents/skills/book-language-review/SKILL.md",
+        "sha256": "f104cba3aa99ca2b56e2ca960231353b3ce867967f921e52230ce06cd3733f9f",
+        "bytes": 2625
+      },
+      {
+        "path": ".agents/skills/book-language-review/agents/openai.yaml",
+        "sha256": "16e3533fb2db27e59700058fb2395f13a6f5cb7a7f7d33ede8d2124e5a424a7a",
+        "bytes": 360
+      },
+      {
+        "path": ".agents/skills/book-showrunner/SKILL.md",
+        "sha256": "33983997aa137282e44d9003b9afd90430813227c977da952d162fe2c60e785e",
+        "bytes": 2253
+      },
+      {
+        "path": ".agents/skills/book-showrunner/agents/openai.yaml",
+        "sha256": "f25d156b916c27fb63110f755fb75cb3fbafda6fac0d4de89db714242899ebe6",
+        "bytes": 321
+      },
+      {
+        "path": ".agents/skills/literary-adaptation/SKILL.md",
+        "sha256": "3d13da03d2f485f57f234a53dc72677a5ed35c3f0a8386fd80c08bda277877fd",
+        "bytes": 3618
+      },
+      {
+        "path": ".agents/skills/literary-adaptation/agents/openai.yaml",
+        "sha256": "8d092ed40d6a4898e49c6ec0cbe0d528690c9e109fef37ad67bbc773a1463dbc",
+        "bytes": 332
+      },
+      {
+        "path": ".agents/skills/ru-approved-revision/SKILL.md",
+        "sha256": "49fd69ec4067b4134d4935c07858992ca4c710580e6c8fb518e9a9aae4eb6681",
+        "bytes": 4267
+      },
+      {
+        "path": ".agents/skills/ru-approved-revision/agents/openai.yaml",
+        "sha256": "227e4f5cbe4128160cb35e601a2f201fb6d92c179d3dda69882677d297cb09a0",
+        "bytes": 320
+      },
+      {
+        "path": ".agents/skills/ru-chief-editor/SKILL.md",
+        "sha256": "9179a7e131757008a81463add58118cc7c1c3df775b527ae09bd38a0854eb0a0",
+        "bytes": 4268
+      },
+      {
+        "path": ".agents/skills/ru-chief-editor/agents/openai.yaml",
+        "sha256": "4fae2abac335e4c8c9d0f105a6df3812d56ec8a6483b7d3068eb9a8f2716867e",
+        "bytes": 280
+      },
+      {
+        "path": ".agents/skills/ru-cold-reader/SKILL.md",
+        "sha256": "2c9e06828ca2995935de0ff27fe1fd97a35b8a713038c8bfbbddfd664d41a0c9",
+        "bytes": 3527
+      },
+      {
+        "path": ".agents/skills/ru-cold-reader/agents/openai.yaml",
+        "sha256": "6a1fa74ca63b0bbc125c338d708b7ef848c33220b6b6b9fa564dc9adbbe033ba",
+        "bytes": 313
+      },
+      {
+        "path": ".agents/skills/ru-editorial-reconciler/SKILL.md",
+        "sha256": "07f75d5a059e3b14f3477d07089ac26fd5b33b1fe97d406a650ba51bf58a55f1",
+        "bytes": 3852
+      },
+      {
+        "path": ".agents/skills/ru-editorial-reconciler/agents/openai.yaml",
+        "sha256": "526808057a142131cc99c5bd99bb37b78ff6140c6bc8d5b0598cc7398bfd39b2",
+        "bytes": 334
+      },
+      {
+        "path": ".agents/skills/ru-literary-editor/SKILL.md",
+        "sha256": "c1c8e2ea5dd517f04a0004b6b5d6eb75a02f42cc8f0c4fdf443eca5fd6ff5ef9",
+        "bytes": 4159
+      },
+      {
+        "path": ".agents/skills/ru-literary-editor/agents/openai.yaml",
+        "sha256": "71d34e5865cf745eb12adf55a32e319c80dfff8aa258ad3c6dcfc525fd42e7d9",
+        "bytes": 293
+      },
+      {
+        "path": ".gitattributes",
+        "sha256": "d6afdeeb2b47512b3e1a661f11be98d4c679a51e409cbf64def55239fdfd66fb",
+        "bytes": 761
+      },
+      {
+        "path": "AGENTS.md",
+        "sha256": "e1245ad7dbdbf00333b29347cf15be1218b4dd6b575fb53e05f8be2a992a0efd",
+        "bytes": 10599
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/SCHEMA.md",
+        "sha256": "d0c9e0c7c326378654870a918340b566371e886c9d8b6800b04f128abb399119",
+        "bytes": 6922
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/WORKFLOW.md",
+        "sha256": "71ec8e47b82f7e42ab739f9ff19a3d978dce564202c04b4bce2ea2207c5ffac3",
+        "bytes": 8723
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/prompts/adapter.md",
+        "sha256": "94d2f6a7eab9202f78da8ef4998d76cb8065fdc8b170bf89f9815c8b00239cc0",
+        "bytes": 3951
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/prompts/author-meaning-check.md",
+        "sha256": "4eb6cd729fe0be125803489e03ad518ce9c27473a1a55968aea847bb31d5c715",
+        "bytes": 854
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/prompts/calibration.md",
+        "sha256": "77776766e465c0023ca66e8327755bd8bac7f21361d23f9f1b4b42536af1db9f",
+        "bytes": 1516
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/prompts/context-scan.md",
+        "sha256": "628d2a8f2aa152954214915484c804495619689ea814cd8c1987bfbe8e255ab8",
+        "bytes": 1217
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/prompts/human-editor.md",
+        "sha256": "482f577c9db32cd4f2d2f5074fd681d76bd32cdff7d56abf7b38af8bed86be8e",
+        "bytes": 1130
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/prompts/reviewer.md",
+        "sha256": "b9d2b49d446e4c16ae869992cb71c323d6f45b64fa7f6352c40bff91eaca4631",
+        "bytes": 2088
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/prompts/target-only-en.md",
+        "sha256": "b70a37ae2e060640bf9ace02db79163f6a2a1e5981c1eada32cfd99a95f1b0b8",
+        "bytes": 1180
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/prompts/target-only-uk.md",
+        "sha256": "f73413872eb6517add6b22906bbb7c1c5bc860660e63cb39d70e0430505b67b1",
+        "bytes": 1975
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/routes/ru-en.md",
+        "sha256": "ef6bdb87c1ffdcb2965be907b06ef8bbef6fc6a3e84624633197c917bab52d08",
+        "bytes": 1294
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/routes/ru-uk.md",
+        "sha256": "dc83fb45e0dcc382a7e9148cf86c2f00b5facb6183bd00a6d68f6bd1f4c9c384",
+        "bytes": 1168
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/routes/uk-en.md",
+        "sha256": "a38212829bdbf627f3fce430b8b926ab8e29ccb6f982d040f05ed0a58fd5a253",
+        "bytes": 1737
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/templates/AUTHOR_INTENT.md",
+        "sha256": "47db9632fa6a97857da08f3d6b54c0e290298df1eed7acec4bf0d08baa23aac2",
+        "bytes": 1999
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/templates/BOOK_BIBLE.md",
+        "sha256": "21986f5f8d424c9b90e0fa294e0387f4f37bbeff5e1a022746dd7628c72768b7",
+        "bytes": 1368
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/templates/CHARACTER_VOICES.md",
+        "sha256": "47c8373605248d9950701c9ef7db7a8243f441ce90a3b49bbdaac426bf70275f",
+        "bytes": 1452
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/templates/DECISION_LOG.md",
+        "sha256": "da462771efdc0d76d9898403a60a81692f216e319c60c6301f0c3b52dd256d76",
+        "bytes": 1570
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/templates/GLOSSARY.md",
+        "sha256": "a9c0d35b52d0607ca73c30c113eda22448089582793fadef3c2cd2b8bf138972",
+        "bytes": 1572
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/templates/MEANING_LEDGER.md",
+        "sha256": "d6a40aabf78cb7a6e495734103b8be0527d5a824d53e83dbc8bb08785bc9dcd2",
+        "bytes": 1399
+      },
+      {
+        "path": "BOOK_SYSTEM/ADAPTATION/templates/STYLE_GUIDE.md",
+        "sha256": "80f09c0af24ced64fdf3b2745da119113073573c782649f02531afa6deb9e975",
+        "bytes": 1602
+      },
+      {
+        "path": "BOOK_SYSTEM/CHANGELOG-2026-09-14.md",
+        "sha256": "5e3fa142d000d7f0ba9360da91df298126f8ac179ad7abe6672ee1cce22a024d",
+        "bytes": 5216
+      },
+      {
+        "path": "BOOK_SYSTEM/CORE.md",
+        "sha256": "e65010a13d397daab2273b93c85ec82ed98e8a25062f54bf18371018e6d9734a",
+        "bytes": 4776
+      },
+      {
+        "path": "BOOK_SYSTEM/LANGUAGES/en/STYLE.md",
+        "sha256": "eaa1cf7d19c5d4bbdb633673ba7bded1281ef0c92d1eac97134c6d660599be95",
+        "bytes": 2095
+      },
+      {
+        "path": "BOOK_SYSTEM/LANGUAGES/ru-legacy/README.md",
+        "sha256": "6e6c342bd571377a9d1fb8ceb2ad4e25e6d4fb8dd4c5021a85a74a400703d136",
+        "bytes": 1361
+      },
+      {
+        "path": "BOOK_SYSTEM/LANGUAGES/uk/OLEK_UA_STYLE.md",
+        "sha256": "7362b531353937dee0711a3071a3ce3d606a9a04949fe9ad2ffce09029e776d0",
+        "bytes": 1486
+      },
+      {
+        "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+        "sha256": "8d0dbc8e8efdc98506d270b72d02081345797e5b7908696c1c96f15cafb4b928",
+        "bytes": 4725
+      },
+      {
+        "path": "BOOK_SYSTEM/README.md",
+        "sha256": "297f1c087d85d7798d66584c32a0ff3b442c7d654255c017b6c8660e41a135db",
+        "bytes": 4757
+      },
+      {
+        "path": "BOOK_SYSTEM/REVIEW.md",
+        "sha256": "28287699a5742b060a373fb065d23f72019df50c62ece91bee2dcffb755ceeaa",
+        "bytes": 4341
+      },
+      {
+        "path": "BOOK_SYSTEM/TOOLS.md",
+        "sha256": "a1268eaa78862c3bbc12e39498dabcd53d4913fbc37d751e3cc701b636e28966",
+        "bytes": 9154
+      },
+      {
+        "path": "BOOK_SYSTEM/VERSIONS.md",
+        "sha256": "036411c968cd051b4a91c08b60a49977206541289663b2ac35b64405734313b5",
+        "bytes": 4769
+      },
+      {
+        "path": "BOOK_SYSTEM/WRITING.md",
+        "sha256": "24ccf3865bb77d932cc3027bb8f530124c61b86dd70f9ac12765447e4ca69794",
+        "bytes": 5694
+      },
+      {
+        "path": "BOOK_SYSTEM/models.json",
+        "sha256": "2a5eba6c563084e3910c9acc7759d07aeae4596bbeea6d8d65109b6a0bb44c7c",
+        "bytes": 1721
+      },
+      {
+        "path": "CLAUDE.md",
+        "sha256": "74ef20b7d879c1af4a99372f879b395f3166f030e87882aae19283ad70f2f3f1",
+        "bytes": 1975
+      },
+      {
+        "path": "EDITORIAL-ENSEMBLE.md",
+        "sha256": "aff774fd88989a2b3de3206e28d4c1b3720ab29645ce4bcd958d3544ad184216",
+        "bytes": 10226
+      },
+      {
+        "path": "GEMINI.md",
+        "sha256": "30b02d88073fc1615632005cb1d9a84cdb4b17f2629b923ca262f64c472cff6b",
+        "bytes": 2335
+      },
+      {
+        "path": "README.md",
+        "sha256": "43e5c3874d4ff505554449e5fea2cdd5edd6e59f6ebc0fe7105df424e57732f0",
+        "bytes": 5086
+      },
+      {
+        "path": "SOURCE-OF-TRUTH.md",
+        "sha256": "6de11ae99d11a1a53fb2b127f1ed798a00642524804468b7096276cd33cc83e1",
+        "bytes": 10310
+      },
+      {
+        "path": "STYLE.md",
+        "sha256": "75ae6b24770075cd7da6947728f89e06ffa731a3d9a2587472b339e97a2f04d0",
+        "bytes": 2413
+      },
+      {
+        "path": "buro/.gitattributes",
+        "sha256": "7c2969150ce4ba2188b3ea1a5467e54d3f641c6c7a45df248ff906153c8eadba",
+        "bytes": 440
+      },
+      {
+        "path": "buro/AGENTS.md",
+        "sha256": "3b7bf7cd5d7f27b3613347df893f571fa0aac2217cb12f3480a1cdb9165a45c3",
+        "bytes": 9299
+      },
+      {
+        "path": "buro/START_HERE.md",
+        "sha256": "89f4fda8f76f991ad278924438acc502d654aa65d1e550ae82637089e4a6069f",
+        "bytes": 3789
+      },
+      {
+        "path": "buro/STYLE.md",
+        "sha256": "573fe334ce1b17560829202d3ad01510b4ed61ec31c65517d181d87e8e68b4fd",
+        "bytes": 4423
+      },
+      {
+        "path": "buro/guides/REPOSITORIES.md",
+        "sha256": "eef92711563bce02dd8fe9289d42c67f28d5ba305836b92644aee2138bb275aa",
+        "bytes": 14152
+      },
+      {
+        "path": "buro/guides/SCENE-EDITING.md",
+        "sha256": "0142261480bc6d28cea2a99daa81555d828de72740e9144018e97c5304be8362",
+        "bytes": 17412
+      },
+      {
+        "path": "buro/language-editions.json",
+        "sha256": "f307a8808754cfa09165cda2438c4d8e1a9d75959683e84c6a6777acc045adf6",
+        "bytes": 1947
+      },
+      {
+        "path": "buro/project.json",
+        "sha256": "9f1cf3f376ab3b4df82f37726e2e710ce4d5cf3fd335e04d658275f6dc3c8d42",
+        "bytes": 1217
+      },
+      {
+        "path": "buro/skills/ru-book-architect/SKILL.md",
+        "sha256": "f892670b7b66ba0f31b34d60858d93a2bed3b38cb882b67cb6ea8a1a87b3c01d",
+        "bytes": 5520
+      },
+      {
+        "path": "buro/skills/ru-book-auditor/SKILL.md",
+        "sha256": "d1419e55378d8d44e702451705b449ddc7e77dd36b422c9539d327c6b9dae285",
+        "bytes": 6530
+      },
+      {
+        "path": "buro/skills/ru-book-auditor/scripts/book_snapshot.py",
+        "sha256": "0a7c5184975bf5c2b52cb6ded25e4dcca0a07e7a15da32ebc10df6c522071f2f",
+        "bytes": 7517
+      },
+      {
+        "path": "buro/skills/ru-book-revision/SKILL.md",
+        "sha256": "6faa5cd2fb12ef6518fd7cd6847a947e660e1610e6986fc2bd06824766b6d72d",
+        "bytes": 4537
+      },
+      {
+        "path": "buro/skills/ru-book-voice/SKILL.md",
+        "sha256": "33007f33a00bd83db180ce917454f35b9ae2e3deee6c278c1195afde9573e843",
+        "bytes": 6438
+      },
+      {
+        "path": "buro/skills/ru-book-writer/SKILL.md",
+        "sha256": "a6d1a7adbe041d13705206ea948f63d15a3644c6cab957ca9d576dee55231926",
+        "bytes": 6585
+      },
+      {
+        "path": "buro/skills/ru-buro-series/SKILL.md",
+        "sha256": "958e7800f4b2c38d9e80f2d4c5771f3f546fe34852f42048989a8c8f8c6ec10a",
+        "bytes": 3956
+      },
+      {
+        "path": "buro/templates/book/book.json",
+        "sha256": "b49bca18dfe39325eff35e05358c5cd8805d348a5e501b3056859dcf8677a777",
+        "bytes": 614
+      },
+      {
+        "path": "buro/tools/studio.py",
+        "sha256": "ce283408a152a16babc497103183396137cfe22a6ca27f67f69ab85941064525",
+        "bytes": 25196
+      },
+      {
+        "path": "default/.gitattributes",
+        "sha256": "7c2969150ce4ba2188b3ea1a5467e54d3f641c6c7a45df248ff906153c8eadba",
+        "bytes": 440
+      },
+      {
+        "path": "default/AGENTS.md",
+        "sha256": "6a6b1c9e2c93ca568e823bb9835ef72e3eea58546d017d2ec1afbf241578b313",
+        "bytes": 8957
+      },
+      {
+        "path": "default/START_HERE.md",
+        "sha256": "29b0301437dfc1d8f107a8eee6a9c14b197f6aae4b67b2e084b133d7450d099a",
+        "bytes": 5524
+      },
+      {
+        "path": "default/STYLE.md",
+        "sha256": "d85a8be1370fd0c9a1bc8729483249e95f9dbcf27a202709fb04ae55062dfa34",
+        "bytes": 4371
+      },
+      {
+        "path": "default/guides/REPOSITORIES.md",
+        "sha256": "eef92711563bce02dd8fe9289d42c67f28d5ba305836b92644aee2138bb275aa",
+        "bytes": 14152
+      },
+      {
+        "path": "default/guides/SCENE-EDITING.md",
+        "sha256": "0142261480bc6d28cea2a99daa81555d828de72740e9144018e97c5304be8362",
+        "bytes": 17412
+      },
+      {
+        "path": "default/language-editions.json",
+        "sha256": "8f3f0e432b85a2a9f65514f0e8eb18bed2c9a9aa8eea07e9b15a7dc4956b2762",
+        "bytes": 457
+      },
+      {
+        "path": "default/project.json",
+        "sha256": "6e872d419cca419f7102af032b2bcc4937991a735b188b95925fc0f649354040",
+        "bytes": 807
+      },
+      {
+        "path": "default/skills/ru-book-architect/SKILL.md",
+        "sha256": "f892670b7b66ba0f31b34d60858d93a2bed3b38cb882b67cb6ea8a1a87b3c01d",
+        "bytes": 5520
+      },
+      {
+        "path": "default/skills/ru-book-auditor/SKILL.md",
+        "sha256": "d1419e55378d8d44e702451705b449ddc7e77dd36b422c9539d327c6b9dae285",
+        "bytes": 6530
+      },
+      {
+        "path": "default/skills/ru-book-auditor/scripts/book_snapshot.py",
+        "sha256": "0a7c5184975bf5c2b52cb6ded25e4dcca0a07e7a15da32ebc10df6c522071f2f",
+        "bytes": 7517
+      },
+      {
+        "path": "default/skills/ru-book-revision/SKILL.md",
+        "sha256": "6faa5cd2fb12ef6518fd7cd6847a947e660e1610e6986fc2bd06824766b6d72d",
+        "bytes": 4537
+      },
+      {
+        "path": "default/skills/ru-book-voice/SKILL.md",
+        "sha256": "33007f33a00bd83db180ce917454f35b9ae2e3deee6c278c1195afde9573e843",
+        "bytes": 6438
+      },
+      {
+        "path": "default/skills/ru-book-writer/SKILL.md",
+        "sha256": "a6d1a7adbe041d13705206ea948f63d15a3644c6cab957ca9d576dee55231926",
+        "bytes": 6585
+      },
+      {
+        "path": "default/templates/book/book.json",
+        "sha256": "b49bca18dfe39325eff35e05358c5cd8805d348a5e501b3056859dcf8677a777",
+        "bytes": 614
+      },
+      {
+        "path": "default/tools/studio.py",
+        "sha256": "ce283408a152a16babc497103183396137cfe22a6ca27f67f69ab85941064525",
+        "bytes": 25196
+      },
+      {
+        "path": "editorial/schemas/issue-ledger.schema.json",
+        "sha256": "23b77533cd72c7b0977c26ccae1f4cecbc4ec88befb2d14e4fdc5b87b327589d",
+        "bytes": 4022
+      },
+      {
+        "path": "editorial/schemas/run.schema.json",
+        "sha256": "c8699ae570e9f4d82083bba74362b2e79093c3e2c6177bf9db547f00a62d3046",
+        "bytes": 2340
+      },
+      {
+        "path": "editorial/templates/gemini-flash-diagnosis.md",
+        "sha256": "f506fc7c1ad96d566abde5dcd6776681f209761571ba9493ab82606c9ac26f46",
+        "bytes": 1193
+      },
+      {
+        "path": "kontakt/.gitattributes",
+        "sha256": "7c2969150ce4ba2188b3ea1a5467e54d3f641c6c7a45df248ff906153c8eadba",
+        "bytes": 440
+      },
+      {
+        "path": "kontakt/AGENTS.md",
+        "sha256": "6a6b1c9e2c93ca568e823bb9835ef72e3eea58546d017d2ec1afbf241578b313",
+        "bytes": 8957
+      },
+      {
+        "path": "kontakt/START_HERE.md",
+        "sha256": "e62f05006e875dbc51684a3e5211303c890e2d0a230349c9fed029328a0b858f",
+        "bytes": 1658
+      },
+      {
+        "path": "kontakt/STYLE.md",
+        "sha256": "c13147cb68a55640feca196a30680e19a924abf22c3c245bdd6b166046b19a40",
+        "bytes": 4410
+      },
+      {
+        "path": "kontakt/guides/REPOSITORIES.md",
+        "sha256": "eef92711563bce02dd8fe9289d42c67f28d5ba305836b92644aee2138bb275aa",
+        "bytes": 14152
+      },
+      {
+        "path": "kontakt/guides/SCENE-EDITING.md",
+        "sha256": "0142261480bc6d28cea2a99daa81555d828de72740e9144018e97c5304be8362",
+        "bytes": 17412
+      },
+      {
+        "path": "kontakt/language-editions.json",
+        "sha256": "cb8810b1219d6a2010e53b4aa7e2618b5050c353695d5272432d298e73268dd9",
+        "bytes": 2732
+      },
+      {
+        "path": "kontakt/project.json",
+        "sha256": "ae61c85f9a8dc086f755c357c69bf87fea28acfa46d4024e2a086deba3ca45b3",
+        "bytes": 1415
+      },
+      {
+        "path": "kontakt/skills/ru-book-architect/SKILL.md",
+        "sha256": "f892670b7b66ba0f31b34d60858d93a2bed3b38cb882b67cb6ea8a1a87b3c01d",
+        "bytes": 5520
+      },
+      {
+        "path": "kontakt/skills/ru-book-auditor/SKILL.md",
+        "sha256": "d1419e55378d8d44e702451705b449ddc7e77dd36b422c9539d327c6b9dae285",
+        "bytes": 6530
+      },
+      {
+        "path": "kontakt/skills/ru-book-auditor/scripts/book_snapshot.py",
+        "sha256": "0a7c5184975bf5c2b52cb6ded25e4dcca0a07e7a15da32ebc10df6c522071f2f",
+        "bytes": 7517
+      },
+      {
+        "path": "kontakt/skills/ru-book-revision/SKILL.md",
+        "sha256": "6faa5cd2fb12ef6518fd7cd6847a947e660e1610e6986fc2bd06824766b6d72d",
+        "bytes": 4537
+      },
+      {
+        "path": "kontakt/skills/ru-book-voice/SKILL.md",
+        "sha256": "33007f33a00bd83db180ce917454f35b9ae2e3deee6c278c1195afde9573e843",
+        "bytes": 6438
+      },
+      {
+        "path": "kontakt/skills/ru-book-writer/SKILL.md",
+        "sha256": "a6d1a7adbe041d13705206ea948f63d15a3644c6cab957ca9d576dee55231926",
+        "bytes": 6585
+      },
+      {
+        "path": "kontakt/skills/ru-kontakt-series/SKILL.md",
+        "sha256": "7c6b38520a52896607e77f97bc437242074f669132678ee2b70d3d0f53aa7f8f",
+        "bytes": 3928
+      },
+      {
+        "path": "kontakt/templates/book/book.json",
+        "sha256": "9c1529de22a5b76ada24b04cdb902eba1c9fa1be3b2a5aa67ac8f538bfd95618",
+        "bytes": 617
+      },
+      {
+        "path": "kontakt/tools/studio.py",
+        "sha256": "ce283408a152a16babc497103183396137cfe22a6ca27f67f69ab85941064525",
+        "bytes": 25196
+      },
+      {
+        "path": "riokka/.gitattributes",
+        "sha256": "7c2969150ce4ba2188b3ea1a5467e54d3f641c6c7a45df248ff906153c8eadba",
+        "bytes": 440
+      },
+      {
+        "path": "riokka/AGENTS.md",
+        "sha256": "dce7a3326486b79fd106ded582389376bd98efa0de998202be13b22e362e022a",
+        "bytes": 7595
+      },
+      {
+        "path": "riokka/START_HERE.md",
+        "sha256": "9e509aca53e676ab932e9ce49b021799c74fe5593fb0d4b6145bd76bf8c7339f",
+        "bytes": 4027
+      },
+      {
+        "path": "riokka/STYLE.md",
+        "sha256": "e6a0cd5f56e3c0414a654ef732a2e36a57e5c34b0c13b357cb63e0ef3163aa61",
+        "bytes": 4450
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/AUTHOR_INTENT.md",
+        "sha256": "dec0c9518261e2d2060c292d40e81e974d19eca916360e0041513f294def40d4",
+        "bytes": 2032
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/BOOK_BIBLE.md",
+        "sha256": "2db8c8247ee0aeb2a5e2e3850d8aefef6e4b9a82874ab3f7aeab7d5f00ff302e",
+        "bytes": 1454
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/CHARACTER_VOICES.md",
+        "sha256": "a588c538a977a086c5d996f0705d1a0bc5ba0561fa59cf533653ddbee9e5e256",
+        "bytes": 1515
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/DECISION_LOG.md",
+        "sha256": "1d135e177259e5e0f06d907919f252879bad6277b7c597718fa2a1d7e751d09c",
+        "bytes": 1634
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/EN_STYLE_GUIDE.md",
+        "sha256": "c75fb302103cd283de8ac846db303117202da0fd06cc9fe8b865c7d7c6c54be5",
+        "bytes": 1617
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/GLOSSARY_UA_EN.md",
+        "sha256": "e0c24f6774e1ff44349220fee0a0728b311cc144e1d12c250d47355b8867623d",
+        "bytes": 1635
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+        "sha256": "750f7c902f43902eb6af2d421f615bdb3e9733edf34790d0bf8ca5df9eb74ce7",
+        "bytes": 211
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/MEANING_LEDGER.md",
+        "sha256": "9c5fbce8130c50e00776d4788ba84109d1ec18cc0cb94cfe12c167e710738a47",
+        "bytes": 1462
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/SOURCE/source-reference.json",
+        "sha256": "19400412778959ef57d9029e402763b2f49b59b3e7ada27400bfb8848afa7bd5",
+        "bytes": 830
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/audit/issues.json",
+        "sha256": "12104dab7d7b1efd58b254ae1a954058a3c88f853b177bba1c88842cc3434c1b",
+        "bytes": 578
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/audit/status.json",
+        "sha256": "fd9851df369cf38006d091f5bd45232d87f9f37ca9dd0b933e22c4bce3725276",
+        "bytes": 355
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/edition.json",
+        "sha256": "e402e2d026286c9f54e3aeb9249d415446dbbf3fff55fa486c4830f7f7999e97",
+        "bytes": 1213
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/glossary.json",
+        "sha256": "00812babb751b204fda77e18d7757238beed9a9e59bc09a99af9767b6a195cdc",
+        "bytes": 250
+      },
+      {
+        "path": "riokka/books/book-01/editions/en/preparation-2026-09-14/meaning-ledger.json",
+        "sha256": "1bc7f34aa15a34e8c6b4791fc69153b089c7df78700e45b07dd21beb9323532a",
+        "bytes": 166
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/AUTHOR_INTENT.md",
+        "sha256": "71465b6c910542dcf8c07fc1e49f03e792dca1633133fb3c8974240462e85aa3",
+        "bytes": 2090
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/BOOK_BIBLE.md",
+        "sha256": "49a2d72a7d09bf1ce77713ec5ae83504b521ab20f6295268632289bf8fed3b72",
+        "bytes": 1983
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/CHARACTER_VOICES.md",
+        "sha256": "7fa3522b58c8ed8192061a71f51b4d6dc620546022780b07273e0d419889fe64",
+        "bytes": 1573
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/DECISION_LOG.md",
+        "sha256": "320493faacc752371e37713253674f51953493b62eb7c5b3d2f549fe533de898",
+        "bytes": 1697
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/GLOSSARY_RU_UA.md",
+        "sha256": "72569cfaeccaaa9a156b8279859c89a7befb12218e61df2ac8e6dac018118215",
+        "bytes": 1693
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+        "sha256": "750f7c902f43902eb6af2d421f615bdb3e9733edf34790d0bf8ca5df9eb74ce7",
+        "bytes": 211
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/MEANING_LEDGER.md",
+        "sha256": "78ee77620ba9696fab0d1a9f4a36d6ff327c959f8033d1d8ede30db01d880eb1",
+        "bytes": 1520
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/SOURCE/source-reference.json",
+        "sha256": "63f9a501d11eaf17323c4807a2a9e41fb7cf76ba809cab6504c2577e602c5a3c",
+        "bytes": 1411
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/UA_STYLE_GUIDE.md",
+        "sha256": "37afcc9d0da6ddeb60b1aca5b8d642eb19d1f8e15e239d5affbf6727c05234ae",
+        "bytes": 1617
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/audit/issues.json",
+        "sha256": "6d8ca47e7e68dfa9020d4b2539894c67a05952d66c7eb1560796d0154639cf40",
+        "bytes": 152
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/audit/status.json",
+        "sha256": "fd9851df369cf38006d091f5bd45232d87f9f37ca9dd0b933e22c4bce3725276",
+        "bytes": 355
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/chapter-map.json",
+        "sha256": "2e36109d34dad4c69f944f43618f6418447e0ba1b775f55dfcbeb03029113318",
+        "bytes": 6763
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/edition.json",
+        "sha256": "9a3a9db0a6f26afeb5701300865c8026cff9ff8e8e01211f75c7343c55159549",
+        "bytes": 1811
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/glossary.json",
+        "sha256": "70f72871bc96a1ca73211861a44413ae84e4bce900cef52968bdfe6550256fdd",
+        "bytes": 34248
+      },
+      {
+        "path": "riokka/books/book-01/editions/uk/preparation-2026-09-14/meaning-ledger.json",
+        "sha256": "5e0a84f9e95605d19a69c086c4dbdb5e1e911833d8cdd22b95d228f4c91a9c55",
+        "bytes": 32852
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/AUTHOR_INTENT.md",
+        "sha256": "c2c932b33c44c43a0185a35dfd3c8dbb9b5b190d3db5e534f8766392d704d594",
+        "bytes": 2027
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/BOOK_BIBLE.md",
+        "sha256": "de5a26cdf1704125813415a636a81a7d6d20e45d3010d699246f4ab5807e2270",
+        "bytes": 1449
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/CHARACTER_VOICES.md",
+        "sha256": "b7e5bc423e3bb221d5f359d1a61fe01c1cedef625aed5aa5c7ad6ecce6881d7f",
+        "bytes": 1510
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/DECISION_LOG.md",
+        "sha256": "ef6685da30e7bf270bb68b9548b3cff8b5129e1e81d658d4aba1663b45d41dce",
+        "bytes": 1629
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/EN_STYLE_GUIDE.md",
+        "sha256": "bacd08ced37b5e3576a3bbde8fd640c35b095033c82538f69e820b023571b4c4",
+        "bytes": 1612
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/GLOSSARY_UA_EN.md",
+        "sha256": "3cffca28ef3e6d7587b0d0cdbad94af29154d5ed0766c1e41dc3904883e82956",
+        "bytes": 1630
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+        "sha256": "45ba4dce272cf03c445e2ec77ab9ed7eff0647d097fb2a9707552d17a5778a26",
+        "bytes": 211
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/MEANING_LEDGER.md",
+        "sha256": "61c73169c998fb5ba2f1700df881b69b1233575f1e72a72fc86e6fbf867a701c",
+        "bytes": 1457
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/SOURCE/source-reference.json",
+        "sha256": "a7e463386aac0d8880e321eb1a2724ad3811d0baed306685524b6df050e65748",
+        "bytes": 641
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/audit/issues.json",
+        "sha256": "4433bff7f6ae0ce3ab606be2be6b133e2ea62b46ad2578a5ffeb9477286ae740",
+        "bytes": 578
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/audit/status.json",
+        "sha256": "33f53d2b3d28cc1befd2b23beb1d636ef3ab71efd71cf97b35c510353233d491",
+        "bytes": 355
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/edition.json",
+        "sha256": "7262a21b0eb7822c02bf867fb4c9bce691dd8e3cd1a13ef8f53aa80c2070d686",
+        "bytes": 1024
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/glossary.json",
+        "sha256": "00eb8e272a7e35a5cae5f74b2eff30be302149df078c8aff27816a16fb456365",
+        "bytes": 250
+      },
+      {
+        "path": "riokka/books/book-02/editions/en/preparation-2026-09-14/meaning-ledger.json",
+        "sha256": "ced6b7abdf04076e2b2a9153e18d74a736090d0b3904eaf5ecf84caa9e33651e",
+        "bytes": 166
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/AUTHOR_INTENT.md",
+        "sha256": "b028f657b7d32aa0e567993e0326e827d2344faed9d4963c49a31dbeab4932c3",
+        "bytes": 2083
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/BOOK_BIBLE.md",
+        "sha256": "d7514adf0184ce189908fb0223d5e5dbd99e91fb06395186b9ee48c4fac14faf",
+        "bytes": 2001
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/CHARACTER_VOICES.md",
+        "sha256": "554b58230629a45568e0e32841c8abfc83065f1dc8d2e2117e9f5e21f74892df",
+        "bytes": 1566
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/DECISION_LOG.md",
+        "sha256": "d74d35ac9094d3bdf3e65ba8d0b775671dde44f5b685b522a5e7d3df684355bb",
+        "bytes": 1715
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/GLOSSARY_RU_UA.md",
+        "sha256": "8e6fe8e2e87e017e7542a1d011cbfd2b1f72fd8a946c2ffa891a0a06ea28364e",
+        "bytes": 1686
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+        "sha256": "45ba4dce272cf03c445e2ec77ab9ed7eff0647d097fb2a9707552d17a5778a26",
+        "bytes": 211
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/MEANING_LEDGER.md",
+        "sha256": "2482198577b1d346bd55761c53afb3c82a5eecc66a91ca46542c271876bcb324",
+        "bytes": 1513
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/SOURCE/source-reference.json",
+        "sha256": "0cfa55fc03cd3eaca8bf2eb82e545a8845b939ceb2887d91e7b99f7e6e5376d3",
+        "bytes": 1036
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/UA_STYLE_GUIDE.md",
+        "sha256": "fa1493f8a3c31c88c86cb2305a5dc01bb2ac7c08a8e59e7cd069c609594fa8c5",
+        "bytes": 1612
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/audit/issues.json",
+        "sha256": "7e7846779afdee02067db05879240ead1b9393db6801d712e1e0a9c938e69bce",
+        "bytes": 670
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/audit/status.json",
+        "sha256": "33f53d2b3d28cc1befd2b23beb1d636ef3ab71efd71cf97b35c510353233d491",
+        "bytes": 355
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/chapter-map.json",
+        "sha256": "8e38bfcdc38ea6356fbac4a3b3ad90b51a393ed71b7e4fbd05deae2b2dd0ed2a",
+        "bytes": 6768
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/edition.json",
+        "sha256": "3e62d564e6e7b0b6b9df84c150e2556857c831cc154caf11b9a1b772bc79f8cb",
+        "bytes": 1458
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/glossary.json",
+        "sha256": "a6365a0d4c50744a56c1149def7f551c4166bf6414ec0b4718fb25dfdb989d5c",
+        "bytes": 30140
+      },
+      {
+        "path": "riokka/books/book-02/editions/uk/preparation-2026-09-14/meaning-ledger.json",
+        "sha256": "c0048661dbaba4ef1f8d26ba6970d91326fbfa4e75ff50784df6394d3582e052",
+        "bytes": 640
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/AUTHOR_INTENT.md",
+        "sha256": "646e7ed150a12fd95939cd25d4ee94439e71948a46156290fa17ef79fe486f0b",
+        "bytes": 2025
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/BOOK_BIBLE.md",
+        "sha256": "9d4887a84b948d6b4df0071808e149d3f62c1dbf14f90ad0d5ce83813e9787e0",
+        "bytes": 1447
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/CHARACTER_VOICES.md",
+        "sha256": "a10a4d6d4d0edbb91340f30347fa52b83d39efe0c2eaf881c14870ccf3d000bc",
+        "bytes": 1508
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/DECISION_LOG.md",
+        "sha256": "242bf0e53f916f7e5acf5766e1b9791269cd1094b824e962675c60ac81238144",
+        "bytes": 1627
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/EN_STYLE_GUIDE.md",
+        "sha256": "3f6e46a473e5d1c9d2c9e2c9610cf40477bd104dbb05c3471da9afc2bb6d63a8",
+        "bytes": 1610
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/GLOSSARY_UA_EN.md",
+        "sha256": "eee389b76eff64c00c8301f54d14b7229b7e466a46655d08f4f2e2ae738c6fab",
+        "bytes": 1628
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+        "sha256": "91d8ab8f9c6cade0ef5bc40af896d65a0ad67e93a3ee1f9e0c5160d204a962f8",
+        "bytes": 211
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/MEANING_LEDGER.md",
+        "sha256": "c67dccd931479235b98b002c44eda7dbc42ffeecd02fa5b23cd1ba6aeaab9231",
+        "bytes": 1455
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/SOURCE/source-reference.json",
+        "sha256": "f944cf3e2bb9be4c69b560f79dff22bb712727300b911a82c8e928e6c14f1b86",
+        "bytes": 641
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/audit/issues.json",
+        "sha256": "487aa6ae91326e5f9410ae32e3c89625425b3610457aeb878763469373327934",
+        "bytes": 578
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/audit/status.json",
+        "sha256": "07737251f05e1a2007960e607737fb1446b97fecf1673db4bee7c8a832bf3e63",
+        "bytes": 355
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/edition.json",
+        "sha256": "b80f3ef3f8a2e079918532c67344eeec79f6f12c0db70fcc5001189585c34a98",
+        "bytes": 1024
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/glossary.json",
+        "sha256": "5a9b641ea96e4209400661a7a601b7d7bb19c34843e137e3dbc388dff09023fb",
+        "bytes": 250
+      },
+      {
+        "path": "riokka/books/book-03/editions/en/preparation-2026-09-14/meaning-ledger.json",
+        "sha256": "ef68a6b64eae77e8a9d0c4904a619ab7fcca98f6a37975abadb68d9157b036bd",
+        "bytes": 166
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/AUTHOR_INTENT.md",
+        "sha256": "881250261fb37fa3a1c486d9ebaa6566638686bcaa325f1a24954443db57200b",
+        "bytes": 2081
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/BOOK_BIBLE.md",
+        "sha256": "4980da4d040f8b57908665d550c0433f69285deaf0e86c26e6ec0e18c654c494",
+        "bytes": 1999
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/CHARACTER_VOICES.md",
+        "sha256": "9684a2ed518667d20f467f792f369a207fe76efb62448856b3e8c71b68a5732c",
+        "bytes": 1564
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/DECISION_LOG.md",
+        "sha256": "52d0258cffabad35add479cb844d262255c913854070c6ebd362f7570fffc2f7",
+        "bytes": 1713
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/GLOSSARY_RU_UA.md",
+        "sha256": "ffb44655602ca42070ce9478bdb15718ca03ee7010d9e592de215c0fbaa56ead",
+        "bytes": 1684
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/GOLD_EXAMPLES/index.json",
+        "sha256": "91d8ab8f9c6cade0ef5bc40af896d65a0ad67e93a3ee1f9e0c5160d204a962f8",
+        "bytes": 211
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/MEANING_LEDGER.md",
+        "sha256": "039b511faf747c0a06917e9a8c7c8d49753901bfe0801d2f74772d0451fea536",
+        "bytes": 1511
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/SOURCE/source-reference.json",
+        "sha256": "8c24f40fd591e2b682eef85dbfee5269cbb60b2b7f22ecc8884614e81d63c019",
+        "bytes": 1036
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/UA_STYLE_GUIDE.md",
+        "sha256": "6cb3ac630673dbebf50ef79606d16483234789309ee0e520a941fe1d93e0b5a2",
+        "bytes": 1610
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/audit/issues.json",
+        "sha256": "100566de0291eed7759bc4193acc4f8ce6f1f91f7cdaf51070ab76f7c84341f3",
+        "bytes": 670
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/audit/status.json",
+        "sha256": "07737251f05e1a2007960e607737fb1446b97fecf1673db4bee7c8a832bf3e63",
+        "bytes": 355
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/chapter-map.json",
+        "sha256": "a0c2eb470d611b1db14551c081f1bc9ffbcd95d02750a49ee916e275288f4703",
+        "bytes": 8106
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/edition.json",
+        "sha256": "e596ce3d9352854532061e1ca59bd9e9909ade337332292b46590fea3c0dcd70",
+        "bytes": 1458
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/glossary.json",
+        "sha256": "7728cf91ffe3d89cf991936ecdc3c4b707ea630790e256c1b3ce28a20ca82aca",
+        "bytes": 28530
+      },
+      {
+        "path": "riokka/books/book-03/editions/uk/preparation-2026-09-14/meaning-ledger.json",
+        "sha256": "14d3c478abae97e74d3185da0b326addb7d9a77b985bac1abbaef9cf785b0776",
+        "bytes": 11403
+      },
+      {
+        "path": "riokka/guides/REPOSITORIES.md",
+        "sha256": "eef92711563bce02dd8fe9289d42c67f28d5ba305836b92644aee2138bb275aa",
+        "bytes": 14152
+      },
+      {
+        "path": "riokka/guides/SCENE-EDITING.md",
+        "sha256": "0142261480bc6d28cea2a99daa81555d828de72740e9144018e97c5304be8362",
+        "bytes": 17412
+      },
+      {
+        "path": "riokka/language-editions.json",
+        "sha256": "02db2c72cad1c0c1374a0b7bdab9b6cfb8506cdbd266f75d07375f11890e2ee9",
+        "bytes": 3456
+      },
+      {
+        "path": "riokka/project.json",
+        "sha256": "7614914459ed031af8f0315894ff80dee4ad357eb37eef14e66abd63b633cd3c",
+        "bytes": 1222
+      },
+      {
+        "path": "riokka/skills/ru-book-architect/SKILL.md",
+        "sha256": "f892670b7b66ba0f31b34d60858d93a2bed3b38cb882b67cb6ea8a1a87b3c01d",
+        "bytes": 5520
+      },
+      {
+        "path": "riokka/skills/ru-book-auditor/SKILL.md",
+        "sha256": "d1419e55378d8d44e702451705b449ddc7e77dd36b422c9539d327c6b9dae285",
+        "bytes": 6530
+      },
+      {
+        "path": "riokka/skills/ru-book-auditor/scripts/book_snapshot.py",
+        "sha256": "0a7c5184975bf5c2b52cb6ded25e4dcca0a07e7a15da32ebc10df6c522071f2f",
+        "bytes": 7517
+      },
+      {
+        "path": "riokka/skills/ru-book-revision/SKILL.md",
+        "sha256": "6faa5cd2fb12ef6518fd7cd6847a947e660e1610e6986fc2bd06824766b6d72d",
+        "bytes": 4537
+      },
+      {
+        "path": "riokka/skills/ru-book-voice/SKILL.md",
+        "sha256": "33007f33a00bd83db180ce917454f35b9ae2e3deee6c278c1195afde9573e843",
+        "bytes": 6438
+      },
+      {
+        "path": "riokka/skills/ru-book-writer/SKILL.md",
+        "sha256": "a6d1a7adbe041d13705206ea948f63d15a3644c6cab957ca9d576dee55231926",
+        "bytes": 6585
+      },
+      {
+        "path": "riokka/skills/ru-riokka-series/SKILL.md",
+        "sha256": "20e310f91feaefb41442a4abd22891061126f42381c186668b4b25aff17f785f",
+        "bytes": 3952
+      },
+      {
+        "path": "riokka/templates/book/book.json",
+        "sha256": "b49bca18dfe39325eff35e05358c5cd8805d348a5e501b3056859dcf8677a777",
+        "bytes": 614
+      },
+      {
+        "path": "riokka/tools/studio.py",
+        "sha256": "ce283408a152a16babc497103183396137cfe22a6ca27f67f69ab85941064525",
+        "bytes": 25196
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/CHARACTER-VOICES.md",
+        "sha256": "dc8d3284accafc1f7f9ca6853a1e3c9c5063564007b6b0978e1a2dde205c298e",
+        "bytes": 6287
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/GLOSSARY-PROPOSALS.md",
+        "sha256": "d854048de138becc805296098aa2faee11886e857c33825ccf62e9e3b8af8388",
+        "bytes": 4705
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/START_HERE.md",
+        "sha256": "329688a3107c4a42413afb7f2509e94f479d210e8cee6c6e499d0aaeddd216a7",
+        "bytes": 8265
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/adaptation-ledger.json",
+        "sha256": "83c428c90fafe9f83bd9727bf3201d8ba4319e71d49ef0ae2b6fcf52b24a4494",
+        "bytes": 33853
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/calibration-plan.json",
+        "sha256": "e775c0a18d5863069fa63e346346074cb718ed2687678163883514dacd53f911",
+        "bytes": 2195
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/glossary.json",
+        "sha256": "18cceb832a4e9bba7879613c56c9ccc81d174d664b472c188c6864cc179c3119",
+        "bytes": 582523
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/pilot/book-01-chapters-01-03/packet.json",
+        "sha256": "5b7ce734de8ce789b5e16efe5ba06d6dc6b286c58446dbc3b5eb5af132911905",
+        "bytes": 4660
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/pilot/book-01-chapters-01-03/source-segments.json",
+        "sha256": "1f2afdb8defd15c78d5ec456c7b6a42e457ab04262594ad175c33aafa448c664",
+        "bytes": 106440
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/pilot/book-01-chapters-01-03/source.ru.txt",
+        "sha256": "2bb8ef40336467bef527dc915f4abade19dedb51782144a384db5a3bbff94c74",
+        "bytes": 64786
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-00.json",
+        "sha256": "3db243a6d8e0a3910f00b05462875f90aa2e6c6a576be41e94181b97c1a00098",
+        "bytes": 687
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-01.json",
+        "sha256": "4f2b348e8a2916e29166d7d827a6cb6a2a053495bb7b72d004c1ed1b8c31522f",
+        "bytes": 1929
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-02.json",
+        "sha256": "dd6b8cee2b2f76559c7374c81572a6ece88b79b325bd31a243b0b0166359c33e",
+        "bytes": 3307
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-03.json",
+        "sha256": "73e1a2331164162fa51b1eaafe8d6dfea2f2ac266bfdf1957c1c26e6689c3785",
+        "bytes": 3533
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-04.json",
+        "sha256": "410d0c927704a73c0283a99c5287c57586780e89e561b7de525866d81c075492",
+        "bytes": 1716
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-05.json",
+        "sha256": "0f1738fef2bff5250fde49154b7dd1655b3f0dc479664ccdb5d8e597def29c1d",
+        "bytes": 724
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/sources.json",
+        "sha256": "415eb8ef6c9a8cfec328e2f93310e56373d09a1c5cdc79250607ec63ed808fa8",
+        "bytes": 56155
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/terminology-seed.json",
+        "sha256": "972bd3c91a7d5ce08f8fa3e1754ca7f3477f560bb7b426c1c84c2ddb158ba515",
+        "bytes": 44603
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/voices.json",
+        "sha256": "8ceb22097acec6b8350e86de9392cb51d8bcedafa69e50a2daed8d832237d27d",
+        "bytes": 37549
+      },
+      {
+        "path": "riokka/translation/preparation-2026-09-14/ВОПРОСЫ-К-АВТОРУ.md",
+        "sha256": "c40d188bd8da727db67c02b931deb0aa77e69c849baf0dc41b3a159acedadbf7",
+        "bytes": 4443
+      },
+      {
+        "path": "tests/test_editorial_ensemble.py",
+        "sha256": "d8e8765da68986fad7927d219c21a147ea5ba4a8599af1350d541b38cf75a800",
+        "bytes": 7194
+      },
+      {
+        "path": "tests/test_language_system.py",
+        "sha256": "4186f742bd6107bb8bfdf4cb589911fca18f60bfe406d531b3f98906dabeaf94",
+        "bytes": 4010
+      },
+      {
+        "path": "tests/test_literary_translation.py",
+        "sha256": "cd1210823b66b2e352c6c70427ba7f4211b5184291e1a595139f9f03ee5651f9",
+        "bytes": 11980
+      },
+      {
+        "path": "tools/editorial_ensemble.py",
+        "sha256": "3cc126b9bf74299d413d4bdf640e471408fb98cba3a7e7514a6dc9445ec3a8e7",
+        "bytes": 28166
+      },
+      {
+        "path": "tools/language_qa.py",
+        "sha256": "cee1300484d96e48dcedc5562df6d53c227f5f72c62f2478ab59ab9f4eef09d0",
+        "bytes": 4356
+      },
+      {
+        "path": "tools/literary_translation.py",
+        "sha256": "9f07f4c4d7fe5388311e0cba6b34f9fd8ea500718701db5970f6ae43327319f2",
+        "bytes": 31892
+      },
+      {
+        "path": "tools/prepare_language_editions.py",
+        "sha256": "104c7c3d2d13ced3cf967be4684b52720ca6d1178108c17a8d02a003528b55a2",
+        "bytes": 6727
+      }
+    ],
+    "json_files_parsed": 74,
+    "six_editions_checked": true
+  },
+  "not_run": [
+    "Novel translation",
+    "Sol/Opus calibration",
+    "Full-book meaning extraction",
+    "Opus literary review",
+    "Gemini Flash full-book scan",
+    "Gemini Pro cold reading",
+    "Astra cross-chapter literary audit",
+    "Human Ukrainian/English reader",
+    "LanguageTool/Vale prose checking",
+    "New-edition DOCX/render",
+    "Canonical master promotion"
+  ],
+  "open_issues": [
+    "Author selection of exact final RU source for volumes 2 and 3",
+    "Author intent for unlocated grandmother joke and picture/event contrast",
+    "Term approvals, inflection and vocative forms",
+    "Full character/meaning coverage",
+    "Primary adapter selection and author gold examples"
+  ],
+  "desktop_delivery": [
+    {
+      "source": "riokka/translation/preparation-2026-09-14/ВОПРОСЫ-К-АВТОРУ.md",
+      "copy": "/mnt/c/Users/alexi/Desktop/Риокка 1–3 — вопросы перед адаптацией — 2026-09-14.md",
+      "sha256": "c40d188bd8da727db67c02b931deb0aa77e69c849baf0dc41b3a159acedadbf7",
+      "verified_equal": true
+    },
+    {
+      "source": "riokka/translation/preparation-2026-09-14/START_HERE.md",
+      "copy": "/mnt/c/Users/alexi/Desktop/Риокка — языковая система и порядок работы — 2026-09-14.md",
+      "sha256": "329688a3107c4a42413afb7f2509e94f479d210e8cee6c6e499d0aaeddd216a7",
+      "verified_equal": true
+    }
+  ],
+  "source_policy": "Existing manuscript/master and sources/originals were not edited. Separate ongoing user work remains unstaged. This report excludes itself, FILES.json and delivery commit metadata from the artifact hashes to avoid recursive hashes.",
+  "source_whitespace_policy": "Source projections retain whitespace exactly; Git attributes prevent normalization and waive whitespace lint only for frozen source inputs. No source prose was trimmed.",
+  "standalone_scope": "Only reusable core, helpers and three language skills; workshop-specific audit and changelog are excluded from clean new projects."
+}

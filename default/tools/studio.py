@@ -5,6 +5,7 @@ import copy
 import hashlib
 import importlib.util
 import json
+import os
 import re
 import shutil
 import sys
@@ -122,10 +123,54 @@ def new_project(args):
                 shutil.copytree(src, dst, ignore=ignore)
             elif src.is_file():
                 shutil.copy2(src, dst)
+        system_ref = source.get('book_system')
+        if system_ref:
+            system_source = (root / system_ref).resolve()
+            if not (system_source / 'README.md').is_file():
+                raise ValueError('Missing shared book system: ' + str(system_source))
+            if any(f.is_symlink() for f in system_source.rglob('*')):
+                raise ValueError('Shared book system must not contain symlinks')
+            shutil.copytree(system_source, staging / 'book-system',
+                            ignore=shutil.ignore_patterns('audit', 'CHANGELOG-*', '__pycache__', '*.pyc'))
+            # Carry executable helpers as well as prose rules into standalone copies.
+            helper_source = system_source.parent / 'tools'
+            helper_records = []
+            for helper in ['literary_translation.py', 'language_qa.py', 'prepare_language_editions.py']:
+                origin = helper_source / helper
+                if not origin.is_file():
+                    raise ValueError('Missing language helper: ' + str(origin))
+                shutil.copy2(origin, staging / 'tools' / helper)
+                helper_records.append({'path': 'tools/' + helper, 'sha256': digest(origin)})
+            shared_skills = system_source.parent / '.agents/skills'
+            for skill in ['book-showrunner', 'book-language-review', 'literary-adaptation']:
+                origin = shared_skills / skill
+                if not (origin / 'SKILL.md').is_file() or any(p.is_symlink() for p in origin.rglob('*')):
+                    raise ValueError('Missing or unsafe language skill: ' + str(origin))
+                shutil.copytree(origin, staging / '.agents/skills' / skill, ignore=ignore)
+            for document in staging.rglob('*.md'):
+                if 'methods/history' in document.as_posix():
+                    continue
+                content = document.read_text(encoding='utf-8')
+                if '../BOOK_SYSTEM' in content:
+                    relative = Path(os.path.relpath(staging / 'book-system', document.parent)).as_posix()
+                    content = content.replace('../../../BOOK_SYSTEM', relative).replace('../BOOK_SYSTEM', relative)
+                    document.write_text(content, encoding='utf-8')
+            write(staging / 'SYSTEM-SNAPSHOT.json', {
+                'schema_version': 1, 'origin': str(system_source),
+                'helpers': helper_records,
+                'files': [{'path': f.relative_to(system_source).as_posix(), 'sha256': digest(f)}
+                          for f in sorted(system_source.rglob('*')) if f.is_file()
+                          and (staging / 'book-system' / f.relative_to(system_source)).is_file()],
+                'policy': 'Versioned portable snapshot; no automatic updates of existing books.'})
         manifest = copy.deepcopy(source)
         manifest.update(project_id=pid, workspace_uid=str(uuid.uuid4()), title=args.title,
                         kind='book-project', books=[], optional_modules=[],
                         external={'github': None, 'google_drive': None, 'status': 'not_configured'})
+        if system_ref:
+            manifest['book_system'] = 'book-system'
+        # Existing-book language registries are project state, never template canon.
+        if isinstance(manifest.get('language_policy'), dict):
+            manifest['language_policy'].pop('existing_books_registry', None)
         write(staging / 'project.json', manifest)
         for folder in ['series', 'templates/book']:
             for file in (staging / folder).rglob('*.json'):
@@ -171,6 +216,13 @@ def new_book(args):
         book = read(staging / 'book.json')
         book.update(project_id=p['project_id'], book_id=bid, title=args.title,
                     book_type=args.type, stage='idea', master=None)
+        language = getattr(args, 'language', None) or p.get('language_policy', {}).get('default_new_original', 'uk')
+        if language not in {'uk', 'en'}:
+            raise ValueError('New original language must be uk or explicitly selected en')
+        book.update(original_language=language, canonical_language=language, language_state='not_written',
+                    legacy_sources=[], editions={language: {'role': 'canonical_original', 'status': 'not_started'}})
+        if language == 'uk':
+            book['editions']['en'] = {'role': 'derived_edition', 'source_language': 'uk', 'status': 'not_started'}
         write(staging / 'book.json', book)
         profile = copy.deepcopy(preset)
         profile.update(profile_id=bid + '-voice-v1', book_id=bid, status='proposed',
@@ -209,6 +261,9 @@ def set_master(args):
     previous = book.get('master')
     current = {'path': path.relative_to(bp).as_posix(), 'format': fmt, 'sha256': digest(path),
                'status': 'author_selected', 'authority': args.reason}
+    current['language'] = (getattr(args, 'language', None) or (previous or {}).get('language')
+                           or book.get('canonical_language') or book.get('original_language')
+                           or p.get('language_policy', {}).get('legacy_existing_source', 'ru'))
     book['master'] = current
     logpath = bp / 'revision-log.json'
     log = read(logpath)
@@ -259,8 +314,13 @@ def context(args):
     if (bp / 'STYLE.md').is_file():
         paths.insert(3, 'STYLE.md')
     project_paths = ['STYLE.md']
+    system_ref = p.get('book_system')
+    system_note = ('Book system: ' + str((root / system_ref).resolve()) +
+                   '; read CORE.md, WRITING.md and the target LANGUAGES style. ' if system_ref else '')
     pieces = ['# Контекст рабочей сессии', 'Задача: ' + args.task,
               'Книга: ' + book['book_id'], 'Включены только перечисленные файлы. Рукопись и канон надо читать по указанным путям.']
+    pieces.append(system_note + 'New prose language: ' + book.get('original_language', p.get('language_policy', {}).get('default_new_original', 'uk')) +
+                  '. Existing source language/status must be checked separately; never relabel a Russian manuscript as Ukrainian.')
     for rel in project_paths:
         pieces.extend(['\n## ' + rel, inside(root, rel).read_text(encoding='utf-8')])
     for rel in paths:
@@ -367,12 +427,14 @@ def main():
             subp.add_argument('--id', required=True)
             subp.add_argument('--title', required=True)
             subp.add_argument('--profile', default='custom')
+            subp.add_argument('--language', choices=['uk', 'en'], help='Original language; defaults to project policy (uk)')
             subp.add_argument('--type', choices=['fiction', 'memoir', 'nonfiction'], default='fiction')
             subp.add_argument('--differentiation', choices=['distinct', 'related', 'unspecified'], default='unspecified')
         elif name == 'set-master':
             subp.add_argument('--path', required=True, help='Path relative to the book folder')
             subp.add_argument('--format', choices=['auto', 'docx', 'text'], default='auto')
             subp.add_argument('--reason', required=True)
+            subp.add_argument('--language', choices=['uk', 'en', 'ru'], help='Actual language of this selected file')
         elif name == 'compare-voices':
             subp.add_argument('--book-a', required=True)
             subp.add_argument('--book-b', required=True)

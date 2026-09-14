@@ -1,0 +1,763 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "status": "proposed_seed",
+  "coverage": "36 located names; 8 selectively evidenced voice cards, not a full character or six-book voice audit.",
+  "entries": [
+    {
+      "id": "kai",
+      "source_name": "Кай",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": "Сухая самоирония и практическая оценка риска; внутренний голос может переходить к уязвимости и сомнению. Нельзя заменять всю интонацию бодрыми остротами.",
+      "uk_voice_target": "Стисла іронія без пояснення жарту. Залишати місце сумніву й стриманому болю; ритм спогаду не зводити до ритму погоні.",
+      "en_voice_target": "Dry practical self-irony, not constant quips. Allow a slower vulnerable register in recollection. Do not explain the joke or turn restraint into indifference.",
+      "coverage": "Selected narration in chapters 1 and 3; not the complete voice arc.",
+      "profile_status": "selective_text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 1,
+          "p": 6,
+          "quote_ru": "Когда тебе говорят «все под контролем», беги. Когда это говоришь ты сам — беги вдвое быстрее.",
+          "paragraph_sha256": "1d029beefd8906092c56c51f4bfdd5943a60a5d21e778d3ee43c757daa851d2d"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 1,
+          "p": 16,
+          "quote_ru": "Девять минут сорок секунд. Шестьдесят один процент. Дживс умеет приободрить.",
+          "paragraph_sha256": "2398748bb164b0506b5c8372215561f120ecdf09f9b1140ae9d0a999a25ad094"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 3,
+          "p": 198,
+          "quote_ru": "Я все думал потом: была ли это та самая развилка — или нас раскроили заранее, и трещина шла внутри задолго до того, как мы про нее узнали. Гордей нас не лепил. Он получил двух готовых мальчишек и старался хотя бы держать нас в одной упряжке. Старался честно. Не вышло.",
+          "paragraph_sha256": "264adbac46be59bff0ef93b2864ac0e70132410337e711d8559d8f145700ce93"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 3,
+          "p": 199,
+          "quote_ru": "На этом разговор кончился. Не потому, что мне нечего было ответить — у меня в горле застряло столько ответов, что я мог бы говорить до утра. А потому что повышать на него голос означало однажды поднять на него руку, а такого я не сделаю, как и не подниму руку ни на кого, пока меня не загонят в угол. Я слишком хорошо знаю, какая во мне живет сила, когда я спускаю ее с поводка. Я развернулся и ушёл искать следующий контракт.",
+          "paragraph_sha256": "85cfa5893100b8f0a6c0eb70868aac3e0d80f083a0124c07592576163d6cd93b"
+        }
+      ],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "jeeves",
+      "source_name": "Дживс",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": "Учтивая точность, корректировка формулировки, арифметика как комический противовес. Пауза и сомнение в p110 существенны; это не ровный комедийный автомат.",
+      "uk_voice_target": "Ввічливі уточнення й точні протиставлення; не обтяжувати архаїкою. Зберегти вагання там, де воно з'являється в джерелі.",
+      "en_voice_target": "Impeccably polite precision and corrective contrasts. Understatement, not a caricatured butler dialect. Preserve the unusual hesitation in the contract exchange.",
+      "coverage": "Selected direct speech, chapter 1.",
+      "profile_status": "selective_text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 1,
+          "p": 17,
+          "quote_ru": "— Уточняю, — отозвался в ухе ровный, до отвращения воспитанный голос корабельного искина. — Под контролем находятся четыре из семи переменных. Оставшиеся три я бы охарактеризовал как «творческие».",
+          "paragraph_sha256": "c6ff92f6d549ae1cc2832d3a1f402f996ee6d44b6634b80e59c7a0fa10cfcc88"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 1,
+          "p": 19,
+          "quote_ru": "— Вы любите результат. Творчество вы терпите.",
+          "paragraph_sha256": "71f611a74b24672bc77232c957cd544d51056a02112db0ac9e9bdb79882ef669"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 1,
+          "p": 110,
+          "quote_ru": "— Анонимный. Через три подставных контура. — Короткая тишина, в которой искин делал то, чего я ему никогда не приказывал. Он сомневался. — И еще. Маршрутную метку этого запроса я уже видел однажды. На контракте, который мы не брали.",
+          "paragraph_sha256": "88fb0b004d3b5d28cad8a33e269cb2680c7dc6f3cea2823b582a68257703b200"
+        }
+      ],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "julia",
+      "source_name": "Джулия",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": "Прямота, опасность рядом с деловой иронией, уклонение от сентиментального союза. Метафора контракта по мерке выполняет аналитическую функцию.",
+      "uk_voice_target": "Прямі репліки й власна мета; не робити її лише помічницею Кая. Зберігати незручність близькості та практичний підтекст.",
+      "en_voice_target": "Blunt, purposeful, wry without softening the threat. Keep her agenda and discomfort with partnership; retain the diagnostic function of the tailored-contract image.",
+      "coverage": "Selected direct speech, chapter 8.",
+      "profile_status": "selective_text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 8,
+          "p": 354,
+          "quote_ru": "— Джулия, — добавила она, не опуская пистолет. — Раз уж будем мешать друг другу, давай хоть по-человечески.",
+          "paragraph_sha256": "8943012b489caec82c749c623ce169356eabb577544c1ea49cdb6e6baf25b85a"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 8,
+          "p": 369,
+          "quote_ru": "— Затем, что живой соперник полезнее мертвого напарника, — сказала Джулия. — А ты, кажется, все-таки скорее напарник. Жаль. С соперниками мне проще. — Она пошла вниз, к тропе на склады, и, не оборачиваясь, бросила через плечо: — И вот еще. Контракт под тебя написали слишком хорошо. По мерке. А по мерке шьют только на того, кого любят. Или на того, кого знают наизусть, до каждого рефлекса. На лице у тебя написано: кандидат есть. Когда соберешься его назвать вслух, найди меня. Это будет наш с тобой настоящий разговор, а не вот это все.",
+          "paragraph_sha256": "fb789404f588d4b1c0bdf79403c971bd58bbaa867007aebddbba8c06e45ccced"
+        }
+      ],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "lina",
+      "source_name": "Лина",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": "Практическая организация и независимая воля. Обещание ребёнку — основание собственного решения, не сентиментальное украшение.",
+      "uk_voice_target": "Предметність і самостійність. Не підвищувати пафос; догляд за людьми проявляється в діях та конкретному рішенні.",
+      "en_voice_target": "Practical, self-directed care. Keep the concrete organizing work and the promise as her decision's basis; do not make her merely an inspirational symbol.",
+      "coverage": "Selected direct speech, chapters 16 and 20.",
+      "profile_status": "selective_text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 16,
+          "p": 592,
+          "quote_ru": "— Лина, — представилась она, когда я спросил, кто тут наводит порядок лучше моего списка. — А это Тимка. Он у меня инженер. Будущий.",
+          "paragraph_sha256": "ebadce6223a98aa0dd2103e5b251403971b2283f6d80f5dbc26c7fb14a2e1cb6"
+        },
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 20,
+          "p": 716,
+          "quote_ru": "— Со мной семь человек, и некоторые сами не дойдут, — сказала она. — Сварщик, две бабушки, слепой Влас. Кто их поведет по нижнему ярусу, если не я? Ты будешь тащить ящик. Джулия — замыкать. Но кому-то надо идти серединой и держать их вместе. Милс и Хино, конечно, ребята крепкие, но они всем не помогут. А я умею держать людей вместе, ты видел. — Она поправила старику лямку. — Я приду со следующей. Я обещала Тимке. Я не нарушаю обещаний детям, контрактник. Это единственная религия, которая у меня осталась.",
+          "paragraph_sha256": "ffd0eed63ed75122355e876806538498f21dac8be1fd63c6855c5ffd8c627dff"
+        }
+      ],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "timka",
+      "source_name": "Тимка",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": "Детская требовательная предметность, перечисление того, что чинил, внезапная смена предмета разговора. Компетентность не превращает его во взрослого афориста.",
+      "uk_voice_target": "Конкретні предмети, дитячий напір і раптові переходи. Не додавати навмисних помилок чи дорослих афоризмів.",
+      "en_voice_target": "A child's insistent practical specificity and abrupt changes of subject. Competence is not adult eloquence; do not invent baby talk.",
+      "coverage": "One direct-speech passage, chapter 16; provisional.",
+      "profile_status": "selective_text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 16,
+          "p": 593,
+          "quote_ru": "— Я уже инженер, — поправил Тимка строго, не отпуская материнского рукава. — Я чиню. Я фильтр чиню, и насос чинил, и дверь в теплице. — И без перехода, тем требовательным тоном, каким дети мгновенно берут взрослого в оборот: — Это твой корабль в лощине? Серый, уродливый? И это правда, что корабль думает?",
+          "paragraph_sha256": "b1cdd05685063c5732beb1b2e9238e52b2ee649bf29b7e8edd106ba1475243a4"
+        }
+      ],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "oren",
+      "source_name": "Орен",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": "Короткая самопрезентация и проверка приоритетов контрактника; ответственность за группу выражена вопросом.",
+      "uk_voice_target": "Пряме запитання й відповідальність за людей. Не додавати регіонального діалекту або зайвого героїчного пафосу.",
+      "en_voice_target": "Direct priority-testing questions grounded in responsibility for the group. No invented regional dialect or extra heroic rhetoric.",
+      "coverage": "One direct-speech passage, chapter 7; provisional.",
+      "profile_status": "selective_text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 7,
+          "p": 313,
+          "quote_ru": "— Орен, — представился он. Руки не подал. — Здесь за старшего, пока есть кем старшинствовать. Вопрос один, контрактник. Ты за нами — или за тем, что Сартен велел отсюда забрать?",
+          "paragraph_sha256": "0b0fefbc03712fbc9e513de30e9f4c7709bc8f6a1cff4a09c5a238b636e0c420"
+        }
+      ],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "sati",
+      "source_name": "Сати",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "ray",
+      "source_name": "Рэй",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": "Наблюдаемый POV-вход задаёт спокойную оценку чужой смерти через точность прогноза. Это характеристика повествования о нём, не доказанный полный профиль его реплик.",
+      "uk_voice_target": "У цьому POV-вході тримати холодну точність, без доданого злорадства. Пряму мову дослідити окремо.",
+      "en_voice_target": "At this POV opening, preserve dispassionate forecasting, not gleeful villainy. Direct speech remains to be profiled separately.",
+      "coverage": "Narrative framing only, chapter 19; direct speech not reviewed.",
+      "profile_status": "selective_text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 19,
+          "p": 675,
+          "quote_ru": "За три перегона от Семари, на станции, у которой не было имени ни в одном официальном реестре, человек по имени Рэй читал чужую смерть, как читают сводку погоды, — без злорадства и без жалости, со спокойным вниманием того, кому важна точность прогноза.",
+          "paragraph_sha256": "f1856781fdb234917e5492fcbc67330953e6a34995c4660692ec9cc8d4284bff"
+        }
+      ],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "delm",
+      "source_name": "Дельм",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": "POV-вход через профессиональное разочарование и материальное сокращение возможностей. Не смешивать с иронией рассказчика Кая.",
+      "uk_voice_target": "Зберігати професійний масштаб уваги й стримане розчарування. Профіль прямих реплік поки не встановлений.",
+      "en_voice_target": "Preserve professional attention to material decline and restrained disillusionment. Do not import Kai's wisecracking voice. Direct speech is not yet established here.",
+      "coverage": "Narrative framing only, chapter 21; direct speech not reviewed.",
+      "profile_status": "selective_text_observation",
+      "anchors": [
+        {
+          "book_id": "book-01",
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "chapter": 21,
+          "p": 728,
+          "quote_ru": "Сторожевой охранный корабль Федерации ИНС-216 «Ревнитель» висел над Семари третьи сутки и откровенно скучал. Капитан второго ранга Дельм командовал им двадцать лет и за эти годы насмотрелся, как Федерация, которой он присягал, мельчает: сперва в бюджетах, потом в людях, а затем — и в самом смысле своего существования. Раньше блокаду карантинного мира держала эскадра. Теперь — он, «Ревнитель» да цепочка автоматических буев, которым все равно, что запирать: чумной мир, рудник или колонию в полсотни душ, признанную нерентабельной кабинетным росчерком.",
+          "paragraph_sha256": "e47bbd24eb1785043cf93f9cd9f60472668291f9c1987b83d27f95f437ffe9ad"
+        }
+      ],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "manos",
+      "source_name": "Манос",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "sarten",
+      "source_name": "Сартен",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "veda",
+      "source_name": "Веда",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "lus",
+      "source_name": "Лус",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "kora",
+      "source_name": "Кора",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "korney",
+      "source_name": "Корней",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "garm",
+      "source_name": "Гарм",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "korvin",
+      "source_name": "Корвин",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "nita",
+      "source_name": "Нита",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "som",
+      "source_name": "Сом",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "drozd",
+      "source_name": "Дрозд",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "tikhon",
+      "source_name": "Тихон",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "yasna",
+      "source_name": "Ясна",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "verin",
+      "source_name": "Верин",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "vedar",
+      "source_name": "Ведар",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "kirva",
+      "source_name": "Кирва",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "khast",
+      "source_name": "Хаст",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "gordey",
+      "source_name": "Гордей",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "kristina",
+      "source_name": "Кристина",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "han",
+      "source_name": "Хан",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "teys",
+      "source_name": "Тейс",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "mira",
+      "source_name": "Мира",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "polya",
+      "source_name": "Поля",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "vlas",
+      "source_name": "Влас",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "mils",
+      "source_name": "Милс",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "khino",
+      "source_name": "Хино",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    },
+    {
+      "id": "vesta",
+      "source_name": "Веста",
+      "status": "proposed",
+      "author_decision": null,
+      "source_observation": null,
+      "uk_voice_target": null,
+      "en_voice_target": null,
+      "coverage": "Name located by glossary; speech and POV not yet profiled.",
+      "profile_status": "not_yet_profiled",
+      "anchors": [],
+      "dependencies": [
+        "Confirm final source per volume",
+        "Chapter-specific relationship and knowledge state",
+        "Author-approved Ukrainian examples"
+      ]
+    }
+  ]
+}

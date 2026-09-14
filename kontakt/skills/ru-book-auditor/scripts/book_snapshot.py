@@ -12,8 +12,8 @@ import zipfile
 
 NS = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
 W = '{' + NS['w'] + '}'
-WORD = re.compile(r'[А-Яа-яЁёA-Za-z0-9]+(?:[-’][А-Яа-яЁёA-Za-z0-9]+)*')
-CHAPTER = r'^(?:#{1,6}\s+)?(?:Глава\s+|ГЛАВА\s+|Пролог\b|Эпилог\b)'
+WORD = re.compile(r"[А-Яа-яЁёІіЇїЄєҐґA-Za-z0-9]+(?:[-’'ʼ][А-Яа-яЁёІіЇїЄєҐґA-Za-z0-9]+)*")
+CHAPTER = r'(?i)^(?:#{1,6}\s+)?(?:Глава\s+|Розділ\s+|Chapter\s+|Пролог\b|Эпилог\b|Епілог\b|Prologue\b|Epilogue\b)'
 
 
 def sha(path):

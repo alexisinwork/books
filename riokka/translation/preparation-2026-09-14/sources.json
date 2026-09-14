@@ -1,0 +1,1808 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "created_at": "2026-09-14T16:28:53+00:00",
+  "status": "preparation_only",
+  "books": [
+    {
+      "book_id": "book-00",
+      "title_ru": "Эсквайр",
+      "book_manifest": {
+        "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-00.json",
+        "sha256": "3db243a6d8e0a3910f00b05462875f90aa2e6c6a576be41e94181b97c1a00098"
+      },
+      "inventory_source": {
+        "path": "riokka/books/book-00/manuscript/master.docx",
+        "sha256": "fa42c7f4560e8a8affc669c8fd5d8d4548842b89981bda7d2ec2e7e6f8e8f42d",
+        "format": "docx",
+        "status": "candidate",
+        "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "pilot_eligible": false,
+      "translation_source_selected": false,
+      "related_versions": [],
+      "extraction_flags": {
+        "tbl": 0,
+        "drawing": 0,
+        "txbxContent": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "excluded_parts": [
+          "word/footer1.xml",
+          "word/footnotes.xml",
+          "word/endnotes.xml",
+          "word/comments.xml"
+        ]
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "heading_p": 5,
+          "title_ru": "Пролог"
+        },
+        {
+          "chapter": 2,
+          "heading_p": 17,
+          "title_ru": "Глава 1. Стрелка"
+        },
+        {
+          "chapter": 3,
+          "heading_p": 72,
+          "title_ru": "Глава 2. Коридор"
+        },
+        {
+          "chapter": 4,
+          "heading_p": 112,
+          "title_ru": "Глава 3. Кто был Кирва"
+        },
+        {
+          "chapter": 5,
+          "heading_p": 151,
+          "title_ru": "Глава 4. Затемно"
+        },
+        {
+          "chapter": 6,
+          "heading_p": 191,
+          "title_ru": "Глава 5. Бар"
+        },
+        {
+          "chapter": 7,
+          "heading_p": 225,
+          "title_ru": "Глава 6. Ведар"
+        },
+        {
+          "chapter": 8,
+          "heading_p": 281,
+          "title_ru": "Глава 7. Свой"
+        },
+        {
+          "chapter": 9,
+          "heading_p": 316,
+          "title_ru": "Глава 8. Все достойны выжить"
+        },
+        {
+          "chapter": 10,
+          "heading_p": 349,
+          "title_ru": "Глава 9. Семари"
+        },
+        {
+          "chapter": 11,
+          "heading_p": 389,
+          "title_ru": "Глава 10. Двуречье"
+        },
+        {
+          "chapter": 12,
+          "heading_p": 419,
+          "title_ru": "Глава 11. Пропуск"
+        },
+        {
+          "chapter": 13,
+          "heading_p": 447,
+          "title_ru": "Глава 12. Гордей"
+        },
+        {
+          "chapter": 14,
+          "heading_p": 477,
+          "title_ru": "Глава 13. Кого я спас"
+        },
+        {
+          "chapter": 15,
+          "heading_p": 510,
+          "title_ru": "Глава 14. Марта"
+        },
+        {
+          "chapter": 16,
+          "heading_p": 551,
+          "title_ru": "Глава 15. Вынос"
+        },
+        {
+          "chapter": 17,
+          "heading_p": 577,
+          "title_ru": "Глава 16. Ради неё"
+        },
+        {
+          "chapter": 18,
+          "heading_p": 612,
+          "title_ru": "Глава 17. Замок"
+        },
+        {
+          "chapter": 19,
+          "heading_p": 650,
+          "title_ru": "Глава 18. Первый последний момент"
+        },
+        {
+          "chapter": 20,
+          "heading_p": 686,
+          "title_ru": "Глава 19. Уже занёс"
+        },
+        {
+          "chapter": 21,
+          "heading_p": 721,
+          "title_ru": "Глава 20. Последняя воля"
+        },
+        {
+          "chapter": 22,
+          "heading_p": 749,
+          "title_ru": "Глава 21. Почти"
+        },
+        {
+          "chapter": 23,
+          "heading_p": 791,
+          "title_ru": "Глава 22. Писарь"
+        },
+        {
+          "chapter": 24,
+          "heading_p": 826,
+          "title_ru": "Глава 23. Кем был Ведар"
+        },
+        {
+          "chapter": 25,
+          "heading_p": 860,
+          "title_ru": "Глава 24. Тот, кто считает"
+        },
+        {
+          "chapter": 26,
+          "heading_p": 895,
+          "title_ru": "Глава 25. Гордеева ложка"
+        },
+        {
+          "chapter": 27,
+          "heading_p": 936,
+          "title_ru": "Глава 26. Та, что сделала всё, что могла"
+        },
+        {
+          "chapter": 28,
+          "heading_p": 981,
+          "title_ru": "Эпилог. Тупик"
+        }
+      ],
+      "chapter_count": 28,
+      "source_units_including_blank": 1000,
+      "nonempty_source_units": 971,
+      "ru_lexical_tokens_body": 47264,
+      "voice_source": {
+        "path": "riokka/books/book-00/voice.json",
+        "sha256": "85ed20c32368af5bef1a3ed35931055ee20a5a94569aecb3c7c43d00688540c9"
+      },
+      "live_book_manifest_at_inventory": {
+        "path": "riokka/books/book-00/book.json",
+        "sha256": "3db243a6d8e0a3910f00b05462875f90aa2e6c6a576be41e94181b97c1a00098"
+      }
+    },
+    {
+      "book_id": "book-01",
+      "title_ru": "Антидот с Семари",
+      "book_manifest": {
+        "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-01.json",
+        "sha256": "4f2b348e8a2916e29166d7d827a6cb6a2a053495bb7b72d004c1ed1b8c31522f"
+      },
+      "inventory_source": {
+        "path": "riokka/books/book-01/manuscript/master.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "format": "docx",
+        "status": "author_selected",
+        "authority": "Автор 13 сентября 2026 года предоставил обновлённый DOCX с исправлениями и прямо поручил внести обязательную точечную корректуру, повторно проверить все 42 главы и обновить мастер.",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "pilot_eligible": true,
+      "translation_source_selected": false,
+      "related_versions": [
+        {
+          "path": "riokka/books/book-01/revisions/2026-09-13-ensemble-r1/revised.docx",
+          "sha256": "bb2b68f7d92d7cb25bd426bc7761d8ee7524e60c3f61e47ba7497c7215cf2116",
+          "role": "working_revision",
+          "declared_sha256": "bb2b68f7d92d7cb25bd426bc7761d8ee7524e60c3f61e47ba7497c7215cf2116",
+          "hash_matches": true,
+          "status": "author_review_candidate",
+          "author_selected": false
+        }
+      ],
+      "extraction_flags": {
+        "tbl": 0,
+        "drawing": 0,
+        "txbxContent": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "excluded_parts": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "heading_p": 5,
+          "title_ru": "Глава первая. Двадцать два чистых"
+        },
+        {
+          "chapter": 2,
+          "heading_p": 117,
+          "title_ru": "Глава вторая. Ноль потерянных"
+        },
+        {
+          "chapter": 3,
+          "heading_p": 176,
+          "title_ru": "Глава третья. За одним столом"
+        },
+        {
+          "chapter": 4,
+          "heading_p": 212,
+          "title_ru": "Глава четвертая. Сухой док"
+        },
+        {
+          "chapter": 5,
+          "heading_p": 244,
+          "title_ru": "Глава пятая. Семь правил"
+        },
+        {
+          "chapter": 6,
+          "heading_p": 264,
+          "title_ru": "Глава шестая. Воздух с налогом"
+        },
+        {
+          "chapter": 7,
+          "heading_p": 304,
+          "title_ru": "Глава седьмая. Тихий Удел"
+        },
+        {
+          "chapter": 8,
+          "heading_p": 344,
+          "title_ru": "Глава восьмая. Та, что стреляет первой"
+        },
+        {
+          "chapter": 9,
+          "heading_p": 372,
+          "title_ru": "Глава девятая. Где тихо покурить"
+        },
+        {
+          "chapter": 10,
+          "heading_p": 399,
+          "title_ru": "Глава десятая. Чистых не бывает"
+        },
+        {
+          "chapter": 11,
+          "heading_p": 422,
+          "title_ru": "Глава одиннадцатая. Вас впустили"
+        },
+        {
+          "chapter": 12,
+          "heading_p": 474,
+          "title_ru": "Глава двенадцатая. Одно ремесло"
+        },
+        {
+          "chapter": 13,
+          "heading_p": 505,
+          "title_ru": "Глава тринадцатая. Чужими руками"
+        },
+        {
+          "chapter": 14,
+          "heading_p": 520,
+          "title_ru": "Глава четырнадцатая. Курс обмена"
+        },
+        {
+          "chapter": 15,
+          "heading_p": 553,
+          "title_ru": "Глава пятнадцатая. Невозможное по расписанию"
+        },
+        {
+          "chapter": 16,
+          "heading_p": 587,
+          "title_ru": "Глава шестнадцатая. Та, кто грузится последней"
+        },
+        {
+          "chapter": 17,
+          "heading_p": 623,
+          "title_ru": "Глава семнадцатая. Тридцать лиц"
+        },
+        {
+          "chapter": 18,
+          "heading_p": 654,
+          "title_ru": "Глава восемнадцатая. Квитанция"
+        },
+        {
+          "chapter": 19,
+          "heading_p": 674,
+          "title_ru": "Глава девятнадцатая. Снести дом"
+        },
+        {
+          "chapter": 20,
+          "heading_p": 693,
+          "title_ru": "Глава двадцатая. Рука сверху"
+        },
+        {
+          "chapter": 21,
+          "heading_p": 727,
+          "title_ru": "Глава двадцать первая. Печать"
+        },
+        {
+          "chapter": 22,
+          "heading_p": 751,
+          "title_ru": "Глава двадцать вторая. Тот, кого я отпустил"
+        },
+        {
+          "chapter": 23,
+          "heading_p": 776,
+          "title_ru": "Глава двадцать третья. Переменчивость судьбы"
+        },
+        {
+          "chapter": 24,
+          "heading_p": 798,
+          "title_ru": "Глава двадцать четвертая. Следующая партия"
+        },
+        {
+          "chapter": 25,
+          "heading_p": 819,
+          "title_ru": "Глава двадцать пятая. Сорок секунд"
+        },
+        {
+          "chapter": 26,
+          "heading_p": 850,
+          "title_ru": "Глава двадцать шестая. Сквозь печать"
+        },
+        {
+          "chapter": 27,
+          "heading_p": 873,
+          "title_ru": "Глава двадцать седьмая. Сорок девять"
+        },
+        {
+          "chapter": 28,
+          "heading_p": 896,
+          "title_ru": "Глава двадцать восьмая. Попутка"
+        },
+        {
+          "chapter": 29,
+          "heading_p": 920,
+          "title_ru": "Глава двадцать девятая. Оставьте ему про искина"
+        },
+        {
+          "chapter": 30,
+          "heading_p": 941,
+          "title_ru": "Глава тридцатая. Те, кого вынесли"
+        },
+        {
+          "chapter": 31,
+          "heading_p": 955,
+          "title_ru": "Глава тридцать первая. Человек чужой графы"
+        },
+        {
+          "chapter": 32,
+          "heading_p": 979,
+          "title_ru": "Глава тридцать вторая. Ночная вахта"
+        },
+        {
+          "chapter": 33,
+          "heading_p": 1008,
+          "title_ru": "Глава тридцать третья. Кумао"
+        },
+        {
+          "chapter": 34,
+          "heading_p": 1031,
+          "title_ru": "Глава тридцать четвертая. Чужая совесть"
+        },
+        {
+          "chapter": 35,
+          "heading_p": 1052,
+          "title_ru": "Глава тридцать пятая. Что прятал Эсквайр"
+        },
+        {
+          "chapter": 36,
+          "heading_p": 1080,
+          "title_ru": "Глава тридцать шестая. Форма без содержания"
+        },
+        {
+          "chapter": 37,
+          "heading_p": 1099,
+          "title_ru": "Глава тридцать седьмая. Садовник"
+        },
+        {
+          "chapter": 38,
+          "heading_p": 1124,
+          "title_ru": "Глава тридцать восьмая. Затишье"
+        },
+        {
+          "chapter": 39,
+          "heading_p": 1147,
+          "title_ru": "Глава тридцать девятая. Не та графа"
+        },
+        {
+          "chapter": 40,
+          "heading_p": 1165,
+          "title_ru": "Глава сороковая. Адресат"
+        },
+        {
+          "chapter": 41,
+          "heading_p": 1190,
+          "title_ru": "Глава сорок первая. Двадцать три"
+        },
+        {
+          "chapter": 42,
+          "heading_p": 1224,
+          "title_ru": "Глава сорок вторая. Хорошая «плохая» земля"
+        }
+      ],
+      "chapter_count": 42,
+      "source_units_including_blank": 1247,
+      "nonempty_source_units": 1195,
+      "ru_lexical_tokens_body": 44696,
+      "voice_source": {
+        "path": "riokka/books/book-01/voice.json",
+        "sha256": "32642a63eb3e779bb73e21785dadad130e8b803bb7240d3a1969cd983eaf8765"
+      },
+      "live_book_manifest_at_inventory": {
+        "path": "riokka/books/book-01/book.json",
+        "sha256": "4f2b348e8a2916e29166d7d827a6cb6a2a053495bb7b72d004c1ed1b8c31522f"
+      }
+    },
+    {
+      "book_id": "book-02",
+      "title_ru": "Прочие убытки",
+      "book_manifest": {
+        "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-02.json",
+        "sha256": "dd6b8cee2b2f76559c7374c81572a6ece88b79b325bd31a243b0b0166359c33e"
+      },
+      "inventory_source": {
+        "path": "riokka/books/book-02/manuscript/master.md",
+        "sha256": "81641a85ee25e78bc1e57348b279e7a88317551b166cfa831f33bd8f99431d32",
+        "format": "text",
+        "status": "candidate",
+        "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "pilot_eligible": false,
+      "translation_source_selected": false,
+      "related_versions": [
+        {
+          "path": "riokka/books/book-02/revisions/2026-09-13-gemini-revisit/revised.md",
+          "sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96",
+          "role": "working_revision",
+          "declared_sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96",
+          "hash_matches": true,
+          "status": "author_followup_for_author_review",
+          "author_selected": false
+        }
+      ],
+      "extraction_flags": {},
+      "chapters": [
+        {
+          "chapter": 1,
+          "heading_p": 3,
+          "title_ru": "## Глава 1. Пересчитывается"
+        },
+        {
+          "chapter": 2,
+          "heading_p": 145,
+          "title_ru": "## Глава 2. Сроки и руки"
+        },
+        {
+          "chapter": 3,
+          "heading_p": 249,
+          "title_ru": "## Глава 3. Глухая метка"
+        },
+        {
+          "chapter": 4,
+          "heading_p": 305,
+          "title_ru": "## Глава 4. Адресат не значится"
+        },
+        {
+          "chapter": 5,
+          "heading_p": 384,
+          "title_ru": "## Глава 5. Те, что растят"
+        },
+        {
+          "chapter": 6,
+          "heading_p": 426,
+          "title_ru": "## Глава 6. Чужая накладная"
+        },
+        {
+          "chapter": 7,
+          "heading_p": 508,
+          "title_ru": "## Глава 7. Чужое имя"
+        },
+        {
+          "chapter": 8,
+          "heading_p": 556,
+          "title_ru": "## Глава 8. Край бумаги"
+        },
+        {
+          "chapter": 9,
+          "heading_p": 619,
+          "title_ru": "## Глава 9. Последняя строка"
+        },
+        {
+          "chapter": 10,
+          "heading_p": 656,
+          "title_ru": "## Глава 10. Велд"
+        },
+        {
+          "chapter": 11,
+          "heading_p": 716,
+          "title_ru": "## Глава 11. Та, что считает первой"
+        },
+        {
+          "chapter": 12,
+          "heading_p": 744,
+          "title_ru": "## Глава 12. Медовый мир наоборот"
+        },
+        {
+          "chapter": 13,
+          "heading_p": 790,
+          "title_ru": "## Глава 13. Поправка ниоткуда"
+        },
+        {
+          "chapter": 14,
+          "heading_p": 822,
+          "title_ru": "## Глава 14. Вор ловит вора"
+        },
+        {
+          "chapter": 15,
+          "heading_p": 860,
+          "title_ru": "## Глава 15. Книга имён"
+        },
+        {
+          "chapter": 16,
+          "heading_p": 946,
+          "title_ru": "## Глава 16. Близко"
+        },
+        {
+          "chapter": 17,
+          "heading_p": 974,
+          "title_ru": "## Глава 17. Что слышит инженер"
+        },
+        {
+          "chapter": 18,
+          "heading_p": 1020,
+          "title_ru": "## Глава 18. Перекличка"
+        },
+        {
+          "chapter": 19,
+          "heading_p": 1110,
+          "title_ru": "## Глава 19. План А"
+        },
+        {
+          "chapter": 20,
+          "heading_p": 1146,
+          "title_ru": "## Глава 20. Вас не звали"
+        },
+        {
+          "chapter": 21,
+          "heading_p": 1184,
+          "title_ru": "## Глава 21. Оказия"
+        },
+        {
+          "chapter": 22,
+          "heading_p": 1216,
+          "title_ru": "## Глава 22. Свернуть"
+        },
+        {
+          "chapter": 23,
+          "heading_p": 1238,
+          "title_ru": "## Глава 23. Расписание"
+        },
+        {
+          "chapter": 24,
+          "heading_p": 1262,
+          "title_ru": "## Глава 24. Выбери"
+        },
+        {
+          "chapter": 25,
+          "heading_p": 1292,
+          "title_ru": "## Глава 25. Цена угла"
+        },
+        {
+          "chapter": 26,
+          "heading_p": 1316,
+          "title_ru": "## Глава 26. Заметает"
+        },
+        {
+          "chapter": 27,
+          "heading_p": 1348,
+          "title_ru": "## Глава 27. Своя рука"
+        },
+        {
+          "chapter": 28,
+          "heading_p": 1386,
+          "title_ru": "## Глава 28. Фальшивый закат"
+        },
+        {
+          "chapter": 29,
+          "heading_p": 1424,
+          "title_ru": "## Глава 29. Брат"
+        },
+        {
+          "chapter": 30,
+          "heading_p": 1452,
+          "title_ru": "## Глава 30. Цена, которую он назовёт"
+        },
+        {
+          "chapter": 31,
+          "heading_p": 1478,
+          "title_ru": "## Глава 31. Трещина"
+        },
+        {
+          "chapter": 32,
+          "heading_p": 1498,
+          "title_ru": "## Глава 32. Ва-банк"
+        },
+        {
+          "chapter": 33,
+          "heading_p": 1524,
+          "title_ru": "## Глава 33. Плохой садовник"
+        },
+        {
+          "chapter": 34,
+          "heading_p": 1556,
+          "title_ru": "## Глава 34. Тот, кто пришёл сам"
+        },
+        {
+          "chapter": 35,
+          "heading_p": 1572,
+          "title_ru": "## Глава 35. Поправка с именем"
+        },
+        {
+          "chapter": 36,
+          "heading_p": 1600,
+          "title_ru": "## Глава 36. Узор"
+        },
+        {
+          "chapter": 37,
+          "heading_p": 1624,
+          "title_ru": "## Глава 37. Одна дверь"
+        },
+        {
+          "chapter": 38,
+          "heading_p": 1648,
+          "title_ru": "## Глава 38. Кем заплатишь"
+        },
+        {
+          "chapter": 39,
+          "heading_p": 1672,
+          "title_ru": "## Глава 39. Соседний буй"
+        },
+        {
+          "chapter": 40,
+          "heading_p": 1738,
+          "title_ru": "## Глава 40. Тот, кто стирает строку"
+        },
+        {
+          "chapter": 41,
+          "heading_p": 1774,
+          "title_ru": "## Глава 41. Поздно"
+        },
+        {
+          "chapter": 42,
+          "heading_p": 1802,
+          "title_ru": "## Глава 42. Хорошая плохая земля"
+        },
+        {
+          "chapter": 43,
+          "heading_p": 1902,
+          "title_ru": "## Глава 43. Сроки кончаются у всех"
+        },
+        {
+          "chapter": 44,
+          "heading_p": 1938,
+          "title_ru": "## Глава 44. Семьдесят"
+        },
+        {
+          "chapter": 45,
+          "heading_p": 1966,
+          "title_ru": "## Глава 45. Недоимка"
+        },
+        {
+          "chapter": 46,
+          "heading_p": 2008,
+          "title_ru": "## Глава 46. Почерк без имени"
+        },
+        {
+          "chapter": 47,
+          "heading_p": 2036,
+          "title_ru": "## Глава 47. Свод"
+        },
+        {
+          "chapter": 48,
+          "heading_p": 2054,
+          "title_ru": "## Глава 48. Прочие убытки"
+        },
+        {
+          "chapter": 49,
+          "heading_p": 2078,
+          "title_ru": "## Глава 49. Добро пожаловать"
+        },
+        {
+          "chapter": 50,
+          "heading_p": 2108,
+          "title_ru": "## Глава 50. Седьмое"
+        },
+        {
+          "chapter": 51,
+          "heading_p": 2126,
+          "title_ru": "## Глава 51. Те, кого ещё можно посадить"
+        }
+      ],
+      "chapter_count": 51,
+      "source_units_including_blank": 2156,
+      "nonempty_source_units": 1083,
+      "ru_lexical_tokens_body": 45082,
+      "voice_source": {
+        "path": "riokka/books/book-02/voice.json",
+        "sha256": "3724e479da57143001b6c69d200e887413dfd24bac836393d65a25ed41b95649"
+      },
+      "live_book_manifest_at_inventory": {
+        "path": "riokka/books/book-02/book.json",
+        "sha256": "dd6b8cee2b2f76559c7374c81572a6ece88b79b325bd31a243b0b0166359c33e"
+      }
+    },
+    {
+      "book_id": "book-03",
+      "title_ru": "Холм Розмари",
+      "book_manifest": {
+        "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-03.json",
+        "sha256": "73e1a2331164162fa51b1eaafe8d6dfea2f2ac266bfdf1957c1c26e6689c3785"
+      },
+      "inventory_source": {
+        "path": "riokka/books/book-03/manuscript/master.md",
+        "sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+        "format": "text",
+        "status": "candidate",
+        "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "pilot_eligible": false,
+      "translation_source_selected": false,
+      "related_versions": [
+        {
+          "path": "riokka/books/book-03/revisions/2026-09-14-ensemble-r1/revised.md",
+          "sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "role": "working_revision",
+          "declared_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "hash_matches": true,
+          "status": "ensemble_revision_for_author_review",
+          "author_selected": false
+        },
+        {
+          "path": "riokka/books/book-03/revisions/2026-09-13-expanded/revised.md",
+          "sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+          "role": "previous_working_revision",
+          "declared_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+          "hash_matches": true,
+          "status": "author_selected_continuation_baseline",
+          "author_selected": true
+        }
+      ],
+      "extraction_flags": {},
+      "chapters": [
+        {
+          "chapter": 1,
+          "heading_p": 5,
+          "title_ru": "## Глава 1. Глухая накладная"
+        },
+        {
+          "chapter": 2,
+          "heading_p": 89,
+          "title_ru": "## Глава 2. Два имени"
+        },
+        {
+          "chapter": 3,
+          "heading_p": 152,
+          "title_ru": "## Глава 3. Куда не выносят"
+        },
+        {
+          "chapter": 4,
+          "heading_p": 204,
+          "title_ru": "## Глава 4. Где нет зазора"
+        },
+        {
+          "chapter": 5,
+          "heading_p": 248,
+          "title_ru": "## Глава 5. Та, что всё по правилам"
+        },
+        {
+          "chapter": 6,
+          "heading_p": 296,
+          "title_ru": "## Глава 6. Наследство"
+        },
+        {
+          "chapter": 7,
+          "heading_p": 328,
+          "title_ru": "## Глава 7. Чужим путём"
+        },
+        {
+          "chapter": 8,
+          "heading_p": 344,
+          "title_ru": "## Глава 8. Дрозд"
+        },
+        {
+          "chapter": 9,
+          "heading_p": 388,
+          "title_ru": "## Глава 9. Без ростка"
+        },
+        {
+          "chapter": 10,
+          "heading_p": 414,
+          "title_ru": "## Глава 10. Соседний буй"
+        },
+        {
+          "chapter": 11,
+          "heading_p": 448,
+          "title_ru": "## Глава 11. [Джулия] Малый замок"
+        },
+        {
+          "chapter": 12,
+          "heading_p": 468,
+          "title_ru": "## Глава 12. Свет глушит"
+        },
+        {
+          "chapter": 13,
+          "heading_p": 506,
+          "title_ru": "## Глава 13. Перепись живых"
+        },
+        {
+          "chapter": 14,
+          "heading_p": 540,
+          "title_ru": "## Глава 14. Накладная на въезд"
+        },
+        {
+          "chapter": 15,
+          "heading_p": 584,
+          "title_ru": "## Глава 15. Лучший человек конторы"
+        },
+        {
+          "chapter": 16,
+          "heading_p": 608,
+          "title_ru": "## Глава 16. Дуэль накладных"
+        },
+        {
+          "chapter": 17,
+          "heading_p": 652,
+          "title_ru": "## Глава 17. Ночь, которая её будит"
+        },
+        {
+          "chapter": 18,
+          "heading_p": 692,
+          "title_ru": "## Глава 18. Исправность как уязвимость"
+        },
+        {
+          "chapter": 19,
+          "heading_p": 724,
+          "title_ru": "## Глава 19. Две двери в одну дату"
+        },
+        {
+          "chapter": 20,
+          "heading_p": 760,
+          "title_ru": "## Глава 20. Чего боится Джулия"
+        },
+        {
+          "chapter": 21,
+          "heading_p": 788,
+          "title_ru": "## Глава 21. Шов"
+        },
+        {
+          "chapter": 22,
+          "heading_p": 814,
+          "title_ru": "## Глава 22. Нужен крупнее буй"
+        },
+        {
+          "chapter": 23,
+          "heading_p": 850,
+          "title_ru": "## Глава 23. Цена Дрозда"
+        },
+        {
+          "chapter": 24,
+          "heading_p": 874,
+          "title_ru": "## Глава 24. Перекличка"
+        },
+        {
+          "chapter": 25,
+          "heading_p": 900,
+          "title_ru": "## Глава 25. План А"
+        },
+        {
+          "chapter": 26,
+          "heading_p": 924,
+          "title_ru": "## Глава 26. Вас не звали"
+        },
+        {
+          "chapter": 27,
+          "heading_p": 958,
+          "title_ru": "## Глава 27. Оказия"
+        },
+        {
+          "chapter": 28,
+          "heading_p": 988,
+          "title_ru": "## Глава 28. Один враг на двоих"
+        },
+        {
+          "chapter": 29,
+          "heading_p": 1024,
+          "title_ru": "## Глава 29. Часы"
+        },
+        {
+          "chapter": 30,
+          "heading_p": 1060,
+          "title_ru": "## Глава 30. По сводке пустой"
+        },
+        {
+          "chapter": 31,
+          "heading_p": 1098,
+          "title_ru": "## Глава 31. Цена угла"
+        },
+        {
+          "chapter": 32,
+          "heading_p": 1124,
+          "title_ru": "## Глава 32. Семьдесят Маноса"
+        },
+        {
+          "chapter": 33,
+          "heading_p": 1148,
+          "title_ru": "## Глава 33. Почерк без имени"
+        },
+        {
+          "chapter": 34,
+          "heading_p": 1178,
+          "title_ru": "## Глава 34. Своя рука"
+        },
+        {
+          "chapter": 35,
+          "heading_p": 1202,
+          "title_ru": "## Глава 35. Ложный свет"
+        },
+        {
+          "chapter": 36,
+          "heading_p": 1222,
+          "title_ru": "## Глава 36. Чинить не то"
+        },
+        {
+          "chapter": 37,
+          "heading_p": 1250,
+          "title_ru": "## Глава 37. Спина к спине"
+        },
+        {
+          "chapter": 38,
+          "heading_p": 1270,
+          "title_ru": "## Глава 38. Первый ярус"
+        },
+        {
+          "chapter": 39,
+          "heading_p": 1290,
+          "title_ru": "## Глава 39. Когда сочтёт опасными"
+        },
+        {
+          "chapter": 40,
+          "heading_p": 1316,
+          "title_ru": "## Глава 40. [Тихон] Сорок лет назад"
+        },
+        {
+          "chapter": 41,
+          "heading_p": 1330,
+          "title_ru": "## Глава 41. Цена, которую назовёт источник"
+        },
+        {
+          "chapter": 42,
+          "heading_p": 1352,
+          "title_ru": "## Глава 42. Чикайоки"
+        },
+        {
+          "chapter": 43,
+          "heading_p": 1376,
+          "title_ru": "## Глава 43. Третья кровь"
+        },
+        {
+          "chapter": 44,
+          "heading_p": 1394,
+          "title_ru": "## Глава 44. Полный допуск"
+        },
+        {
+          "chapter": 45,
+          "heading_p": 1416,
+          "title_ru": "## Глава 45. Плохой садовник в последний раз"
+        },
+        {
+          "chapter": 46,
+          "heading_p": 1444,
+          "title_ru": "## Глава 46. Тот, кого берегли напоследок"
+        },
+        {
+          "chapter": 47,
+          "heading_p": 1464,
+          "title_ru": "## Глава 47. Полуправда"
+        },
+        {
+          "chapter": 48,
+          "heading_p": 1490,
+          "title_ru": "## Глава 48. Узор переворачивает обоих"
+        },
+        {
+          "chapter": 49,
+          "heading_p": 1518,
+          "title_ru": "## Глава 49. Одна дверь"
+        },
+        {
+          "chapter": 50,
+          "heading_p": 1542,
+          "title_ru": "## Глава 50. Кем заплатишь"
+        },
+        {
+          "chapter": 51,
+          "heading_p": 1560,
+          "title_ru": "## Глава 51. Дикая поросль"
+        },
+        {
+          "chapter": 52,
+          "heading_p": 1576,
+          "title_ru": "## Глава 52. Сбой календаря"
+        },
+        {
+          "chapter": 53,
+          "heading_p": 1600,
+          "title_ru": "## Глава 53. Первая поросль"
+        },
+        {
+          "chapter": 54,
+          "heading_p": 1634,
+          "title_ru": "## Глава 54. Что осталось на холме"
+        },
+        {
+          "chapter": 55,
+          "heading_p": 1650,
+          "title_ru": "## Глава 55. Поздно — и не поздно"
+        },
+        {
+          "chapter": 56,
+          "heading_p": 1682,
+          "title_ru": "## Глава 56. С какой стороны границы"
+        },
+        {
+          "chapter": 57,
+          "heading_p": 1706,
+          "title_ru": "## Глава 57. Ложка на столе"
+        },
+        {
+          "chapter": 58,
+          "heading_p": 1732,
+          "title_ru": "## Глава 58. Хорошая плохая земля"
+        },
+        {
+          "chapter": 59,
+          "heading_p": 1748,
+          "title_ru": "## Глава 59. Первое имя"
+        },
+        {
+          "chapter": 60,
+          "heading_p": 1772,
+          "title_ru": "## Глава 60. Свод"
+        }
+      ],
+      "chapter_count": 60,
+      "source_units_including_blank": 1810,
+      "nonempty_source_units": 906,
+      "ru_lexical_tokens_body": 45644,
+      "voice_source": {
+        "path": "riokka/books/book-03/voice.json",
+        "sha256": "e2b8fdee8dc282007c0dacbd141fc31cc198d537d402fb2647b1c4c472d4ffc6"
+      },
+      "live_book_manifest_at_inventory": {
+        "path": "riokka/books/book-03/book.json",
+        "sha256": "73e1a2331164162fa51b1eaafe8d6dfea2f2ac266bfdf1957c1c26e6689c3785"
+      }
+    },
+    {
+      "book_id": "book-04",
+      "title_ru": "Почерк без имени",
+      "book_manifest": {
+        "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-04.json",
+        "sha256": "410d0c927704a73c0283a99c5287c57586780e89e561b7de525866d81c075492"
+      },
+      "inventory_source": {
+        "path": "riokka/books/book-04/manuscript/master.md",
+        "sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553",
+        "format": "text",
+        "status": "candidate",
+        "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "pilot_eligible": false,
+      "translation_source_selected": false,
+      "related_versions": [],
+      "extraction_flags": {},
+      "chapters": [
+        {
+          "chapter": 1,
+          "heading_p": 3,
+          "title_ru": "## Глава 1. Считаю"
+        },
+        {
+          "chapter": 2,
+          "heading_p": 35,
+          "title_ru": "## Глава 2. Узел на троих"
+        },
+        {
+          "chapter": 3,
+          "heading_p": 69,
+          "title_ru": "## Глава 3. Мир, который победил"
+        },
+        {
+          "chapter": 4,
+          "heading_p": 95,
+          "title_ru": "## Глава 4. Всё уже везде"
+        },
+        {
+          "chapter": 5,
+          "heading_p": 157,
+          "title_ru": "## Глава 5. Барыш"
+        },
+        {
+          "chapter": 6,
+          "heading_p": 183,
+          "title_ru": "## Глава 6. Бумагой по бумаге"
+        },
+        {
+          "chapter": 7,
+          "heading_p": 205,
+          "title_ru": "## Глава 7. Чтица"
+        },
+        {
+          "chapter": 8,
+          "heading_p": 223,
+          "title_ru": "## Глава 8. Толмач"
+        },
+        {
+          "chapter": 9,
+          "heading_p": 263,
+          "title_ru": "## Глава 9. Как выгоняют толмача"
+        },
+        {
+          "chapter": 10,
+          "heading_p": 287,
+          "title_ru": "## Глава 10. [Джулия] Книга на семьдесят"
+        },
+        {
+          "chapter": 11,
+          "heading_p": 301,
+          "title_ru": "## Глава 11. Хранилище, где берегут"
+        },
+        {
+          "chapter": 12,
+          "heading_p": 343,
+          "title_ru": "## Глава 12. Старый реестр"
+        },
+        {
+          "chapter": 13,
+          "heading_p": 379,
+          "title_ru": "## Глава 13. Цена сверки"
+        },
+        {
+          "chapter": 14,
+          "heading_p": 399,
+          "title_ru": "## Глава 14. Срок и четвёртое слово"
+        },
+        {
+          "chapter": 15,
+          "heading_p": 447,
+          "title_ru": "## Глава 15. Рэй вверх"
+        },
+        {
+          "chapter": 16,
+          "heading_p": 463,
+          "title_ru": "## Глава 16. [Рэй] Снизу вверх"
+        },
+        {
+          "chapter": 17,
+          "heading_p": 487,
+          "title_ru": "## Глава 17. [Рэй] Кого я узнаю"
+        },
+        {
+          "chapter": 18,
+          "heading_p": 505,
+          "title_ru": "## Глава 18. [Джулия] Полка временная"
+        },
+        {
+          "chapter": 19,
+          "heading_p": 515,
+          "title_ru": "## Глава 19. Курс на Светлояр"
+        },
+        {
+          "chapter": 20,
+          "heading_p": 569,
+          "title_ru": "## Глава 20. Пробный вынос"
+        },
+        {
+          "chapter": 21,
+          "heading_p": 601,
+          "title_ru": "## Глава 21. Он выбрал сад"
+        },
+        {
+          "chapter": 22,
+          "heading_p": 627,
+          "title_ru": "## Глава 22. Покорные"
+        },
+        {
+          "chapter": 23,
+          "heading_p": 655,
+          "title_ru": "## Глава 23. [Архив] Зачем сейф"
+        },
+        {
+          "chapter": 24,
+          "heading_p": 665,
+          "title_ru": "## Глава 24. Чтение вживую"
+        },
+        {
+          "chapter": 25,
+          "heading_p": 689,
+          "title_ru": "## Глава 25. Чистый путь"
+        },
+        {
+          "chapter": 26,
+          "heading_p": 705,
+          "title_ru": "## Глава 26. В худшую дверь"
+        },
+        {
+          "chapter": 27,
+          "heading_p": 731,
+          "title_ru": "## Глава 27. [Тихон] Почерк знакомый"
+        },
+        {
+          "chapter": 28,
+          "heading_p": 741,
+          "title_ru": "## Глава 28. Срок сдвинулся"
+        },
+        {
+          "chapter": 29,
+          "heading_p": 769,
+          "title_ru": "## Глава 29. Вас не звали"
+        },
+        {
+          "chapter": 30,
+          "heading_p": 803,
+          "title_ru": "## Глава 30. Поросль пошла не так"
+        },
+        {
+          "chapter": 31,
+          "heading_p": 837,
+          "title_ru": "## Глава 31. По сводке живой"
+        },
+        {
+          "chapter": 32,
+          "heading_p": 863,
+          "title_ru": "## Глава 32. Считай в лицо"
+        },
+        {
+          "chapter": 33,
+          "heading_p": 893,
+          "title_ru": "## Глава 33. Цена свободы"
+        },
+        {
+          "chapter": 34,
+          "heading_p": 923,
+          "title_ru": "## Глава 34. По их мольбе"
+        },
+        {
+          "chapter": 35,
+          "heading_p": 961,
+          "title_ru": "## Глава 35. Маленькая рука"
+        },
+        {
+          "chapter": 36,
+          "heading_p": 995,
+          "title_ru": "## Глава 36. Снести не могу"
+        },
+        {
+          "chapter": 37,
+          "heading_p": 1019,
+          "title_ru": "## Глава 37. Веста выбирает"
+        },
+        {
+          "chapter": 38,
+          "heading_p": 1041,
+          "title_ru": "## Глава 38. Слишком быстрый"
+        },
+        {
+          "chapter": 39,
+          "heading_p": 1079,
+          "title_ru": "## Глава 39. [Джулия] Одна"
+        },
+        {
+          "chapter": 40,
+          "heading_p": 1091,
+          "title_ru": "## Глава 40. Спина к спине не с кем"
+        },
+        {
+          "chapter": 41,
+          "heading_p": 1115,
+          "title_ru": "## Глава 41. Почерк в накладной"
+        },
+        {
+          "chapter": 42,
+          "heading_p": 1147,
+          "title_ru": "## Глава 42. Что стоит быть посчитанным"
+        },
+        {
+          "chapter": 43,
+          "heading_p": 1171,
+          "title_ru": "## Глава 43. Выдох на плохой земле"
+        },
+        {
+          "chapter": 44,
+          "heading_p": 1197,
+          "title_ru": "## Глава 44. Тимка хочет в тетрадь"
+        },
+        {
+          "chapter": 45,
+          "heading_p": 1235,
+          "title_ru": "## Глава 45. Договор, не штурм"
+        },
+        {
+          "chapter": 46,
+          "heading_p": 1255,
+          "title_ru": "## Глава 46. Внутрь сада"
+        },
+        {
+          "chapter": 47,
+          "heading_p": 1285,
+          "title_ru": "## Глава 47. Чем сад честнее меня"
+        },
+        {
+          "chapter": 48,
+          "heading_p": 1307,
+          "title_ru": "## Глава 48. На её условиях"
+        },
+        {
+          "chapter": 49,
+          "heading_p": 1327,
+          "title_ru": "## Глава 49. [Тихон] Я знал его молодым"
+        },
+        {
+          "chapter": 50,
+          "heading_p": 1351,
+          "title_ru": "## Глава 50. [Тихон] Сорок лет почерка"
+        },
+        {
+          "chapter": 51,
+          "heading_p": 1371,
+          "title_ru": "## Глава 51. Второй знак"
+        },
+        {
+          "chapter": 52,
+          "heading_p": 1385,
+          "title_ru": "## Глава 52. [Джулия] По следу выносившего"
+        },
+        {
+          "chapter": 53,
+          "heading_p": 1401,
+          "title_ru": "## Глава 53. [Джулия] Жив"
+        },
+        {
+          "chapter": 54,
+          "heading_p": 1421,
+          "title_ru": "## Глава 54. То же облегчение"
+        },
+        {
+          "chapter": 55,
+          "heading_p": 1441,
+          "title_ru": "## Глава 55. Кому пишу"
+        },
+        {
+          "chapter": 56,
+          "heading_p": 1467,
+          "title_ru": "## Глава 56. Меньше на одного"
+        },
+        {
+          "chapter": 57,
+          "heading_p": 1493,
+          "title_ru": "## Глава 57. Веда, с открытыми глазами"
+        },
+        {
+          "chapter": 58,
+          "heading_p": 1515,
+          "title_ru": "## Глава 58. Полная ведомость"
+        },
+        {
+          "chapter": 59,
+          "heading_p": 1537,
+          "title_ru": "## Глава 59. Мир, который научился"
+        },
+        {
+          "chapter": 60,
+          "heading_p": 1565,
+          "title_ru": "## Глава 60. Развести две строки"
+        },
+        {
+          "chapter": 61,
+          "heading_p": 1599,
+          "title_ru": "## Глава 61. Туда, где второе имя"
+        },
+        {
+          "chapter": 62,
+          "heading_p": 1623,
+          "title_ru": "# ЭПИЛОГ"
+        },
+        {
+          "chapter": 63,
+          "heading_p": 1625,
+          "title_ru": "## Эпилог I. [Рука] Та, что считает"
+        },
+        {
+          "chapter": 64,
+          "heading_p": 1633,
+          "title_ru": "## Эпилог II. Графа, которая не сходится"
+        },
+        {
+          "chapter": 65,
+          "heading_p": 1641,
+          "title_ru": "## Эпилог III. Трое идут"
+        }
+      ],
+      "chapter_count": 65,
+      "source_units_including_blank": 1651,
+      "nonempty_source_units": 826,
+      "ru_lexical_tokens_body": 46764,
+      "voice_source": {
+        "path": "riokka/books/book-04/voice.json",
+        "sha256": "35ac32517feec50e25543c613d906ba0500e156b6242434c78156cd767876e9b"
+      },
+      "live_book_manifest_at_inventory": {
+        "path": "riokka/books/book-04/book.json",
+        "sha256": "410d0c927704a73c0283a99c5287c57586780e89e561b7de525866d81c075492"
+      }
+    },
+    {
+      "book_id": "book-05",
+      "title_ru": "Тот, кого читают",
+      "book_manifest": {
+        "path": "riokka/translation/preparation-2026-09-14/source-manifests/book-05.json",
+        "sha256": "0f1738fef2bff5250fde49154b7dd1655b3f0dc479664ccdb5d8e597def29c1d"
+      },
+      "inventory_source": {
+        "path": "riokka/books/book-05/manuscript/master.md",
+        "sha256": "07d5cfcb5f9b1e74c139ef00a2bc15b579631cc33cba8c536f2b651325234fda",
+        "format": "text",
+        "status": "candidate",
+        "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "pilot_eligible": false,
+      "translation_source_selected": false,
+      "related_versions": [],
+      "extraction_flags": {},
+      "chapters": [
+        {
+          "chapter": 1,
+          "heading_p": 9,
+          "title_ru": "### Глава 1. Несходящаяся графа"
+        },
+        {
+          "chapter": 2,
+          "heading_p": 89,
+          "title_ru": "### Глава 2. Манос считает корень"
+        },
+        {
+          "chapter": 3,
+          "heading_p": 148,
+          "title_ru": "### Глава 3. Курс на дверь"
+        },
+        {
+          "chapter": 4,
+          "heading_p": 227,
+          "title_ru": "### Глава 4. Команда на одной оси"
+        },
+        {
+          "chapter": 5,
+          "heading_p": 305,
+          "title_ru": "### Глава 5. Рэй снизу"
+        },
+        {
+          "chapter": 6,
+          "heading_p": 359,
+          "title_ru": "### Глава 6. Джулия сбоку"
+        },
+        {
+          "chapter": 7,
+          "heading_p": 431,
+          "title_ru": "### Глава 7. Архив предлагает дорогу"
+        },
+        {
+          "chapter": 8,
+          "heading_p": 482,
+          "title_ru": "### Глава 8. Дорога без мёртвого времени"
+        },
+        {
+          "chapter": 9,
+          "heading_p": 534,
+          "title_ru": "### Глава 9. Фонарь «Ве»"
+        },
+        {
+          "chapter": 10,
+          "heading_p": 574,
+          "title_ru": "### Глава 10. Кого я узнаю"
+        },
+        {
+          "chapter": 11,
+          "heading_p": 608,
+          "title_ru": "### Глава 11. Велд снова на курсе"
+        },
+        {
+          "chapter": 12,
+          "heading_p": 656,
+          "title_ru": "### Глава 12. Кенари: грамматика двери"
+        },
+        {
+          "chapter": 13,
+          "heading_p": 692,
+          "title_ru": "### Глава 13. Одна дверь"
+        },
+        {
+          "chapter": 14,
+          "heading_p": 769,
+          "title_ru": "### Глава 14. План ломается об исправность"
+        },
+        {
+          "chapter": 15,
+          "heading_p": 807,
+          "title_ru": "### Глава 15. Айсберг"
+        },
+        {
+          "chapter": 16,
+          "heading_p": 845,
+          "title_ru": "### Глава 16. Третий идёт"
+        },
+        {
+          "chapter": 17,
+          "heading_p": 881,
+          "title_ru": "### Глава 17. Кай считает команду"
+        },
+        {
+          "chapter": 18,
+          "heading_p": 925,
+          "title_ru": "### Глава 18. Рэй у двери"
+        },
+        {
+          "chapter": 19,
+          "heading_p": 957,
+          "title_ru": "### Глава 19. Архив торгуется"
+        },
+        {
+          "chapter": 20,
+          "heading_p": 1008,
+          "title_ru": "### Глава 20. Угол срезан"
+        },
+        {
+          "chapter": 21,
+          "heading_p": 1040,
+          "title_ru": "### Глава 21. Кровь узнаёт"
+        },
+        {
+          "chapter": 22,
+          "heading_p": 1070,
+          "title_ru": "### Глава 22. Ты заговорил, как она"
+        },
+        {
+          "chapter": 23,
+          "heading_p": 1106,
+          "title_ru": "### Глава 23. Кофе в долг"
+        },
+        {
+          "chapter": 24,
+          "heading_p": 1144,
+          "title_ru": "### Глава 24. Цена скорости"
+        },
+        {
+          "chapter": 25,
+          "heading_p": 1186,
+          "title_ru": "### Глава 25. Архив раскрывает половину"
+        },
+        {
+          "chapter": 26,
+          "heading_p": 1218,
+          "title_ru": "### Глава 26. «Ве» на двери"
+        },
+        {
+          "chapter": 27,
+          "heading_p": 1262,
+          "title_ru": "### Глава 27. Порог"
+        },
+        {
+          "chapter": 28,
+          "heading_p": 1298,
+          "title_ru": "### Глава 28. Внутри графы"
+        },
+        {
+          "chapter": 29,
+          "heading_p": 1336,
+          "title_ru": "### Глава 29. Часы"
+        },
+        {
+          "chapter": 30,
+          "heading_p": 1393,
+          "title_ru": "### Глава 30. Светлояр"
+        },
+        {
+          "chapter": 31,
+          "heading_p": 1417,
+          "title_ru": "### Глава 31. Книга, что спасла никого"
+        },
+        {
+          "chapter": 32,
+          "heading_p": 1449,
+          "title_ru": "### Глава 32. С открытыми глазами"
+        },
+        {
+          "chapter": 33,
+          "heading_p": 1477,
+          "title_ru": "### Глава 33. Тихон у замка"
+        },
+        {
+          "chapter": 34,
+          "heading_p": 1511,
+          "title_ru": "### Глава 34. Назвать, не считать"
+        },
+        {
+          "chapter": 35,
+          "heading_p": 1541,
+          "title_ru": "### Глава 35. Тот, из кого вышел"
+        },
+        {
+          "chapter": 36,
+          "heading_p": 1569,
+          "title_ru": "### Глава 36. Рэй на третьей букве"
+        },
+        {
+          "chapter": 37,
+          "heading_p": 1597,
+          "title_ru": "### Глава 37. По следу Верина"
+        },
+        {
+          "chapter": 38,
+          "heading_p": 1629,
+          "title_ru": "### Глава 38. Тихон договаривает"
+        },
+        {
+          "chapter": 39,
+          "heading_p": 1653,
+          "title_ru": "### Глава 39. Третья буква"
+        },
+        {
+          "chapter": 40,
+          "heading_p": 1693,
+          "title_ru": "### Глава 40. Ведар"
+        },
+        {
+          "chapter": 41,
+          "heading_p": 1727,
+          "title_ru": "### Глава 41. Кем я иду"
+        },
+        {
+          "chapter": 42,
+          "heading_p": 1770,
+          "title_ru": "### Глава 42. Коридор"
+        },
+        {
+          "chapter": 43,
+          "heading_p": 1822,
+          "title_ru": "### Глава 43. Последний замок"
+        },
+        {
+          "chapter": 44,
+          "heading_p": 1844,
+          "title_ru": "### Глава 44. Тот, кто вынес"
+        },
+        {
+          "chapter": 45,
+          "heading_p": 1870,
+          "title_ru": "### Глава 45. Ведар"
+        },
+        {
+          "chapter": 46,
+          "heading_p": 1900,
+          "title_ru": "### Глава 46. Рэй тянется снести"
+        },
+        {
+          "chapter": 47,
+          "heading_p": 1926,
+          "title_ru": "### Глава 47. Имя"
+        },
+        {
+          "chapter": 48,
+          "heading_p": 1960,
+          "title_ru": "### Глава 48. Я не графа"
+        },
+        {
+          "chapter": 49,
+          "heading_p": 1986,
+          "title_ru": "### Глава 49. Не сносить"
+        },
+        {
+          "chapter": 50,
+          "heading_p": 2010,
+          "title_ru": "### Глава 50. Графа, которая не сходится"
+        },
+        {
+          "chapter": 51,
+          "heading_p": 2032,
+          "title_ru": "### Глава 51. Почерк"
+        },
+        {
+          "chapter": 52,
+          "heading_p": 2060,
+          "title_ru": "### Глава 52. Что бывает, когда называют"
+        },
+        {
+          "chapter": 53,
+          "heading_p": 2084,
+          "title_ru": "### Глава 53. Цена"
+        },
+        {
+          "chapter": 54,
+          "heading_p": 2108,
+          "title_ru": "### Глава 54. Что осталось"
+        },
+        {
+          "chapter": 55,
+          "heading_p": 2138,
+          "title_ru": "### Глава 55. Седьмое правило"
+        },
+        {
+          "chapter": 56,
+          "heading_p": 2180,
+          "title_ru": "### Эпилог I. Графа сошлась"
+        },
+        {
+          "chapter": 57,
+          "heading_p": 2202,
+          "title_ru": "### Эпилог II. Ложка"
+        },
+        {
+          "chapter": 58,
+          "heading_p": 2220,
+          "title_ru": "### Эпилог III. Граница"
+        },
+        {
+          "chapter": 59,
+          "heading_p": 2238,
+          "title_ru": "### Эпилог IV. Источник"
+        },
+        {
+          "chapter": 60,
+          "heading_p": 2254,
+          "title_ru": "### Эпилог V. Книга без граф"
+        }
+      ],
+      "chapter_count": 60,
+      "source_units_including_blank": 2288,
+      "nonempty_source_units": 1175,
+      "ru_lexical_tokens_body": 44941,
+      "voice_source": {
+        "path": "riokka/books/book-05/voice.json",
+        "sha256": "f82298db3ed0793f704953ffc1c878b6a885caa492c7e4922222aef6152c9a6e"
+      },
+      "live_book_manifest_at_inventory": {
+        "path": "riokka/books/book-05/book.json",
+        "sha256": "0f1738fef2bff5250fde49154b7dd1655b3f0dc479664ccdb5d8e597def29c1d"
+      }
+    }
+  ],
+  "coverage": "Mechanical inventory of all registered masters; no full literary reading. Markdown source units are physical lines, DOCX units are body paragraphs. Chapter numbers are ordinal positions, not parsed display labels.",
+  "word_count_method": "Regex lexical tokens, including digits; estimates, not linguistic word counts."
+}

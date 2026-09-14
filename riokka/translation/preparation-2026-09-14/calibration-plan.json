@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "status": "prepared_not_executed",
+  "route": "ru-uk",
+  "source": {
+    "path": "riokka/books/book-01/manuscript/master.docx",
+    "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+    "format": "docx",
+    "status": "author_selected",
+    "authority": "Автор 13 сентября 2026 года предоставил обновлённый DOCX с исправлениями и прямо поручил внести обязательную точечную корректуру, повторно проверить все 42 главы и обновить мастер.",
+    "role": "master_inventory",
+    "language": "ru"
+  },
+  "source_status": "author_selected_master_basis; confirm if a later author-approved revision supersedes it",
+  "same_prompt": "BOOK_SYSTEM/ADAPTATION/prompts/adapter.md",
+  "evaluation": "BOOK_SYSTEM/ADAPTATION/prompts/calibration.md",
+  "candidates": [
+    "Sol",
+    "Claude Opus"
+  ],
+  "primary_adapter": null,
+  "judge": "Astra using anonymized A/B; author makes final choice",
+  "samples": [
+    {
+      "id": "dialogue-humour-action",
+      "chapter": 1,
+      "p_start": 5,
+      "p_end": 116,
+      "source_lexical_tokens": 2444,
+      "reason": "Whole first chapter preserves risk setup, dialogue and payoff; longer than the 1200-word orientation to avoid arbitrary cuts.",
+      "status": "proposed_range"
+    },
+    {
+      "id": "recollection-inner-conflict",
+      "chapter": 3,
+      "p_start": 176,
+      "p_end": 211,
+      "source_lexical_tokens": 1580,
+      "reason": "Whole chapter retains dialogue framing and inner moral conflict; no page cut.",
+      "status": "proposed_range"
+    }
+  ],
+  "rubric": {
+    "blocking": [
+      "Loss or addition of facts",
+      "Resolved ambiguity",
+      "Clue or callback damaged",
+      "Voice/relationship changed"
+    ],
+    "comparative": [
+      "Natural Ukrainian",
+      "Narrative rhythm",
+      "Distinct dialogue",
+      "Dry humour",
+      "Emotional restraint"
+    ],
+    "no_consensus_promotion": true
+  },
+  "author_gold_status": "awaiting_actual_source_AI_author_triplets",
+  "models_called": [],
+  "translated_samples": []
+}
