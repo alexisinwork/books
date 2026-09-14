@@ -4,7 +4,7 @@
   "book_id": "book-03",
   "title": "Холм Розмари",
   "book_type": "fiction",
-  "stage": "manuscript_received",
+  "stage": "proofreading_ready",
   "master": {
     "path": "manuscript/master.md",
     "format": "text",
@@ -14,6 +14,22 @@
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "inventory_only",
-  "original": "../../sources/originals/КОНТРАКТНИК-3-Холм-Розмари.md"
+  "audit_status": "editorial_revision_reviewed_with_stated_limits",
+  "original": "../../sources/originals/КОНТРАКТНИК-3-Холм-Розмари.md",
+  "working_revision": {
+    "path": "revisions/2026-09-13-expanded/revised.md",
+    "format": "text",
+    "sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+    "source_sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+    "status": "editorial_revision_for_author_review",
+    "author_selected": false,
+    "continuity": "revisions/2026-09-13-expanded/continuity",
+    "change_log": "revisions/2026-09-13-expanded/БЫЛО-СТАЛО.md",
+    "audit": "revisions/2026-09-13-expanded/audit/REPORT.md",
+    "printed_chars_with_spaces": 440324,
+    "author_sheets": 11.0081,
+    "reader_docx": "revisions/2026-09-13-expanded/Риокка — Книга 3 — Холм Розмари — редакция для вычитки.docx",
+    "release_manifest": "revisions/2026-09-13-expanded/release.json",
+    "cross_volume_review": "revisions/2026-09-13-expanded/audit/TRANSITION-BOOK-4.md"
+  }
 }

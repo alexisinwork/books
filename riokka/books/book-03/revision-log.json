@@ -13,5 +13,34 @@
     "affected_checks",
     "decision"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "B03-EXPANDED-2026-09-13",
+      "reason": "Порученная перепись до 11–12 авторских листов; продолжение прерванной вычитки и сборка полного тома.",
+      "old_source": {
+        "path": "manuscript/master.md",
+        "sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d"
+      },
+      "new_source": {
+        "path": "revisions/2026-09-13-expanded/revised.md",
+        "sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd"
+      },
+      "changes": "revisions/2026-09-13-expanded/changes.json",
+      "exact_diff": "revisions/2026-09-13-expanded/changes.diff",
+      "continuity": "revisions/2026-09-13-expanded/continuity",
+      "decision": "applied_separate_editorial_revision",
+      "affected_checks": [
+        "prose",
+        "continuity",
+        "transition",
+        "snapshot",
+        "DOCX extraction",
+        "render"
+      ],
+      "untouched_dependencies": {
+        "master_and_series_canon": "Автор не назначал новую редакцию окончательным мастером.",
+        "book-04_manuscript": "Зависимости внесены в очередь следующего тома."
+      }
+    }
+  ]
 }

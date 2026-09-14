@@ -1,0 +1,62 @@
+{
+  "source": "revised.md",
+  "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+  "status": "editorial_revision_for_author_review",
+  "docx": "Риокка — Книга 3 — Холм Розмари — редакция для вычитки.docx",
+  "docx_sha256": "af9a8df911bac847f5265a552c0cb675894a4319aa45ba0b7d0f4c28532cc2d2",
+  "pdf": "audit/render/Риокка — Книга 3 — Холм Розмари — редакция для вычитки.pdf",
+  "pdf_sha256": "b2e48bf6667693ed0cb2a62e3baf2386279914123bce606eaafac6b25a8d3997",
+  "chapters": 60,
+  "pages": 217,
+  "reader_text": "derived/reader.txt",
+  "verification": "audit/render/verification.json",
+  "desktop_delivery": {
+    "status": "copied_and_hash_verified",
+    "folder": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — вычитка и сверка 2026-09-14",
+    "docx": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — Холм Розмари — редакция для вычитки.docx",
+    "questions": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — вопросы после вычитки.md",
+    "comparison": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — Орен и стык с томом 4.md",
+    "package_files_verified": 146,
+    "copies": [
+      {
+        "path": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — Холм Розмари — редакция для вычитки.docx",
+        "source": "Риокка — Книга 3 — Холм Розмари — редакция для вычитки.docx",
+        "sha256": "af9a8df911bac847f5265a552c0cb675894a4319aa45ba0b7d0f4c28532cc2d2"
+      },
+      {
+        "path": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — вопросы после вычитки.md",
+        "source": "ВОПРОСЫ-К-АВТОРУ.md",
+        "sha256": "99bcde4f7a506a970fbf24b8af28c849deb87ed8ca628b9b6e05f3476edac6a5"
+      },
+      {
+        "path": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — Орен и стык с томом 4.md",
+        "source": "audit/TRANSITION-BOOK-4.md",
+        "sha256": "874c426b4174c89e109bd00200fea0b934e0688141435741266653a41fabee36"
+      }
+    ],
+    "note": "Копия для чтения и ответа; авторские изменения импортировать явно. Полные относительные ссылки доступны внутри папки комплекта."
+  },
+  "github_delivery": {
+    "status": "prepared",
+    "repository": "https://github.com/alexisinwork/books",
+    "branch": "riokka-book-03-complete-2026-09-14"
+  },
+  "date": "2026-09-14",
+  "printed_chars_with_spaces": 440324,
+  "author_sheets": 11.0081,
+  "checks_done": [
+    "cumulative chapter editorial review 1–60",
+    "continuity synchronization and exact anchors",
+    "DOCX extraction exact",
+    "PDF extraction exact ignoring layout whitespace",
+    "217-page visual overview and 8 enlarged samples"
+  ],
+  "remaining_decisions": [
+    "Авторская вычитка и выбор основной версии.",
+    "B34-01…06 — согласование тома 4.",
+    "B03-OPEN-STORY-FACTS — сюжетные неизвестные серии."
+  ],
+  "ensemble_status": "ready_to_submit; independent_run_not_started",
+  "technical_verification": "audit/technical-verification.json",
+  "cross_volume_review": "audit/TRANSITION-BOOK-4.md"
+}

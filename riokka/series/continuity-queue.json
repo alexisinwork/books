@@ -60,11 +60,39 @@
     },
     {
       "id": "BOOK03-RUKA-HINTS",
-      "status": "author_confirmed_future_revision",
+      "status": "applied_in_editorial_revision",
       "book_id": "book-03",
       "task": "Дать в книге 3 чёткие намёки на личность Руки и возможного второго мастера, сохраняя тайну и порядок знаний персонажей до показанного получения сведений.",
       "authority": "Ответ автора A на вопрос 8 к книге 2, 2026-09-13",
-      "source_checked_sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d"
+      "source_checked_sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+      "resolution_status": "resolved",
+      "resolved_in_revision": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+      "verification": "Книга 3, главы 56–60: прежний контакт, внешний учитель и архивная буква В. получены в тексте; имя Руки не установлено. Не продвижение редакции в окончательный канон."
+    },
+    {
+      "id": "BOOK03-EXPANDED-HANDOFF",
+      "book_id": "book-03",
+      "status": "editorial_revision_for_author_review",
+      "resolution_status": "unresolved",
+      "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+      "task": "Сверка 3→4 выполнена; сохранить смерть Орена. Согласовать шесть групп выявленных расхождений при редактуре 4.",
+      "issue_ids": [
+        "B03-TO-B04",
+        "B03-OPEN-STORY-FACTS",
+        "B34-01",
+        "B34-02",
+        "B34-03",
+        "B34-04",
+        "B34-05",
+        "B34-06"
+      ],
+      "end_state": "../books/book-03/revisions/2026-09-13-expanded/continuity/end-state.json",
+      "dependencies": [
+        "book-04",
+        "book-05"
+      ],
+      "comparison": "../books/book-03/revisions/2026-09-13-expanded/audit/TRANSITION-BOOK-4.md",
+      "compared_book4_sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553"
     }
   ]
 }

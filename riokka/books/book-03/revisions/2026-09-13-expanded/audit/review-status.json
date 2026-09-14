@@ -1,0 +1,31 @@
+{
+  "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+  "file": "revised.md",
+  "result": "editorial_review_completed_with_stated_limits",
+  "status": "for_author_proofreading",
+  "coverage": {
+    "chapter_review": "60/60 cumulative",
+    "inherited_full_chapter_reading": "1–48, recorded in reading-notes.md before continuation",
+    "current_full_chapter_reading": "49–60",
+    "current_delta_reading": "all saved corrections to 1–48 against pre-audit.md",
+    "whole_book_structural_pass": "all 60 scene states; causal and temporal chains; targeted confirming text"
+  },
+  "limits": [
+    "Не независимая бета и не новый ансамблевый аудит.",
+    "Не повторное сплошное чтение всех трёх романов в этой сессии.",
+    "Аудиопрослушивание не выполнялось.",
+    "Четвёртая книга требует отдельной адаптации входа."
+  ],
+  "documents": [
+    "audit/reading-notes.md",
+    "audit/continuation-review.md",
+    "audit/REPORT.md",
+    "audit/TRANSITION-BOOK-4.md"
+  ],
+  "render_status": "see audit/render/verification.json",
+  "cross_volume_review": {
+    "book4_sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553",
+    "result": "six_unresolved_groups; Oren consistent",
+    "report": "audit/TRANSITION-BOOK-4.md"
+  }
+}

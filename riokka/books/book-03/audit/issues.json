@@ -17,5 +17,132 @@
     "verification",
     "decision"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "B03-DRAFT-CONTINUITY",
+      "status": "applied",
+      "resolution_status": "resolved",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "observation": "Черновик третьего тома расходится с готовыми томами по длительности плена Орена, границам знания о 109, роли Дельма, входу в Кенари, передаче ложки и составу книги погибших. В кульминации требуется проверяемый физический механизм вместо буквальной победы метафоры над оборудованием.",
+      "source_sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+      "anchors": [
+        {
+          "chapter": 1,
+          "quote": "КОНТРАКТ ЗАКРЫТ. ДОСТАВЛЕНО: 1 из 1."
+        },
+        {
+          "chapter": 15,
+          "quote": "Дельм сидел за чистым столом — чище я не видел столов — и стирал миры."
+        },
+        {
+          "chapter": 41,
+          "quote": "Тот, кого Рэй три года держал"
+        },
+        {
+          "chapter": 59,
+          "quote": "Я вписал. «Лесь. Буй (без номера). Прошёл в его минуту — я»."
+        }
+      ],
+      "dependencies": [
+        "chapters 1-60",
+        "working_revision",
+        "book-04 entry-state"
+      ],
+      "decision": "Исправить отдельную редакцию третьего тома по текущему поручению; готовые тома 1–2 не ретконировать.",
+      "verification": {
+        "file": "revisions/2026-09-13-expanded/revised.md",
+        "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+        "scope": "Отдельная редакция 1–60; исходный кандидат сохранён без правки",
+        "result": "passed_with_reported_scope",
+        "report": "revisions/2026-09-13-expanded/audit/REPORT.md",
+        "remaining_questions": [
+          "Адаптация входа книги 4 — отдельная будущая задача."
+        ]
+      },
+      "resolved_in_revision": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd"
+    },
+    {
+      "id": "B03-TO-B04",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "severity": "major",
+      "certainty": "confirmed_cross_volume_conflicts",
+      "observation": "Сверка выполнена: смерть Орена совместима; шесть групп расхождений по материалу, именам, знаниям Джулии, сведениям Тихона и Рэя, источнику инициала и календарю остаются в томе 4.",
+      "dependencies": [
+        "book-04 entry",
+        "book-04 knowledge",
+        "book-04 names",
+        "book-04 material"
+      ],
+      "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+          "chapter": 60,
+          "p": 7563,
+          "quote": "## Глава 60. Свод",
+          "verification_status": "exact_match"
+        }
+      ],
+      "verification": {
+        "result": "failed_compatibility",
+        "scope": "Конец новой редакции 3; подтверждение смерти в старом 3; поиск по полному 4 и чтение всех 11 фрагментов с именем Орена (14 словоупотреблений); целевое чтение входа, знаний, календаря и поздних сводок 4. По 5 — поиск имени. Не сплошной независимый аудит 4–5.",
+        "report": "revisions/2026-09-13-expanded/audit/TRANSITION-BOOK-4.md",
+        "compared_book4_sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553",
+        "remaining_questions": [
+          "B34-01",
+          "B34-02",
+          "B34-03",
+          "B34-04",
+          "B34-05",
+          "B34-06"
+        ]
+      }
+    },
+    {
+      "id": "B03-OPEN-STORY-FACTS",
+      "status": "proposed",
+      "resolution_status": "unresolved",
+      "severity": "informational",
+      "certainty": "intentional_open_plot",
+      "observation": "Полная личность Руки, текущий адрес Эсквайра, судьбы Ильса и работника из угрозы Орену, место передачи Данека не установлены. Это открытые линии серии, не факты для молчаливого достраивания.",
+      "dependencies": [
+        "chapters 56–60",
+        "book-04",
+        "book-05"
+      ],
+      "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+          "chapter": 60,
+          "p": 7767,
+          "quote": "У меня оставались запросы о ста восьми именах. Дело Леся и адрес, по которому его сестра могла ответить, если захочет. Данекова последняя передача. Ильс, которого Тихон когда-то попросил подождать. Безымянный работник из чужой угрозы. Не все эти дела требовали одного рейса, но ни одно не должно было исчезнуть, когда появится удобный новый заказ.",
+          "verification_status": "exact_match"
+        }
+      ],
+      "verification": {
+        "file": "revisions/2026-09-13-expanded/revised.md",
+        "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+        "scope": "Границы знания в 56–60",
+        "result": "passed",
+        "remaining_questions": [
+          "Сохранённые сюжетные неизвестные."
+        ]
+      }
+    }
+  ],
+  "working_revision_audit": {
+    "path": "revisions/2026-09-13-expanded/audit/REPORT.md",
+    "status": "editorial_review_completed",
+    "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+    "open_issue_ids": [
+      "B03-TO-B04",
+      "B03-OPEN-STORY-FACTS"
+    ],
+    "blocking_current_volume_issues": []
+  }
 }

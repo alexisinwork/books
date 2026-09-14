@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "delivery": "versioned_github_workspace",
   "github": {
     "created": true,
@@ -42,7 +42,7 @@
     "windows_desktop_synced": true
   },
   "coverage": {
-    "riokka": "Six novels, stories and working system. Book 1 has its separately recorded final audit; Book 2 has a complete 51-chapter editorial revision and transition check against the author-selected Book 1. Other novels retain inventory and selected continuity analysis.",
+    "riokka": "Six novels, stories and working system. Book 1 has its separately recorded final audit; Book 2 has a complete 51-chapter editorial revision and transition check against the author-selected Book 1. Other novels retain inventory and selected continuity analysis. Book 3: 60-chapter editorial revision completed, 217-page DOCX checked, targeted Book 4 transition review recorded; six unresolved groups remain in Book 4.",
     "buro": "Three novels copied exactly from omnibus; selected semantic analysis.",
     "kontakt": "Seven book outlines and series materials; no complete manuscripts supplied.",
     "default": "Copyable writing system, scripts, templates and skills."
@@ -73,5 +73,31 @@
     "docx_template": "riokka/books/book-01/manuscript/master.docx",
     "docx_validation": "2507 paragraphs; 51 chapter headings; exact text extraction; 353 rendered pages; no blank or out-of-page text",
     "windows_desktop_synced": true
+  },
+  "book_3": {
+    "revision": "riokka/books/book-03/revisions/2026-09-13-expanded/revised.md",
+    "revision_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+    "status": "editorial_revision_for_author_review",
+    "chapters": 60,
+    "printed_chars_with_spaces": 440324,
+    "author_sheets": 11.0081,
+    "docx": "Риокка — Книга 3 — Холм Розмари — редакция для вычитки.docx",
+    "docx_sha256": "af9a8df911bac847f5265a552c0cb675894a4319aa45ba0b7d0f4c28532cc2d2",
+    "pages": 217,
+    "promoted_to_author_final": false,
+    "windows_desktop_synced": true,
+    "windows_desktop_docx": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — Холм Розмари — редакция для вычитки.docx",
+    "release_manifest": "riokka/books/book-03/revisions/2026-09-13-expanded/release.json",
+    "transition_report": "riokka/books/book-03/revisions/2026-09-13-expanded/audit/TRANSITION-BOOK-4.md",
+    "oren": "death_consistent_with_book4",
+    "open_issue_ids": [
+      "B34-01",
+      "B34-02",
+      "B34-03",
+      "B34-04",
+      "B34-05",
+      "B34-06"
+    ],
+    "github_branch": "riokka-book-03-complete-2026-09-14"
   }
 }

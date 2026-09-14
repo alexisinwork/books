@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-14",
+  "file": "revised.md",
+  "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+  "result": "passed",
+  "scope": "Сборка, история правок, точные якоря, производные файлы, извлечение и целостность. Не оценка литературного качества.",
+  "chapters": 60,
+  "printed_chars_with_spaces": 440324,
+  "author_sheets": 11.0081,
+  "exact_anchors_checked": 437,
+  "continued_changes_replayed": 32,
+  "json_files_parsed": 46,
+  "docx_paragraphs_exact": 3910,
+  "pdf_pages": 217,
+  "original_preserved": true,
+  "archive_preserved": true,
+  "derived_texts_exact": true,
+  "cross_volume_result": "Oren consistent; six unresolved groups in Book 4",
+  "prose_review": "audit/REPORT.md; cumulative 1–60, stated limits",
+  "commands": [
+    {
+      "command": "python3 tools/studio.py doctor",
+      "cwd": "riokka",
+      "file": "audit/doctor.json",
+      "result": "passed",
+      "warnings": [
+        "book-00: voice is a proposal",
+        "book-00: source not confirmed final by author",
+        "book-01: voice is a proposal",
+        "book-02: voice is a proposal",
+        "book-02: source not confirmed final by author",
+        "book-03: voice is a proposal",
+        "book-03: source not confirmed final by author",
+        "book-04: voice is a proposal",
+        "book-04: source not confirmed final by author",
+        "book-05: voice is a proposal",
+        "book-05: source not confirmed final by author"
+      ]
+    },
+    {
+      "command": "python3 tools/verify_sources.py",
+      "cwd": "riokka",
+      "file": "audit/sources.json",
+      "result": "passed",
+      "warnings": []
+    }
+  ],
+  "remaining_questions": [
+    "B34-01…06: согласование с томом 4.",
+    "B03-OPEN-STORY-FACTS: открытые сюжетные факты.",
+    "Авторская вычитка; новый независимый ансамбль не проводился."
+  ]
+}
