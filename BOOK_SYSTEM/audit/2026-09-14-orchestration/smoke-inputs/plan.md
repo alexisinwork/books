@@ -1,0 +1,1 @@
+Create a very short complete scene plan in Ukrainian using only the embedded facts: three beats, a restrained voice, one brief spoken line to herself. Do not add a mystery, backstory, extra person, or new event. This is a synthetic technical exercise. Return only the plan, 60–100 words. No tools.

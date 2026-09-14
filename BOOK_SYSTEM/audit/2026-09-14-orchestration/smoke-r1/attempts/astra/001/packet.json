@@ -1,0 +1,22 @@
+{
+  "inputs": [
+    {
+      "label": "TARGET",
+      "kind": "target",
+      "sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+      "file": "attempts/draft/001/client/response.txt",
+      "from_job": "draft"
+    },
+    {
+      "label": "FACTS",
+      "kind": "source",
+      "sha256": "670278f97d7f7ddd8b1be027a19a8b5e3792666c71bd38178de8a21813adaabf",
+      "file": "inputs/astra/02.txt",
+      "from_job": null
+    }
+  ],
+  "prompt_sha256": "90c259e4ef703647ac85e6adeae9963fd39359d05cd00ce9371b0cc4cb99d22c",
+  "expected_target_sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+  "target_units": 3,
+  "coverage_unit": "nonempty target lines; full literary reading is separately validated"
+}

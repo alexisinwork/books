@@ -1,5 +1,5 @@
 {
-  "count_excluding_this_index": 3043,
+  "count_excluding_this_index": 3190,
   "scope": "Git-index delivery snapshot. Sizes describe committed/staged bytes; unrelated working-tree edits and untracked files are intentionally excluded. Regenerate after selecting a delivery, not by adding all dirty work.",
   "files": [
     {
@@ -84,7 +84,7 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 10599
+      "bytes": 11123
     },
     {
       "path": "BOOK_SYSTEM/ADAPTATION/SCHEMA.md",
@@ -92,7 +92,7 @@
     },
     {
       "path": "BOOK_SYSTEM/ADAPTATION/WORKFLOW.md",
-      "bytes": 8723
+      "bytes": 9056
     },
     {
       "path": "BOOK_SYSTEM/ADAPTATION/prompts/adapter.md",
@@ -195,16 +195,20 @@
       "bytes": 6485
     },
     {
+      "path": "BOOK_SYSTEM/ORCHESTRATION.md",
+      "bytes": 32830
+    },
+    {
       "path": "BOOK_SYSTEM/README.md",
-      "bytes": 4757
+      "bytes": 5359
     },
     {
       "path": "BOOK_SYSTEM/REVIEW.md",
-      "bytes": 4341
+      "bytes": 7641
     },
     {
       "path": "BOOK_SYSTEM/TOOLS.md",
-      "bytes": 9154
+      "bytes": 14584
     },
     {
       "path": "BOOK_SYSTEM/VERSIONS.md",
@@ -212,7 +216,575 @@
     },
     {
       "path": "BOOK_SYSTEM/WRITING.md",
-      "bytes": 5694
+      "bytes": 5990
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/.gitattributes",
+      "bytes": 75
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/REPORT.md",
+      "bytes": 10191
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/astra-r1-assessment.json",
+      "bytes": 789
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/astra-r2-assessment.json",
+      "bytes": 854
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/client-availability.json",
+      "bytes": 1079
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/draft-assessment.json",
+      "bytes": 729
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/gemini_flash-r1-assessment.json",
+      "bytes": 806
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/gemini_flash-r2-assessment.json",
+      "bytes": 842
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/gemini_pro-r1-assessment.json",
+      "bytes": 878
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/gemini_pro-r2-assessment.json",
+      "bytes": 939
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/opus-r2-assessment.json",
+      "bytes": 1115
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/plan-assessment.json",
+      "bytes": 620
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/r1-disposition.json",
+      "bytes": 607
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/reconcile-r2-assessment.json",
+      "bytes": 1076
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/astra-review.md",
+      "bytes": 527
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/draft.md",
+      "bytes": 320
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/facts.txt",
+      "bytes": 471
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/flash-review.md",
+      "bytes": 526
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/opus-review.md",
+      "bytes": 531
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/plan.md",
+      "bytes": 299
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/pro-review.md",
+      "bytes": 601
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/reconcile.md",
+      "bytes": 410
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-manifest-r1.json",
+      "bytes": 6430
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-manifest-r2.json",
+      "bytes": 5976
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/astra/001/client/receipt.json",
+      "bytes": 3055
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/astra/001/client/response.txt",
+      "bytes": 1865
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/astra/001/client/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/astra/001/client/stdout.jsonl",
+      "bytes": 2535
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/astra/001/coordinator-validation.json",
+      "bytes": 906
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/astra/001/packet.json",
+      "bytes": 749
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/astra/001/packet.txt",
+      "bytes": 2600
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/draft/001/client/receipt.json",
+      "bytes": 2993
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/draft/001/client/response.txt",
+      "bytes": 996
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/draft/001/client/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/draft/001/client/stdout.jsonl",
+      "bytes": 1665
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/draft/001/coordinator-validation.json",
+      "bytes": 846
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/draft/001/packet.json",
+      "bytes": 684
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/draft/001/packet.txt",
+      "bytes": 2184
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_flash/001/client/agy.log",
+      "bytes": 23934
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_flash/001/client/receipt.json",
+      "bytes": 2104
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_flash/001/client/response.txt",
+      "bytes": 1848
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_flash/001/client/stderr.txt",
+      "bytes": 78
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_flash/001/client/stdout.jsonl",
+      "bytes": 11154
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_flash/001/coordinator-validation.json",
+      "bytes": 923
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_flash/001/packet.json",
+      "bytes": 756
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_flash/001/packet.txt",
+      "bytes": 2599
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_pro/001/client/agy.log",
+      "bytes": 24957
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_pro/001/client/receipt.json",
+      "bytes": 2088
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_pro/001/client/response.txt",
+      "bytes": 1694
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_pro/001/client/stderr.txt",
+      "bytes": 78
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_pro/001/client/stdout.jsonl",
+      "bytes": 17453
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_pro/001/coordinator-validation.json",
+      "bytes": 995
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_pro/001/packet.json",
+      "bytes": 544
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/gemini_pro/001/packet.txt",
+      "bytes": 2076
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/opus/001/client/receipt.json",
+      "bytes": 1872
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/opus/001/client/response.txt",
+      "bytes": 1746
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/opus/001/client/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/opus/001/client/stdout.jsonl",
+      "bytes": 3836
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/opus/001/packet.json",
+      "bytes": 748
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/opus/001/packet.txt",
+      "bytes": 2604
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/plan/001/client/receipt.json",
+      "bytes": 2988
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/plan/001/client/response.txt",
+      "bytes": 898
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/plan/001/client/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/plan/001/client/stdout.jsonl",
+      "bytes": 1567
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/plan/001/coordinator-validation.json",
+      "bytes": 737
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/plan/001/packet.json",
+      "bytes": 461
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/attempts/plan/001/packet.txt",
+      "bytes": 1141
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/events.jsonl",
+      "bytes": 2595
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/inputs/astra/00.txt",
+      "bytes": 527
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/inputs/astra/02.txt",
+      "bytes": 471
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/inputs/draft/00.txt",
+      "bytes": 320
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/inputs/draft/01.txt",
+      "bytes": 471
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/inputs/gemini_flash/00.txt",
+      "bytes": 526
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/inputs/gemini_flash/02.txt",
+      "bytes": 471
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/inputs/gemini_pro/00.txt",
+      "bytes": 601
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/inputs/opus/00.txt",
+      "bytes": 531
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/inputs/opus/02.txt",
+      "bytes": 471
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/inputs/plan/00.txt",
+      "bytes": 299
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/inputs/plan/01.txt",
+      "bytes": 471
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/inputs/reconcile/00.txt",
+      "bytes": 410
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/manifest.json",
+      "bytes": 6975
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/runtime/literary_clients.py",
+      "bytes": 25138
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/runtime/literary_orchestrator.py",
+      "bytes": 37402
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r1/state.json",
+      "bytes": 12969
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/astra/001/client/receipt.json",
+      "bytes": 3200
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/astra/001/client/response.txt",
+      "bytes": 1939
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/astra/001/client/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/astra/001/client/stdout.jsonl",
+      "bytes": 2609
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/astra/001/coordinator-validation.json",
+      "bytes": 971
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/astra/001/packet.json",
+      "bytes": 727
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/astra/001/packet.txt",
+      "bytes": 2600
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_flash/001/client/agy.log",
+      "bytes": 25501
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_flash/001/client/receipt.json",
+      "bytes": 2249
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_flash/001/client/response.txt",
+      "bytes": 1843
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_flash/001/client/stderr.txt",
+      "bytes": 78
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_flash/001/client/stdout.jsonl",
+      "bytes": 10267
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_flash/001/coordinator-validation.json",
+      "bytes": 959
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_flash/001/packet.json",
+      "bytes": 741
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_flash/001/packet.txt",
+      "bytes": 2599
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_pro/001/client/agy.log",
+      "bytes": 26672
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_pro/001/client/receipt.json",
+      "bytes": 2233
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_pro/001/client/response.txt",
+      "bytes": 1741
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_pro/001/client/stderr.txt",
+      "bytes": 78
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_pro/001/client/stdout.jsonl",
+      "bytes": 17021
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_pro/001/coordinator-validation.json",
+      "bytes": 1056
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_pro/001/packet.json",
+      "bytes": 527
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/gemini_pro/001/packet.txt",
+      "bytes": 2076
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/opus/001/client/receipt.json",
+      "bytes": 2148
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/opus/001/client/response.txt",
+      "bytes": 1741
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/opus/001/client/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/opus/001/client/stdout.jsonl",
+      "bytes": 14902
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/opus/001/coordinator-validation.json",
+      "bytes": 1232
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/opus/001/packet.json",
+      "bytes": 725
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/opus/001/packet.txt",
+      "bytes": 2604
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/reconcile/001/client/receipt.json",
+      "bytes": 3216
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/reconcile/001/client/response.txt",
+      "bytes": 1934
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/reconcile/001/client/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/reconcile/001/client/stdout.jsonl",
+      "bytes": 2603
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/reconcile/001/coordinator-validation.json",
+      "bytes": 1193
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/reconcile/001/packet.json",
+      "bytes": 1495
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/attempts/reconcile/001/packet.txt",
+      "bytes": 9696
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/events.jsonl",
+      "bytes": 2337
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/astra/00.txt",
+      "bytes": 527
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/astra/01.txt",
+      "bytes": 996
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/astra/02.txt",
+      "bytes": 471
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/gemini_flash/00.txt",
+      "bytes": 526
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/gemini_flash/01.txt",
+      "bytes": 996
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/gemini_flash/02.txt",
+      "bytes": 471
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/gemini_pro/00.txt",
+      "bytes": 601
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/gemini_pro/01.txt",
+      "bytes": 996
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/opus/00.txt",
+      "bytes": 531
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/opus/01.txt",
+      "bytes": 996
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/opus/02.txt",
+      "bytes": 471
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/reconcile/00.txt",
+      "bytes": 410
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/inputs/reconcile/01.txt",
+      "bytes": 996
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/manifest.json",
+      "bytes": 6587
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/runtime/literary_clients.py",
+      "bytes": 29444
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/runtime/literary_orchestrator.py",
+      "bytes": 37753
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-r2/state.json",
+      "bytes": 11206
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/tests.json",
+      "bytes": 1211
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/verification.json",
+      "bytes": 389
+    },
+    {
+      "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/verify.py",
+      "bytes": 4621
     },
     {
       "path": "BOOK_SYSTEM/audit/2026-09-14-preparation.json",
@@ -236,11 +808,11 @@
     },
     {
       "path": "EDITORIAL-ENSEMBLE.md",
-      "bytes": 10226
+      "bytes": 10626
     },
     {
       "path": "GEMINI.md",
-      "bytes": 2335
+      "bytes": 2675
     },
     {
       "path": "INDEX.md",
@@ -1104,7 +1676,7 @@
     },
     {
       "path": "buro/tools/studio.py",
-      "bytes": 25196
+      "bytes": 25344
     },
     {
       "path": "buro/tools/verify_package.py",
@@ -1136,7 +1708,7 @@
     },
     {
       "path": "default/AGENTS.md",
-      "bytes": 8957
+      "bytes": 9282
     },
     {
       "path": "default/CHANGELOG.md",
@@ -1560,7 +2132,7 @@
     },
     {
       "path": "default/tools/studio.py",
-      "bytes": 25196
+      "bytes": 25344
     },
     {
       "path": "default/tools/verify_package.py",
@@ -2800,7 +3372,7 @@
     },
     {
       "path": "kontakt/tools/studio.py",
-      "bytes": 25196
+      "bytes": 25344
     },
     {
       "path": "kontakt/tools/verify_package.py",
@@ -5740,7 +6312,7 @@
     },
     {
       "path": "riokka/tools/studio.py",
-      "bytes": 25196
+      "bytes": 25344
     },
     {
       "path": "riokka/tools/verify_package.py",
@@ -12128,11 +12700,19 @@
     },
     {
       "path": "tests/test_language_system.py",
-      "bytes": 4726
+      "bytes": 4992
+    },
+    {
+      "path": "tests/test_literary_clients.py",
+      "bytes": 30598
     },
     {
       "path": "tests/test_literary_model_runner.py",
       "bytes": 3883
+    },
+    {
+      "path": "tests/test_literary_orchestrator.py",
+      "bytes": 22273
     },
     {
       "path": "tests/test_literary_translation.py",
@@ -12148,11 +12728,19 @@
     },
     {
       "path": "tools/editorial_ensemble.py",
-      "bytes": 28166
+      "bytes": 28408
     },
     {
       "path": "tools/language_qa.py",
       "bytes": 5549
+    },
+    {
+      "path": "tools/literary_clients.py",
+      "bytes": 29444
+    },
+    {
+      "path": "tools/literary_orchestrator.py",
+      "bytes": 37753
     },
     {
       "path": "tools/literary_translation.py",

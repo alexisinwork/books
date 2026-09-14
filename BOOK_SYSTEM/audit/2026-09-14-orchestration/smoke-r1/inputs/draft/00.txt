@@ -1,0 +1,1 @@
+Write the completed synthetic scene in natural contemporary Ukrainian from the supplied plan and facts. Exactly three short paragraphs, 80–120 words in total, including one brief spoken line. Preserve the supplied events. No heading, no report, no promises, no tool use. This is a technical sample, not a book chapter.

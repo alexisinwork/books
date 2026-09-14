@@ -1,0 +1,15 @@
+{"at": "2026-09-14T21:37:26.726307+00:00", "event": "attempt_started", "job_id": "astra", "client": "codex", "model": "gpt-6-astra"}
+{"at": "2026-09-14T21:37:26.748363+00:00", "event": "attempt_started", "job_id": "opus", "client": "claude", "model": "claude-opus-5"}
+{"at": "2026-09-14T21:37:26.767329+00:00", "event": "attempt_started", "job_id": "gemini_flash", "client": "agy", "model": "gemini-3.8-flash-high"}
+{"at": "2026-09-14T21:37:26.792509+00:00", "event": "attempt_started", "job_id": "gemini_pro", "client": "agy", "model": "gemini-3.1-pro-high"}
+{"at": "2026-09-14T21:37:41.474080+00:00", "event": "attempt_finished", "job_id": "astra", "status": "needs_review", "failure_kind": null}
+{"at": "2026-09-14T21:37:43.073271+00:00", "event": "attempt_finished", "job_id": "opus", "status": "needs_review", "failure_kind": null}
+{"at": "2026-09-14T21:37:44.727376+00:00", "event": "attempt_finished", "job_id": "gemini_flash", "status": "needs_review", "failure_kind": null}
+{"at": "2026-09-14T21:38:00.899540+00:00", "event": "attempt_finished", "job_id": "gemini_pro", "status": "needs_review", "failure_kind": null}
+{"at": "2026-09-14T21:38:56.429796+00:00", "event": "coordinator_validated", "job_id": "astra", "response_sha256": "dd4c50053f467c6dac8377b8af70c2e295c070e209f8ad967e4066418116d329"}
+{"at": "2026-09-14T21:38:56.454716+00:00", "event": "coordinator_validated", "job_id": "opus", "response_sha256": "c627d64eb902f800a7da01ba24d1f49a3f0a60ece364c34015165eeef1f6f60e"}
+{"at": "2026-09-14T21:38:56.481705+00:00", "event": "coordinator_validated", "job_id": "gemini_flash", "response_sha256": "94ac4ee423eb2c7a834fc0dd6fd2fab54eff24e9b54d9e18242a59ce4382f035"}
+{"at": "2026-09-14T21:38:56.507748+00:00", "event": "coordinator_validated", "job_id": "gemini_pro", "response_sha256": "e71f115e04767491515e9da858d467733ecc74b5a6667b17dba8321bb45f44c5"}
+{"at": "2026-09-14T21:38:56.601322+00:00", "event": "attempt_started", "job_id": "reconcile", "client": "codex", "model": "gpt-6-astra"}
+{"at": "2026-09-14T21:39:11.440382+00:00", "event": "attempt_finished", "job_id": "reconcile", "status": "needs_review", "failure_kind": null}
+{"at": "2026-09-14T21:40:19.621479+00:00", "event": "coordinator_validated", "job_id": "reconcile", "response_sha256": "ed8c5fcf0905588203a9f8bd65c3fc4e06ae234e681f05518854e19418314acf"}

@@ -1,0 +1,22 @@
+{
+  "inputs": [
+    {
+      "label": "FACTS",
+      "kind": "source",
+      "sha256": "670278f97d7f7ddd8b1be027a19a8b5e3792666c71bd38178de8a21813adaabf",
+      "file": "inputs/draft/01.txt",
+      "from_job": null
+    },
+    {
+      "label": "PLAN",
+      "kind": "plan",
+      "sha256": "3e8c8caf949e4b28134d158f884c59fbcb1e830deb83661fe04698e2e3d09653",
+      "file": "attempts/plan/001/client/response.txt",
+      "from_job": "plan"
+    }
+  ],
+  "prompt_sha256": "56b4e2bc1a625c18745d04d418126b36867855977d639d0a43df345541f6b178",
+  "expected_target_sha256": null,
+  "target_units": null,
+  "coverage_unit": "nonempty target lines; full literary reading is separately validated"
+}

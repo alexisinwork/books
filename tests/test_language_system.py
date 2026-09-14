@@ -37,6 +37,9 @@ class LanguageSystemTests(unittest.TestCase):
             self.assertFalse((dest / "book-system/CHANGELOG-2026-09-14.md").exists())
             for record in snapshot["files"]:
                 self.assertEqual(studio.digest(dest / "book-system" / record["path"]), record["sha256"])
+            self.assertTrue((dest / "book-system/ORCHESTRATION.md").is_file())
+            helper_paths = {record["path"] for record in snapshot["helpers"]}
+            self.assertTrue({"tools/literary_clients.py", "tools/literary_orchestrator.py"} <= helper_paths)
             for record in snapshot["helpers"]:
                 self.assertEqual(studio.digest(dest / record["path"]), record["sha256"])
                 result = subprocess.run([sys.executable, str(dest / record["path"]), "--help"],

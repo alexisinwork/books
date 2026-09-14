@@ -1,0 +1,43 @@
+{
+  "inputs": [
+    {
+      "label": "TARGET",
+      "kind": "target",
+      "sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+      "file": "inputs/reconcile/01.txt",
+      "from_job": null
+    },
+    {
+      "label": "REPORT_ASTRA",
+      "kind": "report",
+      "sha256": "dd4c50053f467c6dac8377b8af70c2e295c070e209f8ad967e4066418116d329",
+      "file": "attempts/astra/001/client/response.txt",
+      "from_job": "astra"
+    },
+    {
+      "label": "REPORT_OPUS",
+      "kind": "report",
+      "sha256": "c627d64eb902f800a7da01ba24d1f49a3f0a60ece364c34015165eeef1f6f60e",
+      "file": "attempts/opus/001/client/response.txt",
+      "from_job": "opus"
+    },
+    {
+      "label": "REPORT_GEMINI_FLASH",
+      "kind": "report",
+      "sha256": "94ac4ee423eb2c7a834fc0dd6fd2fab54eff24e9b54d9e18242a59ce4382f035",
+      "file": "attempts/gemini_flash/001/client/response.txt",
+      "from_job": "gemini_flash"
+    },
+    {
+      "label": "REPORT_GEMINI_PRO",
+      "kind": "report",
+      "sha256": "e71f115e04767491515e9da858d467733ecc74b5a6667b17dba8321bb45f44c5",
+      "file": "attempts/gemini_pro/001/client/response.txt",
+      "from_job": "gemini_pro"
+    }
+  ],
+  "prompt_sha256": "4d5c2ac8acfc10b1dba3b995cb06e5d1cce0b7c928fa155da09ac99e3f1ddc90",
+  "expected_target_sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+  "target_units": 3,
+  "coverage_unit": "nonempty target lines; full literary reading is separately validated"
+}

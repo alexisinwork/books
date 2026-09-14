@@ -1,0 +1,22 @@
+{
+  "inputs": [
+    {
+      "label": "TARGET",
+      "kind": "target",
+      "sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+      "file": "inputs/gemini_flash/01.txt",
+      "from_job": null
+    },
+    {
+      "label": "FACTS",
+      "kind": "source",
+      "sha256": "670278f97d7f7ddd8b1be027a19a8b5e3792666c71bd38178de8a21813adaabf",
+      "file": "inputs/gemini_flash/02.txt",
+      "from_job": null
+    }
+  ],
+  "prompt_sha256": "79b1dbaf4ec831d201f1082b54ff858d0638e7dc4f13e5425d1cb7ee4c9b0d9e",
+  "expected_target_sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+  "target_units": 3,
+  "coverage_unit": "nonempty target lines; full literary reading is separately validated"
+}

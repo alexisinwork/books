@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "task_id": "synthetic-live-smoke-r1",
+  "authority": "User asks to run Codex Sol, Opus and Gemini in parallel or sequence according to the new architecture without repeated supervision. This bounded test uses synthetic prose only.",
+  "max_parallel": 4,
+  "client_limits": {
+    "codex": 1,
+    "claude": 1,
+    "agy": 2
+  },
+  "jobs": [
+    {
+      "id": "plan",
+      "role": "astra",
+      "client": "codex",
+      "model": "gpt-6-astra",
+      "task_kind": "plan",
+      "prompt": {
+        "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/plan.md",
+        "sha256": "7419fbaddf969ff8a5d191070c2224f90e026dcf3dce29ca51ea3a0f7afd14e0"
+      },
+      "inputs": [
+        {
+          "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/facts.txt",
+          "sha256": "670278f97d7f7ddd8b1be027a19a8b5e3792666c71bd38178de8a21813adaabf",
+          "kind": "source",
+          "label": "FACTS"
+        }
+      ],
+      "depends_on": [],
+      "timeout_seconds": 240,
+      "max_attempts": 1,
+      "effort": "medium"
+    },
+    {
+      "id": "draft",
+      "role": "writer",
+      "client": "codex",
+      "model": "gpt-5.6-sol",
+      "task_kind": "draft",
+      "prompt": {
+        "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/draft.md",
+        "sha256": "e1455ffb67fb10fd35775d93db146cf5c71a8b8fd7379c6618b51da1cc31b81f"
+      },
+      "inputs": [
+        {
+          "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/facts.txt",
+          "sha256": "670278f97d7f7ddd8b1be027a19a8b5e3792666c71bd38178de8a21813adaabf",
+          "kind": "source",
+          "label": "FACTS"
+        },
+        {
+          "kind": "plan",
+          "label": "PLAN",
+          "from_job": "plan"
+        }
+      ],
+      "depends_on": [
+        "plan"
+      ],
+      "timeout_seconds": 240,
+      "max_attempts": 1,
+      "effort": "medium"
+    },
+    {
+      "id": "astra",
+      "role": "astra",
+      "client": "codex",
+      "model": "gpt-6-astra",
+      "task_kind": "review",
+      "prompt": {
+        "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/astra-review.md",
+        "sha256": "2247d83f3b257f78c45d7cde84ff200b5350c992a75d16945f5a3946147637ae"
+      },
+      "inputs": [
+        {
+          "kind": "target",
+          "label": "TARGET",
+          "from_job": "draft"
+        },
+        {
+          "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/facts.txt",
+          "sha256": "670278f97d7f7ddd8b1be027a19a8b5e3792666c71bd38178de8a21813adaabf",
+          "kind": "source",
+          "label": "FACTS"
+        }
+      ],
+      "depends_on": [
+        "draft"
+      ],
+      "timeout_seconds": 240,
+      "max_attempts": 1,
+      "review_set": "synthetic-v1",
+      "effort": "medium"
+    },
+    {
+      "id": "opus",
+      "role": "opus",
+      "client": "claude",
+      "model": "claude-opus-5",
+      "task_kind": "review",
+      "prompt": {
+        "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/opus-review.md",
+        "sha256": "2dbfe189766eb8c66b79754f3370955fbb5dc04eb307026c650a8fe04761509d"
+      },
+      "inputs": [
+        {
+          "kind": "target",
+          "label": "TARGET",
+          "from_job": "draft"
+        },
+        {
+          "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/facts.txt",
+          "sha256": "670278f97d7f7ddd8b1be027a19a8b5e3792666c71bd38178de8a21813adaabf",
+          "kind": "source",
+          "label": "FACTS"
+        }
+      ],
+      "depends_on": [
+        "draft"
+      ],
+      "timeout_seconds": 240,
+      "max_attempts": 1,
+      "review_set": "synthetic-v1",
+      "effort": "medium"
+    },
+    {
+      "id": "gemini_flash",
+      "role": "gemini_flash",
+      "client": "agy",
+      "model": "gemini-3.8-flash-high",
+      "task_kind": "review",
+      "prompt": {
+        "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/flash-review.md",
+        "sha256": "07b6c4a5db36c4b3a741f37c6cbc2823c8eeef58fc0ae0482972321f1cbe0952"
+      },
+      "inputs": [
+        {
+          "kind": "target",
+          "label": "TARGET",
+          "from_job": "draft"
+        },
+        {
+          "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/facts.txt",
+          "sha256": "670278f97d7f7ddd8b1be027a19a8b5e3792666c71bd38178de8a21813adaabf",
+          "kind": "source",
+          "label": "FACTS"
+        }
+      ],
+      "depends_on": [
+        "draft"
+      ],
+      "timeout_seconds": 240,
+      "max_attempts": 1,
+      "review_set": "synthetic-v1"
+    },
+    {
+      "id": "gemini_pro",
+      "role": "gemini_pro",
+      "client": "agy",
+      "model": "gemini-3.1-pro-high",
+      "task_kind": "review",
+      "prompt": {
+        "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/pro-review.md",
+        "sha256": "15567a774c667812915486e5167bbf11b389ef5fa06cc74919a4ad39ff457d6f"
+      },
+      "inputs": [
+        {
+          "kind": "target",
+          "label": "TARGET",
+          "from_job": "draft"
+        }
+      ],
+      "depends_on": [
+        "draft"
+      ],
+      "timeout_seconds": 240,
+      "max_attempts": 1,
+      "review_set": "synthetic-v1"
+    },
+    {
+      "id": "reconcile",
+      "role": "astra",
+      "client": "codex",
+      "model": "gpt-6-astra",
+      "task_kind": "reconcile",
+      "prompt": {
+        "path": "BOOK_SYSTEM/audit/2026-09-14-orchestration/smoke-inputs/reconcile.md",
+        "sha256": "c30abb65743c8f14caee5e6d8179a3d41db90313af19818846648a64753e0d09"
+      },
+      "inputs": [
+        {
+          "kind": "target",
+          "label": "TARGET",
+          "from_job": "draft"
+        },
+        {
+          "kind": "report",
+          "label": "REPORT_ASTRA",
+          "from_job": "astra"
+        },
+        {
+          "kind": "report",
+          "label": "REPORT_OPUS",
+          "from_job": "opus"
+        },
+        {
+          "kind": "report",
+          "label": "REPORT_GEMINI_FLASH",
+          "from_job": "gemini_flash"
+        },
+        {
+          "kind": "report",
+          "label": "REPORT_GEMINI_PRO",
+          "from_job": "gemini_pro"
+        }
+      ],
+      "depends_on": [
+        "draft",
+        "astra",
+        "opus",
+        "gemini_flash",
+        "gemini_pro"
+      ],
+      "timeout_seconds": 240,
+      "max_attempts": 1,
+      "review_set": "synthetic-v1",
+      "effort": "medium"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "suite": "python3 -m unittest discover -s tests -q",
+  "working_directory": "/tmp/books-orchestration-20260914",
+  "observed_result": {
+    "tests": 114,
+    "failures": 0,
+    "errors": 0,
+    "duration_seconds": 2.119,
+    "exit_code": 0
+  },
+  "new_queue_tests": 23,
+  "new_client_tests": 45,
+  "models_called_by_tests": false,
+  "scope": "Complete repository tests in the isolated checkout, including scheduling, adapters, language helper portability and existing editorial tools.",
+  "checked_files": {
+    "tools/literary_orchestrator.py": "2b717f1608987920830234fc3c5e0cf3abab89a87bf6d6a5269c765f18920757",
+    "tools/literary_clients.py": "07f7a05516415c898238507b42158acdcde2d02732fe11c7552a0c28fa23792f",
+    "tests/test_literary_orchestrator.py": "9e5f2109036e18acdb04ce8ecd0b4a49d438b8222203cecc20d55817d739a8de",
+    "tests/test_literary_clients.py": "ce31c91a254a7a16492793b6abc1860e3b9c47a741ee7641104b364ca8e07ffb",
+    "tests/test_language_system.py": "f3326bcff1c179f6ef650faeec9f6559ff60081ce3206a8663d2fbdaabaeffad"
+  },
+  "limits": "Unit tests verify software behavior. Separate synthetic live runs verify actual client compatibility. Neither certifies a novel’s literary quality."
+}

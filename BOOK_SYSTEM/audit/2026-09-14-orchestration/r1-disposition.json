@@ -1,0 +1,9 @@
+{
+  "status": "superseded_incomplete_model_attestation",
+  "reason": "Claude JSON aggregate modelUsage contains both Haiku and Opus; no direct assistant.message.model in this output. Do not alias them or accept an assumed primary based on token counts. Preserve r1 and repeat reviews on the same target using the corrected stream-json client in a new queue.",
+  "target_sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+  "opus_response_retained": true,
+  "opus_coordinator_accepted": false,
+  "reconciliation_started": false,
+  "checked_at": "2026-09-14T21:33:35.958846+00:00"
+}

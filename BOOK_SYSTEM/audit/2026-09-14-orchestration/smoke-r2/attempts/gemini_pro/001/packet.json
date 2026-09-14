@@ -1,0 +1,15 @@
+{
+  "inputs": [
+    {
+      "label": "TARGET",
+      "kind": "target",
+      "sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+      "file": "inputs/gemini_pro/01.txt",
+      "from_job": null
+    }
+  ],
+  "prompt_sha256": "ecf70c889ffbf4725a29843cdc2d547b04f53237833b78841b627cacfcfd1940",
+  "expected_target_sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+  "target_units": 3,
+  "coverage_unit": "nonempty target lines; full literary reading is separately validated"
+}

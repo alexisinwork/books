@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "task_id": "synthetic-live-smoke-r1",
+  "root": "/home/alexi/books",
+  "manifest_sha256": "2bba13658a5331a267a66ec7afa04770a5bfc2d8b4622a32b701b71acafe5a36",
+  "created_at": "2026-09-14T21:28:49.139654+00:00",
+  "runtime_sha256": {
+    "literary_orchestrator.py": "0288d8a88c7720aeac02ae6eb70b51c70947bb64a24c2af2f811558851632506",
+    "literary_clients.py": "684dcf8d672eb04718640a62dd59747007b092216cf2244398cefd1359cc02fe"
+  },
+  "client_next_retry": {},
+  "review_targets": {
+    "synthetic-v1": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b"
+  },
+  "jobs": {
+    "plan": {
+      "status": "accepted",
+      "attempts": [
+        {
+          "path": "attempts/plan/001",
+          "started_at": "2026-09-14T21:28:49.204059+00:00",
+          "status": "response_received",
+          "artifacts": [
+            {
+              "path": "attempts/plan/001/packet.json",
+              "sha256": "1a4e2ac68bd338478fd57e90b8e2e4d8ce15f7ca2498a420b3a8848dee1563cc"
+            },
+            {
+              "path": "attempts/plan/001/packet.txt",
+              "sha256": "d06e94f49b5e508c737acc3d2b6ad2f7fdfa538e8c91abb605418abe41dc31b5"
+            },
+            {
+              "path": "attempts/plan/001/client/receipt.json",
+              "sha256": "7279c83741d6252cc443a0e2285b048203cc1515d2cce7116c4e5884c82523c9"
+            },
+            {
+              "path": "attempts/plan/001/client/response.txt",
+              "sha256": "3e8c8caf949e4b28134d158f884c59fbcb1e830deb83661fe04698e2e3d09653"
+            },
+            {
+              "path": "attempts/plan/001/client/stderr.txt",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+              "path": "attempts/plan/001/client/stdout.jsonl",
+              "sha256": "b5960d7720c86d5a0e9c9423c49ba9a6cbcbbcd8d635ac7caaf86d557da7adfa"
+            }
+          ],
+          "finished_at": "2026-09-14T21:29:00.974661+00:00",
+          "receipt_sha256": "7279c83741d6252cc443a0e2285b048203cc1515d2cce7116c4e5884c82523c9"
+        }
+      ],
+      "next_retry_at": 0,
+      "expected_target_sha256": null,
+      "target_units": null,
+      "response_path": "attempts/plan/001/client/response.txt",
+      "response_sha256": "3e8c8caf949e4b28134d158f884c59fbcb1e830deb83661fe04698e2e3d09653",
+      "validation_path": "attempts/plan/001/coordinator-validation.json",
+      "validation_sha256": "4a9f4a00647f553355664a4ca8f5de3c7584a83cd638d6434d9618ed343491bf"
+    },
+    "draft": {
+      "status": "accepted",
+      "attempts": [
+        {
+          "path": "attempts/draft/001",
+          "started_at": "2026-09-14T21:29:35.828198+00:00",
+          "status": "response_received",
+          "artifacts": [
+            {
+              "path": "attempts/draft/001/packet.json",
+              "sha256": "319ab7c6c95273cfac3fb843145a9b1da51a8a298640732472f52f9646ee3b03"
+            },
+            {
+              "path": "attempts/draft/001/packet.txt",
+              "sha256": "56b4e2bc1a625c18745d04d418126b36867855977d639d0a43df345541f6b178"
+            },
+            {
+              "path": "attempts/draft/001/client/receipt.json",
+              "sha256": "c0cafcd4aae9c3d3166a1eb08c8f0878bda5a19fcbba66f1d3f82ebd41025054"
+            },
+            {
+              "path": "attempts/draft/001/client/response.txt",
+              "sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b"
+            },
+            {
+              "path": "attempts/draft/001/client/stderr.txt",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+              "path": "attempts/draft/001/client/stdout.jsonl",
+              "sha256": "1a655796cb2bb6192cafc0c349d432f35aed24abd56a2e6cbd10aed09285c475"
+            }
+          ],
+          "finished_at": "2026-09-14T21:29:56.822445+00:00",
+          "receipt_sha256": "c0cafcd4aae9c3d3166a1eb08c8f0878bda5a19fcbba66f1d3f82ebd41025054"
+        }
+      ],
+      "next_retry_at": 0,
+      "expected_target_sha256": null,
+      "target_units": null,
+      "response_path": "attempts/draft/001/client/response.txt",
+      "response_sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+      "validation_path": "attempts/draft/001/coordinator-validation.json",
+      "validation_sha256": "8ab2270332758feda5646866e7743895f69d28a7b514c25e78d3876ce0a6a2f1"
+    },
+    "astra": {
+      "status": "accepted",
+      "attempts": [
+        {
+          "path": "attempts/astra/001",
+          "started_at": "2026-09-14T21:30:19.563028+00:00",
+          "status": "response_received",
+          "artifacts": [
+            {
+              "path": "attempts/astra/001/packet.json",
+              "sha256": "b9839e1d00396c239084ba5fdb45d7f974becbd0301555631148b70f5ff303ff"
+            },
+            {
+              "path": "attempts/astra/001/packet.txt",
+              "sha256": "90c259e4ef703647ac85e6adeae9963fd39359d05cd00ce9371b0cc4cb99d22c"
+            },
+            {
+              "path": "attempts/astra/001/client/receipt.json",
+              "sha256": "f63b92268a7573098d4456b77726ef27b18992fe7e4761885cb2bb0ea7030e09"
+            },
+            {
+              "path": "attempts/astra/001/client/response.txt",
+              "sha256": "73bba6230b2d4346c339c9697495563ea50e78e0f055d40607ad657a45176d82"
+            },
+            {
+              "path": "attempts/astra/001/client/stderr.txt",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+              "path": "attempts/astra/001/client/stdout.jsonl",
+              "sha256": "5950646ed436d9e3daeb428854facdf3b0c38b80732bce1a262005bd6f95ae1e"
+            }
+          ],
+          "finished_at": "2026-09-14T21:30:34.497297+00:00",
+          "receipt_sha256": "f63b92268a7573098d4456b77726ef27b18992fe7e4761885cb2bb0ea7030e09"
+        }
+      ],
+      "next_retry_at": 0,
+      "expected_target_sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+      "target_units": 3,
+      "response_path": "attempts/astra/001/client/response.txt",
+      "response_sha256": "73bba6230b2d4346c339c9697495563ea50e78e0f055d40607ad657a45176d82",
+      "validation_path": "attempts/astra/001/coordinator-validation.json",
+      "validation_sha256": "5d8e1dce129cf5f3a623563d7ca94a7986cc9826b83ce069dbf68401452e6a22"
+    },
+    "opus": {
+      "status": "needs_review",
+      "attempts": [
+        {
+          "path": "attempts/opus/001",
+          "started_at": "2026-09-14T21:30:19.579533+00:00",
+          "status": "response_received",
+          "artifacts": [
+            {
+              "path": "attempts/opus/001/packet.json",
+              "sha256": "b8fec69799c3ed27b15f49ab43b2eb747739b6f334750d299521f39ae4bccebd"
+            },
+            {
+              "path": "attempts/opus/001/packet.txt",
+              "sha256": "657a1334f5dd95aaf0f8da7d2bd91b68fac6f094d892f6ee138ebd205a1934e4"
+            },
+            {
+              "path": "attempts/opus/001/client/receipt.json",
+              "sha256": "3c30c1553ac5b9bc6b23c818d8814a9708862069430dedda54b0c19032d15ff6"
+            },
+            {
+              "path": "attempts/opus/001/client/response.txt",
+              "sha256": "1018003f8d88a66ca48a7de44e326e4af6ae05d7fe9a8372037dc99f83e4bf02"
+            },
+            {
+              "path": "attempts/opus/001/client/stderr.txt",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+              "path": "attempts/opus/001/client/stdout.jsonl",
+              "sha256": "ea38774a4f9c29b38f806e757ef18fda00ffa7bc4140a546875f7b6bc7222923"
+            }
+          ],
+          "finished_at": "2026-09-14T21:30:42.477846+00:00",
+          "receipt_sha256": "3c30c1553ac5b9bc6b23c818d8814a9708862069430dedda54b0c19032d15ff6"
+        }
+      ],
+      "next_retry_at": 0,
+      "expected_target_sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+      "target_units": 3,
+      "response_path": "attempts/opus/001/client/response.txt",
+      "response_sha256": "1018003f8d88a66ca48a7de44e326e4af6ae05d7fe9a8372037dc99f83e4bf02"
+    },
+    "gemini_flash": {
+      "status": "accepted",
+      "attempts": [
+        {
+          "path": "attempts/gemini_flash/001",
+          "started_at": "2026-09-14T21:30:19.601755+00:00",
+          "status": "response_received",
+          "artifacts": [
+            {
+              "path": "attempts/gemini_flash/001/packet.json",
+              "sha256": "156c2924f47af94b9146bf33897e172ba26ad756aff4547a0277ad726e1cd477"
+            },
+            {
+              "path": "attempts/gemini_flash/001/packet.txt",
+              "sha256": "79b1dbaf4ec831d201f1082b54ff858d0638e7dc4f13e5425d1cb7ee4c9b0d9e"
+            },
+            {
+              "path": "attempts/gemini_flash/001/client/agy.log",
+              "sha256": "e43b34f263b411232b36874e267ea69641b9b1868ffc47f366310250373b20a3"
+            },
+            {
+              "path": "attempts/gemini_flash/001/client/receipt.json",
+              "sha256": "cdb21eb1577755d29f39ffb26b5c6885de42612a28ea5ec20cc0d1c22c5804a8"
+            },
+            {
+              "path": "attempts/gemini_flash/001/client/response.txt",
+              "sha256": "91c49802162a12b1e9e4e309b2849cd460472949ca02ce68c1e348455afa4b88"
+            },
+            {
+              "path": "attempts/gemini_flash/001/client/stderr.txt",
+              "sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459"
+            },
+            {
+              "path": "attempts/gemini_flash/001/client/stdout.jsonl",
+              "sha256": "b822f0d3021d7eb32f56138ad15607ccf2c4f52eb8de123c3b05f9d627477724"
+            }
+          ],
+          "finished_at": "2026-09-14T21:30:33.135158+00:00",
+          "receipt_sha256": "cdb21eb1577755d29f39ffb26b5c6885de42612a28ea5ec20cc0d1c22c5804a8"
+        }
+      ],
+      "next_retry_at": 0,
+      "expected_target_sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+      "target_units": 3,
+      "response_path": "attempts/gemini_flash/001/client/response.txt",
+      "response_sha256": "91c49802162a12b1e9e4e309b2849cd460472949ca02ce68c1e348455afa4b88",
+      "validation_path": "attempts/gemini_flash/001/coordinator-validation.json",
+      "validation_sha256": "754f27b1edf03c62d9f4698054fbe111c1239d748c750e8b2639f750f75cc5ab"
+    },
+    "gemini_pro": {
+      "status": "accepted",
+      "attempts": [
+        {
+          "path": "attempts/gemini_pro/001",
+          "started_at": "2026-09-14T21:30:19.625069+00:00",
+          "status": "response_received",
+          "artifacts": [
+            {
+              "path": "attempts/gemini_pro/001/packet.json",
+              "sha256": "83009510193377ff34963fbad17efe52a103a2d8bc7e6af775ee67a049ba23bb"
+            },
+            {
+              "path": "attempts/gemini_pro/001/packet.txt",
+              "sha256": "ecf70c889ffbf4725a29843cdc2d547b04f53237833b78841b627cacfcfd1940"
+            },
+            {
+              "path": "attempts/gemini_pro/001/client/agy.log",
+              "sha256": "a8d783ae0edc20a362a40eaf888edad298b02d13d461df7dc9043634b706b016"
+            },
+            {
+              "path": "attempts/gemini_pro/001/client/receipt.json",
+              "sha256": "3a4caa4b8ba389507168bd1d35db109975fbbda51324fd8e7dfe3cafad3b31af"
+            },
+            {
+              "path": "attempts/gemini_pro/001/client/response.txt",
+              "sha256": "bad2d13cf99a3105b246d294c3c8b85aec683b42fe5923b3957a8f8d39e88cd8"
+            },
+            {
+              "path": "attempts/gemini_pro/001/client/stderr.txt",
+              "sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459"
+            },
+            {
+              "path": "attempts/gemini_pro/001/client/stdout.jsonl",
+              "sha256": "ea120df7da64b12b948df031058c05feb431b67faa133bda67bff1d3189d5307"
+            }
+          ],
+          "finished_at": "2026-09-14T21:30:59.788173+00:00",
+          "receipt_sha256": "3a4caa4b8ba389507168bd1d35db109975fbbda51324fd8e7dfe3cafad3b31af"
+        }
+      ],
+      "next_retry_at": 0,
+      "expected_target_sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b",
+      "target_units": 3,
+      "response_path": "attempts/gemini_pro/001/client/response.txt",
+      "response_sha256": "bad2d13cf99a3105b246d294c3c8b85aec683b42fe5923b3957a8f8d39e88cd8",
+      "validation_path": "attempts/gemini_pro/001/coordinator-validation.json",
+      "validation_sha256": "4a5b2ea94a726ccda928219a4d29b49b05a73d0f0d553ffb66412d77332e3869"
+    },
+    "reconcile": {
+      "status": "pending",
+      "attempts": [],
+      "next_retry_at": 0
+    }
+  },
+  "author_canonical_approval": false,
+  "updated_at": "2026-09-14T21:33:35.947936+00:00"
+}

@@ -1,0 +1,17 @@
+{"at": "2026-09-14T21:28:49.221400+00:00", "event": "attempt_started", "job_id": "plan", "client": "codex", "model": "gpt-6-astra"}
+{"at": "2026-09-14T21:29:00.975044+00:00", "event": "attempt_finished", "job_id": "plan", "status": "needs_review", "failure_kind": null}
+{"at": "2026-09-14T21:29:35.764003+00:00", "event": "coordinator_validated", "job_id": "plan", "response_sha256": "3e8c8caf949e4b28134d158f884c59fbcb1e830deb83661fe04698e2e3d09653"}
+{"at": "2026-09-14T21:29:35.845664+00:00", "event": "attempt_started", "job_id": "draft", "client": "codex", "model": "gpt-5.6-sol"}
+{"at": "2026-09-14T21:29:56.822844+00:00", "event": "attempt_finished", "job_id": "draft", "status": "needs_review", "failure_kind": null}
+{"at": "2026-09-14T21:30:19.494889+00:00", "event": "coordinator_validated", "job_id": "draft", "response_sha256": "d5c92f9cf1e553148b676b50c1abac92140b79ae9862aa3fd28d0b98df98058b"}
+{"at": "2026-09-14T21:30:19.579453+00:00", "event": "attempt_started", "job_id": "astra", "client": "codex", "model": "gpt-6-astra"}
+{"at": "2026-09-14T21:30:19.601652+00:00", "event": "attempt_started", "job_id": "opus", "client": "claude", "model": "claude-opus-5"}
+{"at": "2026-09-14T21:30:19.624961+00:00", "event": "attempt_started", "job_id": "gemini_flash", "client": "agy", "model": "gemini-3.8-flash-high"}
+{"at": "2026-09-14T21:30:19.652747+00:00", "event": "attempt_started", "job_id": "gemini_pro", "client": "agy", "model": "gemini-3.1-pro-high"}
+{"at": "2026-09-14T21:30:33.135570+00:00", "event": "attempt_finished", "job_id": "gemini_flash", "status": "needs_review", "failure_kind": null}
+{"at": "2026-09-14T21:30:34.497668+00:00", "event": "attempt_finished", "job_id": "astra", "status": "needs_review", "failure_kind": null}
+{"at": "2026-09-14T21:30:42.478195+00:00", "event": "attempt_finished", "job_id": "opus", "status": "needs_review", "failure_kind": null}
+{"at": "2026-09-14T21:30:59.788629+00:00", "event": "attempt_finished", "job_id": "gemini_pro", "status": "needs_review", "failure_kind": null}
+{"at": "2026-09-14T21:33:35.892889+00:00", "event": "coordinator_validated", "job_id": "astra", "response_sha256": "73bba6230b2d4346c339c9697495563ea50e78e0f055d40607ad657a45176d82"}
+{"at": "2026-09-14T21:33:35.920932+00:00", "event": "coordinator_validated", "job_id": "gemini_flash", "response_sha256": "91c49802162a12b1e9e4e309b2849cd460472949ca02ce68c1e348455afa4b88"}
+{"at": "2026-09-14T21:33:35.947916+00:00", "event": "coordinator_validated", "job_id": "gemini_pro", "response_sha256": "bad2d13cf99a3105b246d294c3c8b85aec683b42fe5923b3957a8f8d39e88cd8"}
