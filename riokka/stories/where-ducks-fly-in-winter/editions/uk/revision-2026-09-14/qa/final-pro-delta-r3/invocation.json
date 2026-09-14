@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:55:12+00:00",
+  "role": "final-target-only-uk-delta-review",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.1-pro-high",
+  "target": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "bae67b49bc5ce2f6a650a4c1a4e879d128ce00adcbf75729fcfb6122517cc84c"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "UK_P004",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r12/part-02/target.uk.txt",
+      "sha256": "8ee0ffc38876192600ba77439c9c59546656821992bb5ead27e072710124c01b"
+    },
+    {
+      "label": "UK_P174",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r12/part-04/target.uk.txt",
+      "sha256": "69dee0f6950be6dfae50603d2c4681aec6c89ab444474c7a8ae6cfef4b2c84fd"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "3b70a0c3603ebd8f081a57ff16280760d041d51eeaa95ca679e6203cfec8813a",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 29.51,
+  "resolved_model_id": "gemini-3.1-pro-high",
+  "resolved_model_label": "Gemini 3.1 Pro (High)",
+  "conversation_id": "fb0e93c5-c573-471f-b1e5-4b652b0cbdab",
+  "usage": {
+    "input_tokens": 15209,
+    "output_tokens": 3515,
+    "thinking_tokens": 3423,
+    "cache_read_tokens": 0,
+    "total_tokens": 18724
+  },
+  "denied_actions": [],
+  "report_sha256": "ef5cfa3dd3ea04179ce6b437b10356d5bb90207dc3a673d5908fbeaeb30a4ad1"
+}

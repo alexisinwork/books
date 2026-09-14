@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:14:33+00:00",
+  "role": "final_independent_bilingual_opus",
+  "client": "Claude Code",
+  "requested_model": "claude-opus-4-6",
+  "target": {
+    "path": "riokka/stories/history/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "757bb0c3f03ec1e8a6aa89edacfb83ce812cfe0f3d5289bb82e410f88b97a3b9"
+  },
+  "source": {
+    "path": "riokka/stories/history/SOURCE/ru.docx",
+    "sha256": "6af64dd30c956c89a5484445b7adb1332c31e3ae628f3fafcd523b97204c9022"
+  },
+  "inputs": [
+    {
+      "label": "RU_SOURCE",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/preparation/source.ru.txt",
+      "sha256": "9ea767309cd23ca2d0e0165a51e059be8a01799a823f511a98054ad420baec36"
+    },
+    {
+      "label": "UK_TARGET",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/target.uk.txt",
+      "sha256": "757bb0c3f03ec1e8a6aa89edacfb83ce812cfe0f3d5289bb82e410f88b97a3b9"
+    },
+    {
+      "label": "STYLE",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/UA_STYLE_GUIDE.md",
+      "sha256": "f60704817e9a0bb93ba1d0e25b4660ec3a089b7f4bc455a0e17b9ac67a26b74d"
+    },
+    {
+      "label": "VOICES",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/CHARACTER_VOICES.md",
+      "sha256": "9d966c89be635fcd89d6f8e224acb0ca5b2c350defcec33a059e1df5ad4bdea8"
+    },
+    {
+      "label": "LEDGER",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/MEANING_LEDGER.md",
+      "sha256": "738271f5cd71eb40eebf5eadbf1b37ff0c4e286cfd8993c1b0c5bcd4fd811f81"
+    }
+  ],
+  "prompt_sha256": "f77973cfe6cf251406aa5563a06a15f8a77e5cf6a321d26826068015bd378a92",
+  "isolation": "Fresh external process; all inputs embedded; sandbox/safe mode; no permitted model tools or MCP.",
+  "status": "failed",
+  "exit_code": 1,
+  "seconds": 1.85
+}

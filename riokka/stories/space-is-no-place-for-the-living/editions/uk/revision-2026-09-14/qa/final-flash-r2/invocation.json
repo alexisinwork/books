@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T20:03:25+00:00",
+  "role": "bilingual-language-review",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "1daa79880b541d039fbd8cd293c66e8a601593136847a74e7415f38682a1e9ea"
+  },
+  "source": {
+    "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/preparation/source.ru.txt",
+    "sha256": "4bf49c6acd9e4c7f0eefa2dbbe7b8b7337423c15382eb59baf93e51493e9eec5"
+  },
+  "inputs": [
+    {
+      "label": "RU",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/preparation/source.ru.txt",
+      "sha256": "4bf49c6acd9e4c7f0eefa2dbbe7b8b7337423c15382eb59baf93e51493e9eec5"
+    },
+    {
+      "label": "UK",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/target.uk.txt",
+      "sha256": "1daa79880b541d039fbd8cd293c66e8a601593136847a74e7415f38682a1e9ea"
+    }
+  ],
+  "prompt_sha256": "ca9f8c5f595782cde82eaa05979d384c050abfaca56ff846c23f6e0a095ced2b",
+  "isolation": "Fresh external process in a temporary directory; all inputs embedded in one user event; agy sandbox/plan mode or Claude safe mode; no outside file is required.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 174.55,
+  "resolved_model_id": "gemini-3.8-flash",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "17dd7012-396a-48f6-908b-111cdad9ec25",
+  "usage": {
+    "input_tokens": 46657,
+    "output_tokens": 62742,
+    "thinking_tokens": 60758,
+    "cache_read_tokens": 0,
+    "total_tokens": 109399
+  },
+  "denied_actions": [],
+  "report_sha256": "6a3adba7761b50885fde61fcdb645c536ca95cbe419b131c87ec8def81169aad"
+}

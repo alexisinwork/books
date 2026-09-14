@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:25:57+00:00",
+  "role": "final-bilingual-verification",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "3db88d0faaa31cf9486cabe4a4db3c370def86a48fd97508e35bb86d28d47871"
+  },
+  "source": {
+    "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/preparation/source.ru.complete.txt",
+    "sha256": "928c21df99f207fad62ae9dab4f14e79a68bbfc0c34d11049a1ea06533f4debc"
+  },
+  "inputs": [
+    {
+      "label": "RU_PART_1",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-01/source.ru.txt",
+      "sha256": "c1819c9ce4a4d9166e55760ebecca0c8c24846813b8ba1371b37a6cb8318e775"
+    },
+    {
+      "label": "UK_PART_1",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-01/target.uk.txt",
+      "sha256": "01cb444afac720c2c8b912ad2993e0156b547a6fdf9b07bb5cda5cef04696d0a"
+    },
+    {
+      "label": "RU_PART_2",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-02/source.ru.txt",
+      "sha256": "28b7cadd1a9ffdc6c12206f3b0ff7a671de389f98861b27d9c424e10a89285c1"
+    },
+    {
+      "label": "UK_PART_2",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-02/target.uk.txt",
+      "sha256": "be5bb75108e2c1cb49ffbcd1e909986680cbaaccc7c5ef7fed0a5416a38a680d"
+    },
+    {
+      "label": "RU_PART_3",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-03/source.ru.txt",
+      "sha256": "58e5e703f41e5c38684c77a1f4a19a294f258ca7a53a82ece31b633e9145b7bf"
+    },
+    {
+      "label": "UK_PART_3",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-03/target.uk.txt",
+      "sha256": "7f0fc31a48d7424131cd1f1f406739e7a5d9a1b530ec71047660143b439e7cbb"
+    }
+  ],
+  "temporary_inputs": [
+    {
+      "label": "RU_PART_1",
+      "path": "/tmp/literary-model-kei76_yv/01-RU_PART_1.txt",
+      "sha256": "c1819c9ce4a4d9166e55760ebecca0c8c24846813b8ba1371b37a6cb8318e775"
+    },
+    {
+      "label": "UK_PART_1",
+      "path": "/tmp/literary-model-kei76_yv/02-UK_PART_1.txt",
+      "sha256": "01cb444afac720c2c8b912ad2993e0156b547a6fdf9b07bb5cda5cef04696d0a"
+    },
+    {
+      "label": "RU_PART_2",
+      "path": "/tmp/literary-model-kei76_yv/03-RU_PART_2.txt",
+      "sha256": "28b7cadd1a9ffdc6c12206f3b0ff7a671de389f98861b27d9c424e10a89285c1"
+    },
+    {
+      "label": "UK_PART_2",
+      "path": "/tmp/literary-model-kei76_yv/04-UK_PART_2.txt",
+      "sha256": "be5bb75108e2c1cb49ffbcd1e909986680cbaaccc7c5ef7fed0a5416a38a680d"
+    },
+    {
+      "label": "RU_PART_3",
+      "path": "/tmp/literary-model-kei76_yv/05-RU_PART_3.txt",
+      "sha256": "58e5e703f41e5c38684c77a1f4a19a294f258ca7a53a82ece31b633e9145b7bf"
+    },
+    {
+      "label": "UK_PART_3",
+      "path": "/tmp/literary-model-kei76_yv/06-UK_PART_3.txt",
+      "sha256": "7f0fc31a48d7424131cd1f1f406739e7a5d9a1b530ec71047660143b439e7cbb"
+    }
+  ],
+  "prompt_sha256": "29a3d08fe5619e917239a5558509b9a6629e134af9ffca6329180ba36ce01f45",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "temporary_absolute_paths",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 325.02,
+  "resolved_model_id": "gemini-3.8-flash",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "ac338ebe-7fd3-4c55-8280-dc1ed69dbe61",
+  "usage": {
+    "input_tokens": 690535,
+    "output_tokens": 79483,
+    "thinking_tokens": 56580,
+    "cache_read_tokens": 6348392,
+    "total_tokens": 770018
+  },
+  "denied_actions": [],
+  "report_sha256": "4da14ecd63f17f71f1e7ae6826bec8fa44665d5fcd98e323c097fffac97bb679"
+}

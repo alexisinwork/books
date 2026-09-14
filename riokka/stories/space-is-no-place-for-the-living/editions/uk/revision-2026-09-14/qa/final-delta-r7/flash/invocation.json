@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:17:35+00:00",
+  "role": "final-bilingual-delta-verification",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "71f6c586a04dff383175d99e94c2b9b8338e4bfeb147dc9a1a12c41aee0851b7"
+  },
+  "source": {
+    "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/preparation/source.ru.complete.txt",
+    "sha256": "928c21df99f207fad62ae9dab4f14e79a68bbfc0c34d11049a1ea06533f4debc"
+  },
+  "inputs": [
+    {
+      "label": "RU_CHANGED_AND_DEPENDENT",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r7/source.ru.txt",
+      "sha256": "ab0a55c8c8b4ce1c501d77c88d01d0a1e607db3c3eeeeebfbbf044db1b6df6eb"
+    },
+    {
+      "label": "UK_CHANGED_AND_DEPENDENT",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r7/target.uk.txt",
+      "sha256": "04bbf2040d888d7fc3dc81ab5cbd44d946ade82794e4c60087de380cbef12927"
+    }
+  ],
+  "temporary_inputs": [
+    {
+      "label": "RU_CHANGED_AND_DEPENDENT",
+      "path": "/tmp/literary-model-4hroa29f/01-RU_CHANGED_AND_DEPENDENT.txt",
+      "sha256": "ab0a55c8c8b4ce1c501d77c88d01d0a1e607db3c3eeeeebfbbf044db1b6df6eb"
+    },
+    {
+      "label": "UK_CHANGED_AND_DEPENDENT",
+      "path": "/tmp/literary-model-4hroa29f/02-UK_CHANGED_AND_DEPENDENT.txt",
+      "sha256": "04bbf2040d888d7fc3dc81ab5cbd44d946ade82794e4c60087de380cbef12927"
+    }
+  ],
+  "prompt_sha256": "4415c9246925aaef173f206b4f1f6cbb06cb8cf3368334a8cfe7b45b2c6b66d4",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "temporary_absolute_paths",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 273.48,
+  "resolved_model_id": "gemini-3.8-flash",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "c0fd3d67-4b77-45d3-a465-5fa699ba69ad",
+  "usage": {
+    "input_tokens": 457087,
+    "output_tokens": 68085,
+    "thinking_tokens": 45278,
+    "cache_read_tokens": 4680997,
+    "total_tokens": 525172
+  },
+  "denied_actions": [],
+  "report_sha256": "a6816d64efa3e411366c93488f9e0173b0be3df0a6ca0089806509d884b2796a"
+}

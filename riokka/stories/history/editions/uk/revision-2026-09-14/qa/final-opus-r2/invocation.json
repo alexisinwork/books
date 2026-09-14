@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T21:18:08+00:00",
+  "role": "independent-bilingual-literary-review-final",
+  "client": "Claude Code",
+  "requested_model": "opus",
+  "target": {
+    "path": "riokka/stories/history/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "e5eec10d513f685e07aa3e45ee4fce46daaa0c9149c4ee6ca1cc80f50770d5e8"
+  },
+  "source": {
+    "path": "riokka/stories/history/editions/uk/revision-2026-09-14/preparation/source.ru.complete.txt",
+    "sha256": "9ea767309cd23ca2d0e0165a51e059be8a01799a823f511a98054ad420baec36"
+  },
+  "inputs": [
+    {
+      "label": "RU_PART_1",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/qa/final-review-chunks-r3/part-01/source.ru.txt",
+      "sha256": "ba76b568b4c12c3fc851c8027c9881c661923d39da44b27867a702a9281f54d0"
+    },
+    {
+      "label": "UK_PART_1",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/qa/final-review-chunks-r3/part-01/target.uk.txt",
+      "sha256": "5e4511009e1fb5a7e0f128c0edc79d14faa1b4b9bba7535c2b06cb2a50c27eb8"
+    },
+    {
+      "label": "RU_PART_2",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/qa/final-review-chunks-r3/part-02/source.ru.txt",
+      "sha256": "3b7cab159689bfc1b4a69a501b60bb9076c8e393e9805974acfd8ad1902a7552"
+    },
+    {
+      "label": "UK_PART_2",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/qa/final-review-chunks-r3/part-02/target.uk.txt",
+      "sha256": "5b5b358152d00e370d9c5586d8416b3c34336e5082983c4b7a3cb895b55e74dd"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "35b650203da31409ce34a36c212f2b4f066ba4c29b374793e4efc311450f93c4",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "embedded_in_prompt",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 412.13,
+  "model_usage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 23861,
+      "outputTokens": 28,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.024001,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-haiku-4-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    },
+    "claude-opus-5": {
+      "inputTokens": 2,
+      "outputTokens": 23340,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 24818,
+      "webSearchRequests": 0,
+      "costUSD": 0.83169,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 21162,
+      "canonicalModel": "claude-opus-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "report_sha256": "b89657b3763b465fd3b32234a534b378458b39ab0c068537b84cc7b2a701e61a"
+}

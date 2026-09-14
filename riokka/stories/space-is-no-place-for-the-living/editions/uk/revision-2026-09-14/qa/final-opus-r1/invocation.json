@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T21:27:30+00:00",
+  "role": "independent-target-only-uk-language-review-final",
+  "client": "Claude Code",
+  "requested_model": "opus",
+  "target": {
+    "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "f660c75219a4b3f0641be3b87a265c10379b64862dc51291acb6d5a45e23eade"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "UK_PART_1",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r5/part-01/target.uk.txt",
+      "sha256": "35fe2d358a6b42273b7664a0c7bd51fbb3c0248be9ab6f47063c9e8a325a580f"
+    },
+    {
+      "label": "UK_PART_2",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r5/part-02/target.uk.txt",
+      "sha256": "90a80d0d19aa81b1d2984c85c7c90aff9222c283b418b30c8ac2a18576228f52"
+    },
+    {
+      "label": "UK_PART_3",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r5/part-03/target.uk.txt",
+      "sha256": "fb690582cd57674c42730e44fb9e67f9fba88dbbb6c1c6794b2c0361ca81ed76"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "04c962f2131a835b054b596bb868325a31a926d793eb8a19461002719c92bd40",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "embedded_in_prompt",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 1146.8,
+  "model_usage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 26992,
+      "outputTokens": 19,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.027087,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-haiku-4-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    },
+    "claude-opus-5": {
+      "inputTokens": 2,
+      "outputTokens": 60435,
+      "cacheReadInputTokens": 1360,
+      "cacheCreationInputTokens": 26570,
+      "webSearchRequests": 0,
+      "costUSD": 1.777265,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 46096,
+      "canonicalModel": "claude-opus-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "report_sha256": "421017597f096afced08701eec108a813712bc1bf584410575191ebc61e8ce97"
+}

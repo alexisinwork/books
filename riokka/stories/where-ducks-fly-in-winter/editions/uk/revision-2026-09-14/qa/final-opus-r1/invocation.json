@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:00:24+00:00",
+  "role": "independent-target-only-uk-language-review-final",
+  "client": "Claude Code",
+  "requested_model": "opus",
+  "target": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "e25d134eee73b75c430b351d68efadeed58694e6d7364f939a7b316a0bf084f1"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "UK_PART_1",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r6/part-01/target.uk.txt",
+      "sha256": "19e4ff9e52498c2d6521b813ebf49d76f84fbd6c4cd2271138336dcc8c2cf607"
+    },
+    {
+      "label": "UK_PART_2",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r6/part-02/target.uk.txt",
+      "sha256": "57e296d333b9f8dc55a1c4630fb792982074ecd5a43d25e6940bfffe1d1ceeb5"
+    },
+    {
+      "label": "UK_PART_3",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r6/part-03/target.uk.txt",
+      "sha256": "29748d68a3e57767bc14fd036569abe248fbbd17f602b9c2de84d40f1b9686e9"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "202f05029f4b492fd80495feb2a42c08e4984e4f96f4401a24b13b603d3878d3",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "embedded_in_prompt",
+  "status": "failed_timeout",
+  "seconds": 1200.03,
+  "error": "subprocess timeout after 1200 seconds"
+}

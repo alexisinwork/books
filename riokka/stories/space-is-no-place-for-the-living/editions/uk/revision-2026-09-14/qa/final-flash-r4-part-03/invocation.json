@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T20:54:02+00:00",
+  "role": "bilingual-language-review-part-3-of-3-final",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "c512b803299595464e1b9559a9354d9bb52ec49ef030eab255289debb9f99307"
+  },
+  "source": {
+    "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/preparation/source.ru.txt",
+    "sha256": "4bf49c6acd9e4c7f0eefa2dbbe7b8b7337423c15382eb59baf93e51493e9eec5"
+  },
+  "inputs": [
+    {
+      "label": "RU",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r4/part-03/source.ru.txt",
+      "sha256": "8e57151c317f424643a11a1a754fc18b232215c2bf7a04426c8021b93bcae478"
+    },
+    {
+      "label": "UK",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r4/part-03/target.uk.txt",
+      "sha256": "b46f048f8783741c3af8c9d3ba02189b98661ac9980f70843833b2b8778f070b"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "060769ac12a4b0de76881b2e0482f98e5c1273d352dbf648423277ffa2e981df",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 126.03,
+  "resolved_model_id": "gemini-3.8-flash",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "2196e8f6-53cd-455a-a3d4-9af2023c0b07",
+  "usage": {
+    "input_tokens": 27291,
+    "output_tokens": 47152,
+    "thinking_tokens": 45948,
+    "cache_read_tokens": 0,
+    "total_tokens": 74443
+  },
+  "denied_actions": [],
+  "report_sha256": "7b446cd345c7fbc48f08c3e3fe0604e870ee1f58850ea86f9bcd4bce96b957a0"
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:14:33+00:00",
+  "role": "final_independent_target_only_pro",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.1-pro-high",
+  "target": {
+    "path": "riokka/stories/history/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "757bb0c3f03ec1e8a6aa89edacfb83ce812cfe0f3d5289bb82e410f88b97a3b9"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "UK_TARGET",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/target.uk.txt",
+      "sha256": "757bb0c3f03ec1e8a6aa89edacfb83ce812cfe0f3d5289bb82e410f88b97a3b9"
+    }
+  ],
+  "prompt_sha256": "f7035cd5d3416f16aaaabc6c9cfe5993ab260df40a040c2ec1eed3e6cab6d6d1",
+  "isolation": "Fresh external process; all inputs embedded; sandbox/safe mode; no permitted model tools or MCP.",
+  "status": "policy_blocked_no_report",
+  "exit_code": 0,
+  "seconds": 3.1,
+  "resolved_model_id": "gemini-3.1-pro-high",
+  "resolved_model_label": "Gemini 3.1 Pro (High)",
+  "conversation_id": "7a6c4ab3-125b-4c05-ad46-e0c54d6a45c8",
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "thinking_tokens": 0,
+    "cache_read_tokens": 0,
+    "total_tokens": 0
+  },
+  "denied_actions": [],
+  "client_response": "The prompt was rejected by the provider's content policy before inference; the manuscript was not altered or sanitized to obtain a pass.",
+  "report_sha256": null
+}

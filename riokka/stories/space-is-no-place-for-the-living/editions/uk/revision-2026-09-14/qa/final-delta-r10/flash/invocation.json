@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:32:37+00:00",
+  "role": "final-bilingual-delta-verification",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "756b066500dea9800053bbbd90dbed3e89e214134613ffb917598ca0e2ea6168"
+  },
+  "source": {
+    "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/preparation/source.ru.complete.txt",
+    "sha256": "928c21df99f207fad62ae9dab4f14e79a68bbfc0c34d11049a1ea06533f4debc"
+  },
+  "inputs": [
+    {
+      "label": "RU_P080",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-02/source.ru.txt",
+      "sha256": "6a70dad441e2583ebc507b2225378ce7064b3d0ee0cbd71cce18041fcbd0b0fc"
+    },
+    {
+      "label": "UK_P080",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-02/target.uk.txt",
+      "sha256": "70be86d236ef2569014192199b40434289465a868c08dfd0c1d2a22d8ba94794"
+    },
+    {
+      "label": "RU_P179",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-04/source.ru.txt",
+      "sha256": "d03b661079f54a6871db62880f6afa4d4bb39e583594a67a80b3063f0c96e3b7"
+    },
+    {
+      "label": "UK_P179",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-04/target.uk.txt",
+      "sha256": "8baa565453f69514b90dc5689964cc0599ddc4c3a79eb9f60e0181929ecdf3e4"
+    },
+    {
+      "label": "RU_P186_189",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-06/source.ru.txt",
+      "sha256": "3d6efeaf1af5991888bec3074ed24c5adfe6a18f6d8c240b0a65f7e2c47eea38"
+    },
+    {
+      "label": "UK_P186_189",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-06/target.uk.txt",
+      "sha256": "ff220ebafd7a9eea3a1c4bcb6ea9823f75fef12a52acc0f4e34677b831bd5194"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "c39040ec4397df4ea02fa9f7a100238d8864127ec193458e8fed594b996b685e",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 89.67,
+  "resolved_model_id": "gemini-3.8-flash",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "d4ac3967-6909-4971-8d16-f22380791041",
+  "usage": {
+    "input_tokens": 15908,
+    "output_tokens": 28872,
+    "thinking_tokens": 27784,
+    "cache_read_tokens": 0,
+    "total_tokens": 44780
+  },
+  "denied_actions": [],
+  "report_sha256": "35918b3c0c932242f3531d30f384db52b9dce28eab13e1f0a49c0837c90de079"
+}

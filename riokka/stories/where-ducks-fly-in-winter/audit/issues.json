@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "book_id": "story-where-ducks-fly-in-winter",
+  "issues": [
+    {
+      "id": "DUCKS-CALENDAR-001",
+      "category": "source_continuity",
+      "description": "The source dates events to 2098 but twice calls the setting the end of the second millennium.",
+      "resolution_status": "unresolved",
+      "dependencies": ["target.uk.txt P003", "target.uk.txt P224"],
+      "current_treatment": "Preserved from RU_SOURCE_MASTER; no silent factual correction during language adaptation."
+    },
+    {
+      "id": "DUCKS-BEER-PACKAGING-002",
+      "category": "source_continuity",
+      "description": "Dmytro buys exactly two cans of Guinness, but Nataliia's later protocol says he celebrated with several small bottles of Irish beer.",
+      "resolution_status": "unresolved",
+      "dependencies": ["target.uk.txt P006", "target.uk.txt P085"],
+      "current_treatment": "Both source statements are preserved; the language adaptation does not silently change the official protocol to match the shopping scene."
+    }
+  ]
+}

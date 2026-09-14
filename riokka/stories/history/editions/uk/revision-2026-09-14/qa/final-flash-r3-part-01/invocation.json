@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T21:01:10+00:00",
+  "role": "bilingual-language-review-part-1-of-2-final",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/history/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "6d277eec1d78d21a712083079adc533043ad6b4efffad891dbc7e52d455fab2c"
+  },
+  "source": {
+    "path": "riokka/stories/history/editions/uk/revision-2026-09-14/preparation/source.ru.complete.txt",
+    "sha256": "9ea767309cd23ca2d0e0165a51e059be8a01799a823f511a98054ad420baec36"
+  },
+  "inputs": [
+    {
+      "label": "RU",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/qa/final-review-chunks-r2/part-01/source.ru.txt",
+      "sha256": "ba76b568b4c12c3fc851c8027c9881c661923d39da44b27867a702a9281f54d0"
+    },
+    {
+      "label": "UK",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/qa/final-review-chunks-r2/part-01/target.uk.txt",
+      "sha256": "8ee3f24f86ea5cdb21b56541125177498e3a10c8e1a3538a570cba2052d0c227"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "48a6fae03ca5fbd0572ce2f94e7e0222bc6dca4c8f5cbaa3aa660d31e5185254",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 114.4,
+  "resolved_model_id": "gemini-3.8-flash",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "6b0fe708-40a2-40cc-8ead-2fe62ca80567",
+  "usage": {
+    "input_tokens": 23853,
+    "output_tokens": 39991,
+    "thinking_tokens": 38456,
+    "cache_read_tokens": 0,
+    "total_tokens": 63844
+  },
+  "denied_actions": [],
+  "report_sha256": "5315d3117f40f3c64484dc9e8da3869527c070996c3fe432856395817c580d14"
+}

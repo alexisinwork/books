@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:02:37+00:00",
+  "role": "independent-target-only-uk-language-review-final",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.1-pro-high",
+  "target": {
+    "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "4f6f497b9ed2c7d92c1434e136d4dbbd493a34c638a975d1c3150bb8eda4948f"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "UK_PART_1",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r6/part-01/target.uk.txt",
+      "sha256": "97a0fb65322d22149c00fc66a04997cbb00c7ef6ef3ba919961970ada7f35b97"
+    },
+    {
+      "label": "UK_PART_2",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r6/part-02/target.uk.txt",
+      "sha256": "8bf0cfc1b2a7b9e1ea8905f92fea70c4ab8204b3653c608083a02cc6c0bfc6e1"
+    },
+    {
+      "label": "UK_PART_3",
+      "path": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/qa/final-review-chunks-r6/part-03/target.uk.txt",
+      "sha256": "771248c87e3c4305c4421e3e83b662b35316ccb4241b488a0b33f3ada6b086f6"
+    }
+  ],
+  "temporary_inputs": [
+    {
+      "label": "UK_PART_1",
+      "path": "/tmp/literary-model-sdyuv0f0/01-UK_PART_1.txt",
+      "sha256": "97a0fb65322d22149c00fc66a04997cbb00c7ef6ef3ba919961970ada7f35b97"
+    },
+    {
+      "label": "UK_PART_2",
+      "path": "/tmp/literary-model-sdyuv0f0/02-UK_PART_2.txt",
+      "sha256": "8bf0cfc1b2a7b9e1ea8905f92fea70c4ab8204b3653c608083a02cc6c0bfc6e1"
+    },
+    {
+      "label": "UK_PART_3",
+      "path": "/tmp/literary-model-sdyuv0f0/03-UK_PART_3.txt",
+      "sha256": "771248c87e3c4305c4421e3e83b662b35316ccb4241b488a0b33f3ada6b086f6"
+    }
+  ],
+  "prompt_sha256": "1a0278c10a6b2c31bb944ac886696edc7aa6cf9f4920e4a00b702f088227bf49",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "temporary_absolute_paths",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 69.36,
+  "resolved_model_id": "gemini-3.1-pro-high",
+  "resolved_model_label": "Gemini 3.1 Pro (High)",
+  "conversation_id": "82d4127b-5077-4321-951a-0d4fd1e89132",
+  "usage": {
+    "input_tokens": 34076,
+    "output_tokens": 7501,
+    "thinking_tokens": 5478,
+    "cache_read_tokens": 20327,
+    "total_tokens": 41577
+  },
+  "denied_actions": [],
+  "report_sha256": "8745379c227df8660b3314be2b12665f46ae09ba6228a7fba0a4c42c113c231d"
+}

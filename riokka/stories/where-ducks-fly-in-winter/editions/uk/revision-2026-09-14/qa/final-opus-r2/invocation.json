@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:23:03+00:00",
+  "role": "independent-target-only-uk-language-review-final-concise",
+  "client": "Claude Code",
+  "requested_model": "opus",
+  "target": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "b946a2ce3b41cb22b4e6ce80c93ecf15951c459eef4ea0a31ad255500161dae3"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "UK_PART_1",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r7/part-01/target.uk.txt",
+      "sha256": "487be89f2b3a653b0fc38b29290d5c79a77bac8715dd70a1555f65ae35cd93d6"
+    },
+    {
+      "label": "UK_PART_2",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r7/part-02/target.uk.txt",
+      "sha256": "512e3a3b4cec43b4b83c572c3e73aa8d794a45eac8c0b1909ecfc48d61677768"
+    },
+    {
+      "label": "UK_PART_3",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r7/part-03/target.uk.txt",
+      "sha256": "195e22ae699794a726d1efc8b88c7183d32f0497a794c02b8068f8dd6a895403"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "c228efa13b5dba9cc9e15547bb803b2d26fed9dba88b355b55456a7ce057f836",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "embedded_in_prompt",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 784.2,
+  "model_usage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 26418,
+      "outputTokens": 24,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.026538,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-haiku-4-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    },
+    "claude-opus-5": {
+      "inputTokens": 2,
+      "outputTokens": 42258,
+      "cacheReadInputTokens": 1360,
+      "cacheCreationInputTokens": 26016,
+      "webSearchRequests": 0,
+      "costUSD": 1.3173,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 39166,
+      "canonicalModel": "claude-opus-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "report_sha256": "e540600adec5c9dd84cbe1da4352cd5eca68fe8658dbbd43e896cdfb4a0f5732"
+}

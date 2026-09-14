@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:27:47+00:00",
+  "role": "pre_revision_full_bilingual_map",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash-high",
+  "target": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/preparation/previous.uk.txt",
+    "sha256": "6ca6449ff04f42a16e1a1593d7ac68c3d779f4939bb7247b28797572e2c7e8d3"
+  },
+  "source": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/SOURCE/ru.docx",
+    "sha256": "3cb15c55923e85db94b4e84ef5f75e58fc2f8e94a4a9a2a4e5c18cfd3d83bb19"
+  },
+  "inputs": [
+    {
+      "label": "RU",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/preparation/source.ru.txt",
+      "sha256": "48c139b78df88c0d33fffc499e336a172afbc1640afe5b0f463554fb7a96510b"
+    },
+    {
+      "label": "UK_BEFORE",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/preparation/previous.uk.txt",
+      "sha256": "6ca6449ff04f42a16e1a1593d7ac68c3d779f4939bb7247b28797572e2c7e8d3"
+    },
+    {
+      "label": "COMMON_UK",
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "92355142d6dd7aa2b164185caf68214529942414529d254d4cbf49220401da5b"
+    }
+  ],
+  "prompt_sha256": "bdeb7418148f4bea2cfe745a78937426b9d95fd31c382bad0f1f6395bf65220b",
+  "isolation": "Fresh temporary directory containing exact input copies; agy sandbox and plan mode; command permission enabled only inside the disposable directory.",
+  "input_delivery": "isolated_files",
+  "status": "running"
+}

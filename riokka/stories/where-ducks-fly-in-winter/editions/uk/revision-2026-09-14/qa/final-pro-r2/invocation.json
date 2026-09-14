@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:42:45+00:00",
+  "role": "final-target-only-uk-language-review",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.1-pro-high",
+  "target": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "77436f1edad504b5ba86fe220f9bbf8b3fd00dff7c74da4f61e10049c8c5e7d1"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "UK_PART_1",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-01/target.uk.txt",
+      "sha256": "c2ce5cd707ac4b1b0f10527237e093c4419d8d9ccf2b4728b6779fda0962e6e0"
+    },
+    {
+      "label": "UK_PART_2",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-02/target.uk.txt",
+      "sha256": "253ff01e280764d8682c09774f4644a5cf7152de41914dd79057de4508057479"
+    },
+    {
+      "label": "UK_PART_3",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-03/target.uk.txt",
+      "sha256": "bdb500d814069d1ae5c554d513263463c274d03d7f533dcf174444a701cc5d5d"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "44870f0f6bdb96d76450b699d458370691cb77d89cf6a849f0eabbea376c52a8",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 106.13,
+  "resolved_model_id": "gemini-3.1-pro-high",
+  "resolved_model_label": "Gemini 3.1 Pro (High)",
+  "conversation_id": "d0d25cab-a8e1-4e84-9ce9-5123649c4c9d",
+  "usage": {
+    "input_tokens": 34572,
+    "output_tokens": 13069,
+    "thinking_tokens": 12021,
+    "cache_read_tokens": 0,
+    "total_tokens": 47641
+  },
+  "denied_actions": [],
+  "report_sha256": "78de5bd25878cfd584dc1385c4f84cca6faa113fa3069333ba77f13f9bf4f074"
+}

@@ -1,0 +1,22 @@
+# Фінальна двомовна мовна перевірка фрагмента
+
+Незалежно прочитайте всі надані абзаци RU та нової UK-редакції. Глобальні номери `P###` збігаються між документами. Це окремий фрагмент більшого оповідання; не стверджуйте, що прочитали ненадані абзаци. Нічого не редагуйте.
+
+Знайдіть лише матеріальні дефекти: зміну або втрату змісту, причинності, просторової чи технічної дії; неприродну сучасну українську; калькований синтаксис, керування, ідіому або репліку; збій голосу, гумору, терміна, числа, займенника чи часової рамки. Для кожного пункту дайте P, короткі точні RU/UK цитати, клас S1/S2/S3 або OPTIONAL, пояснення й мінімальний принцип виправлення. Не вважайте русизмом конструкцію лише через схожість мов, не вигадуйте відсутню цитату й не переписуйте сюжет заради наукової правдоподібності.
+
+Завершіть підрахунком, фактичним діапазоном обох текстів, останнім прочитаним P і PASS або REQUIRES REVISION. PASS означає лише відсутність матеріальних дефектів у наданому фрагменті. Якщо вхід усікся, назвіть останній реально прочитаний P.
+
+
+RUN METADATA
+
+Role: final-bilingual-delta-verification
+
+Target SHA-256: 71f6c586a04dff383175d99e94c2b9b8338e4bfeb147dc9a1a12c41aee0851b7
+
+Source SHA-256: 928c21df99f207fad62ae9dab4f14e79a68bbfc0c34d11049a1ea06533f4debc
+
+The absolute paths below are the complete set of permitted input files. Read each exact path and no other file. Do not list, search, glob, or traverse any directory. Do not use repository memory, similarly named files, network resources, or reports. If an exact path cannot be read or its SHA-256 differs, report that failure; do not look for a fallback copy. Do not edit the files.
+
+INPUT FILES
+- /tmp/literary-model-4hroa29f/01-RU_CHANGED_AND_DEPENDENT.txt: RU_CHANGED_AND_DEPENDENT; SHA-256 ab0a55c8c8b4ce1c501d77c88d01d0a1e607db3c3eeeeebfbbf044db1b6df6eb
+- /tmp/literary-model-4hroa29f/02-UK_CHANGED_AND_DEPENDENT.txt: UK_CHANGED_AND_DEPENDENT; SHA-256 04bbf2040d888d7fc3dc81ab5cbd44d946ade82794e4c60087de380cbef12927

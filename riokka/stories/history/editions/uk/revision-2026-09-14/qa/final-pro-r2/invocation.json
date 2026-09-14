@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:00:47+00:00",
+  "role": "independent-target-only-uk-language-review-final",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.1-pro-high",
+  "target": {
+    "path": "riokka/stories/history/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "f0b601882cfe75dd2abefc282d600130562becbcae7ef739659e9de922012064"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "UK_PART_1",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/qa/final-review-chunks-r5/part-01/target.uk.txt",
+      "sha256": "68fdc8bc25bb7c0056799e94b27b13493c09c56465c0db8c482337e2f7c3601d"
+    },
+    {
+      "label": "UK_PART_2",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/qa/final-review-chunks-r5/part-02/target.uk.txt",
+      "sha256": "abcf2e238cf35790698c3354de3a8e0b0d2c9646e00b32519202d92056ade1b1"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "f480b778ac891454d91b2b8664cb54fea1ebbd3a4e37f334547efd021f124232",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 67.55,
+  "resolved_model_id": "gemini-3.1-pro-high",
+  "resolved_model_label": "Gemini 3.1 Pro (High)",
+  "conversation_id": "a94e320f-73f7-4eeb-88e4-d3c7b5f3649b",
+  "usage": {
+    "input_tokens": 24049,
+    "output_tokens": 7248,
+    "thinking_tokens": 5378,
+    "cache_read_tokens": 0,
+    "total_tokens": 31297
+  },
+  "denied_actions": [],
+  "report_sha256": "7b53cd52013d9a4f1b7f0563f10a8b9ff1c748539fa860dfccd05c9e544a9779"
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:42:45+00:00",
+  "role": "final-bilingual-verification",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "77436f1edad504b5ba86fe220f9bbf8b3fd00dff7c74da4f61e10049c8c5e7d1"
+  },
+  "source": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/preparation/source.ru.complete.txt",
+    "sha256": "48c139b78df88c0d33fffc499e336a172afbc1640afe5b0f463554fb7a96510b"
+  },
+  "inputs": [
+    {
+      "label": "RU_PART_1",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-01/source.ru.txt",
+      "sha256": "e62d685becc316fb3f4abda7915c64d889de1eeb968d23f7b28921087befa405"
+    },
+    {
+      "label": "UK_PART_1",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-01/target.uk.txt",
+      "sha256": "c2ce5cd707ac4b1b0f10527237e093c4419d8d9ccf2b4728b6779fda0962e6e0"
+    },
+    {
+      "label": "RU_PART_2",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-02/source.ru.txt",
+      "sha256": "aae3a0c11b0d5f71a5803842160542c0c4113abd39c40ef951c28437e3ddab30"
+    },
+    {
+      "label": "UK_PART_2",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-02/target.uk.txt",
+      "sha256": "253ff01e280764d8682c09774f4644a5cf7152de41914dd79057de4508057479"
+    },
+    {
+      "label": "RU_PART_3",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-03/source.ru.txt",
+      "sha256": "89e7738ac129c5c0660e8dc57ec30dc1f52dcd1595e46d103218d1498f6abdc9"
+    },
+    {
+      "label": "UK_PART_3",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r8/part-03/target.uk.txt",
+      "sha256": "bdb500d814069d1ae5c554d513263463c274d03d7f533dcf174444a701cc5d5d"
+    }
+  ],
+  "temporary_inputs": [
+    {
+      "label": "RU_PART_1",
+      "path": "/tmp/literary-model-ct579efh/01-RU_PART_1.txt",
+      "sha256": "e62d685becc316fb3f4abda7915c64d889de1eeb968d23f7b28921087befa405"
+    },
+    {
+      "label": "UK_PART_1",
+      "path": "/tmp/literary-model-ct579efh/02-UK_PART_1.txt",
+      "sha256": "c2ce5cd707ac4b1b0f10527237e093c4419d8d9ccf2b4728b6779fda0962e6e0"
+    },
+    {
+      "label": "RU_PART_2",
+      "path": "/tmp/literary-model-ct579efh/03-RU_PART_2.txt",
+      "sha256": "aae3a0c11b0d5f71a5803842160542c0c4113abd39c40ef951c28437e3ddab30"
+    },
+    {
+      "label": "UK_PART_2",
+      "path": "/tmp/literary-model-ct579efh/04-UK_PART_2.txt",
+      "sha256": "253ff01e280764d8682c09774f4644a5cf7152de41914dd79057de4508057479"
+    },
+    {
+      "label": "RU_PART_3",
+      "path": "/tmp/literary-model-ct579efh/05-RU_PART_3.txt",
+      "sha256": "89e7738ac129c5c0660e8dc57ec30dc1f52dcd1595e46d103218d1498f6abdc9"
+    },
+    {
+      "label": "UK_PART_3",
+      "path": "/tmp/literary-model-ct579efh/06-UK_PART_3.txt",
+      "sha256": "bdb500d814069d1ae5c554d513263463c274d03d7f533dcf174444a701cc5d5d"
+    }
+  ],
+  "prompt_sha256": "a0e438e80f837da33286fbc198b80af17e67d13c97725dd083927ff12e57595a",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "temporary_absolute_paths",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 341.04,
+  "resolved_model_id": "gemini-3.8-flash",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "130f5b79-7bce-445a-b90c-984bed732bc4",
+  "usage": {
+    "input_tokens": 423481,
+    "output_tokens": 88081,
+    "thinking_tokens": 61547,
+    "cache_read_tokens": 6146776,
+    "total_tokens": 511562
+  },
+  "denied_actions": [],
+  "report_sha256": "ff7dd1490c00768de504aa0f19c9c3896f6c24975592b70b2bc635d85b0cec70"
+}

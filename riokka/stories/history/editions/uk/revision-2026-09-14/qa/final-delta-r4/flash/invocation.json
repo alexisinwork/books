@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T21:08:35+00:00",
+  "role": "bilingual-delta-verification-final",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/history/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "e5eec10d513f685e07aa3e45ee4fce46daaa0c9149c4ee6ca1cc80f50770d5e8"
+  },
+  "source": {
+    "path": "riokka/stories/history/editions/uk/revision-2026-09-14/preparation/source.ru.complete.txt",
+    "sha256": "9ea767309cd23ca2d0e0165a51e059be8a01799a823f511a98054ad420baec36"
+  },
+  "inputs": [
+    {
+      "label": "RU",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/qa/final-delta-r4/source.ru.txt",
+      "sha256": "9a6317c677acc8ab91fac93f06cb1ab2b9aa1529ecbd4a2371c8f94eeab21697"
+    },
+    {
+      "label": "UK",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/qa/final-delta-r4/target.uk.txt",
+      "sha256": "ebd0c9d405e47eb076b422ddaa7121e1c6d67f8bb412034c4deab4d83ccde266"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "5bd6a6189e6f57c7972c1e9bd8c73bf56683ae4d1649bfab4dfb71bcf9728f4a",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 113.67,
+  "resolved_model_id": "gemini-3.8-flash",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "2f0861e4-aecc-4cc0-9641-d185884c117d",
+  "usage": {
+    "input_tokens": 17870,
+    "output_tokens": 37160,
+    "thinking_tokens": 35030,
+    "cache_read_tokens": 0,
+    "total_tokens": 55030
+  },
+  "denied_actions": [],
+  "report_sha256": "4d4078c38768a49ed7941b661f25ca6965a3cca2abdc85bb1cf0c4d053633cdd"
+}

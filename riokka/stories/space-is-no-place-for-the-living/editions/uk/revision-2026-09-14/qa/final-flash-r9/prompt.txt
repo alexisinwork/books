@@ -1,0 +1,26 @@
+# Фінальна двомовна мовна перевірка фрагмента
+
+Незалежно прочитайте всі надані абзаци RU та нової UK-редакції. Глобальні номери `P###` збігаються між документами. Це окремий фрагмент більшого оповідання; не стверджуйте, що прочитали ненадані абзаци. Нічого не редагуйте.
+
+Знайдіть лише матеріальні дефекти: зміну або втрату змісту, причинності, просторової чи технічної дії; неприродну сучасну українську; калькований синтаксис, керування, ідіому або репліку; збій голосу, гумору, терміна, числа, займенника чи часової рамки. Для кожного пункту дайте P, короткі точні RU/UK цитати, клас S1/S2/S3 або OPTIONAL, пояснення й мінімальний принцип виправлення. Не вважайте русизмом конструкцію лише через схожість мов, не вигадуйте відсутню цитату й не переписуйте сюжет заради наукової правдоподібності.
+
+Завершіть підрахунком, фактичним діапазоном обох текстів, останнім прочитаним P і PASS або REQUIRES REVISION. PASS означає лише відсутність матеріальних дефектів у наданому фрагменті. Якщо вхід усікся, назвіть останній реально прочитаний P.
+
+
+RUN METADATA
+
+Role: final-bilingual-verification
+
+Target SHA-256: 3db88d0faaa31cf9486cabe4a4db3c370def86a48fd97508e35bb86d28d47871
+
+Source SHA-256: 928c21df99f207fad62ae9dab4f14e79a68bbfc0c34d11049a1ea06533f4debc
+
+The absolute paths below are the complete set of permitted input files. Read each exact path and no other file. Do not list, search, glob, or traverse any directory. Do not use repository memory, similarly named files, network resources, or reports. If an exact path cannot be read or its SHA-256 differs, report that failure; do not look for a fallback copy. Do not edit the files.
+
+INPUT FILES
+- /tmp/literary-model-kei76_yv/01-RU_PART_1.txt: RU_PART_1; SHA-256 c1819c9ce4a4d9166e55760ebecca0c8c24846813b8ba1371b37a6cb8318e775
+- /tmp/literary-model-kei76_yv/02-UK_PART_1.txt: UK_PART_1; SHA-256 01cb444afac720c2c8b912ad2993e0156b547a6fdf9b07bb5cda5cef04696d0a
+- /tmp/literary-model-kei76_yv/03-RU_PART_2.txt: RU_PART_2; SHA-256 28b7cadd1a9ffdc6c12206f3b0ff7a671de389f98861b27d9c424e10a89285c1
+- /tmp/literary-model-kei76_yv/04-UK_PART_2.txt: UK_PART_2; SHA-256 be5bb75108e2c1cb49ffbcd1e909986680cbaaccc7c5ef7fed0a5416a38a680d
+- /tmp/literary-model-kei76_yv/05-RU_PART_3.txt: RU_PART_3; SHA-256 58e5e703f41e5c38684c77a1f4a19a294f258ca7a53a82ece31b633e9145b7bf
+- /tmp/literary-model-kei76_yv/06-UK_PART_3.txt: UK_PART_3; SHA-256 7f0fc31a48d7424131cd1f1f406739e7a5d9a1b530ec71047660143b439e7cbb

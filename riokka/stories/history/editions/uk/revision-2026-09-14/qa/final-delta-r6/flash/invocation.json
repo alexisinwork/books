@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:17:11+00:00",
+  "role": "final-bilingual-delta-verification",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/history/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "3b585ffc6f8d916372bd805e89aa3fbc90fd61f38fd8ba6d3dc21348d9cb24f7"
+  },
+  "source": {
+    "path": "riokka/stories/history/editions/uk/revision-2026-09-14/preparation/source.ru.complete.txt",
+    "sha256": "9ea767309cd23ca2d0e0165a51e059be8a01799a823f511a98054ad420baec36"
+  },
+  "inputs": [
+    {
+      "label": "RU_CHANGED_AND_DEPENDENT",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r6/source.ru.txt",
+      "sha256": "543baf24f08228879515c6a23af1dbde0539f78be8e7ed2c71804f22f2c3ad71"
+    },
+    {
+      "label": "UK_CHANGED_AND_DEPENDENT",
+      "path": "riokka/stories/history/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r6/target.uk.txt",
+      "sha256": "2ebc42f74f992100e6aae237379dbb1e42cecb60a353197700d4ce090edae88c"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "6bc6177c5d313ab9fc5036a56e06cff91eae80d14ca74998152a397f68a95039",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "client_rejected",
+  "exit_code": 0,
+  "seconds": 156.91,
+  "conversation_id": "a0ddcfca-7e47-40f8-be71-5db89d5cf531",
+  "client_status": "ERROR",
+  "response": "# Результати фінальної двомовної мовної перевірки фрагмента\n\nЗдійснено незалежне зіставлення всіх наданих пар абзаців `RU` та нової редакції `UK`. Текст перевірено на предмет матеріальних дефектів: зміни чи втрати змісту, логіки, причинності, просторових дій; синтаксичних та ідіоматичних кальок; збоїв часових рамок, узгодження, регістру та голосів персонажів.\n\nУкраїнська редакція виконана на високому літературному рівні: калькований і синтаксично дефектний російський текст чернетки (зокрема в P033, P108, P112, P138, P144) успішно виправлено й адаптовано до живої, природної української мови з доречною фразеологією та точним керуванням.\n\nМатеріальних дефектів класів **S1** та **S2** не виявлено. Зафіксовано одне дрібне стилістичне спостереження класу **OPTIONAL**.\n\n---\n\n### Знайдені зауваження\n\n* **P079**\n  * **RU цитата:** «Проснулся Иван в ласковых объятиях Маши. [...] но решил не прохлаждаться в ее немного холодных руках.»\n  * **UK цитата:** «Іван прокинувся в лагідних обіймах Маші. [...] Та довго розніжуватися в її прохолодних обіймах він не став.»\n  * **Клас:** OPTIONAL\n  * **Пояснення:** Невиправданий тавтологічний повтор лексеми *«обіймах»* у межах трьох коротких речень (*«в лагідних обіймах... в її прохолодних обіймах»*), через що також нівелюється первинна конкретна тактильна деталь оригіналу (*«руках»*).\n  * **Мінімальний принцип виправлення:** Усунути тавтологію та повернути тактильну деталь: *«Та довго розніжуватися в її прохолодних руках він не став.»*\n\n---\n\n### Підсумок перевірки\n\n* **Матеріальні дефекти (S1 / S2):** 0\n* **Незначні / стилістичні зауваження (S3 / OPTIONAL):** 1 (OPTIONAL)\n* **Фактичний діапазон обох текстів:** P027 – P146 (усього 31 абзац: P027–P033, P052, P067, P079–P081, P091, P108–P112, P134–P146)\n* **Останній прочитаний P:** P146\n\n**Вердикт:** **PASS**\n"
+}

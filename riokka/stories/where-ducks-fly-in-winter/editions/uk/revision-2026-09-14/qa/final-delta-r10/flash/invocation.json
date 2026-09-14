@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:50:39+00:00",
+  "role": "final-bilingual-delta-verification",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "1d9fc44f9eb6c087001583369b42fcc91776fa6a7e4019b429a7b89a5f72854a"
+  },
+  "source": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/preparation/source.ru.complete.txt",
+    "sha256": "48c139b78df88c0d33fffc499e336a172afbc1640afe5b0f463554fb7a96510b"
+  },
+  "inputs": [
+    {
+      "label": "RU_P004",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-02/source.ru.txt",
+      "sha256": "4738502e6c4569b1c213822cadb8914ff928e4341ea196a6358a4b7104f39070"
+    },
+    {
+      "label": "UK_P004",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-02/target.uk.txt",
+      "sha256": "4801975b18855466aa051f6ee6f53d1c4087190993ec4fd2382c5fd29450d406"
+    },
+    {
+      "label": "RU_P030",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-04/source.ru.txt",
+      "sha256": "ff6669686209ebad1fa9f92c90c1fdb85abeff8cc71946f591ab1c1fa05c1d12"
+    },
+    {
+      "label": "UK_P030",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-04/target.uk.txt",
+      "sha256": "d823f8bf3c82710e590095b4426c4028a8f9926d6d3a03ee55d0c3361527bfe1"
+    },
+    {
+      "label": "RU_P040",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-06/source.ru.txt",
+      "sha256": "909fb8f41af81f2094311bdd36dbba849e42e7f23042bf87ee92e89a040fc573"
+    },
+    {
+      "label": "UK_P040",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-06/target.uk.txt",
+      "sha256": "9a2c361d1adf4dde7b1d208bdae0283330a4f3367ffa521ab2dc17ef8606cef9"
+    },
+    {
+      "label": "RU_P053",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-08/source.ru.txt",
+      "sha256": "7f8da6b61f8373380ce9235bb5d7ea0f390b971311e6470b8d3321fda72230d7"
+    },
+    {
+      "label": "UK_P053",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-08/target.uk.txt",
+      "sha256": "e51798c3f66764116e655f4e01cbbe94fc0be8a52c1d1c3abc7fc8c10b16b8cc"
+    },
+    {
+      "label": "RU_P085",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-10/source.ru.txt",
+      "sha256": "cd477434449aa2fd682fcdffd5c9972bc30c8d3f764eac19f06c436156d15565"
+    },
+    {
+      "label": "UK_P085",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-10/target.uk.txt",
+      "sha256": "76f56daae3fc0b89fc35dccdcd45d11ed8c86ff05f0bb5db8a109a946eb7a840"
+    },
+    {
+      "label": "RU_P139",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-12/source.ru.txt",
+      "sha256": "9846a211437ccfd7e62bf87286a56bb926952cad63a3908dc0da131e4c0b6c77"
+    },
+    {
+      "label": "UK_P139",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-12/target.uk.txt",
+      "sha256": "98ed1611b9756fef2c846b1377f85ab14884673e5e98c783791d49e618c701fe"
+    },
+    {
+      "label": "RU_P150",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-14/source.ru.txt",
+      "sha256": "f8c7d463e77d27e4a4200911722afd77e9f6dcfc1579f522beb024d49a037f4b"
+    },
+    {
+      "label": "UK_P150",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-14/target.uk.txt",
+      "sha256": "8a25f3b8ce1066ee2e6e18f22af783cbe1eba86fc340e716ae1ae4b9604e73cf"
+    },
+    {
+      "label": "RU_P155",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-16/source.ru.txt",
+      "sha256": "68b7c60a368cfa903c173b786167c0da95c68f4f3786a7095e22e3799991c8b3"
+    },
+    {
+      "label": "UK_P155",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-16/target.uk.txt",
+      "sha256": "354c44dea255b8322070b76a70a368df4efc2bb4cadfe35a21059b38c2cd7169"
+    },
+    {
+      "label": "RU_P174",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-18/source.ru.txt",
+      "sha256": "046747f3795d6a5d34759f1e8f92a30537c995383652671c0d8ea03ba3983e50"
+    },
+    {
+      "label": "UK_P174",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-18/target.uk.txt",
+      "sha256": "f5c0bf1df3e67ca2c8813c180baae0c65048bd65f22af8728b6c3386da740c59"
+    },
+    {
+      "label": "RU_P218",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-20/source.ru.txt",
+      "sha256": "8d5352ef1dc1829e151735c1ca26d1ccb9406835d50cc7fed3414cee723a8cd7"
+    },
+    {
+      "label": "UK_P218",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-20/target.uk.txt",
+      "sha256": "18c6f865f7301bbfd2d5cd235e430b08b72ecc0ca8a177241edc9f598ac32d7d"
+    },
+    {
+      "label": "RU_P228",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-22/source.ru.txt",
+      "sha256": "0aeb85d01efd22c5ff3435ec2fd706005a704c66a54d73589389be03f6cb0435"
+    },
+    {
+      "label": "UK_P228",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-22/target.uk.txt",
+      "sha256": "9d0b589390a501355ef88f021ddb90d80f047d290570f208ac26e1cee31ba994"
+    },
+    {
+      "label": "RU_P230",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-24/source.ru.txt",
+      "sha256": "b45043d3144f2001f7e82bb0a3de3689d30ff0f2ea3bffc4cb51471e089894f3"
+    },
+    {
+      "label": "UK_P230",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r10/part-24/target.uk.txt",
+      "sha256": "3af4db6c0327ef5d2f0a87d6ffb549327612459caec3aa6b82f85a8479f845a3"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "e2a3dfd2b08135403ff171c3db037a813425fe86ae52ebb1b8c7eeb0cd3cdb59",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 80.66,
+  "resolved_model_id": "gemini-3.8-flash",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "a74c6f2b-916a-43ac-87a5-6f42f58d4547",
+  "usage": {
+    "input_tokens": 19783,
+    "output_tokens": 27911,
+    "thinking_tokens": 26759,
+    "cache_read_tokens": 0,
+    "total_tokens": 47694
+  },
+  "denied_actions": [],
+  "report_sha256": "ea0725fa13fc417e1c6558c0007c32248798e1a78c576c423f548c3faf783622"
+}

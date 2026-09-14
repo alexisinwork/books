@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:53:58+00:00",
+  "role": "final_full_bilingual_review",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash-high",
+  "target": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "7fc77b2d79ead6ab465ae6923497c76b0b6268dd269a0aa4f478a9ff8240d664"
+  },
+  "source": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/SOURCE/ru.docx",
+    "sha256": "3cb15c55923e85db94b4e84ef5f75e58fc2f8e94a4a9a2a4e5c18cfd3d83bb19"
+  },
+  "inputs": [
+    {
+      "label": "RU",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/preparation/source.ru.txt",
+      "sha256": "48c139b78df88c0d33fffc499e336a172afbc1640afe5b0f463554fb7a96510b"
+    },
+    {
+      "label": "UK",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+      "sha256": "7fc77b2d79ead6ab465ae6923497c76b0b6268dd269a0aa4f478a9ff8240d664"
+    },
+    {
+      "label": "STYLE",
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd"
+    }
+  ],
+  "prompt_sha256": "4f8d42e2d0a45a4a7b73e1de065151fec623e2fdc69a6eb6b0aac76050c2fcfa",
+  "isolation": "Fresh external process in a temporary directory; all inputs embedded in one user event; agy sandbox/plan mode or Claude safe mode; no outside file is required.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 183.75,
+  "resolved_model_id": "gemini-3.8-flash-high",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "8f39e8dd-fd6c-4f80-bf20-72513ca26992",
+  "usage": {
+    "input_tokens": 47046,
+    "output_tokens": 62414,
+    "thinking_tokens": 58947,
+    "cache_read_tokens": 0,
+    "total_tokens": 109460
+  },
+  "denied_actions": [],
+  "report_sha256": "cad1e02433812a468df7802447fd37639e3465eabdc6e3a958e7408da297b36c"
+}

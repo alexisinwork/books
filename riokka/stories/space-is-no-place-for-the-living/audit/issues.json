@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "book_id": "story-space-is-no-place-for-the-living",
+  "issues": [
+    {
+      "id": "SPACE-LOCATION-001",
+      "category": "source_continuity",
+      "description": "The source first places the newly created black hole near Mars, then says it formed when the object exploded between Jupiter and Saturn.",
+      "resolution_status": "unresolved",
+      "dependencies": [
+        "target.uk.txt P183",
+        "target.uk.txt P190"
+      ],
+      "current_treatment": "Both source statements are preserved; the language adaptation does not choose a canonical location without the author's decision."
+    },
+    {
+      "id": "SPACE-L3-002",
+      "category": "source_science_continuity",
+      "description": "The source describes the Sun-Earth L3 point as lying between the Sun and Earth, although the rest of the explanation relies on the station being hidden from Earth.",
+      "resolution_status": "unresolved",
+      "dependencies": [
+        "target.uk.txt P197"
+      ],
+      "current_treatment": "Preserved from RU_SOURCE_MASTER; correcting the astronomical location would change an established source fact."
+    },
+    {
+      "id": "SPACE-GROUP-COUNT-003",
+      "category": "source_continuity",
+      "description": "Serhii says that five senior-ranked people must go to the command center and immediately asks Henry to let Julia join them, although the visible group consists of Henry, Serhii, Julia, Takonashi, and Sean.",
+      "resolution_status": "unresolved",
+      "dependencies": [
+        "target.uk.txt P095",
+        "target.uk.txt P097"
+      ],
+      "current_treatment": "The source numeral five and the following request about Julia are both preserved; the adaptation does not silently change the personnel count."
+    },
+    {
+      "id": "SPACE-BLACK-HOLE-MASS-004",
+      "category": "source_science_continuity",
+      "description": "The source calls the artificial black hole supermassive but later gives its final mass as 228 tonnes and describes a microscopic event horizon.",
+      "resolution_status": "unresolved",
+      "dependencies": [
+        "target.uk.txt P234"
+      ],
+      "current_treatment": "The technical qualifier is preserved as «надмасивний» because removing it would silently edit the source claim; scientific correction requires an author decision."
+    }
+  ]
+}

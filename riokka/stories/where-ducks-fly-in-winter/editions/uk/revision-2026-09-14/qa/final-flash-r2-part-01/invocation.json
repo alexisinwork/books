@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T20:09:47+00:00",
+  "role": "bilingual-language-review-part-1-of-2",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "d672f8531f58b2fc9a68424003ba15f9078e220f0f894ad43db61fdcf3494e3c"
+  },
+  "source": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/preparation/source.ru.txt",
+    "sha256": "48c139b78df88c0d33fffc499e336a172afbc1640afe5b0f463554fb7a96510b"
+  },
+  "inputs": [
+    {
+      "label": "RU",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r2/part-01/source.ru.txt",
+      "sha256": "205e87698b8d89820859702792762cc81683fc0c90f7b4aaa81f4265bb815ef3"
+    },
+    {
+      "label": "UK",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r2/part-01/target.uk.txt",
+      "sha256": "eff47d4714b37ed80d939cdc87c9e7ee68e536ae97e0c57f6f43b8c3188c37b3"
+    }
+  ],
+  "prompt_sha256": "20d52af1ccfa7e692715f985504e06ea19d23817c0d56ee118061312012a27cb",
+  "isolation": "Fresh external process in a temporary directory; all inputs embedded in one user event; agy sandbox/plan mode or Claude safe mode; no outside file is required.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 140.39,
+  "resolved_model_id": "gemini-3.8-flash",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "bb174eec-b650-41a7-904f-3669156a5af7",
+  "usage": {
+    "input_tokens": 32996,
+    "output_tokens": 45899,
+    "thinking_tokens": 43521,
+    "cache_read_tokens": 0,
+    "total_tokens": 78895
+  },
+  "denied_actions": [],
+  "report_sha256": "337f718e3cf03b66c303adddd3c5f09c03be0681bae27e68a1749583ed055f33"
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T20:13:53+00:00",
+  "role": "bilingual-language-review-part-2-of-2",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "a6e881305a9f387dc86cb45c9b54809b5dae6c5f291fcd995171e9a2c4ae81b9"
+  },
+  "source": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/preparation/source.ru.txt",
+    "sha256": "48c139b78df88c0d33fffc499e336a172afbc1640afe5b0f463554fb7a96510b"
+  },
+  "inputs": [
+    {
+      "label": "RU",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r2/part-02/source.ru.txt",
+      "sha256": "47f0ecefccff034379b2524cb3a394b6ae35b19311f0e725facac6ac9e8f9fea"
+    },
+    {
+      "label": "UK",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-review-chunks-r2/part-02/target.uk.txt",
+      "sha256": "ebd61f7beb0b1c29852285d696a9bb187c6f44abc8338baacacefd11392cf6ca"
+    }
+  ],
+  "temporary_inputs": [
+    {
+      "label": "RU",
+      "path": "/tmp/literary-model-3lmb3czb/01-RU.txt",
+      "sha256": "47f0ecefccff034379b2524cb3a394b6ae35b19311f0e725facac6ac9e8f9fea"
+    },
+    {
+      "label": "UK",
+      "path": "/tmp/literary-model-3lmb3czb/02-UK.txt",
+      "sha256": "ebd61f7beb0b1c29852285d696a9bb187c6f44abc8338baacacefd11392cf6ca"
+    }
+  ],
+  "prompt_sha256": "a8b847ac604584fb4546621eb93ba425888c43fea373dfe6fef28976e2022431",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "temporary_absolute_paths",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 321.55,
+  "resolved_model_id": "gemini-3.8-flash",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "d5a890f3-8b84-4d80-a980-50cb2b9f5129",
+  "usage": {
+    "input_tokens": 382274,
+    "output_tokens": 78393,
+    "thinking_tokens": 69508,
+    "cache_read_tokens": 1397700,
+    "total_tokens": 460667
+  },
+  "denied_actions": [],
+  "report_sha256": "c549b9ea7eaead64562e0f6af78fbb85204e89da2316f0bfbe2428adf9ec21b3"
+}

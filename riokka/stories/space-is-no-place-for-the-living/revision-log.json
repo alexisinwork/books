@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "book_id": "story-space-is-no-place-for-the-living",
+  "entries": [
+    {
+      "date": "2026-09-15",
+      "edition": "editions/uk/revision-2026-09-14",
+      "status": "working_revision_for_author_review",
+      "author_approved": false,
+      "source_docx_sha256": "3bec1f8468a199e445ed453c7b3e34061f1e83175119e1dc2f7e235293f3b0db",
+      "previous_uk_docx_sha256": "25f4d55097472048d7df4346d5466a411d17eec0acb3fbeff69e77db663a85dd",
+      "target_txt_sha256": "756b066500dea9800053bbbd90dbed3e89e214134613ffb917598ca0e2ea6168",
+      "target_docx_sha256": "f2bb885b6a0180286b7d44335c425e0bff3ca7604ece595ffa5497a41d2142f7",
+      "paragraphs": 264,
+      "changed_from_previous": 122,
+      "unresolved_issue_ids": [
+        "SPACE-LOCATION-001",
+        "SPACE-L3-002",
+        "SPACE-GROUP-COUNT-003",
+        "SPACE-BLACK-HOLE-MASS-004"
+      ],
+      "reviews": [
+        "qa/final-opus-r1/REPORT.md",
+        "qa/final-pro-r1/REPORT.md",
+        "qa/final-flash-r9/REPORT.md",
+        "qa/final-delta-r10/flash/REPORT.md",
+        "qa/mechanical/language-qa-r2.json",
+        "qa/mechanical/naturalness-signals-reviewed-r2.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "ruleset": "uk-naturalness-1.2",
+  "source": "riokka/stories/space-is-no-place-for-the-living/editions/uk/revision-2026-09-14/target.uk.txt",
+  "source_sha256": "756b066500dea9800053bbbd90dbed3e89e214134613ffb917598ca0e2ea6168",
+  "language": "uk",
+  "format": "text",
+  "source_units": 527,
+  "source_units_including_blank": 527,
+  "nonempty_source_units": 264,
+  "blank_source_units": 263,
+  "source_unit_kind": "physical_text_line",
+  "anchor_numbering": "p is 1-based and includes blank units; existing offsets are unchanged",
+  "mechanical_coverage": {
+    "scope": "configured_patterns_in_extracted_body_only",
+    "scanned_source_units": 527,
+    "scanned_nonempty_source_units": 264
+  },
+  "reading_coverage": {
+    "status": "not_assessed_by_this_tool",
+    "reviewed_nonempty_source_units": null
+  },
+  "extraction_flags": {},
+  "scope": "All extracted body units; selected contextual patterns only, no semantic proof or layout review.",
+  "findings": [
+    {
+      "rule": "literal_profanity",
+      "category": "register",
+      "p": 367,
+      "start": 2,
+      "end": 14,
+      "quote": "Твою ж матір",
+      "context": "— Твою ж матір! — майже втративши мову від жаху й подиву, Сергій висловив думку, що панувала в головах усіх, хто сидів у командному центрі. — Чорна діра…",
+      "note": "Оцінити формулу лайки: адресат, грубість, голос; не додавати діалект або сильнішу лайку автоматично.",
+      "decision": "unresolved"
+    }
+  ],
+  "unresolved_signals": 1,
+  "result": "signals_require_review",
+  "grammar_check": "not_run",
+  "literary_quality": "not_established",
+  "automatic_rewriting": false
+}

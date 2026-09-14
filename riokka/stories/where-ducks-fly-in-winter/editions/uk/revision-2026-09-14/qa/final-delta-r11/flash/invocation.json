@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T22:52:52+00:00",
+  "role": "final-bilingual-delta-verification",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash",
+  "target": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+    "sha256": "38165f597149b9f80e42ebafaf215be9b8f8cf788a6545d1ee34c7a6a636da66"
+  },
+  "source": {
+    "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/preparation/source.ru.complete.txt",
+    "sha256": "48c139b78df88c0d33fffc499e336a172afbc1640afe5b0f463554fb7a96510b"
+  },
+  "inputs": [
+    {
+      "label": "RU_P004",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r11/part-02/source.ru.txt",
+      "sha256": "4738502e6c4569b1c213822cadb8914ff928e4341ea196a6358a4b7104f39070"
+    },
+    {
+      "label": "UK_P004",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r11/part-02/target.uk.txt",
+      "sha256": "c6d430e7379055e3961f3f9b1b9ec2d184034f3ea835321d1d5016c4844ecb74"
+    },
+    {
+      "label": "RU_P174",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r11/part-04/source.ru.txt",
+      "sha256": "046747f3795d6a5d34759f1e8f92a30537c995383652671c0d8ea03ba3983e50"
+    },
+    {
+      "label": "UK_P174",
+      "path": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/qa/final-delta-chunks-r11/part-04/target.uk.txt",
+      "sha256": "8aa1e33f622f56e2bfce659568cd32dfa7e5a99d61792150d4275da86ba3c6d8"
+    }
+  ],
+  "temporary_inputs": null,
+  "prompt_sha256": "d255fa540469f7fba0188df7f3b93eb9f0f43be922275716f75c9d2cc4b445da",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "agy_stream_json_user_event",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 56.56,
+  "resolved_model_id": "gemini-3.8-flash",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "79057954-b4f6-4304-b003-749290e443ae",
+  "usage": {
+    "input_tokens": 15433,
+    "output_tokens": 17815,
+    "thinking_tokens": 16724,
+    "cache_read_tokens": 0,
+    "total_tokens": 33248
+  },
+  "denied_actions": [],
+  "report_sha256": "bf5e4ec1dbfe84a2fb9bc89477ab8ed41eef669bf352dc9993751eae8abbeaf6"
+}
