@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "decision_id": "RIOKKA-ADAPT-AUTHOR-20260914-02",
+  "date": "2026-09-14",
+  "evidence": {
+    "kind": "explicit_user_message",
+    "quote": "отвечая на вопросы - том 2 и 3 бери самые последний что были подготовлены к авторской вычитке + каких-то особых скрытых смыслов я в голове не закладывал + заготовленых имен на укр или англ нет - так что тут переведи максимально правильно по стилистике укр языка+ ты англ адаптацию построил тоже? Переводить не будем просто хочу знать что система работает"
+  },
+  "scope": "Preparation and source selection only; no novel translation, no canonical or publication promotion.",
+  "source_selection": [
+    {
+      "book_id": "book-01",
+      "title": "Антидот с Семари",
+      "source": {
+        "path": "riokka/books/book-01/manuscript/master.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+        "format": "docx",
+        "language": "ru"
+      },
+      "registered_role": "master",
+      "prior_status": "author_selected",
+      "release_evidence": null,
+      "release_chapters": null,
+      "status": "previous_author_selected_basis_retained",
+      "authority": "Previous author-selected master; unchanged by current reply.",
+      "preserved_copy": {
+        "path": "riokka/translation/author-decisions-2026-09-14/SOURCE/book-01.ru.docx",
+        "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172"
+      },
+      "manuscript_edited": false,
+      "canonical_promotion": false
+    },
+    {
+      "book_id": "book-02",
+      "title": "Прочие убытки",
+      "source": {
+        "path": "riokka/books/book-02/revisions/2026-09-13-gemini-revisit/revised.md",
+        "sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96",
+        "format": "text",
+        "language": "ru"
+      },
+      "registered_role": "working_revision",
+      "prior_status": "author_followup_for_author_review",
+      "release_evidence": {
+        "path": "riokka/books/book-02/revisions/2026-09-13-gemini-revisit/release.json",
+        "sha256": "15843f564af0a41abfde1a6572c08bf97e5a101c526fac2208f374bdde4ce308",
+        "status": "verified_for_author_review"
+      },
+      "release_chapters": null,
+      "status": "author_selected_for_future_adaptation",
+      "authority": "Current author instruction: latest edition prepared for author proofreading.",
+      "preserved_copy": {
+        "path": "riokka/translation/author-decisions-2026-09-14/SOURCE/book-02.ru.md",
+        "sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96"
+      },
+      "manuscript_edited": false,
+      "canonical_promotion": false
+    },
+    {
+      "book_id": "book-03",
+      "title": "Холм Розмари",
+      "source": {
+        "path": "riokka/books/book-03/revisions/2026-09-14-ensemble-r1/revised.md",
+        "sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+        "format": "text",
+        "language": "ru"
+      },
+      "registered_role": "working_revision",
+      "prior_status": "ensemble_revision_for_author_review",
+      "release_evidence": {
+        "path": "riokka/books/book-03/revisions/2026-09-14-ensemble-r1/release.json",
+        "sha256": "3a40e95513b0f402345fbd62998c4c6da21afb58917bd6af892f581abaf2d050",
+        "status": "ensemble_revision_for_author_review"
+      },
+      "release_chapters": 58,
+      "status": "author_selected_for_future_adaptation",
+      "authority": "Current author instruction: latest edition prepared for author proofreading.",
+      "preserved_copy": {
+        "path": "riokka/translation/author-decisions-2026-09-14/SOURCE/book-03.ru.md",
+        "sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "manuscript_edited": false,
+      "canonical_promotion": false
+    }
+  ],
+  "author_intent": {
+    "status": "answered",
+    "additional_hidden_meanings": "none_reported_by_author",
+    "rule": "Do not invent hidden author intentions. Preserve actual textual meaning, subtext, humour, ambiguity and relationships; the author's statement is not a licence to flatten or remove them.",
+    "previous_search_targets": [
+      "grandmother joke",
+      "picture / event contrast"
+    ],
+    "previous_search_target_status": "not_confirmed_as_special_author_intent; no repeated author questionnaire required, preserve if found in actual source"
+  },
+  "naming_policy": {
+    "status": "author_delegated",
+    "existing_author_uk_names": null,
+    "existing_author_en_names": null,
+    "uk_rule": "Select natural contemporary Ukrainian forms in context under the language style guide, preserving identity, meaningful names and fictional setting; record nominative, declension and vocative where applicable.",
+    "en_rule": "At the English stage select idiomatic consistent forms from the approved Ukrainian edition, under en-US house style; no forced cultural relocation.",
+    "routine_choices_need_separate_author_approval": false,
+    "material_meaning_or_identity_conflicts": "flag_for_author",
+    "existing_seed_terms": "proposals_not_blanket_approved; choose and record justified working forms when preparing the lexical pass",
+    "meaning_ledger": "Retain text observations and hypotheses as distinct evidence kinds."
+  },
+  "execution": {
+    "translation_authorized": false,
+    "calibration_authorized": false,
+    "model_calls": [],
+    "english_route": "uk-en",
+    "alternate_english_route": "ru-en_only_on_explicit_request",
+    "english_locale": "en-US"
+  },
+  "supersedes_questions": {
+    "file": "riokka/translation/preparation-2026-09-14/ВОПРОСЫ-К-АВТОРУ.md",
+    "items": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "answered_in_this_decision",
+    "remaining_author_questions_for_this_preparation": []
+  },
+  "dependencies": {
+    "previous_preparation": "riokka/translation/preparation-2026-09-14",
+    "book_01_source_anchors": "source_unchanged; load this decision as a new input for any later run",
+    "book_02_03_source_anchors": "must_rebuild_for_newly_selected_sha_before_adaptation",
+    "old_preparation_files": "historical_seed; do_not_rewrite_frozen_packet_inputs",
+    "book_04_continuation_basis": "not_changed_by_this_translation_source_selection",
+    "next_preparation": "Re-extract selected snapshots, rebuild book 2–3 glossary and ledger anchors into a new package, and load this author decision; old packages remain historical."
+  }
+}

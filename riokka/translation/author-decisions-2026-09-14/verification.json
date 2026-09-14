@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-14",
+  "project_id": "riokka",
+  "scope": "Author-answer amendment, source selection and English adaptation technical verification; no prose edits or model runs.",
+  "decision": "riokka/translation/author-decisions-2026-09-14/decisions.json",
+  "source_verification": {
+    "result": "passed",
+    "scope": "source selection, byte-preserved snapshots, routing and extraction; not a literary audit",
+    "sources": [
+      {
+        "book_id": "book-01",
+        "source": {
+          "path": "riokka/books/book-01/manuscript/master.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+          "format": "docx",
+          "language": "ru"
+        },
+        "preserved_copy": {
+          "path": "riokka/translation/author-decisions-2026-09-14/SOURCE/book-01.ru.docx",
+          "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172"
+        },
+        "byte_identical": true,
+        "chapters": 42,
+        "nonempty_source_units": 1195,
+        "extraction_flags": {
+          "tbl": 0,
+          "drawing": 0,
+          "txbxContent": 0,
+          "footnoteReference": 0,
+          "endnoteReference": 0,
+          "excluded_parts": []
+        },
+        "format": "docx"
+      },
+      {
+        "book_id": "book-02",
+        "source": {
+          "path": "riokka/books/book-02/revisions/2026-09-13-gemini-revisit/revised.md",
+          "sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96",
+          "format": "text",
+          "language": "ru"
+        },
+        "preserved_copy": {
+          "path": "riokka/translation/author-decisions-2026-09-14/SOURCE/book-02.ru.md",
+          "sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96"
+        },
+        "byte_identical": true,
+        "chapters": 51,
+        "nonempty_source_units": 2540,
+        "extraction_flags": {},
+        "format": "text"
+      },
+      {
+        "book_id": "book-03",
+        "source": {
+          "path": "riokka/books/book-03/revisions/2026-09-14-ensemble-r1/revised.md",
+          "sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "format": "text",
+          "language": "ru"
+        },
+        "preserved_copy": {
+          "path": "riokka/translation/author-decisions-2026-09-14/SOURCE/book-03.ru.md",
+          "sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+        },
+        "byte_identical": true,
+        "chapters": 58,
+        "nonempty_source_units": 3766,
+        "extraction_flags": {},
+        "format": "text"
+      }
+    ]
+  },
+  "technical_checks": [
+    {
+      "command": "python3 -m unittest discover -s tests -p test_literary_translation.py -v",
+      "exit_code": 0,
+      "tests": 13,
+      "result": "passed",
+      "english_integration": "test_uk_to_en_uses_uk_source_and_checks_english",
+      "scope": "Synthetic fixtures: source preparation, UK→EN input/output binding, source projection, coverage, omissions, duplicates, order, split/merge, locked terms, immutable/blind reports; no manuscript translation."
+    },
+    {
+      "command": "python3 tools/literary_translation.py verify-preparation --package riokka/translation/preparation-2026-09-14",
+      "exit_code": 0,
+      "books": 6,
+      "glossary_entries": 75,
+      "anchors_checked": 301,
+      "result": "passed_preparation_checks",
+      "scope": "Historical seed package is intact, not a claim that its book 2–3 anchors match newly selected revisions."
+    },
+    {
+      "command": "python3 riokka/tools/studio.py doctor --root riokka",
+      "exit_code": 0,
+      "errors": 0,
+      "result": "passed_with_expected_warnings",
+      "warnings": "Voice proposals and unpromoted master candidates remain; author adaptation selection does not promote those masters."
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "result": "passed"
+    }
+  ],
+  "tested_code": [
+    {
+      "path": "tools/literary_translation.py",
+      "sha256": "9f07f4c4d7fe5388311e0cba6b34f9fd8ea500718701db5970f6ae43327319f2"
+    },
+    {
+      "path": "tests/test_literary_translation.py",
+      "sha256": "cd1210823b66b2e352c6c70427ba7f4211b5184291e1a595139f9f03ee5651f9"
+    },
+    {
+      "path": "default/skills/ru-book-auditor/scripts/book_snapshot.py",
+      "sha256": "0a7c5184975bf5c2b52cb6ded25e4dcca0a07e7a15da32ebc10df6c522071f2f"
+    }
+  ],
+  "changed_artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "be98204cd2d590905e1a22b4909ded09ccec52f9ef026022acb51ff9b09e5e8f"
+    },
+    {
+      "path": "riokka/START_HERE.md",
+      "sha256": "3da0e4093f92c7942ad9ab38b6dacfe98bc7d5b1bce6528157e387fef6e81d65"
+    },
+    {
+      "path": "riokka/language-editions.json",
+      "sha256": "5de53b6295310b89a1ca68119e683ae534a6ab668d1b412dec54f3772ac5bb89"
+    },
+    {
+      "path": "riokka/translation/START_HERE.md",
+      "sha256": "e83c5dfdd4b0587b0b47b03a557904bb4263fe27dd8648df1f85f442144a9405"
+    },
+    {
+      "path": "riokka/translation/active-preparation.json",
+      "sha256": "4a4fda6f95c08d193d285e03154e896c0daa98c9f010b6cc67a06d3828a3dc0f"
+    },
+    {
+      "path": "riokka/translation/author-decisions-2026-09-14/AUTHOR-DECISIONS.md",
+      "sha256": "b11979794699d91e2ed0a02c34f13b83156cbf195128d210f27091b519d944e0"
+    },
+    {
+      "path": "riokka/translation/author-decisions-2026-09-14/SOURCE/README.md",
+      "sha256": "0b7b2d9f21749feaf6f9e0a0b607dc09092af4355798d2c7cc14f78554e6b919"
+    },
+    {
+      "path": "riokka/translation/author-decisions-2026-09-14/SOURCE/book-01.ru.docx",
+      "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172"
+    },
+    {
+      "path": "riokka/translation/author-decisions-2026-09-14/SOURCE/book-02.ru.md",
+      "sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96"
+    },
+    {
+      "path": "riokka/translation/author-decisions-2026-09-14/SOURCE/book-03.ru.md",
+      "sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+    },
+    {
+      "path": "riokka/translation/author-decisions-2026-09-14/decisions.json",
+      "sha256": "48832b7ba9d4eae2a7af65d0c50113e3c362d92dd0d036f637559f614304ba21"
+    }
+  ],
+  "author_questions_remaining": [],
+  "not_performed": [
+    "novel translation",
+    "calibration translations",
+    "Opus/Gemini literary passes",
+    "full-book semantic extraction",
+    "UA canonical promotion",
+    "book 4 continuation changes"
+  ],
+  "remaining_system_preparation": "Rebuild source-dependent glossary/ledger evidence for selected books 2–3 in a new package before adaptation; the old frozen inputs are not rewritten. Full semantic mapping and literary calibration remain future work.",
+  "literary_quality": "not_established_without_target_text_and_independent_reading",
+  "workspace_policy": "Only this amendment, preserved source copies and entrypoint changes are included. Existing unrelated edits are left untouched and excluded from the delivery. This audit and FILES.json are excluded from their own artifact hashes."
+}
