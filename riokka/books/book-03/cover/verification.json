@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-14",
+  "status": "cover_concepts_delivered_for_author_review",
+  "canonical_author_approval": false,
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "path": "riokka/books/book-03/cover/cover-concept-v1-living-threshold.png",
+      "generated_original": "/home/alexi/.codex/generated_images/01a09f90-f8f5-73f2-a656-493b2cbd12df/exec-b95a529e-6132-4c2e-9867-ec7941449c0b.png",
+      "sha256": "df2f3f0d891d22898a3de61a470fe871564dc8c7c9a7e2c761b35d37ea906f40",
+      "unchanged_from_image_gen": true,
+      "status": "historical_ru_concept",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "riokka/books/book-01/cover/uk/cover-v3-sprout-uk.png",
+      "generated_original": "/home/alexi/.codex/generated_images/01a09f90-f8f5-73f2-a656-493b2cbd12df/exec-99a5b614-bfb0-4d00-bf14-78e8ea707edd.png",
+      "sha256": "1c5e83185f3a4da83752d4d9ae98c3330ef564d7b2a7af9aa1db9597c0587cb9",
+      "unchanged_from_image_gen": true,
+      "status": "current_uk_concept",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "riokka/books/book-02/cover/uk/cover-v2-ledger-uk.png",
+      "generated_original": "/home/alexi/.codex/generated_images/01a09f90-f8f5-73f2-a656-493b2cbd12df/exec-f326c7a6-1569-4536-807d-e0e637cf442b.png",
+      "sha256": "9068705dfc799eb326dceefefef7994f591da8ded04a8a66312deafb36662c22",
+      "unchanged_from_image_gen": true,
+      "status": "current_uk_concept",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "riokka/books/book-03/cover/uk/iterations/cover-v1-living-threshold-uk.png",
+      "generated_original": "/home/alexi/.codex/generated_images/01a09f90-f8f5-73f2-a656-493b2cbd12df/exec-ab2c0006-4c34-47d7-ab5c-74dde45990eb.png",
+      "sha256": "09a34a962bdb81c38b11a8a838ce159c5e0c32d03b4611cc817fe61f199030db",
+      "unchanged_from_image_gen": true,
+      "status": "rejected_by_author",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "riokka/books/book-03/cover/uk/cover-v2-evacuation-uk.png",
+      "generated_original": "/home/alexi/.codex/generated_images/01a09f90-f8f5-73f2-a656-493b2cbd12df/exec-eb1fe65f-6482-4f7a-9598-68fe4d8f184d.png",
+      "sha256": "b60220e543c21839feec447add053184e7f87888c9fec7be7b61beb4a9699323",
+      "unchanged_from_image_gen": true,
+      "status": "current_uk_redesign",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "basis": {
+    "source": "riokka/books/book-03/revisions/2026-09-14-ensemble-r1/revised.md",
+    "sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+    "new_uk_cover_chapters": [
+      36,
+      44
+    ],
+    "historical_concept_chapters": [
+      41,
+      42
+    ],
+    "scope": "Prior source reading for cover composition; no manuscript or canon edits.",
+    "evidence": "riokka/books/book-03/cover/SOURCE-EVIDENCE.md",
+    "evidence_sha256": "70ea1ddb9994ce59eb17870d6024572eaddd344029b1a2d6d3431326ab514f93",
+    "full_source_in_cover_branch": false
+  },
+  "visual_review": {
+    "current_uk_series": "Titles and lettering inspected at 256px and 100px, color and grayscale. Third cover shows Kai guiding an elderly patient on a diagonal stretcher; the rejected mirrored standing pair is absent.",
+    "proof": "riokka/books/book-03/cover/uk/proof-final-uk-series.png",
+    "proof_sha256": "2054a15e4da285db3610de4a5857896f9e09ed4b953c21c95c2be4033713b2b8",
+    "limits": "At 100px the book-number line and fine pouch details are small. This is a raster front-cover inspection, not a print proof."
+  },
+  "desktop_copies": [
+    {
+      "source": "riokka/books/book-01/cover/uk/cover-v3-sprout-uk.png",
+      "copy": "/mnt/c/Users/alexi/Desktop/Контрактник — обкладинки українською/01 — АНТИДОТ ІЗ СЕМАРІ.png",
+      "sha256": "1c5e83185f3a4da83752d4d9ae98c3330ef564d7b2a7af9aa1db9597c0587cb9"
+    },
+    {
+      "source": "riokka/books/book-02/cover/uk/cover-v2-ledger-uk.png",
+      "copy": "/mnt/c/Users/alexi/Desktop/Контрактник — обкладинки українською/02 — ІНШІ ЗБИТКИ.png",
+      "sha256": "9068705dfc799eb326dceefefef7994f591da8ded04a8a66312deafb36662c22"
+    },
+    {
+      "source": "riokka/books/book-03/cover/uk/cover-v2-evacuation-uk.png",
+      "copy": "/mnt/c/Users/alexi/Desktop/Контрактник — обкладинки українською/03 — ПАГОРБ РОЗМАРІ.png",
+      "sha256": "b60220e543c21839feec447add053184e7f87888c9fec7be7b61beb4a9699323"
+    },
+    {
+      "source": "riokka/books/book-03/cover/uk/proof-final-uk-series.png",
+      "copy": "/mnt/c/Users/alexi/Desktop/Контрактник — обкладинки українською/Три обкладинки — порівняння.png",
+      "sha256": "2054a15e4da285db3610de4a5857896f9e09ed4b953c21c95c2be4033713b2b8"
+    }
+  ],
+  "desktop_readme": {
+    "source": "riokka/books/book-03/cover/DESKTOP-README.md",
+    "copy": "/mnt/c/Users/alexi/Desktop/Контрактник — обкладинки українською/README.md",
+    "sha256": "cbcedd52316c63a9f9b5c75e691d7ff0eadf76dc1ddf8b1065fefc433f0b0449",
+    "relative_links_use_actual_desktop_filenames": true
+  }
+}
