@@ -21,6 +21,17 @@
 
 Последняя редакция предназначена для авторского просмотра. Её наличие не меняет выбранный мастер; полная проверка вёрстки ещё не подтверждена.
 
+## Риокка — книга 2
+
+[Страница книги с версиями и статусами](riokka/books/book-02/README.md).
+
+- [Редакция после рекомендаций Gemini](riokka/books/book-02/revisions/2026-09-13-gemini-revisit/revised.md)
+- [DOCX для авторской вычитки](riokka/books/book-02/revisions/2026-09-13-gemini-revisit/Риокка%20—%20Книга%202%20—%20Прочие%20убытки%20—%20после%20Gemini.docx)
+- [Читательская веб-версия](riokka/books/book-02/revisions/2026-09-13-gemini-revisit/reader.html)
+- [Было — стало](riokka/books/book-02/revisions/2026-09-13-gemini-revisit/БЫЛО-СТАЛО.md)
+- [Возраст Тимки: подтверждение по первому тому](riokka/books/book-02/revisions/2026-09-13-gemini-revisit/audit/TIMKA-AGE.md)
+- [Манифест тома](riokka/books/book-02/book.json)
+
 ## Дополнительные проверки и учёт
 
 - [LanguageTool, Razdel, pymorphy3, Vale, Pandoc, python-docx: ссылки и подключение](riokka/guides/REPOSITORIES.md)

@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-02",
+  "record_type": "author_followup_ledger",
+  "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+  "items": [
+    {
+      "id": "GR-01",
+      "category": "pace_character",
+      "observation": "Усталость и навязчивый пересчёт Кая вместо повторного сообщения схемы эвакуации.",
+      "source_type": "author_approved_external_reader_followup",
+      "chapters": [
+        24
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "author-decisions.md",
+        "evidence_sha256": "82983098ece1ce085c9101dfcd7bf9f6b582959c0d4be52a4a0a685879ab06d9"
+      },
+      "resolution_status": "resolved",
+      "application": {
+        "status": "applied",
+        "path": "revised.md",
+        "sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96",
+        "changes": "changes.json"
+      },
+      "verification": {
+        "status": "passed",
+        "scope": "13–14, 19, 21, 24–25; 211−180=31, 35+5=40, 176+35=211.",
+        "report": "audit/REPORT.md"
+      }
+    },
+    {
+      "id": "GR-02",
+      "category": "scene_suspense",
+      "observation": "Личный шестиминутный срок, шаги сверху, заевшее колесо; выход проверен ногами.",
+      "source_type": "author_approved_external_reader_followup",
+      "chapters": [
+        32
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "author-decisions.md",
+        "evidence_sha256": "82983098ece1ce085c9101dfcd7bf9f6b582959c0d4be52a4a0a685879ab06d9"
+      },
+      "resolution_status": "resolved",
+      "application": {
+        "status": "applied",
+        "path": "revised.md",
+        "sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96",
+        "changes": "changes.json"
+      },
+      "verification": {
+        "status": "passed",
+        "scope": "31–34; отсчёт 6→4→2→1; средства, доступы и знания не расширены.",
+        "report": "audit/REPORT.md"
+      }
+    },
+    {
+      "id": "GR-03",
+      "category": "exposition",
+      "observation": "Паузы и предметные действия между терминами, обычные слова вместо «контестуемое», следствие запрета выкупа.",
+      "source_type": "author_approved_external_reader_followup",
+      "chapters": [
+        13,
+        14
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "author-decisions.md",
+        "evidence_sha256": "82983098ece1ce085c9101dfcd7bf9f6b582959c0d4be52a4a0a685879ab06d9"
+      },
+      "resolution_status": "resolved",
+      "application": {
+        "status": "applied",
+        "path": "revised.md",
+        "sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96",
+        "changes": "changes.json"
+      },
+      "verification": {
+        "status": "passed",
+        "scope": "13–15; Кай не получает скрытое сообщение Маноса, полномочия Гарма прежние.",
+        "report": "audit/REPORT.md"
+      }
+    },
+    {
+      "id": "GR-04",
+      "category": "age_continuity",
+      "observation": "Шесть лет подтверждены прямыми формулировками первого тома и второго.",
+      "source_type": "author_check_request",
+      "chapters": [
+        1,
+        17,
+        48
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "author-decisions.md",
+        "evidence_sha256": "82983098ece1ce085c9101dfcd7bf9f6b582959c0d4be52a4a0a685879ab06d9"
+      },
+      "resolution_status": "resolved",
+      "application": {
+        "status": "verified_no_text_change",
+        "path": "revised.md",
+        "sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96",
+        "changes": "changes.json"
+      },
+      "verification": {
+        "status": "passed",
+        "scope": "Книга 1: главы 16, 27, 29, 41, 42; шесть точных OOXML-цитат. Книга 2: 1, 17, 48.",
+        "report": "audit/REPORT.md"
+      }
+    }
+  ]
+}

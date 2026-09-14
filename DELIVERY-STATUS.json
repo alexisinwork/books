@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "delivery": "versioned_github_workspace",
   "github": {
     "created": true,
@@ -48,30 +48,37 @@
     "default": "Copyable writing system, scripts, templates and skills."
   },
   "book_2": {
-    "revision": "riokka/books/book-02/revisions/2026-09-13-10al/revised.md",
-    "revision_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
-    "status": "author_decisions_applied_ready_for_proofreading",
-    "printed_chars_with_spaces": 400809,
-    "author_sheets": 10.020225,
+    "revision": "riokka/books/book-02/revisions/2026-09-13-gemini-revisit/revised.md",
+    "revision_sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96",
+    "status": "author_followup_verified_ready_for_author_proofreading",
+    "printed_chars_with_spaces": 402687,
+    "author_sheets": 10.067175,
     "chapters": 51,
     "previous_book_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
-    "transition": "riokka/books/book-02/revisions/2026-09-13-10al/TRANSITION-BOOK-1.md",
-    "change_log": "riokka/books/book-02/revisions/2026-09-13-10al/БЫЛО-СТАЛО.md",
-    "verification_report": "riokka/books/book-02/revisions/2026-09-13-10al/audit/REPORT.md",
+    "transition": "riokka/books/book-02/revisions/2026-09-13-gemini-revisit/TRANSITION-BOOK-1.md",
+    "change_log": "riokka/books/book-02/revisions/2026-09-13-gemini-revisit/БЫЛО-СТАЛО.md",
+    "verification_report": "riokka/books/book-02/revisions/2026-09-13-gemini-revisit/audit/REPORT.md",
     "promoted_to_author_final": false,
     "open_issue_ids": [],
     "windows_import_folder": "not automatically synchronized; working copy remains /home/alexi/books",
     "current_book_1_master_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
     "transition_recheck_required": false,
-    "prose_pass": "completed; 51/51 chapters reviewed; author decisions applied; final checks passed",
-    "author_questions": "riokka/books/book-02/revisions/2026-09-13-10al/AUTHOR-QUESTIONS.md",
-    "author_answers": "12/12 resolved",
-    "windows_desktop_docx": "C:\\Users\\alexi\\Desktop\\Риокка — Книга 2 — Прочие убытки — для вычитки.docx",
-    "windows_desktop_docx_sha256": "a44403895fea8352ec1f0368d1536e2adf1f5bfe24ba1cbb11c7695d0219c3d0",
-    "windows_desktop_questions": "C:\\Users\\alexi\\Desktop\\Риокка — Книга 2 — вопросы автора — ответы применены.md",
-    "windows_desktop_questions_sha256": "0270cc28b75f0560474a2753dc830d8d8e2f8dd6eccc2802ab09180c73339a04",
+    "prose_pass": "Full targeted reread of chapters 13,14,24,32; 93 LanguageTool signals reviewed; 47 other chapters byte-identical",
+    "author_questions": "riokka/books/book-02/revisions/2026-09-13-gemini-revisit/author-decisions.md",
+    "author_answers": "all requested followup actions authorized",
+    "windows_desktop_docx": "C:\\Users\\alexi\\Desktop\\Риокка — Книга 2 — Прочие убытки — после Gemini.docx",
+    "windows_desktop_docx_sha256": "38dbca2ba7228c21048ef59a2b60e4be0a5c5c5d94a3f64b8a87f88dca4e2e6c",
+    "windows_desktop_questions": "none pending",
+    "windows_desktop_questions_sha256": null,
     "docx_template": "riokka/books/book-01/manuscript/master.docx",
-    "docx_validation": "2507 paragraphs; 51 chapter headings; exact text extraction; 353 rendered pages; no blank or out-of-page text",
-    "windows_desktop_synced": true
+    "docx_validation": "exact extraction, 51 chapter headings, chapter page breaks attached to headings",
+    "windows_desktop_synced": true,
+    "visual_review": {
+      "render_pages": 301,
+      "pages_viewed": 31,
+      "scope": "all changed chapters, adjacent pages, title, end and arrow formula",
+      "empty_pages": 0,
+      "pdf_full_text_matches_docx": true
+    }
   }
 }

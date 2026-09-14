@@ -14,24 +14,29 @@
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "ensemble_revision_verified_for_author_review",
+  "audit_status": "targeted_gemini_followup_verified_for_author_review",
   "original": "../../sources/originals/КОНТРАКТНИК-2-Прочие-убытки.md",
   "working_revision": {
-    "path": "revisions/2026-09-13-ensemble-r1/revised.md",
+    "path": "revisions/2026-09-13-gemini-revisit/revised.md",
     "format": "text",
-    "sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
-    "status": "ensemble_revision_for_author_review",
-    "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
-    "continuity": "revisions/2026-09-13-ensemble-r1/continuity",
-    "change_log": "revisions/2026-09-13-ensemble-r1/БЫЛО-СТАЛО.md",
+    "sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96",
+    "status": "author_followup_for_author_review",
+    "source_path": "revisions/2026-09-13-gemini-revisit/source/revised.md",
+    "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+    "continuity": "revisions/2026-09-13-gemini-revisit/continuity",
+    "voice": "revisions/2026-09-13-gemini-revisit/voice.json",
+    "change_log": "revisions/2026-09-13-gemini-revisit/БЫЛО-СТАЛО.md",
     "previous_book_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
-    "printed_chars_with_spaces": 400209,
-    "author_sheets": 10.005225,
-    "transition": "revisions/2026-09-13-10al/TRANSITION-BOOK-1.md",
-    "audit": "revisions/2026-09-13-ensemble-r1/audit/REPORT.md",
-    "ensemble_run": "audit/ensemble/book-02-2026-09-13-r1",
-    "docx": "revisions/2026-09-13-ensemble-r1/Риокка — Книга 2 — Прочие убытки — ансамблевая редакция.docx",
-    "docx_sha256": "63f8cba25b35c6a8a4780dea4de38c32e6fb275a54c9bcf58c88d0cf6ead909b"
+    "printed_chars_with_spaces": 402687,
+    "author_sheets": 10.067175,
+    "transition": "revisions/2026-09-13-gemini-revisit/TRANSITION-BOOK-1.md",
+    "audit": "revisions/2026-09-13-gemini-revisit/audit/REPORT.md",
+    "author_followup_run": "revisions/2026-09-13-gemini-revisit/run.json",
+    "previous_ensemble_run": "audit/ensemble/book-02-2026-09-13-r1",
+    "docx": "revisions/2026-09-13-gemini-revisit/Риокка — Книга 2 — Прочие убытки — после Gemini.docx",
+    "docx_sha256": "38dbca2ba7228c21048ef59a2b60e4be0a5c5c5d94a3f64b8a87f88dca4e2e6c",
+    "pdf": "revisions/2026-09-13-gemini-revisit/audit/render/Риокка — Книга 2 — Прочие убытки — после Gemini.pdf",
+    "pdf_sha256": "45a74451d01fd7098ca54e2994d5e4f0ab2798feb86520175059e5433a64697e"
   },
   "cover": {
     "path": "cover/cover-concept-v2-ledger.png",
@@ -48,5 +53,14 @@
       "sha256": "4f33e8915bab6a8aa2502f7a6ea445cc36ca90870459ad73014b863603a7d416",
       "status": "superseded_composition_preserved"
     }
-  }
+  },
+  "working_revision_history": [
+    {
+      "path": "revisions/2026-09-13-gemini-revisit/source/revised.md",
+      "sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+      "original_path": "revisions/2026-09-13-ensemble-r1/revised.md",
+      "docx": "revisions/2026-09-13-gemini-revisit/source/before.docx",
+      "status": "preserved_source_of_author_followup"
+    }
+  ]
 }

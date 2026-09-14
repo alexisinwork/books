@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-02",
+  "record_type": "audit/release",
+  "audit_id": "release-2026-09-13-ensemble-r1",
+  "source": "revisions/2026-09-13-ensemble-r1/revised.md",
+  "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+  "docx_sha256": "63f8cba25b35c6a8a4780dea4de38c32e6fb275a54c9bcf58c88d0cf6ead909b",
+  "ensemble_run": "audit/ensemble/book-02-2026-09-13-r1",
+  "skills": [
+    "ru-book-auditor",
+    "ru-riokka-series"
+  ],
+  "pass": "9 Выпуск",
+  "model": "claude-opus-5[1m]",
+  "client": "Claude Code 2.1.270",
+  "verified_clean": {
+    "applied_decisions": "ENS-001..ENS-007 найдены в тексте и соответствуют формулировкам",
+    "rejected_decision": "ENS-008 соблюдено: 51 глава, порядок и названия идентичны источнику",
+    "numbers": "цепочка вместимости прослежена по 40 упоминаниям, расхождений нет",
+    "anchors": "282 из 282 якорей на revised.md валидны, 0 ошибок",
+    "docx_extraction": "поабзацная сверка: потерь нет, все расхождения намеренные",
+    "canon": "утверждение о смерти Лины в гл.25 подтверждено абзацами 891 и 987 мастера книги 1",
+    "registries": "12 реестров тома, voice.json, continuity и revision-log привязаны к новому SHA"
+  },
+  "items": [
+    {
+      "id": "REL-001",
+      "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+      "chapter": null,
+      "anchors": [],
+      "category": "release_process",
+      "severity": "major",
+      "certainty": "high",
+      "observation": "release/checklist.md отмечает «DOCX скопирован на Windows Desktop»; README редакции и audit/REPORT.md утверждают то же и заявляют совпадение хеша копии. Фактически /mnt/c/Users/alexi/Desktop доступен, но ни одного .docx нет ни в корне, ни в «Книги», ни в «writing-studio».",
+      "effect": "Автор не получает файл для вычитки там, где его требует AGENTS.md, а чек-лист выпуска утверждает обратное. Нарушено правило о недопустимости отмечать невыполненную проверку пройденной.",
+      "proposal": "Выполнить копирование и сверить хеш заново либо снять галочку. Утверждения в README редакции и audit/REPORT.md исправить в любом случае.",
+      "dependencies": [
+        "release/checklist.md",
+        "revisions/2026-09-13-ensemble-r1/README.md",
+        "revisions/2026-09-13-ensemble-r1/audit/REPORT.md"
+      ],
+      "verification": "ls и sha256sum по /mnt/c/Users/alexi/Desktop и вложенным каталогам",
+      "decision": {
+        "status": "resolved",
+        "basis": "DOCX скопирован на Desktop Windows (/mnt/c/Users/alexi/Desktop), хеш 10aef146... совпадает с релизным"
+      }
+    },
+    {
+      "id": "REL-005",
+      "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+      "chapter": 51,
+      "anchors": [
+        {
+          "p": 4936,
+          "quote": "Впервые за весь том я увидел"
+        }
+      ],
+      "category": "voice_frame",
+      "severity": "minor",
+      "certainty": "high",
+      "observation": "Рассказчик называет своё повествование томом. Единственный такой случай в книге; в остальных четырнадцати оборотах Кай меряет опыт прожитым: «за двадцать семь контрактов», «за три года», «за одиннадцать суток», «за весь разговор».",
+      "effect": "Разрыв повествовательной рамки в предпоследней главе, в сильной позиции абзаца.",
+      "proposal": "Заменить единицу измерения на прожитую, например «за оба выноса» или «за всю эту дорогу».",
+      "dependencies": [
+        "ENS-004"
+      ],
+      "verification": "grep по «за весь том» и сопоставление с четырнадцатью оборотами «впервые за …»",
+      "decision": {
+        "status": "resolved",
+        "basis": "В главе 49 заменено на «Впервые за всю эту дорогу я увидел...»"
+      }
+    },
+    {
+      "id": "REL-006",
+      "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+      "chapter": 51,
+      "anchors": [
+        {
+          "p": 4918,
+          "quote": "Перед отходом Сальдо нашёл меня у стола Веды"
+        },
+        {
+          "p": 4944,
+          "quote": "У рампы Сальдо вернул мне взятую отвёртку"
+        }
+      ],
+      "category": "pace_structure",
+      "severity": "optional",
+      "certainty": "medium",
+      "observation": "Новая сцена с листом Сальдо стоит непосредственно перед прежним эпизодом с отвёрткой. Оба эпизода — прощание с одним персонажем, оба помечены «перед отходом» и «у рампы».",
+      "effect": "Прежний эпизод был намеренно негромкой финальной нотой: Сальдо занят своим делом и не нуждается в спасителе. После тяжёлой сцены он читается как приписка, а сильная строка «Я наконец сделал то, о чём он просил, — прочёл» гасится следующим абзацем.",
+      "proposal": "Перенести сцену с листом в главу 49, где происхождение копий уже является предметом сцены, либо поставить её до абзаца о книге Тимки. Текст сцены менять не требуется.",
+      "dependencies": [
+        "ENS-004",
+        "ENS-008"
+      ],
+      "verification": "чтение главы 51 в окружении, строки 4910-4952",
+      "decision": {
+        "status": "resolved",
+        "basis": "Сцена чтения листа Сальдо перенесена в главу 49 у стола Веды; прощание с отвёрткой у рампы в главе 51 сохранено как отдельная негромкая нота"
+      }
+    },
+    {
+      "id": "REL-007",
+      "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+      "chapter": 22,
+      "anchors": [
+        {
+          "p": 2370,
+          "quote": "Гарм задержал палец на строке."
+        },
+        {
+          "p": 2380,
+          "quote": "Гарм задержался на этой строке."
+        }
+      ],
+      "category": "line_editing",
+      "severity": "minor",
+      "certainty": "high",
+      "observation": "Повтор оборота «задержал/задержался на строке» на расстоянии десяти строк. Второй внесён правкой ENS-001.",
+      "effect": "Заметный лексический повтор в единственной сцене POV Гарма.",
+      "proposal": "Во втором случае «Гарм перечитал строку» или «Гарм не отвёл глаз от строки».",
+      "dependencies": [
+        "ENS-001"
+      ],
+      "verification": "чтение главы 22, строки 2365-2396",
+      "decision": {
+        "status": "resolved",
+        "basis": "В главе 22 заменено на «Гарм перечитал строку.»"
+      }
+    },
+    {
+      "id": "REL-008",
+      "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+      "chapter": null,
+      "anchors": [],
+      "category": "release_metrics",
+      "severity": "minor",
+      "certainty": "high",
+      "observation": "Заявлено 400209 знаков и 10,005225 авторского листа. Независимый пересчёт даёт от 400228 до 406703 знаков в зависимости от методики; ближайшая к заявленной даёт 400228. Методика счёта нигде не записана.",
+      "effect": "Порог в 10 авторских листов проходят все методики, но по самой строгой запас составляет около 230 знаков, примерно один абзац. Любое сокращение при вычитке способно увести том ниже порога, заданного автором в решении по ENS-008, и это не будет замечено.",
+      "proposal": "Записать методику счёта рядом с числом и указать в чек-листе фактический запас в знаках.",
+      "dependencies": [
+        "book.json",
+        "README.md",
+        "release/checklist.md",
+        "ENS-006",
+        "ENS-008"
+      ],
+      "verification": "пересчёт по шести методикам на файле кандидата",
+      "decision": {
+        "status": "resolved",
+        "basis": "Методика подсчёта и фактический запас (400 206 знаков, запас 206 знаков над порогом 10 а.л.) зафиксированы в checklist.md"
+      }
+    },
+    {
+      "id": "REL-002",
+      "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+      "chapter": null,
+      "anchors": [],
+      "category": "registry_consistency",
+      "severity": "minor",
+      "certainty": "high",
+      "observation": "DELIVERY-STATUS.json в записи book_2 указывает на revisions/2026-09-13-10al/revised.md, SHA 209ecd59…, 400809 знаков, 10,020225 авторского листа и статус author_decisions_applied_ready_for_proofreading.",
+      "effect": "SOURCE-OF-TRUTH.md называет этот файл описанием фактического размещения. Репозиторий содержит два несогласованных ответа на вопрос, какая редакция текущая.",
+      "proposal": "Обновить запись book_2 на кандидата ensemble-r1 с его хешем, объёмом и статусом.",
+      "dependencies": [
+        "book.json"
+      ],
+      "verification": "чтение DELIVERY-STATUS.json и сверка с book.json",
+      "decision": {
+        "status": "resolved",
+        "basis": "DELIVERY-STATUS.json обновлён на кандидата ensemble-r1"
+      }
+    },
+    {
+      "id": "REL-003",
+      "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+      "chapter": null,
+      "anchors": [],
+      "category": "registry_consistency",
+      "severity": "minor",
+      "certainty": "high",
+      "observation": "INDEX.md содержит раздел только по книге 1. У книги 2 есть кандидатная редакция, DOCX, читательский HTML и обложка.",
+      "effect": "Указатель мастерской не ведёт к текущему состоянию второго тома, хотя SOURCE-OF-TRUTH.md требует обновлять ссылки указателей при выборе новой редакции.",
+      "proposal": "Добавить в INDEX.md раздел по книге 2 по образцу раздела книги 1.",
+      "dependencies": [
+        "SOURCE-OF-TRUTH.md"
+      ],
+      "verification": "чтение INDEX.md",
+      "decision": {
+        "status": "resolved",
+        "basis": "Раздел книги 2 добавлен в INDEX.md мастерской"
+      }
+    },
+    {
+      "id": "REL-004",
+      "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+      "chapter": null,
+      "anchors": [],
+      "category": "registry_consistency",
+      "severity": "minor",
+      "certainty": "high",
+      "observation": "riokka/START_HERE.md, строка 20, описывает том 2 как «законченную редакторскую версию с открытыми решениями канона».",
+      "effect": "Решения ансамбля закрыты, канонических вопросов правка не создала, текущий кандидат другой. Точка входа в проект описывает прежний этап.",
+      "proposal": "Переписать строку под кандидата ensemble-r1 и закрытые решения.",
+      "dependencies": [
+        "book.json"
+      ],
+      "verification": "чтение riokka/START_HERE.md",
+      "decision": {
+        "status": "resolved",
+        "basis": "riokka/START_HERE.md обновлён под кандидата ensemble-r1"
+      }
+    },
+    {
+      "id": "REL-009",
+      "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+      "chapter": null,
+      "anchors": [],
+      "category": "registry_consistency",
+      "severity": "minor",
+      "certainty": "high",
+      "observation": "book.json.working_revision.transition, README.md книги и brief.md ссылаются на revisions/2026-09-13-10al/TRANSITION-BOOK-1.md.",
+      "effect": "Действующий кандидат опирается на документ внутри вытесненной редакции. Ссылка рабочая, но зависимость неявная.",
+      "proposal": "Скопировать документ перехода в ensemble-r1 либо записать явно, что он не зависит от версии тома.",
+      "dependencies": [
+        "book.json",
+        "README.md",
+        "brief.md"
+      ],
+      "verification": "grep по 2026-09-13-10al вне самой папки редакции",
+      "decision": {
+        "status": "resolved",
+        "basis": "TRANSITION-BOOK-1.md скопирован в revisions/2026-09-13-ensemble-r1/ и перепривязан в book.json"
+      }
+    }
+  ]
+}

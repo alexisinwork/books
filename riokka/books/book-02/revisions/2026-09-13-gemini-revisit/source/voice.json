@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "preset_id": "cold-procedural",
+  "title": "Сдержанная процедура",
+  "profile_id": "book-02-voice-v1",
+  "book_id": "book-02",
+  "status": "ensemble_revision_for_author_review",
+  "differentiation": "distinct",
+  "inherit_author_traits": [],
+  "axes": {
+    "pov": "Первое лицо наблюдателя",
+    "tense": "Прошедшее",
+    "distance": "Эмоции видны по отбору деталей",
+    "attention": "Последовательности, допуски и отклонения",
+    "rhythm": "Ровный; сбой темпа обозначает потерю контроля",
+    "syntax": "Точные связи и незаметные оговорки",
+    "dialogue": "Уклонения и разница полномочий",
+    "humor": "Редкая сухая несообразность",
+    "imagery": "Материалы и процедуры",
+    "exposition": "Через ошибку или исключение",
+    "reader_knowledge": "Мотив может отставать от описанного действия",
+    "chapter_movement": "Вход через отклонение; выход через его цену",
+    "emotional_register": "Следствие и ответственность; внимание к последствиям и чужим остаточным потерям."
+  },
+  "protected_examples": [],
+  "scene_overrides": [
+    {
+      "chapter": 9,
+      "original_chapter": 9,
+      "pov": "Корней, третье лицо",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 9,
+          "original_chapter": 9,
+          "p": 1039,
+          "quote": "## Глава 9. Последняя строка",
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "original_chapter": 13,
+      "pov": "Манос, третье лицо",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 13,
+          "original_chapter": 13,
+          "p": 1424,
+          "quote": "## Глава 13. Поправка ниоткуда",
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "original_chapter": 22,
+      "pov": "Гарм, третье лицо",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 22,
+          "original_chapter": 22,
+          "p": 2312,
+          "quote": "## Глава 22. Свернуть",
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "original_chapter": 26,
+      "pov": "Джулия, третье лицо",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 26,
+          "original_chapter": 26,
+          "p": 2640,
+          "quote": "## Глава 26. Заметает",
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "original_chapter": 27,
+      "pov": "Рэй, третье лицо",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 27,
+          "original_chapter": 27,
+          "p": 2720,
+          "quote": "## Глава 27. Своя рука",
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "original_chapter": 35,
+      "pov": "Рэй, третье лицо",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 35,
+          "original_chapter": 35,
+          "p": 3398,
+          "quote": "## Глава 35. Поправка с именем",
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "original_chapter": 44,
+      "pov": "Манос, ретроспектива30 лет",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 44,
+          "original_chapter": 44,
+          "p": 4354,
+          "quote": "## Глава 44. Семьдесят",
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "chapter": 45,
+      "original_chapter": 46,
+      "pov": "Рэй, третье лицо",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 45,
+          "original_chapter": 46,
+          "p": 4418,
+          "quote": "## Глава 45. Почерк без имени",
+          "verification_status": "verified"
+        }
+      ]
+    }
+  ],
+  "revision_reason": "Сохранён голос книги 1; повторные моральные пояснения сокращены, а отдельные POV и речевые привычки разведены через действие, синтаксис и набор образов. Ансамблевая правка убрала POV-сбой Гарма и сократила повторные объяснения.",
+  "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+  "character_signatures": [
+    {
+      "character": "Кай",
+      "signals": "практическое спасение, самоирония, имена; счёт остаётся мотивом, но не подменяет каждую эмоцию"
+    },
+    {
+      "character": "Дживс",
+      "signals": "формальная вежливость, точность, сухая статистическая насмешка"
+    },
+    {
+      "character": "Джулия",
+      "signals": "короткие тактические фразы, двери, углы, ремни и проверяемый риск"
+    },
+    {
+      "character": "Тимка",
+      "signals": "буквальная детская инженерная логика и предметные вопросы"
+    },
+    {
+      "character": "Манос",
+      "signals": "ведомости, баланс и строки как личный профессиональный язык"
+    },
+    {
+      "character": "Рэй",
+      "signals": "контроль, допуски, замки, команды и механизм подчинения"
+    },
+    {
+      "character": "Орен",
+      "signals": "земля, свет, рост и терпеливая практическая метафора"
+    },
+    {
+      "character": "Веда",
+      "signals": "источник, доказанный факт, пробел и граница вывода"
+    },
+    {
+      "character": "Лус",
+      "signals": "цена, тариф, товар и выживание через сделку"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-02",
+  "title": "Прочие убытки",
+  "book_type": "fiction",
+  "stage": "proofreading_ready",
+  "master": {
+    "path": "manuscript/master.md",
+    "format": "text",
+    "sha256": "81641a85ee25e78bc1e57348b279e7a88317551b166cfa831f33bd8f99431d32",
+    "status": "candidate",
+    "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена"
+  },
+  "voice": "voice.json",
+  "canon": "../../series/canon.json",
+  "audit_status": "ensemble_revision_verified_for_author_review",
+  "original": "../../sources/originals/КОНТРАКТНИК-2-Прочие-убытки.md",
+  "working_revision": {
+    "path": "revisions/2026-09-13-ensemble-r1/revised.md",
+    "format": "text",
+    "sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+    "status": "ensemble_revision_for_author_review",
+    "source_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+    "continuity": "revisions/2026-09-13-ensemble-r1/continuity",
+    "change_log": "revisions/2026-09-13-ensemble-r1/БЫЛО-СТАЛО.md",
+    "previous_book_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+    "printed_chars_with_spaces": 400206,
+    "author_sheets": 10.00515,
+    "transition": "revisions/2026-09-13-ensemble-r1/TRANSITION-BOOK-1.md",
+    "audit": "revisions/2026-09-13-ensemble-r1/audit/REPORT.md",
+    "ensemble_run": "audit/ensemble/book-02-2026-09-13-r1",
+    "docx": "revisions/2026-09-13-ensemble-r1/Риокка — Книга 2 — Прочие убытки — ансамблевая редакция.docx",
+    "docx_sha256": "10aef146a71b9b8b48b8acef42cd55f05aecfd8826a382d4d9d29e661a4b6663"
+  },
+  "cover": {
+    "path": "cover/cover-concept-v2-ledger.png",
+    "sha256": "8a5bc5acf9e450467907c0d09efb9d7247722f3a04ca1968b957462a69d42231",
+    "width": 1024,
+    "height": 1536,
+    "format": "png",
+    "color_mode": "RGB",
+    "status": "generated_concept_v2_for_author_review",
+    "style_reference": "../book-01/cover/cover-concept-v2-calm.png",
+    "style_policy": "../../COVER-STYLE.md",
+    "previous_concept": {
+      "path": "cover/cover-concept-v1.png",
+      "sha256": "4f33e8915bab6a8aa2502f7a6ea445cc36ca90870459ad73014b863603a7d416",
+      "status": "superseded_composition_preserved"
+    }
+  }
+}

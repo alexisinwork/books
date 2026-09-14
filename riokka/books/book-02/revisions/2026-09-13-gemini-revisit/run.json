@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "run_id": "book-02-2026-09-13-gemini-revisit",
+  "project_id": "riokka",
+  "book_id": "book-02",
+  "workflow": "author_approved_targeted_followup",
+  "started": "2026-09-13",
+  "continued": "2026-09-14",
+  "status": "verified",
+  "source": {
+    "path": "source/revised.md",
+    "sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da"
+  },
+  "author_decisions": {
+    "file": "author-decisions.md",
+    "status": "locked",
+    "sha256": "82983098ece1ce085c9101dfcd7bf9f6b582959c0d4be52a4a0a685879ab06d9",
+    "authority": "explicit current user request"
+  },
+  "issue_ledger": "issue-ledger.json",
+  "previous_ensemble": {
+    "run": "../../audit/ensemble/book-02-2026-09-13-r1",
+    "verify_result": "passed"
+  },
+  "external_report": {
+    "file": "source/gemini-reader-pass.md",
+    "sha256": "4f66a0c17dae0d45f78de12182acd26411ec2b334ec6dc2a9f1e4662f66df14d",
+    "provenance": "received external review; not a newly launched blind experiment"
+  },
+  "implementation": {
+    "model": "GPT-6",
+    "client": "Codex",
+    "target_sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96"
+  },
+  "completed": "2026-09-14",
+  "verification": {
+    "file": "verification.md",
+    "status": "locked",
+    "sha256": "355de827a32a8929fb7169a3ff6d94cc6d553e6325d50a8a1bf47db006a74263",
+    "report": "audit/REPORT.md",
+    "report_sha256": "9ac5a4b0333a2e6e357f5b28a49483617132211821921dcb63933290d70780ad",
+    "mechanical_evidence": "audit/verification.json",
+    "mechanical_sha256": "aec6aeea3fe6853eaa5cb84dd15ac8a21c9a4cc09421826b28bf0cf441d87cad"
+  },
+  "issue_ledger_sha256": "fe3e2fcb89859c96447f4c82e2529286cb2b44f88b508ff60c8b9addbf535994"
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-02",
+  "source_sha256": null,
+  "record_type": "audit/issues",
+  "fields": [
+    "id",
+    "category",
+    "severity",
+    "certainty",
+    "anchors",
+    "observation",
+    "reader_effect",
+    "proposed_change",
+    "dependencies",
+    "verification",
+    "decision"
+  ],
+  "items": [],
+  "working_revision_audit": {
+    "path": "revisions/2026-09-13-ensemble-r1/audit/issues.json",
+    "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+    "open_issue_ids": [],
+    "ensemble_run": "ensemble/book-02-2026-09-13-r1"
+  },
+  "release_audit": {
+    "path": "audit/release-2026-09-13-ensemble-r1/OVERALL.md",
+    "issues": "audit/release-2026-09-13-ensemble-r1/issues.json",
+    "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+    "pass": "ru-book-auditor, проход 9 «Выпуск»",
+    "open_issue_ids": [
+      "REL-001",
+      "REL-002",
+      "REL-003",
+      "REL-004",
+      "REL-005",
+      "REL-006",
+      "REL-007",
+      "REL-008",
+      "REL-009"
+    ],
+    "status": "findings_pending_author_decision"
+  }
+}

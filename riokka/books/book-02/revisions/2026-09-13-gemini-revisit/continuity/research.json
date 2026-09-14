@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-02",
+  "source_sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96",
+  "record_type": "research",
+  "status": "author_followup_candidate",
+  "authority": "Факты отдельной ансамблевой кандидатной редакции; мастер и принятый канон серии не заменены.",
+  "items": [
+    {
+      "id": "B02-SOURCE",
+      "path": "riokka/books/book-02/manuscript/master.md",
+      "sha256": "81641a85ee25e78bc1e57348b279e7a88317551b166cfa831f33bd8f99431d32",
+      "status": "unchanged_source",
+      "coverage": "51/51 chapters read"
+    },
+    {
+      "id": "B01-CURRENT",
+      "path": "riokka/books/book-01/manuscript/master.docx",
+      "sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+      "status": "author_selected",
+      "coverage": "chapters37–42 fully; relevant evidence elsewhere including31/32 and all transition rows"
+    },
+    {
+      "id": "B01-OLD",
+      "path": "riokka/books/book-01/archive/master-before-author-final-2026-09-13.docx",
+      "sha256": "ae84ad2fe0f044d9888f20d3def629d8afeacc39bf56d0525827c9b93d82fcba",
+      "status": "historical_source_for_initial_pass; superseded for final handoff"
+    },
+    {
+      "id": "B01-REVISION",
+      "path": "riokka/books/book-01/revisions/2026-09-12/revised.docx",
+      "status": "not_used_as_canon"
+    },
+    {
+      "id": "CHECK-TOOLS",
+      "path": "riokka/guides/REPOSITORIES.md",
+      "status": "See workshop guide for optional integrations; no third-party tool determines character motive."
+    }
+  ]
+}

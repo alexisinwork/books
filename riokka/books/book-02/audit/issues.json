@@ -19,9 +19,30 @@
   ],
   "items": [],
   "working_revision_audit": {
-    "path": "revisions/2026-09-13-ensemble-r1/audit/issues.json",
-    "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+    "path": "revisions/2026-09-13-gemini-revisit/audit/issues.json",
+    "source_sha256": "13d27eef71e16aa04f3bf44728794ba6b898ee4ed30221fff6f360cc49ff7d96",
     "open_issue_ids": [],
-    "ensemble_run": "ensemble/book-02-2026-09-13-r1"
+    "followup_run": "revisions/2026-09-13-gemini-revisit/run.json"
+  },
+  "release_audit": {
+    "path": "audit/release-2026-09-13-ensemble-r1/OVERALL.md",
+    "issues": "audit/release-2026-09-13-ensemble-r1/issues.json",
+    "source_sha256": "1a224d8f984d51dc8f22116fbc33e1af351b6bd435a1d40f6b0b3cfb058b0dfe",
+    "pass": "ru-book-auditor, проход 9 «Выпуск»",
+    "status": "historical_findings_resolved_in_preserved_source_revision",
+    "resolved_issue_ids": [
+      "REL-001",
+      "REL-002",
+      "REL-003",
+      "REL-004",
+      "REL-005",
+      "REL-006",
+      "REL-007",
+      "REL-008",
+      "REL-009"
+    ],
+    "open_issue_ids": [],
+    "resolution_record": "audit/release-2026-09-13-ensemble-r1/issues.json",
+    "applies_to_current_revision": false
   }
 }
