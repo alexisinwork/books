@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "run_id": "book-03-2026-09-14-r1",
+  "project_id": "riokka",
+  "book_id": "book-03",
+  "created_at": "2026-09-14T04:41:13+00:00",
+  "status": "verified",
+  "source": {
+    "path": "riokka/books/book-03/revisions/2026-09-13-expanded/revised.md",
+    "sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+    "status": "editorial_revision_for_author_review",
+    "authority": "working_revision"
+  },
+  "reader": {
+    "path": "riokka/books/book-03/revisions/2026-09-13-expanded/revised.md",
+    "sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+    "relation": "source_text"
+  },
+  "independence": {
+    "astra": "must not read current Claude or Gemini reports before lock",
+    "claude": "must not read current Astra or Gemini reports before lock",
+    "gemini": "isolated packet only; no repository canon, audits or change hints"
+  },
+  "reports": {
+    "astra": {
+      "file": "astra-diagnosis.md",
+      "status": "locked",
+      "sha256": "058ce24e2d350809eb2fb7bf0dd71382e0a5c8dc87379fe1386bdba943061764",
+      "locked_at": null,
+      "integrity_repair": {
+        "recorded_at": "2026-09-14T09:40:30+00:00",
+        "recorded_by": "Claude Code 2.1.270 / claude-opus-5[1m], application session",
+        "found_state": "status=locked set by an external client without sha256; verify reported \"locked report changed\"",
+        "action": "SHA-256 of the file as found recorded before author decisions; report content not edited",
+        "caveat": "file header still reads \"Status: draft\"; lock time and post-lock edits unknown"
+      }
+    },
+    "claude": {
+      "file": "claude-diagnosis.md",
+      "status": "locked",
+      "sha256": "5d78b667a809c4b6cbabb577c7ced55005ceebd4cc7de5ced3996abab021ffdb",
+      "locked_at": "2026-09-14T04:54:16+00:00"
+    },
+    "gemini": {
+      "file": "gemini-blind-read.md",
+      "status": "locked",
+      "sha256": "8cc3aa8ff325f6aa2358da887aa1dd3f6d216b206b775bf8429089079bbbe21d",
+      "locked_at": "2026-09-14T04:42:51+00:00"
+    },
+    "reconciliation": {
+      "file": "reconciliation.md",
+      "status": "locked",
+      "sha256": "54fe71591d33612a710cf49e2cdbb3976678f4877af0f72f817dac275702286f",
+      "locked_at": null,
+      "integrity_repair": {
+        "recorded_at": "2026-09-14T09:40:30+00:00",
+        "recorded_by": "Claude Code 2.1.270 / claude-opus-5[1m], application session",
+        "found_state": "status=locked set by an external client without sha256; verify reported \"locked report changed\"",
+        "action": "SHA-256 of the file as found recorded before author decisions; report content not edited",
+        "caveat": "reconciliation left issue-ledger.json empty; ledger compiled at application stage from this report and the three diagnoses"
+      }
+    },
+    "verification": {
+      "file": "verification.md",
+      "status": "locked",
+      "sha256": "9f6aae1408dfdb555ae29e2d59724db2448e3ad35ecc7adaa2d2986de06afda9",
+      "locked_at": "2026-09-14T10:27:59+00:00"
+    }
+  },
+  "author_decisions": {
+    "file": "author-decisions.md",
+    "status": "locked",
+    "sha256": "b8e9e2ab9b8740e873f474c39d546be3c5434c2d3b8cc9fef1695edf4d04a817",
+    "locked_at": "2026-09-14T09:42:26+00:00"
+  },
+  "issue_ledger": "issue-ledger.json"
+}

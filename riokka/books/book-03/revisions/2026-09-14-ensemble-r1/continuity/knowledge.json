@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "book_id": "book-03",
+  "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+  "status": "ensemble_revision_for_author_review",
+  "authority": "Факты отдельной ансамблевой редакции 2026-09-14 по решениям автора; не подмена принятого канона серии.",
+  "items": [
+    {
+      "id": "tikhon_name",
+      "statement": "Имя и свидетельство жизни Тихона получены по документам в 5; личная встреча в 39.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 5,
+          "p": 539,
+          "quote": "## Глава 5. Наследство",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 6
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 39,
+          "p": 4475,
+          "quote": "## Глава 39. Цена, которую назовёт источник",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 41
+        }
+      ],
+      "known_from_scene": 4,
+      "holder": [
+        "Кай",
+        "Джулия",
+        "Веда"
+      ],
+      "state_known_guessed_false": "known_with_source_limits"
+    },
+    {
+      "id": "julias_panel",
+      "statement": "Конкретная проба подтверждает наследную связь; привод и назначение требуют отдельного доступа.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 10,
+          "p": 997,
+          "quote": "## Глава 10. [Джулия] Малый замок",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 11
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 41,
+          "p": 4803,
+          "quote": "— Маркировка останется в местной памяти, — ответил Тихон. — Но если раздел закроют и придётся читать заново, понадобится её живой ответ.",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 43
+        }
+      ],
+      "known_from_scene": 7,
+      "state_known_guessed_false": "known_limited_test"
+    },
+    {
+      "id": "buoy",
+      "statement": "Тепло не доказывает пустоту; доступный осмотр сознательно отменён в 29; Лесь и его гибель подтверждены только в 53.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 9,
+          "p": 931,
+          "quote": "## Глава 9. Соседний буй",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 10
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 29,
+          "p": 3277,
+          "quote": "## Глава 29. По сводке пустой",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 30
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 53,
+          "p": 6309,
+          "quote": "Потом пришло медицинское подтверждение. Идентификатор, найденный при теле, совпал с личной карточкой, а подрядчик передал дополнительную запись допуска. Причиной смерти считали разрушение рабочего отсека при сносе. Точное положение Леся в ту секунду ещё восстанавливали.",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 55
+        }
+      ],
+      "known_from_scene": 47,
+      "earlier_state": "unresolved_presence"
+    },
+    {
+      "id": "oren_death",
+      "statement": "В 49 исчезает изображение, спасательный вызов открыт. В 52 смерть подтверждается физическим входом, медицинским заключением и опознанием.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 49,
+          "p": 5607,
+          "quote": "Я передал управление выравниванием аварийной службе по местному каналу. Получил подтверждение, что видят помещение и отправили людей со стороны обслуживания. Потом сохранил последний кадр и весь промежуток после него. Вызов оставался открытым.",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 51
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 52,
+          "p": 6029,
+          "quote": "В камеру вошли ночью, со стороны обслуживания. После разгерметизации соседнего участка пришлось сначала остановить подачу и укрепить стык. Орена нашли у внутреннего выхода. В сообщении были время осмотра, имя врача и заключение. Следом пришло подтверждение Марта: он участвовал в опознании, сверил личную отметку и прежнюю медицинскую запись.",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 54
+        }
+      ],
+      "known_from_scene": 46,
+      "earlier_state": "alive_last_seen; rescue_pending"
+    },
+    {
+      "id": "esquire",
+      "statement": "Тихон не был в ночь спасения Джулии. В 54 он пересказывает слова самого Эсквайра: на седьмом причале тот «впервые выбрал до выхода, а не на выходе»; кого выбрал, не назвал. Это свидетельство со слов, не доказательство причины спасения Джулии. Случай Ильса (54) по архиву в 58 датирован временем после причала; текущее местонахождение Эсквайра неизвестно.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 54,
+          "p": 6477,
+          "quote": "— На причале меня не было. Это правда, и ты её уже слышала. Но позже — не сразу, через год или больше — мы сидели у недоделанной двери на другом узле. Он пил из моей кружки, потому что свою где-то оставил. Я спросил, с каких пор он берёт сп",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 56,
+          "requoted_from": "— Меня там не было."
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 54,
+          "p": 6493,
+          "quote": "— Если жив. Когда я говорил с ним последний раз, был. Давно. С тех пор мне про него никто не докладывал.",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 56,
+          "requoted_from": "— Когда я в последний раз говорил с ним, был жив. Сейчас не знаю."
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 58,
+          "p": 7299,
+          "quote": "Ильса там не было. Зато сохранились отметка о двух незанятых местах и позднее подтверждение неизменного списка перевозки. Они относились к тому узлу и тому вывозу, о которых он рассказывал, и дата приходилась на время после седьмого причала",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 60,
+          "requoted_from": "Ильса там не было. Зато сохранились отметка о двух незанятых местах и позднее подтверждение неизменного списка перевозки. Они относились к тому узлу и тому вывозу, о которых он рассказывал. Джулия выд"
+        }
+      ],
+      "known_from_scene": 48,
+      "state_known_guessed_false": "limited_testimony"
+    },
+    {
+      "id": "v_channel",
+      "statement": "Инициал В. и преемственность удостоверения получены из архива в 58; единый живой пользователь и полное имя не установлены.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 58,
+          "p": 7303,
+          "quote": "Эсквайр проходил в ней исполнителем. Тихон — мастером узла. Внешний согласующий был указан сокращённо: «В.».",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 60
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 58,
+          "p": 7319,
+          "quote": "— Подтверждается преемственность служебного удостоверения, — ответил он. — Кто сейчас имеет возможность им пользоваться, в этих материалах не указано.",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 60
+        }
+      ],
+      "known_from_scene": 52,
+      "holder": [
+        "Кай",
+        "Джулия",
+        "Веда",
+        "Рэй",
+        "Тихон",
+        "Дживс"
+      ],
+      "state_known_guessed_false": "known_channel_identity_unresolved"
+    },
+    {
+      "id": "danek",
+      "statement": "Данек Ров подтверждён как один из 109 связкой трёх документов, номером свода и материалами семьи.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 57,
+          "p": 7125,
+          "quote": "В распределительном листе он шёл с личным номером, постом назначения и отметкой посадки на рабочую перевозку. В поздней копии ведомости выдачи оборудования сохранился тот же номер у конкретного участка. Третьим документом был ответ семье после закрытия: персональная запись о гибели со ссылкой на тот самый общий свод, из которого мы узнали число сто девять.",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 59
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 57,
+          "p": 7217,
+          "quote": "Написал: «Данек Ров».",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 59
+        }
+      ],
+      "known_from_scene": 51,
+      "earlier_state": "109_names_unknown"
+    },
+    {
+      "id": "oren_last_words",
+      "statement": "В 48 Кай слышит, как Орен вполголоса говорит живому краю «Тише… Сюда… Спи». Знание получено Каем лично; мост к тому 4 по решению автора (ENS-021).",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 46,
+          "p": 5529,
+          "quote": "— Тише. Тише… Сюда. Сюда, вот так. Спи.",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 48
+        }
+      ],
+      "known_from_scene": 42,
+      "holder": [
+        "Кай"
+      ],
+      "state_known_guessed_false": "known_witnessed",
+      "status": "ensemble_revision_2026_09_14"
+    },
+    {
+      "id": "esquire_pier_turn",
+      "statement": "Со слов Эсквайра в пересказе Тихона: седьмой причал — первый случай, когда Эсквайр выбрал до выхода. Джулия и Кай слышат это от Тихона; Рэя при этой части нет.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 52,
+          "p": 6477,
+          "quote": "— На причале меня не было. Это правда, и ты её уже слышала. Но позже — не сразу, через год или больше — мы сидели у недоделанной двери на другом узле. Он пил из моей кружки, потому что свою где-то оставил. Я спросил, с каких пор он берёт сп",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 54
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 56,
+          "p": 7299,
+          "quote": "Ильса там не было. Зато сохранились отметка о двух незанятых местах и позднее подтверждение неизменного списка перевозки. Они относились к тому узлу и тому вывозу, о которых он рассказывал, и дата приходилась на время после седьмого причала",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 58
+        }
+      ],
+      "known_from_scene": 48,
+      "holder": [
+        "Джулия",
+        "Кай",
+        "Тихон"
+      ],
+      "state_known_guessed_false": "testimony_hearsay",
+      "status": "ensemble_revision_2026_09_14"
+    }
+  ],
+  "selection_for_continuation": {
+    "status": "author_selected",
+    "decision": "../author-decisions.json",
+    "date": "2026-09-14"
+  }
+}

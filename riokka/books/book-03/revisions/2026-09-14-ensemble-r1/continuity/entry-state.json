@@ -1,0 +1,198 @@
+{
+  "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+  "base_previous_book_sha256": "209ecd595c711bd39762564d061e3df2c67c16c729763f164d6f4de67d656985",
+  "checked_previous_book": {
+    "path": "book-02/revisions/2026-09-13-ensemble-r1/revised.md",
+    "sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+    "status": "ensemble_revision_for_author_review",
+    "preserved_snapshot": "archive/book02-compared-b169ba5b.md",
+    "snapshot_reason": "Проверенная версия сохраняется отдельно: указатель рабочей редакции тома 2 может измениться при параллельной работе."
+  },
+  "book1_sha256": "2651e6b73fe20e844ff19c4f7f99a39ca90c1da3d53f91a3a3a1417ce3ac4172",
+  "verification": "Book 2 final-state anchors exact; selected ending and transition passages read; Book 1 hash and inherited transition records checked, not whole Book 1 reread.",
+  "preserved_book2_end_state": [
+    {
+      "id": "B02-E-01",
+      "statement": "На Миле Кай, Джулия, Тимка, Веда. Первый курс — пополнение, последняя подтверждённая линия перевода Орена; дальше поиск.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 51,
+          "original_chapter": 51,
+          "p": 4936,
+          "quote": "## Глава 51. Те, кого ещё можно посадить",
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "B02-E-02",
+      "statement": "На тихом мире остаются 52 первых поселенца и новые прибывшие. 211 жителей Велда образуют «Колонию Велда» за гребнем рядом с поселением Сати; Назар рождён после высадки; 30 человек Делянки с Сальдо подтверждены. Лус высажен отдельно.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 1,
+          "original_chapter": 1,
+          "p": 3,
+          "quote": "## Глава 1. Пересчитывается",
+          "verification_status": "verified"
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 2,
+          "original_chapter": 2,
+          "p": 209,
+          "quote": "## Глава 2. Сроки и руки",
+          "verification_status": "verified"
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 42,
+          "original_chapter": 42,
+          "p": 4016,
+          "quote": "## Глава 42. Хорошая плохая земля",
+          "verification_status": "verified"
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 51,
+          "original_chapter": 51,
+          "p": 4936,
+          "quote": "## Глава 51. Те, кого ещё можно посадить",
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "B02-E-03",
+      "statement": "41 человек с Делянки, включая Зеленю, принят в другом пункте. Дальнейшая физическая судьба 389 оставшихся, включая Корнея, неизвестна. Перекличка в конце главы 9 не является свидетельством смерти.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 9,
+          "original_chapter": 9,
+          "p": 1039,
+          "quote": "## Глава 9. Последняя строка",
+          "verification_status": "verified"
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 42,
+          "original_chapter": 42,
+          "p": 4016,
+          "quote": "## Глава 42. Хорошая плохая земля",
+          "verification_status": "verified"
+        }
+      ],
+      "resolution_status": "resolved",
+      "issue": "B02-24",
+      "resolution_note": "По поручению автора проверен кандидат книги 3 SHA-256 9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d; подтверждения гибели нет. Выбран A: судьба 389 остаётся неизвестной, Корней жив в последней подтверждённой точке."
+    },
+    {
+      "id": "B02-E-04",
+      "statement": "Орен на последнем показанном контакте жив у Рэя; Рэй не перешёл к Каю, личность Руки не названа.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 45,
+          "original_chapter": 46,
+          "p": 4418,
+          "quote": "## Глава 45. Почерк без имени",
+          "verification_status": "verified"
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 51,
+          "original_chapter": 51,
+          "p": 4936,
+          "quote": "## Глава 51. Те, кого ещё можно посадить",
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "B02-E-05",
+      "statement": "Прариокка утрачена; обычный подарок посажен. Гента — склад в предложенном мосте. 109 мест пусты, запрос активен.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 40,
+          "original_chapter": 40,
+          "p": 3850,
+          "quote": "## Глава 40. Тот, кто стирает строку",
+          "verification_status": "verified"
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 42,
+          "original_chapter": 42,
+          "p": 4016,
+          "quote": "## Глава 42. Хорошая плохая земля",
+          "verification_status": "verified"
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 49,
+          "original_chapter": 45,
+          "p": 4744,
+          "quote": "## Глава 49. Недоимка",
+          "verification_status": "verified"
+        },
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 51,
+          "original_chapter": 51,
+          "p": 4936,
+          "quote": "## Глава 51. Те, кого ещё можно посадить",
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "B02-E-06",
+      "statement": "Оригинал листа и чемодан находятся у Сальдо. У Веды и Кая остаётся копия листа с указанным источником; складские выдачи и подписи получателей ещё не сверены.",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+          "chapter": 49,
+          "original_chapter": 49,
+          "p": 4744,
+          "quote": "## Глава 49. Недоимка",
+          "verification_status": "verified"
+        }
+      ]
+    }
+  ],
+  "book3_entry": "На Миле Кай, Джулия, Тимка, Веда; после отлёта с тихого мира три недели. 109 имён не найдены, запросы действуют. Прариокки нет.",
+  "book3_entry_anchor": {
+    "source": "revised.md",
+    "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+    "chapter": 1,
+    "p": 5,
+    "quote": "## Глава 1. Глухая накладная",
+    "verification_status": "exact_match"
+  },
+  "transition_changes": [
+    "Обычный росток сохранён в грунте в 58/60.",
+    "Другие проверенные конечные состояния редакций 10al и ensemble-r1 совместимы со входом тома 3."
+  ],
+  "selection_for_continuation": {
+    "status": "author_selected",
+    "decision": "../author-decisions.json",
+    "date": "2026-09-14"
+  }
+}

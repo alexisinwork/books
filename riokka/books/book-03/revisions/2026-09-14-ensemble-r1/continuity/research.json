@@ -1,0 +1,57 @@
+{
+  "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+  "items": [
+    {
+      "id": "original",
+      "source": "manuscript/master.md",
+      "source_sha256": "9c3e242da0d512b851531cf94c1941aae7eabb2f236ea19f409b6f139d0bf76d",
+      "status": "unchanged_candidate"
+    },
+    {
+      "id": "previous_book",
+      "source": "/home/alexi/books/riokka/books/book-02/revisions/2026-09-13-ensemble-r1/revised.md",
+      "source_sha256": "b169ba5b2b53b97e8044f7107c628bff95131df6c88b00d49fea6bb9dbd390da",
+      "scope": "Final-state anchors and ending; no independent full Book 2 audit claimed."
+    },
+    {
+      "id": "ruka_limit",
+      "question": "Полное имя Руки и нынешний пользователь согласующего канала",
+      "resolution_status": "unresolved",
+      "scope": "intentional_series_mystery",
+      "anchors": [
+        {
+          "source": "revised.md",
+          "source_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8",
+          "chapter": 58,
+          "p": 7319,
+          "quote": "— Подтверждается преемственность служебного удостоверения, — ответил он. — Кто сейчас имеет возможность им пользоваться, в этих материалах не указано.",
+          "verification_status": "exact_match",
+          "original_chapter_2026_09_13": 60
+        }
+      ]
+    },
+    {
+      "id": "previous_revision",
+      "source": "revisions/2026-09-13-expanded/revised.md",
+      "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+      "status": "preserved_unchanged"
+    },
+    {
+      "id": "ensemble_run",
+      "source": "audit/ensemble/book-03-2026-09-14-r1",
+      "status": "author_decided"
+    },
+    {
+      "id": "book4_bridge",
+      "source": "book-04/manuscript/master.md",
+      "source_sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553",
+      "status": "read_selected_lines",
+      "note": "l125, l295, l423 (слова Орена; «меня сделали границей»); том 4 не менялся."
+    }
+  ],
+  "selection_for_continuation": {
+    "status": "author_selected",
+    "decision": "../author-decisions.json",
+    "date": "2026-09-14"
+  }
+}

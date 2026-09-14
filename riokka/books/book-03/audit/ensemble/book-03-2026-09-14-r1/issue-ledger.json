@@ -1,0 +1,1308 @@
+{
+  "schema_version": 1,
+  "run_id": "book-03-2026-09-14-r1",
+  "project_id": "riokka",
+  "book_id": "book-03",
+  "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+  "status": "verified",
+  "compiled_by": "Claude Code (claude-opus-5[1m]) at application stage from locked reconciliation.md and three diagnoses; reconciliation left items empty",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "pacing",
+      "severity": "major",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 4,
+          "anchor": "revised.md l429-647",
+          "quote": "## Глава 4. Где нет зазора"
+        },
+        {
+          "chapter": 10,
+          "anchor": "l1047-1157",
+          "quote": null
+        },
+        {
+          "chapter": 13,
+          "anchor": "l1385-1505",
+          "quote": null
+        }
+      ],
+      "observation": "Главы 4–13 выполняют одну функцию подготовки без противодействия в кадре; три малые этические проверки Кая подряд; счётчик суток размыт.",
+      "reader_effect": "Потеря темпа в первой пятой книги до входа в город.",
+      "evidence": "claude-diagnosis.md «Где ослабевает» п.1–3; reconciliation.md «Главные решения» п.1.",
+      "proposed_actions": [
+        "Сжать часть 1 на 15–20%",
+        "Слить главы 4 и 5",
+        "Сократить звонки главы 10 до зерна линии Б-6",
+        "Убрать объясняющие выводы гл.13 и прямые формулы роста Кая",
+        "Держать точный счётчик суток"
+      ],
+      "dependencies": [
+        "ENS-008",
+        "ENS-011",
+        "нумерация глав и continuity/notes.json"
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/01–03, 04 (слияние 4+5), 05–12"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Часть 1: 91 677 → 79 532 знаков разметки (−13,2%); главы 4+5 слиты, гл. 9 сжата, три малых этических теста сохранены без выводов, счётчик суток в гл. 13. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "gemini"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": 14,
+          "anchor": "l1509-1637",
+          "quote": null
+        },
+        {
+          "chapter": 15,
+          "anchor": "l1639-1753",
+          "quote": null
+        },
+        {
+          "chapter": 16,
+          "anchor": "l1755-1937",
+          "quote": null
+        }
+      ],
+      "observation": "Главы 14–16 подряд заняты преодолением административных согласований при въезде.",
+      "reader_effect": "Холодный читатель отметил резкое падение динамики и желание пролистать.",
+      "evidence": "gemini-blind-read.md «Первые пять мест» п.1. Claude считает дуэль с Ясной (гл.16) и Демина (гл.15) сильными — защищать.",
+      "proposed_actions": [
+        "Сжать формальности въезда и досмотра в гл.14",
+        "Сохранить Демина и дуэль с Ясной, убрать процедурные повторы"
+      ],
+      "dependencies": [
+        "ENS-001"
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/13"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Досмотр и тележка сжаты; дуэль с Ясной (15) и Демин (14) не тронуты. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "conflicted"
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "gemini"
+      ],
+      "category": "clarity",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": 21,
+          "anchor": "l2425-2527",
+          "quote": null
+        },
+        {
+          "chapter": 22,
+          "anchor": "l2529-2611",
+          "quote": null
+        }
+      ],
+      "observation": "Технические переговоры в главах 21–22 заслоняют эмоциональное напряжение.",
+      "reader_effect": "Ощущение «подготовки к подготовке».",
+      "evidence": "gemini-blind-read.md п.2 (упомянутых ретрансляторов 0,4 с в тексте нет; учитывается реальная техническая плотность глав).",
+      "proposed_actions": [
+        "Сократить технические пояснения гл.21–22, оставив ставку Веды и Б-6 как окно"
+      ],
+      "dependencies": [
+        "ENS-006"
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/20",
+          "revisions/2026-09-14-ensemble-r1/chapters/21"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Процедурные пояснения сжаты до одной-двух фраз, связаны с моделью солонки. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "claude",
+        "gemini"
+      ],
+      "category": "structure",
+      "severity": "major",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 29,
+          "anchor": "l3349-3435",
+          "quote": null
+        },
+        {
+          "chapter": 30,
+          "anchor": "l3437-3575",
+          "quote": null
+        },
+        {
+          "chapter": 31,
+          "anchor": "l3577-3671",
+          "quote": null
+        },
+        {
+          "chapter": 32,
+          "anchor": "l3673-3775",
+          "quote": null
+        },
+        {
+          "chapter": 33,
+          "anchor": "l3777-3887",
+          "quote": null
+        },
+        {
+          "chapter": 35,
+          "anchor": "l4029-4109",
+          "quote": null
+        }
+      ],
+      "observation": "Развилка Б-6 разыгрывается в главах 30–35; рефрен «не отправил» закрывает пять глав подряд; пауза перед броском (29–30).",
+      "reader_effect": "Убывающая отдача, финальный отказ за минуту до сноса теряет удар.",
+      "evidence": "claude-diagnosis.md п.4 и структура п.2; gemini-blind-read.md п.3.",
+      "proposed_actions": [
+        "Слить главы 30 и 31",
+        "Оставить рефрен в трёх местах: создание черновика, вопрос Рэя «Буй?», отказ за минуту до сноса",
+        "Сжать гл.29"
+      ],
+      "dependencies": [
+        "ENS-013",
+        "нумерация глав"
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/28",
+          "revisions/2026-09-14-ensemble-r1/chapters/29 (слияние 30+31)",
+          "revisions/2026-09-14-ensemble-r1/chapters/30",
+          "revisions/2026-09-14-ensemble-r1/chapters/31",
+          "revisions/2026-09-14-ensemble-r1/chapters/32",
+          "revisions/2026-09-14-ensemble-r1/chapters/33"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Рефрен «не отправлено/не отправляю» — три появления (29, 32 «Буй?», 33); гл. 28 сжата. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "convergent"
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "structure",
+      "severity": "major",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 47,
+          "anchor": "l5437-5551",
+          "quote": "## Глава 47. [Тихон] Полуправда"
+        },
+        {
+          "chapter": 56,
+          "anchor": "l6747-6763",
+          "quote": null
+        }
+      ],
+      "observation": "Свидетельство Тихона об Ильсе стоит в точке обратного отсчёта и повторно пересказано в гл.56.",
+      "reader_effect": "Тормоз кульминации и двойной рассказ.",
+      "evidence": "claude-diagnosis.md п.5 и структура п.3; reconciliation.md «Локальные замечания».",
+      "proposed_actions": [
+        "В гл.47 оставить короткую версию",
+        "Полную историю Ильса перенести в гл.56"
+      ],
+      "dependencies": [
+        "ENS-010",
+        "ENS-015"
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/45",
+          "revisions/2026-09-14-ensemble-r1/chapters/46",
+          "revisions/2026-09-14-ensemble-r1/chapters/54"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Короткая версия в 45, полная история Ильса в 54; двойной пересказ устранён. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "claude",
+        "gemini"
+      ],
+      "category": "clarity",
+      "severity": "major",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 18,
+          "anchor": "l2083-2195",
+          "quote": null
+        },
+        {
+          "chapter": 25,
+          "anchor": "l2911",
+          "quote": null
+        },
+        {
+          "chapter": 35,
+          "anchor": "l4029-4109",
+          "quote": null
+        },
+        {
+          "chapter": 36,
+          "anchor": "l4137, l4181",
+          "quote": null
+        }
+      ],
+      "observation": "Механизм проникновения разбросан по многим главам; ясная сводка только в гл.25; в гл.36 объяснения в пике; пространственная дезориентация в 35–36.",
+      "reader_effect": "Читатель выслушивает технические вводные вместо узнавания шагов; теряет, где физически находятся герои.",
+      "evidence": "claude-diagnosis.md п.6, структура п.4; gemini-blind-read.md п.4; reconciliation.md «Расхождения».",
+      "proposed_actions": [
+        "Дать физическую модель плана на столе в гл.18",
+        "Сократить абзацы l4137 и l4181",
+        "Дать зримые пространственные маркеры в гл.35–38"
+      ],
+      "dependencies": [
+        "ENS-003"
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/17",
+          "revisions/2026-09-14-ensemble-r1/chapters/20",
+          "revisions/2026-09-14-ensemble-r1/chapters/21",
+          "revisions/2026-09-14-ensemble-r1/chapters/33",
+          "revisions/2026-09-14-ensemble-r1/chapters/34",
+          "revisions/2026-09-14-ensemble-r1/chapters/36"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Модель на кухонном столе (кружки, салфетка, солонка, таймер); карта верхнего поста в 33; ярусы Холма в 36; объяснения в пике 34 сокращены. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "convergent"
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "claude",
+        "gemini",
+        "astra"
+      ],
+      "category": "scene",
+      "severity": "major",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 45,
+          "anchor": "l5223-5225, l5281",
+          "quote": null
+        },
+        {
+          "chapter": 48,
+          "anchor": "l5563",
+          "quote": null
+        },
+        {
+          "chapter": 49,
+          "anchor": "l5699-5739",
+          "quote": null
+        },
+        {
+          "chapter": 50,
+          "anchor": "l5791, l5829",
+          "quote": null
+        }
+      ],
+      "observation": "Гибель Орена анонсирована трижды; семь неудачных проверок подряд в гл.49; моральные комментарии рассказчика в момент гибели.",
+      "reader_effect": "Исход известен заранее, нарастание дробится, пик разбавлен объяснением.",
+      "evidence": "claude-diagnosis.md п.9–10 и структура п.5; reconciliation.md п.3; Gemini и Astra называют сцену сильнейшей.",
+      "proposed_actions": [
+        "Оставить одно предвестие",
+        "Сгустить попытки до двух-трёх",
+        "Убрать комментарии l5791 и l5829"
+      ],
+      "dependencies": [
+        "ENS-021"
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/43",
+          "revisions/2026-09-14-ensemble-r1/chapters/46",
+          "revisions/2026-09-14-ensemble-r1/chapters/47",
+          "revisions/2026-09-14-ensemble-r1/chapters/48"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Одно предвестие («Таким я его и оставил»); попытки сгущены до трёх; комментарии l5791/l5829 сняты. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "convergent"
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 4,
+          "anchor": "l473-493, l509-511",
+          "quote": null
+        },
+        {
+          "chapter": 5,
+          "anchor": "l609-619",
+          "quote": null
+        },
+        {
+          "chapter": 6,
+          "anchor": "l729-737",
+          "quote": null
+        },
+        {
+          "chapter": 9,
+          "anchor": "l1003-1009",
+          "quote": null
+        }
+      ],
+      "observation": "Повтор функции «Кай предлагает обход — его поправляют».",
+      "reader_effect": "Кай выглядит вечным учеником, корректоры сливаются.",
+      "evidence": "claude-diagnosis.md п.2; reconciliation.md п.4.",
+      "proposed_actions": [
+        "Часть прямых поправок заменить сопротивлением среды или снять"
+      ],
+      "dependencies": [
+        "ENS-001"
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/04",
+          "revisions/2026-09-14-ensemble-r1/chapters/18"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Поправки заменены сопротивлением среды (панель за порогом; схема без внутренних дверей). Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "major",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 2,
+          "anchor": "l213",
+          "quote": null
+        },
+        {
+          "chapter": 8,
+          "anchor": "l887",
+          "quote": null
+        },
+        {
+          "chapter": 26,
+          "anchor": "l3015",
+          "quote": null
+        },
+        {
+          "chapter": 30,
+          "anchor": "l3519",
+          "quote": null
+        },
+        {
+          "chapter": 43,
+          "anchor": "l5007",
+          "quote": null
+        },
+        {
+          "chapter": 45,
+          "anchor": "l5235",
+          "quote": null
+        }
+      ],
+      "observation": "Второй план говорит одной этикой «не утверждаю больше, чем видел».",
+      "reader_effect": "Однородность второстепенных голосов; ошибается уверенно только Кай.",
+      "evidence": "claude-diagnosis.md «Язык и различимость голосов».",
+      "proposed_actions": [
+        "В 15–20 репликах дать Дрозду, Ирме, Исте, Рэю и другим иной способ говорить о знании: завышение, грубая краткость, уверенная ошибка"
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/07",
+          "revisions/2026-09-14-ensemble-r1/chapters/21",
+          "revisions/2026-09-14-ensemble-r1/chapters/22",
+          "revisions/2026-09-14-ensemble-r1/chapters/23",
+          "revisions/2026-09-14-ensemble-r1/chapters/27",
+          "revisions/2026-09-14-ensemble-r1/chapters/29",
+          "revisions/2026-09-14-ensemble-r1/chapters/30",
+          "revisions/2026-09-14-ensemble-r1/chapters/41",
+          "revisions/2026-09-14-ensemble-r1/chapters/43",
+          "revisions/2026-09-14-ensemble-r1/chapters/52",
+          "revisions/2026-09-14-ensemble-r1/chapters/53"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "14 реплик: Дрозд ×2, Манос ×2, Ирма ×3, Рэй ×2, Тихон, Иста, Зеленя, Ясна. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "claude",
+        "gemini"
+      ],
+      "category": "voice",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": 11,
+          "anchor": "l1159",
+          "quote": null
+        },
+        {
+          "chapter": 40,
+          "anchor": "l4541",
+          "quote": null
+        },
+        {
+          "chapter": 47,
+          "anchor": "l5437",
+          "quote": null
+        }
+      ],
+      "observation": "Смена первого лица в главах 11, 40, 47 дезориентирует; голоса Джулии и Тихона сползают в синтаксис Кая.",
+      "reader_effect": "Несколько абзацев на перестройку; рассказчики звучат одинаково.",
+      "evidence": "gemini-blind-read.md «Где я запутался» п.1 (гл.11 в действительности от первого лица Джулии); claude-diagnosis.md «Голоса POV-рассказчиков».",
+      "proposed_actions": [
+        "В первых строках POV-глав дать безошибочный признак рассказчика",
+        "Развести синтаксис Джулии и Тихона с Каем"
+      ],
+      "dependencies": [
+        "ENS-005"
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/10",
+          "revisions/2026-09-14-ensemble-r1/chapters/38",
+          "revisions/2026-09-14-ensemble-r1/chapters/45"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Признак рассказчика в первых строках; голос Джулии и Тихона отведён от синтаксиса Кая. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "convergent"
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 9,
+          "anchor": "l1037",
+          "quote": null
+        },
+        {
+          "chapter": 19,
+          "anchor": "l2285",
+          "quote": null
+        },
+        {
+          "chapter": 13,
+          "anchor": "l1501",
+          "quote": null
+        },
+        {
+          "chapter": 41,
+          "anchor": "l4805",
+          "quote": null
+        },
+        {
+          "chapter": 44,
+          "anchor": "l5091, l5125",
+          "quote": null
+        },
+        {
+          "chapter": 59,
+          "anchor": "l7551",
+          "quote": null
+        },
+        {
+          "chapter": 60,
+          "anchor": "l7703",
+          "quote": null
+        }
+      ],
+      "observation": "Комментарий рассказчика после ясного бита; тик «не стал(о) ни…, ни…»; прямые формулы роста Кая.",
+      "reader_effect": "Объяснение уже понятой эмоции ослабляет сцену.",
+      "evidence": "claude-diagnosis.md «Комментарий рассказчика», «Синтаксический тик».",
+      "proposed_actions": [
+        "Снять или сжать дублирующие выводы",
+        "Сократить тик до редких осмысленных случаев"
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/01",
+          "revisions/2026-09-14-ensemble-r1/chapters/02",
+          "revisions/2026-09-14-ensemble-r1/chapters/03",
+          "revisions/2026-09-14-ensemble-r1/chapters/07",
+          "revisions/2026-09-14-ensemble-r1/chapters/08",
+          "revisions/2026-09-14-ensemble-r1/chapters/11",
+          "revisions/2026-09-14-ensemble-r1/chapters/12",
+          "revisions/2026-09-14-ensemble-r1/chapters/18",
+          "revisions/2026-09-14-ensemble-r1/chapters/19",
+          "revisions/2026-09-14-ensemble-r1/chapters/37",
+          "revisions/2026-09-14-ensemble-r1/chapters/39",
+          "revisions/2026-09-14-ensemble-r1/chapters/42",
+          "revisions/2026-09-14-ensemble-r1/chapters/57",
+          "revisions/2026-09-14-ensemble-r1/chapters/58"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Предложения «Не …, не …» 16 → 11; фигура «не стал(о) ни… ни…» 3 → 1 (оставшаяся — обычное употребление); дубли выводов сняты. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-012",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 38,
+          "anchor": "l4379, l4383-4387",
+          "quote": null
+        },
+        {
+          "chapter": 39,
+          "anchor": "l4445, l4495, l4497",
+          "quote": null
+        }
+      ],
+      "observation": "Антимистика Холма повторяется 4–5 раз.",
+      "reader_effect": "Разжёвывание понятого.",
+      "evidence": "claude-diagnosis.md п.7; reconciliation.md «Локальные замечания».",
+      "proposed_actions": [
+        "Оставить l4387 и l4495, остальные повторы снять"
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/36",
+          "revisions/2026-09-14-ensemble-r1/chapters/37"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Упоминания «лечат/оценил» 10 → 8; оставлены реплики Дживса и Орена. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-013",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "causality",
+      "severity": "moderate",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": 22,
+          "anchor": "l2529-2611",
+          "quote": null
+        },
+        {
+          "chapter": 29,
+          "anchor": "l3405-3435",
+          "quote": null
+        },
+        {
+          "chapter": 30,
+          "anchor": "l3437-3575",
+          "quote": null
+        }
+      ],
+      "observation": "Ответственность Кая за отказ осмотреть Б-6 должна читаться как сознательный выбор под давлением времени.",
+      "reader_effect": "Усиление цены прагматизма.",
+      "evidence": "astra-diagnosis.md «Приоритетные проблемы» п.1; reconciliation.md п.2. В тексте отказ уже прямой (гл.30–31); сохраняется при слиянии и подкрепляется в гл.22.",
+      "proposed_actions": [
+        "Сохранить при слиянии 30–31 явную формулу отказа",
+        "Дать в гл.22 ясный момент, где Кай понимает выгоду от сноса"
+      ],
+      "dependencies": [
+        "ENS-004"
+      ],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/21",
+          "revisions/2026-09-14-ensemble-r1/chapters/29"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Кай прямо понимает, что снос выгоден и проверка буя идёт против его плана; формула отказа сохранена при слиянии. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "convergent"
+    },
+    {
+      "id": "ENS-014",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "causality",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": 52,
+          "anchor": "l5939-6123",
+          "quote": null
+        },
+        {
+          "chapter": 54,
+          "anchor": "l6369-6427",
+          "quote": null
+        }
+      ],
+      "observation": "Почему власти Кенари не применяют силу после срыва церемонии.",
+      "reader_effect": "Возможное недоверие к мягкости противника.",
+      "evidence": "astra-diagnosis.md п.2; reconciliation.md «Отсеянный шум»: Кенари душит законом; достаточно короткой реплики Ясны.",
+      "proposed_actions": [
+        "Добавить короткую реплику Ясны о запрете силовых действий в порту и цене публичного захвата"
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "modified",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»; применяется форма, рекомендованная сведением (короткая реплика Ясны), без усиления силового давления",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/52"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Реплика Ясны о том, почему в порту не забирают силой. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-015",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "promise",
+      "severity": "major",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 43,
+          "anchor": "l5003-5013",
+          "quote": null
+        },
+        {
+          "chapter": 56,
+          "anchor": "l6723-6815",
+          "quote": null
+        }
+      ],
+      "observation": "Джулия рискует ради ответов Тихона, но не получает части раскрытия.",
+      "reader_effect": "Неисполненное обещание линии Эсквайра.",
+      "evidence": "astra-diagnosis.md п.3; reconciliation.md «Расхождения»: требуется авторское решение.",
+      "proposed_actions": [
+        "Дать частичный ответ сейчас или явно проговорить обещание"
+      ],
+      "dependencies": [
+        "ENS-005",
+        "том 4: book-04/manuscript/master.md l295"
+      ],
+      "author_decision": {
+        "status": "modified",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»; выбор автора в той же сессии (AskUserQuestion): «Частичный ответ». Тихон на причале не был, но позже Эсквайр сам сказал ему, что в ту ночь впервые выбрал заранее; зачем выбрал её — открыто, ответить может только Эсквайр.",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/41",
+          "revisions/2026-09-14-ensemble-r1/chapters/45",
+          "revisions/2026-09-14-ensemble-r1/chapters/54",
+          "revisions/2026-09-14-ensemble-r1/chapters/58"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Обещание (41, 45), частичный ответ (54), архивная дата после причала (58); знание записано как свидетельство со слов. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-016",
+      "origin_reports": [
+        "gemini"
+      ],
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": 27,
+          "anchor": "l3059-3219",
+          "quote": null
+        },
+        {
+          "chapter": 28,
+          "anchor": "l3221-3345",
+          "quote": null
+        }
+      ],
+      "observation": "Братья начинают работать слаженно слишком легко.",
+      "reader_effect": "Лёгкое недоверие к быстрому союзу.",
+      "evidence": "gemini-blind-read.md «Где я запутался» п.2.",
+      "proposed_actions": [
+        "Добавить в гл.27–28 трение: проверку Рэя, отказ Кая от первой версии сделки, цену доверия"
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/26",
+          "revisions/2026-09-14-ensemble-r1/chapters/27"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Отказ Кая и обрыв связи, залог Рэя (распоряжение о переводе Орена со своей подписью), уверенная ошибка Рэя под вопросом. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-017",
+      "origin_reports": [
+        "claude",
+        "gemini"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": 53,
+          "anchor": "l6271-6277",
+          "quote": null
+        },
+        {
+          "chapter": 54,
+          "anchor": "l6447-6473",
+          "quote": null
+        }
+      ],
+      "observation": "После кульминации логистика и портовые процедуры рыхлят спад.",
+      "reader_effect": "Эмоциональный спад воспринимается как тормозной путь.",
+      "evidence": "gemini-blind-read.md п.5 (разбор фактически в гл.52 и 54); claude-diagnosis.md п.11.",
+      "proposed_actions": [
+        "Сжать портовую претензию и логистику датчика, сохранив допрос Ясны и Иста"
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/51",
+          "revisions/2026-09-14-ensemble-r1/chapters/52"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Логистика датчика и портовая претензия сжаты; допрос Ясны сохранён. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "convergent"
+    },
+    {
+      "id": "ENS-018",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 44,
+          "anchor": "l5081-5091",
+          "quote": null
+        }
+      ],
+      "observation": "Ядро показано одним абзацем; мораль l5091 проговорена.",
+      "reader_effect": "Главное явление места книги проходит слишком быстро.",
+      "evidence": "claude-diagnosis.md п.8.",
+      "proposed_actions": [
+        "Добавить полабзаца конкретного восприятия ядра",
+        "Снять l5091"
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/42"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Полабзаца восприятия ядра; мораль l5091 снята. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-019",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 12,
+          "anchor": "l1301",
+          "quote": null
+        },
+        {
+          "chapter": 16,
+          "anchor": "l1921",
+          "quote": null
+        },
+        {
+          "chapter": 17,
+          "anchor": "l1945",
+          "quote": null
+        },
+        {
+          "chapter": 11,
+          "anchor": "l1261",
+          "quote": null
+        },
+        {
+          "chapter": 54,
+          "anchor": "l6371",
+          "quote": null
+        },
+        {
+          "chapter": 24,
+          "anchor": "l2779-2787, l2835-2837",
+          "quote": null
+        }
+      ],
+      "observation": "Сбой POV, путаница «смотрительницы», сладкий хлеб, горячая вода, сводки численности в живой сцене.",
+      "reader_effect": "Спотыкание и путаница.",
+      "evidence": "claude-diagnosis.md «Локальные исправления»; reconciliation.md.",
+      "proposed_actions": [
+        "Исправить l1301",
+        "Ясну не называть смотрительницей",
+        "Согласовать хлеб и воду",
+        "Сократить сводки гл.24"
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/10",
+          "revisions/2026-09-14-ensemble-r1/chapters/11",
+          "revisions/2026-09-14-ensemble-r1/chapters/15",
+          "revisions/2026-09-14-ensemble-r1/chapters/16",
+          "revisions/2026-09-14-ensemble-r1/chapters/23",
+          "revisions/2026-09-14-ensemble-r1/chapters/52"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Сбой POV исправлен; «смотрительница» для Ясны → «распорядительница»; хлеб, прокладка, сводки численности. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-020",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 1,
+          "anchor": "l77",
+          "quote": null
+        },
+        {
+          "chapter": 6,
+          "anchor": "l741",
+          "quote": null
+        },
+        {
+          "chapter": 17,
+          "anchor": "l2075",
+          "quote": null
+        },
+        {
+          "chapter": 21,
+          "anchor": "l2487",
+          "quote": null
+        },
+        {
+          "chapter": 37,
+          "anchor": "l4269",
+          "quote": null
+        }
+      ],
+      "observation": "Точечные неловкие фразы.",
+      "reader_effect": "Спотыкание.",
+      "evidence": "claude-diagnosis.md «Точечные сбои».",
+      "proposed_actions": [
+        "Заменить или снять"
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/01",
+          "revisions/2026-09-14-ensemble-r1/chapters/05",
+          "revisions/2026-09-14-ensemble-r1/chapters/16",
+          "revisions/2026-09-14-ensemble-r1/chapters/20",
+          "revisions/2026-09-14-ensemble-r1/chapters/35"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Пять неловких фраз заменены. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-021",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "canon",
+      "severity": "moderate",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 50,
+          "anchor": "l5835-5837",
+          "quote": null
+        },
+        {
+          "chapter": 51,
+          "anchor": "## Глава 51. Дикая поросль",
+          "quote": null
+        }
+      ],
+      "observation": "В томе 4 Кай повторяет слова Орена живому материалу в последнюю минуту («тише», «сюда», «спи»); в томе 3 их нет. Название гл.51 не опирается на содержание.",
+      "reader_effect": "Межтомный разрыв; осиротевшее название.",
+      "evidence": "Сверка после фиксации отчёта Claude: book-04/manuscript/master.md l125, l423 (SHA 4e8b2f94…); claude-diagnosis.md «Названия глав».",
+      "proposed_actions": [
+        "Добавить слова Орена у рычага",
+        "Переименовать гл.51"
+      ],
+      "dependencies": [
+        "том 4: «всошло само, везде» остаётся отдельным вопросом перехода"
+      ],
+      "author_decision": {
+        "status": "modified",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»; выбор автора в той же сессии (AskUserQuestion): «Добавить слова». Механика гибели и решение Орена не меняются.",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/48",
+          "revisions/2026-09-14-ensemble-r1/chapters/49"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "«Тише… Сюда… Спи» у рычага; гл. 49 «Сухая сторона». Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-022",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "format",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": 33,
+          "anchor": "## Глава 33. Почерк без имени",
+          "quote": null
+        },
+        {
+          "chapter": 58,
+          "anchor": "## Глава 58. Хорошая плохая земля",
+          "quote": null
+        }
+      ],
+      "observation": "Название гл.33 совпадает с названием тома 4, гл.58 — с гл.42 тома 2.",
+      "reader_effect": "Возможная непреднамеренная перекличка.",
+      "evidence": "claude-diagnosis.md «Названия глав».",
+      "proposed_actions": [
+        "Проверить намеренность; при отсутствии мостовой функции переименовать"
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/31",
+          "revisions/2026-09-14-ensemble-r1/chapters/56"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Проверено: обе главы выполняют мостовую функцию (анонимная рука перед томом 4; возвращение на ту же землю, что в томе 2); названия сохранены, вопрос вынесен автору. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-023",
+      "origin_reports": [
+        "gemini",
+        "astra"
+      ],
+      "category": "promise",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": 60,
+          "anchor": "l7591-7639",
+          "quote": null
+        },
+        {
+          "chapter": 45,
+          "anchor": "l5177",
+          "quote": null
+        }
+      ],
+      "observation": "Открытые крючки: «В.», молодой исполнитель, жив ли Эсквайр.",
+      "reader_effect": "Интерес к следующему тому.",
+      "evidence": "gemini-blind-read.md «Вопросы после книги»; reconciliation.md «Отсеянный шум»: оставить как есть.",
+      "proposed_actions": [
+        "Не закрывать в томе 3; сохранить крючки при правке"
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "accepted",
+        "basis": "Автор в сессии Claude Code 14.09.2026: «теперь есть все отчеты и сделай прогон согласно всем рекомендациям чтобы сделать максимально интересно роман»",
+        "decided_at": "2026-09-14T09:42:07+00:00"
+      },
+      "implementation": {
+        "status": "applied",
+        "targets": [
+          "revisions/2026-09-14-ensemble-r1/chapters/43",
+          "revisions/2026-09-14-ensemble-r1/chapters/58"
+        ],
+        "revision_sha256": "02aef0016f9664531be1115d95b78eb0c255e52fd09f550b2c7f84f2c9dce4e8"
+      },
+      "verification": {
+        "status": "passed",
+        "evidence": "Крючки «В.», молодой исполнитель, «жив ли Эсквайр» сохранены и не закрыты. Перечитано в контексте (работа/лист правок и стыки глав), LanguageTool 6.6 по изменённым строкам, якоря непрерывности, DOCX/PDF — см. revisions/2026-09-14-ensemble-r1/audit/REPORT.md."
+      },
+      "agreement": "convergent"
+    }
+  ]
+}
