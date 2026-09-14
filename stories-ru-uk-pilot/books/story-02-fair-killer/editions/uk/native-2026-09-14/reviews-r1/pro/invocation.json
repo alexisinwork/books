@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:31:25+00:00",
+  "role": "pro",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.1-pro-high",
+  "target": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+    "sha256": "9f5f4964d362cdf4990a7d8291c241d377eeaa647f7f11e24987c0779bdbba40"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "ukrainian.txt",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+      "sha256": "9f5f4964d362cdf4990a7d8291c241d377eeaa647f7f11e24987c0779bdbba40"
+    }
+  ],
+  "prompt_sha256": "1fc1334247a40d0523e863913d68fe9cec37e8c5f32c33998860fb19597ed504",
+  "isolation": "Fresh temporary directory containing exact input copies; agy sandbox and plan mode; command permission enabled only inside the disposable directory.",
+  "input_delivery": "isolated_files",
+  "status": "no_substantive_report",
+  "exit_code": 0,
+  "seconds": 18.47
+}

@@ -1,0 +1,335 @@
+{
+  "status": "final",
+  "review_mode": "target-only",
+  "reading_type": "simulated_model_reading",
+  "target_file": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v5/target.uk.txt",
+  "target_sha256": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c",
+  "model": "GPT-6",
+  "model_identification_note": "Self-description supplied by session; exact deployment identifier not exposed.",
+  "client": "Codex independent subagent",
+  "run_label": "final-target-only-astra-r1",
+  "numbering": "P001..P058: consecutive nonempty physical lines; each is one paragraph in this TXT. Physical line numbers include blanks.",
+  "total_physical_lines": 115,
+  "total_nonempty_paragraphs": 58,
+  "read_nonempty_paragraphs": 58,
+  "read_ranges": [
+    "P001-P058"
+  ],
+  "read_physical_range": [
+    1,
+    115
+  ],
+  "unread_paragraphs": [],
+  "whitespace_delimited_units": 1081,
+  "last_nonempty_line": "— На вашій планеті не вистачить електрики, щоб нас винищити.",
+  "full_sequential_reading": true,
+  "confirmed_material_language_defects": 0,
+  "mandatory_corrections": [],
+  "optional_observations": [
+    {
+      "paragraph": "P005",
+      "physical_line": 9,
+      "classification": "contextual_style_choice",
+      "quote": "Використовуючи релігію й науку, вони маніпулювали світом, створювали напруженість і штучні конфлікти, щоб відвернути увагу людства.",
+      "effect": "Long expository monologue slightly slows attention while serving the speaker’s oratorical pose.",
+      "confidence": "medium",
+      "minimal_action": "preserve; no required edit"
+    }
+  ],
+  "source_or_canon_or_previous_reports_read": false,
+  "instruction_files_read": [
+    "/home/alexi/books/.agents/skills/book-language-review/SKILL.md",
+    "/home/alexi/books/BOOK_SYSTEM/ADAPTATION/prompts/target-only-uk.md"
+  ],
+  "automatic_checks": [
+    "SHA-256",
+    "paragraph and line counts",
+    "exact quotation membership at recorded anchors"
+  ],
+  "automated_language_scanning": false,
+  "manuscript_modified": false,
+  "quote_checks": [
+    {
+      "paragraph": "P005",
+      "physical_line": 9,
+      "quote": "Використовуючи релігію й науку, вони маніпулювали світом, створювали напруженість і штучні конфлікти, щоб відвернути увагу людства.",
+      "exact_match": true
+    },
+    {
+      "paragraph": "P006",
+      "physical_line": 11,
+      "quote": "Моя теща теж із мене кров п’є.",
+      "exact_match": true
+    },
+    {
+      "paragraph": "P017",
+      "physical_line": 33,
+      "quote": "Та й заговори ваші яйцем по голові викачували! А вам і викачувати нема на чому!",
+      "exact_match": true
+    },
+    {
+      "paragraph": "P026",
+      "physical_line": 51,
+      "quote": "Де купив таку маску? А дихав як? Дай-но помацаю!",
+      "exact_match": true
+    },
+    {
+      "paragraph": "P030",
+      "physical_line": 59,
+      "quote": "Куди ж ти, Дімоне? А поспілкуватися?",
+      "exact_match": true
+    },
+    {
+      "paragraph": "P053",
+      "physical_line": 105,
+      "quote": "Дімоне, дай свій телефон, у мене не ловить.",
+      "exact_match": true
+    },
+    {
+      "paragraph": "P057",
+      "physical_line": 113,
+      "quote": "Олег неквапно знімає маску і, блиснувши жовтими очима, шипить:",
+      "exact_match": true
+    },
+    {
+      "paragraph": "P058",
+      "physical_line": 115,
+      "quote": "— На вашій планеті не вистачить електрики, щоб нас винищити.",
+      "exact_match": true
+    }
+  ],
+  "read_units": [
+    {
+      "id": "P001",
+      "physical_line": 1
+    },
+    {
+      "id": "P002",
+      "physical_line": 3
+    },
+    {
+      "id": "P003",
+      "physical_line": 5
+    },
+    {
+      "id": "P004",
+      "physical_line": 7
+    },
+    {
+      "id": "P005",
+      "physical_line": 9
+    },
+    {
+      "id": "P006",
+      "physical_line": 11
+    },
+    {
+      "id": "P007",
+      "physical_line": 13
+    },
+    {
+      "id": "P008",
+      "physical_line": 15
+    },
+    {
+      "id": "P009",
+      "physical_line": 17
+    },
+    {
+      "id": "P010",
+      "physical_line": 19
+    },
+    {
+      "id": "P011",
+      "physical_line": 21
+    },
+    {
+      "id": "P012",
+      "physical_line": 23
+    },
+    {
+      "id": "P013",
+      "physical_line": 25
+    },
+    {
+      "id": "P014",
+      "physical_line": 27
+    },
+    {
+      "id": "P015",
+      "physical_line": 29
+    },
+    {
+      "id": "P016",
+      "physical_line": 31
+    },
+    {
+      "id": "P017",
+      "physical_line": 33
+    },
+    {
+      "id": "P018",
+      "physical_line": 35
+    },
+    {
+      "id": "P019",
+      "physical_line": 37
+    },
+    {
+      "id": "P020",
+      "physical_line": 39
+    },
+    {
+      "id": "P021",
+      "physical_line": 41
+    },
+    {
+      "id": "P022",
+      "physical_line": 43
+    },
+    {
+      "id": "P023",
+      "physical_line": 45
+    },
+    {
+      "id": "P024",
+      "physical_line": 47
+    },
+    {
+      "id": "P025",
+      "physical_line": 49
+    },
+    {
+      "id": "P026",
+      "physical_line": 51
+    },
+    {
+      "id": "P027",
+      "physical_line": 53
+    },
+    {
+      "id": "P028",
+      "physical_line": 55
+    },
+    {
+      "id": "P029",
+      "physical_line": 57
+    },
+    {
+      "id": "P030",
+      "physical_line": 59
+    },
+    {
+      "id": "P031",
+      "physical_line": 61
+    },
+    {
+      "id": "P032",
+      "physical_line": 63
+    },
+    {
+      "id": "P033",
+      "physical_line": 65
+    },
+    {
+      "id": "P034",
+      "physical_line": 67
+    },
+    {
+      "id": "P035",
+      "physical_line": 69
+    },
+    {
+      "id": "P036",
+      "physical_line": 71
+    },
+    {
+      "id": "P037",
+      "physical_line": 73
+    },
+    {
+      "id": "P038",
+      "physical_line": 75
+    },
+    {
+      "id": "P039",
+      "physical_line": 77
+    },
+    {
+      "id": "P040",
+      "physical_line": 79
+    },
+    {
+      "id": "P041",
+      "physical_line": 81
+    },
+    {
+      "id": "P042",
+      "physical_line": 83
+    },
+    {
+      "id": "P043",
+      "physical_line": 85
+    },
+    {
+      "id": "P044",
+      "physical_line": 87
+    },
+    {
+      "id": "P045",
+      "physical_line": 89
+    },
+    {
+      "id": "P046",
+      "physical_line": 91
+    },
+    {
+      "id": "P047",
+      "physical_line": 93
+    },
+    {
+      "id": "P048",
+      "physical_line": 95
+    },
+    {
+      "id": "P049",
+      "physical_line": 97
+    },
+    {
+      "id": "P050",
+      "physical_line": 99
+    },
+    {
+      "id": "P051",
+      "physical_line": 101
+    },
+    {
+      "id": "P052",
+      "physical_line": 103
+    },
+    {
+      "id": "P053",
+      "physical_line": 105
+    },
+    {
+      "id": "P054",
+      "physical_line": 107
+    },
+    {
+      "id": "P055",
+      "physical_line": 109
+    },
+    {
+      "id": "P056",
+      "physical_line": 111
+    },
+    {
+      "id": "P057",
+      "physical_line": 113
+    },
+    {
+      "id": "P058",
+      "physical_line": 115
+    }
+  ]
+}

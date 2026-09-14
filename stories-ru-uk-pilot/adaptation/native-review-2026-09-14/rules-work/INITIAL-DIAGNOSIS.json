@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "status": "independent_initial_diagnosis_fixed",
+  "current_editor_reports_read": false,
+  "manuscript_reading_performed": false,
+  "confirmed_findings": [
+    {
+      "id": "coverage_blank_units",
+      "basis": "Direct code inspection and read-only reproduction on SHA-bound targets from TASK.json",
+      "observations": [
+        {
+          "story": "story-01-reptiloids",
+          "source_units": 115,
+          "nonempty_units": 58,
+          "blank_units": 57
+        },
+        {
+          "story": "story-02-fair-killer",
+          "source_units": 471,
+          "nonempty_units": 236,
+          "blank_units": 235
+        },
+        {
+          "story": "story-03-chaos-logic",
+          "source_units": 619,
+          "nonempty_units": 310,
+          "blank_units": 309
+        }
+      ],
+      "implementation_boundary": "Preserve extraction, p/start/quote anchors, source_units compatibility and old resolutions; expose blank and nonempty counts with explicit unit meaning."
+    },
+    {
+      "id": "mechanical_vs_reading_coverage",
+      "basis": "Direct code inspection; reported 21/600 prior reading supplied by parent task, not independently verified here",
+      "observation": "Both scanners return zero configured findings for each base file; report fields do not provide actual reading evidence. No reading is established by this reproduction.",
+      "implementation_boundary": "Mechanical report cannot certify completed reading or native quality; display reading coverage as not assessed and separate the reading record."
+    },
+    {
+      "id": "bases_changed_since_task_snapshot",
+      "basis": "SHA and exact diff",
+      "observation": "Current NATURALNESS, naturalness tool and tests include the prior enough_poza_ochi change; the candidate preserves it and records current base hashes."
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "book_id": "story-02-fair-killer",
+  "target_sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
+  "source_sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+  "authority": {
+    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/decisions/2026-09-14-author-answers.json",
+    "sha256": "d640cf4bfe7d6a2d874b3021aeea22e1a7d3e24bffcbd915fb58c87912b0c638"
+  },
+  "context_read": "RU/UK p60–66, p83–89, p120–124, p155, p178–185, p246–248; source canon, all scene entry states and local voice/style.",
+  "scene_entry_states": [
+    {
+      "id": "story-02-fair-killer-u01",
+      "state_before": "Лайт проник в резиденцию; лицо жертвы кажется знакомым.",
+      "source_result": "Джулия назвала его Эсквайром; прозвучал выстрел, результат пока скрыт. Разделитель p7 сохранён."
+    },
+    {
+      "id": "story-02-fair-killer-u02",
+      "state_before": "Фраза Джулии вызвала воспоминание о первом заказе; читатель ещё не знает исход первого выстрела.",
+      "source_result": "Показаны отец Хаста, месть мафии, развитие дерева риокка и новая борьба с преступностью; p40 — исходный разделитель."
+    },
+    {
+      "id": "story-02-fair-killer-u03",
+      "state_before": "Двое союзников Хаста нанимают 18-летнего Лайта; он подозревает, что его убьют после заказа.",
+      "source_result": "Лайт убил Хаста, исполнил его последнее желание и отправил двенадцатилетнюю Кристину на неизвестную ему планету; p77 — разделитель."
+    },
+    {
+      "id": "story-02-fair-killer-u04",
+      "state_before": "В другом флешбэке Лайту пять; отец показывает безопасность двигателей.",
+      "source_result": "Наким учит сына спокойному спору и сохранению лица собеседника; Кирва уже знаком семье. p119 — разделитель."
+    },
+    {
+      "id": "story-02-fair-killer-u05",
+      "state_before": "Возврат к выстрелу p5: Джулия жива, след пули справа от неё.",
+      "source_result": "Джулия/Кристина узнала прежнего спасителя Лайта, но ещё не его роль убийцы отца; Лайт начинает рассказ о своей утрате. p169 — разделитель."
+    },
+    {
+      "id": "story-02-fair-killer-u06",
+      "state_before": "Подросток Лайт тренируется у отца; семейные правила пока кажутся прочной опорой.",
+      "source_result": "Отец погиб при внезапном запуске защищённого двигателя; официальный отчёт называет неисправность, Лайт подозревает Кирву. p225 — разделитель."
+    },
+    {
+      "id": "story-02-fair-killer-u07",
+      "state_before": "Джулия слушает Лайта на складе, связанная; пистолет лежит рядом.",
+      "source_result": "Лайт признался в смерти Хаста, предложил служить Джулии и развязал её. Она берёт пистолет ради мести. Последний беззвучный хлопок оставляет действие за пределами прямого описания."
+    }
+  ],
+  "target_overrides": [
+    {
+      "p": 87,
+      "before": "покликав сина й знову запустив двигуни",
+      "after": "покликав сина й спробував знову запустити двигуни",
+      "answer": "ADDITIONAL",
+      "reason": "Попытка запуска вызывает сигнал блокировки при ребёнке у сопел; защитная система действует так, как объясняет отец."
+    },
+    {
+      "p": 123,
+      "before": "Це останні слова мого батька. Перед тим, як його вбили.",
+      "after": "Так казав мій батько. До того, як його вбили.",
+      "answer": "ADDITIONAL",
+      "reason": "Джулія узнаёт знакомую отцовскую фразу, не зная его последних слов в закрытом кабинете. Нового свидетеля или записи не добавлено; раскрытие личности убийцы остаётся в финале."
+    },
+    {
+      "p": 181,
+      "before": "цей пішак міг перестрибнути через одну фігуру на вибір по вертикалі й «убити» її",
+      "after": "цей пішак міг перестрибнути по вертикалі через одну фігуру й «убити» ту, що стояла за нею",
+      "answer": "ADDITIONAL",
+      "reason": "Правило согласовано с последующим ходом: конь служит препятствием, ферзь — целью. Действие партии и метафора Лайта сохранены; новые ограничения частоты хода не добавлены."
+    }
+  ],
+  "protected": [
+    {
+      "answer": "Q4",
+      "p": 155,
+      "reason": "Самооправдание Лайта сознательно расходится с признанием в p246; это подтверждённый автором разрыв самообраза и поступков."
+    },
+    {
+      "answer": "Q4",
+      "p": 246,
+      "reason": "Признание в прекращении проверок и гибели невинных сохранено."
+    },
+    {
+      "answer": "Q5",
+      "p": 5,
+      "text": "Один безгучний ляск пролунав у тиші кабінету.",
+      "reason": "Повтор начала, первого заказа и финала образует кольцевую композицию."
+    },
+    {
+      "answer": "Q5",
+      "p": 66,
+      "text": "Один безгучний ляск пролунав у тиші кабінету."
+    },
+    {
+      "answer": "Q5",
+      "p": 248,
+      "text": "Один безгучний ляск пролунав у тиші…"
+    }
+  ],
+  "arithmetic": null,
+  "knowledge_policy": "No early disclosure of later facts; quoted false accounts and character beliefs retain their attribution.",
+  "source_registers": "Unchanged historical RU observations; target overrides are applied only in this linked UK layer.",
+  "current_draft": "draft-v4",
+  "translation_sha256": "be892596bf22a93c932fb8d727dfe557db5b8ae6ad9c9408b59633996d8cf4bf",
+  "predecessor": {
+    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v3/continuity.json",
+    "sha256": "f24cea279d822d6e046e0b3b83bf66ced250d7c1b02416963e5612cc8752229f",
+    "draft": "draft-v3",
+    "target_sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7"
+  },
+  "revision_basis": [
+    {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/story-02-fair-killer.spec.json",
+      "sha256": "743d87a930d709102931a6ea1edcc224d0d4d9d6c9242a7b3d1a1c16e5d1773c",
+      "role": "reconciled_exact_language_edits"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v4/changes.json",
+      "sha256": "c448a063d8d58bbd0e12e3468000bef759a3346649d3fb102c0fd219df5eaeb0",
+      "role": "full_paragraph_change_record"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/INPUTS-V3.json",
+      "sha256": "3847e93460cc7f727a68f46f017df0b9c36b99df94c72c322abb0ec98f75ac51",
+      "role": "frozen_inputs"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v3/packet.json",
+      "sha256": "344a92b940000cfcb628606f40cf1ac31953065030875f4b6e488d0c0c4ba2b4",
+      "role": "frozen_preparation_packet"
+    }
+  ],
+  "current_anchor_checks": [
+    {
+      "p": 87,
+      "source_ids": [
+        "story-02-fair-killer-c000-p000087"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "покликав сина й спробував знову запустити двигуни",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "06912b5fc44c5b0616aefba3d8bcb7a884be644f0de02424ea97bed839743a11"
+      ],
+      "result": "passed",
+      "historical_after": "покликав сина й спробував знову запустити двигуни",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 123,
+      "source_ids": [
+        "story-02-fair-killer-c000-p000123"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "Так казав мій батько. До того, як його вбили.",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "ea10b2e6120d3cd86e290c204f21f80a68e1631e343ec63ee47b0065034d7a87"
+      ],
+      "result": "passed",
+      "historical_after": "Так казав мій батько. До того, як його вбили.",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 181,
+      "source_ids": [
+        "story-02-fair-killer-c000-p000181"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "цей пішак міг перестрибнути по вертикалі через одну фігуру й «убити» ту, що стояла за нею",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "3f61970a3f56786917274214dd9cd4a03ff50780457562e459f55319a9ceebc2"
+      ],
+      "result": "passed",
+      "historical_after": "цей пішак міг перестрибнути по вертикалі через одну фігуру й «убити» ту, що стояла за нею",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    }
+  ],
+  "current_protected_checks": [
+    {
+      "p": 5,
+      "source_ids": [
+        "story-02-fair-killer-c000-p000005"
+      ],
+      "purpose": "first acoustic-paradox refrain",
+      "exact_text": "Один безгучний ляск пролунав у тиші кабінету.",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "4ac14e213aba6b4b5f408e0bf4cabd89dffd2c6a6ab580b433d0fa17ae20c71e"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 66,
+      "source_ids": [
+        "story-02-fair-killer-c000-p000066"
+      ],
+      "purpose": "second acoustic-paradox refrain",
+      "exact_text": "Один безгучний ляск пролунав у тиші кабінету.",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "4ac14e213aba6b4b5f408e0bf4cabd89dffd2c6a6ab580b433d0fa17ae20c71e"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 248,
+      "source_ids": [
+        "story-02-fair-killer-c000-p000248"
+      ],
+      "purpose": "open-ending refrain",
+      "exact_text": "Один безгучний ляск пролунав у тиші…",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "aab66c99288597ae5576538748228d0008c5d453ca666e29491c592206bbc33d"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 155,
+      "source_ids": [
+        "story-02-fair-killer-c000-p000155"
+      ],
+      "purpose": "Light's protected self-justification",
+      "exact_text": "А в мене точно не буде невинних жертв.",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "fb6f85c31467e0d3c00e2d5593d05ba0596a36f800f8279433e055a79b79dc55"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 246,
+      "source_ids": [
+        "story-02-fair-killer-c000-p000246"
+      ],
+      "purpose": "later admission that checks weakened",
+      "exact_text": "Років за десять я вже перестав так ретельно перевіряти жертв",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "833ba20b4d2cfd36916ab54eec52683116715d41d7e7e2923e4ad3853594ae93"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 246,
+      "source_ids": [
+        "story-02-fair-killer-c000-p000246"
+      ],
+      "purpose": "later admission of innocent deaths",
+      "exact_text": "кілька десятків добрих бізнесменів, політиків і журналістів усе-таки загинули від моєї руки",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "833ba20b4d2cfd36916ab54eec52683116715d41d7e7e2923e4ad3853594ae93"
+      ],
+      "result": "passed"
+    }
+  ],
+  "current_target_emphasis_checks": [
+    {
+      "source_ids": [
+        "story-02-fair-killer-c000-p000167"
+      ],
+      "paragraph": 0,
+      "text": "«У кожного є глибока потреба відчувати, що в житті є місце справедливості, що невинні зрештою отримують відшкодування, а винні несуть покарання. Але ця історія нічого подібного не приносить, адже найобурливіший приклад відсутності відплати покоїться в землі Біркенау, землі, яку після війни місцеві жителі перекопували в пошуках цінностей, на найбільшому кладовищі у світовій історії… І, як правило, виявляється, що люди, яких змусили страждати й терпіти поневіряння Освенцима, так і не знайшли ні розради, ні відчуття спокути навіть у релігії»",
+      "format": {
+        "italic": true
+      },
+      "actual_occurrences": 1,
+      "result": "passed"
+    },
+    {
+      "source_ids": [
+        "story-02-fair-killer-c000-p000209"
+      ],
+      "paragraph": 0,
+      "text": "верх невихованості — відволікатися під час розмови на свій планшет, гравітофон чи електронну книжку. Навіть якщо ти втомився й тобі нудно, не показуй цього. Джентльмен передусім уважний до співрозмовника",
+      "format": {
+        "bold": true
+      },
+      "actual_occurrences": 1,
+      "result": "passed"
+    },
+    {
+      "source_ids": [
+        "story-02-fair-killer-c000-p000234"
+      ],
+      "paragraph": 0,
+      "text": "«Поважати кожну людину, як самого себе, і чинити з нею так, як ми бажаємо, щоб чинили з нами, — понад це немає нічого»",
+      "format": {
+        "bold": true
+      },
+      "actual_occurrences": 1,
+      "result": "passed"
+    }
+  ],
+  "current_check_summary": {
+    "target_sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
+    "historical_overrides_checked": 3,
+    "protected_exact_checks": 6,
+    "target_emphasis_ranges_checked": 3,
+    "result": "passed",
+    "scope": "Dependent continuity anchors only; not a new full structural diagnosis."
+  }
+}

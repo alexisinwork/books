@@ -1,0 +1,260 @@
+{
+  "status": "final",
+  "review_date": "2026-09-14",
+  "mode": "independent target-only Ukrainian simulated model reading",
+  "client": "Codex",
+  "agent_task": "chaos_v7_final_read",
+  "model_family_declared": "GPT-6",
+  "actual_api_model_id": null,
+  "model_id_note": "Exact API model-id was not exposed to this subagent; directory name is not treated as proof of model identity.",
+  "target_file": "/home/alexi/books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v7/target.uk.txt",
+  "target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
+  "target_bytes": 124703,
+  "physical_lines": 619,
+  "blank_lines": 309,
+  "unit_definition": "Each nonempty physical TXT line is one target ordinal; headings included, blank lines excluded; no source IDs used.",
+  "nonempty_target_units": 310,
+  "prose_units": 304,
+  "chapter_heading_units": 6,
+  "read_units": 310,
+  "read_ranges": [
+    {
+      "nonempty_start": 1,
+      "nonempty_end": 55,
+      "physical_line_start": 1,
+      "physical_line_end": 109,
+      "method": "sequential full paragraph reading from untruncated tool output"
+    },
+    {
+      "nonempty_start": 56,
+      "nonempty_end": 110,
+      "physical_line_start": 111,
+      "physical_line_end": 219,
+      "method": "sequential full paragraph reading from untruncated tool output"
+    },
+    {
+      "nonempty_start": 111,
+      "nonempty_end": 165,
+      "physical_line_start": 221,
+      "physical_line_end": 329,
+      "method": "sequential full paragraph reading from untruncated tool output"
+    },
+    {
+      "nonempty_start": 166,
+      "nonempty_end": 220,
+      "physical_line_start": 331,
+      "physical_line_end": 439,
+      "method": "sequential full paragraph reading from untruncated tool output"
+    },
+    {
+      "nonempty_start": 221,
+      "nonempty_end": 265,
+      "physical_line_start": 441,
+      "physical_line_end": 529,
+      "method": "sequential full paragraph reading from untruncated tool output"
+    },
+    {
+      "nonempty_start": 266,
+      "nonempty_end": 310,
+      "physical_line_start": 531,
+      "physical_line_end": 619,
+      "method": "sequential full paragraph reading from untruncated tool output"
+    }
+  ],
+  "all_read_in_original_order": true,
+  "unread_units": 0,
+  "unread_ranges": [],
+  "chapters": [
+    {
+      "heading": "Глава 1. Початок",
+      "nonempty_start": 1,
+      "nonempty_end": 79,
+      "all_read": true
+    },
+    {
+      "heading": "Глава 2. У печалі немає краю",
+      "nonempty_start": 80,
+      "nonempty_end": 162,
+      "all_read": true
+    },
+    {
+      "heading": "Глава 3. Дім, милий дім",
+      "nonempty_start": 163,
+      "nonempty_end": 198,
+      "all_read": true
+    },
+    {
+      "heading": "Глава 4. Збір свідчень",
+      "nonempty_start": 199,
+      "nonempty_end": 256,
+      "all_read": true
+    },
+    {
+      "heading": "Глава 5. Прелюдія",
+      "nonempty_start": 257,
+      "nonempty_end": 285,
+      "all_read": true
+    },
+    {
+      "heading": "Глава 6. Розв’язання головоломки",
+      "nonempty_start": 286,
+      "nonempty_end": 310,
+      "all_read": true
+    }
+  ],
+  "last_read_nonempty_ordinal": 310,
+  "last_read_physical_line": 619,
+  "last_read_line": "Хаос вносить безлад у наші плани, і саме це робить його таким дивовижним. Він робить життя цікавим і вартим того, щоб його прожити. Ave, kháos!",
+  "allowed_instruction_files_read": [
+    "/home/alexi/books/.agents/skills/book-language-review/SKILL.md",
+    "/home/alexi/books/BOOK_SYSTEM/ADAPTATION/prompts/target-only-uk.md"
+  ],
+  "other_versions_read": false,
+  "source_language_text_read": false,
+  "canon_or_prior_reports_read": false,
+  "manuscript_modified": false,
+  "automated_checks": {
+    "sha256_before_reading": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
+    "sha256_after_reading": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
+    "changed_during_review": false,
+    "exact_quote_anchor_checks": true,
+    "nonempty_line_and_chapter_count": true,
+    "lexical_scanner_used": false,
+    "automated_checks_are_not_reading": true
+  },
+  "confirmed_material_defects": [],
+  "mandatory_language_changes": [],
+  "observations": [
+    {
+      "id": "R01",
+      "classification": "contextual_style_choice",
+      "confidence": "medium",
+      "kind": "reading_pace",
+      "ranges": [
+        [
+          21,
+          23
+        ],
+        [
+          287,
+          294
+        ]
+      ],
+      "anchors": [
+        {
+          "nonempty_ordinal": 21,
+          "physical_line": 41,
+          "quote": "Досяг мети — дядечко Дофамін приніс твоєму мозку приємний тортик.",
+          "exact_quote_verified": true
+        }
+      ],
+      "effect": "Розлогі пояснення сповільнюють переживання подій; вони водночас передають схильність оповідача й Чарльза до узагальнень.",
+      "mandatory_change": false,
+      "minimal_correction": null
+    },
+    {
+      "id": "R02",
+      "classification": "preserve_for_function",
+      "confidence": "high",
+      "kind": "character_voices",
+      "anchors": [
+        {
+          "nonempty_ordinal": 91,
+          "physical_line": 181,
+          "quote": "У нашого виду більше немає таємниць!",
+          "exact_quote_verified": true
+        },
+        {
+          "nonempty_ordinal": 97,
+          "physical_line": 193,
+          "quote": "Здавалося, тепер на запитання «Котра година?» він не почне розповідати, як працює годинник і чим механічний відрізняється від кварцового.",
+          "exact_quote_verified": true
+        },
+        {
+          "nonempty_ordinal": 177,
+          "physical_line": 353,
+          "quote": "А знаєш, що було б краще? Не втратити ногу!",
+          "exact_quote_verified": true
+        }
+      ],
+      "effect": "Науковий запал Чарльза, іронія Гаррі та досвід Ульріха не зливаються в один голос.",
+      "mandatory_change": false,
+      "minimal_correction": null
+    },
+    {
+      "id": "R03",
+      "classification": "preserve_for_function",
+      "confidence": "high",
+      "kind": "comic_exchange",
+      "anchors": [
+        {
+          "nonempty_ordinal": 259,
+          "physical_line": 517,
+          "quote": "Я буду непереможний, я…",
+          "exact_quote_verified": true
+        },
+        {
+          "nonempty_ordinal": 260,
+          "physical_line": 519,
+          "quote": "— Вставай, герою,",
+          "exact_quote_verified": true
+        }
+      ],
+      "effect": "Братова побутова репліка обриває героїчну фантазію Гаррі; жарт зчитується з усього обміну.",
+      "mandatory_change": false,
+      "minimal_correction": null
+    },
+    {
+      "id": "R04",
+      "classification": "preserve_for_function",
+      "confidence": "high",
+      "kind": "emotional_exchange",
+      "anchors": [
+        {
+          "nonempty_ordinal": 305,
+          "physical_line": 609,
+          "quote": "Ризик був виправданий.",
+          "exact_quote_verified": true
+        },
+        {
+          "nonempty_ordinal": 306,
+          "physical_line": 611,
+          "quote": "Я тобі такого ніколи не пробачу.",
+          "exact_quote_verified": true
+        }
+      ],
+      "effect": "Раціоналізація Чарльза й особиста відповідь Гаррі роблять розрив між братами відчутним у репліках.",
+      "mandatory_change": false,
+      "minimal_correction": null
+    }
+  ],
+  "unresolved_reader_questions": [
+    {
+      "id": "Q01",
+      "classification": "unresolved_reader_question",
+      "anchor": {
+        "nonempty_ordinal": 41,
+        "physical_line": 81,
+        "quote": "Що там сталося, вона так і не розповіла.",
+        "exact_quote_verified": true
+      },
+      "question": "Що саме сталося з Нікою на стартовому майданчику?",
+      "note": "Фінал не дає однозначної відповіді. Зв’язок із розповіддю про доньку Шенга не встановлюю як факт; це не вимога дописати сюжет."
+    },
+    {
+      "id": "Q02",
+      "classification": "unresolved_reader_question",
+      "anchor": {
+        "nonempty_ordinal": 292,
+        "physical_line": 583,
+        "quote": "Його мотивів я не знав, а ділитися своїми ідеями він не поспішав.",
+        "exact_quote_verified": true
+      },
+      "question": "Який особистий мотив мав Михайло?",
+      "note": "Текст залишає мотив невідомим і повертається до цієї невідомості у фіналі. Це читацька цікавість, а не підтверджений пропуск."
+    }
+  ],
+  "report_file": "report.md",
+  "report_sha256": "fedcb7b832a1c6853249bbb0f01104c64e8d7a3d37b71771d8b7daa12bc8ec70",
+  "finalized_report_is_immutable": true
+}

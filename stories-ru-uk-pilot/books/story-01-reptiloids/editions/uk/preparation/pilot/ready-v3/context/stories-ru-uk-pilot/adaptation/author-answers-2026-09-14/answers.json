@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-14",
+  "origin": "Author pasted answers in this conversation",
+  "status": "explicit_author_answers_imported",
+  "questionnaire_version_note": "Pasted text retains older pending wording for Q9; explicit prior decision is already applied in chaos draft-v3 and is preserved.",
+  "source_hashes": {
+    "story-01-reptiloids": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+    "story-02-fair-killer": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+    "story-03-chaos-logic": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d"
+  },
+  "answers": [
+    {
+      "id": "Q1",
+      "book": "story-01-reptiloids",
+      "topic": "Единое имя хозяйки",
+      "verbatim": "Пелагія Гінеколаївна",
+      "mode": "explicit_choice"
+    },
+    {
+      "id": "Q2",
+      "book": "story-01-reptiloids",
+      "topic": "Шутка с яйцом и заговори",
+      "verbatim": "так і залишай",
+      "mode": "preserve_current_wording"
+    },
+    {
+      "id": "Q3",
+      "book": "story-01-reptiloids",
+      "topic": "Время смены",
+      "verbatim": "ночную смену",
+      "mode": "explicit_choice"
+    },
+    {
+      "id": "TITLE2",
+      "book": "story-02-fair-killer",
+      "topic": "Украинское название",
+      "verbatim": "треба вбивця",
+      "mode": "explicit_title_preference"
+    },
+    {
+      "id": "Q4",
+      "book": "story-02-fair-killer",
+      "topic": "Самооправдание Лайта",
+      "verbatim": "да - оставляй если имеет смисл",
+      "mode": "preserve_if_supported_by_context"
+    },
+    {
+      "id": "Q5",
+      "book": "story-02-fair-killer",
+      "topic": "Кольцевой повтор выстрела",
+      "verbatim": "потвор нужно оставить єт окак закицленное начало и конец",
+      "mode": "preserve_compositional_callback"
+    },
+    {
+      "id": "Q6",
+      "book": "story-03-chaos-logic",
+      "topic": "Возраст Вольфа",
+      "verbatim": "єто шутка что он чувтсвует себя моложе",
+      "mode": "explicit_intent"
+    },
+    {
+      "id": "Q7",
+      "book": "story-03-chaos-logic",
+      "topic": "Чин Уайта",
+      "verbatim": "пусть будет подполковником везде",
+      "mode": "explicit_choice"
+    },
+    {
+      "id": "Q8",
+      "book": "story-03-chaos-logic",
+      "topic": "Расчёт падения",
+      "verbatim": "редактироуй рассчет",
+      "mode": "delegated_calculation_edit"
+    },
+    {
+      "id": "Q9",
+      "book": "story-03-chaos-logic",
+      "topic": "Главная мысль финала",
+      "verbatim": "уже отвечал",
+      "mode": "retain_prior_explicit_decision",
+      "prior_answer": "Никакие желания не стоят человеческой жизни",
+      "prior_decision": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/decisions/2026-09-14-final-meaning.json"
+    },
+    {
+      "id": "ADDITIONAL",
+      "books": [
+        "story-02-fair-killer",
+        "story-03-chaos-logic"
+      ],
+      "topic": "Перечисленные дополнительные нестыковки",
+      "verbatim": "вібери как будет логичнее и красивее всего",
+      "mode": "author_delegates_editorial_choice",
+      "listed_scope": [
+        "engine start versus attempt",
+        "chikaioki rule and shown move",
+        "Julia knowledge of father words",
+        "Nika assembly route",
+        "laboratory layout and sabotage scope",
+        "absence of gravitonium-243",
+        "static terminology and unexplained guide",
+        "free-time causal link in Sheng account",
+        "Harry rank"
+      ]
+    }
+  ],
+  "bounds": "Apply to Ukrainian pilot editions; preserve RU originals and previous drafts. Exact author choices are distinguished from editorial implementations selected under delegated scope. No blanket canonical-master approval."
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:34:44+00:00",
+  "role": "pro",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.1-pro-high",
+  "target": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+    "sha256": "c21829136dd1240b6f6169dee9b76aca71978295fcb0eabe52f9c5af6bade8f2"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "ukrainian.txt",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+      "sha256": "c21829136dd1240b6f6169dee9b76aca71978295fcb0eabe52f9c5af6bade8f2"
+    }
+  ],
+  "prompt_sha256": "191c38080ac9605827429069573c4bce6d5cc3f1d64da7cc6e79216283ebc670",
+  "isolation": "Fresh temporary directory containing exact input copies; agy sandbox and plan mode; command permission enabled only inside the disposable directory.",
+  "input_delivery": "isolated_files",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 172.22,
+  "resolved_model_id": "gemini-3.1-pro-high",
+  "resolved_model_label": "Gemini 3.1 Pro (High)",
+  "conversation_id": "a56d0941-263f-4e16-be07-eae9351f0cf3",
+  "usage": {
+    "input_tokens": 103081,
+    "output_tokens": 13454,
+    "thinking_tokens": 8560,
+    "cache_read_tokens": 441529,
+    "total_tokens": 116535
+  },
+  "denied_actions": [],
+  "report_sha256": "404fa1e156abc80178116a30aa55fe43393b223138dc32fc6f26720c77c9ab47"
+}

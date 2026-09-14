@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "selected_for_new_native_input_context",
+  "selected_at": "2026-09-14T20:00:19.298732+00:00",
+  "selection_authority": "Coordinating root agent under the author instruction to update general Ukrainian rules and perform the full native review. This is not personal-style or canonical approval.",
+  "selection_basis": "The coordinating agent read the complete NATURALNESS diff relative to the integrated version and found parallel additions in sections 7–11 compatible: review mechanisms, with no transfer of another book canon. The coordinating agent explicitly selected SHA 3f890bec3cbdce3a15e8ef72614d02108aa2370cd2ce217e76dc7a80817fae2e and target-only SHA af360b8de52fc2bd50bbd569839eaf00935575da25d0bfc389319072fb50a330.",
+  "supersedes_for_this_freeze": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/rules-work/ADDITIONAL-RULES.json",
+    "sha256": "2d575d9966a6d5c628814770eb67a824016600046d196ba0a379720da31c21f5"
+  },
+  "files": [
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "sha256": "3f890bec3cbdce3a15e8ef72614d02108aa2370cd2ce217e76dc7a80817fae2e",
+      "selected_copy": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/pipeline-work/native-inputs/selected-rules/BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "copy_sha256": "3f890bec3cbdce3a15e8ef72614d02108aa2370cd2ce217e76dc7a80817fae2e",
+      "origin_path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "origin_sha256_at_capture": "3f890bec3cbdce3a15e8ef72614d02108aa2370cd2ce217e76dc7a80817fae2e"
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/target-only-uk.md",
+      "sha256": "af360b8de52fc2bd50bbd569839eaf00935575da25d0bfc389319072fb50a330",
+      "selected_copy": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/pipeline-work/native-inputs/selected-rules/BOOK_SYSTEM/ADAPTATION/prompts/target-only-uk.md",
+      "copy_sha256": "af360b8de52fc2bd50bbd569839eaf00935575da25d0bfc389319072fb50a330",
+      "origin_path": "BOOK_SYSTEM/ADAPTATION/prompts/target-only-uk.md",
+      "origin_sha256_at_capture": "af360b8de52fc2bd50bbd569839eaf00935575da25d0bfc389319072fb50a330"
+    }
+  ],
+  "copy_policy": "Freeze the selected copies by their recorded SHA even if their live origin paths change again. Do not rewrite ADDITIONAL-RULES.json.",
+  "author_canonical_approval": false
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T20:14:23.190472+00:00",
+  "status": "applied_post_freeze_case_based_addendum",
+  "journal": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/rules-work/REVIEW-CLAIM-VALIDATION.md",
+    "sha256": "9e3616f31d9c0485ae3599efafd7afb8d60e7d9d277d61739dc29483c6ad1f61"
+  },
+  "naturalness": {
+    "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+    "before_sha256": "3f890bec3cbdce3a15e8ef72614d02108aa2370cd2ce217e76dc7a80817fae2e",
+    "after_sha256": "10c32f5113d8c948c6c21b9f6f45064d1410c3ac3bc852fc652e6546e7d516d0",
+    "change_scope": "insert only the case-based clarification before section 4; preserve all pre-existing sections"
+  },
+  "frozen_selected_naturalness_sha256": "3f890bec3cbdce3a15e8ef72614d02108aa2370cd2ce217e76dc7a80817fae2e",
+  "included_in_frozen_context": false,
+  "delivered_to_prior_reviewers": false,
+  "protected_file_count": 112,
+  "protected_paths_sha256": "12fd6e1fc6dba8146cac16043ad45c414825795a32fae1242014bbfa26411113",
+  "all_protected_files_unchanged": true,
+  "frozen_packets_validation": [
+    {
+      "book_id": "story-01-reptiloids",
+      "result": "passed_packet_and_frozen_input_integrity",
+      "active_inputs": 29,
+      "context_snapshots": 28,
+      "source_segments": 54,
+      "source_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+      "source_segments_sha256": "749bbdcbeaa9c8403fc8cb5d485d42a5465e077da4653097068e63e6ef6ac77d",
+      "source_reader_sha256": "b153b8a85499d51c2a0982c0fa5b33ff1bc1f72620e9b34ad73e4d0449b4b6f3",
+      "translation_glossary_sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71",
+      "tested_without_live_mutable_origins": false,
+      "live_mutable_origin_paths_present": 28,
+      "literary_quality": "not_assessed",
+      "models_run": false
+    },
+    {
+      "book_id": "story-02-fair-killer",
+      "result": "passed_packet_and_frozen_input_integrity",
+      "active_inputs": 29,
+      "context_snapshots": 28,
+      "source_segments": 236,
+      "source_sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+      "source_segments_sha256": "58a6ac13f086bd66b357ee06d8ecc6013b9ef7d1773a58d41bb2ed9e0bb96c66",
+      "source_reader_sha256": "17c7e5552f8474ca8b7397e1f0eac414cea66cdefdf102593bed61cfc8e3f8b5",
+      "translation_glossary_sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0",
+      "tested_without_live_mutable_origins": false,
+      "live_mutable_origin_paths_present": 28,
+      "literary_quality": "not_assessed",
+      "models_run": false
+    },
+    {
+      "book_id": "story-03-chaos-logic",
+      "result": "passed_packet_and_frozen_input_integrity",
+      "active_inputs": 33,
+      "context_snapshots": 32,
+      "source_segments": 310,
+      "source_sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+      "source_segments_sha256": "6c9ff14771ec4b05a0cb3968afcfc05fb02a2fd0587b0994a4081484f192f09d",
+      "source_reader_sha256": "21d24b2488b012d49f9faa415c287e9fff94aade668a3303edfd851d9cce1770",
+      "translation_glossary_sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15",
+      "tested_without_live_mutable_origins": false,
+      "live_mutable_origin_paths_present": 32,
+      "literary_quality": "not_assessed",
+      "models_run": false
+    }
+  ],
+  "literary_reading_coverage": "not_assessed_by_this_claim_check",
+  "automatic_detector_changes": false,
+  "models_run": false,
+  "exports_run": false,
+  "normative_pdf_evidence": [
+    {
+      "url": "https://mova.gov.ua/storage/app/sites/19/2026/rishennja-komisiji/01-03/sdm-ukrayinskii-pravopis-vidannia.pdf",
+      "sha256": "e593956bfba6737d991a76fa86970db9c10a5cd7fd8895bae67f2b9a950c3a92",
+      "printed_page": 130,
+      "zero_based_page_index": 129
+    },
+    {
+      "url": "https://dspace.oneu.edu.ua/bitstreams/e5ae94db-fd34-4f82-a85f-68f7c3f17264/download",
+      "sha256": "f5ddc5209e1f0bcc978ba1bc25c94c784336cf2ae2a31a58280b2ac74f6cf3d0",
+      "printed_page": 34,
+      "zero_based_page_index": 33
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+{
+  "schema_version": 1,
+  "book_id": "story-03-chaos-logic",
+  "target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
+  "source_sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+  "authority": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/decisions/2026-09-14-author-answers.json",
+    "sha256": "977f2ce63629cb107cd1ed67df14b115b5b0b28f98b2b633cf2a546bc211f47d"
+  },
+  "context_read": "RU/UK source contexts p20, p51–61, p95–102, p130–146, p157, p189–191, p218–239, p304–319; all lab/rank references, source canon and all chapter entry states. Prior approved p324 retained.",
+  "scene_entry_states": [
+    {
+      "id": "story-03-chaos-logic-u01",
+      "state_before": "Гарри скучает на станции; Чарльз требует дисциплины, Вольф и Ника выполняют служебные роли.",
+      "source_result": "После первого взрыва пустой четвёртый модуль отстрелен; Вольф ранен, Гарри направляется к брату."
+    },
+    {
+      "id": "story-03-chaos-logic-u02",
+      "state_before": "Последствия первого взрыва неясны; Гарри беспокоится о брате и Вольфе.",
+      "source_result": "Чарльз показал антигравитоний только Гарри. Второй взрыв заставил всех эвакуироваться в жилом модуле с данными; причина катастрофы не установлена."
+    },
+    {
+      "id": "story-03-chaos-logic-u03",
+      "state_before": "Экипаж летит домой; Вольф ранен, данные и образец вывезены.",
+      "source_result": "На базе происходит силовое дипломатическое противостояние двух делегаций; стороны договорились о совместном лагере и расследовании."
+    },
+    {
+      "id": "story-03-chaos-logic-u04",
+      "state_before": "Экипаж изолирован в общей зоне; Гарри ещё не знает, что катастрофа охватила другие станции.",
+      "source_result": "Гарри узнал о синхронных взрывах всех станций; Ника впервые услышала об антигравитонии, Чарльз прошёл долгий допрос."
+    },
+    {
+      "id": "story-03-chaos-logic-u05",
+      "state_before": "Гарри воображает себя героем приключения; расследование продолжается.",
+      "source_result": "Объявлены двое погибших и домашний арест; в финале главы Чарльз публично признаёт свою роль во взрывах."
+    },
+    {
+      "id": "story-03-chaos-logic-u06",
+      "state_before": "Признание Чарльза потрясло Гарри; мотив и состав группы ещё не изложены.",
+      "source_result": "Раскрыт заговор четырёх учёных и непредвиденные жертвы. Гарри отказывается простить брата; заключение возвращает к ценности случайности."
+    }
+  ],
+  "target_overrides": [
+    {
+      "p": 20,
+      "before": "і двох лабораторій: хіміко-фізичних процесів та дослідження гравітонію",
+      "after": "і трьох лабораторій: хімічної, фізичної та дослідження гравітонію",
+      "answer": "ADDITIONAL",
+      "reason": "Три лаборатории: гравитационная занимает первую треть; химическая и физическая находятся во второй. Это согласует перечисление с повторёнными местами работы и приказом p144 без придумывания новых помещений."
+    },
+    {
+      "p": 61,
+      "before": "А оскільки цього самого гравітонію в нас немає",
+      "after": "А оскільки саме цього ізотопу ми ще не отримали",
+      "answer": "ADDITIONAL",
+      "reason": "Отсутствует полученный в эксперименте изотоп гравітоній-243; наличие другого гравитония в лаборатории и двигателях не отрицается. Новые свойства вещества не добавлены."
+    },
+    {
+      "p": 99,
+      "before": "Підходьте до лабораторії.",
+      "after": "Підходьте до конференц-зали.",
+      "answer": "ADDITIONAL",
+      "reason": "Место вызова согласовано с фактической встречей p101–102; дополнительного перехода и перемещения Вольфа не добавлено."
+    },
+    {
+      "p": 130,
+      "before": "зі статичною ймовірністю",
+      "after": "зі статистичною ймовірністю",
+      "answer": "ADDITIONAL",
+      "reason": "В рассуждении о случайной неисправности имеется в виду статистическая вероятность, а не статика."
+    },
+    {
+      "p": 140,
+      "before": "відповів провідник",
+      "after": "відповів бортовий комп’ютер",
+      "answer": "ADDITIONAL",
+      "reason": "На запрос к бортовой системе отвечает уже существующий компьютер; дополнительного члена экипажа нет."
+    },
+    {
+      "p": 143,
+      "before": "Отже, у нас усього приблизно… три з половиною хвилини",
+      "after": "Якщо швидкість не зміниться, до моря в нас приблизно… три хвилини й п’ятдесят секунд",
+      "answer": "Q8",
+      "reason": "4589 / 20 = 229,45 с: 3 мин 49,45 с, в устной оценке около 3 мин 50 с. Условие неизменной скорости обозначено прямо; модель настоящего свободного падения не приписывается фантастической станции."
+    },
+    {
+      "p": 144,
+      "before": "Тому в нас є рівно три хвилини й п’ять секунд.",
+      "after": "Отже, до самознищення — близько трьох хвилин і сорока секунд.",
+      "answer": "Q8",
+      "reason": "(4589 − 200) / 20 = 219,45 с: 3 мин 39,45 с, округлённо 3 мин 40 с. Убрана ложная секундная точность; пару минут на сборы по-прежнему оставляют запас на эвакуацию."
+    },
+    {
+      "p": 144,
+      "before": "щоб пізніше дізнатися статичні дані за бортом і з’ясувати, що спричинило катастрофу",
+      "after": "щоб пізніше з’ясувати, якими були умови за бортом і що спричинило катастрофу",
+      "answer": "ADDITIONAL",
+      "reason": "Нужны данные об условиях за бортом для расследования. Убрана бессмысленная квалификация «статичні»; тип новых приборов и измерений не придуман."
+    },
+    {
+      "p": 157,
+      "before": "А мені ще й п’ятдесяти немає.",
+      "after": "А в душі мені ще й п’ятдесяти немає.",
+      "answer": "Q6",
+      "reason": "Короткая оговорка сохраняет шутку: Вольфу 60, но он чувствует себя моложе. Боль и грустная усмешка остались на месте."
+    },
+    {
+      "p": 191,
+      "before": "делегація зі Свальбарда. На другій станції Союзу врахували",
+      "after": "делегація з другої станції Союзу. Там врахували",
+      "answer": "ADDITIONAL",
+      "reason": "Редакторское согласование географии по общему поручению выбирать логичное решение: Свальбард остаётся станцией Альянса в p189; союзная делегация прибывает со второй станции Союза. Автор отдельно подтвердил лишь чин Вайта, поэтому географическая формулировка не приписывается ему как дословный ответ."
+    },
+    {
+      "p": 239,
+      "before": "Ти представник молодшого офіцерського складу",
+      "after": "Ти сержант",
+      "answer": "ADDITIONAL",
+      "reason": "Сохранено звание из прямого обращения Ники p55; реплика Чарльза о недопуске к сведениям остаётся его репликой, без изобретения устава мира."
+    },
+    {
+      "p": 310,
+      "before": "вирішили підірвати дві гравітаційні лабораторії",
+      "after": "вирішили підірвати гравітаційні лабораторії на всіх чотирьох станціях",
+      "answer": "ADDITIONAL",
+      "reason": "Масштаб плана согласован с четырьмя станциями и синхронными авариями, уже раскрытыми к этой сцене. Две лаборатории в средней секции одной станции не смешиваются с четырьмя гравитационными лабораториями на разных станциях."
+    },
+    {
+      "p": 312,
+      "before": "Оскільки в нього було достатньо вільного часу, він не хотів нас здавати. Він вигадав версію, яка звучала так.",
+      "after": "Він не хотів нас здавати. А часу мав достатньо, тож вигадав версію, яка звучала так.",
+      "answer": "ADDITIONAL",
+      "reason": "Свободное время объясняет возможность придумать ложную версию; нежелание выдать товарищей остаётся самостоятельным мотивом. Последующее опровержение версии сохранено."
+    },
+    {
+      "p": 319,
+      "before": "сказав полковник",
+      "after": "сказав підполковник",
+      "answer": "Q7",
+      "reason": "Вайт везде підполковник; остальные звания и лица не затронуты."
+    }
+  ],
+  "protected": [
+    {
+      "answer": "Q6",
+      "p": 38,
+      "text": "Мені лише 60 років.",
+      "reason": "Фактический возраст сохранён; младший возраст в p157 — шутка о самоощущении."
+    },
+    {
+      "answer": "Q9",
+      "p": 324,
+      "text": "Жодні бажання не варті людського життя. Навіть благі.",
+      "reason": "Ранее подтверждённое направление смысла не отменяется старым вопросником."
+    },
+    {
+      "p": 308,
+      "reason": "Нераскрытый мотив Рязанцева не дописан."
+    },
+    {
+      "p": 309,
+      "reason": "Связь гибели дочери Шенга с прошлым Ники не выдумана."
+    },
+    {
+      "p": 314,
+      "reason": "Ложная одиночная версия Шенга и её инженерное опровержение сохранены."
+    }
+  ],
+  "arithmetic": {
+    "height_m": 4589,
+    "speed_m_per_s": 20,
+    "self_destruct_height_m": 200,
+    "time_to_sea_s": 229.45,
+    "time_to_self_destruct_s": 219.45,
+    "assumption": "Conditional estimate at the current constant descent speed; no acceleration or new physical law asserted."
+  },
+  "knowledge_policy": "No early disclosure of later facts; quoted false accounts and character beliefs retain their attribution.",
+  "source_registers": "Unchanged historical RU observations; target overrides are applied only in this linked UK layer.",
+  "current_draft": "draft-v7",
+  "translation_sha256": "e9de3d028c17fdbe4d91b783bb76975dae4c11b374054411f3adaf679d8738b1",
+  "predecessor": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v4/continuity.json",
+    "sha256": "5ef7f331b3a250e9ded2d6b4da2e8f3400b99875e83e3f2fdf629c75af34f9a7",
+    "draft": "draft-v4",
+    "target_sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960"
+  },
+  "revision_basis": [
+    {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/story-03-chaos-logic-v7.spec.json",
+      "sha256": "04d3cf9a05393f5fb3ea58a639490dc699afbe8643b1c14c127faa479a2468f8",
+      "role": "reconciled_exact_language_edits"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v7/changes.json",
+      "sha256": "aca1002292806344115b24ba91718dbbba4a8d5fd060771eab7f62908120643f",
+      "role": "full_paragraph_change_record"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/INPUTS-V4.json",
+      "sha256": "55c97ed54d70b1755dc3599e1cccfb70c0b1796a5b8af0ad07c710297f753a52",
+      "role": "frozen_inputs"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v4/packet.json",
+      "sha256": "69ddc6a876984219e249d25837183e1a8b9f9bd2507fcdd616330f8beceb4a8b",
+      "role": "frozen_preparation_packet"
+    },
+    {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/desktop-import/import.json",
+      "sha256": "6c37f383bf5f134635eb087f35344fc252c33eefc936f1eac0454c33374f1323",
+      "role": "exact_desktop_import"
+    }
+  ],
+  "intermediate_drafts": [
+    {
+      "draft": "draft-v5",
+      "target": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v5/target.uk.txt",
+        "sha256": "69fd73c4beb67cdb1bb55d5dd9985eac8b6e925693259a9763802a57ded32d33"
+      },
+      "translation": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v5/translation.json",
+        "sha256": "147e0eb1a9396f7b250a72763e9c2861a721bdba36d07fadbaef537ec4b41de1"
+      },
+      "changes": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v5/changes.json",
+        "sha256": "8f6f207dc48480d17a656cc2a2049bef63578448786b31bc755b484b54c715b8"
+      },
+      "continuity_created": false,
+      "note": "Preserved native/reconciled intermediate revision."
+    },
+    {
+      "draft": "draft-v6",
+      "target": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v6/target.uk.txt",
+        "sha256": "ee4228a4edcf37e29dc0ebb22d006e165989f41cd9fc5ac8d20c4557b24a9379"
+      },
+      "translation": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v6/translation.json",
+        "sha256": "36f95214a452565de3977645007373e89c6de4f030a0ee15ad9d795175f721c3"
+      },
+      "changes": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v6/changes.json",
+        "sha256": "7fb64b2b2960b18edfa7af07b1faef2c3bf79866c90e111ea46a52e30bd21e97"
+      },
+      "continuity_created": false,
+      "note": "Preserved intermediate with the compatible Desktop variant; final v7 adds only two independently confirmed punctuation fixes."
+    }
+  ],
+  "current_anchor_checks": [
+    {
+      "p": 20,
+      "source_ids": [
+        "story-03-chaos-logic-c001-p000020"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "і трьох лабораторій: хімічної, фізичної та дослідження гравітонію",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "d3491ac9a46670254362d342be0f087ecac94bc8ca48bafe877d4ccb739300fc"
+      ],
+      "result": "passed",
+      "historical_after": "і трьох лабораторій: хімічної, фізичної та дослідження гравітонію",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 61,
+      "source_ids": [
+        "story-03-chaos-logic-c001-p000061"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "А оскільки саме цього ізотопу ми ще не отримали",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "63b76b6c3dfd2c32527d9c642498f77b50edffcd6b73a7bed0d9ea11acd4726b"
+      ],
+      "result": "passed",
+      "historical_after": "А оскільки саме цього ізотопу ми ще не отримали",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 99,
+      "source_ids": [
+        "story-03-chaos-logic-c002-p000099"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "Підходьте до конференц-зали.",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "673bfa05bae6bf127ba7ce53e855222f723243273f937274fd0bc573bcfd1574"
+      ],
+      "result": "passed",
+      "historical_after": "Підходьте до конференц-зали.",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 130,
+      "source_ids": [
+        "story-03-chaos-logic-c002-p000130"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "статистичною ймовірністю",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "012194b7f9f2835e870737eb67fd7922ac1a8bbd83a32280bed9f28651703d63"
+      ],
+      "result": "passed",
+      "historical_after": "зі статистичною ймовірністю",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 140,
+      "source_ids": [
+        "story-03-chaos-logic-c002-p000140"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "відповів бортовий комп’ютер",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "0e6f9978c8fa8d6c4cb111fba6e1da5e6767ea52339f29ffd2156908274b00d4"
+      ],
+      "result": "passed",
+      "historical_after": "відповів бортовий комп’ютер",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 143,
+      "source_ids": [
+        "story-03-chaos-logic-c002-p000143"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "Якщо швидкість не зміниться, до моря в нас приблизно… три хвилини й п’ятдесят секунд",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "e889cdb981460f055d58da8c60ed3bcc33f6d80e5a3b76b1b35bae976002a795"
+      ],
+      "result": "passed",
+      "historical_after": "Якщо швидкість не зміниться, до моря в нас приблизно… три хвилини й п’ятдесят секунд",
+      "authority_status": "author_answer_applied",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 144,
+      "source_ids": [
+        "story-03-chaos-logic-c002-p000144"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "Отже, до самознищення — близько трьох хвилин і сорока секунд.",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "041c42a5aba0f3c7df5a230d423350c39165362c57a56f8ef2c5a550efb69725"
+      ],
+      "result": "passed",
+      "historical_after": "Отже, до самознищення — близько трьох хвилин і сорока секунд.",
+      "authority_status": "author_answer_applied",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 144,
+      "source_ids": [
+        "story-03-chaos-logic-c002-p000144"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "щоб пізніше з’ясувати, якими були умови за бортом і що спричинило катастрофу",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "041c42a5aba0f3c7df5a230d423350c39165362c57a56f8ef2c5a550efb69725"
+      ],
+      "result": "passed",
+      "historical_after": "щоб пізніше з’ясувати, якими були умови за бортом і що спричинило катастрофу",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 157,
+      "source_ids": [
+        "story-03-chaos-logic-c002-p000157"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "А в душі мені ще й п’ятдесяти немає.",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "7f441529a0e4f8a6d50173ea022d1fb1b180c27da819c3cbd8e402757891c127"
+      ],
+      "result": "passed",
+      "historical_after": "А в душі мені ще й п’ятдесяти немає.",
+      "authority_status": "author_answer_applied",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 191,
+      "source_ids": [
+        "story-03-chaos-logic-c003-p000191"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "делегація з другої станції Союзу. Там врахували",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "dc5031a2e4316d176f1fd6ec626dcb3b37c6bdc2ce2c361e89dd8d58c1023186"
+      ],
+      "result": "passed",
+      "historical_after": "делегація з другої станції Союзу. Там врахували",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 239,
+      "source_ids": [
+        "story-03-chaos-logic-c004-p000239"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "Ти сержант",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "bd984a9aed3a99a85383c9131287997975a8f8d334e7f1dc06dc6e02d1cb0ec6"
+      ],
+      "result": "passed",
+      "historical_after": "Ти сержант",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 310,
+      "source_ids": [
+        "story-03-chaos-logic-c006-p000310"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "вирішили підірвати гравітаційні лабораторії на всіх чотирьох станціях",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "e3e436ed0e8ce4af8cd3b9f5eebeba325b09571cad779e4a6bfbd6b95eed077b"
+      ],
+      "result": "passed",
+      "historical_after": "вирішили підірвати гравітаційні лабораторії на всіх чотирьох станціях",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 312,
+      "source_ids": [
+        "story-03-chaos-logic-c006-p000312"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "Він не хотів нас здавати. А часу мав достатньо, тож вигадав версію, яка звучала так.",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "2f8f890b5970e4418bf2edb23e1f72ef693fb1a5d698816c9a70ded63c7f3d8b"
+      ],
+      "result": "passed",
+      "historical_after": "Він не хотів нас здавати. А часу мав достатньо, тож вигадав версію, яка звучала так.",
+      "authority_status": "editorial_choice_under_author_delegation",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 319,
+      "source_ids": [
+        "story-03-chaos-logic-c006-p000319"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "сказав підполковник",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "ff9c5d9087e66da530c8e7bb108a42a277788b4b2cf2751fef3fe8285ce8554a"
+      ],
+      "result": "passed",
+      "historical_after": "сказав підполковник",
+      "authority_status": "author_answer_applied",
+      "semantic_obligation_preserved": true
+    }
+  ],
+  "current_protected_checks": [
+    {
+      "p": 5,
+      "source_ids": [
+        "story-03-chaos-logic-c001-p000005"
+      ],
+      "purpose": "explicitly imported compatible author Desktop variant",
+      "exact_text": "Вставай вже",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "b4c2832aed658f52d720988b3e323980555af141291e6d2989e65d8be10ef3ec"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 38,
+      "source_ids": [
+        "story-03-chaos-logic-c001-p000038"
+      ],
+      "purpose": "Wolff's factual age",
+      "exact_text": "Мені лише 60 років.",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "e594bbe0945d0ca5f2437edbcf83fba208f11ef7077786987721e71627f30427"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 143,
+      "source_ids": [
+        "story-03-chaos-logic-c002-p000143"
+      ],
+      "purpose": "conditional time to sea",
+      "exact_text": "три хвилини й п’ятдесят секунд",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "e889cdb981460f055d58da8c60ed3bcc33f6d80e5a3b76b1b35bae976002a795"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 144,
+      "source_ids": [
+        "story-03-chaos-logic-c002-p000144"
+      ],
+      "purpose": "rounded time to self-destruction",
+      "exact_text": "трьох хвилин і сорока секунд",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "041c42a5aba0f3c7df5a230d423350c39165362c57a56f8ef2c5a550efb69725"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 157,
+      "source_ids": [
+        "story-03-chaos-logic-c002-p000157"
+      ],
+      "purpose": "age joke remains subjective",
+      "exact_text": "А в душі мені ще й п’ятдесяти немає.",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "7f441529a0e4f8a6d50173ea022d1fb1b180c27da819c3cbd8e402757891c127"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 292,
+      "source_ids": [
+        "story-03-chaos-logic-c005-p000292"
+      ],
+      "purpose": "breakfast continuity correction p290–p292",
+      "exact_text": "Після сніданку нас відвели",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "b67902b36c6a46bce93b356befd4fd38a074bc2f4ca5f2ed0b40c0d5dd879a52"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 308,
+      "source_ids": [
+        "story-03-chaos-logic-c006-p000308"
+      ],
+      "purpose": "Ryazantsev's motive remains unknown",
+      "exact_text": "Його мотивів я не знав",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "a97ab91a840d2f4ae9c6df34adbff81ecea9aeb42e07a1b28c24878c8d561392"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 309,
+      "source_ids": [
+        "story-03-chaos-logic-c006-p000309"
+      ],
+      "purpose": "Sheng's daughter remains unnamed and unlinked to Nika",
+      "exact_text": "загинула його донька",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "2eb82bf21a561ec7f97ac44f80dc61785468ef26e52a469c4cb439d16474889e"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 314,
+      "source_ids": [
+        "story-03-chaos-logic-c006-p000314"
+      ],
+      "purpose": "engineering rebuttal to Sheng's false account",
+      "exact_text": "я можу цілком упевнено сказати вам, що це неможливо",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "404afaac0be861d962b84263c1689eb15dbcf8a9a0d14b874f758d7c0cfff9f1"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 324,
+      "source_ids": [
+        "story-03-chaos-logic-c006-p000324"
+      ],
+      "purpose": "author-confirmed closing meaning",
+      "exact_text": "Жодні бажання не варті людського життя. Навіть благі.",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "3d5c2c1e37497cbdf5f3c0a55e32f65b1fe401ad80cc00869bafa5d6c05a798c"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 309,
+      "source_ids": [
+        "story-03-chaos-logic-c006-p000309"
+      ],
+      "purpose": "no invented identification of Sheng's daughter as Nika",
+      "exact_text": "Ніка",
+      "expected_occurrences": 0,
+      "actual_occurrences": 0,
+      "target_paragraph_sha256": [
+        "2eb82bf21a561ec7f97ac44f80dc61785468ef26e52a469c4cb439d16474889e"
+      ],
+      "result": "passed"
+    }
+  ],
+  "current_target_emphasis_checks": [],
+  "current_check_summary": {
+    "target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
+    "historical_overrides_checked": 14,
+    "protected_exact_checks": 11,
+    "target_emphasis_ranges_checked": 0,
+    "result": "passed",
+    "scope": "Dependent continuity anchors only; not a new full structural diagnosis."
+  },
+  "current_editorial_choices": [
+    {
+      "p": 292,
+      "source_ids": [
+        "story-03-chaos-logic-c005-p000292"
+      ],
+      "before": "Після обіду нас відвели",
+      "after": "Після сніданку нас відвели",
+      "status": "editorial_choice_under_author_delegation",
+      "author_canon_approved": false,
+      "reason": "p290 announces breakfast, p291 depicts that meal, and p292 immediately follows it; the author had delegated logical local corrections.",
+      "authority": {
+        "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/story-03-chaos-logic-v7.spec.json",
+        "sha256": "04d3cf9a05393f5fb3ea58a639490dc699afbe8643b1c14c127faa479a2468f8"
+      }
+    }
+  ],
+  "desktop_author_variant": {
+    "p": 5,
+    "before": "Вставай уже",
+    "after": "Вставай вже",
+    "status": "explicitly_imported_compatible_author_variant",
+    "canonical_approval_inferred": false,
+    "authority": {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/desktop-import/import.json",
+      "sha256": "6c37f383bf5f134635eb087f35344fc252c33eefc936f1eac0454c33374f1323"
+    }
+  },
+  "preserved_unresolved_source_issues": [
+    "story-03-chaos-logic-src04",
+    "story-03-chaos-logic-src05",
+    "story-03-chaos-logic-src06"
+  ]
+}

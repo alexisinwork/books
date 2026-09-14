@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-14",
+  "scope": "bounded literary-model runner path/isolation wording fix",
+  "baseline": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/runner-work/baseline/run_literary_model.py",
+    "sha256": "1c2cec20799a21d7a104b1b151a9a030c5121aead8dfaa1f1759167449d0d381"
+  },
+  "result": {
+    "path": "tools/run_literary_model.py",
+    "sha256": "fc54a228863dc7da996f0da9bc008bf9d51a575bec74d09d0b35d469854f477f"
+  },
+  "test": {
+    "path": "tests/test_literary_model_runner.py",
+    "sha256": "56a83a9bb1dc253cc4dbccbf0e5c37a7d6a8ead2c03348ae7599527c8a027e40",
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest tests.test_literary_model_runner tests.test_review_client_policy -v",
+    "tests_run": 6,
+    "result": "passed",
+    "external_model_calls": 0
+  },
+  "verified_behavior": [
+    "large agy input copied byte-for-byte to temporary directory",
+    "effective prompt contains the exact absolute temporary path",
+    "effective prompt omits the original input path",
+    "prompt forbids directory listing/search/globbing/traversal and fallback lookup",
+    "receipt says prompt-restricted, filesystem isolation not guaranteed",
+    "temporary copy is removed after the mocked process returns"
+  ],
+  "limits": "Mocked construction test only; no claim of actual client filesystem isolation. Existing receipts and reports were not modified."
+}

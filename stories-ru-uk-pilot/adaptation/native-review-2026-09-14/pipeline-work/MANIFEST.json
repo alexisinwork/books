@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:41:43.622422+00:00",
+  "status": "candidate_not_applied_to_shared_project_tools",
+  "files": [
+    {
+      "path": "stories-ru-uk-pilot/tools/check_final_draft.py",
+      "base_sha256": "6f80ea09357f3731525f97664fc911033b06f4bf4af9f97c20760481993f2ae9",
+      "candidate_sha256": "7be7a1eb826ecad6a908bbcd39b7a9dd4d172c0645d6267920a0a863fe9fb13b",
+      "operation": "modify",
+      "base_copy": "base/stories-ru-uk-pilot/tools/check_final_draft.py",
+      "candidate_copy": "candidate/stories-ru-uk-pilot/tools/check_final_draft.py"
+    },
+    {
+      "path": "stories-ru-uk-pilot/tools/assemble_delivery.py",
+      "base_sha256": "74128c01285cf57f5bfd060216ea407e049fa3775739e9a326ca968768bcccef",
+      "candidate_sha256": "525722331edf9726558eaa33ca6ff049af1a6c431c6210d058efec697aad7c8b",
+      "operation": "modify",
+      "base_copy": "base/stories-ru-uk-pilot/tools/assemble_delivery.py",
+      "candidate_copy": "candidate/stories-ru-uk-pilot/tools/assemble_delivery.py"
+    },
+    {
+      "path": "stories-ru-uk-pilot/tools/pilot_inputs.py",
+      "base_sha256": null,
+      "candidate_sha256": "08e5f58e5531eccc29fbc4ed73ca72e2ddb88c0572fb29ff2505c0577a734788",
+      "operation": "add",
+      "base_copy": null,
+      "candidate_copy": "candidate/stories-ru-uk-pilot/tools/pilot_inputs.py"
+    },
+    {
+      "path": "stories-ru-uk-pilot/tests/test_input_binding.py",
+      "base_sha256": null,
+      "candidate_sha256": "290c4a8a6d689ef7428d37be3f6f723ddbd60973028536f5f0bc3f0c2c0a9980",
+      "operation": "add",
+      "base_copy": null,
+      "candidate_copy": "candidate/stories-ru-uk-pilot/tests/test_input_binding.py"
+    }
+  ],
+  "patch": "candidate.patch",
+  "patch_sha256": "3c67bc23ee3ad262216b64f90a65a02a24bf746e4f72ab21b13a80d7e775c27d",
+  "validation": "VALIDATION.json",
+  "validation_sha256": "7a83833f3ad7e2e573092761f05a29bbae641ca550f78f49cedf5b37e0f8ffd8",
+  "real_pair_reproduction": "PAIR-REPRODUCTION.json",
+  "real_pair_reproduction_sha256": "e7b9cc9245eefec18e44b7d2da43e864a5da746de2a93eb34f3629ec13e8bc33",
+  "selection_template": "SELECTION-TEMPLATE.json",
+  "selection_template_sha256": "57657d16370ee072cb268547ed6674a95964c4e1d473b4e359ef71367d39f1cf",
+  "selection_template_status": "Not part of the patch; proposed version labels and null target hashes require a later deliberate release selection. Current V2/V3 references still have the documented frozen STYLE conflict.",
+  "shared_base_comparison": [
+    {
+      "path": "stories-ru-uk-pilot/tools/check_final_draft.py",
+      "base_sha256": "6f80ea09357f3731525f97664fc911033b06f4bf4af9f97c20760481993f2ae9",
+      "current_shared_sha256": "6f80ea09357f3731525f97664fc911033b06f4bf4af9f97c20760481993f2ae9",
+      "matches_base": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/tools/assemble_delivery.py",
+      "base_sha256": "74128c01285cf57f5bfd060216ea407e049fa3775739e9a326ca968768bcccef",
+      "current_shared_sha256": "74128c01285cf57f5bfd060216ea407e049fa3775739e9a326ca968768bcccef",
+      "matches_base": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/tools/pilot_inputs.py",
+      "base_sha256": null,
+      "current_shared_sha256": null,
+      "matches_base": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/tests/test_input_binding.py",
+      "base_sha256": null,
+      "current_shared_sha256": null,
+      "matches_base": true
+    }
+  ],
+  "integration_requirement": "Merge only these four paths after comparing bases. The two caller changes require the new sibling helper pilot_inputs.py. Preserve all prior final-checks, release selections and frozen packets."
+}

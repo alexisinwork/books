@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:11:19.125885+00:00",
+  "author_instruction": "проверь тогда все 3 рассказа максиально дотошно и убери все формилоривки по нвоым правилам укр языка и нативности и потом если будешь находит ькакие-то нвоые проблемы - параллельн о обновляй правила натрализации и в целом напсианий по укр всего",
+  "scope": "Full language revision of all three Ukrainian working editions plus evidence-based shared Ukrainian-writing rule/tool updates; preserve prior author intent decisions, plot, sources and history.",
+  "books": [
+    {
+      "book_id": "story-01-reptiloids",
+      "base_draft": "draft-v4",
+      "base_target": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/target.uk.txt",
+      "base_target_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+      "base_translation_sha256": "153b6ee925dc0826aaf240447594c86dce743c7526106763049d4b28963285a0",
+      "source": {
+        "path": "sources/originals/Рептилоиды.docx",
+        "format": "docx",
+        "sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "language": "ru",
+        "role": "RU_SOURCE_MASTER",
+        "selection_status": "author_selected_for_pilot",
+        "scope": "This author-selected story file only; no cross-project canonical authority."
+      },
+      "base_input_manifest": "editions/uk/INPUTS-V2.json"
+    },
+    {
+      "book_id": "story-02-fair-killer",
+      "base_draft": "draft-v3",
+      "base_target": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v3/target.uk.txt",
+      "base_target_sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7",
+      "base_translation_sha256": "cd2a5f5e30434029356af23638b2f859fbd216224ed1175a244967fee7d0831c",
+      "source": {
+        "path": "sources/originals/Справедливый убийца.docx",
+        "format": "docx",
+        "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "language": "ru",
+        "role": "RU_SOURCE_MASTER",
+        "selection_status": "author_selected_for_pilot",
+        "scope": "This author-selected story file only; no cross-project canonical authority."
+      },
+      "base_input_manifest": "editions/uk/INPUTS-V2.json"
+    },
+    {
+      "book_id": "story-03-chaos-logic",
+      "base_draft": "draft-v4",
+      "base_target": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v4/target.uk.txt",
+      "base_target_sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960",
+      "base_translation_sha256": "edf151e1f78c0bc71eaac49755faf311735b940198a8f4cd1ae303e3729a9cdd",
+      "source": {
+        "path": "sources/originals/Логика хаоса.docx",
+        "format": "docx",
+        "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "language": "ru",
+        "role": "RU_SOURCE_MASTER",
+        "selection_status": "author_selected_for_pilot",
+        "scope": "This author-selected story file only; no cross-project canonical authority."
+      },
+      "base_input_manifest": "editions/uk/INPUTS-V3.json"
+    }
+  ],
+  "initial_system": [
+    {
+      "path": "AGENTS.md",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/AGENTS.md",
+      "sha256": "8eec7d04d06e4903a82ceb5ce240dca5b68c5c726811d6fc897eec7ac44f88dc"
+    },
+    {
+      "path": "STYLE.md",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/STYLE.md",
+      "sha256": "75ae6b24770075cd7da6947728f89e06ffa731a3d9a2587472b339e97a2f04d0"
+    },
+    {
+      "path": "BOOK_SYSTEM/CORE.md",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/BOOK_SYSTEM/CORE.md",
+      "sha256": "e65010a13d397daab2273b93c85ec82ed98e8a25062f54bf18371018e6d9734a"
+    },
+    {
+      "path": "BOOK_SYSTEM/REVIEW.md",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/BOOK_SYSTEM/REVIEW.md",
+      "sha256": "69cedf253369637607bf8ad37c5baa4a6f98d894a1a1c1ce11ea541942194920"
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/WORKFLOW.md",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/BOOK_SYSTEM/ADAPTATION/WORKFLOW.md",
+      "sha256": "71ec8e47b82f7e42ab739f9ff19a3d978dce564202c04b4bce2ea2207c5ffac3"
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/SCHEMA.md",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/BOOK_SYSTEM/ADAPTATION/SCHEMA.md",
+      "sha256": "d0c9e0c7c326378654870a918340b566371e886c9d8b6800b04f128abb399119"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "92355142d6dd7aa2b164185caf68214529942414529d254d4cbf49220401da5b"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "sha256": "9ffbe04c278fc4efb941bb8940bef26db396cf50c4d2425deaf6343945a69cee"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/OLEK_UA_STYLE.md",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/BOOK_SYSTEM/LANGUAGES/uk/OLEK_UA_STYLE.md",
+      "sha256": "7362b531353937dee0711a3071a3ce3d606a9a04949fe9ad2ffce09029e776d0"
+    },
+    {
+      "path": ".agents/skills/literary-adaptation/SKILL.md",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/.agents/skills/literary-adaptation/SKILL.md",
+      "sha256": "1927b1f4fb665f909a2401a5be49687d2b37f1cea40b05899df29e0ed6bf8776"
+    },
+    {
+      "path": ".agents/skills/book-language-review/SKILL.md",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/.agents/skills/book-language-review/SKILL.md",
+      "sha256": "472df890365cabebc652b868ca62ef90f66f1c8a9fcf7475947038ab4f9294cc"
+    },
+    {
+      "path": "tools/uk_naturalness.py",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/tools/uk_naturalness.py",
+      "sha256": "8e160d1ea1bfa8d5fcc5a89213c3ebb91bfd4247d6295dd3ce51f829ff84d475"
+    },
+    {
+      "path": "tools/language_qa.py",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/tools/language_qa.py",
+      "sha256": "9deee03601160de1ebdae6941dacb8c519691fef8333e7e8c883194b1da0ccf1"
+    },
+    {
+      "path": "tests/test_uk_naturalness.py",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/tests/test_uk_naturalness.py",
+      "sha256": "f440cbced1cf67dc8acbb77105d7f02d2dc7a4a7cc70b7ad6c7cb8583fc95807"
+    },
+    {
+      "path": "tools/run_literary_model.py",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/tools/run_literary_model.py",
+      "sha256": "2ffaa90f1232a8cecaddc78d01ad1bf35e3ead24bcd228c346d8765515a536cc"
+    },
+    {
+      "path": "tools/run_book_review.py",
+      "snapshot": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/initial-system-snapshot/tools/run_book_review.py",
+      "sha256": "2153c41ff2da084da5667e7aeb3f9cdf7785a63e3dbca4d56b11d84bc89ecb0c"
+    }
+  ],
+  "prior_delivery_commit": "e7532ffd53674ef8c9fe799fe9eeb1dd74d6319a"
+}

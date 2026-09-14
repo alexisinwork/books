@@ -1,0 +1,181 @@
+I0914 21:31:25.145967       1 resolver.go:85] Model ID gemini-3.8-flash-high not in local config, defaulting to CCPA
+I0914 21:31:25.146022       1 resolver.go:111] Model resolved via default
+I0914 21:31:25.146180      21 server.go:1560] Starting language server process with pid 548216
+I0914 21:31:25.146498      21 server.go:1613] Language server version: 1.2.2
+I0914 21:31:25.146511      21 server.go:613] Language server will attempt to listen on host localhost
+I0914 21:31:25.149910      21 server.go:628] Language server listening on random port at 46583 for HTTPS (gRPC)
+I0914 21:31:25.150042      21 server.go:636] Language server listening on random port at 34317 for HTTP
+W0914 21:31:25.345048      59 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.345167      59 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.346065      59 errorreport.go:224] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.346120      59 model_configs.go:65] Auth mode is unspecified, skipping fetchAvailableModels and returning empty response
+I0914 21:31:25.347933      86 store_client.go:680] summary store: starting background reconciliation (trigger=startup)
+W0914 21:31:25.349616      21 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.349660      21 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:31:25.349803      21 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.349830      21 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0914 21:31:25.350034      21 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.350061      21 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:31:25.350219      21 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.350257      21 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0914 21:31:25.350370      21 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.350398      21 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:31:25.350495      21 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.350521      21 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0914 21:31:25.351396      21 launchmanager.go:69] Entering local chrome mode! This is WRONG unless you are running tests or in eval mode on Linux.
+W0914 21:31:25.353459      21 defaults.go:778] failed to get cs path: cs path /usr/bin/cs invalid
+I0914 21:31:25.353531      21 manager.go:108] Creating trajectory store manager with proto store and SQLite store
+W0914 21:31:25.354032      21 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.354073      21 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:31:25.354161      21 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.354190      21 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0914 21:31:25.354490     132 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.354550     132 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:31:25.354664     132 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.354685     132 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.354809     166 manager.go:88] Migration [MIGRATION_ID_SIDECAR_USER_CONFIG_BYPASS] is disabled, skipping entirely
+I0914 21:31:25.354892     166 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I0914 21:31:25.354955     166 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I0914 21:31:25.354966     166 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I0914 21:31:25.355007     166 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I0914 21:31:25.355013     166 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I0914 21:31:25.355076     166 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I0914 21:31:25.355085     166 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I0914 21:31:25.362672      86 store_client.go:730] summary store: reconciliation complete, synced 23 records
+W0914 21:31:25.362845      86 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.362877      86 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:31:25.362976      86 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.363005      86 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.365520      21 server.go:3003] Auth succeeded, refreshing features and managers
+W0914 21:31:25.365569      21 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.365699      21 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.365951      21 errorreport.go:224] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.366122      21 server.go:3009] State refresh took 0ms
+I0914 21:31:25.366134      21 server.go:3019] [RemoteControl] Subscription callback triggered.
+I0914 21:31:25.366205      21 server.go:3022] [RemoteControl] RemoteControlEnabled value: false
+I0914 21:31:25.366209      21 server.go:3637] [RemoteControl] Session toggle is off, staying disconnected
+I0914 21:31:25.366213      21 server.go:3348] [RemoteControl] Resolved proxyServerURL: ""
+I0914 21:31:25.366239      21 profiler.go:231] Continuous pprof profiling is disabled.
+I0914 21:31:25.366640     172 manager.go:88] Migration [MIGRATION_ID_SIDECAR_USER_CONFIG_BYPASS] is disabled, skipping entirely
+I0914 21:31:25.366666     172 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I0914 21:31:25.366645      21 server.go:2505] initialized server successfully in 220.424626ms
+I0914 21:31:25.366795     172 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I0914 21:31:25.366811     172 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I0914 21:31:25.366853     172 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I0914 21:31:25.366857     172 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I0914 21:31:25.366957     172 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I0914 21:31:25.366968     172 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I0914 21:31:25.367130       1 auto_updater.go:252] Last check was less than 15 minutes ago, skipping update (fast path)
+W0914 21:31:25.367099     175 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.367165       1 common.go:150] Launching CLI mode
+E0914 21:31:25.367183     175 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.367177       1 launchsteps.go:84] Failed to resolve GeminiDir ".gemini": .gemini must be an absolute path: path is not absolute, falling back to default
+W0914 21:31:25.367287     175 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.367296       1 common.go:172] CLI app data directory: /home/alexi/.gemini/antigravity-cli
+E0914 21:31:25.367308     175 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.367324       1 server.go:299] Creating CLI server backend: product=antigravity workspaceDirs=[/tmp/literary-model-h8tkf8wr] appDataDir=/home/alexi/.gemini/antigravity-cli cascadeManager=true codeAssist=true
+I0914 21:31:25.367365       1 composite_token_storage.go:123] Using file-based token storage because WSL environment detected
+I0914 21:31:25.367383       1 auth_provider.go:763] [AuthProvider] SetEnableBusinessLogin called with enable: true
+I0914 21:31:25.368687       1 server.go:2091] Backend project ID updated dynamically to: default-cli-project
+I0914 21:31:25.368706       1 analytics.go:179] CLI startup completed (took 225.401625ms)
+W0914 21:31:25.368711      80 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.368736       1 printmode.go:174] Print mode: starting (promptLength=70370, model="gemini-3.8-flash-high", conversationID="")
+E0914 21:31:25.368742      80 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.368751       1 manager.go:426] Initializing CLI store manager for workspace /tmp/literary-model-h8tkf8wr
+W0914 21:31:25.368816      80 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.368834      80 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0914 21:31:25.368933      80 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.368974       1 cli_setting_manager.go:79] config.json not found or unreadable, using CLI settings only: open /home/alexi/.gemini/config/config.json: no such file or directory
+E0914 21:31:25.369003      80 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.369003       1 cli_setting_manager.go:92] CLI settings initialized: permissions=<nil>, toolPermission=request-review
+W0914 21:31:25.369090      80 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.369117      80 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.369167       1 hooks_manager.go:53] loaded 0 named hooks from 0 hooks.json file(s)
+I0914 21:31:25.369180       1 manager.go:600] CLI store manager initialized successfully
+I0914 21:31:25.369190       1 session.go:77] Print mode: enabling terminal sandbox for this session
+I0914 21:31:25.369202       1 printmode.go:715] Print mode: applying agent mode plan
+I0914 21:31:25.369207       1 manager.go:1352] SetCycleMode called: plan
+I0914 21:31:25.369217       1 printmode.go:365] Print mode: not authenticated, trying silent auth
+W0914 21:31:25.369226      80 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:31:25.369267      80 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.369306     198 keyring.go:64] keyringAuth: loaded token, expiry=2026-09-14 21:57:12.305865179 +0200 CEST expired=false
+W0914 21:31:25.369376      80 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:31:25.369381       1 auth.go:148] ChainedAuth: authenticated via keyring (effective: keyring)
+I0914 21:31:25.369390       1 server_oauth.go:192] applyAuthResult: email=alexisinwork@gmail.com, authMethod=consumer, quotaProject=
+I0914 21:31:25.369395       1 server_oauth.go:197] OAuth: authenticated successfully as alexisinwork@gmail.com
+I0914 21:31:25.369398       1 server_oauth.go:203] b.codeAssistClient.AuthProvider (0x16738c6400f0) is same as b.cliAuth (0x16738c6400f0)
+E0914 21:31:25.369415      80 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0914 21:31:25.369498     204 cache.go:163] Failed to refresh cache in background: admin controls not applicable
+W0914 21:31:25.369516     227 cache.go:163] Failed to refresh cache in background: admin controls not applicable
+I0914 21:31:26.024694      80 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1290ec748c861f91
+E0914 21:31:26.084416      68 browser_context.go:179] failed to install playwright: could not install driver: could not install driver: error: got non 200 status code: 404 (404 Not Found) from https://playwright.azureedge.net/builds/driver/playwright-1.57.0-linux.zip
+error: got non 200 status code: 404 (404 Not Found) from https://playwright-akamai.azureedge.net/builds/driver/playwright-1.57.0-linux.zip
+error: got non 200 status code: 404 (404 Not Found) from https://playwright-verizon.azureedge.net/builds/driver/playwright-1.57.0-linux.zip
+I0914 21:31:26.271178      47 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x77235f216b273b43
+I0914 21:31:26.280651       1 model_resolver.go:93] Resolving model gemini-3.8-flash-high
+I0914 21:31:26.280677       1 model_config_manager.go:327] Propagating selected model override to backend: label="Gemini 3.8 Flash (High)"
+I0914 21:31:26.280734       1 printmode.go:367] Print mode: silent auth succeeded
+I0914 21:31:26.280743     219 quota_manager.go:45] doRefreshQuota: starting reload (force=true)
+I0914 21:31:26.280763     220 experiment_manager.go:56] Starting experiment refresh after login
+I0914 21:31:26.392696     220 server.go:3637] [RemoteControl] Session toggle is off, staying disconnected
+I0914 21:31:26.392712     220 server.go:3348] [RemoteControl] Resolved proxyServerURL: ""
+I0914 21:31:26.392718     220 experiment_manager.go:60] Experiments refreshed after login
+I0914 21:31:26.392758     327 manager.go:1281] Reloading system slash commands
+I0914 21:31:26.726776     307 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb43cd7ffabc80dbc
+I0914 21:31:27.173400     307 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4140d6f0304431e9
+I0914 21:31:27.264089     307 model_resolver.go:93] Resolving model gemini-3.8-flash-high
+I0914 21:31:27.264175     307 model_config_manager.go:327] Propagating selected model override to backend: label="Gemini 3.8 Flash (High)"
+I0914 21:31:27.264286     220 experiment_manager.go:56] Starting experiment refresh after login
+I0914 21:31:27.264359     338 model_resolver.go:93] Resolving model gemini-3.8-flash-high
+I0914 21:31:27.264371     338 model_config_manager.go:327] Propagating selected model override to backend: label="Gemini 3.8 Flash (High)"
+I0914 21:31:27.264384     219 quota_manager.go:45] doRefreshQuota: starting reload (force=true)
+I0914 21:31:27.281732       1 model_resolver.go:93] Resolving model gemini-3.8-flash-high
+I0914 21:31:27.281750       1 conversation_manager.go:451] Starting new conversation (agent=false)
+I0914 21:31:27.281771       1 server.go:1142] Creating new cascade trajectory (agentScript=false)
+I0914 21:31:27.281776       1 server.go:1145] Conversation using project ID: default-cli-project
+I0914 21:31:27.315567       1 server.go:1177] Created conversation 1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2
+I0914 21:31:27.315722       1 server.go:3088] GetConversationDetail: found conversation 1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2 (active=true)
+I0914 21:31:27.316472       1 server.go:3088] GetConversationDetail: found conversation 1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2 (active=true)
+I0914 21:31:27.316535       1 conversation_manager.go:498] project: switching to conversation belonging to project ID: default-cli-project
+I0914 21:31:27.316601       1 server.go:2091] Backend project ID updated dynamically to: default-cli-project
+I0914 21:31:27.316613       1 cli_setting_manager.go:218] ApplyProjectPermissionGrants: no grants for project "CLI Project", cleared project permissions
+I0914 21:31:27.316621       1 conversation_manager.go:544] project: synced active project to "CLI Project" (id=default-cli-project) from conversation switch
+I0914 21:31:27.316643       1 conversation_manager.go:821] Streaming conversation 1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2
+I0914 21:31:27.316705       1 server.go:3088] GetConversationDetail: found conversation 1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2 (active=true)
+I0914 21:31:27.316677     361 manager.go:1304] Reloading system slash commands and skills
+I0914 21:31:27.316721     361 manager.go:1281] Reloading system slash commands
+I0914 21:31:27.317063       1 server.go:1186] Starting conversation update stream for 1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2
+I0914 21:31:27.317110       1 session.go:168] Print mode: conversation=1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2, sending message
+I0914 21:31:27.317119       1 printmode.go:753] Print mode: slash command expansion disabled
+I0914 21:31:27.317189       1 conversation_manager.go:633] Forwarding user message to conversation 1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2 (items=1, media=0)
+I0914 21:31:27.317199       1 server.go:1745] Sending user message to conversation 1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2 (items=1, media=0)
+I0914 21:31:27.318182     362 manager.go:521] Ignoring IDLE update because we are waiting for RUNNING
+I0914 21:31:27.320350       1 latency_breakdown.go:142] SEND_USER_CASCADE_MESSAGE_LATENCY latency breakdown: map[active_user_state_latency_ms:0 blocking:false cascade_id:1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2 cascade_send_latency_ms:0 hydrate_slash_commands_latency_ms:0 load_trajectory_latency_ms:0 media_count:0 media_summaries_latency_ms:0 message_origin:AGENT_MESSAGE_ORIGIN_UNSPECIFIED refresh_browser_state_latency_ms:0 resolve_agent_config_latency_ms:1 save_media_latency_ms:0 saved_media_count:0 status:OK total_latency_ms:1 trajectory_id:cc91c84b-6600-4ac1-b85e-3901addf4cbd]
+I0914 21:31:27.323483     361 manager.go:1285] Slash commands unchanged, skipping update
+W0914 21:31:27.353823     123 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "mcp_servers"
+W0914 21:31:27.353881     123 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "user_rules"
+W0914 21:31:27.353898     123 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "subagent_reminder"
+I0914 21:31:27.382596     220 server.go:3637] [RemoteControl] Session toggle is off, staying disconnected
+I0914 21:31:27.382617     220 server.go:3348] [RemoteControl] Resolved proxyServerURL: ""
+I0914 21:31:27.382624     220 experiment_manager.go:60] Experiments refreshed after login
+I0914 21:31:27.382786     220 experiment_manager.go:56] Starting experiment refresh after login
+I0914 21:31:27.382787     535 manager.go:1281] Reloading system slash commands
+I0914 21:31:27.385918     535 manager.go:1285] Slash commands unchanged, skipping update
+I0914 21:31:27.447215     220 server.go:3637] [RemoteControl] Session toggle is off, staying disconnected
+I0914 21:31:27.447237     220 server.go:3348] [RemoteControl] Resolved proxyServerURL: ""
+I0914 21:31:27.447243     220 experiment_manager.go:60] Experiments refreshed after login
+I0914 21:31:27.447288     303 manager.go:1281] Reloading system slash commands
+I0914 21:31:27.450927     303 manager.go:1285] Slash commands unchanged, skipping update
+I0914 21:31:27.665231     337 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x154137e27266439d
+I0914 21:31:27.912563     143 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe4aeef33cc52cc03 ResponseID: jkuoau6xJpbT28oPm6-32AI
+I0914 21:31:57.320179     548 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6b00f80d18fed077 ResponseID: jkuoaqe1Lf6s28oPlsnkkQg
+I0914 21:33:06.735614       1 manager.go:780] CLI store manager shutting down
+I0914 21:33:06.735965       1 conversation_manager.go:778] Stopping conversation stream
+I0914 21:33:06.736882    1180 server.go:2862] Language server shutting down
+I0914 21:33:06.736895    1180 server.go:2867] Waiting for migrations to complete to prevent partial migration state...
+I0914 21:33:06.737506     362 server.go:1233] Stream goroutine exited for 1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2, sending completion signal
+I0914 21:33:06.737519     362 conversation_manager.go:922] Stream completed for 1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2, clearing ResponsePending
+E0914 21:33:06.759197     146 file_watcher.go:194] skipping empty or temp file: 
+E0914 21:33:06.759214     146 file_watcher.go:194] skipping empty or temp file: 
+E0914 21:33:06.759218     146 file_watcher.go:194] skipping empty or temp file: 
+E0914 21:33:06.759221     146 file_watcher.go:194] skipping empty or temp file: 

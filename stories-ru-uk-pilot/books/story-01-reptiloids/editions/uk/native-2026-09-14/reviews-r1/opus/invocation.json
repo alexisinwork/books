@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:31:24+00:00",
+  "role": "opus",
+  "client": "Claude Code",
+  "requested_model": "claude-opus-5",
+  "target": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+    "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+  },
+  "source": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/sources/originals/Рептилоиды.docx",
+    "sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408"
+  },
+  "inputs": [
+    {
+      "label": "ukrainian.txt",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+      "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+    },
+    {
+      "label": "Russian source",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/review-config/story-01-reptiloids/source-ru.txt",
+      "sha256": "73171dd95f3b0f8d418bd8e0d6b2b20b59b61e884b6100576d0350f670948063"
+    },
+    {
+      "label": "Style and explicit author intent",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/review-config/story-01-reptiloids/context.txt",
+      "sha256": "47468980e85e051eaf87b5bfb487f58538c327d80a1b54bab082923abb4ef805"
+    }
+  ],
+  "prompt_sha256": "b39108d2e4deeece26fb5e2800c3449bb981e300840899d442e0c80c742d85f8",
+  "isolation": "Fresh external process; all inputs embedded; sandbox/safe mode; no permitted model tools or MCP.",
+  "input_delivery": "embedded_in_prompt",
+  "status": "failed",
+  "exit_code": 1,
+  "seconds": 1.92
+}

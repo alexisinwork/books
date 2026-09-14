@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "project_id": "stories-ru-uk-pilot",
+  "book_id": "story-02-fair-killer",
+  "source_sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+  "record_type": "revision-log",
+  "fields": [
+    "id",
+    "reason",
+    "old_source",
+    "new_source",
+    "changes",
+    "affected_checks",
+    "decision"
+  ],
+  "items": [
+    {
+      "action": "select_master",
+      "previous": null,
+      "current": {
+        "path": "sources/originals/Справедливый убийца.docx",
+        "format": "docx",
+        "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "language": "ru"
+      }
+    },
+    {
+      "id": "prepare-ru-uk-pilot-v1",
+      "reason": "Full translation authorized; isolated source-bound preparation.",
+      "old_source": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+        "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+        "format": "docx",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "new_source": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+        "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+        "format": "docx",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "changes": "Seven edition documents, proposed glossary/voices, meaning obligations and exact source-unit map; no source prose edits.",
+      "affected_checks": [
+        "Source hash and anchors",
+        "Packet coverage",
+        "Independent translation review not yet run"
+      ],
+      "decision": "Preparation only; target master not promoted."
+    },
+    {
+      "id": "author-answers-2026-09-14",
+      "reason": "Apply author answers and expressly delegated continuity edits",
+      "old_source": {
+        "path": "editions/uk/draft-v2/target.uk.txt",
+        "sha256": "703b831984127e59061e6a87fd72728ecdb3097f84ff235cf59691a3347e4a8e"
+      },
+      "new_source": {
+        "path": "editions/uk/draft-v3/target.uk.txt",
+        "sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7",
+        "role": "UA_WORKING_EDITION"
+      },
+      "changes": "editions/uk/draft-v3/changes.json",
+      "decision": "editions/uk/decisions/2026-09-14-author-answers.json",
+      "continuity": "editions/uk/draft-v3/continuity.json",
+      "verification": "editions/uk/draft-v3/local-review.json",
+      "ru_source_registers": "Unchanged historical observations; UK facts and entry-state overrides are in the linked continuity layer.",
+      "delivery": "../../delivery/2026-09-14-v3",
+      "full_literary_release_gate": "open"
+    },
+    {
+      "id": "full-native-language-revision-draft-v4-2026-09-14",
+      "reason": "Promote the fully read native-language candidate plus the reconciled exact edits without changing the RU source.",
+      "old_source": {
+        "path": "editions/uk/draft-v3/target.uk.txt",
+        "sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7"
+      },
+      "new_source": {
+        "path": "editions/uk/draft-v4/target.uk.txt",
+        "sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
+        "role": "UA_WORKING_EDITION"
+      },
+      "changes": "editions/uk/draft-v4/changes.json",
+      "decision": "adaptation/native-review-2026-09-14/reconciliation/story-02-fair-killer.spec.json",
+      "input_manifest": "editions/uk/INPUTS-V3.json",
+      "preparation_packet": "editions/uk/preparation/pilot/ready-v3",
+      "continuity": "editions/uk/draft-v4/continuity.json",
+      "quality_assessment": "editions/uk/QA-ASSESSMENT-v4.md",
+      "affected_checks": [
+        "current continuity anchors",
+        "author answers",
+        "times and referents",
+        "protected refrains and target emphasis"
+      ],
+      "audit_status": "full_native_revision_partial_external_ensemble",
+      "language_status": "working_edition_not_author_canonical_master",
+      "full_literary_release_gate": "open",
+      "delivery": {
+        "path": "../../delivery/2026-09-14-v4",
+        "status": "planned"
+      },
+      "ru_source_registers": "Unchanged historical observations; current UK checks are in the linked continuity layer."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "book_id": "story-01-reptiloids",
+  "target": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v5/target.uk.txt",
+    "sha256": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c"
+  },
+  "authority": "Author explicitly commissioned full Ukrainian language revision and context-based rule updates.",
+  "author_canonical_approval": false,
+  "implementation_spec": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/story-01-reptiloids.spec.json",
+    "sha256": "68321350ca3e6318a46628e29c9fa57a5cc36e652a3b96f432e8c90c138c0f6c"
+  },
+  "complete_before_after": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v5/changes.json",
+    "sha256": "33bf00fdc890d60e336459602df61dd7813a0466aadb2193cbcecdf8f234e2dc"
+  },
+  "reconciliation_reasoning": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/RECONCILIATION.md",
+    "sha256": "7ab520b551925a641b6b705d351ea8661e1d0393e33055c18dccbb3159ca0356"
+  },
+  "final_target_only_report": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/final-target-only-astra-r1/report.md",
+    "sha256": "c357583c84acd468bc91a08cd1f64ec3685c6328b7793e7e6c9ad40bc508fbf2"
+  },
+  "final_reading_coverage": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/final-target-only-astra-r1/coverage.json",
+    "sha256": "4fc2e48f99447f0ee5c6c966a0933634e02854ca682858f58a317a91268609c0"
+  },
+  "coordinator_assessment": {
+    "book_id": "story-01-reptiloids",
+    "target_sha256": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c",
+    "report_sha256": "c357583c84acd468bc91a08cd1f64ec3685c6328b7793e7e6c9ad40bc508fbf2",
+    "coverage_sha256": "4fc2e48f99447f0ee5c6c966a0933634e02854ca682858f58a317a91268609c0",
+    "coordinator_read_report": true,
+    "remaining_confirmed_language_defects": 0,
+    "optional_observations_disposition": "The long pseudo-scholarly monologue serves the speaker; author-selected egg joke and final tense preserved.",
+    "prior_qa_assessment_sha256": "e03f16adcef7cef50220171cf94442bd651acd121c2137a4865bab1711d6a1f8"
+  },
+  "external_runs": [
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/reviews-opus-agy-r1/opus/invocation.json",
+        "sha256": "d683b161a294100e68a69a6d688962e668e4a731b9d5627ac56b2e9731a7fb48"
+      },
+      "client": "agy CLI",
+      "requested_model": "claude-opus-4-6-thinking",
+      "status": "failed",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+        "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+      },
+      "current_target_review": false,
+      "independence_validation": "incomplete run; does not count as a completed review"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/reviews-opus-agy-r2/opus/invocation.json",
+        "sha256": "b96c0e79f2383ef4f129b05d711406c2f6517f05698f081b31b281214d9644d9"
+      },
+      "client": "agy CLI",
+      "requested_model": "claude-opus-4-6-thinking",
+      "status": "report_returned",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+        "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+      },
+      "current_target_review": false,
+      "report": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/reviews-opus-agy-r2/opus/REPORT.md",
+        "sha256": "913e535339b8717e7250429652825a6a7f45cd833320709f454c7d87392329fc"
+      },
+      "independence_validation": "fresh process with embedded permitted inputs; client receipt is not a proof of reading quality"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/reviews-r1/flash/invocation.json",
+        "sha256": "18ce7dd39371608871143a07b892d02f86b0f8485e9819b70edcc3a6e447ea1e"
+      },
+      "client": "agy CLI",
+      "requested_model": "gemini-3.8-flash-high",
+      "status": "report_returned",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+        "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+      },
+      "current_target_review": false,
+      "report": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/reviews-r1/flash/REPORT.md",
+        "sha256": "2ed5b383783c19283685ae858a6f580beb5f73addf85067f91aab48d47468895"
+      },
+      "independence_validation": "fresh process with embedded permitted inputs; client receipt is not a proof of reading quality"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/reviews-r1/opus/invocation.json",
+        "sha256": "1a57bee7780828acaa80701f7557c0f68995e4ec2afc7278f79a4c4eb1ae276f"
+      },
+      "client": "Claude Code",
+      "requested_model": "claude-opus-5",
+      "status": "failed",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+        "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+      },
+      "current_target_review": false,
+      "independence_validation": "incomplete run; does not count as a completed review"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/reviews-r1/pro/invocation.json",
+        "sha256": "e6009b3a9a2789c6c638577694eb2866a9bf3bd797f24fdb2e0a949f5c822763"
+      },
+      "client": "agy CLI",
+      "requested_model": "gemini-3.1-pro-high",
+      "status": "no_substantive_report",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+        "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+      },
+      "current_target_review": false,
+      "independence_validation": "incomplete run; does not count as a completed review"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/reviews-r2/pro/invocation.json",
+        "sha256": "58559345a0fa69f4f8a9e814528d4591ca26b7a14c61426a8de2787ce806bd9e"
+      },
+      "client": "agy CLI",
+      "requested_model": "gemini-3.1-pro-high",
+      "status": "report_returned",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+        "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+      },
+      "current_target_review": false,
+      "report": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/reviews-r2/pro/REPORT.md",
+        "sha256": "5c2b8c1631f5a8c8a6badf05a5d45cd2451cd89ab9213006f2913b8d8fc2646d"
+      },
+      "independence_validation": "fresh process with embedded permitted inputs; client receipt is not a proof of reading quality"
+    }
+  ],
+  "mechanical_checks": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v5/final-checks.json",
+    "sha256": "ad7501116f5b4e8bd9d849e3041f5dced57f13f37e3f835b6073ab2e5f085a41"
+  },
+  "literary_release_gate": "open",
+  "gate_reason": "Required Claude Code Opus runs unavailable/incomplete; agy Opus is a supplementary client, and earlier large external file-mode isolation was not certified. Final Codex target-only readings are documented separately."
+}

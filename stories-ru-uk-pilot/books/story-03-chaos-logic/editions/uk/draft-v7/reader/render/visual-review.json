@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "docx_sha256": "46f5b4573b7ba64af50b21a2cd32d68f3b62bcf4a14245c9bd09d64bc236d0b4",
+  "pdf_sha256": "7c9d7e0744add2582dc6eebd02b19acb6d5ba07b01a7ff4b3fd5afa6181e4635",
+  "result": "passed",
+  "reviewer": "Astra/Codex coordinator",
+  "method": "Actual inspection of the two changed contact sheet images; remaining two sheets are byte-identical to the previously visually inspected v5 sheets, with hashes recorded. Separate exact text and page geometry checks.",
+  "contact_sheets_viewed": [
+    "contact-001-016.png",
+    "contact-017-032.png"
+  ],
+  "inherited_by_exact_image_sha256": [
+    {
+      "current_image": "contact-033-048.png",
+      "sha256": "7c54dc9c36351db477371ff3f2d357cb347bbc6c77ae0948d374d24fbdfd1ce5",
+      "previous_image": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v5/reader/render/contact-033-048.png",
+      "previous_visual_review_sha256": "b61e5f37a0a1aa4efc072a360af53f219a242fcc8ea6ec0c9fa052009c9dd50b"
+    },
+    {
+      "current_image": "contact-049-055.png",
+      "sha256": "6ab813be7d2a84ec8964c6880a6538f976a24d9efcb1f7fdf81df338966ce716",
+      "previous_image": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v5/reader/render/contact-049-055.png",
+      "previous_visual_review_sha256": "b61e5f37a0a1aa4efc072a360af53f219a242fcc8ea6ec0c9fa052009c9dd50b"
+    }
+  ],
+  "full_size_pages_viewed": [],
+  "coverage_pages": 55,
+  "observations": [
+    "No visible clipping, blank pages or broken flow; chapter headings, margins and bold framing remain intact."
+  ],
+  "limits": "Layout review; exact image equality is used only to carry forward previous visual observations, never to establish prose quality."
+}

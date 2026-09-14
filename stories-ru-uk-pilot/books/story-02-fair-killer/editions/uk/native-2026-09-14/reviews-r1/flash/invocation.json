@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:31:25+00:00",
+  "role": "flash",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash-high",
+  "target": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+    "sha256": "9f5f4964d362cdf4990a7d8291c241d377eeaa647f7f11e24987c0779bdbba40"
+  },
+  "source": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+    "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0"
+  },
+  "inputs": [
+    {
+      "label": "ukrainian.txt",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+      "sha256": "9f5f4964d362cdf4990a7d8291c241d377eeaa647f7f11e24987c0779bdbba40"
+    },
+    {
+      "label": "Russian source",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/review-config/story-02-fair-killer/source-ru.txt",
+      "sha256": "2a9f2f6651cd98335f1fc7ab42308d7745ef669089093fdfa6075618ba3c7fc6"
+    },
+    {
+      "label": "Style and explicit author intent",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/review-config/story-02-fair-killer/context.txt",
+      "sha256": "26da1951e86a0693b2dfb6a8e9ea38d9665ed03bdb9758a02098b6a5f42f2274"
+    }
+  ],
+  "prompt_sha256": "9ff738f961dd3b12280dc34a2c835202e30a058c994a3a32ec14adb067c9feff",
+  "isolation": "Fresh temporary directory containing exact input copies; agy sandbox and plan mode; command permission enabled only inside the disposable directory.",
+  "input_delivery": "isolated_files",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 989.05,
+  "resolved_model_id": "gemini-3.8-flash-high",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "a86b1cc8-b0c4-4587-aba3-07ca321349e6",
+  "usage": {
+    "input_tokens": 739601,
+    "output_tokens": 59437,
+    "thinking_tokens": 34482,
+    "cache_read_tokens": 4886420,
+    "total_tokens": 799038
+  },
+  "denied_actions": [],
+  "report_sha256": "d885799b71bcb1c51a30bee8273d6aecb41c93d6cc6f856d2b67c39caddaf791"
+}

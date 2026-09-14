@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "scope": "bounded current metadata and continuity; no prose edit",
+  "result": "passed",
+  "checks": [
+    {
+      "check": "before_snapshot",
+      "result": "passed",
+      "files": 10
+    },
+    {
+      "check": "story-01-reptiloids",
+      "result": "passed",
+      "draft": "draft-v5",
+      "prose_sha256": {
+        "translation.json": "ffc5b3b21a9154d683e90bff5909cec07963605a67bd8baed0432a4514217fae",
+        "target.uk.txt": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c",
+        "changes.json": "33bf00fdc890d60e336459602df61dd7813a0466aadb2193cbcecdf8f234e2dc"
+      },
+      "continuity_sha256": "eefc8a4f6f6b9703b1312580e44ad0b08bc2e7aa5bd36f65a896803d33e32578",
+      "qa_assessment_sha256": "e03f16adcef7cef50220171cf94442bd651acd121c2137a4865bab1711d6a1f8",
+      "anchor_checks": {
+        "target_sha256": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c",
+        "historical_overrides_checked": 5,
+        "protected_exact_checks": 3,
+        "target_emphasis_ranges_checked": 0,
+        "result": "passed",
+        "scope": "Dependent continuity anchors only; not a new full structural diagnosis."
+      }
+    },
+    {
+      "check": "story-02-fair-killer",
+      "result": "passed",
+      "draft": "draft-v4",
+      "prose_sha256": {
+        "translation.json": "be892596bf22a93c932fb8d727dfe557db5b8ae6ad9c9408b59633996d8cf4bf",
+        "target.uk.txt": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
+        "changes.json": "c448a063d8d58bbd0e12e3468000bef759a3346649d3fb102c0fd219df5eaeb0"
+      },
+      "continuity_sha256": "9a71af6d29a915ff0d3d0e5da5c187f2643e9d8b389287b3ee8560c7bb72427d",
+      "qa_assessment_sha256": "cbae1653a8ce7ac10327bf66dd90677e564f5e20e2177792d0e8989ad843cdc6",
+      "anchor_checks": {
+        "target_sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
+        "historical_overrides_checked": 3,
+        "protected_exact_checks": 6,
+        "target_emphasis_ranges_checked": 3,
+        "result": "passed",
+        "scope": "Dependent continuity anchors only; not a new full structural diagnosis."
+      }
+    },
+    {
+      "check": "story-03-chaos-logic",
+      "result": "passed",
+      "draft": "draft-v7",
+      "prose_sha256": {
+        "translation.json": "e9de3d028c17fdbe4d91b783bb76975dae4c11b374054411f3adaf679d8738b1",
+        "target.uk.txt": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
+        "changes.json": "aca1002292806344115b24ba91718dbbba4a8d5fd060771eab7f62908120643f"
+      },
+      "continuity_sha256": "bd96783d08a01f83aa96b8c8092135bc2f0028f64f47bc874e12c315b5a3486a",
+      "qa_assessment_sha256": "9bfc830606e88684f6ae5f5e9a699df1a33079bb6b84f8632ce4c18389762aef",
+      "anchor_checks": {
+        "target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
+        "historical_overrides_checked": 14,
+        "protected_exact_checks": 11,
+        "target_emphasis_ranges_checked": 0,
+        "result": "passed",
+        "scope": "Dependent continuity anchors only; not a new full structural diagnosis."
+      }
+    },
+    {
+      "check": "chaos_issue_history_and_new_unresolved",
+      "result": "passed",
+      "historical_entries_unchanged": 16,
+      "new_unresolved_ids": [
+        "story-03-chaos-logic-src17",
+        "story-03-chaos-logic-src18",
+        "story-03-chaos-logic-src19",
+        "story-03-chaos-logic-src20"
+      ],
+      "p29_recorded_as_checked_non_supporting_anchor": true
+    }
+  ],
+  "diff": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/metadata-work/DIFF.patch",
+    "sha256": "554cf0f45e6de942141d9d8b8ab05bc8435f1e89793617062c472b8b206a255a"
+  },
+  "limits": "Dependent anchors only; no new full structural diagnosis. Reader exports, selection, final-checks and frozen packets were not modified by this task."
+}

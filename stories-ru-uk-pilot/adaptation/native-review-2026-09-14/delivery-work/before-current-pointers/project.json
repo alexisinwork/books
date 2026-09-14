@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "kit_version": "1.1",
+  "project_id": "stories-ru-uk-pilot",
+  "title": "Три оповідання: пілот RU→UK",
+  "kind": "book-project",
+  "books": [
+    {
+      "id": "story-01-reptiloids",
+      "path": "books/story-01-reptiloids"
+    },
+    {
+      "id": "story-02-fair-killer",
+      "path": "books/story-02-fair-killer"
+    },
+    {
+      "id": "story-03-chaos-logic",
+      "path": "books/story-03-chaos-logic"
+    }
+  ],
+  "optional_modules": [],
+  "external": {
+    "github": {
+      "repository": "https://github.com/alexisinwork/books",
+      "branch": "stories-ru-uk-full-2026-09-14",
+      "path": "stories-ru-uk-pilot"
+    },
+    "google_drive": null,
+    "status": "authorized_workshop_github_branch"
+  },
+  "book_system": "../BOOK_SYSTEM",
+  "language_policy": {
+    "default_new_original": "uk",
+    "optional_new_original": "en",
+    "legacy_existing_source": "ru",
+    "default_english_source": "uk_canonical_master",
+    "english_locale": "en-US",
+    "basis": "Общая языковая политика мастерской от 2026-09-14. Для этого отдельного пилота автор выбрал полный перевод трёх конкретных RU DOCX в украинские рабочие издания."
+  },
+  "workspace_uid": "a1b13c42-e69d-43c1-b564-5e1ce4af4d58",
+  "task_scope": {
+    "kind": "isolated_short_story_translation_pilot",
+    "source_language": "ru",
+    "target_language": "uk",
+    "source_status": "author_selected_for_pilot",
+    "cross_project_canon": "not_connected",
+    "status": "full_translations_revised_after_author_answers",
+    "delivery": "delivery/2026-09-14-v3"
+  }
+}

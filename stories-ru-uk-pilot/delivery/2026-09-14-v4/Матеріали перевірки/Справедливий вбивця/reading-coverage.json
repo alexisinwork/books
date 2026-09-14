@@ -1,0 +1,88 @@
+{
+  "status": "final",
+  "review_kind": "simulated_model_reading",
+  "mode": "independent_target_only_uk",
+  "client": "Codex",
+  "agent": "/root/fair_final_native_read",
+  "model_identity_available": "GPT-6",
+  "api_model_id": null,
+  "api_model_id_note": "Exact API model ID not disclosed in agent context; Astra is the assigned role/run label.",
+  "assigned_role": "Astra",
+  "target_file": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v4/target.uk.txt",
+  "target_sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
+  "target_bytes": 103269,
+  "target_physical_lines": 471,
+  "numbering": "1-based nonempty line number; each prose paragraph occupies one physical line; decorative separators included as nonempty units",
+  "total_nonempty_units": 236,
+  "prose_paragraphs": 230,
+  "separator_unit_numbers": [
+    6,
+    38,
+    72,
+    113,
+    161,
+    213
+  ],
+  "whitespace_token_count": 9210,
+  "letter_number_word_token_count": 8770,
+  "letter_number_word_token_method": "Python re: [^\\W_]+(?:[’'ʼ-][^\\W_]+)* with Unicode",
+  "actually_read_nonempty_ranges": [
+    [
+      1,
+      32
+    ],
+    [
+      33,
+      60
+    ],
+    [
+      61,
+      95
+    ],
+    [
+      96,
+      130
+    ],
+    [
+      131,
+      166
+    ],
+    [
+      167,
+      201
+    ],
+    [
+      202,
+      236
+    ]
+  ],
+  "actually_read_nonempty_units": 236,
+  "actually_read_prose_paragraphs": 230,
+  "unread_nonempty_units": 0,
+  "last_read_nonempty_unit": 236,
+  "last_read_physical_line": 471,
+  "last_read_line_text": "Один безгучний ляск пролунав у тиші…",
+  "truncation_recovery": "Initial 1-60 output was internally truncated; omitted 33-35 retrieved separately, then full 33-60 retrieved without truncation and read before continuing at 61.",
+  "allowed_inputs_read": [
+    "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v4/target.uk.txt",
+    "/home/alexi/books/BOOK_SYSTEM/ADAPTATION/prompts/target-only-uk.md",
+    "/home/alexi/books/.agents/skills/book-language-review/SKILL.md"
+  ],
+  "other_manuscripts_or_reports_read": false,
+  "mechanical_checks_separate_from_reading": [
+    "byte/line/paragraph/token counts",
+    "exact quotation membership at paragraph anchors",
+    "SHA-256 verification before and after reading"
+  ],
+  "confirmed_material_language_defects": 0,
+  "mandatory_language_changes": 0,
+  "optional_observation_ids": [
+    "UK-OPT-01",
+    "UK-OPT-02"
+  ],
+  "manuscript_modified": false,
+  "input_sha256_unchanged_at_seal": true,
+  "sealed_at_utc": "2026-09-14T20:14:05.920908+00:00",
+  "immutability_policy": "Final artifacts written once; further changes require a new report or an explicit supersession.",
+  "artifacts_read_only": true
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:31:24+00:00",
+  "role": "opus",
+  "client": "Claude Code",
+  "requested_model": "claude-opus-5",
+  "target": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+    "sha256": "9f5f4964d362cdf4990a7d8291c241d377eeaa647f7f11e24987c0779bdbba40"
+  },
+  "source": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+    "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0"
+  },
+  "inputs": [
+    {
+      "label": "ukrainian.txt",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+      "sha256": "9f5f4964d362cdf4990a7d8291c241d377eeaa647f7f11e24987c0779bdbba40"
+    },
+    {
+      "label": "Russian source",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/review-config/story-02-fair-killer/source-ru.txt",
+      "sha256": "2a9f2f6651cd98335f1fc7ab42308d7745ef669089093fdfa6075618ba3c7fc6"
+    },
+    {
+      "label": "Style and explicit author intent",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/review-config/story-02-fair-killer/context.txt",
+      "sha256": "26da1951e86a0693b2dfb6a8e9ea38d9665ed03bdb9758a02098b6a5f42f2274"
+    }
+  ],
+  "prompt_sha256": "be0f432c8bc7dc262a720bb2e7bf52e5989f529a1e0a4b16ec928f5926f95ed9",
+  "isolation": "Fresh external process; all inputs embedded; sandbox/safe mode; no permitted model tools or MCP.",
+  "input_delivery": "embedded_in_prompt",
+  "status": "failed",
+  "exit_code": 1,
+  "seconds": 1.86
+}

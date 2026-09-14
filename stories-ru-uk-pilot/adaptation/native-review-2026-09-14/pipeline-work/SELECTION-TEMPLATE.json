@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-14",
+  "status": "template_requires_final_target_hashes_and_valid_current_frozen_inputs",
+  "scope": "Proposed next draft labels for the native language revision; not an assembled or verified release.",
+  "supersedes": "SELECTION-2026-09-14-v3.json",
+  "books": [
+    {
+      "book_id": "story-01-reptiloids",
+      "draft": "draft-v5",
+      "title": "Рептилоїди",
+      "docx_name": "Рептилоїди — українська версія.docx",
+      "target_sha256": null,
+      "input_binding": {
+        "input_manifest": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/INPUTS-V2.json",
+        "input_manifest_sha256": "aa198ba57727b9fe9e441ed30e799937ffee87cf018511b5aa39c83395ac1689",
+        "ready_packet": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v2",
+        "packet_sha256": "0c23ed523f09bb48f991a38d8daa4bf091cdcb805cd4e000e69722c39b438b58"
+      }
+    },
+    {
+      "book_id": "story-02-fair-killer",
+      "draft": "draft-v4",
+      "title": "Справедливий вбивця",
+      "docx_name": "Справедливий вбивця — українська версія.docx",
+      "target_sha256": null,
+      "input_binding": {
+        "input_manifest": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/INPUTS-V2.json",
+        "input_manifest_sha256": "5b62f4d2536323d33b479438dc69a8b617a5952f4ad3a83df1bdd981d1919ca2",
+        "ready_packet": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v2",
+        "packet_sha256": "daa1baab0ad2e3cba9fd65e6778aa57376ec98c1612066d1acadfd5d8f41a771"
+      }
+    },
+    {
+      "book_id": "story-03-chaos-logic",
+      "draft": "draft-v5",
+      "title": "Логіка хаосу",
+      "docx_name": "Логіка хаосу — українська версія.docx",
+      "target_sha256": null,
+      "input_binding": {
+        "input_manifest": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/INPUTS-V3.json",
+        "input_manifest_sha256": "366ecc81b3577542e5094f34a0e42ac7d15657fd854f347e4f2b0d09faa99571",
+        "ready_packet": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v3",
+        "packet_sha256": "4ebf5146b7881d5e10dcb1c78552d0de0a218cdd2907db86d352c15cf5bdff65"
+      }
+    }
+  ]
+}

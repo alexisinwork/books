@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "status": "new_frozen_contexts_created_and_verified",
+  "created_outputs": [
+    {
+      "book_id": "story-01-reptiloids",
+      "manifest": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/INPUTS-V3.json",
+        "sha256": "8ee505c13eeae2e71f19ee3599e6a7957bfede323cdad3a1eaaef1c3fb8584ec"
+      },
+      "packet": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v3/packet.json",
+        "sha256": "41b3610169d7eaac0405f8dac60bc119654771cf5438022597a43dd10f1f691f"
+      },
+      "ready_packet": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v3",
+      "context_snapshot": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v3/context/SNAPSHOT.json",
+        "sha256": "8d8c8846cb3d0520efb8325945ccd0e6fc83ef4dbc060f9aba6d571e2e399a36",
+        "role": "generated_context_index"
+      },
+      "origin_changes": [
+        {
+          "origin_path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+          "previous_frozen_sha256": "8d0dbc8e8efdc98506d270b72d02081345797e5b7908696c1c96f15cafb4b928",
+          "new_snapshot_sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+          "reason": "Current Ukrainian writing rules explicitly requested for the full native-language pass; prior packages remain unchanged."
+        }
+      ],
+      "preserved_translation_glossary": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v3/context/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/glossary.json",
+        "sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71",
+        "origin_path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/glossary.json",
+        "origin_sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71",
+        "role": "frozen_context_snapshot",
+        "previous_frozen_sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71",
+        "translation_glossary_sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71"
+      }
+    },
+    {
+      "book_id": "story-02-fair-killer",
+      "manifest": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/INPUTS-V3.json",
+        "sha256": "3847e93460cc7f727a68f46f017df0b9c36b99df94c72c322abb0ec98f75ac51"
+      },
+      "packet": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v3/packet.json",
+        "sha256": "344a92b940000cfcb628606f40cf1ac31953065030875f4b6e488d0c0c4ba2b4"
+      },
+      "ready_packet": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v3",
+      "context_snapshot": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v3/context/SNAPSHOT.json",
+        "sha256": "c72040af4c0774035b140833fcf0adf628a5574479897a7a976af91231f474c6",
+        "role": "generated_context_index"
+      },
+      "origin_changes": [
+        {
+          "origin_path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+          "previous_frozen_sha256": "8d0dbc8e8efdc98506d270b72d02081345797e5b7908696c1c96f15cafb4b928",
+          "new_snapshot_sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+          "reason": "Current Ukrainian writing rules explicitly requested for the full native-language pass; prior packages remain unchanged."
+        }
+      ],
+      "preserved_translation_glossary": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v3/context/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/glossary.json",
+        "sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0",
+        "origin_path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/glossary.json",
+        "origin_sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0",
+        "role": "frozen_context_snapshot",
+        "previous_frozen_sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0",
+        "translation_glossary_sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0"
+      }
+    },
+    {
+      "book_id": "story-03-chaos-logic",
+      "manifest": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/INPUTS-V4.json",
+        "sha256": "55c97ed54d70b1755dc3599e1cccfb70c0b1796a5b8af0ad07c710297f753a52"
+      },
+      "packet": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v4/packet.json",
+        "sha256": "69ddc6a876984219e249d25837183e1a8b9f9bd2507fcdd616330f8beceb4a8b"
+      },
+      "ready_packet": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v4",
+      "context_snapshot": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v4/context/SNAPSHOT.json",
+        "sha256": "d63eee991fe20170d8dc5c08301645c210343da53b9ca87bd9ca233d673b59b1",
+        "role": "generated_context_index"
+      },
+      "origin_changes": [
+        {
+          "origin_path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+          "previous_frozen_sha256": "8d0dbc8e8efdc98506d270b72d02081345797e5b7908696c1c96f15cafb4b928",
+          "new_snapshot_sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+          "reason": "Current Ukrainian writing rules explicitly requested for the full native-language pass; prior packages remain unchanged."
+        }
+      ],
+      "preserved_translation_glossary": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v4/context/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/glossary.json",
+        "sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15",
+        "origin_path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/glossary.json",
+        "origin_sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15",
+        "role": "frozen_context_snapshot",
+        "previous_frozen_sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15",
+        "translation_glossary_sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15"
+      }
+    }
+  ],
+  "audit_files": [
+    {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/pipeline-work/native-inputs/freeze_native_inputs.py",
+      "sha256": "5863bf3169f9d1daadb78966bb0dd5f280b7235bd004b40076ef348232035f6d"
+    },
+    {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/pipeline-work/native-inputs/SELECTED-RULES-V2.json",
+      "sha256": "d394d7909856103dcbd96694c04b894447e7c99a3ca9585692751324208d2070"
+    },
+    {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/pipeline-work/native-inputs/CREATED-INPUTS.json",
+      "sha256": "cf76dcf01a5e41cf79499a255fcbe57a79b84cfe1b7746e48b1103e70073d0e1"
+    },
+    {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/pipeline-work/native-inputs/INPUT-BINDINGS.json",
+      "sha256": "b6867fed4b97147721e9d9b8503b18d23a083beae74360a7a872100fc4d7d41f"
+    },
+    {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/pipeline-work/native-inputs/HANDOFF.md",
+      "sha256": "b8dda188356832386f16af99c1197d7b9a853c60355f74951e88155699797687"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+--- a/BOOK_SYSTEM/LANGUAGES/uk/STYLE.md
++++ b/BOOK_SYSTEM/LANGUAGES/uk/STYLE.md
+@@ -7,6 +7,8 @@
+ Для українського тексту обов’язково застосувати [розширену перевірку природності](NATURALNESS.md): точність цитати у відгуку, лексика/синтаксис/ідіоми окремими проходами, зчеплення жартів, регістр лайки й захист від хибних «русизмів». Це доповнення не нав’язує голос однієї книжки іншим.
+ 
+ Природний порядок слів та актуальне членування речення; керування й відмінки; кличні форми звертань; узгодження; займенники та зрозумілий носій дії; час і вид дієслова; дієприкметникові та дієприслівникові конструкції; пасивні й безособові форми в їхньому контексті. Не вводити механічну заборону на будь-яку з цих конструкцій.
++
++Після перевірки слів прочитати речення як дію або репліку: чи зрозуміло, хто що робить, чи працює образ і чи не пояснює оповідач емоцію вдруге. Невдалу сполучуваність іноді виправляє перебудова фрази; самі синоніми можуть залишити її неприродною. Межі таких редакторських рішень і захист художнього прийому — у [NATURALNESS](NATURALNESS.md).
+ 
+ Милозвучність у/в, і/й, з/із/зі перевіряти в реченні, не замінювати глобально. Стежити за апострофом, м'яким знаком, літерами ґ/г та і/и, власними назвами, великою літерою, дефісами, тире й оформленням прямої мови. Для вигаданих імен узгодити базову форму, відмінювання та звертання в глосарії; не виводити їх лише транслітерацією російського запису.
+ 
+@@ -20,6 +22,8 @@
+ 
+ LanguageTool запускати з українським кодом `uk-UA`, якщо встановлена версія його підтримує; записати версію і фактичний результат. Російський словник чи перевірка `ru-RU` не підтверджують українську коректність. Скриптовий пошук, модельний мовний прохід і читання людиною — три різні види перевірки.
+ 
++Повноту читання записувати окремо від сканування за непорожніми одиницями цільового тексту та фактичними діапазонами читача. Лічильник рядків із порожніми роздільниками або кількість ID оригіналу не є кількістю прочитаних українських абзаців; правила обліку й сумісності якорів — у [NATURALNESS, §4](NATURALNESS.md#4-механічний-пошук-і-розвязання-сигналів).
++
+ ## Авторський стиль
+ 
+ Поки немає затверджених українських зразків, профіль є робочою гіпотезою. Після авторської правки зберігати початковий варіант, виправлений текст, причину і межі узагальнення. Приклади з однієї книжки не змінюють голос іншої без явного підключення. Усі зміни профілю версіонувати.
+--- a/BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md
++++ b/BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md
+@@ -1,6 +1,6 @@
+ # Природність української: перевірка після RU→UK
+ 
+-Версія 1, 14.09.2026. Застосовувати до української адаптації та мовної редактури; до нового оригіналу — без вигаданого RU-джерела. Це розширення STYLE, а не новий універсальний голос автора. Приклад, що виявив прогалини: «Випадковий експеримент»; його жарти й лайка не стають обов’язковими в інших книжках.
++Версія 2, 14.09.2026. Застосовувати до української адаптації та мовної редактури; до нового оригіналу — без вигаданого RU-джерела. Це розширення STYLE, а не новий універсальний голос автора. Приклад, що виявив прогалини: «Випадковий експеримент»; його жарти й лайка не стають обов’язковими в інших книжках.
+ 
+ ## 1. Спочатку перевірити саме зауваження
+ 
+@@ -20,6 +20,12 @@
+ - Розмовність і лайка: зберегти адресата, грубість, функцію й соціальний голос. Не підміняти русизм випадковим полонізмом/діалектизмом і не робити всіх героїв етнографічно колоритними.
+ - Комічні пари: перевіряти обидві репліки й пізніші повернення разом. У цьому оповіданні інструкція/лелека потребують словесного зчеплення; «переплутав» в одній репліці не можна оцінити без наступної.
+ - Цільове читання: після виправлень окремий читач бачить лише український текст. До нього не передавати цей розбір конкретного оповідання, RU, журнал або перелік того, що виправляли.
++
++Окремо перевіряти смислову будову дії: хто дивиться, рухається, відчуває; чи природно названо орган, предмет або спосіб дії. Граматично узгоджена фраза може давати ненавмисно дивну картину. Метонімію, уособлення та фантастичну фізіологію оцінювати за функцією сцени, не виправляти автоматично на буквальний опис.
++
++Перевіряти пояснення емоції після вже показаної реакції. Абстрактні слова на зразок «щирість» або «гумор» можуть лише переказувати сміх чи жест і обважнювати речення. Якщо це відбувається, прибрати зайве пояснення або перебудувати фразу зі збереженням наявної реакції; не домальовувати нову дію заради предметності. Це редакторський висновок для конкретного контексту, не заборона абстрактної лексики.
++
++У діалозі перевіряти розмовне значення вислову, а не лише можливий словниковий замінник: що співрозмовник почув і на що відповів. Неприродну репліку можна перебудувати цілком, зберігши намір, ступінь грубості й темп обміну. Окремий сленговий випадок не перетворювати на заборону слова в його інших значеннях.
+ 
+ ## 3. Захист від хибних заборон
+ 
+@@ -45,6 +51,12 @@
+ 
+ Другий інструмент додає вузькі сигнали кальк, формул лайки, вікових ідіом, ризикованих повторів та сполучень. Видає контекст і позицію, не «відсоток українськості». Не редагує текст і не підбирає автоматичні синоніми. Нуль сигналів не означає завершеної граматичної чи літературної перевірки.
+ 
++В обох звітах `source_units` — збережений для сумісності лічильник усіх вилучених одиниць, включно з порожніми. Для TXT `p` означає фізичний рядок, для DOCX — абзац тіла документа; це уточнює `source_unit_kind`. `source_units_including_blank`, `nonempty_source_units` і `blank_source_units` показують знаменники явно. Порожні рядки не вилучати з нумерації заради красивого звіту: це зсуне старі якорі. Не називати довільний непорожній рядок TXT літературним абзацом без перевірки способу експорту.
++
++`mechanical_coverage` описує лише пошук налаштованих шаблонів у вилученому тексті. `reading_coverage.status = not_assessed_by_this_tool` та порожнє значення кількості прочитаних одиниць означають, що скрипт не засвідчує читання. `--require-reviewed` перевіряє рішення щодо знайдених сигналів; нульовий код виходу не є допуском літературної якості.
++
++Для повного мовного проходу окремо записати файл/SHA, читача й вид проходу, фактично прочитані цільові одиниці або діапазони, їхню систему нумерації та непрочитаний залишок. Зіставляти охоплені одиниці з непорожніми одиницями саме цільової версії. ID оригіналу і цільові абзаци можуть розходитись через поділ або об’єднання; вести ці знаменники окремо. Розмір файлу, хеш, карта відповідності, згенерований список усіх ID чи відсутність сигналів не доводять прочитання. Не вигадувати зауваження до кожного абзацу, але й не переносити статус «прочитано» на невідкриту частину тексту.
++
+ Для кожного сигналу читач фіксує exact quote, rule, p, start, рішення fixed / retained_with_reason / unresolved і причину. Реєстр прив’язаний до SHA цільового тексту; зміна тексту робить старі рішення непридатними. Навмисний випадок можна зняти лише точковим винятком, не глобальним вимкненням правила.
+ 
+ Технічний допуск перевіряє, що всі знайдені сигнали розглянуто або виправлено. Літературний допуск окремо вимагає двомовної сверки, target-only читання, збережених смислових зв’язків і фактичних обов’язкових звітів Opus, Flash та Pro. Gemini — тільки через agy CLI.
+--- a/.agents/skills/book-language-review/SKILL.md
++++ b/.agents/skills/book-language-review/SKILL.md
+@@ -11,4 +11,6 @@
+ 
+ Отделить подтверждённый языковой дефект от вкуса и сознательной особенности голоса. У каждого замечания дать точный якорь, эффект, уверенность и минимальное исправление; не переписывать всю сцену ради предпочтения. Выполненный автоматический поиск записывать отдельно от чтения. Итог — реальный охват, замечания и вопросы, без гарантии «неотличимости от оригинала».
+ 
++Полный проход требует фактического чтения всех непустых целевых единиц. В отчёте назвать их систему нумерации, прочитанные диапазоны и остаток; ID источника и целевые абзацы считать отдельно. В TXT поле сканера `p` считает строки вместе с пустыми, а `source_units` сохраняет это старое значение; знаменатель уточнять по `nonempty_source_units` и способу экспорта. Хеш, список ID и нулевые сигналы не удостоверяют чтение. Прочитать также фразы без сигналов: смысл действия, естественность образа, повторное объяснение эмоции и связь соседних реплик не сводятся к поиску слов.
++
+ Для украинского обычного режима прочитать [NATURALNESS](../../../BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md). Проверить цитаты отзыва против фактического файла; различать confirmed_defect, contextual_style_choice, already_correct, quote_not_found и preserve_for_function. Проверять шутку/ответную реплику вместе, не усиливать брань и диалект ради «колорита». Не считать любую общую с русским конструкцию калькой. `uk_naturalness.py` даёт только контекстные сигналы, требующие решений с точными якорями и SHA; отсутствие сигналов не завершает чтение. В слепой пакет передавать лишь нейтральные критерии, не разбор исправляемой истории.
+--- a/tools/uk_naturalness.py
++++ b/tools/uk_naturalness.py
+@@ -7,11 +7,15 @@
+ import re
+ import sys
+ 
+-from language_qa import SNAP
++from language_qa import SNAP, source_coverage
+ 
+-RULESET_VERSION = "uk-naturalness-1.1"
++RULESET_VERSION = "uk-naturalness-1.2"
+ BOUNDARY = r"[\w’'ʼ]"
+ RULES = [
++    ("pupils_as_gaze_instrument", "action_semantics",
++     r"(?:(?:по)?глян(?:ув(?:ши)?|ула|уло|ули)|(?:по)?диви(?:в(?:шись|ся)|лася|лися)|дивлячись)"
++     r"[^.!?;:\n]{0,60}\bсвоїми(?:\s+[а-яіїєґ’'ʼ-]+){0,3}\s+зіницями",
++     "Перевірити спосіб дії у сполуці погляду зі своїми зіницями. Це вузький сигнал для читання: метонімія або фантастичний образ можуть бути навмисними; не вилучати ознаку зовнішності автоматично."),
+     ("enough_poza_ochi", "idiom", r"(?:вистача[\w’'ʼ]*\s+поза\s*очі|поза\s*очі\s+вистача[\w’'ʼ]*)",
+      "Перевірити значення достатності проти заочності. Похвала у відгуку не підтверджує доречності сполуки; не міняти нормативне поза очі в інших контекстах."),
+     ("ru_lexical_residue", "lexicon", r"(?:наверно|вообще|конечно|получається|понятно)",
+@@ -71,7 +75,7 @@
+     unresolved = sum(f["decision"] == "unresolved" for f in findings)
+     return {"schema_version": 1, "ruleset": RULESET_VERSION, "source": str(source),
+             "source_sha256": sha, "language": "uk", "format": fmt,
+-            "source_units": len(paragraphs), "extraction_flags": flags,
++            **source_coverage(paragraphs, fmt), "extraction_flags": flags,
+             "scope": "All extracted body units; selected contextual patterns only, no semantic proof or layout review.",
+             "findings": findings, "unresolved_signals": unresolved,
+             "result": "signals_require_review" if unresolved else "no_unresolved_configured_signals",
+@@ -82,7 +86,8 @@
+     parser = argparse.ArgumentParser(description=__doc__)
+     parser.add_argument("--source", type=Path, required=True)
+     parser.add_argument("--resolutions", type=Path)
+-    parser.add_argument("--require-reviewed", action="store_true")
++    parser.add_argument("--require-reviewed", action="store_true",
++                        help="Require decisions on detected signals; does not require or certify prose reading")
+     parser.add_argument("--out", type=Path)
+     args = parser.parse_args()
+     try:
+--- a/tools/language_qa.py
++++ b/tools/language_qa.py
+@@ -15,6 +15,33 @@
+ SPEC = importlib.util.spec_from_file_location("language_snapshot", SNAPSHOT_PATH)
+ SNAP = importlib.util.module_from_spec(SPEC)
+ SPEC.loader.exec_module(SNAP)
++
++
++def source_coverage(paragraphs, fmt):
++    """Describe extraction and pattern scanning, never infer that prose was read.
++
++    Keep blank units in the legacy count and anchor numbering. In plain text,
++    ``p`` is a physical line, which need not be a literary paragraph.
++    """
++    total = len(paragraphs)
++    nonempty = sum(bool(p["text"].strip()) for p in paragraphs)
++    return {
++        "source_units": total,  # Compatibility alias; includes blank units.
++        "source_units_including_blank": total,
++        "nonempty_source_units": nonempty,
++        "blank_source_units": total - nonempty,
++        "source_unit_kind": "physical_text_line" if fmt == "text" else "docx_body_paragraph",
++        "anchor_numbering": "p is 1-based and includes blank units; existing offsets are unchanged",
++        "mechanical_coverage": {
++            "scope": "configured_patterns_in_extracted_body_only",
++            "scanned_source_units": total,
++            "scanned_nonempty_source_units": nonempty,
++        },
++        "reading_coverage": {
++            "status": "not_assessed_by_this_tool",
++            "reviewed_nonempty_source_units": None,
++        },
++    }
+ 
+ 
+ def check(source, language, exceptions=None):
+@@ -51,7 +78,8 @@
+                 (excluded if exception else findings).append({**entry, **({"reason": exception["reason"]} if exception else {})})
+     return {"source": str(source), "source_sha256": sha, "language": language, "format": fmt,
+             "scope": "All extracted body units; no layout or linguistic proof of naturalness", "extraction_flags": flags,
+-            "source_units": len(paragraphs), "lexical_tokens": sum(len(SNAP.WORD.findall(p["text"])) for p in paragraphs),
++            **source_coverage(paragraphs, fmt),
++            "lexical_tokens": sum(len(SNAP.WORD.findall(p["text"])) for p in paragraphs),
+             "result": "signals_found" if findings else "no_configured_signals", "findings": findings,
+             "documented_exceptions": excluded, "literary_review": "not_run", "grammar_check": "not_run"}
+ 
+--- a/tests/test_uk_naturalness.py
++++ b/tests/test_uk_naturalness.py
+@@ -6,10 +6,12 @@
+ import sys
+ import tempfile
+ import unittest
++import zipfile
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+ sys.path.insert(0, str(ROOT / "tools"))
+ import uk_naturalness as qa
++import language_qa
+ 
+ 
+ class NaturalnessTests(unittest.TestCase):
+@@ -47,6 +49,37 @@
+         result = self.text("Мені цього вистачає поза очі.\nВона говорила поза очі.\nМені з головою вистачає.\n")
+         self.assertEqual([(f["p"], f["rule"]) for f in result["findings"]], [(1, "enough_poza_ochi")])
+ 
++    def test_gaze_instrument_signal_keeps_the_exact_context_and_never_rewrites(self):
++        content = ("Чоловіки перезирнулися. Першим зняв маску Андрій, "
++                   "глянувши на нього своїми золотавими тонкими зіницями.\n")
++        result = self.text(content)
++        self.assertEqual(len(result["findings"]), 1)
++        finding = result["findings"][0]
++        self.assertEqual(finding["rule"], "pupils_as_gaze_instrument")
++        self.assertEqual(finding["quote"], "глянувши на нього своїми золотавими тонкими зіницями")
++        self.assertEqual(finding["context"], content.rstrip("\n"))
++        self.assertEqual(content[finding["start"]:finding["end"]], finding["quote"])
++        self.assertEqual(finding["decision"], "unresolved")
++        self.assertEqual(self.source.read_text(), content)
++
++    def test_gaze_signal_does_not_ban_pupils_metonymy_slang_or_abstract_nouns(self):
++        result = self.text("Він глянув на кота з вузькими зіницями.\n"
++                           "Уже дві пари вертикальних зіниць дивилися на веселуна.\n"
++                           "Він глянув своїми втомленими очима.\n"
++                           "Він глянув на двері. Своїми зіницями він займався пізніше.\n"
++                           "Тут коїться якась дичина. Мисливець приніс дичину.\n"
++                           "Усі погляди зосередилися на гостеві. Я ціную твою щирість.\n")
++        self.assertEqual(result["findings"], [])
++        self.assertEqual(result["literary_quality"], "not_established")
++
++    def test_intentional_gaze_image_can_be_retained_at_its_exact_anchor(self):
++        result = self.text("Він глянув на нас своїми вузькими зіницями.\n")
++        path, _ = self.resolution(result)
++        reviewed = qa.check(self.source, path)
++        self.assertEqual(reviewed["unresolved_signals"], 0)
++        self.assertEqual(reviewed["findings"][0]["decision"], "retained_with_reason")
++        self.assertEqual(reviewed["literary_quality"], "not_established")
++
+     def test_repetition_context_and_boundaries(self):
+         result = self.text("Вона повернулася б назад. Він повернувся назад.\n"
+                            "До таких розумних думок ти ще розумом не доріс.\n"
+@@ -106,5 +139,119 @@
+         self.assertEqual(out.read_bytes(), original)
+ 
+ 
++class CoverageTests(unittest.TestCase):
++    def setUp(self):
++        self.folder = tempfile.TemporaryDirectory()
++        self.addCleanup(self.folder.cleanup)
++        self.source = Path(self.folder.name) / "text.txt"
++
++    def reports(self):
++        return [qa.check(self.source), language_qa.check(self.source, "uk")]
++
++    def test_blank_lines_are_explicit_and_do_not_renumber_existing_anchors(self):
++        content = "\ufeffТиша.\r\n\r\n \t\r\nТвою ж матір! Твою ж матір!\r\n"
++        self.source.write_bytes(content.encode("utf-8"))
++        original = self.source.read_bytes()
++        for report in self.reports():
++            with self.subTest(tool=report.get("ruleset", "language_qa")):
++                self.assertEqual(report["source_units"], 4)
++                self.assertEqual(report["source_units_including_blank"], 4)
++                self.assertEqual(report["nonempty_source_units"], 2)
++                self.assertEqual(report["blank_source_units"], 2)
++                self.assertEqual(report["source_unit_kind"], "physical_text_line")
++                self.assertEqual(report["mechanical_coverage"]["scanned_nonempty_source_units"], 2)
++                self.assertEqual(report["reading_coverage"]["status"], "not_assessed_by_this_tool")
++                self.assertIsNone(report["reading_coverage"]["reviewed_nonempty_source_units"])
++                self.assertEqual(report["source_sha256"], hashlib.sha256(original).hexdigest())
++        result = qa.check(self.source)
++        self.assertEqual([f["p"] for f in result["findings"]], [4, 4])
++        first, second = result["findings"]
++        self.assertEqual(first["start"], 0)
++        self.assertEqual(second["start"], len("Твою ж матір! "))
++        resolutions = Path(self.folder.name) / "resolutions.json"
++        resolutions.write_text(json.dumps({"source_sha256": result["source_sha256"], "items": [
++            {**{k: first[k] for k in ("rule", "p", "start", "quote")},
++             "decision": "retained_with_reason", "reason": "Intentional first occurrence"}]}))
++        reviewed = qa.check(self.source, resolutions)
++        self.assertEqual(reviewed["unresolved_signals"], 1)
++        self.assertEqual(reviewed["findings"][1]["start"], second["start"])
++        self.assertEqual(self.source.read_bytes(), original)
++
++    def test_empty_and_whitespace_only_inputs_do_not_become_read_prose(self):
++        for content, units in [("", 0), ("\n \t\n", 2)]:
++            self.source.write_text(content, encoding="utf-8")
++            for report in self.reports():
++                with self.subTest(content=content, tool=report.get("ruleset", "language_qa")):
++                    self.assertEqual(report["source_units"], units)
++                    self.assertEqual(report["blank_source_units"], units)
++                    self.assertEqual(report["nonempty_source_units"], 0)
++                    self.assertIsNone(report["reading_coverage"]["reviewed_nonempty_source_units"])
++                    self.assertEqual(report["grammar_check"], "not_run")
++
++    def test_plain_text_hard_wraps_are_lines_and_not_invented_paragraphs(self):
++        self.source.write_text("Речення триває\nна наступному рядку.\n", encoding="utf-8")
++        for report in self.reports():
++            self.assertEqual(report["source_unit_kind"], "physical_text_line")
++            self.assertEqual(report["nonempty_source_units"], 2)
++            self.assertNotIn("target_paragraphs", report)
++
++    def test_docx_has_its_own_unit_kind_and_keeps_extraction_limits(self):
++        self.source = self.source.with_suffix(".docx")
++        document = ('<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">'
++                    '<w:body><w:p><w:r><w:t>Тиша.</w:t></w:r></w:p><w:p/>'
++                    '<w:p><w:r><w:t xml:space="preserve"> </w:t></w:r></w:p>'
++                    '<w:p><w:r><w:t>Твою ж матір!</w:t><w:footnoteReference w:id="1"/>'
++                    '</w:r></w:p></w:body></w:document>')
++        with zipfile.ZipFile(self.source, "w") as archive:
++            archive.writestr("word/document.xml", document)
++            archive.writestr("word/footnotes.xml", "<footnotes/>")
++        for report in self.reports():
++            self.assertEqual(report["source_units"], 4)
++            self.assertEqual(report["nonempty_source_units"], 2)
++            self.assertEqual(report["source_unit_kind"], "docx_body_paragraph")
++            self.assertEqual(report["extraction_flags"]["excluded_parts"], ["word/footnotes.xml"])
++            self.assertEqual(report["reading_coverage"]["status"], "not_assessed_by_this_tool")
++        self.assertEqual(qa.check(self.source)["findings"][0]["p"], 4)
++
++    def test_legacy_language_exception_survives_blank_unit_accounting(self):
++        self.source.write_text("Тиша.\n\nЁжик.\n", encoding="utf-8")
++        report = language_qa.check(self.source, "uk")
++        self.assertEqual(report["findings"][0]["p"], 3)
++        exceptions = Path(self.folder.name) / "exceptions.json"
++        exceptions.write_text(json.dumps({"source_sha256": report["source_sha256"], "items": [
++            {"rule": "russian_specific_letter", "p": 3, "quote": "Ё", "reason": "Exact quoted name"}]}))
++        reviewed = language_qa.check(self.source, "uk", exceptions)
++        self.assertEqual(reviewed["findings"], [])
++        self.assertEqual(reviewed["documented_exceptions"][0]["p"], 3)
++        self.assertEqual(reviewed["nonempty_source_units"], 2)
++
++    def test_resolving_all_signals_does_not_claim_full_reading(self):
++        self.source.write_text("Твою ж матір!\n", encoding="utf-8")
++        report = qa.check(self.source)
++        finding = report["findings"][0]
++        resolutions = Path(self.folder.name) / "resolutions.json"
++        resolutions.write_text(json.dumps({"source_sha256": report["source_sha256"], "items": [
++            {**{k: finding[k] for k in ("rule", "p", "start", "quote")},
++             "decision": "retained_with_reason", "reason": "Intentional quoted speech"}],
++            "reading_coverage": {"status": "complete", "reviewed_nonempty_source_units": 1}}))
++        reviewed = qa.check(self.source, resolutions)
++        self.assertEqual(reviewed["unresolved_signals"], 0)
++        self.assertEqual(reviewed["reading_coverage"]["status"], "not_assessed_by_this_tool")
++        self.assertIsNone(reviewed["reading_coverage"]["reviewed_nonempty_source_units"])
++        self.assertEqual(reviewed["literary_quality"], "not_established")
++
++    def test_zero_signal_cli_gate_is_not_a_reading_gate(self):
++        self.source.write_text("Він мовчав.\n\nВона теж.\n", encoding="utf-8")
++        command = [sys.executable, str(ROOT / "tools/uk_naturalness.py"), "--source", str(self.source),
++                   "--require-reviewed"]
++        run = subprocess.run(command, capture_output=True, text=True)
++        self.assertEqual(run.returncode, 0, run.stderr)
++        report = json.loads(run.stdout)
++        self.assertEqual(report["findings"], [])
++        self.assertEqual(report["nonempty_source_units"], 2)
++        self.assertEqual(report["reading_coverage"]["status"], "not_assessed_by_this_tool")
++        self.assertIsNone(report["reading_coverage"]["reviewed_nonempty_source_units"])
++
++
+ if __name__ == "__main__":
+     unittest.main()

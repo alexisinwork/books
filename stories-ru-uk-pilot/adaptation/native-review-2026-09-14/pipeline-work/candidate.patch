@@ -1,0 +1,372 @@
+--- a/stories-ru-uk-pilot/tools/check_final_draft.py
++++ b/stories-ru-uk-pilot/tools/check_final_draft.py
+@@ -8,6 +8,7 @@
+ from pathlib import Path
+ 
+ from docx import Document
++from pilot_inputs import select_inputs
+ 
+ 
+ ROOT = Path(__file__).resolve().parents[2]
+@@ -28,14 +29,19 @@
+     return json.loads(path.read_text(encoding="utf-8"))
+ 
+ 
+-def check(book_id, version):
++def check(book_id, version, input_manifest=None, ready_packet=None, input_manifest_sha256=None):
+     edition = ROOT / "stories-ru-uk-pilot/books" / book_id / "editions/uk"
+     draft = edition / version
+     out = draft / "final-checks.json"
+     assert not out.exists(), "Existing checks are immutable"
++    explicit = None
++    if any(value is not None for value in (input_manifest, ready_packet, input_manifest_sha256)):
++        explicit = {"input_manifest": input_manifest, "ready_packet": ready_packet,
++                    "input_manifest_sha256": input_manifest_sha256}
++    manifest_path, packet, binding = select_inputs(ROOT, edition, book_id, explicit)
+     tool = module("final_literary_translation", ROOT / "tools/literary_translation.py")
+     language = module("final_language_qa", ROOT / "tools/language_qa.py")
+-    technical = tool.check_translation(ROOT, edition / "preparation/pilot/ready-v1",
++    technical = tool.check_translation(ROOT, packet,
+                                        draft / "translation.json", edition / "glossary.json")
+     linguistic = language.check(draft / "target.uk.txt", "uk")
+     assert not technical["errors"]
+@@ -44,7 +50,7 @@
+     target = draft / "target.uk.txt"
+     paragraphs = [t for b in data["blocks"] for t in b["target_paragraphs"]]
+     assert target.read_text() == "\n\n".join(paragraphs) + "\n"
+-    inputs = read(edition / "INPUTS-V1.json")
++    inputs = read(manifest_path)
+     for item in inputs["inputs"]:
+         assert sha(ROOT / item["path"]) == item["sha256"], item["path"]
+     docx_files = list((draft / "reader").glob("*.docx"))
+@@ -86,6 +92,10 @@
+               "tools": [{"path": str(p.relative_to(ROOT)), "sha256": sha(p)} for p in
+                         [ROOT / "tools/literary_translation.py", ROOT / "tools/language_qa.py", Path(__file__).resolve()]],
+               "literary_release_gate": "open; see edition QA assessment; hashes do not prove prose quality"}
++    if binding is not None:
++        report["input_binding"] = binding
++        helper = Path(__file__).resolve().with_name("pilot_inputs.py")
++        report["tools"].append({"path": str(helper.relative_to(ROOT)), "sha256": sha(helper)})
+     out.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
+     print(json.dumps({"book_id": book_id, "draft": version, "errors": [], "source_units": report["source_units"], "pages": report["pages"]}))
+ 
+@@ -94,5 +104,10 @@
+     parser = argparse.ArgumentParser()
+     parser.add_argument("--book", required=True)
+     parser.add_argument("--draft", required=True)
++    parser.add_argument("--input-manifest", type=Path,
++                        help="Explicit frozen manifest, repository-relative or absolute; pair with --ready-packet")
++    parser.add_argument("--ready-packet", type=Path,
++                        help="Explicit ready directory, repository-relative or absolute; pair with --input-manifest")
++    parser.add_argument("--input-manifest-sha256", help="Optional expected hash of the explicitly selected manifest")
+     args = parser.parse_args()
+-    check(args.book, args.draft)
++    check(args.book, args.draft, args.input_manifest, args.ready_packet, args.input_manifest_sha256)
+--- a/stories-ru-uk-pilot/tools/assemble_delivery.py
++++ b/stories-ru-uk-pilot/tools/assemble_delivery.py
+@@ -6,6 +6,7 @@
+ import json
+ from pathlib import Path
+ import shutil
++from pilot_inputs import select_inputs, require_checked_binding
+ 
+ 
+ ROOT = Path(__file__).resolve().parents[2]
+@@ -29,10 +30,15 @@
+         book = PROJECT / "books" / chosen["book_id"]
+         edition = book / "editions/uk"
+         draft = edition / chosen["draft"]
++        # Flat input_manifest fields in old selections remain historical metadata.
++        # A new input_binding object opts into explicit, checked pair selection.
++        explicit = chosen.get("input_binding")
++        if "input_binding" in chosen and explicit is None:
++            raise ValueError("input_binding must be an explicit pair, not null")
++        manifest_path, packet, binding = select_inputs(ROOT, edition, chosen["book_id"], explicit)
+         target = draft / "target.uk.txt"
+         translation = draft / "translation.json"
+         data = read(translation)
+-        packet = edition / "preparation/pilot/ready-v1"
+         source = read(packet / "source-segments.json")
+         source_docx = ROOT / source["source"]["path"]
+         assert sha(source_docx) == data["source_sha256"] == source["source"]["sha256"]
+@@ -41,7 +47,7 @@
+         assert sha(target) == chosen["target_sha256"]
+         assert target.read_text() == "\n\n".join(t for b in data["blocks"] for t in b["target_paragraphs"]) + "\n"
+         assert [s["id"] for s in source["segments"]] == [i for b in data["blocks"] for i in b["source_ids"]]
+-        inputs = read(edition / "INPUTS-V1.json")
++        inputs = read(manifest_path)
+         for item in inputs["inputs"]:
+             assert sha(ROOT / item["path"]) == item["sha256"], item["path"]
+         docx = draft / "reader" / chosen["docx_name"]
+@@ -55,10 +61,11 @@
+         assert render["pdf_text_exact_ignoring_layout_whitespace"]
+         checks = read(draft / "final-checks.json")
+         assert checks["target_sha256"] == sha(target) and not checks["errors"]
+-        books.append((chosen, book, draft, source, data, docx, render))
++        require_checked_binding(checks, binding)
++        books.append((chosen, book, draft, source, data, docx, render, binding))
+     out.mkdir(parents=True)
+     records = []
+-    for chosen, book, draft, source, data, docx, render in books:
++    for chosen, book, draft, source, data, docx, render, binding in books:
+         shutil.copy2(docx, out / docx.name)
+         review = out / "Матеріали перевірки" / chosen["title"]
+         review.mkdir(parents=True)
+@@ -86,6 +93,8 @@
+         records.append({**chosen, "docx_sha256": sha(docx), "source_sha256": data["source_sha256"],
+                         "source_units": len(source["segments"]), "target_paragraphs": sum(len(b["target_paragraphs"]) for b in data["blocks"]),
+                         "original_path": str(docx.relative_to(ROOT)), "delivered_docx": docx.name})
++        if binding is not None:
++            records[-1]["input_binding"] = binding
+     manifest = {"schema_version": 1, "status": "complete_working_translations_for_author_reading",
+                 "required_literary_release_gate": "open", "canonical_approval": False,
+                 "selection_sha256": sha(selection_path), "books": records}
+--- /dev/null
++++ b/stories-ru-uk-pilot/tools/pilot_inputs.py
+@@ -0,0 +1,70 @@
++"""Resolve an explicit frozen-input/ready pair without changing legacy defaults."""
++import hashlib
++import json
++from pathlib import Path
++
++
++def sha(path):
++    return hashlib.sha256(path.read_bytes()).hexdigest()
++
++
++def rooted(root, value):
++    if not isinstance(value, (str, Path)) or not str(value).strip():
++        raise ValueError("Input paths must be nonempty repository-relative or absolute paths")
++    path = (root / value).resolve()
++    if not path.is_relative_to(root):
++        raise ValueError("Input paths must stay within the repository")
++    return path
++
++
++def select_inputs(root, edition, book_id, explicit=None):
++    """Return manifest, ready directory and an optional verified pair identity.
++
++    ``None`` deliberately keeps INPUTS-V1/ready-v1. Historical selections already
++    contain flat input_manifest metadata that the old assembler did not consume;
++    only the new input_binding object opts that caller into explicit selection.
++    This function checks the pair, not every frozen dependency or prose quality.
++    """
++    root, edition = Path(root).resolve(), Path(edition).resolve()
++    if explicit is None:
++        return edition / "INPUTS-V1.json", edition / "preparation/pilot/ready-v1", None
++    if not isinstance(explicit, dict):
++        raise ValueError("input_binding must be an object with input_manifest and ready_packet")
++    if not explicit.get("input_manifest") or not explicit.get("ready_packet"):
++        raise ValueError("Specify input_manifest and ready_packet together")
++    manifest_path = rooted(root, explicit["input_manifest"])
++    ready = rooted(root, explicit["ready_packet"])
++    manifest_sha = sha(manifest_path)
++    if explicit.get("input_manifest_sha256") is not None and explicit["input_manifest_sha256"] != manifest_sha:
++        raise ValueError("Selected input manifest hash changed")
++    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
++    if manifest["book_id"] != book_id:
++        raise ValueError("Selected input manifest belongs to another book")
++    packet_file = ready / "packet.json"
++    if rooted(root, manifest["packet"]["path"]) != packet_file:
++        raise ValueError("Input manifest and ready packet are not the same frozen pair")
++    packet_sha = sha(packet_file)
++    if manifest["packet"]["sha256"] != packet_sha:
++        raise ValueError("Ready packet hash disagrees with input manifest")
++    if explicit.get("packet_sha256") is not None and explicit["packet_sha256"] != packet_sha:
++        raise ValueError("Selected ready packet hash changed")
++    packet = json.loads(packet_file.read_text(encoding="utf-8"))
++    if packet["book_id"] != book_id:
++        raise ValueError("Selected ready packet belongs to another book")
++    if packet["source_language"] != "ru" or packet["target_language"] != "uk":
++        raise ValueError("Pilot input pair must describe RU to UK")
++    if manifest["source_sha256"] != packet["source"]["sha256"]:
++        raise ValueError("Input manifest and ready packet disagree on the source hash")
++    segments_sha = sha(ready / "source-segments.json")
++    if manifest["source_segments_sha256"] != packet["source_segments_sha256"] or packet["source_segments_sha256"] != segments_sha:
++        raise ValueError("Input manifest and ready packet disagree on source segments")
++    identity = {"input_manifest": str(manifest_path.relative_to(root)),
++                "input_manifest_sha256": manifest_sha,
++                "ready_packet": str(ready.relative_to(root)), "packet_sha256": packet_sha,
++                "source_sha256": manifest["source_sha256"], "source_segments_sha256": segments_sha}
++    return manifest_path, ready, identity
++
++
++def require_checked_binding(checks, identity):
++    if identity is not None and checks.get("input_binding") != identity:
++        raise ValueError("Final checks do not certify the explicitly selected input pair; create new checks for it")
+--- /dev/null
++++ b/stories-ru-uk-pilot/tests/test_input_binding.py
+@@ -0,0 +1,173 @@
++import json
++from pathlib import Path
++import sys
++import tempfile
++from types import SimpleNamespace
++import unittest
++from unittest import mock
++
++
++PROJECT = Path(__file__).resolve().parents[1]
++sys.path.insert(0, str(PROJECT / "tools"))
++from pilot_inputs import select_inputs, require_checked_binding, sha
++import check_final_draft
++import assemble_delivery
++
++
++class ReachedSource(Exception):
++    pass
++
++
++class InputBindingTests(unittest.TestCase):
++    def setUp(self):
++        self.temp = tempfile.TemporaryDirectory()
++        self.addCleanup(self.temp.cleanup)
++        self.root = Path(self.temp.name)
++        self.project = self.root / "stories-ru-uk-pilot"
++        self.book_id = "fixture-story"
++        self.edition = self.project / "books" / self.book_id / "editions/uk"
++        self.edition.mkdir(parents=True)
++        self.pairs = {version: self.make_pair(version) for version in (1, 2, 3)}
++
++    def write_json(self, path, data):
++        path.parent.mkdir(parents=True, exist_ok=True)
++        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
++
++    def make_pair(self, version):
++        ready = self.edition / f"preparation/pilot/ready-v{version}"
++        ready.mkdir(parents=True)
++        segments = ready / "source-segments.json"
++        # Identical projections deliberately cannot distinguish packet versions.
++        self.write_json(segments, {"segments": []})
++        packet = {"book_id": self.book_id, "source_language": "ru", "target_language": "uk",
++                  "source": {"sha256": "a" * 64}, "source_segments_sha256": sha(segments), "inputs": []}
++        self.write_json(ready / "packet.json", packet)
++        manifest = self.edition / f"INPUTS-V{version}.json"
++        self.write_json(manifest, {"book_id": self.book_id,
++                        "packet": {"path": str((ready / "packet.json").relative_to(self.root)),
++                                   "sha256": sha(ready / "packet.json")},
++                        "source_sha256": packet["source"]["sha256"],
++                        "source_segments_sha256": packet["source_segments_sha256"], "inputs": []})
++        return {"input_manifest": str(manifest.relative_to(self.root)),
++                "input_manifest_sha256": sha(manifest), "ready_packet": str(ready.relative_to(self.root))}
++
++    def test_omitted_pair_keeps_legacy_v1_without_guessing_from_book_metadata(self):
++        manifest, ready, identity = select_inputs(self.root, self.edition, self.book_id)
++        self.assertEqual(manifest, self.edition / "INPUTS-V1.json")
++        self.assertEqual(ready, self.edition / "preparation/pilot/ready-v1")
++        self.assertIsNone(identity)
++
++    def test_explicit_v2_and_v3_select_and_record_the_requested_pair(self):
++        for version in (2, 3):
++            with self.subTest(version=version):
++                spec = self.pairs[version]
++                manifest, ready, identity = select_inputs(self.root, self.edition, self.book_id, spec)
++                self.assertEqual(manifest, self.root / spec["input_manifest"])
++                self.assertEqual(ready, self.root / spec["ready_packet"])
++                self.assertEqual(identity["input_manifest_sha256"], sha(manifest))
++                self.assertEqual(identity["packet_sha256"], sha(ready / "packet.json"))
++
++    def test_crossed_pair_is_rejected_even_with_identical_packet_and_segment_bytes(self):
++        explicit = {**self.pairs[2], "ready_packet": self.pairs[1]["ready_packet"]}
++        self.assertEqual(sha(self.root / self.pairs[1]["ready_packet"] / "packet.json"),
++                         sha(self.root / self.pairs[2]["ready_packet"] / "packet.json"))
++        with self.assertRaisesRegex(ValueError, "same frozen pair"):
++            select_inputs(self.root, self.edition, self.book_id, explicit)
++
++    def test_partial_pair_wrong_book_and_stale_manifest_hash_are_rejected(self):
++        with self.assertRaisesRegex(ValueError, "together"):
++            select_inputs(self.root, self.edition, self.book_id, {"input_manifest": self.pairs[2]["input_manifest"]})
++        with self.assertRaisesRegex(ValueError, "another book"):
++            select_inputs(self.root, self.edition, "different-book", self.pairs[2])
++        with self.assertRaisesRegex(ValueError, "manifest hash changed"):
++            select_inputs(self.root, self.edition, self.book_id,
++                          {**self.pairs[2], "input_manifest_sha256": "0" * 64})
++
++    def test_changed_packet_and_changed_projection_are_rejected(self):
++        packet = self.root / self.pairs[2]["ready_packet"] / "packet.json"
++        packet.write_text(packet.read_text() + "\n")
++        with self.assertRaisesRegex(ValueError, "packet hash"):
++            select_inputs(self.root, self.edition, self.book_id, self.pairs[2])
++        segments = self.root / self.pairs[3]["ready_packet"] / "source-segments.json"
++        segments.write_text('{"segments": ["changed"]}\n')
++        with self.assertRaisesRegex(ValueError, "source segments"):
++            select_inputs(self.root, self.edition, self.book_id, self.pairs[3])
++
++    def test_final_checker_dispatches_selected_packet_and_preserves_legacy_call(self):
++        calls = []
++        technical = SimpleNamespace(check_translation=lambda root, packet, *rest:
++                                    calls.append(packet) or {"errors": ["stop before any report"]})
++        language = SimpleNamespace(check=lambda *args: {"findings": []})
++        def loader(name, path):
++            return technical if name == "final_literary_translation" else language
++        with mock.patch.object(check_final_draft, "ROOT", self.root), mock.patch.object(check_final_draft, "module", loader):
++            with self.assertRaises(AssertionError):
++                check_final_draft.check(self.book_id, "draft-fixture")
++            with self.assertRaises(AssertionError):
++                check_final_draft.check(self.book_id, "draft-fixture",
++                                        self.pairs[2]["input_manifest"], self.pairs[2]["ready_packet"],
++                                        self.pairs[2]["input_manifest_sha256"])
++        self.assertEqual(calls, [self.edition / "preparation/pilot/ready-v1",
++                                 self.edition / "preparation/pilot/ready-v2"])
++        self.assertFalse((self.edition / "draft-fixture/final-checks.json").exists())
++
++    def selection_reaches(self, chosen):
++        seen = []
++        selection_path = self.root / "selection.json"
++        out = self.root / "delivery-not-created"
++        def reader(path):
++            if path == selection_path:
++                return {"books": [chosen]}
++            if path.name == "translation.json":
++                return {}
++            if path.name == "source-segments.json":
++                seen.append(path)
++                raise ReachedSource()
++            raise AssertionError(f"Unexpected read before source selection: {path}")
++        with mock.patch.object(assemble_delivery, "ROOT", self.root), \
++             mock.patch.object(assemble_delivery, "PROJECT", self.project), \
++             mock.patch.object(assemble_delivery, "read", reader):
++            with self.assertRaises(ReachedSource):
++                assemble_delivery.main(selection_path, out)
++        self.assertFalse(out.exists())
++        return seen
++
++    def test_assembler_uses_explicit_pair_and_keeps_old_flat_metadata_behavior(self):
++        chosen = {"book_id": self.book_id, "draft": "draft-fixture"}
++        old = {**chosen, "input_manifest": "historical-flat-metadata.json", "input_manifest_sha256": "0" * 64}
++        self.assertEqual(self.selection_reaches(old), [self.edition / "preparation/pilot/ready-v1/source-segments.json"])
++        self.assertEqual(self.selection_reaches({**chosen, "input_binding": self.pairs[3]}),
++                         [self.edition / "preparation/pilot/ready-v3/source-segments.json"])
++
++    def test_assembler_rejects_crossed_pair_before_creating_delivery(self):
++        selection = self.root / "bad-selection.json"
++        self.write_json(selection, {"books": [{"book_id": self.book_id, "draft": "draft-fixture",
++                        "input_binding": {**self.pairs[2], "ready_packet": self.pairs[1]["ready_packet"]}}]})
++        out = self.root / "delivery-not-created"
++        with mock.patch.object(assemble_delivery, "ROOT", self.root), mock.patch.object(assemble_delivery, "PROJECT", self.project):
++            with self.assertRaisesRegex(ValueError, "same frozen pair"):
++                assemble_delivery.main(selection, out)
++        self.assertFalse(out.exists())
++
++    def test_explicit_assembly_requires_checks_bound_to_that_pair(self):
++        _, _, identity = select_inputs(self.root, self.edition, self.book_id, self.pairs[2])
++        require_checked_binding({"result": "historical"}, None)
++        with self.assertRaisesRegex(ValueError, "create new checks"):
++            require_checked_binding({"result": "historical"}, identity)
++        with self.assertRaises(ValueError):
++            require_checked_binding({"input_binding": {**identity, "input_manifest_sha256": "0" * 64}}, identity)
++        require_checked_binding({"input_binding": identity}, identity)
++
++    def test_existing_checks_are_never_replaced(self):
++        checks = self.edition / "draft-fixture/final-checks.json"
++        checks.parent.mkdir()
++        original = b"immutable historical fixture\n"
++        checks.write_bytes(original)
++        with mock.patch.object(check_final_draft, "ROOT", self.root):
++            with self.assertRaisesRegex(AssertionError, "immutable"):
++                check_final_draft.check(self.book_id, "draft-fixture")
++        self.assertEqual(checks.read_bytes(), original)
++
++
++if __name__ == "__main__":
++    unittest.main()

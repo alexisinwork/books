@@ -1,0 +1,34 @@
+{
+  "status": "applied_under_author_general_rule_update_instruction",
+  "files": [
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "sha256": "d9356a89c88c5677e8854937169c0a68e52d5e92ad3f1f9ac5a21be1a4929003"
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/target-only-uk.md",
+      "sha256": "af360b8de52fc2bd50bbd569839eaf00935575da25d0bfc389319072fb50a330"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "editorial_syntax",
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/astra-r1/observations.json",
+      "ids": [
+        "ASTRA-FAIR-02",
+        "ASTRA-FAIR-06",
+        "ASTRA-FAIR-09",
+        "ASTRA-FAIR-10"
+      ]
+    },
+    {
+      "kind": "review_delivery_failure",
+      "paths": [
+        "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/reviews-r1/pro/invocation.json",
+        "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/reviews-r2/pro/invocation.json"
+      ],
+      "observation": "Initial instruction to save a report caused a denied write and empty response; revised output instruction returned a substantive report. This does not establish the quality of that report."
+    }
+  ],
+  "limits": "No new universal lexical ban; no author_approved personal style example inferred from model edits."
+}

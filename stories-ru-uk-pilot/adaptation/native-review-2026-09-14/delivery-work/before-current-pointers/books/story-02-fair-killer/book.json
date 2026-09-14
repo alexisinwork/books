@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "project_id": "stories-ru-uk-pilot",
+  "book_id": "story-02-fair-killer",
+  "title": "Справедливый убийца",
+  "book_type": "fiction",
+  "stage": "full_native_revision_author_reading",
+  "master": {
+    "path": "sources/originals/Справедливый убийца.docx",
+    "format": "docx",
+    "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+    "status": "author_selected",
+    "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+    "language": "ru",
+    "role": "RU_SOURCE_MASTER",
+    "selection_status": "author_selected_for_pilot",
+    "scope": "This author-selected story file only; no cross-project canonical authority."
+  },
+  "voice": "voice.json",
+  "canon": "source-canon.json",
+  "audit_status": "full_native_revision_partial_external_ensemble",
+  "original_language": "ru",
+  "canonical_language": "ru",
+  "language_state": "uk_full_native_revision_working_edition",
+  "legacy_sources": [
+    {
+      "path": "sources/originals/Справедливый убийца.docx",
+      "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+      "language": "ru",
+      "role": "RU_SOURCE_MASTER",
+      "status": "author_selected_for_pilot"
+    }
+  ],
+  "editions": {
+    "uk": {
+      "path": "editions/uk",
+      "role": "UA_WORKING_EDITION",
+      "status": "full_native_revision_working_edition",
+      "source_language": "ru",
+      "target_language": "uk",
+      "source_path": "sources/originals/Справедливый убийца.docx",
+      "source_sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+      "source_role": "RU_SOURCE_MASTER",
+      "source_status": "author_selected_for_pilot",
+      "author_basis": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+      "current_draft": "draft-v4",
+      "target_path": "editions/uk/draft-v4/target.uk.txt",
+      "target_sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
+      "reader_path": "editions/uk/draft-v4/reader/Справедливий вбивця — українська версія.docx",
+      "quality_assessment": "editions/uk/QA-ASSESSMENT-v4.md",
+      "required_literary_release_gate": "open",
+      "author_canonical_approval": false,
+      "title": "Справедливий вбивця",
+      "input_manifest": "editions/uk/INPUTS-V3.json",
+      "preparation_packet": "editions/uk/preparation/pilot/ready-v3",
+      "continuity_path": "editions/uk/draft-v4/continuity.json",
+      "author_decisions": [
+        "editions/uk/decisions/2026-09-14-author-answers.json"
+      ],
+      "planned_delivery": "delivery/2026-09-14-v4",
+      "delivery_status": "planned"
+    }
+  }
+}

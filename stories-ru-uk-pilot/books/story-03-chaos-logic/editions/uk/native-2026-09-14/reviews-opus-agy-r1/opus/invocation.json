@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:38:13+00:00",
+  "role": "opus-supplemental",
+  "client": "agy CLI",
+  "requested_model": "claude-opus-4-6-thinking",
+  "target": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+    "sha256": "c21829136dd1240b6f6169dee9b76aca71978295fcb0eabe52f9c5af6bade8f2"
+  },
+  "source": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+    "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d"
+  },
+  "inputs": [
+    {
+      "label": "ukrainian.txt",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+      "sha256": "c21829136dd1240b6f6169dee9b76aca71978295fcb0eabe52f9c5af6bade8f2"
+    },
+    {
+      "label": "Russian source",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/review-config/story-03-chaos-logic/source-ru.txt",
+      "sha256": "8bbc1bbb55b8958b320d931f2885c47391490acf9d533ca4146d084d2e13c84f"
+    },
+    {
+      "label": "Style and explicit author intent",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/review-config/story-03-chaos-logic/context.txt",
+      "sha256": "812411b0cdb0a07b10d9bcd99affcda77691fd8f363b34935e7488ebcf2359b9"
+    }
+  ],
+  "prompt_sha256": "2a4fbf5854937bab21522eeeaf4fecf5c4e64b8513ccab0301e5d891984dc031",
+  "isolation": "Fresh temporary directory containing exact input copies; agy sandbox and plan mode; command permission enabled only inside the disposable directory.",
+  "input_delivery": "isolated_files",
+  "status": "failed",
+  "exit_code": 1,
+  "seconds": 2.33
+}

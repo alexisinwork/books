@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "branch": "stories-ru-uk-full-2026-09-14",
+  "base_commit": "e7532ffd53674ef8c9fe799fe9eeb1dd74d6319a",
+  "isolated_worktree": "/tmp/books-stories-ru-uk-20260914",
+  "project": "stories-ru-uk-pilot",
+  "shared_files": [
+    {
+      "path": ".agents/skills/book-language-review/SKILL.md",
+      "sha256": "24d3969b00e680b0aef632c83fedf2c9a35a0e42b78b373ba1773e2b6595c34d",
+      "previous_sha256": "f104cba3aa99ca2b56e2ca960231353b3ce867967f921e52230ce06cd3733f9f"
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/target-only-uk.md",
+      "sha256": "af360b8de52fc2bd50bbd569839eaf00935575da25d0bfc389319072fb50a330",
+      "previous_sha256": "f73413872eb6517add6b22906bbb7c1c5bc860660e63cb39d70e0430505b67b1"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+      "previous_sha256": "8d0dbc8e8efdc98506d270b72d02081345797e5b7908696c1c96f15cafb4b928"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "sha256": "5ba8be617d5fc7271104005ebd505603bc75b9df3ab1c219f3e023fba2756b64",
+      "previous_sha256": null
+    },
+    {
+      "path": "tools/uk_naturalness.py",
+      "sha256": "47177668c0de4da40c3a68f9cdd874b9e6ce5695a4b48c0b6aa3410294643a36",
+      "previous_sha256": null
+    },
+    {
+      "path": "tools/language_qa.py",
+      "sha256": "461df2ae8b7f02f0eda69a465efb5981390d59db5547199c0fd2eadd9bd709f3",
+      "previous_sha256": "9deee03601160de1ebdae6941dacb8c519691fef8333e7e8c883194b1da0ccf1"
+    },
+    {
+      "path": "tests/test_uk_naturalness.py",
+      "sha256": "1c9673b6672e62ba519771e2d9f5685b39d9ea8c036c061d47201ebe40efd931",
+      "previous_sha256": null
+    },
+    {
+      "path": "tools/run_literary_model.py",
+      "sha256": "fc54a228863dc7da996f0da9bc008bf9d51a575bec74d09d0b35d469854f477f",
+      "previous_sha256": null
+    },
+    {
+      "path": "tests/test_literary_model_runner.py",
+      "sha256": "56a83a9bb1dc253cc4dbccbf0e5c37a7d6a8ead2c03348ae7599527c8a027e40",
+      "previous_sha256": null
+    },
+    {
+      "path": "tools/run_book_review.py",
+      "sha256": "9c41c0d5e1493604caa99ff879801f76051a911af7595a15b627cd562fdbdd86",
+      "previous_sha256": null
+    },
+    {
+      "path": "tests/test_review_client_policy.py",
+      "sha256": "2d1a3884cac0ff5f6b0f603dcb8c3285609896176e81f71852d29d58969aa80e",
+      "previous_sha256": null
+    },
+    {
+      "path": "tests/test_language_system.py",
+      "sha256": "4846100af4a75575d0640bf9283d124fbc837c31e14884a4e17776a0f11341f0",
+      "previous_sha256": "4846100af4a75575d0640bf9283d124fbc837c31e14884a4e17776a0f11341f0"
+    }
+  ],
+  "unrelated_root_changes": "Not copied or staged",
+  "credential_pattern_scan": {
+    "files": 1570,
+    "matches": 0,
+    "scope": "Pattern scan of project text/log artifacts; no token values printed."
+  },
+  "preparation_aliases": "Six relative glossary/voices symlinks are materialized as exact bytes in the Git worktree, preserving their existing regular-file representation."
+}

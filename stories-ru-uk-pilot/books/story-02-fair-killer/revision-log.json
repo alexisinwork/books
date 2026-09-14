@@ -74,6 +74,40 @@
       "ru_source_registers": "Unchanged historical observations; UK facts and entry-state overrides are in the linked continuity layer.",
       "delivery": "../../delivery/2026-09-14-v3",
       "full_literary_release_gate": "open"
+    },
+    {
+      "id": "full-native-language-revision-draft-v4-2026-09-14",
+      "reason": "Promote the fully read native-language candidate plus the reconciled exact edits without changing the RU source.",
+      "old_source": {
+        "path": "editions/uk/draft-v3/target.uk.txt",
+        "sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7"
+      },
+      "new_source": {
+        "path": "editions/uk/draft-v4/target.uk.txt",
+        "sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
+        "role": "UA_WORKING_EDITION"
+      },
+      "changes": "editions/uk/draft-v4/changes.json",
+      "decision": "adaptation/native-review-2026-09-14/reconciliation/story-02-fair-killer.spec.json",
+      "input_manifest": "editions/uk/INPUTS-V3.json",
+      "preparation_packet": "editions/uk/preparation/pilot/ready-v3",
+      "continuity": "editions/uk/draft-v4/continuity.json",
+      "quality_assessment": "editions/uk/QA-ASSESSMENT-v4.md",
+      "affected_checks": [
+        "current continuity anchors",
+        "author answers",
+        "times and referents",
+        "protected refrains and target emphasis"
+      ],
+      "audit_status": "full_native_revision_partial_external_ensemble",
+      "language_status": "working_edition_not_author_canonical_master",
+      "full_literary_release_gate": "open",
+      "delivery": {
+        "path": "../../delivery/2026-09-14-v4",
+        "status": "copied_and_hash_verified",
+        "receipt": "../../release/DESKTOP-DELIVERY-2026-09-14-v4.json"
+      },
+      "ru_source_registers": "Unchanged historical observations; current UK checks are in the linked continuity layer."
     }
   ]
 }

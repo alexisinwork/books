@@ -107,6 +107,62 @@
       "ru_source_registers": "Unchanged historical observations; UK facts and entry-state overrides are in the linked continuity layer.",
       "delivery": "../../delivery/2026-09-14-v3",
       "full_literary_release_gate": "open"
+    },
+    {
+      "id": "full-native-language-revision-draft-v7-2026-09-14",
+      "reason": "Promote the fully read native-language candidate plus the reconciled exact edits without changing the RU source.",
+      "old_source": {
+        "path": "editions/uk/draft-v4/target.uk.txt",
+        "sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960"
+      },
+      "new_source": {
+        "path": "editions/uk/draft-v7/target.uk.txt",
+        "sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
+        "role": "UA_WORKING_EDITION"
+      },
+      "changes": "editions/uk/draft-v7/changes.json",
+      "decision": "adaptation/native-review-2026-09-14/reconciliation/story-03-chaos-logic-v7.spec.json",
+      "input_manifest": "editions/uk/INPUTS-V4.json",
+      "preparation_packet": "editions/uk/preparation/pilot/ready-v4",
+      "continuity": "editions/uk/draft-v7/continuity.json",
+      "quality_assessment": "editions/uk/QA-ASSESSMENT-v7.md",
+      "affected_checks": [
+        "current continuity anchors",
+        "author answers",
+        "times and referents",
+        "protected refrains and target emphasis"
+      ],
+      "audit_status": "full_native_revision_partial_external_ensemble",
+      "language_status": "working_edition_not_author_canonical_master",
+      "full_literary_release_gate": "open",
+      "delivery": {
+        "path": "../../delivery/2026-09-14-v4",
+        "status": "copied_and_hash_verified",
+        "receipt": "../../release/DESKTOP-DELIVERY-2026-09-14-v4.json"
+      },
+      "ru_source_registers": "Unchanged historical observations; current UK checks are in the linked continuity layer.",
+      "intermediate_sources": [
+        {
+          "path": "editions/uk/draft-v5/target.uk.txt",
+          "sha256": "69fd73c4beb67cdb1bb55d5dd9985eac8b6e925693259a9763802a57ded32d33",
+          "status": "preserved_intermediate_native_revision"
+        },
+        {
+          "path": "editions/uk/draft-v6/target.uk.txt",
+          "sha256": "ee4228a4edcf37e29dc0ebb22d006e165989f41cd9fc5ac8d20c4557b24a9379",
+          "status": "preserved_intermediate_desktop_variant"
+        }
+      ],
+      "desktop_import": {
+        "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/desktop-import/import.json",
+        "sha256": "6c37f383bf5f134635eb087f35344fc252c33eefc936f1eac0454c33374f1323"
+      },
+      "meaning_change": {
+        "p": 292,
+        "status": "editorial_choice_under_author_delegation",
+        "author_canon_approved": false,
+        "change": "lunch -> breakfast to match p290–p292"
+      }
     }
   ]
 }

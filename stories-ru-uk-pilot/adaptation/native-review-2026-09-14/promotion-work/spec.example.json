@@ -1,0 +1,35 @@
+{
+  "book_id": "fixture-story",
+  "base_draft": "tests/fixtures/base-draft",
+  "candidate_translation": "tests/fixtures/candidate/translation.json",
+  "candidate_changes": "tests/fixtures/candidate/changes.json",
+  "translation_units": "tests/fixtures/TRANSLATION_UNITS.json",
+  "new_draft": "tests/fixtures/example-output",
+  "record_root": "../../../..",
+  "expected_sha256": {
+    "base_translation": "9365a20f99bed4060b1e6439fbd27557083e3128d9ef19f1f2099973ab9fd883",
+    "base_target": "bd5ff5aaf11d10f2dc06efc328422f059aa6f5a491c4de7d3df32ec3aa42b916",
+    "candidate_translation": "cfe341f84678c6ff5e60c06486197d3df209fb558c65ce3581fabf2dbaccf083",
+    "candidate_changes": "f1d0f7ab24f14327dcef10f4644a881f7943b3a5b66751c955e4e04afad9f585"
+  },
+  "edits": [
+    {
+      "source_ids": [
+        "fixture-c000-p000002"
+      ],
+      "before": "сірий",
+      "after": "темний",
+      "reason": "Уточнено колір після редакторської перевірки.",
+      "review_id": "review-fixture-01"
+    },
+    {
+      "source_ids": [
+        "fixture-c000-p000002"
+      ],
+      "before": "темний камінь",
+      "after": "темний валун",
+      "reason": "Друга послідовна правка застосовується вже до результату першої.",
+      "review_id": "review-fixture-02"
+    }
+  ]
+}

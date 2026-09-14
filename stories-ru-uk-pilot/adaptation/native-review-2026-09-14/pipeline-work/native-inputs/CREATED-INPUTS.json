@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T20:01:18.870471+00:00",
+  "status": "created_and_verified",
+  "records": [
+    {
+      "book_id": "story-01-reptiloids",
+      "manifest": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/INPUTS-V3.json",
+        "sha256": "8ee505c13eeae2e71f19ee3599e6a7957bfede323cdad3a1eaaef1c3fb8584ec"
+      },
+      "packet": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v3/packet.json",
+        "sha256": "41b3610169d7eaac0405f8dac60bc119654771cf5438022597a43dd10f1f691f"
+      },
+      "ready_packet": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v3",
+      "context_snapshot": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v3/context/SNAPSHOT.json",
+        "sha256": "8d8c8846cb3d0520efb8325945ccd0e6fc83ef4dbc060f9aba6d571e2e399a36",
+        "role": "generated_context_index"
+      },
+      "origin_changes": [
+        {
+          "origin_path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+          "previous_frozen_sha256": "8d0dbc8e8efdc98506d270b72d02081345797e5b7908696c1c96f15cafb4b928",
+          "new_snapshot_sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+          "reason": "Current Ukrainian writing rules explicitly requested for the full native-language pass; prior packages remain unchanged."
+        }
+      ],
+      "preserved_translation_glossary": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v3/context/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/glossary.json",
+        "sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71",
+        "origin_path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/glossary.json",
+        "origin_sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71",
+        "role": "frozen_context_snapshot",
+        "previous_frozen_sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71",
+        "translation_glossary_sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71"
+      }
+    },
+    {
+      "book_id": "story-02-fair-killer",
+      "manifest": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/INPUTS-V3.json",
+        "sha256": "3847e93460cc7f727a68f46f017df0b9c36b99df94c72c322abb0ec98f75ac51"
+      },
+      "packet": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v3/packet.json",
+        "sha256": "344a92b940000cfcb628606f40cf1ac31953065030875f4b6e488d0c0c4ba2b4"
+      },
+      "ready_packet": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v3",
+      "context_snapshot": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v3/context/SNAPSHOT.json",
+        "sha256": "c72040af4c0774035b140833fcf0adf628a5574479897a7a976af91231f474c6",
+        "role": "generated_context_index"
+      },
+      "origin_changes": [
+        {
+          "origin_path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+          "previous_frozen_sha256": "8d0dbc8e8efdc98506d270b72d02081345797e5b7908696c1c96f15cafb4b928",
+          "new_snapshot_sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+          "reason": "Current Ukrainian writing rules explicitly requested for the full native-language pass; prior packages remain unchanged."
+        }
+      ],
+      "preserved_translation_glossary": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v3/context/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/glossary.json",
+        "sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0",
+        "origin_path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/glossary.json",
+        "origin_sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0",
+        "role": "frozen_context_snapshot",
+        "previous_frozen_sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0",
+        "translation_glossary_sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0"
+      }
+    },
+    {
+      "book_id": "story-03-chaos-logic",
+      "manifest": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/INPUTS-V4.json",
+        "sha256": "55c97ed54d70b1755dc3599e1cccfb70c0b1796a5b8af0ad07c710297f753a52"
+      },
+      "packet": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v4/packet.json",
+        "sha256": "69ddc6a876984219e249d25837183e1a8b9f9bd2507fcdd616330f8beceb4a8b"
+      },
+      "ready_packet": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v4",
+      "context_snapshot": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v4/context/SNAPSHOT.json",
+        "sha256": "d63eee991fe20170d8dc5c08301645c210343da53b9ca87bd9ca233d673b59b1",
+        "role": "generated_context_index"
+      },
+      "origin_changes": [
+        {
+          "origin_path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+          "previous_frozen_sha256": "8d0dbc8e8efdc98506d270b72d02081345797e5b7908696c1c96f15cafb4b928",
+          "new_snapshot_sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+          "reason": "Current Ukrainian writing rules explicitly requested for the full native-language pass; prior packages remain unchanged."
+        }
+      ],
+      "preserved_translation_glossary": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v4/context/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/glossary.json",
+        "sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15",
+        "origin_path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/glossary.json",
+        "origin_sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15",
+        "role": "frozen_context_snapshot",
+        "previous_frozen_sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15",
+        "translation_glossary_sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15"
+      }
+    }
+  ],
+  "staging_validation": [
+    {
+      "book_id": "story-01-reptiloids",
+      "result": "passed_packet_and_frozen_input_integrity",
+      "active_inputs": 29,
+      "context_snapshots": 28,
+      "source_segments": 54,
+      "source_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+      "source_segments_sha256": "749bbdcbeaa9c8403fc8cb5d485d42a5465e077da4653097068e63e6ef6ac77d",
+      "source_reader_sha256": "b153b8a85499d51c2a0982c0fa5b33ff1bc1f72620e9b34ad73e4d0449b4b6f3",
+      "translation_glossary_sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71",
+      "tested_without_live_mutable_origins": true,
+      "live_mutable_origin_paths_present": 0,
+      "literary_quality": "not_assessed",
+      "models_run": false
+    },
+    {
+      "book_id": "story-02-fair-killer",
+      "result": "passed_packet_and_frozen_input_integrity",
+      "active_inputs": 29,
+      "context_snapshots": 28,
+      "source_segments": 236,
+      "source_sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+      "source_segments_sha256": "58a6ac13f086bd66b357ee06d8ecc6013b9ef7d1773a58d41bb2ed9e0bb96c66",
+      "source_reader_sha256": "17c7e5552f8474ca8b7397e1f0eac414cea66cdefdf102593bed61cfc8e3f8b5",
+      "translation_glossary_sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0",
+      "tested_without_live_mutable_origins": true,
+      "live_mutable_origin_paths_present": 0,
+      "literary_quality": "not_assessed",
+      "models_run": false
+    },
+    {
+      "book_id": "story-03-chaos-logic",
+      "result": "passed_packet_and_frozen_input_integrity",
+      "active_inputs": 33,
+      "context_snapshots": 32,
+      "source_segments": 310,
+      "source_sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+      "source_segments_sha256": "6c9ff14771ec4b05a0cb3968afcfc05fb02a2fd0587b0994a4081484f192f09d",
+      "source_reader_sha256": "21d24b2488b012d49f9faa415c287e9fff94aade668a3303edfd851d9cce1770",
+      "translation_glossary_sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15",
+      "tested_without_live_mutable_origins": true,
+      "live_mutable_origin_paths_present": 0,
+      "literary_quality": "not_assessed",
+      "models_run": false
+    }
+  ],
+  "published_validation": [
+    {
+      "book_id": "story-01-reptiloids",
+      "result": "passed_packet_and_frozen_input_integrity",
+      "active_inputs": 29,
+      "context_snapshots": 28,
+      "source_segments": 54,
+      "source_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+      "source_segments_sha256": "749bbdcbeaa9c8403fc8cb5d485d42a5465e077da4653097068e63e6ef6ac77d",
+      "source_reader_sha256": "b153b8a85499d51c2a0982c0fa5b33ff1bc1f72620e9b34ad73e4d0449b4b6f3",
+      "translation_glossary_sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71",
+      "tested_without_live_mutable_origins": false,
+      "live_mutable_origin_paths_present": 28,
+      "literary_quality": "not_assessed",
+      "models_run": false
+    },
+    {
+      "book_id": "story-02-fair-killer",
+      "result": "passed_packet_and_frozen_input_integrity",
+      "active_inputs": 29,
+      "context_snapshots": 28,
+      "source_segments": 236,
+      "source_sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+      "source_segments_sha256": "58a6ac13f086bd66b357ee06d8ecc6013b9ef7d1773a58d41bb2ed9e0bb96c66",
+      "source_reader_sha256": "17c7e5552f8474ca8b7397e1f0eac414cea66cdefdf102593bed61cfc8e3f8b5",
+      "translation_glossary_sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0",
+      "tested_without_live_mutable_origins": false,
+      "live_mutable_origin_paths_present": 28,
+      "literary_quality": "not_assessed",
+      "models_run": false
+    },
+    {
+      "book_id": "story-03-chaos-logic",
+      "result": "passed_packet_and_frozen_input_integrity",
+      "active_inputs": 33,
+      "context_snapshots": 32,
+      "source_segments": 310,
+      "source_sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+      "source_segments_sha256": "6c9ff14771ec4b05a0cb3968afcfc05fb02a2fd0587b0994a4081484f192f09d",
+      "source_reader_sha256": "21d24b2488b012d49f9faa415c287e9fff94aade668a3303edfd851d9cce1770",
+      "translation_glossary_sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15",
+      "tested_without_live_mutable_origins": false,
+      "live_mutable_origin_paths_present": 32,
+      "literary_quality": "not_assessed",
+      "models_run": false
+    }
+  ],
+  "protected_paths": [
+    {
+      "path": "stories-ru-uk-pilot/release/SELECTION-2026-09-14-v3.json",
+      "before_sha256": "a6c0424bd887ca200fe1f8b6f7c55ceda7efbbf1f9271af3a4d9b5f770d578d8",
+      "after_sha256": "a6c0424bd887ca200fe1f8b6f7c55ceda7efbbf1f9271af3a4d9b5f770d578d8",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/pipeline-work/native-inputs/selected-rules/BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "before_sha256": "3f890bec3cbdce3a15e8ef72614d02108aa2370cd2ce217e76dc7a80817fae2e",
+      "after_sha256": "3f890bec3cbdce3a15e8ef72614d02108aa2370cd2ce217e76dc7a80817fae2e",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/pipeline-work/native-inputs/selected-rules/BOOK_SYSTEM/ADAPTATION/prompts/target-only-uk.md",
+      "before_sha256": "af360b8de52fc2bd50bbd569839eaf00935575da25d0bfc389319072fb50a330",
+      "after_sha256": "af360b8de52fc2bd50bbd569839eaf00935575da25d0bfc389319072fb50a330",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/pipeline-work/native-inputs/SELECTED-RULES-V2.json",
+      "before_sha256": "d394d7909856103dcbd96694c04b894447e7c99a3ca9585692751324208d2070",
+      "after_sha256": "d394d7909856103dcbd96694c04b894447e7c99a3ca9585692751324208d2070",
+      "unchanged": true
+    },
+    {
+      "path": "tools/run_literary_model.py",
+      "before_sha256": "1c2cec20799a21d7a104b1b151a9a030c5121aead8dfaa1f1759167449d0d381",
+      "after_sha256": "1c2cec20799a21d7a104b1b151a9a030c5121aead8dfaa1f1759167449d0d381",
+      "unchanged": true
+    },
+    {
+      "path": "tools/run_book_review.py",
+      "before_sha256": "71a33012093490686e3acd1e5c997db12e2b1a0cfe3223e8b26c34c61bd9e414",
+      "after_sha256": "71a33012093490686e3acd1e5c997db12e2b1a0cfe3223e8b26c34c61bd9e414",
+      "unchanged": true
+    },
+    {
+      "path": "tools/literary_translation.py",
+      "before_sha256": "9f07f4c4d7fe5388311e0cba6b34f9fd8ea500718701db5970f6ae43327319f2",
+      "after_sha256": "9f07f4c4d7fe5388311e0cba6b34f9fd8ea500718701db5970f6ae43327319f2",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/sources/originals/Рептилоиды.docx",
+      "before_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+      "after_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/adaptation/source-inventory-v1/source-manifests/story-01-reptiloids.json",
+      "before_sha256": "85814884cf92b0b66c33639af49913ec2b0915942a351de23f602f2d4b561c5a",
+      "after_sha256": "85814884cf92b0b66c33639af49913ec2b0915942a351de23f602f2d4b561c5a",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v2/source-segments.json",
+      "before_sha256": "749bbdcbeaa9c8403fc8cb5d485d42a5465e077da4653097068e63e6ef6ac77d",
+      "after_sha256": "749bbdcbeaa9c8403fc8cb5d485d42a5465e077da4653097068e63e6ef6ac77d",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v2/source.ru.txt",
+      "before_sha256": "b153b8a85499d51c2a0982c0fa5b33ff1bc1f72620e9b34ad73e4d0449b4b6f3",
+      "after_sha256": "b153b8a85499d51c2a0982c0fa5b33ff1bc1f72620e9b34ad73e4d0449b4b6f3",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/INPUTS-V2.json",
+      "before_sha256": "aa198ba57727b9fe9e441ed30e799937ffee87cf018511b5aa39c83395ac1689",
+      "after_sha256": "aa198ba57727b9fe9e441ed30e799937ffee87cf018511b5aa39c83395ac1689",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v2/packet.json",
+      "before_sha256": "0c23ed523f09bb48f991a38d8daa4bf091cdcb805cd4e000e69722c39b438b58",
+      "after_sha256": "0c23ed523f09bb48f991a38d8daa4bf091cdcb805cd4e000e69722c39b438b58",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/book.json",
+      "before_sha256": "8382f84eadb011064e10fb91a3fedbd640bbdbf499c5c40993c06267915491e3",
+      "after_sha256": "8382f84eadb011064e10fb91a3fedbd640bbdbf499c5c40993c06267915491e3",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/translation.json",
+      "before_sha256": "153b6ee925dc0826aaf240447594c86dce743c7526106763049d4b28963285a0",
+      "after_sha256": "153b6ee925dc0826aaf240447594c86dce743c7526106763049d4b28963285a0",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/target.uk.txt",
+      "before_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+      "after_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/glossary.json",
+      "before_sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71",
+      "after_sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+      "before_sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+      "after_sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/adaptation/source-inventory-v1/source-manifests/story-02-fair-killer.json",
+      "before_sha256": "ab469bd1c7fb6ee16ba941022c80df7eb379c4d375d522bc445c45748b8c8cd2",
+      "after_sha256": "ab469bd1c7fb6ee16ba941022c80df7eb379c4d375d522bc445c45748b8c8cd2",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v2/source-segments.json",
+      "before_sha256": "58a6ac13f086bd66b357ee06d8ecc6013b9ef7d1773a58d41bb2ed9e0bb96c66",
+      "after_sha256": "58a6ac13f086bd66b357ee06d8ecc6013b9ef7d1773a58d41bb2ed9e0bb96c66",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v2/source.ru.txt",
+      "before_sha256": "17c7e5552f8474ca8b7397e1f0eac414cea66cdefdf102593bed61cfc8e3f8b5",
+      "after_sha256": "17c7e5552f8474ca8b7397e1f0eac414cea66cdefdf102593bed61cfc8e3f8b5",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/INPUTS-V2.json",
+      "before_sha256": "5b62f4d2536323d33b479438dc69a8b617a5952f4ad3a83df1bdd981d1919ca2",
+      "after_sha256": "5b62f4d2536323d33b479438dc69a8b617a5952f4ad3a83df1bdd981d1919ca2",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v2/packet.json",
+      "before_sha256": "daa1baab0ad2e3cba9fd65e6778aa57376ec98c1612066d1acadfd5d8f41a771",
+      "after_sha256": "daa1baab0ad2e3cba9fd65e6778aa57376ec98c1612066d1acadfd5d8f41a771",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/book.json",
+      "before_sha256": "fecc6731c2fb2ba9a6195aa1149380f6bc634c59eac30097b17b5ccb459ed44a",
+      "after_sha256": "fecc6731c2fb2ba9a6195aa1149380f6bc634c59eac30097b17b5ccb459ed44a",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v3/translation.json",
+      "before_sha256": "cd2a5f5e30434029356af23638b2f859fbd216224ed1175a244967fee7d0831c",
+      "after_sha256": "cd2a5f5e30434029356af23638b2f859fbd216224ed1175a244967fee7d0831c",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v3/target.uk.txt",
+      "before_sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7",
+      "after_sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/glossary.json",
+      "before_sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0",
+      "after_sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+      "before_sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+      "after_sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/adaptation/source-inventory-v1/source-manifests/story-03-chaos-logic.json",
+      "before_sha256": "44897b80b89322bcb9506e808687698890d3032c858fb9be2f2acf2dfbbbede6",
+      "after_sha256": "44897b80b89322bcb9506e808687698890d3032c858fb9be2f2acf2dfbbbede6",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v3/source-segments.json",
+      "before_sha256": "6c9ff14771ec4b05a0cb3968afcfc05fb02a2fd0587b0994a4081484f192f09d",
+      "after_sha256": "6c9ff14771ec4b05a0cb3968afcfc05fb02a2fd0587b0994a4081484f192f09d",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v3/source.ru.txt",
+      "before_sha256": "21d24b2488b012d49f9faa415c287e9fff94aade668a3303edfd851d9cce1770",
+      "after_sha256": "21d24b2488b012d49f9faa415c287e9fff94aade668a3303edfd851d9cce1770",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/INPUTS-V3.json",
+      "before_sha256": "366ecc81b3577542e5094f34a0e42ac7d15657fd854f347e4f2b0d09faa99571",
+      "after_sha256": "366ecc81b3577542e5094f34a0e42ac7d15657fd854f347e4f2b0d09faa99571",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v3/packet.json",
+      "before_sha256": "4ebf5146b7881d5e10dcb1c78552d0de0a218cdd2907db86d352c15cf5bdff65",
+      "after_sha256": "4ebf5146b7881d5e10dcb1c78552d0de0a218cdd2907db86d352c15cf5bdff65",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/book.json",
+      "before_sha256": "20f52023750a344910f6d7dda75a74351271fe192e03b3d1e8a413ae3047b2f7",
+      "after_sha256": "20f52023750a344910f6d7dda75a74351271fe192e03b3d1e8a413ae3047b2f7",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v4/translation.json",
+      "before_sha256": "edf151e1f78c0bc71eaac49755faf311735b940198a8f4cd1ae303e3729a9cdd",
+      "after_sha256": "edf151e1f78c0bc71eaac49755faf311735b940198a8f4cd1ae303e3729a9cdd",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v4/target.uk.txt",
+      "before_sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960",
+      "after_sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960",
+      "unchanged": true
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/glossary.json",
+      "before_sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15",
+      "after_sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15",
+      "unchanged": true
+    }
+  ],
+  "rule_update_record": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/pipeline-work/native-inputs/SELECTED-RULES-V2.json",
+    "sha256": "d394d7909856103dcbd96694c04b894447e7c99a3ca9585692751324208d2070"
+  },
+  "builder": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/pipeline-work/native-inputs/freeze_native_inputs.py",
+    "sha256": "5863bf3169f9d1daadb78966bb0dd5f280b7235bd004b40076ef348232035f6d"
+  },
+  "verification_tool": {
+    "path": "tools/literary_translation.py",
+    "sha256": "9f07f4c4d7fe5388311e0cba6b34f9fd8ea500718701db5970f6ae43327319f2"
+  },
+  "models_run": false,
+  "exports_run": false,
+  "literary_quality": "not_assessed"
+}

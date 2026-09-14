@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:44:21+00:00",
+  "role": "opus-supplemental",
+  "client": "agy CLI",
+  "requested_model": "claude-opus-4-6-thinking",
+  "target": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+    "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+  },
+  "source": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/sources/originals/Рептилоиды.docx",
+    "sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408"
+  },
+  "inputs": [
+    {
+      "label": "ukrainian.txt",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+      "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+    },
+    {
+      "label": "Russian source",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/review-config/story-01-reptiloids/source-ru.txt",
+      "sha256": "73171dd95f3b0f8d418bd8e0d6b2b20b59b61e884b6100576d0350f670948063"
+    },
+    {
+      "label": "Style and explicit author intent",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/review-config/story-01-reptiloids/context.txt",
+      "sha256": "47468980e85e051eaf87b5bfb487f58538c327d80a1b54bab082923abb4ef805"
+    }
+  ],
+  "prompt_sha256": "b7a2d906e39111e2eda48e4c0cae684ad60f955d41326088c0e9de5bedf74365",
+  "isolation": "Fresh external process; all inputs embedded; sandbox/safe mode; no permitted model tools or MCP.",
+  "input_delivery": "embedded_in_prompt",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 526.21,
+  "resolved_model_id": "claude-opus-4-6-thinking",
+  "resolved_model_label": "Claude Opus 4.6 (Thinking)",
+  "conversation_id": "ade712f9-e72e-405b-afce-fef089baf525",
+  "usage": {
+    "input_tokens": 34827,
+    "output_tokens": 24377,
+    "thinking_tokens": 0,
+    "cache_read_tokens": 0,
+    "total_tokens": 59204
+  },
+  "denied_actions": [],
+  "report_sha256": "913e535339b8717e7250429652825a6a7f45cd833320709f454c7d87392329fc"
+}

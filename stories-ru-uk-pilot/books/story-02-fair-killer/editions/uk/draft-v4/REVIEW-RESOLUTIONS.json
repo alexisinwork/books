@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "book_id": "story-02-fair-killer",
+  "target": {
+    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v4/target.uk.txt",
+    "sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f"
+  },
+  "authority": "Author explicitly commissioned full Ukrainian language revision and context-based rule updates.",
+  "author_canonical_approval": false,
+  "implementation_spec": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/story-02-fair-killer.spec.json",
+    "sha256": "743d87a930d709102931a6ea1edcc224d0d4d9d6c9242a7b3d1a1c16e5d1773c"
+  },
+  "complete_before_after": {
+    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v4/changes.json",
+    "sha256": "c448a063d8d58bbd0e12e3468000bef759a3346649d3fb102c0fd219df5eaeb0"
+  },
+  "reconciliation_reasoning": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/RECONCILIATION.md",
+    "sha256": "7ab520b551925a641b6b705d351ea8661e1d0393e33055c18dccbb3159ca0356"
+  },
+  "final_target_only_report": {
+    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/final-target-only-astra-r1/report.md",
+    "sha256": "87a9559bbed016c39e788cb6ee13ae62e64141f2172fb50f281070aa8282c54e"
+  },
+  "final_reading_coverage": {
+    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/final-target-only-astra-r1/coverage.json",
+    "sha256": "8c8ee1dc6ae3aaa65c56af5133dc61dd1087dcd1087f2782c1e96f3baa338e49"
+  },
+  "coordinator_assessment": {
+    "book_id": "story-02-fair-killer",
+    "target_sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
+    "report_sha256": "87a9559bbed016c39e788cb6ee13ae62e64141f2172fb50f281070aa8282c54e",
+    "coverage_sha256": "8c8ee1dc6ae3aaa65c56af5133dc61dd1087dcd1087f2782c1e96f3baa338e49",
+    "coordinator_read_report": true,
+    "remaining_confirmed_language_defects": 0,
+    "optional_observations_disposition": "Both optional points retained for function: author-approved acoustic refrain, and sustained personification of the soul in Light’s monologue.",
+    "prior_qa_assessment_sha256": "cbae1653a8ce7ac10327bf66dd90677e564f5e20e2177792d0e8989ad843cdc6"
+  },
+  "external_runs": [
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/reviews-opus-agy-r1/opus/invocation.json",
+        "sha256": "a1f6a313d28938d03b522118aee067482956a81aae48dcdf75e128fa72b15580"
+      },
+      "client": "agy CLI",
+      "requested_model": "claude-opus-4-6-thinking",
+      "status": "failed",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+        "sha256": "9f5f4964d362cdf4990a7d8291c241d377eeaa647f7f11e24987c0779bdbba40"
+      },
+      "current_target_review": false,
+      "independence_validation": "not_certified: file-mode runner did not enforce filesystem boundary; observations reconciled manually"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/reviews-opus-agy-r2/opus/invocation.json",
+        "sha256": "b92c0cf7dbf1bb57b6035d028a003e18298a37979ec22ae6093a84c5e03c5b5e"
+      },
+      "client": "agy CLI",
+      "requested_model": "claude-opus-4-6-thinking",
+      "status": "client_rejected",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+        "sha256": "9f5f4964d362cdf4990a7d8291c241d377eeaa647f7f11e24987c0779bdbba40"
+      },
+      "current_target_review": false,
+      "independence_validation": "not_certified: file-mode runner did not enforce filesystem boundary; observations reconciled manually"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/reviews-r1/flash/invocation.json",
+        "sha256": "adeca936def65a74a4842ace4b13a7ba10dd8ea532f97ab8fba5057e490c8e35"
+      },
+      "client": "agy CLI",
+      "requested_model": "gemini-3.8-flash-high",
+      "status": "report_returned",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+        "sha256": "9f5f4964d362cdf4990a7d8291c241d377eeaa647f7f11e24987c0779bdbba40"
+      },
+      "current_target_review": false,
+      "report": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/reviews-r1/flash/REPORT.md",
+        "sha256": "d885799b71bcb1c51a30bee8273d6aecb41c93d6cc6f856d2b67c39caddaf791"
+      },
+      "independence_validation": "not_certified: file-mode runner did not enforce filesystem boundary; observations reconciled manually"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/reviews-r1/opus/invocation.json",
+        "sha256": "b25d3a28856eb9a40af2aa8cfbdd296f3e66068a28da1957f6ca1373042da6a8"
+      },
+      "client": "Claude Code",
+      "requested_model": "claude-opus-5",
+      "status": "failed",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+        "sha256": "9f5f4964d362cdf4990a7d8291c241d377eeaa647f7f11e24987c0779bdbba40"
+      },
+      "current_target_review": false,
+      "independence_validation": "incomplete run; does not count as a completed review"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/reviews-r1/pro/invocation.json",
+        "sha256": "512e053b0b09fa8c7ce29be4722bb714ee2db97ac41313165b02e80051f2dbeb"
+      },
+      "client": "agy CLI",
+      "requested_model": "gemini-3.1-pro-high",
+      "status": "no_substantive_report",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+        "sha256": "9f5f4964d362cdf4990a7d8291c241d377eeaa647f7f11e24987c0779bdbba40"
+      },
+      "current_target_review": false,
+      "independence_validation": "not_certified: file-mode runner did not enforce filesystem boundary; observations reconciled manually"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/reviews-r2/pro/invocation.json",
+        "sha256": "f634e14dc5b0e4267b10ab9410ecfccf5a9a072216ea81c63ca107a68f088355"
+      },
+      "client": "agy CLI",
+      "requested_model": "gemini-3.1-pro-high",
+      "status": "report_returned",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+        "sha256": "9f5f4964d362cdf4990a7d8291c241d377eeaa647f7f11e24987c0779bdbba40"
+      },
+      "current_target_review": false,
+      "report": {
+        "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/native-2026-09-14/reviews-r2/pro/REPORT.md",
+        "sha256": "dd4ebfef2a04695fcc219a7aa720352781877c4ce57a977796ed4a3d6c74fd8b"
+      },
+      "independence_validation": "not_certified: file-mode runner did not enforce filesystem boundary; observations reconciled manually"
+    }
+  ],
+  "mechanical_checks": {
+    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v4/final-checks.json",
+    "sha256": "051f0a59b887958d83d5b4a2ac08a74f8e0b7f7f34fc7791bd62813e7ec54827"
+  },
+  "literary_release_gate": "open",
+  "gate_reason": "Required Claude Code Opus runs unavailable/incomplete; agy Opus is a supplementary client, and earlier large external file-mode isolation was not certified. Final Codex target-only readings are documented separately."
+}

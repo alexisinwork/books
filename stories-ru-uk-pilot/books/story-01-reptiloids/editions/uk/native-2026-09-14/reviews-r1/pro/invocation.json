@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:31:24+00:00",
+  "role": "pro",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.1-pro-high",
+  "target": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+    "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "ukrainian.txt",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+      "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+    }
+  ],
+  "prompt_sha256": "9fa97a2cdce46531500a1111cb4f87dac65d6cfdc0f6bbb04f09ecef8c220495",
+  "isolation": "Fresh external process; all inputs embedded; sandbox/safe mode; no permitted model tools or MCP.",
+  "input_delivery": "embedded_in_prompt",
+  "status": "no_substantive_report",
+  "exit_code": 0,
+  "seconds": 82.05
+}

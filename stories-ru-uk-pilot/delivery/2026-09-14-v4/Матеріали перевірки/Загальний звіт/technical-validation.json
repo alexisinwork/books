@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "scope": "Meaningful regression tests of shared language QA, review clients, frozen input bindings and exact-edit promotion. Mocked client tests do not execute external model reviews.",
+  "commands": [
+    ".venv/bin/python -m unittest tests.test_uk_naturalness tests.test_language_system tests.test_literary_model_runner tests.test_review_client_policy",
+    ".venv/bin/python -m unittest discover -s stories-ru-uk-pilot/tests -p test_input_binding.py",
+    "python3 -m unittest discover -s stories-ru-uk-pilot/adaptation/native-review-2026-09-14/promotion-work/tests"
+  ],
+  "result": "passed",
+  "tests": 47,
+  "outputs": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "eec2bb",
+        "wall_time_seconds": 0.211983869,
+        "exit_code": 0,
+        "original_token_count": 113,
+        "output": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 0.289s\n\nOK\n{\"out\": \"/tmp/tmp32dv8zqs/report\", \"status\": \"report_returned\", \"report_sha256\": \"1ab53a59bb5e2b194492ace2969b69463961a9b191147e647e95262c0ed4a2d5\", \"seconds\": 0.0}\n{\"role\": \"gemini_flash\", \"client\": \"agy\", \"requested_model\": \"gemini-3.8-flash-high\", \"status\": \"unavailable_or_incomplete\", \"exit_code\": 0, \"seconds\": 0.0}\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "ab00a2",
+        "wall_time_seconds": 0.0000013,
+        "exit_code": 0,
+        "original_token_count": 28,
+        "output": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.013s\n\nOK\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "f33606",
+        "wall_time_seconds": 0.00000147,
+        "exit_code": 0,
+        "original_token_count": 27,
+        "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.010s\n\nOK\n"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "status": "candidate_not_applied_to_shared_files",
+  "ruleset_version": "uk-naturalness-1.2",
+  "modified_files": [
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "base_sha256": "92355142d6dd7aa2b164185caf68214529942414529d254d4cbf49220401da5b",
+      "candidate_sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+      "base_copy": "base/BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "candidate_copy": "candidate/BOOK_SYSTEM/LANGUAGES/uk/STYLE.md"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "base_sha256": "d68132d97bfe63eddcc5b8bb877e337695a9764618863797c5cffce3d90ad18d",
+      "candidate_sha256": "372e84d34610f04ca7752991687f1c86e5ce9f976513b3fd31f4207450d9af8b",
+      "base_copy": "base/BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "candidate_copy": "candidate/BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md"
+    },
+    {
+      "path": ".agents/skills/book-language-review/SKILL.md",
+      "base_sha256": "472df890365cabebc652b868ca62ef90f66f1c8a9fcf7475947038ab4f9294cc",
+      "candidate_sha256": "24d3969b00e680b0aef632c83fedf2c9a35a0e42b78b373ba1773e2b6595c34d",
+      "base_copy": "base/.agents/skills/book-language-review/SKILL.md",
+      "candidate_copy": "candidate/.agents/skills/book-language-review/SKILL.md"
+    },
+    {
+      "path": "tools/uk_naturalness.py",
+      "base_sha256": "8bde42210b0ed8601ddc820bda0370c1542549cd11945f587ea849296e28b40b",
+      "candidate_sha256": "47177668c0de4da40c3a68f9cdd874b9e6ce5695a4b48c0b6aa3410294643a36",
+      "base_copy": "base/tools/uk_naturalness.py",
+      "candidate_copy": "candidate/tools/uk_naturalness.py"
+    },
+    {
+      "path": "tools/language_qa.py",
+      "base_sha256": "9deee03601160de1ebdae6941dacb8c519691fef8333e7e8c883194b1da0ccf1",
+      "candidate_sha256": "461df2ae8b7f02f0eda69a465efb5981390d59db5547199c0fd2eadd9bd709f3",
+      "base_copy": "base/tools/language_qa.py",
+      "candidate_copy": "candidate/tools/language_qa.py"
+    },
+    {
+      "path": "tests/test_uk_naturalness.py",
+      "base_sha256": "7854d08a89d19825d1bbc8fc32e2c9f193c11d98292b9233b7138f223a2b7b75",
+      "candidate_sha256": "1c9673b6672e62ba519771e2d9f5685b39d9ea8c036c061d47201ebe40efd931",
+      "base_copy": "base/tests/test_uk_naturalness.py",
+      "candidate_copy": "candidate/tests/test_uk_naturalness.py"
+    }
+  ],
+  "test_dependencies": [
+    {
+      "path": "default/skills/ru-book-auditor/scripts/book_snapshot.py",
+      "sha256": "0a7c5184975bf5c2b52cb6ded25e4dcca0a07e7a15da32ebc10df6c522071f2f",
+      "role": "test_dependency"
+    },
+    {
+      "path": "tests/test_language_system.py",
+      "sha256": "4846100af4a75575d0640bf9283d124fbc837c31e14884a4e17776a0f11341f0",
+      "role": "test_dependency"
+    }
+  ],
+  "evidence": "rule-evidence.json",
+  "patch": "candidate.patch",
+  "patch_sha256": "732cd9cd404e2aa8939d7e93ae47878e05c4b02f4e3c56f27550cb486f2aa952",
+  "integration_requirement": "Compare every current shared file with base_sha256. If changed, merge the specific additions with the current file; do not overwrite unrelated parallel work. Keep both tool edits together because uk_naturalness imports source_coverage from language_qa.",
+  "rule_evidence_sha256": "bdfc65b0153deebaa89be6b2cd7020c9c8ee33da51d6049c6061dbc2ea838529",
+  "validation": "VALIDATION.json",
+  "validation_sha256": "6b7894feb0f6b3b0e779e8b4fc89f53f46fd93b27edda2d61c9aa86f5a3cd3be"
+}

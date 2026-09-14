@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "status": "passed_for_candidate_scope",
+  "results": [
+    {
+      "check": "naturalness_and_coverage_behavior",
+      "command": "python3 -m unittest discover -s tests -p test_uk_naturalness.py -v",
+      "cwd": "/tmp/uk-native-rules-20260914/candidate",
+      "tests": 20,
+      "exit_code": 0,
+      "observed_result": "OK",
+      "tested_files": {
+        "tools/language_qa.py": "461df2ae8b7f02f0eda69a465efb5981390d59db5547199c0fd2eadd9bd709f3",
+        "tools/uk_naturalness.py": "47177668c0de4da40c3a68f9cdd874b9e6ce5695a4b48c0b6aa3410294643a36",
+        "tests/test_uk_naturalness.py": "1c9673b6672e62ba519771e2d9f5685b39d9ea8c036c061d47201ebe40efd931"
+      }
+    },
+    {
+      "check": "existing_language_system_regressions",
+      "command": "python3 -m unittest test_language_system.LanguageSystemTests.test_ukrainian_letters_apostrophes_and_english_headings test_language_system.LanguageSystemTests.test_language_signals_do_not_claim_full_grammar_review test_language_system.LanguageSystemTests.test_calque_signal_respects_ukrainian_apostrophes -v",
+      "cwd": "/tmp/uk-native-rules-20260914/candidate/tests",
+      "tests": 3,
+      "exit_code": 0,
+      "observed_result": "OK",
+      "scope": "Existing Unicode/apostrophe extraction and language_qa behavior. The later gaze-only rule addition does not alter these tested files."
+    },
+    {
+      "check": "skill_frontmatter_and_structure",
+      "command": "python3 /home/alexi/.codex/skills/.system/skill-creator/scripts/quick_validate.py /tmp/uk-native-rules-20260914/candidate/.agents/skills/book-language-review",
+      "exit_code": 0,
+      "observed_result": "Skill is valid!",
+      "tested_file_sha256": "24d3969b00e680b0aef632c83fedf2c9a35a0e42b78b373ba1773e2b6595c34d"
+    },
+    {
+      "check": "patch_applies_cleanly_to_recorded_bases",
+      "command": "git apply --check --whitespace=error-all /home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/rules-work/candidate.patch",
+      "cwd": "/tmp/uk-native-rules-20260914/base",
+      "exit_code": 0,
+      "patch_sha256": "732cd9cd404e2aa8939d7e93ae47878e05c4b02f4e3c56f27550cb486f2aa952",
+      "scope": "Dry run against preserved bases only; no application to current shared files."
+    }
+  ],
+  "mechanical_reproduction": "validation-v1/REPRODUCTION.json",
+  "not_established": [
+    "Full literary quality of any new draft",
+    "Reading of stories 02 and 03 by this rules task",
+    "A normative error wherever a new contextual signal appears",
+    "Author-approved personal Ukrainian style"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "candidate_shared_rules_not_author_style_samples",
+  "created_at": "2026-09-14T19:25:14.398251+00:00",
+  "independent_initial_diagnosis": "INITIAL-DIAGNOSIS.json",
+  "diagnosis_correction": "DIAGNOSIS-ADDENDUM-1.json",
+  "reading_scope": {
+    "story-01-reptiloids": {
+      "version": "draft-v4",
+      "source_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+      "read_target_nonempty_units": "1-58",
+      "purpose": "Contextual reading for narrowly supported shared rules",
+      "reader": "Astra rules agent",
+      "independent_target_only_review": false,
+      "reason": "Parent editorial candidates were known before this contextual reading; source was not read and this is not the final revision."
+    },
+    "story-02-fair-killer": {
+      "prose_read": false,
+      "mechanical_scan_only": true
+    },
+    "story-03-chaos-logic": {
+      "prose_read": false,
+      "mechanical_scan_only": true
+    }
+  },
+  "normative_claims_added": [],
+  "authority_boundary": "The additions are process invariants and contextual editorial criteria. No new dictionary/orthographic prohibition and no author-approved individual style rule is asserted. Existing reference links are preserved, not re-certified.",
+  "rules": [
+    {
+      "id": "UK-COVERAGE-001",
+      "type": "confirmed_process_and_reporting_defect",
+      "evidence": "validation-v1/REPRODUCTION.json",
+      "finding": "Legacy source_units counts empty lines. The baseline TXT totals 115/471/619 correspond to 58/236/310 nonempty units, totaling 604 target units. Source IDs have a separate denominator.",
+      "change": "Keep p/start and source_units stable; add explicit blank/nonempty counts and source_unit_kind to both scanners.",
+      "scope": "All supported text and DOCX scans; this is extraction accounting, not reading.",
+      "negative_control": "Hard-wrapped TXT lines are not renamed as literary paragraphs. Blank DOCX paragraphs and excluded parts remain visible."
+    },
+    {
+      "id": "UK-COVERAGE-002",
+      "type": "confirmed_process_risk",
+      "evidence": "INITIAL-DIAGNOSIS.json and parent report of prior 21/600 source-ID rereading",
+      "finding": "Zero configured signals and a matching hash cannot establish native prose or completed reading. The historical 21/600 reading figure is parent-supplied, not revalidated by this task.",
+      "change": "Expose reading_coverage as not_assessed_by_this_tool with null reviewed count; require factual reader ranges in the separate language report and identify source versus target numbering.",
+      "scope": "Full language review claims; do not turn a generated list of all IDs into reading evidence.",
+      "negative_control": "Resolving every signal, including a resolutions file claiming complete reading, does not promote scanner reading coverage or literary quality."
+    },
+    {
+      "id": "UK-ACTION-001",
+      "type": "contextual_style_choice",
+      "status": "editorial_candidate",
+      "evidence": {
+        "source": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/target.uk.txt",
+        "source_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+        "target_nonempty_unit_ordinal": 25,
+        "p": 49,
+        "p_unit": "physical_text_line_including_blank",
+        "start": 50,
+        "end": 102,
+        "quote": "глянувши на нього своїми золотавими тонкими зіницями",
+        "context": "Чоловіки перезирнулися. Першим зняв маску Андрій, глянувши на нього своїми золотавими тонкими зіницями."
+      },
+      "origin": "Parent supplied a working candidate; quote and local context independently checked against the specified target file.",
+      "finding": "The instrument of looking draws attention to an unintended physical mechanism; the pupil description may still serve the reveal.",
+      "change": "Add a narrow contextual detector pupils_as_gaze_instrument and a reading criterion for actor/action/instrument/image. Do not apply a replacement.",
+      "scope": "Only a gaze-verb construction followed by своїми and up to three modifiers before зіницями, within one sentence span.",
+      "exceptions": [
+        "Intentional metonymy",
+        "Personification",
+        "Deliberate fantastic anatomy"
+      ],
+      "negative_control": [
+        "Глянув на кота з вузькими зіницями.",
+        "Уже дві пари вертикальних зіниць дивилися на веселуна.",
+        "Він глянув своїми втомленими очима."
+      ],
+      "author_approved": false,
+      "normative_prohibition": false
+    },
+    {
+      "id": "UK-EMOTION-001",
+      "type": "contextual_style_choice",
+      "status": "editorial_candidate",
+      "evidence": {
+        "source": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/target.uk.txt",
+        "source_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+        "target_nonempty_unit_ordinal": 11,
+        "p": 21,
+        "p_unit": "physical_text_line_including_blank",
+        "start": 43,
+        "end": 78,
+        "quote": "сповнюючи простір гумором і щирістю",
+        "context": "Кухнею прокотився гучний, заразливий сміх, сповнюючи простір гумором і щирістю. Ясна річ, ніякої ящірки там не було. Лише усміхнене обличчя Дімона після посередньої пантоміми."
+      },
+      "origin": "Parent working candidate, followed by target-context reading.",
+      "finding": "The abstract explanation follows already audible laughter; a contextual edit can remove the extra explanation while keeping the emotional reaction.",
+      "change": "Add a reading criterion for emotion restated after a shown response, preserving the actual action. No general regex for abstract nouns.",
+      "scope": "Narrator explanation that duplicates an already presented response in this scene.",
+      "negative_control": "Я ціную твою щирість.",
+      "author_approved": false,
+      "normative_prohibition": false
+    },
+    {
+      "id": "UK-NO-BAN-001",
+      "type": "contextual_style_choice",
+      "status": "do_not_generalize_as_ban",
+      "evidence": {
+        "source": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/target.uk.txt",
+        "source_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+        "target_nonempty_unit_ordinal": 8,
+        "p": 15,
+        "p_unit": "physical_text_line_including_blank",
+        "start": 0,
+        "end": 38,
+        "quote": "Усі погляди зосередилися на сталеварі.",
+        "context": "Усі погляди зосередилися на сталеварі. Він підвівся й удав, ніби повільно знімає маску. «Уууууаааа», — простогнав він, і мужики голосно розреготалися."
+      },
+      "origin": "Parent proposed a more active local alternative.",
+      "finding": "A local preference for an active verb does not establish that the original construction is an error in every scene.",
+      "change": "Keep this outside automated forbidden formulas; assess the sentence in its scene.",
+      "negative_control": "Усі погляди зосередилися на гостеві.",
+      "author_approved": false,
+      "normative_prohibition": false
+    },
+    {
+      "id": "UK-DIALOGUE-001",
+      "type": "contextual_style_choice",
+      "status": "editorial_candidate_not_lexical_ban",
+      "evidence": {
+        "source": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/target.uk.txt",
+        "source_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+        "target_nonempty_unit_ordinal": 45,
+        "p": 89,
+        "p_unit": "physical_text_line_including_blank",
+        "start": 144,
+        "end": 173,
+        "quote": "тут явно коїться якась дичина",
+        "context": "— Дімоне, якби я не знав тебе стільки років, то подумав би, що ти схибнувся, і відвіз би тебе до лікарні. Не знаю, як там щодо рептилоїдів, але тут явно коїться якась дичина. Ти як, заспокоївся? Ходімо перевіримо, — запропонував Олег."
+      },
+      "origin": "Parent working candidate; corrected anchor is target unit 45 / physical line 89, not target unit 44.",
+      "finding": "The slang meaning belongs to the speaker and exchange; changing it needs a contextual register decision.",
+      "change": "Clarify conversational-meaning review and keep дичина out of global lexical bans or automatic replacements.",
+      "scope": "Colloquial function, surrounding reply and voice; not a normative assertion about the word.",
+      "negative_control": [
+        "Тут коїться якась дичина.",
+        "Мисливець приніс дичину."
+      ],
+      "author_approved": false,
+      "normative_prohibition": false
+    }
+  ],
+  "unchanged_author_profile": {
+    "path": "BOOK_SYSTEM/LANGUAGES/uk/OLEK_UA_STYLE.md",
+    "sha256": "7362b531353937dee0711a3071a3ce3d606a9a04949fe9ad2ffce09029e776d0",
+    "reason": "No new author-edited gold sample was provided; general editorial findings must not become individual author-approved preferences."
+  }
+}

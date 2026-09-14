@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:31:24+00:00",
+  "role": "flash",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash-high",
+  "target": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+    "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+  },
+  "source": {
+    "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/sources/originals/Рептилоиды.docx",
+    "sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408"
+  },
+  "inputs": [
+    {
+      "label": "ukrainian.txt",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/native-2026-09-14/astra-r1/target.uk.txt",
+      "sha256": "5a9c9cbb2c7d505d0793b8889e027e4d037b154a8576b8b200b6fd817acc7e58"
+    },
+    {
+      "label": "Russian source",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/review-config/story-01-reptiloids/source-ru.txt",
+      "sha256": "73171dd95f3b0f8d418bd8e0d6b2b20b59b61e884b6100576d0350f670948063"
+    },
+    {
+      "label": "Style and explicit author intent",
+      "path": "/home/alexi/books/stories-ru-uk-pilot/adaptation/native-review-2026-09-14/review-config/story-01-reptiloids/context.txt",
+      "sha256": "47468980e85e051eaf87b5bfb487f58538c327d80a1b54bab082923abb4ef805"
+    }
+  ],
+  "prompt_sha256": "b69b5fb1b7d2b942057616f5a34646c50a81ad0ced7816eee3aa041df4b408c0",
+  "isolation": "Fresh external process; all inputs embedded; sandbox/safe mode; no permitted model tools or MCP.",
+  "input_delivery": "embedded_in_prompt",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 102.01,
+  "resolved_model_id": "gemini-3.8-flash-high",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "1ac37b57-6b0f-4c5d-bcf9-90e1cfa017d2",
+  "usage": {
+    "input_tokens": 29934,
+    "output_tokens": 24923,
+    "thinking_tokens": 21401,
+    "cache_read_tokens": 0,
+    "total_tokens": 54857
+  },
+  "denied_actions": [],
+  "report_sha256": "2ed5b383783c19283685ae858a6f580beb5f73addf85067f91aab48d47468895"
+}

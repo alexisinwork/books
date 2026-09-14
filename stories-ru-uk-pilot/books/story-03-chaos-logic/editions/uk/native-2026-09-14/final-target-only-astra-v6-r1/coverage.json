@@ -1,0 +1,167 @@
+{
+  "status": "final",
+  "review_type": "independent_target_only_uk_language_review",
+  "reading_nature": "simulated_model_reading_not_a_live_human_response",
+  "reviewer": {
+    "client": "Codex",
+    "model_family": "GPT-6",
+    "exact_api_model_id": null,
+    "metadata_limit": "Точний API model ID у цьому інтерфейсі не надано; назва каталогу не вважається доказом моделі."
+  },
+  "target_file": "/home/alexi/books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v6/target.uk.txt",
+  "target_sha256": "ee4228a4edcf37e29dc0ebb22d006e165989f41cd9fc5ac8d20c4557b24a9379",
+  "target_bytes": 124705,
+  "physical_lines_total": 619,
+  "numbering": "Наскрізний ordinal непорожніх рядків TXT, від 1; один непорожній рядок є однією цільовою одиницею. Шість заголовків глав включено до 310 одиниць.",
+  "nonempty_paragraphs_total": 310,
+  "nonempty_paragraphs_read": 310,
+  "chapter_headings_read": 6,
+  "prose_or_dialogue_units_read": 304,
+  "reading_order": "sequential",
+  "actual_reading_ranges": [
+    {
+      "sequence": 1,
+      "from_nonempty_ordinal": 1,
+      "to_nonempty_ordinal": 55,
+      "units_read": 55,
+      "from_physical_line": 1,
+      "to_physical_line": 109,
+      "method": "Повний текст діапазону виведено й прочитано послідовно, без лексичної фільтрації."
+    },
+    {
+      "sequence": 2,
+      "from_nonempty_ordinal": 56,
+      "to_nonempty_ordinal": 110,
+      "units_read": 55,
+      "from_physical_line": 111,
+      "to_physical_line": 219,
+      "method": "Повний текст діапазону виведено й прочитано послідовно, без лексичної фільтрації."
+    },
+    {
+      "sequence": 3,
+      "from_nonempty_ordinal": 111,
+      "to_nonempty_ordinal": 165,
+      "units_read": 55,
+      "from_physical_line": 221,
+      "to_physical_line": 329,
+      "method": "Повний текст діапазону виведено й прочитано послідовно, без лексичної фільтрації."
+    },
+    {
+      "sequence": 4,
+      "from_nonempty_ordinal": 166,
+      "to_nonempty_ordinal": 220,
+      "units_read": 55,
+      "from_physical_line": 331,
+      "to_physical_line": 439,
+      "method": "Повний текст діапазону виведено й прочитано послідовно, без лексичної фільтрації."
+    },
+    {
+      "sequence": 5,
+      "from_nonempty_ordinal": 221,
+      "to_nonempty_ordinal": 270,
+      "units_read": 50,
+      "from_physical_line": 441,
+      "to_physical_line": 539,
+      "method": "Повний текст діапазону виведено й прочитано послідовно, без лексичної фільтрації."
+    },
+    {
+      "sequence": 6,
+      "from_nonempty_ordinal": 271,
+      "to_nonempty_ordinal": 310,
+      "units_read": 40,
+      "from_physical_line": 541,
+      "to_physical_line": 619,
+      "method": "Повний текст діапазону виведено й прочитано послідовно, без лексичної фільтрації."
+    }
+  ],
+  "unread_ranges": [],
+  "unread_units": 0,
+  "last_read_nonempty_ordinal": 310,
+  "last_read_physical_line": 619,
+  "last_read_line": "Хаос вносить безлад у наші плани, і саме це робить його таким дивовижним. Він робить життя цікавим і вартим того, щоб його прожити. Ave, kháos!",
+  "allowed_instructions_read": [
+    "/home/alexi/books/.agents/skills/book-language-review/SKILL.md",
+    "/home/alexi/books/BOOK_SYSTEM/ADAPTATION/prompts/target-only-uk.md"
+  ],
+  "other_manuscripts_canon_prior_reports_or_adapter_explanations_read": false,
+  "other_models_invoked": false,
+  "manuscript_edited": false,
+  "automated_operations_separate_from_reading": [
+    "SHA-256 і підрахунок рядків та непорожніх одиниць",
+    "Нумероване виведення шести повних послідовних діапазонів",
+    "Точна перевірка всіх цитат у зазначених непорожніх абзацах",
+    "Повторна перевірка незмінності SHA-256 перед записом звіту"
+  ],
+  "automated_lexical_scanners_used": false,
+  "findings": [
+    {
+      "id": "TUK-V6-01",
+      "classification": "confirmed_defect",
+      "severity": "minor",
+      "category": "punctuation",
+      "chapter": 1,
+      "nonempty_paragraph_ordinal": 61,
+      "physical_line": 121,
+      "quote": "— Так, — удавано весело, завзято й із невгамовним ентузіазмом, відповів особовий склад.",
+      "effect": "Кома після «ентузіазмом» без синтаксичної підстави відділяє обставини способу дії від присудка.",
+      "minimal_correction": "— Так, — удавано весело, завзято й із невгамовним ентузіазмом відповів особовий склад.",
+      "confidence": "high"
+    },
+    {
+      "id": "TUK-V6-02",
+      "classification": "confirmed_defect",
+      "severity": "minor",
+      "category": "punctuation",
+      "chapter": 2,
+      "nonempty_paragraph_ordinal": 130,
+      "physical_line": 259,
+      "quote": "Але все ж, який мотив міг бути в містера Вольфа?",
+      "effect": "Частка «все ж» тут не є вставним висловом; кома необґрунтовано розриває запитання.",
+      "minimal_correction": "Але все ж який мотив міг бути в містера Вольфа?",
+      "confidence": "high"
+    }
+  ],
+  "contextual_observations": [
+    {
+      "id": "OBS-01",
+      "classification": "contextual_style_choice",
+      "chapter": 1,
+      "nonempty_paragraph_ordinal": 21,
+      "physical_line": 41,
+      "quote": "Досяг мети — дядечко Дофамін приніс твоєму мозку приємний тортик.",
+      "observation": "Розгорнутий відступ про сучасність і гормони в абзацах 21–23 на певний час сповільнює сцену. Водночас він підтримує балакучий, іронічний голос Гаррі.",
+      "confidence": "medium",
+      "required_edit": false
+    },
+    {
+      "id": "OBS-02",
+      "classification": "preserve_for_function",
+      "chapter": 3,
+      "nonempty_paragraph_ordinal": 177,
+      "physical_line": 353,
+      "quote": "А знаєш, що було б краще? Не втратити ногу!",
+      "observation": "Репліка повертає жарти про ногу до реального болю Ульріха й зберігає відмінність його голосу від легковажного підбадьорювання братів.",
+      "confidence": "high",
+      "required_edit": false
+    },
+    {
+      "id": "OBS-03",
+      "classification": "preserve_for_function",
+      "chapter": 6,
+      "nonempty_paragraph_ordinal": 305,
+      "physical_line": 609,
+      "quote": "І вийшло ж!",
+      "observation": "Коротка репліка Чарльза перед реакцією Гаррі в абзаці 306 робить фінальний конфлікт виразним без додаткового пояснення його самовиправдання.",
+      "confidence": "high",
+      "required_edit": false
+    }
+  ],
+  "expectation_anchor": {
+    "chapter": 2,
+    "nonempty_paragraph_ordinal": 162,
+    "physical_line": 323,
+    "quote": "До речі, чому він досі нікому нічого не розповів?"
+  },
+  "unresolved_language_questions": [],
+  "conclusion": "Суттєвих мовних помилок чи неясності носія дії в цьому проході не виявлено. Зафіксовано дві дрібні пунктуаційні помилки; висновок не є гарантією відсутності всіх можливих огріхів."
+}

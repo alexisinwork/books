@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-14",
+  "coordinator": "Codex / root",
+  "scope": "Coordinator read every final target-only report in full, checked claims against prior reconciliation and protected author decisions. Editorial completion does not assign canonical approval.",
+  "books": [
+    {
+      "book_id": "story-01-reptiloids",
+      "target_sha256": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c",
+      "report_sha256": "c357583c84acd468bc91a08cd1f64ec3685c6328b7793e7e6c9ad40bc508fbf2",
+      "coverage_sha256": "4fc2e48f99447f0ee5c6c966a0933634e02854ca682858f58a317a91268609c0",
+      "coordinator_read_report": true,
+      "remaining_confirmed_language_defects": 0,
+      "optional_observations_disposition": "The long pseudo-scholarly monologue serves the speaker; author-selected egg joke and final tense preserved.",
+      "prior_qa_assessment_sha256": "e03f16adcef7cef50220171cf94442bd651acd121c2137a4865bab1711d6a1f8"
+    },
+    {
+      "book_id": "story-02-fair-killer",
+      "target_sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
+      "report_sha256": "87a9559bbed016c39e788cb6ee13ae62e64141f2172fb50f281070aa8282c54e",
+      "coverage_sha256": "8c8ee1dc6ae3aaa65c56af5133dc61dd1087dcd1087f2782c1e96f3baa338e49",
+      "coordinator_read_report": true,
+      "remaining_confirmed_language_defects": 0,
+      "optional_observations_disposition": "Both optional points retained for function: author-approved acoustic refrain, and sustained personification of the soul in Light’s monologue.",
+      "prior_qa_assessment_sha256": "cbae1653a8ce7ac10327bf66dd90677e564f5e20e2177792d0e8989ad843cdc6"
+    },
+    {
+      "book_id": "story-03-chaos-logic",
+      "target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
+      "report_sha256": "fedcb7b832a1c6853249bbb0f01104c64e8d7a3d37b71771d8b7daa12bc8ec70",
+      "coverage_sha256": "51394a876dbb604428a3f0400b1bfb1ab3f5e92cf587a818f702f47589b810a7",
+      "coordinator_read_report": true,
+      "remaining_confirmed_language_defects": 0,
+      "optional_observations_disposition": "Expository pace is a stylistic choice. Nika’s past and Ryazantsev’s motive remain explicitly unresolved source material, not new language defects.",
+      "prior_qa_assessment_sha256": "9bfc830606e88684f6ae5f5e9a699df1a33079bb6b84f8632ce4c18389762aef"
+    }
+  ]
+}

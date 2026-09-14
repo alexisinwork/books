@@ -1,0 +1,1360 @@
+I0914 21:44:21.501497       1 resolver.go:85] Model ID claude-opus-4-6-thinking not in local config, defaulting to CCPA
+I0914 21:44:21.501544       1 resolver.go:111] Model resolved via default
+I0914 21:44:21.501649      66 server.go:1560] Starting language server process with pid 557227
+I0914 21:44:21.501885      66 server.go:1613] Language server version: 1.2.2
+I0914 21:44:21.501894      66 server.go:613] Language server will attempt to listen on host localhost
+I0914 21:44:21.504548      66 server.go:628] Language server listening on random port at 45491 for HTTPS (gRPC)
+I0914 21:44:21.504607      66 server.go:636] Language server listening on random port at 38077 for HTTP
+W0914 21:44:21.699374      65 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.699430      65 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.699897      65 errorreport.go:224] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.699982      65 model_configs.go:65] Auth mode is unspecified, skipping fetchAvailableModels and returning empty response
+I0914 21:44:21.700962     103 store_client.go:680] summary store: starting background reconciliation (trigger=startup)
+W0914 21:44:21.702394      66 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.702425      66 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.702498      66 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.702513      66 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.702636      66 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.702655      66 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.702722      66 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.702743      66 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.702807      66 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.702827      66 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.702905      66 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.702965      66 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.703600     103 store_client.go:730] summary store: reconciliation complete, synced 24 records
+W0914 21:44:21.703688     103 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.703725     103 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.703833     103 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.703853     103 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.704146      66 launchmanager.go:69] Entering local chrome mode! This is WRONG unless you are running tests or in eval mode on Linux.
+W0914 21:44:21.704668      66 defaults.go:778] failed to get cs path: cs path /usr/bin/cs invalid
+I0914 21:44:21.704707      66 manager.go:108] Creating trajectory store manager with proto store and SQLite store
+W0914 21:44:21.705341      66 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.705425      66 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.705510      66 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.705531      66 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.706130     162 manager.go:88] Migration [MIGRATION_ID_SIDECAR_USER_CONFIG_BYPASS] is disabled, skipping entirely
+I0914 21:44:21.706216     162 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I0914 21:44:21.706381     162 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I0914 21:44:21.706421     162 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I0914 21:44:21.706513     162 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I0914 21:44:21.706522     162 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I0914 21:44:21.706607     162 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I0914 21:44:21.706615     162 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I0914 21:44:21.715575      66 server.go:3003] Auth succeeded, refreshing features and managers
+W0914 21:44:21.715630      66 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.715652      66 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.715792      66 errorreport.go:224] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.715846      66 server.go:3009] State refresh took 0ms
+I0914 21:44:21.715851      66 server.go:3019] [RemoteControl] Subscription callback triggered.
+I0914 21:44:21.715998      66 server.go:3022] [RemoteControl] RemoteControlEnabled value: false
+I0914 21:44:21.716011      66 server.go:3637] [RemoteControl] Session toggle is off, staying disconnected
+I0914 21:44:21.716016      66 server.go:3348] [RemoteControl] Resolved proxyServerURL: ""
+I0914 21:44:21.716069      66 profiler.go:231] Continuous pprof profiling is disabled.
+I0914 21:44:21.716171     168 manager.go:88] Migration [MIGRATION_ID_SIDECAR_USER_CONFIG_BYPASS] is disabled, skipping entirely
+I0914 21:44:21.716240     168 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I0914 21:44:21.716310      66 server.go:2505] initialized server successfully in 214.625211ms
+I0914 21:44:21.716373     168 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I0914 21:44:21.716391     168 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I0914 21:44:21.716419     168 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I0914 21:44:21.716422     168 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I0914 21:44:21.716443     168 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I0914 21:44:21.716447     168 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+W0914 21:44:21.716564     171 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.716577       1 auto_updater.go:252] Last check was less than 15 minutes ago, skipping update (fast path)
+E0914 21:44:21.716588     171 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.716604       1 common.go:150] Launching CLI mode
+E0914 21:44:21.716613       1 launchsteps.go:84] Failed to resolve GeminiDir ".gemini": .gemini must be an absolute path: path is not absolute, falling back to default
+I0914 21:44:21.716628       1 common.go:172] CLI app data directory: /home/alexi/.gemini/antigravity-cli
+I0914 21:44:21.716673       1 server.go:299] Creating CLI server backend: product=antigravity workspaceDirs=[/tmp/literary-model-rji2ljq9] appDataDir=/home/alexi/.gemini/antigravity-cli cascadeManager=true codeAssist=true
+W0914 21:44:21.716736     171 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.716763     171 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.716737       1 composite_token_storage.go:123] Using file-based token storage because WSL environment detected
+I0914 21:44:21.716838       1 auth_provider.go:763] [AuthProvider] SetEnableBusinessLogin called with enable: true
+W0914 21:44:21.716898     195 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.716934     195 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.717002     195 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.717022     195 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.717958     197 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.717977     197 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.718021       1 server.go:2091] Backend project ID updated dynamically to: default-cli-project
+I0914 21:44:21.718033       1 analytics.go:179] CLI startup completed (took 218.133151ms)
+I0914 21:44:21.718057       1 printmode.go:174] Print mode: starting (promptLength=3653, model="claude-opus-4-6-thinking", conversationID="")
+W0914 21:44:21.718072     197 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.718069       1 manager.go:426] Initializing CLI store manager for workspace /tmp/literary-model-rji2ljq9
+E0914 21:44:21.718087     197 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.718155     197 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.718175     197 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.718249     197 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.718264     197 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.718300       1 cli_setting_manager.go:79] config.json not found or unreadable, using CLI settings only: open /home/alexi/.gemini/config/config.json: no such file or directory
+I0914 21:44:21.718323       1 cli_setting_manager.go:92] CLI settings initialized: permissions=<nil>, toolPermission=request-review
+W0914 21:44:21.718328     197 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.718346     197 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.718407       1 hooks_manager.go:53] loaded 0 named hooks from 0 hooks.json file(s)
+W0914 21:44:21.718412     197 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.718419       1 manager.go:600] CLI store manager initialized successfully
+I0914 21:44:21.718425       1 session.go:68] Print mode: --dangerously-skip-permissions set, auto-approving all tool permissions
+E0914 21:44:21.718428     197 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.718442       1 session.go:77] Print mode: enabling terminal sandbox for this session
+I0914 21:44:21.718445       1 printmode.go:715] Print mode: applying agent mode plan
+I0914 21:44:21.718449       1 manager.go:1352] SetCycleMode called: plan
+I0914 21:44:21.718459       1 printmode.go:365] Print mode: not authenticated, trying silent auth
+W0914 21:44:21.718493     197 cache.go:135] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.718503     197 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W0914 21:44:21.718538     197 cache.go:135] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E0914 21:44:21.718546     197 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I0914 21:44:21.718585      78 keyring.go:64] keyringAuth: loaded token, expiry=2026-09-14 22:39:54.770617425 +0200 CEST expired=false
+I0914 21:44:21.718608       1 auth.go:148] ChainedAuth: authenticated via keyring (effective: keyring)
+I0914 21:44:21.718612       1 server_oauth.go:192] applyAuthResult: email=alexisinwork@gmail.com, authMethod=consumer, quotaProject=
+I0914 21:44:21.718616       1 server_oauth.go:197] OAuth: authenticated successfully as alexisinwork@gmail.com
+I0914 21:44:21.718619       1 server_oauth.go:203] b.codeAssistClient.AuthProvider (0x21fde33641e0) is same as b.cliAuth (0x21fde33641e0)
+W0914 21:44:21.718740     244 cache.go:163] Failed to refresh cache in background: admin controls not applicable
+W0914 21:44:21.718783     220 cache.go:163] Failed to refresh cache in background: admin controls not applicable
+E0914 21:44:22.180546      38 browser_context.go:179] failed to install playwright: could not install driver: could not install driver: error: got non 200 status code: 404 (404 Not Found) from https://playwright.azureedge.net/builds/driver/playwright-1.57.0-linux.zip
+error: got non 200 status code: 404 (404 Not Found) from https://playwright-akamai.azureedge.net/builds/driver/playwright-1.57.0-linux.zip
+error: got non 200 status code: 404 (404 Not Found) from https://playwright-verizon.azureedge.net/builds/driver/playwright-1.57.0-linux.zip
+I0914 21:44:22.249165     243 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4b62b4abea845c60
+I0914 21:44:22.468084      80 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe75457a180b52794
+I0914 21:44:22.476122       1 model_resolver.go:93] Resolving model claude-opus-4-6-thinking
+I0914 21:44:22.476154       1 model_config_manager.go:327] Propagating selected model override to backend: label="Claude Opus 4.6 (Thinking)"
+I0914 21:44:22.476193       1 printmode.go:367] Print mode: silent auth succeeded
+I0914 21:44:22.476211     208 quota_manager.go:45] doRefreshQuota: starting reload (force=true)
+I0914 21:44:22.476226     209 experiment_manager.go:56] Starting experiment refresh after login
+I0914 21:44:22.543016     209 server.go:3637] [RemoteControl] Session toggle is off, staying disconnected
+I0914 21:44:22.543040     209 server.go:3348] [RemoteControl] Resolved proxyServerURL: ""
+I0914 21:44:22.543047     209 experiment_manager.go:60] Experiments refreshed after login
+I0914 21:44:22.543091      27 manager.go:1281] Reloading system slash commands
+I0914 21:44:22.952124     324 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x94a23c74a1c7ffc
+I0914 21:44:23.395127     324 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x16121842ae541b2b
+I0914 21:44:23.514341     324 model_resolver.go:93] Resolving model claude-opus-4-6-thinking
+I0914 21:44:23.514359     324 model_config_manager.go:327] Propagating selected model override to backend: label="Claude Opus 4.6 (Thinking)"
+I0914 21:44:23.514422     326 model_resolver.go:93] Resolving model claude-opus-4-6-thinking
+I0914 21:44:23.514427     326 model_config_manager.go:327] Propagating selected model override to backend: label="Claude Opus 4.6 (Thinking)"
+I0914 21:44:23.514436     208 quota_manager.go:45] doRefreshQuota: starting reload (force=true)
+I0914 21:44:23.514472     209 experiment_manager.go:56] Starting experiment refresh after login
+I0914 21:44:23.526572       1 model_resolver.go:93] Resolving model claude-opus-4-6-thinking
+I0914 21:44:23.526595       1 conversation_manager.go:451] Starting new conversation (agent=false)
+I0914 21:44:23.526628       1 server.go:1142] Creating new cascade trajectory (agentScript=false)
+I0914 21:44:23.526637       1 server.go:1145] Conversation using project ID: default-cli-project
+I0914 21:44:23.564706       1 server.go:1177] Created conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482
+I0914 21:44:23.564773       1 server.go:3088] GetConversationDetail: found conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 (active=true)
+I0914 21:44:23.565190       1 server.go:3088] GetConversationDetail: found conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 (active=true)
+I0914 21:44:23.565217       1 conversation_manager.go:498] project: switching to conversation belonging to project ID: default-cli-project
+I0914 21:44:23.565250       1 server.go:2091] Backend project ID updated dynamically to: default-cli-project
+I0914 21:44:23.565255       1 cli_setting_manager.go:218] ApplyProjectPermissionGrants: no grants for project "CLI Project", cleared project permissions
+I0914 21:44:23.565262       1 conversation_manager.go:544] project: synced active project to "CLI Project" (id=default-cli-project) from conversation switch
+I0914 21:44:23.565286       1 conversation_manager.go:821] Streaming conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482
+I0914 21:44:23.565321     356 manager.go:1304] Reloading system slash commands and skills
+I0914 21:44:23.565337     356 manager.go:1281] Reloading system slash commands
+I0914 21:44:23.565333       1 server.go:3088] GetConversationDetail: found conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 (active=true)
+I0914 21:44:23.565722       1 server.go:1186] Starting conversation update stream for c9cf1c17-ae2c-4db7-971d-bac64e67f482
+I0914 21:44:23.565753       1 session.go:168] Print mode: conversation=c9cf1c17-ae2c-4db7-971d-bac64e67f482, sending message
+I0914 21:44:23.565782       1 manager.go:1281] Reloading system slash commands
+I0914 21:44:23.569022       1 manager.go:1285] Slash commands unchanged, skipping update
+I0914 21:44:23.569046       1 printmode.go:776] Print mode: expanded slash command "plan" (system)
+I0914 21:44:23.569073       1 conversation_manager.go:633] Forwarding user message to conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 (items=2, media=0)
+I0914 21:44:23.569079       1 server.go:1745] Sending user message to conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 (items=2, media=0)
+I0914 21:44:23.570684     356 manager.go:1285] Slash commands unchanged, skipping update
+I0914 21:44:23.571138       1 latency_breakdown.go:142] SEND_USER_CASCADE_MESSAGE_LATENCY latency breakdown: map[active_user_state_latency_ms:0 blocking:false cascade_id:c9cf1c17-ae2c-4db7-971d-bac64e67f482 cascade_send_latency_ms:1 hydrate_slash_commands_latency_ms:0 load_trajectory_latency_ms:0 media_count:0 media_summaries_latency_ms:0 message_origin:AGENT_MESSAGE_ORIGIN_UNSPECIFIED refresh_browser_state_latency_ms:0 resolve_agent_config_latency_ms:0 save_media_latency_ms:0 saved_media_count:0 status:OK total_latency_ms:1 trajectory_id:6da207ee-4ae2-413a-a834-1569b5728fc4]
+W0914 21:44:23.595034     365 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "mcp_servers"
+W0914 21:44:23.595064     365 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "user_rules"
+W0914 21:44:23.595067     365 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "subagent_reminder"
+I0914 21:44:23.622333     209 server.go:3637] [RemoteControl] Session toggle is off, staying disconnected
+I0914 21:44:23.622352     209 server.go:3348] [RemoteControl] Resolved proxyServerURL: ""
+I0914 21:44:23.622358     209 experiment_manager.go:60] Experiments refreshed after login
+I0914 21:44:23.622414     565 manager.go:1281] Reloading system slash commands
+I0914 21:44:23.624935     565 manager.go:1285] Slash commands unchanged, skipping update
+I0914 21:44:23.994168     325 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2ab66c243e18e714
+I0914 21:44:24.026421     346 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa753b4af1cf256ab ResponseID: lk6oavrWL7jixN8Pp5-RoQg
+I0914 21:44:25.876008     557 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4ca5a1badac2eec0 ResponseID: req_vrtx_011Cf3uSuwoaGCzYFtkSkytZ
+I0914 21:44:34.174533     701 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4306907d69f125a4 ResponseID: req_vrtx_011Cf3uTWxiN2UWL1d4x6Qb5
+I0914 21:44:38.239324     808 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2ae960e1eb36d4ce ResponseID: req_vrtx_011Cf3uTqa9cmUB43T7pUfGx
+I0914 21:44:42.743386     855 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x53d21c0b602f5f54 ResponseID: req_vrtx_011Cf3uUAJXeKiQN7Ky7xMbL
+I0914 21:44:47.102103     899 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x81419d608d3a5b3b ResponseID: req_vrtx_011Cf3uUW4RKociAqPrbYu2i
+I0914 21:44:54.678219     999 run_command_handler.go:497] [sandbox-telemetry] emitting SANDBOX_COMMAND_BLOCKED event with extra=map[command_line:sha256sum books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/runs/2026-09-14-r4/ukrainian.txt 2>/dev/null; sha256sum books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/runs/2026-09-14-r3/ukrainian.txt 2>/dev/null; sha256sum books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/runs/2026-09-14-r2/ukrainian.txt 2>/dev/null; sha256sum books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/runs/2026-09-14-r1/ukrainian.txt 2>/dev/null command_output: exit_code:1 platform:linux]
+I0914 21:44:58.482916    1056 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x71b7f4ba3d6db55 ResponseID: req_vrtx_011Cf3uVEgyjR47dwALZdHru
+I0914 21:45:02.490823    1125 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5cf040e1988aa243 ResponseID: req_vrtx_011Cf3uVcYNksbbJPjEyWzto
+I0914 21:45:05.783931    1186 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x21be711830467062 ResponseID: req_vrtx_011Cf3uVt7FwVZwPGw1qD3hs
+I0914 21:45:10.668968    1250 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2a392a0215916b47 ResponseID: req_vrtx_011Cf3uW9TjYgBejvkzpNvnA
+I0914 21:45:16.560804    1355 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf5f6963f40ae20b2 ResponseID: req_vrtx_011Cf3uWev2jEZryjZPj3dyK
+I0914 21:45:20.735776    1361 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x435b3ec9a968c8ea ResponseID: req_vrtx_011Cf3uWvtDVruwHgaFqWCri
+I0914 21:45:27.960681    1610 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa0a96cf74f6209c7 ResponseID: req_vrtx_011Cf3uXX9FCHdu5vcC13EZ9
+I0914 21:45:38.500169    1760 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x96c38c62f4e4383a ResponseID: req_vrtx_011Cf3uY6gc95XD7cZAH5JVC
+I0914 21:45:52.414876    1792 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb4fb3eb41786232c ResponseID: req_vrtx_011Cf3uZJaVmpoUDX97CQbTN
+I0914 21:45:57.996504    1932 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x82de11ab60dfff93 ResponseID: req_vrtx_011Cf3uZi2eAyXKkkHqx1iy3
+I0914 21:46:01.932059    1995 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf4b3a5200c335ffe ResponseID: req_vrtx_011Cf3ua1kVkJUrdN84VYgcM
+I0914 21:46:11.135562    2180 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa9fa46a753af77a3 ResponseID: req_vrtx_011Cf3uaeMQbQRcgrLZLidsg
+I0914 21:46:19.315404    2372 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1d8cef413ad06c96 ResponseID: req_vrtx_011Cf3ubHqQQ4crHeY9MjCVG
+I0914 21:46:31.117777    2729 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4d00cbf5a2cff706 ResponseID: req_vrtx_011Cf3ucAAZnn8aVDGQV6kkU
+I0914 21:46:39.813814    2876 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2fa7179cd41f372a ResponseID: req_vrtx_011Cf3ucp9pjEKaEmGkpuCnN
+I0914 21:46:57.054162    3484 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xae4315c09d817587 ResponseID: req_vrtx_011Cf3ue2Qo37y7am5aDe5QU
+I0914 21:47:09.115520    3675 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8d4d6acf340805fb ResponseID: req_vrtx_011Cf3uesK8aBBwHh4JPGDcV
+I0914 21:47:14.101054     357 tool_confirmation_manager.go:170] Always-proceed: auto-approving tool confirmation "ViewFile" at step 57
+I0914 21:47:14.101085    3931 server.go:2395] Tool confirmation for conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 step 57 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:47:16.908030    4031 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfa320a86da9495fa ResponseID: req_vrtx_011Cf3ufV8fkF83gDSM86HuY
+I0914 21:47:20.130107     357 tool_confirmation_manager.go:170] Always-proceed: auto-approving tool confirmation "ViewFile" at step 59
+I0914 21:47:20.130139    4056 server.go:2395] Tool confirmation for conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 step 59 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:47:22.421667    4124 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x67d01e5420f6ff10 ResponseID: req_vrtx_011Cf3ufwLzwifN2tTYvSbHV
+I0914 21:47:33.249055    4260 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1f8e1e440093903a ResponseID: req_vrtx_011Cf3ugYWbMWqS5TjfA2MoP
+I0914 21:47:36.757730     357 tool_confirmation_manager.go:170] Always-proceed: auto-approving tool confirmation "ViewFile" at step 63
+I0914 21:47:36.757764    4271 server.go:2395] Tool confirmation for conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 step 63 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:47:39.322089    4374 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x115df67e290180e7 ResponseID: req_vrtx_011Cf3uhAZGuxzoxgLa6nym8
+I0914 21:49:03.528879    4455 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf0ca5f8451922b3e ResponseID: req_vrtx_011Cf3uoQCixifMktGDDCieq
+I0914 21:49:06.118648     357 tool_confirmation_manager.go:170] Always-proceed: auto-approving tool confirmation "ViewFile" at step 66
+I0914 21:49:06.118685    4449 server.go:2395] Tool confirmation for conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 step 66 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:49:08.514876    4544 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x376e2ba7ca926202 ResponseID: req_vrtx_011Cf3uokXbnK29R6T5Smzvc
+I0914 21:49:19.183831    4754 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xea7e21b8535b8136 ResponseID: req_vrtx_011Cf3upXWno82FGhFCvT3y4
+I0914 21:49:21.833640     357 tool_confirmation_manager.go:170] Always-proceed: auto-approving tool confirmation "ViewFile" at step 70
+I0914 21:49:21.833671    4774 server.go:2395] Tool confirmation for conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 step 70 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:49:21.958698     357 tool_confirmation_manager.go:170] Always-proceed: auto-approving tool confirmation "ViewFile" at step 71
+I0914 21:49:21.958726    4463 server.go:2395] Tool confirmation for conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 step 71 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:49:25.320887    4758 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x658eecd423ae6f50 ResponseID: req_vrtx_011Cf3upvNDM6EfuKMJE3M83
+I0914 21:49:55.394918    5093 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x30e8d8cb19c44c0f
+I0914 21:49:55.654581    5094 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8238691b00cdc385
+I0914 21:49:57.568172    5163 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb8a3cebf3b1ae8c6 ResponseID: req_vrtx_011Cf3usNNT8HfgsyGiueZdZ
+I0914 21:50:06.375419    5526 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa5c4e3abbd6491a9 ResponseID: req_vrtx_011Cf3usyfjUutQ4MZgtQTCq
+I0914 21:50:19.297753    5815 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x23fca9b85c6be5f0 ResponseID: req_vrtx_011Cf3utwZWWQAPdG8UtGUY9
+I0914 21:50:40.760549    5808 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x93ec6df9c70166a0 ResponseID: D1CoauDEIbejvdIPpvapiAY
+I0914 21:50:43.606517    6039 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb8313213c2331dc2 ResponseID: req_vrtx_011Cf3uvnWrV5oPKTpq5jQ65
+W0914 21:51:26.146556    6284 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "mcp_servers"
+W0914 21:51:26.146584    6284 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "skills"
+W0914 21:51:26.195578    6354 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "mcp_servers"
+W0914 21:51:26.195606    6354 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "skills"
+W0914 21:51:26.240220    6461 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "mcp_servers"
+W0914 21:51:26.240241    6461 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "skills"
+I0914 21:51:31.583491    6426 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x10f6f9307db212ed ResponseID: PVCoaqSAIaaIvdIPsKLfoQs
+I0914 21:51:32.022147    6414 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbb5032e1e90be6f7 ResponseID: PVCoatXlH5qp28oPq7DSiQs
+I0914 21:51:32.105952    6270 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x97390fee7bca7cd1 ResponseID: PVCoavqLHOasvdIPupCQmQQ
+I0914 21:51:32.646248     357 subagent_manager.go:577] addFromDiff: auto-approving: 7272786c-95a3-4bf2-859b-17ff37493d63 step 2
+I0914 21:51:32.646267     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 7272786c-95a3-4bf2-859b-17ff37493d63 step 2
+I0914 21:51:32.646287    6556 server.go:2395] Tool confirmation for conversation 7272786c-95a3-4bf2-859b-17ff37493d63 step 2 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:33.017444     357 subagent_manager.go:577] addFromDiff: auto-approving: 7272786c-95a3-4bf2-859b-17ff37493d63 step 3
+I0914 21:51:33.017464     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 7272786c-95a3-4bf2-859b-17ff37493d63 step 3
+I0914 21:51:33.017492    6581 server.go:2395] Tool confirmation for conversation 7272786c-95a3-4bf2-859b-17ff37493d63 step 3 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:33.235391     357 subagent_manager.go:577] addFromDiff: auto-approving: 09afcb02-605b-48da-88a5-924c2603830b step 2
+I0914 21:51:33.235413     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 09afcb02-605b-48da-88a5-924c2603830b step 2
+I0914 21:51:33.235426    6628 server.go:2395] Tool confirmation for conversation 09afcb02-605b-48da-88a5-924c2603830b step 2 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:33.377237     357 subagent_manager.go:577] addFromDiff: auto-approving: 7272786c-95a3-4bf2-859b-17ff37493d63 step 4
+I0914 21:51:33.377256     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 7272786c-95a3-4bf2-859b-17ff37493d63 step 4
+I0914 21:51:33.377269    6640 server.go:2395] Tool confirmation for conversation 7272786c-95a3-4bf2-859b-17ff37493d63 step 4 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:33.692665    6491 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe67b8929284156b ResponseID: req_vrtx_011Cf3uz5kGmYfBLez1QhGuD
+I0914 21:51:33.695765     357 subagent_manager.go:577] addFromDiff: auto-approving: 09afcb02-605b-48da-88a5-924c2603830b step 3
+I0914 21:51:33.695785     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 09afcb02-605b-48da-88a5-924c2603830b step 3
+I0914 21:51:33.695805    6668 server.go:2395] Tool confirmation for conversation 09afcb02-605b-48da-88a5-924c2603830b step 3 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:33.766751     357 subagent_manager.go:577] addFromDiff: auto-approving: 7272786c-95a3-4bf2-859b-17ff37493d63 step 5
+I0914 21:51:33.766769     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 7272786c-95a3-4bf2-859b-17ff37493d63 step 5
+I0914 21:51:33.766804    6722 server.go:2395] Tool confirmation for conversation 7272786c-95a3-4bf2-859b-17ff37493d63 step 5 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:33.962424     357 subagent_manager.go:577] addFromDiff: auto-approving: 480314f3-49b1-4675-bcdf-4890570252f6 step 2
+I0914 21:51:33.962450     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 480314f3-49b1-4675-bcdf-4890570252f6 step 2
+I0914 21:51:33.962484    6739 server.go:2395] Tool confirmation for conversation 480314f3-49b1-4675-bcdf-4890570252f6 step 2 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:34.121704     357 subagent_manager.go:577] addFromDiff: auto-approving: 09afcb02-605b-48da-88a5-924c2603830b step 4
+I0914 21:51:34.121728     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 09afcb02-605b-48da-88a5-924c2603830b step 4
+I0914 21:51:34.121745    6759 server.go:2395] Tool confirmation for conversation 09afcb02-605b-48da-88a5-924c2603830b step 4 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:34.171392     357 subagent_manager.go:577] addFromDiff: auto-approving: 7272786c-95a3-4bf2-859b-17ff37493d63 step 6
+I0914 21:51:34.171412     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 7272786c-95a3-4bf2-859b-17ff37493d63 step 6
+I0914 21:51:34.171443    6737 server.go:2395] Tool confirmation for conversation 7272786c-95a3-4bf2-859b-17ff37493d63 step 6 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:34.180020     357 subagent_manager.go:577] addFromDiff: auto-approving: 7272786c-95a3-4bf2-859b-17ff37493d63 step 7
+I0914 21:51:34.180043     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 7272786c-95a3-4bf2-859b-17ff37493d63 step 7
+I0914 21:51:34.180076    6700 server.go:2395] Tool confirmation for conversation 7272786c-95a3-4bf2-859b-17ff37493d63 step 7 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:34.200394     357 subagent_manager.go:577] addFromDiff: auto-approving: 7272786c-95a3-4bf2-859b-17ff37493d63 step 8
+I0914 21:51:34.200411     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 7272786c-95a3-4bf2-859b-17ff37493d63 step 8
+I0914 21:51:34.200437    6835 server.go:2395] Tool confirmation for conversation 7272786c-95a3-4bf2-859b-17ff37493d63 step 8 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:34.632125     357 subagent_manager.go:577] addFromDiff: auto-approving: 09afcb02-605b-48da-88a5-924c2603830b step 5
+I0914 21:51:34.632142     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 09afcb02-605b-48da-88a5-924c2603830b step 5
+I0914 21:51:34.632156    6779 server.go:2395] Tool confirmation for conversation 09afcb02-605b-48da-88a5-924c2603830b step 5 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:34.663574     357 subagent_manager.go:577] addFromDiff: auto-approving: 09afcb02-605b-48da-88a5-924c2603830b step 6
+I0914 21:51:34.663601     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 09afcb02-605b-48da-88a5-924c2603830b step 6
+I0914 21:51:34.663620    6781 server.go:2395] Tool confirmation for conversation 09afcb02-605b-48da-88a5-924c2603830b step 6 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:34.675914     357 subagent_manager.go:577] addFromDiff: auto-approving: 09afcb02-605b-48da-88a5-924c2603830b step 7
+I0914 21:51:34.675930     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 09afcb02-605b-48da-88a5-924c2603830b step 7
+I0914 21:51:34.675960    6828 server.go:2395] Tool confirmation for conversation 09afcb02-605b-48da-88a5-924c2603830b step 7 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:35.118339     357 subagent_manager.go:577] addFromDiff: auto-approving: 480314f3-49b1-4675-bcdf-4890570252f6 step 3
+I0914 21:51:35.118361     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 480314f3-49b1-4675-bcdf-4890570252f6 step 3
+I0914 21:51:35.118374    6958 server.go:2395] Tool confirmation for conversation 480314f3-49b1-4675-bcdf-4890570252f6 step 3 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:35.738250     357 subagent_manager.go:577] addFromDiff: auto-approving: 480314f3-49b1-4675-bcdf-4890570252f6 step 4
+I0914 21:51:35.738269     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 480314f3-49b1-4675-bcdf-4890570252f6 step 4
+I0914 21:51:35.738282    6880 server.go:2395] Tool confirmation for conversation 480314f3-49b1-4675-bcdf-4890570252f6 step 4 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:36.179832     357 subagent_manager.go:577] addFromDiff: auto-approving: 480314f3-49b1-4675-bcdf-4890570252f6 step 5
+I0914 21:51:36.179856     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 480314f3-49b1-4675-bcdf-4890570252f6 step 5
+I0914 21:51:36.179885    6997 server.go:2395] Tool confirmation for conversation 480314f3-49b1-4675-bcdf-4890570252f6 step 5 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:36.194419     357 subagent_manager.go:577] addFromDiff: auto-approving: 480314f3-49b1-4675-bcdf-4890570252f6 step 6
+I0914 21:51:36.194443     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 480314f3-49b1-4675-bcdf-4890570252f6 step 6
+I0914 21:51:36.194459    6984 server.go:2395] Tool confirmation for conversation 480314f3-49b1-4675-bcdf-4890570252f6 step 6 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:36.215881     357 subagent_manager.go:577] addFromDiff: auto-approving: 480314f3-49b1-4675-bcdf-4890570252f6 step 7
+I0914 21:51:36.215898     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 480314f3-49b1-4675-bcdf-4890570252f6 step 7
+I0914 21:51:36.215908    7064 server.go:2395] Tool confirmation for conversation 480314f3-49b1-4675-bcdf-4890570252f6 step 7 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:51:40.851761    6848 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xad635b362adc5ca7 ResponseID: RVCoarqKLOaVvdIP-pq72Q4
+I0914 21:51:40.938037    6953 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x25a531f5d2034b37 ResponseID: RVCoatr9O9W7vdIPkL2JoQQ
+I0914 21:51:43.535028    7041 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb8795e3525353ef2 ResponseID: R1Coare_JI-P28oPhp6owAg
+I0914 21:52:05.017766    6887 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd019745d5fa49cf6 ResponseID: XFCoarjDLMqqxN8PzNi24QQ
+I0914 21:52:20.973960    7376 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2286fa51cbe2f086 ResponseID: bVCoaurzM9Su28oP7dDxyQI
+I0914 21:52:35.043000    7540 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd2a20dd294ac3da8 ResponseID: f1CoapOUC6yu28oP3b6y-Ao
+E0914 21:52:35.087248    6461 detach.go:98] detach: Value called for key ctxlog.logTrackingContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 6461 [running]:
+context.value({0x5ab942178eb8?, 0x21fde745c2a0?}, {0x5ab941982268, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab941982268?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde85f2f50})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde85f2f50?}, 0x21fde5c888a0)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde6e32140, {0x5ab9421786d8, 0x21fde6ff6320}, 0x21fde7803b00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde6e32140, {0x5ab9421786d8, 0x21fde6ff6320}, 0x1, 0x21fde7a50540)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde7699680, {0x5ab9421786d8, 0x21fde6ff6320}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde7699680, {0x5ab9421786d8, 0x21fde6ff6320}, 0x21fde755b880, 0x21fde6fafc20, 0x21fde79a49c0, 0x21fde8045ea0, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde7699680, {0x5ab9421786d8?, 0x21fde6feb360?}, 0x21fde6484d00, {0x21fde8782b10, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde6feb360?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde6feb360})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde7b9dec0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 6173
+	go/context/detach.go:242 +0x1ae
+E0914 21:52:35.087314    6461 detach.go:98] detach: Value called for key ctxlog.logQuietingContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 6461 [running]:
+context.value({0x5ab942178eb8?, 0x21fde745c2a0?}, {0x5ab941982208, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab941982208?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde85f2f50})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde85f2f50?}, 0x21fde5c888a0)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde6e32140, {0x5ab9421786d8, 0x21fde6ff6320}, 0x21fde7803b00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde6e32140, {0x5ab9421786d8, 0x21fde6ff6320}, 0x1, 0x21fde7a50540)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde7699680, {0x5ab9421786d8, 0x21fde6ff6320}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde7699680, {0x5ab9421786d8, 0x21fde6ff6320}, 0x21fde755b880, 0x21fde6fafc20, 0x21fde79a49c0, 0x21fde8045ea0, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde7699680, {0x5ab9421786d8?, 0x21fde6feb360?}, 0x21fde6484d00, {0x21fde8782b10, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde6feb360?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde6feb360})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde7b9dec0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 6173
+	go/context/detach.go:242 +0x1ae
+E0914 21:52:35.087357    6461 detach.go:98] detach: Value called for key tracer.contextKey{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 6461 [running]:
+context.value({0x5ab942178eb8?, 0x21fde745c2a0?}, {0x5ab94196f788, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab94196f788?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde85f2f50})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde85f2f50?}, 0x21fde5c888a0)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde6e32140, {0x5ab9421786d8, 0x21fde6ff6320}, 0x21fde7803b00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde6e32140, {0x5ab9421786d8, 0x21fde6ff6320}, 0x1, 0x21fde7a50540)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde7699680, {0x5ab9421786d8, 0x21fde6ff6320}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde7699680, {0x5ab9421786d8, 0x21fde6ff6320}, 0x21fde755b880, 0x21fde6fafc20, 0x21fde79a49c0, 0x21fde8045ea0, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde7699680, {0x5ab9421786d8?, 0x21fde6feb360?}, 0x21fde6484d00, {0x21fde8782b10, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde6feb360?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde6feb360})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde7b9dec0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 6173
+	go/context/detach.go:242 +0x1ae
+E0914 21:52:35.087398    6461 detach.go:98] detach: Value called for key ctxlog.customLoggerContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 6461 [running]:
+context.value({0x5ab942178eb8?, 0x21fde745c2a0?}, {0x5ab9419821a8, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab9419821a8?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde85f2f50})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde85f2f50?}, 0x21fde5c888a0)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde6e32140, {0x5ab9421786d8, 0x21fde6ff6320}, 0x21fde7803b00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde6e32140, {0x5ab9421786d8, 0x21fde6ff6320}, 0x1, 0x21fde7a50540)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde7699680, {0x5ab9421786d8, 0x21fde6ff6320}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde7699680, {0x5ab9421786d8, 0x21fde6ff6320}, 0x21fde755b880, 0x21fde6fafc20, 0x21fde79a49c0, 0x21fde8045ea0, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde7699680, {0x5ab9421786d8?, 0x21fde6feb360?}, 0x21fde6484d00, {0x21fde8782b10, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde6feb360?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde6feb360})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde7b9dec0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 6173
+	go/context/detach.go:242 +0x1ae
+W0914 21:52:41.292862    7712 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "mcp_servers"
+W0914 21:52:41.292882    7712 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "skills"
+W0914 21:52:41.344299    7802 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "mcp_servers"
+W0914 21:52:41.344318    7802 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "skills"
+W0914 21:52:41.389352    7924 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "mcp_servers"
+W0914 21:52:41.389372    7924 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "skills"
+I0914 21:52:43.728773    7660 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf622b4c8c6aea8c0 ResponseID: req_vrtx_011Cf3v5dCWkLRX2uwBLRb9C
+I0914 21:52:45.935369    7743 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x297302718051ad23 ResponseID: iFCoaoDLJJe1vdIP-4eFgQQ
+I0914 21:52:47.263569    7944 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdc19d0a0e6a6d88 ResponseID: iFCoasj5KKDDvdIPpvvxgAQ
+I0914 21:52:47.646218    7727 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb1d79d636419d9dc ResponseID: iFCoaqDlIYeUxN8P7deN8QI
+I0914 21:52:48.437590     357 subagent_manager.go:577] addFromDiff: auto-approving: e642a044-7263-4ff5-8253-5f46781c9f73 step 2
+I0914 21:52:48.437611     357 subagent_manager.go:543] addFromDiff: auto-approving subagent e642a044-7263-4ff5-8253-5f46781c9f73 step 2
+I0914 21:52:48.437646    8155 server.go:2395] Tool confirmation for conversation e642a044-7263-4ff5-8253-5f46781c9f73 step 2 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:48.758289     357 subagent_manager.go:577] addFromDiff: auto-approving: 81105dc7-7408-40b7-893d-064b8834190d step 2
+I0914 21:52:48.758312     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 81105dc7-7408-40b7-893d-064b8834190d step 2
+I0914 21:52:48.758328    8164 server.go:2395] Tool confirmation for conversation 81105dc7-7408-40b7-893d-064b8834190d step 2 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:48.850003     357 subagent_manager.go:577] addFromDiff: auto-approving: e642a044-7263-4ff5-8253-5f46781c9f73 step 3
+I0914 21:52:48.850025     357 subagent_manager.go:543] addFromDiff: auto-approving subagent e642a044-7263-4ff5-8253-5f46781c9f73 step 3
+I0914 21:52:48.850060    8210 server.go:2395] Tool confirmation for conversation e642a044-7263-4ff5-8253-5f46781c9f73 step 3 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:49.113456    8106 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x656916e488f76ff4 ResponseID: req_vrtx_011Cf3v62dAiHeJkdxjf9JkH
+I0914 21:52:49.142154     357 subagent_manager.go:577] addFromDiff: auto-approving: 81105dc7-7408-40b7-893d-064b8834190d step 3
+I0914 21:52:49.142175     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 81105dc7-7408-40b7-893d-064b8834190d step 3
+I0914 21:52:49.142189    8145 server.go:2395] Tool confirmation for conversation 81105dc7-7408-40b7-893d-064b8834190d step 3 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:49.267861     357 subagent_manager.go:577] addFromDiff: auto-approving: e642a044-7263-4ff5-8253-5f46781c9f73 step 4
+I0914 21:52:49.267886     357 subagent_manager.go:543] addFromDiff: auto-approving subagent e642a044-7263-4ff5-8253-5f46781c9f73 step 4
+I0914 21:52:49.267902    8266 server.go:2395] Tool confirmation for conversation e642a044-7263-4ff5-8253-5f46781c9f73 step 4 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:49.516224     357 subagent_manager.go:577] addFromDiff: auto-approving: 81105dc7-7408-40b7-893d-064b8834190d step 4
+I0914 21:52:49.516242     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 81105dc7-7408-40b7-893d-064b8834190d step 4
+I0914 21:52:49.516272    8293 server.go:2395] Tool confirmation for conversation 81105dc7-7408-40b7-893d-064b8834190d step 4 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:49.666945     357 subagent_manager.go:577] addFromDiff: auto-approving: e642a044-7263-4ff5-8253-5f46781c9f73 step 5
+I0914 21:52:49.666967     357 subagent_manager.go:543] addFromDiff: auto-approving subagent e642a044-7263-4ff5-8253-5f46781c9f73 step 5
+I0914 21:52:49.666982    7915 server.go:2395] Tool confirmation for conversation e642a044-7263-4ff5-8253-5f46781c9f73 step 5 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:50.031733     357 subagent_manager.go:577] addFromDiff: auto-approving: 81105dc7-7408-40b7-893d-064b8834190d step 5
+I0914 21:52:50.031751     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 81105dc7-7408-40b7-893d-064b8834190d step 5
+I0914 21:52:50.031766    8348 server.go:2395] Tool confirmation for conversation 81105dc7-7408-40b7-893d-064b8834190d step 5 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:50.139498     357 subagent_manager.go:577] addFromDiff: auto-approving: e642a044-7263-4ff5-8253-5f46781c9f73 step 6
+I0914 21:52:50.139517     357 subagent_manager.go:543] addFromDiff: auto-approving subagent e642a044-7263-4ff5-8253-5f46781c9f73 step 6
+I0914 21:52:50.139529    8397 server.go:2395] Tool confirmation for conversation e642a044-7263-4ff5-8253-5f46781c9f73 step 6 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:50.148992     357 subagent_manager.go:577] addFromDiff: auto-approving: e642a044-7263-4ff5-8253-5f46781c9f73 step 7
+I0914 21:52:50.149008     357 subagent_manager.go:543] addFromDiff: auto-approving subagent e642a044-7263-4ff5-8253-5f46781c9f73 step 7
+I0914 21:52:50.149036    7596 server.go:2395] Tool confirmation for conversation e642a044-7263-4ff5-8253-5f46781c9f73 step 7 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:50.164374     357 subagent_manager.go:577] addFromDiff: auto-approving: e642a044-7263-4ff5-8253-5f46781c9f73 step 8
+I0914 21:52:50.164394     357 subagent_manager.go:543] addFromDiff: auto-approving subagent e642a044-7263-4ff5-8253-5f46781c9f73 step 8
+I0914 21:52:50.164457    8449 server.go:2395] Tool confirmation for conversation e642a044-7263-4ff5-8253-5f46781c9f73 step 8 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:50.328494     357 subagent_manager.go:577] addFromDiff: auto-approving: 81105dc7-7408-40b7-893d-064b8834190d step 6
+I0914 21:52:50.328514     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 81105dc7-7408-40b7-893d-064b8834190d step 6
+I0914 21:52:50.328528    8424 server.go:2395] Tool confirmation for conversation 81105dc7-7408-40b7-893d-064b8834190d step 6 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:50.341659     357 subagent_manager.go:577] addFromDiff: auto-approving: 81105dc7-7408-40b7-893d-064b8834190d step 7
+I0914 21:52:50.341674     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 81105dc7-7408-40b7-893d-064b8834190d step 7
+I0914 21:52:50.341683    8532 server.go:2395] Tool confirmation for conversation 81105dc7-7408-40b7-893d-064b8834190d step 7 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:50.354183     357 subagent_manager.go:577] addFromDiff: auto-approving: 81105dc7-7408-40b7-893d-064b8834190d step 8
+I0914 21:52:50.354201     357 subagent_manager.go:543] addFromDiff: auto-approving subagent 81105dc7-7408-40b7-893d-064b8834190d step 8
+I0914 21:52:50.354228    8501 server.go:2395] Tool confirmation for conversation 81105dc7-7408-40b7-893d-064b8834190d step 8 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:50.411318     357 subagent_manager.go:577] addFromDiff: auto-approving: c206b94e-a403-4394-8fd0-0a1ea5411b08 step 2
+I0914 21:52:50.411350     357 subagent_manager.go:543] addFromDiff: auto-approving subagent c206b94e-a403-4394-8fd0-0a1ea5411b08 step 2
+I0914 21:52:50.411370    8256 server.go:2395] Tool confirmation for conversation c206b94e-a403-4394-8fd0-0a1ea5411b08 step 2 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:50.861780     357 subagent_manager.go:577] addFromDiff: auto-approving: c206b94e-a403-4394-8fd0-0a1ea5411b08 step 3
+I0914 21:52:50.861803     357 subagent_manager.go:543] addFromDiff: auto-approving subagent c206b94e-a403-4394-8fd0-0a1ea5411b08 step 3
+I0914 21:52:50.861817    8634 server.go:2395] Tool confirmation for conversation c206b94e-a403-4394-8fd0-0a1ea5411b08 step 3 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:51.343200     357 subagent_manager.go:577] addFromDiff: auto-approving: c206b94e-a403-4394-8fd0-0a1ea5411b08 step 4
+I0914 21:52:51.343223     357 subagent_manager.go:543] addFromDiff: auto-approving subagent c206b94e-a403-4394-8fd0-0a1ea5411b08 step 4
+I0914 21:52:51.343236    8693 server.go:2395] Tool confirmation for conversation c206b94e-a403-4394-8fd0-0a1ea5411b08 step 4 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:51.810758     357 subagent_manager.go:577] addFromDiff: auto-approving: c206b94e-a403-4394-8fd0-0a1ea5411b08 step 5
+I0914 21:52:51.810781     357 subagent_manager.go:543] addFromDiff: auto-approving subagent c206b94e-a403-4394-8fd0-0a1ea5411b08 step 5
+I0914 21:52:51.810800    8679 server.go:2395] Tool confirmation for conversation c206b94e-a403-4394-8fd0-0a1ea5411b08 step 5 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:51.828594     357 subagent_manager.go:577] addFromDiff: auto-approving: c206b94e-a403-4394-8fd0-0a1ea5411b08 step 6
+I0914 21:52:51.828611     357 subagent_manager.go:543] addFromDiff: auto-approving subagent c206b94e-a403-4394-8fd0-0a1ea5411b08 step 6
+I0914 21:52:51.828641    8687 server.go:2395] Tool confirmation for conversation c206b94e-a403-4394-8fd0-0a1ea5411b08 step 6 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:51.842367     357 subagent_manager.go:577] addFromDiff: auto-approving: c206b94e-a403-4394-8fd0-0a1ea5411b08 step 7
+I0914 21:52:51.842385     357 subagent_manager.go:543] addFromDiff: auto-approving subagent c206b94e-a403-4394-8fd0-0a1ea5411b08 step 7
+I0914 21:52:51.842413    8739 server.go:2395] Tool confirmation for conversation c206b94e-a403-4394-8fd0-0a1ea5411b08 step 7 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:55.106910    8594 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x31a518df853d6ef5 ResponseID: kVCoarmqJ_6s28oPlsnkkQg
+I0914 21:52:57.299442    8752 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2de8b16bc422efad ResponseID: k1CoarydCaufxN8Phu6s8AM
+I0914 21:52:57.524739    8494 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xff4fe8e8ea7c007a ResponseID: kVCoauGMIPmVxN8P8Yez0AI
+I0914 21:52:57.921823     357 tool_confirmation_manager.go:170] Always-proceed: auto-approving tool confirmation "ViewFile" at step 90
+I0914 21:52:57.921897    8968 server.go:2395] Tool confirmation for conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 step 90 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:52:58.056035     357 tool_confirmation_manager.go:170] Always-proceed: auto-approving tool confirmation "ViewFile" at step 91
+I0914 21:52:58.056070    9054 server.go:2395] Tool confirmation for conversation c9cf1c17-ae2c-4db7-971d-bac64e67f482 step 91 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:53:03.354539    9127 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x54d4989a684e11ab ResponseID: req_vrtx_011Cf3v6rR2xv4734nTLru1N
+I0914 21:53:14.740693     365 run.go:389] Run: attempt 1 failed (RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4h12m40s.), retrying in 4s
+I0914 21:53:19.004503     365 run.go:389] Run: attempt 2 failed (RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4h12m35s.), retrying in 7.86854166s
+I0914 21:53:27.101787     365 run.go:389] Run: attempt 3 failed (RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4h12m27s.), retrying in 11.440567962s
+I0914 21:53:27.571125    9822 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x561ea00a09f28b80 ResponseID: r1CoauTIBfSX28oPq769-AY
+I0914 21:53:38.772674     365 run.go:389] Run: attempt 4 failed (RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4h12m16s.), retrying in 31.108444898s
+E0914 21:53:40.410050    7802 detach.go:98] detach: Value called for key ctxlog.customLoggerContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 7802 [running]:
+context.value({0x5ab942178eb8?, 0x21fde457a150?}, {0x5ab9419821a8, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab9419821a8?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde78e6370})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde78e6370?}, 0x21fde77e4510)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde65485a0, {0x5ab9421786d8, 0x21fde67207d0}, 0x21fde8a36b00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde65485a0, {0x5ab9421786d8, 0x21fde67207d0}, 0x1, 0x21fde5e24ee0)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde6558960, {0x5ab9421786d8, 0x21fde67207d0}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde6558960, {0x5ab9421786d8, 0x21fde67207d0}, 0x21fde36c9b20, 0x21fde5a55180, 0x21fde6035c80, 0x21fde469a380, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde6558960, {0x5ab9421786d8?, 0x21fde60314f0?}, 0x21fde6484d00, {0x21fde3b40e10, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde60314f0?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde60314f0})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde62d5d40})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 7626
+	go/context/detach.go:242 +0x1ae
+E0914 21:53:40.410110    7802 detach.go:98] detach: Value called for key ctxlog.logTrackingContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 7802 [running]:
+context.value({0x5ab942178eb8?, 0x21fde457a150?}, {0x5ab941982268, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab941982268?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde78e6370})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde78e6370?}, 0x21fde77e4510)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde65485a0, {0x5ab9421786d8, 0x21fde67207d0}, 0x21fde8a36b00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde65485a0, {0x5ab9421786d8, 0x21fde67207d0}, 0x1, 0x21fde5e24ee0)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde6558960, {0x5ab9421786d8, 0x21fde67207d0}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde6558960, {0x5ab9421786d8, 0x21fde67207d0}, 0x21fde36c9b20, 0x21fde5a55180, 0x21fde6035c80, 0x21fde469a380, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde6558960, {0x5ab9421786d8?, 0x21fde60314f0?}, 0x21fde6484d00, {0x21fde3b40e10, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde60314f0?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde60314f0})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde62d5d40})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 7626
+	go/context/detach.go:242 +0x1ae
+E0914 21:53:40.410153    7802 detach.go:98] detach: Value called for key ctxlog.logQuietingContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 7802 [running]:
+context.value({0x5ab942178eb8?, 0x21fde457a150?}, {0x5ab941982208, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab941982208?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde78e6370})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde78e6370?}, 0x21fde77e4510)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde65485a0, {0x5ab9421786d8, 0x21fde67207d0}, 0x21fde8a36b00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde65485a0, {0x5ab9421786d8, 0x21fde67207d0}, 0x1, 0x21fde5e24ee0)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde6558960, {0x5ab9421786d8, 0x21fde67207d0}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde6558960, {0x5ab9421786d8, 0x21fde67207d0}, 0x21fde36c9b20, 0x21fde5a55180, 0x21fde6035c80, 0x21fde469a380, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde6558960, {0x5ab9421786d8?, 0x21fde60314f0?}, 0x21fde6484d00, {0x21fde3b40e10, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde60314f0?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde60314f0})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde62d5d40})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 7626
+	go/context/detach.go:242 +0x1ae
+E0914 21:53:40.410195    7802 detach.go:98] detach: Value called for key tracer.contextKey{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 7802 [running]:
+context.value({0x5ab942178eb8?, 0x21fde457a150?}, {0x5ab94196f788, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab94196f788?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde78e6370})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde78e6370?}, 0x21fde77e4510)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde65485a0, {0x5ab9421786d8, 0x21fde67207d0}, 0x21fde8a36b00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde65485a0, {0x5ab9421786d8, 0x21fde67207d0}, 0x1, 0x21fde5e24ee0)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde6558960, {0x5ab9421786d8, 0x21fde67207d0}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde6558960, {0x5ab9421786d8, 0x21fde67207d0}, 0x21fde36c9b20, 0x21fde5a55180, 0x21fde6035c80, 0x21fde469a380, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde6558960, {0x5ab9421786d8?, 0x21fde60314f0?}, 0x21fde6484d00, {0x21fde3b40e10, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde60314f0?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde60314f0})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde62d5d40})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 7626
+	go/context/detach.go:242 +0x1ae
+I0914 21:53:49.822624   10320 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2d2e14af7d178e89 ResponseID: yFCoaqPDN5Xuxs0Pi9mpsQM
+E0914 21:53:50.336661    6284 detach.go:98] detach: Value called for key ctxlog.logQuietingContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 6284 [running]:
+context.value({0x5ab942178eb8?, 0x21fde745c2a0?}, {0x5ab941982208, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab941982208?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde85f2f50})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde85f2f50?}, 0x21fde6eb6c60)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde37f0f00, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x21fde6106300)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde37f0f00, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x1, 0x21fde4a64a80)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde76e1c20, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde76e1c20, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x21fde5c47ce0, 0x21fde6b9c960, 0x21fde7d22940, 0x21fde7755dc0, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde76e1c20, {0x5ab9421786d8?, 0x21fde495a370?}, 0x21fde6484d00, {0x21fde5c371a0, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde495a370?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde495a370})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde8142b40})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 6173
+	go/context/detach.go:242 +0x1ae
+E0914 21:53:50.336718    6284 detach.go:98] detach: Value called for key tracer.contextKey{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 6284 [running]:
+context.value({0x5ab942178eb8?, 0x21fde745c2a0?}, {0x5ab94196f788, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab94196f788?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde85f2f50})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde85f2f50?}, 0x21fde6eb6c60)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde37f0f00, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x21fde6106300)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde37f0f00, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x1, 0x21fde4a64a80)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde76e1c20, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde76e1c20, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x21fde5c47ce0, 0x21fde6b9c960, 0x21fde7d22940, 0x21fde7755dc0, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde76e1c20, {0x5ab9421786d8?, 0x21fde495a370?}, 0x21fde6484d00, {0x21fde5c371a0, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde495a370?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde495a370})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde8142b40})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 6173
+	go/context/detach.go:242 +0x1ae
+E0914 21:53:50.336770    6284 detach.go:98] detach: Value called for key ctxlog.customLoggerContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 6284 [running]:
+context.value({0x5ab942178eb8?, 0x21fde745c2a0?}, {0x5ab9419821a8, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab9419821a8?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde85f2f50})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde85f2f50?}, 0x21fde6eb6c60)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde37f0f00, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x21fde6106300)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde37f0f00, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x1, 0x21fde4a64a80)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde76e1c20, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde76e1c20, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x21fde5c47ce0, 0x21fde6b9c960, 0x21fde7d22940, 0x21fde7755dc0, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde76e1c20, {0x5ab9421786d8?, 0x21fde495a370?}, 0x21fde6484d00, {0x21fde5c371a0, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde495a370?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde495a370})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde8142b40})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 6173
+	go/context/detach.go:242 +0x1ae
+E0914 21:53:50.336813    6284 detach.go:98] detach: Value called for key ctxlog.logTrackingContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 6284 [running]:
+context.value({0x5ab942178eb8?, 0x21fde745c2a0?}, {0x5ab941982268, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab941982268?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde85f2f50})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde85f2f50?}, 0x21fde6eb6c60)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde37f0f00, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x21fde6106300)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde37f0f00, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x1, 0x21fde4a64a80)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde76e1c20, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde76e1c20, {0x5ab9421786d8, 0x21fde7baaeb0}, 0x21fde5c47ce0, 0x21fde6b9c960, 0x21fde7d22940, 0x21fde7755dc0, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde76e1c20, {0x5ab9421786d8?, 0x21fde495a370?}, 0x21fde6484d00, {0x21fde5c371a0, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde495a370?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde495a370})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde8142b40})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 6173
+	go/context/detach.go:242 +0x1ae
+I0914 21:53:51.784923   10288 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb90175048de0e5dc ResponseID: yVCoarHyEPmVxN8P8Yez0AI
+I0914 21:54:06.371081   10513 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa9c6f49027b1dcfa ResponseID: 2lCoaqzrJ_znvdIPvLjc0Ag
+E0914 21:54:07.510880    7924 detach.go:98] detach: Value called for key ctxlog.customLoggerContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 7924 [running]:
+context.value({0x5ab942178eb8?, 0x21fde457a150?}, {0x5ab9419821a8, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab9419821a8?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde78e6370})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde78e6370?}, 0x21fde7ae4030)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde79b5220, {0x5ab9421786d8, 0x21fde7df0d20}, 0x21fde88de700)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde79b5220, {0x5ab9421786d8, 0x21fde7df0d20}, 0x1, 0x21fde6f58e00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde69fc960, {0x5ab9421786d8, 0x21fde7df0d20}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde69fc960, {0x5ab9421786d8, 0x21fde7df0d20}, 0x21fde7df4e00, 0x21fde7d38960, 0x21fde6ceb040, 0x21fde4ea2d90, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde69fc960, {0x5ab9421786d8?, 0x21fde7dddd60?}, 0x21fde6484d00, {0x21fde7fd2030, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde7dddd60?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde7dddd60})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde771aab0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 7626
+	go/context/detach.go:242 +0x1ae
+E0914 21:54:07.510934    7924 detach.go:98] detach: Value called for key ctxlog.logTrackingContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 7924 [running]:
+context.value({0x5ab942178eb8?, 0x21fde457a150?}, {0x5ab941982268, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab941982268?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde78e6370})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde78e6370?}, 0x21fde7ae4030)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde79b5220, {0x5ab9421786d8, 0x21fde7df0d20}, 0x21fde88de700)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde79b5220, {0x5ab9421786d8, 0x21fde7df0d20}, 0x1, 0x21fde6f58e00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde69fc960, {0x5ab9421786d8, 0x21fde7df0d20}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde69fc960, {0x5ab9421786d8, 0x21fde7df0d20}, 0x21fde7df4e00, 0x21fde7d38960, 0x21fde6ceb040, 0x21fde4ea2d90, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde69fc960, {0x5ab9421786d8?, 0x21fde7dddd60?}, 0x21fde6484d00, {0x21fde7fd2030, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde7dddd60?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde7dddd60})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde771aab0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 7626
+	go/context/detach.go:242 +0x1ae
+E0914 21:54:07.511020    7924 detach.go:98] detach: Value called for key ctxlog.logQuietingContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 7924 [running]:
+context.value({0x5ab942178eb8?, 0x21fde457a150?}, {0x5ab941982208, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab941982208?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde78e6370})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde78e6370?}, 0x21fde7ae4030)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde79b5220, {0x5ab9421786d8, 0x21fde7df0d20}, 0x21fde88de700)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde79b5220, {0x5ab9421786d8, 0x21fde7df0d20}, 0x1, 0x21fde6f58e00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde69fc960, {0x5ab9421786d8, 0x21fde7df0d20}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde69fc960, {0x5ab9421786d8, 0x21fde7df0d20}, 0x21fde7df4e00, 0x21fde7d38960, 0x21fde6ceb040, 0x21fde4ea2d90, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde69fc960, {0x5ab9421786d8?, 0x21fde7dddd60?}, 0x21fde6484d00, {0x21fde7fd2030, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde7dddd60?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde7dddd60})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde771aab0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 7626
+	go/context/detach.go:242 +0x1ae
+E0914 21:54:07.511080    7924 detach.go:98] detach: Value called for key tracer.contextKey{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 7924 [running]:
+context.value({0x5ab942178eb8?, 0x21fde457a150?}, {0x5ab94196f788, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab94196f788?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde78e6370})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde78e6370?}, 0x21fde7ae4030)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde79b5220, {0x5ab9421786d8, 0x21fde7df0d20}, 0x21fde88de700)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde79b5220, {0x5ab9421786d8, 0x21fde7df0d20}, 0x1, 0x21fde6f58e00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde69fc960, {0x5ab9421786d8, 0x21fde7df0d20}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde69fc960, {0x5ab9421786d8, 0x21fde7df0d20}, 0x21fde7df4e00, 0x21fde7d38960, 0x21fde6ceb040, 0x21fde4ea2d90, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde69fc960, {0x5ab9421786d8?, 0x21fde7dddd60?}, 0x21fde6484d00, {0x21fde7fd2030, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde7dddd60?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde7dddd60})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde771aab0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 7626
+	go/context/detach.go:242 +0x1ae
+I0914 21:54:07.876027     357 subagent_manager.go:577] addFromDiff: auto-approving: c206b94e-a403-4394-8fd0-0a1ea5411b08 step 9
+I0914 21:54:07.876049     357 subagent_manager.go:543] addFromDiff: auto-approving subagent c206b94e-a403-4394-8fd0-0a1ea5411b08 step 9
+I0914 21:54:07.876079   10528 server.go:2395] Tool confirmation for conversation c206b94e-a403-4394-8fd0-0a1ea5411b08 step 9 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:54:07.888887   10520 search_ripgrep.go:108] reusing extracted ripgrep at /home/alexi/.cache/antigravity/bin/rg_embedded-fc18cdfad43f01fb (8156816 bytes)
+I0914 21:54:07.888922   10520 search_ripgrep.go:459] ripgrep resolved to /home/alexi/.cache/antigravity/bin/rg_embedded-fc18cdfad43f01fb (embedded copy)
+E0914 21:54:07.889737   10520 grep_handler.go:674] ripgrep at /home/alexi/.cache/antigravity/bin/rg_embedded-fc18cdfad43f01fb could not be executed (fork/exec /home/alexi/.cache/antigravity/bin/rg_embedded-fc18cdfad43f01fb: no such file or directory), falling back to grep
+I0914 21:54:10.107186     365 run.go:389] Run: attempt 5 failed (RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4h11m44s.), retrying in 45.50777975s
+I0914 21:54:12.963937   10393 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x51b99c581cdef5c5 ResponseID: 4FCoaqT1J7LT28oPks2O6QE
+E0914 21:54:13.223175    6354 detach.go:98] detach: Value called for key ctxlog.customLoggerContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 6354 [running]:
+context.value({0x5ab942178eb8?, 0x21fde745c2a0?}, {0x5ab9419821a8, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab9419821a8?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde85f2f50})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde85f2f50?}, 0x21fde71df7d0)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde589d9a0, {0x5ab9421786d8, 0x21fde5ba4000}, 0x21fde644f900)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde589d9a0, {0x5ab9421786d8, 0x21fde5ba4000}, 0x1, 0x21fde5db7c00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde82ca780, {0x5ab9421786d8, 0x21fde5ba4000}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde82ca780, {0x5ab9421786d8, 0x21fde5ba4000}, 0x21fde6ffc7e0, 0x21fde58cbe00, 0x21fde34f8580, 0x21fde33e4e70, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde82ca780, {0x5ab9421786d8?, 0x21fde5b15c70?}, 0x21fde6484d00, {0x21fde7e79c20, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde5b15c70?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde5b15c70})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde359bdd0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 6173
+	go/context/detach.go:242 +0x1ae
+E0914 21:54:13.223229    6354 detach.go:98] detach: Value called for key ctxlog.logTrackingContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 6354 [running]:
+context.value({0x5ab942178eb8?, 0x21fde745c2a0?}, {0x5ab941982268, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab941982268?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde85f2f50})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde85f2f50?}, 0x21fde71df7d0)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde589d9a0, {0x5ab9421786d8, 0x21fde5ba4000}, 0x21fde644f900)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde589d9a0, {0x5ab9421786d8, 0x21fde5ba4000}, 0x1, 0x21fde5db7c00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde82ca780, {0x5ab9421786d8, 0x21fde5ba4000}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde82ca780, {0x5ab9421786d8, 0x21fde5ba4000}, 0x21fde6ffc7e0, 0x21fde58cbe00, 0x21fde34f8580, 0x21fde33e4e70, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde82ca780, {0x5ab9421786d8?, 0x21fde5b15c70?}, 0x21fde6484d00, {0x21fde7e79c20, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde5b15c70?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde5b15c70})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde359bdd0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 6173
+	go/context/detach.go:242 +0x1ae
+E0914 21:54:13.223267    6354 detach.go:98] detach: Value called for key ctxlog.logQuietingContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 6354 [running]:
+context.value({0x5ab942178eb8?, 0x21fde745c2a0?}, {0x5ab941982208, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab941982208?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde85f2f50})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde85f2f50?}, 0x21fde71df7d0)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde589d9a0, {0x5ab9421786d8, 0x21fde5ba4000}, 0x21fde644f900)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde589d9a0, {0x5ab9421786d8, 0x21fde5ba4000}, 0x1, 0x21fde5db7c00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde82ca780, {0x5ab9421786d8, 0x21fde5ba4000}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde82ca780, {0x5ab9421786d8, 0x21fde5ba4000}, 0x21fde6ffc7e0, 0x21fde58cbe00, 0x21fde34f8580, 0x21fde33e4e70, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde82ca780, {0x5ab9421786d8?, 0x21fde5b15c70?}, 0x21fde6484d00, {0x21fde7e79c20, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde5b15c70?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde5b15c70})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde359bdd0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 6173
+	go/context/detach.go:242 +0x1ae
+E0914 21:54:13.223308    6354 detach.go:98] detach: Value called for key tracer.contextKey{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 6354 [running]:
+context.value({0x5ab942178eb8?, 0x21fde745c2a0?}, {0x5ab94196f788, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab94196f788?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde85f2f50})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde85f2f50?}, 0x21fde71df7d0)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde589d9a0, {0x5ab9421786d8, 0x21fde5ba4000}, 0x21fde644f900)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde589d9a0, {0x5ab9421786d8, 0x21fde5ba4000}, 0x1, 0x21fde5db7c00)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde82ca780, {0x5ab9421786d8, 0x21fde5ba4000}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde82ca780, {0x5ab9421786d8, 0x21fde5ba4000}, 0x21fde6ffc7e0, 0x21fde58cbe00, 0x21fde34f8580, 0x21fde33e4e70, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde82ca780, {0x5ab9421786d8?, 0x21fde5b15c70?}, 0x21fde6484d00, {0x21fde7e79c20, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde5b15c70?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde5b15c70})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde359bdd0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 6173
+	go/context/detach.go:242 +0x1ae
+I0914 21:54:14.838752   10643 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x392a3ddfacc015a5 ResponseID: 31CoaveFEKaIvdIPsKLfoQs
+I0914 21:54:40.800126   10750 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4132fd501eecd2d9 ResponseID: -VCoasLLL5e1vdIP-4eFgQQ
+I0914 21:54:40.829058     357 subagent_manager.go:577] addFromDiff: auto-approving: c206b94e-a403-4394-8fd0-0a1ea5411b08 step 12
+I0914 21:54:40.829079     357 subagent_manager.go:543] addFromDiff: auto-approving subagent c206b94e-a403-4394-8fd0-0a1ea5411b08 step 12
+I0914 21:54:40.829093   10780 server.go:2395] Tool confirmation for conversation c206b94e-a403-4394-8fd0-0a1ea5411b08 step 12 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:54:44.799209   10794 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2513af9462fcdbc1 ResponseID: AFGoav_rCfSX28oPq769-AY
+I0914 21:54:44.814879     357 subagent_manager.go:577] addFromDiff: auto-approving: c206b94e-a403-4394-8fd0-0a1ea5411b08 step 14
+I0914 21:54:44.814895     357 subagent_manager.go:543] addFromDiff: auto-approving subagent c206b94e-a403-4394-8fd0-0a1ea5411b08 step 14
+I0914 21:54:44.814924   10823 server.go:2395] Tool confirmation for conversation c206b94e-a403-4394-8fd0-0a1ea5411b08 step 14 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I0914 21:54:52.542534   10850 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8a2e9c1668e14393 ResponseID: BFGoavf2CrHSxN8Plfrr8Qs
+I0914 21:54:55.816407   10857 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc84b65396f014f2d
+I0914 21:54:55.928197     365 run.go:389] Run: attempt 6 failed (RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4h10m59s.), retrying in 1m42.834182174s
+I0914 21:54:56.400402   10890 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7129fbe144831979
+I0914 21:55:34.684088   11079 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x28df1aff030e800c ResponseID: MVGoauHjL63WxN8PwJzckQg
+E0914 21:55:36.507959    7712 detach.go:98] detach: Value called for key ctxlog.logTrackingContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 7712 [running]:
+context.value({0x5ab942178eb8?, 0x21fde457a150?}, {0x5ab941982268, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab941982268?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde78e6370})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde78e6370?}, 0x21fde7283e60)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde6e15220, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x21fde6240400)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde6e15220, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x1, 0x21fde5c46fc0)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde4c35a40, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde4c35a40, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x21fde6f59500, 0x21fde67370e0, 0x21fde6c46b80, 0x21fde8045ce0, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde4c35a40, {0x5ab9421786d8?, 0x21fde5dd0b40?}, 0x21fde6484d00, {0x21fde32bd170, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde5dd0b40?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde5dd0b40})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde77726f0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 7626
+	go/context/detach.go:242 +0x1ae
+E0914 21:55:36.508021    7712 detach.go:98] detach: Value called for key ctxlog.logQuietingContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 7712 [running]:
+context.value({0x5ab942178eb8?, 0x21fde457a150?}, {0x5ab941982208, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab941982208?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde78e6370})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde78e6370?}, 0x21fde7283e60)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde6e15220, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x21fde6240400)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde6e15220, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x1, 0x21fde5c46fc0)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde4c35a40, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde4c35a40, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x21fde6f59500, 0x21fde67370e0, 0x21fde6c46b80, 0x21fde8045ce0, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde4c35a40, {0x5ab9421786d8?, 0x21fde5dd0b40?}, 0x21fde6484d00, {0x21fde32bd170, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde5dd0b40?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde5dd0b40})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde77726f0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 7626
+	go/context/detach.go:242 +0x1ae
+E0914 21:55:36.508060    7712 detach.go:98] detach: Value called for key tracer.contextKey{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 7712 [running]:
+context.value({0x5ab942178eb8?, 0x21fde457a150?}, {0x5ab94196f788, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab94196f788?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde78e6370})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde78e6370?}, 0x21fde7283e60)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde6e15220, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x21fde6240400)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde6e15220, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x1, 0x21fde5c46fc0)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde4c35a40, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde4c35a40, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x21fde6f59500, 0x21fde67370e0, 0x21fde6c46b80, 0x21fde8045ce0, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde4c35a40, {0x5ab9421786d8?, 0x21fde5dd0b40?}, 0x21fde6484d00, {0x21fde32bd170, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde5dd0b40?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde5dd0b40})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde77726f0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 7626
+	go/context/detach.go:242 +0x1ae
+E0914 21:55:36.508098    7712 detach.go:98] detach: Value called for key ctxlog.customLoggerContext{} after callback passed to detach.Go has already returned
+Detached context created at third_party/gemini_coder/framework/core/run_tool.go:35. Stack trace of current goroutine:
+goroutine 7712 [running]:
+context.value({0x5ab942178eb8?, 0x21fde457a150?}, {0x5ab9419821a8, 0x5ab94477ebc0})
+	third_party/go/gc/src/context/context.go:804 +0x212
+context.(*cancelCtx).Value(0x0?, {0x5ab9419821a8?, 0x5ab94477ebc0?})
+	third_party/go/gc/src/context/context.go:446 +0x59
+google3/go/context/detach.fromContext({0x5ab9421786d8, 0x21fde78e6370})
+	go/context/detach.go:187 +0x14b
+google3/go/context/detach.Go({0x5ab9421786d8?, 0x21fde78e6370?}, 0x21fde7283e60)
+	go/context/detach.go:236 +0x37
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func3(0x0?)
+	third_party/jetski/cortex/cascade_manager.go:1397 +0xda
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).updateStateForLoadedTrajectory.func4(0x1)
+	third_party/jetski/cortex/cascade_manager.go:1405 +0x36
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).updateFullyIdleLocked(0x21fde6e15220, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x21fde6240400)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:990 +0xa3
+google3/third_party/jetski/cortex/agent_state_component/agent_state_component.(*AgentState).SetExecutorLoopStatusAndMetadata(0x21fde6e15220, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x1, 0x21fde5c46fc0)
+	third_party/jetski/cortex/agent_state_component/agent_state.go:480 +0xe5
+google3/third_party/jetski/cortex/cascade_run_state/cascade_run_state.(*CascadeRunState).SetExecutorLoopStatusAndMetadataLocked(...)
+	third_party/jetski/cortex/cascade_run_state/cascade_run_state.go:213
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).updateExecutorState(0x21fde4c35a40, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x1, 0x5ab93f1d5b40?)
+	third_party/gemini_coder/framework/executor/agentexecutor/convertinputs.go:586 +0x94
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).transitionFromRunningToIdleOrClosed(0x21fde4c35a40, {0x5ab9421786d8, 0x21fde5dd19f0}, 0x21fde6f59500, 0x21fde67370e0, 0x21fde6c46b80, 0x21fde8045ce0, 0x0)
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:597 +0x176
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run.func1()
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:274 +0x4b
+google3/third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.(*AgentExecutor).Run(0x21fde4c35a40, {0x5ab9421786d8?, 0x21fde5dd0b40?}, 0x21fde6484d00, {0x21fde32bd170, 0x24})
+	third_party/gemini_coder/framework/executor/agentexecutor/agentexecutor.go:458 +0x1465
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func1({0x5ab9421786d8?, 0x21fde5dd0b40?})
+	third_party/jetski/cortex/cascade_manager.go:2133 +0x251
+google3/third_party/jetski/cortex/cortex.(*CascadeManager).executeOne.func2({0x5ab9421786d8, 0x21fde5dd0b40})
+	third_party/jetski/cortex/cascade_manager.go:2143 +0x2d
+google3/third_party/jetski/cortex/utils/background.(*Pool).Go.func2({0x5ab942178eb8, 0x21fde77726f0})
+	third_party/jetski/cortex/utils/background.go:121 +0x105
+google3/go/context/detach.Go.func1()
+	go/context/detach.go:250 +0x8a
+created by google3/go/context/detach.Go in goroutine 7626
+	go/context/detach.go:242 +0x1ae
+I0914 21:56:39.135374     365 run.go:389] Run: attempt 7 failed (RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4h9m15s.), retrying in 3m24.399858988s
+I0914 22:00:03.788430   11431 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xec948b00d2945c1b
+I0914 22:00:03.888300     365 run.go:389] Run: attempt 8 failed (RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4h5m51s.), retrying in 2m39.243594075s
+I0914 22:00:04.456874   11482 http_helpers.go:299] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x52a8fa3c7065bef7
+E0914 22:02:43.555728     365 errorreport.go:224] agent executor error: generating and executing: RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4h3m11s.
+E0914 22:02:43.559876     365 errorreport.go:224] generating and executing: RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4h3m11s.
+I0914 22:02:43.563449       1 manager.go:780] CLI store manager shutting down
+I0914 22:02:43.564268       1 conversation_manager.go:778] Stopping conversation stream
+I0914 22:02:43.564423     357 server.go:1233] Stream goroutine exited for c9cf1c17-ae2c-4db7-971d-bac64e67f482, sending completion signal
+I0914 22:02:43.564439     357 conversation_manager.go:922] Stream completed for c9cf1c17-ae2c-4db7-971d-bac64e67f482, clearing ResponsePending
+I0914 22:02:43.564922   11724 server.go:2862] Language server shutting down
+I0914 22:02:43.564938   11724 server.go:2867] Waiting for migrations to complete to prevent partial migration state...
+E0914 22:02:43.579291   11526 sharedfragment.go:187] Failed to append MCP servers from specs: context canceled
+W0914 22:02:43.583003   11526 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "mcp_servers"
+W0914 22:02:43.583019   11526 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "user_rules"
+W0914 22:02:43.583023   11526 declarative_config_loader.go:253] skipping component during resolution: empty component: prompt section "subagent_reminder"
+E0914 22:02:43.600134   11849 cascade_manager.go:2450] [c9cf1c17-ae2c-4db7-971d-bac64e67f482] Failed to wake idle agent on message: run state not found
+E0914 22:02:43.635899      69 file_watcher.go:194] skipping empty or temp file: 
+E0914 22:02:43.635918      69 file_watcher.go:194] skipping empty or temp file: 
+E0914 22:02:43.635922      69 file_watcher.go:194] skipping empty or temp file: 
+E0914 22:02:43.635945      69 file_watcher.go:194] skipping empty or temp file: 
+E0914 22:02:43.635949      69 file_watcher.go:194] skipping empty or temp file: 

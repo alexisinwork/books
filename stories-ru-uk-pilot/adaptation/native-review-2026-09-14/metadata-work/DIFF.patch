@@ -1,0 +1,2165 @@
+--- adaptation/native-review-2026-09-14/metadata-work/before/books/story-01-reptiloids/book.json
++++ books/story-01-reptiloids/book.json
+@@ -4,7 +4,7 @@
+   "book_id": "story-01-reptiloids",
+   "title": "Рептилоиды",
+   "book_type": "fiction",
+-  "stage": "adaptation_pilot_author_reading",
++  "stage": "full_native_revision_author_reading",
+   "master": {
+     "path": "sources/originals/Рептилоиды.docx",
+     "format": "docx",
+@@ -18,10 +18,10 @@
+   },
+   "voice": "voice.json",
+   "canon": "source-canon.json",
+-  "audit_status": "partial_independent_reviews_completed",
++  "audit_status": "full_native_revision_partial_external_ensemble",
+   "original_language": "ru",
+   "canonical_language": "ru",
+-  "language_state": "ru_source_selected_uk_working_translation_complete",
++  "language_state": "uk_full_native_revision_working_edition",
+   "legacy_sources": [
+     {
+       "path": "sources/originals/Рептилоиды.docx",
+@@ -35,7 +35,7 @@
+     "uk": {
+       "path": "editions/uk",
+       "role": "UA_WORKING_EDITION",
+-      "status": "author_answers_applied_working_edition",
++      "status": "full_native_revision_working_edition",
+       "source_language": "ru",
+       "target_language": "uk",
+       "source_path": "sources/originals/Рептилоиды.docx",
+@@ -43,22 +43,24 @@
+       "source_role": "RU_SOURCE_MASTER",
+       "source_status": "author_selected_for_pilot",
+       "author_basis": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+-      "current_draft": "draft-v4",
+-      "target_file": "editions/uk/draft-v4/target.uk.txt",
+-      "target_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03",
+-      "reader_docx": "editions/uk/draft-v4/reader/Рептилоїди — українська версія.docx",
+-      "quality_assessment": "editions/uk/QA-ASSESSMENT-v4.md",
++      "current_draft": "draft-v5",
++      "target_file": "editions/uk/draft-v5/target.uk.txt",
++      "target_sha256": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c",
++      "reader_docx": "editions/uk/draft-v5/reader/Рептилоїди — українська версія.docx",
++      "quality_assessment": "editions/uk/QA-ASSESSMENT-v5.md",
+       "required_literary_release_gate": "open",
+       "author_canonical_approval": false,
+       "title": "Рептилоїди",
+-      "target_path": "editions/uk/draft-v4/target.uk.txt",
+-      "reader_path": "editions/uk/draft-v4/reader/Рептилоїди — українська версія.docx",
+-      "input_manifest": "editions/uk/INPUTS-V2.json",
+-      "preparation_packet": "editions/uk/preparation/pilot/ready-v2",
+-      "continuity_path": "editions/uk/draft-v4/continuity.json",
++      "target_path": "editions/uk/draft-v5/target.uk.txt",
++      "reader_path": "editions/uk/draft-v5/reader/Рептилоїди — українська версія.docx",
++      "input_manifest": "editions/uk/INPUTS-V3.json",
++      "preparation_packet": "editions/uk/preparation/pilot/ready-v3",
++      "continuity_path": "editions/uk/draft-v5/continuity.json",
+       "author_decisions": [
+         "editions/uk/decisions/2026-09-14-author-answers.json"
+-      ]
++      ],
++      "planned_delivery": "delivery/2026-09-14-v4",
++      "delivery_status": "planned"
+     }
+   }
+ }
+--- adaptation/native-review-2026-09-14/metadata-work/before/books/story-01-reptiloids/session.md
++++ books/story-01-reptiloids/session.md
+@@ -1,9 +1,9 @@
+ # Текущая сессия
+ 
+-Полный перевод «Рептилоїди»: `draft-v4`. Ответы автора от 2026-09-14 применены.
++Полная native-редакция «Рептилоїди»: `draft-v5`. Это украинская рабочая редакция; авторское утверждение всего текста как канонического мастера не зафиксировано.
+ 
+-Текст: `editions/uk/draft-v4/target.uk.txt`; SHA-256 `d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03`. Актуальные входы: `editions/uk/INPUTS-V2.json`. Состояние и изменения фактов UK: `editions/uk/draft-v4/continuity.json`.
++Текст: `editions/uk/draft-v5/target.uk.txt`; SHA-256 `996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c`. Актуальные входы: `editions/uk/INPUTS-V3.json` и `editions/uk/preparation/pilot/ready-v3`. Непрерывность и текущие защищённые проверки: `editions/uk/draft-v5/continuity.json`. Оценка: `editions/uk/QA-ASSESSMENT-v5.md`.
+ 
+-До следующей правки прочитайте текущие author decisions и addenda: неподтверждённые варианты базовых профилей в этих местах устарели. Русский источник и его регистры остаются отдельной исторической версией.
++Авторские ответы сохранены. Русский источник и его регистры остаются отдельной исторической версией. Выпускной литературный gate открыт; внешний ансамбль завершён лишь частично.
+ 
+-Передача: `delivery/2026-09-14-v3`. DOCX и полное сравнение готовы; новые независимые литературные чтения пока не выполнены.
++Передача: `delivery/2026-09-14-v4` — **planned**, пока координатор не завершит сборку. Reader path: `editions/uk/draft-v5/reader/Рептилоїди — українська версія.docx`.
+--- adaptation/native-review-2026-09-14/metadata-work/before/books/story-01-reptiloids/revision-log.json
++++ books/story-01-reptiloids/revision-log.json
+@@ -74,6 +74,39 @@
+       "ru_source_registers": "Unchanged historical observations; UK facts and entry-state overrides are in the linked continuity layer.",
+       "delivery": "../../delivery/2026-09-14-v3",
+       "full_literary_release_gate": "open"
++    },
++    {
++      "id": "full-native-language-revision-draft-v5-2026-09-14",
++      "reason": "Promote the fully read native-language candidate plus the reconciled exact edits without changing the RU source.",
++      "old_source": {
++        "path": "editions/uk/draft-v4/target.uk.txt",
++        "sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03"
++      },
++      "new_source": {
++        "path": "editions/uk/draft-v5/target.uk.txt",
++        "sha256": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c",
++        "role": "UA_WORKING_EDITION"
++      },
++      "changes": "editions/uk/draft-v5/changes.json",
++      "decision": "adaptation/native-review-2026-09-14/reconciliation/story-01-reptiloids.spec.json",
++      "input_manifest": "editions/uk/INPUTS-V3.json",
++      "preparation_packet": "editions/uk/preparation/pilot/ready-v3",
++      "continuity": "editions/uk/draft-v5/continuity.json",
++      "quality_assessment": "editions/uk/QA-ASSESSMENT-v5.md",
++      "affected_checks": [
++        "current continuity anchors",
++        "author answers",
++        "times and referents",
++        "protected refrains and target emphasis"
++      ],
++      "audit_status": "full_native_revision_partial_external_ensemble",
++      "language_status": "working_edition_not_author_canonical_master",
++      "full_literary_release_gate": "open",
++      "delivery": {
++        "path": "../../delivery/2026-09-14-v4",
++        "status": "planned"
++      },
++      "ru_source_registers": "Unchanged historical observations; current UK checks are in the linked continuity layer."
+     }
+   ]
+ }
+--- /dev/null
++++ books/story-01-reptiloids/editions/uk/draft-v5/continuity.json
+@@ -0,0 +1,242 @@
++{
++  "schema_version": 1,
++  "book_id": "story-01-reptiloids",
++  "target_sha256": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c",
++  "source_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
++  "authority": {
++    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/decisions/2026-09-14-author-answers.json",
++    "sha256": "ae31abbb015a6938ef29d8e757b5344e0e6dc005df043b4c50c51d0a83caa34a"
++  },
++  "context_read": "Full RU story and all target paragraphs; source profile, canon and scene entry state.",
++  "scene_entry_states": [
++    {
++      "id": "story-01-reptiloids-u01",
++      "state_before": "Димон с тремя приятелями пьёт чай у Пелагеи после работы; рассказчик ещё не раскрывает реальных рептилоидов.",
++      "source_result": "Компания и Пелагея показали истинный вид; Олег в самом конце снимает маску и опровергает вывод о спасении мира."
++    }
++  ],
++  "target_overrides": [
++    {
++      "p": 1,
++      "before": "після довгого робочого дня на фабриці",
++      "after": "після довгої нічної зміни на фабриці",
++      "answer": "Q3",
++      "reason": "Explicit author clarification: the men have finished a night shift, which connects naturally to the dawn in p48."
++    },
++    {
++      "p": 14,
++      "before": "Пелагеє Гінеколаївно",
++      "after": "Пелагіє Гінеколаївно",
++      "answer": "Q1",
++      "reason": "Vocative of the author-selected name Пелагія Гінеколаївна."
++    },
++    {
++      "p": 17,
++      "before": "проскрипіла Пелагея",
++      "after": "проскрипіла Пелагія",
++      "answer": "Q1",
++      "reason": "Normalize the narrator’s name reference; keep the egg joke unchanged under Q2."
++    },
++    {
++      "p": 21,
++      "before": "Пелагеї Миколаївни",
++      "after": "Пелагії Гінеколаївни",
++      "answer": "Q1",
++      "reason": "Genitive of the author-selected name and patronymic."
++    },
++    {
++      "p": 29,
++      "before": "Пелагея Гінеколаївна",
++      "after": "Пелагія Гінеколаївна",
++      "answer": "Q1",
++      "reason": "Normalize the same character’s nominative name."
++    }
++  ],
++  "protected": [
++    {
++      "answer": "Q2",
++      "p": 17,
++      "text": "Та й заговори ваші яйцем по голові викачували! А вам і викачувати нема на чому!",
++      "reason": "Author explicitly chose to keep this wording."
++    },
++    {
++      "p": 55,
++      "reason": "The final revelation about Oleg is unchanged."
++    }
++  ],
++  "arithmetic": null,
++  "knowledge_policy": "No early disclosure of later facts; quoted false accounts and character beliefs retain their attribution.",
++  "source_registers": "Unchanged historical RU observations; target overrides are applied only in this linked UK layer.",
++  "current_draft": "draft-v5",
++  "translation_sha256": "ffc5b3b21a9154d683e90bff5909cec07963605a67bd8baed0432a4514217fae",
++  "predecessor": {
++    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/continuity.json",
++    "sha256": "527b2e7bc03cf1b77372d35828cc0da597563d26204ddb86d8158c5600d7e4fd",
++    "draft": "draft-v4",
++    "target_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03"
++  },
++  "revision_basis": [
++    {
++      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/story-01-reptiloids.spec.json",
++      "sha256": "68321350ca3e6318a46628e29c9fa57a5cc36e652a3b96f432e8c90c138c0f6c",
++      "role": "reconciled_exact_language_edits"
++    },
++    {
++      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v5/changes.json",
++      "sha256": "33bf00fdc890d60e336459602df61dd7813a0466aadb2193cbcecdf8f234e2dc",
++      "role": "full_paragraph_change_record"
++    },
++    {
++      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/INPUTS-V3.json",
++      "sha256": "8ee505c13eeae2e71f19ee3599e6a7957bfede323cdad3a1eaaef1c3fb8584ec",
++      "role": "frozen_inputs"
++    },
++    {
++      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v3/packet.json",
++      "sha256": "41b3610169d7eaac0405f8dac60bc119654771cf5438022597a43dd10f1f691f",
++      "role": "frozen_preparation_packet"
++    }
++  ],
++  "current_anchor_checks": [
++    {
++      "p": 1,
++      "source_ids": [
++        "story-01-reptiloids-c000-p000001"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "Після довгої нічної зміни на фабриці",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "c87c798a927af833fa0dd0ae5d71ef6c89c435fe504ee56ee69e4c40caa488a6"
++      ],
++      "result": "passed",
++      "historical_after": "після довгої нічної зміни на фабриці",
++      "authority_status": "author_answer_applied",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 14,
++      "source_ids": [
++        "story-01-reptiloids-c000-p000014"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "Пелагіє Гінеколаївно",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "d422d858feec896e0757c03fc670964d7baa58d3e4eeb8ae9442bd69677221d5"
++      ],
++      "result": "passed",
++      "historical_after": "Пелагіє Гінеколаївно",
++      "authority_status": "author_answer_applied",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 17,
++      "source_ids": [
++        "story-01-reptiloids-c000-p000017"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "проскрипіла Пелагія",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "f654e657c324efaa97f217f1a6fb83d00dfcac1254b363dde7eeb7572acd065b"
++      ],
++      "result": "passed",
++      "historical_after": "проскрипіла Пелагія",
++      "authority_status": "author_answer_applied",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 21,
++      "source_ids": [
++        "story-01-reptiloids-c000-p000021"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "Пелагії Гінеколаївни",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "e461d6237bbdbe9a81cb166793c01708740b252d1abbfe211d765cb8dcb23725"
++      ],
++      "result": "passed",
++      "historical_after": "Пелагії Гінеколаївни",
++      "authority_status": "author_answer_applied",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 29,
++      "source_ids": [
++        "story-01-reptiloids-c000-p000029"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "Пелагія Гінеколаївна",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "b161479f4991caa7e1267675be2a0f8254960c58864626a5574ce215c1c020be"
++      ],
++      "result": "passed",
++      "historical_after": "Пелагія Гінеколаївна",
++      "authority_status": "author_answer_applied",
++      "semantic_obligation_preserved": true
++    }
++  ],
++  "current_protected_checks": [
++    {
++      "p": 17,
++      "source_ids": [
++        "story-01-reptiloids-c000-p000017"
++      ],
++      "purpose": "author-selected comic refrain",
++      "exact_text": "Та й заговори ваші яйцем по голові викачували! А вам і викачувати нема на чому!",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "f654e657c324efaa97f217f1a6fb83d00dfcac1254b363dde7eeb7572acd065b"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 55,
++      "source_ids": [
++        "story-01-reptiloids-c000-p000055"
++      ],
++      "purpose": "final revelation about Oleg",
++      "exact_text": "Олег неквапно знімає маску",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "e9362ea0579bd7ec09e1473344cbea834b85f128c8a02ec188fb204d847dcbce",
++        "b8e0d02eac45b131078b80f9f76be0912ecb1590b62c6a80dcdc514c98a4b90e"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 55,
++      "source_ids": [
++        "story-01-reptiloids-c000-p000055"
++      ],
++      "purpose": "reptiloid reveal remains explicit",
++      "exact_text": "блиснувши жовтими очима",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "e9362ea0579bd7ec09e1473344cbea834b85f128c8a02ec188fb204d847dcbce",
++        "b8e0d02eac45b131078b80f9f76be0912ecb1590b62c6a80dcdc514c98a4b90e"
++      ],
++      "result": "passed"
++    }
++  ],
++  "current_target_emphasis_checks": [],
++  "current_check_summary": {
++    "target_sha256": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c",
++    "historical_overrides_checked": 5,
++    "protected_exact_checks": 3,
++    "target_emphasis_ranges_checked": 0,
++    "result": "passed",
++    "scope": "Dependent continuity anchors only; not a new full structural diagnosis."
++  }
++}
+--- /dev/null
++++ books/story-01-reptiloids/editions/uk/QA-ASSESSMENT-v5.md
+@@ -0,0 +1,13 @@
++# Проверки: «Рептилоїди»
++
++Текущая версия: `draft-v5`. Target SHA-256: `996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c`. Translation SHA-256: `ffc5b3b21a9154d683e90bff5909cec07963605a67bd8baed0432a4514217fae`.
++
++Полный текст: 54 выровненных блоков, 58 целевых абзацев. Относительно доставленной базы изменено 22 полных целевых абзацев; полный журнал хранится в `draft-v5/changes.json`.
++
++Native-языковой проход охватил весь украинский текст. Reconciliation применил только точные зафиксированные edits. Это полный языковой self-review выбранного кандидата и частичный внешний ансамбль, а не новое независимое структурное обследование.
++
++Зависимые continuity-проверки: 5 исторических авторских/делегированных overrides, 3 точных защищённых проверок и 0 диапазонов emphasis; результат `passed`. Source registers не переписывались.
++
++Актуальные замороженные входы: `INPUTS-V3.json`; пакет: `preparation/pilot/ready-v3`. Историческая оценка предыдущей версии: `QA-ASSESSMENT-v4.md`. Механические final-checks и reader export ведутся отдельными файлами текущего draft и этой metadata-задачей не изменяются.
++
++Статус: `full_native_revision_partial_external_ensemble`. Украинский текст остаётся рабочей редакцией, выпускной литературный gate открыт, авторское утверждение всего текста как канонического мастера не зафиксировано. `delivery/2026-09-14-v4` имеет статус planned до завершения сборки координатором.
+--- adaptation/native-review-2026-09-14/metadata-work/before/books/story-02-fair-killer/book.json
++++ books/story-02-fair-killer/book.json
+@@ -4,7 +4,7 @@
+   "book_id": "story-02-fair-killer",
+   "title": "Справедливый убийца",
+   "book_type": "fiction",
+-  "stage": "adaptation_pilot_author_reading",
++  "stage": "full_native_revision_author_reading",
+   "master": {
+     "path": "sources/originals/Справедливый убийца.docx",
+     "format": "docx",
+@@ -18,10 +18,10 @@
+   },
+   "voice": "voice.json",
+   "canon": "source-canon.json",
+-  "audit_status": "partial_independent_reviews_completed",
++  "audit_status": "full_native_revision_partial_external_ensemble",
+   "original_language": "ru",
+   "canonical_language": "ru",
+-  "language_state": "ru_source_selected_uk_working_translation_complete",
++  "language_state": "uk_full_native_revision_working_edition",
+   "legacy_sources": [
+     {
+       "path": "sources/originals/Справедливый убийца.docx",
+@@ -35,7 +35,7 @@
+     "uk": {
+       "path": "editions/uk",
+       "role": "UA_WORKING_EDITION",
+-      "status": "author_answers_applied_working_edition",
++      "status": "full_native_revision_working_edition",
+       "source_language": "ru",
+       "target_language": "uk",
+       "source_path": "sources/originals/Справедливый убийца.docx",
+@@ -43,20 +43,22 @@
+       "source_role": "RU_SOURCE_MASTER",
+       "source_status": "author_selected_for_pilot",
+       "author_basis": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+-      "current_draft": "draft-v3",
+-      "target_path": "editions/uk/draft-v3/target.uk.txt",
+-      "target_sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7",
+-      "reader_path": "editions/uk/draft-v3/reader/Справедливий вбивця — українська версія.docx",
+-      "quality_assessment": "editions/uk/QA-ASSESSMENT-v3.md",
++      "current_draft": "draft-v4",
++      "target_path": "editions/uk/draft-v4/target.uk.txt",
++      "target_sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
++      "reader_path": "editions/uk/draft-v4/reader/Справедливий вбивця — українська версія.docx",
++      "quality_assessment": "editions/uk/QA-ASSESSMENT-v4.md",
+       "required_literary_release_gate": "open",
+       "author_canonical_approval": false,
+       "title": "Справедливий вбивця",
+-      "input_manifest": "editions/uk/INPUTS-V2.json",
+-      "preparation_packet": "editions/uk/preparation/pilot/ready-v2",
+-      "continuity_path": "editions/uk/draft-v3/continuity.json",
++      "input_manifest": "editions/uk/INPUTS-V3.json",
++      "preparation_packet": "editions/uk/preparation/pilot/ready-v3",
++      "continuity_path": "editions/uk/draft-v4/continuity.json",
+       "author_decisions": [
+         "editions/uk/decisions/2026-09-14-author-answers.json"
+-      ]
++      ],
++      "planned_delivery": "delivery/2026-09-14-v4",
++      "delivery_status": "planned"
+     }
+   }
+ }
+--- adaptation/native-review-2026-09-14/metadata-work/before/books/story-02-fair-killer/session.md
++++ books/story-02-fair-killer/session.md
+@@ -1,9 +1,9 @@
+ # Текущая сессия
+ 
+-Полный перевод «Справедливий вбивця»: `draft-v3`. Ответы автора от 2026-09-14 применены.
++Полная native-редакция «Справедливий вбивця»: `draft-v4`. Это украинская рабочая редакция; авторское утверждение всего текста как канонического мастера не зафиксировано.
+ 
+-Текст: `editions/uk/draft-v3/target.uk.txt`; SHA-256 `36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7`. Актуальные входы: `editions/uk/INPUTS-V2.json`. Состояние и изменения фактов UK: `editions/uk/draft-v3/continuity.json`.
++Текст: `editions/uk/draft-v4/target.uk.txt`; SHA-256 `3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f`. Актуальные входы: `editions/uk/INPUTS-V3.json` и `editions/uk/preparation/pilot/ready-v3`. Непрерывность и текущие защищённые проверки: `editions/uk/draft-v4/continuity.json`. Оценка: `editions/uk/QA-ASSESSMENT-v4.md`.
+ 
+-До следующей правки прочитайте текущие author decisions и addenda: неподтверждённые варианты базовых профилей в этих местах устарели. Русский источник и его регистры остаются отдельной исторической версией.
++Авторские ответы сохранены. Русский источник и его регистры остаются отдельной исторической версией. Выпускной литературный gate открыт; внешний ансамбль завершён лишь частично.
+ 
+-Передача: `delivery/2026-09-14-v3`. DOCX и полное сравнение готовы; новые независимые литературные чтения пока не выполнены.
++Передача: `delivery/2026-09-14-v4` — **planned**, пока координатор не завершит сборку. Reader path: `editions/uk/draft-v4/reader/Справедливий вбивця — українська версія.docx`.
+--- adaptation/native-review-2026-09-14/metadata-work/before/books/story-02-fair-killer/revision-log.json
++++ books/story-02-fair-killer/revision-log.json
+@@ -74,6 +74,39 @@
+       "ru_source_registers": "Unchanged historical observations; UK facts and entry-state overrides are in the linked continuity layer.",
+       "delivery": "../../delivery/2026-09-14-v3",
+       "full_literary_release_gate": "open"
++    },
++    {
++      "id": "full-native-language-revision-draft-v4-2026-09-14",
++      "reason": "Promote the fully read native-language candidate plus the reconciled exact edits without changing the RU source.",
++      "old_source": {
++        "path": "editions/uk/draft-v3/target.uk.txt",
++        "sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7"
++      },
++      "new_source": {
++        "path": "editions/uk/draft-v4/target.uk.txt",
++        "sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
++        "role": "UA_WORKING_EDITION"
++      },
++      "changes": "editions/uk/draft-v4/changes.json",
++      "decision": "adaptation/native-review-2026-09-14/reconciliation/story-02-fair-killer.spec.json",
++      "input_manifest": "editions/uk/INPUTS-V3.json",
++      "preparation_packet": "editions/uk/preparation/pilot/ready-v3",
++      "continuity": "editions/uk/draft-v4/continuity.json",
++      "quality_assessment": "editions/uk/QA-ASSESSMENT-v4.md",
++      "affected_checks": [
++        "current continuity anchors",
++        "author answers",
++        "times and referents",
++        "protected refrains and target emphasis"
++      ],
++      "audit_status": "full_native_revision_partial_external_ensemble",
++      "language_status": "working_edition_not_author_canonical_master",
++      "full_literary_release_gate": "open",
++      "delivery": {
++        "path": "../../delivery/2026-09-14-v4",
++        "status": "planned"
++      },
++      "ru_source_registers": "Unchanged historical observations; current UK checks are in the linked continuity layer."
+     }
+   ]
+ }
+--- /dev/null
++++ books/story-02-fair-killer/editions/uk/draft-v4/continuity.json
+@@ -0,0 +1,317 @@
++{
++  "schema_version": 1,
++  "book_id": "story-02-fair-killer",
++  "target_sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
++  "source_sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
++  "authority": {
++    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/decisions/2026-09-14-author-answers.json",
++    "sha256": "d640cf4bfe7d6a2d874b3021aeea22e1a7d3e24bffcbd915fb58c87912b0c638"
++  },
++  "context_read": "RU/UK p60–66, p83–89, p120–124, p155, p178–185, p246–248; source canon, all scene entry states and local voice/style.",
++  "scene_entry_states": [
++    {
++      "id": "story-02-fair-killer-u01",
++      "state_before": "Лайт проник в резиденцию; лицо жертвы кажется знакомым.",
++      "source_result": "Джулия назвала его Эсквайром; прозвучал выстрел, результат пока скрыт. Разделитель p7 сохранён."
++    },
++    {
++      "id": "story-02-fair-killer-u02",
++      "state_before": "Фраза Джулии вызвала воспоминание о первом заказе; читатель ещё не знает исход первого выстрела.",
++      "source_result": "Показаны отец Хаста, месть мафии, развитие дерева риокка и новая борьба с преступностью; p40 — исходный разделитель."
++    },
++    {
++      "id": "story-02-fair-killer-u03",
++      "state_before": "Двое союзников Хаста нанимают 18-летнего Лайта; он подозревает, что его убьют после заказа.",
++      "source_result": "Лайт убил Хаста, исполнил его последнее желание и отправил двенадцатилетнюю Кристину на неизвестную ему планету; p77 — разделитель."
++    },
++    {
++      "id": "story-02-fair-killer-u04",
++      "state_before": "В другом флешбэке Лайту пять; отец показывает безопасность двигателей.",
++      "source_result": "Наким учит сына спокойному спору и сохранению лица собеседника; Кирва уже знаком семье. p119 — разделитель."
++    },
++    {
++      "id": "story-02-fair-killer-u05",
++      "state_before": "Возврат к выстрелу p5: Джулия жива, след пули справа от неё.",
++      "source_result": "Джулия/Кристина узнала прежнего спасителя Лайта, но ещё не его роль убийцы отца; Лайт начинает рассказ о своей утрате. p169 — разделитель."
++    },
++    {
++      "id": "story-02-fair-killer-u06",
++      "state_before": "Подросток Лайт тренируется у отца; семейные правила пока кажутся прочной опорой.",
++      "source_result": "Отец погиб при внезапном запуске защищённого двигателя; официальный отчёт называет неисправность, Лайт подозревает Кирву. p225 — разделитель."
++    },
++    {
++      "id": "story-02-fair-killer-u07",
++      "state_before": "Джулия слушает Лайта на складе, связанная; пистолет лежит рядом.",
++      "source_result": "Лайт признался в смерти Хаста, предложил служить Джулии и развязал её. Она берёт пистолет ради мести. Последний беззвучный хлопок оставляет действие за пределами прямого описания."
++    }
++  ],
++  "target_overrides": [
++    {
++      "p": 87,
++      "before": "покликав сина й знову запустив двигуни",
++      "after": "покликав сина й спробував знову запустити двигуни",
++      "answer": "ADDITIONAL",
++      "reason": "Попытка запуска вызывает сигнал блокировки при ребёнке у сопел; защитная система действует так, как объясняет отец."
++    },
++    {
++      "p": 123,
++      "before": "Це останні слова мого батька. Перед тим, як його вбили.",
++      "after": "Так казав мій батько. До того, як його вбили.",
++      "answer": "ADDITIONAL",
++      "reason": "Джулія узнаёт знакомую отцовскую фразу, не зная его последних слов в закрытом кабинете. Нового свидетеля или записи не добавлено; раскрытие личности убийцы остаётся в финале."
++    },
++    {
++      "p": 181,
++      "before": "цей пішак міг перестрибнути через одну фігуру на вибір по вертикалі й «убити» її",
++      "after": "цей пішак міг перестрибнути по вертикалі через одну фігуру й «убити» ту, що стояла за нею",
++      "answer": "ADDITIONAL",
++      "reason": "Правило согласовано с последующим ходом: конь служит препятствием, ферзь — целью. Действие партии и метафора Лайта сохранены; новые ограничения частоты хода не добавлены."
++    }
++  ],
++  "protected": [
++    {
++      "answer": "Q4",
++      "p": 155,
++      "reason": "Самооправдание Лайта сознательно расходится с признанием в p246; это подтверждённый автором разрыв самообраза и поступков."
++    },
++    {
++      "answer": "Q4",
++      "p": 246,
++      "reason": "Признание в прекращении проверок и гибели невинных сохранено."
++    },
++    {
++      "answer": "Q5",
++      "p": 5,
++      "text": "Один безгучний ляск пролунав у тиші кабінету.",
++      "reason": "Повтор начала, первого заказа и финала образует кольцевую композицию."
++    },
++    {
++      "answer": "Q5",
++      "p": 66,
++      "text": "Один безгучний ляск пролунав у тиші кабінету."
++    },
++    {
++      "answer": "Q5",
++      "p": 248,
++      "text": "Один безгучний ляск пролунав у тиші…"
++    }
++  ],
++  "arithmetic": null,
++  "knowledge_policy": "No early disclosure of later facts; quoted false accounts and character beliefs retain their attribution.",
++  "source_registers": "Unchanged historical RU observations; target overrides are applied only in this linked UK layer.",
++  "current_draft": "draft-v4",
++  "translation_sha256": "be892596bf22a93c932fb8d727dfe557db5b8ae6ad9c9408b59633996d8cf4bf",
++  "predecessor": {
++    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v3/continuity.json",
++    "sha256": "f24cea279d822d6e046e0b3b83bf66ced250d7c1b02416963e5612cc8752229f",
++    "draft": "draft-v3",
++    "target_sha256": "36741936ff0c9a90cbeedcf6fb45c16dbd6454c69242feb4c8849803209d54e7"
++  },
++  "revision_basis": [
++    {
++      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/story-02-fair-killer.spec.json",
++      "sha256": "743d87a930d709102931a6ea1edcc224d0d4d9d6c9242a7b3d1a1c16e5d1773c",
++      "role": "reconciled_exact_language_edits"
++    },
++    {
++      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/draft-v4/changes.json",
++      "sha256": "c448a063d8d58bbd0e12e3468000bef759a3346649d3fb102c0fd219df5eaeb0",
++      "role": "full_paragraph_change_record"
++    },
++    {
++      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/INPUTS-V3.json",
++      "sha256": "3847e93460cc7f727a68f46f017df0b9c36b99df94c72c322abb0ec98f75ac51",
++      "role": "frozen_inputs"
++    },
++    {
++      "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v3/packet.json",
++      "sha256": "344a92b940000cfcb628606f40cf1ac31953065030875f4b6e488d0c0c4ba2b4",
++      "role": "frozen_preparation_packet"
++    }
++  ],
++  "current_anchor_checks": [
++    {
++      "p": 87,
++      "source_ids": [
++        "story-02-fair-killer-c000-p000087"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "покликав сина й спробував знову запустити двигуни",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "06912b5fc44c5b0616aefba3d8bcb7a884be644f0de02424ea97bed839743a11"
++      ],
++      "result": "passed",
++      "historical_after": "покликав сина й спробував знову запустити двигуни",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 123,
++      "source_ids": [
++        "story-02-fair-killer-c000-p000123"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "Так казав мій батько. До того, як його вбили.",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "ea10b2e6120d3cd86e290c204f21f80a68e1631e343ec63ee47b0065034d7a87"
++      ],
++      "result": "passed",
++      "historical_after": "Так казав мій батько. До того, як його вбили.",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 181,
++      "source_ids": [
++        "story-02-fair-killer-c000-p000181"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "цей пішак міг перестрибнути по вертикалі через одну фігуру й «убити» ту, що стояла за нею",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "3f61970a3f56786917274214dd9cd4a03ff50780457562e459f55319a9ceebc2"
++      ],
++      "result": "passed",
++      "historical_after": "цей пішак міг перестрибнути по вертикалі через одну фігуру й «убити» ту, що стояла за нею",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    }
++  ],
++  "current_protected_checks": [
++    {
++      "p": 5,
++      "source_ids": [
++        "story-02-fair-killer-c000-p000005"
++      ],
++      "purpose": "first acoustic-paradox refrain",
++      "exact_text": "Один безгучний ляск пролунав у тиші кабінету.",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "4ac14e213aba6b4b5f408e0bf4cabd89dffd2c6a6ab580b433d0fa17ae20c71e"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 66,
++      "source_ids": [
++        "story-02-fair-killer-c000-p000066"
++      ],
++      "purpose": "second acoustic-paradox refrain",
++      "exact_text": "Один безгучний ляск пролунав у тиші кабінету.",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "4ac14e213aba6b4b5f408e0bf4cabd89dffd2c6a6ab580b433d0fa17ae20c71e"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 248,
++      "source_ids": [
++        "story-02-fair-killer-c000-p000248"
++      ],
++      "purpose": "open-ending refrain",
++      "exact_text": "Один безгучний ляск пролунав у тиші…",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "aab66c99288597ae5576538748228d0008c5d453ca666e29491c592206bbc33d"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 155,
++      "source_ids": [
++        "story-02-fair-killer-c000-p000155"
++      ],
++      "purpose": "Light's protected self-justification",
++      "exact_text": "А в мене точно не буде невинних жертв.",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "fb6f85c31467e0d3c00e2d5593d05ba0596a36f800f8279433e055a79b79dc55"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 246,
++      "source_ids": [
++        "story-02-fair-killer-c000-p000246"
++      ],
++      "purpose": "later admission that checks weakened",
++      "exact_text": "Років за десять я вже перестав так ретельно перевіряти жертв",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "833ba20b4d2cfd36916ab54eec52683116715d41d7e7e2923e4ad3853594ae93"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 246,
++      "source_ids": [
++        "story-02-fair-killer-c000-p000246"
++      ],
++      "purpose": "later admission of innocent deaths",
++      "exact_text": "кілька десятків добрих бізнесменів, політиків і журналістів усе-таки загинули від моєї руки",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "833ba20b4d2cfd36916ab54eec52683116715d41d7e7e2923e4ad3853594ae93"
++      ],
++      "result": "passed"
++    }
++  ],
++  "current_target_emphasis_checks": [
++    {
++      "source_ids": [
++        "story-02-fair-killer-c000-p000167"
++      ],
++      "paragraph": 0,
++      "text": "«У кожного є глибока потреба відчувати, що в житті є місце справедливості, що невинні зрештою отримують відшкодування, а винні несуть покарання. Але ця історія нічого подібного не приносить, адже найобурливіший приклад відсутності відплати покоїться в землі Біркенау, землі, яку після війни місцеві жителі перекопували в пошуках цінностей, на найбільшому кладовищі у світовій історії… І, як правило, виявляється, що люди, яких змусили страждати й терпіти поневіряння Освенцима, так і не знайшли ні розради, ні відчуття спокути навіть у релігії»",
++      "format": {
++        "italic": true
++      },
++      "actual_occurrences": 1,
++      "result": "passed"
++    },
++    {
++      "source_ids": [
++        "story-02-fair-killer-c000-p000209"
++      ],
++      "paragraph": 0,
++      "text": "верх невихованості — відволікатися під час розмови на свій планшет, гравітофон чи електронну книжку. Навіть якщо ти втомився й тобі нудно, не показуй цього. Джентльмен передусім уважний до співрозмовника",
++      "format": {
++        "bold": true
++      },
++      "actual_occurrences": 1,
++      "result": "passed"
++    },
++    {
++      "source_ids": [
++        "story-02-fair-killer-c000-p000234"
++      ],
++      "paragraph": 0,
++      "text": "«Поважати кожну людину, як самого себе, і чинити з нею так, як ми бажаємо, щоб чинили з нами, — понад це немає нічого»",
++      "format": {
++        "bold": true
++      },
++      "actual_occurrences": 1,
++      "result": "passed"
++    }
++  ],
++  "current_check_summary": {
++    "target_sha256": "3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f",
++    "historical_overrides_checked": 3,
++    "protected_exact_checks": 6,
++    "target_emphasis_ranges_checked": 3,
++    "result": "passed",
++    "scope": "Dependent continuity anchors only; not a new full structural diagnosis."
++  }
++}
+--- /dev/null
++++ books/story-02-fair-killer/editions/uk/QA-ASSESSMENT-v4.md
+@@ -0,0 +1,13 @@
++# Проверки: «Справедливий вбивця»
++
++Текущая версия: `draft-v4`. Target SHA-256: `3f6eaf15a892e5da90b54d74344f9d2d2f7407a966e385b004f59c942ab7b15f`. Translation SHA-256: `be892596bf22a93c932fb8d727dfe557db5b8ae6ad9c9408b59633996d8cf4bf`.
++
++Полный текст: 236 выровненных блоков, 236 целевых абзацев. Относительно доставленной базы изменено 87 полных целевых абзацев; полный журнал хранится в `draft-v4/changes.json`.
++
++Native-языковой проход охватил весь украинский текст. Reconciliation применил только точные зафиксированные edits. Это полный языковой self-review выбранного кандидата и частичный внешний ансамбль, а не новое независимое структурное обследование.
++
++Зависимые continuity-проверки: 3 исторических авторских/делегированных overrides, 6 точных защищённых проверок и 3 диапазонов emphasis; результат `passed`. Source registers не переписывались.
++
++Актуальные замороженные входы: `INPUTS-V3.json`; пакет: `preparation/pilot/ready-v3`. Историческая оценка предыдущей версии: `QA-ASSESSMENT-v3.md`. Механические final-checks и reader export ведутся отдельными файлами текущего draft и этой metadata-задачей не изменяются.
++
++Статус: `full_native_revision_partial_external_ensemble`. Украинский текст остаётся рабочей редакцией, выпускной литературный gate открыт, авторское утверждение всего текста как канонического мастера не зафиксировано. `delivery/2026-09-14-v4` имеет статус planned до завершения сборки координатором.
+--- adaptation/native-review-2026-09-14/metadata-work/before/books/story-03-chaos-logic/book.json
++++ books/story-03-chaos-logic/book.json
+@@ -4,7 +4,7 @@
+   "book_id": "story-03-chaos-logic",
+   "title": "Логика хаоса",
+   "book_type": "fiction",
+-  "stage": "adaptation_pilot_author_reading",
++  "stage": "full_native_revision_author_reading",
+   "master": {
+     "path": "sources/originals/Логика хаоса.docx",
+     "format": "docx",
+@@ -18,10 +18,10 @@
+   },
+   "voice": "voice.json",
+   "canon": "source-canon.json",
+-  "audit_status": "partial_independent_reviews_completed",
++  "audit_status": "full_native_revision_partial_external_ensemble",
+   "original_language": "ru",
+   "canonical_language": "ru",
+-  "language_state": "ru_source_selected_uk_working_translation_complete",
++  "language_state": "uk_full_native_revision_working_edition",
+   "legacy_sources": [
+     {
+       "path": "sources/originals/Логика хаоса.docx",
+@@ -35,7 +35,7 @@
+     "uk": {
+       "path": "editions/uk",
+       "role": "UA_WORKING_EDITION",
+-      "status": "author_answers_applied_working_edition",
++      "status": "full_native_revision_working_edition",
+       "source_language": "ru",
+       "target_language": "uk",
+       "source_path": "sources/originals/Логика хаоса.docx",
+@@ -43,21 +43,23 @@
+       "source_role": "RU_SOURCE_MASTER",
+       "source_status": "author_selected_for_pilot",
+       "author_basis": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+-      "current_draft": "draft-v4",
+-      "target_path": "editions/uk/draft-v4/target.uk.txt",
+-      "target_sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960",
+-      "reader_path": "editions/uk/draft-v4/reader/Логіка хаосу — українська версія.docx",
+-      "quality_assessment": "editions/uk/QA-ASSESSMENT-v4.md",
++      "current_draft": "draft-v7",
++      "target_path": "editions/uk/draft-v7/target.uk.txt",
++      "target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
++      "reader_path": "editions/uk/draft-v7/reader/Логіка хаосу — українська версія.docx",
++      "quality_assessment": "editions/uk/QA-ASSESSMENT-v7.md",
+       "required_literary_release_gate": "open",
+       "author_canonical_approval": false,
+-      "input_manifest": "editions/uk/INPUTS-V3.json",
+-      "preparation_packet": "editions/uk/preparation/pilot/ready-v3",
++      "input_manifest": "editions/uk/INPUTS-V4.json",
++      "preparation_packet": "editions/uk/preparation/pilot/ready-v4",
+       "author_decisions": [
+         "editions/uk/decisions/2026-09-14-final-meaning.json",
+         "editions/uk/decisions/2026-09-14-author-answers.json"
+       ],
+       "title": "Логіка хаосу",
+-      "continuity_path": "editions/uk/draft-v4/continuity.json"
++      "continuity_path": "editions/uk/draft-v7/continuity.json",
++      "planned_delivery": "delivery/2026-09-14-v4",
++      "delivery_status": "planned"
+     }
+   }
+ }
+--- adaptation/native-review-2026-09-14/metadata-work/before/books/story-03-chaos-logic/session.md
++++ books/story-03-chaos-logic/session.md
+@@ -1,9 +1,9 @@
+ # Текущая сессия
+ 
+-Полный перевод «Логіка хаосу»: `draft-v4`. Ответы автора от 2026-09-14 применены.
++Полная native-редакция «Логіка хаосу»: `draft-v7`. Это украинская рабочая редакция; авторское утверждение всего текста как канонического мастера не зафиксировано.
+ 
+-Текст: `editions/uk/draft-v4/target.uk.txt`; SHA-256 `c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960`. Актуальные входы: `editions/uk/INPUTS-V3.json`. Состояние и изменения фактов UK: `editions/uk/draft-v4/continuity.json`.
++Текст: `editions/uk/draft-v7/target.uk.txt`; SHA-256 `955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b`. Актуальные входы: `editions/uk/INPUTS-V4.json` и `editions/uk/preparation/pilot/ready-v4`. Непрерывность и текущие защищённые проверки: `editions/uk/draft-v7/continuity.json`. Оценка: `editions/uk/QA-ASSESSMENT-v7.md`.
+ 
+-До следующей правки прочитайте текущие author decisions и addenda: неподтверждённые варианты базовых профилей в этих местах устарели. Русский источник и его регистры остаются отдельной исторической версией.
++Авторские ответы сохранены. Русский источник и его регистры остаются отдельной исторической версией. Выпускной литературный gate открыт; внешний ансамбль завершён лишь частично.
+ 
+-Передача: `delivery/2026-09-14-v3`. DOCX и полное сравнение готовы; новые независимые литературные чтения пока не выполнены.
++Передача: `delivery/2026-09-14-v4` — **planned**, пока координатор не завершит сборку. Reader path: `editions/uk/draft-v7/reader/Логіка хаосу — українська версія.docx`.
+--- adaptation/native-review-2026-09-14/metadata-work/before/books/story-03-chaos-logic/revision-log.json
++++ books/story-03-chaos-logic/revision-log.json
+@@ -107,6 +107,61 @@
+       "ru_source_registers": "Unchanged historical observations; UK facts and entry-state overrides are in the linked continuity layer.",
+       "delivery": "../../delivery/2026-09-14-v3",
+       "full_literary_release_gate": "open"
++    },
++    {
++      "id": "full-native-language-revision-draft-v7-2026-09-14",
++      "reason": "Promote the fully read native-language candidate plus the reconciled exact edits without changing the RU source.",
++      "old_source": {
++        "path": "editions/uk/draft-v4/target.uk.txt",
++        "sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960"
++      },
++      "new_source": {
++        "path": "editions/uk/draft-v7/target.uk.txt",
++        "sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
++        "role": "UA_WORKING_EDITION"
++      },
++      "changes": "editions/uk/draft-v7/changes.json",
++      "decision": "adaptation/native-review-2026-09-14/reconciliation/story-03-chaos-logic-v7.spec.json",
++      "input_manifest": "editions/uk/INPUTS-V4.json",
++      "preparation_packet": "editions/uk/preparation/pilot/ready-v4",
++      "continuity": "editions/uk/draft-v7/continuity.json",
++      "quality_assessment": "editions/uk/QA-ASSESSMENT-v7.md",
++      "affected_checks": [
++        "current continuity anchors",
++        "author answers",
++        "times and referents",
++        "protected refrains and target emphasis"
++      ],
++      "audit_status": "full_native_revision_partial_external_ensemble",
++      "language_status": "working_edition_not_author_canonical_master",
++      "full_literary_release_gate": "open",
++      "delivery": {
++        "path": "../../delivery/2026-09-14-v4",
++        "status": "planned"
++      },
++      "ru_source_registers": "Unchanged historical observations; current UK checks are in the linked continuity layer.",
++      "intermediate_sources": [
++        {
++          "path": "editions/uk/draft-v5/target.uk.txt",
++          "sha256": "69fd73c4beb67cdb1bb55d5dd9985eac8b6e925693259a9763802a57ded32d33",
++          "status": "preserved_intermediate_native_revision"
++        },
++        {
++          "path": "editions/uk/draft-v6/target.uk.txt",
++          "sha256": "ee4228a4edcf37e29dc0ebb22d006e165989f41cd9fc5ac8d20c4557b24a9379",
++          "status": "preserved_intermediate_desktop_variant"
++        }
++      ],
++      "desktop_import": {
++        "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/desktop-import/import.json",
++        "sha256": "6c37f383bf5f134635eb087f35344fc252c33eefc936f1eac0454c33374f1323"
++      },
++      "meaning_change": {
++        "p": 292,
++        "status": "editorial_choice_under_author_delegation",
++        "author_canon_approved": false,
++        "change": "lunch -> breakfast to match p290–p292"
++      }
+     }
+   ]
+ }
+--- /dev/null
++++ books/story-03-chaos-logic/editions/uk/draft-v7/continuity.json
+@@ -0,0 +1,688 @@
++{
++  "schema_version": 1,
++  "book_id": "story-03-chaos-logic",
++  "target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
++  "source_sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++  "authority": {
++    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/decisions/2026-09-14-author-answers.json",
++    "sha256": "977f2ce63629cb107cd1ed67df14b115b5b0b28f98b2b633cf2a546bc211f47d"
++  },
++  "context_read": "RU/UK source contexts p20, p51–61, p95–102, p130–146, p157, p189–191, p218–239, p304–319; all lab/rank references, source canon and all chapter entry states. Prior approved p324 retained.",
++  "scene_entry_states": [
++    {
++      "id": "story-03-chaos-logic-u01",
++      "state_before": "Гарри скучает на станции; Чарльз требует дисциплины, Вольф и Ника выполняют служебные роли.",
++      "source_result": "После первого взрыва пустой четвёртый модуль отстрелен; Вольф ранен, Гарри направляется к брату."
++    },
++    {
++      "id": "story-03-chaos-logic-u02",
++      "state_before": "Последствия первого взрыва неясны; Гарри беспокоится о брате и Вольфе.",
++      "source_result": "Чарльз показал антигравитоний только Гарри. Второй взрыв заставил всех эвакуироваться в жилом модуле с данными; причина катастрофы не установлена."
++    },
++    {
++      "id": "story-03-chaos-logic-u03",
++      "state_before": "Экипаж летит домой; Вольф ранен, данные и образец вывезены.",
++      "source_result": "На базе происходит силовое дипломатическое противостояние двух делегаций; стороны договорились о совместном лагере и расследовании."
++    },
++    {
++      "id": "story-03-chaos-logic-u04",
++      "state_before": "Экипаж изолирован в общей зоне; Гарри ещё не знает, что катастрофа охватила другие станции.",
++      "source_result": "Гарри узнал о синхронных взрывах всех станций; Ника впервые услышала об антигравитонии, Чарльз прошёл долгий допрос."
++    },
++    {
++      "id": "story-03-chaos-logic-u05",
++      "state_before": "Гарри воображает себя героем приключения; расследование продолжается.",
++      "source_result": "Объявлены двое погибших и домашний арест; в финале главы Чарльз публично признаёт свою роль во взрывах."
++    },
++    {
++      "id": "story-03-chaos-logic-u06",
++      "state_before": "Признание Чарльза потрясло Гарри; мотив и состав группы ещё не изложены.",
++      "source_result": "Раскрыт заговор четырёх учёных и непредвиденные жертвы. Гарри отказывается простить брата; заключение возвращает к ценности случайности."
++    }
++  ],
++  "target_overrides": [
++    {
++      "p": 20,
++      "before": "і двох лабораторій: хіміко-фізичних процесів та дослідження гравітонію",
++      "after": "і трьох лабораторій: хімічної, фізичної та дослідження гравітонію",
++      "answer": "ADDITIONAL",
++      "reason": "Три лаборатории: гравитационная занимает первую треть; химическая и физическая находятся во второй. Это согласует перечисление с повторёнными местами работы и приказом p144 без придумывания новых помещений."
++    },
++    {
++      "p": 61,
++      "before": "А оскільки цього самого гравітонію в нас немає",
++      "after": "А оскільки саме цього ізотопу ми ще не отримали",
++      "answer": "ADDITIONAL",
++      "reason": "Отсутствует полученный в эксперименте изотоп гравітоній-243; наличие другого гравитония в лаборатории и двигателях не отрицается. Новые свойства вещества не добавлены."
++    },
++    {
++      "p": 99,
++      "before": "Підходьте до лабораторії.",
++      "after": "Підходьте до конференц-зали.",
++      "answer": "ADDITIONAL",
++      "reason": "Место вызова согласовано с фактической встречей p101–102; дополнительного перехода и перемещения Вольфа не добавлено."
++    },
++    {
++      "p": 130,
++      "before": "зі статичною ймовірністю",
++      "after": "зі статистичною ймовірністю",
++      "answer": "ADDITIONAL",
++      "reason": "В рассуждении о случайной неисправности имеется в виду статистическая вероятность, а не статика."
++    },
++    {
++      "p": 140,
++      "before": "відповів провідник",
++      "after": "відповів бортовий комп’ютер",
++      "answer": "ADDITIONAL",
++      "reason": "На запрос к бортовой системе отвечает уже существующий компьютер; дополнительного члена экипажа нет."
++    },
++    {
++      "p": 143,
++      "before": "Отже, у нас усього приблизно… три з половиною хвилини",
++      "after": "Якщо швидкість не зміниться, до моря в нас приблизно… три хвилини й п’ятдесят секунд",
++      "answer": "Q8",
++      "reason": "4589 / 20 = 229,45 с: 3 мин 49,45 с, в устной оценке около 3 мин 50 с. Условие неизменной скорости обозначено прямо; модель настоящего свободного падения не приписывается фантастической станции."
++    },
++    {
++      "p": 144,
++      "before": "Тому в нас є рівно три хвилини й п’ять секунд.",
++      "after": "Отже, до самознищення — близько трьох хвилин і сорока секунд.",
++      "answer": "Q8",
++      "reason": "(4589 − 200) / 20 = 219,45 с: 3 мин 39,45 с, округлённо 3 мин 40 с. Убрана ложная секундная точность; пару минут на сборы по-прежнему оставляют запас на эвакуацию."
++    },
++    {
++      "p": 144,
++      "before": "щоб пізніше дізнатися статичні дані за бортом і з’ясувати, що спричинило катастрофу",
++      "after": "щоб пізніше з’ясувати, якими були умови за бортом і що спричинило катастрофу",
++      "answer": "ADDITIONAL",
++      "reason": "Нужны данные об условиях за бортом для расследования. Убрана бессмысленная квалификация «статичні»; тип новых приборов и измерений не придуман."
++    },
++    {
++      "p": 157,
++      "before": "А мені ще й п’ятдесяти немає.",
++      "after": "А в душі мені ще й п’ятдесяти немає.",
++      "answer": "Q6",
++      "reason": "Короткая оговорка сохраняет шутку: Вольфу 60, но он чувствует себя моложе. Боль и грустная усмешка остались на месте."
++    },
++    {
++      "p": 191,
++      "before": "делегація зі Свальбарда. На другій станції Союзу врахували",
++      "after": "делегація з другої станції Союзу. Там врахували",
++      "answer": "ADDITIONAL",
++      "reason": "Редакторское согласование географии по общему поручению выбирать логичное решение: Свальбард остаётся станцией Альянса в p189; союзная делегация прибывает со второй станции Союза. Автор отдельно подтвердил лишь чин Вайта, поэтому географическая формулировка не приписывается ему как дословный ответ."
++    },
++    {
++      "p": 239,
++      "before": "Ти представник молодшого офіцерського складу",
++      "after": "Ти сержант",
++      "answer": "ADDITIONAL",
++      "reason": "Сохранено звание из прямого обращения Ники p55; реплика Чарльза о недопуске к сведениям остаётся его репликой, без изобретения устава мира."
++    },
++    {
++      "p": 310,
++      "before": "вирішили підірвати дві гравітаційні лабораторії",
++      "after": "вирішили підірвати гравітаційні лабораторії на всіх чотирьох станціях",
++      "answer": "ADDITIONAL",
++      "reason": "Масштаб плана согласован с четырьмя станциями и синхронными авариями, уже раскрытыми к этой сцене. Две лаборатории в средней секции одной станции не смешиваются с четырьмя гравитационными лабораториями на разных станциях."
++    },
++    {
++      "p": 312,
++      "before": "Оскільки в нього було достатньо вільного часу, він не хотів нас здавати. Він вигадав версію, яка звучала так.",
++      "after": "Він не хотів нас здавати. А часу мав достатньо, тож вигадав версію, яка звучала так.",
++      "answer": "ADDITIONAL",
++      "reason": "Свободное время объясняет возможность придумать ложную версию; нежелание выдать товарищей остаётся самостоятельным мотивом. Последующее опровержение версии сохранено."
++    },
++    {
++      "p": 319,
++      "before": "сказав полковник",
++      "after": "сказав підполковник",
++      "answer": "Q7",
++      "reason": "Вайт везде підполковник; остальные звания и лица не затронуты."
++    }
++  ],
++  "protected": [
++    {
++      "answer": "Q6",
++      "p": 38,
++      "text": "Мені лише 60 років.",
++      "reason": "Фактический возраст сохранён; младший возраст в p157 — шутка о самоощущении."
++    },
++    {
++      "answer": "Q9",
++      "p": 324,
++      "text": "Жодні бажання не варті людського життя. Навіть благі.",
++      "reason": "Ранее подтверждённое направление смысла не отменяется старым вопросником."
++    },
++    {
++      "p": 308,
++      "reason": "Нераскрытый мотив Рязанцева не дописан."
++    },
++    {
++      "p": 309,
++      "reason": "Связь гибели дочери Шенга с прошлым Ники не выдумана."
++    },
++    {
++      "p": 314,
++      "reason": "Ложная одиночная версия Шенга и её инженерное опровержение сохранены."
++    }
++  ],
++  "arithmetic": {
++    "height_m": 4589,
++    "speed_m_per_s": 20,
++    "self_destruct_height_m": 200,
++    "time_to_sea_s": 229.45,
++    "time_to_self_destruct_s": 219.45,
++    "assumption": "Conditional estimate at the current constant descent speed; no acceleration or new physical law asserted."
++  },
++  "knowledge_policy": "No early disclosure of later facts; quoted false accounts and character beliefs retain their attribution.",
++  "source_registers": "Unchanged historical RU observations; target overrides are applied only in this linked UK layer.",
++  "current_draft": "draft-v7",
++  "translation_sha256": "e9de3d028c17fdbe4d91b783bb76975dae4c11b374054411f3adaf679d8738b1",
++  "predecessor": {
++    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v4/continuity.json",
++    "sha256": "5ef7f331b3a250e9ded2d6b4da2e8f3400b99875e83e3f2fdf629c75af34f9a7",
++    "draft": "draft-v4",
++    "target_sha256": "c796e304bfe2075a653b54bd9b988b06b1a776eb501e1151d839f22d1dad2960"
++  },
++  "revision_basis": [
++    {
++      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/story-03-chaos-logic-v7.spec.json",
++      "sha256": "04d3cf9a05393f5fb3ea58a639490dc699afbe8643b1c14c127faa479a2468f8",
++      "role": "reconciled_exact_language_edits"
++    },
++    {
++      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v7/changes.json",
++      "sha256": "aca1002292806344115b24ba91718dbbba4a8d5fd060771eab7f62908120643f",
++      "role": "full_paragraph_change_record"
++    },
++    {
++      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/INPUTS-V4.json",
++      "sha256": "55c97ed54d70b1755dc3599e1cccfb70c0b1796a5b8af0ad07c710297f753a52",
++      "role": "frozen_inputs"
++    },
++    {
++      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation/pilot/ready-v4/packet.json",
++      "sha256": "69ddc6a876984219e249d25837183e1a8b9f9bd2507fcdd616330f8beceb4a8b",
++      "role": "frozen_preparation_packet"
++    },
++    {
++      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/desktop-import/import.json",
++      "sha256": "6c37f383bf5f134635eb087f35344fc252c33eefc936f1eac0454c33374f1323",
++      "role": "exact_desktop_import"
++    }
++  ],
++  "intermediate_drafts": [
++    {
++      "draft": "draft-v5",
++      "target": {
++        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v5/target.uk.txt",
++        "sha256": "69fd73c4beb67cdb1bb55d5dd9985eac8b6e925693259a9763802a57ded32d33"
++      },
++      "translation": {
++        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v5/translation.json",
++        "sha256": "147e0eb1a9396f7b250a72763e9c2861a721bdba36d07fadbaef537ec4b41de1"
++      },
++      "changes": {
++        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v5/changes.json",
++        "sha256": "8f6f207dc48480d17a656cc2a2049bef63578448786b31bc755b484b54c715b8"
++      },
++      "continuity_created": false,
++      "note": "Preserved native/reconciled intermediate revision."
++    },
++    {
++      "draft": "draft-v6",
++      "target": {
++        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v6/target.uk.txt",
++        "sha256": "ee4228a4edcf37e29dc0ebb22d006e165989f41cd9fc5ac8d20c4557b24a9379"
++      },
++      "translation": {
++        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v6/translation.json",
++        "sha256": "36f95214a452565de3977645007373e89c6de4f030a0ee15ad9d795175f721c3"
++      },
++      "changes": {
++        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v6/changes.json",
++        "sha256": "7fb64b2b2960b18edfa7af07b1faef2c3bf79866c90e111ea46a52e30bd21e97"
++      },
++      "continuity_created": false,
++      "note": "Preserved intermediate with the compatible Desktop variant; final v7 adds only two independently confirmed punctuation fixes."
++    }
++  ],
++  "current_anchor_checks": [
++    {
++      "p": 20,
++      "source_ids": [
++        "story-03-chaos-logic-c001-p000020"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "і трьох лабораторій: хімічної, фізичної та дослідження гравітонію",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "d3491ac9a46670254362d342be0f087ecac94bc8ca48bafe877d4ccb739300fc"
++      ],
++      "result": "passed",
++      "historical_after": "і трьох лабораторій: хімічної, фізичної та дослідження гравітонію",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 61,
++      "source_ids": [
++        "story-03-chaos-logic-c001-p000061"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "А оскільки саме цього ізотопу ми ще не отримали",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "63b76b6c3dfd2c32527d9c642498f77b50edffcd6b73a7bed0d9ea11acd4726b"
++      ],
++      "result": "passed",
++      "historical_after": "А оскільки саме цього ізотопу ми ще не отримали",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 99,
++      "source_ids": [
++        "story-03-chaos-logic-c002-p000099"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "Підходьте до конференц-зали.",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "673bfa05bae6bf127ba7ce53e855222f723243273f937274fd0bc573bcfd1574"
++      ],
++      "result": "passed",
++      "historical_after": "Підходьте до конференц-зали.",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 130,
++      "source_ids": [
++        "story-03-chaos-logic-c002-p000130"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "статистичною ймовірністю",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "012194b7f9f2835e870737eb67fd7922ac1a8bbd83a32280bed9f28651703d63"
++      ],
++      "result": "passed",
++      "historical_after": "зі статистичною ймовірністю",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 140,
++      "source_ids": [
++        "story-03-chaos-logic-c002-p000140"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "відповів бортовий комп’ютер",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "0e6f9978c8fa8d6c4cb111fba6e1da5e6767ea52339f29ffd2156908274b00d4"
++      ],
++      "result": "passed",
++      "historical_after": "відповів бортовий комп’ютер",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 143,
++      "source_ids": [
++        "story-03-chaos-logic-c002-p000143"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "Якщо швидкість не зміниться, до моря в нас приблизно… три хвилини й п’ятдесят секунд",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "e889cdb981460f055d58da8c60ed3bcc33f6d80e5a3b76b1b35bae976002a795"
++      ],
++      "result": "passed",
++      "historical_after": "Якщо швидкість не зміниться, до моря в нас приблизно… три хвилини й п’ятдесят секунд",
++      "authority_status": "author_answer_applied",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 144,
++      "source_ids": [
++        "story-03-chaos-logic-c002-p000144"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "Отже, до самознищення — близько трьох хвилин і сорока секунд.",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "041c42a5aba0f3c7df5a230d423350c39165362c57a56f8ef2c5a550efb69725"
++      ],
++      "result": "passed",
++      "historical_after": "Отже, до самознищення — близько трьох хвилин і сорока секунд.",
++      "authority_status": "author_answer_applied",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 144,
++      "source_ids": [
++        "story-03-chaos-logic-c002-p000144"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "щоб пізніше з’ясувати, якими були умови за бортом і що спричинило катастрофу",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "041c42a5aba0f3c7df5a230d423350c39165362c57a56f8ef2c5a550efb69725"
++      ],
++      "result": "passed",
++      "historical_after": "щоб пізніше з’ясувати, якими були умови за бортом і що спричинило катастрофу",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 157,
++      "source_ids": [
++        "story-03-chaos-logic-c002-p000157"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "А в душі мені ще й п’ятдесяти немає.",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "7f441529a0e4f8a6d50173ea022d1fb1b180c27da819c3cbd8e402757891c127"
++      ],
++      "result": "passed",
++      "historical_after": "А в душі мені ще й п’ятдесяти немає.",
++      "authority_status": "author_answer_applied",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 191,
++      "source_ids": [
++        "story-03-chaos-logic-c003-p000191"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "делегація з другої станції Союзу. Там врахували",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "dc5031a2e4316d176f1fd6ec626dcb3b37c6bdc2ce2c361e89dd8d58c1023186"
++      ],
++      "result": "passed",
++      "historical_after": "делегація з другої станції Союзу. Там врахували",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 239,
++      "source_ids": [
++        "story-03-chaos-logic-c004-p000239"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "Ти сержант",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "bd984a9aed3a99a85383c9131287997975a8f8d334e7f1dc06dc6e02d1cb0ec6"
++      ],
++      "result": "passed",
++      "historical_after": "Ти сержант",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 310,
++      "source_ids": [
++        "story-03-chaos-logic-c006-p000310"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "вирішили підірвати гравітаційні лабораторії на всіх чотирьох станціях",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "e3e436ed0e8ce4af8cd3b9f5eebeba325b09571cad779e4a6bfbd6b95eed077b"
++      ],
++      "result": "passed",
++      "historical_after": "вирішили підірвати гравітаційні лабораторії на всіх чотирьох станціях",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 312,
++      "source_ids": [
++        "story-03-chaos-logic-c006-p000312"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "Він не хотів нас здавати. А часу мав достатньо, тож вигадав версію, яка звучала так.",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "2f8f890b5970e4418bf2edb23e1f72ef693fb1a5d698816c9a70ded63c7f3d8b"
++      ],
++      "result": "passed",
++      "historical_after": "Він не хотів нас здавати. А часу мав достатньо, тож вигадав версію, яка звучала так.",
++      "authority_status": "editorial_choice_under_author_delegation",
++      "semantic_obligation_preserved": true
++    },
++    {
++      "p": 319,
++      "source_ids": [
++        "story-03-chaos-logic-c006-p000319"
++      ],
++      "purpose": "current form of historical continuity override",
++      "exact_text": "сказав підполковник",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "ff9c5d9087e66da530c8e7bb108a42a277788b4b2cf2751fef3fe8285ce8554a"
++      ],
++      "result": "passed",
++      "historical_after": "сказав підполковник",
++      "authority_status": "author_answer_applied",
++      "semantic_obligation_preserved": true
++    }
++  ],
++  "current_protected_checks": [
++    {
++      "p": 5,
++      "source_ids": [
++        "story-03-chaos-logic-c001-p000005"
++      ],
++      "purpose": "explicitly imported compatible author Desktop variant",
++      "exact_text": "Вставай вже",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "b4c2832aed658f52d720988b3e323980555af141291e6d2989e65d8be10ef3ec"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 38,
++      "source_ids": [
++        "story-03-chaos-logic-c001-p000038"
++      ],
++      "purpose": "Wolff's factual age",
++      "exact_text": "Мені лише 60 років.",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "e594bbe0945d0ca5f2437edbcf83fba208f11ef7077786987721e71627f30427"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 143,
++      "source_ids": [
++        "story-03-chaos-logic-c002-p000143"
++      ],
++      "purpose": "conditional time to sea",
++      "exact_text": "три хвилини й п’ятдесят секунд",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "e889cdb981460f055d58da8c60ed3bcc33f6d80e5a3b76b1b35bae976002a795"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 144,
++      "source_ids": [
++        "story-03-chaos-logic-c002-p000144"
++      ],
++      "purpose": "rounded time to self-destruction",
++      "exact_text": "трьох хвилин і сорока секунд",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "041c42a5aba0f3c7df5a230d423350c39165362c57a56f8ef2c5a550efb69725"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 157,
++      "source_ids": [
++        "story-03-chaos-logic-c002-p000157"
++      ],
++      "purpose": "age joke remains subjective",
++      "exact_text": "А в душі мені ще й п’ятдесяти немає.",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "7f441529a0e4f8a6d50173ea022d1fb1b180c27da819c3cbd8e402757891c127"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 292,
++      "source_ids": [
++        "story-03-chaos-logic-c005-p000292"
++      ],
++      "purpose": "breakfast continuity correction p290–p292",
++      "exact_text": "Після сніданку нас відвели",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "b67902b36c6a46bce93b356befd4fd38a074bc2f4ca5f2ed0b40c0d5dd879a52"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 308,
++      "source_ids": [
++        "story-03-chaos-logic-c006-p000308"
++      ],
++      "purpose": "Ryazantsev's motive remains unknown",
++      "exact_text": "Його мотивів я не знав",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "a97ab91a840d2f4ae9c6df34adbff81ecea9aeb42e07a1b28c24878c8d561392"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 309,
++      "source_ids": [
++        "story-03-chaos-logic-c006-p000309"
++      ],
++      "purpose": "Sheng's daughter remains unnamed and unlinked to Nika",
++      "exact_text": "загинула його донька",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "2eb82bf21a561ec7f97ac44f80dc61785468ef26e52a469c4cb439d16474889e"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 314,
++      "source_ids": [
++        "story-03-chaos-logic-c006-p000314"
++      ],
++      "purpose": "engineering rebuttal to Sheng's false account",
++      "exact_text": "я можу цілком упевнено сказати вам, що це неможливо",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "404afaac0be861d962b84263c1689eb15dbcf8a9a0d14b874f758d7c0cfff9f1"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 324,
++      "source_ids": [
++        "story-03-chaos-logic-c006-p000324"
++      ],
++      "purpose": "author-confirmed closing meaning",
++      "exact_text": "Жодні бажання не варті людського життя. Навіть благі.",
++      "expected_occurrences": 1,
++      "actual_occurrences": 1,
++      "target_paragraph_sha256": [
++        "3d5c2c1e37497cbdf5f3c0a55e32f65b1fe401ad80cc00869bafa5d6c05a798c"
++      ],
++      "result": "passed"
++    },
++    {
++      "p": 309,
++      "source_ids": [
++        "story-03-chaos-logic-c006-p000309"
++      ],
++      "purpose": "no invented identification of Sheng's daughter as Nika",
++      "exact_text": "Ніка",
++      "expected_occurrences": 0,
++      "actual_occurrences": 0,
++      "target_paragraph_sha256": [
++        "2eb82bf21a561ec7f97ac44f80dc61785468ef26e52a469c4cb439d16474889e"
++      ],
++      "result": "passed"
++    }
++  ],
++  "current_target_emphasis_checks": [],
++  "current_check_summary": {
++    "target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
++    "historical_overrides_checked": 14,
++    "protected_exact_checks": 11,
++    "target_emphasis_ranges_checked": 0,
++    "result": "passed",
++    "scope": "Dependent continuity anchors only; not a new full structural diagnosis."
++  },
++  "current_editorial_choices": [
++    {
++      "p": 292,
++      "source_ids": [
++        "story-03-chaos-logic-c005-p000292"
++      ],
++      "before": "Після обіду нас відвели",
++      "after": "Після сніданку нас відвели",
++      "status": "editorial_choice_under_author_delegation",
++      "author_canon_approved": false,
++      "reason": "p290 announces breakfast, p291 depicts that meal, and p292 immediately follows it; the author had delegated logical local corrections.",
++      "authority": {
++        "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/story-03-chaos-logic-v7.spec.json",
++        "sha256": "04d3cf9a05393f5fb3ea58a639490dc699afbe8643b1c14c127faa479a2468f8"
++      }
++    }
++  ],
++  "desktop_author_variant": {
++    "p": 5,
++    "before": "Вставай уже",
++    "after": "Вставай вже",
++    "status": "explicitly_imported_compatible_author_variant",
++    "canonical_approval_inferred": false,
++    "authority": {
++      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/desktop-import/import.json",
++      "sha256": "6c37f383bf5f134635eb087f35344fc252c33eefc936f1eac0454c33374f1323"
++    }
++  },
++  "preserved_unresolved_source_issues": [
++    "story-03-chaos-logic-src04",
++    "story-03-chaos-logic-src05",
++    "story-03-chaos-logic-src06"
++  ]
++}
+--- /dev/null
++++ books/story-03-chaos-logic/editions/uk/QA-ASSESSMENT-v7.md
+@@ -0,0 +1,13 @@
++# Проверки: «Логіка хаосу»
++
++Текущая версия: `draft-v7`. Target SHA-256: `955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b`. Translation SHA-256: `e9de3d028c17fdbe4d91b783bb76975dae4c11b374054411f3adaf679d8738b1`.
++
++Полный текст: 310 выровненных блоков, 310 целевых абзацев. Относительно доставленной базы изменено 160 полных целевых абзацев; полный журнал хранится в `draft-v7/changes.json`.
++
++Native-языковой проход охватил весь украинский текст. Reconciliation применил только точные зафиксированные edits. Это полный языковой self-review выбранного кандидата и частичный внешний ансамбль, а не новое независимое структурное обследование.
++
++Зависимые continuity-проверки: 14 исторических авторских/делегированных overrides, 11 точных защищённых проверок и 0 диапазонов emphasis; результат `passed`. Source registers не переписывались.
++
++Актуальные замороженные входы: `INPUTS-V4.json`; пакет: `preparation/pilot/ready-v4`. Историческая оценка предыдущей версии: `QA-ASSESSMENT-v4.md`. Механические final-checks и reader export ведутся отдельными файлами текущего draft и этой metadata-задачей не изменяются.
++
++Статус: `full_native_revision_partial_external_ensemble`. Украинский текст остаётся рабочей редакцией, выпускной литературный gate открыт, авторское утверждение всего текста как канонического мастера не зафиксировано. `delivery/2026-09-14-v4` имеет статус planned до завершения сборки координатором.
+--- adaptation/native-review-2026-09-14/metadata-work/before/books/story-03-chaos-logic/audit/issues.json
++++ books/story-03-chaos-logic/audit/issues.json
+@@ -17,6 +17,7 @@
+     "proposed_change",
+     "dependencies",
+     "verification",
++    "current_verification",
+     "decision"
+   ],
+   "items": [
+@@ -1013,6 +1014,455 @@
+         "sha256": "977f2ce63629cb107cd1ed67df14b115b5b0b28f98b2b633cf2a546bc211f47d"
+       },
+       "resolution_scope": "Current Ukrainian working edition only; original Russian observation retained"
++    },
++    {
++      "id": "story-03-chaos-logic-src17",
++      "status": "proposed",
++      "resolution_status": "unresolved",
++      "category": "source_ambiguity_or_inconsistency",
++      "severity": "S2",
++      "certainty": "observed_difference_not_authorial_intent",
++      "anchors": [
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 2,
++          "p": 133,
++          "source_id": "story-03-chaos-logic-c002-p000133",
++          "quote": "— Ты что, не слышала о принципах реверсивной психологии, Ника? — втиснулся в разговор я. — И, к слову, только мне стало душно?",
++          "quote_ru": "— Ты что, не слышала о принципах реверсивной психологии, Ника? — втиснулся в разговор я. — И, к слову, только мне стало душно?",
++          "paragraph_sha256": "b729ff44ae90c807e3076326e81d99a06cb96b878637d6cbf7a6e963461afed8"
++        },
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 2,
++          "p": 134,
++          "source_id": "story-03-chaos-logic-c002-p000134",
++          "quote": "— Слышала, но это всё равно остаётся глупой затеей и в любом случае лишено смысла. Да, стало жарче, — согласилась Ника. — Но всё же, какая же причина у мистера Вольфа?",
++          "quote_ru": "— Слышала, но это всё равно остаётся глупой затеей и в любом случае лишено смысла. Да, стало жарче, — согласилась Ника. — Но всё же, какая же причина у мистера Вольфа?",
++          "paragraph_sha256": "52b86a7b74f6402a9c584ce46193ff4ab6b5838205034a296f512813ca14424d"
++        },
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 2,
++          "p": 135,
++          "source_id": "story-03-chaos-logic-c002-p000135",
++          "quote": "— Мы и так знаем, что ему жизнь уже давно приелась. Может, он так развлечься решил напоследок? У него же последняя служба на станции перед отставкой. А дальше скучная жизнь старика на пенсии.",
++          "quote_ru": "— Мы и так знаем, что ему жизнь уже давно приелась. Может, он так развлечься решил напоследок? У него же последняя служба на станции перед отставкой. А дальше скучная жизнь старика на пенсии.",
++          "paragraph_sha256": "27a9fdb897d8a244e342750e7ce82a4a01594a655916e484510e2fe88d62bd14"
++        },
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 2,
++          "p": 136,
++          "source_id": "story-03-chaos-logic-c002-p000136",
++          "quote": "— Ну, Чарльз, такого бреда я ещё не слышал. Рискнуть своей жизнью — это я еще понять могу. Но жизнью коллег — это уже психическое расстройство личности. А нас всех проверяют перед полётом.",
++          "quote_ru": "— Ну, Чарльз, такого бреда я ещё не слышал. Рискнуть своей жизнью — это я еще понять могу. Но жизнью коллег — это уже психическое расстройство личности. А нас всех проверяют перед полётом.",
++          "paragraph_sha256": "c855704d30a4b1de15ccc2f80da296cd730146eccf588b04f742f014557b1a48"
++        },
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 2,
++          "p": 137,
++          "source_id": "story-03-chaos-logic-c002-p000137",
++          "quote": "— Отходим от темы, народ! Я думаю, что результат ожиданий такой: мы с Никой думаем, что это случайность, Вольфыч подозревает всех нас и предыдущие группы, брат — мистера Вольфа. Большинством голосов принимаем решение о том, что это всего лишь…",
++          "quote_ru": "— Отходим от темы, народ! Я думаю, что результат ожиданий такой: мы с Никой думаем, что это случайность, Вольфыч подозревает всех нас и предыдущие группы, брат — мистера Вольфа. Большинством голосов принимаем решение о том, что это всего лишь…",
++          "paragraph_sha256": "612e5c37017316fc2a5853e41a3d1af2a6129cdd47b6f5b73513f0ae7b68eeac"
++        }
++      ],
++      "observation": "Реплика p136 обращена к Чарльзу, но говорящий не назван; по контексту им может быть Гарри или Вольф, и источник не позволяет выбрать одного без домысла.",
++      "reader_effect": "Атрибуция меняет голос, знание и эмоциональную позицию персонажа.",
++      "proposed_change": "Оставить реплику без новой атрибуции до решения автора.",
++      "dependencies": [
++        "story-03-chaos-logic-c002-p000133",
++        "story-03-chaos-logic-c002-p000134",
++        "story-03-chaos-logic-c002-p000135",
++        "story-03-chaos-logic-c002-p000136",
++        "story-03-chaos-logic-c002-p000137"
++      ],
++      "current_verification": {
++        "checked_target_path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v7/target.uk.txt",
++        "checked_target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
++        "anchors": [
++          {
++            "p": 133,
++            "source_ids": [
++              "story-03-chaos-logic-c002-p000133"
++            ],
++            "target_paragraph_sha256": [
++              "00377500a110bfdda7acce8132a2c2af7912bef79dc8be4263c3f724e625ccfa"
++            ]
++          },
++          {
++            "p": 134,
++            "source_ids": [
++              "story-03-chaos-logic-c002-p000134"
++            ],
++            "target_paragraph_sha256": [
++              "4bc38dd30d31deade753932ad3ea03548a3f66311a52285eac460f124f8be8af"
++            ]
++          },
++          {
++            "p": 135,
++            "source_ids": [
++              "story-03-chaos-logic-c002-p000135"
++            ],
++            "target_paragraph_sha256": [
++              "cbebe03c687f6189bfc3c2ef371885133cbf9106803bfbb53fa6adbfaf1ffb63"
++            ]
++          },
++          {
++            "p": 136,
++            "source_ids": [
++              "story-03-chaos-logic-c002-p000136"
++            ],
++            "target_paragraph_sha256": [
++              "0d0577e339262d4dbf20695bfec482abc832900642c1ae0e9db5832698464089"
++            ]
++          },
++          {
++            "p": 137,
++            "source_ids": [
++              "story-03-chaos-logic-c002-p000137"
++            ],
++            "target_paragraph_sha256": [
++              "b67830b577057c67655edda87a3e2eebb3025638c87f940f5115cc0ab03270e1"
++            ]
++          }
++        ],
++        "result": "ambiguity_or_inconsistency_still_present; no prose change made"
++      },
++      "decision": {
++        "status": "unresolved",
++        "author_answer_reopened": false
++      },
++      "resolution_scope": "Source observation retained; current Ukrainian working edition does not resolve it."
++    },
++    {
++      "id": "story-03-chaos-logic-src18",
++      "status": "proposed",
++      "resolution_status": "unresolved",
++      "category": "source_ambiguity_or_inconsistency",
++      "severity": "S2",
++      "certainty": "observed_difference_not_authorial_intent",
++      "anchors": [
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 5,
++          "p": 296,
++          "source_id": "story-03-chaos-logic-c005-p000296",
++          "quote": "— Здравствуйте снова, господа и дамы. К нашему счастью, решение долго себя ждать не заставило. Но я не буду говорить ничего от своего имени, только скажу, что мы нашли всех виновников произошедшего. Передаю слово старшему лейтенанту Чарльзу Арчеру. Чарльз?",
++          "quote_ru": "— Здравствуйте снова, господа и дамы. К нашему счастью, решение долго себя ждать не заставило. Но я не буду говорить ничего от своего имени, только скажу, что мы нашли всех виновников произошедшего. Передаю слово старшему лейтенанту Чарльзу Арчеру. Чарльз?",
++          "paragraph_sha256": "98875b42aee987f08ae489c40bfe6b7407af73a0ea2cec1e50730d855d13f038"
++        },
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 5,
++          "p": 297,
++          "source_id": "story-03-chaos-logic-c005-p000297",
++          "quote": "— Да, генерал. Все взрывы, а также, к моему величайшему сожалению, двое погибших — моих рук дело.",
++          "quote_ru": "— Да, генерал. Все взрывы, а также, к моему величайшему сожалению, двое погибших — моих рук дело.",
++          "paragraph_sha256": "de0ea1eb1d8bf7efcb011ed8114c3c11ff2d6597e96b3d518760521504f2944c"
++        }
++      ],
++      "observation": "Ведущий p296 передаёт слово Чарльзу, а Чарльз в p297 отвечает «генерале»; личность и ранее установленная роль ведущего не названы.",
++      "reader_effect": "Самовольное имя или чин создали бы нового фактического участника сцены либо изменили ранг известного.",
++      "proposed_change": "Не назначать ведущего и не менять обращение без авторского решения.",
++      "dependencies": [
++        "story-03-chaos-logic-c005-p000296",
++        "story-03-chaos-logic-c005-p000297"
++      ],
++      "current_verification": {
++        "checked_target_path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v7/target.uk.txt",
++        "checked_target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
++        "anchors": [
++          {
++            "p": 296,
++            "source_ids": [
++              "story-03-chaos-logic-c005-p000296"
++            ],
++            "target_paragraph_sha256": [
++              "f7d2fb7352343d566304598f3f828d671796bb918004e2dc5fbc1a1221a488ab"
++            ]
++          },
++          {
++            "p": 297,
++            "source_ids": [
++              "story-03-chaos-logic-c005-p000297"
++            ],
++            "target_paragraph_sha256": [
++              "3bb2029fece505143f757584c5f557ed61e1c44958d84af34120e616f1eddc09"
++            ]
++          }
++        ],
++        "result": "ambiguity_or_inconsistency_still_present; no prose change made"
++      },
++      "decision": {
++        "status": "unresolved",
++        "author_answer_reopened": false
++      },
++      "resolution_scope": "Source observation retained; current Ukrainian working edition does not resolve it."
++    },
++    {
++      "id": "story-03-chaos-logic-src19",
++      "status": "proposed",
++      "resolution_status": "unresolved",
++      "category": "source_ambiguity_or_inconsistency",
++      "severity": "S2",
++      "certainty": "observed_difference_not_authorial_intent",
++      "anchors": [
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 2,
++          "p": 144,
++          "source_id": "story-03-chaos-logic-c002-p000144",
++          "quote": "— Примерно. Команда, слушать внимательно. Система безопасности взорвет станцию в двухстах метрах над морем, чтобы защитить потенциально важную информацию, если ее не успеют сохранить. Поэтому у нас есть ровно три минуты и пять секунд. Я иду в лабораторию за гравитонием — это самый важный элемент. Ты, Чарльз, идешь за данными в химическую и физическую лаборатории, чтобы позже узнать статические данные за бортом и узнать, что спровоцировало катастрофу. Ты, Гарри, помогаешь старшему лейтенанту Вольфу дойти до вашего жилого модуля. Настройте двигатель станции на ручное управление отсеком. Хорошо, что инженеры компонентного подхода всегда оставляют несколько запасных способов частичной отстыковки и один жилой модуль с автопилотом. Всем понятно? У нас с мистером Арчером есть всего пара минут на сбор данных и закрытие шлюза модуля. За дело.",
++          "quote_ru": "— Примерно. Команда, слушать внимательно. Система безопасности взорвет станцию в двухстах метрах над морем, чтобы защитить потенциально важную информацию, если ее не успеют сохранить. Поэтому у нас есть ровно три минуты и пять секунд. Я иду в лабораторию за гравитонием — это самый важный элемент. Ты, Чарльз, идешь за данными в химическую и физическую лаборатории, чтобы позже узнать статические данные за бортом и узнать, что спровоцировало катастрофу. Ты, Гарри, помогаешь старшему лейтенанту Вольфу дойти до вашего жилого модуля. Настройте двигатель станции на ручное управление отсеком. Хорошо, что инженеры компонентного подхода всегда оставляют несколько запасных способов частичной отстыковки и один жилой модуль с автопилотом. Всем понятно? У нас с мистером Арчером есть всего пара минут на сбор данных и закрытие шлюза модуля. За дело.",
++          "paragraph_sha256": "33bd21b723b96005780a9a839924cbeeca1b02478031db3d70232875729d1df0"
++        },
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 2,
++          "p": 166,
++          "source_id": "story-03-chaos-logic-c002-p000166",
++          "quote": "Махнув залихватски рукой, я включил двигатель и выкинул наш корабль познания в свободное плавание по просторам неизвестного — то бишь на базу. Управлять у нас возможности нет, поэтому мы расслабились — автопилот донесет нас до ближайшей станции. Поскольку станция Альянса тогда еще была только в производстве, когда мы выходили на смену, нас, вероятно, направят к старшему капитана, к союзникам. Хотя лучше бы отправили на нашу базу. А если и к ним, то мы же не в состоянии войны, верно? Что страшного может случиться? Тем более когда брат покажет им антигравитоний, там всё с ума сойдут! Кстати, почему он до сих пор никому ничего не рассказал?",
++          "quote_ru": "Махнув залихватски рукой, я включил двигатель и выкинул наш корабль познания в свободное плавание по просторам неизвестного — то бишь на базу. Управлять у нас возможности нет, поэтому мы расслабились — автопилот донесет нас до ближайшей станции. Поскольку станция Альянса тогда еще была только в производстве, когда мы выходили на смену, нас, вероятно, направят к старшему капитана, к союзникам. Хотя лучше бы отправили на нашу базу. А если и к ним, то мы же не в состоянии войны, верно? Что страшного может случиться? Тем более когда брат покажет им антигравитоний, там всё с ума сойдут! Кстати, почему он до сих пор никому ничего не рассказал?",
++          "paragraph_sha256": "10721932cdc7f8a491fa2d1bf6d606926ad84c628b4e45f516e54094c4a768ce"
++        }
++      ],
++      "observation": "В p144 команда должна настроить двигатель на ручное управление отсеком, но в p166 Гарри утверждает, что возможности управлять нет и полёт ведёт автопилот.",
++      "reader_effect": "Неясно, относятся ли фразы к разным системам/этапам или противоречат друг другу.",
++      "proposed_change": "Сохранить обе формулы и не изобретать устройство управления станции.",
++      "dependencies": [
++        "story-03-chaos-logic-c002-p000144",
++        "story-03-chaos-logic-c002-p000166"
++      ],
++      "current_verification": {
++        "checked_target_path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v7/target.uk.txt",
++        "checked_target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
++        "anchors": [
++          {
++            "p": 144,
++            "source_ids": [
++              "story-03-chaos-logic-c002-p000144"
++            ],
++            "target_paragraph_sha256": [
++              "041c42a5aba0f3c7df5a230d423350c39165362c57a56f8ef2c5a550efb69725"
++            ]
++          },
++          {
++            "p": 166,
++            "source_ids": [
++              "story-03-chaos-logic-c002-p000166"
++            ],
++            "target_paragraph_sha256": [
++              "49e7cba75f2101664f8c7bab07e741d898ee770a35a8427c465ec27e84b67231"
++            ]
++          }
++        ],
++        "result": "ambiguity_or_inconsistency_still_present; no prose change made"
++      },
++      "decision": {
++        "status": "unresolved",
++        "author_answer_reopened": false
++      },
++      "resolution_scope": "Source observation retained; current Ukrainian working edition does not resolve it."
++    },
++    {
++      "id": "story-03-chaos-logic-src20",
++      "status": "proposed",
++      "resolution_status": "unresolved",
++      "category": "source_ambiguity_or_inconsistency",
++      "severity": "S2",
++      "certainty": "observed_difference_not_authorial_intent",
++      "anchors": [
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 1,
++          "p": 15,
++          "source_id": "story-03-chaos-logic-c001-p000015",
++          "quote": "— Если к твоей тоскливой педантичности добавить дар убеждения, то мир будет очень мотивирован и сильно несчастлив. Пожалуй, я бы точно повесился, причем мылом шею натирал бы лениво, но весьма целеустремленно! — сказал я, надевая свой любимый браслет из нержавейки и заканчивая причесываться. — Ладно, погнали в Зомбиленд.",
++          "quote_ru": "— Если к твоей тоскливой педантичности добавить дар убеждения, то мир будет очень мотивирован и сильно несчастлив. Пожалуй, я бы точно повесился, причем мылом шею натирал бы лениво, но весьма целеустремленно! — сказал я, надевая свой любимый браслет из нержавейки и заканчивая причесываться. — Ладно, погнали в Зомбиленд.",
++          "paragraph_sha256": "356418e6cfa1a2996cd5dece9f586ee4bc06ba850fd1d27d29022a44b5b44cb4",
++          "anchor_role": "bracelet introduced"
++        },
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 1,
++          "p": 29,
++          "source_id": "story-03-chaos-logic-c001-p000029",
++          "quote": "— Ты сейчас вот, молодой и сильный, мог бы есть вредную еду и не полнеть, употреблять алкоголь — и наутро пойти на пробежку, а вечером снова что-то отмечать. Мог бы отлично проводить время со своей девушкой ночью, а потом продолжить и утром. Чем старше становишься, тем меньше сил. А учитывая, что я, к своему большому сожалению, никогда не славился соблюдением правильного образа жизни, теперь владею превосходной одышкой, замечательнейшей и очень качественной привычкой курить по полторы пачки в день, а также необъятным грузом «опыта», у которого вот-вот появится свое гравитационное поле притяжения! Да такое заметное, что изучать в лаборатории мы будем именно его, – пошутил Ульрих. – Так что прекращай здесь свои ментальные скитания, которые обычно ни к чему хорошему не приводят, и тащи свой молодецкий дух к залу. Будем с нашей великой и ужасной Скалли общаться и надеяться, что она нам головы не отрубит.",
++          "quote_ru": "— Ты сейчас вот, молодой и сильный, мог бы есть вредную еду и не полнеть, употреблять алкоголь — и наутро пойти на пробежку, а вечером снова что-то отмечать. Мог бы отлично проводить время со своей девушкой ночью, а потом продолжить и утром. Чем старше становишься, тем меньше сил. А учитывая, что я, к своему большому сожалению, никогда не славился соблюдением правильного образа жизни, теперь владею превосходной одышкой, замечательнейшей и очень качественной привычкой курить по полторы пачки в день, а также необъятным грузом «опыта», у которого вот-вот появится свое гравитационное поле притяжения! Да такое заметное, что изучать в лаборатории мы будем именно его, – пошутил Ульрих. – Так что прекращай здесь свои ментальные скитания, которые обычно ни к чему хорошему не приводят, и тащи свой молодецкий дух к залу. Будем с нашей великой и ужасной Скалли общаться и надеяться, что она нам головы не отрубит.",
++          "paragraph_sha256": "94c41976d843ed24b864cc7c488ddc95a6a79d2678e0de9a2fa2583ff371e8a9",
++          "anchor_role": "supplied p29 checked; no bracelet/personal-item statement found"
++        },
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 2,
++          "p": 149,
++          "source_id": "story-03-chaos-logic-c002-p000149",
++          "quote": "Капитан тоже ловко развернулась и с места умчалась за гравитонием. Хорошо, что мы не берем личные вещи с собой на борт. Если всё пойдет наперекосяк, исследователи будут сфокусированы на данных, а не на своих личных вещах. Это же всего несколько недель. Мудро.",
++          "quote_ru": "Капитан тоже ловко развернулась и с места умчалась за гравитонием. Хорошо, что мы не берем личные вещи с собой на борт. Если всё пойдет наперекосяк, исследователи будут сфокусированы на данных, а не на своих личных вещах. Это же всего несколько недель. Мудро.",
++          "paragraph_sha256": "5351255a1c514a649a63a0ee9d0c3431884b8df19aa3a86e228a9ae6a4dd9e97",
++          "anchor_role": "no-personal-items rule"
++        },
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 2,
++          "p": 150,
++          "source_id": "story-03-chaos-logic-c002-p000150",
++          "quote": "Мы медленно и уверенно шли по уже нагретому и слегка шершавому полу обычно такой прохладной станции. Иногда мы останавливались, чтобы отдышаться, но под конец первой минуты уже подошли к нашему жилому отсеку. Я осторожно прислонил Ульриха к стенке модуля и открыл нашу дверь. Здесь, понятное дело, всё на своих местах: разбросанные вещи на моей кровати и столе — и девственная чистота у брата.",
++          "quote_ru": "Мы медленно и уверенно шли по уже нагретому и слегка шершавому полу обычно такой прохладной станции. Иногда мы останавливались, чтобы отдышаться, но под конец первой минуты уже подошли к нашему жилому отсеку. Я осторожно прислонил Ульриха к стенке модуля и открыл нашу дверь. Здесь, понятное дело, всё на своих местах: разбросанные вещи на моей кровати и столе — и девственная чистота у брата.",
++          "paragraph_sha256": "f91c411189b2178a3e3717bb10d5aca10b6d27f73100d5e49f3afbf5d2019547",
++          "anchor_role": "scattered possessions onboard"
++        },
++        {
++          "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
++          "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
++          "format": "docx",
++          "status": "author_selected",
++          "role": "master_inventory",
++          "language": "ru",
++          "chapter": 5,
++          "p": 277,
++          "source_id": "story-03-chaos-logic-c005-p000277",
++          "quote": "Я встал, немного отряхнулся, попрыгал, позвякивая браслетом, и пошел за своим братом.",
++          "quote_ru": "Я встал, немного отряхнулся, попрыгал, позвякивая браслетом, и пошел за своим братом.",
++          "paragraph_sha256": "0ee33c4d4dc7b36014f062bd8046ead522ee223a735a9f69eb60785b1a468f10",
++          "anchor_role": "bracelet still present"
++        }
++      ],
++      "observation": "p149 утверждает, что личные вещи на борт не берут, однако p15 и p277 показывают любимый браслет Гарри, а p150 — разбросанные вещи на его кровати и столе. Указанный при постановке p29 проверен и этого наблюдения не содержит.",
++      "reader_effect": "Неясно, является ли правило преувеличением рассказчика, касается только отдельных вещей или нарушено текстом.",
++      "proposed_change": "Не удалять вещи и не уточнять правило без авторского решения.",
++      "dependencies": [
++        "story-03-chaos-logic-c001-p000015",
++        "story-03-chaos-logic-c001-p000029",
++        "story-03-chaos-logic-c002-p000149",
++        "story-03-chaos-logic-c002-p000150",
++        "story-03-chaos-logic-c005-p000277"
++      ],
++      "current_verification": {
++        "checked_target_path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v7/target.uk.txt",
++        "checked_target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
++        "anchors": [
++          {
++            "p": 15,
++            "source_ids": [
++              "story-03-chaos-logic-c001-p000015"
++            ],
++            "target_paragraph_sha256": [
++              "932868dacae66ed4fb5faa20f5327f1fc03739c237000c611d8bfeda58d26163"
++            ]
++          },
++          {
++            "p": 29,
++            "source_ids": [
++              "story-03-chaos-logic-c001-p000029"
++            ],
++            "target_paragraph_sha256": [
++              "7c15fc7ef4c5d0a1adc34135fd0fc02d1b6a3dfd7d5491142c7dd9553c3c0ded"
++            ]
++          },
++          {
++            "p": 149,
++            "source_ids": [
++              "story-03-chaos-logic-c002-p000149"
++            ],
++            "target_paragraph_sha256": [
++              "c01f77df02aa8642e25bb991d73f579ab5b1a5f5ebc16334dda915b14815e0ab"
++            ]
++          },
++          {
++            "p": 150,
++            "source_ids": [
++              "story-03-chaos-logic-c002-p000150"
++            ],
++            "target_paragraph_sha256": [
++              "a10992a946ef5910ca5877d1a4f88a54c54f208e7f9329ad78ade8bfd1d2e8f7"
++            ]
++          },
++          {
++            "p": 277,
++            "source_ids": [
++              "story-03-chaos-logic-c005-p000277"
++            ],
++            "target_paragraph_sha256": [
++              "67bde32b096fb1fcf314d8c69e30e47166f6e907392b8003ab43be338c999e49"
++            ]
++          }
++        ],
++        "result": "ambiguity_or_inconsistency_still_present; no prose change made"
++      },
++      "decision": {
++        "status": "unresolved",
++        "author_answer_reopened": false
++      },
++      "resolution_scope": "Source observation retained; current Ukrainian working edition does not resolve it."
+     }
+   ]
+ }

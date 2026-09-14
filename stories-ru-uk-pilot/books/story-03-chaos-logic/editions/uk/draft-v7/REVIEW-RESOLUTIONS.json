@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "book_id": "story-03-chaos-logic",
+  "target": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v7/target.uk.txt",
+    "sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b"
+  },
+  "authority": "Author explicitly commissioned full Ukrainian language revision and context-based rule updates.",
+  "author_canonical_approval": false,
+  "implementation_spec": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/story-03-chaos-logic-v7.spec.json",
+    "sha256": "04d3cf9a05393f5fb3ea58a639490dc699afbe8643b1c14c127faa479a2468f8"
+  },
+  "complete_before_after": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v7/changes.json",
+    "sha256": "aca1002292806344115b24ba91718dbbba4a8d5fd060771eab7f62908120643f"
+  },
+  "reconciliation_reasoning": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/RECONCILIATION.md",
+    "sha256": "7ab520b551925a641b6b705d351ea8661e1d0393e33055c18dccbb3159ca0356"
+  },
+  "final_target_only_report": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/final-target-only-astra-v7-r1/report.md",
+    "sha256": "fedcb7b832a1c6853249bbb0f01104c64e8d7a3d37b71771d8b7daa12bc8ec70"
+  },
+  "final_reading_coverage": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/final-target-only-astra-v7-r1/coverage.json",
+    "sha256": "51394a876dbb604428a3f0400b1bfb1ab3f5e92cf587a818f702f47589b810a7"
+  },
+  "coordinator_assessment": {
+    "book_id": "story-03-chaos-logic",
+    "target_sha256": "955fdc0680e6142fb3b70d81bbcb391e02ba8f0ef44f4368d2dec60a9012010b",
+    "report_sha256": "fedcb7b832a1c6853249bbb0f01104c64e8d7a3d37b71771d8b7daa12bc8ec70",
+    "coverage_sha256": "51394a876dbb604428a3f0400b1bfb1ab3f5e92cf587a818f702f47589b810a7",
+    "coordinator_read_report": true,
+    "remaining_confirmed_language_defects": 0,
+    "optional_observations_disposition": "Expository pace is a stylistic choice. Nika’s past and Ryazantsev’s motive remain explicitly unresolved source material, not new language defects.",
+    "prior_qa_assessment_sha256": "9bfc830606e88684f6ae5f5e9a699df1a33079bb6b84f8632ce4c18389762aef"
+  },
+  "external_runs": [
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/reviews-opus-agy-r1/opus/invocation.json",
+        "sha256": "584d609591f9d37e11acfc960d8c3bc2ee06142e668be7683d996ce830513000"
+      },
+      "client": "agy CLI",
+      "requested_model": "claude-opus-4-6-thinking",
+      "status": "failed",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+        "sha256": "c21829136dd1240b6f6169dee9b76aca71978295fcb0eabe52f9c5af6bade8f2"
+      },
+      "current_target_review": false,
+      "independence_validation": "not_certified: file-mode runner did not enforce filesystem boundary; observations reconciled manually"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/reviews-opus-agy-r2/opus/invocation.json",
+        "sha256": "efacbc4286d84b16f7868b48cd7824d3a3361a20091aed9478a61782935e8e5e"
+      },
+      "client": "agy CLI",
+      "requested_model": "claude-opus-4-6-thinking",
+      "status": "client_rejected",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+        "sha256": "c21829136dd1240b6f6169dee9b76aca71978295fcb0eabe52f9c5af6bade8f2"
+      },
+      "current_target_review": false,
+      "independence_validation": "not_certified: file-mode runner did not enforce filesystem boundary; observations reconciled manually"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/reviews-r1/flash/invocation.json",
+        "sha256": "6dd9503468bd3a2045fd835c8fbd3e80f1ad78db7e631c28bc7d817852f9c44b"
+      },
+      "client": "agy CLI",
+      "requested_model": "gemini-3.8-flash-high",
+      "status": "report_returned",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+        "sha256": "c21829136dd1240b6f6169dee9b76aca71978295fcb0eabe52f9c5af6bade8f2"
+      },
+      "current_target_review": false,
+      "report": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/reviews-r1/flash/REPORT.md",
+        "sha256": "eb1afb2a61385e8695c51f5c07b9ab22fbda3c78525123cfdb8715896a6e3abb"
+      },
+      "independence_validation": "not_certified: file-mode runner did not enforce filesystem boundary; observations reconciled manually"
+    },
+    {
+      "invocation": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/reviews-r1/pro/invocation.json",
+        "sha256": "19991df153d1979b3797141e0b4595cc1e0f4509db223c5c32d134d6675f6dda"
+      },
+      "client": "agy CLI",
+      "requested_model": "gemini-3.1-pro-high",
+      "status": "report_returned",
+      "reviewed_target": {
+        "path": "/home/alexi/books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/sol-r1/target.uk.txt",
+        "sha256": "c21829136dd1240b6f6169dee9b76aca71978295fcb0eabe52f9c5af6bade8f2"
+      },
+      "current_target_review": false,
+      "report": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/native-2026-09-14/reviews-r1/pro/REPORT.md",
+        "sha256": "404fa1e156abc80178116a30aa55fe43393b223138dc32fc6f26720c77c9ab47"
+      },
+      "independence_validation": "not_certified: file-mode runner did not enforce filesystem boundary; observations reconciled manually"
+    }
+  ],
+  "mechanical_checks": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v7/final-checks.json",
+    "sha256": "6f8cfa8c94fb5181abbfc2013cc4abd2187d8227a66646a5bcd2a30e103364ad"
+  },
+  "literary_release_gate": "open",
+  "gate_reason": "Required Claude Code Opus runs unavailable/incomplete; agy Opus is a supplementary client, and earlier large external file-mode isolation was not certified. Final Codex target-only readings are documented separately.",
+  "sol_remaining_proposals": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/CHAOS-49-DISPOSITIONS.json",
+    "sha256": "dfff6d9d24e333671b10d1da54b22e356a6339b6d5ba38bc43072f6677bd0d82"
+  },
+  "desktop_import": {
+    "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/desktop-import/import.json",
+    "sha256": "6c37f383bf5f134635eb087f35344fc252c33eefc936f1eac0454c33374f1323"
+  },
+  "corrected_late_findings": [
+    "TUK-V6-01: obsolete comma after ентузіазмом",
+    "TUK-V6-02: comma after particle все ж"
+  ]
+}

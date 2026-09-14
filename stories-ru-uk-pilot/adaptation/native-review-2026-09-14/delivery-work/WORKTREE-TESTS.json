@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "worktree": "/tmp/books-stories-ru-uk-20260914",
+  "scope": "Same 47 regression tests rerun from the isolated delivery checkout after copying only the selected project and shared files. No external model calls.",
+  "result": "passed",
+  "tests": 47,
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "13a21f",
+        "wall_time_seconds": 0.214415077,
+        "exit_code": 0,
+        "original_token_count": 113,
+        "output": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 0.278s\n\nOK\n{\"out\": \"/tmp/tmp3oy8g85n/report\", \"status\": \"report_returned\", \"report_sha256\": \"1ab53a59bb5e2b194492ace2969b69463961a9b191147e647e95262c0ed4a2d5\", \"seconds\": 0.0}\n{\"role\": \"gemini_flash\", \"client\": \"agy\", \"requested_model\": \"gemini-3.8-flash-high\", \"status\": \"unavailable_or_incomplete\", \"exit_code\": 0, \"seconds\": 0.0}\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "cf3786",
+        "wall_time_seconds": 0.00000127,
+        "exit_code": 0,
+        "original_token_count": 28,
+        "output": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.014s\n\nOK\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "c72ef5",
+        "wall_time_seconds": 0.0000011,
+        "exit_code": 0,
+        "original_token_count": 27,
+        "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.010s\n\nOK\n"
+      }
+    }
+  ]
+}

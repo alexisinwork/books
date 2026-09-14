@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "book_id": "story-01-reptiloids",
+  "target_sha256": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c",
+  "source_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+  "authority": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/decisions/2026-09-14-author-answers.json",
+    "sha256": "ae31abbb015a6938ef29d8e757b5344e0e6dc005df043b4c50c51d0a83caa34a"
+  },
+  "context_read": "Full RU story and all target paragraphs; source profile, canon and scene entry state.",
+  "scene_entry_states": [
+    {
+      "id": "story-01-reptiloids-u01",
+      "state_before": "Димон с тремя приятелями пьёт чай у Пелагеи после работы; рассказчик ещё не раскрывает реальных рептилоидов.",
+      "source_result": "Компания и Пелагея показали истинный вид; Олег в самом конце снимает маску и опровергает вывод о спасении мира."
+    }
+  ],
+  "target_overrides": [
+    {
+      "p": 1,
+      "before": "після довгого робочого дня на фабриці",
+      "after": "після довгої нічної зміни на фабриці",
+      "answer": "Q3",
+      "reason": "Explicit author clarification: the men have finished a night shift, which connects naturally to the dawn in p48."
+    },
+    {
+      "p": 14,
+      "before": "Пелагеє Гінеколаївно",
+      "after": "Пелагіє Гінеколаївно",
+      "answer": "Q1",
+      "reason": "Vocative of the author-selected name Пелагія Гінеколаївна."
+    },
+    {
+      "p": 17,
+      "before": "проскрипіла Пелагея",
+      "after": "проскрипіла Пелагія",
+      "answer": "Q1",
+      "reason": "Normalize the narrator’s name reference; keep the egg joke unchanged under Q2."
+    },
+    {
+      "p": 21,
+      "before": "Пелагеї Миколаївни",
+      "after": "Пелагії Гінеколаївни",
+      "answer": "Q1",
+      "reason": "Genitive of the author-selected name and patronymic."
+    },
+    {
+      "p": 29,
+      "before": "Пелагея Гінеколаївна",
+      "after": "Пелагія Гінеколаївна",
+      "answer": "Q1",
+      "reason": "Normalize the same character’s nominative name."
+    }
+  ],
+  "protected": [
+    {
+      "answer": "Q2",
+      "p": 17,
+      "text": "Та й заговори ваші яйцем по голові викачували! А вам і викачувати нема на чому!",
+      "reason": "Author explicitly chose to keep this wording."
+    },
+    {
+      "p": 55,
+      "reason": "The final revelation about Oleg is unchanged."
+    }
+  ],
+  "arithmetic": null,
+  "knowledge_policy": "No early disclosure of later facts; quoted false accounts and character beliefs retain their attribution.",
+  "source_registers": "Unchanged historical RU observations; target overrides are applied only in this linked UK layer.",
+  "current_draft": "draft-v5",
+  "translation_sha256": "ffc5b3b21a9154d683e90bff5909cec07963605a67bd8baed0432a4514217fae",
+  "predecessor": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v4/continuity.json",
+    "sha256": "527b2e7bc03cf1b77372d35828cc0da597563d26204ddb86d8158c5600d7e4fd",
+    "draft": "draft-v4",
+    "target_sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03"
+  },
+  "revision_basis": [
+    {
+      "path": "stories-ru-uk-pilot/adaptation/native-review-2026-09-14/reconciliation/story-01-reptiloids.spec.json",
+      "sha256": "68321350ca3e6318a46628e29c9fa57a5cc36e652a3b96f432e8c90c138c0f6c",
+      "role": "reconciled_exact_language_edits"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/draft-v5/changes.json",
+      "sha256": "33bf00fdc890d60e336459602df61dd7813a0466aadb2193cbcecdf8f234e2dc",
+      "role": "full_paragraph_change_record"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/INPUTS-V3.json",
+      "sha256": "8ee505c13eeae2e71f19ee3599e6a7957bfede323cdad3a1eaaef1c3fb8584ec",
+      "role": "frozen_inputs"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v3/packet.json",
+      "sha256": "41b3610169d7eaac0405f8dac60bc119654771cf5438022597a43dd10f1f691f",
+      "role": "frozen_preparation_packet"
+    }
+  ],
+  "current_anchor_checks": [
+    {
+      "p": 1,
+      "source_ids": [
+        "story-01-reptiloids-c000-p000001"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "Після довгої нічної зміни на фабриці",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "c87c798a927af833fa0dd0ae5d71ef6c89c435fe504ee56ee69e4c40caa488a6"
+      ],
+      "result": "passed",
+      "historical_after": "після довгої нічної зміни на фабриці",
+      "authority_status": "author_answer_applied",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 14,
+      "source_ids": [
+        "story-01-reptiloids-c000-p000014"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "Пелагіє Гінеколаївно",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "d422d858feec896e0757c03fc670964d7baa58d3e4eeb8ae9442bd69677221d5"
+      ],
+      "result": "passed",
+      "historical_after": "Пелагіє Гінеколаївно",
+      "authority_status": "author_answer_applied",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 17,
+      "source_ids": [
+        "story-01-reptiloids-c000-p000017"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "проскрипіла Пелагія",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "f654e657c324efaa97f217f1a6fb83d00dfcac1254b363dde7eeb7572acd065b"
+      ],
+      "result": "passed",
+      "historical_after": "проскрипіла Пелагія",
+      "authority_status": "author_answer_applied",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 21,
+      "source_ids": [
+        "story-01-reptiloids-c000-p000021"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "Пелагії Гінеколаївни",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "e461d6237bbdbe9a81cb166793c01708740b252d1abbfe211d765cb8dcb23725"
+      ],
+      "result": "passed",
+      "historical_after": "Пелагії Гінеколаївни",
+      "authority_status": "author_answer_applied",
+      "semantic_obligation_preserved": true
+    },
+    {
+      "p": 29,
+      "source_ids": [
+        "story-01-reptiloids-c000-p000029"
+      ],
+      "purpose": "current form of historical continuity override",
+      "exact_text": "Пелагія Гінеколаївна",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "b161479f4991caa7e1267675be2a0f8254960c58864626a5574ce215c1c020be"
+      ],
+      "result": "passed",
+      "historical_after": "Пелагія Гінеколаївна",
+      "authority_status": "author_answer_applied",
+      "semantic_obligation_preserved": true
+    }
+  ],
+  "current_protected_checks": [
+    {
+      "p": 17,
+      "source_ids": [
+        "story-01-reptiloids-c000-p000017"
+      ],
+      "purpose": "author-selected comic refrain",
+      "exact_text": "Та й заговори ваші яйцем по голові викачували! А вам і викачувати нема на чому!",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "f654e657c324efaa97f217f1a6fb83d00dfcac1254b363dde7eeb7572acd065b"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 55,
+      "source_ids": [
+        "story-01-reptiloids-c000-p000055"
+      ],
+      "purpose": "final revelation about Oleg",
+      "exact_text": "Олег неквапно знімає маску",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "e9362ea0579bd7ec09e1473344cbea834b85f128c8a02ec188fb204d847dcbce",
+        "b8e0d02eac45b131078b80f9f76be0912ecb1590b62c6a80dcdc514c98a4b90e"
+      ],
+      "result": "passed"
+    },
+    {
+      "p": 55,
+      "source_ids": [
+        "story-01-reptiloids-c000-p000055"
+      ],
+      "purpose": "reptiloid reveal remains explicit",
+      "exact_text": "блиснувши жовтими очима",
+      "expected_occurrences": 1,
+      "actual_occurrences": 1,
+      "target_paragraph_sha256": [
+        "e9362ea0579bd7ec09e1473344cbea834b85f128c8a02ec188fb204d847dcbce",
+        "b8e0d02eac45b131078b80f9f76be0912ecb1590b62c6a80dcdc514c98a4b90e"
+      ],
+      "result": "passed"
+    }
+  ],
+  "current_target_emphasis_checks": [],
+  "current_check_summary": {
+    "target_sha256": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c",
+    "historical_overrides_checked": 5,
+    "protected_exact_checks": 3,
+    "target_emphasis_ranges_checked": 0,
+    "result": "passed",
+    "scope": "Dependent continuity anchors only; not a new full structural diagnosis."
+  }
+}

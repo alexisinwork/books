@@ -74,6 +74,40 @@
       "ru_source_registers": "Unchanged historical observations; UK facts and entry-state overrides are in the linked continuity layer.",
       "delivery": "../../delivery/2026-09-14-v3",
       "full_literary_release_gate": "open"
+    },
+    {
+      "id": "full-native-language-revision-draft-v5-2026-09-14",
+      "reason": "Promote the fully read native-language candidate plus the reconciled exact edits without changing the RU source.",
+      "old_source": {
+        "path": "editions/uk/draft-v4/target.uk.txt",
+        "sha256": "d641c472d0f3497f5de5bded0493c9d9fb84ad090b24363f5d2512ab2be5de03"
+      },
+      "new_source": {
+        "path": "editions/uk/draft-v5/target.uk.txt",
+        "sha256": "996644cd41e14caa2f2e4cc179f5b2aa13bf0c067b7b337607fabf34c908fd0c",
+        "role": "UA_WORKING_EDITION"
+      },
+      "changes": "editions/uk/draft-v5/changes.json",
+      "decision": "adaptation/native-review-2026-09-14/reconciliation/story-01-reptiloids.spec.json",
+      "input_manifest": "editions/uk/INPUTS-V3.json",
+      "preparation_packet": "editions/uk/preparation/pilot/ready-v3",
+      "continuity": "editions/uk/draft-v5/continuity.json",
+      "quality_assessment": "editions/uk/QA-ASSESSMENT-v5.md",
+      "affected_checks": [
+        "current continuity anchors",
+        "author answers",
+        "times and referents",
+        "protected refrains and target emphasis"
+      ],
+      "audit_status": "full_native_revision_partial_external_ensemble",
+      "language_status": "working_edition_not_author_canonical_master",
+      "full_literary_release_gate": "open",
+      "delivery": {
+        "path": "../../delivery/2026-09-14-v4",
+        "status": "copied_and_hash_verified",
+        "receipt": "../../release/DESKTOP-DELIVERY-2026-09-14-v4.json"
+      },
+      "ru_source_registers": "Unchanged historical observations; current UK checks are in the linked continuity layer."
     }
   ]
 }

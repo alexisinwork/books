@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "status": "passed_for_candidate_binding_scope",
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 TMPDIR=.../pipeline-work/test-tmp /home/alexi/books/.venv/bin/python -m unittest discover -s tests -p test_input_binding.py -v",
+    "cwd": "candidate/stories-ru-uk-pilot",
+    "count": 10,
+    "exit_code": 0,
+    "result": "OK",
+    "scope": "Synthetic temporary fixtures; selected paths, mismatch rejection, caller dispatch, historical defaults, immutable prior checks and final-check binding. No real draft, final QA report or delivery was created.",
+    "tested_files": {
+      "stories-ru-uk-pilot/tools/check_final_draft.py": "7be7a1eb826ecad6a908bbcd39b7a9dd4d172c0645d6267920a0a863fe9fb13b",
+      "stories-ru-uk-pilot/tools/assemble_delivery.py": "525722331edf9726558eaa33ca6ff049af1a6c431c6210d058efec697aad7c8b",
+      "stories-ru-uk-pilot/tools/pilot_inputs.py": "08e5f58e5531eccc29fbc4ed73ca72e2ddb88c0572fb29ff2505c0577a734788",
+      "stories-ru-uk-pilot/tests/test_input_binding.py": "290c4a8a6d689ef7428d37be3f6f723ddbd60973028536f5f0bc3f0c2c0a9980"
+    }
+  },
+  "initial_environment_attempt": {
+    "command_interpreter": "python3",
+    "result": "ModuleNotFoundError: docx during test import",
+    "resolution": "Used the existing /home/alexi/books/.venv/bin/python; no dependency installation or source bypass."
+  },
+  "cli_smoke": {
+    "commands": [
+      ".venv/bin/python tools/check_final_draft.py --help",
+      ".venv/bin/python tools/assemble_delivery.py --help"
+    ],
+    "exit_codes": [
+      0,
+      0
+    ]
+  },
+  "patch_check": {
+    "command": "git apply --check --whitespace=error-all candidate.patch",
+    "cwd": "base",
+    "environment_note": "GIT_CEILING_DIRECTORIES set to pipeline-work; confirmed no parent repository was visible, so no paths were silently skipped as outside a repository subdirectory.",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "patch_sha256": "3c67bc23ee3ad262216b64f90a65a02a24bf746e4f72ab21b13a80d7e775c27d"
+  },
+  "real_pair_selection": "PAIR-REPRODUCTION.json",
+  "full_pipeline_run": false,
+  "export_run": false,
+  "model_run": false
+}
