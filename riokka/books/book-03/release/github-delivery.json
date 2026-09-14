@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-14",
+  "source_sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+  "github": {
+    "status": "published_and_remote_ref_verified",
+    "repository": "https://github.com/alexisinwork/books",
+    "branch": "riokka-book-03-complete-2026-09-14",
+    "content_commit": "4b35a86cb2f37216919725a5701173302b63c239",
+    "url": "https://github.com/alexisinwork/books/tree/riokka-book-03-complete-2026-09-14/riokka/books/book-03",
+    "note": "Отдельная ветка; основная ветка и её индекс не переключались при параллельной работе над томом 2."
+  },
+  "desktop": {
+    "status": "copied_and_hash_verified",
+    "folder": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — вычитка и сверка 2026-09-14",
+    "docx": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — Холм Розмари — редакция для вычитки.docx",
+    "questions": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — вопросы после вычитки.md",
+    "comparison": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — Орен и стык с томом 4.md",
+    "package_files_verified": 146,
+    "copies": [
+      {
+        "path": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — Холм Розмари — редакция для вычитки.docx",
+        "source": "Риокка — Книга 3 — Холм Розмари — редакция для вычитки.docx",
+        "sha256": "af9a8df911bac847f5265a552c0cb675894a4319aa45ba0b7d0f4c28532cc2d2"
+      },
+      {
+        "path": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — вопросы после вычитки.md",
+        "source": "ВОПРОСЫ-К-АВТОРУ.md",
+        "sha256": "99bcde4f7a506a970fbf24b8af28c849deb87ed8ca628b9b6e05f3476edac6a5"
+      },
+      {
+        "path": "/mnt/c/Users/alexi/Desktop/Риокка — Книга 3 — Орен и стык с томом 4.md",
+        "source": "audit/TRANSITION-BOOK-4.md",
+        "sha256": "874c426b4174c89e109bd00200fea0b934e0688141435741266653a41fabee36"
+      }
+    ],
+    "note": "Копия для чтения и ответа; авторские изменения импортировать явно. Полные относительные ссылки доступны внутри папки комплекта."
+  },
+  "checks": [
+    "git push succeeded",
+    "git ls-remote matched content_commit",
+    "source and DOCX hashes checked after copying"
+  ],
+  "report_commit_note": "This receipt is committed after the delivered content commit; it does not change the manuscript."
+}
