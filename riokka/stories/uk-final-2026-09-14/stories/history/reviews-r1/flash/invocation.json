@@ -1,0 +1,100 @@
+{
+  "role": "gemini_flash",
+  "client": "agy",
+  "requested_model": "gemini-3.8-flash-high",
+  "target_sha256": "9df465a22effe28f9370edafa21ca017eaaa0352981ae756b89d67adc4b4285e",
+  "source_sha256": "9ea767309cd23ca2d0e0165a51e059be8a01799a823f511a98054ad420baec36",
+  "prompt_sha256": "dbbc608a4aae798c7d0b25f8e7ee1aca214604268cd9248fcc0eb6407d2172c2",
+  "runner_sha256": "71a33012093490686e3acd1e5c997db12e2b1a0cfe3223e8b26c34c61bd9e414",
+  "references": [
+    {
+      "file": "riokka/stories/uk-final-2026-09-14/stories/history/CONTEXT.md",
+      "sha256": "835f9134f46281bedd6662de777d9ce04fe718e43bf7e9a72c7a07e2a989cdbb"
+    }
+  ],
+  "isolation": "Fresh temporary working directory, new conversation, tools prohibited in prompt, client plan/sandbox or tool-free safe mode. No other reports or adapter notes supplied.",
+  "transport": "one NDJSON user event via stdin; no source-reading tools needed",
+  "exit_code": 0,
+  "seconds": 129.61,
+  "client_init_metadata": [
+    {
+      "model": "gemini-3.8-flash-high",
+      "cwd": "/tmp/book-independent-reader-x574h6hj",
+      "tools": [
+        "ask_custom_permission",
+        "ask_permission",
+        "ask_question",
+        "browser_click_element",
+        "browser_drag_pixel_to_pixel",
+        "browser_get_dom",
+        "browser_get_network_request",
+        "browser_input",
+        "browser_list_network_requests",
+        "browser_mouse_down",
+        "browser_mouse_up",
+        "browser_move_mouse",
+        "browser_press_key",
+        "browser_refresh_page",
+        "browser_resize_window",
+        "browser_scroll",
+        "browser_scroll_dom",
+        "browser_select_option",
+        "browser_subagent",
+        "call_mcp_tool",
+        "capture_browser_console_logs",
+        "capture_browser_screenshot",
+        "click_browser_pixel",
+        "command_status",
+        "define_subagent",
+        "delete_knowledge",
+        "execute_browser_javascript",
+        "find_by_name",
+        "finish",
+        "generate_image",
+        "grep_search",
+        "invoke_subagent",
+        "list_browser_pages",
+        "list_dir",
+        "list_permissions",
+        "list_resources",
+        "manage_inbox",
+        "manage_subagents",
+        "manage_task",
+        "multi_replace_file_content",
+        "notebook_edit",
+        "notebook_execution",
+        "open_browser_url",
+        "read_browser_page",
+        "read_resource",
+        "read_url_content",
+        "replace_file_content",
+        "run_command",
+        "schedule",
+        "search_web",
+        "sed_file",
+        "send_command_input",
+        "send_message",
+        "view_file",
+        "wait",
+        "wait_5_seconds",
+        "write_to_file"
+      ],
+      "permission_mode": "request-review"
+    }
+  ],
+  "observed_step_types": [
+    "agent_response",
+    "user_input"
+  ],
+  "returned_model_metadata": {
+    "usage": {
+      "input_tokens": 31514,
+      "output_tokens": 38641,
+      "thinking_tokens": 34032,
+      "cache_read_tokens": 0,
+      "total_tokens": 70155
+    }
+  },
+  "status": "report_returned_pending_manual_validation",
+  "report_sha256": "d5c7719ee90cfd6ada5f521d4f12379e78c93986f1ab2a4fe0b40a6ada86b4a2"
+}

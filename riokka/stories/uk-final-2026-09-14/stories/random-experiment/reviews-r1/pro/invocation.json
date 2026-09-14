@@ -1,0 +1,24 @@
+{
+  "role": "gemini_pro",
+  "client": "agy",
+  "requested_model": "gemini-3.1-pro-high",
+  "target_sha256": "a6bebde91d4e836e8f4cfb3d8dcf2178505474329f73ef4d23c92faa5a28d133",
+  "source_sha256": null,
+  "prompt_sha256": "15ec80ff2436fc59aa05b2b4713286a16ac6e370d23066805d6c456fbc2703f8",
+  "runner_sha256": "e11c68e5fae4c7967dbd61c44f3e662402015db6a839c2e9dd219a611641665d",
+  "references": [],
+  "isolation": "Fresh temporary working directory, new conversation, tools prohibited in prompt, client plan/sandbox or tool-free safe mode. No other reports or adapter notes supplied.",
+  "exit_code": 0,
+  "seconds": 54.58,
+  "returned_model_metadata": {
+    "usage": {
+      "input_tokens": 17367,
+      "output_tokens": 7322,
+      "thinking_tokens": 5864,
+      "cache_read_tokens": 0,
+      "total_tokens": 24689
+    }
+  },
+  "status": "report_returned_pending_manual_validation",
+  "report_sha256": "358f0c9252eb3f1040fea9298ea11a812bac57a13af612d3ae9f1f6c3fa4df6c"
+}

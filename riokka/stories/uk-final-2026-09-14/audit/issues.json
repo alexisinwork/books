@@ -1,0 +1,25 @@
+{
+  "authority": "REQUEST.md: author-delegated editorial decisions, not invented individual author approvals",
+  "detail": "RECONCILIATION.md",
+  "release": "release-05",
+  "issues": [
+    {"id":"R-DI","story":"random-experiment","resolution_status":"unresolved","release_blocker":false,"depends_on":["P10"],"decision":"Preserve source ambiguity about Ді; no identity invented."},
+    {"id":"H-NAME-METADATA","story":"history","resolution_status":"resolved","depends_on":["H03","CONTEXT.md"],"decision":"Correct erroneous context lock; retain established UK Наталка."},
+    {"id":"H-FINAL-FLASH","story":"history","resolution_status":"documented_unavailable","release_blocker":false,"depends_on":["reviews-r2/part-01/flash","reviews-r3/flash"],"decision":"No report and no PASS; prior full bilingual report plus final editor comparison and Pro target-only reading recorded."},
+    {"id":"H-PRO-COMPOSITION","story":"history","resolution_status":"resolved_by_editor_preserving_source","depends_on":["P30","P112","P115","P128"],"decision":"Retain theatrical irony, philosophical digression and conversational hyperbole; do not add invented elapsed time."},
+    {"id":"S-HIDDEN-BODY","story":"space-is-no-place-for-the-living","resolution_status":"resolved","depends_on":["complete P261","complete P263","complete-projection-manifest.json"],"decision":"Extract and adapt both nested body paragraphs; full count 264; all-body DOCX/PDF text equality verified."},
+    {"id":"S-CREW-COUNT","story":"space-is-no-place-for-the-living","resolution_status":"resolved_by_editor","depends_on":["P97","S03"],"decision":"Four before separate invitation of Yulia; Garcia joins later."},
+    {"id":"S-HOLE-LOCATION","story":"space-is-no-place-for-the-living","resolution_status":"resolved_by_editor","depends_on":["P183","P190","S05"],"decision":"Generalize conflicting early Mars reference to Solar System; retain detailed later position."},
+    {"id":"S-YULIA","story":"space-is-no-place-for-the-living","resolution_status":"resolved_by_editor","depends_on":["RU P24","RU P25","RU P47","UK complete P264"],"decision":"Yulia Dass is established in RU; reject excerpt-only recommendation to restore stray Valentina."},
+    {"id":"S-FALSE-QUOTES","story":"space-is-no-place-for-the-living","resolution_status":"not_a_defect_false_anchor","depends_on":["reviews-r2/part-01/flash"],"decision":"Генри and космофлота are absent from supplied UK; keep correct forms."},
+    {"id":"S-SCIENCE","story":"space-is-no-place-for-the-living","resolution_status":"documented_not_changed","release_blocker":false,"depends_on":["P3","P11","P108","P114","P234"],"decision":"Fictional technology/source scientific claims retained. No scientific-certification claim; restructuring these mechanisms is outside this adaptation cycle."},
+    {"id":"S-LATIN-NAME","story":"space-is-no-place-for-the-living","resolution_status":"unresolved","release_blocker":false,"depends_on":["complete P250","complete P257","complete P260","complete P261"],"decision":"No author-supplied Latin spelling; consistent editorial UK form Смоулі used without inventing one."},
+    {"id":"D-CALENDAR","story":"where-ducks-fly-in-winter","resolution_status":"resolved_by_editor","depends_on":["P2","P3","D01","D04"],"decision":"Soon 88, late twenty-first century; preserve explicit birth/death dates."},
+    {"id":"D-LEDGER-WEIGHTS","story":"where-ducks-fly-in-winter","resolution_status":"resolved_by_editor","depends_on":["D05"],"decision":"Distinguish weighted score from half of lifespan; preserve 60/40 and 83; no invented durations."},
+    {"id":"D-NETWORK","story":"where-ducks-fly-in-winter","resolution_status":"resolved_by_editor","depends_on":["D06","all network-name occurrences"],"decision":"Безбожнет preserves nonbelievers-plus-network wordplay; not claimed as preapproved author spelling."},
+    {"id":"D-TWO","story":"where-ducks-fly-in-winter","resolution_status":"unresolved","release_blocker":false,"depends_on":["Отримуй два!"],"decision":"Retain two-way meaning; do not force a school grade or doubled benefit."},
+    {"id":"D-PRO-WORD-TASTE","story":"where-ducks-fly-in-winter","resolution_status":"resolved_by_editor_preserving_source","depends_on":["P25","P232"],"decision":"Retain quoted writer-prose Бувши and character-specific coined metaphor; not automatic banned-word rules."},
+    {"id":"D-FALSE-QUOTE","story":"where-ducks-fly-in-winter","resolution_status":"not_a_defect_false_anchor","depends_on":["reviews-r2/part-02/flash"],"decision":"а вот романи is absent; supplied UK already says а от романи."},
+    {"id":"R-FONT","story":"random-experiment","resolution_status":"resolved","depends_on":["reader DOCX fontTable","PDF rendering"],"decision":"Remove malformed Chinese Georgia embedding only in output copy; retain source and intended Georgia family."}
+  ]
+}

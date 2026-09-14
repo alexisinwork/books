@@ -18,11 +18,6 @@ def save(path, data):
         stream.write(data if isinstance(data, str) else json.dumps(data, ensure_ascii=False, indent=2) + "\n")
 
 
-def numbered(value):
-    paragraphs = value.rstrip("\n").split("\n\n")
-    return "\n\n".join(f"[P{i:04d}]\n{p}" for i, p in enumerate(paragraphs, 1))
-
-
 def run(args):
     if args.out.exists():
         raise ValueError("Use a new immutable review directory")
@@ -38,15 +33,12 @@ def run(args):
                 "Read every supplied paragraph in order, including the ending. Return a completed Ukrainian or Russian report. Exact short quotes and positions are mandatory for defects. Separate S1 fact/causality/ambiguity, S2 voice/humour/effect, S3 language and S4 optional taste. Do not rewrite the story or prefer unnecessary decorative dialect. Begin with Status: final and Target SHA-256: " + digest,
                 "State the actual covered paragraph range, unread scope, counts and PASS or REQUIRES REVISION. This is a model reading, not a human beta reader.",
                 "Runner-provided metadata (copy exactly, do not invent or mentally compute hashes): " + json.dumps({"target_sha256": digest, "source_sha256": source_digest, "client": args.client, "requested_model": args.model}, ensure_ascii=False) + ". The requested selector is not independent evidence of the actual backend. If the actual backend is not exposed, say not independently attested.",
-                "Paragraph labels are runner metadata, not prose. Report exact labels rather than estimating paragraph counts.",
-                "<TARGET_TEXT>\n" + numbered(text) + "\n</TARGET_TEXT>"]
+                "<TARGET_TEXT>\n" + text + "\n</TARGET_TEXT>"]
     if args.source:
-        sections.append("<SOURCE_TEXT>\n" + numbered(args.source.read_text(encoding="utf-8")) + "\n</SOURCE_TEXT>")
+        sections.append("<SOURCE_TEXT>\n" + args.source.read_text(encoding="utf-8") + "\n</SOURCE_TEXT>")
     for path in args.context:
         sections.append("<REFERENCE name=" + json.dumps(path.name) + ">\n" + path.read_text(encoding="utf-8") + "\n</REFERENCE>")
     payload = "\n\n".join(sections)
-    if args.client == "agy" and len(payload.encode("utf-8")) > 125000:
-        raise ValueError("agу literary packet exceeds conservative input bound; split at scene boundaries and manifest full-text coverage")
     args.out.mkdir(parents=True)
     save(args.out / "prompt.txt", payload)
     save(args.out / "runner.py", Path(__file__).read_text(encoding="utf-8"))

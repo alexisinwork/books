@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-14T19:42:54.968562+00:00",
+  "story": {
+    "id": "history",
+    "title": "Історія",
+    "ru": "/mnt/c/Users/alexi/Desktop/Sol/История.docx",
+    "uk": "/mnt/c/Users/alexi/Desktop/Sol/Історія — українська версія.docx",
+    "draft": "riokka/stories/history/editions/uk/revision-2026-09-14/target.uk.txt",
+    "expected_units": 146
+  },
+  "inputs": [
+    {
+      "role": "ru",
+      "origin": "/mnt/c/Users/alexi/Desktop/Sol/История.docx",
+      "snapshot": "SOURCE/ru.docx",
+      "sha256": "6af64dd30c956c89a5484445b7adb1332c31e3ae628f3fafcd523b97204c9022",
+      "paragraphs": 157,
+      "nonempty": 146
+    },
+    {
+      "role": "uk",
+      "origin": "/mnt/c/Users/alexi/Desktop/Sol/Історія — українська версія.docx",
+      "snapshot": "SOURCE/desktop-uk.docx",
+      "sha256": "a6d58b24e4e701ed474506bed31aba7e76cf8ec4123e8cd66ad8471c33e1329f",
+      "paragraphs": 157,
+      "nonempty": 146
+    },
+    {
+      "role": "prepared_uk",
+      "origin": "/home/alexi/books/riokka/stories/history/editions/uk/revision-2026-09-14/target.uk.txt",
+      "snapshot": "SOURCE/prepared-uk.txt",
+      "sha256": "a0a9b2d9aaad8cb9ae8b4fdb927513bab1eb1645809c5de49cb9d75a69f00637"
+    }
+  ],
+  "chosen_editorial_base": "SOURCE/prepared-uk.txt",
+  "selection_basis": "Current author-authorized four-story revision; prepared text used as editable candidate and checked against the frozen RU, not promoted by modification date",
+  "opus": "waived_by_current_author_request"
+}

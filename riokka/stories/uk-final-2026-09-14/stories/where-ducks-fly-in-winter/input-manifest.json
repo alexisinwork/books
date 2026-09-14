@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-14T19:42:55.129641+00:00",
+  "story": {
+    "id": "where-ducks-fly-in-winter",
+    "title": "Куди відлітають качки взимку",
+    "ru": "/mnt/c/Users/alexi/Desktop/Sol/Куда улетают утки зимой.docx",
+    "uk": "/mnt/c/Users/alexi/Desktop/Sol/Куди відлітають качки взимку — українська версія.docx",
+    "draft": "riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+    "expected_units": 253
+  },
+  "inputs": [
+    {
+      "role": "ru",
+      "origin": "/mnt/c/Users/alexi/Desktop/Sol/Куда улетают утки зимой.docx",
+      "snapshot": "SOURCE/ru.docx",
+      "sha256": "3cb15c55923e85db94b4e84ef5f75e58fc2f8e94a4a9a2a4e5c18cfd3d83bb19",
+      "paragraphs": 257,
+      "nonempty": 253
+    },
+    {
+      "role": "uk",
+      "origin": "/mnt/c/Users/alexi/Desktop/Sol/Куди відлітають качки взимку — українська версія.docx",
+      "snapshot": "SOURCE/desktop-uk.docx",
+      "sha256": "38be80e80b85e256e90c3b5ca1b08e6467f4ec713cbbc212127c0af3d15f4d38",
+      "paragraphs": 257,
+      "nonempty": 253
+    },
+    {
+      "role": "prepared_uk",
+      "origin": "/home/alexi/books/riokka/stories/where-ducks-fly-in-winter/editions/uk/revision-2026-09-14/target.uk.txt",
+      "snapshot": "SOURCE/prepared-uk.txt",
+      "sha256": "69776cdf5fd710f383fdc5ff3925b9e436939d072fe436a90b766ccc79eaa690"
+    }
+  ],
+  "chosen_editorial_base": "SOURCE/prepared-uk.txt",
+  "selection_basis": "Current author-authorized four-story revision; prepared text used as editable candidate and checked against the frozen RU, not promoted by modification date",
+  "opus": "waived_by_current_author_request"
+}

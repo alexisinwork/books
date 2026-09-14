@@ -1,0 +1,14 @@
+/tmp/uk-docx-test-3lwv9xrg/final.docx: 3 paragraphs; docx_sha256=dca35a5e30a8f34a8c437546502ee18ed16ff9edf40d45d97cdcb9bd3c00cac3; template_unchanged=true
+{"role": "gemini_flash", "client": "agy", "requested_model": "gemini-test", "status": "report_returned_pending_manual_validation", "exit_code": 0, "seconds": 0.0}
+test_content_control_roundtrip (__main__.DocumentTests.test_content_control_roundtrip) ... ok
+test_font_repair_is_idempotent (__main__.DocumentTests.test_font_repair_is_idempotent) ... ok
+test_frozen_space_has_two_more_paragraphs (__main__.DocumentTests.test_frozen_space_has_two_more_paragraphs) ... ok
+test_table_refused (__main__.DocumentTests.test_table_refused) ... ok
+test_overlong_packet_rejected_before_external_call (__main__.RunnerTests.test_overlong_packet_rejected_before_external_call) ... ok
+test_stream_transport_and_result (__main__.RunnerTests.test_stream_transport_and_result) ... ok
+test_wrong_client_rejected (__main__.RunnerTests.test_wrong_client_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.183s
+
+OK

@@ -1,0 +1,181 @@
+{
+  "scope_interpretation": "../RECONCILIATION.md",
+  "invocations": [
+    {
+      "file": "stories/history/reviews-r1/flash/invocation.json",
+      "invocation_sha256": "7d753a8c01dddd0ad832604f1e913617e8e9d46db0e793ea3f1f2c6137186939",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "9df465a22effe28f9370edafa21ca017eaaa0352981ae756b89d67adc4b4285e",
+      "report_sha256": "d5c7719ee90cfd6ada5f521d4f12379e78c93986f1ab2a4fe0b40a6ada86b4a2"
+    },
+    {
+      "file": "stories/history/reviews-r1/pro/invocation.json",
+      "invocation_sha256": "4c2fdedc1aa06a38412b1e81bb49d0e528fee34f66397581c80bbe48525057ff",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_pro",
+      "target_sha256": "9df465a22effe28f9370edafa21ca017eaaa0352981ae756b89d67adc4b4285e",
+      "report_sha256": "febe51b14045c792748e6218308a748484b06ae222256376e700b6e46a43c0d4"
+    },
+    {
+      "file": "stories/history/reviews-r2/part-01/flash/invocation.json",
+      "invocation_sha256": "a9a907469a755f9dd5727b770067f67490f2a8d4797282605496d30bfa481c60",
+      "status": "unavailable_or_incomplete",
+      "role": "gemini_flash",
+      "target_sha256": "817cfc91779cfd07fb793723f092ea3e9123cbf265edfae34c6a56843f1aa8c1",
+      "report_sha256": null
+    },
+    {
+      "file": "stories/history/reviews-r2/pro/invocation.json",
+      "invocation_sha256": "3843b1375c540e3019303f3a2303ae13f04f956051061741c0a8014789b55e75",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_pro",
+      "target_sha256": "817cfc91779cfd07fb793723f092ea3e9123cbf265edfae34c6a56843f1aa8c1",
+      "report_sha256": "68b97834c88e4a5f84b6381d9b8a67c749c6c618b63164495fe90d8e654a6a3e"
+    },
+    {
+      "file": "stories/history/reviews-r3/flash/invocation.json",
+      "invocation_sha256": "e58367f3a9b3b0fe6b5826b5f33e91d99c73beca9924e71e56463d2f95696d6d",
+      "status": "unavailable_or_incomplete",
+      "role": "gemini_flash",
+      "target_sha256": "7531a6414c430207e77575c99e843ec98c0ef8707326ab9004845c274a7762e4",
+      "report_sha256": null
+    },
+    {
+      "file": "stories/random-experiment/reviews-r1/flash/invocation.json",
+      "invocation_sha256": "1169321836a35f95d6ceaa9739104cfe7ae370077f0d614922774a4dda0b1db1",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "a6bebde91d4e836e8f4cfb3d8dcf2178505474329f73ef4d23c92faa5a28d133",
+      "report_sha256": "969d8fae1ddb947d19ab94827d92055c8310a9d38a4442455dfc3e76fe208d59"
+    },
+    {
+      "file": "stories/random-experiment/reviews-r1/pro/invocation.json",
+      "invocation_sha256": "e6dc7ff2aaf2a6dadfd1a6a213f3a8b35a02c39317f5a575a045ff81ca3225c5",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_pro",
+      "target_sha256": "a6bebde91d4e836e8f4cfb3d8dcf2178505474329f73ef4d23c92faa5a28d133",
+      "report_sha256": "358f0c9252eb3f1040fea9298ea11a812bac57a13af612d3ae9f1f6c3fa4df6c"
+    },
+    {
+      "file": "stories/space-is-no-place-for-the-living/reviews-r1/flash/invocation.json",
+      "invocation_sha256": "b1d70e5d045788ebbb8523c9f1fb33059f4a86c8930377318d572e6ea79affef",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "a07cbdcc50fcd4dfdd37ea0a2e2652e73c2ae28e8ef0b332969814b4d76de517",
+      "report_sha256": "3ddf73bb260bf05f760c35fab4eab0e144545f34f3904712397be7cf49906057"
+    },
+    {
+      "file": "stories/space-is-no-place-for-the-living/reviews-r1/pro/invocation.json",
+      "invocation_sha256": "a05fad1b1632712f9a469e3cd1c7eb88f1ab30619780f0de972727f9dcd2e685",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_pro",
+      "target_sha256": "a07cbdcc50fcd4dfdd37ea0a2e2652e73c2ae28e8ef0b332969814b4d76de517",
+      "report_sha256": "d4daa67aaccce1bad8547034bcfc822b494c664e3ef8b02500a08bd4aae6a5f5"
+    },
+    {
+      "file": "stories/space-is-no-place-for-the-living/reviews-r2/part-01/flash/invocation.json",
+      "invocation_sha256": "6c62d32fa77848188cef1e50afdbd7b0648568511807d20551e730a34b3b1b7e",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "fd4c90e59839860b82b33069a280e13bf132825e542d77e9ae09a7e331adc106",
+      "report_sha256": "85b7d668bfd33c15113ace79a35556c15e1f6e87ddb73bf7a578da01573077bf"
+    },
+    {
+      "file": "stories/space-is-no-place-for-the-living/reviews-r2/part-02/flash/invocation.json",
+      "invocation_sha256": "90365129a784553632889cb42bce5bba13afad464d86b2f5c3a28602b89343f8",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "72e529f5355c9c2e2deded8f0ce98e793f7a05695ef0d83cfd0e1948f2ba6652",
+      "report_sha256": "c6c55810e921e73cf22266a9534373099ca62cbc3a1a44866180e68548747103"
+    },
+    {
+      "file": "stories/space-is-no-place-for-the-living/reviews-r2/part-03/flash/invocation.json",
+      "invocation_sha256": "9da6eed5508889954b27e3379c19b5c7c6f4b7bbcb7e08f0b87054678aae3897",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "12c783c8d6ef26203e31bf7573707ddab4b9f4f7638b34b295ae725f2c715edf",
+      "report_sha256": "0d1c166427755da5966e28481957121415130c47af13a1754928b5a0b71daf9e"
+    },
+    {
+      "file": "stories/space-is-no-place-for-the-living/reviews-r2/pro/invocation.json",
+      "invocation_sha256": "21e02e678560a4e3aa6f6d2344d78b071f377825969cec98622f9cd76f71a4a5",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_pro",
+      "target_sha256": "3a7c945e3b40c78db60c2f735eeccd00a6d61183b26461187919345a852d6eb2",
+      "report_sha256": "cd29831897f11e3e8a13511184e7e734ac34f7c51406fdc32b73bc4f597a3c2c"
+    },
+    {
+      "file": "stories/space-is-no-place-for-the-living/reviews-r3/delta/flash/invocation.json",
+      "invocation_sha256": "737b9ead71f6ea677831b15ae84c47b5e10afdc4e6bf1560f68c1e825a09552f",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "a2e6ec8b5261f885e3250eb6e89218d43224d2708df7c8fc7a5105f04cb6251d",
+      "report_sha256": "8bffc4f0fd9d6fd1ea9563fa7f032b8102db6e1097cc3f5502504963dab3dd68"
+    },
+    {
+      "file": "stories/space-is-no-place-for-the-living/reviews-r4/ending/flash/invocation.json",
+      "invocation_sha256": "4f7f65414efb3a4f4c6e6ac748760c831cdb2e59258ef8b2dbb14e4a0b95b7a5",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "1380573f4912bc6f8c87d7fb86e1f0dd14c89a605bb364a51abd0c67238b816c",
+      "report_sha256": "5d15ae694f98b2e5ac162bee551e5b2176b589a37a7e2ac628edb829cb9ba096"
+    },
+    {
+      "file": "stories/where-ducks-fly-in-winter/reviews-r1/flash/invocation.json",
+      "invocation_sha256": "837ccab296b98ae452516dd06a0fb7a4c6f1fc4316e5e2a988246ed0311cef73",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "795074fc98cf603f8cbd6a4948250a0e5513cb279829af5f7bbb104086e3a47c",
+      "report_sha256": "1092136715c5c212c2bc8326d151e248b1292cfe9bef8bdbd8437f2ddf83aa1d"
+    },
+    {
+      "file": "stories/where-ducks-fly-in-winter/reviews-r1/pro/invocation.json",
+      "invocation_sha256": "55291b8a3dd213338bbdba00783f744c484a098dcad6c8c710e2457677c2ec53",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_pro",
+      "target_sha256": "795074fc98cf603f8cbd6a4948250a0e5513cb279829af5f7bbb104086e3a47c",
+      "report_sha256": "35aa1a9229c3db42460827bab3fcf6fc75678158dffd43bf253e900696d578fb"
+    },
+    {
+      "file": "stories/where-ducks-fly-in-winter/reviews-r2/part-01/flash/invocation.json",
+      "invocation_sha256": "d4041e4dafd71b75da05d1493a99eceafc45e9dacb79810e576d80b87647e4fc",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "262c76244c4831c33e80a0f260ee6562e92aec0a6d7497466c2d162feb3d73c4",
+      "report_sha256": "806f969fc1779950ee12055485a6f8ed22bbaedbec50a12b3476c8dc4678e6f0"
+    },
+    {
+      "file": "stories/where-ducks-fly-in-winter/reviews-r2/part-02/flash/invocation.json",
+      "invocation_sha256": "5a6f80268eabf94f846b43f2a4eb4b08e049979acc33d2303c0a2e5d780e9330",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "bb0eaac80c527599b77a24d5f1eea22e739dd96abb86173042aea84c27f92364",
+      "report_sha256": "fb6ad8a0d0f70ff5d7d3a56ab41b23c612673a715a5231d6445d5034a317ea21"
+    },
+    {
+      "file": "stories/where-ducks-fly-in-winter/reviews-r2/part-03/flash/invocation.json",
+      "invocation_sha256": "e7849c26503b9bae96bed0d7c48cea4fc1004c3cf473dd22e8023a5ab0ff6c41",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "5ea5ad0fb842d86057ad9ec2fea554a4179b6459c0a1abe5b246377dd970b06d",
+      "report_sha256": "1d77c2b4eebdeaa90ab754395a7d24dd3b6cfa605819b9a34b98a43f0d4eba9a"
+    },
+    {
+      "file": "stories/where-ducks-fly-in-winter/reviews-r2/pro/invocation.json",
+      "invocation_sha256": "376a41e451f91900884673b9f8ae0b228f7e30072136dc4ab56bbfed4e7806e1",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_pro",
+      "target_sha256": "c69d9a70fe7696cc6b3b9de6c94d9067c5ee577040c7111bc104496c7090971b",
+      "report_sha256": "b2aef8389bb3ca770f7765d8d524bf81d0159f0ec52fc3808cb87e78175b5ed3"
+    },
+    {
+      "file": "stories/where-ducks-fly-in-winter/reviews-r3/delta/flash/invocation.json",
+      "invocation_sha256": "510442121a0d92d17525c6fa9f8e0244026ddfdcd15f9b6b8e24cb12634d560e",
+      "status": "report_returned_pending_manual_validation",
+      "role": "gemini_flash",
+      "target_sha256": "4cbbcdb811ce90e450a974e79877138eaa3dfcad138235560accfe9c22afaa2d",
+      "report_sha256": "d9334a12399c9b1caa7985188ae07579a1d8b5bf895bf284e0840ac622d029ca"
+    }
+  ]
+}

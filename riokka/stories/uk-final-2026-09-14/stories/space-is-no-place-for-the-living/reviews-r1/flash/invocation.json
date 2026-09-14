@@ -1,0 +1,100 @@
+{
+  "role": "gemini_flash",
+  "client": "agy",
+  "requested_model": "gemini-3.8-flash-high",
+  "target_sha256": "a07cbdcc50fcd4dfdd37ea0a2e2652e73c2ae28e8ef0b332969814b4d76de517",
+  "source_sha256": "4bf49c6acd9e4c7f0eefa2dbbe7b8b7337423c15382eb59baf93e51493e9eec5",
+  "prompt_sha256": "832e50b2ac33a7ca54f3693776877960890d5d4cbd39633e637b792d7035b907",
+  "runner_sha256": "71a33012093490686e3acd1e5c997db12e2b1a0cfe3223e8b26c34c61bd9e414",
+  "references": [
+    {
+      "file": "riokka/stories/uk-final-2026-09-14/stories/space-is-no-place-for-the-living/CONTEXT.md",
+      "sha256": "2cecffcde4baf310d977a7eb79146b17d6a339a917b3b6bc86a39d6654a4ebc0"
+    }
+  ],
+  "isolation": "Fresh temporary working directory, new conversation, tools prohibited in prompt, client plan/sandbox or tool-free safe mode. No other reports or adapter notes supplied.",
+  "transport": "one NDJSON user event via stdin; no source-reading tools needed",
+  "exit_code": 0,
+  "seconds": 121.08,
+  "client_init_metadata": [
+    {
+      "model": "gemini-3.8-flash-high",
+      "cwd": "/tmp/book-independent-reader-obvo8jyn",
+      "tools": [
+        "ask_custom_permission",
+        "ask_permission",
+        "ask_question",
+        "browser_click_element",
+        "browser_drag_pixel_to_pixel",
+        "browser_get_dom",
+        "browser_get_network_request",
+        "browser_input",
+        "browser_list_network_requests",
+        "browser_mouse_down",
+        "browser_mouse_up",
+        "browser_move_mouse",
+        "browser_press_key",
+        "browser_refresh_page",
+        "browser_resize_window",
+        "browser_scroll",
+        "browser_scroll_dom",
+        "browser_select_option",
+        "browser_subagent",
+        "call_mcp_tool",
+        "capture_browser_console_logs",
+        "capture_browser_screenshot",
+        "click_browser_pixel",
+        "command_status",
+        "define_subagent",
+        "delete_knowledge",
+        "execute_browser_javascript",
+        "find_by_name",
+        "finish",
+        "generate_image",
+        "grep_search",
+        "invoke_subagent",
+        "list_browser_pages",
+        "list_dir",
+        "list_permissions",
+        "list_resources",
+        "manage_inbox",
+        "manage_subagents",
+        "manage_task",
+        "multi_replace_file_content",
+        "notebook_edit",
+        "notebook_execution",
+        "open_browser_url",
+        "read_browser_page",
+        "read_resource",
+        "read_url_content",
+        "replace_file_content",
+        "run_command",
+        "schedule",
+        "search_web",
+        "sed_file",
+        "send_command_input",
+        "send_message",
+        "view_file",
+        "wait",
+        "wait_5_seconds",
+        "write_to_file"
+      ],
+      "permission_mode": "request-review"
+    }
+  ],
+  "observed_step_types": [
+    "agent_response",
+    "user_input"
+  ],
+  "returned_model_metadata": {
+    "usage": {
+      "input_tokens": 47161,
+      "output_tokens": 38227,
+      "thinking_tokens": 32980,
+      "cache_read_tokens": 0,
+      "total_tokens": 85388
+    }
+  },
+  "status": "report_returned_pending_manual_validation",
+  "report_sha256": "3ddf73bb260bf05f760c35fab4eab0e144545f34f3904712397be7cf49906057"
+}

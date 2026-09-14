@@ -1,0 +1,29 @@
+{
+  "role": "gemini_flash",
+  "client": "agy",
+  "requested_model": "gemini-3.8-flash-high",
+  "target_sha256": "a6bebde91d4e836e8f4cfb3d8dcf2178505474329f73ef4d23c92faa5a28d133",
+  "source_sha256": "b20907167743b5a80b8edce4ca32fdee4f24f6566859c96609a3604073727a2e",
+  "prompt_sha256": "92e033b74bafaa294026a21ed3d6ddb62e4829e35f35d509b6a34773b1c2a998",
+  "runner_sha256": "e11c68e5fae4c7967dbd61c44f3e662402015db6a839c2e9dd219a611641665d",
+  "references": [
+    {
+      "file": "riokka/stories/uk-final-2026-09-14/stories/random-experiment/CONTEXT.md",
+      "sha256": "a90292228be57d2e0779c3afdb572a4fdd27a2578e1d66f03aa5706c5c71ee4d"
+    }
+  ],
+  "isolation": "Fresh temporary working directory, new conversation, tools prohibited in prompt, client plan/sandbox or tool-free safe mode. No other reports or adapter notes supplied.",
+  "exit_code": 0,
+  "seconds": 52.46,
+  "returned_model_metadata": {
+    "usage": {
+      "input_tokens": 18791,
+      "output_tokens": 15416,
+      "thinking_tokens": 13120,
+      "cache_read_tokens": 0,
+      "total_tokens": 34207
+    }
+  },
+  "status": "report_returned_pending_manual_validation",
+  "report_sha256": "969d8fae1ddb947d19ab94827d92055c8310a9d38a4442455dfc3e76fe208d59"
+}

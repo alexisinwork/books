@@ -1,0 +1,53 @@
+{
+  "status": "editorial_complete_for_author_reading",
+  "created_utc": "2026-09-14T20:31:30.696808+00:00",
+  "release": "release-05",
+  "stories": [
+    {
+      "story": "random-experiment",
+      "docx_sha256": "7d85e520ba05746150298d608a59a588d6e9d1d241981da1c60290668b0ccb9d",
+      "text_sha256": "a6bebde91d4e836e8f4cfb3d8dcf2178505474329f73ef4d23c92faa5a28d133",
+      "paragraphs": 48,
+      "rendered_pages": 4,
+      "visual_evidence": "random-experiment/visual-review.json"
+    },
+    {
+      "story": "history",
+      "docx_sha256": "843d89a80d46fea22904fb8afc507bca26fe23ac8af0795211dae9af2a3e724b",
+      "text_sha256": "7531a6414c430207e77575c99e843ec98c0ef8707326ab9004845c274a7762e4",
+      "paragraphs": 146,
+      "rendered_pages": 20,
+      "visual_evidence": "history/visual-review.json"
+    },
+    {
+      "story": "space-is-no-place-for-the-living",
+      "docx_sha256": "570e195e267889c9a920a3a5bc52c3486c850e9998740f50680dfaf76041d9f4",
+      "text_sha256": "9e95dc2ed5660735fc0be14ae339356bdf60581ce08ee2729561cea653104892",
+      "paragraphs": 264,
+      "rendered_pages": 30,
+      "visual_evidence": "space-is-no-place-for-the-living/visual-review.json"
+    },
+    {
+      "story": "where-ducks-fly-in-winter",
+      "docx_sha256": "ff8438427a3b524fbfa94fba5329fbf99446cd3a82d16db589144354852b5c7c",
+      "text_sha256": "61787b01c9ce5c69e30d7c9de61a95f921b822e86163da548f89ec4ce24ecc4a",
+      "paragraphs": 253,
+      "rendered_pages": 30,
+      "visual_evidence": "where-ducks-fly-in-winter/visual-review.json"
+    }
+  ],
+  "total_body_paragraphs": 711,
+  "opus": "waived by current author request; not run",
+  "gemini_route": "agy CLI only",
+  "all_external_models_passed": false,
+  "limits": [
+    "History repeat Flash checks refused by provider; final delta checked by editor.",
+    "Some target-only structural/scientific preferences deliberately not applied; see reconciliation.",
+    "Source ambiguity retained; no human native-reader or scientific-certification claim."
+  ],
+  "reconciliation_sha256": "d9277a827c3efcaa8122b9ef45cca653c778ab7bbb689ae6dc142ca48a664b8a",
+  "issues_sha256": "b823a9e3c29a4fadbc534f5344d1aef6927f6595429d93d38496d8ca2261acd5",
+  "mechanics": "7 tool regression tests passed; full body XML and rendered PDF text agree; source DOCX unchanged.",
+  "publication_canon_promoted": false,
+  "earlier_releases": "01–04 superseded; retained for traceability"
+}
