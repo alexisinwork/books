@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "project_id": "stories-ru-uk-pilot",
+  "created_at": "2026-09-14T16:41:36+00:00",
+  "status": "preparation_only",
+  "books": [
+    {
+      "book_id": "story-03-chaos-logic",
+      "title_ru": "Логика хаоса",
+      "live_book_manifest_at_inventory": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/book.json",
+        "sha256": "44897b80b89322bcb9506e808687698890d3032c858fb9be2f2acf2dfbbbede6"
+      },
+      "book_manifest": {
+        "path": "stories-ru-uk-pilot/adaptation/source-inventory-v1/source-manifests/story-03-chaos-logic.json",
+        "sha256": "44897b80b89322bcb9506e808687698890d3032c858fb9be2f2acf2dfbbbede6"
+      },
+      "inventory_source": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+        "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+        "format": "docx",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "pilot_eligible": true,
+      "translation_source_selected": false,
+      "related_versions": [],
+      "extraction_flags": {
+        "tbl": 0,
+        "drawing": 0,
+        "txbxContent": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "excluded_parts": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "heading_p": 1,
+          "title_ru": "Глава 1. Начало"
+        },
+        {
+          "chapter": 2,
+          "heading_p": 83,
+          "title_ru": "Глава 2. У печали нету края"
+        },
+        {
+          "chapter": 3,
+          "heading_p": 169,
+          "title_ru": "Глава 3. Дом, милый дом"
+        },
+        {
+          "chapter": 4,
+          "heading_p": 208,
+          "title_ru": "Глава 4. Сбор показаний"
+        },
+        {
+          "chapter": 5,
+          "heading_p": 269,
+          "title_ru": "Глава 5. Прелюдия"
+        },
+        {
+          "chapter": 6,
+          "heading_p": 301,
+          "title_ru": "Глава 6. Решение головоломки"
+        }
+      ],
+      "chapter_count": 6,
+      "source_units_including_blank": 328,
+      "nonempty_source_units": 310,
+      "ru_lexical_tokens_body": 10408,
+      "voice_source": {
+        "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/voice.json",
+        "sha256": "549bfe22c14508dba9ced630e43b660834d2c72ede05f47a1fb78d043e8443a8"
+      }
+    }
+  ],
+  "coverage": "Mechanical inventory of all registered masters; no full literary reading. Markdown source units are physical lines, DOCX units are body paragraphs. Chapter numbers are ordinal positions, not parsed display labels.",
+  "word_count_method": "Regex lexical tokens, including digits; estimates, not linguistic word counts.",
+  "isolation": "This file contains exactly one story; no other project/series canon is part of the package.",
+  "inventory_parent": {
+    "path": "stories-ru-uk-pilot/adaptation/source-inventory-v1/sources.json",
+    "sha256": "19338327379ce548fcd075a3c43baf386c2a77894096936a2087879d3778bc0e"
+  }
+}

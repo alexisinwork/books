@@ -1,0 +1,39 @@
+{
+  "role": "additional_target_only_opus",
+  "requested_model": "claude-opus-5",
+  "client": "Claude Code",
+  "target_sha256": "06671274e8946e808b8bcfab05ae2c549fac11ab67578f3c3e310a223ff8bbee",
+  "source_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+  "translation_sha256": "feddcd70878e9470f9b9283fa5c2fd22fd29b44d7e7c2a3c1fd95e08a10eed66",
+  "prompt_sha256": "c51a37f83f105b53497465d8bfdc9dbb503c2d156ce65dfb1915d742169b712d",
+  "runner_sha256": "578390929fa0dd7132f72c25a91219590a8e0dd80ddd48f7233c08baab69e166",
+  "context": [],
+  "isolation": "Fresh session in external temporary directory; safe mode; no tools, MCP, project memory, adapter notes or other reports.",
+  "scope": {
+    "source_units_exposed": 0,
+    "reviewed_input_languages": [
+      "uk"
+    ],
+    "target_paragraphs": 58
+  },
+  "status": "failed",
+  "argv": [
+    "claude",
+    "--safe-mode",
+    "--tools",
+    "",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--print",
+    "--model",
+    "claude-opus-5",
+    "--effort",
+    "high",
+    "--output-format",
+    "json",
+    "--no-session-persistence"
+  ],
+  "exit_code": 1,
+  "seconds": 1.74
+}

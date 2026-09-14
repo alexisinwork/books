@@ -66,6 +66,16 @@ class LanguageSystemTests(unittest.TestCase):
             self.assertEqual(result["grammar_check"], "not_run")
             self.assertEqual({f["rule"] for f in result["findings"]}, {"mixed_alphabet", "russian_specific_letter"})
 
+    def test_calque_signal_respects_ukrainian_apostrophes(self):
+        qa = module("qa_apostrophe_test", ROOT / "tools/language_qa.py")
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "sample.md"
+            path.write_text("Він з'являється. Вона з’являється. Воно зʼявляється.\n"
+                            "Це являється прикладом. Він приймає участь.\n", encoding="utf-8")
+            result = qa.check(path, "uk")
+            self.assertEqual([(f["p"], f["quote"]) for f in result["findings"]],
+                             [(2, "являється"), (2, "приймає участь")])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -35,7 +35,7 @@ def check(source, language, exceptions=None):
     rules = [("mixed_alphabet", r"[A-Za-zА-Яа-яЁёІіЇїЄєҐґ]+", "Mixed Latin/Cyrillic token: inspect names and intentional notation.")]
     if language == "uk":
         rules += [("russian_specific_letter", r"[ЫыЭэЁёЪъ]", "Inspect source-language residue or intentional quotation."),
-                  ("possible_calque", r"(?i)\b(?:прийма[\w’'ʼ]*\s+участь|на\s+протязі|являється)\b", "Context-dependent usage signal, not an automatic error.")]
+                  ("possible_calque", r"(?i)(?<![\w’'ʼ])(?:прийма[\w’'ʼ]*\s+участь|на\s+протязі|являється)(?![\w’'ʼ])", "Context-dependent usage signal, not an automatic error.")]
     elif language == "en":
         rules += [("cyrillic_in_english", r"[А-Яа-яЁёІіЇїЄєҐґ]+", "Inspect untranslated material or intentional quotation.")]
     findings, excluded = [], []

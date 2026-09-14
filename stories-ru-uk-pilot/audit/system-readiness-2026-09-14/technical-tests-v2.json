@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_literary_translation.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.044s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_language_system.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.169s\n\nOK\n"
+    }
+  ],
+  "files": [
+    {
+      "path": "tools/language_qa.py",
+      "sha256": "9deee03601160de1ebdae6941dacb8c519691fef8333e7e8c883194b1da0ccf1"
+    },
+    {
+      "path": "tools/literary_translation.py",
+      "sha256": "9f07f4c4d7fe5388311e0cba6b34f9fd8ea500718701db5970f6ae43327319f2"
+    },
+    {
+      "path": "tests/test_language_system.py",
+      "sha256": "4846100af4a75575d0640bf9283d124fbc837c31e14884a4e17776a0f11341f0"
+    },
+    {
+      "path": "tests/test_literary_translation.py",
+      "sha256": "cd1210823b66b2e352c6c70427ba7f4211b5184291e1a595139f9f03ee5651f9"
+    },
+    {
+      "path": "stories-ru-uk-pilot/tools/export_uk_edition.py",
+      "sha256": "9b8505614b732e6c1bf1ef29637e0fd0f2d8859ca02419c1a306ef3812f64684"
+    },
+    {
+      "path": "stories-ru-uk-pilot/tools/render_docx.py",
+      "sha256": "0da730e2b5f0fb38450db12c98d845908977f43da6fa1627a6779dac7635f6f9"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "reviewer": "Astra / Codex image inspection",
+  "result": "passed",
+  "docx_sha256": "a73a509f6a39adf82c7f47a14e0ec71020f059f725c2ccd6731144f0d1513185",
+  "pdf_sha256": "4a86330c02232be41f11261252401080396346e084060cf4a37e2ad620ebcc91",
+  "scope": {
+    "all_pages_in_montages": 5,
+    "full_size_pages": [
+      1
+    ]
+  },
+  "images": [
+    {
+      "file": "contact-001-005.png",
+      "sha256": "39302a7739fc918f8d520322e930d9d78ac0ed5118b0c1d067afed5f1461dabb"
+    },
+    {
+      "file": "page-001.png",
+      "sha256": "db4d94727a69272bb0b2454450c895f1d0ad1a6d9bf57c196e98ac509f853164"
+    }
+  ],
+  "observations": [
+    "All rendered pages inspected in contact sheets; no clipped text, overlap, blank-page artifacts or missing glyph boxes observed.",
+    "Paragraph boundaries and scene/chapter separators are readable. Original source layout retained.",
+    "Exact DOCX extraction and PDF text comparison were checked separately by scripts."
+  ],
+  "limits": "Visual layout review, not another full linguistic or bilingual reading."
+}

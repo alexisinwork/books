@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T16:53:29+00:00",
+  "status": "awaiting_reviews",
+  "packet": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation/pilot/ready-v1/packet.json",
+    "sha256": "6fae743a54d6df21916a96b3050abfd99033e352000ea48dfafeba28255a0ce3"
+  },
+  "source": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/sources/originals/Рептилоиды.docx",
+    "sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+    "format": "docx",
+    "status": "author_selected",
+    "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+    "role": "master_inventory",
+    "language": "ru"
+  },
+  "glossary": {
+    "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/glossary.json",
+    "sha256": "adedfae2f2e9d37cfd076304da6f64f41cf51dcb67e56685207b6d65cc60aa71"
+  },
+  "translation_sha256": "1ad3dfede118f1e0d97bc6c5815e042cecf894f7bafa796a09b55b7aaffef727",
+  "target_language": "uk",
+  "target_file": "ukrainian.txt",
+  "target_sha256": "504f5a34b32df383ac1cb7cdf4932a9420d906a79222f1609dbb5450e8ec1cc7",
+  "mechanical_check_sha256": "771c2a215ab11bf29ca881644f8a532df6d0e6a2436a52721d9bc0337a8ba005",
+  "translator": {
+    "model": "gpt-5.6-sol",
+    "client": "Codex-collaboration"
+  },
+  "reports": {
+    "bilingual": {
+      "file": "reports/bilingual.md",
+      "sha256": "72d0a2ee08e62d6b90ded007efebf10996389c28a38039ad8254cff757b82a3d",
+      "model": "gpt-6-astra",
+      "client": "Codex",
+      "recorded_at": "2026-09-14T17:02:59+00:00"
+    },
+    "opus": {
+      "file": "reports/opus.md",
+      "sha256": "705b8e41edc0ffa1ebec26e0b844ef1d14197a73f3f44f7edaeda2a7ee7dce1a",
+      "model": "claude-opus-5",
+      "client": "Claude Code",
+      "recorded_at": "2026-09-14T17:02:59+00:00"
+    }
+  }
+}

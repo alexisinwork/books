@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "project_id": "stories-ru-uk-pilot",
+  "book_id": "story-01-reptiloids",
+  "source_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+  "record_type": "revision-log",
+  "fields": [
+    "id",
+    "reason",
+    "old_source",
+    "new_source",
+    "changes",
+    "affected_checks",
+    "decision"
+  ],
+  "items": [
+    {
+      "action": "select_master",
+      "previous": null,
+      "current": {
+        "path": "sources/originals/Рептилоиды.docx",
+        "format": "docx",
+        "sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "language": "ru"
+      }
+    },
+    {
+      "id": "prepare-ru-uk-pilot-v1",
+      "reason": "Full translation authorized; isolated source-bound preparation.",
+      "old_source": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/sources/originals/Рептилоиды.docx",
+        "sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+        "format": "docx",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "new_source": {
+        "path": "stories-ru-uk-pilot/books/story-01-reptiloids/sources/originals/Рептилоиды.docx",
+        "sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+        "format": "docx",
+        "status": "author_selected",
+        "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+        "role": "master_inventory",
+        "language": "ru"
+      },
+      "changes": "Seven edition documents, proposed glossary/voices, meaning obligations and exact source-unit map; no source prose edits.",
+      "affected_checks": [
+        "Source hash and anchors",
+        "Packet coverage",
+        "Independent translation review not yet run"
+      ],
+      "decision": "Preparation only; target master not promoted."
+    }
+  ]
+}

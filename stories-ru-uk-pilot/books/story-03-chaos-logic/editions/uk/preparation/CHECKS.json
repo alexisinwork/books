@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-09-14",
+  "source_sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+  "commands": [
+    {
+      "command": "python3 tools/literary_translation.py verify-preparation --package stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/preparation",
+      "result": {
+        "result": "passed_preparation_checks",
+        "books": 1,
+        "glossary_entries": 33,
+        "anchors_checked": 161,
+        "translated_prose": "not_created",
+        "semantic_translation_review": "not_run",
+        "reader_response": "not_run",
+        "full_series_entity_audit": "not_run"
+      }
+    }
+  ],
+  "coverage": "One isolated complete story; original hashes and source anchors/packet checked.",
+  "not_run": [
+    "Translation check: no target text yet",
+    "Source page render",
+    "Independent bilingual QA",
+    "Gemini Flash PASS 0 unavailable",
+    "Gemini Pro target-only unavailable"
+  ]
+}

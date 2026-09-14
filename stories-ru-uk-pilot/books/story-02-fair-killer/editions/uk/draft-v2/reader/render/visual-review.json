@@ -1,0 +1,36 @@
+{
+  "reviewer": "Astra / Codex image inspection",
+  "result": "passed",
+  "docx_sha256": "cd6c66d26b67fdc707dee7eafd916e867047c4c265dadf3bc5b949bda9a1ecde",
+  "pdf_sha256": "14cc25a10021208dc11e1314fdf08d9fc28059d74b7bb843374791ae80e858bb",
+  "scope": {
+    "all_pages_in_montages": 45,
+    "full_size_pages": [
+      45
+    ]
+  },
+  "images": [
+    {
+      "file": "contact-001-016.png",
+      "sha256": "f743fe7a69eedfda7c22306a86d7452978748c142545b5eb76b05e9e00e4da5c"
+    },
+    {
+      "file": "contact-017-032.png",
+      "sha256": "6d7e79b0b0c36ba28ec2d4bd9133ac889cb49a9a66b988067b04308ca782a6ac"
+    },
+    {
+      "file": "contact-033-045.png",
+      "sha256": "ab12747ce7d0ba0eebd1567233e2077f74261811757b9b43644dd34b635ec4be"
+    },
+    {
+      "file": "page-045.png",
+      "sha256": "7fa7d471478ad75e02e44e7a9b818152ddcb5880ddb7f3423387f3922909ff0b"
+    }
+  ],
+  "observations": [
+    "All 45 rendered pages inspected in contact sheets; no clipping, overlap, blank-page artifacts or missing glyph boxes observed.",
+    "Six scene separators and visible inline italics/bold retained; final dialogue and recurring shot formula present.",
+    "Exact DOCX extraction, inline emphasis and PDF text comparison checked separately by scripts."
+  ],
+  "limits": "Visual layout review, not another full linguistic or bilingual reading."
+}

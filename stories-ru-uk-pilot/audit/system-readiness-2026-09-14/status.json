@@ -1,0 +1,60 @@
+{
+  "status": "full_translation_pilot_completed_for_author_reading",
+  "technical_tests": {
+    "translation": {
+      "passed": 13,
+      "failed": 0
+    },
+    "language": {
+      "passed": 4,
+      "failed": 0
+    },
+    "receipt": "technical-tests-v2.json"
+  },
+  "fixed": [
+    "Explicit chapter 0 support for unchaptered stories; no source headings or IDs invented",
+    "Unheaded source body included in inventory word counts",
+    "Added missing BOOK_SYSTEM/TOOLS.md referenced by workflow skills",
+    "Google Docs inline content controls read during DOCX export, including a full spoken paragraph; all source units retained",
+    "Mixed inline bold/italic transferred by exact target spans",
+    "Ukrainian apostrophes respected by calque scanner: з’являється no longer triggers являється"
+  ],
+  "models": {
+    "writer": "gpt-5.6-sol (pilot writer; global PRIMARY not selected)",
+    "opus": {
+      "requested": "claude-opus-5",
+      "observed": "claude-opus-5",
+      "availability": "session_limit_429",
+      "literary_review": "One complete bilingual report on story-01 draft-v1 returned; later story-02 and story-01 target-only requests rejected before inference.",
+      "auxiliary_client_model": "claude-haiku-4-5-20251001 also appears in client usage; not counted as an independent reviewer",
+      "reset_time_reported_by_client": "23:10 Europe/Warsaw",
+      "limitation_receipts": [
+        "../../books/story-02-fair-killer/editions/uk/qa/opus-r1/stdout.json",
+        "../../books/story-01-reptiloids/editions/uk/qa/opus-target-only-r2/stdout.json"
+      ]
+    },
+    "gemini_flash": {
+      "requested": "gemini-3.8-flash",
+      "status": "unavailable",
+      "reason": "Gemini CLI OAuth client rejected with IneligibleTierError before any model request"
+    },
+    "gemini_pro": {
+      "requested": "gemini-3.1-pro",
+      "status": "unavailable",
+      "reason": "Gemini CLI OAuth client rejected with IneligibleTierError before any model request"
+    }
+  },
+  "configured_alternative_api_access": false,
+  "required_full_literary_gate": "open",
+  "policy": "Continue authorized preparation and drafts; do not fabricate or silently substitute required reviews.",
+  "additional_reviews": "Independent Astra bilingual and target-only readings are identified as Astra; they do not stand in for unavailable required models.",
+  "completed_sources": 3,
+  "source_paragraphs": 600,
+  "source_words_whitespace": 21584,
+  "selected_drafts": "../../release/SELECTION-2026-09-14-v1.json",
+  "unanswered_author_clarification": {
+    "book_id": "story-03-chaos-logic",
+    "source_p": 324,
+    "disposition": "source wording preserved pending author meaning clarification"
+  }
+}

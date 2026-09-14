@@ -1,0 +1,130 @@
+{
+  "book_id": "story-03-chaos-logic",
+  "draft": "draft-v2",
+  "target_sha256": "ce72a7811a8a23dd6a613251091abd39159f3a1d1e6f2a149a13aafb65b287a5",
+  "source_sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+  "translation_sha256": "f961e867c0456d630528b51980d376cd087243ef50605ab38691bd63f3beea74",
+  "result": "passed_mechanical_delivery_checks",
+  "errors": [],
+  "source_units": 310,
+  "target_paragraphs": 310,
+  "frozen_inputs_verified": 15,
+  "alignment_and_hash_check": {
+    "result": "mechanically_checked",
+    "errors": [],
+    "warnings": [
+      {
+        "kind": "unresolved_term",
+        "block": 41,
+        "term_id": "story-03-chaos-logic-g04"
+      },
+      {
+        "kind": "unresolved_term",
+        "block": 87,
+        "term_id": "story-03-chaos-logic-g11"
+      },
+      {
+        "kind": "unresolved_term",
+        "block": 186,
+        "term_id": "story-03-chaos-logic-g14"
+      },
+      {
+        "kind": "unresolved_term",
+        "block": 188,
+        "term_id": "story-03-chaos-logic-g14"
+      },
+      {
+        "kind": "unresolved_term",
+        "block": 189,
+        "term_id": "story-03-chaos-logic-g15"
+      },
+      {
+        "kind": "unresolved_term",
+        "block": 201,
+        "term_id": "story-03-chaos-logic-g19"
+      },
+      {
+        "kind": "unresolved_term",
+        "block": 201,
+        "term_id": "story-03-chaos-logic-g21"
+      },
+      {
+        "kind": "unresolved_term",
+        "block": 208,
+        "term_id": "story-03-chaos-logic-g02"
+      },
+      {
+        "kind": "unresolved_term",
+        "block": 208,
+        "term_id": "story-03-chaos-logic-g16"
+      },
+      {
+        "kind": "unresolved_term",
+        "block": 208,
+        "term_id": "story-03-chaos-logic-g17"
+      },
+      {
+        "kind": "unresolved_term",
+        "block": 291,
+        "term_id": "story-03-chaos-logic-g20"
+      },
+      {
+        "kind": "unresolved_term",
+        "block": 292,
+        "term_id": "story-03-chaos-logic-g19"
+      },
+      {
+        "kind": "unresolved_term",
+        "block": 310,
+        "term_id": "story-03-chaos-logic-g32"
+      }
+    ],
+    "source_sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+    "translation_sha256": "f961e867c0456d630528b51980d376cd087243ef50605ab38691bd63f3beea74",
+    "glossary_sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15",
+    "source_segments": 310,
+    "target_paragraphs": 310,
+    "semantic_review": "not_run",
+    "literary_review": "not_run",
+    "limitation": "ID coverage cannot prove semantic completeness, naturalness or reader interest."
+  },
+  "language_signals": {
+    "source": "/home/alexi/books/stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/draft-v2/target.uk.txt",
+    "source_sha256": "ce72a7811a8a23dd6a613251091abd39159f3a1d1e6f2a149a13aafb65b287a5",
+    "language": "uk",
+    "format": "text",
+    "scope": "All extracted body units; no layout or linguistic proof of naturalness",
+    "extraction_flags": {},
+    "source_units": 619,
+    "lexical_tokens": 10188,
+    "result": "no_configured_signals",
+    "findings": [],
+    "documented_exceptions": [],
+    "literary_review": "not_run",
+    "grammar_check": "not_run"
+  },
+  "warning_kinds": {
+    "unresolved_term": 13
+  },
+  "inline_emphasis": [],
+  "docx_sha256": "9d4f9bc09528982d86ac6101186a1f34129affca10b0ddded81a2564c8a8ad7f",
+  "pages": 55,
+  "docx_text_exact": true,
+  "pdf_text_exact_ignoring_layout_whitespace": true,
+  "visual_review_sha256": "6ce6866183010ef8fd17b9aa04235d8458505feadab019c4784a51e1168a3100",
+  "tools": [
+    {
+      "path": "tools/literary_translation.py",
+      "sha256": "9f07f4c4d7fe5388311e0cba6b34f9fd8ea500718701db5970f6ae43327319f2"
+    },
+    {
+      "path": "tools/language_qa.py",
+      "sha256": "9deee03601160de1ebdae6941dacb8c519691fef8333e7e8c883194b1da0ccf1"
+    },
+    {
+      "path": "stories-ru-uk-pilot/tools/check_final_draft.py",
+      "sha256": "6f80ea09357f3731525f97664fc911033b06f4bf4af9f97c20760481993f2ae9"
+    }
+  ],
+  "literary_release_gate": "open; see edition QA assessment; hashes do not prove prose quality"
+}

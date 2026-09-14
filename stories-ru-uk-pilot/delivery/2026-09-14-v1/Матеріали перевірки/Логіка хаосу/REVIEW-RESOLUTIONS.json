@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "book_id": "story-03-chaos-logic",
+  "from_version": "draft-v1",
+  "to_version": "draft-v2",
+  "base_translation_sha256": "fa3623aaf5b4db377310e393657dd3a87fd160d7824e2fe625cc8ff2f346e202",
+  "base_target_sha256": "d4ef3ac44d1ac47e4a107a1492aa495c026a1d07fe16611d42347db9c23cef8a",
+  "result_translation_sha256": "f961e867c0456d630528b51980d376cd087243ef50605ab38691bd63f3beea74",
+  "result_target_sha256": "ce72a7811a8a23dd6a613251091abd39159f3a1d1e6f2a149a13aafb65b287a5",
+  "reports": [
+    {
+      "id": "astra-r1",
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/qa/astra-r1/REPORT.md",
+      "sha256": "8ead15ea8d30e661b94276226ae074b84e30049559ef77d09c2894cb72a0ca60",
+      "role": "independent_bilingual_reading"
+    },
+    {
+      "id": "astra-target-only-r1",
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/qa/astra-target-only-r1/REPORT.md",
+      "sha256": "165b2d0c20b82d46d0eba1593bbfa09286527e7868ed65f7dd80b2920e09fee9",
+      "role": "additional_target_only_astra"
+    }
+  ],
+  "resolutions": [
+    {"finding_id":"A01","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c003-p000189"],"action":"The Union affiliation now modifies the base near Jan Mayen."},
+    {"finding_id":"A02","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c006-p000312"],"action":"Changed у потрібний час to на потрібний час inside Sheng's cover version."},
+    {"finding_id":"A03","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c001-p000033"],"context_ids":["story-03-chaos-logic-c001-p000032"],"action":"The dismissive repeat now uses the localized title Цілком таємно."},
+    {"finding_id":"A04","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c003-p000183"],"action":"Restored present-time є що згадати."},
+    {"finding_id":"A05","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c006-p000320"],"action":"Rendered the angry blow as щосили вдарив."},
+    {"finding_id":"A06","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c001-p000005"],"action":"Corrected the dative government: вичитуватиме нам."},
+    {"finding_id":"A07","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c001-p000034"],"action":"Identified Fast & Furious as a film series, not a TV series."},
+    {"finding_id":"A08","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c001-p000035","story-03-chaos-logic-c003-p000185","story-03-chaos-logic-c003-p000195","story-03-chaos-logic-c003-p000196"],"action":"Corrected four vocatives and restored Гаррі's ти-address to Wolff."},
+    {"finding_id":"A09","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c001-p000080"],"action":"Changed the calqued collocation to коїться щось геть хрінове."},
+    {"finding_id":"A10","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c002-p000099"],"action":"Removed the duplicated голос while preserving source почасти."},
+    {"finding_id":"A11","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c003-p000186"],"action":"Changed напризволяще долі to на розсуд долі."},
+    {"finding_id":"A12","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c003-p000191"],"action":"Used the Ukrainian term воєнний стан."},
+    {"finding_id":"A13","report_id":"astra-r1","status":"applied","source_ids":["story-03-chaos-logic-c006-p000310"],"action":"Specified that the call distracted Sheng's attention."},
+
+    {"finding_id":"F01","report_id":"astra-target-only-r1","status":"awaiting_author_clarification","source_ids":["story-03-chaos-logic-c006-p000324"],"current_text":"Жодне життя не варте бажань інших. Навіть благих.","action":"Preserved the source-bound wording until the author answers; absence of an answer is not approval to invert it."},
+    {"finding_id":"F02","report_id":"astra-target-only-r1","status":"source_issue_preserved","resolution_status":"unresolved","source_ids":["story-03-chaos-logic-c001-p000038","story-03-chaos-logic-c002-p000157"],"action":"Preserved both source ages, 60 and under 50."},
+    {"finding_id":"F03","report_id":"astra-target-only-r1","status":"source_issue_preserved","resolution_status":"unresolved","source_ids":["story-03-chaos-logic-c001-p000061","story-03-chaos-logic-c002-p000095","story-03-chaos-logic-c002-p000144"],"action":"Preserved the source distinction or inconsistency around the availability of gravitony-243."},
+    {"finding_id":"F04","report_id":"astra-target-only-r1","status":"source_issue_preserved","resolution_status":"unresolved","source_ids":["story-03-chaos-logic-c002-p000099","story-03-chaos-logic-c002-p000101"],"action":"Preserved the source order from a call to the laboratory to arrival at the conference room."},
+    {"finding_id":"F05","report_id":"astra-target-only-r1","status":"source_issue_preserved","resolution_status":"unresolved","source_ids":["story-03-chaos-logic-c001-p000020"],"action":"Preserved the source station layout, including its repeated laboratory count."},
+    {"finding_id":"F06","report_id":"astra-target-only-r1","status":"source_issue_preserved","resolution_status":"unresolved","source_ids":["story-03-chaos-logic-c002-p000140","story-03-chaos-logic-c002-p000142","story-03-chaos-logic-c002-p000143","story-03-chaos-logic-c002-p000144"],"action":"Preserved all source figures and both fall-time estimates without recalculation."},
+    {"finding_id":"F07","report_id":"astra-target-only-r1","status":"source_issue_preserved","resolution_status":"unresolved","source_ids":["story-03-chaos-logic-c003-p000189","story-03-chaos-logic-c003-p000191"],"action":"Preserved the conflicting source references to Svalbard after correcting only A01's separate modifier error."},
+    {"finding_id":"F08","report_id":"astra-target-only-r1","status":"source_issue_preserved","resolution_status":"unresolved","source_ids":["story-03-chaos-logic-c001-p000020","story-03-chaos-logic-c005-p000280","story-03-chaos-logic-c006-p000310","story-03-chaos-logic-c006-p000312"],"action":"Preserved the source's unclear scale of laboratories and stations."},
+    {"finding_id":"F09","report_id":"astra-target-only-r1","status":"source_issue_preserved","resolution_status":"unresolved","source_ids":["story-03-chaos-logic-c001-p000055","story-03-chaos-logic-c004-p000218","story-03-chaos-logic-c004-p000239","story-03-chaos-logic-c006-p000319"],"action":"Preserved every rank as stated at each source position."},
+    {"finding_id":"F10","report_id":"astra-target-only-r1","status":"applied","source_ids":["story-03-chaos-logic-c001-p000011"],"action":"Clarified that the context concerns the brothers' names and surname."},
+    {"finding_id":"F11","report_id":"astra-target-only-r1","status":"covered_by_applied","covered_by":"A09","source_ids":["story-03-chaos-logic-c001-p000080"]},
+    {"finding_id":"F12","report_id":"astra-target-only-r1","status":"covered_by_applied","covered_by":"A10","source_ids":["story-03-chaos-logic-c002-p000099"]},
+    {"finding_id":"F13","report_id":"astra-target-only-r1","status":"source_issue_preserved","resolution_status":"unresolved","source_ids":["story-03-chaos-logic-c002-p000130","story-03-chaos-logic-c002-p000144"],"action":"Preserved source статическая probability/data wording without guessing its technical meaning."},
+    {"finding_id":"F14","report_id":"astra-target-only-r1","status":"source_issue_preserved","resolution_status":"unresolved","source_ids":["story-03-chaos-logic-c002-p000140"],"action":"Preserved the source's unexplained speaker провідник."},
+    {"finding_id":"F15","report_id":"astra-target-only-r1","status":"covered_by_applied","covered_by":"A11","source_ids":["story-03-chaos-logic-c003-p000186"]},
+    {"finding_id":"F16","report_id":"astra-target-only-r1","status":"applied","source_ids":["story-03-chaos-logic-c004-p000256"],"action":"Changed Наукові фантасти to Автори наукової фантастики."},
+    {"finding_id":"F17","report_id":"astra-target-only-r1","status":"covered_by_applied","covered_by":"A13","source_ids":["story-03-chaos-logic-c006-p000310"]},
+    {"finding_id":"F18","report_id":"astra-target-only-r1","status":"source_issue_preserved","resolution_status":"unresolved","source_ids":["story-03-chaos-logic-c006-p000312"],"action":"Preserved the source's causal link between free time and Sheng's unwillingness to betray the others."},
+    {"finding_id":"F19","report_id":"astra-target-only-r1","status":"applied","source_ids":["story-03-chaos-logic-c006-p000315"],"action":"Clarified how material resistance affected the technicians' conclusion without inventing a separate theory."},
+    {"finding_id":"F20","report_id":"astra-target-only-r1","status":"applied","source_ids":["story-03-chaos-logic-c006-p000326"],"action":"Completed the final idiom as вартим того, щоб його прожити."},
+
+    {"finding_id":"O01","report_id":"astra-target-only-r1","status":"not_applied_s4","source_ids":["story-03-chaos-logic-c004-p000217"],"action":"Optional wording retained."},
+    {"finding_id":"O02","report_id":"astra-target-only-r1","status":"not_applied_s4","source_ids":["story-03-chaos-logic-c006-p000324"],"action":"Optional wording retained; also within the paragraph awaiting F01 clarification."},
+    {"finding_id":"O03","report_id":"astra-target-only-r1","status":"not_applied_s4","source_ids":["story-03-chaos-logic-c006-p000325"],"action":"Optional wording retained."}
+  ],
+  "summary": {
+    "bilingual_findings_applied": 13,
+    "target_only_findings_applied_directly": 4,
+    "target_only_findings_covered_by_bilingual_changes": 4,
+    "awaiting_author_clarification": 1,
+    "source_issues_preserved_unresolved": 11,
+    "optional_s4_not_applied": 3,
+    "changed_source_ids": 20
+  }
+}

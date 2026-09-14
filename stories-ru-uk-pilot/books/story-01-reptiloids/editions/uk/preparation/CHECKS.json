@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-09-14",
+  "source_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+  "commands": [
+    {
+      "command": "python3 tools/literary_translation.py verify-preparation --package stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/preparation",
+      "result": {
+        "result": "passed_preparation_checks",
+        "books": 1,
+        "glossary_entries": 13,
+        "anchors_checked": 49,
+        "translated_prose": "not_created",
+        "semantic_translation_review": "not_run",
+        "reader_response": "not_run",
+        "full_series_entity_audit": "not_run"
+      }
+    }
+  ],
+  "coverage": "One isolated complete story; original hashes and source anchors/packet checked.",
+  "not_run": [
+    "Translation check: no target text yet",
+    "Source page render",
+    "Independent bilingual QA",
+    "Gemini Flash PASS 0 unavailable",
+    "Gemini Pro target-only unavailable"
+  ]
+}

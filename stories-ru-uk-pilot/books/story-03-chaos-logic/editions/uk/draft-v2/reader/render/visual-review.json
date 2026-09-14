@@ -1,0 +1,45 @@
+{
+  "reviewer": "Astra / Codex image inspection",
+  "result": "passed",
+  "docx_sha256": "9d4f9bc09528982d86ac6101186a1f34129affca10b0ddded81a2564c8a8ad7f",
+  "pdf_sha256": "2e2e2ed86ef5bd92a826b88046ff2a81c0c52219f83f244a829916c01e425470",
+  "scope": {
+    "all_pages_in_montages": 55,
+    "full_size_pages": [
+      1,
+      55
+    ]
+  },
+  "images": [
+    {
+      "file": "contact-001-016.png",
+      "sha256": "1f797b5a4cc2e2a5987cde1ac2b3a168362655128a97921fa908d8b363d813c2"
+    },
+    {
+      "file": "contact-017-032.png",
+      "sha256": "912ad6087b7ca24e27711af820bdef608c7dfe7b6959165204dadc4a0fca9921"
+    },
+    {
+      "file": "contact-033-048.png",
+      "sha256": "db2b5d7115f9a1f52e8f489b6c177af2255995b583778a1ec01efe4352cd6975"
+    },
+    {
+      "file": "contact-049-055.png",
+      "sha256": "44d6a0f593b9664eb33e72f8c16010e8f082d1528101b7ff34779c78e1099701"
+    },
+    {
+      "file": "page-001.png",
+      "sha256": "a36c4895c00cae8b3968128d5da82f5999f3e118a20b2caf4751ee598a4432eb"
+    },
+    {
+      "file": "page-055.png",
+      "sha256": "0b44a0779072847fc92f658de9dd9aa74e6c8d50578c802fa97bebfd14693641"
+    }
+  ],
+  "observations": [
+    "All 55 rendered pages inspected in contact sheets; no clipping, overlap, blank-page artifacts or missing glyph boxes observed.",
+    "All six chapter headings, bold epigraph and bold final paragraph visible; chapter headings retain following text.",
+    "Exact DOCX extraction and PDF text comparison checked separately by scripts."
+  ],
+  "limits": "Visual layout review, not another full linguistic or bilingual reading."
+}

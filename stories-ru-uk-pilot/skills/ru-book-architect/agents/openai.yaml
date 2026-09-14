@@ -1,0 +1,14 @@
+interface:
+  display_name: Архитектор книжного проекта
+  short_description: Структура книги, канон и порядок работы с версиями
+  default_prompt: Используй $ru-book-architect для работы с этой книгой и её окончательной
+    версией.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

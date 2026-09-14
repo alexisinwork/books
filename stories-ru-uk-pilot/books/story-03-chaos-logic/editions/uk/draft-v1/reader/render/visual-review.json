@@ -1,0 +1,45 @@
+{
+  "reviewer": "Astra / Codex image inspection",
+  "result": "passed",
+  "docx_sha256": "106f5439a486c49bb71838f6bbebbb5a96dffb93eb3659327188669f9c6d9027",
+  "pdf_sha256": "73486f6130e0115112724cd82bc662bd64f7fec7647fb7a21bb82bfde41ecca8",
+  "scope": {
+    "all_pages_in_montages": 55,
+    "full_size_pages": [
+      1,
+      55
+    ]
+  },
+  "images": [
+    {
+      "file": "contact-001-016.png",
+      "sha256": "5b16fe049518339fecdb28d63ec695cc1c7f0042e4d86bab127703357c071319"
+    },
+    {
+      "file": "contact-017-032.png",
+      "sha256": "05a2a0fcbe0aa62389a9b390b4fb5d9aaa2fd98271bb087bf4d3df80932a16b9"
+    },
+    {
+      "file": "contact-033-048.png",
+      "sha256": "4607df124ca14d83b217307d12373463fdbbaec32479eee666e4ee9dff98d4d2"
+    },
+    {
+      "file": "contact-049-055.png",
+      "sha256": "bb2bce573c78a9585b7099736a7608f29d097bd8ab7007566f2141f7ae6ea7e5"
+    },
+    {
+      "file": "page-001.png",
+      "sha256": "990620d7e34ff9a6a4df08d1f53db45f29f3e21ca8373ec9fc502b36d3f5a478"
+    },
+    {
+      "file": "page-055.png",
+      "sha256": "af6d21b849f1c74c60b96554a4be0a5d3d45b54e770f85685f82aeffa0412566"
+    }
+  ],
+  "observations": [
+    "All rendered pages inspected in contact sheets; no clipped text, overlap, blank-page artifacts or missing glyph boxes observed.",
+    "Paragraph boundaries and scene/chapter separators are readable. Original source layout retained.",
+    "Exact DOCX extraction and PDF text comparison were checked separately by scripts."
+  ],
+  "limits": "Visual layout review, not another full linguistic or bilingual reading."
+}

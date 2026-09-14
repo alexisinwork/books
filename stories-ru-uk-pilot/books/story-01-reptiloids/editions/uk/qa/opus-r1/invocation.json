@@ -1,0 +1,92 @@
+{
+  "role": "bilingual_and_literary_opus",
+  "requested_model": "claude-opus-5",
+  "client": "Claude Code",
+  "target_sha256": "504f5a34b32df383ac1cb7cdf4932a9420d906a79222f1609dbb5450e8ec1cc7",
+  "source_sha256": "296df4696d3231378ce6e28b46ef0ec6c54f02c260ba853c29a1b4caf399c408",
+  "translation_sha256": "1ad3dfede118f1e0d97bc6c5815e042cecf894f7bafa796a09b55b7aaffef727",
+  "prompt_sha256": "cf09cca7b6df8187e3e6d05922c9bec0da52e6a3270013e4794542d3521c4177",
+  "context": [
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/AUTHOR_INTENT.md",
+      "sha256": "78686e0334fdef03d75892df1a905c5c29621ebd013865b27f041f088fd5cc1f"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/BOOK_BIBLE.md",
+      "sha256": "dd4bdcc23f3a6a1196d0ce036591ca7592d577095158743cf7c36e8f53fc37aa"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/UA_STYLE_GUIDE.md",
+      "sha256": "cbdab5b8f154058a52c417ca275cb738518e6d8a5154320c8f1928bc2fd10285"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/CHARACTER_VOICES.md",
+      "sha256": "167e87e828fd2a99c571c3a31389dc13381bfbd3aae1dd70e9985f11fa122210"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-01-reptiloids/editions/uk/meaning-ledger.json",
+      "sha256": "fce5e9a6670e4731c7b00cca2c65a59859f5f37ed736d31cfe87517b89065ba4"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "8d0dbc8e8efdc98506d270b72d02081345797e5b7908696c1c96f15cafb4b928"
+    }
+  ],
+  "isolation": "Fresh session in external temporary directory; safe mode; no tools, MCP, project memory, adapter notes or other reports.",
+  "scope": {
+    "source_units": 54,
+    "target_paragraphs": 56
+  },
+  "status": "report_returned",
+  "argv": [
+    "claude",
+    "--safe-mode",
+    "--tools",
+    "",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--print",
+    "--model",
+    "claude-opus-5",
+    "--effort",
+    "high",
+    "--output-format",
+    "json",
+    "--no-session-persistence"
+  ],
+  "exit_code": 0,
+  "seconds": 373.46,
+  "model_usage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 50858,
+      "outputTokens": 21,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.050963,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-haiku-4-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    },
+    "claude-opus-5": {
+      "inputTokens": 2,
+      "outputTokens": 22898,
+      "cacheReadInputTokens": 1360,
+      "cacheCreationInputTokens": 55372,
+      "webSearchRequests": 0,
+      "costUSD": 1.12686,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 18861,
+      "canonicalModel": "claude-opus-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "report_sha256": "705b8e41edc0ffa1ebec26e0b844ef1d14197a73f3f44f7edaeda2a7ee7dce1a",
+  "permission_denials": []
+}

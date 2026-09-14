@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T17:41:11+00:00",
+  "status": "awaiting_reviews",
+  "packet": {
+    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/preparation/pilot/ready-v1/packet.json",
+    "sha256": "33c88e97b111a3b89157b9b06ff42402ab36862e3a338694d8511aa2b43d3d58"
+  },
+  "source": {
+    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/sources/originals/Справедливый убийца.docx",
+    "sha256": "3d672a54c9a69e9143dfbd15214a10f8930b8fc1dd1bbc5a739441f56466baa0",
+    "format": "docx",
+    "status": "author_selected",
+    "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+    "role": "master_inventory",
+    "language": "ru"
+  },
+  "glossary": {
+    "path": "stories-ru-uk-pilot/books/story-02-fair-killer/editions/uk/glossary.json",
+    "sha256": "3a69c4d6bb412195f20ad54f86785449c474ad3002093dabd55d4e78326d91d0"
+  },
+  "translation_sha256": "1cc9554fe1824db409ffc5cb56ae67297a735ce1abe366d21d8d9593b46a5227",
+  "target_language": "uk",
+  "target_file": "ukrainian.txt",
+  "target_sha256": "703b831984127e59061e6a87fd72728ecdb3097f84ff235cf59691a3347e4a8e",
+  "mechanical_check_sha256": "fafcfc9d493a824a6d83f9cc3be95a528dba5c9e1948b0493dc9439276c98d0f",
+  "translator": {
+    "model": "gpt-5.6-sol",
+    "client": "Codex delegated Sol writer; revised after independent Astra bilingual and target-only reports"
+  },
+  "reports": {}
+}

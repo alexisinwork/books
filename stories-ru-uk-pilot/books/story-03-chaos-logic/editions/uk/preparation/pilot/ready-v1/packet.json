@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "book_id": "story-03-chaos-logic",
+  "status": "prepared_not_translated",
+  "source": {
+    "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/sources/originals/Логика хаоса.docx",
+    "sha256": "fe5afe9ca4937c3e02a9a6065f35a756cb4fe5618c749351c3cf0ee55254af5d",
+    "format": "docx",
+    "status": "author_selected",
+    "authority": "Автор явно выбрал этот файл из Desktop/Astra для полного пилотного перевода RU→UK 2026-09-14; это источник текущего рассказа, не окончательный межтомный канон.",
+    "role": "master_inventory",
+    "language": "ru"
+  },
+  "source_language": "ru",
+  "target_language": "uk",
+  "book_manifest": {
+    "path": "stories-ru-uk-pilot/adaptation/source-inventory-v1/source-manifests/story-03-chaos-logic.json",
+    "sha256": "44897b80b89322bcb9506e808687698890d3032c858fb9be2f2acf2dfbbbede6"
+  },
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "source_segments_sha256": "6c9ff14771ec4b05a0cb3968afcfc05fb02a2fd0587b0994a4081484f192f09d",
+  "source_reader_file": "source.ru.txt",
+  "source_reader_sha256": "21d24b2488b012d49f9faa415c287e9fff94aade668a3303edfd851d9cce1770",
+  "inputs": [
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/BOOK_BIBLE.md",
+      "sha256": "df0697583c06aefa6241f374c2a2023afd1d302dc05bd3948fe7f02252dde0d4"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/AUTHOR_INTENT.md",
+      "sha256": "fe9fe13e1390ce2e7ee17694ce3ef93190cd69b20d7dbd5acbc813a2a5b2b5d9"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/UA_STYLE_GUIDE.md",
+      "sha256": "ebe165896c447dffa20124f8d325c5ffedf204778a226d6302d3dd15ffbf4751"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/GLOSSARY_RU_UA.md",
+      "sha256": "195c2368d2447b0acd26e6d91d1d877ec103a69d1c5fd9e39687018fccfbcc89"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/CHARACTER_VOICES.md",
+      "sha256": "85316555030b7d929a44c9068428a187cc0847cc09df864dbbfc46e51bd61341"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/MEANING_LEDGER.md",
+      "sha256": "8f6345caec6e4ded20b5d171b3a269131dd3a7130330fcc8e7ed9658f2ec36bc"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/DECISION_LOG.md",
+      "sha256": "a975a4f6a5e19855ef0cc688684f02b48f2afe8edb36c8f7a0c7e0ce34069649"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/glossary.json",
+      "sha256": "015d48acdc6103895ea3a90661b8e8547e11c51a5f3638bbd61dc616ff836b15"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/voices.json",
+      "sha256": "648ecdb05aa42e511082017ed4c2bbe68d3c4ed137cdaee65023ad1c0b37680d"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/meaning-ledger.json",
+      "sha256": "bedf220f2252cb401910c6a3dc035ec6280ef79f5a0dacf3cd476c35256eb448"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/TRANSLATION_UNITS.json",
+      "sha256": "9eed0e4bb652cf878a6ea778b2c64d85a2d3e50de77ca5b681e434d0aa1515c8"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/editions/uk/COVERAGE.json",
+      "sha256": "a3564f7cabfb10139e07ef5e4dd03884aa37f629a42cff3298298e2ea8833edc"
+    },
+    {
+      "path": "stories-ru-uk-pilot/books/story-03-chaos-logic/voice.json",
+      "sha256": "549bfe22c14508dba9ced630e43b660834d2c72ede05f47a1fb78d043e8443a8"
+    },
+    {
+      "path": "BOOK_SYSTEM/ADAPTATION/prompts/adapter.md",
+      "sha256": "94d2f6a7eab9202f78da8ef4998d76cb8065fdc8b170bf89f9815c8b00239cc0"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "8d0dbc8e8efdc98506d270b72d02081345797e5b7908696c1c96f15cafb4b928"
+    }
+  ],
+  "source_segment_count": 310,
+  "ru_lexical_tokens": 10433,
+  "extraction_scope": "Nonempty source body units in selected chapters; blank layout units omitted. DOCX inline run emphasis retained in segment records; layout not rendered.",
+  "created_at": "2026-09-14T16:56:42+00:00"
+}

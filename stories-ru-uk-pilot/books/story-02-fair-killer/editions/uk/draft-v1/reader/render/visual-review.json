@@ -1,0 +1,36 @@
+{
+  "reviewer": "Astra / Codex image inspection",
+  "result": "passed",
+  "docx_sha256": "98040afa82596614f326abf4e4ae9821a0d7e442226546cac3efd497105634ac",
+  "pdf_sha256": "d167883aa4bce1e16c75db3b41b69ffd9c6086aae3965f79adcd35920e8298fd",
+  "scope": {
+    "all_pages_in_montages": 45,
+    "full_size_pages": [
+      45
+    ]
+  },
+  "images": [
+    {
+      "file": "contact-001-016.png",
+      "sha256": "59aa2f4b140579d4ffd3d568e64d306e96122ee4f942ddd985272312b3a07367"
+    },
+    {
+      "file": "contact-017-032.png",
+      "sha256": "9ab3035c5bd3649f7a83dd7a9595b65db1adc095446fd3ad4266392205ee8d2c"
+    },
+    {
+      "file": "contact-033-045.png",
+      "sha256": "0928af1f4fac9f8a399bfc8a30e42f35787f49eb428011a0fab3269891bb5be0"
+    },
+    {
+      "file": "page-045.png",
+      "sha256": "4e2074611957d1dcfac5ea9f9eceace60bdbfd7d0069a7542251ced0e611319e"
+    }
+  ],
+  "observations": [
+    "All rendered pages inspected in contact sheets; no clipped text, overlap, blank-page artifacts or missing glyph boxes observed.",
+    "Paragraph boundaries and scene/chapter separators are readable. Original source layout retained.",
+    "Exact DOCX extraction and PDF text comparison were checked separately by scripts."
+  ],
+  "limits": "Visual layout review, not another full linguistic or bilingual reading."
+}
