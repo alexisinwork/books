@@ -11,7 +11,13 @@
   "reader_text": "derived/reader.txt",
   "verification": "audit/render/verification.json",
   "desktop_delivery": "copied_and_hash_verified: audit/desktop-files.json",
-  "github_delivery": "pending",
+  "github_delivery": {
+    "repository": "https://github.com/alexisinwork/books",
+    "branch": "riokka-book-03-ensemble-r1-2026-09-14",
+    "commit_with_revision": "a3b9efe",
+    "base_branch": "riokka-book-03-complete-2026-09-14",
+    "not_committed": "book-03/book.json, README.md, session.md, revision-log.json, audit/issues.json и series/continuity-queue.json обновлены в рабочем дереве, но смешаны с незакоммиченными правками другой сессии; в ветку не включены."
+  },
   "changes": "БЫЛО-СТАЛО.md",
   "questions": "ВОПРОСЫ-К-АВТОРУ.md"
 }
