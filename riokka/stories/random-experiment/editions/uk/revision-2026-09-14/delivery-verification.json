@@ -1,0 +1,76 @@
+{
+  "verified_at": "2026-09-14T19:27:58.124604+00:00",
+  "verifier_sha256": "03ab149988dae3dbf65651c8203068aafe59ed572c423d9ed2020fed76fbdd67",
+  "target_text_sha256": "893c7ece5801363c9c25ce1a956db4911a702285f45bd3b800e35e36490695c6",
+  "target_docx_sha256": "6a55552ca2cecb5330bf21fd9681dc9fd4ea6b16061e321debb3b1a5f6171fea",
+  "source_files_unchanged": true,
+  "desktop_originals_unchanged": true,
+  "paragraphs_verified": 48,
+  "changed_paragraphs": 23,
+  "alignment_and_docx_exact": true,
+  "non_document_xml_parts_preserved": true,
+  "copies": [
+    {
+      "source": "editions/uk/revision-2026-09-14/candidate-02/Випадковий експеримент — українська редакція.docx",
+      "target": "/mnt/c/Users/alexi/Desktop/Sol/Випадковий експеримент — відредаговано 2026-09-14.docx",
+      "sha256": "6a55552ca2cecb5330bf21fd9681dc9fd4ea6b16061e321debb3b1a5f6171fea"
+    },
+    {
+      "source": "editions/uk/revision-2026-09-14/candidate-02/БУЛО-СТАЛО.md",
+      "target": "/mnt/c/Users/alexi/Desktop/Sol/Випадковий експеримент — Було-стало 2026-09-14.md",
+      "sha256": "5ae412fadc3fef32bd8677d8026bf9ab80d4a866428729974595d564880b0c4e"
+    },
+    {
+      "source": "editions/uk/revision-2026-09-14/ПИТАННЯ-АВТОРУ.md",
+      "target": "/mnt/c/Users/alexi/Desktop/Sol/Випадковий експеримент — питання 2026-09-14.md",
+      "sha256": "31c601095ddfc41037b87bda3bcedd00e2135c8887669866a40a539710e847cb"
+    }
+  ],
+  "review_receipts_verified": [
+    {
+      "receipt": "editions/uk/revision-2026-09-14/candidate-01/reviews/gemini_flash/invocation.json",
+      "status": "report_returned_pending_manual_validation",
+      "requested_model": "gemini-3.8-flash-high",
+      "client": "agy"
+    },
+    {
+      "receipt": "editions/uk/revision-2026-09-14/candidate-01/reviews/gemini_pro/invocation.json",
+      "status": "report_returned_pending_manual_validation",
+      "requested_model": "gemini-3.1-pro-high",
+      "client": "agy"
+    },
+    {
+      "receipt": "editions/uk/revision-2026-09-14/candidate-01/reviews/opus/invocation.json",
+      "status": "unavailable_or_incomplete",
+      "requested_model": "claude-opus-5",
+      "client": "claude"
+    },
+    {
+      "receipt": "editions/uk/revision-2026-09-14/candidate-01/reviews/opus-agy/invocation.json",
+      "status": "unavailable_or_incomplete",
+      "requested_model": "claude-opus-4-6-thinking",
+      "client": "agy"
+    },
+    {
+      "receipt": "editions/uk/revision-2026-09-14/candidate-02/reviews/gemini_flash/invocation.json",
+      "status": "report_returned_pending_manual_validation",
+      "requested_model": "gemini-3.8-flash-high",
+      "client": "agy"
+    },
+    {
+      "receipt": "editions/uk/revision-2026-09-14/candidate-02/reviews/gemini_pro/invocation.json",
+      "status": "report_returned_pending_manual_validation",
+      "requested_model": "gemini-3.1-pro-high",
+      "client": "agy"
+    },
+    {
+      "receipt": "editions/uk/revision-2026-09-14/candidate-02/reviews/opus/invocation.json",
+      "status": "unavailable_or_incomplete",
+      "requested_model": "claude-opus-4-6-thinking",
+      "client": "agy"
+    }
+  ],
+  "result": "integrity_checks_passed",
+  "literary_approval": "not_established",
+  "ensemble": "incomplete_opus_missing"
+}

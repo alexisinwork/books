@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-14",
+  "scope": "Actual working tree; pre-existing unrelated language_qa apostrophe-boundary edit and its test were preserved, not authored or staged by this task",
+  "tests": [
+    {"command": "python3 -m unittest discover -s tests -q", "passed": 35, "result": "OK"},
+    {"command": "python3 -m unittest discover -s default/tests -q", "passed": 12, "result": "OK"},
+    {"command": "python3 -m unittest discover -s buro/tests -q", "passed": 12, "result": "OK"},
+    {"command": "python3 -m unittest discover -s kontakt/tests -q", "passed": 12, "result": "OK"},
+    {"command": "python3 -m unittest discover -s riokka/tests -q", "passed": 12, "result": "OK"}
+  ],
+  "skill_validation": {"literary-adaptation": "valid", "book-language-review": "valid"},
+  "diff_whitespace_check": "Authored code/docs passed staged diff --check. Frozen model REPORT.md, raw PDF text extractions and generated change logs are explicitly excluded: their original trailing whitespace/blank EOF is preserved rather than changing recorded bytes and hashes.",
+  "code_sha256": {
+    "tools/uk_naturalness.py": "8bde42210b0ed8601ddc820bda0370c1542549cd11945f587ea849296e28b40b",
+    "tools/run_book_review.py": "e11c68e5fae4c7967dbd61c44f3e662402015db6a839c2e9dd219a611641665d",
+    "tools/language_qa.py": "9deee03601160de1ebdae6941dacb8c519691fef8333e7e8c883194b1da0ccf1",
+    "riokka/stories/random-experiment/build_edition.py": "e5935c83c41d373a95fc84dfcb86323b83c424c149712e0ddbfa3a92d63a5159"
+  },
+  "limits": "Tests establish implementation behavior, not literary quality. The new client-policy test mocks the external response and consumes no model quota."
+}

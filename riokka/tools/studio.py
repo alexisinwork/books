@@ -135,7 +135,7 @@ def new_project(args):
             # Carry executable helpers as well as prose rules into standalone copies.
             helper_source = system_source.parent / 'tools'
             helper_records = []
-            for helper in ['literary_translation.py', 'language_qa.py', 'prepare_language_editions.py']:
+            for helper in ['literary_translation.py', 'language_qa.py', 'uk_naturalness.py', 'run_book_review.py', 'prepare_language_editions.py']:
                 origin = helper_source / helper
                 if not origin.is_file():
                     raise ValueError('Missing language helper: ' + str(origin))

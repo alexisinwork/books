@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "book_id": "story-random-experiment",
+  "status": "working_profile_from_full_source_and_current_request",
+  "inherit_author_traits": [],
+  "narration": "Dialogue only; no added narrator or speaker tags.",
+  "rhythm": "Fast comic escalation, short interruptions against longer excuses; preserve interruptions and stretched cries.",
+  "humour": "False grandeur, affectionate/aggressive insults, scientific babble, delayed physical punchline.",
+  "register": "Contemporary spoken Ukrainian, abrasive when source is abrasive; no added regional identity, ornamental slang or obligatory sanitization.",
+  "characters": {
+    "brin": "Evasive and self-satisfied; technical hobby vocabulary, excuses and literal acceptance of sarcastic praise.",
+    "holly": "Impatient, cutting, directly confrontational; protective of her brother.",
+    "john": "Aggrieved after the reveal, reenacts his mistaken shower visit and ends in embarrassment."
+  },
+  "protected_features": [
+    "48 source turns, including 'Агу-агу!' without invented speaker attribution",
+    "Brin's full name includes Елізабет; do not normalize it away",
+    "instruction mistake / stork joke verbal connection",
+    "strawberry mention early and its later digestion callback",
+    "rabbit/size ambiguity and last cry to Holly"
+  ]
+}

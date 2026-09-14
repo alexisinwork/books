@@ -1,0 +1,32 @@
+{
+  "role": "opus",
+  "client": "agy",
+  "requested_model": "claude-opus-4-6-thinking",
+  "target_sha256": "893c7ece5801363c9c25ce1a956db4911a702285f45bd3b800e35e36490695c6",
+  "source_sha256": "da24aefbca947dbf369ec714e4042166de6b865d1af9c046824dd756e988d6a9",
+  "prompt_sha256": "18ecc2bf4bd4752664e88892c7cdf8fcccfae5ca810a41039b8f8c15f6667416",
+  "runner_sha256": "1c47b1a9d29c46d06787247b317f6e02191a67ece05348ce98c7a74b32b99758",
+  "references": [
+    {
+      "file": "riokka/stories/random-experiment/editions/uk/revision-2026-09-14/MEANING_LEDGER.md",
+      "sha256": "aa9008495fd75cd74ffc637026312b92fc761b872a88185641a7406944dd60f7"
+    },
+    {
+      "file": "riokka/stories/random-experiment/editions/uk/revision-2026-09-14/GLOSSARY_RU_UA.md",
+      "sha256": "98cdba6baa5bdc662ff959b93012f7cf66f9a1e982a0071a749d07fa43fd0d88"
+    }
+  ],
+  "isolation": "Fresh temporary working directory, new conversation, tools prohibited in prompt, client plan/sandbox or tool-free safe mode. No other reports or adapter notes supplied.",
+  "exit_code": 0,
+  "seconds": 302.96,
+  "returned_model_metadata": {
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cache_read_tokens": 0,
+      "total_tokens": 0
+    }
+  },
+  "status": "unavailable_or_incomplete"
+}

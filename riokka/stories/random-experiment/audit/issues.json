@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "book_id": "story-random-experiment",
+  "items": [
+    {
+      "id": "SOURCE-DI-001",
+      "status": "source_question_preserved",
+      "resolution_status": "unresolved",
+      "certainty": "missing_link",
+      "observation": "Великий Ді згаданий у P10, Джон — у P20; джерело прямо не пояснює, чи це та сама людина. Target-only Pro теж помітив можливу неясність.",
+      "source_path": "riokka/stories/random-experiment/SOURCE/ru.docx",
+      "source_sha256": "ee72030d14bb42bfa714df38e4183d3be14cbeaeb4020a5e2c7d32936e3b4276",
+      "source_paragraphs": [10, 20],
+      "dependencies": ["P10", "P20", "possible character alias"],
+      "decision": "No invented explanation or identity; preserve source ambiguity. Not a new defect introduced by adaptation.",
+      "author_decision": null
+    }
+  ]
+}

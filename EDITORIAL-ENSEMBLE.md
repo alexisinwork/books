@@ -129,6 +129,6 @@ python3 tools/editorial_ensemble.py verify --run PATH_TO_RUN --require-complete
 
 - Codex читает `AGENTS.md` и репозиторные навыки из `.agents/skills`.
 - Claude Code читает `CLAUDE.md`; `.claude/skills` указывает на тот же набор навыков.
-- Gemini CLI читает `GEMINI.md` и поддерживает `.agents/skills` как каталог навыков.
+- Gemini вызывается только через `agy CLI` по постоянному решению автора. Инструкции и разрешённый пакет передаются явно в новую изолированную сессию; автоматическую загрузку навыков другого клиента не предполагать.
 
-Документация механизмов: [Codex skills](https://developers.openai.com/codex/skills), [Codex AGENTS.md](https://developers.openai.com/codex/guides/agents-md), [Claude Code memory](https://code.claude.com/docs/en/memory), [Claude Code skills](https://code.claude.com/docs/en/skills), [Gemini CLI context](https://geminicli.com/docs/cli/gemini-md/), [Gemini CLI skills](https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/using-agent-skills.md).
+Документация механизмов: [Codex skills](https://developers.openai.com/codex/skills), [Codex AGENTS.md](https://developers.openai.com/codex/guides/agents-md), [Claude Code memory](https://code.claude.com/docs/en/memory), [Claude Code skills](https://code.claude.com/docs/en/skills). Доступные команды и модели `agy` проверять через `agy --help` и `agy models`. Использование `gemini CLI`, включая fallback, запрещено; исторические журналы старых прогонов не переписываются.

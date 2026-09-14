@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "ruleset": "uk-naturalness-1",
+  "source": "riokka/stories/random-experiment/SOURCE/uk-before.docx",
+  "source_sha256": "23ecf76b0916689f52dac281f888822bd02a7e6dfe61c3f1e996a591eda0062a",
+  "language": "uk",
+  "format": "docx",
+  "source_units": 48,
+  "extraction_flags": {
+    "tbl": 0,
+    "drawing": 0,
+    "txbxContent": 0,
+    "footnoteReference": 0,
+    "endnoteReference": 0,
+    "excluded_parts": []
+  },
+  "scope": "All extracted body units; selected contextual patterns only, no semantic proof or layout review.",
+  "findings": [
+    {
+      "rule": "artist_meme_echo",
+      "category": "idiom",
+      "p": 8,
+      "start": 31,
+      "end": 60,
+      "quote": "художника кожен образити може",
+      "context": "— Я особистість творча! Знаєш, художника кожен образити може!",
+      "note": "Оцінити роль творчої натури й комічної формули. Не забороняти слово художник загалом.",
+      "decision": "unresolved"
+    },
+    {
+      "rule": "age_idiom_echo",
+      "category": "idiom",
+      "p": 11,
+      "start": 51,
+      "end": 69,
+      "quote": "тридцятник стукнув",
+      "context": "— Яку молодість, помилко природи? Вам же тільки-но тридцятник стукнув!",
+      "note": "Перевірити природність вікової ідіоми; зберегти вік і його приблизність, не міняти факти.",
+      "decision": "unresolved"
+    },
+    {
+      "rule": "technical_dialogue_collocation",
+      "category": "collocation",
+      "p": 20,
+      "start": 56,
+      "end": 75,
+      "quote": "Габаритний виявився",
+      "context": "— Ну й купив я собі, словом, китайський «Генороб-2350». Габаритний виявився, звісно, але своїх грошей вартий. Пішли ми до мене, вирішив Джонові показати, чого я за тиждень навчився…",
+      "note": "Технічне слово не заборонене. Оцінити, чи пасує це сполучення голосу й контексту.",
+      "decision": "unresolved"
+    },
+    {
+      "rule": "back_redundancy",
+      "category": "repetition",
+      "p": 25,
+      "start": 89,
+      "end": 108,
+      "quote": "повернулася б назад",
+      "context": "— Цілковитий ідіот. Первісна людина, побачивши тебе, відкинула б щойно створене колесо й повернулася б назад до полювання на мамонтів.",
+      "note": "Перевірити функцію назад: зайве дублювання, просторовий напрям чи навмисне посилення.",
+      "decision": "unresolved"
+    },
+    {
+      "rule": "cognition_root_echo",
+      "category": "repetition",
+      "p": 27,
+      "start": 11,
+      "end": 39,
+      "quote": "розумних думок ти ще розумом",
+      "context": "— До таких розумних думок ти ще розумом не доріс.",
+      "note": "Спільнокореневий повтор: перевірити жарт/характер/акцент; не вилучати за частотою.",
+      "decision": "unresolved"
+    },
+    {
+      "rule": "literal_profanity",
+      "category": "register",
+      "p": 35,
+      "start": 3,
+      "end": 15,
+      "quote": "твою ж матір",
+      "context": "— …твою ж матір, Бріне! Ну ти й…",
+      "note": "Оцінити формулу лайки: адресат, грубість, голос; не додавати діалект або сильнішу лайку автоматично.",
+      "decision": "unresolved"
+    }
+  ],
+  "unresolved_signals": 6,
+  "result": "signals_require_review",
+  "grammar_check": "not_run",
+  "literary_quality": "not_established",
+  "automatic_rewriting": false
+}

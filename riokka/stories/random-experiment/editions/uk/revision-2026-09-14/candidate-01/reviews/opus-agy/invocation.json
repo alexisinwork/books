@@ -1,0 +1,32 @@
+{
+  "role": "opus",
+  "client": "agy",
+  "requested_model": "claude-opus-4-6-thinking",
+  "target_sha256": "aa058d89b411148c2a6f7c5c796e36e8c18685a3d9954178fd4f5a0b545095a2",
+  "source_sha256": "da24aefbca947dbf369ec714e4042166de6b865d1af9c046824dd756e988d6a9",
+  "prompt_sha256": "8b52ba46b1a440a5cead1c5e80e33cd5442d343e2a9991e57ecc627e3b3827d3",
+  "runner_sha256": "2153c41ff2da084da5667e7aeb3f9cdf7785a63e3dbca4d56b11d84bc89ecb0c",
+  "references": [
+    {
+      "file": "riokka/stories/random-experiment/editions/uk/revision-2026-09-14/MEANING_LEDGER.md",
+      "sha256": "aa9008495fd75cd74ffc637026312b92fc761b872a88185641a7406944dd60f7"
+    },
+    {
+      "file": "riokka/stories/random-experiment/editions/uk/revision-2026-09-14/GLOSSARY_RU_UA.md",
+      "sha256": "98cdba6baa5bdc662ff959b93012f7cf66f9a1e982a0071a749d07fa43fd0d88"
+    }
+  ],
+  "isolation": "Fresh temporary working directory, new conversation, tools prohibited in prompt, client plan/sandbox or tool-free safe mode. No other reports or adapter notes supplied.",
+  "exit_code": 0,
+  "seconds": 182.87,
+  "returned_model_metadata": {
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cache_read_tokens": 0,
+      "total_tokens": 0
+    }
+  },
+  "status": "unavailable_or_incomplete"
+}

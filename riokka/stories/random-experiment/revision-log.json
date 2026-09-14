@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "date": "2026-09-14",
+      "request": "Revise the Ukrainian story from Desktop/Sol and extend naturalness checks; preserve RU for future meaning checks",
+      "source_ru_sha256": "ee72030d14bb42bfa714df38e4183d3be14cbeaeb4020a5e2c7d32936e3b4276",
+      "previous_uk_sha256": "23ecf76b0916689f52dac281f888822bd02a7e6dfe61c3f1e996a591eda0062a",
+      "first_candidate_text_sha256": "aa058d89b411148c2a6f7c5c796e36e8c18685a3d9954178fd4f5a0b545095a2",
+      "current_candidate_text_sha256": "893c7ece5801363c9c25ce1a956db4911a702285f45bd3b800e35e36490695c6",
+      "changed_paragraphs_vs_previous_uk": 23,
+      "targeted_second_pass": [9, 27, 42],
+      "dependencies_updated": ["book.json", "voice.json", "source-canon.json", "session.md", "audit/issues.json", "story catalog", "alignment.json", "text projections", "DOCX", "change log", "render", "language reports", "review notes", "release manifest"],
+      "continuity": "No story fact or Riokka novel canon changed; legacy ambiguity about Big Di preserved",
+      "system_changes": "UK naturalness guide and contextual checker; skills/routing; agy-only Gemini policy; isolated review helper with immutable receipts; future-project helper copying",
+      "status": "working_revision_for_author_incomplete_ensemble",
+      "author_approved": false
+    }
+  ]
+}

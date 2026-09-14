@@ -526,14 +526,16 @@ def cmd_blind_pack(args: argparse.Namespace) -> dict:
         encoding="utf-8",
     )
     (out / "START.txt").write_text(
-        "Start Gemini CLI in this directory. Run /skills reload if needed, then /ru-cold-reader.\n",
+        "Use agy CLI only, in a fresh isolated session with the ru-cold-reader instructions supplied explicitly. "
+        "Do not use gemini CLI or assume another client's skill-loading commands work in agy. "
+        "Read only RUN.json allowed_inputs; return REPORT.md without editing the manuscript.\n",
         encoding="utf-8",
     )
     return {
         "packet": str(out),
         "manuscript": manuscript_name,
         "reader_sha256": sha256(out / manuscript_name),
-        "next": "run Gemini here, finish REPORT.md, then import with record --role gemini --input REPORT.md",
+        "next": "use agy CLI for Gemini in a fresh isolated session, finish REPORT.md, then import with record --role gemini --input REPORT.md",
     }
 
 
