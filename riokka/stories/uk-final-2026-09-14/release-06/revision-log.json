@@ -1,0 +1,83 @@
+{
+  "run": "release-06",
+  "created_utc": "2026-09-15T06:59:08.555104+00:00",
+  "scope": "four standalone Ukrainian stories",
+  "entries": [
+    {
+      "story": "random-experiment",
+      "old_desktop_source_sha256": "7d85e520ba05746150298d608a59a588d6e9d1d241981da1c60290668b0ccb9d",
+      "previous_release_docx_sha256": "7d85e520ba05746150298d608a59a588d6e9d1d241981da1c60290668b0ccb9d",
+      "new_reader_docx_sha256": "7d85e520ba05746150298d608a59a588d6e9d1d241981da1c60290668b0ccb9d",
+      "new_reader_text_sha256": "a6bebde91d4e836e8f4cfb3d8dcf2178505474329f73ef4d23c92faa5a28d133",
+      "edited_paragraphs_from_desktop": [],
+      "exact_comparisons": [
+        "random-experiment/CHANGES-FROM-DESKTOP.md",
+        "random-experiment/CHANGES-FROM-RELEASE-05.md"
+      ],
+      "decision_basis": "Reused release-05 unchanged"
+    },
+    {
+      "story": "history",
+      "old_desktop_source_sha256": "762aa2b117e28ea8c5d2a6c44b807a2f8fe852d39ec8b9f4504b54c4d6be667b",
+      "previous_release_docx_sha256": "843d89a80d46fea22904fb8afc507bca26fe23ac8af0795211dae9af2a3e724b",
+      "new_reader_docx_sha256": "762aa2b117e28ea8c5d2a6c44b807a2f8fe852d39ec8b9f4504b54c4d6be667b",
+      "new_reader_text_sha256": "9de853e9bcd2aa96756033424e177ac52e6092a169ca6c68af1dcd11880ca756",
+      "edited_paragraphs_from_desktop": [],
+      "exact_comparisons": [
+        "history/CHANGES-FROM-DESKTOP.md",
+        "history/CHANGES-FROM-RELEASE-05.md"
+      ],
+      "decision_basis": "Author-selected desktop DOCX imported unchanged"
+    },
+    {
+      "story": "space-is-no-place-for-the-living",
+      "old_desktop_source_sha256": "f2bb885b6a0180286b7d44335c425e0bff3ca7604ece595ffa5497a41d2142f7",
+      "previous_release_docx_sha256": "570e195e267889c9a920a3a5bc52c3486c850e9998740f50680dfaf76041d9f4",
+      "new_reader_docx_sha256": "86b7bc128f52e6cd7bdd5ee0eec7122123be66a92fe90d1db467134a0621c3e1",
+      "new_reader_text_sha256": "6acf7dc2746d1868f911c7cfe4d6b27ba2c6ceb948c511f6454703bb1e8064aa",
+      "edited_paragraphs_from_desktop": [
+        97,
+        183,
+        197,
+        234
+      ],
+      "exact_comparisons": [
+        "space-is-no-place-for-the-living/CHANGES-FROM-DESKTOP.md",
+        "space-is-no-place-for-the-living/CHANGES-FROM-RELEASE-05.md"
+      ],
+      "decision_basis": "AUTHOR_INTENT.md and MEANING_LEDGER.json"
+    },
+    {
+      "story": "where-ducks-fly-in-winter",
+      "old_desktop_source_sha256": "743b2f8159940a55e9cbf2a743d7b62ebb64604573212bb4947da22ca14c4d10",
+      "previous_release_docx_sha256": "ff8438427a3b524fbfa94fba5329fbf99446cd3a82d16db589144354852b5c7c",
+      "new_reader_docx_sha256": "4def62ae305b890b48b8eb228a9bd99d85824978fcd01d944c7b46e3ba0734f3",
+      "new_reader_text_sha256": "2e241b07095b09f8b99d521e88f7605c4fe5d3aa0e83e68666d314d0ea935774",
+      "edited_paragraphs_from_desktop": [
+        2,
+        3,
+        6,
+        17,
+        20,
+        85,
+        224
+      ],
+      "exact_comparisons": [
+        "where-ducks-fly-in-winter/CHANGES-FROM-DESKTOP.md",
+        "where-ducks-fly-in-winter/CHANGES-FROM-RELEASE-05.md"
+      ],
+      "decision_basis": "AUTHOR_INTENT.md and MEANING_LEDGER.json"
+    }
+  ],
+  "dependencies": [
+    "stories/*/uk.txt",
+    "stories/*/book.json",
+    "riokka/stories/*/book.json",
+    "CONTEXT.md",
+    "audit/issues.json",
+    "alignment.json",
+    "DOCX/PDF",
+    "desktop delivery"
+  ],
+  "old_versions_preserved": true
+}

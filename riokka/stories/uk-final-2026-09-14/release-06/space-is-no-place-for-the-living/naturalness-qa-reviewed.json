@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "ruleset": "uk-naturalness-1.2",
+  "source": "riokka/stories/uk-final-2026-09-14/release-06/space-is-no-place-for-the-living/reader.uk.txt",
+  "source_sha256": "6acf7dc2746d1868f911c7cfe4d6b27ba2c6ceb948c511f6454703bb1e8064aa",
+  "language": "uk",
+  "format": "text",
+  "source_units": 527,
+  "source_units_including_blank": 527,
+  "nonempty_source_units": 264,
+  "blank_source_units": 263,
+  "source_unit_kind": "physical_text_line",
+  "anchor_numbering": "p is 1-based and includes blank units; existing offsets are unchanged",
+  "mechanical_coverage": {
+    "scope": "configured_patterns_in_extracted_body_only",
+    "scanned_source_units": 527,
+    "scanned_nonempty_source_units": 264
+  },
+  "reading_coverage": {
+    "status": "not_assessed_by_this_tool",
+    "reviewed_nonempty_source_units": null
+  },
+  "extraction_flags": {},
+  "scope": "All extracted body units; selected contextual patterns only, no semantic proof or layout review.",
+  "findings": [
+    {
+      "rule": "literal_profanity",
+      "category": "register",
+      "p": 367,
+      "start": 2,
+      "end": 14,
+      "quote": "Твою ж матір",
+      "context": "— Твою ж матір! — майже втративши мову від жаху й подиву, Сергій висловив думку, що панувала в головах усіх, хто сидів у командному центрі. — Чорна діра…",
+      "note": "Оцінити формулу лайки: адресат, грубість, голос; не додавати діалект або сильнішу лайку автоматично.",
+      "decision": "retained_with_reason",
+      "reason": "Source-bound Sergei crisis reaction; abrupt colloquial profanity belongs to his established voice and is not a narrator norm. Reviewed at story P184 with adjacent Badu and Sean responses."
+    }
+  ],
+  "unresolved_signals": 0,
+  "result": "no_unresolved_configured_signals",
+  "grammar_check": "not_run",
+  "literary_quality": "not_established",
+  "automatic_rewriting": false
+}

@@ -1,0 +1,86 @@
+{
+  "current_release": "release-06",
+  "current_model_reports": [
+    {
+      "story": "history",
+      "path": "history/reviews-r1/flash/REPORT.md",
+      "report_sha256": "7782905219945cfba90e72eeed3d231b1adb59d3d8492d5a38aa47bccf422bdb",
+      "target_sha256": "9de853e9bcd2aa96756033424e177ac52e6092a169ca6c68af1dcd11880ca756",
+      "client": "agy",
+      "requested_model": "gemini-3.8-flash-high",
+      "client_reported_model": "gemini-3.8-flash-high",
+      "backend_independently_attested": false,
+      "scope": "full target-only story",
+      "verdict": "REQUIRES REVISION",
+      "manual_reconciliation": "REVIEW-RECONCILIATION.md"
+    },
+    {
+      "story": "history",
+      "path": "history/reviews-r1/pro/REPORT.md",
+      "report_sha256": "acb9eaf904f6c8760908eee211098ff00f1fbea988408a0bd4f42523912c9e9d",
+      "target_sha256": "9de853e9bcd2aa96756033424e177ac52e6092a169ca6c68af1dcd11880ca756",
+      "client": "agy",
+      "requested_model": "gemini-3.1-pro-high",
+      "client_reported_model": "gemini-3.1-pro-high",
+      "backend_independently_attested": false,
+      "scope": "full target-only story",
+      "verdict": "REQUIRES REVISION",
+      "manual_reconciliation": "REVIEW-RECONCILIATION.md"
+    },
+    {
+      "story": "space-is-no-place-for-the-living",
+      "path": "space-is-no-place-for-the-living/reviews-r1/flash/REPORT.md",
+      "report_sha256": "92ebff14299c2066425883c7af552f207396b6361e584fd72456c732eed95b30",
+      "target_sha256": "0da348411c7393d83045c3e52134695cfefbd2d88511af9d73826dee68d343ea",
+      "client": "agy",
+      "requested_model": "gemini-3.8-flash-high",
+      "client_reported_model": "gemini-3.8-flash-high",
+      "backend_independently_attested": false,
+      "scope": "full target-only story",
+      "verdict": "REQUIRES REVISION",
+      "manual_reconciliation": "REVIEW-RECONCILIATION.md"
+    },
+    {
+      "story": "space-is-no-place-for-the-living",
+      "path": "space-is-no-place-for-the-living/reviews-r1/pro/REPORT.md",
+      "report_sha256": "672a689431795515d369e7d974777727fcf5352a3e9e6e23b7abb095f49cdeea",
+      "target_sha256": "0da348411c7393d83045c3e52134695cfefbd2d88511af9d73826dee68d343ea",
+      "client": "agy",
+      "requested_model": "gemini-3.1-pro-high",
+      "client_reported_model": "gemini-3.1-pro-high",
+      "backend_independently_attested": false,
+      "scope": "full target-only story",
+      "verdict": "REQUIRES REVISION",
+      "manual_reconciliation": "REVIEW-RECONCILIATION.md"
+    },
+    {
+      "story": "where-ducks-fly-in-winter",
+      "path": "where-ducks-fly-in-winter/reviews-r3/flash/REPORT.md",
+      "report_sha256": "b1f6a96bc5a2b7815e58faa13f72d74749651b6702bf6b47821c8979bf4766eb",
+      "target_sha256": "e38e11b44d72160ba6b336f9da1fa4a6551084d507a22ab5c5b87608e763f993",
+      "client": "agy",
+      "requested_model": "gemini-3.8-flash-high",
+      "client_reported_model": "gemini-3.8-flash-high",
+      "backend_independently_attested": false,
+      "scope": "full target-only story",
+      "verdict": "REQUIRES REVISION",
+      "manual_reconciliation": "REVIEW-RECONCILIATION.md"
+    },
+    {
+      "story": "where-ducks-fly-in-winter",
+      "path": "where-ducks-fly-in-winter/reviews-r3/pro/REPORT.md",
+      "report_sha256": "02efaa910eb01dc004994e53e5359bc9dce3465d9ef5b0d916af2739d73d3856",
+      "target_sha256": "e38e11b44d72160ba6b336f9da1fa4a6551084d507a22ab5c5b87608e763f993",
+      "client": "agy",
+      "requested_model": "gemini-3.1-pro-high",
+      "client_reported_model": "gemini-3.1-pro-high",
+      "backend_independently_attested": false,
+      "scope": "full target-only story",
+      "verdict": "PASS",
+      "manual_reconciliation": "REVIEW-RECONCILIATION.md"
+    }
+  ],
+  "opus": "waived by author for this four-story editorial cycle; not run",
+  "prior_ducks_reports": "reviews-r1 and reviews-r2 are immutable history for archive/ducks-r1.uk.txt and ducks-r2.uk.txt",
+  "note": "Model verdicts are diagnostic, not author decisions or live-reader reactions."
+}

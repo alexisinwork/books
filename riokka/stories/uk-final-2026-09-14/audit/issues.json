@@ -1,25 +1,325 @@
 {
-  "authority": "REQUEST.md: author-delegated editorial decisions, not invented individual author approvals",
-  "detail": "RECONCILIATION.md",
-  "release": "release-05",
+  "authority": "Current author message 2026-09-15 controls seven answered facts; prior REQUEST.md editor choices are historical",
+  "detail": "release-06/AUTHOR_INTENT.md and MEANING_LEDGER.json; prior RECONCILIATION.md remains historical",
+  "release": "release-06",
   "issues": [
-    {"id":"R-DI","story":"random-experiment","resolution_status":"unresolved","release_blocker":false,"depends_on":["P10"],"decision":"Preserve source ambiguity about Ді; no identity invented."},
-    {"id":"H-NAME-METADATA","story":"history","resolution_status":"resolved","depends_on":["H03","CONTEXT.md"],"decision":"Correct erroneous context lock; retain established UK Наталка."},
-    {"id":"H-FINAL-FLASH","story":"history","resolution_status":"documented_unavailable","release_blocker":false,"depends_on":["reviews-r2/part-01/flash","reviews-r3/flash"],"decision":"No report and no PASS; prior full bilingual report plus final editor comparison and Pro target-only reading recorded."},
-    {"id":"H-PRO-COMPOSITION","story":"history","resolution_status":"resolved_by_editor_preserving_source","depends_on":["P30","P112","P115","P128"],"decision":"Retain theatrical irony, philosophical digression and conversational hyperbole; do not add invented elapsed time."},
-    {"id":"S-HIDDEN-BODY","story":"space-is-no-place-for-the-living","resolution_status":"resolved","depends_on":["complete P261","complete P263","complete-projection-manifest.json"],"decision":"Extract and adapt both nested body paragraphs; full count 264; all-body DOCX/PDF text equality verified."},
-    {"id":"S-CREW-COUNT","story":"space-is-no-place-for-the-living","resolution_status":"resolved_by_editor","depends_on":["P97","S03"],"decision":"Four before separate invitation of Yulia; Garcia joins later."},
-    {"id":"S-HOLE-LOCATION","story":"space-is-no-place-for-the-living","resolution_status":"resolved_by_editor","depends_on":["P183","P190","S05"],"decision":"Generalize conflicting early Mars reference to Solar System; retain detailed later position."},
-    {"id":"S-YULIA","story":"space-is-no-place-for-the-living","resolution_status":"resolved_by_editor","depends_on":["RU P24","RU P25","RU P47","UK complete P264"],"decision":"Yulia Dass is established in RU; reject excerpt-only recommendation to restore stray Valentina."},
-    {"id":"S-FALSE-QUOTES","story":"space-is-no-place-for-the-living","resolution_status":"not_a_defect_false_anchor","depends_on":["reviews-r2/part-01/flash"],"decision":"Генри and космофлота are absent from supplied UK; keep correct forms."},
-    {"id":"S-SCIENCE","story":"space-is-no-place-for-the-living","resolution_status":"documented_not_changed","release_blocker":false,"depends_on":["P3","P11","P108","P114","P234"],"decision":"Fictional technology/source scientific claims retained. No scientific-certification claim; restructuring these mechanisms is outside this adaptation cycle."},
-    {"id":"S-LATIN-NAME","story":"space-is-no-place-for-the-living","resolution_status":"unresolved","release_blocker":false,"depends_on":["complete P250","complete P257","complete P260","complete P261"],"decision":"No author-supplied Latin spelling; consistent editorial UK form Смоулі used without inventing one."},
-    {"id":"D-CALENDAR","story":"where-ducks-fly-in-winter","resolution_status":"resolved_by_editor","depends_on":["P2","P3","D01","D04"],"decision":"Soon 88, late twenty-first century; preserve explicit birth/death dates."},
-    {"id":"D-LEDGER-WEIGHTS","story":"where-ducks-fly-in-winter","resolution_status":"resolved_by_editor","depends_on":["D05"],"decision":"Distinguish weighted score from half of lifespan; preserve 60/40 and 83; no invented durations."},
-    {"id":"D-NETWORK","story":"where-ducks-fly-in-winter","resolution_status":"resolved_by_editor","depends_on":["D06","all network-name occurrences"],"decision":"Безбожнет preserves nonbelievers-plus-network wordplay; not claimed as preapproved author spelling."},
-    {"id":"D-TWO","story":"where-ducks-fly-in-winter","resolution_status":"unresolved","release_blocker":false,"depends_on":["Отримуй два!"],"decision":"Retain two-way meaning; do not force a school grade or doubled benefit."},
-    {"id":"D-PRO-WORD-TASTE","story":"where-ducks-fly-in-winter","resolution_status":"resolved_by_editor_preserving_source","depends_on":["P25","P232"],"decision":"Retain quoted writer-prose Бувши and character-specific coined metaphor; not automatic banned-word rules."},
-    {"id":"D-FALSE-QUOTE","story":"where-ducks-fly-in-winter","resolution_status":"not_a_defect_false_anchor","depends_on":["reviews-r2/part-02/flash"],"decision":"а вот романи is absent; supplied UK already says а от романи."},
-    {"id":"R-FONT","story":"random-experiment","resolution_status":"resolved","depends_on":["reader DOCX fontTable","PDF rendering"],"decision":"Remove malformed Chinese Georgia embedding only in output copy; retain source and intended Georgia family."}
+    {
+      "id": "R-DI",
+      "story": "random-experiment",
+      "resolution_status": "unresolved",
+      "release_blocker": false,
+      "depends_on": [
+        "P10"
+      ],
+      "decision": "Preserve source ambiguity about Ді; no identity invented."
+    },
+    {
+      "id": "H-NAME-METADATA",
+      "story": "history",
+      "resolution_status": "resolved",
+      "depends_on": [
+        "H03",
+        "CONTEXT.md"
+      ],
+      "decision": "Correct erroneous context lock; retain established UK Наталка."
+    },
+    {
+      "id": "H-FINAL-FLASH",
+      "story": "history",
+      "resolution_status": "documented_unavailable",
+      "release_blocker": false,
+      "depends_on": [
+        "reviews-r2/part-01/flash",
+        "reviews-r3/flash"
+      ],
+      "decision": "No report and no PASS; prior full bilingual report plus final editor comparison and Pro target-only reading recorded."
+    },
+    {
+      "id": "H-PRO-COMPOSITION",
+      "story": "history",
+      "resolution_status": "resolved_by_editor_preserving_source",
+      "depends_on": [
+        "P30",
+        "P112",
+        "P115",
+        "P128"
+      ],
+      "decision": "Retain theatrical irony, philosophical digression and conversational hyperbole; do not add invented elapsed time."
+    },
+    {
+      "id": "S-HIDDEN-BODY",
+      "story": "space-is-no-place-for-the-living",
+      "resolution_status": "resolved",
+      "depends_on": [
+        "complete P261",
+        "complete P263",
+        "complete-projection-manifest.json"
+      ],
+      "decision": "Extract and adapt both nested body paragraphs; full count 264; all-body DOCX/PDF text equality verified."
+    },
+    {
+      "id": "S-CREW-COUNT",
+      "story": "space-is-no-place-for-the-living",
+      "resolution_status": "resolved_by_author",
+      "depends_on": [
+        "P97",
+        "S03"
+      ],
+      "decision": "Author specified Henry, Sergey, Yulia, Takanashi and Sean; release-06 P097 names all five, and Garcia still joins at P101.",
+      "previous_editor_decision": "Four before separate invitation of Yulia; Garcia joins later.",
+      "basis": "Current author message 2026-09-15; release-06/AUTHOR_INTENT.md and MEANING_LEDGER.json"
+    },
+    {
+      "id": "S-HOLE-LOCATION",
+      "story": "space-is-no-place-for-the-living",
+      "resolution_status": "resolved_by_author",
+      "depends_on": [
+        "P183",
+        "P190",
+        "S05"
+      ],
+      "decision": "Author specified between Jupiter and Saturn; release-06 P183 now agrees with P190. Mars drift at P181 is station location only.",
+      "previous_editor_decision": "Generalize conflicting early Mars reference to Solar System; retain detailed later position.",
+      "basis": "Current author message 2026-09-15; release-06/AUTHOR_INTENT.md and MEANING_LEDGER.json"
+    },
+    {
+      "id": "S-YULIA",
+      "story": "space-is-no-place-for-the-living",
+      "resolution_status": "resolved_by_editor",
+      "depends_on": [
+        "RU P24",
+        "RU P25",
+        "RU P47",
+        "UK complete P264"
+      ],
+      "decision": "Yulia Dass is established in RU; reject excerpt-only recommendation to restore stray Valentina."
+    },
+    {
+      "id": "S-FALSE-QUOTES",
+      "story": "space-is-no-place-for-the-living",
+      "resolution_status": "not_a_defect_false_anchor",
+      "depends_on": [
+        "reviews-r2/part-01/flash"
+      ],
+      "decision": "Генри and космофлота are absent from supplied UK; keep correct forms."
+    },
+    {
+      "id": "S-SCIENCE",
+      "story": "space-is-no-place-for-the-living",
+      "resolution_status": "documented_not_changed",
+      "release_blocker": false,
+      "depends_on": [
+        "P3",
+        "P11",
+        "P108",
+        "P114",
+        "P234"
+      ],
+      "decision": "Fictional technology/source scientific claims retained. No scientific-certification claim; restructuring these mechanisms is outside this adaptation cycle."
+    },
+    {
+      "id": "S-LATIN-NAME",
+      "story": "space-is-no-place-for-the-living",
+      "resolution_status": "unresolved",
+      "release_blocker": false,
+      "depends_on": [
+        "complete P250",
+        "complete P257",
+        "complete P260",
+        "complete P261"
+      ],
+      "decision": "No author-supplied Latin spelling; consistent editorial UK form Смоулі used without inventing one."
+    },
+    {
+      "id": "D-CALENDAR",
+      "story": "where-ducks-fly-in-winter",
+      "resolution_status": "resolved_by_author",
+      "depends_on": [
+        "P2",
+        "P3",
+        "D01",
+        "D04"
+      ],
+      "decision": "Author specified 2098; release-06 P003/P224 agree with P085, P002 age and P020 seasonal memory reconciled.",
+      "previous_editor_decision": "Soon 88, late twenty-first century; preserve explicit birth/death dates.",
+      "basis": "Current author message 2026-09-15; release-06/AUTHOR_INTENT.md and MEANING_LEDGER.json"
+    },
+    {
+      "id": "D-LEDGER-WEIGHTS",
+      "story": "where-ducks-fly-in-winter",
+      "resolution_status": "resolved_by_editor",
+      "depends_on": [
+        "D05"
+      ],
+      "decision": "Distinguish weighted score from half of lifespan; preserve 60/40 and 83; no invented durations."
+    },
+    {
+      "id": "D-NETWORK",
+      "story": "where-ducks-fly-in-winter",
+      "resolution_status": "resolved_by_author",
+      "depends_on": [
+        "D06",
+        "all network-name occurrences"
+      ],
+      "decision": "Author approved Бога.Нема; five occurrences in the author-selected desktop text retained.",
+      "previous_editor_decision": "Безбожнет preserves nonbelievers-plus-network wordplay; not claimed as preapproved author spelling.",
+      "basis": "Current author message 2026-09-15; release-06/AUTHOR_INTENT.md and MEANING_LEDGER.json"
+    },
+    {
+      "id": "D-TWO",
+      "story": "where-ducks-fly-in-winter",
+      "resolution_status": "unresolved",
+      "release_blocker": false,
+      "depends_on": [
+        "Отримуй два!"
+      ],
+      "decision": "Retain two-way meaning; do not force a school grade or doubled benefit."
+    },
+    {
+      "id": "D-PRO-WORD-TASTE",
+      "story": "where-ducks-fly-in-winter",
+      "resolution_status": "resolved_by_editor_preserving_source",
+      "depends_on": [
+        "P25",
+        "P232"
+      ],
+      "decision": "Retain quoted writer-prose Бувши and character-specific coined metaphor; not automatic banned-word rules."
+    },
+    {
+      "id": "D-FALSE-QUOTE",
+      "story": "where-ducks-fly-in-winter",
+      "resolution_status": "not_a_defect_false_anchor",
+      "depends_on": [
+        "reviews-r2/part-02/flash"
+      ],
+      "decision": "а вот романи is absent; supplied UK already says а от романи."
+    },
+    {
+      "id": "R-FONT",
+      "story": "random-experiment",
+      "resolution_status": "resolved",
+      "depends_on": [
+        "reader DOCX fontTable",
+        "PDF rendering"
+      ],
+      "decision": "Remove malformed Chinese Georgia embedding only in output copy; retain source and intended Georgia family."
+    },
+    {
+      "id": "S-ALIEN-L3",
+      "story": "space-is-no-place-for-the-living",
+      "resolution_status": "resolved_under_author_delegation",
+      "depends_on": [
+        "P197",
+        "P198",
+        "P199",
+        "S05"
+      ],
+      "decision": "Far side of Sun at Sun-Earth L3; solar occultation from Earth, short masking for nearby ships and small regular orbit corrections.",
+      "basis": "Author requested a logical explanation; NASA L3 geometry; release-06/MEANING_LEDGER.json"
+    },
+    {
+      "id": "S-HOLE-MASS",
+      "story": "space-is-no-place-for-the-living",
+      "resolution_status": "resolved_under_author_delegation",
+      "depends_on": [
+        "P190",
+        "P233",
+        "P234",
+        "S06"
+      ],
+      "decision": "Relative in-world nadmasyvna for artificial holes; approximately 126,000 tonnes at formation and 228 tonnes in final second.",
+      "basis": "Author required term and masses; approximate idealized Hawking lifetime from story dates; release-06/MEANING_LEDGER.json"
+    },
+    {
+      "id": "S-HOLE-PUSH-TRANSMISSION",
+      "story": "space-is-no-place-for-the-living",
+      "resolution_status": "unresolved",
+      "release_blocker": false,
+      "depends_on": [
+        "P90",
+        "P183",
+        "P190",
+        "P233",
+        "P234",
+        "S03",
+        "S05"
+      ],
+      "observation": "The new canonical location between Jupiter and Saturn does not by itself explain the nearly immediate physical push at Earth/Moon. Two target-only model reports question the mechanism.",
+      "decision": "Preserve author-selected location and existing fictional mechanism; no retcon supplied for transmission or timing.",
+      "basis": "release-06 reviews-r1 Flash and Pro, checked against the current text"
+    },
+    {
+      "id": "D-BEER",
+      "story": "where-ducks-fly-in-winter",
+      "resolution_status": "resolved_by_author",
+      "depends_on": [
+        "P006",
+        "P017",
+        "P085",
+        "D01",
+        "D04"
+      ],
+      "decision": "Several Irish stout bottles; P006 distinguishes old nitro-can ritual from bottles currently bought, P017 carries them in a bag and P085 protocol agrees.",
+      "basis": "Current author message and release-06/MEANING_LEDGER.json"
+    },
+    {
+      "id": "D-PARK-SEASON",
+      "story": "where-ducks-fly-in-winter",
+      "resolution_status": "resolved_by_dependent_editorial_repair",
+      "depends_on": [
+        "P020",
+        "P085",
+        "D02",
+        "D04"
+      ],
+      "decision": "Quoted leafy summer view in P020 is now framed as narrator memory, not a live view in late November 2098.",
+      "basis": "Author chose 2098; release-06 target-only Flash/Pro r1 confirmed contextual defect; corrected in r2."
+    },
+    {
+      "id": "D-PAIN-RULE",
+      "story": "where-ducks-fly-in-winter",
+      "resolution_status": "unresolved",
+      "release_blocker": false,
+      "depends_on": [
+        "P053",
+        "P152",
+        "P153",
+        "D03",
+        "D07"
+      ],
+      "observation": "Hero reports pain when stepped on in the queue, but later appears unable to feel pain or be physically harmed; current text does not state whether the queue and later room have different rules.",
+      "decision": "Preserve author-selected final desktop text; do not invent a rule for souls.",
+      "basis": "release-06 target-only Flash r3, exact target SHA e38e11b44d72160ba6b336f9da1fa4a6551084d507a22ab5c5b87608e763f993"
+    },
+    {
+      "id": "D-PRIVATE-FACULTY",
+      "story": "where-ducks-fly-in-winter",
+      "resolution_status": "unresolved",
+      "release_blocker": false,
+      "depends_on": [
+        "P077",
+        "D04"
+      ],
+      "observation": "The text combines a public budget place with a private faculty; educational funding arrangement in the fictional 2098 setting is not established.",
+      "decision": "Retain author-selected wording until an independent editorial decision; no institutional canon invented.",
+      "basis": "release-06 target-only Flash r3 and earlier r1 reports"
+    },
+    {
+      "id": "H-AUTHOR-FINAL-TARGET-ONLY",
+      "story": "history",
+      "resolution_status": "unresolved",
+      "release_blocker": false,
+      "depends_on": [
+        "P017",
+        "P032",
+        "P034",
+        "P112",
+        "history/reviews-r1/flash/REPORT.md",
+        "history/reviews-r1/pro/REPORT.md"
+      ],
+      "observation": "Target-only Flash and Pro question exam/session chronology and some character/voice transitions in the author-selected desktop file. They did not edit the manuscript.",
+      "decision": "Preserve desktop text exactly in release-06; verify quotations and decide any separate revision with the author later.",
+      "basis": "release-06 history reader text SHA 9de853e9bcd2aa96756033424e177ac52e6092a169ca6c68af1dcd11880ca756"
+    }
   ]
 }

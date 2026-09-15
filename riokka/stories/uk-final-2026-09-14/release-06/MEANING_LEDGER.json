@@ -1,0 +1,76 @@
+{
+  "version": "author-answer-import-2026-09-15",
+  "author_source": "AUTHOR_INTENT.md",
+  "desktop_sources": {
+    "space": "f2bb885b6a0180286b7d44335c425e0bff3ca7604ece595ffa5497a41d2142f7",
+    "ducks": "743b2f8159940a55e9cbf2a743d7b62ebb64604573212bb4947da22ca14c4d10"
+  },
+  "items": [
+    {
+      "id": "S-HOLE-LOCATION",
+      "author_statement": "між Юпітером і Сатурном",
+      "text_observation": "Desktop P183 says near Mars; P190 says between Jupiter and Saturn.",
+      "model_hypothesis": null,
+      "applied": "P183 now matches P190. P181 describes the station drifting toward Mars, a separate location fact.",
+      "dependencies": ["S05", "P181", "P183", "P190", "P205", "P233"],
+      "resolution_status": "resolved_by_author"
+    },
+    {
+      "id": "S-ALIEN-L3",
+      "author_statement": "придумай логичное объяснение",
+      "text_observation": "Desktop P197 places L3 between Sun and Earth while also claiming solar concealment and brief masking during flybys.",
+      "model_hypothesis": "Place the base on the far side of the Sun at Sun-Earth L3, where the Sun blocks the Earth line of sight; ships near the base can still detect it, so short-duration masking is used during flybys. L3 needs small regular orbit corrections rather than zero fuel.",
+      "applied": "P197 states the far-side geometry, solar concealment, small corrections and masking for nearby ships; later energy-fluctuation detection remains possible.",
+      "dependencies": ["S05", "P196", "P197", "P198", "P199", "P203"],
+      "resolution_status": "resolved_under_author_delegation",
+      "reference": "https://science.nasa.gov/earth/earth-observatory/catalog-of-earth-satellite-orbits/"
+    },
+    {
+      "id": "S-CREW-COUNT",
+      "author_statement": "Генрі, Сергій, Юля, Таконаші та Шон",
+      "text_observation": "Desktop P097 says five seniors but then asks to add Yulia separately; P101 says the same five come together and Garcia arrives later.",
+      "model_hypothesis": null,
+      "applied": "P097 names all five and asks Henry whether the pilot-navigator should come with them; the separate sixth-person invitation is removed.",
+      "dependencies": ["S03", "P095", "P097", "P098", "P100", "P101"],
+      "resolution_status": "resolved_by_author"
+    },
+    {
+      "id": "S-HOLE-MASS",
+      "author_statement": "надмасивна и добавь массы тогда",
+      "text_observation": "Desktop P234 calls all black holes supermassive, then predicts 228 tonnes and 340 yoctometres in the final second; P233 dates the hole's life to about five years.",
+      "model_hypothesis": "Use 'надмасивна' as an in-world comparison among artificial black holes, not the astronomical category. An initial mass near 126,000 tonnes gives an idealized Hawking evaporation lifetime about 5.33 years; 228 tonnes corresponds to about one second under the same approximation.",
+      "applied": "P234 preserves 'надмасивна' in the comparative sense and states about 126,000 tonnes at creation and 228 tonnes in the last second.",
+      "dependencies": ["S05", "S06", "P190", "P233", "P234", "P240"],
+      "resolution_status": "resolved_under_author_delegation",
+      "scientific_limit": "The astrophysical class 'supermassive black hole' means hundreds of thousands to billions of solar masses; the story's term is explicitly relative and fictional. Other explosion/push physics remains unresolved.",
+      "references": ["https://science.nasa.gov/universe/glossary/", "https://science.nasa.gov/earth/earth-observatory/catalog-of-earth-satellite-orbits/"]
+    },
+    {
+      "id": "D-CALENDAR",
+      "author_statement": "2098 рік",
+      "text_observation": "Desktop P003 and P224 say the end of the second millennium despite birth 04.12.2010 and death 29.11.2098; P002 claims he is already 88 before that birthday.",
+      "model_hypothesis": "The summer park description in P020 is a remembered view, not a present late-November observation.",
+      "applied": "P003 and P224 say 2098; P002 says his 88th birthday is near; P020 frames the quoted summer view as memory.",
+      "dependencies": ["D01", "D02", "D04", "P002", "P003", "P020", "P085", "P224"],
+      "resolution_status": "resolved_by_author_with_dependent_editorial_repairs"
+    },
+    {
+      "id": "D-BEER",
+      "author_statement": "кілька пляшечок ірландського пива",
+      "text_observation": "Desktop P006 buys two Guinness cans while P085's protocol describes several Irish beer bottles.",
+      "model_hypothesis": "The nitro-can pouring ritual in P006 is a memory of his old preference; bottled stout is what he finds on the shelf now.",
+      "applied": "P006 selects several stout bottles and distinguishes them from the recalled can; P017 carries the purchases in a bag; P085 states several Irish beer bottles without the old tautology.",
+      "dependencies": ["D01", "D04", "P006", "P017", "P085"],
+      "resolution_status": "resolved_by_author_with_dependent_editorial_repairs"
+    },
+    {
+      "id": "D-NETWORK",
+      "author_statement": "Бога.Нема так",
+      "text_observation": "The author-selected desktop file already uses 'Бога.Нема' at P131, P132, P133, P139 and P174; release-05 had the editorial alternative 'Безбожнет'.",
+      "model_hypothesis": null,
+      "applied": "All five desktop occurrences are preserved and the name is now recorded as approved by the author.",
+      "dependencies": ["D05", "D06", "P131", "P132", "P133", "P139", "P174"],
+      "resolution_status": "resolved_by_author"
+    }
+  ]
+}
