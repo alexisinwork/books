@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "ruleset": "uk-naturalness-1.2",
+  "source": "riokka/books/book-01/editions/uk/opus-revision-2026-09-15/Riokka_1_Antydot_iz_Semari_UK_OPUS_REVISED.docx",
+  "source_sha256": "10e1e529ad0ddfdcff4c4e7d3d8adaa1420681678ed71122cfe88160375acadb",
+  "language": "uk",
+  "format": "docx",
+  "source_units": 1199,
+  "source_units_including_blank": 1199,
+  "nonempty_source_units": 1199,
+  "blank_source_units": 0,
+  "source_unit_kind": "docx_body_paragraph",
+  "anchor_numbering": "p is 1-based and includes blank units; existing offsets are unchanged",
+  "mechanical_coverage": {
+    "scope": "configured_patterns_in_extracted_body_only",
+    "scanned_source_units": 1199,
+    "scanned_nonempty_source_units": 1199
+  },
+  "reading_coverage": {
+    "status": "not_assessed_by_this_tool",
+    "reviewed_nonempty_source_units": null
+  },
+  "extraction_flags": {
+    "tbl": 0,
+    "drawing": 0,
+    "txbxContent": 0,
+    "footnoteReference": 0,
+    "endnoteReference": 0,
+    "excluded_parts": [
+      "word/header1.xml",
+      "word/footer1.xml"
+    ]
+  },
+  "scope": "All extracted body units; selected contextual patterns only, no semantic proof or layout review.",
+  "findings": [],
+  "unresolved_signals": 0,
+  "result": "no_unresolved_configured_signals",
+  "grammar_check": "not_run",
+  "literary_quality": "not_established",
+  "automatic_rewriting": false
+}

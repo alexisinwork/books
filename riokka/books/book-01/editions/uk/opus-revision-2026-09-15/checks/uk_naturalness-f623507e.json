@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "ruleset": "uk-naturalness-1.2",
+  "source": "/tmp/claude-1000/-home-alexi-books/f7ef8d2c-c3cf-4411-aa4c-2abe0346f4d6/scratchpad/uk/desktop-original.docx",
+  "source_sha256": "f623507e87bb19edc72d618301629fc7a626c2d2b02f79bf54b11cba9a724ea4",
+  "language": "uk",
+  "format": "docx",
+  "source_units": 1204,
+  "source_units_including_blank": 1204,
+  "nonempty_source_units": 1204,
+  "blank_source_units": 0,
+  "source_unit_kind": "docx_body_paragraph",
+  "anchor_numbering": "p is 1-based and includes blank units; existing offsets are unchanged",
+  "mechanical_coverage": {
+    "scope": "configured_patterns_in_extracted_body_only",
+    "scanned_source_units": 1204,
+    "scanned_nonempty_source_units": 1204
+  },
+  "reading_coverage": {
+    "status": "not_assessed_by_this_tool",
+    "reviewed_nonempty_source_units": null
+  },
+  "extraction_flags": {
+    "tbl": 0,
+    "drawing": 0,
+    "txbxContent": 0,
+    "footnoteReference": 0,
+    "endnoteReference": 0,
+    "excluded_parts": [
+      "word/header1.xml",
+      "word/footer1.xml"
+    ]
+  },
+  "scope": "All extracted body units; selected contextual patterns only, no semantic proof or layout review.",
+  "findings": [
+    {
+      "rule": "back_redundancy",
+      "category": "repetition",
+      "p": 769,
+      "start": 3,
+      "end": 18,
+      "quote": "повернули назад",
+      "context": "Ми повернули назад — до воріт, до нижнього ярусу, до того, кого я відпустив із милості й залишив із порожнім автоматом, не знаючи, що за пів години з лишком страх устигає знайти новий швидше, ніж людина — новий вихід.",
+      "note": "Перевірити функцію назад: зайве дублювання, просторовий напрям чи навмисне посилення.",
+      "decision": "unresolved"
+    }
+  ],
+  "unresolved_signals": 1,
+  "result": "signals_require_review",
+  "grammar_check": "not_run",
+  "literary_quality": "not_established",
+  "automatic_rewriting": false
+}
