@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "ruleset": "uk-naturalness-1.2",
+  "source": "/home/alexi/books/riokka/books/book-01/editions/uk/final-2026-09-16/manuscript.txt",
+  "source_sha256": "8b8d5b55506965cc71adcdc6f654735d28c2a06004d25a82d4628dd187fc90eb",
+  "language": "uk",
+  "format": "text",
+  "source_units": 2393,
+  "source_units_including_blank": 2393,
+  "nonempty_source_units": 1197,
+  "blank_source_units": 1196,
+  "source_unit_kind": "physical_text_line",
+  "anchor_numbering": "p is 1-based and includes blank units; existing offsets are unchanged",
+  "mechanical_coverage": {
+    "scope": "configured_patterns_in_extracted_body_only",
+    "scanned_source_units": 2393,
+    "scanned_nonempty_source_units": 1197
+  },
+  "reading_coverage": {
+    "status": "not_assessed_by_this_tool",
+    "reviewed_nonempty_source_units": null
+  },
+  "extraction_flags": {},
+  "scope": "All extracted body units; selected contextual patterns only, no semantic proof or layout review.",
+  "findings": [
+    {
+      "rule": "back_redundancy",
+      "category": "repetition",
+      "p": 1527,
+      "start": 3,
+      "end": 18,
+      "quote": "повернули назад",
+      "context": "Ми повернули назад — до воріт, до нижнього ярусу, до того, кого я відпустив із милосердя, не знаючи, що милосердя не розряджає чужого страху, а лише ще тугіше його зводить і залишає чекати.",
+      "note": "Перевірити функцію назад: зайве дублювання, просторовий напрям чи навмисне посилення.",
+      "decision": "retained_with_reason",
+      "reason": "Напрямок руху назад тим самим маршрутом («до воріт, до нижнього ярусу…»), авторське просторове підсилення"
+    }
+  ],
+  "unresolved_signals": 0,
+  "result": "no_unresolved_configured_signals",
+  "grammar_check": "not_run",
+  "literary_quality": "not_established",
+  "automatic_rewriting": false
+}
