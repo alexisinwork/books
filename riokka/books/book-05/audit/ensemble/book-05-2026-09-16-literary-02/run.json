@@ -4,7 +4,7 @@
   "project_id": "riokka",
   "book_id": "book-05",
   "created_at": "2026-09-16T19:52:30+00:00",
-  "status": "prepared",
+  "status": "diagnosis_in_progress",
   "language": "uk",
   "required_diagnoses": [
     "astra",
@@ -42,8 +42,9 @@
     },
     "gemini_flash": {
       "file": "gemini-flash-diagnosis.md",
-      "status": "draft",
-      "sha256": null
+      "status": "locked",
+      "sha256": "5f2781d83956b4aad4fd9cad9dfad555a001a67d06053919513c48d27a85223d",
+      "locked_at": "2026-09-16T20:06:04+00:00"
     },
     "gemini": {
       "file": "gemini-blind-read.md",
