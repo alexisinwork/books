@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "book_id": "book-04",
+  "edition_id": "uk-final-2026-09-16",
+  "language": "uk",
+  "title": "Почерк без імені",
+  "sources": [
+    {
+      "name": "Riokka_4_UK_draft_01.txt",
+      "sha256": "3a1a2c4037f9624cbb6bd223bf46dab801e5efda1e6956974a043d33951c8038",
+      "role": "initial_draft"
+    },
+    {
+      "name": "Riokka_4_UK_literary_02.txt",
+      "sha256": "490cc8675a7052b304b0d464ff6835f5429d79e4ff8404fa8bf2ae79a47e61d4",
+      "role": "gemini_literary_revision"
+    },
+    {
+      "name": "Riokka_4_UK_literary_edit_02.txt",
+      "sha256": "75642a5779a89cf4222b570cb95205b242d78c93dd1e5e0ba3244dfed6193836",
+      "role": "editorial_base_02"
+    },
+    {
+      "name": "Riokka_4_UK_final_03 (1).txt",
+      "sha256": "f52c44db35c537552178e7049f08dc856a8101cc949b3dad5c1d78485bebe81e",
+      "role": "desktop_variant_candidate"
+    }
+  ],
+  "target_txt_file": "manuscript.txt",
+  "target_txt_sha256": "7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e",
+  "target_docx_file": "manuscript.docx",
+  "decisions_file": "Riokka_4_UK_final_03_decisions.md",
+  "decisions_sha256": "2ca4f44ea6b3c11b0a0d93cf3d7966396d9fedf26420641face7f9203aba11fc",
+  "desktop_txt": "C:/Users/alexi/Desktop/Riokka_4_UK_final_03.txt",
+  "desktop_docx": "C:/Users/alexi/Desktop/Riokka_4_UK_final_03.docx",
+  "desktop_decisions": "C:/Users/alexi/Desktop/Riokka_4_UK_final_03_decisions.md",
+  "total_chapters": 61,
+  "epilogues": 3,
+  "nonempty_paragraphs": 1017,
+  "total_lines": 2028,
+  "lexical_tokens": 36547,
+  "status": "final_consolidated_edition",
+  "role": "Author and editorial consolidation of Gemini review, language fixes, and 27 continuity decisions",
+  "qa_status": {
+    "language_qa": "passed",
+    "uk_naturalness": "passed",
+    "unresolved_signals": 0
+  }
+}

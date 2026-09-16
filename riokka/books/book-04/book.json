@@ -3,17 +3,50 @@
   "project_id": "riokka",
   "book_id": "book-04",
   "title": "Почерк без имени",
+  "title_uk": "Почерк без імені",
   "book_type": "fiction",
-  "stage": "manuscript_received",
+  "stage": "final_edition_consolidated",
   "master": {
     "path": "manuscript/master.md",
     "format": "text",
     "sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553",
-    "status": "candidate",
-    "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена"
+    "status": "legacy_russian_reference",
+    "authority": "Найденный исходный русский файл тома 4"
+  },
+  "canonical_ua_master": {
+    "path": "editions/uk/final-2026-09-16/manuscript.txt",
+    "format": "text",
+    "sha256": "7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e",
+    "status": "final_consolidated_master",
+    "authority": "Сводная редакция 03 с утверждёнными авторскими решениями",
+    "decisions_file": "editions/uk/final-2026-09-16/Riokka_4_UK_final_03_decisions.md",
+    "docx": "editions/uk/final-2026-09-16/manuscript.docx",
+    "total_chapters": 61,
+    "epilogues": 3,
+    "lines": 2028,
+    "paragraphs": 1017,
+    "lexical_tokens": 36547
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "inventory_only",
-  "original": "../../sources/originals/КОНТРАКТНИК-4-Почерк-без-имени.md"
+  "audit_status": "final_consolidated_edition_verified",
+  "original": "../../sources/originals/КОНТРАКТНИК-4-Почерк-без-имени.md",
+  "continuation_basis": {
+    "previous_book": "book-03",
+    "file": "../book-03/revisions/2026-09-13-expanded/revised.md",
+    "sha256": "353360345b999d66f5e12b6a5fa2d871c4e7c4a9247414a265894e6439141cdd",
+    "status": "author_selected",
+    "authority": "Прямой ответ автора «да» на вопрос об этой редакции как основе тома 4.",
+    "decision_file": "../book-03/revisions/2026-09-13-expanded/author-decisions.json",
+    "continuity": "../book-03/revisions/2026-09-13-expanded/continuity",
+    "end_state": "../book-03/revisions/2026-09-13-expanded/continuity/end-state.json",
+    "creative_development_authorized": [
+      "Рука",
+      "Ильс",
+      "работник из угрозы Орену",
+      "место передачи Данека"
+    ],
+    "instructions": "CONTINUATION-BASIS.md"
+  },
+  "next_work": "Final edition ready and verified; next steps involve proofing and potential release preparation."
 }

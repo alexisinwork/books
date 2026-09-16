@@ -7,11 +7,15 @@ from pathlib import Path
 import re
 import sys
 
-from language_qa import SNAP
+from language_qa import SNAP, source_coverage
 
-RULESET_VERSION = "uk-naturalness-1.1"
+RULESET_VERSION = "uk-naturalness-1.2"
 BOUNDARY = r"[\w’'ʼ]"
 RULES = [
+    ("pupils_as_gaze_instrument", "action_semantics",
+     r"(?:(?:по)?глян(?:ув(?:ши)?|ула|уло|ули)|(?:по)?диви(?:в(?:шись|ся)|лася|лися)|дивлячись)"
+     r"[^.!?;:\n]{0,60}\bсвоїми(?:\s+[а-яіїєґ’'ʼ-]+){0,3}\s+зіницями",
+     "Перевірити спосіб дії у сполуці погляду зі своїми зіницями. Це вузький сигнал для читання: метонімія або фантастичний образ можуть бути навмисними; не вилучати ознаку зовнішності автоматично."),
     ("enough_poza_ochi", "idiom", r"(?:вистача[\w’'ʼ]*\s+поза\s*очі|поза\s*очі\s+вистача[\w’'ʼ]*)",
      "Перевірити значення достатності проти заочності. Похвала у відгуку не підтверджує доречності сполуки; не міняти нормативне поза очі в інших контекстах."),
     ("ru_lexical_residue", "lexicon", r"(?:наверно|вообще|конечно|получається|понятно)",
@@ -71,7 +75,7 @@ def check(source, resolutions=None):
     unresolved = sum(f["decision"] == "unresolved" for f in findings)
     return {"schema_version": 1, "ruleset": RULESET_VERSION, "source": str(source),
             "source_sha256": sha, "language": "uk", "format": fmt,
-            "source_units": len(paragraphs), "extraction_flags": flags,
+            **source_coverage(paragraphs, fmt), "extraction_flags": flags,
             "scope": "All extracted body units; selected contextual patterns only, no semantic proof or layout review.",
             "findings": findings, "unresolved_signals": unresolved,
             "result": "signals_require_review" if unresolved else "no_unresolved_configured_signals",
@@ -82,7 +86,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--resolutions", type=Path)
-    parser.add_argument("--require-reviewed", action="store_true")
+    parser.add_argument("--require-reviewed", action="store_true",
+                        help="Require decisions on detected signals; does not require or certify prose reading")
     parser.add_argument("--out", type=Path)
     args = parser.parse_args()
     try:

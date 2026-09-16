@@ -37,6 +37,9 @@ class LanguageSystemTests(unittest.TestCase):
             self.assertFalse((dest / "book-system/CHANGELOG-2026-09-14.md").exists())
             for record in snapshot["files"]:
                 self.assertEqual(studio.digest(dest / "book-system" / record["path"]), record["sha256"])
+            self.assertTrue((dest / "book-system/ORCHESTRATION.md").is_file())
+            helper_paths = {record["path"] for record in snapshot["helpers"]}
+            self.assertTrue({"tools/literary_clients.py", "tools/literary_orchestrator.py"} <= helper_paths)
             for record in snapshot["helpers"]:
                 self.assertEqual(studio.digest(dest / record["path"]), record["sha256"])
                 result = subprocess.run([sys.executable, str(dest / record["path"]), "--help"],
@@ -65,6 +68,16 @@ class LanguageSystemTests(unittest.TestCase):
             result = qa.check(path, "uk")
             self.assertEqual(result["grammar_check"], "not_run")
             self.assertEqual({f["rule"] for f in result["findings"]}, {"mixed_alphabet", "russian_specific_letter"})
+
+    def test_calque_signal_respects_ukrainian_apostrophes(self):
+        qa = module("qa_apostrophe_test", ROOT / "tools/language_qa.py")
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "sample.md"
+            path.write_text("Він з'являється. Вона з’являється. Воно зʼявляється.\n"
+                            "Це являється прикладом. Він приймає участь.\n", encoding="utf-8")
+            result = qa.check(path, "uk")
+            self.assertEqual([(f["p"], f["quote"]) for f in result["findings"]],
+                             [(2, "являється"), (2, "приймає участь")])
 
 
 if __name__ == "__main__":

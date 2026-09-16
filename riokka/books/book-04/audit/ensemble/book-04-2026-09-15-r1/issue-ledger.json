@@ -1,0 +1,63 @@
+{
+  "schema_version": 2,
+  "project_id": "riokka",
+  "book_id": "book-04",
+  "run_id": "book-04-2026-09-15-r1",
+  "source_sha256": "3a1a2c4037f9624cbb6bd223bf46dab801e5efda1e6956974a043d33951c8038",
+  "final_sha256": "7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e",
+  "decisions_reference": "editions/uk/final-2026-09-16/Riokka_4_UK_final_03_decisions.md",
+  "items": [
+    {
+      "id": "book04-001",
+      "origin": ["gemini"],
+      "category": "pacing",
+      "severity": "low",
+      "confidence": "high",
+      "locations": ["Раздел 1"],
+      "observation": "Размышления героя о своей ненужности на Колде затянуты.",
+      "effect": "Замедляет вступление, оттягивает знакомство с новой проблемой.",
+      "evidence": "Gemini report: 'Размышления немного затянуты, хотелось бы быстрее перейти к сути новой проблемы.'",
+      "action_options": ["Сократить философские рассуждения.", "Оставить как есть (авторский стиль)."],
+      "dependencies": [],
+      "author_decision": {
+        "status": "modified",
+        "rationale": "Умеренно сократить повторные объяснения, сохранить сцену. Первая глава уменьшена с 887 до 821 токенов (-7.4%). Сохранены персонажи, брикет, передача соседнему куполу, отказ от денег, шутка Дживса, манифест, вызов Веды.",
+        "anchors": ["Розділ 1", "рядки 5, 13, 21, 23, 25, 31"]
+      },
+      "implementation": {
+        "status": "completed",
+        "target_file": "riokka/books/book-04/editions/uk/final-2026-09-16/manuscript.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "66 точечных правок, language_qa.py и uk_naturalness.py пройдены чисто (0 сигналов)"
+      }
+    },
+    {
+      "id": "book04-002",
+      "origin": ["gemini"],
+      "category": "believability",
+      "severity": "medium",
+      "confidence": "medium",
+      "locations": ["Раздел 14"],
+      "observation": "Слишком быстрое овладение героем четвертым словом 'розступися'.",
+      "effect": "Снижает веру в сложность 'самого живучего в обитаемом пространстве'.",
+      "evidence": "Gemini report: 'Не совсем поверил в то, что герой так легко овладел четвертым словом... это кажется слишком быстрым обучением.'",
+      "action_options": ["Добавить сцену с неудачной попыткой или бОльшим трудом.", "Оставить как есть."],
+      "dependencies": [],
+      "author_decision": {
+        "status": "modified",
+        "rationale": "Не добавлять фиктивную неудачу; реальная проверка и катастрофа от крика следуют в гл. 29-30. В гл. 4 «спи» отделено от 4-го слова. В гл. 14 отделен единичный успех от мастерства («У вас вийшло відчинити…» вместо «Ви навчилися…»).",
+        "anchors": ["Розділ 4 (153)", "Розділ 14 (469-489)"]
+      },
+      "implementation": {
+        "status": "completed",
+        "target_file": "riokka/books/book-04/editions/uk/final-2026-09-16/manuscript.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Смысловая и текстовая проверка гл. 4 и гл. 14, механические тесты пройдены"
+      }
+    }
+  ]
+}

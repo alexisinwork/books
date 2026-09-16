@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_id": "riokka",
   "book_id": "book-04",
-  "source_sha256": null,
+  "source_sha256": "3a1a2c4037f9624cbb6bd223bf46dab801e5efda1e6956974a043d33951c8038",
   "record_type": "revision-log",
   "fields": [
     "id",
@@ -13,5 +13,24 @@
     "affected_checks",
     "decision"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "rev-2026-09-15-literary-02",
+      "reason": "Литературная вычитка украинской чернетки Gemini 3.8 Flash (High)",
+      "old_source": "Riokka_4_UK_draft_01.txt (3a1a2c4037f9624cbb6bd223bf46dab801e5efda1e6956974a043d33951c8038)",
+      "new_source": "Riokka_4_UK_literary_02.txt (490cc8675a7052b304b0d464ff6835f5429d79e4ff8404fa8bf2ae79a47e61d4)",
+      "changes": "Устранение калек, русизмов, унификация разделителей ✦",
+      "affected_checks": ["language_qa", "uk_naturalness"],
+      "decision": "ready_for_author_review"
+    },
+    {
+      "id": "rev-2026-09-16-final-03",
+      "reason": "Сводная редакция 03 с решениями автора и ведущего редактора по GQ01, GQ02, языку и U001-U027",
+      "old_source": "Riokka_4_UK_literary_02.txt (490cc8675a7052b304b0d464ff6835f5429d79e4ff8404fa8bf2ae79a47e61d4)",
+      "new_source": "Riokka_4_UK_final_03.txt (7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e)",
+      "changes": "Сокращение повторов гл. 1 (-7.4% токенов), отладка гл. 4 и 14 по 4-му слову, точечные языковые правки, фиксация 27 решений непрерывности",
+      "affected_checks": ["language_qa", "uk_naturalness"],
+      "decision": "author_approved_final"
+    }
+  ]
 }

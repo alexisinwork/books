@@ -17,6 +17,33 @@ SNAP = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(SNAP)
 
 
+def source_coverage(paragraphs, fmt):
+    """Describe extraction and pattern scanning, never infer that prose was read.
+
+    Keep blank units in the legacy count and anchor numbering. In plain text,
+    ``p`` is a physical line, which need not be a literary paragraph.
+    """
+    total = len(paragraphs)
+    nonempty = sum(bool(p["text"].strip()) for p in paragraphs)
+    return {
+        "source_units": total,  # Compatibility alias; includes blank units.
+        "source_units_including_blank": total,
+        "nonempty_source_units": nonempty,
+        "blank_source_units": total - nonempty,
+        "source_unit_kind": "physical_text_line" if fmt == "text" else "docx_body_paragraph",
+        "anchor_numbering": "p is 1-based and includes blank units; existing offsets are unchanged",
+        "mechanical_coverage": {
+            "scope": "configured_patterns_in_extracted_body_only",
+            "scanned_source_units": total,
+            "scanned_nonempty_source_units": nonempty,
+        },
+        "reading_coverage": {
+            "status": "not_assessed_by_this_tool",
+            "reviewed_nonempty_source_units": None,
+        },
+    }
+
+
 def check(source, language, exceptions=None):
     source = Path(source)
     sha = hashlib.sha256(source.read_bytes()).hexdigest()
@@ -35,7 +62,7 @@ def check(source, language, exceptions=None):
     rules = [("mixed_alphabet", r"[A-Za-zА-Яа-яЁёІіЇїЄєҐґ]+", "Mixed Latin/Cyrillic token: inspect names and intentional notation.")]
     if language == "uk":
         rules += [("russian_specific_letter", r"[ЫыЭэЁёЪъ]", "Inspect source-language residue or intentional quotation."),
-                  ("possible_calque", r"(?i)\b(?:прийма[\w’'ʼ]*\s+участь|на\s+протязі|являється)\b", "Context-dependent usage signal, not an automatic error.")]
+                  ("possible_calque", r"(?i)(?<![\w’'ʼ])(?:прийма[\w’'ʼ]*\s+участь|на\s+протязі|являється)(?![\w’'ʼ])", "Context-dependent usage signal, not an automatic error.")]
     elif language == "en":
         rules += [("cyrillic_in_english", r"[А-Яа-яЁёІіЇїЄєҐґ]+", "Inspect untranslated material or intentional quotation.")]
     findings, excluded = [], []
@@ -51,7 +78,8 @@ def check(source, language, exceptions=None):
                 (excluded if exception else findings).append({**entry, **({"reason": exception["reason"]} if exception else {})})
     return {"source": str(source), "source_sha256": sha, "language": language, "format": fmt,
             "scope": "All extracted body units; no layout or linguistic proof of naturalness", "extraction_flags": flags,
-            "source_units": len(paragraphs), "lexical_tokens": sum(len(SNAP.WORD.findall(p["text"])) for p in paragraphs),
+            **source_coverage(paragraphs, fmt),
+            "lexical_tokens": sum(len(SNAP.WORD.findall(p["text"])) for p in paragraphs),
             "result": "signals_found" if findings else "no_configured_signals", "findings": findings,
             "documented_exceptions": excluded, "literary_review": "not_run", "grammar_check": "not_run"}
 
