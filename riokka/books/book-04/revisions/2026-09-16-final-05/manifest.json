@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-04",
+  "revision_id": "2026-09-16-final-05",
+  "title": "Почерк без імені — украинская финальная редакция 05",
+  "language": "uk",
+  "date": "2026-09-16",
+  "role": "opus_final_literary_revision",
+  "status": "final_candidate_for_author_review",
+  "authority": "Сделано по прямому поручению автора 16.09.2026. Мастер тома в book.json не переназначен.",
+  "author_decision": "Бери все рекомендации, и всё, что можно и нужно сделать в 4 томе, делай. Том 5 не каноничен, то была рабочая версия. И перевыдай финальную версию тома 4.",
+  "version_chain": [
+    {
+      "file": "archive/Riokka_4_UK_final_03.txt",
+      "sha256": "7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e",
+      "role": "базис, не изменён"
+    },
+    {
+      "file": "archive/Riokka_4_UK_final_04.txt",
+      "sha256": "203bb0797a0e682a2ba3cbb6b2a6242616b54adc9392ebd62b7cad9a53660125",
+      "role": "промежуточная, не изменена"
+    },
+    {
+      "file": "Riokka_4_UK_final_05.txt",
+      "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+      "role": "результат"
+    }
+  ],
+  "result": {
+    "file": "Riokka_4_UK_final_05.txt",
+    "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+    "docx": "Riokka_4_UK_final_05.docx"
+  },
+  "operations": {
+    "total": 71,
+    "round_04": 51,
+    "round_05": 20,
+    "language": 19,
+    "prose": 11,
+    "finale_setup": 23,
+    "canon_continuity": 18,
+    "uniqueness_checked": true
+  },
+  "structure": {
+    "chapters": 61,
+    "epilogues": 3,
+    "scene_breaks": 71,
+    "nonempty_units_before": 1017,
+    "nonempty_units_after": 1043,
+    "lexical_tokens_before": 36547,
+    "lexical_tokens_after": 38213
+  },
+  "closed_in_this_revision": [
+    "U001/B34-01",
+    "U004",
+    "U013",
+    "B34-06",
+    "name collision Поля"
+  ],
+  "still_open": [
+    "B45-05 — грамматический род руки в эпилогах, ждёт слова автора",
+    "число 52 подтверждённых мира — новый факт мира, введён по поручению"
+  ],
+  "checks": {
+    "language_qa": "no_configured_signals",
+    "uk_naturalness": "no_unresolved_configured_signals",
+    "docx_extraction_vs_txt": "1043/1043, 0 mismatches",
+    "languagetool": "not_run_version_unavailable",
+    "gemini_flash": "not_run",
+    "gemini_pro_blind_read": "not_run",
+    "literary_cycle_complete": false,
+    "publication_clearance": false
+  },
+  "volume_05_status": "not_canonical_working_version_per_author_16_09_2026",
+  "files": {
+    "Riokka_4_UK_final_05.docx": {
+      "sha256": "f9495d81f519ea8748103eaf97433633177921ee3c66fb6b9f32e46d15c484f2",
+      "bytes": 162539
+    },
+    "Riokka_4_UK_final_05.txt": {
+      "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+      "bytes": 424507
+    },
+    "apply_revision_04.py": {
+      "sha256": "19613588f5124bc93566eae14e39bde875bfcc5bc0b3e69dada8218ecd560a24",
+      "bytes": 61259
+    },
+    "apply_revision_05.py": {
+      "sha256": "0d71ec6b46d31025decf885821d10e4381de276b3fedd691abcc77c842fe23d6",
+      "bytes": 22902
+    },
+    "archive/Riokka_4_UK_final_03.txt": {
+      "sha256": "7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e",
+      "bytes": 407117
+    },
+    "archive/Riokka_4_UK_final_04.txt": {
+      "sha256": "203bb0797a0e682a2ba3cbb6b2a6242616b54adc9392ebd62b7cad9a53660125",
+      "bytes": 418702
+    },
+    "archive/БУЛО-СТАЛО-04.md": {
+      "sha256": "76669f617ac475efaa735cdc1126466eda3293155879db7df4cc54ef0f2d04ae",
+      "bytes": 48520
+    },
+    "archive/ВОПРОСЫ-АВТОРУ-04.md": {
+      "sha256": "1a1c5ae5c37fcedd8684cb9d10de7f9a68f13d81c68f74e5cc88ee134418b187",
+      "bytes": 11525
+    },
+    "archive/РЕШЕНИЯ-04.md": {
+      "sha256": "810bf52a1186173854cb0041233ddf2413464d5a1cef7fe91d2ae2a4c47031c1",
+      "bytes": 19066
+    },
+    "audit-language-qa.json": {
+      "sha256": "df64c135e2636a919d3cf28268a176f581efaedee289aa32cc75c9b9d3ca7769",
+      "bytes": 1073
+    },
+    "audit-uk-naturalness.json": {
+      "sha256": "6959ec44adf817c1325de3e2f6b8925e95dbf1da9a31a99b08a27ab0d57f4c58",
+      "bytes": 1178
+    },
+    "changes-04.json": {
+      "sha256": "15a77687ca21c50c800a2b92fd0ae0674aa1a8a061512eef1505781718d22705",
+      "bytes": 48647
+    },
+    "changes-05.json": {
+      "sha256": "91d76c2b872795af50d6f47129ecf55a4af02f4b16b76b6c2189cfaf3752b514",
+      "bytes": 23771
+    },
+    "changes.diff": {
+      "sha256": "0d1e458ba538537adb3f8e02dd567c469c6a1e489e8f1cc657d2393b5585e160",
+      "bytes": 146677
+    },
+    "БУЛО-СТАЛО.md": {
+      "sha256": "621a2111615e3fa8c9e198b5c4e46ff7b701e33a18bb7ab4afb9932791051b0b",
+      "bytes": 73638
+    },
+    "ВОПРОСЫ-СТАТУС.md": {
+      "sha256": "7cb63ba26eaee9c6cef4f929ebfec290fec0eef1f1fcd9dba7b0a3ff1c1123f8",
+      "bytes": 6830
+    },
+    "РЕШЕНИЯ.md": {
+      "sha256": "8549b4692ce561e8698185bb796bcb4c9849df5a913e848067abb6af94fb5426",
+      "bytes": 20545
+    }
+  }
+}
