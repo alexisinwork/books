@@ -20,7 +20,10 @@
       "old_source": "Riokka_4_UK_draft_01.txt (3a1a2c4037f9624cbb6bd223bf46dab801e5efda1e6956974a043d33951c8038)",
       "new_source": "Riokka_4_UK_literary_02.txt (490cc8675a7052b304b0d464ff6835f5429d79e4ff8404fa8bf2ae79a47e61d4)",
       "changes": "Устранение калек, русизмов, унификация разделителей ✦",
-      "affected_checks": ["language_qa", "uk_naturalness"],
+      "affected_checks": [
+        "language_qa",
+        "uk_naturalness"
+      ],
       "decision": "ready_for_author_review"
     },
     {
@@ -29,8 +32,36 @@
       "old_source": "Riokka_4_UK_literary_02.txt (490cc8675a7052b304b0d464ff6835f5429d79e4ff8404fa8bf2ae79a47e61d4)",
       "new_source": "Riokka_4_UK_final_03.txt (7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e)",
       "changes": "Сокращение повторов гл. 1 (-7.4% токенов), отладка гл. 4 и 14 по 4-му слову, точечные языковые правки, фиксация 27 решений непрерывности",
-      "affected_checks": ["language_qa", "uk_naturalness"],
+      "affected_checks": [
+        "language_qa",
+        "uk_naturalness"
+      ],
       "decision": "author_approved_final"
+    },
+    {
+      "id": "rev-2026-09-16-final-04",
+      "reason": "Поручение автора: последняя и полная литературная редакция тома и подготовка его к развязке всей серии. Опус прочитал том 5 целиком и привёл том 4 к тому состоянию, в котором финал опирается на посеянное здесь.",
+      "old_source": "Riokka_4_UK_final_03.txt (7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e)",
+      "new_source": "Riokka_4_UK_final_04.txt (203bb0797a0e682a2ba3cbb6b2a6242616b54adc9392ebd62b7cad9a53660125)",
+      "changes": "51 точечная операция: 19 языковых (в т.ч. унификация поросль/порослю в 11 местах, печаткою, предлог после Кенари), 9 прозаических (возврат смысла, утраченного при сокращении гл. 1; граница знания в гл. 12; носитель действия в гл. 20, 36, 43), 23 на стык с томом 5 (семь правил и затёртая седьмая строка; три приметы почерка, включая почерк самого Кая у Веды; термос Лада на борту; третий выход руки в Эпилоге II; четвёртая в Эпилоге III; «по одному слышнее»; прощание Джулии вслух; опись в договоре с Архивом). Структура не тронута: 61 раздел, 3 эпилога, 71 граница сцен.",
+      "affected_checks": [
+        "language_qa",
+        "uk_naturalness",
+        "docx_extraction",
+        "end-state",
+        "promises",
+        "motifs"
+      ],
+      "decision": "candidate_for_author_review",
+      "revision_dir": "revisions/2026-09-16-final-04",
+      "read_for_this_revision": [
+        {
+          "file": "../book-05/manuscript/master.md",
+          "sha256": "07d5cfcb5f9b1e74c139ef00a2bc15b579631cc33cba8c536f2b651325234fda",
+          "status": "found_candidate_not_author_assigned_master"
+        }
+      ],
+      "blocking_question": "В1 — столкновение томов 4 и 5 по смерти Лада и природе Светлояра (ВОПРОСЫ-АВТОРУ.md)"
     }
   ]
 }

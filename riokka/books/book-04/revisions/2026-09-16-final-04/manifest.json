@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "project_id": "riokka",
+  "book_id": "book-04",
+  "revision_id": "2026-09-16-final-04",
+  "title": "Почерк без імені — украинская редакция 04, окончательная литературная",
+  "language": "uk",
+  "date": "2026-09-16",
+  "role": "opus_literary_revision_and_series_handoff",
+  "status": "candidate_for_author_review",
+  "authority": "Рабочая редакция. Мастер тома в book.json не переназначен.",
+  "source": {
+    "file": "archive/Riokka_4_UK_final_03.txt",
+    "sha256": "7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e",
+    "unchanged": true
+  },
+  "result": {
+    "file": "Riokka_4_UK_final_04.txt",
+    "sha256": "203bb0797a0e682a2ba3cbb6b2a6242616b54adc9392ebd62b7cad9a53660125",
+    "docx": "Riokka_4_UK_final_04.docx"
+  },
+  "read_for_this_revision": [
+    {
+      "file": "archive/Riokka_4_UK_final_03.txt",
+      "sha256": "7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e",
+      "coverage": "1017/1017 непустых единиц"
+    },
+    {
+      "file": "../../../book-05/manuscript/master.md",
+      "sha256": "07d5cfcb5f9b1e74c139ef00a2bc15b579631cc33cba8c536f2b651325234fda",
+      "coverage": "2288/2288 строк",
+      "status": "found_candidate_not_author_assigned_master"
+    },
+    {
+      "file": "../../manuscript/master.md",
+      "sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553",
+      "coverage": "выборочно: Лад, Светлояр, эпилоги, семь правил"
+    }
+  ],
+  "operations": {
+    "total": 51,
+    "language": 19,
+    "prose": 9,
+    "series_handoff": 23,
+    "uniqueness_checked": true
+  },
+  "structure": {
+    "chapters": 61,
+    "epilogues": 3,
+    "scene_breaks": 71,
+    "nonempty_units_before": 1017,
+    "nonempty_units_after": 1036,
+    "lexical_tokens_before": 36547,
+    "lexical_tokens_after": 37647
+  },
+  "checks": {
+    "language_qa": "no_configured_signals",
+    "uk_naturalness": "no_unresolved_configured_signals",
+    "docx_extraction_vs_txt": "1036/1036, 0 mismatches",
+    "languagetool": "not_run_version_unavailable",
+    "gemini_flash": "not_run",
+    "gemini_pro_blind_read": "not_run",
+    "literary_cycle_complete": false,
+    "publication_clearance": false
+  },
+  "open_questions": "ВОПРОСЫ-АВТОРУ.md — 8 пунктов, блокирующий В1 (Лад/Светлояр, столкновение томов 4 и 5)",
+  "unresolved_issues": [
+    "B34-01",
+    "B34-06",
+    "U001",
+    "U004",
+    "U013"
+  ],
+  "files": {
+    "Riokka_4_UK_final_04.docx": {
+      "sha256": "6287b2e6ee9c1556be97ecd664647028ec3e54af9a92f98f5ccfda796d5e2659",
+      "bytes": 160839
+    },
+    "Riokka_4_UK_final_04.txt": {
+      "sha256": "203bb0797a0e682a2ba3cbb6b2a6242616b54adc9392ebd62b7cad9a53660125",
+      "bytes": 418702
+    },
+    "apply_revision.py": {
+      "sha256": "19613588f5124bc93566eae14e39bde875bfcc5bc0b3e69dada8218ecd560a24",
+      "bytes": 61259
+    },
+    "archive/Riokka_4_UK_final_03.txt": {
+      "sha256": "7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e",
+      "bytes": 407117
+    },
+    "audit-language-qa.json": {
+      "sha256": "137d6d0304b7eaabf874db49296a4fdf0c49d32541e29fee0271b644c7175340",
+      "bytes": 1073
+    },
+    "audit-uk-naturalness.json": {
+      "sha256": "479d1ab143eb7cd67b61566161fd21a3bcfed9348a422de376981421669d5dc5",
+      "bytes": 1178
+    },
+    "changes.diff": {
+      "sha256": "f2d69493c65ab24637558379904e1ef99ec5c2d2f595246fb5b68990acad323e",
+      "bytes": 109399
+    },
+    "changes.json": {
+      "sha256": "15a77687ca21c50c800a2b92fd0ae0674aa1a8a061512eef1505781718d22705",
+      "bytes": 48647
+    },
+    "verification.md": {
+      "sha256": "f18926a88b75926d358c7ea2a67e82d069a324801d2785f18a1b759b839633b6",
+      "bytes": 5901
+    },
+    "БУЛО-СТАЛО.md": {
+      "sha256": "76669f617ac475efaa735cdc1126466eda3293155879db7df4cc54ef0f2d04ae",
+      "bytes": 48520
+    },
+    "ВОПРОСЫ-АВТОРУ.md": {
+      "sha256": "1a1c5ae5c37fcedd8684cb9d10de7f9a68f13d81c68f74e5cc88ee134418b187",
+      "bytes": 11525
+    },
+    "РЕШЕНИЯ.md": {
+      "sha256": "dde403426195235bfa6f888f37a8b59ad13d759da41241141795c2e2d629ab80",
+      "bytes": 19066
+    }
+  }
+}
