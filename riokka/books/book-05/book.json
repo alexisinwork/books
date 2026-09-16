@@ -9,11 +9,29 @@
     "path": "manuscript/master.md",
     "format": "text",
     "sha256": "07d5cfcb5f9b1e74c139ef00a2bc15b579631cc33cba8c536f2b651325234fda",
-    "status": "candidate",
-    "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена"
+    "status": "non_canonical_working_version",
+    "authority": "Автор 16.09.2026: «том 5 не каноничен, то была рабочая версия». Файл сохраняется как рабочий материал, не как назначенный мастер."
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
   "audit_status": "inventory_only",
-  "original": "../../sources/originals/КОНТРАКТНИК-5-Тот-кого-читают.md"
+  "original": "../../sources/originals/КОНТРАКТНИК-5-Тот-кого-читают.md",
+  "continuation_basis": {
+    "previous_book": "book-04",
+    "file": "../book-04/editions/uk/canonical-2026-09-16/manuscript.txt",
+    "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+    "language": "uk",
+    "status": "author_assigned_canonical_master",
+    "authority": "Автор 16.09.2026 назначил эту редакцию каноническим мастером тома 4. Финал серии пишется от неё.",
+    "end_state": "../book-04/end-state.json",
+    "promises": "../book-04/promises.json",
+    "motifs": "../book-04/motifs.json",
+    "series_facts": "../../series/canon.json",
+    "must_not_contradict": [
+      "RIOKKA-LAD-SVITLOYAR",
+      "RIOKKA-WILD-SPREAD-SCALE",
+      "RIOKKA-WILD-TRANSMISSION-LIMITS",
+      "RIOKKA-POLYA-IS-TEIS-DAUGHTER"
+    ]
+  }
 }

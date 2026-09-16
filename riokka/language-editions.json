@@ -122,9 +122,18 @@
         "sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553",
         "status": "candidate"
       },
-      "ua_canonical_master": null,
-      "canonical_promotion": "not_performed",
-      "legacy_migration_prepared": false
+      "ua_canonical_master": {
+        "path": "books/book-04/editions/uk/canonical-2026-09-16/manuscript.txt",
+        "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+        "format": "text",
+        "status": "final_canonical_master",
+        "docx": "books/book-04/editions/uk/canonical-2026-09-16/manuscript.docx",
+        "docx_sha256": "f9495d81f519ea8748103eaf97433633177921ee3c66fb6b9f32e46d15c484f2",
+        "authority": "Прямое решение автора 16.09.2026: сделать эту версию каноничной для тома 4, мастером."
+      },
+      "canonical_promotion": "performed_2026-09-16",
+      "legacy_migration_prepared": true,
+      "note": "Русский master.md сохранён с неизменным хешем как legacy-источник; авторитетным текстом тома назначен украинский канонический мастер."
     },
     {
       "book_id": "book-05",

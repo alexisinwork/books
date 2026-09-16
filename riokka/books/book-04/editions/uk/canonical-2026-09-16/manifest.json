@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "book_id": "book-04",
+  "edition_id": "uk-canonical-2026-09-16",
+  "language": "uk",
+  "title": "Почерк без імені",
+  "title_ru": "Почерк без имени",
+  "supersedes_edition": {
+    "edition_id": "uk-final-2026-09-16",
+    "path": "editions/uk/final-2026-09-16",
+    "sha256": "7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e",
+    "note": "Издание редакции 03. Сохранено без изменений; не переписано этим назначением."
+  },
+  "sources": [
+    {
+      "name": "Riokka_4_UK_final_05.txt",
+      "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+      "role": "final_literary_revision_05",
+      "path": "../../../revisions/2026-09-16-final-05/Riokka_4_UK_final_05.txt"
+    },
+    {
+      "name": "Riokka_4_UK_final_03.txt",
+      "sha256": "7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e",
+      "role": "previous_redaction_unchanged"
+    },
+    {
+      "name": "КОНТРАКТНИК-4-Почерк-без-имени.md",
+      "sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553",
+      "role": "ru_legacy_source_master",
+      "path": "../../../manuscript/master.md"
+    }
+  ],
+  "target_txt_file": "manuscript.txt",
+  "target_txt_sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+  "target_docx_file": "manuscript.docx",
+  "target_docx_sha256": "f9495d81f519ea8748103eaf97433633177921ee3c66fb6b9f32e46d15c484f2",
+  "total_chapters": 61,
+  "epilogues": 3,
+  "chapter_units_detected": 64,
+  "scene_breaks": 71,
+  "nonempty_lines": 1043,
+  "total_lines": 2081,
+  "nonempty_body_paragraphs": 978,
+  "lexical_tokens_snapshot": 37890,
+  "lexical_tokens_language_qa": 38213,
+  "token_count_note": "Счётчики считают разное: снапшот берёт только абзацы тела (978), language_qa — все непустые единицы, включая заголовки и разделители (1043). Оба привязаны к одному SHA.",
+  "status": "final_canonical_edition",
+  "role": "Канонічний український майстер тому 4, призначений автором 16.09.2026",
+  "authority": "Пряме рішення автора 16.09.2026: «зроби цю версію канонічною для тому 4, майстром».",
+  "qa_status": {
+    "language_qa": "passed",
+    "uk_naturalness": "passed",
+    "unresolved_signals": 0,
+    "docx_extraction_vs_txt": "1043/1043, 0 mismatches",
+    "languagetool": "not_run_version_unavailable",
+    "gemini_flash": "not_run",
+    "gemini_pro_blind_read": "not_run",
+    "literary_cycle_complete": false
+  },
+  "open_after_promotion": [
+    "B45-05 — граматичний рід руки в епілогах",
+    "B45-06 — число 52 підтверджених світів"
+  ]
+}

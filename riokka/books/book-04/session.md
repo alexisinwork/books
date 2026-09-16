@@ -43,7 +43,7 @@
 - **Непрерывность и сюжет (U001–U027):** Зафиксированы пределы источников (U001, U004, U013); внесены необходимые уточнения (U002, U003, U005, U008, U010, U014, U015, U016, U018, U019, U021, U022, U024, U026, строка 1964); сохранены аутентичные поступки персонажей (U006, U009, U012, U017, U020).
 
 Артефакты редакции в репозитории:
-- `riokka/books/book-04/editions/uk/final-2026-09-16/` (`manuscript.txt`, `manuscript.docx`, `Riokka_4_UK_final_03.txt`, `Riokka_4_UK_final_03 (1).txt`, `Riokka_4_UK_final_03_decisions.md`, `manifest.json`, `changes.diff`, `БЫЛО-СТАЛО.md`).
+- `riokka/books/book-04/editions/uk/canonical-2026-09-16/` (`manuscript.txt`, `manuscript.docx`, `Riokka_4_UK_final_03.txt`, `Riokka_4_UK_final_03 (1).txt`, `Riokka_4_UK_final_03_decisions.md`, `manifest.json`, `changes.diff`, `БЫЛО-СТАЛО.md`).
 - `riokka/books/book-04/manuscript/UK_final_03.md`.
 - `riokka/books/book-04/audit/ensemble/book-04-2026-09-15-r1/` (`author-decisions.md`, `issue-ledger.json`).
 - Копия форматированного DOCX на рабочем столе автора: `C:\Users\alexi\Desktop\Riokka_4_UK_final_03.docx`.
@@ -121,3 +121,42 @@ target-only чтение нового SHA не проводилось. Публ�
 и Gemini 3.1 Pro не запускались, `agy CLI` не вызывался, изолированного
 target-only чтения нового SHA не было. Публикационного допуска нет; мастер в
 `book.json` не переназначен.
+
+## Канонический мастер назначен — 16.09.2026
+
+Прямое решение автора: «сделай эту версию каноничной для тома 4, мастером».
+
+**Авторитетный текст тома:** `editions/uk/canonical-2026-09-16/manuscript.txt`,
+SHA-256 `94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d`.
+Побайтово равен редакции 05; текст при назначении канона не правился.
+
+- `book.json`: добавлен `canonical_ua_master` со статусом `final_canonical_master`;
+  поле `authoritative_text` указывает на него; `stage` = `canonical_master_assigned`.
+- Русский `manuscript/master.md` сохранён **с неизменным хешем** и помечен
+  `ru_source_master_legacy` — он больше не рабочий мастер, но остаётся
+  legacy-источником по языковой политике от 14.09.2026.
+- Создано издание `editions/uk/canonical-2026-09-16/`: `manuscript.txt`,
+  `manuscript.docx` (SHA-256 `f9495d81…`), `manifest.json` по образцу тома 1.
+- `derived/manuscript.txt` и `derived/snapshot.json` перегенерированы от канона
+  через `skills/ru-book-auditor/scripts/book_snapshot.py`. Снапшот: 64 главных
+  единицы (61 раздел + 3 эпилога), 978 абзацев тела, 37 890 лексических токенов
+  по его счётчику (у `language_qa` 38 213 — он считает и заголовки с
+  разделителями; оба привязаны к одному SHA).
+- `series/canon.json`: зафиксированы четыре факта, установленные каноническим
+  томом, — смерть Лада и состояние Светлояра, масштаб распространения (52 мира),
+  пределы передачи через дикое, разведение Поли и Ліски.
+- `series/book-matrix.md`, `language-editions.json`, `manuscript/README.md`
+  обновлены. В `books/book-05/book.json` записан `continuation_basis` на этот
+  канон и статус найденного файла — `non_canonical_working_version`.
+
+**Назначение канона не равно допуску к публикации.** Литературный цикл по
+`BOOK_SYSTEM/REVIEW.md` по-прежнему не завершён: выполнен только проход Opus,
+отчёты Gemini 3.8 Flash и Gemini 3.1 Pro не запускались, изолированного
+target-only чтения нового SHA не было.
+
+Открыто: B45-05 (грамматический род руки в эпилогах) и B45-06 (число 52).
+
+**Примечание к пути издания.** Каталог `editions/uk/final-2026-09-16/` уже был
+занят изданием редакции 03 (SHA `7bad304a…`). Канонический мастер положен в
+отдельный каталог `editions/uk/canonical-2026-09-16/`; прежнее издание сохранено
+без изменений и указано в `book.json` как `canonical_ua_master.supersedes_edition`.
