@@ -13,5 +13,24 @@
     "affected_checks",
     "decision"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "2026-09-16-literary-02",
+      "reason": "Автор надав український DOCX для підготовки книги 5 до літературного циклу.",
+      "old_source": {
+        "path": "manuscript/master.md",
+        "sha256": "07d5cfcb5f9b1e74c139ef00a2bc15b579631cc33cba8c536f2b651325234fda",
+        "status": "non_canonical_working_version"
+      },
+      "new_source": {
+        "path": "revisions/2026-09-16-literary-02/Riokka_5_UK_literary_02.txt",
+        "sha256": "d9359db0e21fff319afdee05c50eb556f6fcbc8aa6f5cf36f728d04595a46e9e",
+        "docx": "revisions/2026-09-16-literary-02/Riokka_5_UK_literary_02.docx",
+        "docx_sha256": "204beabab029e172636b3f84bee826a70d9a206a73ce49e56447b60cd06fbbd"
+      },
+      "changes": ["Збережено DOCX без змін", "Створено текстову проєкцію для якорів і перевірок", "Підготовлено ансамблевий прогін схеми 2"],
+      "affected_checks": ["language_qa", "uk_naturalness", "ensemble_review"],
+      "decision": "candidate_for_author_review; canonical_master_not_changed"
+    }
+  ]
 }
