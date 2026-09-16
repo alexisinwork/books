@@ -28,9 +28,44 @@
         "docx": "revisions/2026-09-16-literary-02/Riokka_5_UK_literary_02.docx",
         "docx_sha256": "204beabab029e172636b3f84bee826a70d9a206a73ce49e56447b60cd06fbbd"
       },
-      "changes": ["Збережено DOCX без змін", "Створено текстову проєкцію для якорів і перевірок", "Підготовлено ансамблевий прогін схеми 2"],
-      "affected_checks": ["language_qa", "uk_naturalness", "ensemble_review"],
+      "changes": [
+        "Збережено DOCX без змін",
+        "Створено текстову проєкцію для якорів і перевірок",
+        "Підготовлено ансамблевий прогін схеми 2"
+      ],
+      "affected_checks": [
+        "language_qa",
+        "uk_naturalness",
+        "ensemble_review"
+      ],
       "decision": "candidate_for_author_review; canonical_master_not_changed"
+    },
+    {
+      "id": "2026-09-16-literary-03",
+      "reason": "Пряме доручення автора застосувати всі пропозиції незалежного діагнозу Claude Opus 5 (прогін book-05-2026-09-16-literary-02).",
+      "old_source": {
+        "path": "revisions/2026-09-16-literary-02/Riokka_5_UK_literary_02.txt",
+        "sha256": "d9359db0e21fff319afdee05c50eb556f6fcbc8aa6f5cf36f728d04595a46e9e"
+      },
+      "new_source": {
+        "path": "revisions/2026-09-16-literary-03/Riokka_5_UK_literary_03.txt",
+        "sha256": "f2c2ae1a928e4353539dd25a994acee3be19659a1782cb44f57e5ff5a01df641",
+        "docx": "revisions/2026-09-16-literary-03/Riokka_5_UK_literary_03.docx",
+        "docx_sha256": "94b52f95cbf5430d76e43ed25f488339c5bc884f73199e9fc1f5be3482d6c26a"
+      },
+      "changes": [
+        "65 адресних правок: W1–W6, V1–V5, S4, E0 — див. БЫЛО-СТАЛО.md",
+        "р. 976 «Тимкову книгу» не змінено: канон томів 1–4 підтверджує",
+        "S-C (розбіжності з реєстрами тому 4) не змінено — рішення автора"
+      ],
+      "affected_checks": [
+        "language_qa: no_configured_signals",
+        "uk_naturalness: no_unresolved_configured_signals",
+        "docx_text_roundtrip: 1841/1841",
+        "render: not_run (Word/LibreOffice недоступні)",
+        "ensemble_review: new run required"
+      ],
+      "decision": "author_instructed_revision; canonical_master_not_changed"
     }
   ]
 }
