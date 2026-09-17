@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "run_id": "book-05-2026-09-17-expanded-05-r2",
+  "project_id": "riokka",
+  "book_id": "book-05",
+  "source_sha256": "3c8a924cb1e3db91ed352a219dc5ff851c8792262fec260e699842e0044499e7",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 42,
+          "anchor": "Сумочка Тихона",
+          "quote": "щоб її не загубили при можливому перенесенні"
+        }
+      ],
+      "observation": "Близько подано дві згадки про те, що Кай виніс сумочку на корабель із тим самим мотивом.",
+      "reader_effect": "Може виникнути враження склеювання дубльованих абзаців.",
+      "evidence": "Gemini Flash навів два входження в розділі 42.",
+      "agreement": "single",
+      "proposed_actions": [
+        "Звірити два абзаци; за потреби лишити в другому тільки фізичну присутність речі."
+      ],
+      "dependencies": [
+        "textual projection check"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null,
+        "decided_at": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapter 42"
+        ],
+        "revision_sha256": null
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 34,
+          "anchor": "Розділ 34. Джулія",
+          "quote": null
+        }
+      ],
+      "observation": "Заголовок виглядає як POV-маркер, але текст іде від Кая; інші персонажні POV позначені квадратними дужками.",
+      "reader_effect": "Читач очікує голос Джулії й отримує іншу фокалізацію.",
+      "evidence": "Gemini Flash зіставив заголовок 34 з маркуванням розділів 4, 10, 23 та 7.",
+      "agreement": "single",
+      "proposed_actions": [
+        "Перевірити авторський намір; змінити заголовок або додати ясний предметний уточнювач лише за потреби."
+      ],
+      "dependencies": [
+        "author intent for chapter title"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null,
+        "decided_at": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapter 34 heading"
+        ],
+        "revision_sha256": null
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra",
+        "gemini_flash"
+      ],
+      "category": "promise",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "3, 29, 40, 48–49",
+          "anchor": "Дев’ять адрес і 109 імен",
+          "quote": null
+        }
+      ],
+      "observation": "Дев’ять адрес є ранньою обіцянкою, а фінал працює з 109 іменами та кількома маршрутами; зв’язок між ними треба зробити перевірюваним.",
+      "reader_effect": "Початкова обіцянка може здаватися розчиненою в ширшому реєстрі.",
+      "evidence": "Astra запропонувала реєстр обіцянок; Flash назвав ризик розчинення адрес.",
+      "agreement": "convergent",
+      "proposed_actions": [
+        "Скласти таблицю дев’яти адрес і фінальних статусів; не додавати пояснення без виявленої прогалини."
+      ],
+      "dependencies": [
+        "Book 5 promise register"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null,
+        "decided_at": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapters 3, 29, 40, 48–49"
+        ],
+        "revision_sha256": null
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra",
+        "gemini_flash"
+      ],
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "9, 26, 35, 46",
+          "anchor": "41 родина і 42 справи",
+          "quote": null
+        }
+      ],
+      "observation": "Два різні обліки мають близькі числа й подібний архівний контекст.",
+      "reader_effect": "Може виглядати як друкарська помилка або непомітна заміна списку.",
+      "evidence": "Flash запропонував розвести контексти; Astra назвала числа драматургічним матеріалом.",
+      "agreement": "convergent",
+      "proposed_actions": [
+        "Перевірити контекст; додати один якір тільки якщо розрізнення не читається."
+      ],
+      "dependencies": [
+        "continuity audit"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null,
+        "decided_at": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapters 9, 26, 35, 46"
+        ],
+        "revision_sha256": null
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "7, 24–25, 33, 38",
+          "anchor": "Ніж Рея",
+          "quote": null
+        }
+      ],
+      "observation": "Пізнє пояснення в 38 розділі уточнює, що ніж залишився на кораблі; перед цим його статус може бути неочевидним.",
+      "reader_effect": "У сцені сутички читач може чекати, що зброя доступна.",
+      "evidence": "Flash простежив переходи футляра й здачі зброї.",
+      "agreement": "single",
+      "proposed_actions": [
+        "Звірити переходи; за потреби додати ранню фразу про рішення не брати ніж."
+      ],
+      "dependencies": [
+        "scene continuity"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null,
+        "decided_at": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapters 24–25, 33, 38"
+        ],
+        "revision_sha256": null
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "astra",
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "42–49",
+          "anchor": "Частина VI. Для тих, хто після",
+          "quote": "через три тижні; на початку наступного місяця; через шість тижнів"
+        }
+      ],
+      "observation": "Після погодинного кризового темпу книга переходить до стрибків у днях, тижнях і місяцях.",
+      "reader_effect": "Може відчуватися як розмивання сюжетного нерва, хоча відповідає темі життя після події.",
+      "evidence": "Flash і Pro описали цей контраст; Astra просить перевірити фінальну віддачу, а не автоматично стискати її.",
+      "agreement": "convergent",
+      "proposed_actions": [
+        "Перевірити часові містки в 45–46; додати тільки коротке відчуття накопичення часу, якщо потрібно."
+      ],
+      "dependencies": [
+        "author’s desired post-crisis tempo"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null,
+        "decided_at": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapters 42–49"
+        ],
+        "revision_sha256": null
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

@@ -123,15 +123,15 @@
         "status": "candidate"
       },
       "ua_canonical_master": {
-        "path": "books/book-04/editions/uk/canonical-2026-09-16/manuscript.txt",
-        "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+        "path": "books/book-04/editions/uk/canonical-2026-09-17/manuscript.txt",
+        "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0",
         "format": "text",
         "status": "final_canonical_master",
-        "docx": "books/book-04/editions/uk/canonical-2026-09-16/manuscript.docx",
-        "docx_sha256": "f9495d81f519ea8748103eaf97433633177921ee3c66fb6b9f32e46d15c484f2",
-        "authority": "Прямое решение автора 16.09.2026: сделать эту версию каноничной для тома 4, мастером."
+        "docx": "books/book-04/editions/uk/canonical-2026-09-17/manuscript.docx",
+        "docx_sha256": "e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234",
+        "authority": "Пряме рішення автора 17.09.2026: додати Riokka_4_UK_literary_07.docx як майстер тома 4."
       },
-      "canonical_promotion": "performed_2026-09-16",
+      "canonical_promotion": "performed_2026-09-17",
       "legacy_migration_prepared": true,
       "note": "Русский master.md сохранён с неизменным хешем как legacy-источник; авторитетным текстом тома назначен украинский канонический мастер."
     },
@@ -145,9 +145,18 @@
         "sha256": "07d5cfcb5f9b1e74c139ef00a2bc15b579631cc33cba8c536f2b651325234fda",
         "status": "candidate"
       },
-      "ua_canonical_master": null,
-      "canonical_promotion": "not_performed",
-      "legacy_migration_prepared": false
+      "ua_canonical_master": {
+        "path": "books/book-05/editions/uk/canonical-2026-09-17/manuscript.txt",
+        "sha256": "838a424268fa7c044bc5eb3adc30118dbe208f0ce48c90f6ea78e0debe9acd28",
+        "format": "text",
+        "status": "final_canonical_master",
+        "docx": "books/book-05/editions/uk/canonical-2026-09-17/manuscript.docx",
+        "docx_sha256": "2288c57f66bd28a2cf282d2fea0be22e1f15411c9d8f32b96faf0dfd13e05f2e",
+        "authority": "Пряме рішення автора 17.09.2026: додати Riokka_5_UK_literary_06.docx як майстер тома 5."
+      },
+      "canonical_promotion": "performed_2026-09-17",
+      "legacy_migration_prepared": true,
+      "note": "Російський master.md збережено з незмінним хешем як legacy-джерело; авторитетним текстом тома призначено український канонічний майстер."
     }
   ],
   "current_adaptation_preparation": "translation/active-preparation.json",

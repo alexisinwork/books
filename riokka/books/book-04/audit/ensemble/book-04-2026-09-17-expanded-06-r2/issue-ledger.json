@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "run_id": "book-04-2026-09-17-expanded-06-r2",
+  "project_id": "riokka",
+  "book_id": "book-04",
+  "source_sha256": "b1f5ccd484383c5c03dff0a1621cf492891b50f855f93b552079aeb642eb2bf1",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "gemini_flash"
+      ],
+      "category": "continuity",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "30–58",
+          "anchor": "Статистика загиблих у Світлоярі",
+          "quote": "четверо загиблих: Лад і троє"
+        }
+      ],
+      "observation": "У різних згадках може бути неочевидно, чи Лад входить до четвірки, а не додається до неї.",
+      "reader_effect": "Читач, який стежить за обліком втрат, може на мить втратити арифметичну опору.",
+      "evidence": "Gemini Flash вказав на цю перевірку; Astra підтвердила, що матеріальна ціна катастрофи потребує якоря.",
+      "agreement": "single",
+      "proposed_actions": [
+        "Звірити всі згадки; за потреби додати один точний якір складу четвірки."
+      ],
+      "dependencies": [
+        "author decision on canon status of expanded revision"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null,
+        "decided_at": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapters 30, 32, 54, 58"
+        ],
+        "revision_sha256": null
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra",
+        "gemini"
+      ],
+      "category": "clarity",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": 29,
+          "anchor": "Сутичка в дренажі",
+          "quote": "Розступися!"
+        }
+      ],
+      "observation": "Просторові орієнтири й механіка збурення порослі подані достатньо для морального наслідку, але не для всіх фізичних переміщень.",
+      "reader_effect": "Читач може розуміти провину Кая, але не бачити точної послідовності рухів.",
+      "evidence": "Astra назвала це структурною перевіркою; Pro незалежно повідомив про брак фізичних деталей.",
+      "agreement": "convergent",
+      "proposed_actions": [
+        "Перевірити сцену; за потреби додати один матеріальний орієнтир без пояснювального блоку."
+      ],
+      "dependencies": [
+        "ENS-001"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null,
+        "decided_at": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapter 29"
+        ],
+        "revision_sha256": null
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra",
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "8–9, 22–23, 41–42, 51, 55, 57",
+          "anchor": "Повторювані вузли свободи, відповідальності та обліку",
+          "quote": null
+        }
+      ],
+      "observation": "Кілька пізніх і середніх блоків повторюють близьку філософську функцію; прямі повтори лексеми «полегшення» щільні в 49–55.",
+      "reader_effect": "Тематична послідовність може відчуватися як тупцювання.",
+      "evidence": "Pro назвав конкретні місця просідання; Flash вказав на лексичну щільність; Astra просить перевіряти функцію, а не механічно скорочувати голос.",
+      "agreement": "convergent",
+      "proposed_actions": [
+        "Провести функціональну звірку сцен і лексичний пошук; скорочувати тільки дублювання дії або висновку."
+      ],
+      "dependencies": [
+        "author decision on desired pacing"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null,
+        "decided_at": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapters 8–9, 22–23, 41–42, 49–57"
+        ],
+        "revision_sha256": null
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra",
+        "gemini_flash"
+      ],
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "10, 49, 52–53",
+          "anchor": "40-річний і 20-річний часові пласти",
+          "quote": null
+        }
+      ],
+      "observation": "Зв’язок між молодістю Тихона та подіями Джулії читається, але потребує перевірки віку, статусу і доступу до знання.",
+      "reader_effect": "Може виникнути коротка невпевненість щодо біографії Руки/Есквайра.",
+      "evidence": "Gemini Flash запропонував звірку; Astra окремо вимагає перевірити час розкриття фактів.",
+      "agreement": "single",
+      "proposed_actions": [
+        "Звірити timeline і knowledge; не змінювати текст без підтвердженого конфлікту."
+      ],
+      "dependencies": [
+        "book-04 continuity files"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null,
+        "decided_at": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapters 10, 49, 52–53"
+        ],
+        "revision_sha256": null
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

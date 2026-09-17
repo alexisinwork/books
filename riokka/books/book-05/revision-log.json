@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_id": "riokka",
   "book_id": "book-05",
-  "source_sha256": null,
+  "source_sha256": "2288c57f66bd28a2cf282d2fea0be22e1f15411c9d8f32b96faf0dfd13e05f2e",
   "record_type": "revision-log",
   "fields": [
     "id",
@@ -66,6 +66,38 @@
         "ensemble_review: new run required"
       ],
       "decision": "author_instructed_revision; canonical_master_not_changed"
+    },
+    {
+      "id": "canon-2026-09-17-book-05",
+      "reason": "Пряме рішення автора 17.09.2026: додати Riokka_5_UK_literary_06.docx як майстер тома 5.",
+      "old_source": {
+        "path": "manuscript/master.md",
+        "sha256": "07d5cfcb5f9b1e74c139ef00a2bc15b579631cc33cba8c536f2b651325234fda",
+        "status": "non_canonical_working_version"
+      },
+      "new_source": {
+        "path": "manuscript/master.docx",
+        "sha256": "2288c57f66bd28a2cf282d2fea0be22e1f15411c9d8f32b96faf0dfd13e05f2e",
+        "txt": "editions/uk/canonical-2026-09-17/manuscript.txt",
+        "txt_sha256": "838a424268fa7c044bc5eb3adc30118dbe208f0ce48c90f6ea78e0debe9acd28",
+        "docx": "editions/uk/canonical-2026-09-17/manuscript.docx",
+        "docx_sha256": "2288c57f66bd28a2cf282d2fea0be22e1f15411c9d8f32b96faf0dfd13e05f2e"
+      },
+      "changes": [
+        "Призначення канонічного майстра тома 5 автором з файлу Riokka_5_UK_literary_06.docx",
+        "Створено видання editions/uk/canonical-2026-09-17/ (manuscript.docx, manuscript.txt, manifest.json)",
+        "Створено derived/snapshot.json і derived/manuscript.txt (49 розділів, 6 частин, 3 коди, фінал, 3591 непорожніх абзаців)",
+        "Оновлено book.json (stage: canonical_master_assigned, canonical_ua_master, continuation_basis на новий канон тома 4)",
+        "Збережено старий російський master.md як legacy-джерело"
+      ],
+      "affected_checks": [
+        "book_snapshot",
+        "language_qa: no_configured_signals",
+        "uk_naturalness: no_unresolved_configured_signals",
+        "derived",
+        "studio_doctor"
+      ],
+      "decision": "author_assigned_canonical_master"
     }
   ]
 }

@@ -4,6 +4,190 @@
   "project_id": "riokka",
   "book_id": "book-05",
   "source_sha256": "d9359db0e21fff319afdee05c50eb556f6fcbc8aa6f5cf36f728d04595a46e9e",
-  "status": "collecting",
-  "items": []
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "claude",
+        "gemini_flash"
+      ],
+      "category": "repetition",
+      "severity": "S2",
+      "certainty": "high",
+      "locations": [
+        "Розділи 20–29"
+      ],
+      "observation": "Зведення про дев’ять адрес повторює функцію без достатньої зміни ставки.",
+      "reader_effect": "Середина кульмінаційного маршруту втрачає стиск.",
+      "evidence": "Claude W1; підтвердження повного покриття Flash.",
+      "proposed_actions": [
+        "Залишити повтор лише там, де він додає нове знання."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started"
+      },
+      "verification": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "claude",
+        "astra"
+      ],
+      "category": "rhythm",
+      "severity": "S2",
+      "certainty": "high",
+      "locations": [
+        "Розділи 43–46; Кода II"
+      ],
+      "observation": "Кілька фінальних розділів мають однакову форму відмови від остаточного закриття.",
+      "reader_effect": "Частина VI може читатися як повтор одного емоційного жесту.",
+      "evidence": "Claude W5/W6; Astra A3.",
+      "proposed_actions": [
+        "Перевірити різність дій у кінцівках; за потреби стискати локально."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started"
+      },
+      "verification": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "claude",
+        "astra"
+      ],
+      "category": "character",
+      "severity": "S2",
+      "certainty": "medium",
+      "locations": [
+        "Розділи 21–29"
+      ],
+      "observation": "Кай часто приймає виправлення межі без сцени власного опору й ціни.",
+      "reader_effect": "Вибір обмеженого доручення може здаватися наслідком повчань, а не боротьби.",
+      "evidence": "Claude W2/S-A; Astra перевірила функцію вибору.",
+      "proposed_actions": [
+        "Автору вирішити, чи потрібен один конкретний невдалий крок Кая."
+      ],
+      "dependencies": [
+        "ENS-001"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started"
+      },
+      "verification": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "claude",
+        "astra"
+      ],
+      "category": "projection",
+      "severity": "S3",
+      "certainty": "high",
+      "locations": [
+        "Рядки 4, 1270, 1372"
+      ],
+      "observation": "Текстова проєкція з DOCX має злиті службові рядки.",
+      "reader_effect": "Може створити хибні мовні або ритмічні зауваження.",
+      "evidence": "Claude technical note; DOCX/TXT extraction metadata.",
+      "proposed_actions": [
+        "Звірити з DOCX і виправити лише проєкцію або повторно експортувати."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started"
+      },
+      "verification": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "claude",
+        "astra"
+      ],
+      "category": "canon",
+      "severity": "S1",
+      "certainty": "high",
+      "locations": [
+        "Рядки 225, 463, 834–842, 1392, 1709–1796"
+      ],
+      "observation": "Кандидат переосмислює кілька обіцянок і станів, зафіксованих у реєстрах тому 4.",
+      "reader_effect": "Без авторського рішення статус цих фактів лишається невизначеним.",
+      "evidence": "Claude S-C; Astra A2; book-04 promises/end-state.",
+      "proposed_actions": [
+        "Підтвердити, змінити або відкласти кожну розбіжність окремо."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started"
+      },
+      "verification": {
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "continuity",
+      "severity": "S2",
+      "certainty": "medium",
+      "locations": [
+        "Рядки 976, 1783"
+      ],
+      "observation": "Два контекстні посилання потребують звірки з попередніми томами.",
+      "reader_effect": "Читач може не зрозуміти власника книги або матір Тимка.",
+      "evidence": "Claude V5.",
+      "proposed_actions": [
+        "Перевірити реєстри й уточнити лише за потреби."
+      ],
+      "dependencies": [
+        "ENS-005"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started"
+      },
+      "verification": {
+        "status": "not_run"
+      }
+    }
+  ]
 }

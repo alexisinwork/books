@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_id": "riokka",
   "book_id": "book-04",
-  "source_sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+  "source_sha256": "e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234",
   "record_type": "revision-log",
   "fields": [
     "id",
@@ -96,6 +96,21 @@
       ],
       "decision": "author_assigned_canonical_master",
       "note": "Назначение канона не равно допуску к публикации: литературный цикл по REVIEW.md не завершён."
+    },
+    {
+      "id": "canon-2026-09-17-book-04",
+      "reason": "Пряме рішення автора 17.09.2026: додати Riokka_4_UK_literary_07.docx як майстер тома 4.",
+      "old_source": "editions/uk/canonical-2026-09-16/manuscript.txt (94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d)",
+      "new_source": "manuscript/master.docx (e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234) / editions/uk/canonical-2026-09-17/manuscript.txt (d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0)",
+      "changes": "Призначення майстра автором з файлу завантажень Riokka_4_UK_literary_07.docx. Створено видання editions/uk/canonical-2026-09-17/ (manuscript.docx, manuscript.txt, manifest.json). Перегенеровано derived/snapshot.json і derived/manuscript.txt (64 одиниці, 4456 непорожніх абзаців).",
+      "affected_checks": [
+        "book_snapshot",
+        "language_qa",
+        "uk_naturalness",
+        "derived",
+        "studio_doctor"
+      ],
+      "decision": "author_assigned_master"
     }
   ]
 }

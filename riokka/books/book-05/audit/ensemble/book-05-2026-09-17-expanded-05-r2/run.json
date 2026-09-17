@@ -1,0 +1,75 @@
+{
+  "schema_version": 2,
+  "run_id": "book-05-2026-09-17-expanded-05-r2",
+  "project_id": "riokka",
+  "book_id": "book-05",
+  "created_at": "2026-09-17T14:50:26+00:00",
+  "status": "reconciled",
+  "language": "uk",
+  "required_diagnoses": [
+    "astra",
+    "claude",
+    "gemini_flash",
+    "gemini"
+  ],
+  "source": {
+    "path": "riokka/books/book-05/audit/incoming/Riokka_5_UK_expanded_05.md",
+    "sha256": "3c8a924cb1e3db91ed352a219dc5ff851c8792262fec260e699842e0044499e7",
+    "status": "explicit",
+    "authority": "explicit task source"
+  },
+  "reader": {
+    "path": "riokka/books/book-05/audit/incoming/Riokka_5_UK_expanded_05.md",
+    "sha256": "3c8a924cb1e3db91ed352a219dc5ff851c8792262fec260e699842e0044499e7",
+    "relation": "supplied_reader_projection"
+  },
+  "independence": {
+    "astra": "must not read current Claude or Gemini reports before lock",
+    "claude": "must not read current Astra or Gemini reports before lock",
+    "gemini_flash": "independent full-text literary/continuity analysis; no current peer reports",
+    "gemini": "isolated packet only; no repository canon, audits or change hints"
+  },
+  "reports": {
+    "astra": {
+      "file": "astra-diagnosis.md",
+      "status": "locked",
+      "sha256": "b91def440330a3365542608bc73b5ac088aea646726e9a81d2b061d40b7c5775",
+      "locked_at": "2026-09-17T14:52:37+00:00"
+    },
+    "claude": {
+      "file": "claude-diagnosis.md",
+      "status": "locked",
+      "sha256": "ff5f404ca8b4cd328099fca9a2ee3907f4fe71c01c09ab5839f173d4f30331d6",
+      "locked_at": "2026-09-17T14:51:20+00:00"
+    },
+    "gemini_flash": {
+      "file": "gemini-flash-diagnosis.md",
+      "status": "locked",
+      "sha256": "05e49ebf95e03e1590b8e5f526ca4a0f278872991703225cf835b0dc9416b84d",
+      "locked_at": "2026-09-17T14:51:05+00:00"
+    },
+    "gemini": {
+      "file": "gemini-blind-read.md",
+      "status": "locked",
+      "sha256": "ebb97f2a7459bdbdbfb1521a143e3d32fe81bed268a2f7a072d7e3678580dd90",
+      "locked_at": "2026-09-17T14:51:05+00:00"
+    },
+    "reconciliation": {
+      "file": "reconciliation.md",
+      "status": "locked",
+      "sha256": "a14b5e0715c47d0517d4a44bc4b0f81fa12281b4d2afe9f10b84498a601544f0",
+      "locked_at": "2026-09-17T14:52:37+00:00"
+    },
+    "verification": {
+      "file": "verification.md",
+      "status": "draft",
+      "sha256": null
+    }
+  },
+  "author_decisions": {
+    "file": "author-decisions.md",
+    "status": "draft",
+    "sha256": null
+  },
+  "issue_ledger": "issue-ledger.json"
+}

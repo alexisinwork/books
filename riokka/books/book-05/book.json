@@ -3,37 +3,64 @@
   "project_id": "riokka",
   "book_id": "book-05",
   "title": "Тот, кого читают",
+  "title_uk": "Той, кого читають",
   "book_type": "fiction",
-  "stage": "manuscript_received",
+  "stage": "canonical_master_assigned",
   "master": {
+    "path": "manuscript/master.docx",
+    "format": "docx",
+    "sha256": "2288c57f66bd28a2cf282d2fea0be22e1f15411c9d8f32b96faf0dfd13e05f2e",
+    "status": "author_selected",
+    "language": "uk",
+    "authority": "Пряме рішення автора 17.09.2026: додати Riokka_5_UK_literary_06.docx як майстер тома 5."
+  },
+  "canonical_ua_master": {
+    "path": "editions/uk/canonical-2026-09-17/manuscript.txt",
+    "format": "text",
+    "sha256": "838a424268fa7c044bc5eb3adc30118dbe208f0ce48c90f6ea78e0debe9acd28",
+    "status": "final_canonical_master",
+    "authority": "Пряме рішення автора 17.09.2026: додати Riokka_5_UK_literary_06.docx як канонічний майстер тома 5.",
+    "docx": "editions/uk/canonical-2026-09-17/manuscript.docx",
+    "docx_sha256": "2288c57f66bd28a2cf282d2fea0be22e1f15411c9d8f32b96faf0dfd13e05f2e",
+    "edition_manifest": "editions/uk/canonical-2026-09-17/manifest.json",
+    "parts": 6,
+    "total_chapters": 49,
+    "codas": 3,
+    "final_scene": 1,
+    "chapter_units_detected": 59,
+    "nonempty_lines": 3591,
+    "nonempty_body_paragraphs": 3536,
+    "lexical_tokens": 69398,
+    "supersedes": [
+      {
+        "file": "revisions/2026-09-16-literary-03/Riokka_5_UK_literary_03.txt",
+        "sha256": "f2c2ae1a928e4353539dd25a994acee3be19659a1782cb44f57e5ff5a01df641"
+      },
+      {
+        "file": "revisions/2026-09-16-literary-02/Riokka_5_UK_literary_02.txt",
+        "sha256": "d9359db0e21fff319afdee05c50eb556f6fcbc8aa6f5cf36f728d04595a46e9e"
+      }
+    ],
+    "publication_clearance": false,
+    "clearance_note": "Канон і майстер призначено автором 17.09.2026 (Riokka_5_UK_literary_06.docx)."
+  },
+  "legacy_source": {
     "path": "manuscript/master.md",
     "format": "text",
     "sha256": "07d5cfcb5f9b1e74c139ef00a2bc15b579631cc33cba8c536f2b651325234fda",
-    "status": "non_canonical_working_version",
-    "authority": "Автор 16.09.2026: «том 5 не каноничен, то была рабочая версия». Файл сохраняется как рабочий материал, не как назначенный мастер."
-  },
-  "working_revision": {
-    "path": "revisions/2026-09-16-literary-03/Riokka_5_UK_literary_03.txt",
-    "format": "text_projection_matching_docx_paragraphs",
-    "sha256": "f2c2ae1a928e4353539dd25a994acee3be19659a1782cb44f57e5ff5a01df641",
-    "language": "uk",
-    "status": "literary_candidate_for_author_review",
-    "source_docx": "revisions/2026-09-16-literary-03/Riokka_5_UK_literary_03.docx",
-    "source_docx_sha256": "94b52f95cbf5430d76e43ed25f488339c5bc884f73199e9fc1f5be3482d6c26a",
-    "authority": "Автор 16.09.2026: «do all improvements you suggested» — застосовано пропозиції claude-diagnosis прогону book-05-2026-09-16-literary-02. Канонічність не призначена.",
-    "before_after": "revisions/2026-09-16-literary-03/БЫЛО-СТАЛО.md"
+    "status": "ru_source_master_legacy",
+    "authority": "Автор 16.09.2026: «том 5 не каноничен, то была рабочая версия». Файл зберігається як legacy-джерело."
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "literary-02 run: claude locked, astra/gemini_flash/gemini not_run; literary-03 needs a new ensemble run",
   "original": "../../sources/originals/КОНТРАКТНИК-5-Тот-кого-читают.md",
   "continuation_basis": {
     "previous_book": "book-04",
-    "file": "../book-04/editions/uk/canonical-2026-09-16/manuscript.txt",
-    "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+    "file": "../book-04/editions/uk/canonical-2026-09-17/manuscript.txt",
+    "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0",
     "language": "uk",
     "status": "author_assigned_canonical_master",
-    "authority": "Автор 16.09.2026 назначил эту редакцию каноническим мастером тома 4. Финал серии пишется от неё.",
+    "authority": "Автор 17.09.2026 призначив Riokka_4_UK_literary_07.docx канонічним майстром тома 4. Фінал серії спирається на неї.",
     "end_state": "../book-04/end-state.json",
     "promises": "../book-04/promises.json",
     "motifs": "../book-04/motifs.json",
@@ -45,17 +72,11 @@
       "RIOKKA-POLYA-IS-TEIS-DAUGHTER"
     ]
   },
-  "previous_revisions": [
-    {
-      "path": "revisions/2026-09-16-literary-02/Riokka_5_UK_literary_02.txt",
-      "format": "text_projection_from_docx",
-      "sha256": "d9359db0e21fff319afdee05c50eb556f6fcbc8aa6f5cf36f728d04595a46e9e",
-      "language": "uk",
-      "status": "superseded_by_literary_03",
-      "source_docx": "revisions/2026-09-16-literary-02/Riokka_5_UK_literary_02.docx",
-      "source_docx_sha256": "204beabab029e172636b3f84bee826a70d9a206a73ce49e56447b60cd06fbbd",
-      "authority": "Файл наданий автором 16.09.2026 з Downloads; остаточність і канонічність ще не призначені.",
-      "editorial_report": "revisions/2026-09-16-literary-02/Riokka_5_UK_editorial_report_02.md"
-    }
-  ]
+  "authoritative_text": "canonical_ua_master",
+  "derived": {
+    "manuscript": "derived/manuscript.txt",
+    "snapshot": "derived/snapshot.json",
+    "regenerated_from": "master",
+    "sha256": "2288c57f66bd28a2cf282d2fea0be22e1f15411c9d8f32b96faf0dfd13e05f2e"
+  }
 }

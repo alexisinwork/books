@@ -7,29 +7,34 @@
   "book_type": "fiction",
   "stage": "canonical_master_assigned",
   "master": {
-    "path": "manuscript/master.md",
-    "format": "text",
-    "sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553",
-    "status": "ru_source_master_legacy",
-    "authority": "Найденный русский исходник тома. Хеш неизменен. С 16.09.2026 перестал быть рабочим мастером: авторитетным текстом тома назначен canonical_ua_master. Сохраняется как legacy-источник по языковой политике от 14.09.2026."
+    "path": "manuscript/master.docx",
+    "format": "docx",
+    "sha256": "e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234",
+    "status": "author_selected",
+    "language": "uk",
+    "authority": "Пряме рішення автора 17.09.2026: додати Riokka_4_UK_literary_07.docx як майстер тома 4."
   },
   "canonical_ua_master": {
-    "path": "editions/uk/canonical-2026-09-16/manuscript.txt",
+    "path": "editions/uk/canonical-2026-09-17/manuscript.txt",
     "format": "text",
-    "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+    "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0",
     "status": "final_canonical_master",
-    "authority": "Прямое решение автора 16.09.2026: «сделай эту версию каноничной для тома 4, мастером». Текст — финальная редакция 05, сделанная в тот же день по его же поручению взять все рекомендации и закрыть в томе всё, что можно закрыть.",
-    "docx": "editions/uk/canonical-2026-09-16/manuscript.docx",
-    "docx_sha256": "f9495d81f519ea8748103eaf97433633177921ee3c66fb6b9f32e46d15c484f2",
-    "edition_manifest": "editions/uk/canonical-2026-09-16/manifest.json",
-    "revision": "revisions/2026-09-16-final-05",
+    "authority": "Пряме рішення автора 17.09.2026: додати Riokka_4_UK_literary_07.docx як майстер тома 4.",
+    "docx": "editions/uk/canonical-2026-09-17/manuscript.docx",
+    "docx_sha256": "e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234",
+    "edition_manifest": "editions/uk/canonical-2026-09-17/manifest.json",
     "total_chapters": 61,
     "epilogues": 3,
+    "chapter_units_detected": 64,
     "scene_breaks": 71,
-    "nonempty_lines": 1043,
-    "nonempty_body_paragraphs": 978,
-    "lexical_tokens": 38213,
+    "nonempty_lines": 4456,
+    "nonempty_body_paragraphs": 4386,
+    "lexical_tokens": 72500,
     "supersedes": [
+      {
+        "file": "editions/uk/canonical-2026-09-16/manuscript.txt",
+        "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d"
+      },
       {
         "file": "revisions/2026-09-16-final-05/archive/Riokka_4_UK_final_04.txt",
         "sha256": "203bb0797a0e682a2ba3cbb6b2a6242616b54adc9392ebd62b7cad9a53660125"
@@ -48,16 +53,23 @@
       "B45-06 — число 52 подтверждённых мира"
     ],
     "publication_clearance": false,
-    "clearance_note": "Литературный цикл по REVIEW.md не завершён: выполнен только проход Opus, отчёты Gemini 3.8 Flash и Gemini 3.1 Pro не запускались, изолированного target-only чтения нового SHA не было. Канон назначен автором; допуск к публикации — отдельное решение.",
+    "clearance_note": "Канон і майстер призначено автором 17.09.2026 (Riokka_4_UK_literary_07.docx).",
     "supersedes_edition": {
-      "path": "editions/uk/final-2026-09-16",
-      "sha256": "7bad304a167063e90ac786f538336cec3408e658a810767beece2c008e08b15e",
-      "note": "Издание редакции 03 сохранено без изменений."
+      "path": "editions/uk/canonical-2026-09-16",
+      "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+      "note": "Попередня канонічна редакція 05 збережена без змін."
     }
+  },
+  "legacy_source": {
+    "path": "manuscript/master.md",
+    "format": "text",
+    "sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553",
+    "status": "ru_source_master_legacy",
+    "authority": "Найденный русский исходник тома. Хеш неизменен. Сохраняется как legacy-источник по языковой политике от 14.09.2026."
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "opus_literary_revision_passed; gemini_reports_not_run; literary_cycle_incomplete",
+  "audit_status": "author_master_assigned_2026-09-17",
   "original": "../../sources/originals/КОНТРАКТНИК-4-Почерк-без-имени.md",
   "continuation_basis": {
     "previous_book": "book-03",
@@ -76,12 +88,12 @@
     ],
     "instructions": "CONTINUATION-BASIS.md"
   },
-  "next_work": "Final edition ready and verified; next steps involve proofing and potential release preparation.",
+  "next_work": "Final master and edition ready and verified.",
   "authoritative_text": "canonical_ua_master",
   "derived": {
     "manuscript": "derived/manuscript.txt",
     "snapshot": "derived/snapshot.json",
-    "regenerated_from": "canonical_ua_master",
-    "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d"
+    "regenerated_from": "master",
+    "sha256": "e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234"
   }
 }

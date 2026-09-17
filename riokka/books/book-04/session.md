@@ -160,3 +160,40 @@ target-only чтения нового SHA не было.
 занят изданием редакции 03 (SHA `7bad304a…`). Канонический мастер положен в
 отдельный каталог `editions/uk/canonical-2026-09-16/`; прежнее издание сохранено
 без изменений и указано в `book.json` как `canonical_ua_master.supersedes_edition`.
+
+## Литературный анализ расширенной редакции 06 — 17.09.2026 (Gemini 3.8 Flash)
+
+Из каталога `Downloads` получен обновлённый текст тома 4:
+- Текст: `Riokka_4_UK_expanded_06.md` (SHA-256: `b1f5ccd484383c5c03dff0a1621cf492891b50f855f93b552079aeb642eb2bf1`).
+- Форматированный читательский DOCX: `Riokka_4_UK_expanded_06.docx` (SHA-256: `6b9b756f394f3687decf22a6d6bee36175d8d4f2e494199eabb5c05b3fe61315`).
+- Объём: 61 глава + 3 эпилога (64 единицы), 8 935 строк, 4 468 непустых абзацев, 76 382 слова (73 095 токенов), что составляет +93% расширения по сравнению с редакцией 05.
+
+Выполнен независимый литературный анализ по алгоритмам мастерской:
+1. Зафиксирован отчёт роли `gemini_flash` в ансамблевом прогоне `book-04-2026-09-17-expanded-06`:
+   - Отчёт: `riokka/books/book-04/audit/ensemble/book-04-2026-09-17-expanded-06/gemini-flash-diagnosis.md` (SHA-256: `8bb8e93347595d334ef25be97a40814701eaa96a7b3467a96a6d9d2f78ef9a28`).
+   - Статус: `locked` через `python3 tools/editorial_ensemble.py record --role gemini_flash`.
+2. Подготовлен развёрнутый сводный литературно-драматургический отчёт:
+   - `riokka/books/book-04/audit/LITERARY-ANALYSIS-EXPANDED-06.md`.
+3. Автоматизированные языковые проверки:
+   - `language_qa.py`: результат `no_configured_signals` (0 замечаний). Сохранён `riokka/books/book-04/audit/audit-language-qa-expanded-06.json`.
+   - `uk_naturalness.py`: результат `no_unresolved_configured_signals` (0 замечаний). Сохранён `riokka/books/book-04/audit/audit-uk-naturalness-expanded-06.json`.
+4. По постоянному правилу автора все материалы и отчёты продублированы на рабочий стол:
+   - Каталог: `C:\Users\alexi\OneDrive\Desktop\Riokka_4_UK_expanded_06\`.
+
+## Призначення майстра тома 4 — 17.09.2026 (Riokka_4_UK_literary_07)
+
+Пряме доручення автора: додати `Riokka_4_UK_literary_07.docx` як майстер до книжкового проєкту Ріокки.
+
+- **Джерело автора:** `C:\Users\alexi\Downloads\Riokka_4_UK_literary_07.docx`
+- **Хеш DOCX:** SHA-256 `e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234`
+- **Хеш текстової проєкції:** SHA-256 `d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0`
+- **Обсяг:** 61 розділ + 3 епілоги (64 одиниці), 4 456 непорожніх абзаців, 72 500 токенів.
+- **Артефакти в репозиторії:**
+  - `manuscript/master.docx` та `manuscript/Riokka_4_UK_literary_07.docx`
+  - `manuscript/Riokka_4_UK_literary_07.txt`
+  - `editions/uk/canonical-2026-09-17/` (`manuscript.docx`, `manuscript.txt`, `manifest.json`)
+  - `derived/snapshot.json` та `derived/manuscript.txt` оновлено від нового майстра.
+- **Перевірки:** `language_qa.py` — PASSED (0 зауважень), `uk_naturalness.py` — PASSED (0 зауважень), `studio.py doctor` — PASSED (0 помилок).
+- Матеріали продубльовано на робочий стіл автора: `C:\Users\alexi\OneDrive\Desktop\Riokka_4_UK_literary_07\`.
+
+

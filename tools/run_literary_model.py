@@ -131,7 +131,7 @@ def run(args) -> None:
         write(args.out / "invocation.json", receipt)
         try:
             result = subprocess.run(command, input=stdin, text=True, cwd=isolated,
-                                    capture_output=True, timeout=args.timeout_seconds)
+                                    capture_output=True, timeout=args.timeout_seconds, encoding="utf-8")
         except subprocess.TimeoutExpired as exc:
             write(args.out / "stdout.json", exc.stdout or "")
             write(args.out / "stderr.txt", exc.stderr or "")

@@ -4,7 +4,7 @@
   "project_id": "riokka",
   "book_id": "book-05",
   "created_at": "2026-09-16T19:52:30+00:00",
-  "status": "diagnosis_in_progress",
+  "status": "reconciled",
   "language": "uk",
   "required_diagnoses": [
     "astra",
@@ -32,8 +32,9 @@
   "reports": {
     "astra": {
       "file": "astra-diagnosis.md",
-      "status": "draft",
-      "sha256": null
+      "status": "locked",
+      "sha256": "2b4ccec42d8022e5d4c61df2b3fed3914fa954175cfdd519113eccb4c4c81f54",
+      "locked_at": "2026-09-16T20:17:40+00:00"
     },
     "claude": {
       "file": "claude-diagnosis.md",
@@ -55,8 +56,9 @@
     },
     "reconciliation": {
       "file": "reconciliation.md",
-      "status": "draft",
-      "sha256": null
+      "status": "locked",
+      "sha256": "7967096f61ce0ac7065254ef5c6006f1db1d5d41c88490c00546cc1d1445b4b4",
+      "locked_at": "2026-09-16T20:18:40+00:00"
     },
     "verification": {
       "file": "verification.md",

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "book_id": "book-04",
+  "edition_id": "uk-canonical-2026-09-17",
+  "language": "uk",
+  "title": "Почерк без імені",
+  "title_ru": "Почерк без имени",
+  "supersedes_edition": {
+    "edition_id": "uk-canonical-2026-09-16",
+    "path": "editions/uk/canonical-2026-09-16",
+    "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+    "note": "Попередня канонічна редакція 05 збережена без змін."
+  },
+  "sources": [
+    {
+      "name": "Riokka_4_UK_literary_07.docx",
+      "sha256": "e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234",
+      "role": "author_master_download",
+      "path": "../../../manuscript/master.docx"
+    },
+    {
+      "name": "Riokka_4_UK_final_05.txt",
+      "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
+      "role": "previous_canonical_master",
+      "path": "../canonical-2026-09-16/manuscript.txt"
+    },
+    {
+      "name": "КОНТРАКТНИК-4-Почерк-без-имени.md",
+      "sha256": "4e8b2f942d64b96fdb5a1c5396d845363bff38235b730cd20c2ed33db9e83553",
+      "role": "ru_legacy_source_master",
+      "path": "../../../manuscript/master.md"
+    }
+  ],
+  "target_txt_file": "manuscript.txt",
+  "target_txt_sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0",
+  "target_docx_file": "manuscript.docx",
+  "target_docx_sha256": "e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234",
+  "total_chapters": 61,
+  "epilogues": 3,
+  "chapter_units_detected": 64,
+  "scene_breaks": 71,
+  "nonempty_lines": 4456,
+  "total_lines": 8911,
+  "nonempty_body_paragraphs": 4386,
+  "lexical_tokens_snapshot": 72167,
+  "lexical_tokens_language_qa": 72500,
+  "token_count_note": "Снапшот рахує абзаци тіла (4386), language_qa — всі непорожні одиниці тексту (4456). Обидва прив'язані до одного SHA.",
+  "status": "final_canonical_edition",
+  "role": "Канонічний український майстер тому 4, призначений автором 17.09.2026 (Riokka_4_UK_literary_07.docx)",
+  "authority": "Пряме рішення автора 17.09.2026: додати Riokka_4_UK_literary_07.docx як майстер тома 4.",
+  "qa_status": {
+    "language_qa": "passed",
+    "uk_naturalness": "passed",
+    "unresolved_signals": 0,
+    "docx_extraction_vs_txt": "4456/4456, 0 mismatches"
+  }
+}
