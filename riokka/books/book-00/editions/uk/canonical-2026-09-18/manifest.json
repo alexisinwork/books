@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "book_id": "book-00",
+  "edition_id": "uk-canonical-2026-09-18",
+  "language": "uk",
+  "title": "Есквайр",
+  "title_ru": "Эсквайр",
+  "sources": [
+    {
+      "name": "Riokka_0_UK_Esquire_final.docx",
+      "sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037",
+      "role": "author_master_download",
+      "path": "../../../manuscript/master.docx"
+    },
+    {
+      "name": "ЭСКВАЙР-Книга-0.docx",
+      "sha256": "fa42c7f4560e8a8affc669c8fd5d8d4548842b89981bda7d2ec2e7e6f8e8f42d",
+      "role": "ru_legacy_source_candidate",
+      "path": "../../../archive/master-ru-candidate-2026-09-14.docx"
+    }
+  ],
+  "target_txt_file": "manuscript.txt",
+  "target_txt_sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1",
+  "target_docx_file": "manuscript.docx",
+  "target_docx_sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037",
+  "parts": 2,
+  "total_chapters": 83,
+  "chapter_units_detected": 91,
+  "nonempty_lines": 10379,
+  "total_lines": 20763,
+  "nonempty_body_paragraphs": 10291,
+  "lexical_tokens_snapshot": 68266,
+  "lexical_tokens_language_qa": 68700,
+  "status": "final_canonical_edition",
+  "role": "Канонічний український майстер тому 0, призначений автором 18.09.2026 (Riokka_0_UK_Esquire_final.docx)",
+  "authority": "Пряме рішення автора 18.09.2026: додати Riokka_0_UK_Esquire_final.docx як майстер тома 0.",
+  "qa_status": {
+    "language_qa": "passed",
+    "uk_naturalness": "passed",
+    "unresolved_signals": 0,
+    "docx_extraction_vs_txt": "10379/10379, 0 mismatches"
+  }
+}

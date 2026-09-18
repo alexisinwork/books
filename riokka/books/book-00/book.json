@@ -3,17 +3,51 @@
   "project_id": "riokka",
   "book_id": "book-00",
   "title": "Эсквайр",
+  "title_uk": "Есквайр",
   "book_type": "fiction",
-  "stage": "manuscript_received",
+  "stage": "canonical_master_assigned",
   "master": {
     "path": "manuscript/master.docx",
     "format": "docx",
+    "sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037",
+    "status": "author_selected",
+    "language": "uk",
+    "authority": "Пряме рішення автора 18.09.2026: додати Riokka_0_UK_Esquire_final.docx як майстер тома 0."
+  },
+  "canonical_ua_master": {
+    "path": "editions/uk/canonical-2026-09-18/manuscript.txt",
+    "format": "text",
+    "sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1",
+    "status": "final_canonical_master",
+    "authority": "Пряме рішення автора 18.09.2026: додати Riokka_0_UK_Esquire_final.docx як канонічний майстер тома 0.",
+    "docx": "editions/uk/canonical-2026-09-18/manuscript.docx",
+    "docx_sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037",
+    "edition_manifest": "editions/uk/canonical-2026-09-18/manifest.json",
+    "total_chapters": 83,
+    "parts": 2,
+    "chapter_units_detected": 91,
+    "nonempty_lines": 10379,
+    "nonempty_body_paragraphs": 10291,
+    "lexical_tokens": 68700,
+    "publication_clearance": false,
+    "clearance_note": "Канон і майстер призначено автором 18.09.2026 (Riokka_0_UK_Esquire_final.docx)."
+  },
+  "legacy_source": {
+    "path": "archive/master-ru-candidate-2026-09-14.docx",
+    "format": "docx",
     "sha256": "fa42c7f4560e8a8affc669c8fd5d8d4548842b89981bda7d2ec2e7e6f8e8f42d",
-    "status": "candidate",
-    "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена"
+    "status": "ru_source_candidate_legacy",
+    "authority": "Попередній російський знайдений кандидат тома 0. Збережено в archive/ як legacy-джерело."
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "inventory_only",
-  "original": "../../sources/originals/ЭСКВАЙР-Книга-0.docx"
+  "audit_status": "author_master_assigned_2026-09-18",
+  "original": "../../sources/originals/ЭСКВАЙР-Книга-0.docx",
+  "authoritative_text": "canonical_ua_master",
+  "derived": {
+    "manuscript": "derived/manuscript.txt",
+    "snapshot": "derived/snapshot.json",
+    "regenerated_from": "master",
+    "sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037"
+  }
 }

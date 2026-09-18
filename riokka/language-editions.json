@@ -18,9 +18,18 @@
         "sha256": "fa42c7f4560e8a8affc669c8fd5d8d4548842b89981bda7d2ec2e7e6f8e8f42d",
         "status": "candidate"
       },
-      "ua_canonical_master": null,
-      "canonical_promotion": "not_performed",
-      "legacy_migration_prepared": false
+      "ua_canonical_master": {
+        "path": "books/book-00/editions/uk/canonical-2026-09-18/manuscript.txt",
+        "sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1",
+        "format": "text",
+        "status": "final_canonical_master",
+        "docx": "books/book-00/editions/uk/canonical-2026-09-18/manuscript.docx",
+        "docx_sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037",
+        "authority": "Пряме рішення автора 18.09.2026: додати Riokka_0_UK_Esquire_final.docx як майстер тома 0."
+      },
+      "canonical_promotion": "performed_2026-09-18",
+      "legacy_migration_prepared": true,
+      "note": "Попередній російський master.docx перенесено в archive/ як legacy-джерело; авторитетним текстом тома призначено український канонічний майстер."
     },
     {
       "book_id": "book-01",

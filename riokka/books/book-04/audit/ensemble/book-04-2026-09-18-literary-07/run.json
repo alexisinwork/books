@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "run_id": "book-04-2026-09-18-literary-07",
+  "project_id": "riokka",
+  "book_id": "book-04",
+  "created_at": "2026-09-18T07:57:51+00:00",
+  "status": "prepared",
+  "language": "uk",
+  "required_diagnoses": [
+    "astra",
+    "claude",
+    "gemini_flash",
+    "gemini"
+  ],
+  "source": {
+    "path": "riokka/books/book-04/editions/uk/canonical-2026-09-17/manuscript.txt",
+    "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0",
+    "status": "explicit",
+    "authority": "explicit task source"
+  },
+  "reader": {
+    "path": "riokka/books/book-04/editions/uk/canonical-2026-09-17/manuscript.txt",
+    "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0",
+    "relation": "source_text"
+  },
+  "independence": {
+    "astra": "must not read current Claude or Gemini reports before lock",
+    "claude": "must not read current Astra or Gemini reports before lock",
+    "gemini_flash": "independent full-text literary/continuity analysis; no current peer reports",
+    "gemini": "isolated packet only; no repository canon, audits or change hints"
+  },
+  "reports": {
+    "astra": {
+      "file": "astra-diagnosis.md",
+      "status": "draft",
+      "sha256": null
+    },
+    "claude": {
+      "file": "claude-diagnosis.md",
+      "status": "draft",
+      "sha256": null
+    },
+    "gemini_flash": {
+      "file": "gemini-flash-diagnosis.md",
+      "status": "draft",
+      "sha256": null
+    },
+    "gemini": {
+      "file": "gemini-blind-read.md",
+      "status": "draft",
+      "sha256": null
+    },
+    "reconciliation": {
+      "file": "reconciliation.md",
+      "status": "draft",
+      "sha256": null
+    },
+    "verification": {
+      "file": "verification.md",
+      "status": "draft",
+      "sha256": null
+    }
+  },
+  "author_decisions": {
+    "file": "author-decisions.md",
+    "status": "draft",
+    "sha256": null
+  },
+  "issue_ledger": "issue-ledger.json"
+}

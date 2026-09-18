@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_id": "riokka",
   "book_id": "book-00",
-  "source_sha256": null,
+  "source_sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037",
   "record_type": "revision-log",
   "fields": [
     "id",
@@ -13,5 +13,38 @@
     "affected_checks",
     "decision"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "canon-2026-09-18-book-00",
+      "reason": "Пряме рішення автора 18.09.2026: призначити Riokka_0_UK_Esquire_final.docx канонічним майстром тома 0.",
+      "old_source": {
+        "path": "archive/master-ru-candidate-2026-09-14.docx",
+        "sha256": "fa42c7f4560e8a8affc669c8fd5d8d4548842b89981bda7d2ec2e7e6f8e8f42d",
+        "status": "candidate"
+      },
+      "new_source": {
+        "path": "manuscript/master.docx",
+        "sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037",
+        "txt": "editions/uk/canonical-2026-09-18/manuscript.txt",
+        "txt_sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1",
+        "docx": "editions/uk/canonical-2026-09-18/manuscript.docx",
+        "docx_sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037"
+      },
+      "changes": [
+        "Призначення канонічного майстра тома 0 автором з файлу Riokka_0_UK_Esquire_final.docx",
+        "Створено видання editions/uk/canonical-2026-09-18/ (manuscript.docx, manuscript.txt, manifest.json)",
+        "Створено derived/snapshot.json і derived/manuscript.txt (83 розділи, 2 частини, 10379 непорожніх абзаців)",
+        "Оновлено book.json (stage: canonical_master_assigned, canonical_ua_master)",
+        "Попередній російський файл перенесено в archive/ як legacy_source"
+      ],
+      "affected_checks": [
+        "book_snapshot",
+        "language_qa: no_configured_signals",
+        "uk_naturalness: no_unresolved_configured_signals",
+        "derived",
+        "studio_doctor"
+      ],
+      "decision": "author_assigned_canonical_master"
+    }
+  ]
 }
