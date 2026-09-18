@@ -4,7 +4,7 @@
   "project_id": "riokka",
   "book_id": "book-04",
   "created_at": "2026-09-18T07:57:51+00:00",
-  "status": "prepared",
+  "status": "diagnosis_in_progress",
   "language": "uk",
   "required_diagnoses": [
     "astra",
@@ -37,8 +37,9 @@
     },
     "claude": {
       "file": "claude-diagnosis.md",
-      "status": "draft",
-      "sha256": null
+      "status": "locked",
+      "sha256": "ecf3f16fc07219ba7a0ca4b0c8d2a48682e4ef1bf5cd7cf1c56b1b313371b37e",
+      "locked_at": "2026-09-18T08:08:03+00:00"
     },
     "gemini_flash": {
       "file": "gemini-flash-diagnosis.md",
