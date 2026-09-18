@@ -14,17 +14,29 @@
     "authority": "Автор 13 сентября 2026 года предоставил обновлённый DOCX с исправлениями и прямо поручил внести обязательную точечную корректуру, повторно проверить все 42 главы и обновить мастер."
   },
   "canonical_ua_master": {
-    "path": "editions/uk/final-2026-09-16/manuscript.txt",
+    "path": "editions/uk/canonical-2026-09-18/manuscript.txt",
     "format": "text",
-    "sha256": "8b8d5b55506965cc71adcdc6f654735d28c2a06004d25a82d4628dd187fc90eb",
+    "sha256": "cd809a8339edbbfbb06fdbff7ec99806937bfaa4a2c2e72fb8b016255f67b262",
     "status": "final_canonical_master",
-    "authority": "Канонічний український рукопис автора з завантажень (01 — Антидот із Семарі.docx)",
-    "docx": "editions/uk/final-2026-09-16/manuscript.docx",
-    "docx_sha256": "901eb1392acb1fd3a39536a32415f7ae838b3ed20d1b2d7b8afb4153e47033f6",
+    "authority": "Доручення автора 18.09.2026: «согласно замечаниям из папки Лор вселенных обнови конкретные файлы в нужных романах»; виправлення за riokka/series/audit/LORE-FIXES-2026-09-18.md.",
+    "docx": "editions/uk/canonical-2026-09-18/manuscript.docx",
+    "docx_sha256": "b57820244666496f0047aa3798581e186d18859286581462a72f477d03a74e35",
     "total_chapters": 42,
     "paragraphs": 1197,
     "lines": 2393,
-    "lexical_tokens": 43990
+    "lexical_tokens": 43990,
+    "edition_manifest": "editions/uk/canonical-2026-09-18/manifest.json",
+    "supersedes": [
+      {
+        "file": "editions/uk/final-2026-09-16/manuscript.txt",
+        "sha256": "8b8d5b55506965cc71adcdc6f654735d28c2a06004d25a82d4628dd187fc90eb"
+      }
+    ],
+    "supersedes_edition": {
+      "path": "editions/uk/final-2026-09-16",
+      "sha256": "8b8d5b55506965cc71adcdc6f654735d28c2a06004d25a82d4628dd187fc90eb",
+      "note": "Попередня редакція збережена без змін."
+    }
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
