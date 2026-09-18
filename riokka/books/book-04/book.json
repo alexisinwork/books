@@ -9,28 +9,28 @@
   "master": {
     "path": "manuscript/master.docx",
     "format": "docx",
-    "sha256": "e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234",
+    "sha256": "397746e37c6dd725998420d090bcca04b1b55459f62214ac43b53d991e4271d4",
     "status": "author_selected",
     "language": "uk",
-    "authority": "Пряме рішення автора 17.09.2026: додати Riokka_4_UK_literary_07.docx як майстер тома 4."
+    "authority": "Пряме доручення автора 18.09.2026: «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови»; ансамблевий прогін book-04-2026-09-18-literary-07 (Claude Opus, Gemini 3.8 Flash, Gemini 3.1 Pro; Astra unavailable)."
   },
   "canonical_ua_master": {
-    "path": "editions/uk/canonical-2026-09-17/manuscript.txt",
+    "path": "editions/uk/canonical-2026-09-18/manuscript.txt",
     "format": "text",
-    "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0",
+    "sha256": "8b3d6e5d976ef138b0a7bbac79839c0f82f6abfc819ef2e40146f29bf52f27b5",
     "status": "final_canonical_master",
-    "authority": "Пряме рішення автора 17.09.2026: додати Riokka_4_UK_literary_07.docx як майстер тома 4.",
-    "docx": "editions/uk/canonical-2026-09-17/manuscript.docx",
-    "docx_sha256": "e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234",
-    "edition_manifest": "editions/uk/canonical-2026-09-17/manifest.json",
+    "authority": "Пряме доручення автора 18.09.2026: «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови»; ансамблевий прогін book-04-2026-09-18-literary-07 (Claude Opus, Gemini 3.8 Flash, Gemini 3.1 Pro; Astra unavailable).",
+    "docx": "editions/uk/canonical-2026-09-18/manuscript.docx",
+    "docx_sha256": "397746e37c6dd725998420d090bcca04b1b55459f62214ac43b53d991e4271d4",
+    "edition_manifest": "editions/uk/canonical-2026-09-18/manifest.json",
     "total_chapters": 61,
     "epilogues": 3,
-    "chapter_units_detected": 64,
-    "scene_breaks": 71,
-    "nonempty_lines": 4456,
-    "nonempty_body_paragraphs": 4386,
-    "lexical_tokens": 72500,
+    "nonempty_lines": 4452,
     "supersedes": [
+      {
+        "file": "editions/uk/canonical-2026-09-17/manuscript.txt",
+        "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0"
+      },
       {
         "file": "editions/uk/canonical-2026-09-16/manuscript.txt",
         "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d"
@@ -48,17 +48,18 @@
         "sha256": "3a1a2c4037f9624cbb6bd223bf46dab801e5efda1e6956974a043d33951c8038"
       }
     ],
-    "open_questions": [
-      "B45-05 — грамматический род руки в эпилогах",
-      "B45-06 — число 52 подтверждённых мира"
-    ],
+    "open_questions": [],
     "publication_clearance": false,
-    "clearance_note": "Канон і майстер призначено автором 17.09.2026 (Riokka_4_UK_literary_07.docx).",
+    "clearance_note": "Канон і майстер оновлено 18.09.2026 за прямим дорученням автора (ревізія 2026-09-18-literary-08).",
     "supersedes_edition": {
-      "path": "editions/uk/canonical-2026-09-16",
-      "sha256": "94de802a8663537f8a6672a2f9a618a946b4f59859b1861bed9bea72c702c57d",
-      "note": "Попередня канонічна редакція 05 збережена без змін."
-    }
+      "path": "editions/uk/canonical-2026-09-17",
+      "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0",
+      "note": "Попередня канонічна редакція збережена без змін."
+    },
+    "resolved_questions": [
+      "B45-05 — рід Руки: «Той, хто рахує» (делеговане рішення 18.09.2026, узгоджено з томом 5)",
+      "B45-06 — 52 світи: підтверджено, узгоджено з RIOKKA-WILD-SPREAD-SCALE"
+    ]
   },
   "legacy_source": {
     "path": "manuscript/master.md",
@@ -69,7 +70,7 @@
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "author_master_assigned_2026-09-17",
+  "audit_status": "author_master_assigned_2026-09-18",
   "original": "../../sources/originals/КОНТРАКТНИК-4-Почерк-без-имени.md",
   "continuation_basis": {
     "previous_book": "book-03",
@@ -94,6 +95,6 @@
     "manuscript": "derived/manuscript.txt",
     "snapshot": "derived/snapshot.json",
     "regenerated_from": "master",
-    "sha256": "e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234"
+    "sha256": "397746e37c6dd725998420d090bcca04b1b55459f62214ac43b53d991e4271d4"
   }
 }

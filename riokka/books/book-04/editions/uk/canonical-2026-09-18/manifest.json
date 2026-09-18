@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "book_id": "book-04",
+  "edition_id": "uk-canonical-2026-09-18",
+  "language": "uk",
+  "title": "Почерк без імені",
+  "title_ru": "Почерк без имени",
+  "supersedes_edition": {
+    "edition_id": "uk-canonical-2026-09-17",
+    "path": "editions/uk/canonical-2026-09-17",
+    "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0",
+    "note": "Попередня канонічна редакція збережена без змін."
+  },
+  "sources": [
+    {
+      "name": "Riokka_4_UK_literary_08.docx",
+      "sha256": "397746e37c6dd725998420d090bcca04b1b55459f62214ac43b53d991e4271d4",
+      "role": "approved_revision",
+      "path": "../../../revisions/2026-09-18-literary-08/Riokka_4_UK_literary_08.docx"
+    },
+    {
+      "name": "previous canonical",
+      "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0",
+      "role": "previous_canonical_master",
+      "path": "../../../editions/uk/canonical-2026-09-17/manuscript.txt"
+    }
+  ],
+  "target_txt_file": "manuscript.txt",
+  "target_txt_sha256": "8b3d6e5d976ef138b0a7bbac79839c0f82f6abfc819ef2e40146f29bf52f27b5",
+  "target_docx_file": "manuscript.docx",
+  "target_docx_sha256": "397746e37c6dd725998420d090bcca04b1b55459f62214ac43b53d991e4271d4",
+  "nonempty_lines": 4452,
+  "total_lines": 8903,
+  "status": "final_canonical_edition",
+  "authority": "Пряме доручення автора 18.09.2026: «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови»; ансамблевий прогін book-04-2026-09-18-literary-07 (Claude Opus, Gemini 3.8 Flash, Gemini 3.1 Pro; Astra unavailable).",
+  "revision": "revisions/2026-09-18-literary-08",
+  "ensemble_run": "audit/ensemble/book-04-2026-09-18-literary-07",
+  "qa_status": {
+    "language_qa": "passed",
+    "uk_naturalness": "passed",
+    "unresolved_signals": 0,
+    "docx_extraction_vs_txt": "byte-identical (revision README)"
+  },
+  "open": "Делеговані авторські рішення в audit/ensemble/book-04-2026-09-18-literary-07/author-questions-answered.md чекають перегляду автора; потрібне нове сліпе читання цього SHA; Astra — після 21.09.2026."
+}

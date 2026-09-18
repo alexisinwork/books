@@ -197,3 +197,15 @@ target-only чтения нового SHA не было.
 - Матеріали продубльовано на робочий стіл автора: `C:\Users\alexi\OneDrive\Desktop\Riokka_4_UK_literary_07\`.
 
 
+
+
+## Ревізія 2026-09-18-literary-08 призначена майстром — 18.09.2026
+
+За прямим дорученням автора («согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови») застосовано всі пропозиції прогону `book-04-2026-09-18-literary-07` (Claude Opus, Gemini 3.8 Flash, Gemini 3.1 Pro; Astra unavailable до 21.09).
+
+- TXT: `editions/uk/canonical-2026-09-18/manuscript.txt` SHA-256 `8b3d6e5d976ef138b0a7bbac79839c0f82f6abfc819ef2e40146f29bf52f27b5`
+- DOCX: `manuscript/master.docx` = `manuscript/Riokka_4_UK_literary_08.docx` SHA-256 `397746e37c6dd725998420d090bcca04b1b55459f62214ac43b53d991e4271d4`
+- Правки: `revisions/2026-09-18-literary-08/` (edits.json, changes.diff, БУЛО-СТАЛО.md, README.md)
+- Відповіді на авторські питання (делеговані, на перегляд автора): `audit/ensemble/book-04-2026-09-18-literary-07/author-questions-answered.md`
+- Відкрито: нове сліпе читання нового SHA; Astra; оновлення knowledge/promises/motifs/scenes за змінами знань (див. README ревізії).
+- Копія на робочому столі: `Desktop/Лор вселенных`.

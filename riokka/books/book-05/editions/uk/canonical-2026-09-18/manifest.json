@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "book_id": "book-05",
+  "edition_id": "uk-canonical-2026-09-18",
+  "language": "uk",
+  "title": "Той, кого читають",
+  "title_ru": "Тот, кого читают",
+  "supersedes_edition": {
+    "edition_id": "uk-canonical-2026-09-17",
+    "path": "editions/uk/canonical-2026-09-17",
+    "sha256": "838a424268fa7c044bc5eb3adc30118dbe208f0ce48c90f6ea78e0debe9acd28",
+    "note": "Попередня канонічна редакція збережена без змін."
+  },
+  "sources": [
+    {
+      "name": "Riokka_5_UK_literary_07.docx",
+      "sha256": "0b00a186f60290de2ed6aae95e53123c988540ec1c281cb697b96b8d37ccdc8a",
+      "role": "approved_revision",
+      "path": "../../../revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    },
+    {
+      "name": "previous canonical",
+      "sha256": "838a424268fa7c044bc5eb3adc30118dbe208f0ce48c90f6ea78e0debe9acd28",
+      "role": "previous_canonical_master",
+      "path": "../../../editions/uk/canonical-2026-09-17/manuscript.txt"
+    }
+  ],
+  "target_txt_file": "manuscript.txt",
+  "target_txt_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655",
+  "target_docx_file": "manuscript.docx",
+  "target_docx_sha256": "0b00a186f60290de2ed6aae95e53123c988540ec1c281cb697b96b8d37ccdc8a",
+  "nonempty_lines": 3585,
+  "total_lines": 7169,
+  "status": "final_canonical_edition",
+  "authority": "Пряме доручення автора 18.09.2026: «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови»; ансамблевий прогін book-05-2026-09-18-literary-06 (Claude Opus, Gemini 3.8 Flash, Gemini 3.1 Pro; Astra unavailable).",
+  "revision": "revisions/2026-09-18-literary-07",
+  "ensemble_run": "audit/ensemble/book-05-2026-09-18-literary-06",
+  "qa_status": {
+    "language_qa": "passed",
+    "uk_naturalness": "passed",
+    "unresolved_signals": 0,
+    "docx_extraction_vs_txt": "byte-identical (revision README)"
+  },
+  "open": "Делеговані авторські рішення в audit/ensemble/book-05-2026-09-18-literary-06/author-questions-answered.md чекають перегляду автора; потрібне нове сліпе читання цього SHA; Astra — після 21.09.2026."
+}
