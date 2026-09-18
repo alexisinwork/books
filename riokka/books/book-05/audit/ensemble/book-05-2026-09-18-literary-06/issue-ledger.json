@@ -1,9 +1,2033 @@
 {
-  "schema_version": 1,
-  "run_id": "book-05-2026-09-18-literary-06",
-  "project_id": "riokka",
-  "book_id": "book-05",
-  "source_sha256": "838a424268fa7c044bc5eb3adc30118dbe208f0ce48c90f6ea78e0debe9acd28",
-  "status": "collecting",
-  "items": []
+ "schema_version": 1,
+ "run_id": "book-05-2026-09-18-literary-06",
+ "project_id": "riokka",
+ "book_id": "book-05",
+ "source_sha256": "838a424268fa7c044bc5eb3adc30118dbe208f0ce48c90f6ea78e0debe9acd28",
+ "status": "verified",
+ "items": [
+  {
+   "id": "ENS-001",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "knowledge",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 37,
+     "anchor": "р. 5459",
+     "quote": "Я вже знав цю схожість від Веди"
+    },
+    {
+     "chapter": 35,
+     "anchor": "р. 5235–5239",
+     "quote": "Я вписав Ведара на окремій першій сторінці"
+    }
+   ],
+   "observation": "Знання Кая про схожість почерків отримане поза сценою (кінець т. 4: Веда бачила прикмети, «не знаючи, чий це ще почерк»); фінальна виплата M-01/P-06 подана довідкою.",
+   "reader_effect": "Читач чекає моменту впізнання, отримує підрядну думку.",
+   "evidence": "Цитату перевірено в тексті р. 5459; у т. 5 немає сцени, де Веда повідомляє Каєві.",
+   "proposed_actions": [
+    "Перенести впізнання в розд. 35 як подію (Веда кладе поруч рядок Кая й підпис Ведара), у розд. 37 лишити наслідок."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5237",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5239",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5239",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5459",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 4 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-002",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "canon",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 6,
+     "anchor": "р. 1089",
+     "quote": "Про живе ім’я, викреслене до смерті людини."
+    },
+    {
+     "chapter": 36,
+     "anchor": "р. 5295",
+     "quote": "Ільс — не з того рейсу"
+    },
+    {
+     "chapter": 48,
+     "anchor": "р. 6699, 6707",
+     "quote": "погодився залишити людину, не знаючи, чим це для неї закінчиться"
+    }
+   ],
+   "observation": "Розподіл ролей в історії Ільса неоднозначний. Перевірка канону: т. 3 (Тихон: «Ільсу сказав почекати — я… І зачинив двері»), т. 0 розд. 22, 81 (Верин-Есквайр мав два вільні місця, сказав чекати; через 11 років знайшов Ільса живим і не сказав Тихонові; наказ «зберегти затверджений склад» ішов старим каналом, особиста участь Ведара не доведена). Фраза р. 6707 «не знаючи, чим це для неї закінчиться» прямо суперечить т. 0. Пропозицію назвати Ільса в р. 6 відхилено: там ідеться про іншу, раннішу людину («її останніх слів»), тож ім’я створило б хибну тотожність.",
+   "reader_effect": "Виплата розд. 48 приходить як новина про невідому людину; вина розподілена нечітко; суперечність з т. 0.",
+   "evidence": "grep «Ільс» у т. 0 canonical-2026-09-18 (р. 4609–4885, 16467–16473, 20079–20100) і т. 3 final (р. 6451–6503).",
+   "proposed_actions": [
+    "р. 6699: назвати ролі Верина й Тихона; р. 6707: Верин визнає, що знав про виживання Ільса й не сказав Тихонові.",
+    "Р. 6 не змінювати."
+   ],
+   "dependencies": [
+    "author-questions-answered.md#q1"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю». Делеговане рішення виконавця, записане в author-questions-answered.md; підлягає перегляду автором.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6699",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6707",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 2 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-003",
+   "origin_reports": [
+    "claude",
+    "gemini"
+   ],
+   "category": "pacing",
+   "severity": "moderate",
+   "certainty": "strong_inference",
+   "locations": [
+    {
+     "chapter": 40,
+     "anchor": "р. 5697–5699",
+     "quote": null
+    },
+    {
+     "chapter": 41,
+     "anchor": "р. 5763–5777",
+     "quote": null
+    }
+   ],
+   "observation": "Після кульмінації два «паперові» розділи з однією функцією; розд. 40 переказує Лавор із розд. 30. Холодний читач (Gemini Pro, п. 2) незалежно відчув рутину саме в розд. 40.",
+   "reader_effect": "Смерть Тихона в розд. 42 втрачає удар після двох розділів оформлення.",
+   "evidence": "Абзаци перевірено; зміст 5763–5777 дублює 5737 і 5761.",
+   "proposed_actions": [
+    "Стиснути переказ у розд. 40, прибрати дублювальні абзаци розд. 41; не зливати розділи (нумерація 49 розділів збережена)."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю». Делеговане рішення виконавця, записане в author-questions-answered.md; підлягає перегляду автором.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5697",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5699",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5763",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5765",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5767",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5769",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5771",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5773",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5775",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5777",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 10 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   },
+   "agreement": "convergent"
+  },
+  {
+   "id": "ENS-004",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "promise",
+   "severity": "moderate",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 35,
+     "anchor": "р. 5235",
+     "quote": null
+    },
+    {
+     "chapter": 41,
+     "anchor": "р. 5823",
+     "quote": "Перший аркуш уже не був порожнім."
+    }
+   ],
+   "observation": "Подія «ім’я руки на першій сторінці» подана двічі; «робоча книга» / «книга» не прив’язані до книги, де стоїть Данек.",
+   "reader_effect": "Повтор знецінює обіцяну з т. 4 подію.",
+   "evidence": "Цитати перевірено.",
+   "proposed_actions": [
+    "Подія лишається в розд. 35 з уточненням сторінки; у розд. 41 — посилання на вписане ім’я."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5235",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5823",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 2 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-005",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "voice",
+   "severity": "moderate",
+   "certainty": "strong_inference",
+   "locations": [
+    {
+     "chapter": 14,
+     "anchor": "р. 2475, 2519, 2523, 2529",
+     "quote": null
+    },
+    {
+     "chapter": 30,
+     "anchor": "р. 4575, 4579, 4727",
+     "quote": null
+    }
+   ],
+   "observation": "Сток і Савра говорять синтаксисом Кая, з моралями наприкінці абзаців.",
+   "reader_effect": "Без позначки в заголовку оповідача важко вгадати.",
+   "evidence": "Цитати зі звіту знайдено дослівно.",
+   "proposed_actions": [
+    "Зняти фінальні «уроки», додати мовні маркери (підліткова різкість Стока, цифри ваги в Саври)."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2475",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2519",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2523",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2529",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-4575",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-4579",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-4727",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 7 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-006",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "strong_inference",
+   "locations": [
+    {
+     "chapter": 21,
+     "anchor": "р. 3449",
+     "quote": null
+    },
+    {
+     "chapter": 36,
+     "anchor": "р. 5347",
+     "quote": null
+    },
+    {
+     "chapter": 37,
+     "anchor": "р. 5417",
+     "quote": null
+    },
+    {
+     "chapter": 43,
+     "anchor": "р. 5991",
+     "quote": null
+    }
+   ],
+   "observation": "Біт «захотів — стримався» повторюється в другорядних сценах.",
+   "reader_effect": "Реакція стає передбачуваною.",
+   "evidence": "Перевірено; ключові сцени (15, 31, 33, 39, 44, 47) не чіпали.",
+   "proposed_actions": [
+    "Прибрати біт у другорядних сценах, лишаючи дію."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-3449",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5347",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5417",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5991",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 4 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-007",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "strong_inference",
+   "locations": [
+    {
+     "chapter": 23,
+     "anchor": "р. 3767",
+     "quote": null
+    },
+    {
+     "chapter": 36,
+     "anchor": "р. 5263",
+     "quote": null
+    },
+    {
+     "chapter": 37,
+     "anchor": "р. 5415",
+     "quote": null
+    },
+    {
+     "chapter": 39,
+     "anchor": "р. 5639",
+     "quote": null
+    },
+    {
+     "chapter": 44,
+     "anchor": "р. 6219",
+     "quote": null
+    },
+    {
+     "chapter": 47,
+     "anchor": "р. 6591",
+     "quote": null
+    }
+   ],
+   "observation": "Речення-моралі пояснюють щойно показане.",
+   "reader_effect": "Послаблюють сцени.",
+   "evidence": "Усі шість цитат знайдено дослівно.",
+   "proposed_actions": [
+    "Видалити шість речень."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-3767",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5263",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5415",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5639",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6219",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6591",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 6 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-008",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "clarity",
+   "severity": "moderate",
+   "certainty": "reader_reaction",
+   "locations": [
+    {
+     "chapter": 31,
+     "anchor": "р. 4769",
+     "quote": null
+    },
+    {
+     "chapter": 24,
+     "anchor": "р. 3799",
+     "quote": null
+    }
+   ],
+   "observation": "Фізична мета кульмінації неясна; найщільніший абзац пояснень у розд. 24.",
+   "reader_effect": "Напруга тримається на довірі, не на розумінні загрози.",
+   "evidence": "Перевірено.",
+   "proposed_actions": [
+    "Одне-два речення простою мовою в р. 4769; р. 3799 розбити на два абзаци."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-4769",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-3799",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 2 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-009",
+   "origin_reports": [
+    "claude",
+    "gemini"
+   ],
+   "category": "scene",
+   "severity": "minor",
+   "certainty": "reader_reaction",
+   "locations": [
+    {
+     "chapter": 45,
+     "anchor": "р. 6289",
+     "quote": null
+    },
+    {
+     "chapter": 45,
+     "anchor": "р. 6259",
+     "quote": null
+    }
+   ],
+   "observation": "Зустріч Маноса й Ліски подана лише переказом (Claude C9); холодний читач (п. 3) відчув затягнуту підготовку.",
+   "reader_effect": "Читач не бачить зустрічі на власні очі, зате довго чекає її.",
+   "evidence": "Перевірено.",
+   "proposed_actions": [
+    "Додати один побачений жест перед відходом Кая; скоротити абзац вагань про пакет."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6289",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6259",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 2 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   },
+   "agreement": "convergent"
+  },
+  {
+   "id": "ENS-010",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "promise",
+   "severity": "minor",
+   "certainty": "hypothesis",
+   "locations": [
+    {
+     "chapter": 12,
+     "anchor": "р. 2217",
+     "quote": "Гордієву картку я сховав назад."
+    },
+    {
+     "chapter": "ФІНАЛ",
+     "anchor": "р. 7151",
+     "quote": null
+    }
+   ],
+   "observation": "Картка з затертим сьомим рядком (ES-13) після розд. 12 зникає.",
+   "reader_effect": "Читається як загублена річ.",
+   "evidence": "Перевірено grep: після р. 2217 картка не згадується.",
+   "proposed_actions": [
+    "Одне речення у фіналі: картка в задній кишені книги, сьомий рядок не дописано."
+   ],
+   "dependencies": [
+    "author-questions-answered.md#q2"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю». Делеговане рішення виконавця, записане в author-questions-answered.md; підлягає перегляду автором.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-7151",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-011",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "knowledge",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 13,
+     "anchor": "р. 2379",
+     "quote": null
+    }
+   ],
+   "observation": "Оповідачка першої особи повідомляє те, чого не знає.",
+   "reader_effect": "Авторське підморгування ламає POV.",
+   "evidence": "Цитату знайдено.",
+   "proposed_actions": [
+    "«Я запам’ятала прізвище.»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2379",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-012",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 36,
+     "anchor": "р. 5363–5365",
+     "quote": null
+    }
+   ],
+   "observation": "Подвійна кінцівка: сумка поруч / в руках, речення без підмета.",
+   "reader_effect": "Слід редагування.",
+   "evidence": "Перевірено.",
+   "proposed_actions": [
+    "Прибрати дубль, уточнити «із сумкою між нами»."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5363",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5365",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 2 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-013",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "strong_inference",
+   "locations": [
+    {
+     "chapter": null,
+     "anchor": "весь текст",
+     "quote": null
+    }
+   ],
+   "observation": "Тики «нарешті» (63) і «вперше за» (16).",
+   "reader_effect": "Знецінюють зрушення героїв.",
+   "evidence": "Підраховано grep: після правки 30 і 8.",
+   "proposed_actions": [
+    "Проріджувати вибірково: залишено діалогові й смислові вживання (фінал, Веда, Джулія), прибрано оповідні."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-127",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-143",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-339",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-359",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-1131",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2071",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2469",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2949",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-3289",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-3335",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-3393",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-4413",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-4715",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-4981",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5227",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5297",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5317",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5665",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5813",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6105",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6375",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6473",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6585",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6613",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6669",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6833",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-7091",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-7171",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-329",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-831",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2785",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2849",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-4123",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-4205",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-4235",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5145",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5619",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5829",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2495",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 39 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-014",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 11,
+     "anchor": "р. 2035, 2079",
+     "quote": null
+    }
+   ],
+   "observation": "Милем / Милю → Мілем / Мілеві",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2035",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2079",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 2 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-015",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 41,
+     "anchor": "р. 5809",
+     "quote": null
+    }
+   ],
+   "observation": "Демина → Деміна",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5809",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-016",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 37,
+     "anchor": "р. 5395",
+     "quote": null
+    }
+   ],
+   "observation": "Зачеркнув → Закреслив",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5395",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-017",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": "КОДА II",
+     "anchor": "р. 6979",
+     "quote": null
+    }
+   ],
+   "observation": "передатчика → передавача",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6979",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-018",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 4,
+     "anchor": "р. 685",
+     "quote": null
+    }
+   ],
+   "observation": "состава → потяга",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-685",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-019",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 43,
+     "anchor": "р. 6041",
+     "quote": null
+    }
+   ],
+   "observation": "Не чини! → Не лагодь!",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6041",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-020",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 15,
+     "anchor": "р. 2665",
+     "quote": null
+    }
+   ],
+   "observation": "Від узагалі → Від «взагалі»",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2665",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-021",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 33,
+     "anchor": "р. 5059",
+     "quote": null
+    }
+   ],
+   "observation": "Попросив, за який край → Спитав",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5059",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-022",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 3,
+     "anchor": "р. 581",
+     "quote": null
+    }
+   ],
+   "observation": "«сказала сама, коли я спитав» — логічна суперечність",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-581",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-023",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 12,
+     "anchor": "р. 2157",
+     "quote": null
+    }
+   ],
+   "observation": "«не плутав число двадцять років»",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2157",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-024",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 6,
+     "anchor": "р. 1081",
+     "quote": null
+    }
+   ],
+   "observation": "«складали його на ім’ї»",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-1081",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-025",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 14,
+     "anchor": "р. 2491",
+     "quote": null
+    }
+   ],
+   "observation": "дієслово без підмета після «Вона»",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2491",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-026",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 26,
+     "anchor": "р. 4125",
+     "quote": null
+    }
+   ],
+   "observation": "«Хороша аварія» — іронія не читається",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-4125",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-027",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 36,
+     "anchor": "р. 5269",
+     "quote": null
+    }
+   ],
+   "observation": "неоднозначний мовець",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-5269",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-028",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 2,
+     "anchor": "р. 375",
+     "quote": null
+    }
+   ],
+   "observation": "«Я відвернувся до вікна» двічі",
+   "reader_effect": "Мовна шорсткість / калька.",
+   "evidence": "Цитату знайдено в тексті.",
+   "proposed_actions": [
+    "Виправити за звітом."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-375",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-029",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "taste",
+   "locations": [
+    {
+     "chapter": 1,
+     "anchor": "р. 59",
+     "quote": null
+    }
+   ],
+   "observation": "Незграбний зворот.",
+   "reader_effect": "Дрібна шорсткість.",
+   "evidence": "Перевірено.",
+   "proposed_actions": [
+    "«дурна образа на звичайну річ»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-59",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-030",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "clarity",
+   "severity": "minor",
+   "certainty": "taste",
+   "locations": [
+    {
+     "chapter": 24,
+     "anchor": "р. 3771",
+     "quote": null
+    }
+   ],
+   "observation": "Хибний гачок «Довідку про смерть Ведар надіслав сам» повторює прийом розд. 38.",
+   "reader_effect": "Читач на мить думає, що Ведар помер.",
+   "evidence": "Перевірено.",
+   "proposed_actions": [
+    "«Довідку на випадок власної смерті…»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-3771",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-031",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "minor",
+   "certainty": "hypothesis",
+   "locations": [
+    {
+     "chapter": 4,
+     "anchor": "р. 697, 711",
+     "quote": null
+    },
+    {
+     "chapter": 9,
+     "anchor": "р. 1603–1605",
+     "quote": null
+    },
+    {
+     "chapter": "КОДА II",
+     "anchor": "р. 6945",
+     "quote": null
+    }
+   ],
+   "observation": "Число «сорок сім хвилин» у двох незалежних місцях.",
+   "reader_effect": "Схоже на випадковість або на незчитану луну.",
+   "evidence": "Перевірено.",
+   "proposed_actions": [
+    "Зробити луну свідомою: Джулія помічає збіг і відмовляється робити з нього знак."
+   ],
+   "dependencies": [
+    "author-questions-answered.md#q3"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю». Делеговане рішення виконавця, записане в author-questions-answered.md; підлягає перегляду автором.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6945",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-032",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "taste",
+   "locations": [
+    {
+     "chapter": 33,
+     "anchor": "р. 4971",
+     "quote": null
+    }
+   ],
+   "observation": "Канцелярське речення в найгарячішій точці.",
+   "reader_effect": "Збиває темп.",
+   "evidence": "Перевірено.",
+   "proposed_actions": [
+    "«Від пульта Ведар уже не дістав би.»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-4971",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-033",
+   "origin_reports": [
+    "gemini_flash"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 18,
+     "anchor": "р. 3055",
+     "quote": null
+    }
+   ],
+   "observation": "Калька «за рахунок» (засіб).",
+   "reader_effect": "Русизм.",
+   "evidence": "Цитату знайдено.",
+   "proposed_actions": [
+    "«завдяки додатковій підготовці»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-3055",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-034",
+   "origin_reports": [
+    "gemini_flash"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": 20,
+     "anchor": "р. 3339",
+     "quote": null
+    }
+   ],
+   "observation": "«Не за рахунок уроків» — канцелярит.",
+   "reader_effect": "Регістр.",
+   "evidence": "Цитату знайдено.",
+   "proposed_actions": [
+    "«Не коштом уроків»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-3339",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-035",
+   "origin_reports": [
+    "gemini_flash"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "strong_inference",
+   "locations": [
+    {
+     "chapter": 16,
+     "anchor": "р. 2783",
+     "quote": null
+    }
+   ],
+   "observation": "«знаходилися люди» — калька.",
+   "reader_effect": "Русизм.",
+   "evidence": "Цитату знайдено.",
+   "proposed_actions": [
+    "«траплялися люди»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-2783",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-036",
+   "origin_reports": [
+    "gemini_flash"
+   ],
+   "category": "voice",
+   "severity": "minor",
+   "certainty": "taste",
+   "locations": [
+    {
+     "chapter": 44,
+     "anchor": "р. 6183",
+     "quote": null
+    },
+    {
+     "chapter": 46,
+     "anchor": "р. 6369, 6459",
+     "quote": null
+    }
+   ],
+   "observation": "Висока щільність фігури «обидва/обидві».",
+   "reader_effect": "Монотонність.",
+   "evidence": "Цитати знайдено.",
+   "proposed_actions": [
+    "Варіювати 2–3 вживання."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6459",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6183",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6369",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 3 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-037",
+   "origin_reports": [
+    "gemini_flash"
+   ],
+   "category": "continuity",
+   "severity": "minor",
+   "certainty": "hypothesis",
+   "locations": [
+    {
+     "chapter": 26,
+     "anchor": "р. 4037",
+     "quote": null
+    },
+    {
+     "chapter": 46,
+     "anchor": "р. 6411",
+     "quote": null
+    }
+   ],
+   "observation": "Пропозиція зіставити «42 справи» і «41 родину». Хибна передумова: 42 — чинні справи на виході вузла Дому (постачання, узгодження, обслуговування; р. 4037 це прямо пояснює), 41 — давні родини з медичного відбору Веди (розд. 9, 46). Запропонована ремарка «сорок одна за старим сімейним списком і одна інженерна» створила б неправдивий зв’язок.",
+   "reader_effect": "Ризик плутанини низький: числа стоять у різних частинах книги й пояснені на місці.",
+   "evidence": "Перевірено р. 4037, 1585, 6411.",
+   "proposed_actions": [
+    "Не змінювати."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю». Відмова дозволена лише при хибній передумові, суперечності канону або іншому пункту — див. observation.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "Текст у цьому місці свідомо не змінено; підстава відмови в observation / reconciliation.md."
+   }
+  },
+  {
+   "id": "ENS-038",
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "pacing",
+   "severity": "minor",
+   "certainty": "reader_reaction",
+   "locations": [
+    {
+     "chapter": 34,
+     "anchor": "р. 5081",
+     "quote": null
+    }
+   ],
+   "observation": "Холодний читач хотів прогорнути протокольні формулювання Джулії в розд. 34.",
+   "reader_effect": "Сповільнення в кульмінації.",
+   "evidence": "Сцена — виплата P-09 (Джулія встановлює межі свого допуску); процедура тут і є дія. Ясність ставок посилено через ENS-008.",
+   "proposed_actions": [
+    "Не змінювати розд. 34."
+   ],
+   "dependencies": [
+    "ENS-008"
+   ],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю». Відмова дозволена лише при хибній передумові, суперечності канону або іншому пункту — див. observation.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "Текст у цьому місці свідомо не змінено; підстава відмови в observation / reconciliation.md."
+   }
+  },
+  {
+   "id": "ENS-039",
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "pacing",
+   "severity": "minor",
+   "certainty": "reader_reaction",
+   "locations": [
+    {
+     "chapter": 46,
+     "anchor": "р. 6431",
+     "quote": null
+    }
+   ],
+   "observation": "Повторний самоосуд Веди в розд. 46.",
+   "reader_effect": "Відчуття вже пройденого.",
+   "evidence": "Перевірено.",
+   "proposed_actions": [
+    "Стиснути абзац реакції Кая."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6431",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-040",
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "pacing",
+   "severity": "minor",
+   "certainty": "reader_reaction",
+   "locations": [
+    {
+     "chapter": 48,
+     "anchor": "р. 6651",
+     "quote": null
+    }
+   ],
+   "observation": "Методичність звірки Марти гальмує катарсис.",
+   "reader_effect": "Втома.",
+   "evidence": "Перевірено.",
+   "proposed_actions": [
+    "Стиснути один абзац звірки; розмову із сестрою не чіпати."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю».",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6651",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-041",
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "clarity",
+   "severity": "minor",
+   "certainty": "reader_reaction",
+   "locations": [
+    {
+     "chapter": 47,
+     "anchor": "р. 6569",
+     "quote": null
+    }
+   ],
+   "observation": "Холодний читач не зрозумів механіки загибелі Лада.",
+   "reader_effect": "Абстрактність на тлі раціонального світу.",
+   "evidence": "Канон RIOKKA-LAD-SVITLOYAR і RIOKKA-WILD-TRANSMISSION-LIMITS: дике передає натяг лише суцільним коренем.",
+   "proposed_actions": [
+    "Одна уточнювальна фраза в свідченні Кая (розд. 47) у межах канону."
+   ],
+   "dependencies": [
+    "author-questions-answered.md#q4"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю». Делеговане рішення виконавця, записане в author-questions-answered.md; підлягає перегляду автором.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-6569",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  },
+  {
+   "id": "ENS-042",
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "causality",
+   "severity": "minor",
+   "certainty": "reader_reaction",
+   "locations": [
+    {
+     "chapter": 12,
+     "anchor": "р. 2105",
+     "quote": null
+    },
+    {
+     "chapter": 15,
+     "anchor": "р. 2543",
+     "quote": null
+    }
+   ],
+   "observation": "Питання, чому одна людина могла віддавати руйнівні накази без перевірок.",
+   "reader_effect": "Сумнів у субординації.",
+   "evidence": "Відповідь уже в тексті: розд. 12 (право незалежної перевірки перенесене до користувача вузла), розд. 15 (самопродовжуване доручення), розд. 19 (Тихон: «Ти залишив від мого місця руки»).",
+   "proposed_actions": [
+    "Не змінювати; див. відповідь автору."
+   ],
+   "dependencies": [
+    "author-questions-answered.md#q6"
+   ],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю». Відмова дозволена лише при хибній передумові, суперечності канону або іншому пункту — див. observation.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "Текст у цьому місці свідомо не змінено; підстава відмови в observation / reconciliation.md."
+   }
+  },
+  {
+   "id": "ENS-043",
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "character",
+   "severity": "minor",
+   "certainty": "reader_reaction",
+   "locations": [
+    {
+     "chapter": 33,
+     "anchor": "р. 5013–5029",
+     "quote": null
+    }
+   ],
+   "observation": "Холодному читачеві покора Рея відліку здалася «зрежисованою».",
+   "reader_effect": "Недовіра до вчинку.",
+   "evidence": "У тексті Рей не кориться: «Три» він каже сам (р. 5027), потім зізнається «Тримав після цього» (р. 5051) і в розд. 37 уточнює власний стиск. Сцена — виплата мотиву «на три» з т. 4.",
+   "proposed_actions": [
+    "Не змінювати."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю». Відмова дозволена лише при хибній передумові, суперечності канону або іншому пункту — див. observation.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "Текст у цьому місці свідомо не змінено; підстава відмови в observation / reconciliation.md."
+   }
+  },
+  {
+   "id": "ENS-044",
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "character",
+   "severity": "minor",
+   "certainty": "reader_reaction",
+   "locations": [
+    {
+     "chapter": "КОДА I",
+     "anchor": "р. 6877–6939",
+     "quote": null
+    }
+   ],
+   "observation": "Спокій Ведара в Коді I здався надто швидким.",
+   "reader_effect": "Бракує психологічного зламу.",
+   "evidence": "Кода свідомо показує не злам, а роздратування й опір («Мені це досі не подобалося», «Я не став іншою людиною»); голос профілю «сдержанная процедура».",
+   "proposed_actions": [
+    "Не змінювати."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю». Відмова дозволена лише при хибній передумові, суперечності канону або іншому пункту — див. observation.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "Текст у цьому місці свідомо не змінено; підстава відмови в observation / reconciliation.md."
+   }
+  },
+  {
+   "id": "ENS-045",
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "ending",
+   "severity": "minor",
+   "certainty": "reader_reaction",
+   "locations": [
+    {
+     "chapter": null,
+     "anchor": "Питання після книги 1–4",
+     "quote": null
+    }
+   ],
+   "observation": "Питання холодного читача: природа дикого, запобіжники проти нового Ведара, майбутнє Верина, майбутнє Ділянки.",
+   "reader_effect": "Відкриті питання фіналу серії.",
+   "evidence": "Відкрито за задумом або вже відповіли в кодах.",
+   "proposed_actions": [
+    "Відповіді зафіксовано в author-questions-answered.md; текст не змінювати, крім ENS-041."
+   ],
+   "dependencies": [
+    "author-questions-answered.md#q4-q7"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю». Делеговане рішення виконавця, записане в author-questions-answered.md; підлягає перегляду автором.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "Зміна тексту не потрібна; відповідь зафіксовано в author-questions-answered.md."
+   }
+  },
+  {
+   "id": "ENS-046",
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "format",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "locations": [
+    {
+     "chapter": "титул",
+     "anchor": "р. 7",
+     "quote": "Літературна редакція · 06"
+    }
+   ],
+   "observation": "Службовий титул редакції у читацькому тексті лишився від 06 (виявлено виконавцем Claude під час застосування, не в зафіксованому діагнозі).",
+   "reader_effect": "Невідповідність версії.",
+   "evidence": "Перевірено.",
+   "proposed_actions": [
+    "06 → 07."
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Автор 18.09.2026 (author-decisions.md): «согласен со всех изменений — обязательно исправь окончательные манускрипты — обнови — ответь на все вопросы максимально интересно — я потом все просмотрю». Технічний наслідок створення редакції 07.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.txt#src-line-7",
+     "riokka/books/book-05/revisions/2026-09-18-literary-07/Riokka_5_UK_literary_07.docx"
+    ],
+    "revision_sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "edits.json: 1 правок; grep-звірка «стало» присутнє / «було» відсутнє — пройдено; language_qa і uk_naturalness без сигналів; DOCX round-trip 3585/3585."
+   }
+  }
+ ]
 }
