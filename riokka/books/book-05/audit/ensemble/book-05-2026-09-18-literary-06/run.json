@@ -4,7 +4,7 @@
   "project_id": "riokka",
   "book_id": "book-05",
   "created_at": "2026-09-18T07:57:51+00:00",
-  "status": "prepared",
+  "status": "diagnosis_in_progress",
   "language": "uk",
   "required_diagnoses": [
     "astra",
@@ -37,18 +37,21 @@
     },
     "claude": {
       "file": "claude-diagnosis.md",
-      "status": "draft",
-      "sha256": null
+      "status": "locked",
+      "sha256": "8939a981afb49fb05e9efcc3b5f8dec8eb4731dde1986544d6605af74a9ff17c",
+      "locked_at": "2026-09-18T08:09:57+00:00"
     },
     "gemini_flash": {
       "file": "gemini-flash-diagnosis.md",
-      "status": "draft",
-      "sha256": null
+      "status": "locked",
+      "sha256": "d488963401a12d70c7f918a548eb62eba3e75a44a2bda88e6e6313df7708dec6",
+      "locked_at": "2026-09-18T08:34:14+00:00"
     },
     "gemini": {
       "file": "gemini-blind-read.md",
-      "status": "draft",
-      "sha256": null
+      "status": "locked",
+      "sha256": "42302052a87e5e98fc8a8ab62464a6b8b65e614d4a84b3d50388df605d62c8a3",
+      "locked_at": "2026-09-18T08:15:23+00:00"
     },
     "reconciliation": {
       "file": "reconciliation.md",

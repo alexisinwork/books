@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-18T07:58:28+00:00",
+  "role": "gemini_flash",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash-high",
+  "target": {
+    "path": "riokka\\books\\book-04\\editions\\uk\\canonical-2026-09-17\\manuscript.txt",
+    "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "MANUSCRIPT",
+      "path": "riokka\\books\\book-04\\editions\\uk\\canonical-2026-09-17\\manuscript.txt",
+      "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0"
+    }
+  ],
+  "temporary_inputs": [
+    {
+      "label": "MANUSCRIPT",
+      "path": "C:\\Users\\alexi\\AppData\\Local\\Temp\\literary-model-orb9xd26\\01-MANUSCRIPT.txt",
+      "sha256": "d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0"
+    }
+  ],
+  "prompt_sha256": "f8b721899d28d1db1e2599cb86bb525c88d5f5cb93a4cc84f520865861aa9abb",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "temporary_absolute_paths",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 1498.53,
+  "resolved_model_id": "gemini-3.8-flash-high",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "a5c7688f-f31d-4e6d-a02b-51e04e96d181",
+  "usage": {
+    "input_tokens": 1847351,
+    "output_tokens": 60444,
+    "thinking_tokens": 28841,
+    "cache_read_tokens": 2961794,
+    "total_tokens": 1907795
+  },
+  "denied_actions": [],
+  "report_sha256": "f406588fc73b58e21986e74bd63824e5a944e8ea833e1edbbb159a15ae96fc21"
+}
