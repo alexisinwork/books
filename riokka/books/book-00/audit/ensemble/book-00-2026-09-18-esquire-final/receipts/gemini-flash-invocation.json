@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-18T17:40:46+00:00",
+  "role": "gemini_flash",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash-high",
+  "target": {
+    "path": "riokka\\books\\book-00\\editions\\uk\\canonical-2026-09-18\\manuscript.txt",
+    "sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "MANUSCRIPT",
+      "path": "riokka\\books\\book-00\\editions\\uk\\canonical-2026-09-18\\manuscript.txt",
+      "sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1"
+    },
+    {
+      "label": "SERIES_ESSENCE",
+      "path": "riokka\\series\\essence.md",
+      "sha256": "55d78911702e0ebac599d52ac9154acf62501408064c3a4e0b73acec2eeeb08a"
+    },
+    {
+      "label": "SERIES_CANON",
+      "path": "riokka\\series\\canon.json",
+      "sha256": "e3d6066a180a8336ff26e261451c2eae59167723d9369984b7e0267a5f24521b"
+    }
+  ],
+  "temporary_inputs": [
+    {
+      "label": "MANUSCRIPT",
+      "path": "C:\\Users\\alexi\\AppData\\Local\\Temp\\literary-model-27b4ku3v\\01-MANUSCRIPT.txt",
+      "sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1"
+    },
+    {
+      "label": "SERIES_ESSENCE",
+      "path": "C:\\Users\\alexi\\AppData\\Local\\Temp\\literary-model-27b4ku3v\\02-SERIES_ESSENCE.txt",
+      "sha256": "55d78911702e0ebac599d52ac9154acf62501408064c3a4e0b73acec2eeeb08a"
+    },
+    {
+      "label": "SERIES_CANON",
+      "path": "C:\\Users\\alexi\\AppData\\Local\\Temp\\literary-model-27b4ku3v\\03-SERIES_CANON.txt",
+      "sha256": "e3d6066a180a8336ff26e261451c2eae59167723d9369984b7e0267a5f24521b"
+    }
+  ],
+  "prompt_sha256": "82ce45dd3be76cb93b26345eb9e3245832093d7a0ffcd8f0fdeaae241eaa44f5",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "temporary_absolute_paths",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 332.0,
+  "resolved_model_id": "gemini-3.8-flash-high",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "ddacbb66-39d9-4d13-b341-e6505fa89255",
+  "usage": {
+    "input_tokens": 927088,
+    "output_tokens": 55033,
+    "thinking_tokens": 30881,
+    "cache_read_tokens": 4520443,
+    "total_tokens": 982121
+  },
+  "denied_actions": [],
+  "report_sha256": "0682cb14c85e931339882b99e7812c0aa712b27eeee95abcfa21f7bdcc341226"
+}
