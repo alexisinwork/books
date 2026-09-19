@@ -1,9 +1,2359 @@
 {
-  "schema_version": 1,
-  "run_id": "book-00-2026-09-18-esquire-final",
-  "project_id": "riokka",
-  "book_id": "book-00",
-  "source_sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1",
-  "status": "collecting",
-  "items": []
+ "schema_version": 1,
+ "run_id": "book-00-2026-09-18-esquire-final",
+ "project_id": "riokka",
+ "book_id": "book-00",
+ "source_sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1",
+ "status": "verified",
+ "items": [
+  {
+   "id": "ENS-001",
+   "report_codes": [
+    "C1",
+    "G-4"
+   ],
+   "origin_reports": [
+    "claude",
+    "gemini"
+   ],
+   "category": "structure",
+   "severity": "critical",
+   "certainty": "confirmed_conflict",
+   "agreement": "convergent",
+   "locations": [
+    {
+     "chapter": "33",
+     "anchor": "canonical-2026-09-18 р. 7741",
+     "quote": "На транспортному кільці Дев’ять Дверей одночасно"
+    },
+    {
+     "chapter": "45",
+     "anchor": "canonical-2026-09-18 р. 10493",
+     "quote": "«Дев’ять дверей» спочатку називалися складською аварією на Нассі."
+    }
+   ],
+   "observation": "«Дев’ять дверей» оповідено двічі з несумісними фактами (р. 33 і р. 44–50).",
+   "reader_effect": "Ламається хронологія ч. III–IV.",
+   "evidence": "р. 7561, 7741, 10477, 10493; Гордій помирає до Насси.",
+   "proposed_actions": [
+    "Канон — Насса; подію р. 33 перейменовано на кільце Гатта, розділ — «Дев’ять потоків»"
+   ],
+   "dependencies": [
+    "author-questions-answered.md Q5"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Делеговане рішення виконавця за author-decisions.md («Канонічні питання — делеговані рішення виконавця… Decision: modify»); див. author-questions-answered.md. (Q5)",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E107, E109, E110, E219)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-002",
+   "report_codes": [
+    "C2"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "15",
+     "anchor": "canonical-2026-09-18 р. 3195",
+     "quote": "стояла біля клапана, коли його розірвало"
+    },
+    {
+     "chapter": "38",
+     "anchor": "canonical-2026-09-18 р. 8633",
+     "quote": "Її ім’я я довго не знав."
+    }
+   ],
+   "observation": "Справа Міора/Романи тричі з різною смертю й «першим» відкриттям останньої сторінки.",
+   "reader_effect": "Відкриття повторюється; смерть змінюється.",
+   "evidence": "р. 3195, 3249, 5113–5163, 8633–8645.",
+   "proposed_actions": [
+    "Одна версія смерті (р. 15), одне протистояння з Ведаром (р. 38), дубль р. 23 знято, анахронізм «три роки» в листі Алми знято"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E022, E023, E060, E061, E125, E126, E127, E128)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-003",
+   "report_codes": [
+    "C3"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "pacing",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "53",
+     "anchor": "canonical-2026-09-18 р. 12353",
+     "quote": "Ми запустили пілот."
+    }
+   ],
+   "observation": "Пілот читачів і війну оповідено двічі (р. 53 і 54–55).",
+   "reader_effect": "Читач знає результат наперед.",
+   "evidence": "р. 12353–12393 проти 12811–12877.",
+   "proposed_actions": [
+    "Лишити «Ми запустили пілот.»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E157)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-004",
+   "report_codes": [
+    "C4"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "75",
+     "anchor": "canonical-2026-09-18 р. 18369",
+     "quote": "Рея я вперше впізнав не по обличчю."
+    }
+   ],
+   "observation": "Два «перші» впізнавання Рея й Кая.",
+   "reader_effect": "Пряма суперечність.",
+   "evidence": "р. 14305 проти 18369, 18427.",
+   "proposed_actions": [
+    "р. 75 — повторне, не перше"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E240, E241, E243)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-005",
+   "report_codes": [
+    "C5"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "73",
+     "anchor": "canonical-2026-09-18 р. 17769",
+     "quote": "Альму я не знайшов."
+    }
+   ],
+   "observation": "Перше знайомство з Йором двічі.",
+   "reader_effect": "Дубль.",
+   "evidence": "р. 16161–16233 проти 17769–17839.",
+   "proposed_actions": [
+    "Видалити другий «перший» контакт"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E235, E236)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-006",
+   "report_codes": [
+    "C6"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "56",
+     "anchor": "canonical-2026-09-18 р. 13033",
+     "quote": "Прізвисько «Рука» народилося як комплімент."
+    },
+    {
+     "chapter": "39",
+     "anchor": "canonical-2026-09-18 р. 8805",
+     "quote": "почали писати просто «В.»"
+    }
+   ],
+   "observation": "Два походження «Руки» й «В.».",
+   "reader_effect": "Етимологія ключових слів «пливе».",
+   "evidence": "р. 5355, 7617, 8805, 13033.",
+   "proposed_actions": [
+    "«Остаточно прижилося»; «старе поле „В.“ дедалі частіше означало Ведара»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E129, E163)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-007",
+   "report_codes": [
+    "C7"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "moderate",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "24",
+     "anchor": "canonical-2026-09-18 р. 5439",
+     "quote": "Тихон припинив працювати з Домом через ручну тягу."
+    }
+   ],
+   "observation": "Тихон двічі йде з Дому.",
+   "reader_effect": "Дубль.",
+   "evidence": "р. 5439, 5529 проти 9177, 9161.",
+   "proposed_actions": [
+    "р. 24 — перша сварка; пролепсис лишити в р. 40"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E063, E064, E065)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-008",
+   "report_codes": [
+    "C8"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "moderate",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "72",
+     "anchor": "canonical-2026-09-18 р. 17563",
+     "quote": "Тайни я почав розносити"
+    }
+   ],
+   "observation": "Повторний переказ Тресси з новим фактом («живою за добу»).",
+   "reader_effect": "Суперечить р. 6–7.",
+   "evidence": "р. 17563–17611.",
+   "proposed_actions": [
+    "Стиснути"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E231, E232)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-009",
+   "report_codes": [
+    "C9",
+    "G-conf"
+   ],
+   "origin_reports": [
+    "claude",
+    "gemini"
+   ],
+   "category": "pacing",
+   "severity": "major",
+   "certainty": "strong_inference",
+   "agreement": "convergent",
+   "locations": [
+    {
+     "chapter": "33",
+     "anchor": "canonical-2026-09-18 р. 7777",
+     "quote": "Післяаварійний період продовжили двічі."
+    }
+   ],
+   "observation": "Біт «тимчасове стає постійним» ~10 разів.",
+   "reader_effect": "Передбачуваність; кода стає рефреном.",
+   "evidence": "р. 24, 32, 33, 39, 44, 50, 53, 55, 57.",
+   "proposed_actions": [
+    "Лишити повними р. 24, 39, 50; інші стиснути"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept). Застосовано частково: стиснуто р. 33, 44, 53 (через ENS-003), 57; кінець р. 32 лишено як завершення частини III.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E111, E112, E139, E164, E165)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-010",
+   "report_codes": [
+    "C10",
+    "G-5"
+   ],
+   "origin_reports": [
+    "claude",
+    "gemini"
+   ],
+   "category": "pacing",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "agreement": "convergent",
+   "locations": [
+    {
+     "chapter": "80",
+     "anchor": "canonical-2026-09-18 р. 19863",
+     "quote": "Перша відповідь зайняла сім сторінок."
+    }
+   ],
+   "observation": "Перелік Джулії (р. 80–81) повторює відповіді р. 64–69; холодний читач: монотонне самобичування перед фіналом.",
+   "reader_effect": "Ч. VII гальмує.",
+   "evidence": "р. 19809–20169.",
+   "proposed_actions": [
+    "Лишити п. 5, 9–12; решту — одним абзацом"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept). Застосовано частково: п. 7 (Ільс) лишено стисло, бо на ньому тримається розд. 81.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E251, E252, E253, E262)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-011",
+   "report_codes": [
+    "C11"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "27",
+     "anchor": "canonical-2026-09-18 р. 5943",
+     "quote": "Через кілька місяців давав свідчення."
+    },
+    {
+     "chapter": "65",
+     "anchor": "canonical-2026-09-18 р. 15407",
+     "quote": "Знав, що його обміняли."
+    }
+   ],
+   "observation": "Доля Орми в трьох версіях.",
+   "reader_effect": "Оповідач «бреше» там, де претендує на точність.",
+   "evidence": "р. 343, 5943, 6789, 15407.",
+   "proposed_actions": [
+    "обмін → перемир’я → суд → строк → скорочення через хворобу"
+   ],
+   "dependencies": [
+    "author-questions-answered.md Q6"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Делеговане рішення виконавця за author-decisions.md («Канонічні питання — делеговані рішення виконавця… Decision: modify»); див. author-questions-answered.md. (Q6)",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E076, E193, E194, E195)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-012",
+   "report_codes": [
+    "C12"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "69",
+     "anchor": "canonical-2026-09-18 р. 16633",
+     "quote": "Орми в дитячій версії не було."
+    }
+   ],
+   "observation": "Верін сам розповідав хлопцям про Орму.",
+   "reader_effect": "Суперечність.",
+   "evidence": "р. 5811–5973 проти 16633.",
+   "proposed_actions": [
+    "Уточнити: Гордієва версія"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E217, E218)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-013",
+   "report_codes": [
+    "C13"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "22",
+     "anchor": "canonical-2026-09-18 р. 5005",
+     "quote": "— Він не знає, що Ільс живий."
+    }
+   ],
+   "observation": "Верін «знає», що Ільс живий, за 11 років до пошуку.",
+   "reader_effect": "Хронологічний злам.",
+   "evidence": "р. 4781, 4939, 5005.",
+   "proposed_actions": [
+    "«— Він не знає, де Ільс.»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E056, E057, E058, E059, E254)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-014",
+   "report_codes": [
+    "C14"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "71",
+     "anchor": "canonical-2026-09-18 р. 17271",
+     "quote": "Знайшов три місця, де моя пам’ять уже стала фактом."
+    },
+    {
+     "chapter": "81",
+     "anchor": "canonical-2026-09-18 р. 20093",
+     "quote": "Попросив зустріч."
+    }
+   ],
+   "observation": "«Виправлено в книжці», але в тексті виправлень немає (формули в р. 19, Лем у р. 50, Ільс у р. 81).",
+   "reader_effect": "Рамка сама себе спростовує.",
+   "evidence": "р. 17271–17279, 17917, 18733, 20093–20101; т. 5, р. 6693: «Подзвонив, вибачився».",
+   "proposed_actions": [
+    "Формули пам’яті в р. 19, Лем у р. 50, телефон у р. 81"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E040, E043, E045, E147, E256, E257, E258, E259, E260, E261)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-015",
+   "report_codes": [
+    "C15"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "moderate",
+   "certainty": "strong_inference",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "28",
+     "anchor": "canonical-2026-09-18 р. 5981",
+     "quote": "Не мій."
+    }
+   ],
+   "observation": "Незрозуміло, який пластик.",
+   "reader_effect": "Плутанина з картками.",
+   "evidence": "р. 5981–5985.",
+   "proposed_actions": [
+    "Новий, для хлопців"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E081, E082)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-016",
+   "report_codes": [
+    "C16"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "moderate",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "3",
+     "anchor": "canonical-2026-09-18 р. 685",
+     "quote": "Не було ложки"
+    }
+   ],
+   "observation": "Ложки «не було», хоча вона є в р. 1.",
+   "reader_effect": "Суперечність.",
+   "evidence": "р. 29, 685.",
+   "proposed_actions": [
+    "Ложка висіла на ключах"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E001)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-017",
+   "report_codes": [
+    "C17"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "moderate",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "69",
+     "anchor": "canonical-2026-09-18 р. 16589",
+     "quote": "дві хвилини"
+    }
+   ],
+   "observation": "«Дві хвилини» замість ~10.",
+   "reader_effect": "Числа.",
+   "evidence": "р. 11547, 16589.",
+   "proposed_actions": [
+    "десять хвилин"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E213, E214)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-018",
+   "report_codes": [
+    "C18"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "moderate",
+   "certainty": "strong_inference",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "67",
+     "anchor": "canonical-2026-09-18 р. 15965",
+     "quote": "Майстра на першу хвилю не було."
+    }
+   ],
+   "observation": "Марен був на першій хвилі.",
+   "reader_effect": "Суперечність.",
+   "evidence": "р. 3809–4013.",
+   "proposed_actions": [
+    "Уточнити «з правом обходу»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E199)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-019",
+   "report_codes": [
+    "C19"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "moderate",
+   "certainty": "strong_inference",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "54",
+     "anchor": "canonical-2026-09-18 р. 12403",
+     "quote": "Молодий диспетчер"
+    }
+   ],
+   "observation": "Вік Йора.",
+   "reader_effect": "Суперечність.",
+   "evidence": "р. 3461, 12403, 16171.",
+   "proposed_actions": [
+    "середніх років"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E158)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-020",
+   "report_codes": [
+    "C20"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "clarity",
+   "severity": "minor",
+   "certainty": "strong_inference",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "74",
+     "anchor": "canonical-2026-09-18 р. 17971",
+     "quote": "вік Мирти"
+    }
+   ],
+   "observation": "Мирта — вузол, не людина.",
+   "reader_effect": "Плутанина.",
+   "evidence": "р. 1799, 17971.",
+   "proposed_actions": [
+    "вік Рени"
+   ],
+   "dependencies": [
+    "author-questions-answered.md Q12"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Делеговане рішення виконавця за author-decisions.md («Канонічні питання — делеговані рішення виконавця… Decision: modify»); див. author-questions-answered.md. (Q12)",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E237)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-021",
+   "report_codes": [
+    "C21"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "continuity",
+   "severity": "major",
+   "certainty": "hypothesis",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "34",
+     "anchor": "canonical-2026-09-18 р. 8223",
+     "quote": "років двадцять кажеш"
+    }
+   ],
+   "observation": "Хронологія не вміщується у «двадцять років».",
+   "reader_effect": "Дати не складаються.",
+   "evidence": "р. 7657, 8223, 15271.",
+   "proposed_actions": [
+    "Прибрати жорсткі маркери; таймлайн — питання"
+   ],
+   "dependencies": [
+    "author-questions-answered.md Q8"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Делеговане рішення виконавця за author-decisions.md («Канонічні питання — делеговані рішення виконавця… Decision: modify»); див. author-questions-answered.md. (Q8)",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E108, E123)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-022",
+   "report_codes": [
+    "C22"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "voice",
+   "severity": "moderate",
+   "certainty": "taste",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "19",
+     "anchor": "canonical-2026-09-18 р. 3957",
+     "quote": "Він теж мав рацію."
+    }
+   ],
+   "observation": "Тик вердикту.",
+   "reader_effect": "Знімає напругу.",
+   "evidence": "лічба у звіті Claude.",
+   "proposed_actions": [
+    "Зняти частину"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept). Застосовано частково: знято три адресні приклади зі звіту (р. 1355, 3957, 10087); решту лишено як рису голосу.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E003, E033, E136)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-023",
+   "report_codes": [
+    "C23"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "voice",
+   "severity": "moderate",
+   "certainty": "taste",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "43",
+     "anchor": "canonical-2026-09-18 р. 9791",
+     "quote": "Мені сподобалася фраза."
+    }
+   ],
+   "observation": "Тик «оплесків».",
+   "reader_effect": "Пояснення зрозумілого.",
+   "evidence": "р. 9791, 12227.",
+   "proposed_actions": [
+    "Видалити в р. 43 і 53"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E135, E155)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-024",
+   "report_codes": [
+    "C24"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "voice",
+   "severity": "moderate",
+   "certainty": "taste",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "53",
+     "anchor": "canonical-2026-09-18 р. 12225",
+     "quote": "Усе, що люди роблять довше за один сезон"
+    }
+   ],
+   "observation": "Другорядні голоси однаково афористичні.",
+   "reader_effect": "Зливаються.",
+   "evidence": "Сора, Мея, Гелі, Яра.",
+   "proposed_actions": [
+    "Незграбна мова в 2–3 персонажів"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept). Застосовано частково: змінено Гелі; фрази Сори, Меї, Яри лишено, бо на них спираються пізніші розділи.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E154)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-025",
+   "report_codes": [
+    "C25"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "pacing",
+   "severity": "moderate",
+   "certainty": "strong_inference",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "7",
+     "anchor": "canonical-2026-09-18 р. 1689",
+     "quote": "Рука доведе протилежне."
+    }
+   ],
+   "observation": "Пролепсис висновку ч. III–V.",
+   "reader_effect": "Висновок наперед.",
+   "evidence": "р. 1689, 1745–1749.",
+   "proposed_actions": [
+    "Одне речення"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E006, E007, E009, E010, E011)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-026",
+   "report_codes": [
+    "C26",
+    "F1"
+   ],
+   "origin_reports": [
+    "claude",
+    "gemini_flash"
+   ],
+   "category": "prose",
+   "severity": "moderate",
+   "certainty": "confirmed_conflict",
+   "agreement": "convergent",
+   "locations": [
+    {
+     "chapter": "*",
+     "anchor": "canonical-2026-09-18 глобально",
+     "quote": "Альма / створка / Ларс / «Ліса»"
+    }
+   ],
+   "observation": "Лексика й власні назви непослідовні.",
+   "reader_effect": "Шум.",
+   "evidence": "Алма 22 / Альма 16; створка ~28.",
+   "proposed_actions": [
+    "Алма, стулка, Лар, «Лиса»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E005, E019, E031, E035, E037, E041, E046, E054, E055, E095, E130, E131, E140, E141, E143, E144, E145, E146, E148, E159, E160, E161, E162, E210, E215, E216, E222, E227, E228, E238, E239, E246, E255, E263)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-027",
+   "report_codes": [
+    "C27"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "prose",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "*",
+     "anchor": "canonical-2026-09-18 адресно",
+     "quote": "Бо я мав інші люди на своїх дверях."
+    }
+   ],
+   "observation": "Граматика й кальки.",
+   "reader_effect": "Мовні огріхи.",
+   "evidence": "перелік C27.",
+   "proposed_actions": [
+    "Адресні заміни"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E027, E047, E074, E150, E167, E168, E180, E181, E182, E196, E230, E242, E244, E245)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-028",
+   "report_codes": [
+    "C28",
+    "F3"
+   ],
+   "origin_reports": [
+    "claude",
+    "gemini_flash"
+   ],
+   "category": "format",
+   "severity": "minor",
+   "certainty": "confirmed_conflict",
+   "agreement": "convergent",
+   "locations": [
+    {
+     "chapter": "*",
+     "anchor": "canonical-2026-09-18 32 пари",
+     "quote": "<b>…</b>"
+    }
+   ],
+   "observation": "Теги <b> у TXT.",
+   "reader_effect": "Шум / надлишок наголосів.",
+   "evidence": "Теги — проєкція жирного DOCX (tools/revise_docx_text.py), не сирий HTML.",
+   "proposed_actions": [
+    "Лишити жирний тільки в переліку питань Джулії (р. 64)"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept). Застосовано частково: передумова F3 («сирий HTML») хибна — це маркери жирного в проєкції DOCX; кількість наголосів зменшено за C28.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E004, E008, E133, E134, E137, E138, E142, E149, E151, E152, E197, E198, E200, E201, E202, E203, E204, E208, E209, E233, E249, E250, E264)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-029",
+   "report_codes": [
+    "C29"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "clarity",
+   "severity": "minor",
+   "certainty": "strong_inference",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "12",
+     "anchor": "canonical-2026-09-18 р. 2667",
+     "quote": "Ведар ще не знав, що його фраза"
+    }
+   ],
+   "observation": "Незрозумілий відсилач.",
+   "reader_effect": "Плутанина.",
+   "evidence": "р. 2667.",
+   "proposed_actions": [
+    "Видалити"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E020)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-030",
+   "report_codes": [
+    "C30"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "clarity",
+   "severity": "minor",
+   "certainty": "hypothesis",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "6",
+     "anchor": "canonical-2026-09-18 р. 1287",
+     "quote": "Найгірше прохання"
+    }
+   ],
+   "observation": "Логічний перекіс (прізвиська ще нема).",
+   "reader_effect": "Дрібний.",
+   "evidence": "р. 1287–1289.",
+   "proposed_actions": [
+    "«Згодом я знатиму»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E002)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-031",
+   "report_codes": [
+    "C31"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "canon",
+   "severity": "critical",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "9",
+     "anchor": "canonical-2026-09-18 р. 2183",
+     "quote": "Тоді це ім’я нічого мені не говорило."
+    },
+    {
+     "chapter": "69",
+     "anchor": "canonical-2026-09-18 р. 16575",
+     "quote": "Ведар не мій учитель у ремеслі."
+    }
+   ],
+   "observation": "Т. 5: Ведар назвав Веріна після приймального пункту; т. 0 заперечує знайомство.",
+   "reader_effect": "Канонічна суперечність.",
+   "evidence": "т. 5 р. 1901, 3021.",
+   "proposed_actions": [
+    "Упізнавання в р. 9; р. 69; Гордій забрав дитину"
+   ],
+   "dependencies": [
+    "author-questions-answered.md Q2"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Делеговане рішення виконавця за author-decisions.md («Канонічні питання — делеговані рішення виконавця… Decision: modify»); див. author-questions-answered.md. (Q2)",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E012, E013, E021, E211, E212)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-032",
+   "report_codes": [
+    "C32"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "knowledge",
+   "severity": "critical",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "25",
+     "anchor": "canonical-2026-09-18 р. 5667",
+     "quote": "Кай. Рей. Це Верін."
+    },
+    {
+     "chapter": "31",
+     "anchor": "canonical-2026-09-18 р. 7299",
+     "quote": "— Ви Есквайр?"
+    }
+   ],
+   "observation": "Хлопці знають, що гість — Есквайр, і чують його ім’я.",
+   "reader_effect": "Т. 1: «Я й не знаю, як його звали»; р. 34: «Він не знав, що говорить з Есквайром».",
+   "evidence": "т. 1 р. 489; т. 5 р. 829.",
+   "proposed_actions": [
+    "Гість — «давній знайомий», що знав Есквайра"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E030, E066, E068, E069, E070, E071, E072, E073, E075, E077, E078, E079, E080, E084, E085, E086, E087, E088, E089, E090, E096, E097, E098, E099, E100, E101, E102, E103, E104, E105, E106, E118, E119, E120, E121, E122)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-033",
+   "report_codes": [
+    "C33"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "canon",
+   "severity": "critical",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "18",
+     "anchor": "canonical-2026-09-18 р. 3827",
+     "quote": "Тихон, який приїхав оглянути привід"
+    },
+    {
+     "chapter": "20",
+     "anchor": "canonical-2026-09-18 р. 4405",
+     "quote": "Ти вперше вибрав людей до виходу"
+    }
+   ],
+   "observation": "Тихон на Сьомому причалі; ключова фраза в нього.",
+   "reader_effect": "Т. 3: «На причалі мене не було»; фразу каже Есквайр через рік.",
+   "evidence": "т. 3 р. 6483; т. 4 р. 1397.",
+   "proposed_actions": [
+    "Замінити Тихона Мареном/помічником; сцена через рік"
+   ],
+   "dependencies": [
+    "author-questions-answered.md Q4"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Делеговане рішення виконавця за author-decisions.md («Канонічні питання — делеговані рішення виконавця… Decision: modify»); див. author-questions-answered.md. (Q4)",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E032, E034, E036, E044, E048, E049, E050, E051, E052, E053)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-034",
+   "report_codes": [
+    "C34"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "canon",
+   "severity": "critical",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "17",
+     "anchor": "canonical-2026-09-18 р. 3373",
+     "quote": "НЕ ЛИШАЙ СВІЙ РАХУНОК БЕЗ ЧИТАЧА."
+    },
+    {
+     "chapter": "68",
+     "anchor": "canonical-2026-09-18 р. 16299",
+     "quote": "перші шість ті самі;"
+    }
+   ],
+   "observation": "Редакції семи правил і картка Кая розходяться з т. 1, 3, 5.",
+   "reader_effect": "Головний артефакт серії виглядає інакше.",
+   "evidence": "т. 1 р. 305, 479; т. 3 р. 5259; т. 5 р. 2151–2157.",
+   "proposed_actions": [
+    "Старе сьоме за т. 5; друге польове — «Не бери контракту…»; Каєва картка — польова"
+   ],
+   "dependencies": [
+    "author-questions-answered.md Q3"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Делеговане рішення виконавця за author-decisions.md («Канонічні питання — делеговані рішення виконавця… Decision: modify»); див. author-questions-answered.md. (Q3)",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E024, E025, E026, E028, E029, E083, E091, E092, E093, E094, E114, E115, E116, E117, E166, E177, E178, E179, E183, E205, E206, E207, E229, E234)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-035",
+   "report_codes": [
+    "C35"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "canon",
+   "severity": "critical",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "63",
+     "anchor": "canonical-2026-09-18 р. 15263",
+     "quote": "«Шукаю Веріна."
+    },
+    {
+     "chapter": "83",
+     "anchor": "canonical-2026-09-18 р. 20651",
+     "quote": "— Верін? — спитала."
+    }
+   ],
+   "observation": "Як Джулія знаходить Веріна й де вперше зустрічаються — розходиться з т. 5, розд. 4.",
+   "reader_effect": "Дві несумісні історії однієї зустрічі.",
+   "evidence": "т. 5 р. 633–823, 1725–1925, 3613–3697, 5803, 6935–6957.",
+   "proposed_actions": [
+    "Перша зустріч за т. 5; рамка т. 0 — листування після п’яти днів т. 5; р. 83 — пізніший візит"
+   ],
+   "dependencies": [
+    "author-questions-answered.md Q1"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Делеговане рішення виконавця за author-decisions.md («Канонічні питання — делеговані рішення виконавця… Decision: modify»); див. author-questions-answered.md. (Q1)",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E169, E170, E171, E172, E173, E184, E185, E186, E187, E188, E189, E190, E191, E192, E220, E221, E223, E224, E225, E226, E248, E266, E267, E268)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-036",
+   "report_codes": [
+    "C36"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "canon",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "19",
+     "anchor": "canonical-2026-09-18 р. 4159",
+     "quote": "Через двадцять років вона пам’ятатиме інше"
+    },
+    {
+     "chapter": "82",
+     "anchor": "canonical-2026-09-18 р. 20353",
+     "quote": "плакала без звуку"
+    }
+   ],
+   "observation": "Джулію несли / не несли; капсула.",
+   "reader_effect": "Суперечить собі й т. 5.",
+   "evidence": "т. 5 р. 753, 775, 779; т. 1 р. 1021.",
+   "proposed_actions": [
+    "Ніс на ремені; не плакала, поки не зняли ремінь; капсула з хастівським замком"
+   ],
+   "dependencies": [
+    "author-questions-answered.md Q7"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Делеговане рішення виконавця за author-decisions.md («Канонічні питання — делеговані рішення виконавця… Decision: modify»); див. author-questions-answered.md. (Q7)",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E038, E039, E042, E265)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-037",
+   "report_codes": [
+    "C37"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "canon",
+   "severity": "major",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "11",
+     "anchor": "canonical-2026-09-18 р. 2587",
+     "quote": "Створка пішла й зупинилася на третині."
+    }
+   ],
+   "observation": "Перша робота Тихона й Есквайра — ролі навпаки.",
+   "reader_effect": "Суперечить т. 3.",
+   "evidence": "т. 3 р. 4375–4431.",
+   "proposed_actions": [
+    "Помилка — Тихонова, питання про залізо — Верінове; Кенарі"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E014, E015, E016, E017, E018)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-038",
+   "report_codes": [
+    "C38"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "knowledge",
+   "severity": "major",
+   "certainty": "strong_inference",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "35",
+     "anchor": "canonical-2026-09-18 р. 8261",
+     "quote": "Ложку забрав Рей."
+    },
+    {
+     "chapter": "59",
+     "anchor": "canonical-2026-09-18 р. 14143",
+     "quote": "чесно говоритиме Джулії"
+    }
+   ],
+   "observation": "Що Тихон знає про хлопців і про живого Веріна.",
+   "reader_effect": "Суперечить т. 3, 5.",
+   "evidence": "т. 3 р. 5269, 6499; т. 5 р. 1105.",
+   "proposed_actions": [
+    "Переказ із гаража; «зручний край правди»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E124, E174, E175, E176)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-039",
+   "report_codes": [
+    "C39"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "canon",
+   "severity": "moderate",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "24",
+     "anchor": "canonical-2026-09-18 р. 5393",
+     "quote": "які пізніше зупинятимуть Кай і Джулія"
+    }
+   ],
+   "observation": "Спойлер і неточність: відкликання підписує Ведар.",
+   "reader_effect": "Хибний сигнал.",
+   "evidence": "essence §3.5; т. 5, розд. 35.",
+   "proposed_actions": [
+    "«про які говоритимуть пізніше»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E062)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-040",
+   "report_codes": [
+    "C40"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "promise",
+   "severity": "moderate",
+   "certainty": "taste",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "52",
+     "anchor": "canonical-2026-09-18 р. 12159",
+     "quote": "Ще пізніше Рей збере Орена, Тихона й джерело"
+    }
+   ],
+   "observation": "Пролепси розкривають розв’язки т. 3–5.",
+   "reader_effect": "Спойлери.",
+   "evidence": "р. 7909, 12159, 12243.",
+   "proposed_actions": [
+    "Знеособити"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E113, E153, E156)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-041",
+   "report_codes": [
+    "C41"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "canon",
+   "severity": "moderate",
+   "certainty": "strong_inference",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "43",
+     "anchor": "canonical-2026-09-18 р. 9561",
+     "quote": "Культура була місцева, жива"
+    }
+   ],
+   "observation": "Мала Тернь може читатися як рання поява дикого.",
+   "reader_effect": "Суперечить RIOKKA-WILD-SPREAD-SCALE.",
+   "evidence": "series/canon.json.",
+   "proposed_actions": [
+    "«Не ріокка — місцева металозв’язувальна лінія.»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E132)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-042",
+   "report_codes": [
+    "C42"
+   ],
+   "origin_reports": [
+    "claude"
+   ],
+   "category": "canon",
+   "severity": "moderate",
+   "certainty": "hypothesis",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "25",
+     "anchor": "canonical-2026-09-18 р. 5643",
+     "quote": "Гордій відчинив не одразу."
+    }
+   ],
+   "observation": "Нога Гордія (т. 1: утратив ногу).",
+   "reader_effect": "Дрібна неузгодженість.",
+   "evidence": "т. 1 р. 343.",
+   "proposed_actions": [
+    "Протез"
+   ],
+   "dependencies": [
+    "author-questions-answered.md Q11"
+   ],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Делеговане рішення виконавця за author-decisions.md («Канонічні питання — делеговані рішення виконавця… Decision: modify»); див. author-questions-answered.md. (Q11)",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E067)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-043",
+   "report_codes": [
+    "F2"
+   ],
+   "origin_reports": [
+    "gemini_flash"
+   ],
+   "category": "prose",
+   "severity": "moderate",
+   "certainty": "confirmed_conflict",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "76",
+     "anchor": "canonical-2026-09-18 р. 18713",
+     "quote": "мали відносини"
+    }
+   ],
+   "observation": "Калька «відносини» про двох людей.",
+   "reader_effect": "Мовна норма.",
+   "evidence": "р. 18713.",
+   "proposed_actions": [
+    "«стосунки»"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "accepted",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept).",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "applied",
+    "targets": [
+     "riokka/books/book-00/revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.txt (E247)"
+    ],
+    "revision_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3"
+   },
+   "verification": {
+    "status": "passed",
+    "evidence": "grep-звірка «стало є / було немає» (revisions/2026-09-18-literary-01/verification-grep.json); DOCX round-trip 10142/10142 побайтово; language_qa і uk_naturalness без сигналів"
+   }
+  },
+  {
+   "id": "ENS-044",
+   "report_codes": [
+    "G-1"
+   ],
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "pacing",
+   "severity": "moderate",
+   "certainty": "reader_reaction",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "1–2",
+     "anchor": "canonical-2026-09-18 р. 233",
+     "quote": "Коротше треба."
+    }
+   ],
+   "observation": "Холодний читач: дидактичний початок.",
+   "reader_effect": "Бажання прогорнути.",
+   "evidence": "Сам читач: «пізніше стало зрозуміло, що саме ці правила і є справжнім сюжетом».",
+   "proposed_actions": [
+    "—"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "author-decisions.md: «Суперечливі або хибні пропозиції — Decision: reject з поясненням». Причина: свідомий задум: правила — сюжет; читач сам знімає претензію.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "not_run",
+    "evidence": null
+   }
+  },
+  {
+   "id": "ENS-045",
+   "report_codes": [
+    "G-2"
+   ],
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "scene",
+   "severity": "moderate",
+   "certainty": "reader_reaction",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "3",
+     "anchor": "canonical-2026-09-18 р. 587",
+     "quote": "Представник складу намагався довести"
+    }
+   ],
+   "observation": "Суд над Нері сухий.",
+   "reader_effect": "Емоційна яма.",
+   "evidence": "Читач: «стилістично виправдано».",
+   "proposed_actions": [
+    "—"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "author-decisions.md: «Суперечливі або хибні пропозиції — Decision: reject з поясненням». Причина: суд без катарсису — урок розділу.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "not_run",
+    "evidence": null
+   }
+  },
+  {
+   "id": "ENS-046",
+   "report_codes": [
+    "G-3"
+   ],
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "pacing",
+   "severity": "moderate",
+   "certainty": "reader_reaction",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "44",
+     "anchor": "canonical-2026-09-18 р. 10073",
+     "quote": "На стику нижніх пластин"
+    }
+   ],
+   "observation": "Розд. 44 перевантажений технікою.",
+   "reader_effect": "Бажання прогорнути.",
+   "evidence": "voice.json: увага до послідовностей і допусків.",
+   "proposed_actions": [
+    "—"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "author-decisions.md: «Суперечливі або хибні пропозиції — Decision: reject з поясненням». Причина: процедурна проза — голос тому; Claude відносить р. 43–44 до сильних.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "not_run",
+    "evidence": null
+   }
+  },
+  {
+   "id": "ENS-047",
+   "report_codes": [
+    "G-4"
+   ],
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "pacing",
+   "severity": "moderate",
+   "certainty": "reader_reaction",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "45–46",
+     "anchor": "canonical-2026-09-18 р. 10549",
+     "quote": "Пожежник вимагав відкрити першу."
+    }
+   ],
+   "observation": "Бюрократична метушня Дев’яти дверей.",
+   "reader_effect": "В’язкість.",
+   "evidence": "Нагромадження порядків — зміст події (народження Руки).",
+   "proposed_actions": [
+    "—"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "author-decisions.md: «Суперечливі або хибні пропозиції — Decision: reject з поясненням». Причина: структурну частину закрито ENS-001; сцени лишено.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "not_run",
+    "evidence": null
+   }
+  },
+  {
+   "id": "ENS-048",
+   "report_codes": [
+    "G-conf"
+   ],
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "clarity",
+   "severity": "moderate",
+   "certainty": "reader_reaction",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "23–24",
+     "anchor": "canonical-2026-09-18 р. 5169",
+     "quote": "Дім приймання спершу був кімнатою."
+    }
+   ],
+   "observation": "Незрозуміло, як Ведар отримав владу в Домі.",
+   "reader_effect": "Плутанина.",
+   "evidence": "—",
+   "proposed_actions": [
+    "—"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "modified",
+    "basis": "Пряма інструкція автора 18.09.2026: «литературную редактуру эсквайра согласно лору и остальным книгам… дай выходной готовый файл docx» (author-decisions.md: пропозиції зафіксованих звітів — accept). Застосовано частково: окремої вставки немає; туман частково знято ENS-006 і ENS-009.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "not_run",
+    "evidence": "Рішення без зміни тексту"
+   }
+  },
+  {
+   "id": "ENS-049",
+   "report_codes": [
+    "G-belief1"
+   ],
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "character",
+   "severity": "moderate",
+   "certainty": "reader_reaction",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "59",
+     "anchor": "canonical-2026-09-18 р. 14033",
+     "quote": "Не підписав."
+    }
+   ],
+   "observation": "Не віриться пасивності Веріна після «смерті».",
+   "reader_effect": "Вчинок поза характером.",
+   "evidence": "Р. 59, 70, 81 прямо розкладають мотиви; т. 5 — канон.",
+   "proposed_actions": [
+    "—"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "author-decisions.md: «Суперечливі або хибні пропозиції — Decision: reject з поясненням». Причина: пасивність — предмет самосуду оповідача, не помилка.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "not_run",
+    "evidence": null
+   }
+  },
+  {
+   "id": "ENS-050",
+   "report_codes": [
+    "G-belief2"
+   ],
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "character",
+   "severity": "moderate",
+   "certainty": "reader_reaction",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "61",
+     "anchor": "canonical-2026-09-18 р. 14633",
+     "quote": "Ведар знав, що я живий."
+    }
+   ],
+   "observation": "Не віриться, що Ведар не використав знання.",
+   "reader_effect": "Вчинок поза характером.",
+   "evidence": "Р. 61: «взаємно зручне мовчання»; т. 5, розд. 18.",
+   "proposed_actions": [
+    "—"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "author-decisions.md: «Суперечливі або хибні пропозиції — Decision: reject з поясненням». Причина: пояснено в тексті.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "not_run",
+    "evidence": null
+   }
+  },
+  {
+   "id": "ENS-051",
+   "report_codes": [
+    "G-promise1"
+   ],
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "promise",
+   "severity": "moderate",
+   "certainty": "reader_reaction",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "83",
+     "anchor": "canonical-2026-09-18 р. 20763",
+     "quote": "Цього разу я не велів їй чекати."
+    }
+   ],
+   "observation": "Очікувана конфронтація з Ведаром не відбулася.",
+   "reader_effect": "Незавершеність політичної лінії.",
+   "evidence": "Конфронтація — у т. 5; приквел свідомо закінчується малою кімнатою.",
+   "proposed_actions": [
+    "—"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "author-decisions.md: «Суперечливі або хибні пропозиції — Decision: reject з поясненням». Причина: розв’язка лінії Ведара належить т. 5.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "not_run",
+    "evidence": null
+   }
+  },
+  {
+   "id": "ENS-052",
+   "report_codes": [
+    "G-promise2"
+   ],
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "promise",
+   "severity": "minor",
+   "certainty": "reader_reaction",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "68",
+     "anchor": "canonical-2026-09-18 р. 16287",
+     "quote": "Рання:"
+    }
+   ],
+   "observation": "Бракує структурованої презентації семи правил.",
+   "reader_effect": "—",
+   "evidence": "Повні переліки є в р. 14 і 68; тепер у р. 68 повні обидві редакції (ENS-034).",
+   "proposed_actions": [
+    "—"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "author-decisions.md: «Суперечливі або хибні пропозиції — Decision: reject з поясненням». Причина: передумова неточна.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "not_run",
+    "evidence": null
+   }
+  },
+  {
+   "id": "ENS-053",
+   "report_codes": [
+    "G-promise3"
+   ],
+   "origin_reports": [
+    "gemini"
+   ],
+   "category": "promise",
+   "severity": "minor",
+   "certainty": "reader_reaction",
+   "agreement": "single",
+   "locations": [
+    {
+     "chapter": "7",
+     "anchor": "canonical-2026-09-18 р. 1771",
+     "quote": "Ми з нею більше не бачились."
+    }
+   ],
+   "observation": "Очікувалася помста Гари й Лева.",
+   "reader_effect": "—",
+   "evidence": "Р. 73: публічна фраза Гари — свідоме повернення без сюжету помсти.",
+   "proposed_actions": [
+    "—"
+   ],
+   "dependencies": [],
+   "author_decision": {
+    "status": "rejected",
+    "basis": "author-decisions.md: «Суперечливі або хибні пропозиції — Decision: reject з поясненням». Причина: не обіцянка тексту.",
+    "decided_at": "2026-09-18"
+   },
+   "implementation": {
+    "status": "not_applicable",
+    "targets": [],
+    "revision_sha256": null
+   },
+   "verification": {
+    "status": "not_run",
+    "evidence": null
+   }
+  }
+ ]
 }

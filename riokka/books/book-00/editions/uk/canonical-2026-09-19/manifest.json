@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "book_id": "book-00",
+  "edition_id": "uk-canonical-2026-09-19",
+  "language": "uk",
+  "title": "Есквайр",
+  "title_ru": "Эсквайр",
+  "supersedes_edition": {
+    "edition_id": "uk-canonical-2026-09-18",
+    "path": "editions/uk/canonical-2026-09-18",
+    "sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1",
+    "note": "Попередня канонічна редакція збережена без змін."
+  },
+  "sources": [
+    {
+      "name": "Riokka_0_UK_literary_01.docx",
+      "sha256": "dd7fac480b12bee21cc65a9b64f742ce86aca17db6825474bfc2f68d2e9e655b",
+      "role": "approved_revision",
+      "path": "../../../revisions/2026-09-18-literary-01/Riokka_0_UK_literary_01.docx"
+    },
+    {
+      "name": "previous canonical",
+      "sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1",
+      "role": "previous_canonical_master",
+      "path": "../../../editions/uk/canonical-2026-09-18/manuscript.txt"
+    }
+  ],
+  "target_txt_file": "manuscript.txt",
+  "target_txt_sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3",
+  "target_docx_file": "manuscript.docx",
+  "target_docx_sha256": "dd7fac480b12bee21cc65a9b64f742ce86aca17db6825474bfc2f68d2e9e655b",
+  "nonempty_lines": 10153,
+  "total_lines": 20294,
+  "status": "final_canonical_edition",
+  "authority": "Пряме доручення автора 19.09.2026: «сделай литературную редактуру эсквайра согласно лору и остальным книгам … дай выходной готовый файл docx на рабочий стол»; ансамблевий прогін book-00-2026-09-18-esquire-final (Claude Opus, Gemini 3.8 Flash, Gemini 3.1 Pro; Astra unavailable).",
+  "revision": "revisions/2026-09-18-literary-01",
+  "ensemble_run": "audit/ensemble/book-00-2026-09-18-esquire-final",
+  "qa_status": {
+    "language_qa": "passed",
+    "uk_naturalness": "passed",
+    "unresolved_signals": 0,
+    "docx_extraction_vs_txt": "byte-identical (revision README)"
+  },
+  "open": "Делеговані авторські рішення в audit/ensemble/book-00-2026-09-18-esquire-final/author-questions-answered.md чекають перегляду автора; потрібне нове сліпе читання цього SHA; Astra — після 21.09.2026."
+}

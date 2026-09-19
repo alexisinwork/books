@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_id": "riokka",
   "book_id": "book-00",
-  "source_sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037",
+  "source_sha256": "dd7fac480b12bee21cc65a9b64f742ce86aca17db6825474bfc2f68d2e9e655b",
   "record_type": "revision-log",
   "fields": [
     "id",
@@ -45,6 +45,27 @@
         "studio_doctor"
       ],
       "decision": "author_assigned_canonical_master"
+    },
+    {
+      "id": "2026-09-18-literary-01",
+      "reason": "Застосування всіх пропозицій ансамблевого прогону book-00-2026-09-18-esquire-final за загальною згодою автора 19.09.2026.",
+      "old_source": {
+        "path": "editions/uk/canonical-2026-09-18/manuscript.txt",
+        "sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1"
+      },
+      "new_source": {
+        "path": "editions/uk/canonical-2026-09-19/manuscript.txt",
+        "sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3",
+        "docx_sha256": "dd7fac480b12bee21cc65a9b64f742ce86aca17db6825474bfc2f68d2e9e655b"
+      },
+      "changes": "revisions/2026-09-18-literary-01/edits.json",
+      "affected_checks": [
+        "language_qa",
+        "uk_naturalness",
+        "blind_read (потрібен новий прогін)",
+        "continuity anchors after edited lines"
+      ],
+      "decision": "author_blanket_approval_2026-09-18"
     }
   ]
 }

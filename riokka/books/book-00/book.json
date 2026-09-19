@@ -9,28 +9,36 @@
   "master": {
     "path": "manuscript/master.docx",
     "format": "docx",
-    "sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037",
+    "sha256": "dd7fac480b12bee21cc65a9b64f742ce86aca17db6825474bfc2f68d2e9e655b",
     "status": "author_selected",
     "language": "uk",
-    "authority": "Пряме рішення автора 18.09.2026: додати Riokka_0_UK_Esquire_final.docx як майстер тома 0."
+    "authority": "Пряме доручення автора 19.09.2026: «сделай литературную редактуру эсквайра согласно лору и остальным книгам … дай выходной готовый файл docx на рабочий стол»; ансамблевий прогін book-00-2026-09-18-esquire-final (Claude Opus, Gemini 3.8 Flash, Gemini 3.1 Pro; Astra unavailable)."
   },
   "canonical_ua_master": {
-    "path": "editions/uk/canonical-2026-09-18/manuscript.txt",
+    "path": "editions/uk/canonical-2026-09-19/manuscript.txt",
     "format": "text",
-    "sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1",
+    "sha256": "eb04c3a813fb39990635ed724d2635624323ac1b7f12c570cb96176fd1d714e3",
     "status": "final_canonical_master",
-    "authority": "Пряме рішення автора 18.09.2026: додати Riokka_0_UK_Esquire_final.docx як канонічний майстер тома 0.",
-    "docx": "editions/uk/canonical-2026-09-18/manuscript.docx",
-    "docx_sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037",
-    "edition_manifest": "editions/uk/canonical-2026-09-18/manifest.json",
+    "authority": "Пряме доручення автора 19.09.2026: «сделай литературную редактуру эсквайра согласно лору и остальным книгам … дай выходной готовый файл docx на рабочий стол»; ансамблевий прогін book-00-2026-09-18-esquire-final (Claude Opus, Gemini 3.8 Flash, Gemini 3.1 Pro; Astra unavailable).",
+    "docx": "editions/uk/canonical-2026-09-19/manuscript.docx",
+    "docx_sha256": "dd7fac480b12bee21cc65a9b64f742ce86aca17db6825474bfc2f68d2e9e655b",
+    "edition_manifest": "editions/uk/canonical-2026-09-19/manifest.json",
     "total_chapters": 83,
     "parts": 7,
-    "chapter_units_detected": 91,
-    "nonempty_lines": 10379,
-    "nonempty_body_paragraphs": 10291,
-    "lexical_tokens": 68700,
+    "nonempty_lines": 10153,
     "publication_clearance": false,
-    "clearance_note": "Канон і майстер призначено автором 18.09.2026 (Riokka_0_UK_Esquire_final.docx)."
+    "clearance_note": "Канон і майстер оновлено 19.09.2026 за прямим дорученням автора (ревізія 2026-09-18-literary-01).",
+    "supersedes": [
+      {
+        "file": "editions/uk/canonical-2026-09-18/manuscript.txt",
+        "sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1"
+      }
+    ],
+    "supersedes_edition": {
+      "path": "editions/uk/canonical-2026-09-18",
+      "sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1",
+      "note": "Попередня канонічна редакція збережена без змін."
+    }
   },
   "legacy_source": {
     "path": "archive/master-ru-candidate-2026-09-14.docx",
@@ -41,13 +49,13 @@
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "author_master_assigned_2026-09-18",
+  "audit_status": "author_master_assigned_2026-09-19",
   "original": "../../sources/originals/ЭСКВАЙР-Книга-0.docx",
   "authoritative_text": "canonical_ua_master",
   "derived": {
     "manuscript": "derived/manuscript.txt",
     "snapshot": "derived/snapshot.json",
     "regenerated_from": "master",
-    "sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037"
+    "sha256": "dd7fac480b12bee21cc65a9b64f742ce86aca17db6825474bfc2f68d2e9e655b"
   }
 }
