@@ -1,8 +1,9 @@
-# Начать работу с Контактом
+# Начать работу с Контактом / серией «Разлад»
 
-1. Выберите books/book-01…book-07. Прочитайте её brief.md, plan.md, voice.json, session.md.
-2. Откройте series/CANON-POLICY.md, continuity-queue.json и костяк нужного тома.
-3. Разверните сцену, зафиксируйте допущения; после написания выберите мастер.
+1. **Главный авторитет**: откройте `series/PRE-DRAFT-LOCK-2026-09-19.md` (зафиксированные правила, 8 томов, модель Резонанса, правила Лада, POV Даля).
+2. Выберите нужный том из `books/book-01`…`books/book-08`. Прочитайте её `brief.md`, `plan.md`, `voice.json`, `PRE-DRAFT-LOCK.md`.
+3. Откройте `series/CANON-POLICY.md`, `series/SOCIAL-PROBLEMS-MAP.md`, `series/continuity-queue.json` и костяк нужного тома.
+4. Разверните сцену, зафиксируйте допущения; после написания выберите мастер.
 
 ```sh
 python tools/studio.py doctor
