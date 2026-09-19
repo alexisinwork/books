@@ -1,0 +1,134 @@
+{
+  "generated": "19.09.2026",
+  "repo": "alexisinwork/books",
+  "snapshot_commit": "dbcce33456fa968f730112d9d319c86a175ce218",
+  "riokka": [
+    {
+      "id": "book-00",
+      "num": "0",
+      "title": "Есквайр",
+      "words": 68056,
+      "chapters": "83 розділи, 7 частин",
+      "status": "Канонічний UA-майстер; допуск до публікації ще не закритий",
+      "path": "riokka/books/book-00/editions/uk/canonical-2026-09-19/manuscript.docx",
+      "sha": "dd7fac480b12bee21cc65a9b64f742ce86aca17db6825474bfc2f68d2e9e655b"
+    },
+    {
+      "id": "book-01",
+      "num": "1",
+      "title": "Антидот із Семарі",
+      "words": 43990,
+      "chapters": "42 розділи",
+      "status": "Канонічний UA-майстер; stage ready_for_release",
+      "path": "riokka/books/book-01/editions/uk/canonical-2026-09-18/manuscript.docx",
+      "sha": "b57820244666496f0047aa3798581e186d18859286581462a72f477d03a74e35"
+    },
+    {
+      "id": "book-02",
+      "num": "2",
+      "title": "Інші збитки",
+      "words": 64765,
+      "chapters": "51 розділ",
+      "status": "Канонічний UA-майстер; stage proofreading_ready",
+      "path": "riokka/books/book-02/editions/uk/canonical-2026-09-18/manuscript.docx",
+      "sha": "03d39e7894842d6df498ad960dfa0789009871f59b08cdb3f926f93a38574750"
+    },
+    {
+      "id": "book-03",
+      "num": "3",
+      "title": "Пагорб Розмарі",
+      "words": 63724,
+      "chapters": "58 розділів",
+      "status": "Канонічний UA-майстер; метадані stage застарілі — потрібен фінальний QA перед друком",
+      "path": "riokka/books/book-03/editions/uk/final-2026-09-16/manuscript.docx",
+      "sha": "cae2126e81bb0995e57e7e9406f90873f12a938d791f489278c9f360784ea533"
+    },
+    {
+      "id": "book-04",
+      "num": "4",
+      "title": "Почерк без імені",
+      "words": 72296,
+      "chapters": "61 розділ + 3 епілоги",
+      "status": "Канонічний UA-майстер; допуск до публікації ще не закритий",
+      "path": "riokka/books/book-04/editions/uk/canonical-2026-09-18/manuscript.docx",
+      "sha": "397746e37c6dd725998420d090bcca04b1b55459f62214ac43b53d991e4271d4"
+    },
+    {
+      "id": "book-05",
+      "num": "5",
+      "title": "Той, кого читають",
+      "words": 68962,
+      "chapters": "6 частин, 49 розділів, 3 коди, фінальна сцена",
+      "status": "Канонічний UA-майстер; допуск до публікації ще не закритий",
+      "path": "riokka/books/book-05/editions/uk/canonical-2026-09-18b/manuscript.docx",
+      "sha": "0918d8f48652f19b356fb4b8c43c5674013f65c87edf058ed81dc9e25ada5b52"
+    }
+  ],
+  "buro": [
+    {
+      "id": "book-01",
+      "num": "1",
+      "title": "Чистий аркуш",
+      "words": 58232,
+      "chapters": "45 розділів",
+      "status": "Українська робоча редакція 01; НЕ канонічний майстер",
+      "path": "buro/books/book-01/manuscript/uk-drafts/BURO_01_CHYSTYI_ARKUSH_UK_REVISION_01.md",
+      "sha": "277e055361be58d4647d248a88f1573e05aef1dfda4a76e6e32d87ed460a27c6"
+    },
+    {
+      "id": "book-02",
+      "num": "2",
+      "title": "За розкладом",
+      "words": 63522,
+      "chapters": "44 розділи",
+      "status": "Українська робоча чернетка 01; НЕ канонічний майстер",
+      "path": "buro/books/book-02/manuscript/uk-drafts/BURO_02_ZA_ROZKLADOM_UK_DRAFT_01.md",
+      "sha": "37c03ac30b391b72f7c214228b308443f7ac5d3956c31c97bc62099ca9c76559"
+    },
+    {
+      "id": "book-03",
+      "num": "3",
+      "title": "Перо без руки",
+      "words": 61446,
+      "chapters": "44 розділи",
+      "status": "Українська робоча чернетка 01; НЕ канонічний майстер",
+      "path": "buro/books/book-03/manuscript/uk-drafts/BURO_03_PERO_BEZ_RUKY_UK_DRAFT_01.md",
+      "sha": "c892b4146e4dc30bac42df7e7c707dee27aa36b0b96009ad41a577910fa51982"
+    }
+  ],
+  "policy": "When repository changes, regenerate package from book.json/current UA master; do not patch stale package manually.",
+  "official_sources": [
+    {
+      "name": "Закон України «Про видавничу справу»",
+      "url": "https://zakon.rada.gov.ua/go/318/97-%D0%B2%D1%80"
+    },
+    {
+      "name": "Закон України «Про обов’язковий примірник документів»",
+      "url": "https://zakon.rada.gov.ua/go/595-14"
+    },
+    {
+      "name": "Книжкова палата України: Інструкція про порядок надання ISBN",
+      "url": "https://ukrbook.net/zakony/instr_isbn.pdf"
+    },
+    {
+      "name": "Держкомтелерадіо: Державний реєстр видавців, виготовлювачів і розповсюджувачів",
+      "url": "https://comin.gov.ua/administrativni-poslugi/vnesennya-subyektiv-vidavnichoyi-spravi-do-derzhavnogo-reyestru-vidavciv-vigotovlyuvachiv-i-rozpovsyudzhuvachiv-vidavnichoyi-produkciyi/derzhavnij-reyestr-vidavciv-vigotovlyuvachiv-i-rozpovsyudzhuvachiv-vidavnichoyi-produkciyi"
+    },
+    {
+      "name": "Книжкова палата: нормативні документи видавничої справи",
+      "url": "https://www.ukrbook.net/vidavc.html"
+    },
+    {
+      "name": "Vivat: українська наукова фантастика",
+      "url": "https://vivat.com.ua/category/ukrainska-naukova-fantastyka/"
+    },
+    {
+      "name": "Книгарня «Є»: наукова фантастика",
+      "url": "https://book-ye.com.ua/hudozhnja-literatura/fantastika/naukova-fantastyka/"
+    },
+    {
+      "name": "Yakaboo: добірне українське фентезі та фантастика",
+      "url": "https://www.yakaboo.ua/ua/knigi/dobirki-yakaboo/ukrains-ke-fentezi-ta-fantastika.html"
+    }
+  ]
+}

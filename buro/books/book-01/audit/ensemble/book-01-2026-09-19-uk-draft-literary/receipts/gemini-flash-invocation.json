@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-19T17:06:54+00:00",
+  "role": "gemini_flash",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.8-flash-high",
+  "target": {
+    "path": "buro\\books\\book-01\\manuscript\\uk-drafts\\BURO_01_CHYSTYI_ARKUSH_UK_REVISION_01.md",
+    "sha256": "277e055361be58d4647d248a88f1573e05aef1dfda4a76e6e32d87ed460a27c6"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "MANUSCRIPT",
+      "path": "buro\\books\\book-01\\manuscript\\uk-drafts\\BURO_01_CHYSTYI_ARKUSH_UK_REVISION_01.md",
+      "sha256": "277e055361be58d4647d248a88f1573e05aef1dfda4a76e6e32d87ed460a27c6"
+    },
+    {
+      "label": "SERIES_DECISIONS",
+      "path": "buro\\series\\DECISIONS-2026-09-19.md",
+      "sha256": "949a36553e3b632c719c78d6ff6314898aecfa782abab2f176865cb8abc265b4"
+    }
+  ],
+  "temporary_inputs": [
+    {
+      "label": "MANUSCRIPT",
+      "path": "C:\\Users\\alexi\\AppData\\Local\\Temp\\literary-model-a0_j_t8f\\01-MANUSCRIPT.txt",
+      "sha256": "277e055361be58d4647d248a88f1573e05aef1dfda4a76e6e32d87ed460a27c6"
+    },
+    {
+      "label": "SERIES_DECISIONS",
+      "path": "C:\\Users\\alexi\\AppData\\Local\\Temp\\literary-model-a0_j_t8f\\02-SERIES_DECISIONS.txt",
+      "sha256": "949a36553e3b632c719c78d6ff6314898aecfa782abab2f176865cb8abc265b4"
+    }
+  ],
+  "prompt_sha256": "d2a5a8be308b1b946da2c325a7f3d771f21e67d8663f592dc1de149d70b4dc75",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "temporary_absolute_paths",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 379.97,
+  "resolved_model_id": "gemini-3.8-flash-high",
+  "resolved_model_label": "Gemini 3.8 Flash (High)",
+  "conversation_id": "2037095e-5fec-441b-91df-17be4524510a",
+  "usage": {
+    "input_tokens": 1048500,
+    "output_tokens": 53933,
+    "thinking_tokens": 35106,
+    "cache_read_tokens": 4076382,
+    "total_tokens": 1102433
+  },
+  "denied_actions": [],
+  "report_sha256": "c2dca1ddce29a105baaa8365bfd78922972587bcf33065bf016ce6f4a0837062"
+}

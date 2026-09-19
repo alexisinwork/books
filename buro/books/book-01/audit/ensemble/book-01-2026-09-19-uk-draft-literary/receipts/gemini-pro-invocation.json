@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-19T17:13:29+00:00",
+  "role": "gemini",
+  "client": "agy CLI",
+  "requested_model": "gemini-3.1-pro-high",
+  "target": {
+    "path": "C:\\Users\\alexi\\AppData\\Local\\Temp\\claude\\C--Users-alexi-OneDrive-Projects\\fbb9094c-8083-4df7-9640-96e4960d2f32\\scratchpad\\blind-b1\\MANUSCRIPT.md",
+    "sha256": "277e055361be58d4647d248a88f1573e05aef1dfda4a76e6e32d87ed460a27c6"
+  },
+  "source": null,
+  "inputs": [
+    {
+      "label": "MANUSCRIPT",
+      "path": "C:\\Users\\alexi\\AppData\\Local\\Temp\\claude\\C--Users-alexi-OneDrive-Projects\\fbb9094c-8083-4df7-9640-96e4960d2f32\\scratchpad\\blind-b1\\MANUSCRIPT.md",
+      "sha256": "277e055361be58d4647d248a88f1573e05aef1dfda4a76e6e32d87ed460a27c6"
+    }
+  ],
+  "temporary_inputs": [
+    {
+      "label": "MANUSCRIPT",
+      "path": "C:\\Users\\alexi\\AppData\\Local\\Temp\\literary-model-qu2l1ezl\\01-MANUSCRIPT.txt",
+      "sha256": "277e055361be58d4647d248a88f1573e05aef1dfda4a76e6e32d87ed460a27c6"
+    }
+  ],
+  "prompt_sha256": "4f81df52d2fcfa0925030b062af7966212d06b31646506cf9c1ee518459663c7",
+  "isolation": "prompt-restricted, filesystem isolation not guaranteed",
+  "isolation_observation": "A temporary cwd and client sandbox flags do not prove that the client workspace or filesystem access is limited to the listed files.",
+  "input_delivery": "temporary_absolute_paths",
+  "status": "report_returned",
+  "exit_code": 0,
+  "seconds": 216.38,
+  "resolved_model_id": "gemini-3.1-pro-high",
+  "resolved_model_label": "Gemini 3.1 Pro (High)",
+  "conversation_id": "c11e9582-19cc-4ce1-b510-37f34f9f75aa",
+  "usage": {
+    "input_tokens": 30883,
+    "output_tokens": 12095,
+    "thinking_tokens": 5956,
+    "cache_read_tokens": 24371,
+    "total_tokens": 42978
+  },
+  "denied_actions": [],
+  "report_sha256": "2e8900e8799b3d49d1164fce8768b15e511bba60680d37190fc79adc9898ea09"
+}
