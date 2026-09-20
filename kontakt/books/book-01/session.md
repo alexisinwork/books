@@ -1,9 +1,9 @@
-# Следующая сессия
+# Следующая сессия — Контакт
 
-Том: book-01, «Контакт». Стадия: план; master отсутствует.
+Стадия: **architecture_ready**. Master отсутствует. Прозу пока не писать.
 
-Прочитать brief.md, voice.json, plan.md, авторский костяк и относящиеся записи общей очереди.
+Прочитать общий lock, `ARCHITECTURE-PASS-01.md`, `book-matrix.md`, `character-arcs.md`, `reveal-ladder.md`, затем `brief.md`, `ARCHITECTURE-READINESS.md`, `plan.md` и historical outline.
 
-Следующее действие: развернуть первую главу в сценовую задачу, не добавляя чужого канона. Завершить сценой только по поручению автора; в этой поставке написание тома не имитировалось.
+Следующий шаг: Architecture Pass 01 — причинная scene-chain, planned character/knowledge/promises/timeline/end-state, сверка входа/выхода с соседними книгами.
 
-Главная особенность подачи: Камерное извлечение Майи; хейст через диалог и сопротивление.
+Не переходить к главе 1 до `ready_for_draft`.
