@@ -1,0 +1,124 @@
+{
+  "book_id": "book-01",
+  "status": "observed_in_working_draft_not_canonical",
+  "source": {
+    "path": "chapter-09.md",
+    "sha256": "a3f03652d81583b7c03e654cd4fd2791257390759a2201f1bc39ec65f23a76ed"
+  },
+  "previous": {
+    "path": "../2026-09-22-ch08-sol-v1/observed-state.json",
+    "prose_sha256": "ab47878a64ca69a60bc750bf244a886c984b217adc3e7df41545208314853986"
+  },
+  "revision": {
+    "first_save": "chapter-09.preflight.md",
+    "old_sha256": "a3f03652d81583b7c03e654cd4fd2791257390759a2201f1bc39ec65f23a76ed",
+    "reason": "First source byte-identical; notes-only provenance added",
+    "diff": "preflight-changes.diff"
+  },
+  "scenes": [
+    {
+      "id": "B01-S04-C09-S01",
+      "anchors": "P0002-P0017",
+      "events": [
+        "D4 16:57: Dal rings once and enters Maya kitchen. Tea jar and apples are on the table; a chair is ready.",
+        "Maya opens fresh one-use control: start, manual restoration and utility state. No history, profile or mediation text is exposed. Restoration targets the morning strengthened mode; automatic limit is 120 seconds.",
+        "Maya own return button lights up. She gives fresh confirmation after the clock changes to 17:00. Dal starts: utility active, emotional mediation off, no graph. His finger remains on manual backup."
+      ]
+    },
+    {
+      "id": "B01-S04-C09-S02",
+      "anchors": "P0018-P0035",
+      "events": [
+        "Maya asks one question: what will he do with her silence if she explains nothing. Dal answers Nothing.",
+        "Neither asks another question. She looks at him; he waits for continuation and notices background sounds as a possible refuge.",
+        "He feels the urge to look at the state display but chooses not to. He does not interpret her expression as fear, trust or consent.",
+        "He lets his own face remain visible and stays in the gaze without a metric or explanation. R1 is an architectural assessment, not an onscreen rank."
+      ]
+    },
+    {
+      "id": "B01-S04-C09-S03",
+      "anchors": "P0036-P0058",
+      "events": [
+        "Maya releases her fingers, then says Stop before the 120-second automatic end. Dal immediately presses manual restoration.",
+        "The strengthened mode returns, utilities remain active and one-use control closes. Maya reads private undisclosed text and confirms restoration.",
+        "She notes that he did not look at the device. She gives no meaning, reward or new consent. He still waits for an interpretation, but she does not supply one.",
+        "Dal packs the device; Maya ends the visit. He leaves the chair out; she points it out at the door. He returns to push it under the table, then leaves."
+      ]
+    }
+  ],
+  "timeline": {
+    "entry": "D4 16:57",
+    "pre_start": "16:59, then clock changes to 17:00; fresh consent before actual start",
+    "duration": "Less than 120 seconds; exact duration unobserved. Maya initiates stop.",
+    "exit": "D4 shortly after the window; clock unspecified. Scene remains before 18:00.",
+    "mediation_expiry": "D4 18:00, unchanged"
+  },
+  "knowledge": {
+    "Dal_and_reader": [
+      "Maya question, visible gaze/actions, stop, confirmed restoration and remark about his not looking at the device",
+      "Her internal feeling and meaning remain unknown; no silent consent inferred",
+      "Control scope and restoration target shown locally"
+    ],
+    "Maya": [
+      "Dal answered Nothing, did not look at the device and restored on her stop",
+      "Her private interpretations are not disclosed"
+    ],
+    "Tikhon": [
+      "No new information or result supplied"
+    ],
+    "Gor": [
+      "No new information or result supplied; no shown knowledge of the 17:00 visit"
+    ],
+    "Lad": [
+      "No export of private words, gaze or pause shown; no R1 detector"
+    ],
+    "not_established": [
+      "Clinical healing",
+      "Maya full trust or romantic reciprocity",
+      "New appointment or window consent",
+      "Payment",
+      "Exact duration or departure clock",
+      "Care assignment or profile grant"
+    ]
+  },
+  "resources": {
+    "resonance": "R1: architecture assessment of private human action; no UI rank or character label",
+    "employment": "Unchanged",
+    "Ballast": "Absent",
+    "direct_window": "Second window completed by Maya voice command before 120 seconds; not active",
+    "emotional_mediation": "Morning strengthened mode restored; existing 18:00 expiry",
+    "utility": "Active throughout",
+    "profile_access": "None; fresh one-use window control closed",
+    "device": "Packed in bag at departure",
+    "Maya_own_stop": "Button available; this time her voice command is executed by Dal"
+  },
+  "draft_local_proposals": [
+    "16:57 arrival and one-use control scope",
+    "Maya exact single question and Dal one-word answer",
+    "Window ends before 120 seconds; exact duration unobserved",
+    "Chair left out, then pushed back at Maya request"
+  ],
+  "promises": {
+    "developed": [
+      "S04 first sustained presence without technical substitution",
+      "Maya owns the stop and does not owe a meaning"
+    ],
+    "withheld": [
+      "S04 consequences, visibility and Ballast",
+      "S05 parameter violation",
+      "S06 old Gor logs",
+      "S07 broad continuation terms and care betrayal",
+      "S08 Nina truth",
+      "Series origin"
+    ]
+  },
+  "forward_dependencies": [
+    "CH10 starts after Dal leaves; control closed, no private data export",
+    "System visibility requires newly observed operator behavior or service events",
+    "Maya support expires at 18:00; no omniscient offscreen change",
+    "No new window consent or promised result",
+    "R1 is not healing or professional power; room remains for S05 ethical failure",
+    "Integrated block 6-10 review after CH10 and before CH11"
+  ],
+  "checks_status": "Four independent readings and reconciliation locked; 11 pending proposals; not canonical master"
+}

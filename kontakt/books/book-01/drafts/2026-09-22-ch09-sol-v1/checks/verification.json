@@ -1,0 +1,50 @@
+{
+  "source_sha256": "a3f03652d81583b7c03e654cd4fd2791257390759a2201f1bc39ec65f23a76ed",
+  "scope": "Complete CH09 P0001-P0058 and prior continuity; not full volume",
+  "status": "four_independent_readings_and_reconciliation_completed_with_eleven_pending_proposals",
+  "source_unchanged_after_reviews": true,
+  "independent_reviews": {
+    "astra": "ecacabb1f18681d37eb5c66c0d9612046b3d19b434c5238e21709cfc31f0e200",
+    "claude": "b821b697f195f68a52d40f6295bf4597e0e96ad933737f844c9b71b9f388b551",
+    "gemini_flash": "39b897a5bc396c578580439b29c45a365754b9dd3ce2c815d9c560ce59465290",
+    "gemini": "5ab85e10e6ddcffb4c42f534bb9e75f48a2dbe0e4f479d6179a180784eacb284"
+  },
+  "reconciliation": "6012f3db312382ac0255df50233f2d2118ac4b4602f376d47839ce8ae484b4b5",
+  "ensemble_integrity": "verify passed",
+  "verdicts": {
+    "astra": "PASS",
+    "claude": "PASS",
+    "gemini_flash": "PASS",
+    "gemini": "positive sequential cold-reader diary; would read on; no editor verdict requested"
+  },
+  "model_backend_attestation": "requested selectors/init metadata only",
+  "language_scans": {
+    "language_qa": "zero configured signals;116 physical lines,58 nonempty,636 lexical tokens",
+    "naturalness": "zero configured signals; separate grammar checker not run",
+    "literary_language": "four complete readings; claims checked against source; no external dictionary lookup"
+  },
+  "docx": {
+    "extraction": "exact match",
+    "pages": 2,
+    "pdf_text": "matches ignoring layout whitespace",
+    "visual": "Both pages inspected; no clipping or blank pages",
+    "renderer": "docx-preview/Chromium; not native Word/publication typesetting"
+  },
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "no selected masters expected"
+  },
+  "versions": {
+    "first_prose": "a3f03652d81583b7c03e654cd4fd2791257390759a2201f1bc39ec65f23a76ed",
+    "first_notes": "e2e6a8abacdb627421dfac95f02d4b8a88f0437de5cd3caae34e28b08b223ee9",
+    "diff": "bdd3c22b0b61082ec3eb86f8c3ea7fad77cdb6bf2399d9acb7a7136f1cb0cef9",
+    "prose_first_save_identical": true
+  },
+  "assembly_regression": "../../production/2026-09-21-book01/checks/assembly-final-blank-line-regression.json; exact source final empty line retained",
+  "remaining": [
+    "11 pending editorial choices, none applied",
+    "CH10 consequences and visibility through new observable behavior",
+    "Block6-10 review after CH10; full-volume drafting and audit pending"
+  ]
+}

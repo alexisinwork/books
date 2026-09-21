@@ -29,19 +29,21 @@ for c in chapters[:a.through]:
  raw=source.read_bytes();assert sha(raw)==c['sha256'],f'Changed source: {source}'
  text=raw.decode('utf-8');assert '\r' not in text and not text.startswith('\ufeff'),'Expected frozen UTF-8 LF source'
  assert text.startswith(f"# Розділ {c['chapter']}\n"), 'Unexpected chapter title'
- assert raw.endswith(b'\n') and not raw.endswith(b'\n\n'),'Expected one final LF'
- # Retain every source byte; add only one LF separator between chapters.
- if parts:parts.append(b'\n');byte_offset+=1
+ assert raw.endswith(b'\n') and not raw.endswith(b'\n\n\n'),'Expected one or two final LF bytes'
+ # Retain every source byte, including a source's final empty line.
+ # Add a separator only when the previous chapter has a single final LF.
+ separator=b'\n' if parts and not parts[-1].endswith(b'\n\n') else b''
+ if separator:parts.append(separator);byte_offset+=len(separator)
  chapter_start=byte_offset;parts.append(raw);byte_offset+=len(raw)
  blocks=re.split(r'\n\s*\n',text.strip());anchors=[]
  for i,block in enumerate(blocks,1):
   global_anchor+=1;anchors.append({'global':f'P{global_anchor:05d}','chapter_anchor':f'P{i:04d}','text_sha256':sha(block.encode('utf-8'))})
- mapping.append({'chapter':c['chapter'],'source':c['source'],'source_sha256':c['sha256'],'source_bytes':len(raw),'manuscript_byte_start':chapter_start,'manuscript_byte_end_exclusive':byte_offset,'paragraphs':anchors})
+ mapping.append({'chapter':c['chapter'],'source':c['source'],'source_sha256':c['sha256'],'source_bytes':len(raw),'separator_before_bytes':len(separator),'manuscript_byte_start':chapter_start,'manuscript_byte_end_exclusive':byte_offset,'paragraphs':anchors})
 combined=b''.join(parts)
 for c in mapping:assert sha(combined[c['manuscript_byte_start']:c['manuscript_byte_end_exclusive']])==c['source_sha256']
 assert not a.out.exists(),'Use a fresh immutable assembly directory'
 a.out.mkdir(parents=True)
 (a.out/'manuscript.md').write_bytes(combined)
-record={'scope':a.scope,'status':'frozen_audit_source_not_master','global_audit':'not_run','through_chapter':a.through,'manuscript_sha256':sha(combined),'bytes':len(combined),'paragraphs':global_anchor,'input_manifest_sha256':sha(a.manifest.read_bytes()),'route_sha256':sha(a.route.read_bytes()),'assembly_rule':'Exact source bytes, in order, with one added LF separator between chapters','chapters':mapping}
+record={'scope':a.scope,'status':'frozen_audit_source_not_master','global_audit':'not_run','through_chapter':a.through,'manuscript_sha256':sha(combined),'bytes':len(combined),'paragraphs':global_anchor,'input_manifest_sha256':sha(a.manifest.read_bytes()),'route_sha256':sha(a.route.read_bytes()),'assembly_rule':'Exact source bytes, in order; add one LF between chapters only when the previous source has one final LF; preserve existing final empty lines','chapters':mapping}
 (a.out/'assembly.json').write_bytes((json.dumps(record,ensure_ascii=False,indent=2)+'\n').encode('utf-8'))
 print(json.dumps({k:v for k,v in record.items() if k!='chapters'},ensure_ascii=False))

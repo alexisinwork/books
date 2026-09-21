@@ -1,0 +1,73 @@
+{
+  "book_id": "book-01",
+  "status": "working_draft_collection_not_master",
+  "chapter_count": 8,
+  "chapters": [
+    {
+      "chapter": 1,
+      "source": "drafts/2026-09-21-ch01-sol-v1/chapter-01.md",
+      "sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+      "checks": "four_diagnoses_and_reconciliation_complete",
+      "author_feedback": "positive_continue",
+      "optional_issues_pending": 5
+    },
+    {
+      "chapter": 2,
+      "source": "drafts/2026-09-21-ch02-sol-v1/chapter-02.md",
+      "sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "observed_state": "drafts/2026-09-21-ch02-sol-v1/observed-state.json",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 3,
+      "source": "drafts/2026-09-21-ch03-sol-v1/chapter-03.md",
+      "sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+      "observed_state": "drafts/2026-09-21-ch03-sol-v1/observed-state.json",
+      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+      "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 4,
+      "source": "drafts/2026-09-21-ch04-sol-v2/chapter-04.md",
+      "sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
+      "observed_state": "drafts/2026-09-21-ch04-sol-v2/observed-state.json",
+      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
+      "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 5,
+      "source": "drafts/2026-09-21-ch05-sol-v2/chapter-05.md",
+      "sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+      "observed_state": "drafts/2026-09-21-ch05-sol-v2/observed-state.json",
+      "review_run": "audit/ensemble/ch05-20260921-sol-v2",
+      "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 6,
+      "source": "drafts/2026-09-21-ch06-sol-v2/chapter-06.md",
+      "sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "observed_state": "drafts/2026-09-21-ch06-sol-v2/observed-state.json",
+      "review_run": "audit/ensemble/ch06-20260921-sol-v2",
+      "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 7,
+      "source": "drafts/2026-09-21-ch07-sol-v1/chapter-07.md",
+      "sha256": "8fde472151c5c74cf58388f98980016f10875750bee9ee163b405125bf55490a",
+      "observed_state": "drafts/2026-09-21-ch07-sol-v1/observed-state.json",
+      "review_run": "audit/ensemble/ch07-20260922-sol-v1",
+      "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 8,
+      "source": "drafts/2026-09-22-ch08-sol-v1/chapter-08.md",
+      "sha256": "ab47878a64ca69a60bc750bf244a886c984b217adc3e7df41545208314853986",
+      "observed_state": "drafts/2026-09-22-ch08-sol-v1/observed-state.json",
+      "review_run": "audit/ensemble/ch08-20260922-sol-v1",
+      "status": "reviewed_working_draft_not_canonical"
+    }
+  ],
+  "global_audit": "not_run",
+  "assembly_rule": "join exact chapter source files in ascending chapter order; verify each hash first"
+}

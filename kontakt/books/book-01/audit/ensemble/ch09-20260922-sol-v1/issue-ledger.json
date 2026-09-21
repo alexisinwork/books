@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "run_id": "ch09-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "a3f03652d81583b7c03e654cd4fd2791257390759a2201f1bc39ec65f23a76ed",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "claude",
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "imagery",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "9",
+          "anchor": "P0032",
+          "quote": "Майя дивилася, і я вперше не знав, куди подіти власне обличчя."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0033",
+          "quote": "Не погляд. Не руки. Саме обличчя — те, що вона могла бачити у відповідь, поки я нічого не виправляв між нами."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0034",
+          "quote": "Я лишив його їй."
+        }
+      ],
+      "observation": "Обличчя як залишений іншій людині предмет: Astra припускає зайву буквальність, усі зовнішні читачі сприйняли кульмінацію сильно.",
+      "reader_effect": "Локальна ясність, регістр або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source checked; checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Зберегти дивність образу або послабити предметність останньої фрази; не пояснюватиR1 тезою."
+      ],
+      "dependencies": [
+        "CH09 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "multiple_or_differing_reactions",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "9",
+          "anchor": "P0009",
+          "quote": "Майя торкнулася смуги. На її боці засвітився контроль повернення."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0016",
+          "quote": "Позначка емоційного посередництва згасла. Побутовий шар лишився зеленим. На моєму екрані не було графіка — тільки активне вікно, готове повернення й автоматичне завершення на межі. Я поставив палець на ручний контроль і більше на екран не дивився."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0031",
+          "quote": "Палець лежав на контролі повернення. Я відчував під подушечкою холодний край пристрою. Решта мене не мала призначеної дії."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0038",
+          "quote": "Я натиснув повернення."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0048",
+          "quote": "Я зняв палець із контролю й прибрав пристрій у сумку."
+        }
+      ],
+      "observation": "«Контроль повернення» позначає функцію й фізичне місце пальця; носій може бути абстрактним.",
+      "reader_effect": "Локальна ясність, регістр або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source checked; checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "За бажання одним словом уточнити кнопку/край; не розгортати інструкцію UI."
+      ],
+      "dependencies": [
+        "CH09 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "claude",
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "9",
+          "anchor": "P0037",
+          "quote": "— Стоп, — сказала вона."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0038",
+          "quote": "Я натиснув повернення."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0039",
+          "quote": "Посилений режим відновився раніше, ніж я встиг забрати руку. Автоматична межа не спрацювала; Майя завершила вікно сама. Побутовий шар весь час лишався активним. Одноразове керування закрилося."
+        }
+      ],
+      "observation": "«Майя завершила вікно сама» означає її stop-рішення, але після натискання Даля може виникнути коротке перечитування.",
+      "reader_effect": "Локальна ясність, регістр або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source checked; checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Ясніше назвати ініціативу зупинки, якщо потрібно; не додавати неописаного одночасного натискання Майєю."
+      ],
+      "dependencies": [
+        "CH09 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "multiple_or_differing_reactions",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "9",
+          "anchor": "P0040",
+          "quote": "Світла смуга перед Майєю засвітилася білим, потім повернула звичайний колір. Вона прочитала щось на своєму боці. Я не бачив тексту."
+        }
+      ],
+      "observation": "Після світлої смуги «Вона прочитала» за змістом стосується Майї; родовий збіг може затримати читання.",
+      "reader_effect": "Локальна ясність, регістр або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source checked; checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Залишити зрозумілий контекст або повторити ім’я Майї."
+      ],
+      "dependencies": [
+        "CH09 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "9",
+          "anchor": "P0044",
+          "quote": "— Ви не дивилися."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0045",
+          "quote": "Це не було запитанням."
+        }
+      ],
+      "observation": "«Це не було запитанням» пояснює вже констатувальну репліку, але може показувати автоматичну класифікацію Даля.",
+      "reader_effect": "Локальна ясність, регістр або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source checked; checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Зберегти як голос або прибрати окреме пояснення у майбутній редакції."
+      ],
+      "dependencies": [
+        "CH09 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "9",
+          "anchor": "P0019",
+          "quote": "У мене було кілька відповідей."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0020",
+          "quote": "Не внесу до висновку. Не вважатиму згодою. Не використаю як ознаку. Кожна перетворювала її мовчання на об’єкт, якому я великодушно відмовлявся призначити значення."
+        }
+      ],
+      "observation": "Вступ «У мене було кілька відповідей» готує перелік і трохи сповільнює прямий вхід у думки.",
+      "reader_effect": "Локальна ясність, регістр або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source checked; checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Залишити підготовку або ввійти в перелік без неї; смаковий вибір."
+      ],
+      "dependencies": [
+        "CH09 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "syntax",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "9",
+          "anchor": "P0007",
+          "quote": "Посилений уранці режим лишався активним до 18:00. Він був позначений як режим повернення. Поруч стояла автоматична межа: дві хвилини."
+        }
+      ],
+      "observation": "Рецензент відчув короткий ритмічний спотик у «Посилений уранці режим»; граматичного дефекту немає.",
+      "reader_effect": "Локальна ясність, регістр або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source checked; checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "За бажання змінити порядок, зберігши: посилення вранці, активність зараз; не переносити час основної дії."
+      ],
+      "dependencies": [
+        "CH09 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "style",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "9",
+          "anchor": "P0006",
+          "quote": "Я поклав пристрій на край столу. Запрошення давало мені тільки запуск одного вікна, ручне повернення й стан побутового шару. Історії, текстів посередництва та налаштувань під цими трьома рядками не було."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0007",
+          "quote": "Посилений уранці режим лишався активним до 18:00. Він був позначений як режим повернення. Поруч стояла автоматична межа: дві хвилини."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0009",
+          "quote": "Майя торкнулася смуги. На її боці засвітився контроль повернення."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0011",
+          "quote": "До сімнадцятої лишалася хвилина. Я не заповнював її перевірками. Майя сиділа, поклавши руки на стіл по обидва боки від світлої смуги. Я тримав свою праву руку біля ручного повернення."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0016",
+          "quote": "Позначка емоційного посередництва згасла. Побутовий шар лишився зеленим. На моєму екрані не було графіка — тільки активне вікно, готове повернення й автоматичне завершення на межі. Я поставив палець на ручний контроль і більше на екран не дивився."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0027",
+          "quote": "Я міг подивитися на край пристрою. Не на графік — його не було. На позначку стану, на готовність повернення, на будь-який доказ, що мої руки досі виконують роботу. Для цього вистачило б руху очей."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0031",
+          "quote": "Палець лежав на контролі повернення. Я відчував під подушечкою холодний край пристрою. Решта мене не мала призначеної дії."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0035",
+          "quote": "Минула ще одна пауза. Я не рахував її й не намагався вгадати, чи наближається межа. Автоматичне повернення не потребувало мого погляду. Її зупинка не потребувала мого дозволу."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0038",
+          "quote": "Я натиснув повернення."
+        }
+      ],
+      "observation": "Дев’ять повторів «повернення» тримають технічну опору, але можуть накопичувати монотонність.",
+      "reader_effect": "Локальна ясність, регістр або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source checked; checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Перевірити можливість контекстного скорочення без підміни терміна чи небезпеки незрозумілого stop."
+      ],
+      "dependencies": [
+        "CH09 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "9",
+          "anchor": "P0020",
+          "quote": "Не внесу до висновку. Не вважатиму згодою. Не використаю як ознаку. Кожна перетворювала її мовчання на об’єкт, якому я великодушно відмовлявся призначити значення."
+        }
+      ],
+      "observation": "Призначення значення мовчанню звучить як інженерний регістр: Flash пропонує нейтральніше, Opus хвалить самоіронію.",
+      "reader_effect": "Локальна ясність, регістр або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source checked; checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Зберегти характерну метафору або розглянути «приписати»; калькованість не доведена."
+      ],
+      "dependencies": [
+        "CH09 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "multiple_or_differing_reactions",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "syntax",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "9",
+          "anchor": "P0027",
+          "quote": "Я міг подивитися на край пристрою. Не на графік — його не було. На позначку стану, на готовність повернення, на будь-який доказ, що мої руки досі виконують роботу. Для цього вистачило б руху очей."
+        },
+        {
+          "chapter": "9",
+          "anchor": "P0028",
+          "quote": "Я не зробив його."
+        }
+      ],
+      "observation": "«Я не зробив його» має антецедент «руху очей», але навмисна стислість може вимагати перечитування.",
+      "reader_effect": "Локальна ясність, регістр або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source checked; checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Зберегти або повторити «цього руху»; не замінювати фізичною нерухомістю очей."
+      ],
+      "dependencies": [
+        "CH09 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "imagery",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "9",
+          "anchor": "P0003",
+          "quote": "Майя відчинила без банки, чашки або іншої справи в руках."
+        }
+      ],
+      "observation": "«Інша справа в руках» поєднує предмети й заняття; може бути виразною зевгмою або побутовою незвичністю.",
+      "reader_effect": "Локальна ясність, регістр або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source checked; checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Залишити зміст незайнятих рук або уточнити предмет; не створювати обов’язкову чашку на столі."
+      ],
+      "dependencies": [
+        "CH09 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

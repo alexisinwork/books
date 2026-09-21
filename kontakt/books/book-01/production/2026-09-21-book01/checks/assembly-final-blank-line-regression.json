@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "assembler_sha256": "ce8d60b01f35c2141f119820c64533fb9f87dd00e83f98c9bbf0f23104be9b18",
+  "scope": "Assembly bytes/anchors only; not literary review",
+  "tests": [
+    "Mixed1/2LF sources retained byte-exact with separators0/1/0",
+    "Every source hash matches its assembly byte slice",
+    "Six paragraphs match reader split and global anchor hashes",
+    "Partial3of4 cannot be declared fullvolume; no output created",
+    "Prior actualCH1-5 assembly bytes unchanged"
+  ],
+  "prior_assembly_sha256": "cbe75e630f841f3e7a3ba01a6b0c5cef35f138dad36ff1208b0e4adc8ca6fca9",
+  "trigger_source_sha256": "a3f03652d81583b7c03e654cd4fd2791257390759a2201f1bc39ec65f23a76ed",
+  "trigger": "CH09 frozen with final empty line; source not edited"
+}

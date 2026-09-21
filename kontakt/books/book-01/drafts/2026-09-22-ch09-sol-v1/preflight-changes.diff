@@ -1,0 +1,27 @@
+diff --git a/writer-notes.preflight.md b/writer-notes.md
+index 111679d..e7b4d1f 100644
+--- a/writer-notes.preflight.md
++++ b/writer-notes.md
+@@ -10,6 +10,9 @@
+ 
+ ## Source revision
+ 
++- First saved prose preserved as `chapter-09.preflight.md`, SHA-256 `a3f03652d81583b7c03e654cd4fd2791257390759a2201f1bc39ec65f23a76ed`.
++- First saved notes preserved as `writer-notes.preflight.md`, SHA-256 `e2e6a8abacdb627421dfac95f02d4b8a88f0437de5cd3caae34e28b08b223ee9`.
++- Exact preflight patch: `preflight-changes.diff`.
+ - Previous prose: `../2026-09-22-ch08-sol-v1/chapter-08.md`.
+ - Previous prose SHA-256: `ab47878a64ca69a60bc750bf244a886c984b217adc3e7df41545208314853986` (verified).
+ - Previous observed state: `../2026-09-22-ch08-sol-v1/observed-state.json`, SHA-256 `153ad0242dba6a74e9713c6e024de6bd707d449f7b7d56666dc0440035693fb5` (verified).
+@@ -70,6 +73,12 @@
+ - Window ends by Maya's stop before the 120-second boundary; exact duration is deliberately unobserved.
+ - Dal leaves his chair out and returns to push it under the table before departure.
+ 
++## Preflight revisions
++
++- Preserved the first source and notes as `chapter-09.preflight.md` and `writer-notes.preflight.md`.
++- Full source self-check found no factual correction to apply; the final prose is byte-identical to the first saved source.
++- Exact notes-only provenance patch: `preflight-changes.diff`.
++
+ ## Forward dependencies
+ 
+ - Chapter 10 must start from a closed window, restored strengthened mode still expiring at D4 18:00, R1 as a private human action and no continuing profile/access grant.
