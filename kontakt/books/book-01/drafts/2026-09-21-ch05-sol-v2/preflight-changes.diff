@@ -1,0 +1,80 @@
+diff --git a/kontakt/books/book-01/drafts/2026-09-21-ch05-sol-v1/chapter-05.md b/kontakt/books/book-01/drafts/2026-09-21-ch05-sol-v2/chapter-05.md
+index ae1cfb8..0a50d10 100644
+--- a/kontakt/books/book-01/drafts/2026-09-21-ch05-sol-v1/chapter-05.md
++++ b/kontakt/books/book-01/drafts/2026-09-21-ch05-sol-v2/chapter-05.md
+@@ -46,7 +46,7 @@
+ 
+ — Чому дев’яносто?
+ 
+-— Досить, щоб побачити першу реакцію на непом’якшену репліку. Недостатньо, щоб перетворити відсутність підтримки на новий стан.
++— Для першої спроби не бачу підстав пропонувати довше. Якщо за цей час не з’явиться нічого придатного, продовжувати лише заради вимірювання не можна.
+ 
+ — Це межа чи ціль?
+ 
+@@ -76,7 +76,7 @@
+ 
+ — Я не затримав повернення.
+ 
+-— Не затримав. На навчальному контурі, де ніхто не дивився, чи спробуєш ти виторгувати секунду.
++— Не затримав. На навчальному контурі, де від тебе не залежав стан живої користувачки. І де ти все одно подивився на графік.
+ 
+ Тихон сказав це без докору. Він узагалі рідко підсилював фразу голосом, якщо сама фраза вже робила роботу.
+ 
+@@ -154,11 +154,11 @@
+ 
+ — Так.
+ 
+-— Ти цього не знаєш із мого питання, — сказав я.
++— Ви цього не знаєте з мого питання, — сказав я.
+ 
+ — Я не знаю, чи є така людина. Тому це загальна межа: тест не створює боргу перед третьою стороною.
+ 
+-Він відсунув горнятко, якого так і не торкнувся.
++Він відсунув горнятко, з якого так і не відпив.
+ 
+ — Я не засвідчуватиму протокол і не братиму керування, — сказав Тихон. — Ти запитав про ризик. Рішення починати належить користувачці. Технічне утримання — твоє. Рішення зупинити — знову її.
+ 
+diff --git a/kontakt/books/book-01/drafts/2026-09-21-ch05-sol-v1/writer-notes.md b/kontakt/books/book-01/drafts/2026-09-21-ch05-sol-v2/writer-notes.md
+index f9d28cd..ae28da7 100644
+--- a/kontakt/books/book-01/drafts/2026-09-21-ch05-sol-v1/writer-notes.md
++++ b/kontakt/books/book-01/drafts/2026-09-21-ch05-sol-v2/writer-notes.md
+@@ -10,6 +10,8 @@
+ 
+ ## Source revision
+ 
++- Immediate revision source: `../2026-09-21-ch05-sol-v1/chapter-05.md`, frozen SHA-256 `1c8c879d3e369ab3b0da76e85ddef7ede49599b5d2550c94d3e0d7b49ef16285`.
++- Revision basis: root factual preflight before independent reviews; no peer report or ensemble decision was read or applied.
+ - Previous prose: `../2026-09-21-ch04-sol-v2/chapter-04.md`.
+ - Previous prose SHA-256 at drafting start: `e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96` (verified).
+ - Previous observed state: `../2026-09-21-ch04-sol-v2/observed-state.json`, SHA-256 `93703761cd7c2c4527951ae4ef09fca0a88b6ea65d246b8fbc9d45c8aeac7b57`.
+@@ -78,6 +80,16 @@
+ - Dal's message at 19:17 and Maya's response at 19:31.
+ - D3 11:00 at Maya's previously supplied address; voice/screen stop control.
+ 
++## V1 → V2 factual preflight
++
++- Source prose: `../2026-09-21-ch05-sol-v1/chapter-05.md`, SHA-256 `1c8c879d3e369ab3b0da76e85ddef7ede49599b5d2550c94d3e0d7b49ef16285`.
++- Exact patch: `preflight-changes.diff`.
++- Dal's address to Tikhon is consistently formal `ви`.
++- Tikhon's mug is described as not drunk from, without claiming he never touched it.
++- Ninety seconds remains the chosen upper limit for the first attempt, not a guaranteed threshold below which no state change can occur.
++- The training contour removes dependence of a living user's state on Dal's action; Tikhon still observes Dal's response to the interrupted graph.
++- All events and constraints remain unchanged: twelve-second training stop; D2 18:30–19:08 call; 19:17 proposal; 19:31 consent; D3 11:00 session; ninety-second maximum; fresh confirmation immediately before start.
++
+ ## Open dependencies
+ 
+ - Chapter 6 must show Dal displaying the stop control and receiving Maya's fresh confirmation before opening the direct window.
+@@ -89,10 +101,10 @@
+ ## Self-check
+ 
+ - Ukrainian, first-person Dal, past tense maintained; new prose consistently uses `калібрування`.
+-- Pronouns checked: Tikhon is consistently masculine; Maya is consistently feminine; `вона` in the final consent sequence refers to Maya.
++- Pronouns and address checked: Tikhon is consistently masculine; Maya is consistently feminine; `вона` in the final consent sequence refers to Maya; Dal consistently addresses Tikhon as formal `ви`.
+ - Timeline checked: D2 18:30 call, 19:08 end, 19:17 proposal, 19:31 explicit consent; D3 11:00 session remains future.
+-- Props checked: Tikhon's folded printed sheet is unfolded and shown; the untouched mug is moved once; training contour is closed; no object disappears and later acts.
++- Props checked: Tikhon's folded printed sheet is unfolded and shown; the mug he has not drunk from is moved once; training contour is closed; no object disappears and later acts.
+ - Knowledge checked: Tikhon receives only the general question and learns no audit result or identifying detail.
+ - No direct window, profile write, R1, Ballast, Nina reveal, old Gor logs or Lad-origin reveal.
+ - No canon, metadata, previous chapter, audit report or project-state file was changed.
+-- First saved prose version was retained without post-save revision; no separate preflight snapshot was required.
++- V1 remains frozen and unchanged; V2 applies only the four factual preflight clarifications recorded in `preflight-changes.diff`.

@@ -1,0 +1,40 @@
+{
+  "renderer": "docx-preview/Chromium; not native Word",
+  "pdf_sha256": "f927730627ba4b06c40fc5fe2fe75b137b5b29e0cf86d52438c754b22664395d",
+  "pages": 4,
+  "text_matches_docx_ignoring_layout_whitespace": true,
+  "page_checks": [
+    {
+      "page": 1,
+      "words": 311,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 2,
+      "words": 340,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 3,
+      "words": 411,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 4,
+      "words": 165,
+      "out_of_bounds": 0,
+      "blank": false
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "contact.png",
+      "first_page": 1,
+      "last_page": 4
+    }
+  ],
+  "visual_review": "All4pages inspected; no clipping/blank pages; docx-preview/Chromium, not native Word."
+}

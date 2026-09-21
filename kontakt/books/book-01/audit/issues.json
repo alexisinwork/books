@@ -882,6 +882,322 @@
       "review_run": "audit/ensemble/ch04-20260921-sol-v2",
       "author_decision": "pending",
       "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-001",
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Три повні виклади протоколу мають різних адресатів, але можуть сповільнювати фінал.",
+      "anchors": [
+        {
+          "chapter": "5",
+          "anchor": "P0076",
+          "quote": "— Дев’яносто секунд максимум, — сказав я. — Побутові функції активні весь час. Початок тільки після окремого підтвердження в момент сеансу. Зупинка голосом або контролем користувачки. Після «стоп» вимір припиняється, попереднє посередництво повертається без додаткових секунд. Якщо даних недостатньо, висновку немає. Повернення не означає невдачі й не створює обов’язку повторювати тест."
+        },
+        {
+          "chapter": "5",
+          "anchor": "P0088",
+          "quote": "> Під час короткого сеансу важка репліка може прозвучати різкіше, бо поруч не буде нейтрального тлумачення. Ви можете відчути тиск відповісти, виправдатися або негайно повернути підтримку. Пропоную не більше дев’яноста секунд. Побутові функції залишаються активними. Початок — тільки після вашого окремого підтвердження. Ви можете сказати «стоп» або натиснути свій контроль будь-якої миті. Тоді я одразу припиняю вимір і відновлюю попереднє емоційне посередництво, не прошу додаткових секунд і не роблю висновку з незавершеного сеансу. Повернення підтримки не є невдачею. Сеанс не зобов’язує вас відмовлятися від супроводження, повторювати спробу або відповідати Гору."
+        },
+        {
+          "chapter": "5",
+          "anchor": "P0091",
+          "quote": "> Завтра об 11:00, за тією самою адресою. Один сеанс, максимум дев’яносто секунд. Побутові функції залишаються. «Стоп» голосом або на екрані — негайне повернення попереднього режиму, без додаткового заміру. Гор не приходить. Я погоджуюся тільки на це."
+        }
+      ],
+      "dependencies": [
+        "CH05 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+      "review_run": "audit/ensemble/ch05-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-002",
+      "category": "dialogue",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Дві послідовні репліки Даля оформлені як окремі абзаци з тире; друга має явну атрибуцію, перша може змусити перечитати.",
+      "anchors": [
+        {
+          "chapter": "5",
+          "anchor": "P0078",
+          "quote": "— Так."
+        },
+        {
+          "chapter": "5",
+          "anchor": "P0079",
+          "quote": "— Ви цього не знаєте з мого питання, — сказав я."
+        }
+      ],
+      "dependencies": [
+        "CH05 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+      "review_run": "audit/ensemble/ch05-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-003",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "«Розв’язати різницю» — непрозора сполучуваність у ключовому аргументі Тихона; це редакторська оцінка, не доведений маршрут калькування.",
+      "anchors": [
+        {
+          "chapter": "5",
+          "anchor": "P0070",
+          "quote": "— Якщо після прямої репліки вона просить повернути посередництво, — продовжив він, — це не доказ, що прямий контакт був фальшивим. І не провал. Можливо, підтримка допомагає їй лишитися в розмові. Можливо, допомагає уникнути її. Один короткий сеанс не зобов’язаний розв’язати різницю."
+        }
+      ],
+      "dependencies": [
+        "CH05 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+      "review_run": "audit/ensemble/ch05-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-004",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Абстрактні «контроль» / «керування» місцями означають предмет, на якому лежить рука або який натискають.",
+      "anchors": [
+        {
+          "chapter": "5",
+          "anchor": "P0016",
+          "quote": "— Користувачка бачить стан на своєму пристрої. Основний контроль у неї. Я дублюю повернення, якщо її команда надійшла голосом або її інтерфейс не відповів."
+        },
+        {
+          "chapter": "5",
+          "anchor": "P0032",
+          "quote": "Моя рука вже лежала на керуванні. Я повернув посередництво. Графік обірвався на півлінії, підсумок залишився порожнім."
+        },
+        {
+          "chapter": "5",
+          "anchor": "P0076",
+          "quote": "— Дев’яносто секунд максимум, — сказав я. — Побутові функції активні весь час. Початок тільки після окремого підтвердження в момент сеансу. Зупинка голосом або контролем користувачки. Після «стоп» вимір припиняється, попереднє посередництво повертається без додаткових секунд. Якщо даних недостатньо, висновку немає. Повернення не означає невдачі й не створює обов’язку повторювати тест."
+        },
+        {
+          "chapter": "5",
+          "anchor": "P0088",
+          "quote": "> Під час короткого сеансу важка репліка може прозвучати різкіше, бо поруч не буде нейтрального тлумачення. Ви можете відчути тиск відповісти, виправдатися або негайно повернути підтримку. Пропоную не більше дев’яноста секунд. Побутові функції залишаються активними. Початок — тільки після вашого окремого підтвердження. Ви можете сказати «стоп» або натиснути свій контроль будь-якої миті. Тоді я одразу припиняю вимір і відновлюю попереднє емоційне посередництво, не прошу додаткових секунд і не роблю висновку з незавершеного сеансу. Повернення підтримки не є невдачею. Сеанс не зобов’язує вас відмовлятися від супроводження, повторювати спробу або відповідати Гору."
+        },
+        {
+          "chapter": "5",
+          "anchor": "P0093",
+          "quote": "> Приймаю. Перед початком покажу контроль і ще раз попрошу підтвердження. Без нього сеанс не почнеться."
+        }
+      ],
+      "dependencies": [
+        "CH05 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+      "review_run": "audit/ensemble/ch05-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-005",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "«Сигнал ... почав давати форму» залишає незрозумілим, що набуває форми.",
+      "anchors": [
+        {
+          "chapter": "5",
+          "anchor": "P0030",
+          "quote": "На дванадцятій секунді синтетичний сигнал тільки почав давати форму. Ще три-чотири секунди — і можна було б відрізнити випадковий стрибок від першої реакції."
+        }
+      ],
+      "dependencies": [
+        "CH05 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+      "review_run": "audit/ensemble/ch05-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-006",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Сфера дії «тільки для того» може на мить змінити розуміння користі підтримки.",
+      "anchors": [
+        {
+          "chapter": "5",
+          "anchor": "P0066",
+          "quote": "— Або піти. Або попросити інший час. Або сказати, що не приймає такої умови. Підтримка не обов’язково виводить її з контакту. Іноді вона дозволяє не тікати з нього тільки для того, щоб припинити тиск."
+        }
+      ],
+      "dependencies": [
+        "CH05 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+      "review_run": "audit/ensemble/ch05-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-007",
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Два позначення18:30 обрамляють ретроспективу дня; це не помилка часу, але повторний початок.",
+      "anchors": [
+        {
+          "chapter": "5",
+          "anchor": "P0002",
+          "quote": "О пів на сьому форма ризику все ще була відкрита."
+        },
+        {
+          "chapter": "5",
+          "anchor": "P0006",
+          "quote": "О 18:30 професійний канал відкрив аудіовізуальний зв’язок. Тихон з’явився без заставки й без автоматичного вирівнювання світла. Він сидів за столом у сірій сорочці; ліворуч від нього стояло горнятко, праворуч лежав аркуш паперу, складений навпіл. Зображення було трохи темнішим, ніж вимагала система. Тихон не виправляв."
+        }
+      ],
+      "dependencies": [
+        "CH05 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+      "review_run": "audit/ensemble/ch05-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-008",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Порядок «надрукована навчальна репліка великими літерами» однозначний, але редактор відчув ритмічну затримку.",
+      "anchors": [
+        {
+          "chapter": "5",
+          "anchor": "P0060",
+          "quote": "Він розгорнув складений аркуш. На ньому не було записів — лише надрукована навчальна репліка великими літерами. Тихон підніс її до камери:"
+        }
+      ],
+      "dependencies": [
+        "CH05 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+      "review_run": "audit/ensemble/ch05-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-009",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Ізольованому читачеві незавершений замір ще не пояснений; попередня глава вже встановлює спокусу просити секунди.",
+      "anchors": [
+        {
+          "chapter": "5",
+          "anchor": "P0005",
+          "quote": "Щоразу слово «негайно» виглядало достатньо точним, поки я не уявляв незавершений замір."
+        }
+      ],
+      "dependencies": [
+        "CH05 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+      "review_run": "audit/ensemble/ch05-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-010",
+      "category": "terminology",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Варіюються замір/вимір; це наскрізне питання регістру, не доведена заборона одного слова.",
+      "anchors": [
+        {
+          "chapter": "5",
+          "anchor": "P0005",
+          "quote": "Щоразу слово «негайно» виглядало достатньо точним, поки я не уявляв незавершений замір."
+        },
+        {
+          "chapter": "5",
+          "anchor": "P0076",
+          "quote": "— Дев’яносто секунд максимум, — сказав я. — Побутові функції активні весь час. Початок тільки після окремого підтвердження в момент сеансу. Зупинка голосом або контролем користувачки. Після «стоп» вимір припиняється, попереднє посередництво повертається без додаткових секунд. Якщо даних недостатньо, висновку немає. Повернення не означає невдачі й не створює обов’язку повторювати тест."
+        },
+        {
+          "chapter": "5",
+          "anchor": "P0088",
+          "quote": "> Під час короткого сеансу важка репліка може прозвучати різкіше, бо поруч не буде нейтрального тлумачення. Ви можете відчути тиск відповісти, виправдатися або негайно повернути підтримку. Пропоную не більше дев’яноста секунд. Побутові функції залишаються активними. Початок — тільки після вашого окремого підтвердження. Ви можете сказати «стоп» або натиснути свій контроль будь-якої миті. Тоді я одразу припиняю вимір і відновлюю попереднє емоційне посередництво, не прошу додаткових секунд і не роблю висновку з незавершеного сеансу. Повернення підтримки не є невдачею. Сеанс не зобов’язує вас відмовлятися від супроводження, повторювати спробу або відповідати Гору."
+        },
+        {
+          "chapter": "5",
+          "anchor": "P0091",
+          "quote": "> Завтра об 11:00, за тією самою адресою. Один сеанс, максимум дев’яносто секунд. Побутові функції залишаються. «Стоп» голосом або на екрані — негайне повернення попереднього режиму, без додаткового заміру. Гор не приходить. Я погоджуюся тільки на це."
+        }
+      ],
+      "dependencies": [
+        "CH05 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+      "review_run": "audit/ensemble/ch05-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "BLK-01-05-001",
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Сумарна процедурна щільність CH04–05; див. block report і наявні chapter ledgers.",
+      "anchors": [
+        "CH04 P0023-P0040",
+        "CH05 P0076/P0088/P0091"
+      ],
+      "dependencies": [
+        "CH04 ENS-005",
+        "CH05 ENS-001",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "cbe75e630f841f3e7a3ba01a6b0c5cef35f138dad36ff1208b0e4adc8ca6fca9",
+      "author_decision": "pending",
+      "scope": "block review, no prose edit"
     }
   ]
 }

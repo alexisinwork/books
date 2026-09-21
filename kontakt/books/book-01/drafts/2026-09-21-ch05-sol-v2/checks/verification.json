@@ -1,0 +1,44 @@
+{
+  "source_sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+  "scope": "Complete CH05v2 P0001–P0096 plus prior continuity; not full volume",
+  "status": "four_diagnoses_and_reconciliation_completed_with_ten_pending_editorial_proposals",
+  "source_unchanged_after_reviews": true,
+  "independent_reviews": {
+    "astra": "fb4cacf71d5240909c3e1b567311400047d86fe19520c9dcb9874ae6c0befdfd",
+    "claude": "72e73b5fb67de7e80ef5d90f3c3db55f379ec1f2beec16fec8aa17656a52e571",
+    "gemini_flash": "ac63c0be3a141984d98f3ce94502a8c32823154993d6cec55e0d416e5e09795b",
+    "gemini": "1d4370397abcd2addf024f036cfa05e29413ed4a997698f77cc7686ea7e768ca"
+  },
+  "reconciliation": "d6a99f992a9b19d4164960c7619c5edc78aacf7a9645f75d0a30fe8b8ccd6416",
+  "ensemble_integrity": "verify passed",
+  "model_backend_attestation": "requested selectors and init metadata only",
+  "language_scans": {
+    "language_qa": "zero configured signals;191physical lines96nonempty1143lexical",
+    "naturalness": "zero configured signals; separate grammar checker not run",
+    "literary_language": "four complete readings, local concerns retained"
+  },
+  "docx": {
+    "extraction": "exact match",
+    "pages": 4,
+    "pdf_text": "matches ignoring layout whitespace",
+    "visual": "all4pages inspected; no clipping/blank",
+    "renderer": "docx-preview/Chromium; not native Word"
+  },
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "no selected masters, expected"
+  },
+  "versions": {
+    "v1_prose_preserved": "1c8c879d3e369ab3b0da76e85ddef7ede49599b5d2550c94d3e0d7b49ef16285",
+    "v1_notes_preserved": "b6186364a08c230d5f18647992bf43fec59cae4bedf2658181bf263c4cb84234",
+    "preflight_diff": "preflight-changes.diff",
+    "v1_review": "not run, superseded before diagnoses"
+  },
+  "remaining": [
+    "10 pending editorial proposals, not release-ready",
+    "Integrated block1–5 audit before CH06",
+    "Fresh consent before first live window",
+    "Full volume drafting and global audit pending"
+  ]
+}

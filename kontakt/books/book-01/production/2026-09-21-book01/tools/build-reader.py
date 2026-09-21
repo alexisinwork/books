@@ -48,7 +48,8 @@ for i, block in enumerate(blocks, 1):
     if clean in ['***', '* * *', '— — —']:
         p.text = '* * *'; p.alignment = 1
     expected.append(p.text)
-    anchors.append({'id':f'P{i:04d}', 'source_sha256':sha, 'text':block, 'docx_paragraph':i})
+    anchor_id=f'P{i:05d}' if args.title else f'P{i:04d}'
+    anchors.append({'id':anchor_id, 'source_sha256':sha, 'text':block, 'docx_paragraph':i})
 doc.core_properties.title = args.title or f'Контакт — глава {chapter} — чернетка'
 doc.core_properties.subject = 'Український оригінал; робоча версія для читання автором'
 doc.core_properties.author = 'Sol — робоча чернетка'

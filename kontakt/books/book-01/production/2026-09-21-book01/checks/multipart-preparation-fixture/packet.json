@@ -1,0 +1,43 @@
+{
+  "status": "prepared_not_executed",
+  "client": "agy",
+  "role": "gemini_flash",
+  "requested_model": "gemini-3.8-flash-high",
+  "scope": "block",
+  "through_chapter": 3,
+  "target": "kontakt\\books\\book-01\\production\\2026-09-21-book01\\checkpoints\\chapters-01-03\\manuscript.md",
+  "target_sha256": "718c4464cf961631ae6acdf8579d10fa7e17ae90ac8b5468dc844c913b108168",
+  "paragraphs": 481,
+  "parts": [
+    {
+      "part": 1,
+      "first_paragraph": 1,
+      "last_paragraph": 153,
+      "paragraphs": 153,
+      "message_sha256": "20c80cc20e0ff47c2b26390a7d71786245cc159bbfebf03650819ce7bc25ef9f",
+      "message_bytes": 24003
+    },
+    {
+      "part": 2,
+      "first_paragraph": 154,
+      "last_paragraph": 304,
+      "paragraphs": 151,
+      "message_sha256": "78f8da52545c4769ec60c3301637d02857ce59f439b2e197245d1021c7155411",
+      "message_bytes": 23976
+    },
+    {
+      "part": 3,
+      "first_paragraph": 305,
+      "last_paragraph": 481,
+      "paragraphs": 177,
+      "message_sha256": "933b6b2d052f987bc3c183e3f4e3fcadc1be08de9457940bc22da02e846b4515",
+      "message_bytes": 23880
+    }
+  ],
+  "input_events": 4,
+  "expected_result_events": 4,
+  "input_sha256": "180a907a2356c148e41ef1e3b1ba16cd57c1adc0819846ccd8ae6089349faa2a",
+  "prompt_sha256": "cbc99dbdc4905cba9659017a956023472a2324861435b3bb006dbcf3860da610",
+  "references": [],
+  "validation": "All paragraphs included once in original order; each text part below125000bytes; not evidence of model reading"
+}

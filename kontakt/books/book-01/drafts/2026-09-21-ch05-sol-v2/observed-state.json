@@ -1,0 +1,118 @@
+{
+  "book_id": "book-01",
+  "status": "observed_in_working_draft_not_canonical",
+  "source": {
+    "path": "chapter-05.md",
+    "sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01"
+  },
+  "previous": {
+    "path": "../2026-09-21-ch04-sol-v2/observed-state.json",
+    "prose_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96"
+  },
+  "revision": {
+    "supersedes": "../2026-09-21-ch05-sol-v1/chapter-05.md",
+    "old_sha256": "1c8c879d3e369ab3b0da76e85ddef7ede49599b5d2550c94d3e0d7b49ef16285",
+    "reason": "Four factual preflight clarifications before peer reviews",
+    "diff": "preflight-changes.diff"
+  },
+  "scenes": [
+    {
+      "id": "B01-S02-C05-S01",
+      "anchors": "P0002-P0085",
+      "events": [
+        "D2 18:30 professional AV conversation with former mentor Tikhon.",
+        "Synthetic teaching contour only: utility on, emotional mediation off, stop at12sec, Dal immediately restores despite wanting3–4sec more; no usable conclusion.",
+        "Tikhon uses standard printed example, no Maya data; shows how mediation preserves ability to stay in contact.",
+        "Tikhon discusses general third-party boundary, refuses certification/control.",
+        "Call ends19:08."
+      ]
+    },
+    {
+      "id": "B01-S02-C05-S02",
+      "anchors": "P0086-P0096",
+      "events": [
+        "Dal sends readable risks/stop proposal19:17 through existing discussion channel.",
+        "Maya19:31 agrees only to ONE session D3 11:00 same address, maximum90sec, utility on, Gor absent, voice/screen stop immediately restores previous mode without extra measurement.",
+        "Dal accepts, will show control and request fresh immediate pre-start confirmation. Maya acknowledges receipt.",
+        "Dal schedules11:00, allows no conclusion in result field."
+      ]
+    }
+  ],
+  "timeline": {
+    "entry": "D2 18:30",
+    "call_end": "D2 19:08",
+    "proposal_sent": "D2 19:17",
+    "Maya_reply": "D2 19:31",
+    "exit": "D2 evening after acknowledgement; exact final clock unspecified",
+    "next_appointment": "D3 11:00 Maya same address"
+  },
+  "knowledge": {
+    "Dal_and_reader": [
+      "Synthetic stop performed without delay but Dal kept looking at graph",
+      "Support can retain contact by separating request from guilt, original remains",
+      "Maya has explicit scoped future consent"
+    ],
+    "Maya": [
+      "Risks of unmediated pressure, stop and restore conditions, no obligation toward Gor or repeat",
+      "Dal will show control and obtain fresh confirmation before start"
+    ],
+    "Tikhon": [
+      "General procedure class, Dal proposed90sec limit and reaction in synthetic training",
+      "Female user form already in CH04 general question; no identity/address/history/audit results/template authorship",
+      "Third party is a general possibility, not established Gor identity"
+    ],
+    "Gor": [
+      "No new information sent in this chapter"
+    ],
+    "not_established": [
+      "Tea or contents of Tikhon mug",
+      "Paid contract",
+      "Actual first Maya window",
+      "Clinical diagnosis",
+      "Dal as AI/cyborg",
+      "Gor knowledge of template authorship"
+    ]
+  },
+  "resources": {
+    "resonance": "R0",
+    "employment": "unchanged",
+    "Ballast": "absent",
+    "profile_write": "none in Maya profile; synthetic teaching setup only",
+    "direct_window": "Maya window not yet opened",
+    "Maya_test_consent": "future ONE session atD3 11:00, <=90sec, utility on, Gor absent, immediate restoration on voice/control stop; fresh pre-start confirmation still required",
+    "grant": "Previous readonly journal expired; no reopening",
+    "reply_channel": "existing discussion channel, no data access",
+    "Tikhon_consult": "completed general professional advice, no certification/control",
+    "payment": "none established"
+  },
+  "promises": {
+    "developed": [
+      "Stop right has concrete cost to Dal hypothesis",
+      "Tikhon positive reasonable support alternative",
+      "Maya owns scope and attendance"
+    ],
+    "withheld": [
+      "S03 lived first window and Maya return choice",
+      "S04 R1/Ballast",
+      "S05 violation",
+      "S06 old Gor evidence",
+      "S08 Nina emotional acceptance",
+      "Series origin"
+    ]
+  },
+  "draft_local_proposals": [
+    "Synthetic twelve-second rehearsal",
+    "Ninety-second chosen upper limit, not universal safety threshold",
+    "D3 11:00 appointment",
+    "Tikhon printed teaching example/mug/light"
+  ],
+  "forward_dependencies": [
+    "Integrated block1–5 review before CH06",
+    "Fresh Maya confirmation at beginning, prior consent insufficient to start alone",
+    "No repeated full safety lecture: demonstrate control and lived experience",
+    "Stop immediately, no extra measurement, no forced result",
+    "Maya can choose supported mode; this is not failure or obligating repetition",
+    "Do not infer healing/R1 from Dal form entry"
+  ],
+  "checks_status": "Four diagnoses and reconciliation locked;10 pending proposals; candidate not canon"
+}
