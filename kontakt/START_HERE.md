@@ -1,17 +1,34 @@
-# Начать работу с Контактом / серией «Разлад»
+# Начать работу с «Разладом»
 
-1. **Главный авторитет**: откройте `series/PRE-DRAFT-LOCK-2026-09-19.md` (зафиксированные правила, 8 томов, модель Резонанса, правила Лада, POV Даля).
-2. Выберите нужный том из `books/book-01`…`books/book-08`. Прочитайте её `brief.md`, `plan.md`, `voice.json`, `PRE-DRAFT-LOCK.md`.
-3. Откройте `series/CANON-POLICY.md`, `series/SOCIAL-PROBLEMS-MAP.md`, `series/continuity-queue.json` и костяк нужного тома.
-4. Разверните сцену, зафиксируйте допущения; после написания выберите мастер.
+## Текущая стадия
 
-```sh
-python tools/studio.py doctor
-python tools/studio.py context --book book-01 --task "Развернуть первую сцену Контакта" --out sessions/book-01-start.md
-```
+Серия: **8 книг, pre-draft locked, готова к первому архитектурному проходу**.  
+Рукописей ещё нет. До завершения Architecture Pass 01 художественную прозу не писать.
 
-Общая методика применена в guides/SYSTEM-APPLICATION.md. Редактура Риокки и отзыв брата не являются отзывом на эту серию.
+## Порядок входа
 
-## Украинский оригинал и языковые издания
+1. `series/PRE-DRAFT-LOCK-2026-09-19.md` — главный authority.
+2. `series/ARCHITECTURE-PASS-01.md` — контракт ближайшей работы.
+3. `series/book-matrix.md` — различимость 8 томов и межтомная причинность.
+4. `series/character-arcs.md` — сквозные персонажи.
+5. `series/reveal-ladder.md` — лестница раскрытий.
+6. `series/SOCIAL-PROBLEMS-MAP.md` — социальная проблема каждого тома.
+7. Выбранный `books/book-XX/`: `book.json` → `brief.md` → `PRE-DRAFT-LOCK.md` → `ARCHITECTURE-READINESS.md` → `plan.md` → `voice.json`.
 
-Новый рабочий процесс: [BOOK_SYSTEM](../BOOK_SYSTEM/README.md), путь также задан в `project.json.book_system`. Новая книга создаётся на украинском; `new-book --language en` — явный английский оригинал. Русские файлы остаются историческими источниками. Для Риокки 1–3 сначала RU→UK, затем после авторского утверждения UK→EN; прямой RU→EN — отдельный зеркальный маршрут. Рукописи в ходе настройки системы не переводились. Литературный цикл требует Opus + Gemini 3.8 Flash + Gemini 3.1 Pro.
+## Что делать сейчас
+
+Первый проход — **архитектурный**, не литературный.
+
+Для каждого тома:
+- восстановить причинную цепь сцен из исторического костяка;
+- уточнить `goal / obstacle / decision / result / cost / next_cause`;
+- проверить внешнюю цель, внутреннюю арку, противодействие и кульминацию без привязки к одинаковым номерам глав;
+- заполнить planned-уровень `characters.json`, `knowledge.json`, `promises.json`, `timeline.json`, `resources.json`, `end-state.json`;
+- проверить вход тома = выход предыдущего;
+- после каждого тома обновить `series/architecture-pass-01-status.json`.
+
+**Только после статуса `ready_for_draft` разрешается писать главу 1.**
+
+## Язык
+
+Новая проза — украинский оригинал. Русские исходные планы — legacy/provenance и не переписываются.

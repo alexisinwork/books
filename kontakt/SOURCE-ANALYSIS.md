@@ -1,23 +1,38 @@
-# Анализ всех источников Контакта
+# Анализ источников «Разлада»
 
-15 исходников сохранены побайтово. Семь костяков прочитаны целиком, все238плановых глав перенесены в scenes.json. Библия, лор, имена, общий костяк, обе беты и ENTITY_STATE разобраны для системы. Банк идей рассмотрен по структуре и относящимся концепциям; его рыночные утверждения не проверялись как исследование. Полных романов здесь нет.
+## Исторический корпус
 
-| Файл | Роль | Охват |
-|---|---|---|
-| SERIES-BIBLE-Контакт(1).md | planning_reference | read_in_full_for_system_design |
-| БАНК-ИДЕЙ-гимн-поколения(1).md | idea_bank_not_canon | structure_and_selected_sections |
-| БЕТА-КНИГА-1-Контакт(1).md | historical_structural_feedback | read_in_full_for_system_design |
-| БЕТА-СЕРИЯ-2-7-Контакт(1).md | historical_structural_feedback | read_in_full_for_system_design |
-| ИМЕНА-СЕРИИ-Контакт(1).md | planning_reference | read_in_full_for_system_design |
-| КОСТЯК-КНИГА-1-Контакт(1).md | chapter_outline | read_in_full_for_system_design |
-| КОСТЯК-КНИГА-2-Контакт(1).md | chapter_outline | read_in_full_for_system_design |
-| КОСТЯК-КНИГА-3-Контакт(1).md | chapter_outline | read_in_full_for_system_design |
-| КОСТЯК-КНИГА-4-Контакт(1).md | chapter_outline | read_in_full_for_system_design |
-| КОСТЯК-КНИГА-5-Контакт(1).md | chapter_outline | read_in_full_for_system_design |
-| КОСТЯК-КНИГА-6-Контакт(1).md | chapter_outline | read_in_full_for_system_design |
-| КОСТЯК-КНИГА-7-Контакт(1).md | chapter_outline | read_in_full_for_system_design |
-| КОСТЯК-СЕРИИ-Контакт(1).md | planning_reference | read_in_full_for_system_design |
-| ЛОР-МИР-Разлад(1).md | planning_reference | read_in_full_for_system_design |
-| ENTITY_STATE.yaml | planned_entity_state | read_in_full_for_system_design |
+В `sources/originals` сохранены 15 исходных файлов разработки. Семь старых покнижных костяков прочитаны полностью; их 238 плановых глав перенесены в `books/book-01…07/scenes.json`. Библия, лор, имена, общий костяк, обе структурные беты и ENTITY_STATE — provenance.
 
-Главные швы и рабочие решения: series/continuity-queue.json. Бета проверяла костяк, а её оценки не подтверждают читаемость ненаписанной прозы. Повторная проверка обнаружила незакрытые арку, ранг и POV; прежняя строка «всё закрыто» остаётся историческим утверждением источника.
+Исторические документы остаются неизменными даже там, где они говорят о 7 книгах, старом графике Резонанса или открытых вопросах.
+
+## Действующий слой
+
+Authority: текущее решение автора → `PRE-DRAFT-LOCK-2026-09-19.md` → решения Architecture Pass 01 → исторические планы.
+
+Добавлен 8-й том `book-08` — «Поимённо». Он не входит в 238 старых плановых глав. Его `plan.md` — отдельный locked outline; точное число глав и scene-chain устанавливаются Architecture Pass 01.
+
+## Уже закрыто
+
+- 8 книг;
+- Резонанс R0→R7 в книгах 1–7, книга 8 = интеграция;
+- POV Даля;
+- документальные reader-ahead inserts;
+- Predictariat как вероятностная модель;
+- operational rules Лада;
+- consent Майи / Асты / Милы;
+- Период перегруза;
+- функция книги 7 и книги 8;
+- социальная проблема каждого тома.
+
+## Ещё не проверено
+
+- причинная сцепка всех сцен;
+- полные арки второстепенных;
+- knowledge/reveal ledger;
+- точные таймлайны;
+- planned end-states;
+- финальная группировка глав;
+- литературная читаемость и voice sample.
+
+Полных романов в проекте нет.
