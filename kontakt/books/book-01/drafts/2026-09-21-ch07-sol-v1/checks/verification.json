@@ -1,0 +1,48 @@
+{
+  "source_sha256": "8fde472151c5c74cf58388f98980016f10875750bee9ee163b405125bf55490a",
+  "scope": "Complete CH07 P0001–P0098 plus prior continuity; not full volume",
+  "status": "four_independent_readings_and_reconciliation_completed_with_seven_pending_proposals",
+  "source_unchanged_after_reviews": true,
+  "independent_reviews": {
+    "astra": "547ed21bd667c52af38d1a8ee768bc0c2bf30bd078f3f768402daf8c8203f670",
+    "claude": "8c93c9d3f843ae3c63a72eb7830985e22a45606a020e2e177e8b90223421a5c1",
+    "gemini_flash": "c4360cfc96a3cbefcaa8389575794c6b0c5bc4595ab7225ecc0223a9c0a8ba61",
+    "gemini": "41191cec7d6ee2a47f7e1d312886e617df387625b690dd3753f7966ec4f86bb5"
+  },
+  "reconciliation": "db54b5703a9aaa85ebaa12411eee6ca6853cdc48bc182e6727098524ad05fb4b",
+  "ensemble_integrity": "verify passed",
+  "verdicts": {
+    "astra": "PASS",
+    "claude": "PASS",
+    "gemini_flash": "PASS",
+    "gemini": "positive cold-reader diary; would read on; no editor verdict requested"
+  },
+  "model_backend_attestation": "requested selectors/init metadata only",
+  "language_scans": {
+    "language_qa": "zero configured signals;195physical lines98nonempty999lexical",
+    "naturalness": "zero configured signals; separate grammar checker not run",
+    "literary_language": "four complete readings; claims checked separately, dictionary evidence bounded"
+  },
+  "docx": {
+    "extraction": "exact match",
+    "pages": 4,
+    "pdf_text": "matches ignoring layout whitespace",
+    "visual": "all4pages inspected; no clipping/blank; short31word final page retained",
+    "renderer": "docx-preview/Chromium; not native Word/publication typesetting"
+  },
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "no selected masters expected"
+  },
+  "versions": {
+    "first_prose": "4cdb6b64044e4aed4a9eb6170099759af906caa17107566d5e8f4276d52ebd98",
+    "first_notes": "e445de79320814406315b559018ac22e5f485f3cd8e48526fb1de135e8cdd69c",
+    "diff": "preflight-changes.diff"
+  },
+  "remaining": [
+    "7 pending proposals not applied",
+    "CH08 stabilization with Maya decision",
+    "Full-volume drafting and global audit pending"
+  ]
+}

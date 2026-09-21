@@ -1,0 +1,131 @@
+{
+  "book_id": "book-01",
+  "status": "observed_in_working_draft_not_canonical",
+  "source": {
+    "path": "chapter-07.md",
+    "sha256": "8fde472151c5c74cf58388f98980016f10875750bee9ee163b405125bf55490a"
+  },
+  "previous": {
+    "path": "../2026-09-21-ch06-sol-v2/observed-state.json",
+    "prose_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac"
+  },
+  "revision": {
+    "first_save": "chapter-07.preflight.md",
+    "old_sha256": "4cdb6b64044e4aed4a9eb6170099759af906caa17107566d5e8f4276d52ebd98",
+    "reason": "Factual preflight before diagnoses: utility vs indicator; device retrieval; notes epistemic bounds",
+    "diff": "preflight-changes.diff"
+  },
+  "scenes": [
+    {
+      "id": "B01-S03-C07-S01",
+      "anchors": "P0002-P0037",
+      "events": [
+        "SameD3 kitchen after closed first window; Maya asks Dal to close display.",
+        "Maya describes slower rather than easier; challenges both directions of his favored explanation.",
+        "Dal recognizes his words cost more without mediation; no conclusion on dependence. Maya insists her stop still has meaning.",
+        "Tea made, no second measurement. Dal packs device, bag strap catches and he frees it."
+      ]
+    },
+    {
+      "id": "B01-S03-C07-S02",
+      "anchors": "P0038-P0079",
+      "events": [
+        "Maya wants no reopening and burden not to last until evening. Dal admits internally delaying stabilization recommendation to preserve useful contrast.",
+        "Dal names Tikhon and explains only general D2 female-user procedure question was shared, no identity/address/result or session occurrence.",
+        "Maya requests only professional contact; Dal retrieves device and sends card to her, no case introduction.",
+        "Maya will contact Tikhon herself, proposesD4 10:30 and conditional Dal attendance; forbids advance materials, speaking for her and profile access.",
+        "Dal sees typing but not text or send; she ends visit, Dal leaves."
+      ]
+    },
+    {
+      "id": "B01-S03-C07-S03",
+      "anchors": "P0080-P0098",
+      "events": [
+        "On stairs Gor asks technical path based on own unanswered messages and D2 rejected history transfer.",
+        "Dal refuses details/results and says no commission to return Maya accepted. Gor invokes shared life, asks if she never decides to answer.",
+        "Dal leaves answer empty instead of treating Gor loss as channel rule.",
+        "Maya message reports Tikhon acceptanceD4 10:30 and explicitly invites Dal, no advance materials. Dal acknowledges and schedules with empty materials field.",
+        "Dal closes current Gor channel exchange; no permanent block shown."
+      ]
+    }
+  ],
+  "timeline": {
+    "entry": "D3 shortly after11:00 and prior68sec window",
+    "departure": "D3 later same visit, exact clock unspecified",
+    "next_appointment": "D4 10:30, confirmed by Maya report of Tikhon acceptance",
+    "meeting_format_location": "not specified yet"
+  },
+  "knowledge": {
+    "Dal_and_reader": [
+      "Maya says return makes conversation slower; bodily load persists",
+      "Dal delayed recommending stabilization because it might remove contrast he wanted to study",
+      "Maya reports acceptedD4 10:30 consultation and invites him"
+    ],
+    "Maya": [
+      "Tikhon professional contact and Dal former-mentor relation",
+      "Exact limited content Dal says he suppliedD2",
+      "Dal wants attendance but no entitlement"
+    ],
+    "Tikhon": [
+      "BeforeMaya contact: general D2 procedure class only",
+      "Maya directly contacts him; exact text/identity details disclosed unseen by Dal",
+      "Acceptance of10:30 is reported by Maya, not independently shown reply"
+    ],
+    "Gor": [
+      "Own messages unanswered; his D2 transfer refused",
+      "Dal says no return commission and no disclosure of conversation details",
+      "No session time/duration/results/Maya letters/Tikhon consultation provided"
+    ],
+    "not_established": [
+      "Paid contract",
+      "Clinical trauma or diagnosis",
+      "Tikhon exact new knowledge from unseen Maya message",
+      "Actual CH08 profile grant or stabilization",
+      "Permanent Gor block",
+      "Maya new window consent"
+    ]
+  },
+  "resources": {
+    "resonance": "R0",
+    "employment": "unchanged",
+    "Ballast": "absent",
+    "direct_window": "closed; no repeat",
+    "emotional_mediation": "restored previous mode active",
+    "utility": "active; water heating switched on during scene separately",
+    "profile_access": "none granted",
+    "Tikhon_access": "attendance conversation only through Maya invitation; no advance materials or proxy speech",
+    "payment": "none established"
+  },
+  "draft_local_proposals": [
+    "Tea strainer/water-heating interface",
+    "Bag strap awkwardness",
+    "Professional contact card with hours/route",
+    "D4 10:30 consultation proposed byMaya, acceptance reported byher",
+    "Gor D3 messages and shared-life argument"
+  ],
+  "promises": {
+    "developed": [
+      "First-window aftermath defeats simple Dal framing",
+      "Maya chooses stabilization help",
+      "Gor human stake without right to control"
+    ],
+    "withheld": [
+      "S03 actual stabilization inCH08",
+      "S04 second window/R1/Ballast",
+      "S05 violation",
+      "S06 old Gor evidence",
+      "S07 global continuation terms",
+      "S08 Nina truth",
+      "Series origin"
+    ]
+  },
+  "forward_dependencies": [
+    "CH08 must establish meeting format through new permitted invitation, not invented past address",
+    "Maya speaks; Dal present without advance materials/profile access",
+    "Tikhon stabilization requires fresh bounded decision",
+    "New window only separate Maya consent after stabilization; R1S04",
+    "Do not infer unseen message contents",
+    "No paid contract or permanent communication block assumed"
+  ],
+  "checks_status": "Four independent readings and reconciliation locked;7 pending proposals; not canonical master"
+}

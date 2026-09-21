@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "run_id": "ch07-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "8fde472151c5c74cf58388f98980016f10875750bee9ee163b405125bf55490a",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "claude",
+        "gemini_flash"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "7",
+          "anchor": "P0059",
+          "quote": "— Це причина хотіти. Не причина бути."
+        },
+        {
+          "chapter": "7",
+          "anchor": "P0072",
+          "quote": "— Поки що ви записали."
+        },
+        {
+          "chapter": "7",
+          "anchor": "P0073",
+          "quote": "Я впізнав Тихонову інтонацію й не сказав про це. Майя набрала повідомлення сама. Я не бачив тексту й не питав, чи вона його надіслала."
+        }
+      ],
+      "observation": "«Поки що ви записали» еліптичне і відлунює ТихонаCH05; перегук свідомо помічений Далем, але може зближувати голоси наставника й Майї.",
+      "reader_effect": "Локальна неоднозначність/регістровий вибір або реакція на ритм; не блок продовження.",
+      "evidence": "Exact source checked; lexical source limits in reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Оцінити в повному читанні; за бажання змінити одну формулу Майї, зберігши її власний намір. Не вводити знання розмови, якої вона не чула."
+      ],
+      "dependencies": [
+        "CH07 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "multiple_or_differing_reactions",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "claude",
+        "gemini_flash"
+      ],
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "7",
+          "anchor": "P0003",
+          "quote": "Сеанс уже закінчився. Затримка не могла додати до нього даних, але могла зробити вигляд, ніби ми ще не дійшли до наслідку."
+        }
+      ],
+      "observation": "Рецензенти розійшлися щодо «зробити вигляд». Тут дієвцем є затримка, тому редакторський предмет — ясність персоніфікації, не доведена загальна заборона ідіоми.",
+      "reader_effect": "Локальна неоднозначність/регістровий вибір або реакція на ритм; не блок продовження.",
+      "evidence": "Exact source checked; lexical source limits in reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Розглянути «створити враження»; не приймати невдале «вдати вигляд» як еталон."
+      ],
+      "dependencies": [
+        "CH07 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "multiple_or_differing_reactions",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "terminology",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "7",
+          "anchor": "P0014",
+          "quote": "Вона ввімкнула нагрів води. На краю стільниці засвітився звичайний побутовий індикатор. Сам побутовий шар лишався активним увесь час, поки ми говорили без посередництва. Його доступність не мала стосунку до того, що її пальці досі тримали ситечко надто міцно."
+        },
+        {
+          "chapter": "7",
+          "anchor": "P0031",
+          "quote": "Нагрів вимкнувся. Вона налила воду в чашку й залишила ситечко всередині."
+        }
+      ],
+      "observation": "«Нагрів» ужито як функцію приладу; Flash хоче «нагрівання». Обов’язкової нормативної заміни не доведено.",
+      "reader_effect": "Локальна неоднозначність/регістровий вибір або реакція на ритм; не блок продовження.",
+      "evidence": "Exact source checked; lexical source limits in reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Оцінити єдність технічного регістру; можна «ввімкнула нагрівання» і «вода нагрілася», якщо це зберігає потрібну дію."
+      ],
+      "dependencies": [
+        "CH07 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "7",
+          "anchor": "P0043",
+          "quote": "Я знав фахівця, якого мав назвати одразу. Не називав, бо стабілізація могла прибрати різницю, яку я хотів роздивитися. Навіть після порожнього висновку я все ще рахував її повернення частиною свого питання."
+        }
+      ],
+      "observation": "«Рахував ... частиною» має розмовне словникове значення «вважав»; твердження про винятково математичне значення не підтвердилося. Лишається вибір регістру Даля.",
+      "reader_effect": "Локальна неоднозначність/регістровий вибір або реакція на ритм; не блок продовження.",
+      "evidence": "Exact source checked; lexical source limits in reviewer-claim-validation.md",
+      "proposed_actions": [
+        "За бажання «вважав» для нейтрального регістру; «рахував» можна оцінювати як його облікову метафору, не автоматично виправляти."
+      ],
+      "dependencies": [
+        "CH07 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "7",
+          "anchor": "P0042",
+          "quote": "Вона обхопила чашку долонями, але не пила. На світлій смузі перед нею не було нової паузи. Попереднє посередництво працювало, та її дихання все ще зривалося на короткий вдих щоразу, коли я починав речення."
+        }
+      ],
+      "observation": "«Попереднє посередництво» означає відновлений режим, що був до вікна; ізольовано можливе коротке перечитування.",
+      "reader_effect": "Локальна неоднозначність/регістровий вибір або реакція на ритм; не блок продовження.",
+      "evidence": "Exact source checked; lexical source limits in reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Необов’язкове «відновлене посередництво»; факт режиму не змінюється."
+      ],
+      "dependencies": [
+        "CH07 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "imagery",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "7",
+          "anchor": "P0006",
+          "quote": "Вона взяла банку з чаєм і відкрутила кришку. Рух був повільніший, ніж до вікна. Не невпевнений — обережний, наче металевий край міг відповісти їй ще одним запитанням."
+        }
+      ],
+      "observation": "Металевий край, який міг відповісти запитанням, для Opus видається надто опосередкованим образом; Pro сприйняв його виразно.",
+      "reader_effect": "Локальна неоднозначність/регістровий вибір або реакція на ритм; не блок продовження.",
+      "evidence": "Exact source checked; lexical source limits in reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Зберегти або спростити лише образ у майбутній редакції; не втрачати фізичну обережність Майї."
+      ],
+      "dependencies": [
+        "CH07 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "rhythm",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "7",
+          "anchor": "P0026",
+          "quote": "— Так."
+        },
+        {
+          "chapter": "7",
+          "anchor": "P0027",
+          "quote": "— Це не доводить, що підтримка заборонила вам вибір."
+        },
+        {
+          "chapter": "7",
+          "anchor": "P0028",
+          "quote": "— І не доводить, що не заборонила."
+        },
+        {
+          "chapter": "7",
+          "anchor": "P0029",
+          "quote": "— Ні."
+        },
+        {
+          "chapter": "7",
+          "anchor": "P0030",
+          "quote": "Майя кивнула, ніби я нарешті відповів на те запитання, яке вона поставила."
+        },
+        {
+          "chapter": "7",
+          "anchor": "P0069",
+          "quote": "— Приймаю."
+        },
+        {
+          "chapter": "7",
+          "anchor": "P0070",
+          "quote": "— Це не дозвіл на доступ до профілю."
+        },
+        {
+          "chapter": "7",
+          "anchor": "P0071",
+          "quote": "— Розумію."
+        },
+        {
+          "chapter": "7",
+          "anchor": "P0072",
+          "quote": "— Поки що ви записали."
+        }
+      ],
+      "observation": "Короткі репліки виправдані сценою; рецензент радить стежити за одноманітністю цього ритму у всьому томі.",
+      "reader_effect": "Локальна неоднозначність/регістровий вибір або реакція на ритм; не блок продовження.",
+      "evidence": "Exact source checked; lexical source limits in reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Повернутися до питання на блоковому/глобальному читанні; не подовжувати всі репліки механічно."
+      ],
+      "dependencies": [
+        "CH07 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}
