@@ -1,0 +1,122 @@
+{
+  "book_id": "book-01",
+  "status": "observed_in_working_draft_not_canonical",
+  "source": {
+    "path": "chapter-03.md",
+    "sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86"
+  },
+  "previous": {
+    "path": "../2026-09-21-ch02-sol-v1/observed-state.json",
+    "prose_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da"
+  },
+  "scope": "Complete chapter 3, not volume finale",
+  "scenes": [
+    {
+      "id": "B01-S02-C03-S01",
+      "anchors": "P0002-P0009",
+      "events": [
+        "Maya personally sends address at D1 11:14 through authenticated conversation channel.",
+        "Dal completes two checks and one initial calibration; leaves work after closing access at16:00; at door16:17."
+      ]
+    },
+    {
+      "id": "B01-S02-C03-S02",
+      "anchors": "P0010-P0164",
+      "events": [
+        "Maya opens after20seconds, admits Dal, unpacks groceries; Gor absent by her decision.",
+        "Maya manually suppresses external notifications and accepts a suggested pause; Dal keeps device away and observes only.",
+        "She reports rejecting generated refusal and sending Gor her own refusal; defers his reply and explains chosen rules.",
+        "She refuses a test today; Dal admits steering toward one.",
+        "Dal acknowledges recognizing old work in her profile, evades personal motive.",
+        "Maya offers a separate D2 readonly grant; says she will send it separately; concludes meeting."
+      ]
+    },
+    {
+      "id": "B01-S02-C03-S03",
+      "anchors": "P0165-P0169",
+      "events": [
+        "Dal on stairs notes43minute meeting; failed first hypothesis, retains reinforcement hypothesis and seeks data."
+      ]
+    }
+  ],
+  "timeline": {
+    "entry": "D1 11:14",
+    "meeting": "D1 invitation16:20; at door16:17, admitted early by Maya",
+    "exit": "D1 after43minute meeting; exact end clock not given",
+    "next": "D2 one review10:00-10:20",
+    "walking_slack": "11minute walking route versus17minute clock interval; sixminutes not accounted in detail, not asserted as travel contradiction"
+  },
+  "characters": {
+    "Dal": "R0 employed calibrator; technical language still shields personal involvement",
+    "Maya": "conscious autonomous interlocutor; has not requested rescue; herself uses support controls",
+    "Gor": "absent; Maya reports request to attend and her refusal",
+    "Tikhon": "not introduced into case",
+    "Ballast": "not assigned"
+  },
+  "knowledge": {
+    "Dal_and_reader": [
+      "Maya reports deliberately maintaining mediation, uses it visibly for her boundaries",
+      "She allows limited verification to close a question, not to authorize rescue",
+      "Her own choice challenges Dal initial expectation; reinforcement remains hypothesis"
+    ],
+    "Maya": [
+      "Dal recognizes a derivative of old work he participated in; no Nina biography or full authorship account disclosed"
+    ],
+    "not_established": [
+      "Gor knowledge of template authorship",
+      "Historical Gor requests",
+      "Nina history for reader",
+      "Case financing or paid diagnostic contract",
+      "Neural mechanism inferred by Pro",
+      "Exact total deferred minutes"
+    ]
+  },
+  "resources": {
+    "employment": "unchanged",
+    "resonance": "R0",
+    "Dal_profile_write": "none",
+    "Maya_controls": "used existing notification suppression, deferral and pause controls; not all settings globally unchanged",
+    "direct_window": "not opened; not consented today",
+    "D2_grant": "promised, technical grant not yet received or validated",
+    "D2_scope": "one review10:00-10:20; confirmations of current mode from D1morning; only time and type continue/change/cancel; no texts, recipients, history or control",
+    "Gor_contract": "no paid agreement established"
+  },
+  "promises": {
+    "developed": [
+      "Maya chooses accompaniment",
+      "Dal old work matters personally but he hides why",
+      "Limits of his technical hypothesis"
+    ],
+    "withheld": [
+      "Nina emotional truth S08",
+      "Gor historical logs S06",
+      "R1 and Ballast S04",
+      "Lad origin"
+    ]
+  },
+  "motifs": [
+    "hands and interface strip",
+    "pause and delayed reply",
+    "technical wording as personal shield",
+    "look held without emotional breakthrough"
+  ],
+  "draft_local_proposals": [
+    "Maya domestic groceries and clothes",
+    "address11:14",
+    "table interface pause indicator",
+    "43minute meeting",
+    "D2 scoped grant window"
+  ],
+  "unresolved": [
+    "Nine pending editorial proposals in ch03 ensemble ledger, including confirmed two-bag continuity defect",
+    "Depth of emotional mediation must be concrete before first direct window"
+  ],
+  "forward_dependencies": [
+    "Show receipt and validation of separate grant BEFORE reading D2 data",
+    "Do not infer content or recipients from time/type-only rows",
+    "Introduce Tikhon via shown channel and anonymized professional question or separate explicit permission",
+    "Establish any later Gor financing agreement on page before relying on its loss",
+    "No direct window until S03; noR1 beforeS04"
+  ],
+  "checks_status": "Four diagnoses locked; reconciliation prepared; integrity/registration to follow"
+}

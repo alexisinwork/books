@@ -1,0 +1,488 @@
+--- kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/progress.json
++++ kontakt/books/book-01/production/2026-09-21-book01/progress.json
+@@ -18,9 +18,17 @@
+       "observed_state": "drafts/2026-09-21-ch02-sol-v1/observed-state.json",
+       "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+       "status": "reviewed_working_draft_not_canonical"
++    },
++    {
++      "chapter": 3,
++      "source": "drafts/2026-09-21-ch03-sol-v1/chapter-03.md",
++      "sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++      "observed_state": "drafts/2026-09-21-ch03-sol-v1/observed-state.json",
++      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
++      "status": "reviewed_working_draft_not_canonical"
+     }
+   ],
+-  "current_chapter": 3,
++  "current_chapter": 4,
+   "current_stage": "prepare_next_scene_handoff",
+   "future_chapters": "macro architecture; progressively detailed before writing",
+   "global_audit": "not_run"
+--- kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json
++++ kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json
+@@ -12,21 +12,21 @@
+       "sequence": "S01",
+       "day": "D0",
+       "function": "Калібрування, особиста подяка, лист Гора",
+-      "status": "reviewed_draft"
++      "status": "reviewed_draft_with_open_editorial_ledger"
+     },
+     {
+       "chapter": 2,
+       "sequence": "S01",
+       "day": "D0–D1",
+       "function": "Заборонене замовлення, власний шаблон, дозвіл Майї",
+-      "status": "drafting"
++      "status": "reviewed_draft_with_open_editorial_ledger"
+     },
+     {
+       "chapter": 3,
+       "sequence": "S02",
+       "day": "D1",
+       "function": "Перша зустріч: Майя дозволяє розмову, відхиляє мету порятунку",
+-      "status": "planned"
++      "status": "reviewed_draft_with_open_editorial_ledger"
+     },
+     {
+       "chapter": 4,
+--- kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
++++ kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
+@@ -1,7 +1,7 @@
+ {
+   "book_id": "book-01",
+   "status": "working_draft_collection_not_master",
+-  "chapter_count": 2,
++  "chapter_count": 3,
+   "chapters": [
+     {
+       "chapter": 1,
+@@ -18,6 +18,14 @@
+       "observed_state": "drafts/2026-09-21-ch02-sol-v1/observed-state.json",
+       "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+       "status": "reviewed_working_draft_not_canonical"
++    },
++    {
++      "chapter": 3,
++      "source": "drafts/2026-09-21-ch03-sol-v1/chapter-03.md",
++      "sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++      "observed_state": "drafts/2026-09-21-ch03-sol-v1/observed-state.json",
++      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
++      "status": "reviewed_working_draft_not_canonical"
+     }
+   ],
+   "global_audit": "not_run",
+--- kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/metadata-before/kontakt/books/book-01/book.json
++++ kontakt/books/book-01/book.json
+@@ -8,7 +8,7 @@
+   "master": null,
+   "voice": "voice.json",
+   "canon": "../../series/canon.json",
+-  "audit_status": "chapter_02_reviewed_volume_in_progress",
++  "audit_status": "chapter_03_reviewed_volume_in_progress",
+   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
+   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
+   "language": "uk",
+@@ -23,25 +23,25 @@
+   "planning_state": "planned_not_observed",
+   "execution_entry": "production/2026-09-21-book01/progress.json",
+   "draft_scope": {
+-    "chapter": 2,
++    "chapter": 3,
+     "whole_book_ready": false,
+     "whole_series_ready": false,
+     "prose_started": true,
+-    "execution": "execution/HANDOFF-CH02.md"
++    "execution": "execution/HANDOFF-CH03.md"
+   },
+   "working_revision": {
+-    "path": "drafts/2026-09-21-ch02-sol-v1/chapter-02.md",
+-    "sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
++    "path": "drafts/2026-09-21-ch03-sol-v1/chapter-03.md",
++    "sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+     "format": "md",
+     "language": "uk",
+     "status": "draft_not_author_selected",
+-    "scope": "chapter 2; complete collection in working_volume",
+-    "observed_state": "drafts/2026-09-21-ch02-sol-v1/observed-state.json",
+-    "review_run": "audit/ensemble/ch02-20260921-sol-v1"
++    "scope": "chapter 3; complete collection in working_volume",
++    "observed_state": "drafts/2026-09-21-ch03-sol-v1/observed-state.json",
++    "review_run": "audit/ensemble/ch03-20260921-sol-v1"
+   },
+   "working_volume": {
+     "manifest": "production/2026-09-21-book01/working-volume.json",
+-    "chapters": 2,
++    "chapters": 3,
+     "status": "in_progress_not_master"
+   }
+ }
+--- kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/metadata-before/kontakt/books/book-01/session.md
++++ kontakt/books/book-01/session.md
+@@ -2,6 +2,6 @@
+ 
+ Поточне доручення: завершити том 1 з перевірками кожної глави, потім повний аудит. Див. production/2026-09-21-book01/authorization.md.
+ 
+-Глави 1–2 написані й мають чотири діагнози та зведення. Остання: [chapter-02.md](drafts/2026-09-21-ch02-sol-v1/chapter-02.md), SHA-256 `99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da`. Фактичний стан: [2026-09-21-ch02-sol-v1](drafts/2026-09-21-ch02-sol-v1/observed-state.json). Планові реєстри збережені; master=null.
++Глави 1–3 написані й мають чотири діагнози та зведення. Остання: [chapter-03.md](drafts/2026-09-21-ch03-sol-v1/chapter-03.md), SHA-256 `1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86`. Фактичний стан: [2026-09-21-ch03-sol-v1](drafts/2026-09-21-ch03-sol-v1/observed-state.json). Планові реєстри збережені; master=null.
+ 
+-Далі: глава 3, перед письмом окрема звірка стану й handoff. Точний прогрес і версії: [реєстр](production/2026-09-21-book01/progress.json). Відкриті редакторські пропозиції не визнані авторськими рішеннями. Повного аудиту тому ще немає.
++Далі: глава 4, перед письмом окрема звірка стану й handoff. Точний прогрес і версії: [реєстр](production/2026-09-21-book01/progress.json). Відкриті редакторські пропозиції не визнані авторськими рішеннями. Повного аудиту тому ще немає.
+--- kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/metadata-before/kontakt/START_HERE.md
++++ kontakt/START_HERE.md
+@@ -2,6 +2,6 @@
+ 
+ Автор доручив завершити український том 1 по главі з усіма перевірками, потім виконати повний аудит.
+ 
+-Готові чернетки глав 1–2; далі глава 3. [Поточний прогрес](books/book-01/production/2026-09-21-book01/progress.json). [Робочий маршрут](books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md). [Остання глава й перевірки](books/book-01/drafts/2026-09-21-ch02-sol-v1/README.md).
++Готові чернетки глав 1–3; далі глава 4. [Поточний прогрес](books/book-01/production/2026-09-21-book01/progress.json). [Робочий маршрут](books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md). [Остання глава й перевірки](books/book-01/drafts/2026-09-21-ch03-sol-v1/README.md).
+ 
+ Master не призначено. Для продовження спочатку читати фактичний observed-state останньої глави, потім scoped handoff. Макроархітектура восьми книг збережена; плани не стали подіями рукопису.
+--- kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/metadata-before/kontakt/books/book-01/plan.md
++++ kontakt/books/book-01/plan.md
+@@ -15,3 +15,7 @@
+ ## Поступ після глави 2
+ 
+ Чернетки 1–2: production/2026-09-21-book01/working-volume.json. Наступна глава 3; факт і план розділені.
++
++## Поступ після глави 3
++
++Чернетки 1–3: production/2026-09-21-book01/working-volume.json. Наступна глава 4; факт і план розділені.
+--- kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/metadata-before/kontakt/books/book-01/brief.md
++++ kontakt/books/book-01/brief.md
+@@ -15,3 +15,7 @@
+ ## Поступ після глави 2
+ 
+ Чернетки 1–2: production/2026-09-21-book01/working-volume.json. Наступна глава 3; факт і план розділені.
++
++## Поступ після глави 3
++
++Чернетки 1–3: production/2026-09-21-book01/working-volume.json. Наступна глава 4; факт і план розділені.
+--- kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/metadata-before/kontakt/books/book-01/audit/issues.json
++++ kontakt/books/book-01/audit/issues.json
+@@ -447,6 +447,270 @@
+       "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+       "author_decision": "pending",
+       "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH03-SOL-V1-ENS-001",
++      "category": "continuity",
++      "severity": "minor",
++      "certainty": "confirmed_conflict",
++      "observation": "Спочатку два пакети; один викинуто; потім Майя складає порожні пакети один в один. Текст не вводить третього пакета.",
++      "anchors": [
++        {
++          "chapter": "3",
++          "anchor": "P0014",
++          "quote": "Вона вже відійшла від дверей, не перевіряючи, чи послухався я. На ній були темні штани й світла сорочка із закоченими рукавами. Волосся вона зібрала недбало, але так, щоб воно не падало на обличчя. На кухонному столі стояли два пакети з продуктами. Майя виймала з них коробки й банки, дивилася на дати й розкладала все по шафах."
++        },
++        {
++          "chapter": "3",
++          "anchor": "P0030",
++          "quote": "Я сів. Майя продовжила розкладати покупки. Вона не поспішала й не сповільнювалася для мене. Відкрила нижню шафу, поставила туди дві коробки, викинула порожній пакет. На столі лишилися хліб, яблука й маленька упаковка чаю."
++        },
++        {
++          "chapter": "3",
++          "anchor": "P0054",
++          "quote": "Майя склала порожні пакети один в один. Її руки працювали точно, без дрібної метушні."
++        }
++      ],
++      "dependencies": [
++        "CH03 future revision"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH03-SOL-V1-ENS-002",
++      "category": "worldbuilding",
++      "severity": "moderate",
++      "certainty": "strong_inference",
++      "observation": "Глибоке посередництво поки найбільше видно через відкладення повідомлень і таймер паузи; відмінність від побутового режиму може лишитися слабкою. Opus і Pro зрозуміли психологічну функцію.",
++      "anchors": [
++        {
++          "chapter": "3",
++          "anchor": "P0071",
++          "quote": "Я знав цю функцію. Відкладення прибирало не тільки сповіщення, а й повторні м’які нагадування, якими система зазвичай повертала людину до незавершеного обміну. У звичайному режимі це давало час охолонути. У глибокому супроводженні могло зробити відсутність контакту новою нормою."
++        },
++        {
++          "chapter": "3",
++          "anchor": "P0077",
++          "quote": "Світла смуга на столі спалахнула бурштиновим. Не попередження й не готова репліка — знак паузи. Майя поклала на неї два пальці. Між нами з’явилася тонка риска, що повільно коротшала."
++        },
++        {
++          "chapter": "3",
++          "anchor": "P0098",
++          "quote": "— А я кажу, де вона проходить сьогодні. Я написала Гору «не приходь». Система не писала це за мене. Вона допомогла не перетворити його наступне повідомлення на нове рішення, яке я маю прийняти негайно."
++        },
++        {
++          "chapter": "3",
++          "anchor": "P0165",
++          "quote": "На сходах я перевірив час. Зустріч тривала сорок три хвилини. Майя жодного разу не попросила повернути її до попереднього стану, не назвала супроводження пасткою й не поводилася так, ніби не розуміла, що воно робить. Вона використала його, щоб відкласти чужу відповідь, позначити паузу й закінчити зустріч тоді, коли вирішила сама."
++        }
++      ],
++      "dependencies": [
++        "CH04",
++        "S03 first direct window",
++        "S10 utility mode"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH03-SOL-V1-ENS-003",
++      "category": "continuity",
++      "severity": "minor",
++      "certainty": "hypothesis",
++      "observation": "Світла смуга після згасання названа темною, потім знову світлою. Неясно, чи йдеться про матеріал, чи підсвітку.",
++      "anchors": [
++        {
++          "chapter": "3",
++          "anchor": "P0020",
++          "quote": "Вона торкнулася двома пальцями вузької світлої смуги на краю столу. Смуга на мить стала білою, потім згасла. На стіні біля дверей зникли годинник і позначка двох непрочитаних звернень."
++        },
++        {
++          "chapter": "3",
++          "anchor": "P0085",
++          "quote": "Я подивився на темну смугу. Видима ознака супроводження. Дозволена для спостереження. Я вже почав розкладати її на затримку, тригер і наслідок, хоча цього разу наслідком був я."
++        },
++        {
++          "chapter": "3",
++          "anchor": "P0095",
++          "quote": "Майя сіла навпроти. Продукти було розкладено; між нами залишилася миска з яблуками. Вона поклала долоні на стіл, не торкаючись світлої смуги."
++        }
++      ],
++      "dependencies": [
++        "CH03 future revision"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH03-SOL-V1-ENS-004",
++      "category": "dialogue",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Даль питає, чи Майя вимкнула повідомлення перед зустріччю, щойно побачивши її жест. Її відповідь навмисно показує його процедурну незграбність, але запитання може здатися експозиційним.",
++      "anchors": [
++        {
++          "chapter": "3",
++          "anchor": "P0020",
++          "quote": "Вона торкнулася двома пальцями вузької світлої смуги на краю столу. Смуга на мить стала білою, потім згасла. На стіні біля дверей зникли годинник і позначка двох непрочитаних звернень."
++        },
++        {
++          "chapter": "3",
++          "anchor": "P0022",
++          "quote": "— Ви вимкнули їх перед зустріччю?"
++        },
++        {
++          "chapter": "3",
++          "anchor": "P0023",
++          "quote": "— Щойно. Перед вами."
++        }
++      ],
++      "dependencies": [
++        "CH03 future revision"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH03-SOL-V1-ENS-005",
++      "category": "language",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "«У попередній вечір» звучить менш природно, ніж «Попереднього вечора». Походження як кальки не доведене зовнішньою перевіркою.",
++      "anchors": [
++        {
++          "chapter": "3",
++          "anchor": "P0038",
++          "quote": "У попередній вечір така відповідь здалася б мені відхиленням від питання. Тепер я принаймні знав, що вона бачить межу точніше, ніж Гор описував її стан."
++        }
++      ],
++      "dependencies": [
++        "CH03 future revision"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH03-SOL-V1-ENS-006",
++      "category": "language",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "Для стулки шафи «відчинила» точніше називає дію. Категоричну заборону «відкрила» за одним модельним твердженням не встановлено.",
++      "anchors": [
++        {
++          "chapter": "3",
++          "anchor": "P0030",
++          "quote": "Я сів. Майя продовжила розкладати покупки. Вона не поспішала й не сповільнювалася для мене. Відкрила нижню шафу, поставила туди дві коробки, викинула порожній пакет. На столі лишилися хліб, яблука й маленька упаковка чаю."
++        }
++      ],
++      "dependencies": [
++        "CH03 future revision"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH03-SOL-V1-ENS-007",
++      "category": "pacing",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Підсумок Даля повторює вже показані три функції підтримки перед сильнішим висновком про невдалу гіпотезу.",
++      "anchors": [
++        {
++          "chapter": "3",
++          "anchor": "P0165",
++          "quote": "На сходах я перевірив час. Зустріч тривала сорок три хвилини. Майя жодного разу не попросила повернути її до попереднього стану, не назвала супроводження пасткою й не поводилася так, ніби не розуміла, що воно робить. Вона використала його, щоб відкласти чужу відповідь, позначити паузу й закінчити зустріч тоді, коли вирішила сама."
++        },
++        {
++          "chapter": "3",
++          "anchor": "P0166",
++          "quote": "Моя перша гіпотеза цього не витримала."
++        },
++        {
++          "chapter": "3",
++          "anchor": "P0167",
++          "quote": "Залишалася друга: режим міг робити її рішення дедалі легшими тільки в один бік. Завтрашні підтвердження мали показати, чи Майя справді поверталася до вибору, чи лише знову й знову натискала «продовжити»."
++        }
++      ],
++      "dependencies": [
++        "CH03 future revision"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH03-SOL-V1-ENS-008",
++      "category": "worldbuilding",
++      "severity": "minor",
++      "certainty": "hypothesis",
++      "observation": "Для риски між співрозмовниками не названо фізичну поверхню.",
++      "anchors": [
++        {
++          "chapter": "3",
++          "anchor": "P0077",
++          "quote": "Світла смуга на столі спалахнула бурштиновим. Не попередження й не готова репліка — знак паузи. Майя поклала на неї два пальці. Між нами з’явилася тонка риска, що повільно коротшала."
++        }
++      ],
++      "dependencies": [
++        "CH03 future revision"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH03-SOL-V1-ENS-009",
++      "category": "language",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "«Обираєте не діяти без нього» має складну вкладеність заперечення. Логічної помилки немає.",
++      "anchors": [
++        {
++          "chapter": "3",
++          "anchor": "P0103",
++          "quote": "— Якщо ви можете діяти без нього, важливо знати, чому обираєте не діяти без нього."
++        }
++      ],
++      "dependencies": [
++        "CH03 future revision"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
+     }
+   ]
+ }
+--- kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/metadata-before/kontakt/books/book-01/revision-log.json
++++ kontakt/books/book-01/revision-log.json
+@@ -80,6 +80,28 @@
+         "record": "drafts/2026-09-21-ch02-sol-v1/checks/verification.json",
+         "release_ready": false
+       }
++    },
++    {
++      "id": "ch03-20260921-sol-v1",
++      "reason": "Author authorized completion of volume one chapter at a time with checks",
++      "decision": "applied_to_draft_only",
++      "old_source": null,
++      "new_source": {
++        "path": "drafts/2026-09-21-ch03-sol-v1/chapter-03.md",
++        "sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86"
++      },
++      "preflight_history": null,
++      "observed_state": "drafts/2026-09-21-ch03-sol-v1/observed-state.json",
++      "dependencies": {
++        "planned_registers": "unchanged; actual candidate states separate",
++        "master_snapshot": "not applicable, master null",
++        "next_chapter": 4
++      },
++      "verification": {
++        "run": "audit/ensemble/ch03-20260921-sol-v1",
++        "record": "drafts/2026-09-21-ch03-sol-v1/checks/verification.json",
++        "release_ready": false
++      }
+     }
+   ]
+ }
+--- kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/metadata-before/kontakt/series/architecture-pass-01-status.json
++++ kontakt/series/architecture-pass-01-status.json
+@@ -6,7 +6,7 @@
+   "books": [
+     {
+       "book_id": "book-01",
+-      "status": "chapters_01_02_drafted_reviewed",
++      "status": "chapters_01_03_drafted_reviewed",
+       "architecture_pass": "macro_reviewed",
+       "scene_gate": "chapter_01_only",
+       "master": null
+@@ -70,9 +70,9 @@
+   },
+   "current_draft": {
+     "book_id": "book-01",
+-    "chapter": 2,
+-    "path": "kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/chapter-02.md",
+-    "sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
++    "chapter": 3,
++    "path": "kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/chapter-03.md",
++    "sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+     "status": "reviewed_working_draft",
+     "whole_book_written": false,
+     "volume_progress": "books/book-01/production/2026-09-21-book01/progress.json"

@@ -1,0 +1,39 @@
+{
+  "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+  "scope": "Complete169blocks CH03 plus CH02 continuity; not full volume",
+  "status": "diagnostic_cycle_completed_with_nine_pending_proposals_including_one_confirmed_minor_prop_conflict",
+  "source_unchanged_after_reviews": true,
+  "independent_reviews": {
+    "astra": "0b9315db37dfa64e27585e290f150b3bd89954ecda3379d8da7a055972f78a82",
+    "claude": "ed4fe5a7982f9da9560effb20897f30ce8672f7fc50f1b4b42e84f5032b7946a",
+    "gemini_flash": "93040e6078f2385ac1a5f41fb5ad215f73fda481a96d2052742d7b0e68b0632e",
+    "gemini": "cc0224eed5a4f49ad4be5f1eba4ba788b649542aeaa088187cf5944fe1339d49"
+  },
+  "reconciliation": "a6f85df487c73876b29a1d03e181f644c19e1005b79a4f9dbb87150d7a3ba624",
+  "model_backend_attestation": "Requested selectors and init metadata; backend not independently attested",
+  "ensemble_integrity": "verify passed after reconciliation",
+  "language_scans": {
+    "language_qa": "no configured signals;337physical lines169nonempty",
+    "naturalness": "no configured signals; grammar checker not run",
+    "literary_language": "four full model readings, disputed claims reconciled"
+  },
+  "docx": {
+    "extraction": "exact match",
+    "pages": 6,
+    "pdf_text": "matches ignoring layout whitespace",
+    "visual": "all6pages inspected; no clipping/blank",
+    "renderer": "docx-preview/Chromium; not native Word"
+  },
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "no selected masters, expected"
+  },
+  "immutable_sources": "No legacy or macro source modified in this chapter operation; full integrity last verified with chapter2",
+  "remaining": [
+    "Confirmed two-bag inconsistency pending author-selected revision",
+    "Eight further pending editorial proposals, including mediation-depth clarity",
+    "D2grant promised, must show actual receipt and validation",
+    "Volume completion and global audit not complete"
+  ]
+}

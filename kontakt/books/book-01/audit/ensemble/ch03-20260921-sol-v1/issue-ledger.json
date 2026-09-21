@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "run_id": "ch03-20260921-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": "3",
+          "anchor": "P0014",
+          "quote": "Вона вже відійшла від дверей, не перевіряючи, чи послухався я. На ній були темні штани й світла сорочка із закоченими рукавами. Волосся вона зібрала недбало, але так, щоб воно не падало на обличчя. На кухонному столі стояли два пакети з продуктами. Майя виймала з них коробки й банки, дивилася на дати й розкладала все по шафах."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0030",
+          "quote": "Я сів. Майя продовжила розкладати покупки. Вона не поспішала й не сповільнювалася для мене. Відкрила нижню шафу, поставила туди дві коробки, викинула порожній пакет. На столі лишилися хліб, яблука й маленька упаковка чаю."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0054",
+          "quote": "Майя склала порожні пакети один в один. Її руки працювали точно, без дрібної метушні."
+        }
+      ],
+      "observation": "Спочатку два пакети; один викинуто; потім Майя складає порожні пакети один в один. Текст не вводить третього пакета.",
+      "reader_effect": "Мала, але реальна предметна суперечність.",
+      "evidence": "Verified against exact source paragraphs; diagnosis is not an author decision.",
+      "proposed_actions": [
+        "В авторськи схваленій редакції замінити викидання на відкладання або змінити наступну дію; не застосовувати обидві альтернативи."
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "worldbuilding",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "3",
+          "anchor": "P0071",
+          "quote": "Я знав цю функцію. Відкладення прибирало не тільки сповіщення, а й повторні м’які нагадування, якими система зазвичай повертала людину до незавершеного обміну. У звичайному режимі це давало час охолонути. У глибокому супроводженні могло зробити відсутність контакту новою нормою."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0077",
+          "quote": "Світла смуга на столі спалахнула бурштиновим. Не попередження й не готова репліка — знак паузи. Майя поклала на неї два пальці. Між нами з’явилася тонка риска, що повільно коротшала."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0098",
+          "quote": "— А я кажу, де вона проходить сьогодні. Я написала Гору «не приходь». Система не писала це за мене. Вона допомогла не перетворити його наступне повідомлення на нове рішення, яке я маю прийняти негайно."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0165",
+          "quote": "На сходах я перевірив час. Зустріч тривала сорок три хвилини. Майя жодного разу не попросила повернути її до попереднього стану, не назвала супроводження пасткою й не поводилася так, ніби не розуміла, що воно робить. Вона використала його, щоб відкласти чужу відповідь, позначити паузу й закінчити зустріч тоді, коли вирішила сама."
+        }
+      ],
+      "observation": "Глибоке посередництво поки найбільше видно через відкладення повідомлень і таймер паузи; відмінність від побутового режиму може лишитися слабкою. Opus і Pro зрозуміли психологічну функцію.",
+      "reader_effect": "Майбутнє пряме вікно потребує зрозумілої зміни переживання, без перетворення Майї на безпорадну пацієнтку.",
+      "evidence": "Verified against exact source paragraphs; diagnosis is not an author decision.",
+      "proposed_actions": [
+        "У новій дозволеній сцені показати конкретну функцію емоційного посередництва через легітимне джерело; не приписувати закритим даним недозволені поля.",
+        "Правку замороженої CH03 розглядати окремо лише за рішенням автора."
+      ],
+      "dependencies": [
+        "CH04",
+        "S03 first direct window",
+        "S10 utility mode"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "3",
+          "anchor": "P0020",
+          "quote": "Вона торкнулася двома пальцями вузької світлої смуги на краю столу. Смуга на мить стала білою, потім згасла. На стіні біля дверей зникли годинник і позначка двох непрочитаних звернень."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0085",
+          "quote": "Я подивився на темну смугу. Видима ознака супроводження. Дозволена для спостереження. Я вже почав розкладати її на затримку, тригер і наслідок, хоча цього разу наслідком був я."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0095",
+          "quote": "Майя сіла навпроти. Продукти було розкладено; між нами залишилася миска з яблуками. Вона поклала долоні на стіл, не торкаючись світлої смуги."
+        }
+      ],
+      "observation": "Світла смуга після згасання названа темною, потім знову світлою. Неясно, чи йдеться про матеріал, чи підсвітку.",
+      "reader_effect": "Можлива дрібна візуальна плутанина.",
+      "evidence": "Verified against exact source paragraphs; diagnosis is not an author decision.",
+      "proposed_actions": [
+        "За бажанням уточнити матеріальну назву смуги; автоматичний новий спалах не вигадувати."
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "dialogue",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "3",
+          "anchor": "P0020",
+          "quote": "Вона торкнулася двома пальцями вузької світлої смуги на краю столу. Смуга на мить стала білою, потім згасла. На стіні біля дверей зникли годинник і позначка двох непрочитаних звернень."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0022",
+          "quote": "— Ви вимкнули їх перед зустріччю?"
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0023",
+          "quote": "— Щойно. Перед вами."
+        }
+      ],
+      "observation": "Даль питає, чи Майя вимкнула повідомлення перед зустріччю, щойно побачивши її жест. Її відповідь навмисно показує його процедурну незграбність, але запитання може здатися експозиційним.",
+      "reader_effect": "Ризик тимчасово знизити довіру до фахової спостережливості.",
+      "evidence": "Verified against exact source paragraphs; diagnosis is not an author decision.",
+      "proposed_actions": [
+        "Зберегти як характерну незграбність або уточнити питання про час/мотив в окремій редакції."
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "3",
+          "anchor": "P0038",
+          "quote": "У попередній вечір така відповідь здалася б мені відхиленням від питання. Тепер я принаймні знав, що вона бачить межу точніше, ніж Гор описував її стан."
+        }
+      ],
+      "observation": "«У попередній вечір» звучить менш природно, ніж «Попереднього вечора». Походження як кальки не доведене зовнішньою перевіркою.",
+      "reader_effect": "Локальна мовна шорсткість.",
+      "evidence": "Verified against exact source paragraphs; diagnosis is not an author decision.",
+      "proposed_actions": [
+        "Розглянути «Попереднього вечора»; це редакторська пропозиція, не встановлена автором заборона конструкції."
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "language",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "3",
+          "anchor": "P0030",
+          "quote": "Я сів. Майя продовжила розкладати покупки. Вона не поспішала й не сповільнювалася для мене. Відкрила нижню шафу, поставила туди дві коробки, викинула порожній пакет. На столі лишилися хліб, яблука й маленька упаковка чаю."
+        }
+      ],
+      "observation": "Для стулки шафи «відчинила» точніше називає дію. Категоричну заборону «відкрила» за одним модельним твердженням не встановлено.",
+      "reader_effect": "Можливість точнішого побутового дієслова.",
+      "evidence": "Verified against exact source paragraphs; diagnosis is not an author decision.",
+      "proposed_actions": [
+        "Розглянути «відчинила нижню шафу» в узгодженому мовному проході."
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "3",
+          "anchor": "P0165",
+          "quote": "На сходах я перевірив час. Зустріч тривала сорок три хвилини. Майя жодного разу не попросила повернути її до попереднього стану, не назвала супроводження пасткою й не поводилася так, ніби не розуміла, що воно робить. Вона використала його, щоб відкласти чужу відповідь, позначити паузу й закінчити зустріч тоді, коли вирішила сама."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0166",
+          "quote": "Моя перша гіпотеза цього не витримала."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0167",
+          "quote": "Залишалася друга: режим міг робити її рішення дедалі легшими тільки в один бік. Завтрашні підтвердження мали показати, чи Майя справді поверталася до вибору, чи лише знову й знову натискала «продовжити»."
+        }
+      ],
+      "observation": "Підсумок Даля повторює вже показані три функції підтримки перед сильнішим висновком про невдалу гіпотезу.",
+      "reader_effect": "Інженерний голос виправдовує резюме, але можливе послаблення фінального руху.",
+      "evidence": "Verified against exact source paragraphs; diagnosis is not an author decision.",
+      "proposed_actions": [
+        "Скоротити друге речення P0165 або свідомо зберегти звітний голос."
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "worldbuilding",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "3",
+          "anchor": "P0077",
+          "quote": "Світла смуга на столі спалахнула бурштиновим. Не попередження й не готова репліка — знак паузи. Майя поклала на неї два пальці. Між нами з’явилася тонка риска, що повільно коротшала."
+        }
+      ],
+      "observation": "Для риски між співрозмовниками не названо фізичну поверхню.",
+      "reader_effect": "Деяким читачам складно уявити носій таймера.",
+      "evidence": "Verified against exact source paragraphs; diagnosis is not an author decision.",
+      "proposed_actions": [
+        "За бажанням назвати поверхню, не вводячи новий тип інтерфейсу."
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "language",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "3",
+          "anchor": "P0103",
+          "quote": "— Якщо ви можете діяти без нього, важливо знати, чому обираєте не діяти без нього."
+        }
+      ],
+      "observation": "«Обираєте не діяти без нього» має складну вкладеність заперечення. Логічної помилки немає.",
+      "reader_effect": "Репліка може читатися важче, хоча відповідає голосу інженера.",
+      "evidence": "Verified against exact source paragraphs; diagnosis is not an author decision.",
+      "proposed_actions": [
+        "За бажанням спростити без зміни позиції Даля."
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}
