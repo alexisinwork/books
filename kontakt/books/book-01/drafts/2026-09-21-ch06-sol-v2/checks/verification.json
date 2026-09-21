@@ -1,0 +1,43 @@
+{
+  "source_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+  "scope": "Complete CH06v2 P0001–P0080 and previous continuity; not full volume",
+  "status": "four_diagnoses_and_reconciliation_completed_with_ten_pending_editorial_proposals",
+  "source_unchanged_after_reviews": true,
+  "independent_reviews": {
+    "astra": "5499e78ba74b26ec333b7e6444d94960c2cdaa9121b54a594cc9674383c39056",
+    "claude": "890643edc9bb1936f43b0f11347dcbd405388ca0aa25c15a591f148783c62503",
+    "gemini_flash": "d0c96e4cbc3b7a3812fa39c6a1b34731331f6f505e466dd8b26739ae3678088e",
+    "gemini": "f9e2e1761b08730c98b30b1b35e22d252fb077bbf564bdd4437774c6c87cc375"
+  },
+  "reconciliation": "a0077202526f962abe65bc52d9c23379ba3147ead3dc29ac1a977e2610d8b6e4",
+  "ensemble_integrity": "verify passed",
+  "model_backend_attestation": "requested selectors and init metadata only",
+  "language_scans": {
+    "language_qa": "zero configured signals;159physical lines80nonempty885lexical",
+    "naturalness": "zero configured signals; separate grammar checker not run",
+    "literary_language": "four complete readings; local concerns documented"
+  },
+  "docx": {
+    "extraction": "exact match",
+    "pages": 3,
+    "pdf_text": "matches ignoring layout whitespace",
+    "visual": "all3pages inspected; no clipping/blank",
+    "renderer": "docx-preview/Chromium; not native Word"
+  },
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "no selected masters expected"
+  },
+  "versions": {
+    "v1_prose_preserved": "2868ba8827af9c95ee03db806b502557f2ed5f4ce7168c8bd3bc2d3811e8bdc0",
+    "v1_notes_preserved": "05b6795aed07d713439a2499609729c052f197f0b4cbd2661bb6b464a284f047",
+    "preflight_diff": "preflight-changes.diff",
+    "v1_review": "not run, superseded before diagnoses"
+  },
+  "remaining": [
+    "10 pending editorial proposals, not release-ready",
+    "CH07 aftermath before next window",
+    "Full volume drafting/global audit pending"
+  ]
+}

@@ -1,0 +1,69 @@
+diff --git a/kontakt/books/book-01/drafts/2026-09-21-ch06-sol-v1/chapter-06.md b/kontakt/books/book-01/drafts/2026-09-21-ch06-sol-v2/chapter-06.md
+index c7e2803..54f9625 100644
+--- a/kontakt/books/book-01/drafts/2026-09-21-ch06-sol-v1/chapter-06.md
++++ b/kontakt/books/book-01/drafts/2026-09-21-ch06-sol-v2/chapter-06.md
+@@ -2,7 +2,7 @@
+ 
+ О 10:56 я подзвонив один раз.
+ 
+-Майя відчинила майже одразу. В одній руці вона тримала скляну банку, у другій — паперову упаковку чаю, яку вчора залишила на кухонному столі.
++Майя відчинила майже одразу. В одній руці вона тримала скляну банку, у другій — паперову упаковку чаю, яку я впізнав із попередньої зустрічі.
+ 
+ — Ви на чотири хвилини раніше.
+ 
+@@ -130,7 +130,7 @@
+ 
+ Я прибрав руку. Нічого не просив і не відкривав знову.
+ 
+-Майя не розтиснула пальців одразу. Світла смуга під її рукою стала бурштиновою, і між нами з’явилася тонка риска паузи. Вона скорочувалася так само, як учора. Цього разу я не перевіряв, чи можу говорити.
++Майя не розтиснула пальців одразу. Світла смуга під її рукою стала бурштиновою, і між нами з’явилася тонка риска паузи. Вона скорочувалася так само, як під час попередньої зустрічі. Цього разу я не перевіряв, чи можу говорити.
+ 
+ Коли риска згасла, Майя відпустила банку.
+ 
+@@ -156,5 +156,4 @@
+ 
+ Технічно я виконав усе, що пообіцяв.
+ 
+-Майя поставила банку на середину столу, туди, де до мого приходу було її місце.
+-
++Майя поставила банку на середину столу, поруч із мискою яблук.
+diff --git a/kontakt/books/book-01/drafts/2026-09-21-ch06-sol-v1/writer-notes.md b/kontakt/books/book-01/drafts/2026-09-21-ch06-sol-v2/writer-notes.md
+index 21b9f2f..a4bf999 100644
+--- a/kontakt/books/book-01/drafts/2026-09-21-ch06-sol-v1/writer-notes.md
++++ b/kontakt/books/book-01/drafts/2026-09-21-ch06-sol-v2/writer-notes.md
+@@ -10,6 +10,8 @@
+ 
+ ## Source revision
+ 
++- Immediate revision source: `../2026-09-21-ch06-sol-v1/chapter-06.md`, frozen SHA-256 `2868ba8827af9c95ee03db806b502557f2ed5f4ce7168c8bd3bc2d3811e8bdc0`.
++- Revision basis: root factual preflight before independent reviews; no peer report or ensemble decision was read or applied.
+ - Previous prose: `../2026-09-21-ch05-sol-v2/chapter-05.md`.
+ - Previous prose SHA-256: `8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01` (verified).
+ - Previous observed state: `../2026-09-21-ch05-sol-v2/observed-state.json`, SHA-256 `66cea6b803c50b3146dea41ce1e1761a0b1e89fb878944488de1f7683c234487` (verified).
+@@ -68,6 +70,15 @@
+ - The live exchange about whether Dal will accept a later refusal as Maya's choice.
+ - The pause signal is the first visible affordance used after restoration.
+ 
++## V1 → V2 factual preflight
++
++- Source prose: `../2026-09-21-ch06-sol-v1/chapter-06.md`, SHA-256 `2868ba8827af9c95ee03db806b502557f2ed5f4ce7168c8bd3bc2d3811e8bdc0`.
++- Exact patch: `preflight-changes.diff`.
++- The tea packet is recognized from the D1 chapter-3 meeting; no unseen D2 action by Maya is inferred.
++- The returning pause is compared with the previous in-person meeting, not incorrectly described as yesterday.
++- The final jar gesture uses the bowl of apples already present in this scene and makes no claim that Dal knew the jar's pre-arrival place.
++- Plot, 01:08 duration, fresh confirmation, stop and immediate restoration are unchanged.
++
+ ## Forward dependencies
+ 
+ - Chapter 7 begins only from the verified post-session state: emotional mediation restored, utilities active, no usable causal conclusion, no permission for another test.
+@@ -81,8 +92,10 @@
+ - Ukrainian, Dal first person and past tense maintained.
+ - Sequence checked: arrival → control shown → non-removal route check → fresh confirmation → single-layer removal → Maya's stop → immediate restoration → no conclusion.
+ - Time and arithmetic checked: arrival 10:56; confirmation/start at 11:00; stop at 01:08 of the session, below the ninety-second maximum.
++- Chronology checked: current meeting is D3; the prior in-person meeting and first sight of the tea packet were D1.
+ - Speakers checked through the direct exchange; Maya remains the author of the question and stop.
+ - Props checked: tea packet becomes the tea jar; label is repositioned and later holds; both controls remain visible; no object disappears and later acts.
+ - Technical scope checked: utility functions stay active; no profile, journal, old message, second parameter or hidden human test is opened.
+ - Knowledge checked: Gor and Tikhon learn nothing; Dal knows only what Maya says and what the limited procedure state shows.
+ - No artificial technical failure, R1, Ballast, Nina reveal, old Gor logs, Lad-origin reveal, metadata edit or chapter 7 prose.
++- V1 remains frozen and unchanged; V2 applies only the three factual preflight clarifications recorded in `preflight-changes.diff`.

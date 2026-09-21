@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "run_id": "ch06-20260921-sol-v2",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "gemini_flash"
+      ],
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "6",
+          "anchor": "P0062",
+          "quote": "— Я знаю, що ви не Гор, — сказала Майя. — Зараз мені доводиться робити цю різницю самій після кожного вашого речення."
+        }
+      ],
+      "observation": "«Робити цю різницю» звучить неприродно в значенні самостійно розрізняти співрозмовників; маршрут запозичення не доведений.",
+      "reader_effect": "Можлива локальна затримка; оцінювати в контексті голосу.",
+      "evidence": "Exact final source checked; not author intent or a normative dictionary proof",
+      "proposed_actions": [
+        "Розглянути природне «самій розрізняти...» зі збереженням конкретного змісту репліки; не міняти його на абстрактне «проводити різницю» автоматично."
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "multiple",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "6",
+          "anchor": "P0063",
+          "quote": "Її рука вже була біля власного контролю."
+        }
+      ],
+      "observation": "«Власний контроль» позначає елемент інтерфейсу; предметність менша, ніж у попередніх описах кнопки.",
+      "reader_effect": "Можлива локальна затримка; оцінювати в контексті голосу.",
+      "evidence": "Exact final source checked; not author intent or a normative dictionary proof",
+      "proposed_actions": [
+        "Розглянути «своєї кнопки» або «смуги керування» без нового пристрою."
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "6",
+          "anchor": "P0045",
+          "quote": "— Я питаю, чи ви повірите, що я можу хотіти залишити супроводження."
+        }
+      ],
+      "observation": "«Залишити супроводження» може на мить означати і зберегти, і покинути; контекст задає збереження.",
+      "reader_effect": "Можлива локальна затримка; оцінювати в контексті голосу.",
+      "evidence": "Exact final source checked; not author intent or a normative dictionary proof",
+      "proposed_actions": [
+        "Розглянути «залишити супроводження увімкненим» чи інше однозначне формулювання."
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "6",
+          "anchor": "P0039",
+          "quote": "Майя не відповіла одразу. Її пальці лежали на кришці банки. Великий палець повільно провів по металевому краю й зупинився на стику."
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0047",
+          "quote": "Пальці на банці стиснулися. Майя не відвела погляду, та тепер це вимагало від неї помітного зусилля."
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0063",
+          "quote": "Її рука вже була біля власного контролю."
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0065",
+          "quote": "Я натиснув ручне повернення водночас із її кнопкою. Лічильник зупинився на 01:08. Позначка посередництва стала зеленою. На Майїному боці з’явилося підтвердження попереднього режиму; вимір закрився без підсумку."
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0067",
+          "quote": "Майя не розтиснула пальців одразу. Світла смуга під її рукою стала бурштиновою, і між нами з’явилася тонка риска паузи. Вона скорочувалася так само, як під час попередньої зустрічі. Цього разу я не перевіряв, чи можу говорити."
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0068",
+          "quote": "Коли риска згасла, Майя відпустила банку."
+        }
+      ],
+      "observation": "Дві руки дозволяють одночасно тримати банку і натиснути кнопку, але перехід між пальцями на банці й рукою на смузі не позначений.",
+      "reader_effect": "Можлива локальна затримка; оцінювати в контексті голосу.",
+      "evidence": "Exact final source checked; not author intent or a normative dictionary proof",
+      "proposed_actions": [
+        "За потреби один раз уточнити «інша рука»; не оголошувати доведену неможливість руху."
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "6",
+          "anchor": "P0007",
+          "quote": "Вона пропустила мене й повернулася на кухню. На столі лежала вузька біла етикетка. Майя пересипала чай у банку над раковиною, щоб не збирати листя зі столу, і тільки тоді поставила її поруч із мискою яблук."
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0080",
+          "quote": "Майя поставила банку на середину столу, поруч із мискою яблук."
+        }
+      ],
+      "observation": "Миска яблук на столі стає явно локалізованою тільки у фіналі. Протиріччя немає, це просторове уточнення.",
+      "reader_effect": "Можлива локальна затримка; оцінювати в контексті голосу.",
+      "evidence": "Exact final source checked; not author intent or a normative dictionary proof",
+      "proposed_actions": [
+        "За бажання назвати стіл при першому поставленні банки."
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "6",
+          "anchor": "P0054",
+          "quote": "— Ваше рішення не стає менш дійсним через те, що я не можу встановити його джерело за один сеанс."
+        }
+      ],
+      "observation": "«Менш дійсним» стосовно особистого рішення може звучати офіційно; такий регістр є частиною захисту Даля.",
+      "reader_effect": "Можлива локальна затримка; оцінювати в контексті голосу.",
+      "evidence": "Exact final source checked; not author intent or a normative dictionary proof",
+      "proposed_actions": [
+        "Оцінити збереження інженерного голосу; можливе «не втрачає сили», але не вносити як доведену граматичну помилку."
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "6",
+          "anchor": "P0017",
+          "quote": "— Вона працюватиме голосом теж? — спитала Майя."
+        }
+      ],
+      "observation": "«Працюватиме голосом теж?» — розмовна метонімія кнопки/системи.",
+      "reader_effect": "Можлива локальна затримка; оцінювати в контексті голосу.",
+      "evidence": "Exact final source checked; not author intent or a normative dictionary proof",
+      "proposed_actions": [
+        "Необов’язково: «Голосом теж можна?» або «Вона реагуватиме й на голос?»."
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "6",
+          "anchor": "P0044",
+          "quote": "Вона вдихнула через ніс. Не глибше, ніж до початку, але повітря затрималося перед видихом."
+        }
+      ],
+      "observation": "«До початку» еліптично відсилає до сеансу; контекст достатній, але редактор відчув коротку затримку.",
+      "reader_effect": "Можлива локальна затримка; оцінювати в контексті голосу.",
+      "evidence": "Exact final source checked; not author intent or a normative dictionary proof",
+      "proposed_actions": [
+        "Розглянути «перед початком сеансу»; можна зберегти стислий варіант."
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "6",
+          "anchor": "P0015",
+          "quote": "Я поклав робочий пристрій на край столу. Майя сіла навпроти й сама вивела керування на світлу смугу перед собою. На ній з’явилися два стани: побутові функції — активні, емоційне посередництво — активне. Нижче була одна кнопка:"
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0019",
+          "quote": "Я розвернув до неї свій екран. На ньому не було профілю, журналу чи попередніх повідомлень — тільки стан двох шарів і моє ручне повернення."
+        }
+      ],
+      "observation": "Стан двох шарів і два рядки інтерфейсу читач з’єднує сам; редактор запропонував уточнення ієрархії.",
+      "reader_effect": "Можлива локальна затримка; оцінювати в контексті голосу.",
+      "evidence": "Exact final source checked; not author intent or a normative dictionary proof",
+      "proposed_actions": [
+        "Якщо потрібно, назвати два рядки стану. Не прирівнювати шар до стану: це різні сутності."
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "6",
+          "anchor": "P0003",
+          "quote": "Майя відчинила майже одразу. В одній руці вона тримала скляну банку, у другій — паперову упаковку чаю, яку я впізнав із попередньої зустрічі."
+        }
+      ],
+      "observation": "«Впізнав із попередньої зустрічі» однозначно передає впізнавання тепер, але сполучуваність може бути плавнішою.",
+      "reader_effect": "Можлива локальна затримка; оцінювати в контексті голосу.",
+      "evidence": "Exact final source checked; not author intent or a normative dictionary proof",
+      "proposed_actions": [
+        "Необов’язково: «знайому з попередньої зустрічі». Не вживати «впізнав під час попередньої зустрічі», що переносить подію в минуле."
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

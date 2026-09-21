@@ -1,0 +1,129 @@
+{
+  "book_id": "book-01",
+  "status": "observed_in_working_draft_not_canonical",
+  "source": {
+    "path": "chapter-06.md",
+    "sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac"
+  },
+  "previous": {
+    "path": "../2026-09-21-ch05-sol-v2/observed-state.json",
+    "prose_sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01"
+  },
+  "revision": {
+    "supersedes": "../2026-09-21-ch06-sol-v1/chapter-06.md",
+    "old_sha256": "2868ba8827af9c95ee03db806b502557f2ed5f4ce7168c8bd3bc2d3811e8bdc0",
+    "reason": "Three factual preflight clarifications before independent diagnoses; v1 preserved",
+    "diff": "preflight-changes.diff"
+  },
+  "scenes": [
+    {
+      "id": "B01-S03-C06-S01",
+      "anchors": "P0002-P0031",
+      "events": [
+        "D3 10:56 Dal rings once; Maya opens and admits early. Tea packet recognized from D1, she pours into glass jar and labels it.",
+        "Maya confirms Gor absent, declines question about his messages as irrelevant.",
+        "Maya displays own stop button; Dal shows limited state/manual backup. She permits route check with mediation still active, presses button; already-active response, no layer change.",
+        "10:59 waiting; at change to11:00 Dal asks and receives fresh explicit one-session confirmation."
+      ]
+    },
+    {
+      "id": "B01-S03-C06-S02",
+      "anchors": "P0032-P0064",
+      "events": [
+        "Only emotional mediation removed; utility/connection active.",
+        "Maya asks whether a possible future refusal will be believed as her choice. Dal answers in terms of access and causal uncertainty.",
+        "Without alternate neutral reading, Maya describes having to distinguish Dal from Gor herself after each reply; lucid, effortful.",
+        "Dal substitutes precise wording for personal response. R0.",
+        "Maya says Stop. Restore, and uses own button."
+      ]
+    },
+    {
+      "id": "B01-S03-C06-S03",
+      "anchors": "P0065-P0080",
+      "events": [
+        "Dal presses manual restore simultaneously with Maya button. Counter01:08, previous mediation confirmed, measurement closes without summary.",
+        "Returned pause allows Maya time before answering; breathing not instantly normalized, memory intact.",
+        "Maya says to record no conclusion. Dal closes procedure with empty conclusion, no repeat request.",
+        "Both still at kitchen table; jar placed beside already-shown apple bowl."
+      ]
+    }
+  ],
+  "timeline": {
+    "entry": "D3 10:56",
+    "route_check_done": "by10:59",
+    "fresh_confirmation": "after clock changes to11:00",
+    "session_duration_seconds": 68,
+    "upper_bound_seconds": 90,
+    "exact_start_second": "unspecified; do not infer11:00:00",
+    "exit": "D3 shortly after restored pause and procedure closing; exact clock unspecified"
+  },
+  "knowledge": {
+    "Dal_and_reader": [
+      "Maya experiences direct exchange as more costly without interpretive mediation",
+      "His technical correctness did not produce usable inference on dependence of her choice",
+      "Restoration works; no technical failure"
+    ],
+    "Maya": [
+      "Can stop actual session; own command works and Dal immediately restores",
+      "Dal says if she later refuses tests there will be none and he will leave"
+    ],
+    "Gor": [
+      "No new information supplied"
+    ],
+    "Tikhon": [
+      "No new information supplied; no session authority"
+    ],
+    "not_established": [
+      "Gor message contents or knowledge of session",
+      "Traumatic event or clinical diagnosis for Maya",
+      "AI/androïd/neurodivergent identity of narrator",
+      "Paid contract",
+      "Exact second of absolute session end",
+      "Final ban on all future tests: her question was conditional, no new permission given"
+    ]
+  },
+  "resources": {
+    "resonance": "R0",
+    "employment": "unchanged",
+    "Ballast": "absent",
+    "profile_write": "only consented temporary layer removal/restoration, no basal mediation parameter change or history access",
+    "direct_window": "ONE completed at68sec; not active on exit",
+    "utility": "active throughout",
+    "Maya_test_consent": "one session used and closed; no repeat permission",
+    "reply_channel": "no new third-party disclosure",
+    "Gor_presence": "absent",
+    "Tikhon_authority": "none over Maya profile",
+    "payment": "not established"
+  },
+  "promises": {
+    "developed": [
+      "Actual cost of unmediated exchange",
+      "Maya authors stop and care return",
+      "Dal stop pledge fulfilled technically, motive unhealed"
+    ],
+    "withheld": [
+      "S03 aftermath/Gor pressure/Tikhon stabilization",
+      "S04 R1/Ballast",
+      "S05 parameter violation",
+      "S06 old Gor evidence",
+      "S08 Nina emotional truth",
+      "Series origin"
+    ]
+  },
+  "draft_local_proposals": [
+    "Arrival10:56",
+    "Glass tea jar/label/apple bowl",
+    "No-change route check with already-active status",
+    "68second real window",
+    "Current exchange about possible future refusal"
+  ],
+  "forward_dependencies": [
+    "CH07 starts after closed first session in kitchen, no repeat grant",
+    "Do not label care return failure or blindness",
+    "No technical accident to rescue Dal hypothesis",
+    "No result to Gor/Tikhon absent new allowed knowledge path",
+    "Do not treat conditional refusal as established permanent ban",
+    "S04 presence/R1 still future"
+  ],
+  "checks_status": "Four diagnoses and reconciliation locked;10 pending editorial proposals, candidate not canon"
+}

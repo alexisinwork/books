@@ -1198,6 +1198,281 @@
       "source_sha256": "cbe75e630f841f3e7a3ba01a6b0c5cef35f138dad36ff1208b0e4adc8ca6fca9",
       "author_decision": "pending",
       "scope": "block review, no prose edit"
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-001",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "«Робити цю різницю» звучить неприродно в значенні самостійно розрізняти співрозмовників; маршрут запозичення не доведений.",
+      "anchors": [
+        {
+          "chapter": "6",
+          "anchor": "P0062",
+          "quote": "— Я знаю, що ви не Гор, — сказала Майя. — Зараз мені доводиться робити цю різницю самій після кожного вашого речення."
+        }
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "review_run": "audit/ensemble/ch06-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-002",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "«Власний контроль» позначає елемент інтерфейсу; предметність менша, ніж у попередніх описах кнопки.",
+      "anchors": [
+        {
+          "chapter": "6",
+          "anchor": "P0063",
+          "quote": "Її рука вже була біля власного контролю."
+        }
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "review_run": "audit/ensemble/ch06-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-003",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "«Залишити супроводження» може на мить означати і зберегти, і покинути; контекст задає збереження.",
+      "anchors": [
+        {
+          "chapter": "6",
+          "anchor": "P0045",
+          "quote": "— Я питаю, чи ви повірите, що я можу хотіти залишити супроводження."
+        }
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "review_run": "audit/ensemble/ch06-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-004",
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Дві руки дозволяють одночасно тримати банку і натиснути кнопку, але перехід між пальцями на банці й рукою на смузі не позначений.",
+      "anchors": [
+        {
+          "chapter": "6",
+          "anchor": "P0039",
+          "quote": "Майя не відповіла одразу. Її пальці лежали на кришці банки. Великий палець повільно провів по металевому краю й зупинився на стику."
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0047",
+          "quote": "Пальці на банці стиснулися. Майя не відвела погляду, та тепер це вимагало від неї помітного зусилля."
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0063",
+          "quote": "Її рука вже була біля власного контролю."
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0065",
+          "quote": "Я натиснув ручне повернення водночас із її кнопкою. Лічильник зупинився на 01:08. Позначка посередництва стала зеленою. На Майїному боці з’явилося підтвердження попереднього режиму; вимір закрився без підсумку."
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0067",
+          "quote": "Майя не розтиснула пальців одразу. Світла смуга під її рукою стала бурштиновою, і між нами з’явилася тонка риска паузи. Вона скорочувалася так само, як під час попередньої зустрічі. Цього разу я не перевіряв, чи можу говорити."
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0068",
+          "quote": "Коли риска згасла, Майя відпустила банку."
+        }
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "review_run": "audit/ensemble/ch06-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-005",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Миска яблук на столі стає явно локалізованою тільки у фіналі. Протиріччя немає, це просторове уточнення.",
+      "anchors": [
+        {
+          "chapter": "6",
+          "anchor": "P0007",
+          "quote": "Вона пропустила мене й повернулася на кухню. На столі лежала вузька біла етикетка. Майя пересипала чай у банку над раковиною, щоб не збирати листя зі столу, і тільки тоді поставила її поруч із мискою яблук."
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0080",
+          "quote": "Майя поставила банку на середину столу, поруч із мискою яблук."
+        }
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "review_run": "audit/ensemble/ch06-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-006",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "«Менш дійсним» стосовно особистого рішення може звучати офіційно; такий регістр є частиною захисту Даля.",
+      "anchors": [
+        {
+          "chapter": "6",
+          "anchor": "P0054",
+          "quote": "— Ваше рішення не стає менш дійсним через те, що я не можу встановити його джерело за один сеанс."
+        }
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "review_run": "audit/ensemble/ch06-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-007",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "«Працюватиме голосом теж?» — розмовна метонімія кнопки/системи.",
+      "anchors": [
+        {
+          "chapter": "6",
+          "anchor": "P0017",
+          "quote": "— Вона працюватиме голосом теж? — спитала Майя."
+        }
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "review_run": "audit/ensemble/ch06-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-008",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "«До початку» еліптично відсилає до сеансу; контекст достатній, але редактор відчув коротку затримку.",
+      "anchors": [
+        {
+          "chapter": "6",
+          "anchor": "P0044",
+          "quote": "Вона вдихнула через ніс. Не глибше, ніж до початку, але повітря затрималося перед видихом."
+        }
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "review_run": "audit/ensemble/ch06-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-009",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Стан двох шарів і два рядки інтерфейсу читач з’єднує сам; редактор запропонував уточнення ієрархії.",
+      "anchors": [
+        {
+          "chapter": "6",
+          "anchor": "P0015",
+          "quote": "Я поклав робочий пристрій на край столу. Майя сіла навпроти й сама вивела керування на світлу смугу перед собою. На ній з’явилися два стани: побутові функції — активні, емоційне посередництво — активне. Нижче була одна кнопка:"
+        },
+        {
+          "chapter": "6",
+          "anchor": "P0019",
+          "quote": "Я розвернув до неї свій екран. На ньому не було профілю, журналу чи попередніх повідомлень — тільки стан двох шарів і моє ручне повернення."
+        }
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "review_run": "audit/ensemble/ch06-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-010",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "«Впізнав із попередньої зустрічі» однозначно передає впізнавання тепер, але сполучуваність може бути плавнішою.",
+      "anchors": [
+        {
+          "chapter": "6",
+          "anchor": "P0003",
+          "quote": "Майя відчинила майже одразу. В одній руці вона тримала скляну банку, у другій — паперову упаковку чаю, яку я впізнав із попередньої зустрічі."
+        }
+      ],
+      "dependencies": [
+        "CH06 future revision",
+        "whole-volume review"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "review_run": "audit/ensemble/ch06-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
     }
   ]
 }

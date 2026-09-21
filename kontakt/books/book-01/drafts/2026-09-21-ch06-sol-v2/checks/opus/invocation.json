@@ -1,0 +1,108 @@
+{
+  "role": "opus",
+  "client": "agy",
+  "requested_model": "claude-opus-4-6-thinking",
+  "target_sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+  "source_sha256": null,
+  "prompt_sha256": "2f0d43369ba66458acba00243472c12cf95485c8846921dfab299f6a088fce12",
+  "runner_sha256": "9c41c0d5e1493604caa99ff879801f76051a911af7595a15b627cd562fdbdd86",
+  "references": [
+    {
+      "file": "kontakt\\books\\book-01\\voice.json",
+      "sha256": "0daed170751ea9d5c8a7f8fd4bfc06309feb62e0cb0cbb057d0f2e2202c424d7"
+    },
+    {
+      "file": "kontakt\\books\\book-01\\execution\\HANDOFF-CH06.md",
+      "sha256": "0430aede7c86b6aba22a3d5e084d8b7cb0f20b7cd55a32e99f02ae4f432eed0c"
+    },
+    {
+      "file": "BOOK_SYSTEM\\LANGUAGES\\uk\\STYLE.md",
+      "sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd"
+    }
+  ],
+  "isolation": "Fresh temporary working directory, new conversation, tools prohibited in prompt, client plan/sandbox or tool-free safe mode. No other reports or adapter notes supplied.",
+  "transport": "one NDJSON user event via stdin; no source-reading tools needed",
+  "exit_code": 0,
+  "seconds": 245.3,
+  "client_init_metadata": [
+    {
+      "model": "claude-opus-4-6-thinking",
+      "cwd": "C:\\Users\\alexi\\AppData\\Local\\Temp\\book-independent-reader-fysx81_8",
+      "tools": [
+        "ask_custom_permission",
+        "ask_permission",
+        "ask_question",
+        "browser_click_element",
+        "browser_drag_pixel_to_pixel",
+        "browser_get_dom",
+        "browser_get_network_request",
+        "browser_input",
+        "browser_list_network_requests",
+        "browser_mouse_down",
+        "browser_mouse_up",
+        "browser_move_mouse",
+        "browser_press_key",
+        "browser_refresh_page",
+        "browser_resize_window",
+        "browser_scroll",
+        "browser_scroll_dom",
+        "browser_select_option",
+        "browser_subagent",
+        "call_mcp_tool",
+        "capture_browser_console_logs",
+        "capture_browser_screenshot",
+        "click_browser_pixel",
+        "command_status",
+        "define_subagent",
+        "delete_knowledge",
+        "execute_browser_javascript",
+        "find_by_name",
+        "finish",
+        "generate_image",
+        "grep_search",
+        "invoke_subagent",
+        "list_browser_pages",
+        "list_dir",
+        "list_permissions",
+        "list_resources",
+        "manage_inbox",
+        "manage_subagents",
+        "manage_task",
+        "multi_replace_file_content",
+        "notebook_edit",
+        "notebook_execution",
+        "open_browser_url",
+        "read_browser_page",
+        "read_resource",
+        "read_url_content",
+        "replace_file_content",
+        "run_command",
+        "schedule",
+        "search_web",
+        "sed_file",
+        "send_command_input",
+        "send_message",
+        "view_file",
+        "wait",
+        "wait_5_seconds",
+        "write_to_file"
+      ],
+      "permission_mode": "request-review"
+    }
+  ],
+  "observed_step_types": [
+    "agent_response",
+    "user_input"
+  ],
+  "returned_model_metadata": {
+    "usage": {
+      "input_tokens": 22996,
+      "output_tokens": 10116,
+      "thinking_tokens": 0,
+      "cache_read_tokens": 0,
+      "total_tokens": 33112
+    }
+  },
+  "status": "report_returned_pending_manual_validation",
+  "report_sha256": "b6b0b0efe1be887a262ebefd1053f2334e092955c973ceeda95e7ff50cd78367"
+}
