@@ -1,0 +1,48 @@
+{
+  "bundle": "C:\\Users\\alexi\\OneDrive\\Desktop\\KONTAKT-GLOBAL-ROLE-CHECKPOINT-2026-09-21",
+  "scope": "staged Kontakt changes and root delivery index; no promotion of Desktop edits",
+  "files": [
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/checks/cold-reader-packet-fixture/input.ndjson",
+      "sha256": "94bbc980ceb15769d8f794f030ae0ddad75df85e6c3674007df679327d74d63f",
+      "bytes": 110084
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/checks/cold-reader-packet-fixture/packet.json",
+      "sha256": "7d65b262a6121a3bf220e14b523fe0fb0e983161ae909ec2a5783e77fdf4f4fb",
+      "bytes": 1497
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/checks/cold-reader-packet-fixture/verification.json",
+      "sha256": "f8d23d2673e8d34369bac7ca0e18ee9dd90d56ac64ea4c0e7e76793685ea7700",
+      "bytes": 431
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/global-audit-prompts/README.md",
+      "sha256": "379bf9d81c2cabb7f11b9b4332bd2ec535222e4c6b382d002357c3482408992c",
+      "bytes": 1251
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/global-audit-prompts/flash.md",
+      "sha256": "85365b1c3ed5fbaa15113d21a99a21789186030468dc0c04ed4d3b4836fde740",
+      "bytes": 1644
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/global-audit-prompts/opus.md",
+      "sha256": "5f29f552f658a86aa1f0b463584e57fe62eccb3e88992cb8478ddb0696e49226",
+      "bytes": 1843
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/global-audit-prompts/pro.md",
+      "sha256": "cad615bdd8aca1c01ff7e9ce8b3d15322db096c12ffc1d130da3077d2854bcd8",
+      "bytes": 1916
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/tools/prepare-review-parts.py",
+      "sha256": "b6ff1f83013a28dbe06ffdb0f2a867905dd5d601723308ac3e4d7cbf66681aaf",
+      "bytes": 6391
+    }
+  ],
+  "verification": "disk == staged blob == Desktop bytes",
+  "manifest_self_excluded": true
+}

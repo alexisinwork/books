@@ -1,0 +1,43 @@
+{
+  "status": "prepared_not_executed",
+  "client": "agy",
+  "role": "gemini_pro",
+  "requested_model": "gemini-3.1-pro-high",
+  "scope": "block",
+  "through_chapter": 5,
+  "target": "kontakt\\books\\book-01\\production\\2026-09-21-book01\\block-audits\\chapters-01-05\\assembly\\manuscript.md",
+  "target_sha256": "cbe75e630f841f3e7a3ba01a6b0c5cef35f138dad36ff1208b0e4adc8ca6fca9",
+  "paragraphs": 635,
+  "parts": [
+    {
+      "part": 1,
+      "first_paragraph": 1,
+      "last_paragraph": 313,
+      "paragraphs": 313,
+      "message_sha256": "29fcc115744397d6aa6042e086a594e86a42d6816455fe9657b04435adeac37b",
+      "message_bytes": 47885
+    },
+    {
+      "part": 2,
+      "first_paragraph": 314,
+      "last_paragraph": 611,
+      "paragraphs": 298,
+      "message_sha256": "9730f235d9012ec1ae222393cb04024a94e374e73e6ae5ccb128183512a01ff0",
+      "message_bytes": 47954
+    },
+    {
+      "part": 3,
+      "first_paragraph": 612,
+      "last_paragraph": 635,
+      "paragraphs": 24,
+      "message_sha256": "6bed736e441c74576916706f058ac473e31db60901eacdf99c9724985792904f",
+      "message_bytes": 8266
+    }
+  ],
+  "input_events": 4,
+  "expected_result_events": 4,
+  "input_sha256": "94bbc980ceb15769d8f794f030ae0ddad75df85e6c3674007df679327d74d63f",
+  "prompt_sha256": "cad615bdd8aca1c01ff7e9ce8b3d15322db096c12ffc1d130da3077d2854bcd8",
+  "references": [],
+  "validation": "All paragraphs included once in original order; each text part below125000bytes; not evidence of model reading"
+}
