@@ -1,0 +1,39 @@
+{
+  "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+  "scope": "first Ukrainian draft chapter 1; not book release",
+  "source_unchanged_after_reviews": true,
+  "planned_package_files_unchanged": 185,
+  "json_parse": "passed",
+  "metadata_changes_checked": 10,
+  "ensemble": "four locked diagnoses and locked reconciliation",
+  "author_decisions": "five pending, no automatic application",
+  "language_signals": "none in configured scans; prose findings recorded separately",
+  "docx_extraction": true,
+  "render": {
+    "pages": 5,
+    "text_exact": true,
+    "visual": {
+      "status": "passed",
+      "scope": "all five pages inspected in contact sheet; title, scene break, quoted messages, no blank pages or clipping",
+      "limitation": "DOCX parsed by docx-preview and rendered in Chromium; native Word/LibreOffice renderer unavailable on this host"
+    }
+  },
+  "canonical_master": null,
+  "chapter_2_written": false,
+  "remaining": [
+    "Author reading and decisions on five local proposals",
+    "Author-approved Ukrainian voice examples absent",
+    "Native Word/LibreOffice rendering not run; Chromium DOCX-preview verified",
+    "Pro cold-reader diary limited despite full source coverage"
+  ],
+  "known_check_invocation_correction": "Root tools/verify_sources.py does not exist; correct verifier run from kontakt/tools.",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters, expected for planned books and unapproved first draft"
+  },
+  "original_sources": {
+    "checked": 15,
+    "errors": []
+  }
+}

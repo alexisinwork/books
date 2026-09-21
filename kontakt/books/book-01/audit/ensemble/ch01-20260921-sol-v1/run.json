@@ -1,0 +1,75 @@
+{
+  "schema_version": 2,
+  "run_id": "ch01-20260921-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "created_at": "2026-09-21T19:08:14+00:00",
+  "status": "reconciled",
+  "language": "uk",
+  "required_diagnoses": [
+    "astra",
+    "claude",
+    "gemini_flash",
+    "gemini"
+  ],
+  "source": {
+    "path": "kontakt/books/book-01/drafts/2026-09-21-ch01-sol-v1/chapter-01.md",
+    "sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+    "status": "explicit",
+    "authority": "explicit task source"
+  },
+  "reader": {
+    "path": "kontakt/books/book-01/drafts/2026-09-21-ch01-sol-v1/chapter-01.md",
+    "sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+    "relation": "source_text"
+  },
+  "independence": {
+    "astra": "must not read current Claude or Gemini reports before lock",
+    "claude": "must not read current Astra or Gemini reports before lock",
+    "gemini_flash": "independent full-text literary/continuity analysis; no current peer reports",
+    "gemini": "isolated packet only; no repository canon, audits or change hints"
+  },
+  "reports": {
+    "astra": {
+      "file": "astra-diagnosis.md",
+      "status": "locked",
+      "sha256": "4453ba2b8313014e34aaa639c7686c4bf98b6001231b18ba69feaf2fb5449f51",
+      "locked_at": "2026-09-21T19:10:12+00:00"
+    },
+    "claude": {
+      "file": "claude-diagnosis.md",
+      "status": "locked",
+      "sha256": "1f1fc7bde53ae28d893a69f048cc49803cec70a93df5aabb292c088a322ab790",
+      "locked_at": "2026-09-21T19:17:42+00:00"
+    },
+    "gemini_flash": {
+      "file": "gemini-flash-diagnosis.md",
+      "status": "locked",
+      "sha256": "5509b59f67ca02cfa0c057410458a3d8f75895853baf11a340111447ca92a7db",
+      "locked_at": "2026-09-21T19:13:01+00:00"
+    },
+    "gemini": {
+      "file": "gemini-blind-read.md",
+      "status": "locked",
+      "sha256": "c7cebedf06dd2c4e4a9073c68c2924910a6f9785a7c5710c6c2fa1ef367f3a1c",
+      "locked_at": "2026-09-21T19:13:02+00:00"
+    },
+    "reconciliation": {
+      "file": "reconciliation.md",
+      "status": "locked",
+      "sha256": "77a366f032201937873be45dd2605b5a91c222582d5ad487de1f8ad1119bf2fd",
+      "locked_at": "2026-09-21T19:19:35+00:00"
+    },
+    "verification": {
+      "file": "verification.md",
+      "status": "draft",
+      "sha256": null
+    }
+  },
+  "author_decisions": {
+    "file": "author-decisions.md",
+    "status": "draft",
+    "sha256": null
+  },
+  "issue_ledger": "issue-ledger.json"
+}

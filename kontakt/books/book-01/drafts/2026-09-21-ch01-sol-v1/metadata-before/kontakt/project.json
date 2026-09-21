@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "kit_version": "1.1",
+  "project_id": "kontakt-razlad",
+  "title": "Разлад — восемь романов",
+  "kind": "series-project",
+  "books": [
+    {
+      "id": "book-01",
+      "path": "books/book-01"
+    },
+    {
+      "id": "book-02",
+      "path": "books/book-02"
+    },
+    {
+      "id": "book-03",
+      "path": "books/book-03"
+    },
+    {
+      "id": "book-04",
+      "path": "books/book-04"
+    },
+    {
+      "id": "book-05",
+      "path": "books/book-05"
+    },
+    {
+      "id": "book-06",
+      "path": "books/book-06"
+    },
+    {
+      "id": "book-07",
+      "path": "books/book-07"
+    },
+    {
+      "id": "book-08",
+      "path": "books/book-08"
+    }
+  ],
+  "optional_modules": [],
+  "external": {
+    "github": "https://github.com/alexisinwork/books",
+    "google_drive": null,
+    "status": "managed_by_parent_repository"
+  },
+  "workspace_uid": "2bd99e3f-a323-4bea-81e9-89c5f4993c82",
+  "source_policy": "planning_only",
+  "book_system": "../BOOK_SYSTEM",
+  "language_policy": {
+    "default_new_original": "uk",
+    "optional_new_original": "en",
+    "legacy_existing_source": "ru",
+    "default_english_source": "uk_canonical_master",
+    "english_locale": "en-US",
+    "basis": "Прямое поручение автора 2026-09-14; en-US и Риокка 1–3 подтверждены отдельными ответами.",
+    "existing_books_registry": "language-editions.json"
+  },
+  "authority_lock": "series/PRE-DRAFT-LOCK-2026-09-19.md"
+}

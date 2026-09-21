@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "run_id": "ch01-20260921-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 1,
+          "anchor": "P0067",
+          "quote": "Система запропонує нейтральну репліку"
+        }
+      ],
+      "observation": "У тесті названо нейтральну системну фразу, але показано лише введену клієнтом фразу.",
+      "reader_effect": "Коротка невизначеність: що саме звучить у тесті.",
+      "evidence": "P0067 vs P0073–P0075. Події згоди не суперечливі; не перетворювати дрібну ясність на збій архітектури.",
+      "agreement": "convergent",
+      "proposed_actions": [
+        "Прибрати перше речення про нейтральну фразу.",
+        "Або явно назвати її необов’язковим прикладом."
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapter-01.md"
+        ]
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 1,
+          "anchor": "P0121",
+          "quote": "одна первинна калібровка"
+        }
+      ],
+      "observation": "Той самий оповідач чергує «калібрування» і «калібровка».",
+      "reader_effect": "Реєстр професійного терміна трохи коливається.",
+      "evidence": "P0009/P0117 vs P0121. Це підтверджене коливання форми, а не достатній доказ загальної заборони суфікса -ка.",
+      "agreement": "convergent",
+      "proposed_actions": [
+        "Уніфікувати як «один первинний сеанс калібрування».",
+        "Або залишити розмовний варіант як свідоме локальне скорочення."
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapter-01.md"
+        ]
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra",
+        "claude"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 1,
+          "anchor": "P0123",
+          "quote": "Приватна професійна скринька приймала звернення від верифікованих відправників"
+        }
+      ],
+      "observation": "Пояснення каналу концентрується в P0123 і частково повторюється в P0133 та повідомленні Гора.",
+      "reader_effect": "Вечірній епізод може звучати процедурніше, ніж потрібно для рішення відповісти.",
+      "evidence": "Astra пропонує скорочення; Opus бачить неблокуючу зону ритму; Gemini загалом захищають темп. Рішення не приймається голосуванням.",
+      "agreement": "conflicted",
+      "proposed_actions": [
+        "Скоротити один пояснювальний абзац, зберегти перевіреного відправника і відсутність контракту.",
+        "Залишити як прояв професійної раціоналізації."
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapter-01.md"
+        ]
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": 1,
+          "anchor": "P0107",
+          "quote": "загальний рисунок підказок"
+        }
+      ],
+      "observation": "Flash назвав «рисунок підказок» калькою; контекстна природність метафори потребує авторського вибору.",
+      "reader_effect": "Можлива зайва абстрактність у технічній репліці.",
+      "evidence": "Цитата наявна. Словникову заборону не підтверджено: доступ до словникових статей через web завершився помилками. Не підміняти невпевненість категоричним «русизм».",
+      "agreement": "single",
+      "proposed_actions": [
+        "Розглянути «характер підказок» або «послідовність підказок» за потрібним значенням.",
+        "Зберегти метафоричний професійний вислів."
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapter-01.md"
+        ]
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 1,
+          "anchor": "P0025",
+          "quote": "Вам потрібна переписка?"
+        }
+      ],
+      "observation": "Flash пропонує нейтральне «листування» або свідоме збереження розмовного слова клієнта.",
+      "reader_effect": "Вибір ступеня літературної нейтральності клієнтського голосу.",
+      "evidence": "P0025/P0027 — репліки клієнта, а не технічний термін оповідача. Природність голосу й словникова нормативність — різні питання; автоматичної заміни немає.",
+      "agreement": "single",
+      "proposed_actions": [
+        "Залишити розмовну репліку.",
+        "Або в обох місцях ужити «листування»."
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": [
+          "chapter-01.md"
+        ]
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

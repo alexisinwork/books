@@ -1,0 +1,43 @@
+{
+  "renderer": "docx-preview/Chromium; not native Word",
+  "pdf_sha256": "ad3a691b667771f5802a34548d9b76bf85c906f617d17b1e9ef538f1647fe39f",
+  "pages": 5,
+  "text_matches_docx_ignoring_layout_whitespace": true,
+  "page_checks": [
+    {
+      "page": 1,
+      "words": 328,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 2,
+      "words": 345,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 3,
+      "words": 374,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 4,
+      "words": 352,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 5,
+      "words": 213,
+      "out_of_bounds": 0,
+      "blank": false
+    }
+  ],
+  "visual_review": {
+    "status": "passed",
+    "scope": "all five pages inspected in contact sheet; title, scene break, quoted messages, no blank pages or clipping",
+    "limitation": "DOCX parsed by docx-preview and rendered in Chromium; native Word/LibreOffice renderer unavailable on this host"
+  }
+}

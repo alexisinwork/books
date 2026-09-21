@@ -1,0 +1,15 @@
+{
+  "status": "report_recovered_and_validated",
+  "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+  "report_path": "REPORT-artifact.md",
+  "report_sha256": "edea5444b3d99c6ed87c8129e98963ea8fa685673b9820a761f6934cf375e827",
+  "original_artifact": "C:/Users/alexi/.gemini/antigravity-cli/brain/ee2de443-8b42-4b87-aeb3-c21ca1c4bebb/review-ch01-draft1.md",
+  "reason": "Runner classified console summary incomplete; full final report was returned as an artifact. Original invocation is unchanged.",
+  "tool_trace": [
+    "write_to_file: report artifact only"
+  ],
+  "isolation": "Fresh project; no repository/file reads or browsing observed; artifact write broke no-tools output instruction but added no external input",
+  "requested_model": "claude-opus-4-6-thinking",
+  "client": "agy",
+  "coverage": "P0001-P0136; full supplied chapter"
+}

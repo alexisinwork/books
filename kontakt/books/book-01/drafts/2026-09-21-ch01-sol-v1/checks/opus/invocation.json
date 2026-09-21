@@ -1,0 +1,51 @@
+{
+  "role": "opus",
+  "client": "claude",
+  "requested_model": "opus",
+  "target_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+  "source_sha256": null,
+  "prompt_sha256": "149eb99077a708d8eef563c0a2b0adafe01a5ec8eacbb774c0022199f1d35f1e",
+  "runner_sha256": "9c41c0d5e1493604caa99ff879801f76051a911af7595a15b627cd562fdbdd86",
+  "references": [
+    {
+      "file": "kontakt\\books\\book-01\\voice.json",
+      "sha256": "0daed170751ea9d5c8a7f8fd4bfc06309feb62e0cb0cbb057d0f2e2202c424d7"
+    },
+    {
+      "file": "kontakt\\books\\book-01\\execution\\HANDOFF-CH01.md",
+      "sha256": "9e58cfa74e59cec8a5335df502e734be99242da22fee7cbf2205465e9d1a56b7"
+    },
+    {
+      "file": "BOOK_SYSTEM\\LANGUAGES\\uk\\STYLE.md",
+      "sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd"
+    }
+  ],
+  "isolation": "Fresh temporary working directory, new conversation, tools prohibited in prompt, client plan/sandbox or tool-free safe mode. No other reports or adapter notes supplied.",
+  "exit_code": 1,
+  "seconds": 3.44,
+  "returned_model_metadata": {
+    "modelUsage": {},
+    "usage": {
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "",
+      "iterations": [],
+      "speed": "standard"
+    }
+  },
+  "status": "unavailable_or_incomplete"
+}

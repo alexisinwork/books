@@ -199,6 +199,126 @@
         "book-01 M05 / later S05-S12"
       ],
       "blocks_current_chapter": false
+    },
+    {
+      "id": "CH01-SOL-V1-ENS-001",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "observation": "У тесті названо нейтральну системну фразу, але показано лише введену клієнтом фразу.",
+      "anchors": [
+        {
+          "chapter": 1,
+          "anchor": "P0067",
+          "quote": "Система запропонує нейтральну репліку"
+        }
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+      "review_run": "audit/ensemble/ch01-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; no applied revision or canon claim"
+    },
+    {
+      "id": "CH01-SOL-V1-ENS-002",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "observation": "Той самий оповідач чергує «калібрування» і «калібровка».",
+      "anchors": [
+        {
+          "chapter": 1,
+          "anchor": "P0121",
+          "quote": "одна первинна калібровка"
+        }
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+      "review_run": "audit/ensemble/ch01-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; no applied revision or canon claim"
+    },
+    {
+      "id": "CH01-SOL-V1-ENS-003",
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "observation": "Пояснення каналу концентрується в P0123 і частково повторюється в P0133 та повідомленні Гора.",
+      "anchors": [
+        {
+          "chapter": 1,
+          "anchor": "P0123",
+          "quote": "Приватна професійна скринька приймала звернення від верифікованих відправників"
+        }
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+      "review_run": "audit/ensemble/ch01-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; no applied revision or canon claim"
+    },
+    {
+      "id": "CH01-SOL-V1-ENS-004",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "observation": "Flash назвав «рисунок підказок» калькою; контекстна природність метафори потребує авторського вибору.",
+      "anchors": [
+        {
+          "chapter": 1,
+          "anchor": "P0107",
+          "quote": "загальний рисунок підказок"
+        }
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+      "review_run": "audit/ensemble/ch01-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; no applied revision or canon claim"
+    },
+    {
+      "id": "CH01-SOL-V1-ENS-005",
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Flash пропонує нейтральне «листування» або свідоме збереження розмовного слова клієнта.",
+      "anchors": [
+        {
+          "chapter": 1,
+          "anchor": "P0025",
+          "quote": "Вам потрібна переписка?"
+        }
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+      "review_run": "audit/ensemble/ch01-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; no applied revision or canon claim"
     }
   ]
 }
