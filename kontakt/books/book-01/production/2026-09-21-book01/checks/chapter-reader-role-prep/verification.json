@@ -1,0 +1,25 @@
+{
+  "status": "packet_construction_checked_without_client_execution",
+  "reason": "Remove editorial diagnosis mandate from target-only Pro; keep other review roles unchanged",
+  "runner_sha256": "5dfe6991fb16b9aeb21159e09246364494728ea248709a6e673d2de02a18681c",
+  "checks": [
+    {
+      "role": "gemini_pro",
+      "exact_target_preserved": true,
+      "paragraphs": 80,
+      "editor_rubric": false,
+      "client_executed": false,
+      "prompt_sha256": "7556b271a5d0a33203e939b84b8ab1fcee26bb679398328fc71c08daf021fcb0"
+    },
+    {
+      "role": "gemini_flash",
+      "exact_target_preserved": true,
+      "paragraphs": 80,
+      "editor_rubric": true,
+      "client_executed": false,
+      "prompt_sha256": "9c0752bd77805bcf13cf27adf7e4c6a8a2c86bce76b720ab82fe6668f3a04bf8"
+    }
+  ],
+  "historical_reports": "unchanged; their actual prompts remain archived",
+  "next_actual_validation": "CH07 independent Pro reading"
+}
