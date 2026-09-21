@@ -319,6 +319,134 @@
       "review_run": "audit/ensemble/ch01-20260921-sol-v1",
       "author_decision": "pending",
       "scope": "draft only; no applied revision or canon claim"
+    },
+    {
+      "id": "CH02-SOL-V1-ENS-001",
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Розмова кілька разів повертається до вже встановленої межі.",
+      "anchors": [
+        {
+          "chapter": "2",
+          "anchor": "P0083",
+          "quote": "Дозвіл Майї на перегляд не є вашою довіреністю на результат"
+        }
+      ],
+      "dependencies": [],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH02-SOL-V1-ENS-002",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Метафора натискання на людину допускає два прочитання: інженерна кнопка або пропущений прийменник.",
+      "anchors": [
+        {
+          "chapter": "2",
+          "anchor": "P0095",
+          "quote": "де мене можна натиснути"
+        }
+      ],
+      "dependencies": [],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH02-SOL-V1-ENS-003",
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Побутові однофразові абзаци мають ту саму графічну вагу, що й сильні Мою / Свою.",
+      "anchors": [
+        {
+          "chapter": "2",
+          "anchor": "P0155",
+          "quote": "Перечитав."
+        }
+      ],
+      "dependencies": [],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH02-SOL-V1-ENS-004",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Час підтверджений, адреса наступної зустрічі в цій главі ще не названа.",
+      "anchors": [
+        {
+          "chapter": "2",
+          "anchor": "P0176",
+          "quote": "О 16:20 я мав прийти на умовах Майї."
+        }
+      ],
+      "dependencies": [
+        "chapter 3 arrival"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH02-SOL-V1-ENS-005",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "observation": "Нетипова сполучуваність професійного терміна.",
+      "anchors": [
+        {
+          "chapter": "2",
+          "anchor": "P0083",
+          "quote": "довіреністю на результат"
+        }
+      ],
+      "dependencies": [],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH02-SOL-V1-ENS-006",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Однина абстрактного зусилля звучить незвично для частини читачів.",
+      "anchors": [
+        {
+          "chapter": "2",
+          "anchor": "P0045",
+          "quote": "скільки зусилля коштувало йому"
+        }
+      ],
+      "dependencies": [],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
     }
   ]
 }

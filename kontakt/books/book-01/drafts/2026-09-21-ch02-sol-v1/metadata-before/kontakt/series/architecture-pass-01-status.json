@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "project_id": "kontakt-razlad",
+  "pass_id": "architecture-pass-01",
+  "status": "macro_reconciled_scoped_opening_prepared",
+  "books": [
+    {
+      "book_id": "book-01",
+      "status": "chapter_01_drafted",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "chapter_01_only",
+      "master": null
+    },
+    {
+      "book_id": "book-02",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    },
+    {
+      "book_id": "book-03",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    },
+    {
+      "book_id": "book-04",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    },
+    {
+      "book_id": "book-05",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    },
+    {
+      "book_id": "book-06",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    },
+    {
+      "book_id": "book-07",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    },
+    {
+      "book_id": "book-08",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    }
+  ],
+  "draft_gate": {
+    "open_for": [
+      "book-01/chapter-01"
+    ],
+    "all_other_chapters": "require_local_gate",
+    "prose_authoring_this_task": true
+  },
+  "current_draft": {
+    "book_id": "book-01",
+    "chapter": 1,
+    "path": "kontakt/books/book-01/drafts/2026-09-21-ch01-sol-v1/chapter-01.md",
+    "sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+    "status": "unapproved_draft",
+    "whole_book_written": false
+  }
+}

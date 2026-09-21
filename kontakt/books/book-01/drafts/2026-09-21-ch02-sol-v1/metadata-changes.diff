@@ -1,0 +1,361 @@
+--- kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/progress.json
++++ kontakt/books/book-01/production/2026-09-21-book01/progress.json
+@@ -10,10 +10,18 @@
+       "checks": "four_diagnoses_and_reconciliation_complete",
+       "author_feedback": "positive_continue",
+       "optional_issues_pending": 5
++    },
++    {
++      "chapter": 2,
++      "source": "drafts/2026-09-21-ch02-sol-v1/chapter-02.md",
++      "sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
++      "observed_state": "drafts/2026-09-21-ch02-sol-v1/observed-state.json",
++      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
++      "status": "reviewed_working_draft_not_canonical"
+     }
+   ],
+-  "current_chapter": 2,
+-  "current_stage": "scene_handoff",
++  "current_chapter": 3,
++  "current_stage": "prepare_next_scene_handoff",
+   "future_chapters": "macro architecture; progressively detailed before writing",
+   "global_audit": "not_run"
+ }
+--- kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
++++ kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
+@@ -0,0 +1,25 @@
++{
++  "book_id": "book-01",
++  "status": "working_draft_collection_not_master",
++  "chapter_count": 2,
++  "chapters": [
++    {
++      "chapter": 1,
++      "source": "drafts/2026-09-21-ch01-sol-v1/chapter-01.md",
++      "sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
++      "checks": "four_diagnoses_and_reconciliation_complete",
++      "author_feedback": "positive_continue",
++      "optional_issues_pending": 5
++    },
++    {
++      "chapter": 2,
++      "source": "drafts/2026-09-21-ch02-sol-v1/chapter-02.md",
++      "sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
++      "observed_state": "drafts/2026-09-21-ch02-sol-v1/observed-state.json",
++      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
++      "status": "reviewed_working_draft_not_canonical"
++    }
++  ],
++  "global_audit": "not_run",
++  "assembly_rule": "join exact chapter source files in ascending chapter order; verify each hash first"
++}
+--- kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/metadata-before/kontakt/books/book-01/book.json
++++ kontakt/books/book-01/book.json
+@@ -8,7 +8,7 @@
+   "master": null,
+   "voice": "voice.json",
+   "canon": "../../series/canon.json",
+-  "audit_status": "chapter_01_draft_reviewed_pending_author",
++  "audit_status": "chapter_02_reviewed_volume_in_progress",
+   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
+   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
+   "language": "uk",
+@@ -21,23 +21,27 @@
+     "sha256": "338cba44392162efecc20fa738a946473e22652e73e427e20b242da365a74510"
+   },
+   "planning_state": "planned_not_observed",
+-  "execution_entry": "drafts/2026-09-21-ch01-sol-v1/README.md",
++  "execution_entry": "production/2026-09-21-book01/progress.json",
+   "draft_scope": {
+-    "chapter": 1,
+-    "sequence": "S01",
++    "chapter": 2,
+     "whole_book_ready": false,
+     "whole_series_ready": false,
+     "prose_started": true,
+-    "execution": "execution/HANDOFF-CH01.md"
++    "execution": "execution/HANDOFF-CH02.md"
+   },
+   "working_revision": {
+-    "path": "drafts/2026-09-21-ch01-sol-v1/chapter-01.md",
+-    "sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
++    "path": "drafts/2026-09-21-ch02-sol-v1/chapter-02.md",
++    "sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+     "format": "md",
+     "language": "uk",
+     "status": "draft_not_author_selected",
+-    "scope": "chapter 1",
+-    "observed_state": "drafts/2026-09-21-ch01-sol-v1/observed-state.json",
+-    "review_run": "audit/ensemble/ch01-20260921-sol-v1"
++    "scope": "chapter 2; complete collection in working_volume",
++    "observed_state": "drafts/2026-09-21-ch02-sol-v1/observed-state.json",
++    "review_run": "audit/ensemble/ch02-20260921-sol-v1"
++  },
++  "working_volume": {
++    "manifest": "production/2026-09-21-book01/working-volume.json",
++    "chapters": 2,
++    "status": "in_progress_not_master"
+   }
+ }
+--- kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/metadata-before/kontakt/books/book-01/session.md
++++ kontakt/books/book-01/session.md
+@@ -1,9 +1,7 @@
+-# Перша чернетка глави 1 — 21.09.2026
++# Том 1: написання по главі
+ 
+-Авторське «lfdfq» («давай») дозволило наступний крок — одну українську главу. Виконавець: gpt-5.6-sol.
+-Текст: [chapter-01.md](drafts/2026-09-21-ch01-sol-v1/chapter-01.md), SHA-256 `4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31`.
+-Мастер не вибраний. Стандартні planned-реєстри збережені; фактичні стани цього варіанта — [observed-state.json](drafts/2026-09-21-ch01-sol-v1/observed-state.json).
+-Прочитані входи й хеші: input-manifest.json у каталозі чернетки. Чернетка, журнал, похідні файли й перевірки зібрані в тому самому каталозі.
+-Незалежні звіти: [ch01-20260921-sol-v1](audit/ensemble/ch01-20260921-sol-v1/run.json). Редакторські пропозиції не затверджуються голосуванням.
+-Даль наприкінці вдома, погодився лише вислухати Гора сьогодні. Майї ще немає в тексті, Баласт не призначений, R0 збережено.
+-Перед главою 2 звірити цей фактичний вихід із її картками. Саму главу 2 в поточному дорученні не написано.
++Поточне доручення: завершити том 1 з перевірками кожної глави, потім повний аудит. Див. production/2026-09-21-book01/authorization.md.
++
++Глави 1–2 написані й мають чотири діагнози та зведення. Остання: [chapter-02.md](drafts/2026-09-21-ch02-sol-v1/chapter-02.md), SHA-256 `99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da`. Фактичний стан: [2026-09-21-ch02-sol-v1](drafts/2026-09-21-ch02-sol-v1/observed-state.json). Планові реєстри збережені; master=null.
++
++Далі: глава 3, перед письмом окрема звірка стану й handoff. Точний прогрес і версії: [реєстр](production/2026-09-21-book01/progress.json). Відкриті редакторські пропозиції не визнані авторськими рішеннями. Повного аудиту тому ще немає.
+--- kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/metadata-before/kontakt/START_HERE.md
++++ kontakt/START_HERE.md
+@@ -1,8 +1,7 @@
+-# Поточна робота з «Контактом»
++# Контакт: том 1 у роботі
+ 
+-Перша українська чернетка глави 1 написана Sol за дорученням автора від 21.09.2026.
+-Вхід: [чернетка й перевірки](books/book-01/drafts/2026-09-21-ch01-sol-v1/README.md).
+-У book-01/book.json зареєстрована working_revision; master залишається null.
+-Для продовження читати фактичний observed-state.json цієї версії, потім картки глави 2.
+-База архітектури: series/PRE-DRAFT-LOCK-2026-09-19.md та series/preparation/2026-09-21/README.md.
+-Усі вісім макропланів збережені. Нові деталі першої чернетки не стали автоматично каноном.
++Автор доручив завершити український том 1 по главі з усіма перевірками, потім виконати повний аудит.
++
++Готові чернетки глав 1–2; далі глава 3. [Поточний прогрес](books/book-01/production/2026-09-21-book01/progress.json). [Робочий маршрут](books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md). [Остання глава й перевірки](books/book-01/drafts/2026-09-21-ch02-sol-v1/README.md).
++
++Master не призначено. Для продовження спочатку читати фактичний observed-state останньої глави, потім scoped handoff. Макроархітектура восьми книг збережена; плани не стали подіями рукопису.
+--- kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/metadata-before/kontakt/books/book-01/plan.md
++++ kontakt/books/book-01/plan.md
+@@ -11,3 +11,7 @@
+ ## Фактичний чернетковий поступ
+ 
+ Глава 1 написана як окремий неутверджений варіант. [Текст і стан](drafts/2026-09-21-ch01-sol-v1/README.md). Решта плану не є подіями готової прози.
++
++## Поступ після глави 2
++
++Чернетки 1–2: production/2026-09-21-book01/working-volume.json. Наступна глава 3; факт і план розділені.
+--- kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/metadata-before/kontakt/books/book-01/brief.md
++++ kontakt/books/book-01/brief.md
+@@ -11,3 +11,7 @@
+ ## Фактичний чернетковий поступ
+ 
+ Глава 1 написана як окремий неутверджений варіант. [Текст і стан](drafts/2026-09-21-ch01-sol-v1/README.md). Решта плану не є подіями готової прози.
++
++## Поступ після глави 2
++
++Чернетки 1–2: production/2026-09-21-book01/working-volume.json. Наступна глава 3; факт і план розділені.
+--- kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/metadata-before/kontakt/books/book-01/audit/issues.json
++++ kontakt/books/book-01/audit/issues.json
+@@ -319,6 +319,134 @@
+       "review_run": "audit/ensemble/ch01-20260921-sol-v1",
+       "author_decision": "pending",
+       "scope": "draft only; no applied revision or canon claim"
++    },
++    {
++      "id": "CH02-SOL-V1-ENS-001",
++      "category": "pacing",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "Розмова кілька разів повертається до вже встановленої межі.",
++      "anchors": [
++        {
++          "chapter": "2",
++          "anchor": "P0083",
++          "quote": "Дозвіл Майї на перегляд не є вашою довіреністю на результат"
++        }
++      ],
++      "dependencies": [],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
++      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH02-SOL-V1-ENS-002",
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Метафора натискання на людину допускає два прочитання: інженерна кнопка або пропущений прийменник.",
++      "anchors": [
++        {
++          "chapter": "2",
++          "anchor": "P0095",
++          "quote": "де мене можна натиснути"
++        }
++      ],
++      "dependencies": [],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
++      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH02-SOL-V1-ENS-003",
++      "category": "pacing",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "Побутові однофразові абзаци мають ту саму графічну вагу, що й сильні Мою / Свою.",
++      "anchors": [
++        {
++          "chapter": "2",
++          "anchor": "P0155",
++          "quote": "Перечитав."
++        }
++      ],
++      "dependencies": [],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
++      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH02-SOL-V1-ENS-004",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Час підтверджений, адреса наступної зустрічі в цій главі ще не названа.",
++      "anchors": [
++        {
++          "chapter": "2",
++          "anchor": "P0176",
++          "quote": "О 16:20 я мав прийти на умовах Майї."
++        }
++      ],
++      "dependencies": [
++        "chapter 3 arrival"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
++      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH02-SOL-V1-ENS-005",
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "hypothesis",
++      "observation": "Нетипова сполучуваність професійного терміна.",
++      "anchors": [
++        {
++          "chapter": "2",
++          "anchor": "P0083",
++          "quote": "довіреністю на результат"
++        }
++      ],
++      "dependencies": [],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
++      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH02-SOL-V1-ENS-006",
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "Однина абстрактного зусилля звучить незвично для частини читачів.",
++      "anchors": [
++        {
++          "chapter": "2",
++          "anchor": "P0045",
++          "quote": "скільки зусилля коштувало йому"
++        }
++      ],
++      "dependencies": [],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
++      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
+     }
+   ]
+ }
+--- kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/metadata-before/kontakt/books/book-01/revision-log.json
++++ kontakt/books/book-01/revision-log.json
+@@ -58,6 +58,28 @@
+         "run": "audit/ensemble/ch01-20260921-sol-v1",
+         "release_ready": false
+       }
++    },
++    {
++      "id": "ch02-20260921-sol-v1",
++      "reason": "Author authorized completion of volume one chapter at a time with checks",
++      "decision": "applied_to_draft_only",
++      "old_source": null,
++      "new_source": {
++        "path": "drafts/2026-09-21-ch02-sol-v1/chapter-02.md",
++        "sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da"
++      },
++      "preflight_history": "drafts/2026-09-21-ch02-sol-v1/preflight-changes.diff",
++      "observed_state": "drafts/2026-09-21-ch02-sol-v1/observed-state.json",
++      "dependencies": {
++        "planned_registers": "unchanged; actual candidate states separate",
++        "master_snapshot": "not applicable, master null",
++        "next_chapter": 3
++      },
++      "verification": {
++        "run": "audit/ensemble/ch02-20260921-sol-v1",
++        "record": "drafts/2026-09-21-ch02-sol-v1/checks/verification.json",
++        "release_ready": false
++      }
+     }
+   ]
+ }
+--- kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/metadata-before/kontakt/series/CANON-POLICY.md
++++ kontakt/series/CANON-POLICY.md
+@@ -2,6 +2,6 @@
+ 
+ Текущая инструкция автора → PRE-DRAFT-LOCK-2026-09-19.md → выбранные BOOK-XX-ARCHITECTURE-LOCK.md и planned-реестры → scoped execution cards → исторические варианты.
+ Рабочий маршрут 21.09.2026: [preparation](preparation/2026-09-21/README.md). Он не меняет основные rules/макроисходы и не принимает Downloads целиком.
+-Архитектурные события остаются planned. Создан отдельный неутверждённый черновик главы 1; его observed-состояния привязаны к working_revision тома 1 и не заменяют принятый канон. Изменения источников сохранены в before и журнале подготовки.
++Архитектурные события остаются planned. Создаются отдельные рабочие черновики глав тома 1; их observed-состояния привязаны к точным версиям и не заменяют принятый канон. Текущий состав — books/book-01/production/2026-09-21-book01/working-volume.json. Изменения источников сохранены в before и журнале подготовки.
+ Количество и границы глав, локальная подача и обратимые детали могут уточняться при сохранении макрофункции. Ранги, POV, consent, исход Тараса/Тихона/Даля и этика войны не меняются молча.
+-Готовность главы 1 не означает готовность всех сцен серии. См. execution scope в book.json.
++Проверка написанных глав не означает готовность всех сцен серии. См. execution scope в book.json.
+--- kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/metadata-before/kontakt/series/architecture-pass-01-status.json
++++ kontakt/series/architecture-pass-01-status.json
+@@ -6,7 +6,7 @@
+   "books": [
+     {
+       "book_id": "book-01",
+-      "status": "chapter_01_drafted",
++      "status": "chapters_01_02_drafted_reviewed",
+       "architecture_pass": "macro_reviewed",
+       "scene_gate": "chapter_01_only",
+       "master": null
+@@ -70,10 +70,11 @@
+   },
+   "current_draft": {
+     "book_id": "book-01",
+-    "chapter": 1,
+-    "path": "kontakt/books/book-01/drafts/2026-09-21-ch01-sol-v1/chapter-01.md",
+-    "sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+-    "status": "unapproved_draft",
+-    "whole_book_written": false
++    "chapter": 2,
++    "path": "kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/chapter-02.md",
++    "sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
++    "status": "reviewed_working_draft",
++    "whole_book_written": false,
++    "volume_progress": "books/book-01/production/2026-09-21-book01/progress.json"
+   }
+ }

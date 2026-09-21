@@ -1,0 +1,747 @@
+{
+  "result": "passed",
+  "files_checked": 185,
+  "scope": "eight original architecture packages, byte identity only",
+  "files": [
+    {
+      "path": "kontakt/books/book-01/architecture.json",
+      "sha256": "bbcf08ea7169aac45593e257d2ef74769cdd1e7eb384c670f675afb6f34daaf1"
+    },
+    {
+      "path": "kontakt/books/book-01/WORLD-MECHANICS.md",
+      "sha256": "4b03571aadb094dc7d1f80fe8954fac31f65322dd8c9ca82c5879ec02c11dd91"
+    },
+    {
+      "path": "kontakt/books/book-01/timeline.planned.json",
+      "sha256": "3cd9ebe89b264717abb35c092dacdd61c037604528510c2ab991a15841381727"
+    },
+    {
+      "path": "kontakt/books/book-01/motifs.planned.json",
+      "sha256": "2941c03986830b074eff67cc78073dc86aa6a3fa8040964e75251e9bf10a1ae3"
+    },
+    {
+      "path": "kontakt/books/book-01/promises.planned.json",
+      "sha256": "7f73f86873cce79440f4514a56e124a4078ed308fe17aa10f1e95752bd195c3b"
+    },
+    {
+      "path": "kontakt/books/book-01/QUALITY-GATES.md",
+      "sha256": "5d87a894405bcf343c2d558581cf1852c52036052bbf0201497ac93050f1108f"
+    },
+    {
+      "path": "kontakt/books/book-01/characters.planned.json",
+      "sha256": "33920bb704a150592448525b5a4840a7d607d8454280f470275267dc70498576"
+    },
+    {
+      "path": "kontakt/books/book-01/knowledge.planned.json",
+      "sha256": "c8e571728ceafef89f6d76eeafdafa3efb3634ba182a7c0ff68e0656a12233c7"
+    },
+    {
+      "path": "kontakt/books/book-01/AI-RUNBOOK.md",
+      "sha256": "faa9ab2b27fa38ba2e22350b6d99c808b67aa4b1305ef0677ef905004b306537"
+    },
+    {
+      "path": "kontakt/books/book-01/CONTEXT-CAPSULE.md",
+      "sha256": "a53c0a51c7d2181088ae0b242882b06f6db4403222221a7b3236163fc75ed72b"
+    },
+    {
+      "path": "kontakt/books/book-01/end-state.planned.json",
+      "sha256": "0d5edb5eb157f71644d41ceec85abdcacedcca1c75cc6b446b3650374c882027"
+    },
+    {
+      "path": "kontakt/books/book-01/NEXT-STEP.md",
+      "sha256": "befbce82a2e8e1c6c07f98e67be90d488a0096e440f1f2d264451df82a5991d0"
+    },
+    {
+      "path": "kontakt/books/book-01/BOOK-01-ARCHITECTURE-LOCK.md",
+      "sha256": "338cba44392162efecc20fa738a946473e22652e73e427e20b242da365a74510"
+    },
+    {
+      "path": "kontakt/books/book-01/ai-prompts/03-ARCH-CHECK.md",
+      "sha256": "5dcbad887110c7740e904ab9f7dca41ad9c5cf93609ef1747b893194a8ff7f99"
+    },
+    {
+      "path": "kontakt/books/book-01/ai-prompts/08-BOOK-RECONCILE.md",
+      "sha256": "d6e0c4b5b46a8231a3bdc45f32d11e2898314911418bf18afeb075325aced140"
+    },
+    {
+      "path": "kontakt/books/book-01/ai-prompts/02-SCENE-CARDS.md",
+      "sha256": "cbb56e23619d63a7abd9b7a1a67570affb7618e286ccc005367581fb52d9d286"
+    },
+    {
+      "path": "kontakt/books/book-01/ai-prompts/00-MASTER-INSTRUCTION.md",
+      "sha256": "71d1641a3134f345909ada6e248666c2a48f894900926e55c08e9460ec0a80f2"
+    },
+    {
+      "path": "kontakt/books/book-01/ai-prompts/07-SEQUENCE-RECONCILE.md",
+      "sha256": "f9fd5b0199e08eafd7a1a4c3e15d05e81b3f62ed1b35efc89f66e808674ac606"
+    },
+    {
+      "path": "kontakt/books/book-01/ai-prompts/04-WRITE-CHAPTER.md",
+      "sha256": "7a7dbd88396d3477d9b4abd12ea24fb0d0827a2d27a3847be2baffa905be18e8"
+    },
+    {
+      "path": "kontakt/books/book-01/ai-prompts/05-CONTINUITY.md",
+      "sha256": "7d2b20ffaa7b2a95ef7ab027635be4680d81d5f2c882520327315998eb9e03fe"
+    },
+    {
+      "path": "kontakt/books/book-01/ai-prompts/06-REVISE.md",
+      "sha256": "0054bd3c48959cb656d732eeb5e9601d6c58ec1863b2e2ee97bd08b5759ea7a8"
+    },
+    {
+      "path": "kontakt/books/book-01/ai-prompts/01-CHAPTERIZE-SEQUENCE.md",
+      "sha256": "f97dc4305551e7da0feb31536b8d6ff4de65a25d04762190c6055df31e32fee7"
+    },
+    {
+      "path": "kontakt/books/book-02/motifs.planned.json",
+      "sha256": "b17ed568f0beeb9837b841c1ae573e19b44fe0ba8c582b722c567c57002ff5a4"
+    },
+    {
+      "path": "kontakt/books/book-02/knowledge.planned.json",
+      "sha256": "50dbc29631ebc175a1424de3e9d93d01b001e693f9823f88ee3aaf25cefb1643"
+    },
+    {
+      "path": "kontakt/books/book-02/characters.planned.json",
+      "sha256": "1f7349708ae3009aa32f036099c3dfbbe06584ed3bd2ff4944d4b76eda34140f"
+    },
+    {
+      "path": "kontakt/books/book-02/NEXT-STEP.md",
+      "sha256": "5aae9273f9fa7607af56df5a285bf42c1429b3b7c836afd0547cf57372311f71"
+    },
+    {
+      "path": "kontakt/books/book-02/architecture.json",
+      "sha256": "41b14887255a9e695ab8d226f78d3e59079ac77f9a4d3c1bebd2688f60df7998"
+    },
+    {
+      "path": "kontakt/books/book-02/WORLD-MECHANICS.md",
+      "sha256": "e296e012c7d3fd65def62ffe81ba90457e3f63c3330f720d010ea878e5894edb"
+    },
+    {
+      "path": "kontakt/books/book-02/QUALITY-GATES.md",
+      "sha256": "ecf5c2d29bd1856bb603cdae0e2d728741c13779e81ee10edc42dff8a6518537"
+    },
+    {
+      "path": "kontakt/books/book-02/BOOK-02-ARCHITECTURE-LOCK.md",
+      "sha256": "ed3272dddef0c5b393daa7cd6daf2648d187fec12a791d07b141992fd6f06fd6"
+    },
+    {
+      "path": "kontakt/books/book-02/AI-RUNBOOK.md",
+      "sha256": "9719b510c43265f05c756dd67b0fec8c975be4667fb92b5d3d8e867470fd3fac"
+    },
+    {
+      "path": "kontakt/books/book-02/CONTEXT-CAPSULE.md",
+      "sha256": "b9313c2638d928a35936c87de0fbef5dfe50c8781a99b48de5a679577f4b301d"
+    },
+    {
+      "path": "kontakt/books/book-02/end-state.planned.json",
+      "sha256": "030397e8c68d3c7e714091916e383b21c0de3586002bae32b9239aef554fd623"
+    },
+    {
+      "path": "kontakt/books/book-02/timeline.planned.json",
+      "sha256": "e1242bd759fcd585ab552f00e4d17d7ecac7bc940f65480b76ad97fe42178de2"
+    },
+    {
+      "path": "kontakt/books/book-02/BOOK-01-CARRY-IN.md",
+      "sha256": "9b968b747d5a1692c69177dd6c574d5f262509ea5caf1f46e360a77b9c0f61be"
+    },
+    {
+      "path": "kontakt/books/book-02/promises.planned.json",
+      "sha256": "c354c316e4449038a77ea12f656a3eb7ba35226361b2bf8100997a2409492c70"
+    },
+    {
+      "path": "kontakt/books/book-02/ai-prompts/00-MASTER-INSTRUCTION.md",
+      "sha256": "4f5c647544bb54d13e2fd954b25c9a9068d77d635efddc249860c272b68b1776"
+    },
+    {
+      "path": "kontakt/books/book-02/ai-prompts/05-CONTINUITY.md",
+      "sha256": "3d2ea30c8103c8ee9b4fdf26dd30025faf0736318dbc93b53ecd693a4b446a3b"
+    },
+    {
+      "path": "kontakt/books/book-02/ai-prompts/07-SEQUENCE-RECONCILE.md",
+      "sha256": "4165de87138ac2351b32d6b236f2c7a5cbdc408d179e649775973afaa77f0684"
+    },
+    {
+      "path": "kontakt/books/book-02/ai-prompts/01-CHAPTERIZE-SEQUENCE.md",
+      "sha256": "b77d2431d017a68780e67d21fe07d186b0457808b263a7f6fa7291a642436e39"
+    },
+    {
+      "path": "kontakt/books/book-02/ai-prompts/06-REVISE.md",
+      "sha256": "673f7f0050db5e238fc2f61ee20e513cbed2ab02d31c917f0582f71fc303c7c0"
+    },
+    {
+      "path": "kontakt/books/book-02/ai-prompts/03-ARCH-CHECK.md",
+      "sha256": "e552aaa880a7435b9c88f68f2fbd38d15d28b2c5adac1d09c0d11c9b7bed8744"
+    },
+    {
+      "path": "kontakt/books/book-02/ai-prompts/08-BOOK-RECONCILE.md",
+      "sha256": "cbd0704976c12d98a9e5eb9bb001618e101b4dc47a5ea44f548b6f142b74b018"
+    },
+    {
+      "path": "kontakt/books/book-02/ai-prompts/02-SCENE-CARDS.md",
+      "sha256": "d52dd9ddf17dc25a4753e67bcbc52050b3fe11d29c5a652cdf2d2d282b9c38eb"
+    },
+    {
+      "path": "kontakt/books/book-02/ai-prompts/04-WRITE-CHAPTER.md",
+      "sha256": "915d4f526803105d35e8b090728f413dce2703513172fe7dd70f3603cea0b9ec"
+    },
+    {
+      "path": "kontakt/books/book-03/motifs.planned.json",
+      "sha256": "4aff6e26268f2683d442d8697c6eaa9795897333fd8382e290f8e5ac9dd88dc3"
+    },
+    {
+      "path": "kontakt/books/book-03/PREDICTARIAT-MECHANICS.md",
+      "sha256": "9eda66141400682d5b9ef8435b49f58a73b0b33ca5e494969086e24f7abbcacb"
+    },
+    {
+      "path": "kontakt/books/book-03/knowledge.planned.json",
+      "sha256": "2d94577cf1fac4091d59c27297e12cd319fafa0b6b38348433dbe6b30570339c"
+    },
+    {
+      "path": "kontakt/books/book-03/BOOK-03-ARCHITECTURE-LOCK.md",
+      "sha256": "ab2da04ae389afafe60dd9011c339950e124820509bc1456fef255a2959edbb3"
+    },
+    {
+      "path": "kontakt/books/book-03/characters.planned.json",
+      "sha256": "99ed62db2eb6bb95a02452c023828208eb70965f983d9577e6e2d7e5795b6472"
+    },
+    {
+      "path": "kontakt/books/book-03/NEXT-STEP.md",
+      "sha256": "7aabc8bff80c27012b5eb68c4ba8eace1e9e3ed9afc67a440d55fd7a1367f756"
+    },
+    {
+      "path": "kontakt/books/book-03/architecture.json",
+      "sha256": "3c57be1c0ae23ff14c455f50fa3541cf026e72a1f053bc4f093370999c8f8e21"
+    },
+    {
+      "path": "kontakt/books/book-03/QUALITY-GATES.md",
+      "sha256": "cd9fd9cf1dd49c1915c82073dccfda3a794dcbb03b37b4a3055c013b971a66d2"
+    },
+    {
+      "path": "kontakt/books/book-03/CARRY-IN-FROM-BOOK-02.md",
+      "sha256": "c8e612f0bed647b7d847e350e8fd4f83f4af065d3a53e0269fd5d9cadcb3e5a9"
+    },
+    {
+      "path": "kontakt/books/book-03/AI-RUNBOOK.md",
+      "sha256": "be4541e4c8e52469758b8adcb8e716eb074741724114816a4d0497b8b4e95efb"
+    },
+    {
+      "path": "kontakt/books/book-03/CONTEXT-CAPSULE.md",
+      "sha256": "26a3422ac87e3b935e96abc5bdfa73b38ebe1b203016b43b9d1de4038924d832"
+    },
+    {
+      "path": "kontakt/books/book-03/end-state.planned.json",
+      "sha256": "7b2bf52bb2959245f2610fc7a31bfd2d50f8ebfbc2db715b92629f8ae03bdead"
+    },
+    {
+      "path": "kontakt/books/book-03/timeline.planned.json",
+      "sha256": "7b229b0fbcd4659f78cbce67fc9e3a8603a73a0efb370435dd604b46cf317bd9"
+    },
+    {
+      "path": "kontakt/books/book-03/promises.planned.json",
+      "sha256": "49f64a4f2091ca24f8dba067cbc7682eabe0943f5c82ebade78d1733d0501473"
+    },
+    {
+      "path": "kontakt/books/book-03/ai-prompts/00-MASTER-INSTRUCTION.md",
+      "sha256": "81606218f23797315ca33b07d363cd21d12a250820bfc23f0ddd3efb893251ff"
+    },
+    {
+      "path": "kontakt/books/book-03/ai-prompts/05-CONTINUITY.md",
+      "sha256": "0556c507d80e419a2b62d8e21d07a068eae562ff58dc6f34ccd3bf631b773086"
+    },
+    {
+      "path": "kontakt/books/book-03/ai-prompts/07-SEQUENCE-RECONCILE.md",
+      "sha256": "2772d9b86e5ffad01caf6f74cb9e7514fca8746bd8a62731603660ff4b22498a"
+    },
+    {
+      "path": "kontakt/books/book-03/ai-prompts/01-CHAPTERIZE-SEQUENCE.md",
+      "sha256": "f80844a557bebd35a3868bb54dd5433e4065559234f1f9efd07646af81a97aa5"
+    },
+    {
+      "path": "kontakt/books/book-03/ai-prompts/06-REVISE.md",
+      "sha256": "c4f034f841366c52517ae666459ec3dae3dc64dfaf1485065b25f7b081424a7a"
+    },
+    {
+      "path": "kontakt/books/book-03/ai-prompts/03-ARCH-CHECK.md",
+      "sha256": "43eb440fd4ec7fca5c6c4a51654b4749fa34b0816ecf3cb51d146c2f34824d7a"
+    },
+    {
+      "path": "kontakt/books/book-03/ai-prompts/08-BOOK-RECONCILE.md",
+      "sha256": "03942eb93256c955dac2b1586fb71a1c9d3cb62ff81d5a2d9585d08b5d2852c9"
+    },
+    {
+      "path": "kontakt/books/book-03/ai-prompts/02-SCENE-CARDS.md",
+      "sha256": "d0350d1e227ef35423e2c2b37f50d2e54ad05c2ad2854cf131c0d139ff86a466"
+    },
+    {
+      "path": "kontakt/books/book-03/ai-prompts/04-WRITE-CHAPTER.md",
+      "sha256": "788b849d0f4d118e785d5cafcd7d35130498e4e2114c90991adcdd14fee2b0c4"
+    },
+    {
+      "path": "kontakt/books/book-04/motifs.planned.json",
+      "sha256": "0d28da7010f590a5caa0c29585736a2ad25a1b51ff6d25083c8120824a03bab0"
+    },
+    {
+      "path": "kontakt/books/book-04/BOOK-04-ARCHITECTURE-LOCK.md",
+      "sha256": "d7da2bab558beb52d42605a81a3d3e12062fb918f1439949cc855d244cfb9cf3"
+    },
+    {
+      "path": "kontakt/books/book-04/knowledge.planned.json",
+      "sha256": "aa100a41e6cc2217bc1fd72ec95d5957476126282368096d1c243819fe27c0b1"
+    },
+    {
+      "path": "kontakt/books/book-04/characters.planned.json",
+      "sha256": "88b94cb78d82a36612597cddbd1417cda39b7f8407d52a3d91a620180982775b"
+    },
+    {
+      "path": "kontakt/books/book-04/NEXT-STEP.md",
+      "sha256": "4648dea9f2928a1c9dc6ce617e969492393ab1bd7bf34e1fc7ae206ae87e2e88"
+    },
+    {
+      "path": "kontakt/books/book-04/architecture.json",
+      "sha256": "8596089d0ee451cbe6a48955e63f3e7b557acc829c25654be32bc1dfb6d523cd"
+    },
+    {
+      "path": "kontakt/books/book-04/QUALITY-GATES.md",
+      "sha256": "f4ea903e58472570b5f3849e7728193a2278208de8e6b95ae247e91c38b09355"
+    },
+    {
+      "path": "kontakt/books/book-04/AI-RUNBOOK.md",
+      "sha256": "3cd3704ee2c1c2f50bedb959f4bc3c4015d9d7a816275521bad7d3187b9921d2"
+    },
+    {
+      "path": "kontakt/books/book-04/CONTEXT-CAPSULE.md",
+      "sha256": "a9202aa3cd0d2a4fcdfb9c805e9aa51ca487be54e351a183847c6fb0814e4359"
+    },
+    {
+      "path": "kontakt/books/book-04/CARRY-IN-FROM-BOOK-03.md",
+      "sha256": "04bc5dcb9da9b3c3af0a676fb3a851b28c1858db483f811f5c8b2db0f7c92de1"
+    },
+    {
+      "path": "kontakt/books/book-04/end-state.planned.json",
+      "sha256": "85fdd6eebc19bbddbe164d984af10d19b12c9707e50442771e4650757e7600cd"
+    },
+    {
+      "path": "kontakt/books/book-04/timeline.planned.json",
+      "sha256": "2681945e988e618fbc72978b716468b51f8d1f0e39aca486c3ecc3b735403bf6"
+    },
+    {
+      "path": "kontakt/books/book-04/promises.planned.json",
+      "sha256": "6d9f607e255d2c96b38be4172ea7ee9c167c46f374923a0bf82c82fec173e70f"
+    },
+    {
+      "path": "kontakt/books/book-04/COMPATIBILITY-MECHANICS.md",
+      "sha256": "e5b8164390e8794d7e0a73e9df952b4c0b508b4b0531f3e068ad14c573501617"
+    },
+    {
+      "path": "kontakt/books/book-04/ai-prompts/00-MASTER-INSTRUCTION.md",
+      "sha256": "6502cceade206f4082f31814cc42af8ec20331b7ce06f58aa9d03f0b1b0dba85"
+    },
+    {
+      "path": "kontakt/books/book-04/ai-prompts/05-CONTINUITY.md",
+      "sha256": "da92fe49009748809cb3807a13174aed0b43365a245ae56b8643d05db3d93cc6"
+    },
+    {
+      "path": "kontakt/books/book-04/ai-prompts/07-SEQUENCE-RECONCILE.md",
+      "sha256": "10ae959b1b8a010576e23d1c033929acdc6768de3c9ddf5cacae88fd3265da6a"
+    },
+    {
+      "path": "kontakt/books/book-04/ai-prompts/01-CHAPTERIZE-SEQUENCE.md",
+      "sha256": "f16f4a07a2c4203cb51d44138a66fd43a3e2cfc412faa38339e46cde97bddd1e"
+    },
+    {
+      "path": "kontakt/books/book-04/ai-prompts/06-REVISE.md",
+      "sha256": "5d288fb3e103c7b0c547aaf1bf5497fc56f2e2c24143083b63f805b6358bc99e"
+    },
+    {
+      "path": "kontakt/books/book-04/ai-prompts/03-ARCH-CHECK.md",
+      "sha256": "bdfe1ff5907185a2fb811e870ce0263c8997d86ae08958a766157cda1e0eba06"
+    },
+    {
+      "path": "kontakt/books/book-04/ai-prompts/08-BOOK-RECONCILE.md",
+      "sha256": "c02d460f9ddd742c4551e7770577fa1f0f4408c5a5434742fc1c4bf6faf38257"
+    },
+    {
+      "path": "kontakt/books/book-04/ai-prompts/02-SCENE-CARDS.md",
+      "sha256": "d2998104059e41bda78beebb30cd1dffea4fc8b3e6760db30c7d66feb719557e"
+    },
+    {
+      "path": "kontakt/books/book-04/ai-prompts/04-WRITE-CHAPTER.md",
+      "sha256": "da3068b2567f9b48fda6ec981ce4f196aa1ee46b76476c08b39fdaa94a4bff31"
+    },
+    {
+      "path": "kontakt/books/book-05/motifs.planned.json",
+      "sha256": "b010c957060708759a0080ba5ed77e0d00be39a41dd07628c9622621a2e9498e"
+    },
+    {
+      "path": "kontakt/books/book-05/knowledge.planned.json",
+      "sha256": "89fb73dbe84b85db99be04076e68f6f8af520228e89791ea1079ad84779c979e"
+    },
+    {
+      "path": "kontakt/books/book-05/characters.planned.json",
+      "sha256": "cf2c2591a5ddc2678bd11a01fccae9544be323a7dd411fa4a8be2e70e763988d"
+    },
+    {
+      "path": "kontakt/books/book-05/NEXT-STEP.md",
+      "sha256": "5dea82ff3a174a1d5380992d1c8f1e98a0dac866cdb3da8ac3282d80b0846406"
+    },
+    {
+      "path": "kontakt/books/book-05/architecture.json",
+      "sha256": "4aaaee6c7512fa977ebbed90890df1d119421016c5f7cf813d5e3c809f56b620"
+    },
+    {
+      "path": "kontakt/books/book-05/BOOK-05-ARCHITECTURE-LOCK.md",
+      "sha256": "9b952172b34fc92a541884f5137b617ce468a9981ad199c1109b3e208fe71387"
+    },
+    {
+      "path": "kontakt/books/book-05/QUALITY-GATES.md",
+      "sha256": "d17e1ae0fc591b92650cb6d763409cff34256d5c1dbc36397ae9f946dd422a95"
+    },
+    {
+      "path": "kontakt/books/book-05/AI-RUNBOOK.md",
+      "sha256": "2014e6aaa897a1175d5bea99195a1979ec5c465583e298e4a0bc451d495e73b0"
+    },
+    {
+      "path": "kontakt/books/book-05/AFFECT-RELAY-MECHANICS.md",
+      "sha256": "aadac5b8e7edd4a009948729ed02905044e1f32455ae3883c20e7cd62b527c99"
+    },
+    {
+      "path": "kontakt/books/book-05/CONTEXT-CAPSULE.md",
+      "sha256": "0d8bde66cf013068ff0bbc6c570e632f6d9bd0d102093cc7460ca3394e6ad38b"
+    },
+    {
+      "path": "kontakt/books/book-05/end-state.planned.json",
+      "sha256": "85249c952252a1ae536e51b1c63f1316421493b2f5016df8cf1f2cc8730cd22c"
+    },
+    {
+      "path": "kontakt/books/book-05/timeline.planned.json",
+      "sha256": "7a708e47ea3197dcf78bb9c16cc31b80096b98260bedc5c31328adb64a3c3757"
+    },
+    {
+      "path": "kontakt/books/book-05/CARRY-IN-FROM-BOOK-04.md",
+      "sha256": "b4b05b6af57fcd3d9e636aa04796fa28d78da4bce693833cc5217232d8355d91"
+    },
+    {
+      "path": "kontakt/books/book-05/promises.planned.json",
+      "sha256": "06a9874475112b0bdfc6b06c30174766b243d92595a774dce24795952d8ce2b2"
+    },
+    {
+      "path": "kontakt/books/book-05/ai-prompts/00-MASTER-INSTRUCTION.md",
+      "sha256": "b0ce0cf519d5dec3275ed41969f6fbca8b15b2ef016cd7c21585a4bbc86bfd67"
+    },
+    {
+      "path": "kontakt/books/book-05/ai-prompts/05-CONTINUITY.md",
+      "sha256": "29abb8903fabfcc35e996d6042357a4d77e11de1081f205ac3128b2668db7d0b"
+    },
+    {
+      "path": "kontakt/books/book-05/ai-prompts/07-SEQUENCE-RECONCILE.md",
+      "sha256": "ed7bf12cc24a230da4c794c4727bc52ffbacf910de8b0317c790590b31fa2acd"
+    },
+    {
+      "path": "kontakt/books/book-05/ai-prompts/01-CHAPTERIZE-SEQUENCE.md",
+      "sha256": "322540bce532705bd465f362123b535aeb4d885b5475f93096324eb6723a5626"
+    },
+    {
+      "path": "kontakt/books/book-05/ai-prompts/06-REVISE.md",
+      "sha256": "f206a6bc31aca4383013422bcbc35addaf10ad7808e1b23a83bb0f6ebaad545b"
+    },
+    {
+      "path": "kontakt/books/book-05/ai-prompts/03-ARCH-CHECK.md",
+      "sha256": "01616b39615fcda306b8b4c28843adbde52592c8e51318ccd8a59fd67360e848"
+    },
+    {
+      "path": "kontakt/books/book-05/ai-prompts/08-BOOK-RECONCILE.md",
+      "sha256": "eb2f0292ea3014475c207457d45889c8cfca411fb5a5c8e0f2e5069e18ac25b8"
+    },
+    {
+      "path": "kontakt/books/book-05/ai-prompts/02-SCENE-CARDS.md",
+      "sha256": "b4f04d3d5b40e3d32a83c1ea1166bb53b26ac6415f18543b3e53086a6c9773b1"
+    },
+    {
+      "path": "kontakt/books/book-05/ai-prompts/04-WRITE-CHAPTER.md",
+      "sha256": "9afb88e0c6552f60defc6f02b5c7773427a2182d44168527133095865283f5d3"
+    },
+    {
+      "path": "kontakt/books/book-06/motifs.planned.json",
+      "sha256": "ea6d8437f3389cf880b9638a85c80c4038fbf4f199120c943146e038f2cef5c9"
+    },
+    {
+      "path": "kontakt/books/book-06/knowledge.planned.json",
+      "sha256": "836016cbe2059d8cdc17c3c32296e499e8c2d6514c3b859d1c13ab1bf5c0cd6a"
+    },
+    {
+      "path": "kontakt/books/book-06/characters.planned.json",
+      "sha256": "f4bb361f07e7a0224726aab5d33a79faeb8d74e85b2e0f53363ba5288c76ee53"
+    },
+    {
+      "path": "kontakt/books/book-06/NEXT-STEP.md",
+      "sha256": "32761f06ab6804a497f9dda02eec47660b5622332d3fa07099f6237f49a57beb"
+    },
+    {
+      "path": "kontakt/books/book-06/BOOK-06-ARCHITECTURE-LOCK.md",
+      "sha256": "e68699435457b6f0886118b5178fcf428b72f13746a2d2f8d51fe0244848c100"
+    },
+    {
+      "path": "kontakt/books/book-06/ONTOGENETIC-GUIDANCE-MECHANICS.md",
+      "sha256": "c29cb1df9c58d398f1a9c8281ca385860aff1e56223b1b6fc2bc4fc7d75a73f5"
+    },
+    {
+      "path": "kontakt/books/book-06/architecture.json",
+      "sha256": "ae9a97373a80259d196aca827e5996dd0d5160661129d353bfb56d421d80193b"
+    },
+    {
+      "path": "kontakt/books/book-06/CARRY-IN-FROM-BOOK-05.md",
+      "sha256": "fdc7d7e7ae57521fe6eb37a9b1d47373a124ae8f4c6d8579d1202c9888f4c2db"
+    },
+    {
+      "path": "kontakt/books/book-06/QUALITY-GATES.md",
+      "sha256": "484b0b5667dfd156d0be6a2a996dc5c28864e8a29675b479b4161a68b5e5b3f2"
+    },
+    {
+      "path": "kontakt/books/book-06/AI-RUNBOOK.md",
+      "sha256": "d71c7b28260db3fb2496532a0e4535b4e82c3f86065b36426892fb129cbbc288"
+    },
+    {
+      "path": "kontakt/books/book-06/CONTEXT-CAPSULE.md",
+      "sha256": "cc2df9568b608f379a40c674031a8a024ab4d353140dcabbcaaf11e056d205e9"
+    },
+    {
+      "path": "kontakt/books/book-06/end-state.planned.json",
+      "sha256": "97907ee4e58bc6a4f5f9c87feb4312512ddc6b64d031cd9887d63c5b40b627b9"
+    },
+    {
+      "path": "kontakt/books/book-06/timeline.planned.json",
+      "sha256": "c1a094a55094b38dba9e1221d48719bd92f27d15d55175db8dcfd7777f05fced"
+    },
+    {
+      "path": "kontakt/books/book-06/promises.planned.json",
+      "sha256": "798d1c03b5dbbae75cc50a0b9581b7156c34fd139e40d7c300fb50f3f081ccad"
+    },
+    {
+      "path": "kontakt/books/book-06/ai-prompts/00-MASTER-INSTRUCTION.md",
+      "sha256": "ad9fdecb830547f4e192080b33a7f188127ccaf428fc3cdb5faa3b04772a4d27"
+    },
+    {
+      "path": "kontakt/books/book-06/ai-prompts/05-CONTINUITY.md",
+      "sha256": "e1f715febb9c5fb98dbe490fa134c111aef9f76338511b164ce39a889a76ca8d"
+    },
+    {
+      "path": "kontakt/books/book-06/ai-prompts/07-SEQUENCE-RECONCILE.md",
+      "sha256": "0f13d4673ebbb68c820d9563bc199dbfd4d056058fbbcbe0cab812099f154265"
+    },
+    {
+      "path": "kontakt/books/book-06/ai-prompts/01-CHAPTERIZE-SEQUENCE.md",
+      "sha256": "da9265aae87e24e2819cf2c8755784093bfd34b76bd89e87a00b8010c318f58b"
+    },
+    {
+      "path": "kontakt/books/book-06/ai-prompts/06-REVISE.md",
+      "sha256": "d2dd3b459c113fd37389312e7dd2332773f674674e1e0b079061b94383d6a912"
+    },
+    {
+      "path": "kontakt/books/book-06/ai-prompts/03-ARCH-CHECK.md",
+      "sha256": "04363b4fb443a91768c264590084b9dfec730948e2392ac91d80385770ca3973"
+    },
+    {
+      "path": "kontakt/books/book-06/ai-prompts/08-BOOK-RECONCILE.md",
+      "sha256": "43d3c0902501331b783c462bc898de4584223b438d61d786ec43a49afca29e91"
+    },
+    {
+      "path": "kontakt/books/book-06/ai-prompts/02-SCENE-CARDS.md",
+      "sha256": "d7d9496465d392bfc656ef06d0b45204aca535a6e88dc43f00955af8866ea5ac"
+    },
+    {
+      "path": "kontakt/books/book-06/ai-prompts/04-WRITE-CHAPTER.md",
+      "sha256": "e25acc7b2901acfff41c9af8dcd9a347168d556134acd1a5b9a6ae03450685dc"
+    },
+    {
+      "path": "kontakt/books/book-07/motifs.planned.json",
+      "sha256": "dab47d2c48868a8f5b2c6ffd0a990047a9671fbe7ce164db7a3ecb64156f3ddb"
+    },
+    {
+      "path": "kontakt/books/book-07/PERIOD-OF-OVERLOAD-MECHANICS.md",
+      "sha256": "26ba8bb32a0f150b00db7e29f9f4b1f0004a6a1ed5914bbb75e1fc10778300c1"
+    },
+    {
+      "path": "kontakt/books/book-07/knowledge.planned.json",
+      "sha256": "41ae742a8831bb13864567ae5255bf7728c9ef36b9ce0201c7c62e7c1f64a0dc"
+    },
+    {
+      "path": "kontakt/books/book-07/characters.planned.json",
+      "sha256": "a75358abb14f0b4c8ec0bc8d5b053e968c0ccf33b1a0dbaf9bd7ff774100ed50"
+    },
+    {
+      "path": "kontakt/books/book-07/NEXT-STEP.md",
+      "sha256": "0d60a8679fb99a39e08b043c62119ad03e3bad962452d5b90690a460b97299f2"
+    },
+    {
+      "path": "kontakt/books/book-07/CARRY-IN-FROM-BOOK-06.md",
+      "sha256": "bf2689cfc97409bef88cc1a1bab0af0de8c8cd8a7f1a00c41d6778763f490bcd"
+    },
+    {
+      "path": "kontakt/books/book-07/architecture.json",
+      "sha256": "eb2c33ed33b81d0dedd9b9dd3eed7cf2cae669bbec1e1756447c74a02a6e9c07"
+    },
+    {
+      "path": "kontakt/books/book-07/BOOK-07-ARCHITECTURE-LOCK.md",
+      "sha256": "3664800b0a87ca32340f228c7ef59fc3e5e4deaabd059f2ce47187abd3bdf0ec"
+    },
+    {
+      "path": "kontakt/books/book-07/QUALITY-GATES.md",
+      "sha256": "d0fa7bd721fcd04d2648cb931f5e01c27eca170897ccd6f3b22a83f3d4a4f873"
+    },
+    {
+      "path": "kontakt/books/book-07/AI-RUNBOOK.md",
+      "sha256": "d22de40dbaba2248098bed26d12df52d2ef7851c344850d97ee2abfa586d4f8a"
+    },
+    {
+      "path": "kontakt/books/book-07/CONTEXT-CAPSULE.md",
+      "sha256": "820df6fd980565867dc6ddb765fe566a42ff1716882ca0245da3d7b4a71c6c57"
+    },
+    {
+      "path": "kontakt/books/book-07/end-state.planned.json",
+      "sha256": "a215d22da052cf4fb8ab419912e57bd799db1826c80afa3496659bdddb05d880"
+    },
+    {
+      "path": "kontakt/books/book-07/timeline.planned.json",
+      "sha256": "63f1ccc81930cd45f66535d8b034692e59d8a9daca4c6daed4a35d62169576a1"
+    },
+    {
+      "path": "kontakt/books/book-07/promises.planned.json",
+      "sha256": "5165e8ad003b97648019f42818fe0e2184f9c286f5a59608f13cb93ec3c032b6"
+    },
+    {
+      "path": "kontakt/books/book-07/ai-prompts/00-MASTER-INSTRUCTION.md",
+      "sha256": "cb3abf063fecf6f12b6c45882a047cefc2079d07e8fb790507521a2ae8d48907"
+    },
+    {
+      "path": "kontakt/books/book-07/ai-prompts/05-CONTINUITY.md",
+      "sha256": "c6bd3543bc26980826d34a02a883c6e49b510c68cecffb3f0b6a304367779df0"
+    },
+    {
+      "path": "kontakt/books/book-07/ai-prompts/07-SEQUENCE-RECONCILE.md",
+      "sha256": "927b7226142920a704e72243eb5741f661353ee5fe7f581c29a40d0b6b0bdd90"
+    },
+    {
+      "path": "kontakt/books/book-07/ai-prompts/01-CHAPTERIZE-SEQUENCE.md",
+      "sha256": "4e705bf37809a15172e4504a67011833f3ec4a171448150f18efba770f371e32"
+    },
+    {
+      "path": "kontakt/books/book-07/ai-prompts/06-REVISE.md",
+      "sha256": "63a5e968f47b85e06ce99c3a9fd37b7786eede79a78e9ccf2b20947ca30e05da"
+    },
+    {
+      "path": "kontakt/books/book-07/ai-prompts/03-ARCH-CHECK.md",
+      "sha256": "2b1b3385b553b7d3d46523cd9be43144fbf3cd3f315efef056d40b159c85b27a"
+    },
+    {
+      "path": "kontakt/books/book-07/ai-prompts/08-BOOK-RECONCILE.md",
+      "sha256": "b855c2069676a13fef39a47642d8f215069d9e44b66bccd1bbc4ad064e9acc3e"
+    },
+    {
+      "path": "kontakt/books/book-07/ai-prompts/02-SCENE-CARDS.md",
+      "sha256": "a686275ef1491f3dc30a67d39ad1407b7c13f7d11e0af9c81388e059841ca6ee"
+    },
+    {
+      "path": "kontakt/books/book-07/ai-prompts/04-WRITE-CHAPTER.md",
+      "sha256": "76da5c5060c0a8326eb95d85194e5c321c2ad5cfc38aa7b07e38ead07c14d18d"
+    },
+    {
+      "path": "kontakt/books/book-08/motifs.planned.json",
+      "sha256": "93be8564c20f6af56545d5788ec994026e7964f8f223808dd7fda3b94a199b48"
+    },
+    {
+      "path": "kontakt/books/book-08/CARRY-IN-FROM-BOOK-07.md",
+      "sha256": "6841ddeb591911b5a6a76ae3716caf44098691fa01d2deeb8e160b1f083d0613"
+    },
+    {
+      "path": "kontakt/books/book-08/WAR-ETHICS-AND-PRIVACY.md",
+      "sha256": "579c8317784bd4ca66075ab19f3af7312d658a70ce63d55e6c35e12def0415e3"
+    },
+    {
+      "path": "kontakt/books/book-08/knowledge.planned.json",
+      "sha256": "bd82fb567e841202a5cb86cd81671f25ec4a61cb297bae88c3db4ab556d21d41"
+    },
+    {
+      "path": "kontakt/books/book-08/characters.planned.json",
+      "sha256": "a328557405d5bfb454e82b4b6fabdf51b30236dbe1bdb0b68bedd8c7fa6a29b2"
+    },
+    {
+      "path": "kontakt/books/book-08/BOOK-08-ARCHITECTURE-LOCK.md",
+      "sha256": "c782b692fe8bda75f5864780133c88ba233d6092a4421ee090093691cd9167e7"
+    },
+    {
+      "path": "kontakt/books/book-08/NEXT-STEP.md",
+      "sha256": "78f28f014d3632401a29da698983ecef6317a81497ce768527e30b309133cf5c"
+    },
+    {
+      "path": "kontakt/books/book-08/architecture.json",
+      "sha256": "8739faef919a1e1f806e1027b5f2249b6e813300f1f93d8f290f264b4ef4ab4e"
+    },
+    {
+      "path": "kontakt/books/book-08/RESONANCE-INTEGRATION.md",
+      "sha256": "248eea5d8403a792efe4ecb26aef9b4e28ccd247e631836c36feeef060af2170"
+    },
+    {
+      "path": "kontakt/books/book-08/QUALITY-GATES.md",
+      "sha256": "1276cb771e3d4b4a11222b535127fab4452147f1c6371276f185db0e20412af9"
+    },
+    {
+      "path": "kontakt/books/book-08/MERA-MECHANICS.md",
+      "sha256": "1841f4ae82b6d1fe67bd932c382aa8de9a7ad7e8d2559a9ca6b6a4133ee4cdec"
+    },
+    {
+      "path": "kontakt/books/book-08/AI-RUNBOOK.md",
+      "sha256": "f8699878f7dea088642df8d37f39e5ff0517bd9c49d8b7c8202f05ce076c3676"
+    },
+    {
+      "path": "kontakt/books/book-08/CONTEXT-CAPSULE.md",
+      "sha256": "3a9e2c33dc96a8e8105e2eae3213200a3e4835956cd1d15d028be6cc561d3b83"
+    },
+    {
+      "path": "kontakt/books/book-08/end-state.planned.json",
+      "sha256": "1f6add4c13baac424313f2dd1849c823474ff96badd174a9969f7c52e96d4b95"
+    },
+    {
+      "path": "kontakt/books/book-08/timeline.planned.json",
+      "sha256": "27b5509177089c60415e0c7d733d07074cc369f9aef93c5bd4718349f260aa7f"
+    },
+    {
+      "path": "kontakt/books/book-08/promises.planned.json",
+      "sha256": "268ac233ae82f10efdcb144325f39bb5e5b961be6e0c856f7bed3dd38cbc2d6d"
+    },
+    {
+      "path": "kontakt/books/book-08/ai-prompts/00-MASTER-INSTRUCTION.md",
+      "sha256": "741589de988ee5d3cfbdba184163bd138419b16895dbf2de1a0b2e1a98328873"
+    },
+    {
+      "path": "kontakt/books/book-08/ai-prompts/05-CONTINUITY.md",
+      "sha256": "9c4e965979eabcf47e1ee376dc7467d9fea5f0ed1bdbe93458ed6f46dbee4fde"
+    },
+    {
+      "path": "kontakt/books/book-08/ai-prompts/07-SEQUENCE-RECONCILE.md",
+      "sha256": "1f318a5e14d2bbd38da358baedfc4c15fe9bb3f4730f776bb86caf201eb0b1d4"
+    },
+    {
+      "path": "kontakt/books/book-08/ai-prompts/01-CHAPTERIZE-SEQUENCE.md",
+      "sha256": "292f54048e85d07bbd3d072071c54dc408f2fe3e1da3fce4d44439f53589f018"
+    },
+    {
+      "path": "kontakt/books/book-08/ai-prompts/06-REVISE.md",
+      "sha256": "839398a1938d16674d3094694560ef0f25d2efe523f4090c9af993e0575475f9"
+    },
+    {
+      "path": "kontakt/books/book-08/ai-prompts/03-ARCH-CHECK.md",
+      "sha256": "dfe29187bb40546e78d65d498d05aa8c1ede9657e514cee17c843688eff3873d"
+    },
+    {
+      "path": "kontakt/books/book-08/ai-prompts/08-BOOK-RECONCILE.md",
+      "sha256": "671b075334887140d25007467b6677dfea20b02edd1bd200aa924173c5a69261"
+    },
+    {
+      "path": "kontakt/books/book-08/ai-prompts/02-SCENE-CARDS.md",
+      "sha256": "3a59ad5215fb1b4af0ee21147e60edfb43f6dfd2446d0f6729379d0df988ed89"
+    },
+    {
+      "path": "kontakt/books/book-08/ai-prompts/04-WRITE-CHAPTER.md",
+      "sha256": "336664f5015c3d99f73523613809e2244d40de2cfb7c58e9ce5def002a87a41e"
+    }
+  ]
+}

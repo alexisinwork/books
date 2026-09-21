@@ -1,0 +1,49 @@
+{
+  "renderer": "docx-preview/Chromium; not native Word",
+  "pdf_sha256": "6e6a6cd7767572816a2bf0d1058fc670343907f394714d3ad29df0ffebbe2f6f",
+  "pages": 6,
+  "text_matches_docx_ignoring_layout_whitespace": true,
+  "page_checks": [
+    {
+      "page": 1,
+      "words": 354,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 2,
+      "words": 312,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 3,
+      "words": 348,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 4,
+      "words": 362,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 5,
+      "words": 418,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 6,
+      "words": 303,
+      "out_of_bounds": 0,
+      "blank": false
+    }
+  ],
+  "visual_review": {
+    "status": "passed",
+    "scope": "all six pages inspected in contact sheet, title/paragraphs/scene breaks/quoted messages; no visible clipping or blank pages",
+    "limitation": "docx-preview/Chromium, not native Word pagination"
+  }
+}

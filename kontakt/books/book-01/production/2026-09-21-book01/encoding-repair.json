@@ -1,0 +1,47 @@
+{
+  "issue": "PowerShell pipe default encoding replaced newly authored Cyrillic with ASCII question marks",
+  "affected": "new service files only, no chapter1 prose; caught before reviewer invocation",
+  "repair": "explicit UTF8 OutputEncoding, recreated Cyrillic, readback and Desktop exact copy verification",
+  "files": [
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/authorization.md",
+      "damaged_copy_sha256": "ed3f9d0865f9dfb9b7956f753f6589efb5e043994c17dd3a038d7802a71914e8",
+      "restored_sha256": "326836ec34d11f3ebe4fe28f271996c6d4c086bfe3d2669356ad3b4f941d67fa"
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json",
+      "damaged_copy_sha256": "bfda493b4c3a2df1ec0a7562f94d2745b4dfc44ed8250b1a7559d95f206e3aec",
+      "restored_sha256": "206a5e734f5a66562447d397c8c11e388613e449ddbed3d0d4ea7b54eaab3e5d"
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md",
+      "damaged_copy_sha256": "d6f4274d6911ed136505efccb1c2039293712732ab41c244aa4e74618f656640",
+      "restored_sha256": "038ad5c4382a1abcf11bec35bda05d2569fc5e16cd95fa119ed60d4a42a08dd0"
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/tools/build-reader.py",
+      "damaged_copy_sha256": "e29b084aae525a75287bb9e2d94e0cf16fd4d28b3da1e641641d936364087412",
+      "restored_sha256": "5af754e64cd900f6ab34a882c5d6a98b7e3236623faf9546910a70d8501d1017"
+    },
+    {
+      "path": "kontakt/books/book-01/execution/HANDOFF-CH02.md",
+      "damaged_copy_sha256": "460b4947a13f499112ca59a55634fba74512ea50c6ec0985304ef17936e72532",
+      "restored_sha256": "d31ddd93cc230d51a44df795c1ea44e0b95fe311a0f2dc0e9aa7cb090116d625"
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/checks/prompts/flash.md",
+      "damaged_copy_sha256": "1899339fb9f23b322100ac5b483b0aeea8c0cf4cfb5c88a038857172315ed9bc",
+      "restored_sha256": "cbc99dbdc4905cba9659017a956023472a2324861435b3bb006dbcf3860da610"
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/checks/prompts/opus.md",
+      "damaged_copy_sha256": "4f6dce84070665e07b09f2958c770cb5b067c0d23d97c96e38c423568aa7b656",
+      "restored_sha256": "039f52b11b446d9557a06f0941454f02b075173ba169f1891e2a7572be096e63"
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/checks/prompts/pro.md",
+      "damaged_copy_sha256": "bf21c10cc41e7d9155763c95273cf86a7f7dbc02bf5d20c0458f14f4f3fd48bb",
+      "restored_sha256": "97310034ea16fe4fa01dbde5696ab56b1cc4b5fc2626ecf2c371855383df4d1f"
+    }
+  ]
+}

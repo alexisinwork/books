@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "run_id": "ch02-20260921-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "2",
+          "anchor": "P0083",
+          "quote": "Дозвіл Майї на перегляд не є вашою довіреністю на результат"
+        }
+      ],
+      "observation": "Розмова кілька разів повертається до вже встановленої межі.",
+      "reader_effect": "Процедурна густота після глави 1 може послабити відчуття нового кроку.",
+      "evidence": {
+        "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+        "quotes_verified": true,
+        "note": "Reader/prose judgement, not automatic normative ban"
+      },
+      "proposed_actions": [
+        "Розглянути скорочення одного обміну без нового ходу Гора.",
+        "Зберегти, якщо повільна торгівля межею потрібна голосу."
+      ],
+      "dependencies": [],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "claude",
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "2",
+          "anchor": "P0095",
+          "quote": "де мене можна натиснути"
+        }
+      ],
+      "observation": "Метафора натискання на людину допускає два прочитання: інженерна кнопка або пропущений прийменник.",
+      "reader_effect": "Частина читачів спіткнеться об керування.",
+      "evidence": {
+        "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+        "quotes_verified": true,
+        "note": "Reader/prose judgement, not automatic normative ban"
+      },
+      "proposed_actions": [
+        "Зберегти образ кнопки як властивість голосу Даля.",
+        "Для нейтральної ясності: де на мене можна натиснути."
+      ],
+      "dependencies": [],
+      "agreement": "convergent",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "claude",
+        "gemini_flash"
+      ],
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "2",
+          "anchor": "P0155",
+          "quote": "Перечитав."
+        }
+      ],
+      "observation": "Побутові однофразові абзаци мають ту саму графічну вагу, що й сильні Мою / Свою.",
+      "reader_effect": "Ударні моменти можуть втратити частину контрасту.",
+      "evidence": {
+        "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+        "quotes_verified": true,
+        "note": "Reader/prose judgement, not automatic normative ban"
+      },
+      "proposed_actions": [
+        "Об’єднати окремі побутові абзаци, зберігши кульмінаційні.",
+        "Залишити поточний короткий ритм."
+      ],
+      "dependencies": [],
+      "agreement": "convergent",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "2",
+          "anchor": "P0176",
+          "quote": "О 16:20 я мав прийти на умовах Майї."
+        }
+      ],
+      "observation": "Час підтверджений, адреса наступної зустрічі в цій главі ще не названа.",
+      "reader_effect": "На початку глави 3 потрібне зрозуміле походження маршруту.",
+      "evidence": {
+        "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+        "quotes_verified": true,
+        "note": "Reader/prose judgement, not automatic normative ban"
+      },
+      "proposed_actions": [
+        "Показати, як Майя надіслала адресу, до прибуття у главі 3.",
+        "За окремої редактури додати домовленість про місце до глави 2."
+      ],
+      "dependencies": [
+        "chapter 3 arrival"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "2",
+          "anchor": "P0083",
+          "quote": "довіреністю на результат"
+        }
+      ],
+      "observation": "Нетипова сполучуваність професійного терміна.",
+      "reader_effect": "Може зчитуватися як навмисний жаргон або неточність.",
+      "evidence": {
+        "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+        "quotes_verified": true,
+        "note": "Reader/prose judgement, not automatic normative ban"
+      },
+      "proposed_actions": [
+        "Зберегти як стислу професійну метафору.",
+        "Уточнити: довіреністю на визначення результату."
+      ],
+      "dependencies": [],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "2",
+          "anchor": "P0045",
+          "quote": "скільки зусилля коштувало йому"
+        }
+      ],
+      "observation": "Однина абстрактного зусилля звучить незвично для частини читачів.",
+      "reader_effect": "Локальна мовна шорсткість, без зміни події.",
+      "evidence": {
+        "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+        "quotes_verified": true,
+        "note": "Reader/prose judgement, not automatic normative ban"
+      },
+      "proposed_actions": [
+        "Розглянути: скільки зусиль коштувало йому.",
+        "Зберегти одиничне тривале зусилля як предметне відчуття."
+      ],
+      "dependencies": [],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

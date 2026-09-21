@@ -1,0 +1,48 @@
+{
+  "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+  "scope": "chapter2, complete 176-block text and preceding chapter1 continuity; not full-volume audit",
+  "status": "chapter_checks_completed_with_six_pending_editorial_proposals",
+  "source_unchanged_after_reviews": true,
+  "structural": "locked Astra full chapter diagnosis",
+  "independent_reviews": {
+    "astra": "bb7a6db4077a6fb74f9ed90f7d970acb39f603d29850956c635bd63d2ca0d3a9",
+    "claude": "69372914b217148accf801cfaa1a1af4dea0002afb5882f70c6303a4a4e47a24",
+    "gemini_flash": "bbb04a84fc0d74c84f294006a5ad9d0d364d892fda1b12a8754fd685b8c0a7dc",
+    "gemini": "e9df68a7763c582c80357b22a85074d0fd66bc41512c89bf8f3c39e5672f27ac"
+  },
+  "reconciliation": "f5d406430982f71202459d59e502625ca88d4fbc5baeb1e30e8f3d1ac3ec693e",
+  "model_backend_attestation": "configured/requested selectors and agy init metadata only",
+  "language_scans": {
+    "language_qa": "no configured signals, 351 physical lines/176 nonempty",
+    "naturalness": "no configured signals; human grammar checker not run",
+    "literary_language": "full model readings, checked quotations; several blanket Flash claims not adopted"
+  },
+  "docx": {
+    "extraction": "exact match",
+    "pages": 6,
+    "pdf_text": "exact ignoring layout whitespace",
+    "visual": "all six pages inspected",
+    "renderer": "docx-preview/Chromium; native Word/LibreOffice unavailable"
+  },
+  "original_sources": {
+    "checked": 15,
+    "errors": []
+  },
+  "macro_integrity": {
+    "files": 185,
+    "result": "unchanged"
+  },
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "no selected masters, expected"
+  },
+  "remaining": [
+    "Six pending optional/editorial choices, no source revision applied",
+    "Chapter3 must show Maya supplying meeting location",
+    "Gor knowledge of template authorship is unproven reader inference",
+    "Author-approved Ukrainian samples absent",
+    "Native Word render not run; browser DOCX preview verified",
+    "Complete volume and global audit still in progress"
+  ]
+}
