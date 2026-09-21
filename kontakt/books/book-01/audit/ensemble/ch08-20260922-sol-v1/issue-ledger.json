@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "run_id": "ch08-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "ab47878a64ca69a60bc750bf244a886c984b217adc3e7df41545208314853986",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "8",
+          "anchor": "P0022",
+          "quote": "— Ви хочете сильніше прибрати оригінал?"
+        }
+      ],
+      "observation": "«Сильніше прибрати оригінал» може припускати вже наявне приховування або неясний ступінь дії.",
+      "reader_effect": "Локальна ясність, голос або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source anchors checked; checks/reviewer-claim-validation.md separates claims from facts.",
+      "proposed_actions": [
+        "Залишити живе скорочене запитання або уточнити запропоноване віддалення оригіналу без реткону попереднього режиму."
+      ],
+      "dependencies": [
+        "CH08 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "multiple_or_differing_reactions",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra",
+        "claude",
+        "gemini_flash"
+      ],
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "8",
+          "anchor": "P0030",
+          "quote": "— До вісімнадцятої, — сказала вона. — Для повідомлень і живих розмов. Оригінал завжди видно. Жодних чернеток відповіді. Відкласти, відмовитися або не відповідати я можу сама."
+        },
+        {
+          "chapter": "8",
+          "anchor": "P0037",
+          "quote": "— Застосовую до вісімнадцятої, — сказала вона."
+        },
+        {
+          "chapter": "8",
+          "anchor": "P0043",
+          "quote": "— Воно змінює підтримуваний режим, тож учорашня реакція більше не буде прямою точкою порівняння."
+        },
+        {
+          "chapter": "8",
+          "anchor": "P0052",
+          "quote": "— Залишаємо до вісімнадцятої? — спитав Тихон."
+        },
+        {
+          "chapter": "8",
+          "anchor": "P0056",
+          "quote": "— Після тимчасового посилення ми не зможемо порівнювати наступну реакцію з учорашньою, — сказав я."
+        },
+        {
+          "chapter": "8",
+          "anchor": "P0085",
+          "quote": "> 17:00. Та сама адреса. Одне запитання, одна спроба до двох хвилин. Решта умов — як я сказала. Підтвердження перед початком."
+        },
+        {
+          "chapter": "8",
+          "anchor": "P0086",
+          "quote": "Я додав зустріч у розклад. У полі мети написав: «слухати»."
+        },
+        {
+          "chapter": "8",
+          "anchor": "P0088",
+          "quote": "Залишив поле порожнім."
+        }
+      ],
+      "observation": "Повтори строку/зіставлення/умов і фінал із порожнім полем можуть накопичувати процедурний ритм; функції кожного різні.18:00 названо тричі, не чотири.",
+      "reader_effect": "Локальна ясність, голос або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source anchors checked; checks/reviewer-claim-validation.md separates claims from facts.",
+      "proposed_actions": [
+        "У блоці6–10 перевірити функцію повторів. Скоротити тільки надлишкове; зберегти межі дляCH09. Pro та Opus позитивно сприйняли фінал."
+      ],
+      "dependencies": [
+        "CH08 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "multiple_or_differing_reactions",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "8",
+          "anchor": "P0008",
+          "quote": "Тихон приєднався рівно о пів на одинадцяту. Цього разу світло в нього було рівним. Він подивився спочатку на Майю, потім на позначку мого підключення."
+        },
+        {
+          "chapter": "8",
+          "anchor": "P0010",
+          "quote": "Майя відповіла. Я кивнув і одразу зрозумів, що кивок був зручнішим за голос."
+        },
+        {
+          "chapter": "8",
+          "anchor": "P0041",
+          "quote": "Тихон подивився на мене."
+        }
+      ],
+      "observation": "Позначка підключення може спершу навіяти audio-only, хоча вимкнення камери не стверджене.",
+      "reader_effect": "Локальна ясність, голос або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source anchors checked; checks/reviewer-claim-validation.md separates claims from facts.",
+      "proposed_actions": [
+        "За бажання уточнити індикатор поруч із відео; або лишити умовність AV-погляду. Не додавати чужих приватних даних."
+      ],
+      "dependencies": [
+        "CH08 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "imagery",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "8",
+          "anchor": "P0012",
+          "quote": "Не «що сталося». Не «що зробив Даль». Я встиг підготувати відповідь на обидва запитання й не мав куди її поставити."
+        }
+      ],
+      "observation": "«Не мав куди її поставити» просторово моделює готову відповідь; Flash сумнівається у сполучуваності, Opus хвалить образ.",
+      "reader_effect": "Локальна ясність, голос або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source anchors checked; checks/reviewer-claim-validation.md separates claims from facts.",
+      "proposed_actions": [
+        "Зберегти інженерну метафору або зробити розміщення відповіді яснішим; ярлик кальки не доведений."
+      ],
+      "dependencies": [
+        "CH08 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "multiple_or_differing_reactions",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "8",
+          "anchor": "P0035",
+          "quote": "У каналі з’явилася тільки службова позначка: «Картку надіслано користувачці». Самого тексту я не бачив. Умови знав із того, що Тихон запропонував уголос і Майя погодила вголос. Доступу до її налаштувань картка не давала."
+        }
+      ],
+      "observation": "Уголос/вголос повторюють один спосіб повідомлення в сусідніх частинах речення.",
+      "reader_effect": "Локальна ясність, голос або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source anchors checked; checks/reviewer-claim-validation.md separates claims from facts.",
+      "proposed_actions": [
+        "За бажання лишити одне уточнення, зберігши джерело знання Даля: він чув, не читав картку."
+      ],
+      "dependencies": [
+        "CH08 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "8",
+          "anchor": "P0051",
+          "quote": "Слово не потребувало мого виправлення. Посилений режим справді зробив те, чого не зробила моя точність: відділив мій професійний інтерес від її обов’язку відповідати на нього."
+        }
+      ],
+      "observation": "Після слів Майї Даль ще раз явно пояснює вже показану користь допомоги.",
+      "reader_effect": "Локальна ясність, голос або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source anchors checked; checks/reviewer-claim-validation.md separates claims from facts.",
+      "proposed_actions": [
+        "Можна скоротити другу частину після двокрапки або залишити характерну аналітичну фіксацію; не прибирати визнання користі."
+      ],
+      "dependencies": [
+        "CH08 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "exposition",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "8",
+          "anchor": "P0027",
+          "quote": "Я знав такий режим. Його використовували після перевантаження, коли навіть коротка затримка допомоги змушувала людину спершу самостійно пройти весь шлях до найгіршого читання. Він не робив репліки добрішими. Тільки не залишав користувачку наодинці з першою версією."
+        }
+      ],
+      "observation": "Пояснення шляху до найгіршого прочитання абстрактніше за сусідні репліки.",
+      "reader_effect": "Локальна ясність, голос або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source anchors checked; checks/reviewer-claim-validation.md separates claims from facts.",
+      "proposed_actions": [
+        "За бажання стиснути підрядну частину або конкретизувати досвід; зберегти користь і межі режиму."
+      ],
+      "dependencies": [
+        "CH08 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "style",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "8",
+          "anchor": "P0055",
+          "quote": "Я відчув полегшення раніше, ніж роздратування. Роздратування виявилося професійнішим і тому швидко знайшло слова."
+        }
+      ],
+      "observation": "Причинне «і тому» у самоіронічному реченні може надто явно закрити внутрішнє тертя.",
+      "reader_effect": "Локальна ясність, голос або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source anchors checked; checks/reviewer-claim-validation.md separates claims from facts.",
+      "proposed_actions": [
+        "Залишити суху самоіронію або послабити причинний сполучник; суто смаковий вибір."
+      ],
+      "dependencies": [
+        "CH08 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "style",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "8",
+          "anchor": "P0070",
+          "quote": "Другий палець."
+        }
+      ],
+      "observation": "«Другий палець» — різко урізаний опис жесту, що може сприйматися як зайва телеграфність.",
+      "reader_effect": "Локальна ясність, голос або ритм; не встановлений блок продовження.",
+      "evidence": "Exact source anchors checked; checks/reviewer-claim-validation.md separates claims from facts.",
+      "proposed_actions": [
+        "Залишити ритмічний кадр або додати дієслово; не збільшувати кількість умов/пальців."
+      ],
+      "dependencies": [
+        "CH08 future revision",
+        "block6–10 and whole-volume review"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

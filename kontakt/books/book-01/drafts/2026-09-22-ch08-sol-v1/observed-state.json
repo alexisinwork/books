@@ -1,0 +1,124 @@
+{
+  "book_id": "book-01",
+  "status": "observed_in_working_draft_not_canonical",
+  "source": {
+    "path": "chapter-08.md",
+    "sha256": "ab47878a64ca69a60bc750bf244a886c984b217adc3e7df41545208314853986"
+  },
+  "previous": {
+    "path": "../2026-09-21-ch07-sol-v1/observed-state.json",
+    "prose_sha256": "8fde472151c5c74cf58388f98980016f10875750bee9ee163b405125bf55490a"
+  },
+  "revision": {
+    "first_save": "chapter-08.preflight.md",
+    "old_sha256": "923a2fb5efe1a21ce25e4845e17bbe78ab0c5f7551a2ded244b9766cf05bb2c5",
+    "reason": "Preflight before diagnoses: visible gesture, private card/UI, repeated teacher phrase, baseline comparability wording; original handoff causal wording corrected explicitly",
+    "diff": "preflight-changes.diff"
+  },
+  "scenes": [
+    {
+      "id": "B01-S03-C08-S01",
+      "anchors": "P0002-P0025",
+      "events": [
+        "D4 Maya10:24 invitation to shared AV conversation only, no files/profile grant. Dal joins from work about10:25, Maya kitchen, Tikhon10:30.",
+        "Tikhon asks Maya current goal; with her permission repeats short content of her unseen message: she stopped previous window and burden lasted through evening.",
+        "She describes scanning hidden demands before delayed neutral interpretation. Dal does not provide case materials."
+      ]
+    },
+    {
+      "id": "B01-S03-C08-S02",
+      "anchors": "P0026-P0059",
+      "events": [
+        "Tikhon proposes simultaneous neutral reading plus manually opened response field; Maya chooses until18:00 for messages/live conversations, originals visible, no drafts/sending, retains refusal and rollback.",
+        "Tikhon sends private local rule card, Maya applies locally; only delivery/application statuses shared, no profile/history/card content visible to Dal.",
+        "Maya separately permits supported demonstration. Dal states loss of prior comparison baseline; she reads neutral interpretation aloud and says she opens response herself.",
+        "Maya calls help useful; Dal acknowledges benefit but repeats methodological objection; Tikhon rejects making loss her duty."
+      ]
+    },
+    {
+      "id": "B01-S03-C08-S03",
+      "anchors": "P0060-P0088",
+      "events": [
+        "Maya wants one further attempt today to test whether pause with Dal can remain unmeasured/unexplained, not endurance without neutral reading.",
+        "SetsD4 17:00 same home, one attempt<=120sec, utilityon, noGor/Tikhon, one question hers, noDalquestions/nointerpretationofsilence/no graph/nootherprofilechanges, fresh consent before start.",
+        "Voice stop or time boundary restores newly strengthened mode immediately, no additional seconds.",
+        "Tikhon affirms her decision and cancellation if burden persists or simply changed mind; stabilization remains separate.",
+        "Maya ends call; one minute later sends separate invitation restating terms. Dal writes then deletes listen goal in schedule. No window performed."
+      ]
+    }
+  ],
+  "timeline": {
+    "entry": "D4 10:24 invitation; Dal joins approx10:25; Tikhon10:30",
+    "consultation_end": "D4 unspecified clock; separate Maya invitation one minute later",
+    "stabilization_expiry": "D4 18:00",
+    "next_appointment": "D4 17:00 Maya same address; fresh confirmation required"
+  },
+  "knowledge": {
+    "Dal_and_reader": [
+      "Maya reports D3 burden lasted hours; exact unseen message not fully known",
+      "Proposed stabilization terms heard aloud, card private; effect known through her statements, not private UI inspection",
+      "All spoken future-window conditions and subsequent personal invitation"
+    ],
+    "Maya": [
+      "Tikhon proposal and actual private local card",
+      "Dal accepts future limits but wants comparable reaction; current assistance useful by her report"
+    ],
+    "Tikhon": [
+      "D2 general female-user procedure question already known",
+      "Maya supplied own message; short permitted part now heard by Dal, rest unseen",
+      "Hears future17:00 conditions and Gor name/exclusion; knows no attendance for himself",
+      "No source for exact prior68sec,13auditrows, address or Gor control history"
+    ],
+    "Gor": [
+      "No new information supplied inCH08"
+    ],
+    "not_established": [
+      "Clinical diagnosis/trauma",
+      "Paid contract",
+      "Any new profile/history grant",
+      "System knowledge of private conversation",
+      "Actual second-window start orR1"
+    ]
+  },
+  "resources": {
+    "resonance": "R0",
+    "employment": "unchanged",
+    "Ballast": "absent",
+    "direct_window": "none active; second scheduled not started",
+    "emotional_mediation": "temporary strengthened mode locally applied byMaya until18:00",
+    "utility": "active; explicitly retained in later attempt",
+    "profile_access": "none; local user action not delegated access",
+    "Tikhon_access": "conversation and rule application confirmation only; no history/profile reading",
+    "Dal_view": "shared participants/statuses, speech; private card/responseUI not visible"
+  },
+  "draft_local_proposals": [
+    "AV invitation10:24 and visible kitchen background",
+    "Reported D3 residual hidden-demand scanning until evening",
+    "Local temporary rule simultaneous interpretation/manual reply field until18:00",
+    "Supported demonstration and exact one-question120sec future attempt17:00",
+    "Appointment goal written then erased"
+  ],
+  "promises": {
+    "developed": [
+      "S03 stabilization actually useful withMaya separate decision",
+      "Maya-authored bridge toS04"
+    ],
+    "withheld": [
+      "S04 R1/visibility/Ballast",
+      "S05 parameter violation",
+      "S06 oldGorlogs",
+      "S07 wholeinterventioncontinuationterms",
+      "S08 Nina truth/longwindow",
+      "Series origin"
+    ]
+  },
+  "forward_dependencies": [
+    "Fresh consent before17:00start; restoration control must remain usable byMaya",
+    "Restore newly strengthened mode onstop/120sec, not prior weaker mode",
+    "One question fromMaya; noDalquestions, graph, interpreted silence or extra parameter change",
+    "NoGor/Tikhon attendance; utilitieson",
+    "R1 actualcontact notUIrank; Lad onlypredictors/consequences",
+    "18:00 expiry must be respected in laterD4continuity"
+  ],
+  "checks_status": "Four independent readings and reconciliation locked;9 pending proposals; not canonical master"
+}

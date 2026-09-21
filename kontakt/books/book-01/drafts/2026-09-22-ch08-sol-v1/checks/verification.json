@@ -1,0 +1,48 @@
+{
+  "source_sha256": "ab47878a64ca69a60bc750bf244a886c984b217adc3e7df41545208314853986",
+  "scope": "Complete CH08 P0001-P0088 and prior continuity; not full volume",
+  "status": "four_independent_readings_and_reconciliation_completed_with_nine_pending_proposals",
+  "source_unchanged_after_reviews": true,
+  "independent_reviews": {
+    "astra": "09b93bca3b2c3d2385f992d4fbf7d021d43ca81cb9ee3d0dd6b353e4a169d9de",
+    "claude": "fef305b6ce7fcd0708b079035651a95efba9949aee6ac8b42ad15edb38b7bf7e",
+    "gemini_flash": "cbd876b7aa53231794b74711375592e82743ff8f88ab9adb3f09d2994906590b",
+    "gemini": "b5ed3abaff5de6f5a28f72a0f65f156f2d352cd663574d126940749616494d48"
+  },
+  "reconciliation": "0c9f0e8285421d2c48c3fd293285fc878a5208174b8205018dddc0ee0e7066cb",
+  "ensemble_integrity": "verify passed",
+  "verdicts": {
+    "astra": "PASS",
+    "claude": "PASS",
+    "gemini_flash": "PASS",
+    "gemini": "positive cold-reader diary; would read on; editor verdict not requested"
+  },
+  "model_backend_attestation": "requested selectors/init metadata only",
+  "language_scans": {
+    "language_qa": "zero configured signals;175physical lines88nonempty1029lexical",
+    "naturalness": "zero configured signals; separate grammar checker not run",
+    "literary_language": "four complete readings; exact claims validated separately; no external normative lookup in this chapter"
+  },
+  "docx": {
+    "extraction": "exact match",
+    "pages": 4,
+    "pdf_text": "matches ignoring layout whitespace",
+    "visual": "all4pages inspected; no clipping/blank; short35word final page retained",
+    "renderer": "docx-preview/Chromium; not native Word/publication typesetting"
+  },
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "no selected masters expected"
+  },
+  "versions": {
+    "first_prose": "923a2fb5efe1a21ce25e4845e17bbe78ab0c5f7551a2ded244b9766cf05bb2c5",
+    "first_notes": "e611763f58a6ab6f458d971996784ba8766008c77aa12247fe962e006ac077f3",
+    "diff": "1a5db7fb5440482d1f3828289db9c72cc2161b9526458ad7039ef50c39cba1d1"
+  },
+  "remaining": [
+    "9 pending proposals not applied",
+    "CH09 second window onMaya terms/R1",
+    "Full-volume drafting and global audit pending"
+  ]
+}

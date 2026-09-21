@@ -1,0 +1,40 @@
+{
+  "renderer": "docx-preview/Chromium; not native Word",
+  "pdf_sha256": "310aa204d94f755ebb1f5d713dddac90fc447b7c3cca40e628761ee1bf9fc2fa",
+  "pages": 4,
+  "text_matches_docx_ignoring_layout_whitespace": true,
+  "page_checks": [
+    {
+      "page": 1,
+      "words": 376,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 2,
+      "words": 374,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 3,
+      "words": 330,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 4,
+      "words": 35,
+      "out_of_bounds": 0,
+      "blank": false
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "contact.png",
+      "first_page": 1,
+      "last_page": 4
+    }
+  ],
+  "visual_review": "All4pages inspected in contact sheet; no clipping or blank pages. Short35word final page retained with standard reading-copy spacing; not native Word/publication typesetting."
+}

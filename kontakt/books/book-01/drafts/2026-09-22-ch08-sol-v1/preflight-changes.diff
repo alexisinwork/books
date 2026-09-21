@@ -1,0 +1,120 @@
+diff --git a/kontakt/books/book-01/drafts/2026-09-22-ch08-sol-v1/chapter-08.preflight.md b/kontakt/books/book-01/drafts/2026-09-22-ch08-sol-v1/chapter-08.md
+index 5ce1344..e44d56b 100644
+--- a/kontakt/books/book-01/drafts/2026-09-22-ch08-sol-v1/chapter-08.preflight.md
++++ b/kontakt/books/book-01/drafts/2026-09-22-ch08-sol-v1/chapter-08.md
+@@ -36,7 +36,7 @@
+ 
+ — Що саме доводилося робити кілька годин? — спитав він.
+ 
+-Майя провела пальцем по краю стола, який я не бачив.
++Майя опустила погляд.
+ 
+ — Відділяти те, що людина сказала, від того, чого вона може від мене хотіти. Супроводження знову ставило поруч нейтральне прочитання. Але вже після того, як я сама починала шукати приховану вимогу.
+ 
+@@ -66,9 +66,9 @@
+ 
+ — Залишу тільки підтвердження. Надсилайте.
+ 
+-У каналі з’явилася коротка картка. Я бачив текст пропозиції, бо Майя дозволила залишити його спільним: одночасне нейтральне прочитання, ручне відкриття відповіді, термін до 18:00, без приховування оригіналу й без чернеток. Доступу до її налаштувань картка не давала.
++У каналі з’явилася тільки службова позначка: «Картку надіслано користувачці». Самого тексту я не бачив. Умови знав із того, що Тихон запропонував уголос і Майя погодила вголос. Доступу до її налаштувань картка не давала.
+ 
+-Майя прочитала кожен рядок.
++Майя мовчки читала кілька секунд.
+ 
+ — Застосовую до вісімнадцятої, — сказала вона.
+ 
+@@ -82,11 +82,11 @@
+ 
+ — Марку, скажи одним реченням, що для тебе змінює це посилення.
+ 
+-— Воно зменшує різницю між підтримуваним режимом і прямим вікном, яку я намагався оцінити.
++— Воно змінює підтримуваний режим, тож учорашня реакція більше не буде прямою точкою порівняння.
+ 
+-Майя перевела погляд на свій бік екрана. Кілька секунд читала. Поле відповіді не з’явилося.
++Майя перевела погляд на свій бік екрана. Кілька секунд читала. Я не бачив, що з’явилося на її боці.
+ 
+-— Поруч написано: «Маркові буде важче порівнювати режими. Це не означає, що я повинна зберегти йому зручні умови», — сказала вона.
++— Поруч написано: «Маркові буде важче порівнювати наступну реакцію з учорашньою. Це не означає, що я повинна зберегти йому зручні умови», — сказала вона.
+ 
+ — Це відповідає тому, що ти мав на увазі? — спитав мене Тихон.
+ 
+@@ -94,7 +94,7 @@
+ 
+ — Майє?
+ 
+-Вона торкнулася чогось поза кадром. Лише тоді перед нею з’явилася позначка готовності відповісти.
++— Я сама відкрию відповідь, — сказала Майя й торкнулася чогось поза кадром.
+ 
+ — Тепер я можу почути, що Маркові це невигідно, і не виправдовуватися, — сказала вона. — Це корисно.
+ 
+@@ -114,7 +114,7 @@
+ 
+ — Я знаю.
+ 
+-— Поки що ти це вимовив.
++— Тоді не роби цю втрату її обов’язком.
+ 
+ Майя подивилася на мене.
+ 
+@@ -173,4 +173,3 @@
+ Потім стер.
+ 
+ Залишив поле порожнім.
+-
+diff --git a/kontakt/books/book-01/drafts/2026-09-22-ch08-sol-v1/writer-notes.preflight.md b/kontakt/books/book-01/drafts/2026-09-22-ch08-sol-v1/writer-notes.md
+index 5bbdb1d..d7faa3c 100644
+--- a/kontakt/books/book-01/drafts/2026-09-22-ch08-sol-v1/writer-notes.preflight.md
++++ b/kontakt/books/book-01/drafts/2026-09-22-ch08-sol-v1/writer-notes.md
+@@ -10,6 +10,9 @@
+ 
+ ## Source revision
+ 
++- First saved prose preserved as `chapter-08.preflight.md`, SHA-256 `923a2fb5efe1a21ce25e4845e17bbe78ab0c5f7551a2ded244b9766cf05bb2c5`.
++- First saved notes preserved as `writer-notes.preflight.md`, SHA-256 `e611763f58a6ab6f458d971996784ba8766008c77aa12247fe962e006ac077f3`.
++- Exact factual/self-check patch: `preflight-changes.diff`.
+ - Previous prose: `../2026-09-21-ch07-sol-v1/chapter-07.md`.
+ - Previous prose SHA-256: `8fde472151c5c74cf58388f98980016f10875750bee9ee163b405125bf55490a` (verified).
+ - Previous observed state: `../2026-09-21-ch07-sol-v1/observed-state.json`, SHA-256 `40293ea556f08781a0a09c8b0a184218973ac4a8e433960294b3dd8f2b7fb2ec` (verified).
+@@ -31,8 +34,8 @@
+ 
+ - Proposal: until 18:00, neutral parallel reading appears simultaneously with an emotionally loaded original; the reply field opens only when Maya calls it; original content always remains visible; no reply draft, hiding or sending occurs.
+ - Scope choice: Maya herself selects the end time, applies the rule to messages and live conversations, preserves her options to postpone/refuse/not answer, and retains immediate rollback without explanation.
+-- Mechanism: Tikhon sends a local rule card rather than taking profile access. Maya reviews and applies it on her side. The shared channel shows only her allowed card text and `applied by user` confirmation; no history or profile data becomes visible to Tikhon or Dal.
+-- Demonstration: with Maya's separate agreement, Dal states that stronger support reduces the contrast he wanted to measure. Maya reads aloud the parallel neutral interpretation and manually opens her reply field.
++- Mechanism: Tikhon sends a local rule card rather than taking profile access. Maya reviews and applies it on her side. The shared channel shows Dal only the delivery marker and Maya-authorized `applied by user` confirmation; the card text, history and profile data remain private.
++- Demonstration: with Maya's separate agreement, Dal states that stronger support changes the supported baseline and removes yesterday's reaction as a direct comparison point. Maya voluntarily reads aloud the parallel neutral interpretation and says when she manually opens her reply field; Dal does not see her private interface.
+ - Effect: Maya can acknowledge Dal's professional loss without treating it as a demand that she preserve convenient test conditions. She explicitly calls the stronger support useful.
+ - Result: stabilization remains active until 18:00 by Maya's choice. Tikhon's safety position produces a real benefit and no profile access or hidden control.
+ 
+@@ -57,7 +60,7 @@
+ 
+ - Consultation format: Maya's D4 10:24 invitation shown in prose; not inferred from chapter 7.
+ - Tikhon's new case knowledge: Maya's unseen direct message plus the brief content she explicitly permits him to repeat during the call.
+-- Dal's allowed observation: the shared conversation, the rule-card text Maya leaves visible, her shared application confirmation, and the neutral reading she voluntarily reads aloud.
++- Dal's allowed observation: the shared conversation, rule-card delivery marker, Maya's shared application confirmation, and the neutral reading she voluntarily reads aloud. He does not see the card or her private reply interface.
+ - Stabilization action: Maya's explicit spoken scope and her local application; the consultation invitation alone does not authorize it.
+ - Later-window purpose and conditions: Maya's own spoken decision and separate written invitation.
+ 
+@@ -71,6 +74,15 @@
+ - D4 17:00 at Maya's same address; maximum two minutes and the detailed one-question/no-graph/no-interpretation conditions.
+ - Dal briefly writes and deletes `слухати` from the appointment purpose field.
+ 
++## Preflight revisions
++
++- Preserved source and notes: `chapter-08.preflight.md`, `writer-notes.preflight.md`.
++- Exact patch: `preflight-changes.diff`.
++- Removed Dal's impossible observation of an unseen table edge.
++- Kept the stabilization card and Maya's reply interface private; Dal sees only the explicitly shared delivery/application markers and what Maya says aloud.
++- Corrected the causal wording: stronger support changes the supported baseline and comparability; it does not demonstrably reduce the contrast with an unmediated window.
++- Replaced the repeated `поки що` lesson formulation with a direct response specific to this scene.
++
+ ## Forward dependencies
+ 
+ - Chapter 9 begins later D4 before 17:00 or at arrival; the second window has not begun and requires Maya's fresh confirmation.
+@@ -90,5 +102,5 @@
+ - Control checked: Maya applies the local rule herself; Tikhon and Dal receive no profile access; originals and refusal remain available.
+ - Effect checked: stronger support changes a current exchange and is useful to Maya; it is not merely a notification timer.
+ - Future attempt checked: concrete motive, time, place and limits established; no direct window starts in this chapter and fresh confirmation remains required.
+-- Props/interfaces checked: Dal's clean paper is removed before the call; Maya's kitchen jar/bowl remain background only; shared card appears after permission and exposes no hidden data.
++- Props/interfaces checked: Dal's clean paper is removed before the call; Maya's kitchen jar/bowl remain background only; only card delivery/application markers are shared, while the card and Maya's reply interface remain private.
+ - No Gor message, second window, R1, Ballast, Nina reveal, old Gor logs, Lad-origin reveal, technical failure, metadata edit or chapter 9 prose.
