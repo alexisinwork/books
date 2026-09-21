@@ -711,6 +711,177 @@
       "review_run": "audit/ensemble/ch03-20260921-sol-v1",
       "author_decision": "pending",
       "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH04-SOL-V1-ENS-001",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "observation": "Після «Ви тягнете час» стоїть «кому саме воно належало». Для часу потрібен чоловічий рід; іншого близького референта середнього роду не названо. Opus припускає неназване право/рішення, але це не встановлений авторський намір.",
+      "anchors": [
+        {
+          "chapter": "4",
+          "anchor": "P0010",
+          "quote": "> Ви тягнете час."
+        },
+        {
+          "chapter": "4",
+          "anchor": "P0011",
+          "quote": "Цього разу я не став пояснювати, кому саме воно належало."
+        }
+      ],
+      "dependencies": [
+        "CH04 future revision"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
+      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH04-SOL-V1-ENS-002",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "observation": "«Зворотна калібровка» відрізняється від «калібрування», ужитого в попередніх главах для фахової процедури.",
+      "anchors": [
+        {
+          "chapter": "4",
+          "anchor": "P0040",
+          "quote": "> Перегляд завершено. Дані показують, що ви не лише продовжуєте режим, а й змінюєте та скасовуєте підтвердження. Вони не показують причин повернення. Якщо ви захочете перевірити саме це, я пропоную окремий короткий сеанс зворотної калібровки: обмежений час без емоційного посередництва, з вашим правом зупинити перевірку й повернути режим негайно. Це нова пропозиція, не продовження сьогоднішнього дозволу."
+        },
+        {
+          "chapter": "4",
+          "anchor": "P0049",
+          "quote": "> Узагальнене професійне запитання. Доросла користувачка свідомо підтримує глибоке емоційне посередництво. Розглядаю коротку зворотну калібровку лише за окремою згодою користувачки, з її правом зупинки. Потрібна загальна оцінка ризику до будь-якої спроби. Чи можете поговорити сьогодні?"
+        }
+      ],
+      "dependencies": [
+        "CH04 future revision",
+        "whole-volume terminology check"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
+      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH04-SOL-V1-ENS-003",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "«Я не назвав часи» може читатися як епохи; тут маються на увазі точні позначки часу.",
+      "anchors": [
+        {
+          "chapter": "4",
+          "anchor": "P0050",
+          "quote": "Імені Майї не було. Гора теж. Я не назвав часи, кількість рядків, адресу, структуру профілю або старий шаблон. Узагальнений випадок міг належати будь-кому з тих, хто обирав підтримку не вперше."
+        }
+      ],
+      "dependencies": [
+        "CH04 future revision"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
+      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH04-SOL-V1-ENS-004",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "«Після завершення заміру» можна уніфікувати з «вимірюванням». Твердження Flash, що замір у цьому значенні неодмінно суржик, не доведено: у первинних офіційних пошукових витягах є технічне вживання.",
+      "anchors": [
+        {
+          "chapter": "4",
+          "anchor": "P0052",
+          "quote": "> Можу о 18:30. До розмови не призначай сеанс. Спершу опиши протокол «стоп»: який шар повертається першим, хто його підтверджує і що ти робиш, якщо прохання зупинитися суперечить чистоті вимірювання. Якщо у відповіді є «після завершення заміру», процедура не готова."
+        }
+      ],
+      "dependencies": [
+        "CH04 future revision",
+        "whole-volume terminology check"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
+      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH04-SOL-V1-ENS-005",
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Дії без відомого мотиву пояснюються кілька разів після переліку13рядків і ще раз у листі. Opus бачить точність як свідому ціну темпу, Pro читає це як дедуктивну дію.",
+      "anchors": [
+        {
+          "chapter": "4",
+          "anchor": "P0030",
+          "quote": "Якби режим просто утримував Майю всередині, двох останніх типів могло не бути. Вона не тільки підтверджувала готову пропозицію. Вона відмовлялася від окремих підтверджень, змінювала режим і пізніше знову натискала «продовжити»."
+        },
+        {
+          "chapter": "4",
+          "anchor": "P0033",
+          "quote": "У таблиці не було напруги. Не було полегшення. Не було навіть слова «повернення». Це була моя гіпотеза, акуратно покладена поверх тринадцяти рядків."
+        },
+        {
+          "chapter": "4",
+          "anchor": "P0035",
+          "quote": "Я склав підсумок у межах сеансу: користувачка не лише продовжує чинний режим; вона змінює й скасовує окремі підтвердження, після чого пізніше знову обирає продовження. Причини дій у доступі відсутні. Висновок про примусове або автоматичне утримання з цих даних не випливає."
+        },
+        {
+          "chapter": "4",
+          "anchor": "P0036",
+          "quote": "Не випливав і висновок, що кожне повернення було вільним від впливу самого режиму."
+        },
+        {
+          "chapter": "4",
+          "anchor": "P0040",
+          "quote": "> Перегляд завершено. Дані показують, що ви не лише продовжуєте режим, а й змінюєте та скасовуєте підтвердження. Вони не показують причин повернення. Якщо ви захочете перевірити саме це, я пропоную окремий короткий сеанс зворотної калібровки: обмежений час без емоційного посередництва, з вашим правом зупинити перевірку й повернути режим негайно. Це нова пропозиція, не продовження сьогоднішнього дозволу."
+        }
+      ],
+      "dependencies": [
+        "CH01-05 block audit",
+        "CH04 future revision"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
+      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH04-SOL-V1-ENS-006",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "«У межах були тільки підтвердження» пропускає назву меж дозволу. Контекст відновлює зміст, але обидва рецензенти відчули еліпсис.",
+      "anchors": [
+        {
+          "chapter": "4",
+          "anchor": "P0013",
+          "quote": "Джерелом був її особистий контур. Отримувачем — я. Доступ відкривався рівно о десятій і закривався о десятій двадцять. Один перегляд, без права зберігати копію або передавати результат. У межах були тільки підтвердження чинного режиму від учорашнього ранку: час і тип дії — продовжити, змінити або скасувати. Без текстів, адресатів, назв функцій і керування."
+        }
+      ],
+      "dependencies": [
+        "CH04 future revision"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
+      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
     }
   ]
 }

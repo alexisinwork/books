@@ -1,0 +1,86 @@
+diff --git a/kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v1/chapter-04.md b/kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/chapter-04.md
+index 7110457..90c5ea5 100644
+--- a/kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v1/chapter-04.md
++++ b/kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/chapter-04.md
+@@ -2,7 +2,7 @@
+ 
+ Повідомлення від Гора надійшло о дев’ятій тридцять дві.
+ 
+-До початку дозволеного Майєю перегляду лишалося двадцять вісім хвилин. Я вже відкрив чисте робоче вікно й перевірив, що в ньому немає вчорашнього сеансу. Закритий доступ не ставав чинним від того, що дані стосувалися тієї самої людини.
++До початку дозволеного Майєю перегляду лишалося двадцять вісім хвилин. Я вже відкрив чисте робоче вікно й перевірив, що в ньому немає даних попереднього сеансу. Закритий доступ не ставав чинним від того, що дані стосувалися тієї самої людини.
+ 
+ Гор написав:
+ 
+@@ -94,7 +94,7 @@
+ 
+ Я відкрив професійний канал колишнього наставника. Не прикріпив жодного файлу.
+ 
+-> Узагальнений випадок. Доросла користувачка свідомо підтримує глибоке емоційне посередництво. Обмежений журнал показує продовження, зміни й скасування з подальшим поверненням; причин і змісту я не бачу. Розглядаю коротку зворотну калібровку лише за окремою згодою користувачки, з її правом зупинки. Потрібна оцінка ризику до будь-якої спроби. Чи можете поговорити сьогодні?
++> Узагальнене професійне запитання. Доросла користувачка свідомо підтримує глибоке емоційне посередництво. Розглядаю коротку зворотну калібровку лише за окремою згодою користувачки, з її правом зупинки. Потрібна загальна оцінка ризику до будь-якої спроби. Чи можете поговорити сьогодні?
+ 
+ Імені Майї не було. Гора теж. Я не назвав часи, кількість рядків, адресу, структуру профілю або старий шаблон. Узагальнений випадок міг належати будь-кому з тих, хто обирав підтримку не вперше.
+ 
+diff --git a/kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v1/writer-notes.md b/kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/writer-notes.md
+index be9066d..dff6e6e 100644
+--- a/kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v1/writer-notes.md
++++ b/kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/writer-notes.md
+@@ -10,6 +10,8 @@
+ 
+ ## Source revision
+ 
++- Immediate revision source: `../2026-09-21-ch04-sol-v1/chapter-04.md`, frozen SHA-256 `4825819ed636e166a07786bab2b2fb8a6eba747885fa9a6cc094db5f78805028`.
++- Revision basis: root factual preflight before external peer reports; no ensemble decision was read or applied.
+ - Previous prose: `../2026-09-21-ch03-sol-v1/chapter-03.md`.
+ - Previous prose SHA-256 at drafting start: `1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86` (verified).
+ - Previous observed state: `../2026-09-21-ch03-sol-v1/observed-state.json`, SHA-256 `b75f111990194f6c2e81b793b551220f51bc80479c458423ec934e77ad2eea0c`.
+@@ -43,7 +45,7 @@
+ ### B01-S02-C04-S04 — Tikhon channel
+ 
+ - Entry: no permission exists to share Maya's identity, profile, audit rows, or messages.
+-- Event: Dal sends an anonymized professional question without attachments, names, exact times/counts, address, profile structure, or old-template detail.
++- Event: Dal sends a general professional question about the risks of a short reverse calibration after deep accompaniment, with separate consent and a stop right. He sends no attachments, names, audit result, Maya observation, exact times/counts, address, profile structure, or old-template detail.
+ - Result: Tikhon agrees to talk at 18:30 and requires a concrete stop protocol before any session. His immediate risk test is whether Dal would delay restoration to complete a measurement.
+ 
+ ## State after chapter
+@@ -51,7 +53,7 @@
+ - Dal: R0; employed; Ballast absent. His automatic-trap label is weakened, but he retains the unproven reinforcement-loop hypothesis.
+ - Maya: continues to author permissions and explanations; has not consented to reverse calibration or a direct window.
+ - Gor: his offered transfer remains unopened; no payment or contract is established.
+-- Tikhon: knows only an anonymized professional scenario and that Dal is considering a consent-based reverse calibration. He does not know Maya's identity or case particulars.
++- Tikhon: knows only the general procedure class and that Dal is considering a consent-based reverse calibration. He receives no audit result or Maya observation and does not know her identity or case particulars.
+ - Profile / settings: no write and no procedure. The only completed action is the bounded read-only audit.
+ 
+ ## Audit rows and time
+@@ -68,7 +70,7 @@ Draft-local sequence shown in prose:
+ - D1 17:02 `continue`
+ - D1 20:43 `cancel`
+ - D1 20:51 `continue`
+-- D1 23:07 `continue`
++- D1 before bed, exact time not specified: `continue`
+ - D2 07:18 `change`
+ - D2 09:48 `continue`
+ 
+@@ -91,6 +93,7 @@ Total: thirteen rows; seven `continue`, four `change`, two `cancel`. The chapter
+ - Maya's 10:27 reply requiring risks and stop behavior.
+ - Dal's professional channel to Tikhon; Tikhon's four-minute response and 18:30 appointment.
+ - Tikhon taught Dal direct-window work; their prior disagreement about acceptable procedural pain is local relationship texture for this draft.
++- The D0 metadata read is referred to only as the previous session; D1 chapter 3 contained no device access by Dal.
+ 
+ ## Open dependencies
+ 
+@@ -100,6 +103,15 @@ Total: thirteen rows; seven `continue`, four `change`, two `cancel`. The chapter
+ - Old Gor logs remain protected for S06. The offered transfer in this chapter stays unopened.
+ - No Gor financing agreement exists.
+ 
++## V1 → V2 factual preflight
++
++- Source prose: `../2026-09-21-ch04-sol-v1/chapter-04.md`, SHA-256 `4825819ed636e166a07786bab2b2fb8a6eba747885fa9a6cc094db5f78805028`.
++- Exact patch: `preflight-changes.diff`.
++- Corrected the false relative date `вчорашнього сеансу`: the relevant read session occurred on D0, while D1 chapter 3 contained no device use by Dal.
++- Removed every audit-result detail from Dal's request to Tikhon because Maya's grant prohibited transferring the result. The request now asks only about the general risk class, separate consent and stop control.
++- Replaced the invented D1 `23:07` in notes with `before bed, exact time not specified`, matching the prose.
++- No other prose event, line of Maya's message, thirteen-row count, 18:30 appointment, or permission state was changed.
++
+ ## Self-check
+ 
+ - Ukrainian, first-person Dal, past tense maintained.

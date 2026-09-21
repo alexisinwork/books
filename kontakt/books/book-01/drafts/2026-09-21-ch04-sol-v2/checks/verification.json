@@ -1,0 +1,44 @@
+{
+  "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
+  "scope": "Complete CH04v2 58blocks plus prior-chapter continuity; not full volume",
+  "status": "four_diagnoses_and_reconciliation_completed_with_six_pending_editorial_proposals",
+  "source_unchanged_after_reviews": true,
+  "independent_reviews": {
+    "astra": "69f337f06c52a8dc035a5896781f8b0cf53c173c8e1c048e3177fa3687785e27",
+    "claude": "0e788222a9b15e028f747668d534bb8962684635b31b28cc89944a7a9c9f7f7d",
+    "gemini_flash": "1e6667481bcd861bf81ac390278211a8db3d9fd738aae3fc6bdddc748f21326c",
+    "gemini": "7b7bd989b0881bdd7219635d032369cf6e423b2632688be6b1f1aa5f281ec1df"
+  },
+  "reconciliation": "087a297f336de00519c7206868e062192c9f7f966524b965b4092d645ade7306",
+  "ensemble_integrity": "verify passed",
+  "model_backend_attestation": "requested selectors and init metadata only",
+  "language_scans": {
+    "language_qa": "no configured signals;115physical lines58nonempty;1074lexicaltokens",
+    "naturalness": "no configured signals; separate grammar checker not run",
+    "literary_language": "four complete model readings; referential and term issues documented"
+  },
+  "docx": {
+    "extraction": "exact match",
+    "pages": 3,
+    "pdf_text": "matches ignoring layout whitespace",
+    "visual": "all3pages inspected; no clipping/blank",
+    "renderer": "docx-preview/Chromium; not native Word"
+  },
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "no selected master, expected"
+  },
+  "versions": {
+    "v1_prose_preserved": "4825819ed636e166a07786bab2b2fb8a6eba747885fa9a6cc094db5f78805028",
+    "v1_notes_preserved": "b7727f80c6494ff957588ec53ec28b9bebb6b1da579dfc54e59b3f54f049eb2",
+    "preflight_diff": "preflight-changes.diff",
+    "v1_run": "superseded before diagnoses, no peer review claimed"
+  },
+  "remaining": [
+    "Six pending editorial proposals; text not release-ready",
+    "Maya has not consented to direct window; risk/stop protocol and18:30Tikhon discussion next",
+    "No personal results may be transmitted to Tikhon under current grant",
+    "Full block1–5 structural review and full-volume global audit not yet run"
+  ]
+}

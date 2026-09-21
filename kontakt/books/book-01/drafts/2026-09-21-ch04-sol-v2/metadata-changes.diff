@@ -1,0 +1,379 @@
+--- kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/progress.json
++++ kontakt/books/book-01/production/2026-09-21-book01/progress.json
+@@ -26,9 +26,17 @@
+       "observed_state": "drafts/2026-09-21-ch03-sol-v1/observed-state.json",
+       "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+       "status": "reviewed_working_draft_not_canonical"
++    },
++    {
++      "chapter": 4,
++      "source": "drafts/2026-09-21-ch04-sol-v2/chapter-04.md",
++      "sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
++      "observed_state": "drafts/2026-09-21-ch04-sol-v2/observed-state.json",
++      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
++      "status": "reviewed_working_draft_not_canonical"
+     }
+   ],
+-  "current_chapter": 4,
++  "current_chapter": 5,
+   "current_stage": "prepare_next_scene_handoff",
+   "future_chapters": "macro architecture; progressively detailed before writing",
+   "global_audit": "not_run"
+--- kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json
++++ kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json
+@@ -33,7 +33,7 @@
+       "sequence": "S02",
+       "day": "D2",
+       "function": "Тиск Гора; дозволений аудит показує активний вибір Майї",
+-      "status": "planned"
++      "status": "reviewed_draft_with_open_editorial_ledger"
+     },
+     {
+       "chapter": 5,
+--- kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
++++ kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
+@@ -1,7 +1,7 @@
+ {
+   "book_id": "book-01",
+   "status": "working_draft_collection_not_master",
+-  "chapter_count": 3,
++  "chapter_count": 4,
+   "chapters": [
+     {
+       "chapter": 1,
+@@ -26,6 +26,14 @@
+       "observed_state": "drafts/2026-09-21-ch03-sol-v1/observed-state.json",
+       "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+       "status": "reviewed_working_draft_not_canonical"
++    },
++    {
++      "chapter": 4,
++      "source": "drafts/2026-09-21-ch04-sol-v2/chapter-04.md",
++      "sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
++      "observed_state": "drafts/2026-09-21-ch04-sol-v2/observed-state.json",
++      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
++      "status": "reviewed_working_draft_not_canonical"
+     }
+   ],
+   "global_audit": "not_run",
+--- kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/metadata-before/kontakt/books/book-01/book.json
++++ kontakt/books/book-01/book.json
+@@ -8,7 +8,7 @@
+   "master": null,
+   "voice": "voice.json",
+   "canon": "../../series/canon.json",
+-  "audit_status": "chapter_03_reviewed_volume_in_progress",
++  "audit_status": "chapter_04_reviewed_volume_in_progress",
+   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
+   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
+   "language": "uk",
+@@ -23,25 +23,25 @@
+   "planning_state": "planned_not_observed",
+   "execution_entry": "production/2026-09-21-book01/progress.json",
+   "draft_scope": {
+-    "chapter": 3,
++    "chapter": 4,
+     "whole_book_ready": false,
+     "whole_series_ready": false,
+     "prose_started": true,
+-    "execution": "execution/HANDOFF-CH03.md"
++    "execution": "execution/HANDOFF-CH04.md"
+   },
+   "working_revision": {
+-    "path": "drafts/2026-09-21-ch03-sol-v1/chapter-03.md",
+-    "sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++    "path": "drafts/2026-09-21-ch04-sol-v2/chapter-04.md",
++    "sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
+     "format": "md",
+     "language": "uk",
+     "status": "draft_not_author_selected",
+-    "scope": "chapter 3; complete collection in working_volume",
+-    "observed_state": "drafts/2026-09-21-ch03-sol-v1/observed-state.json",
+-    "review_run": "audit/ensemble/ch03-20260921-sol-v1"
++    "scope": "chapter 4; complete collection in working_volume",
++    "observed_state": "drafts/2026-09-21-ch04-sol-v2/observed-state.json",
++    "review_run": "audit/ensemble/ch04-20260921-sol-v2"
+   },
+   "working_volume": {
+     "manifest": "production/2026-09-21-book01/working-volume.json",
+-    "chapters": 3,
++    "chapters": 4,
+     "status": "in_progress_not_master"
+   }
+ }
+--- kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/metadata-before/kontakt/books/book-01/session.md
++++ kontakt/books/book-01/session.md
+@@ -2,6 +2,6 @@
+ 
+ Поточне доручення: завершити том 1 з перевірками кожної глави, потім повний аудит. Див. production/2026-09-21-book01/authorization.md.
+ 
+-Глави 1–3 написані й мають чотири діагнози та зведення. Остання: [chapter-03.md](drafts/2026-09-21-ch03-sol-v1/chapter-03.md), SHA-256 `1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86`. Фактичний стан: [2026-09-21-ch03-sol-v1](drafts/2026-09-21-ch03-sol-v1/observed-state.json). Планові реєстри збережені; master=null.
++Глави 1–4 написані й мають чотири діагнози та зведення. Остання: [chapter-04.md](drafts/2026-09-21-ch04-sol-v2/chapter-04.md), SHA-256 `e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96`. Фактичний стан: [2026-09-21-ch04-sol-v2](drafts/2026-09-21-ch04-sol-v2/observed-state.json). Планові реєстри збережені; master=null.
+ 
+-Далі: глава 4, перед письмом окрема звірка стану й handoff. Точний прогрес і версії: [реєстр](production/2026-09-21-book01/progress.json). Відкриті редакторські пропозиції не визнані авторськими рішеннями. Повного аудиту тому ще немає.
++Далі: глава 5, перед письмом окрема звірка стану й handoff. Точний прогрес і версії: [реєстр](production/2026-09-21-book01/progress.json). Відкриті редакторські пропозиції не визнані авторськими рішеннями. Повного аудиту тому ще немає.
+--- kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/metadata-before/kontakt/START_HERE.md
++++ kontakt/START_HERE.md
+@@ -2,6 +2,6 @@
+ 
+ Автор доручив завершити український том 1 по главі з усіма перевірками, потім виконати повний аудит.
+ 
+-Готові чернетки глав 1–3; далі глава 4. [Поточний прогрес](books/book-01/production/2026-09-21-book01/progress.json). [Робочий маршрут](books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md). [Остання глава й перевірки](books/book-01/drafts/2026-09-21-ch03-sol-v1/README.md).
++Готові чернетки глав 1–4; далі глава 5. [Поточний прогрес](books/book-01/production/2026-09-21-book01/progress.json). [Робочий маршрут](books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md). [Остання глава й перевірки](books/book-01/drafts/2026-09-21-ch04-sol-v2/README.md).
+ 
+ Master не призначено. Для продовження спочатку читати фактичний observed-state останньої глави, потім scoped handoff. Макроархітектура восьми книг збережена; плани не стали подіями рукопису.
+--- kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/metadata-before/kontakt/books/book-01/plan.md
++++ kontakt/books/book-01/plan.md
+@@ -19,3 +19,7 @@
+ ## Поступ після глави 3
+ 
+ Чернетки 1–3: production/2026-09-21-book01/working-volume.json. Наступна глава 4; факт і план розділені.
++
++## Поступ після глави 4
++
++Чернетки 1–4: production/2026-09-21-book01/working-volume.json. Наступна глава 5; факт і план розділені.
+--- kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/metadata-before/kontakt/books/book-01/brief.md
++++ kontakt/books/book-01/brief.md
+@@ -19,3 +19,7 @@
+ ## Поступ після глави 3
+ 
+ Чернетки 1–3: production/2026-09-21-book01/working-volume.json. Наступна глава 4; факт і план розділені.
++
++## Поступ після глави 4
++
++Чернетки 1–4: production/2026-09-21-book01/working-volume.json. Наступна глава 5; факт і план розділені.
+--- kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/metadata-before/kontakt/books/book-01/audit/issues.json
++++ kontakt/books/book-01/audit/issues.json
+@@ -711,6 +711,177 @@
+       "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+       "author_decision": "pending",
+       "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH04-SOL-V1-ENS-001",
++      "category": "language",
++      "severity": "minor",
++      "certainty": "strong_inference",
++      "observation": "Після «Ви тягнете час» стоїть «кому саме воно належало». Для часу потрібен чоловічий рід; іншого близького референта середнього роду не названо. Opus припускає неназване право/рішення, але це не встановлений авторський намір.",
++      "anchors": [
++        {
++          "chapter": "4",
++          "anchor": "P0010",
++          "quote": "> Ви тягнете час."
++        },
++        {
++          "chapter": "4",
++          "anchor": "P0011",
++          "quote": "Цього разу я не став пояснювати, кому саме воно належало."
++        }
++      ],
++      "dependencies": [
++        "CH04 future revision"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
++      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH04-SOL-V1-ENS-002",
++      "category": "language",
++      "severity": "minor",
++      "certainty": "strong_inference",
++      "observation": "«Зворотна калібровка» відрізняється від «калібрування», ужитого в попередніх главах для фахової процедури.",
++      "anchors": [
++        {
++          "chapter": "4",
++          "anchor": "P0040",
++          "quote": "> Перегляд завершено. Дані показують, що ви не лише продовжуєте режим, а й змінюєте та скасовуєте підтвердження. Вони не показують причин повернення. Якщо ви захочете перевірити саме це, я пропоную окремий короткий сеанс зворотної калібровки: обмежений час без емоційного посередництва, з вашим правом зупинити перевірку й повернути режим негайно. Це нова пропозиція, не продовження сьогоднішнього дозволу."
++        },
++        {
++          "chapter": "4",
++          "anchor": "P0049",
++          "quote": "> Узагальнене професійне запитання. Доросла користувачка свідомо підтримує глибоке емоційне посередництво. Розглядаю коротку зворотну калібровку лише за окремою згодою користувачки, з її правом зупинки. Потрібна загальна оцінка ризику до будь-якої спроби. Чи можете поговорити сьогодні?"
++        }
++      ],
++      "dependencies": [
++        "CH04 future revision",
++        "whole-volume terminology check"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
++      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH04-SOL-V1-ENS-003",
++      "category": "language",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "«Я не назвав часи» може читатися як епохи; тут маються на увазі точні позначки часу.",
++      "anchors": [
++        {
++          "chapter": "4",
++          "anchor": "P0050",
++          "quote": "Імені Майї не було. Гора теж. Я не назвав часи, кількість рядків, адресу, структуру профілю або старий шаблон. Узагальнений випадок міг належати будь-кому з тих, хто обирав підтримку не вперше."
++        }
++      ],
++      "dependencies": [
++        "CH04 future revision"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
++      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH04-SOL-V1-ENS-004",
++      "category": "language",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "«Після завершення заміру» можна уніфікувати з «вимірюванням». Твердження Flash, що замір у цьому значенні неодмінно суржик, не доведено: у первинних офіційних пошукових витягах є технічне вживання.",
++      "anchors": [
++        {
++          "chapter": "4",
++          "anchor": "P0052",
++          "quote": "> Можу о 18:30. До розмови не призначай сеанс. Спершу опиши протокол «стоп»: який шар повертається першим, хто його підтверджує і що ти робиш, якщо прохання зупинитися суперечить чистоті вимірювання. Якщо у відповіді є «після завершення заміру», процедура не готова."
++        }
++      ],
++      "dependencies": [
++        "CH04 future revision",
++        "whole-volume terminology check"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
++      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH04-SOL-V1-ENS-005",
++      "category": "pacing",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Дії без відомого мотиву пояснюються кілька разів після переліку13рядків і ще раз у листі. Opus бачить точність як свідому ціну темпу, Pro читає це як дедуктивну дію.",
++      "anchors": [
++        {
++          "chapter": "4",
++          "anchor": "P0030",
++          "quote": "Якби режим просто утримував Майю всередині, двох останніх типів могло не бути. Вона не тільки підтверджувала готову пропозицію. Вона відмовлялася від окремих підтверджень, змінювала режим і пізніше знову натискала «продовжити»."
++        },
++        {
++          "chapter": "4",
++          "anchor": "P0033",
++          "quote": "У таблиці не було напруги. Не було полегшення. Не було навіть слова «повернення». Це була моя гіпотеза, акуратно покладена поверх тринадцяти рядків."
++        },
++        {
++          "chapter": "4",
++          "anchor": "P0035",
++          "quote": "Я склав підсумок у межах сеансу: користувачка не лише продовжує чинний режим; вона змінює й скасовує окремі підтвердження, після чого пізніше знову обирає продовження. Причини дій у доступі відсутні. Висновок про примусове або автоматичне утримання з цих даних не випливає."
++        },
++        {
++          "chapter": "4",
++          "anchor": "P0036",
++          "quote": "Не випливав і висновок, що кожне повернення було вільним від впливу самого режиму."
++        },
++        {
++          "chapter": "4",
++          "anchor": "P0040",
++          "quote": "> Перегляд завершено. Дані показують, що ви не лише продовжуєте режим, а й змінюєте та скасовуєте підтвердження. Вони не показують причин повернення. Якщо ви захочете перевірити саме це, я пропоную окремий короткий сеанс зворотної калібровки: обмежений час без емоційного посередництва, з вашим правом зупинити перевірку й повернути режим негайно. Це нова пропозиція, не продовження сьогоднішнього дозволу."
++        }
++      ],
++      "dependencies": [
++        "CH01-05 block audit",
++        "CH04 future revision"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
++      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH04-SOL-V1-ENS-006",
++      "category": "language",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "«У межах були тільки підтвердження» пропускає назву меж дозволу. Контекст відновлює зміст, але обидва рецензенти відчули еліпсис.",
++      "anchors": [
++        {
++          "chapter": "4",
++          "anchor": "P0013",
++          "quote": "Джерелом був її особистий контур. Отримувачем — я. Доступ відкривався рівно о десятій і закривався о десятій двадцять. Один перегляд, без права зберігати копію або передавати результат. У межах були тільки підтвердження чинного режиму від учорашнього ранку: час і тип дії — продовжити, змінити або скасувати. Без текстів, адресатів, назв функцій і керування."
++        }
++      ],
++      "dependencies": [
++        "CH04 future revision"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
++      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
+     }
+   ]
+ }
+--- kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/metadata-before/kontakt/books/book-01/revision-log.json
++++ kontakt/books/book-01/revision-log.json
+@@ -102,6 +102,28 @@
+         "record": "drafts/2026-09-21-ch03-sol-v1/checks/verification.json",
+         "release_ready": false
+       }
++    },
++    {
++      "id": "ch04-20260921-sol-v2",
++      "reason": "Author authorized completion of volume one chapter at a time with checks",
++      "decision": "applied_to_draft_only",
++      "old_source": null,
++      "new_source": {
++        "path": "drafts/2026-09-21-ch04-sol-v2/chapter-04.md",
++        "sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96"
++      },
++      "preflight_history": "drafts/2026-09-21-ch04-sol-v2/preflight-changes.diff",
++      "observed_state": "drafts/2026-09-21-ch04-sol-v2/observed-state.json",
++      "dependencies": {
++        "planned_registers": "unchanged; actual candidate states separate",
++        "master_snapshot": "not applicable, master null",
++        "next_chapter": 5
++      },
++      "verification": {
++        "run": "audit/ensemble/ch04-20260921-sol-v2",
++        "record": "drafts/2026-09-21-ch04-sol-v2/checks/verification.json",
++        "release_ready": false
++      }
+     }
+   ]
+ }
+--- kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/metadata-before/kontakt/series/architecture-pass-01-status.json
++++ kontakt/series/architecture-pass-01-status.json
+@@ -6,7 +6,7 @@
+   "books": [
+     {
+       "book_id": "book-01",
+-      "status": "chapters_01_03_drafted_reviewed",
++      "status": "chapters_01_04_drafted_reviewed",
+       "architecture_pass": "macro_reviewed",
+       "scene_gate": "chapter_01_only",
+       "master": null
+@@ -70,9 +70,9 @@
+   },
+   "current_draft": {
+     "book_id": "book-01",
+-    "chapter": 3,
+-    "path": "kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/chapter-03.md",
+-    "sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
++    "chapter": 4,
++    "path": "kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/chapter-04.md",
++    "sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
+     "status": "reviewed_working_draft",
+     "whole_book_written": false,
+     "volume_progress": "books/book-01/production/2026-09-21-book01/progress.json"

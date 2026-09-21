@@ -1,7 +1,7 @@
 {
   "book_id": "book-01",
   "status": "working_draft_collection_not_master",
-  "chapter_count": 3,
+  "chapter_count": 4,
   "chapters": [
     {
       "chapter": 1,
@@ -25,6 +25,14 @@
       "sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
       "observed_state": "drafts/2026-09-21-ch03-sol-v1/observed-state.json",
       "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+      "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 4,
+      "source": "drafts/2026-09-21-ch04-sol-v2/chapter-04.md",
+      "sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
+      "observed_state": "drafts/2026-09-21-ch04-sol-v2/observed-state.json",
+      "review_run": "audit/ensemble/ch04-20260921-sol-v2",
       "status": "reviewed_working_draft_not_canonical"
     }
   ],

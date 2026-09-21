@@ -1,0 +1,210 @@
+{
+  "book_id": "book-01",
+  "status": "observed_in_working_draft_not_canonical",
+  "source": {
+    "path": "chapter-04.md",
+    "sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96"
+  },
+  "previous": {
+    "path": "../2026-09-21-ch03-sol-v1/observed-state.json",
+    "prose_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86"
+  },
+  "revision": {
+    "supersedes": "../2026-09-21-ch04-sol-v1/chapter-04.md",
+    "old_sha256": "4825819ed636e166a07786bab2b2fb8a6eba747885fa9a6cc094db5f78805028",
+    "reason": "Factual preflight before peer reviews; old session day and forbidden transfer corrected",
+    "diff": "preflight-changes.diff"
+  },
+  "scenes": [
+    {
+      "id": "B01-S02-C04-S01",
+      "anchors": "P0002-P0011",
+      "events": [
+        "D2 09:32 Gor demands plan today and offers history transfer; Dal declines without opening."
+      ]
+    },
+    {
+      "id": "B01-S02-C04-S02",
+      "anchors": "P0012-P0037",
+      "events": [
+        "Maya sends personal grant09:53, Dal validates all scope before10:00.",
+        "Voluntary separate message describes current Gor reply and companion neutral paraphrase alongside original; Maya felt less need to answer.",
+        "Readonly review13time/type rows;7continue4change2cancel. Dal distinguishes observed choices from reinforcement hypothesis.",
+        "Read session ends10:20; no copy."
+      ]
+    },
+    {
+      "id": "B01-S02-C04-S03",
+      "anchors": "P0038-P0046",
+      "events": [
+        "Permitted channel to Maya returns own conclusion and separate proposal of short reverse calibration.",
+        "Maya10:27 explicitly says not consent; asks for risks and exact stop/restore protocol.",
+        "Dal opens risk form, recognizes he could fill it himself and hesitates."
+      ]
+    },
+    {
+      "id": "B01-S02-C04-S04",
+      "anchors": "P0047-P0058",
+      "events": [
+        "Dal approaches former mentor via professional channel with general procedure-class question only, no audit result or identifying details.",
+        "Tikhon reads after4minutes, offers18:30 D2 and requires concrete stop protocol before scheduling.",
+        "Dal writes immediate restoration in form, doubts whether he would ask for extra measurement seconds."
+      ]
+    }
+  ],
+  "timeline": {
+    "entry": "D2 09:32",
+    "grant_received": "D2 09:53",
+    "audit": "D2 10:00-10:20",
+    "Maya_reply": "D2 10:27",
+    "Tikhon_response_delay": "read after4minutes; exact sending and response clock not specified",
+    "exit": "D2 afterTikhon message, before18:30",
+    "next_appointment": "D2 18:30 conversation with Tikhon, not yet occurred"
+  },
+  "audit_rows": [
+    {
+      "day": "D1",
+      "time": "08:06",
+      "type": "continue"
+    },
+    {
+      "day": "D1",
+      "time": "09:41",
+      "type": "continue"
+    },
+    {
+      "day": "D1",
+      "time": "11:16",
+      "type": "change"
+    },
+    {
+      "day": "D1",
+      "time": "13:08",
+      "type": "cancel"
+    },
+    {
+      "day": "D1",
+      "time": "13:14",
+      "type": "change"
+    },
+    {
+      "day": "D1",
+      "time": "13:29",
+      "type": "continue"
+    },
+    {
+      "day": "D1",
+      "time": "16:19",
+      "type": "change"
+    },
+    {
+      "day": "D1",
+      "time": "17:02",
+      "type": "continue"
+    },
+    {
+      "day": "D1",
+      "time": "20:43",
+      "type": "cancel"
+    },
+    {
+      "day": "D1",
+      "time": "20:51",
+      "type": "continue"
+    },
+    {
+      "day": "D1",
+      "time": null,
+      "type": "continue",
+      "time_description": "before bed; exact time not in prose"
+    },
+    {
+      "day": "D2",
+      "time": "07:18",
+      "type": "change"
+    },
+    {
+      "day": "D2",
+      "time": "09:48",
+      "type": "continue"
+    }
+  ],
+  "audit_counts": {
+    "continue": 7,
+    "change": 4,
+    "cancel": 2,
+    "total": 13
+  },
+  "knowledge": {
+    "Dal_and_reader": [
+      "Maya current account of emotional reinterpretation without removing original",
+      "13authenticated current confirmations; no motives/content/function names in rows",
+      "Tikhon specific warning about stopping before completing measurement"
+    ],
+    "Maya": [
+      "Dal audit conclusion and proposed short future window; not yet risk protocol"
+    ],
+    "Gor": [
+      "Dal rejects transfer and consent substitution; no results given"
+    ],
+    "Tikhon": [
+      "General procedure class: adult user maintaining deep mediation; separate consent and stop right sought",
+      "No identity, audit results, personal profile, timestamps, rowcounts, address, oldtemplate or Gor history supplied"
+    ],
+    "hypotheses_only": [
+      "Reinforcement through relief",
+      "16:19change may correspond to visible notification suppression; correlation is not proof",
+      "Maya exact affects beyond her own report"
+    ],
+    "not_established": [
+      "Old Gor logs content",
+      "Gor knowledge of template authorship",
+      "Nina biography for reader",
+      "Gor paid contract",
+      "Direct-window experience during cancel-confirmation periods"
+    ]
+  },
+  "resources": {
+    "resonance": "R0",
+    "employment": "unchanged",
+    "Ballast": "absent",
+    "profile_write": "none",
+    "direct_window": "not opened; proposed only",
+    "Maya_test_consent": "explicitly not given; risk/stop details requested",
+    "grant": "used once10:00-10:20 thenclosed; no copy/transfer of result to third parties",
+    "reply_channel": "Maya conclusion and proposal allowed after review; not renewed data access",
+    "Gor_transfer": "not accepted; unviewed",
+    "Tikhon_consult": "general professional risk question; not permission to examine Maya",
+    "payment": "none established"
+  },
+  "promises": {
+    "developed": [
+      "Maya authors own support decisions",
+      "Deep mediation changes interpretation and subjective response, not facts of original message",
+      "Dal technical correctness and temptation to control diverge",
+      "Tikhon reasonable protection before test"
+    ],
+    "withheld": [
+      "S03 actual first direct window",
+      "S04 R1 and Ballast",
+      "S06 historical control document",
+      "S08 Nina emotional truth",
+      "Series origin"
+    ]
+  },
+  "draft_local_proposals": [
+    "D2currentpressure/grant timestamps",
+    "13auditrows; one bedtime row has no exact clock",
+    "Neutral companion paraphrase of current message",
+    "18:30Tikhon appointment via existing professional relationship",
+    "Tikhon taught Dal direct windows and past disagreement over tolerated pain"
+  ],
+  "forward_dependencies": [
+    "CH05 at18:30 needs time transition; no whole-day invented admissions schedule",
+    "Tikhon must not know Maya case data or name without separate permission",
+    "Maya must receive risks and exact stop protocol and independently consent before S03",
+    "Stop means no extra measurement seconds, even if result incomplete",
+    "No financing assumed before any later loss-of-contract stake"
+  ],
+  "checks_status": "Four diagnoses and reconciliation locked; six pending editorial proposals; not canonical master"
+}

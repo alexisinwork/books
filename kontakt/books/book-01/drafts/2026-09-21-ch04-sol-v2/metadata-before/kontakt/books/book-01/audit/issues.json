@@ -1,0 +1,716 @@
+{
+  "schema_version": 1,
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": null,
+  "record_type": "audit/issues",
+  "fields": [
+    "id",
+    "category",
+    "severity",
+    "certainty",
+    "anchors",
+    "observation",
+    "reader_effect",
+    "proposed_change",
+    "dependencies",
+    "verification",
+    "decision"
+  ],
+  "items": [
+    {
+      "id": "KONTAKT-REV-20260921-01",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "book_ids": [
+        "book-01"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_01_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_01_CHAPTER_SKELETON_V1.md",
+          "sha256": "8cd42ea87962d7b0b10100e5cf6d8209a47804c5cc9f6807f1300ed964daf491",
+          "line": 790,
+          "quote": "1. **Кто такая Нина и что именно означает «алгоритм Нины».** В GitHub этого канона сейчас нет."
+        },
+        {
+          "file": "kontakt/books/book-01/BOOK-01-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\BOOK-01-ARCHITECTURE-LOCK.md",
+          "sha256": "338cba44392162efecc20fa738a946473e22652e73e427e20b242da365a74510",
+          "line": 17,
+          "quote": "- Нина — бывшая партнёрша Даля, умершая после длительной болезни; Даль не вызвал её смерть, но эмоционально исчез рядом с ней, спрятавшись в self-companion."
+        }
+      ],
+      "observation": "Nina is available locally; the new plan incorrectly treats her history as missing.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "Use the existing former-partner/long-illness/self-companion history and Dal's safe-presence authorship; keep the early reveal limited.",
+      "dependencies": [
+        "book-01 chapters 1,2,3,11,13,22-24",
+        "book-05 personal grief history"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "resolved",
+      "resolution": {
+        "run_id": "kontakt-preparation-20260921",
+        "basis": "Existing source priority and author-authorized preparation; incompatible candidates not active.",
+        "text": "Use existing Nina history and Dal-authored safe-presence template. Separate factual memory from later emotional acknowledgment.",
+        "record": "../../series/preparation/2026-09-21/resolutions.json"
+      },
+      "implementation_status": "source_routing_applied"
+    },
+    {
+      "id": "KONTAKT-REV-20260921-02",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "book_ids": [
+        "book-01"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_01_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_01_CHAPTER_SKELETON_V1.md",
+          "sha256": "8cd42ea87962d7b0b10100e5cf6d8209a47804c5cc9f6807f1300ed964daf491",
+          "line": 658,
+          "quote": "- R1 фиксируется как практическое состояние: он способен присутствовать, а не только калибровать."
+        },
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_01_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_01_CHAPTER_SKELETON_V1.md",
+          "sha256": "8cd42ea87962d7b0b10100e5cf6d8209a47804c5cc9f6807f1300ed964daf491",
+          "line": 607,
+          "quote": "**Предлагаемая locked-выплата:** Майя сама временно отключает эмоциональное сглаживание компаньона, оставляя его сервисные функции, и **сама инициирует прямой разговор с Гором**, чтобы установить границу без Даля-посредника и без сгенерированного скрипта."
+        },
+        {
+          "file": "kontakt/books/book-01/BOOK-01-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\BOOK-01-ARCHITECTURE-LOCK.md",
+          "sha256": "338cba44392162efecc20fa738a946473e22652e73e427e20b242da365a74510",
+          "line": 38,
+          "quote": "### S04 — Присутствие / R1"
+        },
+        {
+          "file": "kontakt/books/book-01/BOOK-01-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\BOOK-01-ARCHITECTURE-LOCK.md",
+          "sha256": "338cba44392162efecc20fa738a946473e22652e73e427e20b242da365a74510",
+          "line": 57,
+          "quote": "Майя бодрствует без relational mediation, но остаётся пустой и испуганной. Wake ≠ feel. Она делает первый собственный поступок: не идёт ни к Гору, ни «под опеку» Даля; оставляет companion только в utility-mode и выбирает нейтральное жильё на одну ночь. Это не подтверждение философии Даля, а подтверждение её авторства."
+        }
+      ],
+      "observation": "Book 1 moves the R1 transition and changes Maya's protected final action.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "Map early R1 breakthrough to later consolidation; retain independent departure unless explicitly revised.",
+      "dependencies": [
+        "book-01 chapters 9-11,26-33",
+        "book-01 timeline/knowledge/end-state"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "resolved",
+      "resolution": {
+        "run_id": "kontakt-preparation-20260921",
+        "basis": "Existing source priority and author-authorized preparation; incompatible candidates not active.",
+        "text": "Retain S04 R1 and Maya independent accommodation; opening adopts only compatible Chapters 1–2.",
+        "record": "../../series/preparation/2026-09-21/resolutions.json"
+      },
+      "implementation_status": "source_routing_applied"
+    },
+    {
+      "id": "KONTAKT-REV-20260921-18",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "book_ids": [
+        "book-01",
+        "book-02",
+        "book-03",
+        "book-04",
+        "book-05",
+        "book-06",
+        "book-07",
+        "book-08"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_01_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_01_CHAPTER_SKELETON_V1.md",
+          "sha256": "8cd42ea87962d7b0b10100e5cf6d8209a47804c5cc9f6807f1300ed964daf491",
+          "line": 805,
+          "quote": "4. только после полного архитектурного gate начинать украинскую художественную прозу."
+        },
+        {
+          "file": "kontakt/books/book-01/NEXT-STEP.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\NEXT-STEP.md",
+          "sha256": "befbce82a2e8e1c6c07f98e67be90d488a0096e440f1f2d264451df82a5991d0",
+          "line": 23,
+          "quote": "5. Завершить S01 и лишь затем S02."
+        },
+        {
+          "file": "kontakt/books/book-01/voice.json",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\voice.json",
+          "sha256": "f3f7c4f147a62bda6576e6490364ad7076e521e3b201a01827f25fc1ec1d7fd1",
+          "line": 12,
+          "quote": "    \"tense\": \"Выбрать\","
+        }
+      ],
+      "observation": "New skeletons require all-sequence scene cards before prose, while the runbook requires progressive sequence work; execution metadata remains stale.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "Use provisional whole-book maps and detail S01 first; synchronize selected planned sources and voice placeholders without presenting planned events as observed facts.",
+      "dependencies": [
+        "all books' working source pointers and planned states",
+        "Book 1 opening execution package"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "resolved",
+      "resolution": {
+        "run_id": "kontakt-preparation-20260921",
+        "basis": "Existing source priority and author-authorized preparation; incompatible candidates not active.",
+        "text": "Progressive sequence work; selected scoped scene cards govern opening; global macro review does not equal all chapters draft-ready.",
+        "record": "../../series/preparation/2026-09-21/resolutions.json"
+      },
+      "implementation_status": "source_routing_applied"
+    },
+    {
+      "id": "B01-NINA-OBJECT-LATER",
+      "category": "motif",
+      "severity": "minor",
+      "certainty": "missing_link",
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "observation": "Specific Nina keepsake M05 not selected. Chapter 1 explicitly excludes it; select and record before a later scene uses it.",
+      "dependencies": [
+        "book-01 M05 / later S05-S12"
+      ],
+      "blocks_current_chapter": false
+    },
+    {
+      "id": "CH01-SOL-V1-ENS-001",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "observation": "У тесті названо нейтральну системну фразу, але показано лише введену клієнтом фразу.",
+      "anchors": [
+        {
+          "chapter": 1,
+          "anchor": "P0067",
+          "quote": "Система запропонує нейтральну репліку"
+        }
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+      "review_run": "audit/ensemble/ch01-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; no applied revision or canon claim"
+    },
+    {
+      "id": "CH01-SOL-V1-ENS-002",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "observation": "Той самий оповідач чергує «калібрування» і «калібровка».",
+      "anchors": [
+        {
+          "chapter": 1,
+          "anchor": "P0121",
+          "quote": "одна первинна калібровка"
+        }
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+      "review_run": "audit/ensemble/ch01-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; no applied revision or canon claim"
+    },
+    {
+      "id": "CH01-SOL-V1-ENS-003",
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "observation": "Пояснення каналу концентрується в P0123 і частково повторюється в P0133 та повідомленні Гора.",
+      "anchors": [
+        {
+          "chapter": 1,
+          "anchor": "P0123",
+          "quote": "Приватна професійна скринька приймала звернення від верифікованих відправників"
+        }
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+      "review_run": "audit/ensemble/ch01-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; no applied revision or canon claim"
+    },
+    {
+      "id": "CH01-SOL-V1-ENS-004",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "observation": "Flash назвав «рисунок підказок» калькою; контекстна природність метафори потребує авторського вибору.",
+      "anchors": [
+        {
+          "chapter": 1,
+          "anchor": "P0107",
+          "quote": "загальний рисунок підказок"
+        }
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+      "review_run": "audit/ensemble/ch01-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; no applied revision or canon claim"
+    },
+    {
+      "id": "CH01-SOL-V1-ENS-005",
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Flash пропонує нейтральне «листування» або свідоме збереження розмовного слова клієнта.",
+      "anchors": [
+        {
+          "chapter": 1,
+          "anchor": "P0025",
+          "quote": "Вам потрібна переписка?"
+        }
+      ],
+      "dependencies": [
+        "chapter-01.md",
+        "DOCX/anchors/reviews if revised"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+      "review_run": "audit/ensemble/ch01-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; no applied revision or canon claim"
+    },
+    {
+      "id": "CH02-SOL-V1-ENS-001",
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Розмова кілька разів повертається до вже встановленої межі.",
+      "anchors": [
+        {
+          "chapter": "2",
+          "anchor": "P0083",
+          "quote": "Дозвіл Майї на перегляд не є вашою довіреністю на результат"
+        }
+      ],
+      "dependencies": [],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH02-SOL-V1-ENS-002",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Метафора натискання на людину допускає два прочитання: інженерна кнопка або пропущений прийменник.",
+      "anchors": [
+        {
+          "chapter": "2",
+          "anchor": "P0095",
+          "quote": "де мене можна натиснути"
+        }
+      ],
+      "dependencies": [],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH02-SOL-V1-ENS-003",
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Побутові однофразові абзаци мають ту саму графічну вагу, що й сильні Мою / Свою.",
+      "anchors": [
+        {
+          "chapter": "2",
+          "anchor": "P0155",
+          "quote": "Перечитав."
+        }
+      ],
+      "dependencies": [],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH02-SOL-V1-ENS-004",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Час підтверджений, адреса наступної зустрічі в цій главі ще не названа.",
+      "anchors": [
+        {
+          "chapter": "2",
+          "anchor": "P0176",
+          "quote": "О 16:20 я мав прийти на умовах Майї."
+        }
+      ],
+      "dependencies": [
+        "chapter 3 arrival"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH02-SOL-V1-ENS-005",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "observation": "Нетипова сполучуваність професійного терміна.",
+      "anchors": [
+        {
+          "chapter": "2",
+          "anchor": "P0083",
+          "quote": "довіреністю на результат"
+        }
+      ],
+      "dependencies": [],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH02-SOL-V1-ENS-006",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Однина абстрактного зусилля звучить незвично для частини читачів.",
+      "anchors": [
+        {
+          "chapter": "2",
+          "anchor": "P0045",
+          "quote": "скільки зусилля коштувало йому"
+        }
+      ],
+      "dependencies": [],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "review_run": "audit/ensemble/ch02-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-001",
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "confirmed_conflict",
+      "observation": "Спочатку два пакети; один викинуто; потім Майя складає порожні пакети один в один. Текст не вводить третього пакета.",
+      "anchors": [
+        {
+          "chapter": "3",
+          "anchor": "P0014",
+          "quote": "Вона вже відійшла від дверей, не перевіряючи, чи послухався я. На ній були темні штани й світла сорочка із закоченими рукавами. Волосся вона зібрала недбало, але так, щоб воно не падало на обличчя. На кухонному столі стояли два пакети з продуктами. Майя виймала з них коробки й банки, дивилася на дати й розкладала все по шафах."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0030",
+          "quote": "Я сів. Майя продовжила розкладати покупки. Вона не поспішала й не сповільнювалася для мене. Відкрила нижню шафу, поставила туди дві коробки, викинула порожній пакет. На столі лишилися хліб, яблука й маленька упаковка чаю."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0054",
+          "quote": "Майя склала порожні пакети один в один. Її руки працювали точно, без дрібної метушні."
+        }
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-002",
+      "category": "worldbuilding",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "observation": "Глибоке посередництво поки найбільше видно через відкладення повідомлень і таймер паузи; відмінність від побутового режиму може лишитися слабкою. Opus і Pro зрозуміли психологічну функцію.",
+      "anchors": [
+        {
+          "chapter": "3",
+          "anchor": "P0071",
+          "quote": "Я знав цю функцію. Відкладення прибирало не тільки сповіщення, а й повторні м’які нагадування, якими система зазвичай повертала людину до незавершеного обміну. У звичайному режимі це давало час охолонути. У глибокому супроводженні могло зробити відсутність контакту новою нормою."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0077",
+          "quote": "Світла смуга на столі спалахнула бурштиновим. Не попередження й не готова репліка — знак паузи. Майя поклала на неї два пальці. Між нами з’явилася тонка риска, що повільно коротшала."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0098",
+          "quote": "— А я кажу, де вона проходить сьогодні. Я написала Гору «не приходь». Система не писала це за мене. Вона допомогла не перетворити його наступне повідомлення на нове рішення, яке я маю прийняти негайно."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0165",
+          "quote": "На сходах я перевірив час. Зустріч тривала сорок три хвилини. Майя жодного разу не попросила повернути її до попереднього стану, не назвала супроводження пасткою й не поводилася так, ніби не розуміла, що воно робить. Вона використала його, щоб відкласти чужу відповідь, позначити паузу й закінчити зустріч тоді, коли вирішила сама."
+        }
+      ],
+      "dependencies": [
+        "CH04",
+        "S03 first direct window",
+        "S10 utility mode"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-003",
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "observation": "Світла смуга після згасання названа темною, потім знову світлою. Неясно, чи йдеться про матеріал, чи підсвітку.",
+      "anchors": [
+        {
+          "chapter": "3",
+          "anchor": "P0020",
+          "quote": "Вона торкнулася двома пальцями вузької світлої смуги на краю столу. Смуга на мить стала білою, потім згасла. На стіні біля дверей зникли годинник і позначка двох непрочитаних звернень."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0085",
+          "quote": "Я подивився на темну смугу. Видима ознака супроводження. Дозволена для спостереження. Я вже почав розкладати її на затримку, тригер і наслідок, хоча цього разу наслідком був я."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0095",
+          "quote": "Майя сіла навпроти. Продукти було розкладено; між нами залишилася миска з яблуками. Вона поклала долоні на стіл, не торкаючись світлої смуги."
+        }
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-004",
+      "category": "dialogue",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Даль питає, чи Майя вимкнула повідомлення перед зустріччю, щойно побачивши її жест. Її відповідь навмисно показує його процедурну незграбність, але запитання може здатися експозиційним.",
+      "anchors": [
+        {
+          "chapter": "3",
+          "anchor": "P0020",
+          "quote": "Вона торкнулася двома пальцями вузької світлої смуги на краю столу. Смуга на мить стала білою, потім згасла. На стіні біля дверей зникли годинник і позначка двох непрочитаних звернень."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0022",
+          "quote": "— Ви вимкнули їх перед зустріччю?"
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0023",
+          "quote": "— Щойно. Перед вами."
+        }
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-005",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "«У попередній вечір» звучить менш природно, ніж «Попереднього вечора». Походження як кальки не доведене зовнішньою перевіркою.",
+      "anchors": [
+        {
+          "chapter": "3",
+          "anchor": "P0038",
+          "quote": "У попередній вечір така відповідь здалася б мені відхиленням від питання. Тепер я принаймні знав, що вона бачить межу точніше, ніж Гор описував її стан."
+        }
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-006",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Для стулки шафи «відчинила» точніше називає дію. Категоричну заборону «відкрила» за одним модельним твердженням не встановлено.",
+      "anchors": [
+        {
+          "chapter": "3",
+          "anchor": "P0030",
+          "quote": "Я сів. Майя продовжила розкладати покупки. Вона не поспішала й не сповільнювалася для мене. Відкрила нижню шафу, поставила туди дві коробки, викинула порожній пакет. На столі лишилися хліб, яблука й маленька упаковка чаю."
+        }
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-007",
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Підсумок Даля повторює вже показані три функції підтримки перед сильнішим висновком про невдалу гіпотезу.",
+      "anchors": [
+        {
+          "chapter": "3",
+          "anchor": "P0165",
+          "quote": "На сходах я перевірив час. Зустріч тривала сорок три хвилини. Майя жодного разу не попросила повернути її до попереднього стану, не назвала супроводження пасткою й не поводилася так, ніби не розуміла, що воно робить. Вона використала його, щоб відкласти чужу відповідь, позначити паузу й закінчити зустріч тоді, коли вирішила сама."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0166",
+          "quote": "Моя перша гіпотеза цього не витримала."
+        },
+        {
+          "chapter": "3",
+          "anchor": "P0167",
+          "quote": "Залишалася друга: режим міг робити її рішення дедалі легшими тільки в один бік. Завтрашні підтвердження мали показати, чи Майя справді поверталася до вибору, чи лише знову й знову натискала «продовжити»."
+        }
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-008",
+      "category": "worldbuilding",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "observation": "Для риски між співрозмовниками не названо фізичну поверхню.",
+      "anchors": [
+        {
+          "chapter": "3",
+          "anchor": "P0077",
+          "quote": "Світла смуга на столі спалахнула бурштиновим. Не попередження й не готова репліка — знак паузи. Майя поклала на неї два пальці. Між нами з’явилася тонка риска, що повільно коротшала."
+        }
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-009",
+      "category": "language",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "«Обираєте не діяти без нього» має складну вкладеність заперечення. Логічної помилки немає.",
+      "anchors": [
+        {
+          "chapter": "3",
+          "anchor": "P0103",
+          "quote": "— Якщо ви можете діяти без нього, важливо знати, чому обираєте не діяти без нього."
+        }
+      ],
+      "dependencies": [
+        "CH03 future revision"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+      "review_run": "audit/ensemble/ch03-20260921-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    }
+  ]
+}
