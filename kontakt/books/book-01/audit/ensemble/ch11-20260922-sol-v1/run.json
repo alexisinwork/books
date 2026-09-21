@@ -1,0 +1,73 @@
+{
+  "schema_version": 2,
+  "run_id": "ch11-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "created_at": "2026-09-21T23:36:15+00:00",
+  "status": "diagnosis_in_progress",
+  "language": "uk",
+  "required_diagnoses": [
+    "astra",
+    "claude",
+    "gemini_flash",
+    "gemini"
+  ],
+  "source": {
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/chapter-11.md",
+    "sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
+    "status": "explicit",
+    "authority": "explicit task source"
+  },
+  "reader": {
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/chapter-11.md",
+    "sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
+    "relation": "source_text"
+  },
+  "independence": {
+    "astra": "must not read current Claude or Gemini reports before lock",
+    "claude": "must not read current Astra or Gemini reports before lock",
+    "gemini_flash": "independent full-text literary/continuity analysis; no current peer reports",
+    "gemini": "isolated packet only; no repository canon, audits or change hints"
+  },
+  "reports": {
+    "astra": {
+      "file": "astra-diagnosis.md",
+      "status": "locked",
+      "sha256": "521ed92deac8320d68ba8d4e4c2dec0412e63ab99fd43c8fd53f6e72ab0f371c",
+      "locked_at": "2026-09-21T23:38:00+00:00"
+    },
+    "claude": {
+      "file": "claude-diagnosis.md",
+      "status": "draft",
+      "sha256": null
+    },
+    "gemini_flash": {
+      "file": "gemini-flash-diagnosis.md",
+      "status": "locked",
+      "sha256": "fd085b5cc6dccd4512fa92c956a87f567b794d293956dbf693b68d5937013d85",
+      "locked_at": "2026-09-21T23:40:25+00:00"
+    },
+    "gemini": {
+      "file": "gemini-blind-read.md",
+      "status": "locked",
+      "sha256": "6906ebeac7d52de4168e6978db0fb7aaf719b5e9a277d7b6f459a33a5ebf78af",
+      "locked_at": "2026-09-21T23:40:25+00:00"
+    },
+    "reconciliation": {
+      "file": "reconciliation.md",
+      "status": "draft",
+      "sha256": null
+    },
+    "verification": {
+      "file": "verification.md",
+      "status": "draft",
+      "sha256": null
+    }
+  },
+  "author_decisions": {
+    "file": "author-decisions.md",
+    "status": "draft",
+    "sha256": null
+  },
+  "issue_ledger": "issue-ledger.json"
+}

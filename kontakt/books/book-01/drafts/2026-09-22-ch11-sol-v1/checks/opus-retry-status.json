@@ -1,0 +1,32 @@
+{
+  "status": "waiting_for_reported_quota_reset",
+  "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
+  "required_role": "claude",
+  "client": "agy",
+  "requested_model": "claude-opus-4-6-thinking",
+  "terminal_attempt": "kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/checks/opus-attempt01-quota",
+  "exit_code": 3,
+  "error_code": 429,
+  "reason": "Individual quota reached",
+  "reported_wait": "29m48s",
+  "error_recorded_utc": "2026-09-21T23:39:08Z",
+  "retry_not_before_utc": "2026-09-22T00:09:00Z",
+  "completed_reports": [
+    "astra",
+    "gemini_flash",
+    "gemini"
+  ],
+  "missing_reports": [
+    "claude"
+  ],
+  "reconciliation": "not_started",
+  "next_chapter": "not_started",
+  "policy": "Same required model and client after reset; no silent substitution; frozen source unchanged",
+  "scheduled_retry": {
+    "session_id": 92909,
+    "script": "retry-opus.py",
+    "script_sha256": "3303694134893db64f5754d66ed454e84bb82e96222e443374e22f98a0b67dc1",
+    "state": "live waiting process; poll this handle, do not launch a duplicate",
+    "deadline_utc": "2026-09-22T00:09:00Z"
+  }
+}

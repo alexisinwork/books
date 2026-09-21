@@ -1,0 +1,43 @@
+{
+  "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
+  "status": "partial_three_readings_fourth_waiting_quota_not_chapter_complete",
+  "scope": "Full CH11 59 blocks, 678 lexical tokens; not volume audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "521ed92deac8320d68ba8d4e4c2dec0412e63ab99fd43c8fd53f6e72ab0f371c",
+    "gemini_flash": "fd085b5cc6dccd4512fa92c956a87f567b794d293956dbf693b68d5937013d85",
+    "gemini": "6906ebeac7d52de4168e6978db0fb7aaf719b5e9a277d7b6f459a33a5ebf78af"
+  },
+  "missing": [
+    "claude",
+    "reconciliation"
+  ],
+  "external_failure": "opus-retry-status.json",
+  "verdicts": {
+    "astra": "PASS with local questions",
+    "gemini_flash": "PASS",
+    "gemini": "positive sequential cold reading, no editorial verdict requested"
+  },
+  "language_scans": "Both configured scans clean; independent grammar checker not run",
+  "docx": {
+    "pages": 3,
+    "extraction": "exact match",
+    "pdf_text": "matches ignoring layout whitespace",
+    "visual_review": "All 3 pages inspected; short 36-word last page retained",
+    "pdf_sha256": "f54d51cb86f71f96532684b681bec447bb864c310993cc3a7ed5b7cbd5df6b15",
+    "renderer": "docx-preview/Chromium, not native Word"
+  },
+  "versions": {
+    "first_prose": "6bef5b7a92488fce43d735e84c1faff67e1bbbe366f51d61a0651bd3170be67c",
+    "first_notes": "9a8906552d029c388941d91f05649da7eb27cc1cd4f6219c5a1f1b3917dd3fc9",
+    "diff": "e68f8ebedd9ecd857f0d4e37050f8e6f7c25596a2554f67ae2484ac8de5db241"
+  },
+  "registered_in_volume": false,
+  "next_chapter_started": false,
+  "remaining": [
+    "Required Opus diagnosis after reported reset",
+    "Reconciliation, final verification and registration",
+    "CH12 handoff after complete cycle",
+    "Rest of volume and global audit"
+  ]
+}

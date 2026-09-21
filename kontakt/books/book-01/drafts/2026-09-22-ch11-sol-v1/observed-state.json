@@ -1,0 +1,133 @@
+{
+  "book_id": "book-01",
+  "status": "observed_in_working_draft_not_canonical",
+  "source": {
+    "path": "chapter-11.md",
+    "sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319"
+  },
+  "previous": {
+    "path": "../2026-09-22-ch10-sol-v1/observed-state.json",
+    "prose_sha256": "8fb300b16e4e27a75be7e1d2899d28b1b2d2e0a75ff7d049e1c53f23cc14ab46"
+  },
+  "revision": {
+    "first_save": "chapter-11.preflight.md",
+    "old_sha256": "6bef5b7a92488fce43d735e84c1faff67e1bbbe366f51d61a0651bd3170be67c",
+    "diff": "preflight-changes.diff",
+    "reason": "Before peers: remove unsupported pot prediction, make kitchen choice explicit, separate device microphone lifetime from timer/burner grant; explicit card close and exact timer cooking end"
+  },
+  "scenes": [
+    {
+      "id": "B01-S04-C11-S01",
+      "anchors": "P0002–P0014",
+      "events": [
+        "D4 evening at home, device moved to entryway shelf after CH10. Dal starts water for pasta.",
+        "Prepared support announces ready to connect as Ladushka. Cause remains undefined readiness and rejected explanation; free D5 09:40 grey.",
+        "Standing assignment includes own professional status and free-slot state. Household channels initially off.",
+        "Water spills while Dal checks device. He turns burner off and cleans. He selects kitchen-session option himself and grants stated channels."
+      ]
+    },
+    {
+      "id": "B01-S04-C11-S02",
+      "anchors": "P0015–P0035",
+      "events": [
+        "Device voice greets Mark Dal; it cannot change readiness or confirm slot without his action.",
+        "It reports burner off. Dal turns heat on, says he can cook pasta; service confirms burner on, not unseen pot state.",
+        "Dal starts eight-minute timer. Service offers reminder before end, aiming to reduce practical burden from undefined readiness.",
+        "Dal asks whether it will keep him from capsizing and calls it Ballast. Device-local address accepted."
+      ]
+    },
+    {
+      "id": "B01-S04-C11-S03",
+      "anchors": "P0036–P0059",
+      "events": [
+        "Three options shown: mute voice, close kitchen grant, full linked personal-contour exit. Card close separately disables microphone.",
+        "Full exit possible; local smoke/leak alarms remain, automatic building-service dispatch/door access require manual confirmation. Independent emergency-key route offered.",
+        "Route requires two building-service visits and physical token collected in person; Dal opens first of seven steps.",
+        "Ballast warns with 42 seconds left that terms span seven screens. Dal prepares colander, drains pasta at timer sound.",
+        "Dal chooses neither mute nor early revoke nor full exit. Timer/burner grant expires with timer. Card remains open for final question; free 09:40 unchanged.",
+        "He serves dinner, explicitly closes card and observes microphone off, places device face down on table, leaves output voice enabled."
+      ]
+    }
+  ],
+  "timeline": {
+    "entry": "D4 evening after CH10; exact clock unknown",
+    "timer": "8 minutes; warning at 42 seconds, reply approximate 40 seconds; draining at timer sound",
+    "exit": "D4 evening, exact clock unknown; no assertion that before 18:00",
+    "free_slot": "D5 09:40 remains unconfirmed"
+  },
+  "knowledge": {
+    "Dal_and_reader": [
+      "Service name and assignment scope",
+      "Three separate exit options and stated cost",
+      "Independent key route offered; exact scope for restoring automatic dispatch not established"
+    ],
+    "Ballast": [
+      "Own assignment reason, current professional readiness and free-slot state",
+      "Burner off/on and timer during explicit kitchen grant",
+      "Dal says pasta in P0021; meal name therefore known verbally, not by camera",
+      "Spoken interaction while card open; service-owned exit route and seven screens"
+    ],
+    "Maya": [
+      "No new information shown"
+    ],
+    "Gor": [
+      "No new information shown"
+    ],
+    "Tikhon": [
+      "No new information shown"
+    ],
+    "not_established": [
+      "Private Maya session data or current mediation state",
+      "Service sees pot, spill, colander or room through camera",
+      "Nina biography supplied to Ballast",
+      "Independent key restores all automatic dispatch functions",
+      "Any current changed work readiness",
+      "R1 detection, compulsory recalibration or historical emergency origin"
+    ]
+  },
+  "resources": {
+    "resonance": "R1 remains architectural assessment, no increase or UI label",
+    "employment": "Active appointments and work permissions unchanged",
+    "free_slot": "D5 09:40 grey; requires new assessment by Dal",
+    "Ballast": "Assigned software on device, named Ladushka and addressed Ballast locally",
+    "standing_access": "Assignment reason, professional readiness and free-slot state",
+    "output_voice": "Enabled through this device only",
+    "microphone": "Off after explicit card close; no always-listening permission",
+    "kitchen": "Timer and one-burner grant expired automatically; no ongoing kitchen access",
+    "other_household_channels": "No new locks, lighting, camera or general-room access",
+    "full_exit": "Available, not chosen; ordinary safety arrangements remain",
+    "device": "Face down on dining/kitchen table at exit",
+    "Maya_access": "None; no new invitation or grant"
+  },
+  "draft_local_proposals": [
+    "Entryway shelf and pasta preparation",
+    "Ready-to-connect card and device-local address Ballast",
+    "Limited grant lifetimes and device-only output",
+    "Full linked-contour exit and independent emergency-key route",
+    "Two visits and physical key pickup, seven steps/screens",
+    "Eight-minute timer, 42-second reminder"
+  ],
+  "promises": {
+    "developed": [
+      "S04 care assignment and Ballast naming",
+      "Care practically useful while autonomy has a cost"
+    ],
+    "withheld": [
+      "S05 mirror and unauthorized parameter change",
+      "S06 old Gor logs",
+      "S07 betrayal and recalibration",
+      "S08 full Nina truth",
+      "S12 historical emergency hint"
+    ]
+  },
+  "forward_dependencies": [
+    "CH12 only after all CH11 reviews",
+    "Device voice may speak, but microphone needs open card again; kitchen grant cannot silently resume",
+    "Do not auto-confirm D5 09:40 or invent a cancelled client",
+    "New Maya contact/grant required before any new visit or diagnostic work",
+    "Independent-key route remains uncompleted; distinguish physical access from automatic dispatch",
+    "M05 exact Nina object unresolved before future setup",
+    "R1 does not confer moral perfection"
+  ],
+  "checks_status": "Astra, Flash and Pro locked; Opus terminal 429, waiting reported reset; no reconciliation or chapter registration"
+}
