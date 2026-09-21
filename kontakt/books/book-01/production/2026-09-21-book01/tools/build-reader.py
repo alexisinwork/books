@@ -7,7 +7,9 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 
 import argparse
-p=argparse.ArgumentParser(); p.add_argument('--source',type=Path,required=True); p.add_argument('--chapter',type=int,required=True); args=p.parse_args()
+p=argparse.ArgumentParser(); p.add_argument('--source',type=Path,required=True)
+group=p.add_mutually_exclusive_group(required=True);group.add_argument('--chapter',type=int);group.add_argument('--title')
+args=p.parse_args()
 source=args.source.resolve(); base=source.parent
 chapter=args.chapter
 text = source.read_text(encoding='utf-8')
@@ -34,6 +36,7 @@ for i, block in enumerate(blocks, 1):
     quoted = clean.startswith('> ')
     if quoted: clean = re.sub(r'^>\s?', '', clean, flags=re.M)
     p = doc.add_paragraph(style='Heading 1' if heading else 'Normal')
+    if args.title and heading and i>1: p.paragraph_format.page_break_before = True
     if quoted:
         p.paragraph_format.left_indent = Cm(.6)
         p.paragraph_format.right_indent = Cm(.6)
@@ -46,10 +49,10 @@ for i, block in enumerate(blocks, 1):
         p.text = '* * *'; p.alignment = 1
     expected.append(p.text)
     anchors.append({'id':f'P{i:04d}', 'source_sha256':sha, 'text':block, 'docx_paragraph':i})
-doc.core_properties.title = f'Контакт — глава {chapter} — чернетка'
+doc.core_properties.title = args.title or f'Контакт — глава {chapter} — чернетка'
 doc.core_properties.subject = 'Український оригінал; робоча версія для читання автором'
 doc.core_properties.author = 'Sol — робоча чернетка'
-dest = reader / f'Контакт — глава {chapter} — чернетка.docx'
+dest = reader / (doc.core_properties.title+'.docx')
 doc.save(dest)
 actual = [p.text for p in Document(dest).paragraphs]
 assert actual == expected

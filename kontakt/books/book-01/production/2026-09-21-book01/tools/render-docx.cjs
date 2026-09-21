@@ -17,7 +17,7 @@ const {chromium} = require(path.join(deps, 'playwright-core'));
       await docx.renderAsync(bytes.buffer, document.getElementById('document'), null, {inWrapper:true, ignoreLastRenderedPageBreak:false, renderHeaders:true, renderFooters:true});
       await document.fonts.ready;
     }, fs.readFileSync(source).toString('base64'));
-    await page.addStyleTag({content:'@page {size:A4; margin:20mm 23mm} @media print {body{margin:0}.docx-wrapper{background:white!important;padding:0!important}.docx-wrapper>section.docx{box-shadow:none!important;margin:0!important;padding:0!important;min-height:0!important;height:auto!important;width:auto!important;break-after:auto!important} .docx-wrapper article{width:auto!important} p{orphans:2;widows:2}}'});
+    await page.addStyleTag({content:'@page {size:A4; margin:20mm 23mm} @media print {body{margin:0}.docx-wrapper{background:white!important;padding:0!important}.docx-wrapper>section.docx{box-shadow:none!important;margin:0!important;padding:0!important;min-height:0!important;height:auto!important;width:auto!important;break-after:auto!important} .docx-wrapper>section.docx+section.docx{break-before:page!important} .docx-wrapper article{width:auto!important} p{orphans:2;widows:2}}'});
     fs.writeFileSync(path.join(output,'preview-text.txt'),await page.locator('#document').innerText(),'utf8');
     await page.pdf({path:path.join(output,'preview.pdf'),printBackground:true,preferCSSPageSize:true});
     fs.writeFileSync(path.join(output,'renderer.json'),JSON.stringify({renderer:'docx-preview in Chromium',browser:await browser.version(),docx_preview:require(path.join(deps,'docx-preview/package.json')).version,scope:'Actual DOCX parsed and rendered; preview pagination, not native Word/LibreOffice.'},null,2));
