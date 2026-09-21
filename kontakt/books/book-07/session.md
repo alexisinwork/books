@@ -1,9 +1,9 @@
-# Следующая сессия — После будущего
+# Сессия подготовки 21.09.2026 — book-07
 
-Стадия: **architecture_ready**. Master отсутствует. Прозу пока не писать.
+Прочитаны выбранный макрокаркас и относящиеся planned-реестры; источники зафиксированы в [baseline](../../series/preparation/2026-09-21/baseline.json).
+Проза не написана. Observed states отсутствуют.
 
-Прочитать общий lock, `ARCHITECTURE-PASS-01.md`, `book-matrix.md`, `character-arcs.md`, `reveal-ladder.md`, затем `brief.md`, `ARCHITECTURE-READINESS.md`, `plan.md` и historical outline.
+Следующий вход: [plan.md](plan.md); детализировать только нужную последовательность перед её прозой.
 
-Следующий шаг: Architecture Pass 01 — причинная scene-chain, planned character/knowledge/promises/timeline/end-state, сверка входа/выхода с соседними книгами.
-
-Не переходить к главе 1 до `ready_for_draft`.
+Старые AI-RUNBOOK/CONTEXT-CAPSULE/pass01-manifest сохранены как пакет происхождения. Актуальный scope и маршрутизация здесь и в book.json.
+Оставшиеся вопросы дальних сцен не объявляются закрытыми литературным аудитом. Проверки: preparation/verification.json.

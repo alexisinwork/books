@@ -2,17 +2,50 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-05",
-  "source_sha256": null,
   "record_type": "motifs",
-  "fields": [
-    "id",
-    "form",
-    "appearances",
-    "function_each_time",
-    "meaning_change",
-    "payoff",
-    "decision",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "motifs.planned.json",
+  "source_sha256": "b010c957060708759a0080ba5ed77e0d00be39a41dd07628c9622621a2e9498e",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "id": "M01",
+      "form": "нагрузка/единица load",
+      "movement": "абстрактные units K-17 → живое тело carrier → emergency split → после смерти unit снова становится оскорбительно малым описанием события",
+      "payoff": "S10"
+    },
+    {
+      "id": "M02",
+      "form": "пустой стул/место после смены",
+      "movement": "обычный recovery-seat → Тарас сидит после sessions → пустое место после смерти",
+      "payoff": "S12"
+    },
+    {
+      "id": "M03",
+      "form": "receipt/квитанция",
+      "movement": "care receipt без человека → Даль видит carrier class → transparent receipt становится реформой",
+      "payoff": "S11"
+    },
+    {
+      "id": "M04",
+      "form": "рука на пульсе",
+      "movement": "medical monitoring carriers → Тарас как recovery-contact → после смерти Даль не может 'починить' отсутствие",
+      "payoff": "S10"
+    },
+    {
+      "id": "M05",
+      "form": "вода/еда/сон",
+      "movement": "Балласт предлагает как optimisation → после grief это становится простой приемлемой care без подмены чувства",
+      "payoff": "S10-S12"
+    },
+    {
+      "id": "M06",
+      "form": "звук завершённой сессии",
+      "movement": "routine signal → false sense emergency over after split-relay → delayed complication",
+      "payoff": "S10"
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "planned"
+  }
 }

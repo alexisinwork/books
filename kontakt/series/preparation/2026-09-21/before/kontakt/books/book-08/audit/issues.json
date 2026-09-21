@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "project_id": "kontakt-razlad",
+  "book_id": "book-08",
+  "source_sha256": null,
+  "record_type": "audit/issues",
+  "fields": [
+    "id",
+    "status",
+    "resolution_status",
+    "category",
+    "severity",
+    "certainty",
+    "anchors",
+    "observation",
+    "reader_effect",
+    "proposed_change",
+    "dependencies",
+    "verification",
+    "decision"
+  ],
+  "items": [
+    {
+      "id": "KONTAKT-REV-20260921-06",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "book_ids": [
+        "book-03",
+        "book-04",
+        "book-05",
+        "book-06",
+        "book-07",
+        "book-08"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_03_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_03_CHAPTER_SKELETON_V1.md",
+          "sha256": "a6e56aa33176faa7798aaf51ebbecd001ba442d053c61a3bc08106ff70aa4179",
+          "line": 252,
+          "quote": "Система предлагает Осе **ученичество/работу в ремонтной мастерской городской инфраструктуры** — реально подходящую ему работу."
+        },
+        {
+          "file": "kontakt/books/book-04/BOOK-04-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-04\\BOOK-04-ARCHITECTURE-LOCK.md",
+          "sha256": "d7da2bab558beb52d42605a81a3d3e12062fb918f1439949cc855d244cfb9cf3",
+          "line": 37,
+          "quote": "- Ося жив, вернулся к желанной курьерской работе и не живёт «против файла»."
+        }
+      ],
+      "observation": "Osya's courier profession becomes repair apprenticeship without updating downstream carry-ins.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "Prefer retaining the desired courier route, or explicitly propagate the adopted profession through all later plans.",
+      "dependencies": [
+        "book-03 resolution",
+        "books 4-8 Osya work, access and logistics"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "unresolved"
+    },
+    {
+      "id": "KONTAKT-REV-20260921-13",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "book_ids": [
+        "book-06",
+        "book-07",
+        "book-08"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_06_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_06_CHAPTER_SKELETON_V1.md",
+          "sha256": "fad02633ac02513da4a1aad4d49fedd5a30e71b620c3fcaa5b8577c8a37a6cc4",
+          "line": 60,
+          "quote": "**Марта и Ждан — родители Милы.** Они одновременно участвовали в создании экспериментального модуля «Сада поколений»."
+        },
+        {
+          "file": "kontakt/books/book-06/BOOK-06-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-06\\BOOK-06-ARCHITECTURE-LOCK.md",
+          "sha256": "e68699435457b6f0886118b5178fcf428b72f13746a2d2f8d51fe0244848c100",
+          "line": 107,
+          "quote": "в «плохие годы» до зрелой версии Guidance её старший сын-подросток погиб после цепочки кризисов, которые взрослые распознали слишком поздно."
+        }
+      ],
+      "observation": "Marta becomes Mila's mother and Zhdan's co-designer partner; the established bereavement is not reconciled.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "Record the proposed family relationship explicitly and settle the older-son history before using it in prose.",
+      "dependencies": [
+        "book-06 family chapters",
+        "books 7-8 family continuity"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "unresolved"
+    },
+    {
+      "id": "KONTAKT-REV-20260921-15",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "book_ids": [
+        "book-07",
+        "book-08"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_07_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_07_CHAPTER_SKELETON_V1.md",
+          "sha256": "673fc08552ef0a3d2fb96cd50ea6422830c59ab77d8617aeb08cd07b15b78e57",
+          "line": 70,
+          "quote": "**Deadline: 72 часа.**"
+        },
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_07_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_07_CHAPTER_SKELETON_V1.md",
+          "sha256": "673fc08552ef0a3d2fb96cd50ea6422830c59ab77d8617aeb08cd07b15b78e57",
+          "line": 497,
+          "quote": "- Он впервые выбирает **долгий договор на жильё на собственное имя**."
+        },
+        {
+          "file": "kontakt/books/book-07/BOOK-07-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-07\\BOOK-07-ARCHITECTURE-LOCK.md",
+          "sha256": "3664800b0a87ca32340f228c7ef59fc3e5e4deaabd059f2ce47187abd3bdf0ec",
+          "line": 142,
+          "quote": "Проект НЕ зависит от его подписи."
+        },
+        {
+          "file": "kontakt/books/book-07/BOOK-07-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-07\\BOOK-07-ARCHITECTURE-LOCK.md",
+          "sha256": "3664800b0a87ca32340f228c7ef59fc3e5e4deaabd059f2ce47187abd3bdf0ec",
+          "line": 133,
+          "quote": "Владелец/город предлагает кооперативу **пятилетний long-horizon lease** по нормальной ставке."
+        },
+        {
+          "file": "kontakt/books/book-08/BOOK-08-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-08\\BOOK-08-ARCHITECTURE-LOCK.md",
+          "sha256": "c782b692fe8bda75f5864780133c88ba233d6092a4421ee090093691cd9167e7",
+          "line": 69,
+          "quote": "- Он подписал пятилетний договор мастерской настоящим именем."
+        }
+      ],
+      "observation": "A 72-hour review for Mila/Osya replaces Dal's independent twelve-day workshop decision; the long-term commitment becomes housing.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "Prefer the personal five-year workshop climax, independent of others' welfare; reconcile any ancillary review with existing assent rights.",
+      "dependencies": [
+        "book-07 entire climax",
+        "book-08 workshop/support-hub carry-in"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "unresolved"
+    },
+    {
+      "id": "KONTAKT-REV-20260921-16",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "book_ids": [
+        "book-08"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/books/book-08/BOOK-08-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-08\\BOOK-08-ARCHITECTURE-LOCK.md",
+          "sha256": "c782b692fe8bda75f5864780133c88ba233d6092a4421ee090093691cd9167e7",
+          "line": 43,
+          "quote": "Книга начинается примерно на **девятом месяце войны** и длится около шести недель."
+        },
+        {
+          "file": "kontakt/books/book-08/BOOK-08-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-08\\BOOK-08-ARCHITECTURE-LOCK.md",
+          "sha256": "c782b692fe8bda75f5864780133c88ba233d6092a4421ee090093691cd9167e7",
+          "line": 327,
+          "quote": "Илья возвращается после длительного удержания/изоляции и медицинской помощи."
+        },
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_08_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_08_CHAPTER_SKELETON_V1.md",
+          "sha256": "66b7a6437da184fb99efbb13ea42f844c56f04e2cf8c43549b0a7afc64dd6a05",
+          "line": 19,
+          "quote": "- Главный пропавший: **Ян Коста, 31 год**, связист обороны; пропал 11 дней назад."
+        },
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_08_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_08_CHAPTER_SKELETON_V1.md",
+          "sha256": "66b7a6437da184fb99efbb13ea42f844c56f04e2cf8c43549b0a7afc64dd6a05",
+          "line": 49,
+          "quote": "- основной сюжет романа занимает 9 суток."
+        }
+      ],
+      "observation": "Book 8 replaces the Varan family/Eva cast and detention-return plot with Kosta/Nika/M-17, and compresses war time and duration.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "Choose a complete edition, not an implicit rename. Prefer the connected family and longer timescale while considering the new triage tests.",
+      "dependencies": [
+        "book-08 characters, timeline, evidence/status, ending",
+        "book-07 to book-08 handoff"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "unresolved"
+    },
+    {
+      "id": "KONTAKT-REV-20260921-17",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "missing_link",
+      "book_ids": [
+        "book-08"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_08_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_08_CHAPTER_SKELETON_V1.md",
+          "sha256": "66b7a6437da184fb99efbb13ea42f844c56f04e2cf8c43549b0a7afc64dd6a05",
+          "line": 67,
+          "quote": "7. M-17 перевели через промежуточный медицинский конвой в Западный пояс."
+        },
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_08_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_08_CHAPTER_SKELETON_V1.md",
+          "sha256": "66b7a6437da184fb99efbb13ea42f844c56f04e2cf8c43549b0a7afc64dd6a05",
+          "line": 488,
+          "quote": "- Появляется транспортное окно для Яна."
+        },
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_08_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_08_CHAPTER_SKELETON_V1.md",
+          "sha256": "66b7a6437da184fb99efbb13ea42f844c56f04e2cf8c43549b0a7afc64dd6a05",
+          "line": 781,
+          "quote": "- **День 9:** гл.28–36 — три слоя → Ника → Дана/Ян → displaced/Mila → интеграция → новая смена → финальная сводка."
+        }
+      ],
+      "observation": "M-17 is already in the Western hospital belt, but later transport stakes lack explicit origin, destination and clinical purpose.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "Specify the purpose and safety of each transfer; distinguish identification, transport and treatment urgency.",
+      "dependencies": [
+        "book-08 chapters 16-18,24-36",
+        "transport ledger",
+        "pilot/reform timescale"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "unresolved"
+    },
+    {
+      "id": "KONTAKT-REV-20260921-18",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "book_ids": [
+        "book-01",
+        "book-02",
+        "book-03",
+        "book-04",
+        "book-05",
+        "book-06",
+        "book-07",
+        "book-08"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_01_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_01_CHAPTER_SKELETON_V1.md",
+          "sha256": "8cd42ea87962d7b0b10100e5cf6d8209a47804c5cc9f6807f1300ed964daf491",
+          "line": 805,
+          "quote": "4. только после полного архитектурного gate начинать украинскую художественную прозу."
+        },
+        {
+          "file": "kontakt/books/book-01/NEXT-STEP.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\NEXT-STEP.md",
+          "sha256": "befbce82a2e8e1c6c07f98e67be90d488a0096e440f1f2d264451df82a5991d0",
+          "line": 23,
+          "quote": "5. Завершить S01 и лишь затем S02."
+        },
+        {
+          "file": "kontakt/books/book-01/voice.json",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\voice.json",
+          "sha256": "f3f7c4f147a62bda6576e6490364ad7076e521e3b201a01827f25fc1ec1d7fd1",
+          "line": 12,
+          "quote": "    \"tense\": \"Выбрать\","
+        }
+      ],
+      "observation": "New skeletons require all-sequence scene cards before prose, while the runbook requires progressive sequence work; execution metadata remains stale.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "Use provisional whole-book maps and detail S01 first; synchronize selected planned sources and voice placeholders without presenting planned events as observed facts.",
+      "dependencies": [
+        "all books' working source pointers and planned states",
+        "Book 1 opening execution package"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "unresolved"
+    }
+  ]
+}

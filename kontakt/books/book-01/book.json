@@ -4,14 +4,30 @@
   "book_id": "book-01",
   "title": "Контакт",
   "book_type": "fiction",
-  "stage": "architecture_ready",
+  "stage": "ready_for_draft",
   "master": null,
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "architecture_pending",
+  "audit_status": "chapter_01_architecture_checked",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
   "outline_source": "../../sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-  "outline_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d"
+  "outline_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
+  "original_language": "uk",
+  "planning_baseline": "../../series/preparation/2026-09-21/baseline.json",
+  "active_outline": {
+    "path": "BOOK-01-ARCHITECTURE-LOCK.md",
+    "sha256": "338cba44392162efecc20fa738a946473e22652e73e427e20b242da365a74510"
+  },
+  "planning_state": "planned_not_observed",
+  "execution_entry": "execution/HANDOFF-CH01.md",
+  "draft_scope": {
+    "chapter": 1,
+    "sequence": "S01",
+    "whole_book_ready": false,
+    "whole_series_ready": false,
+    "prose_started": false,
+    "execution": "execution/HANDOFF-CH01.md"
+  }
 }

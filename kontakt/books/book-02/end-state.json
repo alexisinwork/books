@@ -2,17 +2,59 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-02",
-  "source_sha256": null,
   "record_type": "end-state",
-  "fields": [
-    "id",
-    "entity",
-    "actual_final_state",
-    "status",
-    "anchors",
-    "carry_to_next_book"
+  "status": "planned_projection",
+  "source_of_truth": "end-state.planned.json",
+  "source_sha256": "030397e8c68d3c7e714091916e383b21c0de3586002bae32b9239aef554fd623",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "entity": "Марк Даль",
+      "state": "жив; R2; не лидер Однодневок; меньше зависим от коллективной идентичности; видимость/аномальность выше",
+      "carry": "book-03 opens with a real friendship and prediction question"
+    },
+    {
+      "entity": "Тарас",
+      "state": "жив; остаётся в устойчивом личном контакте с Далем; ручная линия непрерывности продолжается",
+      "carry": "book-03-04 real friendship; dies only in book 5"
+    },
+    {
+      "entity": "Вектор",
+      "state": "жив; движение не распалось полностью; считает, что нужен больший масштаб",
+      "carry": "not required as core recurring character"
+    },
+    {
+      "entity": "Лана",
+      "state": "жива; публичная позиция усложнена; признаёт проблему ranking, не принимает blackout",
+      "carry": "optional only"
+    },
+    {
+      "entity": "Ира",
+      "state": "жива; не символ; восстановлен точный human check-in, а не гарантированная algorithmic visibility",
+      "carry": "none required"
+    },
+    {
+      "entity": "Балласт",
+      "state": "остаётся рядом; его искусственная непрерывность теперь контрастирует с Тарасом",
+      "carry": "book-03"
+    },
+    {
+      "entity": "Тихон",
+      "state": "путь назад всё ещё открыт",
+      "carry": "recurring temptation"
+    },
+    {
+      "entity": "Резонанс",
+      "state": "R2 Recognition",
+      "carry": "book-03 opens R2"
+    },
+    {
+      "entity": "Predictariat hook",
+      "state": "есть evidence, что response capacity могла быть подготовлена до решения движения; объяснения нет",
+      "carry": "book-03 central engine"
+    }
   ],
-  "items": [],
-  "status": "planned_not_established",
-  "planned_summary": "Тарас становится живой связью; движение не заменяет близости."
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

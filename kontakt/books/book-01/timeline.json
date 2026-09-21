@@ -2,18 +2,94 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-01",
-  "source_sha256": null,
   "record_type": "timeline",
-  "fields": [
-    "event_id",
-    "reference_point",
-    "start",
-    "duration",
-    "travel",
-    "global_deadline",
-    "local_window",
-    "assumption",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "timeline.planned.json",
+  "source_sha256": "3cd9ebe89b264717abb35c092dacdd61c037604528510c2ab991a15841381727",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "day": "D0",
+      "events": [
+        "обычная калибровка",
+        "предложение Гора"
+      ]
+    },
+    {
+      "day": "D1",
+      "events": [
+        "принятие дела",
+        "первая встреча с Майей"
+      ]
+    },
+    {
+      "day": "D2-D3",
+      "events": [
+        "аудит",
+        "первое прямое окно"
+      ]
+    },
+    {
+      "day": "D4",
+      "events": [
+        "стабилизация Тихона",
+        "R1",
+        "Балласт"
+      ]
+    },
+    {
+      "day": "D5-D6",
+      "events": [
+        "нарушение границы",
+        "углубление сопровождения"
+      ]
+    },
+    {
+      "day": "D7",
+      "events": [
+        "proxy-log",
+        "смена цели"
+      ]
+    },
+    {
+      "day": "D8",
+      "events": [
+        "дно",
+        "предательство Гора",
+        "care deadline"
+      ]
+    },
+    {
+      "day": "D9",
+      "events": [
+        "условия Майи",
+        "полная правда Нины"
+      ]
+    },
+    {
+      "day": "D10",
+      "events": [
+        "финальное окно",
+        "Майя сама выходит"
+      ]
+    },
+    {
+      "day": "D11",
+      "events": [
+        "автономный выбор Майи",
+        "дезертирство",
+        "carry"
+      ]
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "relative_timeline_planned",
+    "assumption": "около 11 дней; chapterization может сдвигать локальные интервалы, но не порядок"
+  },
+  "execution_detail_source": "scenes.json",
+  "S01": {
+    "chapter_1": "D0 morning to evening",
+    "chapter_2": "D0 late evening to D1 morning",
+    "next_sequence": "D1 bounded Maya meeting"
+  }
 }

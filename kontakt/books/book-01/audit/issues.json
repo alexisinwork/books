@@ -56,7 +56,14 @@
         "prose_review": "not_run"
       },
       "decision": "proposed",
-      "resolution_status": "unresolved"
+      "resolution_status": "resolved",
+      "resolution": {
+        "run_id": "kontakt-preparation-20260921",
+        "basis": "Existing source priority and author-authorized preparation; incompatible candidates not active.",
+        "text": "Use existing Nina history and Dal-authored safe-presence template. Separate factual memory from later emotional acknowledgment.",
+        "record": "../../series/preparation/2026-09-21/resolutions.json"
+      },
+      "implementation_status": "source_routing_applied"
     },
     {
       "id": "KONTAKT-REV-20260921-02",
@@ -110,7 +117,14 @@
         "prose_review": "not_run"
       },
       "decision": "proposed",
-      "resolution_status": "unresolved"
+      "resolution_status": "resolved",
+      "resolution": {
+        "run_id": "kontakt-preparation-20260921",
+        "basis": "Existing source priority and author-authorized preparation; incompatible candidates not active.",
+        "text": "Retain S04 R1 and Maya independent accommodation; opening adopts only compatible Chapters 1–2.",
+        "record": "../../series/preparation/2026-09-21/resolutions.json"
+      },
+      "implementation_status": "source_routing_applied"
     },
     {
       "id": "KONTAKT-REV-20260921-18",
@@ -164,7 +178,27 @@
         "prose_review": "not_run"
       },
       "decision": "proposed",
-      "resolution_status": "unresolved"
+      "resolution_status": "resolved",
+      "resolution": {
+        "run_id": "kontakt-preparation-20260921",
+        "basis": "Existing source priority and author-authorized preparation; incompatible candidates not active.",
+        "text": "Progressive sequence work; selected scoped scene cards govern opening; global macro review does not equal all chapters draft-ready.",
+        "record": "../../series/preparation/2026-09-21/resolutions.json"
+      },
+      "implementation_status": "source_routing_applied"
+    },
+    {
+      "id": "B01-NINA-OBJECT-LATER",
+      "category": "motif",
+      "severity": "minor",
+      "certainty": "missing_link",
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "observation": "Specific Nina keepsake M05 not selected. Chapter 1 explicitly excludes it; select and record before a later scene uses it.",
+      "dependencies": [
+        "book-01 M05 / later S05-S12"
+      ],
+      "blocks_current_chapter": false
     }
   ]
 }

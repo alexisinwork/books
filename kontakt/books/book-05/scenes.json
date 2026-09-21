@@ -2,329 +2,144 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-05",
-  "source_sha256": null,
-  "record_type": "scenes",
-  "fields": [
-    "id",
-    "pov",
-    "place",
-    "time",
-    "goal",
-    "obstacle",
-    "decision",
-    "result",
-    "cost",
-    "next_cause",
-    "state_changes",
-    "anchors"
-  ],
+  "status": "planned_macro_only",
+  "source": {
+    "path": "kontakt/books/book-05/architecture.json",
+    "sha256": "4aaaee6c7512fa977ebbed90890df1d119421016c5f7cf813d5e3c809f56b620"
+  },
   "items": [
     {
-      "id": "book-05-ch-01",
-      "chapter": 1,
-      "status": "planned",
-      "summary": "Мир-5: вычищенную боль сливают на носителей — эмоциональный колониализм; ценные комфортны, кто-то за них несёт. Герой с Якорем/Беглецом. [2: мир/слабость]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 20
+      "id": "book-05-S01",
+      "sequence_id": "S01",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Чужое спокойствие",
+      "decision": "проследить allocation K-17",
+      "cost": "обнаруживает реальный внешний affect labour",
+      "next_cause": "идти к carrier-house",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-05-ch-02",
-      "chapter": 2,
-      "status": "planned",
-      "summary": "Запускающее: герой находит Носителя, задыхающегося под чужой болью; хочет вытащить. [4]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 21
+      "id": "book-05-S02",
+      "sequence_id": "S02",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Носитель не просит спасать",
+      "decision": "сменить цель с 'закрыть сервис' на 'понять reserve'",
+      "cost": "Даль лишается простой схемы жертва/спасатель",
+      "next_cause": "аудит allocation",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-05-ch-03",
-      "chapter": 3,
-      "status": "planned",
-      "summary": "Личная нить: собственное отложенное горе-призрак впервые прорывается физически — откладывать больше нельзя. [9: первое открытие — лично]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 22
+      "id": "book-05-S03",
+      "sequence_id": "S03",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Его собственный счёт",
+      "decision": "признать участие собственной grief-care в relay",
+      "cost": "проблема становится личной",
+      "next_cause": "разобрать разницу voluntary/residual",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-05-ch-04",
-      "chapter": 4,
-      "status": "planned",
-      "summary": "Сборщик выходит: аутсорс — милосердие; предлагает герою слить его призрак-горе на носителя и стать свободным. [7: гл. противник; 8: семя]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 23
+      "id": "book-05-S04",
+      "sequence_id": "S04",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Аста выбирает",
+      "decision": "принять субъектность добровольного carrier",
+      "cost": "Даль не может бороться против всей профессии",
+      "next_cause": "искать residual coercion",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-05-ch-05",
-      "chapter": 5,
-      "status": "planned",
-      "summary": "Носитель активен: «я несу осознанно, это мой смысл; не спасай». [2-й противник]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 24
+      "id": "book-05-S05",
+      "sequence_id": "S05",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Residual pool",
+      "decision": "зафиксировать class coercion",
+      "cost": "нет быстрого shutdown без client cost",
+      "next_cause": "проектировать переход",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-05-ch-06",
-      "chapter": 6,
-      "status": "planned",
-      "summary": "Безмятежный — заход. Герой берётся освободить Носителя — и втайне искушён слить своё. [5: желание; 10: план]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 25
+      "id": "book-05-S06",
+      "sequence_id": "S06",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Нельзя просто выключить",
+      "decision": "согласовать phased reclamation pilot",
+      "cost": "Даль принимает, что реформа сложнее запрета",
+      "next_cause": "pilot",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-05-ch-07",
-      "chapter": 7,
-      "status": "planned",
-      "summary": "Якорь — зеркало: «ты хочешь спасти его или сбросить своё?». [6: союзник]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 27
+      "id": "book-05-S07",
+      "sequence_id": "S07",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Облегчение",
+      "decision": "принять одну прозрачную licensed relief-session",
+      "cost": "понимает реальную привлекательность offload",
+      "next_cause": "pilot без moral purity",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-05-ch-08",
-      "chapter": 8,
-      "status": "planned",
-      "summary": "Компаньон бессилен: предлагает «сгладить» горе героя — впервые не работает; фальшь звенит. [юмор-движок + тёмный поворот]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 28
+      "id": "book-05-S08",
+      "sequence_id": "S08",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Pilot работает",
+      "decision": "дать людям разные добровольные варианты",
+      "cost": "capacity становится tight",
+      "next_cause": "capacity cliff",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-05-ch-09",
-      "chapter": 9,
-      "status": "planned",
-      "summary": "Шаг Резонанса — герой держит чужую боль, не вытесняя (навык р.6 близко). Цена: видимость. [Резонанс ⟂ цена]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 29
+      "id": "book-05-S09",
+      "sequence_id": "S09",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Capacity cliff",
+      "decision": "Тарас сам соглашается на emergency split-relay как recovery-contact Асты",
+      "cost": "процедура спасает ситуацию, но создаёт медицинский риск",
+      "next_cause": "delayed complication",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-05-ch-10",
-      "chapter": 10,
-      "status": "planned",
-      "summary": "Сборщик-айсберг: активно давит — показывает, как легко и «этично» слить; ставит цену на облегчение героя. [11: активный план]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 30
+      "id": "book-05-S10",
+      "sequence_id": "S10",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Отложенная потеря / R5",
+      "decision": "не отдавать grief-content после смерти Тараса",
+      "cost": "Тарас утрачен необратимо; Даль несёт своё; R5",
+      "next_cause": "вернуться к реформе после первых дней grief",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-05-ch-11",
-      "chapter": 11,
-      "status": "planned",
-      "summary": "Лжесоюзник: комфортен за чужой счёт, тихо защищает систему слива. Сеется. [8: лжесоюзник]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 31
+      "id": "book-05-S11",
+      "sequence_id": "S11",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Не закрывать carrier-work, закрыть принуждение",
+      "decision": "реформировать consent/caps/overflow",
+      "cost": "никакой тотальной победы, добровольная работа остаётся",
+      "next_cause": "посмотреть upstream architecture",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-05-ch-12",
-      "chapter": 12,
-      "status": "planned",
-      "summary": "Гон/падение: измученный, герой почти сливает часть своей боли — пробует метод Сборщика на себе. [12: drive]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 32
-    },
-    {
-      "id": "book-05-ch-13",
-      "chapter": 13,
-      "status": "planned",
-      "summary": "Атака союзника: Якорь бьёт — «ты становишься тем, с кем воюешь». [13]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 33
-    },
-    {
-      "id": "book-05-ch-14",
-      "chapter": 14,
-      "status": "planned",
-      "summary": "Тема: герой понимает — вся его полость и была пожизненным аутсорсом боли; призрак ждёт оплаты. [3: слабость]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 34
-    },
-    {
-      "id": "book-05-ch-15",
-      "chapter": 15,
-      "status": "planned",
-      "summary": "Читателю (без героя): виден масштаб колониализма и что Якорь оказывается на линии риска. [16: открытие читателю; семя потери]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 35
-    },
-    {
-      "id": "book-05-ch-16",
-      "chapter": 16,
-      "status": "planned",
-      "summary": "Герой отшатывается от слива, идёт к правде; коридор к развязке. [мост]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 36
-    },
-    {
-      "id": "book-05-ch-17",
-      "chapter": 17,
-      "status": "planned",
-      "summary": "Мнимое поражение: попытка освободить Носителя срывается, колониализм смыкается, и в этот момент Якорь оказывается под ударом Системы. Дно. [14: дно]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 38
-    },
-    {
-      "id": "book-05-ch-18",
-      "chapter": 18,
-      "status": "planned",
-      "summary": "Со дна — второе открытие: спасать Носителя, не заплатив собственной болью, невозможно; надо горевать самому. [15]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 39
-    },
-    {
-      "id": "book-05-ch-19",
-      "chapter": 19,
-      "status": "planned",
-      "summary": "Твист-разворот: Носитель — живее всех в мире именно потому, что чувствует (пусть чужое); мир жалеет носителей, но они — единственные не полые. Переворот, кого жалеть. [17: третье открытие; крупный ревил]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 40
-    },
-    {
-      "id": "book-05-ch-20",
-      "chapter": 20,
-      "status": "planned",
-      "summary": "Сборщик вскрыт не как злодей, а как верующий в эффективность милосердия: someone must carry. Серый спектр. [8: полная выплата]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 41
-    },
-    {
-      "id": "book-05-ch-21",
-      "chapter": 21,
-      "status": "planned",
-      "summary": "Свежий ход «согласия»: чтобы спасти Носителя/остановить слив, цена — Якорь; Система предлагает герою «оптимальный» выход, где Якорь просто «сглаживается». [новый удар]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 42
-    },
-    {
-      "id": "book-05-ch-22",
-      "chapter": 22,
-      "status": "planned",
-      "summary": "КРУПНАЯ ПОТЕРЯ: спасая Носителя и отказываясь сливать, герой теряет Якоря — необратимо. Настоящее, раз реальное, можно потерять навсегда. [ставки максимум; необратимая цена]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 43
-    },
-    {
-      "id": "book-05-ch-23",
-      "chapter": 23,
-      "status": "planned",
-      "summary": "Безмятежный/Сборщик: «слей и это горе тоже». Соблазн на самом дне. Герой почти. [тёмный бит]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 44
-    },
-    {
-      "id": "book-05-ch-24",
-      "chapter": 24,
-      "status": "planned",
-      "summary": "Врата/визит к смерти: герой доходит до собственного призрака и решает НЕ сливать — принять горе по Якорю И по утраченному в т.1 в полный рост; это может его раздавить. [18]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 45
-    },
-    {
-      "id": "book-05-ch-25",
-      "chapter": 25,
-      "status": "planned",
-      "summary": "Прозрение-выбор: он впервые горюет по-настоящему — своей болью, до конца; это и есть быть живым. Ранг 6. [моральный разворот; Резонанс р.6]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 46
-    },
-    {
-      "id": "book-05-ch-26",
-      "chapter": 26,
-      "status": "planned",
-      "summary": "Безмятежный, Сборщик, компаньон — голоса «отдай боль» сходятся; водораздел поступком. [четырёхугольник]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 48
-    },
-    {
-      "id": "book-05-ch-27",
-      "chapter": 27,
-      "status": "planned",
-      "summary": "Битва ценностей: герой против экономики боли — неся своё, не перекладывая; горюет открыто, до конца. [19]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 49
-    },
-    {
-      "id": "book-05-ch-28",
-      "chapter": 28,
-      "status": "planned",
-      "summary": "Носитель освобождён, аутсорс на нём разорван — по-настоящему (не в пустоту): герой строит с ним контакт. Триумф навыка. [per-book победа]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 50
-    },
-    {
-      "id": "book-05-ch-29",
-      "chapter": 29,
-      "status": "planned",
-      "summary": "Горечь максимум: Якорь потерян навсегда; победа на вкус как пепел; колониализм лишь надрезан, не свергнут. [per-arc цена — крупнейшая]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 51
-    },
-    {
-      "id": "book-05-ch-30",
-      "chapter": 30,
-      "status": "planned",
-      "summary": "Чистый выигрыш (сквозь горе): герой ВПЕРВЫЕ чувствует в полный рост — горе по Якорю доказывает, что он больше не полый. Боль как доказательство жизни. [CRIT-2: выигрыш на вынос — иной, горький]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 52
-    },
-    {
-      "id": "book-05-ch-31",
-      "chapter": 31,
-      "status": "planned",
-      "summary": "Самооткровение поступком: вся его полость была аутсорсом боли; прожить своё — единственный выход из пустоты. Показано. [20]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 53
-    },
-    {
-      "id": "book-05-ch-32",
-      "chapter": 32,
-      "status": "planned",
-      "summary": "Моральное решение с ценой: герой отказывается от любого облегчения-слива навсегда — выбирает нести своё; заглаживание за это максимально. [21]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 54
-    },
-    {
-      "id": "book-05-ch-33",
-      "chapter": 33,
-      "status": "planned",
-      "summary": "Новое равновесие: надломленный, но впервые целиком живой; Беглец рядом, но дыра на месте Якоря настоящая; компаньон осаждает — и его утешение теперь оскорбительно. [22]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 55
-    },
-    {
-      "id": "book-05-ch-34",
-      "chapter": 34,
-      "status": "planned",
-      "summary": "Крючок в т.6: неся своё горе, герой спрашивает то, что мир запретил, — ЗАЧЕМ «Лад» вообще всех обезболил? Первый проблеск: анестезия от чего-то. Семя «Устаревшие родители» / keystone. [22; крючок т.6]",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md",
-      "source_sha256": "4d8ed178baa6598e7aeb8f7df6d1ecf747cbf7056d3fedba9bbf357586d3d6a0",
-      "source_line": 56
+      "id": "book-05-S12",
+      "sequence_id": "S12",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Что делают с детской болью",
+      "decision": "увидеть developmental distress prevention metadata",
+      "cost": "вопрос переносится от переноса боли к предотвращению становления",
+      "next_cause": "hook book6",
+      "detail_required_before_prose": true
     }
   ],
-  "coverage": "Full supplied 34-chapter outline; no manuscript exists"
+  "coverage": "12 macro sequences; local scene access/timing still required before writing later chapters"
 }

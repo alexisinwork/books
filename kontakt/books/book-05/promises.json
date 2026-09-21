@@ -2,25 +2,95 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-05",
-  "source_sha256": null,
   "record_type": "promises",
-  "fields": [
-    "id",
-    "promise",
-    "setup",
-    "misreading",
-    "reveal",
-    "payoff",
-    "cost",
-    "status",
-    "anchors"
-  ],
+  "status": "planned_projection",
+  "source_of_truth": "promises.planned.json",
+  "source_sha256": "06a9874475112b0bdfc6b06c30174766b243d92595a774dce24795952d8ce2b2",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
   "items": [
     {
-      "promise": "Тарас погибает; Аста освобождается от слива, Ося остаётся рядом.",
-      "status": "planned",
-      "source": "sources/originals/КОСТЯК-КНИГА-5-Контакт(1).md"
+      "id": "P01",
+      "promise": "Куда уходит affect load из Тихого контура?",
+      "setup": "carry book4/S01",
+      "misreading": "клиент просто успокаивается внутри Лада",
+      "reveal": "S01-S05",
+      "payoff": "human carrier economy + residual pool",
+      "cost": "комфорт оказывается социально распределённым трудом"
+    },
+    {
+      "id": "P02",
+      "promise": "Аста — жертва, которую надо освободить?",
+      "setup": "S02",
+      "misreading": "любой carrier-work = эксплуатация",
+      "reveal": "S04",
+      "payoff": "она выбирает профессию и защищает её",
+      "cost": "Даль теряет простую спасательную позицию"
+    },
+    {
+      "id": "P03",
+      "promise": "Вся услуга Affect Relay аморальна?",
+      "setup": "S01-S02",
+      "misreading": "нужно выключить всё",
+      "reveal": "S06-S08",
+      "payoff": "phased transparent voluntary model",
+      "cost": "реформа сложная и ограниченная capacity"
+    },
+    {
+      "id": "P04",
+      "promise": "Даль сам никогда не жил на чужой боли?",
+      "setup": "личный grief line",
+      "misreading": "его избегание было только self-companion",
+      "reveal": "S03",
+      "payoff": "его grief package включал relay",
+      "cost": "личная guilt/complicity"
+    },
+    {
+      "id": "P05",
+      "promise": "Relief — фальшь?",
+      "setup": "Даль осуждает offload",
+      "misreading": "помощь работает только потому, что человек обманывается",
+      "reveal": "S07",
+      "payoff": "licensed relief реально помогает",
+      "cost": "этическая проблема становится consent/class, не authenticity alone"
+    },
+    {
+      "id": "P06",
+      "promise": "Тарас — безопасный якорь серии?",
+      "setup": "books2-4 + early book5 life",
+      "misreading": "найденная семья стала защищённой постоянной опорой",
+      "reveal": "S09-S10",
+      "payoff": "его смерть необратима",
+      "cost": "Даль и Ося остаются без replacement"
+    },
+    {
+      "id": "P07",
+      "promise": "R5 означает страдать без помощи?",
+      "setup": "после смерти Тараса",
+      "misreading": "настоящая боль должна быть максимальной",
+      "reveal": "S10-S11",
+      "payoff": "Даль принимает support, но не transfer grief-content",
+      "cost": "боль остаётся его, тело не обязано страдать без care"
+    },
+    {
+      "id": "P08",
+      "promise": "Нужно ли закрыть carrier profession после смерти Тараса?",
+      "setup": "S10",
+      "misreading": "трагедия доказывает, что вся работа неправильна",
+      "reveal": "S11",
+      "payoff": "Аста продолжает выбранную работу при более жёстком consent/cap regime",
+      "cost": "система не исчезает"
+    },
+    {
+      "id": "P09",
+      "promise": "Что Лад делает с болью детей?",
+      "setup": "S12",
+      "misreading": "тот же relay",
+      "reveal": "S12 seed",
+      "payoff": "distress prevention upstream / ontogenetic guidance",
+      "cost": "book6 question"
     }
   ],
-  "coverage": "planning only; not facts established in prose"
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

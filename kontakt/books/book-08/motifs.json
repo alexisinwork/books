@@ -2,17 +2,56 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-08",
-  "source_sha256": null,
   "record_type": "motifs",
-  "fields": [
-    "id",
-    "form",
-    "appearances",
-    "function_each_time",
-    "meaning_change",
-    "payoff",
-    "decision",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "motifs.planned.json",
+  "source_sha256": "93be8564c20f6af56545d5788ec994026e7964f8f223808dd7fda3b94a199b48",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "id": "M01",
+      "form": "сводка / число",
+      "movement": "цифра как necessary compression → трагический but correct triage → aggregate linked back to cases",
+      "payoff": "S12"
+    },
+    {
+      "id": "M02",
+      "form": "имя / alias",
+      "movement": "ошибка/раздвоение Ильи → aliases preserved → inbound match → canonical identity",
+      "payoff": "S09-S10"
+    },
+    {
+      "id": "M03",
+      "form": "статус",
+      "movement": "useful workflow label → moral/social identity creep → separate evidence/rights layers",
+      "payoff": "S11"
+    },
+    {
+      "id": "M04",
+      "form": "очередь",
+      "movement": "vehicles/evacuation/search/retraining queues → legitimate ranking → prohibition on queue becoming worth",
+      "payoff": "S11"
+    },
+    {
+      "id": "M05",
+      "form": "shelter bag Леи",
+      "movement": "пугающе профессиональная рутина → обычная скука/раздражение → delayed fear",
+      "payoff": "S06"
+    },
+    {
+      "id": "M06",
+      "form": "рабочий стол Даля / long lease",
+      "movement": "book7 future → wartime support hub → future did not guarantee safety but created a place that can be used",
+      "payoff": "throughout/S12"
+    },
+    {
+      "id": "M07",
+      "form": "кнопка/ссылка 'открыть case'",
+      "movement": "record cleanup → unresolved workflow → final aggregate-to-person accountability",
+      "payoff": "S12"
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "planned"
+  }
 }

@@ -2,17 +2,64 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-07",
-  "source_sha256": null,
   "record_type": "end-state",
-  "fields": [
-    "id",
-    "entity",
-    "actual_final_state",
-    "status",
-    "anchors",
-    "carry_to_next_book"
+  "status": "planned_projection",
+  "source_of_truth": "end-state.planned.json",
+  "source_sha256": "a215d22da052cf4fb8ab419912e57bd799db1826c80afa3496659bdddb05d880",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "entity": "Марк Даль",
+      "state": "жив; R7 Самоконтакт; устойчиво чувствует своё достаточно, чтобы выбирать; подписал 5-year commitment реальным именем; fixed address makes him persistently visible; grief Нины/Тараса remains",
+      "carry": "book8 external exam starts with internally completed Dahl"
+    },
+    {
+      "entity": "Тихон",
+      "state": "жив; briefly unsmoothed and felt old grief; consciously chose comfort/smoothing afterward; no conversion",
+      "carry": "arc function closed unless tiny later reference"
+    },
+    {
+      "entity": "Ося",
+      "state": "жив; independent work/life; connected to Dahl but not guarantor of his future",
+      "carry": "book8"
+    },
+    {
+      "entity": "Мила",
+      "state": "жива; own adolescent trajectory/autonomy; not symbol or dependent of Dahl",
+      "carry": "book8 possible concrete civilian stake"
+    },
+    {
+      "entity": "Балласт",
+      "state": "utility/on-request mode; no longer primary surrogate emotional/future decision layer; still useful",
+      "carry": "book8 final functional payoff"
+    },
+    {
+      "entity": "Лад",
+      "state": "цел; full emergency origin known to Dahl; no mastermind exposed; many people still rationally choose its comfort",
+      "carry": "book8"
+    },
+    {
+      "entity": "Rolling Horizon",
+      "state": "remains social/institutional norm; long commitments still possible by explicit opt-in",
+      "carry": "world"
+    },
+    {
+      "entity": "Резонанс",
+      "state": "R7 Самоконтакт",
+      "carry": "book8 integration, no new rank"
+    },
+    {
+      "entity": "visibility",
+      "state": "Dall loses transient invisibility through chosen fixed identity/address, not capture",
+      "carry": "book8"
+    },
+    {
+      "entity": "series_arc",
+      "state": "internal books1-7 arc closed; external ethical integration reserved for book8",
+      "carry": "book8"
+    }
   ],
-  "items": [],
-  "status": "planned_not_established",
-  "planned_summary": "Выбор Даля при угрозе Миле и Осе; Лад не уничтожен."
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

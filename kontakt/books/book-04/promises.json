@@ -2,25 +2,86 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-04",
-  "source_sha256": null,
   "record_type": "promises",
-  "fields": [
-    "id",
-    "promise",
-    "setup",
-    "misreading",
-    "reveal",
-    "payoff",
-    "cost",
-    "status",
-    "anchors"
-  ],
+  "status": "planned_projection",
+  "source_of_truth": "promises.planned.json",
+  "source_sha256": "6d9f607e255d2c96b38be4172ea7ee9c167c46f374923a0bf82c82fec173e70f",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
   "items": [
     {
-      "promise": "Эдит обретает ценность вне балла; герой теряет защиту высокого статуса.",
-      "status": "planned",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md"
+      "id": "P01",
+      "promise": "Почему одним людям Predictariat выделяет больше intervention budget?",
+      "setup": "carry book3/S01",
+      "misreading": "prediction confidence",
+      "reveal": "S01-S02",
+      "payoff": "Compatibility/coordination cost influences investment",
+      "cost": "открывает морально неприятный allocation layer"
+    },
+    {
+      "id": "P02",
+      "promise": "Эдит low-score потому что score ошибся?",
+      "setup": "S01",
+      "misreading": "герой докажет её настоящую эффективность",
+      "reveal": "S02-S05",
+      "payoff": "score частично прав про friction",
+      "cost": "нельзя победить простой factual correction"
+    },
+    {
+      "id": "P03",
+      "promise": "Можно ли поднять Эдит score и спасти ситуацию?",
+      "setup": "S02-S03",
+      "misreading": "higher score = restored dignity",
+      "reveal": "S05",
+      "payoff": "она становится institution-cheaper ценой self-monitoring",
+      "cost": "Даль сам строит ловушку"
+    },
+    {
+      "id": "P04",
+      "promise": "Рем просто защищает бесчеловечную систему?",
+      "setup": "S02",
+      "misreading": "циничный бюрократ",
+      "reveal": "S06-S10",
+      "payoff": "он реально считает scarce human-hours и допускает manual route",
+      "cost": "нет удобной моральной победы над злодеем"
+    },
+    {
+      "id": "P05",
+      "promise": "Высокий score Даля доказывает его особую ценность?",
+      "setup": "S01/S04",
+      "misreading": "legacy status = заслуженная человеческая worth",
+      "reveal": "S04/S11",
+      "payoff": "навык реален, но institutional fit не равен worth",
+      "cost": "Даль добровольно теряет sponsor-role"
+    },
+    {
+      "id": "P06",
+      "promise": "Что делает человека достойным автономного участия?",
+      "setup": "Эдит S01",
+      "misreading": "полезность/добрые дела/скрытый талант",
+      "reveal": "S07-S10",
+      "payoff": "eligibility отделена от coordination cost",
+      "cost": "институт реально платит больше"
+    },
+    {
+      "id": "P07",
+      "promise": "Можно ли спасти всех manual exception?",
+      "setup": "S06-S07",
+      "misreading": "достаточно найти лазейку",
+      "reveal": "S08",
+      "payoff": "K-17 уходит в Quiet route",
+      "cost": "первое институциональное поражение"
+    },
+    {
+      "id": "P08",
+      "promise": "Куда ведёт Тихий контур?",
+      "setup": "S02/S08",
+      "misreading": "просто стандартизированная care",
+      "reveal": "S12 metadata",
+      "payoff": "affect-load service seed",
+      "cost": "book5 question, not answer"
     }
   ],
-  "coverage": "planning only; not facts established in prose"
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

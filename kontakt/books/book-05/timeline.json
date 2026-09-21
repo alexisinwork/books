@@ -2,18 +2,77 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-05",
-  "source_sha256": null,
   "record_type": "timeline",
-  "fields": [
-    "event_id",
-    "reference_point",
-    "start",
-    "duration",
-    "travel",
-    "global_deadline",
-    "local_window",
-    "assumption",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "timeline.planned.json",
+  "source_sha256": "7a708e47ea3197dcf78bb9c16cc31b80096b98260bedc5c31328adb64a3c3757",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "window": "W1-D1-D3",
+      "events": [
+        "K-17 metadata",
+        "carrier-house",
+        "встреча Асты/Власа"
+      ]
+    },
+    {
+      "window": "W1-D4-D6",
+      "events": [
+        "личный grief ledger Даля",
+        "разница licensed/residual",
+        "Аста выбирает Тараса recovery-contact"
+      ]
+    },
+    {
+      "window": "W2",
+      "events": [
+        "residual pool audit",
+        "phased reclamation design",
+        "одна transparent relief-session Даля"
+      ]
+    },
+    {
+      "window": "W3-D1-D3",
+      "events": [
+        "pilot launch",
+        "разные client choices",
+        "capacity tightening"
+      ]
+    },
+    {
+      "window": "W3-D4",
+      "events": [
+        "capacity cliff",
+        "emergency split-relay Тараса"
+      ]
+    },
+    {
+      "window": "W3-D4-D5",
+      "events": [
+        "delayed arrhythmia",
+        "смерть Тараса",
+        "R5"
+      ]
+    },
+    {
+      "window": "W3-D6-W4",
+      "events": [
+        "первые дни grief; не превращать сразу в расследование",
+        "похоронные/формальные последствия"
+      ]
+    },
+    {
+      "window": "W4",
+      "events": [
+        "policy reform residual pool",
+        "Аста остаётся carrier",
+        "developmental metadata / book6 hook"
+      ]
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "relative_timeline_planned",
+    "assumption": "примерно 3–4 недели; grief aftermath не ужимать в один день"
+  }
 }

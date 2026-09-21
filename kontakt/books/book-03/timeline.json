@@ -2,18 +2,81 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-03",
-  "source_sha256": null,
   "record_type": "timeline",
-  "fields": [
-    "event_id",
-    "reference_point",
-    "start",
-    "duration",
-    "travel",
-    "global_deadline",
-    "local_window",
-    "assumption",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "timeline.planned.json",
+  "source_sha256": "7b229b0fbcd4659f78cbce67fc9e3a8603a73a0efb370435dd604b46cf317bd9",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "day": "D0",
+      "events": [
+        "разбор book2 timestamp",
+        "запрос Оси через сеть Тараса"
+      ]
+    },
+    {
+      "day": "D1",
+      "events": [
+        "встреча с Лоцом",
+        "audit Осиного trajectory-file",
+        "объяснение horizons"
+      ]
+    },
+    {
+      "day": "D2",
+      "events": [
+        "randomization tests",
+        "реальные ошибки конкретных прогнозов"
+      ]
+    },
+    {
+      "day": "D3",
+      "events": [
+        "вопрос желания Оси",
+        "audit interventions",
+        "bounded deviation"
+      ]
+    },
+    {
+      "day": "D4",
+      "events": [
+        "первые страницы файла Даля",
+        "Тарас ставит границу",
+        "начало backslide"
+      ]
+    },
+    {
+      "day": "D5",
+      "events": [
+        "оптимальный день Балласта"
+      ]
+    },
+    {
+      "day": "D6",
+      "events": [
+        "полный intervention-log ключевого Осиного бунта",
+        "попытка Оси уйти ради unpredictability"
+      ]
+    },
+    {
+      "day": "D7",
+      "events": [
+        "Даль читает следующий фрагмент своего файла",
+        "R3",
+        "разговор с Осей"
+      ]
+    },
+    {
+      "day": "D8",
+      "events": [
+        "Ося присваивает вероятную ветку",
+        "intervention budget anomaly / book4 hook"
+      ]
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "relative_timeline_planned",
+    "assumption": "примерно 8 дней; 72-hour high-confidence window должен оставаться локальным, а не охватывать весь роман"
+  }
 }

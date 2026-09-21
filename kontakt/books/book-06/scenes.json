@@ -2,329 +2,144 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-06",
-  "source_sha256": null,
-  "record_type": "scenes",
-  "fields": [
-    "id",
-    "pov",
-    "place",
-    "time",
-    "goal",
-    "obstacle",
-    "decision",
-    "result",
-    "cost",
-    "next_cause",
-    "state_changes",
-    "anchors"
-  ],
+  "status": "planned_macro_only",
+  "source": {
+    "path": "kontakt/books/book-06/architecture.json",
+    "sha256": "ae9a97373a80259d196aca827e5996dd0d5160661129d353bfb56d421d80193b"
+  },
   "items": [
     {
-      "id": "book-06-ch-01",
-      "chapter": 1,
-      "status": "planned",
-      "summary": "Мир-6: дети с компаньонами от рождения — гениальные, спокойные, пустые «мудрецы» без единой раны. Герой раненый горем по Якорю. [2: мир/слабость]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 20
+      "id": "book-06-S01",
+      "sequence_id": "S01",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Детям боль не передают",
+      "decision": "согласиться только оценить запрос Милы",
+      "cost": "Даль входит в тему из grief-driven страха потери",
+      "next_cause": "встретиться с Милой",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-06-ch-02",
-      "chapter": 2,
-      "status": "planned",
-      "summary": "Запускающее: Родитель тайно просит вернуть ребёнку нормальное взросление. [4]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 21
+      "id": "book-06-S02",
+      "sequence_id": "S02",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Мила не кейс",
+      "decision": "признать собственный запрос Милы",
+      "cost": "взрослые теряют монополию на постановку проблемы",
+      "next_cause": "разобрать работу системы",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-06-ch-03",
-      "chapter": 3,
-      "status": "planned",
-      "summary": "Личная нить: рядом с Дитя герой особенно чувствует свою полость — и своё лишённое детство. [9: первое открытие — лично]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 22
+      "id": "book-06-S03",
+      "sequence_id": "S03",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Система, которая работает",
+      "decision": "отказаться от простого shutdown-ответа",
+      "cost": "Даль признаёт реальную пользу guidance",
+      "next_cause": "разобрать мотив Ждана",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-06-ch-04",
-      "chapter": 4,
-      "status": "planned",
-      "summary": "Садовник выходит: уберечь от боли — высшая любовь; «ты, не вынесший своей, дашь ребёнку боль?». [7: гл. противник; 8: семя]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 23
+      "id": "book-06-S04",
+      "sequence_id": "S04",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Отец хочет другую дочь",
+      "decision": "перевести experiment с grief Ждана на want Милы",
+      "cost": "Ждан теряет фантазию 'нормального ребёнка'",
+      "next_cause": "первый Manual Window",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-06-ch-05",
-      "chapter": 5,
-      "status": "planned",
-      "summary": "Дитя активно: безмятежно отказывается от «дара» боли — и мимоходом называет полость героя вслух. [2-й противник; зеркало]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 24
+      "id": "book-06-S05",
+      "sequence_id": "S05",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Слишком большой эксперимент",
+      "decision": "расширить manual mode слишком быстро",
+      "cost": "Даль превращает Милу в доказательство метода",
+      "next_cause": "провал",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-06-ch-06",
-      "chapter": 6,
-      "status": "planned",
-      "summary": "Безмятежный — заход. Герой берётся — и не знает, вправе ли. [5: желание; 10: план]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 25
+      "id": "book-06-S06",
+      "sequence_id": "S06",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Не вся фрустрация полезна",
+      "decision": "признать плохой design, не романтизируя distress",
+      "cost": "Даль теряет простую идеологию 'меньше guidance = лучше'",
+      "next_cause": "создать backstop model",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-06-ch-07",
-      "chapter": 7,
-      "status": "planned",
-      "summary": "Беглев/совесть — зеркало: «ты возвращаешь боль ребёнку или мстишь за своё детство?». [6: союзник]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 27
+      "id": "book-06-S07",
+      "sequence_id": "S07",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Backstop",
+      "decision": "принять child-led help-on-request model",
+      "cost": "control смещается от prevent-everything к supported agency",
+      "next_cause": "понять Марту",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-06-ch-08",
-      "chapter": 8,
-      "status": "planned",
-      "summary": "Компаньон рядом с Дитя: комедия + жутко-нежный контраст фальшивой заботы. [юмор-движок]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 28
+      "id": "book-06-S08",
+      "sequence_id": "S08",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Садовник",
+      "decision": "удержать grief Марты и свой grief без вывода 'вмешиваться всегда'",
+      "cost": "конфликт становится design problem, не войной добра/зла",
+      "next_cause": "второй Manual Window",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-06-ch-09",
-      "chapter": 9,
-      "status": "planned",
-      "summary": "Шаг Резонанса с Дитя — настоящий, некалиброванный контакт; ранг к 7. Цена: видимость. [Резонанс ⟂ цена]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 29
+      "id": "book-06-S09",
+      "sequence_id": "S09",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Выбор Милы",
+      "decision": "дать Милe повторно войти в реальную ситуацию без scripted outcome",
+      "cost": "взрослые принимают риск частичного провала",
+      "next_cause": "финальный конфликт",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-06-ch-10",
-      "chapter": 10,
-      "status": "planned",
-      "summary": "Садовник-айсберг: активно показывает герою, во что превращает детей «пробуждение без взросления» — травма без опоры; давит на границу метода. [11: активный план]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 30
+      "id": "book-06-S10",
+      "sequence_id": "S10",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Не чинить / R6",
+      "decision": "остаться доступным, не дав подсказку",
+      "cost": "Мила получает свой несовершенный outcome; R6",
+      "next_cause": "зафиксировать процедуру",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-06-ch-11",
-      "chapter": 11,
-      "status": "planned",
-      "summary": "Родитель горюет по «должному» ребёнку — сложный, но честный мотив, не предательство. Поворот сеет само Дитя: роняет, что видит в герое ту же пустоту, что в родителях. [8-аналог: поворот от Дитя, не лжесоюзник]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 31
+      "id": "book-06-S11",
+      "sequence_id": "S11",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Родители становятся менее нужными",
+      "decision": "встроить age-based autonomy pathway",
+      "cost": "взрослые теряют часть контроля, система остаётся",
+      "next_cause": "исследовать происхождение protocols",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-06-ch-12",
-      "chapter": 12,
-      "status": "planned",
-      "summary": "Гон/падение: герой торопит «пробуждение» Дитя — рискует разбудить в пустоту, как Майю в т.1. [12: drive]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 32
-    },
-    {
-      "id": "book-06-ch-13",
-      "chapter": 13,
-      "status": "planned",
-      "summary": "Атака союзника: Беглец бьёт — «ты хочешь дать боль, а не жизнь; это не одно и то же». [13]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 33
-    },
-    {
-      "id": "book-06-ch-14",
-      "chapter": 14,
-      "status": "planned",
-      "summary": "Тема: герой видит — его метод умеет будить, но не растить; а сам он не вырос, его выпотрошили до взросления. [3: слабость]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 34
-    },
-    {
-      "id": "book-06-ch-15",
-      "chapter": 15,
-      "status": "planned",
-      "summary": "Читателю (без героя): виден настоящий мотив Родителя — горе, не контроль; и что Дитя ближе к keystone, чем кто-либо. [16: открытие читателю]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 35
-    },
-    {
-      "id": "book-06-ch-16",
-      "chapter": 16,
-      "status": "planned",
-      "summary": "Дитя своим вопросом разворачивает героя к правде; коридор к развязке. [мост]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 36
-    },
-    {
-      "id": "book-06-ch-17",
-      "chapter": 17,
-      "status": "planned",
-      "summary": "Мнимое поражение: поспешное «пробуждение» ранит Дитя в пустоту — герой повторил ошибку т.1 на ребёнке. Дно, самое тяжёлое морально. [14: дно]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 38
-    },
-    {
-      "id": "book-06-ch-18",
-      "chapter": 18,
-      "status": "planned",
-      "summary": "Со дна — второе открытие: не будить, а сопровождать рост; дать не боль, а право на маленькие настоящие раны живой жизни. [15]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 39
-    },
-    {
-      "id": "book-06-ch-19",
-      "chapter": 19,
-      "status": "planned",
-      "summary": "Твист-разворот: спасать надо не Дитя (оно целостнее взрослых) — спасать надо РОДИТЕЛЕЙ и мир; а Дитя — единственный, кто видит полость всех и задаёт запретный вопрос. [17: третье открытие; крупный ревил]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 40
-    },
-    {
-      "id": "book-06-ch-20",
-      "chapter": 20,
-      "status": "planned",
-      "summary": "Садовник вскрыт не как злодей, а как горюющий: он растит детей без боли, потому что сам не пережил свою. Серый спектр, зеркало героя. [8: полная выплата]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 41
-    },
-    {
-      "id": "book-06-ch-21",
-      "chapter": 21,
-      "status": "planned",
-      "summary": "Свежий ход «согласия»: Система предлагает Дитя (и герою) вечное безболезненное детство/покой; и это невыносимо заманчиво. [новый удар]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 42
-    },
-    {
-      "id": "book-06-ch-22",
-      "chapter": 22,
-      "status": "planned",
-      "summary": "Вопрос Дитя всплывает keystone: «а от чего все прячутся?» — и герой впервые чует, что «Лад» — анестезия перед чем-то огромным. [keystone проступает]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 43
-    },
-    {
-      "id": "book-06-ch-23",
-      "chapter": 23,
-      "status": "planned",
-      "summary": "Безмятежный/Садовник: «оставь ребёнку рай». Соблазн. Герой почти. [тёмный бит]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 44
-    },
-    {
-      "id": "book-06-ch-24",
-      "chapter": 24,
-      "status": "planned",
-      "summary": "Врата/визит к смерти: чтобы дать Дитя настоящую жизнь, герой должен признать границу своего метода и собственную неизжитую рану — и решиться сломаться до конца. [18]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 45
-    },
-    {
-      "id": "book-06-ch-25",
-      "chapter": 25,
-      "status": "planned",
-      "summary": "Прозрение-выбор: не спасать в пустоту, а дать расти — сопроводить первую настоящую маленькую рану Дитя, держа его. Ранг 7. [моральный разворот; Резонанс р.7]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 46
-    },
-    {
-      "id": "book-06-ch-26",
-      "chapter": 26,
-      "status": "planned",
-      "summary": "Безмятежный, Садовник, компаньон — голоса «избавь от боли» сходятся; водораздел поступком. [четырёхугольник]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 48
-    },
-    {
-      "id": "book-06-ch-27",
-      "chapter": 27,
-      "status": "planned",
-      "summary": "Битва ценностей: герой против форсированного рая — не инфлицируя боль, а возвращая право на живую жизнь с её ранами. [19]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 49
-    },
-    {
-      "id": "book-06-ch-28",
-      "chapter": 28,
-      "status": "planned",
-      "summary": "Дитя начинает по-настоящему расти (не разбужено в пустоту, а сопровождено); и Родитель учится отпускать «должного» ребёнка. Триумф навыка. [per-book победа]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 50
-    },
-    {
-      "id": "book-06-ch-29",
-      "chapter": 29,
-      "status": "planned",
-      "summary": "Горечь: цена — герой признаёт границу метода и то, что многих детей уже не вернуть; и что впереди — сломаться самому. [per-arc цена]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 51
-    },
-    {
-      "id": "book-06-ch-30",
-      "chapter": 30,
-      "status": "planned",
-      "summary": "Чистый выигрыш: одно Дитя растёт живым; самый тёплый катарсис серии после мрака т.5. [CRIT-2: выигрыш на вынос — тёплый]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 52
-    },
-    {
-      "id": "book-06-ch-31",
-      "chapter": 31,
-      "status": "planned",
-      "summary": "Самооткровение поступком: его выпотрошили до взросления; жизнь — это раны, прожитые с опорой, а не отсутствие ран. Показано. [20]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 53
-    },
-    {
-      "id": "book-06-ch-32",
-      "chapter": 32,
-      "status": "planned",
-      "summary": "Моральное решение с ценой: герой принимает, что должен сам пройти то, чего избегал всю серию, — сломаться в настоящее до конца (заход в т.7). [21]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 54
-    },
-    {
-      "id": "book-06-ch-33",
-      "chapter": 33,
-      "status": "planned",
-      "summary": "Новое равновесие: раненый горем, но согретый Дитя; готов к последнему; компаньон осаждает, но детский контраст обнажил его фальшь. [22]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 55
-    },
-    {
-      "id": "book-06-ch-34",
-      "chapter": 34,
-      "status": "planned",
-      "summary": "Крючок в т.7: вопрос Дитя не отпускает — герой идёт искать, от чего обезболился мир; keystone на пороге раскрытия. Семя «После будущего». [22; крючок т.7]",
-      "source": "sources/originals/КОСТЯК-КНИГА-6-Контакт(1).md",
-      "source_sha256": "cc01ae79c9519c17ead15ce16f14e8ff16ff8f5feaa225a277b8e3d61ecc3a6d",
-      "source_line": 56
+      "id": "book-06-S12",
+      "sequence_id": "S12",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "От чего вы нас спасаете?",
+      "decision": "увидеть adult emergency ancestry guidance",
+      "cost": "появляется вопрос о массовом прошлом взрослых",
+      "next_cause": "hook book7",
+      "detail_required_before_prose": true
     }
   ],
-  "coverage": "Full supplied 34-chapter outline; no manuscript exists"
+  "coverage": "12 macro sequences; local scene access/timing still required before writing later chapters"
 }

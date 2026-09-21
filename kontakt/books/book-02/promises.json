@@ -2,25 +2,77 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-02",
-  "source_sha256": null,
   "record_type": "promises",
-  "fields": [
-    "id",
-    "promise",
-    "setup",
-    "misreading",
-    "reveal",
-    "payoff",
-    "cost",
-    "status",
-    "anchors"
-  ],
+  "status": "planned_projection",
+  "source_of_truth": "promises.planned.json",
+  "source_sha256": "c354c316e4449038a77ea12f656a3eb7ba35226361b2bf8100997a2409492c70",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
   "items": [
     {
-      "promise": "Тарас становится живой связью; движение не заменяет близости.",
-      "status": "planned",
-      "source": "sources/originals/КОСТЯК-КНИГА-2-Контакт(1).md"
+      "id": "P01",
+      "promise": "Можно ли сделать невидимых видимыми простым отключением ranking?",
+      "setup": "S01-S03",
+      "misreading": "без фильтра внимание станет честным",
+      "reveal": "S08",
+      "payoff": "нет; нужен человеческий акт внимания",
+      "cost": "массовая операция теряет моральную простоту"
+    },
+    {
+      "id": "P02",
+      "promise": "Однодневки дают Далю настоящую принадлежность?",
+      "setup": "S02-S05",
+      "misreading": "движение = семья/связь",
+      "reveal": "S09-S11",
+      "payoff": "Тарас остаётся, когда движение перестаёт быть целью",
+      "cost": "Даль отказывается от публичной идентичности"
+    },
+    {
+      "id": "P03",
+      "promise": "Вектор лицемер, раз использует внимание?",
+      "setup": "S03-S05",
+      "misreading": "будет разоблачён как фальшивый лидер",
+      "reveal": "S10",
+      "payoff": "он осознанно считает attention оружием и после цены всё равно выбирает масштаб",
+      "cost": "конфликт остаётся трагическим, не разоблачительным"
+    },
+    {
+      "id": "P04",
+      "promise": "Лана — пустая Витрина?",
+      "setup": "S02-S05",
+      "misreading": "видимость = фальшь",
+      "reveal": "S08-S10",
+      "payoff": "её сети реально помогают людям",
+      "cost": "Даль не получает удобной бинарности"
+    },
+    {
+      "id": "P05",
+      "promise": "Что такое R2?",
+      "setup": "optimized/public responses",
+      "misreading": "Даль научится «читать истинные чувства»",
+      "reveal": "S04",
+      "payoff": "он распознаёт несоответствие и спрашивает, а не присваивает",
+      "cost": "теряет полезную кампании историю"
+    },
+    {
+      "id": "P06",
+      "promise": "Почему Лад так быстро переживает бунт?",
+      "setup": "S06",
+      "misreading": "обычная реакция на публичность",
+      "reveal": "S12",
+      "payoff": "pre-decision timestamp",
+      "cost": "ответ откладывается в книгу 3"
+    },
+    {
+      "id": "P07",
+      "promise": "Балласт — единственная непрерывная presence?",
+      "setup": "S01",
+      "misreading": "это и есть стабильность",
+      "reveal": "S11",
+      "payoff": "рядом появляется Тарас — человек, который остаётся без алгоритмической обязанности",
+      "cost": "человеческая связь не гарантирована и требует времени"
     }
   ],
-  "coverage": "planning only; not facts established in prose"
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

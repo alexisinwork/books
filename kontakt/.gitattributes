@@ -16,3 +16,9 @@ books/**/manuscript/** -text
 **/SOURCE/** -text
 **/source.ru.txt -text -whitespace
 **/source.uk.txt -text -whitespace
+
+# Architecture, reviews, and preparation carry byte-level SHA-256 manifests.
+# Preserve their recorded bytes across Git checkout on Windows.
+books/book-*/** -text
+series/** -text
+START_HERE.md -text

@@ -2,17 +2,50 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-07",
-  "source_sha256": null,
   "record_type": "motifs",
-  "fields": [
-    "id",
-    "form",
-    "appearances",
-    "function_each_time",
-    "meaning_change",
-    "payoff",
-    "decision",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "motifs.planned.json",
+  "source_sha256": "dab47d2c48868a8f5b2c6ffd0a990047a9671fbe7ce164db7a3ecb64156f3ddb",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "id": "M01",
+      "form": "дата за горизонтом",
+      "movement": "пустые/rolling calendars → lease deadline → конкретная дата через годы, которую Даль не стирает",
+      "payoff": "S12"
+    },
+    {
+      "id": "M02",
+      "form": "слово 'пока'",
+      "movement": "жильё/работа/отношения Даля всегда 'пока' → он замечает тик → подписывает без 'пока' как escape hatch",
+      "payoff": "S10"
+    },
+    {
+      "id": "M03",
+      "form": "старый emergency label",
+      "movement": "metadata из book6 → archival headers → нормальные современные функции с аварийными именами под слоем интерфейса",
+      "payoff": "S07"
+    },
+    {
+      "id": "M04",
+      "form": "ключ/адрес",
+      "movement": "временные коды серой зоны → предложение fixed address → настоящий ключ мастерской",
+      "payoff": "S10-S12"
+    },
+    {
+      "id": "M05",
+      "form": "галочка auto-renew",
+      "movement": "rolling commitments незаметно продолжаются → Даль почти auto-renews transient status → сознательно выбирает другой contract",
+      "payoff": "S08-S10"
+    },
+    {
+      "id": "M06",
+      "form": "Балласт спрашивает 'оптимизировать?'",
+      "movement": "раньше Даль позволяет → теперь отвечает только на конкретный utility request",
+      "payoff": "S11"
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "planned"
+  }
 }

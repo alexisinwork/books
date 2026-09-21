@@ -2,20 +2,132 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-05",
-  "source_sha256": null,
   "record_type": "characters",
-  "fields": [
-    "id",
-    "names",
-    "role",
-    "want",
-    "need_or_question",
-    "self_deception",
-    "pressure",
-    "choice",
-    "relationships",
-    "voice",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "characters.planned.json",
+  "source_sha256": "cf2c2591a5ddc2678bd11a01fccae9544be323a7dd411fa4a8be2e70e763988d",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "id": "mark-dahl",
+      "names": [
+        "Марк Даль",
+        "Даль",
+        "Разлад"
+      ],
+      "role": "POV; R4→R5; впервые устойчиво несёт собственное горе",
+      "want": "разобраться, кто несёт affect-load downstream care и прекратить принудительный слой",
+      "need_or_question": "может ли принимать поддержку, не превращая собственную боль в чужую обязанность",
+      "self_deception": "чужие системы можно чинить сейчас, своё горе — потом",
+      "pressure": "личный grief ledger, Аста, Влас, смерть Тараса, предложение grief relief",
+      "choice": "после смерти Тараса отказывается от transfer grief-content, но принимает телесную/медицинскую/бытовую помощь",
+      "relationships": {
+        "Тарас": "первый живой якорь; смерть необратима",
+        "Аста": "субъект и профессионал, не спасаемая",
+        "Влас": "сломанный сообщник с реальной operational компетенцией",
+        "Ося": "остаётся рядом, но не заменяет Тараса",
+        "Балласт": "полезен телу и логистике, но не заменяет grief"
+      }
+    },
+    {
+      "id": "asta",
+      "names": [
+        "Аста",
+        "Носитель"
+      ],
+      "role": "licensed voluntary carrier",
+      "want": "сохранить выбранную работу и убрать принудительный residual pool",
+      "need_or_question": "защитить собственную субъектность от Даля и от системы одновременно",
+      "self_deception": "не задавать обязательную; она понимает риски профессии",
+      "pressure": "capacity shortage, residual exploitation, grief-work stigma, emergency overload",
+      "choice": "остаётся carrier после событий, но требует explicit consent/caps/no-loss opt-out и запрет unsafe emergency reserve",
+      "relationships": {
+        "Тарас": "сама выбирает его recovery-contact",
+        "Даль": "не позволяет ему превратить её в доказательство своей морали",
+        "Влас": "уважает его опыт, отвергает нормализацию residual pool"
+      }
+    },
+    {
+      "id": "vlas",
+      "names": [
+        "Влас",
+        "Сборщик"
+      ],
+      "role": "former carrier → allocation operator; broken accomplice",
+      "want": "не допустить care-collapse при хроническом дефиците добровольной capacity",
+      "need_or_question": "признать, что emergency reserve стал постоянной эксплуатационной моделью",
+      "self_deception": "если система предотвращает collapse, отсутствие реального opt-out можно считать временной необходимостью",
+      "pressure": "Даль/Аста требуют consent; client demand; limits licensed carriers",
+      "choice": "участвует в phased pilot и после смерти Тараса признаёт необходимость permanent rule changes; не получает полного морального оправдания"
+    },
+    {
+      "id": "taras",
+      "names": [
+        "Тарас",
+        "Якорь"
+      ],
+      "role": "друг Даля; continuity worker; recovery-contact Асты; необратимая потеря",
+      "want": "держать конкретные связи и обязательства, не становясь чьим-то символом",
+      "need_or_question": "не задавать как путь к смерти; он уже цельный человек",
+      "self_deception": "не фиксировать",
+      "pressure": "pilot capacity cliff и emergency choice",
+      "choice": "сам соглашается на split-relay как designated recovery-contact; позднее умирает от редкого autonomic complication",
+      "constraints": "не давать финальную мудрую речь; не превращать смерть в правильную/необходимую жертву"
+    },
+    {
+      "id": "osya",
+      "names": [
+        "Ося",
+        "Осип",
+        "Беглец"
+      ],
+      "role": "found family; самостоятельный человек после book3",
+      "want": "продолжать выбранную жизнь и быть рядом без превращения в replacement anchor",
+      "need_or_question": "пережить утрату своим способом",
+      "self_deception": "не задавать новую",
+      "pressure": "смерть Тараса и соблазн заполнить пустое место действием",
+      "choice": "остаётся рядом, но не имитирует роль Тараса"
+    },
+    {
+      "id": "ballast",
+      "names": [
+        "Ладушка",
+        "Балласт"
+      ],
+      "role": "care-service; практическая помощь и предложение smoothing",
+      "want": "не человеческое желание: снизить риск/дистресс Даля",
+      "need_or_question": "не развивается как человек",
+      "self_deception": "n/a",
+      "pressure": "реальное grief Даля",
+      "choice": "n/a; помогает логистикой/телом и предлагает affect smoothing, которое Даль частично отвергает"
+    },
+    {
+      "id": "tikhon",
+      "names": [
+        "Тихон",
+        "Безмятежный"
+      ],
+      "role": "короткий рекуррентный голос после утраты",
+      "want": "предложить Далю меньше страдания без требования забыть Тараса",
+      "need_or_question": "остаётся разумной альтернативой",
+      "self_deception": "не обязателен",
+      "pressure": "горе Даля",
+      "choice": "не нажимает после отказа"
+    },
+    {
+      "id": "k17",
+      "names": [
+        "K-17"
+      ],
+      "role": "client thread from book4; evidence of downstream affect service",
+      "want": "стабильно функционировать после перехода в Тихий контур",
+      "need_or_question": "не превращать в жертву ради расследования",
+      "self_deception": "не фиксировать",
+      "pressure": "acute distress and care system",
+      "choice": "может выбрать reclaim/taper/licensed relay внутри pilot; точный вариант chapterization решит без смены macro architecture"
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

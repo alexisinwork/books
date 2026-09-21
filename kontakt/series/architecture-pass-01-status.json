@@ -2,57 +2,70 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "pass_id": "architecture-pass-01",
-  "status": "prepared_not_run",
-  "authority": "series/PRE-DRAFT-LOCK-2026-09-19.md",
+  "status": "macro_reconciled_scoped_opening_prepared",
   "books": [
     {
       "book_id": "book-01",
-      "status": "architecture_ready",
-      "architecture_pass": "not_run",
+      "status": "ready_for_draft",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "chapter_01_only",
       "master": null
     },
     {
       "book_id": "book-02",
-      "status": "architecture_ready",
-      "architecture_pass": "not_run",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
       "master": null
     },
     {
       "book_id": "book-03",
-      "status": "architecture_ready",
-      "architecture_pass": "not_run",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
       "master": null
     },
     {
       "book_id": "book-04",
-      "status": "architecture_ready",
-      "architecture_pass": "not_run",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
       "master": null
     },
     {
       "book_id": "book-05",
-      "status": "architecture_ready",
-      "architecture_pass": "not_run",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
       "master": null
     },
     {
       "book_id": "book-06",
-      "status": "architecture_ready",
-      "architecture_pass": "not_run",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
       "master": null
     },
     {
       "book_id": "book-07",
-      "status": "architecture_ready",
-      "architecture_pass": "not_run",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
       "master": null
     },
     {
       "book_id": "book-08",
-      "status": "architecture_ready",
-      "architecture_pass": "not_run",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
       "master": null
     }
   ],
-  "draft_gate": "closed_until_required_architecture_checks_pass"
+  "draft_gate": {
+    "open_for": [
+      "book-01/chapter-01"
+    ],
+    "all_other_chapters": "require_local_gate",
+    "prose_authoring_this_task": false
+  }
 }

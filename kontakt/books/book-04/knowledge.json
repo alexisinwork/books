@@ -2,23 +2,112 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-04",
-  "source_sha256": null,
   "record_type": "knowledge",
-  "fields": [
-    "fact_id",
-    "holder",
-    "state_known_guessed_false",
-    "known_from_scene",
-    "source",
-    "reader_access",
-    "anchors"
-  ],
+  "status": "planned_projection",
+  "source_of_truth": "knowledge.planned.json",
+  "source_sha256": "aa100a41e6cc2217bc1fd72ec95d5957476126282368096d1c243819fe27c0b1",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
   "items": [
     {
-      "fact": "Истинная функция Лада",
-      "reader_release": "намеки в1–4; приближение5–6; полное раскрытие7",
-      "status": "planned"
+      "id": "K01",
+      "fact": "Intervention budget Predictariat использует upstream Compatibility/coordination-cost data",
+      "dall": "S01",
+      "reader": "S01",
+      "effect": "book3 hook получает источник"
+    },
+    {
+      "id": "K02",
+      "fact": "Compatibility Score изначально прогнозирует coordination cost/stability, не человеческую ценность",
+      "dall": "S02",
+      "reader": "S02",
+      "effect": "метрика получает легитимную operational функцию"
+    },
+    {
+      "id": "K03",
+      "fact": "Эдит действительно имеет высокий friction profile по части совместных процессов",
+      "dall": "S02-S03",
+      "reader": "S02-S03",
+      "effect": "закрывает лёгкий путь 'score ошибся'"
+    },
+    {
+      "id": "K04",
+      "fact": "Stability Plan реально повышает score через расписание, prompts, commitments",
+      "dall": "S03",
+      "reader": "S03",
+      "effect": "ловушка работает именно потому, что метрика корректно реагирует"
+    },
+    {
+      "id": "K05",
+      "fact": "Высокий legacy score Даля частично основан на годы institutional readability/compliance плюс реальный навык",
+      "dall": "S04",
+      "reader": "S04",
+      "effect": "бьёт по status identity, не обесценивая талант"
+    },
+    {
+      "id": "K06",
+      "fact": "Эдит становится дешевле для координации ценой постоянного self-monitoring",
+      "dall": "S05",
+      "reader": "S05",
+      "effect": "metric trap"
+    },
+    {
+      "id": "K07",
+      "fact": "Eligibility thresholds появились позже как административное переиспользование coordination score",
+      "dall": "S06 after document insert",
+      "reader": "S06 insert",
+      "effect": "проблема = purpose creep, не тайный злой алгоритм"
+    },
+    {
+      "id": "K08",
+      "fact": "Без threshold manual decisions требуют явного распределения дополнительного human-time/budget",
+      "dall": "S06-S10",
+      "reader": "S06-S10",
+      "effect": "обратный ответ тоже имеет цену"
+    },
+    {
+      "id": "K09",
+      "fact": "K-17 добровольно принимает Quiet route под сильной временной/ресурсной constraint",
+      "dall": "S08",
+      "reader": "S08",
+      "effect": "первое неполное поражение"
+    },
+    {
+      "id": "K10",
+      "fact": "Manual high-friction accommodation разделяет risk/cost assessment и eligibility",
+      "dall": "S09",
+      "reader": "S09",
+      "effect": "даёт procedural решение без отмены метрики"
+    },
+    {
+      "id": "K11",
+      "fact": "Эдит сохраняет автономию при признанном высоком cost; score не 'исправлен'",
+      "dall": "S10",
+      "reader": "S10",
+      "effect": "payoff cost≠worth"
+    },
+    {
+      "id": "K12",
+      "fact": "Downstream Quiet care использует внешний affect-load service",
+      "dall": "S12 only metadata",
+      "reader": "S12 only metadata",
+      "effect": "hook book5"
+    },
+    {
+      "id": "K13",
+      "fact": "Кто/как несёт affect load",
+      "dall": "NOT RESOLVED BOOK4",
+      "reader": "NOT RESOLVED BOOK4",
+      "effect": "protected for book5"
+    },
+    {
+      "id": "K14",
+      "fact": "Период перегруза / истинная emergency origin Лада",
+      "dall": "FORBIDDEN BOOK4",
+      "reader": "FORBIDDEN BOOK4",
+      "effect": "protected for later"
     }
   ],
-  "coverage": "planning only; not facts established in prose"
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

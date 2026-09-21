@@ -2,15 +2,69 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-08",
-  "source_sha256": null,
   "record_type": "end-state",
-  "fields": [
-    "id",
-    "entity",
-    "actual_final_state",
-    "status",
-    "anchors",
-    "carry_to_next_book"
+  "status": "planned_projection",
+  "source_of_truth": "end-state.planned.json",
+  "source_sha256": "1f6add4c13baac424313f2dd1849c823474ff96badd174a9969f7c52e96d4b95",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "entity": "Марк Даль",
+      "state": "жив; R7 integrated; acts under real scarcity without confusing action priority and human worth; future from book7 remains vulnerable but chosen",
+      "carry": "series complete"
+    },
+    {
+      "entity": "Илья Варан",
+      "state": "жив; identity confirmed after unresolved matching; returned after detention/isolation and care; recovery/open future, no forced disclosure",
+      "carry": "series complete"
+    },
+    {
+      "entity": "Надя Варан",
+      "state": "жива; ambiguous loss ends factually but relational uncertainty remains; no moral verdict on displacement choices",
+      "carry": "series complete"
+    },
+    {
+      "entity": "Лея Варан",
+      "state": "жива; remains child with normalized alert routines and non-linear fear responses",
+      "carry": "series complete"
+    },
+    {
+      "entity": "София Варан",
+      "state": "жива; civilian retraining eligibility separated from military deployability; self-worth not tied to readiness",
+      "carry": "series complete"
+    },
+    {
+      "entity": "Ева Руд",
+      "state": "continues crisis coordination; keeps ranked Action Queue; adopts limited write firewall/unresolved/rights separation",
+      "carry": "series complete"
+    },
+    {
+      "entity": "Балласт",
+      "state": "remains utility/on-request tool; materially useful in wartime logistics/search; never replaces relationship or judgment",
+      "carry": "final payoff"
+    },
+    {
+      "entity": "Мера",
+      "state": "continues operating during ongoing war; hard triage preserved; operational fields less able to auto-write person-level status/rights",
+      "carry": "world continues"
+    },
+    {
+      "entity": "Лад",
+      "state": "intact",
+      "carry": "world continues"
+    },
+    {
+      "entity": "war",
+      "state": "ongoing; not ended by protagonist",
+      "carry": "open historical reality of fictional world"
+    },
+    {
+      "entity": "series",
+      "state": "internal Dahl arc + external ethical integration complete; no new Resonance rank",
+      "carry": "end"
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

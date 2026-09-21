@@ -2,17 +2,54 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-03",
-  "source_sha256": null,
   "record_type": "end-state",
-  "fields": [
-    "id",
-    "entity",
-    "actual_final_state",
-    "status",
-    "anchors",
-    "carry_to_next_book"
+  "status": "planned_projection",
+  "source_of_truth": "end-state.planned.json",
+  "source_sha256": "7b2bf52bb2959245f2610fc7a31bfd2d50f8ebfbc2db715b92629f8ae03bdead",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "entity": "Марк Даль",
+      "state": "жив; R3 Авторство; завершил санкционированный backslide; отказался читать остаток собственного файла; больше не определяет свободу как непредсказуемость",
+      "carry": "book4 enters with authorship but unresolved human-worth metric"
+    },
+    {
+      "entity": "Ося",
+      "state": "жив; снова выбирает реальную работу/маршруты, даже если ветка предсказана; остаётся самостоятельным человеком рядом с найденной семьёй",
+      "carry": "book4+ companion/found family with own work"
+    },
+    {
+      "entity": "Тарас",
+      "state": "жив; дружба с Далем глубже, но границы сохранены; собственная continuity work продолжается",
+      "carry": "book4"
+    },
+    {
+      "entity": "Эмиль Лоц",
+      "state": "остаётся защитником Predictariat; не разоблачён злодеем и не уничтожен",
+      "carry": "no mandatory recurring role"
+    },
+    {
+      "entity": "Балласт",
+      "state": "остаётся care-service; доказал реальную привлекательность делегированного выбора",
+      "carry": "future temptation remains"
+    },
+    {
+      "entity": "Тихон",
+      "state": "остаётся в Ладе; короткий контакт не меняет его выбор",
+      "carry": "recurring temptation"
+    },
+    {
+      "entity": "Predictariat",
+      "state": "цел; его limits/feedback/bounded deviation понятны Далю, но intervention-budget source неизвестен",
+      "carry": "book4 hook"
+    },
+    {
+      "entity": "Резонанс",
+      "state": "R3 Авторство",
+      "carry": "book4 opens R3"
+    }
   ],
-  "items": [],
-  "status": "planned_not_established",
-  "planned_summary": "Ося присваивает предсказанный выбор; Даль отказывается дочитывать свой файл."
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

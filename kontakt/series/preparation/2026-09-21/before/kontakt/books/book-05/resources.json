@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "project_id": "kontakt-razlad",
+  "book_id": "book-05",
+  "source_sha256": null,
+  "record_type": "resources",
+  "fields": [
+    "id",
+    "entity",
+    "unit",
+    "time",
+    "opening",
+    "incoming",
+    "outgoing",
+    "closing",
+    "included_in_group",
+    "anchors"
+  ],
+  "items": [
+    {
+      "id": "book-05-resonance",
+      "resource": "Резонанс",
+      "planned_transition": "R4 → R5",
+      "meaning": "capacity for unsmoothed direct contact; not magic permission gate",
+      "cost": "уязвимость; в книгах 1–7 также рост видимости; в кн.8 интеграция",
+      "status": "locked_planning",
+      "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md"
+    }
+  ],
+  "coverage": "architecture planning; not prose facts"
+}

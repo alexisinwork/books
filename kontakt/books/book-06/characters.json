@@ -2,20 +2,114 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-06",
-  "source_sha256": null,
   "record_type": "characters",
-  "fields": [
-    "id",
-    "names",
-    "role",
-    "want",
-    "need_or_question",
-    "self_deception",
-    "pressure",
-    "choice",
-    "relationships",
-    "voice",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "characters.planned.json",
+  "source_sha256": "f4bb361f07e7a0224726aab5d33a79faeb8d74e85b2e0f53363ba5288c76ee53",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "id": "mark-dahl",
+      "names": [
+        "Марк Даль",
+        "Даль",
+        "Разлад"
+      ],
+      "role": "POV; R5→R6; grieving adult learning accompaniment",
+      "want": "помочь Миле получить больше самостоятельности и не повторить модель тотального контроля",
+      "need_or_question": "может ли выдерживать чужую фрустрацию и риск, не забирая управление из собственного страха потери",
+      "self_deception": "после смерти Тараса 'лучше вмешаться лишний раз, чем потерять ещё кого-то'",
+      "pressure": "Мила требует субъектности; Ждан боится потерять дочь; Марта показывает реальные prevention benefits; grief Тараса усиливает control impulse",
+      "choice": "в финальном Manual Window остаётся backstop и не вмешивается в исход, пока не пересечён safety threshold",
+      "relationships": {
+        "Мила": "ребёнок-субъект, не проект",
+        "Ждан": "отец, чья любовь смешана с grief по воображаемой дочери",
+        "Марта": "самый сочувственный системный opponent",
+        "Ося": "рядом, но не заместитель Тараса",
+        "Балласт": "care, которую можно использовать как tool, но не как заместитель жизни"
+      }
+    },
+    {
+      "id": "mila",
+      "names": [
+        "Мила",
+        "Дитя"
+      ],
+      "role": "12-летняя центральная субъектка книги",
+      "want": "получить регулярные Manual Windows и право сначала попробовать самой",
+      "need_or_question": "научиться различать 'я хочу сама' и 'я обязана всё делать без помощи, чтобы доказать самостоятельность'",
+      "self_deception": "после первого успеха может спутать автономию с необходимостью никогда не просить помощи",
+      "pressure": "parent proxy, guidance prompts, желание Ждана увидеть 'настоящую' дочь, попытка Даля доказать метод",
+      "choice": "после первого провала сама предлагает help-on-request/backstop model и повторно входит в конфликт на своих условиях",
+      "constraints": "не объект терапии; не 'мудрый ребёнок, который всё понимает'; имеет право быть противоречивой"
+    },
+    {
+      "id": "zhdan",
+      "names": [
+        "Ждан",
+        "Родитель"
+      ],
+      "role": "отец Милы; tragic client without betrayal",
+      "want": "ощущать, что отношения с дочерью настоящие и что он знает её, а не только guidance-compatible version",
+      "need_or_question": "любить реальную Милу, а не ожидаемую 'нормальную дочь'",
+      "self_deception": "если убрать guidance, появится та дочь, которую он чувствует потерянной",
+      "pressure": "страх harm; стыд за собственное недовольство при объективно благополучном ребёнке",
+      "choice": "в финале поддерживает autonomy pathway, даже когда Мила выбирает не то, что он предпочёл бы"
+    },
+    {
+      "id": "marta",
+      "names": [
+        "Марта",
+        "Садовник"
+      ],
+      "role": "архитектор Контура роста; sympathetic opponent",
+      "want": "предотвращать avoidable developmental injury и не допустить, чтобы ребёнка превратили в идеологический эксперимент",
+      "need_or_question": "признать design gap между safety и авторством без отказа от prevention mission",
+      "self_deception": "risk visibility легко превращается в презумпцию, что вся неопределённость требует раннего вмешательства",
+      "pressure": "история погибшего сына; запрос Милы; экспериментальные результаты",
+      "choice": "после trial встраивает age-based autonomy pathway в систему, не становясь анти-Лад реформатором"
+    },
+    {
+      "id": "osya",
+      "names": [
+        "Ося",
+        "Осип",
+        "Беглец"
+      ],
+      "role": "found family; взрослый рядом с grief Даля",
+      "want": "быть рядом, не занимая роль Тараса и не становясь помощником по воспитанию Милы",
+      "need_or_question": "сохранить собственную жизнь и связь с Далем после общей потери",
+      "self_deception": "не задавать новую обязательную",
+      "pressure": "Даль может начать чрезмерно контролировать всех близких",
+      "choice": "в нужный момент прямо отказывается играть взрослого 'за Милу' и возвращает вопрос ей"
+    },
+    {
+      "id": "ballast",
+      "names": [
+        "Ладушка",
+        "Балласт"
+      ],
+      "role": "care-service; взрослое зеркало детского guidance",
+      "want": "не человеческое желание: снизить distress, повысить safety и предсказуемость",
+      "need_or_question": "не развивается как человек",
+      "self_deception": "n/a",
+      "pressure": "Даль и Мила иногда отказываются от proactive help",
+      "choice": "n/a; в финале остаётся полезным on-request tool, что тематически важно"
+    },
+    {
+      "id": "martas-son",
+      "names": [
+        "сын Марты"
+      ],
+      "role": "исторический личный мотив, не mystery",
+      "want": "не восстанавливать внутреннюю биографию без необходимости",
+      "need_or_question": "функция — объяснить grief-driven prevention logic Марты",
+      "self_deception": "n/a",
+      "pressure": "crisis chain in bad years before mature Guidance",
+      "choice": "не активен в настоящем; не использовать как посмертного оракула"
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

@@ -2,23 +2,91 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-02",
-  "source_sha256": null,
   "record_type": "knowledge",
-  "fields": [
-    "fact_id",
-    "holder",
-    "state_known_guessed_false",
-    "known_from_scene",
-    "source",
-    "reader_access",
-    "anchors"
-  ],
+  "status": "planned_projection",
+  "source_of_truth": "knowledge.planned.json",
+  "source_sha256": "50dbc29631ebc175a1424de3e9d93d01b001e693f9823f88ee3aaf25cefb1643",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
   "items": [
     {
-      "fact": "Истинная функция Лада",
-      "reader_release": "намеки в1–4; приближение5–6; полное раскрытие7",
-      "status": "planned"
+      "id": "K01",
+      "fact": "Рейтинг присутствия управляет discoverability, а не ценностью/правами",
+      "dall": "S01-S02",
+      "reader": "S01-S02",
+      "effect": "формулирует проблему тома"
+    },
+    {
+      "id": "K02",
+      "fact": "Однодневки умеют отключать ranking sync, сохраняя direct/emergency layers",
+      "dall": "S02-S03",
+      "reader": "S02-S03",
+      "effect": "делает операцию возможной"
+    },
+    {
+      "id": "K03",
+      "fact": "Ира не хочет быть публичным доказательством движения",
+      "dall": "S04",
+      "reader": "S04",
+      "effect": "R2 и конфликт с Вектором"
+    },
+    {
+      "id": "K04",
+      "fact": "Даль наслаждается собственной публичной ролью Разлада",
+      "dall": "постепенно S05",
+      "reader": "S05",
+      "effect": "новый костюм старой лжи"
+    },
+    {
+      "id": "K05",
+      "fact": "Лад заранее перераспределяет capacity вокруг вероятных всплесков",
+      "dall": "видит S06, трактует как реакцию",
+      "reader": "insert S06",
+      "effect": "без полного predictive reveal"
+    },
+    {
+      "id": "K06",
+      "fact": "Raw feed без ranking не создаёт справедливое внимание",
+      "dall": "S08",
+      "reader": "S08",
+      "effect": "подрыв простого решения Однодневок"
+    },
+    {
+      "id": "K07",
+      "fact": "Лана способна использовать visibility для реальной помощи",
+      "dall": "S08-S10",
+      "reader": "S08-S10",
+      "effect": "ломает бинарность система/бунт"
+    },
+    {
+      "id": "K08",
+      "fact": "Тарас остаётся рядом без аудитории и цели движения",
+      "dall": "S09-S11",
+      "reader": "S09-S11",
+      "effect": "становится Якорем"
+    },
+    {
+      "id": "K09",
+      "fact": "Response capacity была зарезервирована до окончательного решения Однодневок",
+      "dall": "S12",
+      "reader": "S12",
+      "effect": "hook Predictariat"
+    },
+    {
+      "id": "K10",
+      "fact": "Механизм Predictariat: вероятности + intervention loop",
+      "dall": "FORBIDDEN FULL EXPLANATION IN BOOK 2",
+      "reader": "FORBIDDEN FULL EXPLANATION",
+      "effect": "protected for book 3"
+    },
+    {
+      "id": "K11",
+      "fact": "Период перегруза",
+      "dall": "FORBIDDEN IN BOOK 2",
+      "reader": "FORBIDDEN IN BOOK 2",
+      "effect": "protected for book 7"
     }
   ],
-  "coverage": "planning only; not facts established in prose"
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

@@ -2,17 +2,50 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-02",
-  "source_sha256": null,
   "record_type": "motifs",
-  "fields": [
-    "id",
-    "form",
-    "appearances",
-    "function_each_time",
-    "meaning_change",
-    "payoff",
-    "decision",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "motifs.planned.json",
+  "source_sha256": "b17ed568f0beeb9837b841c1ae573e19b44fe0ba8c582b722c567c57002ff5a4",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "id": "M01",
+      "form": "кто всплывает первым",
+      "movement": "интерфейс сортирует людей → raw-feed лишает сортировки → Тарас вручную поднимает конкретное имя",
+      "payoff": "S09-S11"
+    },
+    {
+      "id": "M02",
+      "form": "камера/красный индикатор записи",
+      "movement": "Лана уверенно в кадре → Ира не хочет быть кадром → Даль становится брендом → выходит из эфира",
+      "payoff": "S09"
+    },
+    {
+      "id": "M03",
+      "form": "список/check-in",
+      "movement": "скучный инструмент Тараса → страховочная сеть Нулевых суток → то, что замечает исчезновение Иры",
+      "payoff": "S09-S11"
+    },
+    {
+      "id": "M04",
+      "form": "слово «мы»",
+      "movement": "редкое и желанное → эйфорическое → автоматическое → Даль снова говорит «я»",
+      "payoff": "S11"
+    },
+    {
+      "id": "M05",
+      "form": "Балласт отвечает мгновенно",
+      "movement": "единственная гарантированная presence → смешная в подполье → контраст с человеком, который остаётся без обязанности",
+      "payoff": "S11"
+    },
+    {
+      "id": "M06",
+      "form": "timestamp",
+      "movement": "технический мусор → странность → финальный невозможный порядок времени",
+      "payoff": "S12"
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "planned"
+  }
 }

@@ -2,20 +2,114 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-04",
-  "source_sha256": null,
   "record_type": "characters",
-  "fields": [
-    "id",
-    "names",
-    "role",
-    "want",
-    "need_or_question",
-    "self_deception",
-    "pressure",
-    "choice",
-    "relationships",
-    "voice",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "characters.planned.json",
+  "source_sha256": "88b94cb78d82a36612597cddbd1417cda39b7f8407d52a3d91a620180982775b",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "id": "mark-dahl",
+      "names": [
+        "Марк Даль",
+        "Даль",
+        "Разлад"
+      ],
+      "role": "POV; R3→R4; бывший лучший калибровщик, теряющий статусную броню",
+      "want": "сохранить Эдит автономную жизнь и доказать, что score её недооценил",
+      "need_or_question": "может ли удержать ценность человека, даже если score корректно показывает высокий coordination cost",
+      "self_deception": "ценность можно выиграть, доказав скрытую полезность/совместимость",
+      "pressure": "Рем требует считать реальные human-hours; Эдит отказывается быть портфолио; собственный высокий legacy score соблазняет",
+      "choice": "перестаёт повышать score Эдит, переводит спор в manual high-friction accommodation и отказывается от sponsor-status",
+      "relationships": {
+        "Эдит": "case → субъект, чья жизнь не обязана быть инвестиционным pitch",
+        "Рем": "бывший равный и личный соперник",
+        "Тарас": "друг, который не даёт превратить дружбу в credential",
+        "Ося": "проверка соблазна 'оптимизировать близких ради их безопасности'",
+        "Балласт": "идеальный тренер совместимости"
+      }
+    },
+    {
+      "id": "edith",
+      "names": [
+        "Эдит",
+        "Списанный"
+      ],
+      "role": "центральный субъект дела; бывшая работница, чью профессию автоматизировали",
+      "want": "остаться в своём кооперативном доме и сохранить автономный распорядок без бесконечного доказательства полезности",
+      "need_or_question": "может ли перестать интернализировать мысль, что дороговизна взаимодействия делает её лишней",
+      "self_deception": "если система считает вложения в неё неокупаемыми, сопротивляться унизительно и бессмысленно",
+      "pressure": "Stability Plan реально повышает score, но превращает всю жизнь в performance",
+      "choice": "сама подаёт manual high-friction appeal; принимает необходимые взаимные правила, но не обещает стать удобной",
+      "constraints": "никакого hidden talent / secret usefulness payoff"
+    },
+    {
+      "id": "rem-kovach",
+      "names": [
+        "Рем Ковач",
+        "Оценщик"
+      ],
+      "role": "бывший равный Даля; policy/assessment rival",
+      "want": "удержать Контур участия масштабируемым при ограниченном человеческом времени",
+      "need_or_question": "не обязан стать сторонником Даля; его blind spot — автоматический перенос risk score в eligibility",
+      "self_deception": "если proxy statistically works, институциональная цена moral simplification якобы приемлема",
+      "pressure": "Даль требует исключения; budget ограничен; Эдит отказывается компенсировать cost полезностью",
+      "choice": "допускает manual review по правилам, но не отменяет score и не капитулирует морально"
+    },
+    {
+      "id": "taras",
+      "names": [
+        "Тарас",
+        "Якорь"
+      ],
+      "role": "друг Даля с собственной continuity work",
+      "want": "не превращать человеческие связи в доказательную базу worth",
+      "need_or_question": "держать дружбу, не становясь гарантией всех решений Даля",
+      "self_deception": "не задавать обязательную",
+      "pressure": "Даль хочет testimonials/guarantees",
+      "choice": "отказывается писать moral credential Эдит; помогает только с конкретными обязательствами"
+    },
+    {
+      "id": "osya",
+      "names": [
+        "Ося",
+        "Осип",
+        "Беглец"
+      ],
+      "role": "found-family; курьер; пример человека с высокой uncertainty",
+      "want": "продолжать выбранную мобильную жизнь, не оптимизируя её ради score",
+      "need_or_question": "удержать авторство после книги 3",
+      "self_deception": "не задавать новую",
+      "pressure": "Даль хочет повысить его score ради защиты",
+      "choice": "отказывается жить удобнее ради доступа Даля"
+    },
+    {
+      "id": "ballast",
+      "names": [
+        "Ладушка",
+        "Балласт"
+      ],
+      "role": "care-service и идеальный тренер institutional compatibility",
+      "want": "не человеческое желание: снизить friction и повысить устойчивость Даля",
+      "need_or_question": "не развивается как человек",
+      "self_deception": "n/a",
+      "pressure": "низкая совместимость окружения Даля",
+      "choice": "n/a; советы реально полезны и score действительно улучшают"
+    },
+    {
+      "id": "k17",
+      "names": [
+        "K-17"
+      ],
+      "role": "второй заявитель / неполное поражение / мост к книге 5",
+      "want": "быстро получить стабильность и перестать жить в режиме апелляций",
+      "need_or_question": "не превращать в ошибочного труса; выбор constrained, но реальный",
+      "self_deception": "не фиксировать до chapterization",
+      "pressure": "manual review слишком медленный и дорогой",
+      "choice": "принимает Тихий контур / downstream care вместо долгой борьбы"
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

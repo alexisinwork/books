@@ -2,18 +2,104 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-08",
-  "source_sha256": null,
   "record_type": "promises",
-  "fields": [
-    "id",
-    "promise",
-    "setup",
-    "misreading",
-    "reveal",
-    "payoff",
-    "cost",
-    "status",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "promises.planned.json",
+  "source_sha256": "268ac233ae82f10efdcb144325f39bb5e5b961be6e0c856f7bed3dd38cbc2d6d",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "id": "P01",
+      "promise": "Имеет ли low-probability missing case право оставаться человеческим делом?",
+      "setup": "S01",
+      "misreading": "либо бесконечный поиск, либо закрыть",
+      "reveal": "S05",
+      "payoff": "rank next action, keep unresolved person record",
+      "cost": "family lives with uncertainty; resources still finite"
+    },
+    {
+      "id": "P02",
+      "promise": "Цифры/триаж делают людей бесчеловечными?",
+      "setup": "S01-S02",
+      "misreading": "morally correct = prioritize each named person",
+      "reveal": "S02/S07",
+      "payoff": "some hard triage is operationally correct",
+      "cost": "correct decisions can still devastate individuals"
+    },
+    {
+      "id": "P03",
+      "promise": "Ветерана надо ценить за дальнейшую полезность?",
+      "setup": "S03-S04",
+      "misreading": "support justified by restored function",
+      "reveal": "S04",
+      "payoff": "deployability separated from civilian rights/support",
+      "cost": "scarce retraining still requires its own criteria"
+    },
+    {
+      "id": "P04",
+      "promise": "Есть правильная моральная позиция уехал/остался/вернулся?",
+      "setup": "S03",
+      "misreading": "one category proves courage/cowardice",
+      "reveal": "S03-S06",
+      "payoff": "choices are contextual and authored under pressure",
+      "cost": "no simple social verdict"
+    },
+    {
+      "id": "P05",
+      "promise": "Можно ли 'закрыть' ambiguous loss ради эффективности?",
+      "setup": "S05",
+      "misreading": "most likely outcome sufficient",
+      "reveal": "S05/S09",
+      "payoff": "unresolved is valid; new evidence can re-rank action",
+      "cost": "uncertainty remains emotionally expensive"
+    },
+    {
+      "id": "P06",
+      "promise": "Илья найден?",
+      "setup": "S01-S05",
+      "misreading": "Dahl will solve mystery personally",
+      "reveal": "S09-S10",
+      "payoff": "system match + official confirmation alive",
+      "cost": "return is beginning, not restoration"
+    },
+    {
+      "id": "P07",
+      "promise": "Ева станет 'человечной' и перестанет считать?",
+      "setup": "S01-S02",
+      "misreading": "coordinator must choose names over numbers",
+      "reveal": "S07-S11",
+      "payoff": "she keeps hard triage and accepts boundary reform",
+      "cost": "numbers remain morally necessary"
+    },
+    {
+      "id": "P08",
+      "promise": "Балласт всё-таки был ошибкой всей серии?",
+      "setup": "series-long",
+      "misreading": "authenticity means reject AI",
+      "reveal": "throughout book8",
+      "payoff": "alerts/routes/search matching genuinely save time/lives",
+      "cost": "tool still cannot own relationship/values"
+    },
+    {
+      "id": "P09",
+      "promise": "Название 'Поимённо' = публичный список всех?",
+      "setup": "title/motif",
+      "misreading": "memorial/public naming is moral endpoint",
+      "reveal": "S11-S12",
+      "payoff": "private accountable person-record behind aggregate report",
+      "cost": "privacy sometimes requires not publishing name"
+    },
+    {
+      "id": "P10",
+      "promise": "Финал серии завершит войну/мир?",
+      "setup": "book8 position",
+      "misreading": "capstone must solve external crisis",
+      "reveal": "S12",
+      "payoff": "war continues; boundary of humane systems changes locally",
+      "cost": "responsibility continues after final page"
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

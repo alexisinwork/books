@@ -2,25 +2,86 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-03",
-  "source_sha256": null,
   "record_type": "promises",
-  "fields": [
-    "id",
-    "promise",
-    "setup",
-    "misreading",
-    "reveal",
-    "payoff",
-    "cost",
-    "status",
-    "anchors"
-  ],
+  "status": "planned_projection",
+  "source_of_truth": "promises.planned.json",
+  "source_sha256": "49f64a4f2091ca24f8dba067cbc7682eabe0943f5c82ebade78d1733d0501473",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
   "items": [
     {
-      "promise": "Ося присваивает предсказанный выбор; Даль отказывается дочитывать свой файл.",
-      "status": "planned",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md"
+      "id": "P01",
+      "promise": "Как Лад подготовился к Нулевым суткам заранее?",
+      "setup": "carry from book2 / S01",
+      "misreading": "утечка или точное знание будущего",
+      "reveal": "S02",
+      "payoff": "вероятностное multi-node contingency",
+      "cost": "вопрос смещается к тому, насколько широко моделируют людей"
+    },
+    {
+      "id": "P02",
+      "promise": "Можно ли Осе сделать непредсказуемый выбор?",
+      "setup": "S01-S03",
+      "misreading": "одна неожиданная деталь докажет свободу",
+      "reveal": "S08-S11",
+      "payoff": "свобода не требует непредсказуемости",
+      "cost": "Ося теряет identity 'я = отклонение'"
+    },
+    {
+      "id": "P03",
+      "promise": "Predictariat действительно знает будущее?",
+      "setup": "S02",
+      "misreading": "жуткая точность = пророчество",
+      "reveal": "S03/S05",
+      "payoff": "вероятности + interventions + limits",
+      "cost": "контроль становится менее магическим и более повседневным"
+    },
+    {
+      "id": "P04",
+      "promise": "Что в файле Даля?",
+      "setup": "S01-S02",
+      "misreading": "доказательство, что он никогда не был свободен",
+      "reveal": "S06/S10",
+      "payoff": "ветки, а не судьба; отказ тоже вероятен",
+      "cost": "он теряет комфортную идентичность исключения"
+    },
+    {
+      "id": "P05",
+      "promise": "Балласт способен сделать жизнь реально легче?",
+      "setup": "series / S06",
+      "misreading": "это только очевидная фальшь",
+      "reveal": "S07",
+      "payoff": "да, оптимальный день действительно лучше по многим метрикам",
+      "cost": "покой становится настоящим соблазном"
+    },
+    {
+      "id": "P06",
+      "promise": "Кто инсценировал Осин бунт?",
+      "setup": "S05",
+      "misreading": "должен быть куратор/предатель",
+      "reveal": "S08",
+      "payoff": "никто; bounded deviation — choice architecture",
+      "cost": "нет удобного злодея, против которого можно вернуть себе невиновность"
+    },
+    {
+      "id": "P07",
+      "promise": "Что такое R3 Авторство?",
+      "setup": "одержимость непредсказуемостью S01-S09",
+      "misreading": "сломать модель",
+      "reveal": "S10-S11",
+      "payoff": "присвоить решение, даже если оно predicted",
+      "cost": "нести последствия без метафизической гарантии свободы"
+    },
+    {
+      "id": "P08",
+      "promise": "Почему одним людям система помогает удержаться сильнее, чем другим?",
+      "setup": "S12",
+      "misreading": "ещё одна prediction confidence metric",
+      "reveal": "NOT IN BOOK3",
+      "payoff": "book4",
+      "cost": "новый вопрос ценности/полезности"
     }
   ],
-  "coverage": "planning only; not facts established in prose"
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

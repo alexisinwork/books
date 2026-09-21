@@ -13,5 +13,24 @@
     "affected_checks",
     "decision"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "kontakt-preparation-20260921",
+      "reason": "Author-authorized preparation after Book 4 publication",
+      "decision": "applied",
+      "old_source": "series/preparation/2026-09-21/before",
+      "new_source": "series/preparation/2026-09-21/baseline.json",
+      "changes": [
+        "Selected existing macro baseline",
+        "Archived legacy summaries and synchronized planned registers",
+        "Resolved active-route conflicts; preserved original review"
+      ],
+      "affected_checks": [
+        "source integrity",
+        "handoff continuity",
+        "scope readiness"
+      ],
+      "prose_changed": false
+    }
+  ]
 }

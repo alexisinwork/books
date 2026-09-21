@@ -2,23 +2,88 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-01",
-  "source_sha256": null,
   "record_type": "knowledge",
-  "fields": [
-    "fact_id",
-    "holder",
-    "state_known_guessed_false",
-    "known_from_scene",
-    "source",
-    "reader_access",
-    "anchors"
-  ],
+  "status": "planned_projection",
+  "source_of_truth": "knowledge.planned.json",
+  "source_sha256": "c8e571728ceafef89f6d76eeafdafa3efb3634ba182a7c0ff68e0656a12233c7",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
   "items": [
     {
-      "fact": "Истинная функция Лада",
-      "reader_release": "намеки в1–4; приближение5–6; полное раскрытие7",
-      "status": "planned"
+      "id": "K01",
+      "fact": "Профиль Майи использует производную старого safe-presence шаблона Даля",
+      "dall": "S01",
+      "reader": "S01",
+      "effect": "принимает заказ"
+    },
+    {
+      "id": "K02",
+      "fact": "Майя сознательно выбирает глубокое сопровождение",
+      "dall": "S02-S03",
+      "reader": "S02-S03",
+      "effect": "ломает модель 'она не понимает'"
+    },
+    {
+      "id": "K03",
+      "fact": "Тихон стабилизирует Майю из соображений safety",
+      "dall": "S04",
+      "reader": "S04",
+      "effect": "противник остаётся морально разумным"
+    },
+    {
+      "id": "K04",
+      "fact": "Гор использовал proxy для снижения несогласия Майи",
+      "dall": "S06 после insert",
+      "reader": "начало S06",
+      "effect": "цель дела меняется"
+    },
+    {
+      "id": "K05",
+      "fact": "Даль нарушил границу Майи и усилил её уход",
+      "dall": "осознаёт S07",
+      "reader": "S05",
+      "effect": "смена метода"
+    },
+    {
+      "id": "K06",
+      "fact": "Нина умерла после болезни; Даль эмоционально отсутствовал из-за self-companion",
+      "dall": "полно S08",
+      "reader": "намёки S01/S05, полно S08",
+      "effect": "личная ответственность"
+    },
+    {
+      "id": "K07",
+      "fact": "Извлечение возвращает пространство выбора, но не чувство",
+      "dall": "S10",
+      "reader": "S10",
+      "effect": "отравляет техническую победу"
+    },
+    {
+      "id": "K08",
+      "fact": "Заглаживание — нормальная care-функция, не баг",
+      "dall": "S07-S11",
+      "reader": "S07-S11",
+      "effect": "дезертирство без тайного злодея"
+    },
+    {
+      "id": "K09",
+      "fact": "Логика заглаживания старше consumer-версии Лада",
+      "dall": "только намёк S12",
+      "reader": "только намёк S12",
+      "effect": "series seed"
+    },
+    {
+      "id": "K10",
+      "fact": "Период перегруза",
+      "dall": "FORBIDDEN IN BOOK 1",
+      "reader": "FORBIDDEN IN BOOK 1",
+      "effect": "protected for book 7"
     }
   ],
-  "coverage": "planning only; not facts established in prose"
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  },
+  "execution_detail_source": "scenes.json",
+  "epistemic_clarification": {
+    "Nina": "Dal has factual memory at entry. S08 means full emotional acknowledgment, not newly learning that Nina died. Reader receives hints only in S01/S05."
+  }
 }

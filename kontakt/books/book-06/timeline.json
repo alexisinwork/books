@@ -2,18 +2,75 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-06",
-  "source_sha256": null,
   "record_type": "timeline",
-  "fields": [
-    "event_id",
-    "reference_point",
-    "start",
-    "duration",
-    "travel",
-    "global_deadline",
-    "local_window",
-    "assumption",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "timeline.planned.json",
+  "source_sha256": "c1a094a55094b38dba9e1221d48719bd92f27d15d55175db8dcfd7777f05fced",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "window": "W1",
+      "events": [
+        "developmental metadata",
+        "Ждан обращается к Далю",
+        "первая встреча Милы",
+        "formal review"
+      ]
+    },
+    {
+      "window": "W2",
+      "events": [
+        "наблюдение Контур роста",
+        "данные Марты",
+        "конфликт мотива Ждана",
+        "design первого Manual Window"
+      ]
+    },
+    {
+      "window": "W3",
+      "events": [
+        "первый Manual Window",
+        "мастерская",
+        "первые хорошие эффекты",
+        "слишком широкое отключение prompts"
+      ]
+    },
+    {
+      "window": "W3-W4",
+      "events": [
+        "peer conflict / project failure",
+        "distress without trauma",
+        "Мила требует не закрывать experiment",
+        "Assent & Growth Mode design"
+      ]
+    },
+    {
+      "window": "W4",
+      "events": [
+        "история Марты",
+        "второй Manual Window approved"
+      ]
+    },
+    {
+      "window": "W5",
+      "events": [
+        "второй мастерский конфликт",
+        "Даль не вмешивается",
+        "R6"
+      ]
+    },
+    {
+      "window": "W5-W6",
+      "events": [
+        "repair/aftermath",
+        "Ждан меняет parenting stance",
+        "limited autonomy pathway institutionalized",
+        "adult emergency ancestry hook"
+      ]
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "relative_timeline_planned",
+    "assumption": "примерно 4–6 недель; child development trial требует времени, не укладывать всё в несколько дней"
+  }
 }

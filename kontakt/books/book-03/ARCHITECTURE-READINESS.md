@@ -1,29 +1,6 @@
-# ARCHITECTURE READINESS — Predictariat
+# Готовность book-03
 
-Статус: **ready to enter Architecture Pass 01 / pass not run**
+Макроплан выбран и сопоставлен с соседними томами. Реестры заполнены как planned projections; master отсутствует.
+Местные scene cards и отдельный gate до прозы этого тома ещё требуются. Не выдавать macro_reconciled за ready_for_draft всех глав.
 
-## Locked input
-- Social problem: алгоритмическое профилирование; predictive governance; самоисполняющийся прогноз
-- Resonance: R2 → R3
-- Engine: расследование файла Беглеца и собственного вероятностного дерева Даля
-- Payoff: Ося присваивает предсказанный выбор; Даль отказывается путать свободу с непредсказуемостью.
-- Entry: R2; Тарас рядом; найдено семя предсказанного бунта
-- Exit: R3; Ося жив; Даль не дочитывает файл; открыт критерий ценности
-
-## Architecture questions
-- [ ] точные intervention points модели
-- [ ] кто приводит кейс Оси
-- [ ] какие детали прогноза посеяны системой
-
-## Required outputs
-- [ ] `scenes.json`: `goal/obstacle/decision/result/cost/next_cause`.
-- [ ] `characters.json`: planned wants/choices major characters.
-- [ ] `knowledge.json`: reader vs Dall knowledge.
-- [ ] `promises.json`: setup → misreading → reveal → payoff → cost.
-- [ ] `timeline.json`: timings needed for causality/deadlines.
-- [ ] `resources.json`: Resonance/visibility + book-specific scarcity.
-- [ ] `end-state.json`: carry to next book.
-- [ ] chapter grouping by rhythm, not 34-grid.
-- [ ] no architecture-critical unresolved.
-
-Do not solve by adding a new mastermind, global rule or Resonance power.
+Текущий проверенный scope: series/preparation/2026-09-21/verification.json. Opus/Gemini prose review: not_run.

@@ -2,329 +2,144 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-03",
-  "source_sha256": null,
-  "record_type": "scenes",
-  "fields": [
-    "id",
-    "pov",
-    "place",
-    "time",
-    "goal",
-    "obstacle",
-    "decision",
-    "result",
-    "cost",
-    "next_cause",
-    "state_changes",
-    "anchors"
-  ],
+  "status": "planned_macro_only",
+  "source": {
+    "path": "kontakt/books/book-03/architecture.json",
+    "sha256": "3c57be1c0ae23ff14c455f50fa3541cf026e72a1f053bc4f093370999c8f8e21"
+  },
   "items": [
     {
-      "id": "book-03-ch-01",
-      "chapter": 1,
-      "status": "planned",
-      "summary": "Подполье; герой с Якорем, компаньон осаждает, заглаживание поджимает. Семя т.2 грызёт: бунт был предсказан — значит, и его собственный? Мир-3 = люди катятся по вычисленным колеям. [2: мир/слабость]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 42
+      "id": "book-03-S01",
+      "sequence_id": "S01",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Timestamp",
+      "decision": "взять Осин кейс и расследовать anomaly",
+      "cost": "дело становится личной проверкой Даля",
+      "next_cause": "идти к Predictariat",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-03-ch-02",
-      "chapter": 2,
-      "status": "planned",
-      "summary": "Запускающее: дело — «Беглец», чью траекторию «Лад» агрессивно правит; кто-то просит спасти. [4: запускающее событие]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 43
+      "id": "book-03-S02",
+      "sequence_id": "S02",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Лоцман не прячется",
+      "decision": "проверять модель, а не разоблачать заговор",
+      "cost": "Даль принимает вероятностную природу файла, но хочет её победить",
+      "next_cause": "эксперимент отклонения",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-03-ch-03",
-      "chapter": 3,
-      "status": "planned",
-      "summary": "Параллель сразу: чтобы понять коррекцию Беглеца, герой лезет в систему предсказаний — и натыкается на намёк, что у «Лада» есть и ЕГО файл. Холодок. [9: первое открытие — дело становится личным]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 44
+      "id": "book-03-S03",
+      "sequence_id": "S03",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Удивить модель",
+      "decision": "рандомизировать решения",
+      "cost": "видит реальные ошибки, но не получает метафизической свободы",
+      "next_cause": "изучить Осю, а не только прогноз",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-03-ch-04",
-      "chapter": 4,
-      "status": "planned",
-      "summary": "Лоцман выходит на героя: предсказание милосердно, избавляет от муки выбора; «отклонение = страдание». Активно предлагает герою его файл. [7: гл. противник; 8: семя; принцип проступает]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 45
+      "id": "book-03-S04",
+      "sequence_id": "S04",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Чего ты хочешь?",
+      "decision": "спросить вместо диагностировать",
+      "cost": "Ося признаёт, что живёт против файла",
+      "next_cause": "аудит interventions",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-03-ch-05",
-      "chapter": 5,
-      "status": "planned",
-      "summary": "Беглец активен: яростно защищает отклонение как доказательство свободы воли — герой завидует. [2-й противник активен]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 46
+      "id": "book-03-S05",
+      "sequence_id": "S05",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Архитектура вариантов",
+      "decision": "понять choice architecture",
+      "cost": "Даль видит bounded deviation как красивую тюрьму",
+      "next_cause": "открыть собственный файл",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-03-ch-06",
-      "chapter": 6,
-      "status": "planned",
-      "summary": "Безмятежный — заход: «всё написано». Герой решает спасти Беглеца — отчасти чтобы доказать себе, что бунт реален. [5: желание видимо; 10: план]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 47
+      "id": "book-03-S06",
+      "sequence_id": "S06",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Файл Даля",
+      "decision": "прочитать только проверяемый фрагмент",
+      "cost": "его сопротивление тоже branch; растёт цинизм",
+      "next_cause": "backslide",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-03-ch-07",
-      "chapter": 7,
-      "status": "planned",
-      "summary": "Якорь — зеркало/совесть — спорит: «ты спасаешь его или себя?». [6: союзник-зеркало]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 50
+      "id": "book-03-S07",
+      "sequence_id": "S07",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Оптимальный день",
+      "decision": "отдать выбор Балласту на один день",
+      "cost": "получает реальное облегчение ценой живых поводов",
+      "next_cause": "вернуться к Осе",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-03-ch-08",
-      "chapter": 8,
-      "status": "planned",
-      "summary": "Компаньон: комедия + первый укол соблазна — подсовывает «оптимальную траекторию, где не больно». [юмор-движок + тёмный спод]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 51
+      "id": "book-03-S08",
+      "sequence_id": "S08",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Самый свободный бунт",
+      "decision": "показать Осин intervention-log",
+      "cost": "Ося решает жить противоположно файлу",
+      "next_cause": "опасное бегство от prediction",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-03-ch-09",
-      "chapter": 9,
-      "status": "planned",
-      "summary": "Шаг Резонанса с Беглецом — настоящий контакт; к рангу 4 близко. Цена: видимость, заглаживание ближе. [Резонанс прогресс ⟂ цена]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 52
+      "id": "book-03-S09",
+      "sequence_id": "S09",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Непредсказуемость как зависимость",
+      "decision": "не управлять Осей, вернуть вопрос к желанию",
+      "cost": "Ося не знает, чего хочет без файла",
+      "next_cause": "Даль идёт к своему файлу",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-03-ch-10",
-      "chapter": 10,
-      "status": "planned",
-      "summary": "Лоцман-айсберг: ведёт героя по его же предсказанным реакциям — каждый ход оказывается в файле; жуть «меня посчитали». [11: активный план противника]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 53
+      "id": "book-03-S10",
+      "sequence_id": "S10",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Свой файл / R3",
+      "decision": "закрыть файл осознанно, не пытаясь удивить",
+      "cost": "теряет идентичность 'свободен потому что исключение'; R3",
+      "next_cause": "вернуться к Осе",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-03-ch-11",
-      "chapter": 11,
-      "status": "planned",
-      "summary": "Лжесоюзник: тот, кто «помогает», обслуживает управляемый бунт — кормит отклонение, чтобы держать в узде. Сеется. [8: лжесоюзник]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 54
+      "id": "book-03-S11",
+      "sequence_id": "S11",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Выбор Оси",
+      "decision": "присвоить вероятную ветку",
+      "cost": "Ося перестаёт жить против модели",
+      "next_cause": "закрыть intervention audit",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-03-ch-12",
-      "chapter": 12,
-      "status": "planned",
-      "summary": "Гон/начало бэкслайда: раздавленный «меня посчитали», герой уходит в броню и цинизм — обращается с делом как с задачей, отстраняется от Беглеца и Якоря. [12: drive — падение]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 55
-    },
-    {
-      "id": "book-03-ch-13",
-      "chapter": 13,
-      "status": "planned",
-      "summary": "Атака союзника: Якорь бьёт — «ты сдаёшься, прячешься в „всё равно написано“». Герой огрызается. [13]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 56
-    },
-    {
-      "id": "book-03-ch-14",
-      "chapter": 14,
-      "status": "planned",
-      "summary": "Тёмный пик бэкслайда: герой всерьёз тянется к компаньону — «если я написан, зачем боль? пусть покой». Почти сдаётся уюту. [бэкслайд-дно внутреннее; двойное использование компаньона]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 57
-    },
-    {
-      "id": "book-03-ch-15",
-      "chapter": 15,
-      "status": "planned",
-      "summary": "Читателю (без героя): видно, что бунт Беглеца — предсказанный клапан, и лжесоюзник его ведёт. [16: открытие читателю; ирония]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 58
-    },
-    {
-      "id": "book-03-ch-16",
-      "chapter": 16,
-      "status": "planned",
-      "summary": "Якорь вытаскивает героя на полшага; тот входит в коридор к правде. [мост; перчатка приближается]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 59
-    },
-    {
-      "id": "book-03-ch-17",
-      "chapter": 17,
-      "status": "planned",
-      "summary": "Мнимое поражение: коррекция накрывает Беглеца, лжесоюзник вскрылся, и герой видит — всё, что он делал, было в файле. Дно. [14: дно; 8: частичная выплата]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 62
-    },
-    {
-      "id": "book-03-ch-18",
-      "chapter": 18,
-      "status": "planned",
-      "summary": "Со дна — второе открытие: герой перестаёт пытаться СБЕЖАТЬ от предсказания (это тоже в модели); решает иное. [15]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 63
-    },
-    {
-      "id": "book-03-ch-19",
-      "chapter": 19,
-      "status": "planned",
-      "summary": "Твист-разворот: отклонение Беглеца предсказано до детали и использовалось как клапан; его «свободный бунт» — самое управляемое, что было. Удар: дезертирство героя ложится в тот же паттерн. Даже бунт можно обслужить. [17: третье открытие; крупный ревил]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 64
-    },
-    {
-      "id": "book-03-ch-20",
-      "chapter": 20,
-      "status": "planned",
-      "summary": "Лоцман вскрыт не как злодей, а как истинно верующий: предсказание для него — милосердие, избавление от мук выбора. Серый спектр, зеркало. [8: полная выплата]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 65
-    },
-    {
-      "id": "book-03-ch-21",
-      "chapter": 21,
-      "status": "planned",
-      "summary": "Свежий ход «согласия»: «Лад» предлагает Беглецу и герою их «оптимальные» траектории — без боли, гарантированно; и это правда заманчиво. [новый удар, не «разоблачение»]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 66
-    },
-    {
-      "id": "book-03-ch-22",
-      "chapter": 22,
-      "status": "planned",
-      "summary": "Беглец ломается: узнав, что бунт был клапаном, теряет себя — его свобода оказалась куплена Системой. [эхо т.1 иным поворотом; ставки растут]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 67
-    },
-    {
-      "id": "book-03-ch-23",
-      "chapter": 23,
-      "status": "planned",
-      "summary": "Безмятежный и Лоцман — два голоса «прими файл». Соблазн на дне; герой почти. [тёмный бит соблазна]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 68
-    },
-    {
-      "id": "book-03-ch-24",
-      "chapter": 24,
-      "status": "planned",
-      "summary": "Врата/визит к смерти: герой доходит до своего файла — предсказание всей жизни, включая этот миг; психологическая смерть «я не свободен». [18]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 69
-    },
-    {
-      "id": "book-03-ch-25",
-      "chapter": 25,
-      "status": "planned",
-      "summary": "Прозрение-выбор: свобода не в том, чтобы удивить модель (это тоже в ней), а в том, чтобы ПРОЖИТЬ выбор осознанно, с ценой — присвоить, не сбежать. Ранг 4. [моральный разворот; Резонанс р.4]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 70
-    },
-    {
-      "id": "book-03-ch-26",
-      "chapter": 26,
-      "status": "planned",
-      "summary": "Безмятежный, Лоцман, компаньон — все голоса «всё написано, расслабься» сходятся; водораздел поступком. [четырёхугольник сходится]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 73
-    },
-    {
-      "id": "book-03-ch-27",
-      "chapter": 27,
-      "status": "planned",
-      "summary": "Битва ценностей: герой против предопределения — не доказывая непредсказуемость, а проживая предсказанный выбор по-настоящему, до конца. [19: битва решает внешнее и моральное]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 74
-    },
-    {
-      "id": "book-03-ch-28",
-      "chapter": 28,
-      "status": "planned",
-      "summary": "Помогает Беглецу присвоить свою жизнь — не сделать «непредсказуемой», а прожить осознанно. Триумф навыка. [per-book победа]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 75
-    },
-    {
-      "id": "book-03-ch-29",
-      "chapter": 29,
-      "status": "planned",
-      "summary": "Горечь: образ Беглеца-свободного-бунтаря разрушен навсегда; герой теряет утешение «моя дерзость делала меня особенным»; заглаживание поджимает. [per-arc цена]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 76
-    },
-    {
-      "id": "book-03-ch-30",
-      "chapter": 30,
-      "status": "planned",
-      "summary": "Чистый выигрыш: Беглец выживает и впервые живёт СВОЮ жизнь осознанно; Якорь держится, связь глубже. [CRIT-2: выигрыш на вынос]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 77
-    },
-    {
-      "id": "book-03-ch-31",
-      "chapter": 31,
-      "status": "planned",
-      "summary": "Самооткровение поступком: предсказанный выбор, прожитый с ценой, — реальная свобода; попытка быть непредсказуемым была ещё одной клеткой. Показано. [20]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 78
-    },
-    {
-      "id": "book-03-ch-32",
-      "chapter": 32,
-      "status": "planned",
-      "summary": "Моральное решение с ценой: герой отказывается смотреть остаток своего файла — выбирает жить вслепую и по-настоящему; за это заглаживание агрессивнее. [21]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 79
-    },
-    {
-      "id": "book-03-ch-33",
-      "chapter": 33,
-      "status": "planned",
-      "summary": "Новое равновесие: герой вышел из бэкслайда крепче; компаньон осаждает, но соблазн «сдаться уюту» побеждён осознанно; чувствует ещё чуть больше. [22]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 80
-    },
-    {
-      "id": "book-03-ch-34",
-      "chapter": 34,
-      "status": "planned",
-      "summary": "Крючок в т.4: листая траектории, герой видит — заглаживание не нейтрально: кого ведут мягко, кого гасят, решает КРИТЕРИЙ ценности/нужности. Видит чей-то (свой?) балл. Семя «Лишний человек»: тебя держат не потому, что ценен, а потому, что управляем. И тихий шёпот в данных: критерий появился как аварийный — будто модель строили в спешке, спасая от чего-то. [22; крючок т.4 + keystone-шёпот]",
-      "source": "sources/originals/КОСТЯК-КНИГА-3-Контакт(1).md",
-      "source_sha256": "d6270d478eddd7a1ba24d9e9738815a89b099c09e451fcdf0de9923367d6fea5",
-      "source_line": 81
+      "id": "book-03-S12",
+      "sequence_id": "S12",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Кого стоит удерживать",
+      "decision": "сверить metadata",
+      "cost": "обнаруживает разный intervention budget",
+      "next_cause": "hook book 4",
+      "detail_required_before_prose": true
     }
   ],
-  "coverage": "Full supplied 34-chapter outline; no manuscript exists"
+  "coverage": "12 macro sequences; local scene access/timing still required before writing later chapters"
 }

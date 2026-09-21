@@ -2,16 +2,105 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-08",
-  "source_sha256": null,
   "record_type": "knowledge",
-  "fields": [
-    "fact_id",
-    "holder",
-    "state_known_guessed_false",
-    "known_from_scene",
-    "source",
-    "reader_access",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "knowledge.planned.json",
+  "source_sha256": "bd82fb567e841202a5cb86cd81671f25ec4a61cb297bae88c3db4ab556d21d41",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "id": "K01",
+      "fact": "Илья имеет split/alias person-records и один case administratively inactive without confirmation",
+      "dall": "S01",
+      "reader": "S01",
+      "effect": "launches tracing audit"
+    },
+    {
+      "id": "K02",
+      "fact": "Action Priority correctly ranks evacuation/search actions by urgency, expected benefit, access, resources",
+      "dall": "S02",
+      "reader": "S02",
+      "effect": "numbers/triage retain legitimacy"
+    },
+    {
+      "id": "K03",
+      "fact": "В семье Варан categories describe operational realities but are socially moralized downstream",
+      "dall": "S03",
+      "reader": "S03",
+      "effect": "shows category≠person"
+    },
+    {
+      "id": "K04",
+      "fact": "Veteran retraining imported military return-to-function field",
+      "dall": "S04",
+      "reader": "S04",
+      "effect": "purpose creep under real scarcity"
+    },
+    {
+      "id": "K05",
+      "fact": "Илья has conflicting evidence; no confirmation death/captivity/hospital status",
+      "dall": "S05",
+      "reader": "S05",
+      "effect": "unresolved must remain valid status"
+    },
+    {
+      "id": "K06",
+      "fact": "Low search effort can be rational while human case remains open for inbound matching",
+      "dall": "S05",
+      "reader": "S05",
+      "effect": "core architecture distinction"
+    },
+    {
+      "id": "K07",
+      "fact": "A later emergency triage decision was operationally justified despite tragic individual outcome",
+      "dall": "S07",
+      "reader": "S07",
+      "effect": "blocks simplistic ethics"
+    },
+    {
+      "id": "K08",
+      "fact": "Operational fields leak through integrations into family support, rehab, housing, closure",
+      "dall": "S08",
+      "reader": "S08",
+      "effect": "defines system bug/purpose creep"
+    },
+    {
+      "id": "K09",
+      "fact": "New return/detainee data yields strong alias match to Ilya only because unresolved case remained matchable",
+      "dall": "S09",
+      "reader": "S09",
+      "effect": "reform has concrete payoff without magic"
+    },
+    {
+      "id": "K10",
+      "fact": "Ilya is confirmed alive through official verification",
+      "dall": "S10",
+      "reader": "S10",
+      "effect": "found name opens recovery, not happy ending"
+    },
+    {
+      "id": "K11",
+      "fact": "Write firewall can separate Action Queue from Evidence/Status/Rights/Person Record with acceptable overhead",
+      "dall": "S11",
+      "reader": "S11",
+      "effect": "procedural win"
+    },
+    {
+      "id": "K12",
+      "fact": "Public aggregation and private person-level accountability can coexist",
+      "dall": "S11-S12",
+      "reader": "S11-S12",
+      "effect": "privacy vs names resolved"
+    },
+    {
+      "id": "K13",
+      "fact": "War remains ongoing; no structural end comes from Dahl/Mera reform",
+      "dall": "throughout",
+      "reader": "throughout",
+      "effect": "series ending stays bounded"
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

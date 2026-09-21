@@ -4,11 +4,11 @@
   "book_id": "book-04",
   "title": "Лишний человек",
   "book_type": "fiction",
-  "stage": "architecture_ready",
+  "stage": "macro_reconciled",
   "master": null,
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "architecture_pending",
+  "audit_status": "macro_reviewed_scene_gates_pending",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -20,5 +20,13 @@
     "status": "planned_author_requested",
     "chapters": 30,
     "sequences": 12
-  }
+  },
+  "original_language": "uk",
+  "planning_baseline": "../../series/preparation/2026-09-21/baseline.json",
+  "active_outline": {
+    "path": "BOOK-04-ARCHITECTURE-LOCK.md",
+    "sha256": "d7da2bab558beb52d42605a81a3d3e12062fb918f1439949cc855d244cfb9cf3"
+  },
+  "planning_state": "planned_not_observed",
+  "execution_entry": "plan.md"
 }

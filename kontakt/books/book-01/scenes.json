@@ -2,329 +2,439 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-01",
-  "source_sha256": null,
-  "record_type": "scenes",
-  "fields": [
-    "id",
-    "pov",
-    "place",
-    "time",
-    "goal",
-    "obstacle",
-    "decision",
-    "result",
-    "cost",
-    "next_cause",
-    "state_changes",
-    "anchors"
-  ],
+  "status": "S01_scene_ready_remaining_macro",
+  "source": {
+    "path": "kontakt/books/book-01/architecture.json",
+    "sha256": "bbcf08ea7169aac45593e257d2ef74769cdd1e7eb384c670f675afb6f34daaf1"
+  },
   "items": [
     {
-      "id": "book-01-ch-01",
+      "id": "B01-S01-C01-S01",
+      "sequence_id": "S01",
       "chapter": 1,
-      "status": "planned",
-      "summary": "Герой блестяще калибрует чужую близость — мастер-класс полости; мир идеален, тёпел, мёртв (визуализация слабости). Держит чужой взгляд ровно секунду; микропроблеск призрака — предмет утраченного, который он хранит, но не чувствует. [2: мир/слабость; 3: слабость; символ ввод]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 42
+      "unit_type": "scene",
+      "status": "planned_execution",
+      "pov": "Марк Даль",
+      "person": 1,
+      "tense": "past",
+      "language": "uk",
+      "time": "D0 morning; ordinary appointment",
+      "place": "calibration room; one city, no named address",
+      "characters_present": [
+        "Марк Даль",
+        "unnamed adult client",
+        "client companion via device"
+      ],
+      "entry": "Dal still serves Lad; client arrives by appointment. Ballast not assigned.",
+      "goal": "Налаштувати компаньйона, який заважає клієнтові завершити звичайну складну розмову.",
+      "obstacle": "Заспокійлива відповідь знімає напруження, але не відповідає на конкретну претензію живого співрозмовника.",
+      "decision": "Даль просить дозвіл на обмежену діагностику; змінює темп і момент підказки, не читаючи всю приватну переписку.",
+      "result": "Клієнт перевіряє налаштування на власному пристрої і каже, що тепер може відповісти. Полегшення справжнє.",
+      "cost": "Даль задоволений працездатністю; ще не питає, якої розмови людина уникає.",
+      "next_cause": "Клієнт дякує йому особисто, без технічного запиту.",
+      "knowledge_before": [
+        "Dal knows calibration craft",
+        "client controls permission",
+        "companion is software"
+      ],
+      "knowledge_after": [
+        "Dal knows calibration craft",
+        "client controls permission",
+        "companion is software",
+        "Lad helps with a real difficulty",
+        "Dal treats discomfort as an adjustable condition"
+      ],
+      "reader_receives": [
+        "Lad helps with a real difficulty",
+        "Dal treats discomfort as an adjustable condition"
+      ],
+      "motifs": [
+        "руки",
+        "затримка відповіді",
+        "занадто доречне тепло"
+      ],
+      "resonance_before": "R0",
+      "resonance_after": "R0",
+      "must_not_reveal": [
+        "full Nina backstory",
+        "Gor control/proxy history",
+        "Overload origin",
+        "later books"
+      ],
+      "implementation_basis": "Compatible S01 macro and Downloads opening; local staging choices are planned by assistant under preparation authorization."
     },
     {
-      "id": "book-01-ch-02",
+      "id": "B01-S01-C01-S02",
+      "sequence_id": "S01",
+      "chapter": 1,
+      "unit_type": "scene",
+      "status": "planned_execution",
+      "pov": "Марк Даль",
+      "person": 1,
+      "tense": "past",
+      "language": "uk",
+      "time": "D0 immediately after appointment",
+      "place": "same calibration room",
+      "characters_present": [
+        "Марк Даль",
+        "unnamed adult client"
+      ],
+      "entry": "The practical problem eased; permission still does not grant further personal access.",
+      "goal": "Закінчити зустріч і повернутися до робочого порядку.",
+      "obstacle": "Особиста подяка вимагає відповіді від нього, а не від послуги.",
+      "decision": "Він переводить розмову в рекомендацію і дивиться на екран раніше, ніж витримає паузу.",
+      "result": "Зустріч ввічливо закінчується; можливість прямого контакту не використана.",
+      "cost": "Ремесло виявляється його захистом; без катарсису або нового рангу.",
+      "next_cause": "Після роботи Даль повертається в контрольований домашній простір.",
+      "knowledge_before": [
+        "calibration completed",
+        "client gratitude is personally directed"
+      ],
+      "knowledge_after": [
+        "calibration completed",
+        "client gratitude is personally directed",
+        "Dal evades gratitude with professional competence"
+      ],
+      "reader_receives": [
+        "Dal evades gratitude with professional competence"
+      ],
+      "motifs": [
+        "погляд",
+        "незаповнена пауза"
+      ],
+      "resonance_before": "R0",
+      "resonance_after": "R0",
+      "must_not_reveal": [
+        "full Nina backstory",
+        "Gor control/proxy history",
+        "Overload origin",
+        "later books"
+      ],
+      "implementation_basis": "Compatible S01 macro and Downloads opening; local staging choices are planned by assistant under preparation authorization."
+    },
+    {
+      "id": "B01-S01-C01-S03",
+      "sequence_id": "S01",
+      "chapter": 1,
+      "unit_type": "scene",
+      "status": "planned_execution",
+      "pov": "Марк Даль",
+      "person": 1,
+      "tense": "past",
+      "language": "uk",
+      "time": "D0 evening; travel elided after clear time transition",
+      "place": "Dal apartment",
+      "characters_present": [
+        "Марк Даль",
+        "Gor message on professional private inbox"
+      ],
+      "entry": "Dal at home after work; no Maya case accepted; no Ballast.",
+      "goal": "Провести передбачуваний вечір без чужих вимог.",
+      "obstacle": "Приходить запит Гора на розмову поза звичайним сервісним маршрутом.",
+      "decision": "Даль читає повідомлення і погоджується лише вислухати запит; він ще не погоджується втручатися.",
+      "result": "Вечір має незаплановане продовження — зустріч із Гором.",
+      "cost": "Його контрольований розклад уперше поступається справі без оформленої задачі.",
+      "next_cause": "Глава 2 починається розмовою з Гором того ж вечора.",
+      "knowledge_before": [
+        "Dal still employed",
+        "no case accepted"
+      ],
+      "knowledge_after": [
+        "Dal still employed",
+        "no case accepted",
+        "Gor wants an unofficial consultation"
+      ],
+      "reader_receives": [
+        "Gor wants an unofficial consultation"
+      ],
+      "motifs": [
+        "налаштоване тепло",
+        "тиша",
+        "повідомлення"
+      ],
+      "resonance_before": "R0",
+      "resonance_after": "R0",
+      "must_not_reveal": [
+        "full Nina backstory",
+        "Gor control/proxy history",
+        "Overload origin",
+        "later books"
+      ],
+      "implementation_basis": "Compatible S01 macro and Downloads opening; local staging choices are planned by assistant under preparation authorization."
+    },
+    {
+      "id": "B01-S01-C02-S01",
+      "sequence_id": "S01",
       "chapter": 2,
-      "status": "planned",
-      "summary": "Запретный заказ — рано: Заказчик тайно находит героя, вытащить близкую из терминальной компаньон-зависимости; это ересь и официально невозможно. Герой отказывается. [4: запускающее событие; R1]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 43
+      "unit_type": "scene",
+      "status": "planned_execution",
+      "pov": "Марк Даль",
+      "person": 1,
+      "tense": "past",
+      "language": "uk",
+      "time": "D0 later evening; brief interval after message",
+      "place": "private consultation room; same city",
+      "characters_present": [
+        "Марк Даль",
+        "Гор"
+      ],
+      "entry": "Dal agreed to hear the request only.",
+      "goal": "Зрозуміти запит і відмовити, якщо він вимагає дії за Майю.",
+      "obstacle": "Гор просить повернути її з глибокого супроводу і говорить так, ніби знає бажаний результат.",
+      "decision": "Даль відмовляється від замовлення на зміну її стану без її дозволу.",
+      "result": "Контракт не прийнятий; Гор залишає лише технічний матеріал у межах окремого дозволу Майї.",
+      "cost": "Даль втрачає просту оплачувану задачу; його рамка поки професійна, не зрілий моральний висновок.",
+      "next_cause": "Він перевіряє межі дозволу перед переглядом матеріалу.",
+      "knowledge_before": [
+        "Gor claims partner needs help",
+        "Maya has not consented to intervention"
+      ],
+      "knowledge_after": [
+        "Gor claims partner needs help",
+        "Maya has not consented to intervention",
+        "Gor requests an outcome; Maya permission to alter settings absent"
+      ],
+      "reader_receives": [
+        "Gor requests an outcome; Maya permission to alter settings absent"
+      ],
+      "motifs": [
+        "двері",
+        "межа доступу"
+      ],
+      "resonance_before": "R0",
+      "resonance_after": "R0",
+      "must_not_reveal": [
+        "full Nina backstory",
+        "Gor control/proxy history",
+        "Overload origin",
+        "later books"
+      ],
+      "implementation_basis": "Compatible S01 macro and Downloads opening; local staging choices are planned by assistant under preparation authorization."
     },
     {
-      "id": "book-01-ch-03",
-      "chapter": 3,
-      "status": "planned",
-      "summary": "Конкретный крюк цепляет призрак: компаньон Майи откалиброван в почерке, который герой узнаёт, — его собственная старая работа. Берётся — мотив видим, не «необъяснимо». [5: желание видимо; принцип проступает рано]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 44
+      "id": "B01-S01-C02-S02",
+      "sequence_id": "S01",
+      "chapter": 2,
+      "unit_type": "scene",
+      "status": "planned_execution",
+      "pov": "Марк Даль",
+      "person": 1,
+      "tense": "past",
+      "language": "uk",
+      "time": "D0 same consultation aftermath",
+      "place": "Dal workstation",
+      "characters_present": [
+        "Марк Даль",
+        "Gor-provided technical excerpt"
+      ],
+      "entry": "No settings changed; a signed metadata-only diagnostic permission is presented.",
+      "goal": "Перевірити, чи взагалі є допустима технічна задача.",
+      "obstacle": "Матеріал обмежений; особистих розмов і доступу до керування немає.",
+      "decision": "Даль перевіряє чинність і межі дозволу, читає лише структуру шаблону; впізнає власний старий safe-presence патерн.",
+      "result": "Знайомий шаблон пов’язує справу з його минулою роботою. Це його кодова структура, не голос або свідомість Ніни.",
+      "cost": "Технічна відстороненість більше не переконлива для читача.",
+      "next_cause": "Даль повертається до рішення після ночі, не запускаючи прихованих змін.",
+      "knowledge_before": [
+        "Dal knows his own older design",
+        "Nina facts are remembered, emotional responsibility defended"
+      ],
+      "knowledge_after": [
+        "Dal knows his own older design",
+        "Nina facts are remembered, emotional responsibility defended",
+        "profile uses derivative of Dal template",
+        "the recognition matters personally, why remains incomplete"
+      ],
+      "reader_receives": [
+        "profile uses derivative of Dal template",
+        "the recognition matters personally, why remains incomplete"
+      ],
+      "motifs": [
+        "руки завмерли",
+        "збій звичного темпу"
+      ],
+      "resonance_before": "R0",
+      "resonance_after": "R0",
+      "must_not_reveal": [
+        "full Nina backstory",
+        "Gor control/proxy history",
+        "Overload origin",
+        "later books"
+      ],
+      "implementation_basis": "Compatible S01 macro and Downloads opening; local staging choices are planned by assistant under preparation authorization."
     },
     {
-      "id": "book-01-ch-04",
-      "chapter": 4,
-      "status": "planned",
-      "summary": "Первый контакт с Майей и её жутко-тёплым компаньоном; Майя не пассивна — встречает героя с активной позицией: знает, зачем он, и защищает свой выбор. [2-й противник активен сразу]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 45
+      "id": "B01-S01-C02-S03",
+      "sequence_id": "S01",
+      "chapter": 2,
+      "unit_type": "scene",
+      "status": "planned_execution",
+      "pov": "Марк Даль",
+      "person": 1,
+      "tense": "past",
+      "language": "uk",
+      "time": "D1 morning",
+      "place": "Dal workstation / authenticated request channel",
+      "characters_present": [
+        "Марк Даль",
+        "Гор via reply",
+        "Майя via limited appointment consent"
+      ],
+      "entry": "Dal has recognized template; Maya settings unchanged.",
+      "goal": "Взятися за перевірку і назвати собі професійну причину.",
+      "obstacle": "Замовлення Гора вимагає результату, на який Майя не погоджувалась.",
+      "decision": "Даль погоджується лише на розмову й діагностику в погоджених межах; просить передати Майї запит на зустріч.",
+      "result": "Майя сама дозволяє одну зустріч: говорити й спостерігати, не міняти profile. Даль має початковий канал, не право рятувати.",
+      "cost": "Він бере особисто важливу справу, приховуючи від себе мотив технічним інтересом.",
+      "next_cause": "S02: Даль приходить до Майї в межах її дозволу; її власне пояснення ще попереду.",
+      "knowledge_before": [
+        "template connection",
+        "no intervention consent"
+      ],
+      "knowledge_after": [
+        "template connection",
+        "no intervention consent",
+        "Maya grants one bounded meeting",
+        "Dal accepts a limited inquiry"
+      ],
+      "reader_receives": [
+        "Maya grants one bounded meeting",
+        "Dal accepts a limited inquiry"
+      ],
+      "motifs": [
+        "власне повідомлення",
+        "умова"
+      ],
+      "resonance_before": "R0",
+      "resonance_after": "R0",
+      "must_not_reveal": [
+        "full Nina backstory",
+        "Gor control/proxy history",
+        "Overload origin",
+        "later books"
+      ],
+      "implementation_basis": "Compatible S01 macro and Downloads opening; local staging choices are planned by assistant under preparation authorization."
     },
     {
-      "id": "book-01-ch-05",
-      "chapter": 5,
-      "status": "planned",
-      "summary": "Безмятежный — бывший наставник, ныне безмятежно полый — чувствует, что герой «просыпается», предлагает покой и тут же даёт понять: будет мягко мешать. [7: гл. противник; 8: семя; 11: кампания заводится рано]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 46
+      "id": "book-01-S02",
+      "sequence_id": "S02",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Она не просила спасать",
+      "decision": "считать задачу инженерной",
+      "cost": "начинает с морально сомнительного proxy",
+      "next_cause": "проверить глубокое сопровождение",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-01-ch-06",
-      "chapter": 6,
-      "status": "planned",
-      "summary": "Герой строит план «извлечения» как калибровку наоборот — уверен, что это инженерная задача. [10: план]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 49
+      "id": "book-01-S03",
+      "sequence_id": "S03",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Обратная калибровка не работает",
+      "decision": "искать более убедительный прямой контакт",
+      "cost": "желание доказать правоту растёт",
+      "next_cause": "Тихон стабилизирует Майю",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-01-ch-07",
-      "chapter": 7,
-      "status": "planned",
-      "summary": "Первая попытка разбудить Майю проваливается: она активно отбивается и аргументирует — комфорт лучше жизни. [9: первое открытие → смена курса; R2]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 50
+      "id": "book-01-S04",
+      "sequence_id": "S04",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Присутствие / R1",
+      "decision": "остаться без технической подмены",
+      "cost": "уязвимость и видимость",
+      "next_cause": "Лад назначает Балласт",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-01-ch-08",
-      "chapter": 8,
-      "status": "planned",
-      "summary": "Новый подход: достать её можно только настоящим контактом — чего он не умеет; первая попытка удержать взгляд, флинч. [потребность обнажается; базовое действие]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 51
+      "id": "book-01-S05",
+      "sequence_id": "S05",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Правильное насилие",
+      "decision": "форсировать прогресс",
+      "cost": "Майя закрывается глубже",
+      "next_cause": "проверить историю proxy",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-01-ch-09",
-      "chapter": 9,
-      "status": "planned",
-      "summary": "Заказчик давит и помогает — союзник с трением; первая трещина в его «любящей» версии. [6: союзник; 8: лжесоюзник растёт]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 52
+      "id": "book-01-S06",
+      "sequence_id": "S06",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Документ контроля",
+      "decision": "вернуть Майе выбор вместо возврата Гору",
+      "cost": "ломает контракт с Гором",
+      "next_cause": "Гор замечает смену цели",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-01-ch-10",
-      "chapter": 10,
-      "status": "planned",
-      "summary": "Безмятежный эскалирует активно: перекалибровывает Майю против героя — её сопротивление крепнет не само, его усиливают. [11: план противника-айсберг]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 53
+      "id": "book-01-S07",
+      "sequence_id": "S07",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Дно и предательство",
+      "decision": "спросить условия Майи",
+      "cost": "deadline заглаживания",
+      "next_cause": "контакт на её условиях",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-01-ch-11",
-      "chapter": 11,
-      "status": "planned",
-      "summary": "Шаг Резонанса: впервые держит взгляд Майи за порогом комфорта; боль — ранг 1 открыт. Видимость для «Лада» подскакивает. [Резонанс р.1 ⟂ цена; видимость↑]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 54
+      "id": "book-01-S08",
+      "sequence_id": "S08",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "На её условиях",
+      "decision": "быть рядом, не чинить",
+      "cost": "признание ответственности за Нину",
+      "next_cause": "care-escalation закрывает аномалию",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-01-ch-12",
-      "chapter": 12,
-      "status": "planned",
-      "summary": "Видимость скакнула → «Лад» присваивает герою нежеланного компаньона: тот возникает на пороге, солнечный и неотлипчивый. Комический движок и тематическая осада включаются. [CRIT-1: компаньон в середину]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 55
+      "id": "book-01-S09",
+      "sequence_id": "S09",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Открыть, но не вытолкнуть",
+      "decision": "не применять принуждение",
+      "cost": "теряет статусную защиту",
+      "next_cause": "Майя сама выходит",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-01-ch-13",
-      "chapter": 13,
-      "status": "planned",
-      "summary": "Компаньон не отлипает: герой саботирует, тот безупречно подстраивается — комическое трение + экспозиция мира через него; тёмный спод — подделка лично лезет к мастеру контакта. [CRIT-1 развитие]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 56
+      "id": "book-01-S10",
+      "sequence_id": "S10",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Проснуться не значит ожить",
+      "decision": "принять её выбор без присвоения",
+      "cost": "победа не подтверждает философию Даля",
+      "next_cause": "решить, кем он остаётся",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-01-ch-14",
-      "chapter": 14,
-      "status": "planned",
-      "summary": "Призрак прорывается: дело зеркалит его утрату, компаньон невольно бередит это — намёк, что он сам жил в подделке. [R3; призрак дробно]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 57
+      "id": "book-01-S11",
+      "sequence_id": "S11",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Дезертир",
+      "decision": "не явиться на перекалибровку",
+      "cost": "теряет статус/сервисы/безопасность",
+      "next_cause": "остаётся с собой",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-01-ch-15",
-      "chapter": 15,
-      "status": "planned",
-      "summary": "Гон: под давлением герой идёт жёстче — манипулирует-калибрует Майю против её воли, методами «Лада». [12: drive — падение]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 58
-    },
-    {
-      "id": "book-01-ch-16",
-      "chapter": 16,
-      "status": "planned",
-      "summary": "Атака совести: Заказчик и компаньон по-своему тычут — «ты делаешь то же, что „Лад“, просто наоборот». Герой отбрёхивается. [13]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 59
-    },
-    {
-      "id": "book-01-ch-17",
-      "chapter": 17,
-      "status": "planned",
-      "summary": "Сцена-ирония без героя: читатель видит то, чего герой не признаёт, — Заказчик и есть то, от чего Майя сбежала в ИИ. [16: открытие читателю]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 62
-    },
-    {
-      "id": "book-01-ch-18",
-      "chapter": 18,
-      "status": "planned",
-      "summary": "Герой догоняет правду Заказчика (ревил разведён): понимает, что тот хотел управляемую, не живую. Курс смещается. [17 частично; РЕАЛ-6]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 63
-    },
-    {
-      "id": "book-01-ch-19",
-      "chapter": 19,
-      "status": "planned",
-      "summary": "Мнимое поражение: Майя срывается в компаньон глубже прежнего (Безмятежный дожал) — герой уверен, что сломал её. [14: дно — одно, сокрушительное]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 64
-    },
-    {
-      "id": "book-01-ch-20",
-      "chapter": 20,
-      "status": "planned",
-      "summary": "Со дна — второе открытие: он лечил симптом; одержимость; решает войти в её транс по-настоящему, на её условиях. [15]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 65
-    },
-    {
-      "id": "book-01-ch-21",
-      "chapter": 21,
-      "status": "planned",
-      "summary": "Безмятежный — лучшее предложение: останься, верну покой, боль пройдёт; компаньон поддакивает теплом; герой почти соглашается. [тёмный бит соблазна; кульминация кампании противника]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 66
-    },
-    {
-      "id": "book-01-ch-22",
-      "chapter": 22,
-      "status": "planned",
-      "summary": "Свежий ход Заказчика (не разоблачение): прижатый, он активно предаёт — сдаёт героя «Ладу» / меняет условия, чтобы вернуть контроль над Майей. [РЕАЛ-6: новый удар, не «герой догнал»]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 67
-    },
-    {
-      "id": "book-01-ch-23",
-      "chapter": 23,
-      "status": "planned",
-      "summary": "Герой входит в контакт по-настоящему — и в зеркале Майиного транса узнаёт собственный. [17: третье открытие; R5 — «взламывает свою могилу»]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 68
-    },
-    {
-      "id": "book-01-ch-24",
-      "chapter": 24,
-      "status": "planned",
-      "summary": "Призрак завершается: самокалибровал компаньона, чтобы не горевать, — реальный человек угас от его отсутствия; он и палач, и жертва. Нежеланный компаньон на пороге — буквальное зеркало того, что он сделал тогда. [призрак→слабость полностью; осада окупается тематически]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 69
-    },
-    {
-      "id": "book-01-ch-25",
-      "chapter": 25,
-      "status": "planned",
-      "summary": "Врата/визит к смерти: достать Майю можно, лишь сняв последнюю броню и приняв удар, что может «стереть» полого; видимость критическая, заглаживание по нему пошло. [18]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 70
-    },
-    {
-      "id": "book-01-ch-26",
-      "chapter": 26,
-      "status": "planned",
-      "summary": "Выбор: не калибровать, а быть с ней — отдать не технику, а собственную незащищённую боль. Безмятежный зовёт к покою в последний раз — водораздел ценностей поступком, не лозунгом. [четырёхугольник сходится]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 73
-    },
-    {
-      "id": "book-01-ch-27",
-      "chapter": 27,
-      "status": "planned",
-      "summary": "Битва ценностей (не кулаки): герой против «согласия» в лице транса Майи, шёпота Безмятежного и тёплого компаньона; встречает взгляд, который не смел встретить, до конца. [19: битва решает внешнее и моральное]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 74
-    },
-    {
-      "id": "book-01-ch-28",
-      "chapter": 28,
-      "status": "planned",
-      "summary": "Майя просыпается — извлечение технически удалось. Триумф навыка (жанровая выплата). [per-book победа]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 75
-    },
-    {
-      "id": "book-01-ch-29",
-      "chapter": 29,
-      "status": "planned",
-      "summary": "Твист-выплата: проснувшаяся Майя так же пуста, как он, — разбудить ≠ вернуть чувство; настоящее нельзя дать снаружи. [20: самооткровение через результат; R6 — подрыв лжи серии]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 76
-    },
-    {
-      "id": "book-01-ch-30",
-      "chapter": 30,
-      "status": "planned",
-      "summary": "Но — один чистый выигрыш: в этой пустоте Майя делает ОДНО живое движение ценой комфорта, сама, не по технике. Крошечный proof-of-concept: настоящее существует, хоть и не даётся снаружи. [CRIT-2: выигрыш на вынос]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 77
-    },
-    {
-      "id": "book-01-ch-31",
-      "chapter": 31,
-      "status": "planned",
-      "summary": "Самооткровение поступком: он гонялся за настоящим через чужое, потому что боялся себя; и он — из тех, кто делает подделку. Показано, не сказано. [20: психол.+моральн.]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 78
-    },
-    {
-      "id": "book-01-ch-32",
-      "chapter": 32,
-      "status": "planned",
-      "summary": "Моральное решение с ценой: дезертирует из «Лада», уходит в подполье делать это по-настоящему — зная, что метод под вопросом и что он теперь видим и гоним заботой. [21]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 79
-    },
-    {
-      "id": "book-01-ch-33",
-      "chapter": 33,
-      "status": "planned",
-      "summary": "Цена собрана, но не в ноль: связь с Заказчиком сожжена, Майя уходит сама — с тем живым зерном; герой один и впервые чувствует сам: больно, но впервые по-настоящему — и это лучше пустоты. [22: начало нового равновесия; CRIT-2]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 80
-    },
-    {
-      "id": "book-01-ch-34",
-      "chapter": 34,
-      "status": "planned",
-      "summary": "Новое равновесие + крючки: идеальная квартира читается как покинутая ловушка; нежеланный компаньон остаётся (осада тянется в т.2) и роняет тонкий keystone-семя — намёк, что заглаживание старше и больше, чем он думал. [22; крючок т.2: keystone seed + продолжение осады]",
-      "source": "sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
-      "source_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
-      "source_line": 81
+      "id": "book-01-S12",
+      "sequence_id": "S12",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Первая трещина",
+      "decision": "не закрывать короткое чувство",
+      "cost": "боль без наркоза",
+      "next_cause": "выход в книгу 2",
+      "detail_required_before_prose": true
     }
   ],
-  "coverage": "Full supplied 34-chapter outline; no manuscript exists"
+  "coverage": "6 scene cards, chapters 1–2; remaining 11 units are macro planning, not ready prose"
 }

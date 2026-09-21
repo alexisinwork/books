@@ -2,23 +2,98 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-06",
-  "source_sha256": null,
   "record_type": "knowledge",
-  "fields": [
-    "fact_id",
-    "holder",
-    "state_known_guessed_false",
-    "known_from_scene",
-    "source",
-    "reader_access",
-    "anchors"
-  ],
+  "status": "planned_projection",
+  "source_of_truth": "knowledge.planned.json",
+  "source_sha256": "836016cbe2059d8cdc17c3c32296e499e8c2d6514c3b859d1c13ab1bf5c0cd6a",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
   "items": [
     {
-      "fact": "Истинная функция Лада",
-      "reader_release": "намеки в1–4; приближение5–6; полное раскрытие7",
-      "status": "planned"
+      "id": "K01",
+      "fact": "Developmental cohorts используют upstream guidance вместо Affect Relay как default",
+      "dall": "S01",
+      "reader": "S01",
+      "effect": "book5 hook получает operational explanation"
+    },
+    {
+      "id": "K02",
+      "fact": "Мила сама запрашивала Manual Windows; проблема поставлена не только Жданом",
+      "dall": "S02",
+      "reader": "S02",
+      "effect": "consent/assent lock"
+    },
+    {
+      "id": "K03",
+      "fact": "Контур роста реально снижает тяжёлые crisis outcomes и помогает обычным детям",
+      "dall": "S03",
+      "reader": "S03",
+      "effect": "система не соломенный злодей"
+    },
+    {
+      "id": "K04",
+      "fact": "Ждан частично хочет увидеть 'другую/нормальную' Милу, а не только дать ей autonomy",
+      "dall": "S04",
+      "reader": "S04",
+      "effect": "родительский grief disentangled from child need"
+    },
+    {
+      "id": "K05",
+      "fact": "Manual mode может быть слишком широким и плохо designed; отсутствие prompt не равно growth",
+      "dall": "S05-S06",
+      "reader": "S05-S06",
+      "effect": "анти-тезис 'боль полезна'"
+    },
+    {
+      "id": "K06",
+      "fact": "Мила хочет help-on-request + backstop, а не abandonment",
+      "dall": "S07",
+      "reader": "S07",
+      "effect": "новая модель accompaniment"
+    },
+    {
+      "id": "K07",
+      "fact": "Марта потеряла сына в crisis chain в 'плохие годы' до зрелой Guidance",
+      "dall": "S08",
+      "reader": "S08",
+      "effect": "sympathetic motive / keystone seed"
+    },
+    {
+      "id": "K08",
+      "fact": "Мила может провалиться/поссориться и всё равно не захотеть вернуть полный proactive guidance",
+      "dall": "S07-S10",
+      "reader": "S07-S10",
+      "effect": "distress ≠ failure"
+    },
+    {
+      "id": "K09",
+      "fact": "R6 означает не чинить outcome, оставаясь доступным и вмешиваясь только по safety threshold",
+      "dall": "S10",
+      "reader": "S10",
+      "effect": "arc payoff"
+    },
+    {
+      "id": "K10",
+      "fact": "Контур роста может включить age-based autonomy pathway без отказа от emergency monitoring",
+      "dall": "S11",
+      "reader": "S11",
+      "effect": "systemic but bounded win"
+    },
+    {
+      "id": "K11",
+      "fact": "Первые детские guidance-модули построены поверх более старого adult emergency stabilization framework",
+      "dall": "S12",
+      "reader": "S12",
+      "effect": "book7 hook"
+    },
+    {
+      "id": "K12",
+      "fact": "Полная история adult emergency stabilization / Period of Overload",
+      "dall": "NOT RESOLVED BOOK6",
+      "reader": "NOT RESOLVED BOOK6",
+      "effect": "protected for book7"
     }
   ],
-  "coverage": "planning only; not facts established in prose"
+  "source_metadata": {
+    "status": "planned_architecture_locked"
+  }
 }

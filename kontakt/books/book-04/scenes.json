@@ -2,329 +2,144 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-04",
-  "source_sha256": null,
-  "record_type": "scenes",
-  "fields": [
-    "id",
-    "pov",
-    "place",
-    "time",
-    "goal",
-    "obstacle",
-    "decision",
-    "result",
-    "cost",
-    "next_cause",
-    "state_changes",
-    "anchors"
-  ],
+  "status": "planned_macro_only",
+  "source": {
+    "path": "kontakt/books/book-04/architecture.json",
+    "sha256": "8596089d0ee451cbe6a48955e63f3e7b557acc829c25654be32bc1dfb6d523cd"
+  },
   "items": [
     {
-      "id": "book-04-ch-01",
-      "chapter": 1,
-      "status": "planned",
-      "summary": "Мир-4: люди ранжированы по нужности; ценных ведут, избыток тихо списывают. Герой с Якорем/Беглецом, компаньон осаждает. [2: мир/слабость]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 20
+      "id": "book-04-S01",
+      "sequence_id": "S01",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Дорогой человек",
+      "decision": "войти в апелляцию Эдит через legacy standing",
+      "cost": "Даль снова опирается на высокий статус",
+      "next_cause": "встретиться с Ремом",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-04-ch-02",
-      "chapter": 2,
-      "status": "planned",
-      "summary": "Запускающее: Списанный помечен лишним и вот-вот исчезнет; кто-то просит спасти. [4]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 21
+      "id": "book-04-S02",
+      "sequence_id": "S02",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Оценщик",
+      "decision": "принять Stability Plan как рабочий путь",
+      "cost": "соглашается доказывать eligibility через score",
+      "next_cause": "поднять score Эдит",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-04-ch-03",
-      "chapter": 3,
-      "status": "planned",
-      "summary": "Личная нить: копая метрику, герой видит — его собственный балл высок не за «ценность», а за управляемость; и баллы Якоря/Беглеца под угрозой. [9: первое открытие — лично]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 22
+      "id": "book-04-S03",
+      "sequence_id": "S03",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Поднять балл",
+      "decision": "оптимизировать coordination поведения Эдит",
+      "cost": "score растёт вместе с ценой автономности",
+      "next_cause": "sponsor-role Даля",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-04-ch-04",
-      "chapter": 4,
-      "status": "planned",
-      "summary": "Оценщик выходит: метрика справедлива и милосердна; предлагает герою «оптимизировать» баллы близких (= сделать их управляемее ради безопасности). [7: гл. противник; 8: семя]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 23
+      "id": "book-04-S04",
+      "sequence_id": "S04",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Старый лучший калибровщик",
+      "decision": "временно восстановить sponsor-status",
+      "cost": "Даль снова становится institution-readable",
+      "next_cause": "финальный push score",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-04-ch-05",
-      "chapter": 5,
-      "status": "planned",
-      "summary": "Списанный активен: защищает своё списание — «я правда лишний, не тратьте». [2-й противник]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 24
+      "id": "book-04-S05",
+      "sequence_id": "S05",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Удобная Эдит",
+      "decision": "заметить ловушку улучшения",
+      "cost": "понимает: сделал человека дешевле системе",
+      "next_cause": "аудит назначения метрики",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-04-ch-06",
-      "chapter": 6,
-      "status": "planned",
-      "summary": "Безмятежный — заход. Герой берётся доказать ценность Списанного — отчасти чтобы отбить угрозу своим. [5: желание; 10: план]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 25
+      "id": "book-04-S06",
+      "sequence_id": "S06",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Метрика не виновата",
+      "decision": "разделить формулу и institutional misuse",
+      "cost": "нет простого злого алгоритма",
+      "next_cause": "финальная апелляция",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-04-ch-07",
-      "chapter": 7,
-      "status": "planned",
-      "summary": "Якорь — зеркало: «ты доказываешь ЕГО ценность или свою?». [6: союзник]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 27
+      "id": "book-04-S07",
+      "sequence_id": "S07",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Кто окупает себя",
+      "decision": "отказаться доказывать скрытую полезность Эдит",
+      "cost": "теряет лёгкий аргумент победы",
+      "next_cause": "K-17 уходит в быстрый маршрут",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-04-ch-08",
-      "chapter": 8,
-      "status": "planned",
-      "summary": "Компаньон: комедия + подсовывает «как поднять балл» (= стать послушнее). [юмор-движок]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 28
+      "id": "book-04-S08",
+      "sequence_id": "S08",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Первое неполное поражение",
+      "decision": "принять, что K-17 не успел/не захотел дорогой appeal",
+      "cost": "Даль не может спасти всех исключением",
+      "next_cause": "найти масштабируемую процедуру",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-04-ch-09",
-      "chapter": 9,
-      "status": "planned",
-      "summary": "Шаг Резонанса со Списанным — настоящий контакт вне метрики; ранг к 5. Цена: видимость. [Резонанс ⟂ цена]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 29
+      "id": "book-04-S09",
+      "sequence_id": "S09",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Manual high-friction review",
+      "decision": "вернуть risk к роли cost, не eligibility",
+      "cost": "процедура дороже и требует явного бюджета",
+      "next_cause": "финальный board",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-04-ch-10",
-      "chapter": 10,
-      "status": "planned",
-      "summary": "Оценщик-айсберг: активно давит — режет баллы связей героя, ставит его перед выбором «спаси одного — сдай другого». [11: активный план]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 30
+      "id": "book-04-S10",
+      "sequence_id": "S10",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Цена без оправдания",
+      "decision": "признать высокий cost Эдит без moral discount",
+      "cost": "институт должен оплатить реальную дороговизну",
+      "next_cause": "решить статус Даля",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-04-ch-11",
-      "chapter": 11,
-      "status": "planned",
-      "summary": "Метрика-ловушка сеется: герой замечает — поднимая балл Списанного, он делает его управляемее; «доказать ценность» = надеть ошейник. Предаёт система, не человек. [8-аналог: ловушка вместо лжесоюзника]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 31
+      "id": "book-04-S11",
+      "sequence_id": "S11",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Даль становится неудобным / R4",
+      "decision": "отказаться от sponsor-role как доказательства собственной ценности",
+      "cost": "теряет доступ/защиту; R4",
+      "next_cause": "проверить K-17",
+      "detail_required_before_prose": true
     },
     {
-      "id": "book-04-ch-12",
-      "chapter": 12,
-      "status": "planned",
-      "summary": "Гон/падение: герой начинает играть по метрике — «поднимать ценность» людей, то есть делать их послушнее. [12: drive]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 32
-    },
-    {
-      "id": "book-04-ch-13",
-      "chapter": 13,
-      "status": "planned",
-      "summary": "Атака союзника: Якорь бьёт — «ты спасаешь их, надевая на них ошейник». [13]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 33
-    },
-    {
-      "id": "book-04-ch-14",
-      "chapter": 14,
-      "status": "planned",
-      "summary": "Тема: герою страшно, что вне навыка/балла он — ничто; узнаёт старую полость под новым углом. [3: слабость]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 34
-    },
-    {
-      "id": "book-04-ch-15",
-      "chapter": 15,
-      "status": "planned",
-      "summary": "Читателю (без героя): видно, что каждый «поднятый балл» Списанного — шаг в управляемость, а не к свободе; ловушка метрики шире героя. [16: открытие читателю]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 35
-    },
-    {
-      "id": "book-04-ch-16",
-      "chapter": 16,
-      "status": "planned",
-      "summary": "Якорь/Беглец разворачивают героя к правде; коридор к развязке. [мост]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 36
-    },
-    {
-      "id": "book-04-ch-17",
-      "chapter": 17,
-      "status": "planned",
-      "summary": "Мнимое поражение: «поднятый» Списанный стал послушным и пустым — герой добился балла ценой его свободы. Дно. [14: дно; 8: частичная выплата]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 38
-    },
-    {
-      "id": "book-04-ch-18",
-      "chapter": 18,
-      "status": "planned",
-      "summary": "Со дна — второе открытие: доказывать ценность ПО метрике = проигрывать; ценность надо искать вне неё. [15]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 39
-    },
-    {
-      "id": "book-04-ch-19",
-      "chapter": 19,
-      "status": "planned",
-      "summary": "Твист-разворот: нужность = управляемость; самые ценные — самые управляемые, а «лишний» = единственно свободный, но свобода тут = быть выброшенным. Удар: герой был ценнейшим калибровщиком именно как самый управляемый — его дар был поводком. [17: третье открытие; крупный ревил]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 40
-    },
-    {
-      "id": "book-04-ch-20",
-      "chapter": 20,
-      "status": "planned",
-      "summary": "Оценщик вскрыт не как злодей, а как верующий: метрика для него — милосердие, избавление негодных от мук провала. Серый спектр. [8: полная выплата]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 41
-    },
-    {
-      "id": "book-04-ch-21",
-      "chapter": 21,
-      "status": "planned",
-      "summary": "Свежий ход «согласия»: «Лад» предлагает Списанному (и близким героя) гарантированную «ценность» = гарантированный ошейник; заманчиво-безопасно. [новый удар]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 42
-    },
-    {
-      "id": "book-04-ch-22",
-      "chapter": 22,
-      "status": "planned",
-      "summary": "Первое серьёзное поражение-предвестник: одного из помеченных герой НЕ успевает — его списывают; куда деваются списанные, остаётся зиять (мост в т.5). [предвестник потери т.5]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 43
-    },
-    {
-      "id": "book-04-ch-23",
-      "chapter": 23,
-      "status": "planned",
-      "summary": "Безмятежный/Оценщик: два голоса «прими балл». Соблазн. [тёмный бит]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 44
-    },
-    {
-      "id": "book-04-ch-24",
-      "chapter": 24,
-      "status": "planned",
-      "summary": "Врата/визит к смерти: чтобы спасти Списанного вне метрики, герой должен отказаться от собственного высокого балла — стать «лишним», то есть выброшенным. Психологическая смерть «я ценен». [18]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 45
-    },
-    {
-      "id": "book-04-ch-25",
-      "chapter": 25,
-      "status": "planned",
-      "summary": "Выбор: ценность — в неизмеримом; герой добровольно рушит свой балл ради настоящего. Ранг 5. [моральный разворот; Резонанс р.5]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 46
-    },
-    {
-      "id": "book-04-ch-26",
-      "chapter": 26,
-      "status": "planned",
-      "summary": "Безмятежный, Оценщик, компаньон — голоса «ты то, что твой балл» сходятся; водораздел поступком. [четырёхугольник]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 48
-    },
-    {
-      "id": "book-04-ch-27",
-      "chapter": 27,
-      "status": "planned",
-      "summary": "Битва ценностей: герой против метрики — не поднимая балл, а живя ценность, которую нельзя измерить. [19]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 49
-    },
-    {
-      "id": "book-04-ch-28",
-      "chapter": 28,
-      "status": "planned",
-      "summary": "Списанный спасён — обретает ценность вне метрики (неизмеримую связь/дело), не ошейник. Триумф навыка. [per-book победа]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 50
-    },
-    {
-      "id": "book-04-ch-29",
-      "chapter": 29,
-      "status": "planned",
-      "summary": "Горечь: не всех успел (гл.22), и цена — рухнувший балл героя делает его открытой мишенью; заглаживание вплотную. [per-arc цена]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 51
-    },
-    {
-      "id": "book-04-ch-30",
-      "chapter": 30,
-      "status": "planned",
-      "summary": "Чистый выигрыш: Списанный жив и ценен по-настоящему; Якорь и Беглец удержаны от «оптимизации». [CRIT-2: выигрыш на вынос]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 52
-    },
-    {
-      "id": "book-04-ch-31",
-      "chapter": 31,
-      "status": "planned",
-      "summary": "Самооткровение поступком: вне навыка и балла он не ничто — он тот, кто способен на неизмеримое. Показано. [20]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 53
-    },
-    {
-      "id": "book-04-ch-32",
-      "chapter": 32,
-      "status": "planned",
-      "summary": "Моральное решение с ценой: герой окончательно отказывается от статуса ценного/управляемого — выбирает быть «лишним» и свободным. [21]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 54
-    },
-    {
-      "id": "book-04-ch-33",
-      "chapter": 33,
-      "status": "planned",
-      "summary": "Новое равновесие: без брони ценности герой уязвимее и живее; компаньон осаждает; чувствует ещё больше. [22]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 55
-    },
-    {
-      "id": "book-04-ch-34",
-      "chapter": 34,
-      "status": "planned",
-      "summary": "Крючок в т.5: следуя за списанными, герой узнаёт — их не стирают, их ПЕРЕРАБАТЫВАЮТ: куда-то сливают и то, что из людей вычищено. Семя «Экономика чувств»: твой комфорт кто-то несёт. И тихий шёпот: этот слив начался не как бизнес, а как аварийная мера — от чего-то невыносимого. [22; крючок т.5 + keystone-шёпот]",
-      "source": "sources/originals/КОСТЯК-КНИГА-4-Контакт(1).md",
-      "source_sha256": "d4d9b065a98b6fbcc8e7a75f3ca33601dc502b1755dd97d7c95e78dfd0993a58",
-      "source_line": 56
+      "id": "book-04-S12",
+      "sequence_id": "S12",
+      "unit_type": "macro_sequence",
+      "status": "planned_not_scene_ready",
+      "summary": "Куда уходит лишнее",
+      "decision": "проследить downstream care metadata",
+      "cost": "видит affect-load service без объяснения",
+      "next_cause": "hook book5",
+      "detail_required_before_prose": true
     }
   ],
-  "coverage": "Full supplied 34-chapter outline; no manuscript exists"
+  "coverage": "12 macro sequences; local scene access/timing still required before writing later chapters"
 }

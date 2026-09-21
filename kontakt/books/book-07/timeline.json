@@ -2,18 +2,90 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-07",
-  "source_sha256": null,
   "record_type": "timeline",
-  "fields": [
-    "event_id",
-    "reference_point",
-    "start",
-    "duration",
-    "travel",
-    "global_deadline",
-    "local_window",
-    "assumption",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "timeline.planned.json",
+  "source_sha256": "63f1ccc81930cd45f66535d8b034692e59d8a9daca4c6daed4a35d62169576a1",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "window": "D1",
+      "events": [
+        "lease offer / 12-day deadline",
+        "origin inquiry starts"
+      ]
+    },
+    {
+      "window": "D2-D3",
+      "events": [
+        "Period of Overload archive fragments",
+        "Tikhon as witness"
+      ]
+    },
+    {
+      "window": "D4",
+      "events": [
+        "outcome evidence: early Lad worked",
+        "Rolling Horizon origin"
+      ]
+    },
+    {
+      "window": "D5-D6",
+      "events": [
+        "ordinary short-horizon choices",
+        "Dall sees own temporariness"
+      ]
+    },
+    {
+      "window": "D7",
+      "events": [
+        "Tikhon unsmoothing / chooses smoothing again"
+      ]
+    },
+    {
+      "window": "D8",
+      "events": [
+        "path-dependence reconstruction: emergency becomes infrastructure"
+      ]
+    },
+    {
+      "window": "D9",
+      "events": [
+        "Ballast Continuity Plan; Dall nearly renews transient life"
+      ]
+    },
+    {
+      "window": "D10-D11",
+      "events": [
+        "Dall alone / self-contact without proxies"
+      ]
+    },
+    {
+      "window": "D12",
+      "events": [
+        "lease signature real name",
+        "R7",
+        "fixed identity/address"
+      ]
+    },
+    {
+      "window": "D13+",
+      "events": [
+        "Ballast utility mode",
+        "Tikhon closure",
+        "ordinary future begins"
+      ]
+    },
+    {
+      "window": "+4-6 weeks",
+      "events": [
+        "messy workshop coda",
+        "far-horizon calendar date remains"
+      ]
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "relative_timeline_planned",
+    "assumption": "основное действие ~12 дней по lease deadline; coda через несколько недель"
+  }
 }

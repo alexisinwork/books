@@ -2,17 +2,50 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-03",
-  "source_sha256": null,
   "record_type": "motifs",
-  "fields": [
-    "id",
-    "form",
-    "appearances",
-    "function_each_time",
-    "meaning_change",
-    "payoff",
-    "decision",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "motifs.planned.json",
+  "source_sha256": "4aff6e26268f2683d442d8697c6eaa9795897333fd8382e290f8e5ac9dd88dc3",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "id": "M01",
+      "form": "ветка/развилка",
+      "movement": "развилка как обещание свободы → дерево вероятностей → выбор ветки без требования уникальности",
+      "payoff": "S10-S11"
+    },
+    {
+      "id": "M02",
+      "form": "timestamp/version",
+      "movement": "book2 anomaly → проверяемые старые версии прогнозов → evidence вместо пророчества",
+      "payoff": "S02/S06"
+    },
+    {
+      "id": "M03",
+      "form": "маршрут",
+      "movement": "Ося меняет маршруты, чтобы быть свободным → понимает, что маршрут не определяет авторство → возвращается к желанному движению",
+      "payoff": "S11"
+    },
+    {
+      "id": "M04",
+      "form": "непрочитанные страницы",
+      "movement": "файл как запретный ответ → видимый край следующих страниц → сознательно закрытый остаток",
+      "payoff": "S10"
+    },
+    {
+      "id": "M05",
+      "form": "идеально свободный день",
+      "movement": "Балласт предлагает оптимум → Даль временно отдаёт выбор → видит цену отсутствия трения",
+      "payoff": "S07"
+    },
+    {
+      "id": "M06",
+      "form": "монета/случайность",
+      "movement": "попытка доказать свободу случайностью → отдельный prediction miss → понимание, что случайность не равна авторству",
+      "payoff": "S03"
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "planned"
+  }
 }

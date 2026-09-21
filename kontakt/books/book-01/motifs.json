@@ -2,17 +2,45 @@
   "schema_version": 1,
   "project_id": "kontakt-razlad",
   "book_id": "book-01",
-  "source_sha256": null,
   "record_type": "motifs",
-  "fields": [
-    "id",
-    "form",
-    "appearances",
-    "function_each_time",
-    "meaning_change",
-    "payoff",
-    "decision",
-    "anchors"
+  "status": "planned_projection",
+  "source_of_truth": "motifs.planned.json",
+  "source_sha256": "2941c03986830b074eff67cc78073dc86aa6a3fa8040964e75251e9bf10a1ae3",
+  "update_rule": "Edit selected planned source, then regenerate projection; these are not observed prose facts.",
+  "items": [
+    {
+      "id": "M01",
+      "form": "взгляд/флинч",
+      "movement": "технический взгляд → R1 → окно, которое Даль удерживает, но не контролирует",
+      "payoff": "S09"
+    },
+    {
+      "id": "M02",
+      "form": "слишком совершенное тепло",
+      "movement": "уют клиентов → companion Майи → Балласт → путь назад",
+      "payoff": "S11"
+    },
+    {
+      "id": "M03",
+      "form": "пауза до ответа",
+      "movement": "идеально рассчитанная пауза AI vs неловкая человеческая тишина",
+      "payoff": "S08"
+    },
+    {
+      "id": "M04",
+      "form": "дверь/окно",
+      "movement": "право доступа → возможность → выбор Майи пересечь",
+      "payoff": "S09"
+    },
+    {
+      "id": "M05",
+      "form": "предмет Нины",
+      "movement": "хранит без чувства → замечает при ghost hits → впервые ощущает вес",
+      "payoff": "S12",
+      "note": "конкретный предмет выбрать на voice calibration"
+    }
   ],
-  "items": []
+  "source_metadata": {
+    "status": "planned"
+  }
 }
