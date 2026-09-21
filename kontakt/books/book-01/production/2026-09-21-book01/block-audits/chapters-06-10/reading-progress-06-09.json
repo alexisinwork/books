@@ -1,0 +1,41 @@
+{
+  "status": "partial_reading_not_completed_block_audit",
+  "reader": "Astra native session",
+  "scope": "Complete selected prose CH06-09 read sequentially; CH10 not yet available",
+  "chapters": [
+    {
+      "chapter": 6,
+      "source": "drafts/2026-09-21-ch06-sol-v2/chapter-06.md",
+      "sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "read_range": "P0001-P0080",
+      "blocks": 80
+    },
+    {
+      "chapter": 7,
+      "source": "drafts/2026-09-21-ch07-sol-v1/chapter-07.md",
+      "sha256": "8fde472151c5c74cf58388f98980016f10875750bee9ee163b405125bf55490a",
+      "read_range": "P0001-P0098",
+      "blocks": 98
+    },
+    {
+      "chapter": 8,
+      "source": "drafts/2026-09-22-ch08-sol-v1/chapter-08.md",
+      "sha256": "ab47878a64ca69a60bc750bf244a886c984b217adc3e7df41545208314853986",
+      "read_range": "P0001-P0088",
+      "blocks": 88
+    },
+    {
+      "chapter": 9,
+      "source": "drafts/2026-09-22-ch09-sol-v1/chapter-09.md",
+      "sha256": "a3f03652d81583b7c03e654cd4fd2791257390759a2201f1bc39ec65f23a76ed",
+      "read_range": "P0001-P0058",
+      "blocks": 58
+    }
+  ],
+  "blocks_read": 324,
+  "unread_required_for_block": [
+    "CH10"
+  ],
+  "next": "Read frozen reviewed CH10 and complete block6-10 report before CH11",
+  "independence": "Architect continuation; prior reports known, not a new blind audit"
+}

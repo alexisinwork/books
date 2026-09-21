@@ -74,10 +74,18 @@
       "observed_state": "drafts/2026-09-22-ch09-sol-v1/observed-state.json",
       "review_run": "audit/ensemble/ch09-20260922-sol-v1",
       "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 10,
+      "source": "drafts/2026-09-22-ch10-sol-v1/chapter-10.md",
+      "sha256": "8fb300b16e4e27a75be7e1d2899d28b1b2d2e0a75ff7d049e1c53f23cc14ab46",
+      "observed_state": "drafts/2026-09-22-ch10-sol-v1/observed-state.json",
+      "review_run": "audit/ensemble/ch10-20260922-sol-v1",
+      "status": "reviewed_working_draft_not_canonical"
     }
   ],
-  "current_chapter": 10,
-  "current_stage": "chapter_10_writer_running",
+  "current_chapter": 11,
+  "current_stage": "chapter_11_writer_running",
   "future_chapters": "macro architecture; progressively detailed before writing",
   "global_audit": "not_run",
   "last_block_review": {
@@ -85,5 +93,6 @@
     "report": "block-audits/chapters-01-05/REPORT.md",
     "source_sha256": "cbe75e630f841f3e7a3ba01a6b0c5cef35f138dad36ff1208b0e4adc8ca6fca9",
     "status": "architect_review_completed_not_global_audit"
-  }
+  },
+  "latest_block_audit": "block-audits/chapters-06-10/verification.json"
 }

@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": null,
+  "record_type": "revision-log",
+  "fields": [
+    "id",
+    "reason",
+    "old_source",
+    "new_source",
+    "changes",
+    "affected_checks",
+    "decision"
+  ],
+  "items": [
+    {
+      "id": "kontakt-preparation-20260921",
+      "reason": "Author-authorized preparation after Book 4 publication",
+      "decision": "applied",
+      "old_source": "series/preparation/2026-09-21/before",
+      "new_source": "series/preparation/2026-09-21/baseline.json",
+      "changes": [
+        "Selected existing macro baseline",
+        "Archived legacy summaries and synchronized planned registers",
+        "Resolved active-route conflicts; preserved original review"
+      ],
+      "affected_checks": [
+        "source integrity",
+        "handoff continuity",
+        "scope readiness"
+      ],
+      "prose_changed": false
+    },
+    {
+      "id": "ch01-20260921-sol-v1",
+      "reason": "Author said давай to offered first Ukrainian draft chapter",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-21-ch01-sol-v1/chapter-01.md",
+        "sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31"
+      },
+      "scope": "three chapter-1 scene cards",
+      "changes": [
+        "New Ukrainian first-person chapter",
+        "Preflight continuity corrections before frozen review",
+        "Separate observed state, no canonical promotion",
+        "DOCX and independent reports"
+      ],
+      "dependencies": {
+        "planned_registers": "unchanged; candidate states in draft directory",
+        "chapter_2": "use observed-state.json before its own gate",
+        "master_snapshot": "not applicable; master=null",
+        "legacy_sources": "unchanged"
+      },
+      "verification": {
+        "run": "audit/ensemble/ch01-20260921-sol-v1",
+        "release_ready": false
+      }
+    },
+    {
+      "id": "ch02-20260921-sol-v1",
+      "reason": "Author authorized completion of volume one chapter at a time with checks",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-21-ch02-sol-v1/chapter-02.md",
+        "sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da"
+      },
+      "preflight_history": "drafts/2026-09-21-ch02-sol-v1/preflight-changes.diff",
+      "observed_state": "drafts/2026-09-21-ch02-sol-v1/observed-state.json",
+      "dependencies": {
+        "planned_registers": "unchanged; actual candidate states separate",
+        "master_snapshot": "not applicable, master null",
+        "next_chapter": 3
+      },
+      "verification": {
+        "run": "audit/ensemble/ch02-20260921-sol-v1",
+        "record": "drafts/2026-09-21-ch02-sol-v1/checks/verification.json",
+        "release_ready": false
+      }
+    },
+    {
+      "id": "ch03-20260921-sol-v1",
+      "reason": "Author authorized completion of volume one chapter at a time with checks",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-21-ch03-sol-v1/chapter-03.md",
+        "sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86"
+      },
+      "preflight_history": null,
+      "observed_state": "drafts/2026-09-21-ch03-sol-v1/observed-state.json",
+      "dependencies": {
+        "planned_registers": "unchanged; actual candidate states separate",
+        "master_snapshot": "not applicable, master null",
+        "next_chapter": 4
+      },
+      "verification": {
+        "run": "audit/ensemble/ch03-20260921-sol-v1",
+        "record": "drafts/2026-09-21-ch03-sol-v1/checks/verification.json",
+        "release_ready": false
+      }
+    },
+    {
+      "id": "ch04-20260921-sol-v2",
+      "reason": "Author authorized completion of volume one chapter at a time with checks",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-21-ch04-sol-v2/chapter-04.md",
+        "sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96"
+      },
+      "preflight_history": "drafts/2026-09-21-ch04-sol-v2/preflight-changes.diff",
+      "observed_state": "drafts/2026-09-21-ch04-sol-v2/observed-state.json",
+      "dependencies": {
+        "planned_registers": "unchanged; actual candidate states separate",
+        "master_snapshot": "not applicable, master null",
+        "next_chapter": 5
+      },
+      "verification": {
+        "run": "audit/ensemble/ch04-20260921-sol-v2",
+        "record": "drafts/2026-09-21-ch04-sol-v2/checks/verification.json",
+        "release_ready": false
+      }
+    },
+    {
+      "id": "ch05-20260921-sol-v2",
+      "reason": "Author authorized completion of volume one chapter at a time with checks",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-21-ch05-sol-v2/chapter-05.md",
+        "sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01"
+      },
+      "preflight_history": "drafts/2026-09-21-ch05-sol-v2/preflight-changes.diff",
+      "observed_state": "drafts/2026-09-21-ch05-sol-v2/observed-state.json",
+      "dependencies": {
+        "planned_registers": "unchanged; actual candidate states separate",
+        "master_snapshot": "not applicable, master null",
+        "next_chapter": 6
+      },
+      "verification": {
+        "run": "audit/ensemble/ch05-20260921-sol-v2",
+        "record": "drafts/2026-09-21-ch05-sol-v2/checks/verification.json",
+        "release_ready": false
+      }
+    },
+    {
+      "id": "ch06-20260921-sol-v2",
+      "reason": "Author authorized completion of volume one chapter at a time with checks",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-21-ch06-sol-v2/chapter-06.md",
+        "sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac"
+      },
+      "preflight_history": "drafts/2026-09-21-ch06-sol-v2/preflight-changes.diff",
+      "observed_state": "drafts/2026-09-21-ch06-sol-v2/observed-state.json",
+      "dependencies": {
+        "planned_registers": "unchanged; actual candidate states separate",
+        "master_snapshot": "not applicable, master null",
+        "next_chapter": 7
+      },
+      "verification": {
+        "run": "audit/ensemble/ch06-20260921-sol-v2",
+        "record": "drafts/2026-09-21-ch06-sol-v2/checks/verification.json",
+        "release_ready": false
+      }
+    },
+    {
+      "id": "ch07-20260922-sol-v1",
+      "reason": "Author authorized completion of volume one chapter at a time with checks",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-21-ch07-sol-v1/chapter-07.md",
+        "sha256": "8fde472151c5c74cf58388f98980016f10875750bee9ee163b405125bf55490a"
+      },
+      "preflight_history": "drafts/2026-09-21-ch07-sol-v1/preflight-changes.diff",
+      "observed_state": "drafts/2026-09-21-ch07-sol-v1/observed-state.json",
+      "dependencies": {
+        "planned_registers": "unchanged; actual candidate states separate",
+        "master_snapshot": "not applicable, master null",
+        "next_chapter": 8
+      },
+      "verification": {
+        "run": "audit/ensemble/ch07-20260922-sol-v1",
+        "record": "drafts/2026-09-21-ch07-sol-v1/checks/verification.json",
+        "release_ready": false
+      }
+    },
+    {
+      "id": "ch08-20260922-sol-v1",
+      "reason": "Author authorized completion of volume one chapter at a time with checks",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-22-ch08-sol-v1/chapter-08.md",
+        "sha256": "ab47878a64ca69a60bc750bf244a886c984b217adc3e7df41545208314853986"
+      },
+      "preflight_history": "drafts/2026-09-22-ch08-sol-v1/preflight-changes.diff",
+      "observed_state": "drafts/2026-09-22-ch08-sol-v1/observed-state.json",
+      "dependencies": {
+        "planned_registers": "unchanged; actual candidate states separate",
+        "master_snapshot": "not applicable, master null",
+        "next_chapter": 9
+      },
+      "verification": {
+        "run": "audit/ensemble/ch08-20260922-sol-v1",
+        "record": "drafts/2026-09-22-ch08-sol-v1/checks/verification.json",
+        "release_ready": false
+      }
+    },
+    {
+      "id": "ch09-20260922-sol-v1",
+      "reason": "Author authorized completion of volume one chapter at a time with checks",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-22-ch09-sol-v1/chapter-09.md",
+        "sha256": "a3f03652d81583b7c03e654cd4fd2791257390759a2201f1bc39ec65f23a76ed"
+      },
+      "preflight_history": "drafts/2026-09-22-ch09-sol-v1/preflight-changes.diff",
+      "observed_state": "drafts/2026-09-22-ch09-sol-v1/observed-state.json",
+      "dependencies": {
+        "planned_registers": "unchanged; actual candidate states separate",
+        "master_snapshot": "not applicable, master null",
+        "next_chapter": 10
+      },
+      "verification": {
+        "run": "audit/ensemble/ch09-20260922-sol-v1",
+        "record": "drafts/2026-09-22-ch09-sol-v1/checks/verification.json",
+        "release_ready": false
+      }
+    }
+  ]
+}

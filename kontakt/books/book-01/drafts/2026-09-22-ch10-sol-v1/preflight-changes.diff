@@ -1,0 +1,102 @@
+diff --git a/chapter-10.preflight.md b/chapter-10.md
+index df8443c..127230b 100644
+--- a/chapter-10.preflight.md
++++ b/chapter-10.md
+@@ -56,11 +56,11 @@
+ 
+ Я перечитав обидва рядки.
+ 
+-Система не знала, де я був. Не знала запитання Майї й моєї відповіді. Не бачила її обличчя. Вона бачила, що я сам не підтвердив звичну готовність і відмовився від пояснення, яке зробило б відповідь завершеною.
++У цьому розрахунку не було місця, звідки я повернувся. Не було запитання Майї, моєї відповіді чи її обличчя. Для підготовки допомоги панель використала тільки те, що я сам не підтвердив звичну готовність і відмовився від пояснення, яке зробило б відповідь завершеною.
+ 
+ Цього їй вистачило, щоб підготувати допомогу.
+ 
+-Я вже складав заперечення. Невизначеність не означала втрати навички. Один незакритий висновок не робив мене небезпечним для клієнтів. Автоматичний супровід міг переплутати точність із відхиленням від звички.
++Я вже складав заперечення. Невизначеність не означала втрати навички. Один незакритий висновок не робив мене небезпечним для клієнтів. Автоматичний супровід міг прийняти відхилення від звички за втрату точності.
+ 
+ Усе це було правдою.
+ 
+diff --git a/writer-notes.preflight.md b/writer-notes.md
+index 5562fbb..e7bdc90 100644
+--- a/writer-notes.preflight.md
++++ b/writer-notes.md
+@@ -5,11 +5,14 @@
+ - Draft: `chapter-10.md`.
+ - Language / POV / tense: Ukrainian; Mark Dal, first person; past tense.
+ - Sequence: S04 consequence and system visibility after the private R1 action in chapter 9.
+-- Time: D4 after Dal leaves Maya's apartment and before 18:00; the exact arrival minute at Dal's apartment is not stated.
++- Time: D4 after Dal leaves Maya's apartment. He reaches his apartment before 18:00; the exact arrival minute and panel-completion time are not stated.
+ - Status: working draft, not canonical or author-selected.
+ 
+ ## Source revision
+ 
++- First saved prose preserved as `chapter-10.preflight.md`, SHA-256 `69fc542e03add1fc0feebcc46497d1bc0a675e21da71ff8962fb71128eb0867a`.
++- First saved notes preserved as `writer-notes.preflight.md`, SHA-256 `cb5444a71a1bd4b2a637479cf634840ba293dfc262a7f83b1b38eb94d31c86e7`.
++- Exact preflight patch: `preflight-changes.diff`.
+ - Previous prose: `../2026-09-22-ch09-sol-v1/chapter-09.md`.
+ - Previous prose SHA-256: `a3f03652d81583b7c03e654cd4fd2791257390759a2201f1bc39ec65f23a76ed` (verified).
+ - Previous observed state: `../2026-09-22-ch09-sol-v1/observed-state.json`, SHA-256 `9fb2f7a6c97e454ab21978e4ae14b3e532f04e71294e8f40b2d6a20363c68ce0` (verified).
+@@ -24,7 +27,7 @@
+ 
+ - Entry: D4 shortly after chapter 9. Dal notices that his right hand still holds the shape of the manual restoration control, then releases it.
+ - He returns to his own apartment before 18:00. The device remains packed during the walk; no message or observation from Maya is received.
+-- His personal professional panel still requires an end-of-day readiness choice. The panel contains his schedule and his own self-assessment only; it has no Maya name, window duration, private words, profile or gaze data.
++- His personal professional panel still requires an end-of-day readiness choice. The displayed readiness calculation uses his schedule and current self-assessment; it does not use Maya's name, window duration, private words, profile or gaze data.
+ 
+ ### B01-S04-C10-S02 — honest uncertainty
+ 
+@@ -45,9 +48,9 @@
+ 
+ - Dal: R1 remains an architectural assessment of chapter 9's private human action, not an onscreen rank. He remains employed and technically capable. His readiness self-assessment is currently `не визначено користувачем`.
+ - Work: existing appointments and permissions remain active. The nearest free D5 slot at 09:40 is not auto-confirmed and requires a later separate readiness update.
+-- System visibility: limited to Dal's own current panel actions and schedule consequence. The system does not know Maya's identity, words, face, silence, window duration, profile or private interface.
++- Shown system visibility: the readiness calculation and support preparation use Dal's current panel actions and schedule consequence. They do not use Maya's identity, words, face, silence, window duration, profile or private interface; no broader claim is made about all knowledge elsewhere in the distributed infrastructure.
+ - Care: preparation of additional personal operator support is visible as a service record; no service identity, voice, permissions or active companion yet exists in prose.
+-- Maya: no new observation. Her D4 support had an existing expiry at 18:00; the chapter remains before that boundary and makes no claim about her offscreen actions.
++- Maya: no new observation. Her D4 support had an existing expiry at 18:00; Dal arrives home before that boundary, while the panel's completion time is unstated and no claim is made about Maya's offscreen actions.
+ - Gor and Tikhon: absent; receive no result or new information.
+ - Ballast/Ladushka: absent and unnamed.
+ 
+@@ -56,7 +59,7 @@
+ - Dal's post-window physical state: his own bodily perception.
+ - Work schedule and readiness status: Dal's personal professional account.
+ - System reason and data boundary: the service record displayed in that account.
+-- The system observes only the current readiness response, rejection of the offered wording and resulting work-slot state. It receives no client-session export.
++- The displayed readiness calculation uses only the current response, rejection of the offered wording and resulting work-slot state. No client-session export is used for this calculation or support preparation.
+ - No new access is granted before the future support connection; the panel says this explicitly.
+ 
+ ## Draft-local proposals
+@@ -68,12 +71,20 @@
+ - The current unusual self-assessment and rejected wording can trigger preparation of additional personal operator support based solely on Dal's own panel activity.
+ - Before connection, the pending support has no name, voice, new permissions or access to client data.
+ 
++## Preflight revisions
++
++- Preserved the first source and notes as `chapter-10.preflight.md` and `writer-notes.preflight.md`.
++- Clarified Dal's objection: he suspects the automated service may treat deviation from his habitual answer as loss of precision; the earlier wording reversed that relation.
++- Narrowed the privacy claim to the displayed readiness calculation and support preparation rather than asserting what the entire distributed infrastructure knows.
++- Narrowed chronology: Dal's arrival is before 18:00; the panel's completion time remains unstated.
++- Exact patch: `preflight-changes.diff`.
++
+ ## Forward dependencies
+ 
+ - Before chapter 11, complete the integrated chapter 6–10 architecture review required by the handoff.
+ - Chapter 11 may proceed only from a prepared but not connected personal operator support service. Its name, voice, permissions and practical value must be established there rather than backfilled here.
+ - The nearest free D5 slot remains unconfirmed; existing appointments and employment remain unchanged.
+-- Maya's private encounter is not system-readable and cannot be cited by future care as evidence without a new source.
++- Maya's private encounter is not used by the shown readiness calculation or support preparation and cannot be cited by future care as evidence without a new source.
+ - Dal's honest uncertainty does not remove his professional skill, heal him or prevent later S05 overreach.
+ - No result has been sent to Gor or Tikhon. Maya has not granted another window or broader access.
+ - S05 parameter violation, old Gor logs, Nina emotional truth, care betrayal and Lad origin remain withheld.
+@@ -81,9 +92,9 @@
+ ## Self-check
+ 
+ - Ukrainian, Dal first person and past tense maintained.
+-- Chronology checked: chapter begins after the D4 17:00 window and ends at Dal's apartment before 18:00; no exact unseen offscreen event is claimed.
++- Chronology checked: chapter begins after the D4 17:00 window; Dal reaches his apartment before 18:00, while the panel-completion time is unstated; no exact unseen offscreen event is claimed.
+ - Causality checked: private presence changes Dal's own next choice; the infrastructure observes that choice in his professional panel, not R1 or Maya.
+-- Data boundary checked: no Maya name, words, face, silence, duration, profile, private interface or device data reaches the system.
++- Data boundary checked: no Maya name, words, face, silence, duration, profile, private interface or device data is used by the displayed readiness calculation or support preparation.
+ - Price checked: one free slot loses automatic confirmation; active appointments, permissions and employment remain intact. This is not suspension, dismissal or mandatory recalibration.
+ - Care checked: only preparation is announced; no Ladushka/Ballast name, voice, permissions or active service appears.
+ - Voice checked: Dal distinguishes procedural competence from unknown conduct without a thematic lecture or claim of healing.

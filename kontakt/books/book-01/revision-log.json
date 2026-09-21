@@ -234,6 +234,28 @@
         "record": "drafts/2026-09-22-ch09-sol-v1/checks/verification.json",
         "release_ready": false
       }
+    },
+    {
+      "id": "ch10-20260922-sol-v1",
+      "reason": "Author authorized completion of volume one chapter at a time with checks",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-22-ch10-sol-v1/chapter-10.md",
+        "sha256": "8fb300b16e4e27a75be7e1d2899d28b1b2d2e0a75ff7d049e1c53f23cc14ab46"
+      },
+      "preflight_history": "drafts/2026-09-22-ch10-sol-v1/preflight-changes.diff",
+      "observed_state": "drafts/2026-09-22-ch10-sol-v1/observed-state.json",
+      "dependencies": {
+        "planned_registers": "unchanged; actual candidate states separate",
+        "master_snapshot": "not applicable, master null",
+        "next_chapter": 11
+      },
+      "verification": {
+        "run": "audit/ensemble/ch10-20260922-sol-v1",
+        "record": "drafts/2026-09-22-ch10-sol-v1/checks/verification.json",
+        "release_ready": false
+      }
     }
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "source_sha256": "8fb300b16e4e27a75be7e1d2899d28b1b2d2e0a75ff7d049e1c53f23cc14ab46",
+  "scope": "Complete CH10 P0001–P0038; prior continuity and all peer claims checked; not full volume",
+  "status": "four_independent_readings_and_reconciliation_completed_with_fifteen_pending_proposals",
+  "source_unchanged_after_reviews": true,
+  "independent_reviews": {
+    "astra": "7ffe7d0b6ed4b38b3ab82fc47ed04525148cc887f3009272406d71dc730cd85b",
+    "claude": "e0a3051261f5e2b61735659b314f57981f0ba2d2e1ca6371e48da67f3da60db0",
+    "gemini_flash": "3425484c704c7aef1686032a3156744b520b5074166a95c1417be3e5ad5591ca",
+    "gemini": "49859881cd0473cce5778ac22a6d247f4f781518267a95b3e816140b2e236c45"
+  },
+  "reconciliation": "fddc712a7baabf58b61775b385668401bd966b761f41c80ed8773c05be25a2e9",
+  "ensemble_integrity": "verify passed",
+  "verdicts": {
+    "astra": "PASS",
+    "claude": "PASS",
+    "gemini_flash": "REQUIRES REVISION",
+    "gemini": "positive complete cold-reader diary; would read on; no editorial PASS requested"
+  },
+  "model_backend_attestation": "requested selectors only; reviewer self-identification is not independent attestation",
+  "language_scans": {
+    "language_qa": "zero configured signals; 75 physical lines, 38 nonempty blocks, 557 lexical tokens",
+    "naturalness": "zero configured signals; separate grammar checker not run",
+    "literary_language": "Four complete readings; normative sources checked for disputed claims, see reviewer-claim-validation.md"
+  },
+  "docx": {
+    "extraction": "exact match",
+    "pages": 2,
+    "pdf_text": "matches ignoring layout whitespace",
+    "visual": "Both pages inspected; no clipping or blank pages",
+    "renderer": "docx-preview/Chromium, not native Word"
+  },
+  "versions": {
+    "first_prose": "69fc542e03add1fc0feebcc46497d1bc0a675e21da71ff8962fb71128eb0867a",
+    "first_notes": "cb5444a71a1bd4b2a637479cf634840ba293dfc262a7f83b1b38eb94d31c86e7",
+    "diff": "1c7eef30fd718726d62b8730d3e209d91b73a6765072f6526d7846e3fde5bb20"
+  },
+  "remaining": [
+    "15 pending proposals, including supported genitive recommendation; none applied",
+    "CH11 and rest of volume; global audit not yet run"
+  ],
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected",
+    "scope": "File integrity only"
+  },
+  "block_audit": {
+    "path": "kontakt/books/book-01/production/2026-09-21-book01/block-audits/chapters-06-10/verification.json",
+    "status": "completed; 362 blocks, architect review, not new blind ensemble"
+  }
+}
