@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "project_id": "kontakt-razlad",
+  "book_id": "book-08",
+  "status": "planned_architecture_locked",
+  "items": [
+    {
+      "id": "mark-dahl",
+      "names": [
+        "Марк Даль",
+        "Даль",
+        "Разлад"
+      ],
+      "role": "POV; R7 integrated under war",
+      "want": "удержать человека за operational category, не разрушая необходимую систему triage",
+      "need_or_question": "может ли применять все R1–R7 там, где дефицит реален и некоторые трагические решения правильны",
+      "self_deception": "в начале ещё надеется, что хорошая этика всегда даст лучший operational outcome",
+      "pressure": "война, scarcity, семья Варан, correct-but-tragic triage, own fixed home/future at risk",
+      "choice": "разводит action priority и person-level rights/status, не требуя отмены triage",
+      "relationships": {
+        "Ева Руд": "процедурный оппонент/соавтор boundary reform",
+        "семья Варан": "не 'кейс', а люди с разными выборами",
+        "Балласт": "финально полезный инструмент",
+        "Ося/Мила": "свои жизни вне функции поддержать Даля",
+        "Тарас": "память не превращается в универсальный шаблон grief"
+      }
+    },
+    {
+      "id": "eva-rud",
+      "names": [
+        "Ева Руд"
+      ],
+      "role": "гражданский региональный координатор Меры",
+      "want": "не допустить cascade collapse и сохранить throughput under scarcity",
+      "need_or_question": "различить полезность action fields и опасность их downstream inheritance",
+      "self_deception": "если поле operationally valid, его reuse кажется меньшим риском, чем schema fragmentation",
+      "pressure": "vehicles/beds/routes/time scarcity; audit overhead; public anger after tragic decisions",
+      "choice": "сохраняет hard Action Queue, но принимает write firewall, unresolved status и rights floor after pilot proves tolerable overhead"
+    },
+    {
+      "id": "ilya-varan",
+      "names": [
+        "Илья Варан"
+      ],
+      "role": "пропавший гражданский техник; центральный tracing thread",
+      "want": "после возвращения — не фиксировать заранее; имеет право на privacy, паузы и новый life path",
+      "need_or_question": "не быть превращённым в доказательство правильности Даля",
+      "self_deception": "не определять до prose",
+      "pressure": "длительное удержание/изоляция, медицинский транзит, семья ждала без ответа",
+      "choice": "найден живым через preserved unresolved matching; recovery остаётся открытым"
+    },
+    {
+      "id": "nadya-varan",
+      "names": [
+        "Надя Варан"
+      ],
+      "role": "жена Ильи; repeated displacement / ambiguous loss",
+      "want": "получать честную информацию без ложной надежды и жить дальше даже пока ответа нет",
+      "need_or_question": "не принимать моральную лестницу 'правильно уехала/вернулась/ждала'",
+      "self_deception": "может считать продолжение собственной жизни изменой Илье",
+      "pressure": "uncertainty, child care, repeated evacuation, social judgement",
+      "choice": "соглашается получать meaningful leads с uncertainty labels; после возвращения Ильи не притворяется, что семья просто вернулась назад"
+    },
+    {
+      "id": "leya-varan",
+      "names": [
+        "Лея Варан"
+      ],
+      "role": "9-летняя дочь; child-normalization line",
+      "want": "быть ребёнком внутри ненормальной рутины, а не символом войны",
+      "need_or_question": "разрешить страху появляться не 'по расписанию'",
+      "self_deception": "не задавать обязательную",
+      "pressure": "alerts, shelters, missing father, adults' attention",
+      "choice": "не фиксировать большой heroic choice; её функция — concrete child life and boundaries"
+    },
+    {
+      "id": "sofia-varan",
+      "names": [
+        "София Варан"
+      ],
+      "role": "сестра Ильи; демобилизованный veteran after injury",
+      "want": "получить civilian infrastructure retraining и жить не как 'пониженная боевая единица'",
+      "need_or_question": "не связывать self-worth с operational readiness",
+      "self_deception": "может автоматически говорить о себе языком функции",
+      "pressure": "rehab system imports return-to-function score; family missing case",
+      "choice": "подаёт civilian retraining appeal отдельно от deployability; не обязана доказывать дальнейшую военную пользу"
+    },
+    {
+      "id": "ballast",
+      "names": [
+        "Ладушка",
+        "Балласт"
+      ],
+      "role": "utility/on-request care tool; final functional payoff",
+      "want": "не человеческое желание: обеспечить navigation/alerts/logistics/info",
+      "need_or_question": "не становится отношением или моральным агентом",
+      "self_deception": "n/a",
+      "pressure": "wartime overload and fragmented data",
+      "choice": "n/a; реально помогает находить shelters/routes/record matches under Dahl's commands"
+    },
+    {
+      "id": "osya",
+      "names": [
+        "Ося",
+        "Осип",
+        "Беглец"
+      ],
+      "role": "found family; independent route worker",
+      "want": "делать свою работу и принимать собственный risk, не быть заложником Даля",
+      "need_or_question": "carry from book7; not used as threat to force Dahl",
+      "self_deception": "не задавать новую",
+      "pressure": "wartime routing and own safety",
+      "choice": "остаётся самостоятельным; его presence can be limited and concrete"
+    },
+    {
+      "id": "mila",
+      "names": [
+        "Мила",
+        "Дитя"
+      ],
+      "role": "teen/young adolescent continuity from book6; not primary child line",
+      "want": "own life/project under war conditions",
+      "need_or_question": "not become symbol or hostage",
+      "self_deception": "none required",
+      "pressure": "war disruptions",
+      "choice": "independent; not central to Varan family thread"
+    }
+  ]
+}

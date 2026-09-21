@@ -13,5 +13,29 @@
     "affected_checks",
     "decision"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "B04-CHAPTER-PLAN-20260921",
+      "reason": "Author requested missing detailed architecture plan before repository push and opening preparation",
+      "decision": "applied",
+      "old_source": null,
+      "new_source": {
+        "path": "KONTAKT_BOOK_04_CHAPTER_SKELETON_V1.md",
+        "sha256": "02b971c6a52be61f44cc51360fc7f6f5e3aead7a46a7de6bf1f6b1012e939512"
+      },
+      "changes": [
+        "Created 30 chapters across 12 existing sequences",
+        "Updated chapter-plan pointer and missing-plan finding",
+        "Kept K-17 a client, Osya a courier, R3 to R4"
+      ],
+      "affected_checks": [
+        "chapter numbering",
+        "macro outcome",
+        "relative timeline",
+        "POV access",
+        "source hashes"
+      ],
+      "prose_changed": false
+    }
+  ]
 }

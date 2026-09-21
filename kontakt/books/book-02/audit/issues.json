@@ -17,5 +17,187 @@
     "verification",
     "decision"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "KONTAKT-REV-20260921-03",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "book_ids": [
+        "book-02",
+        "book-03"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_02_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_02_CHAPTER_SKELETON_V1.md",
+          "sha256": "c21d134b0c5eb8a59494be4fb297a445b60159ea6cc18719b014451a7d782788",
+          "line": 1219,
+          "quote": "- [x] Релей — человеческое предательство, не агент кукловода."
+        },
+        {
+          "file": "kontakt/books/book-02/BOOK-02-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-02\\BOOK-02-ARCHITECTURE-LOCK.md",
+          "sha256": "ed3272dddef0c5b393daa7cd6daf2648d187fec12a791d07b141992fd6f06fd6",
+          "line": 117,
+          "quote": "- Тайный предатель убран."
+        }
+      ],
+      "observation": "Relay restores the betrayal removed by the macro package and alters the evidence leading into Predictariat.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "Prefer the no-traitor version; keep advance-capacity evidence and the incomplete attention theory as separate causes.",
+      "dependencies": [
+        "book-02 chapters 15,19-22,37-38",
+        "book-03 opening"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "unresolved"
+    },
+    {
+      "id": "KONTAKT-REV-20260921-04",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "book_ids": [
+        "book-02"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_02_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_02_CHAPTER_SKELETON_V1.md",
+          "sha256": "c21d134b0c5eb8a59494be4fb297a445b60159ea6cc18719b014451a7d782788",
+          "line": 158,
+          "quote": "**Мирон** — рабочее имя, новый второстепенный персонаж Тома 2."
+        },
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_02_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_02_CHAPTER_SKELETON_V1.md",
+          "sha256": "c21d134b0c5eb8a59494be4fb297a445b60159ea6cc18719b014451a7d782788",
+          "line": 855,
+          "quote": "- Его гражданская непрерывность восстановлена достаточно, чтобы он снова мог действовать под собственным именем."
+        },
+        {
+          "file": "kontakt/books/book-02/BOOK-02-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-02\\BOOK-02-ARCHITECTURE-LOCK.md",
+          "sha256": "ed3272dddef0c5b393daa7cd6daf2648d187fec12a791d07b141992fd6f06fd6",
+          "line": 79,
+          "quote": "В серой зоне Даль замечает, что его запросы технически доставляются, но всё реже всплывают у получателей. Через ручной канал встречает Тараса. Тарас показывает кейс Иры: она существует и отвечает, но без точного адреса почти никому не попадается. Даль решает разобраться. Next cause: проблему нельзя чинить локально — ranking сетевой."
+        }
+      ],
+      "observation": "Ira is replaced by Miron and Taras becomes the subject of civil-identity restoration.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "Choose and map the cast; preserve Taras's independent continuity work and test the ending against a repeated rescue structure.",
+      "dependencies": [
+        "book-02 chapters 1-3,22,28-35",
+        "book-03 Taras carry-in"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "unresolved"
+    },
+    {
+      "id": "KONTAKT-REV-20260921-05",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "book_ids": [
+        "book-02"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_02_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_02_CHAPTER_SKELETON_V1.md",
+          "sha256": "c21d134b0c5eb8a59494be4fb297a445b60159ea6cc18719b014451a7d782788",
+          "line": 144,
+          "quote": "- аварийные и бытовые сообщения конкурируют с миллионами других;"
+        },
+        {
+          "file": "kontakt/books/book-02/BOOK-02-ARCHITECTURE-LOCK.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-02\\BOOK-02-ARCHITECTURE-LOCK.md",
+          "sha256": "ed3272dddef0c5b393daa7cd6daf2648d187fec12a791d07b141992fd6f06fd6",
+          "line": 43,
+          "quote": "Остаются direct-address, raw chronological feed, local lists, emergency/identity infrastructure. Исчезают персональная сортировка, engagement-priority, авто-рекомендации людей и групп."
+        }
+      ],
+      "observation": "Emergency-message consequences of the outage are not reconciled with protected emergency/identity infrastructure.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "State exactly which ranking layer fails and keep emergency/identity service boundaries explicit.",
+      "dependencies": [
+        "book-02 outage mechanics and chapters 5,10,20-25"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "unresolved"
+    },
+    {
+      "id": "KONTAKT-REV-20260921-18",
+      "run_id": "kontakt-downloads-review-2026-09-21",
+      "category": "architecture",
+      "severity": "major",
+      "certainty": "text_conflict",
+      "book_ids": [
+        "book-01",
+        "book-02",
+        "book-03",
+        "book-04",
+        "book-05",
+        "book-06",
+        "book-07",
+        "book-08"
+      ],
+      "anchors": [
+        {
+          "file": "kontakt/series/reviews/2026-09-21-downloads-review/sources/KONTAKT_BOOK_01_CHAPTER_SKELETON_V1.md",
+          "original_path": "C:\\Users\\alexi\\Downloads\\KONTAKT_BOOK_01_CHAPTER_SKELETON_V1.md",
+          "sha256": "8cd42ea87962d7b0b10100e5cf6d8209a47804c5cc9f6807f1300ed964daf491",
+          "line": 805,
+          "quote": "4. только после полного архитектурного gate начинать украинскую художественную прозу."
+        },
+        {
+          "file": "kontakt/books/book-01/NEXT-STEP.md",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\NEXT-STEP.md",
+          "sha256": "befbce82a2e8e1c6c07f98e67be90d488a0096e440f1f2d264451df82a5991d0",
+          "line": 23,
+          "quote": "5. Завершить S01 и лишь затем S02."
+        },
+        {
+          "file": "kontakt/books/book-01/voice.json",
+          "original_path": "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\voice.json",
+          "sha256": "f3f7c4f147a62bda6576e6490364ad7076e521e3b201a01827f25fc1ec1d7fd1",
+          "line": 12,
+          "quote": "    \"tense\": \"Выбрать\","
+        }
+      ],
+      "observation": "New skeletons require all-sequence scene cards before prose, while the runbook requires progressive sequence work; execution metadata remains stale.",
+      "reader_effect": "Unreconciled drafting inputs may change causality, identity, agency or reveal timing.",
+      "proposed_change": "Use provisional whole-book maps and detail S01 first; synchronize selected planned sources and voice placeholders without presenting planned events as observed facts.",
+      "dependencies": [
+        "all books' working source pointers and planned states",
+        "Book 1 opening execution package"
+      ],
+      "verification": {
+        "method": "source comparison",
+        "scope": "planning only",
+        "prose_review": "not_run"
+      },
+      "decision": "proposed",
+      "resolution_status": "unresolved"
+    }
+  ]
 }

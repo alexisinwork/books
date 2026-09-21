@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "book_id": "book-01",
+  "status": "planned_architecture_locked",
+  "items": [
+    {
+      "entity": "Марк Даль",
+      "state": "жив; R1; вне официальной работы Лада; видимость критическая; первый краткий пробой собственного горя; не исцелён",
+      "carry": "book-02 fugitive/grey-zone"
+    },
+    {
+      "entity": "Майя",
+      "state": "жива; вышла из relational mediation по собственному выбору; не возвращается к Гору; companion = utility; не спутница Даля",
+      "carry": "optional cameo only"
+    },
+    {
+      "entity": "Гор",
+      "state": "не получает Майю; связь с Далем сожжена",
+      "carry": "none required"
+    },
+    {
+      "entity": "Тихон",
+      "state": "остаётся в Ладе; не преследует; путь назад оставляет открытым",
+      "carry": "recurring temptation"
+    },
+    {
+      "entity": "Балласт",
+      "state": "остаётся назначенным care-service",
+      "carry": "book-02"
+    },
+    {
+      "entity": "Резонанс",
+      "state": "R1 Presence",
+      "carry": "book-02 opens R1"
+    },
+    {
+      "entity": "Лад",
+      "state": "цел; care-escalation против Даля активна",
+      "carry": "system remains useful and dangerous"
+    }
+  ]
+}

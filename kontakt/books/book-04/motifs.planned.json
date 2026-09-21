@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "project_id": "kontakt-razlad",
+  "book_id": "book-04",
+  "status": "planned",
+  "items": [
+    {
+      "id": "M01",
+      "form": "балл/полоса confidence",
+      "movement": "нейтральный coordination signal → eligibility gate → score остаётся низким, но решение меняется",
+      "payoff": "S10"
+    },
+    {
+      "id": "M02",
+      "form": "дверь/пропуск",
+      "movement": "автоматически открывается Далю по legacy status → условно открывается Эдит после score uplift → manual access без moral upgrade",
+      "payoff": "S10-S11"
+    },
+    {
+      "id": "M03",
+      "form": "расписание",
+      "movement": "удобный tool → Stability Plan как self-surveillance → Даль отказывается жить как credential",
+      "payoff": "S11"
+    },
+    {
+      "id": "M04",
+      "form": "портфолио полезности",
+      "movement": "Даль собирает evidence → Эдит отказывается → папка перестаёт быть аргументом",
+      "payoff": "S07"
+    },
+    {
+      "id": "M05",
+      "form": "очередь human-hours",
+      "movement": "абстрактный budget → лица тех, кто ждёт → цена manual justice становится реальной",
+      "payoff": "S10"
+    },
+    {
+      "id": "M06",
+      "form": "тихий интерфейс",
+      "movement": "Тихий контур выглядит заботливо → K-17 принимает его → metadata affect-load ломает гладкость",
+      "payoff": "S12"
+    }
+  ]
+}

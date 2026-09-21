@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "book_id": "book-04",
+  "status": "macro_architecture_locked_chapterization_deferred",
+  "resonance": {
+    "opening": "R3",
+    "closing": "R4",
+    "other_rank_transitions": "forbidden"
+  },
+  "sequences": [
+    {
+      "id": "S01",
+      "title": "Дорогой человек",
+      "decision": "войти в апелляцию Эдит через legacy standing",
+      "cost": "Даль снова опирается на высокий статус",
+      "next_cause": "встретиться с Ремом"
+    },
+    {
+      "id": "S02",
+      "title": "Оценщик",
+      "decision": "принять Stability Plan как рабочий путь",
+      "cost": "соглашается доказывать eligibility через score",
+      "next_cause": "поднять score Эдит"
+    },
+    {
+      "id": "S03",
+      "title": "Поднять балл",
+      "decision": "оптимизировать coordination поведения Эдит",
+      "cost": "score растёт вместе с ценой автономности",
+      "next_cause": "sponsor-role Даля"
+    },
+    {
+      "id": "S04",
+      "title": "Старый лучший калибровщик",
+      "decision": "временно восстановить sponsor-status",
+      "cost": "Даль снова становится institution-readable",
+      "next_cause": "финальный push score"
+    },
+    {
+      "id": "S05",
+      "title": "Удобная Эдит",
+      "decision": "заметить ловушку улучшения",
+      "cost": "понимает: сделал человека дешевле системе",
+      "next_cause": "аудит назначения метрики"
+    },
+    {
+      "id": "S06",
+      "title": "Метрика не виновата",
+      "decision": "разделить формулу и institutional misuse",
+      "cost": "нет простого злого алгоритма",
+      "next_cause": "финальная апелляция"
+    },
+    {
+      "id": "S07",
+      "title": "Кто окупает себя",
+      "decision": "отказаться доказывать скрытую полезность Эдит",
+      "cost": "теряет лёгкий аргумент победы",
+      "next_cause": "K-17 уходит в быстрый маршрут"
+    },
+    {
+      "id": "S08",
+      "title": "Первое неполное поражение",
+      "decision": "принять, что K-17 не успел/не захотел дорогой appeal",
+      "cost": "Даль не может спасти всех исключением",
+      "next_cause": "найти масштабируемую процедуру"
+    },
+    {
+      "id": "S09",
+      "title": "Manual high-friction review",
+      "decision": "вернуть risk к роли cost, не eligibility",
+      "cost": "процедура дороже и требует явного бюджета",
+      "next_cause": "финальный board"
+    },
+    {
+      "id": "S10",
+      "title": "Цена без оправдания",
+      "decision": "признать высокий cost Эдит без moral discount",
+      "cost": "институт должен оплатить реальную дороговизну",
+      "next_cause": "решить статус Даля"
+    },
+    {
+      "id": "S11",
+      "title": "Даль становится неудобным / R4",
+      "decision": "отказаться от sponsor-role как доказательства собственной ценности",
+      "cost": "теряет доступ/защиту; R4",
+      "next_cause": "проверить K-17"
+    },
+    {
+      "id": "S12",
+      "title": "Куда уходит лишнее",
+      "decision": "проследить downstream care metadata",
+      "cost": "видит affect-load service без объяснения",
+      "next_cause": "hook book5"
+    }
+  ],
+  "chapterization": {
+    "status": "deferred",
+    "rule": "2–4 chapters per sequence as needed; target 28–32 only as loose series rhythm"
+  },
+  "prose": {
+    "status": "not_started",
+    "language": "uk"
+  }
+}
