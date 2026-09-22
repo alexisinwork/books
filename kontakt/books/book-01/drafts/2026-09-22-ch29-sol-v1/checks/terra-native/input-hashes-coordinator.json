@@ -1,0 +1,44 @@
+{
+  "scope": "Post-review coordinator hashing of agent-listed inputs; no claim of agent pre-read hashverification",
+  "inputs": [
+    {
+      "path": ".agents/skills/book-language-review/SKILL.md",
+      "sha256": "472df890365cabebc652b868ca62ef90f66f1c8a9fcf7475947038ab4f9294cc",
+      "bytes": 3634,
+      "provenance": "unchanged committed file"
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/chapter-29.md",
+      "sha256": "82cf3970cefa65934028db82b401c15773373e5a98eef19ae9bfd7b619171480",
+      "bytes": 9341,
+      "provenance": "frozen target"
+    },
+    {
+      "path": "kontakt/books/book-01/execution/HANDOFF-CH29.md",
+      "sha256": "15123b33e2da88a928cdb607af9af74205727e6c2e3ea0c415c7fb94ac934665",
+      "bytes": 7626,
+      "provenance": "unchanged committed file"
+    },
+    {
+      "path": "kontakt/books/book-01/voice.json",
+      "sha256": "0daed170751ea9d5c8a7f8fd4bfc06309feb62e0cb0cbb057d0f2e2202c424d7",
+      "bytes": 2149,
+      "provenance": "unchanged committed file"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+      "bytes": 6485,
+      "provenance": "unchanged committed file"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "sha256": "a22dce300a430f1fef40358476aa436620d234cafb8ced1082e8e901e3dd14e5",
+      "bytes": 33775,
+      "provenance": "unchanged committed file"
+    }
+  ],
+  "report_sha256": "c940d107c4ebe74e53ece1dc954e7b6f1a24e0bc3e8d909473fb78c3eb3d7af6",
+  "invocation_sha256": "2f53c63146d386e7ba6af20ddc5919035129c8f91c809c4d217d70bdef92de33",
+  "self_hash_note": "Raw report says invocation selfhash recorded inside; invocation explains finalhash supplied externally. This record hashes exact final file."
+}

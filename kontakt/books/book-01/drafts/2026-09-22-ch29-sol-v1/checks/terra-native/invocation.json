@@ -1,0 +1,49 @@
+{
+  "run_id": "ch29-20260922-sol-v1",
+  "role": "terra",
+  "status": "final",
+  "model": "gpt-5.6-terra native",
+  "review_type": "fresh independent literary and Ukrainian review",
+  "source": {
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/chapter-29.md",
+    "sha256": "82cf3970cefa65934028db82b401c15773373e5a98eef19ae9bfd7b619171480"
+  },
+  "reader_sha256": "82cf3970cefa65934028db82b401c15773373e5a98eef19ae9bfd7b619171480",
+  "coverage": {
+    "blocks": {
+      "first": "P00001",
+      "last": "P00083",
+      "reviewed": 83,
+      "total": 83,
+      "complete": true
+    },
+    "exact_ending": "Майя не діставала пристрій. Вибір місця ще не почався.",
+    "exact_quotes_checked": true
+  },
+  "authorized_inputs": [
+    ".agents/skills/book-language-review/SKILL.md",
+    "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/chapter-29.md",
+    "kontakt/books/book-01/execution/HANDOFF-CH29.md",
+    "kontakt/books/book-01/voice.json",
+    "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+    "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md"
+  ],
+  "scope": "target plus explicitly supplied guidance; not strict target-only",
+  "findings": {
+    "confirmed_defect": 0,
+    "contextual_style_choice": 1,
+    "preserve_for_function": 2,
+    "already_correct": 1
+  },
+  "output_files": {
+    "report": {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/terra-native/REPORT.md",
+      "sha256": "c940d107c4ebe74e53ece1dc954e7b6f1a24e0bc3e8d909473fb78c3eb3d7af6"
+    },
+    "invocation": {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/terra-native/invocation.json",
+      "sha256": "self-referential artifact; final file hash is supplied with the completed run"
+    }
+  },
+  "limitations": "No other manuscript prose, canon, audit ledger, previous check, or peer report was read. The review cannot establish whole-book continuity or make authorial decisions."
+}

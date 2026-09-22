@@ -1,0 +1,708 @@
+{
+  "schema_version": 1,
+  "run_id": "ch29-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "82cf3970cefa65934028db82b401c15773373e5a98eef19ae9bfd7b619171480",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00030",
+          "quote": "— Ви вже придумали правильне речення, — сказала Майя."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00041",
+          "quote": "— Тоді цього досить для сьогоднішнього рішення."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00043",
+          "quote": "— Оце вже схоже на готову відповідь."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00047",
+          "quote": "— Уже сказали."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00053",
+          "quote": "— Не робіть із цього успіх."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00055",
+          "quote": "— Ви все одно хочете."
+        }
+      ],
+      "observation": "Майя кілька разів перевіряє правильністьДаля; його реальна помилка41 додає тертя. Інші читачі бачать близькість/довіру.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "На суцільному S08–S10 читанні оцінити власну потребуМайї щодо ролі етичноїперевіряльниці."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00020",
+          "quote": "— Учорашнє повідомлення не повернулося, — сказала вона."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00024",
+          "quote": "— Я відкрила його ще раз. Потім ще раз."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00026",
+          "quote": "— Написала: «Сьогодні не відповім». Не надіслала."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00035",
+          "quote": "— Я думала, коли воно перестане повертатися, стане тихо, — сказала вона. — Стало. Але тиша нічого не вирішила."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00037",
+          "quote": "— Мені страшно лишити це без відповіді, — сказала Майя. — І страшно відповісти так, щоб розмова знову почалася."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00061",
+          "quote": "Це не було технічним тестом. За її словами, звернення не повернулося, а я не знав, чи з’явиться воно знову з волі іншої людини."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00077",
+          "quote": "— Мені потрібне інше місце на одну ніч. Не назавжди. До вечора я хочу вибрати його сама."
+        }
+      ],
+      "observation": "Повтор read-no-reply/повернення до нового питанняжитла може гальмувати; інші читають камернунапругу.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "Оцінити послідовно25–30; зберегти самостійне повторневідкривання й ненадісланийтекст як новідії."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra",
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00015",
+          "quote": "Вона не сіла. Стала біля середньої лави й поклала долоню на її спинку."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00038",
+          "quote": "Вона вимовила це, дивлячись на порожню середню лаву."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00049",
+          "quote": "Вона нарешті сіла на середню лаву. Не запропонувала сісти поруч. Я лишився стояти біля краю навісу."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00062",
+          "quote": "Майя посунулася до краю лави. Тепер поруч залишалося місце, але запрошення я не почув."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00082",
+          "quote": "Я сів на дальній край середньої лави. Між нами лишилося місце для ще однієї людини."
+        }
+      ],
+      "observation": "Очікуваннязапрошеннясісти й повтор середньоїлави показують межі, ризикують повтором/буквальністю.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "Перевірити мотив і ритм; це Далеваобережність, не загальне правило публічноїлави."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00029",
+          "quote": "Професійна звичка одразу дала три варіанти: прибрати час, закрити звернення без пояснення або прямо відмовитися від майбутньої відповіді. Жоден не був моєю відповіддю на її місці."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00036",
+          "quote": "Я міг відповісти, що система й не мала вирішувати. Це було б правильно й непотрібно."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00056",
+          "quote": "Я подивився на металевий край лави. На ньому була подряпина у формі незамкненого кола."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00061",
+          "quote": "Це не було технічним тестом. За її словами, звернення не повернулося, а я не знав, чи з’явиться воно знову з волі іншої людини."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00068",
+          "quote": "Це були її слова. Я не знав, чи порожнеча була в кімнаті, у відсутній підказці або в тому, що лишилося після неї."
+        }
+      ],
+      "observation": "Короткі етичніоцінки й подряпинакола сильні, але можуть накопичувати авторськийкоментар.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "Перевірити щільність у повному томі; не додавати декору."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00058",
+          "quote": "Майя дістала пристрій і цього разу розблокувала його, прикривши екран долонею від мене. Торкнулася чогось один раз. Я не бачив ані повідомлення, ані дії."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00060",
+          "quote": "— Я не відповіла, — сказала вона. — І не закрила назавжди. Просто прибрала пристрій."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00061",
+          "quote": "Це не було технічним тестом. За її словами, звернення не повернулося, а я не знав, чи з’явиться воно знову з волі іншої людини."
+        }
+      ],
+      "observation": "Не закрила назавжди — словаМайї, не доказ нового незворотногоінтерфейсногоконтролю.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "За потреби уточнити контактний зміст без нового канону permanentclose."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "astra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "structure",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00077",
+          "quote": "— Мені потрібне інше місце на одну ніч. Не назавжди. До вечора я хочу вибрати його сама."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00080",
+          "quote": "— До полудня. Поруч, але без варіантів замість мене. Якщо можете."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00082",
+          "quote": "Я сів на дальній край середньої лави. Між нами лишилося місце для ще однієї людини."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00083",
+          "quote": "Майя не діставала пристрій. Вибір місця ще не почався."
+        }
+      ],
+      "observation": "Кінець перед самимвибором житла — ясний місток; може відкласти необхідну дію за межуглави. Інші позитивно читають паузу.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "Оцінити необхідність поділу29–30 після actual30;33не квота."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "terra",
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00029",
+          "quote": "Професійна звичка одразу дала три варіанти: прибрати час, закрити звернення без пояснення або прямо відмовитися від майбутньої відповіді. Жоден не був моєю відповіддю на її місці."
+        }
+      ],
+      "observation": "Моєю відповіддю на її місці — стислий синтаксис; Terra/Opus зберігають, Flash допускає розгортання.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "Факультативно перевірити зрозумілість без зміни того, хто має відповідати."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00006",
+          "quote": "> Емоційне посередництво не вмикала.\n>\n> Якщо можете, сьогодні об 11:10 під довгим навісом біля зупинки. Звичайна розмова. Без сеансу, перегляду й робочого пристрою."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00009",
+          "quote": "> Можу. Буду об 11:10."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00012",
+          "quote": "Майя прийшла о 11:10 з боку пішохідного переходу. Я бачив тільки останні кілька кроків її дороги."
+        }
+      ],
+      "observation": "О11:10 проти двох об11:10 у ційглаві; можливе евфонічне узгодження.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "Розглянути об11:10; не заявляти універсальне правило длявсіхголосних бездоказу."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00063",
+          "quote": "— Учора після вашого виходу в квартирі все працювало, — сказала вона. — Світло, чайник, побутові нагадування. Нічого не зламалося."
+        }
+      ],
+      "observation": "Вквартирі/уквартирі: Flash пропонує звукозгладження, Opus вважає поточнечергування прийнятним.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "Авторський вибір милозвучності, не підтверджений граматичнийконфлікт."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "terra",
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00020",
+          "quote": "— Учорашнє повідомлення не повернулося, — сказала вона."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00039",
+          "quote": "— Ви хочете завершити звернення? — спитав я."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00040",
+          "quote": "— Я хочу сьогодні його не продовжувати. Це все, що знаю."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00061",
+          "quote": "Це не було технічним тестом. За її словами, звернення не повернулося, а я не знав, чи з’явиться воно знову з волі іншої людини."
+        }
+      ],
+      "observation": "Звернення як робочийтермін установленораніше, але локальноможе нагадуватиМайїнкейсДаля. Terra зберігаєфункцію.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "Перевірити локальнийреферент; не вводити пояснення на хибній передумові нового терміна."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00004",
+          "quote": "До шостої лишався робочий день. Чинні допуски були активні, кнопка нової черги — теж. Я не натиснув її."
+        }
+      ],
+      "observation": "Чинні допуски були активні може звучати як подвоєння без окремогозначення статусів.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "Розглянути економію фрази, не змінюючи чинності до18."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-012",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00069",
+          "quote": "— Сьогодні я не хочу знову провести там вечір, — сказала Майя."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00071",
+          "quote": "— Ні. Я не тікаю від людини біля дверей. Я просто не хочу ще одну ніч сидіти на тій кухні й чекати пояснення."
+        },
+        {
+          "chapter": "29",
+          "anchor": "P00072",
+          "quote": "Вона сказала це без прохання врятувати її від квартири."
+        }
+      ],
+      "observation": "Без прохання врятуватиїї від квартири повторно пояснює вже сказанеМайєю.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "Розглянути усунення надлишковоїремарки без приписування їй прихованогопрохання."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-013",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "29",
+          "anchor": "P00019",
+          "quote": "Повз навіс пройшли троє людей. Один звернув до зупинки, двоє пішли далі. Майя перечекала їхні кроки."
+        }
+      ],
+      "observation": "Перечекала їхні кроки — метонімічне скорочення, не помилка за самимOpus.",
+      "reader_effect": "Scene force, voice, clarity or pacing as described; not author intent.",
+      "evidence": "All5 locked reports and checks/review-claims-validation.json; exact frozen source.",
+      "proposed_actions": [
+        "За бажанням уточнити чекання стиханнякроків/проходженнялюдей."
+      ],
+      "dependencies": [
+        "Future author-authorized CH29 revision",
+        "S10 continuation and26–30 block audit",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+diff --git "a/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch29-sol-v1\\chapter-29.preflight.md" "b/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch29-sol-v1\\chapter-29.md"
+index b4239ab..b641962 100644
+--- "a/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch29-sol-v1\\chapter-29.preflight.md"
++++ "b/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch29-sol-v1\\chapter-29.md"
+@@ -18,7 +18,7 @@
+ 
+ > Можу. Буду об 11:10.
+ 
+-Від робочого місця туди вистачало часу доїхати звичайним маршрутом. Я закрив панель і не брав нової справи перед виходом.
++До початку зустрічі я встигав доїхати звичайним маршрутом. Я закрив панель, залишив робочий пристрій у замкненій шухляді стола й не брав нової справи перед виходом.
+ 
+ Під навісом я був за чотири хвилини до зустрічі. Уздовж скляної стіни стояли три металеві лави. На першій хтось залишив складену газету, на третій сиділа жінка з темною сумкою. Середня була порожня.
+ 
+@@ -116,15 +116,15 @@
+ 
+ Майя дістала пристрій і цього разу розблокувала його, прикривши екран долонею від мене. Торкнулася чогось один раз. Я не бачив ані повідомлення, ані дії.
+ 
+-— Я не відповіла, — сказала вона. — І не закрила назавжди. Просто прибрала пристрій.
++Вона поклала пристрій у кишеню.
+ 
+-Вона поклала його в кишеню.
++— Я не відповіла, — сказала вона. — І не закрила назавжди. Просто прибрала пристрій.
+ 
+-Це не було технічним тестом. Система не повертала їй звернення, а я не знав, чи з’явиться воно знову з волі іншої людини.
++Це не було технічним тестом. За її словами, звернення не повернулося, а я не знав, чи з’явиться воно знову з волі іншої людини.
+ 
+ Майя посунулася до краю лави. Тепер поруч залишалося місце, але запрошення я не почув.
+ 
+-— Учора після вашого виходу в квартирі все працювало, — сказала вона. — Світло, чайник, звичайні нагадування. Нічого не зламалося.
++— Учора після вашого виходу в квартирі все працювало, — сказала вона. — Світло, чайник, побутові нагадування. Нічого не зламалося.
+ 
+ — Побутові функції мали лишитися.
+ 
+diff --git "a/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch29-sol-v1\\writer-notes.preflight.md" "b/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch29-sol-v1\\writer-notes.md"
+index a4982c8..840d34d 100644
+--- "a/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch29-sol-v1\\writer-notes.preflight.md"
++++ "b/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch29-sol-v1\\writer-notes.md"
+@@ -2,7 +2,7 @@
+ 
+ ## Status
+ 
+-- First-save working source before writer self-check and coordinator factual preflight.
++- Draft-local source prepared for freeze after writer self-check and coordinator factual preflight.
+ - Language/POV: Ukrainian, Dal first person, past tense.
+ - Scope: CH29 only; CH30 not started.
+ - Input manifest: 71/71 files verified by SHA-256 and byte size before drafting.
+@@ -27,8 +27,8 @@
+ ## Maya's state: source and limits
+ 
+ - Maya states in her own message and again in person that she has not re-enabled emotional mediation. Dal explicitly says he knows this only from her words.
+-- No profile, read-only view, direct window, session, timer, monitoring right, or device access opens.
+-- Utility status comes from Maya's own account: light, kettle, and ordinary reminders worked after Dal left. No global claim about all functions is made.
++- No profile, read-only view, direct window, session, timer, monitoring right, or device access opens. Dal leaves his work device in the locked desk drawer at his workplace before attending the ordinary meeting; it is not with him at chapter end.
++- Utility status comes from Maya's own account: light, kettle, and household reminders worked after Dal left. No global claim about all functions is made, and these are not the disabled private-message reminder from CH27.
+ - Dal does not diagnose Maya. Her fear is explicit in her own words: she is afraid to leave the unnamed message unanswered and afraid to answer in a way that restarts the conversation.
+ - The other person/message remains unnamed; it is not identified as Gor.
+ 
+@@ -38,7 +38,7 @@
+ - Maya reopens it herself more than once, drafts `Сьогодні не відповім`, and does not send it because it could imply a promise to answer tomorrow.
+ - Dal forms possible phrasings internally but does not disclose them after Maya tells him not to.
+ - Maya chooses only a bounded present action: the message will remain unanswered today because she does not want the next step now. She does not declare a permanent cutoff or future answer.
+-- Maya briefly unlocks her own device with the screen shielded from Dal, then reports that she neither answered nor closed forever and puts it away. Dal sees no content or action and does not convert it into a technical test.
++- Maya briefly unlocks her own device with the screen shielded from Dal, touches an unseen control, puts the device in her pocket, and only then reports that she neither answered nor closed forever. Dal sees no content or action and does not convert it into a technical test. The non-return state is known from Maya's words, not profile verification.
+ 
+ ## Human outcome and transition to CH30
+ 
+@@ -64,9 +64,15 @@
+ 
+ ## Preflight history
+ 
+-- First save to be preserved before self-check.
+-- Exact post-first-save changes: pending.
++- First save preserved as `chapter-29.preflight.md`, SHA-256 `04027ca53b87e838491faa08b4e86f1d9cc271b457e02fc475ad1444a8d7b657`, and `writer-notes.preflight.md`, SHA-256 `7eb5d83e61900c3b372bfa79597c9f10b35de7f57ee1be1e827b96ffdfdbe686`.
++- Coordinator factual preflight and writer self-check changes: explicitly left Dal's work device in the locked desk drawer; put Maya's device into her pocket before her past-tense summary of that action; narrowed non-return of the contact to Maya's own reported knowledge; distinguished household reminders from the disabled private-message reminder; smoothed the ordinary-travel sentence.
++- Exact unified diff saved as `preflight-changes.diff`.
+ 
+ ## Self-check
+ 
+-- Pending after first save.
++- Chronology: D11 morning message, ordinary 11:10 meeting, scene still before noon; D11 18:00 care remains future.
++- Resource continuity: Dal's work device remains in the locked workplace desk drawer; only Maya handles her own device at the meeting.
++- Knowledge/POV: Maya supplies mediation status, night experience, fear, message non-return, and utility facts in her own words. Dal sees no message content, addressee, screen action, route before the final few steps, or profile state.
++- Access: no profile/read-only/window/session/timer/monitoring right; ordinary physical meeting only.
++- Practical outcome: unnamed message remains unanswered today; no permanent contact decision. One-night need is stated, but no lodging search or booking begins.
++- Boundaries: no Gor attribution, threat/property claim, care result, rights loss, R2, healing/awakening, Nina/S11/S12 advance, or CH30 prose.

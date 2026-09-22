@@ -1,0 +1,72 @@
+{
+  "source_sha256": "82cf3970cefa65934028db82b401c15773373e5a98eef19ae9bfd7b619171480",
+  "status": "required_and_optional_reviews_and_reconciliation_complete_with_pending_choices",
+  "scope": "All83blocks;167physical/85nonemptylines;811lexicaltokens; not global audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "51c4940b0b7dd61d3b8d334081009fe92f4607a7807b57ce1349ab4c9f199557",
+    "terra": "1bfcb17fea1329370d322dc24fbc081c161424b4c6ea7d501568bad5ba8f1a3c",
+    "gemini_flash": "1cb97e23a61557e21a02746a7bf184c88202ed98d1e0ccd2839e45573813a2d5",
+    "gemini": "5a92f1fd16ac8d5d94b890f74ae3abce91423a8c61a23b2ea56360bd9ad9117d",
+    "claude": "8509baa7471ae9700257412a9e944f205528e2c4705baa4e1acd01c7d2b5b8cf"
+  },
+  "optional_opus": "Actual agy retry after known prior quota; exit0/344.58seconds, PASS, locked additionalreport",
+  "reconciliation": "991514b266d0a5616d0831332111d69f88cf3976781a1e2ef91780543a1658b7",
+  "missing_required": [],
+  "verdicts": {
+    "astra": "Coherent S10entry; six literary proposals",
+    "terra": "0 confirmed defects; contextual syntax and preserved functions",
+    "gemini_flash": "PASS; euphony proposals, timing/mindreading praise qualified",
+    "gemini": "Positive diary; burnout/sabotage/forbiddenmeeting are hypotheses",
+    "claude": "PASS; five minorproposals; home/workplace, count7 and Gor-not-mentioned claims corrected in reconciliation"
+  },
+  "language_scans": "No configuredsignals; LanguageToolnotrun; full native readingcomplete",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "33453837bd57b0ed550b49bef7dc101d344c9f7494a2217522cb17810c239086",
+    "pages": 3,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 341,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 328,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 3,
+        "words": 210,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 3
+      }
+    ],
+    "visual_review": "All3 pages inspected in contact sheet: readable consistent layout, no clipping/blank page; third210words. Not native Word."
+  },
+  "preflight_diff": "Exact git diff --no-index ABSOLUTE Windows paths reconstruction PASS",
+  "preflight_diff_sha256": "b52ab3dc91d91f90d6bd91387bbd5af515f86c92e69d35086ccac096ca45d539",
+  "schema_instances": "run and ledger Draft202012Validator PASS",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selectedmasters expected"
+  },
+  "supporting_reading": "Whole28 currentcycle;11/20 reread103blocks for S11preparation, not globalaudit",
+  "remaining": [
+    "13 pending author decisions",
+    "CH30 onward,26–30 checkpoint and full-volume audit"
+  ],
+  "independence": "Root developer/preflight participation disclosed, own report first; freshTerra; freshagypackets; no peer findings to writer"
+}

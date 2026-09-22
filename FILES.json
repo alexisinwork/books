@@ -1,5 +1,5 @@
 {
-  "count_excluding_this_index": 6385,
+  "count_excluding_this_index": 6469,
   "scope": "Git-index delivery snapshot; unrelated unstaged and untracked work excluded.",
   "files": [
     {
@@ -3111,8 +3111,48 @@
       "bytes": 515
     },
     {
+      "path": "kontakt/books/book-01/audit/ensemble/ch29-20260922-sol-v1/astra-diagnosis.md",
+      "bytes": 8572
+    },
+    {
+      "path": "kontakt/books/book-01/audit/ensemble/ch29-20260922-sol-v1/author-decisions.md",
+      "bytes": 4975
+    },
+    {
+      "path": "kontakt/books/book-01/audit/ensemble/ch29-20260922-sol-v1/claude-diagnosis.md",
+      "bytes": 17927
+    },
+    {
+      "path": "kontakt/books/book-01/audit/ensemble/ch29-20260922-sol-v1/gemini-blind-read.md",
+      "bytes": 8360
+    },
+    {
+      "path": "kontakt/books/book-01/audit/ensemble/ch29-20260922-sol-v1/gemini-flash-diagnosis.md",
+      "bytes": 9814
+    },
+    {
+      "path": "kontakt/books/book-01/audit/ensemble/ch29-20260922-sol-v1/issue-ledger.json",
+      "bytes": 28671
+    },
+    {
+      "path": "kontakt/books/book-01/audit/ensemble/ch29-20260922-sol-v1/reconciliation.md",
+      "bytes": 4283
+    },
+    {
+      "path": "kontakt/books/book-01/audit/ensemble/ch29-20260922-sol-v1/run.json",
+      "bytes": 2995
+    },
+    {
+      "path": "kontakt/books/book-01/audit/ensemble/ch29-20260922-sol-v1/terra-diagnosis.md",
+      "bytes": 5858
+    },
+    {
+      "path": "kontakt/books/book-01/audit/ensemble/ch29-20260922-sol-v1/verification.md",
+      "bytes": 588
+    },
+    {
       "path": "kontakt/books/book-01/audit/issues.json",
-      "bytes": 560548
+      "bytes": 582562
     },
     {
       "path": "kontakt/books/book-01/book.json",
@@ -3120,7 +3160,7 @@
     },
     {
       "path": "kontakt/books/book-01/brief.md",
-      "bytes": 6086
+      "bytes": 6277
     },
     {
       "path": "kontakt/books/book-01/characters.json",
@@ -10227,8 +10267,288 @@
       "bytes": 5139
     },
     {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/README.md",
+      "bytes": 782
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/anchors.json",
+      "bytes": 23420
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/chapter-29.md",
+      "bytes": 9341
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/chapter-29.preflight.md",
+      "bytes": 9244
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/coordinator-preflight-closure.json",
+      "bytes": 474
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/coordinator-preflight.json",
+      "bytes": 1089
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/flash-agy/REPORT.md",
+      "bytes": 9307
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/flash-agy/invocation.json",
+      "bytes": 3060
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/flash-agy/prompt.txt",
+      "bytes": 12699
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/flash-agy/runner.py",
+      "bytes": 9018
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/flash-agy/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/flash-agy/stdout.ndjson",
+      "bytes": 72697
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/language-qa.json",
+      "bytes": 1068
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/naturalness.json",
+      "bytes": 1177
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/opus-agy/REPORT.md",
+      "bytes": 17397
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/opus-agy/invocation.json",
+      "bytes": 3536
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/opus-agy/prompt.txt",
+      "bytes": 29184
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/opus-agy/runner.py",
+      "bytes": 9018
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/opus-agy/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/opus-agy/stdout.ndjson",
+      "bytes": 264200
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/opus-count-verification.json",
+      "bytes": 452
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/preflight-diff-verification.json",
+      "bytes": 549
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/pro-agy/REPORT.md",
+      "bytes": 7821
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/pro-agy/invocation.json",
+      "bytes": 3054
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/pro-agy/prompt.txt",
+      "bytes": 13305
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/pro-agy/runner.py",
+      "bytes": 9018
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/pro-agy/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/pro-agy/stdout.ndjson",
+      "bytes": 85032
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/prompts/flash.md",
+      "bytes": 1029
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/prompts/opus.md",
+      "bytes": 1037
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/prompts/pro.md",
+      "bytes": 1416
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/review-claims-validation.json",
+      "bytes": 3242
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/route-intro-history/CHAPTER-ROUTE.before.md",
+      "bytes": 6112
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/route-intro-history/changes.diff",
+      "bytes": 1698
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/route-intro-history/record.json",
+      "bytes": 490
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/s11-prerequisite-reading.json",
+      "bytes": 1102
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/terra-native/REPORT.md",
+      "bytes": 5236
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/terra-native/input-hashes-coordinator.json",
+      "bytes": 1825
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/terra-native/invocation.json",
+      "bytes": 1962
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/checks/verification.json",
+      "bytes": 3107
+    },
+    {
       "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/input-manifest.json",
       "bytes": 13839
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-before/kontakt/START_HERE.md",
+      "bytes": 915
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-before/kontakt/books/book-01/audit/issues.json",
+      "bytes": 560548
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-before/kontakt/books/book-01/book.json",
+      "bytes": 1785
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-before/kontakt/books/book-01/brief.md",
+      "bytes": 6086
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-before/kontakt/books/book-01/plan.md",
+      "bytes": 6452
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json",
+      "bytes": 10464
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/progress.json",
+      "bytes": 11158
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/working-volume.json",
+      "bytes": 10614
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-before/kontakt/books/book-01/revision-log.json",
+      "bytes": 27211
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-before/kontakt/books/book-01/session.md",
+      "bytes": 1065
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-before/kontakt/series/architecture-pass-01-status.json",
+      "bytes": 2135
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-changes.diff",
+      "bytes": 34427
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/metadata-changes.json",
+      "bytes": 4482
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/observed-state.json",
+      "bytes": 5794
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/preflight-changes.diff",
+      "bytes": 8419
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/reader/docx-check.json",
+      "bytes": 330
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/reader/docx-extracted.txt",
+      "bytes": 9329
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/reader/render/contact.png",
+      "bytes": 108308
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/reader/render/page-01.png",
+      "bytes": 89086
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/reader/render/page-02.png",
+      "bytes": 77592
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/reader/render/page-03.png",
+      "bytes": 50274
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/reader/render/pdf-extracted.txt",
+      "bytes": 9272
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/reader/render/preview-text.txt",
+      "bytes": 9328
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/reader/render/preview.pdf",
+      "bytes": 59513
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/reader/render/render-check.json",
+      "bytes": 784
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/reader/render/renderer.json",
+      "bytes": 196
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/reader/Контакт — глава 29 — чернетка.docx",
+      "bytes": 38849
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/writer-notes.md",
+      "bytes": 6858
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch29-sol-v1/writer-notes.preflight.md",
+      "bytes": 5051
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch30-sol-v1/input-manifest.json",
+      "bytes": 14261
     },
     {
       "path": "kontakt/books/book-01/end-state.json",
@@ -10359,6 +10679,10 @@
       "bytes": 7626
     },
     {
+      "path": "kontakt/books/book-01/execution/HANDOFF-CH30.md",
+      "bytes": 10396
+    },
+    {
       "path": "kontakt/books/book-01/execution/VOICE-CALIBRATION.md",
       "bytes": 2344
     },
@@ -10404,7 +10728,7 @@
     },
     {
       "path": "kontakt/books/book-01/plan.md",
-      "bytes": 6452
+      "bytes": 6643
     },
     {
       "path": "kontakt/books/book-01/production/2026-09-21-book01/BLOCK-16-20-AUDIT.md",
@@ -10415,12 +10739,16 @@
       "bytes": 10482
     },
     {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/BLOCK-26-30-PREFLIGHT.md",
+      "bytes": 5176
+    },
+    {
       "path": "kontakt/books/book-01/production/2026-09-21-book01/CARE-DEADLINE-S07-S11-PROPOSAL.md",
       "bytes": 7760
     },
     {
       "path": "kontakt/books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md",
-      "bytes": 6112
+      "bytes": 6203
     },
     {
       "path": "kontakt/books/book-01/production/2026-09-21-book01/FULL-VOLUME-AUDIT-PLAN.md",
@@ -10489,6 +10817,10 @@
     {
       "path": "kontakt/books/book-01/production/2026-09-21-book01/S10-POST-WINDOW-PREPARATION.md",
       "bytes": 5848
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/S11-EXIT-PREPARATION.md",
+      "bytes": 7846
     },
     {
       "path": "kontakt/books/book-01/production/2026-09-21-book01/authorization.md",
@@ -10948,7 +11280,7 @@
     },
     {
       "path": "kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json",
-      "bytes": 10464
+      "bytes": 10498
     },
     {
       "path": "kontakt/books/book-01/production/2026-09-21-book01/checkpoints/ch10-delivery.json",
@@ -11211,6 +11543,10 @@
       "bytes": 18815
     },
     {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/checks/ch29-desktop-delivery.json",
+      "bytes": 20542
+    },
+    {
       "path": "kontakt/books/book-01/production/2026-09-21-book01/checks/chapter-reader-role-prep/README.md",
       "bytes": 639
     },
@@ -11376,7 +11712,7 @@
     },
     {
       "path": "kontakt/books/book-01/production/2026-09-21-book01/progress.json",
-      "bytes": 11158
+      "bytes": 11530
     },
     {
       "path": "kontakt/books/book-01/production/2026-09-21-book01/readers/chapters-01-15/README.md",
@@ -12484,7 +12820,7 @@
     },
     {
       "path": "kontakt/books/book-01/production/2026-09-21-book01/working-volume.json",
-      "bytes": 10614
+      "bytes": 10986
     },
     {
       "path": "kontakt/books/book-01/promises.json",
@@ -12512,7 +12848,7 @@
     },
     {
       "path": "kontakt/books/book-01/revision-log.json",
-      "bytes": 27211
+      "bytes": 28147
     },
     {
       "path": "kontakt/books/book-01/scenes.json",
