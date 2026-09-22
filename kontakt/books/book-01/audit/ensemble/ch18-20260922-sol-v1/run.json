@@ -1,0 +1,83 @@
+{
+  "schema_version": 3,
+  "run_id": "ch18-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "created_at": "2026-09-22T14:33:03+00:00",
+  "status": "reconciled",
+  "language": "uk",
+  "required_diagnoses": [
+    "astra",
+    "terra",
+    "gemini_flash",
+    "gemini"
+  ],
+  "review_policy_basis": "kontakt/books/book-01/production/2026-09-21-book01/REVIEW-POLICY-2026-09-22.md",
+  "source": {
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch18-sol-v1/chapter-18.md",
+    "sha256": "dcb75546b175bd3030fb703e9f2e9dddef1209df5dbd34f94d47dc56a4e4598a",
+    "status": "explicit",
+    "authority": "explicit task source"
+  },
+  "reader": {
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch18-sol-v1/chapter-18.md",
+    "sha256": "dcb75546b175bd3030fb703e9f2e9dddef1209df5dbd34f94d47dc56a4e4598a",
+    "relation": "supplied_reader_projection"
+  },
+  "independence": {
+    "astra": "must not read current Claude or Gemini reports before lock",
+    "claude": "must not read current Astra or Gemini reports before lock",
+    "terra": "independent literary diagnosis; no current peer reports before lock",
+    "gemini_flash": "independent full-text literary/continuity analysis; no current peer reports",
+    "gemini": "isolated packet only; no repository canon, audits or change hints"
+  },
+  "reports": {
+    "astra": {
+      "file": "astra-diagnosis.md",
+      "status": "locked",
+      "sha256": "3bfef11551a0cc5905dff2f7f38b11def96dea5bb1a46e634ab56ae9c2378a6f",
+      "locked_at": "2026-09-22T14:34:53+00:00"
+    },
+    "terra": {
+      "file": "terra-diagnosis.md",
+      "status": "locked",
+      "sha256": "a8f0d5c16a3e65c7976dbff80cdd34bdaac9f12652a31ee75ac4ba2753b74453",
+      "locked_at": "2026-09-22T14:37:44+00:00"
+    },
+    "gemini_flash": {
+      "file": "gemini-flash-diagnosis.md",
+      "status": "locked",
+      "sha256": "c314e15b6e9318565ae5d81697690c31efa09df540e7f16ee97f581dd914ef6e",
+      "locked_at": "2026-09-22T14:36:01+00:00"
+    },
+    "gemini": {
+      "file": "gemini-blind-read.md",
+      "status": "locked",
+      "sha256": "aef311993a33866c14bb824ac4f30e922d143eadcb7b85f6a363a992902ac5bd",
+      "locked_at": "2026-09-22T14:36:01+00:00"
+    },
+    "reconciliation": {
+      "file": "reconciliation.md",
+      "status": "locked",
+      "sha256": "c24ed1f9bfc655d75c2520e2a31f7c4d37c9d4cc46785e907e9cb0b995cb612c",
+      "locked_at": "2026-09-22T14:41:36+00:00"
+    },
+    "verification": {
+      "file": "verification.md",
+      "status": "draft",
+      "sha256": null
+    },
+    "claude": {
+      "file": "claude-diagnosis.md",
+      "status": "locked",
+      "sha256": "b7a199c985532eaf1f25e7182bb4317bdef2ba0173ac8d1eda5eddfa7393778f",
+      "locked_at": "2026-09-22T14:40:07+00:00"
+    }
+  },
+  "author_decisions": {
+    "file": "author-decisions.md",
+    "status": "draft",
+    "sha256": null
+  },
+  "issue_ledger": "issue-ledger.json"
+}

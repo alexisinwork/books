@@ -1,0 +1,61 @@
+{
+  "source_sha256": "dcb75546b175bd3030fb703e9f2e9dddef1209df5dbd34f94d47dc56a4e4598a",
+  "status": "required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "FullCH18,43blocks,605lexical tokens; not global audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "3bfef11551a0cc5905dff2f7f38b11def96dea5bb1a46e634ab56ae9c2378a6f",
+    "terra": "a8f0d5c16a3e65c7976dbff80cdd34bdaac9f12652a31ee75ac4ba2753b74453",
+    "gemini_flash": "c314e15b6e9318565ae5d81697690c31efa09df540e7f16ee97f581dd914ef6e",
+    "gemini": "aef311993a33866c14bb824ac4f30e922d143eadcb7b85f6a363a992902ac5bd"
+  },
+  "additional_opus": "b7a199c985532eaf1f25e7182bb4317bdef2ba0173ac8d1eda5eddfa7393778f",
+  "reconciliation": "c24ed1f9bfc655d75c2520e2a31f7c4d37c9d4cc46785e907e9cb0b995cb612c",
+  "missing": [],
+  "verdicts": {
+    "astra": "Structurally functional;5pending concerns",
+    "terra": "PASS_WITH_NOTES",
+    "gemini_flash": "PASS",
+    "gemini": "Positive isolated reader diary",
+    "claude_optional": "PASS"
+  },
+  "language_scans": "No configured signals; independent grammar checker not run",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "405a9280fdc6a8670d8e9ea56a0db4cadfb1ee4b76c75d6eaf8259c17da23c2a",
+    "pages": 2,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 379,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 234,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 2
+      }
+    ],
+    "visual_review": "All2pages inspected; complete text, readable layout, no clipping/blank pages; page2 begins Ballast card paragraph."
+  },
+  "schema_instances": "Draft202012Validator run and ledger PASS",
+  "remaining": [
+    "12pending author decisions",
+    "CH19 onward and full-volume audit"
+  ],
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  }
+}

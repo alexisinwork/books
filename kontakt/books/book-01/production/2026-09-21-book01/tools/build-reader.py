@@ -36,7 +36,7 @@ for i, block in enumerate(blocks, 1):
     quoted = clean.startswith('> ')
     if quoted: clean = re.sub(r'^>\s?', '', clean, flags=re.M)
     p = doc.add_paragraph(style='Heading 1' if heading else 'Normal')
-    if args.title and heading and i>1: p.paragraph_format.page_break_before = True
+    if args.title and block.startswith('# ') and i>1: p.paragraph_format.page_break_before = True
     if quoted:
         p.paragraph_format.left_indent = Cm(.6)
         p.paragraph_format.right_indent = Cm(.6)

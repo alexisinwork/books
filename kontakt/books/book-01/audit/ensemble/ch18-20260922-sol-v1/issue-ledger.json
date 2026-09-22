@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "run_id": "ch18-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "dcb75546b175bd3030fb703e9f2e9dddef1209df5dbd34f94d47dc56a4e4598a",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "claude",
+        "terra",
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "voice",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "18",
+          "anchor": "P0020",
+          "quote": "Гор теж не був шляхом до Майї. Я сказав йому, що відмовляюся від його мети. Частина мене, виявилося, вже встигла перетворити цю відмову на щось, про що Майя мала дізнатися й після чого відкрити хоча б один рядок."
+        },
+        {
+          "chapter": "18",
+          "anchor": "P0022",
+          "quote": "Це мало б полегшити прийняття її межі. Натомість образило мене так, наче правильний вчинок лишився без свідка."
+        },
+        {
+          "chapter": "18",
+          "anchor": "P0032",
+          "quote": "Він знову робив Тихона інструментом, а мене — випадком, який треба правильно виміряти."
+        }
+      ],
+      "observation": "Швидкість точного етичного самопояснення: Astra/Opus бачать ризик, інші цінують саморефлексію.",
+      "reader_effect": "Clarity, voice and cumulative narrative rhythm.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Порівняти економію пояснень із тілесною паузою; не додавати жест за квотою."
+      ],
+      "dependencies": [
+        "CH18 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra",
+        "claude",
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "18",
+          "anchor": "P0031",
+          "quote": "> Мені потрібна ваша оцінка."
+        },
+        {
+          "chapter": "18",
+          "anchor": "P0033",
+          "quote": "Я стер рядок і написав:"
+        },
+        {
+          "chapter": "18",
+          "anchor": "P0034",
+          "quote": "> Я порушив межу під час роботи. Тепер ця робота зупинилася, а я не знаю, як повернутися до іншої, не вдаючи, що нічого не сталося. Чи можете поговорити зі мною сьогодні? Про мою роботу. Без чужих матеріалів."
+        },
+        {
+          "chapter": "18",
+          "anchor": "P0041",
+          "quote": "У розкладі з’явилася розмова з Тихоном. Система запропонувала мету: «консультація щодо складного випадку»."
+        },
+        {
+          "chapter": "18",
+          "anchor": "P0042",
+          "quote": "Я видалив її."
+        },
+        {
+          "chapter": "18",
+          "anchor": "P0043",
+          "quote": "Написав: «Моя робота»."
+        }
+      ],
+      "observation": "Стирання фрази й редагування календарної мети повторюють композиційний прийом попередніх глав; ізольовані читачі цінують фінал.",
+      "reader_effect": "Clarity, voice and cumulative narrative rhythm.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Оцінити накопичення в блоці; зберегти реальну домовленість із Тихоном."
+      ],
+      "dependencies": [
+        "CH18 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "18",
+          "anchor": "P0025",
+          "quote": "На столі лишався відкритий розклад. Наступна планова робота починалася за сімнадцять хвилин. Я міг підготувати її за п’ять."
+        },
+        {
+          "chapter": "18",
+          "anchor": "P0034",
+          "quote": "> Я порушив межу під час роботи. Тепер ця робота зупинилася, а я не знаю, як повернутися до іншої, не вдаючи, що нічого не сталося. Чи можете поговорити зі мною сьогодні? Про мою роботу. Без чужих матеріалів."
+        },
+        {
+          "chapter": "18",
+          "anchor": "P0037",
+          "quote": "До наступної перевірки лишалося одинадцять хвилин. Я відкрив її план, прочитав мету й підготував чистий сеанс. Коли надійшла відповідь Тихона, не згорнув роботу посеред дії. Дочекався, доки підготовка буде завершена, й тільки тоді прочитав."
+        }
+      ],
+      "observation": "Повернення до іншої роботи може помилково читатися як втрачена здатність, хоч герой вже працює.",
+      "reader_effect": "Clarity, voice and cumulative narrative rhythm.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Утримати етичний сенс «не вдаючи»; не ретконити професійну неспроможність."
+      ],
+      "dependencies": [
+        "CH18 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "18",
+          "anchor": "P0023",
+          "quote": "Я встав і пройшов до вікна. Внизу сервісний візок зупинився біля переходу, дочекався зеленого сигналу й рушив далі. Ніхто не перевіряв, чи заслужив він дорогу."
+        },
+        {
+          "chapter": "18",
+          "anchor": "P0024",
+          "quote": "Порівняння було дурне. Я все одно стояв біля скла, доки візок не зник за рогом."
+        }
+      ],
+      "observation": "Візок схожий на підставлену притчу; самоспростування для інших робить її живою.",
+      "reader_effect": "Clarity, voice and cumulative narrative rhythm.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Авторський вибір незграбного порівняння як характеру або економії коментаря."
+      ],
+      "dependencies": [
+        "CH18 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "astra",
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "18",
+          "anchor": "P0026",
+          "quote": "Картка Баласта лежала закритою біля краю екрана. Якби я відкрив її, він допоміг би сформулювати звернення, поставити нагадування або розкласти вільні хвилини на дії. Усе це було б корисно."
+        },
+        {
+          "chapter": "18",
+          "anchor": "P0027",
+          "quote": "Я посунув картку далі від руки."
+        }
+      ],
+      "observation": "Фізичні дієслова картки та перехід вона/він можуть змішатиUIі предмет; інші читають прозоро.",
+      "reader_effect": "Clarity, voice and cumulative narrative rhythm.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Перевірити предметність, не перетворювати прозу на інструкцію інтерфейсу."
+      ],
+      "dependencies": [
+        "CH18 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "terra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "18",
+          "anchor": "P0012",
+          "quote": "Відправницю було підтверджено особисто. Вона не відповідала на вчорашній запит — той уже завершився архівною копією. Це було нове повідомлення."
+        }
+      ],
+      "observation": "«Відправницю було підтверджено особисто» не називає того, хто підтверджує.",
+      "reader_effect": "Clarity, voice and cumulative narrative rhythm.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "За потреби уточнити Майїне авторство підтвердження, без зміни її власного рішення."
+      ],
+      "dependencies": [
+        "CH18 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "terra",
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "18",
+          "anchor": "P0020",
+          "quote": "Гор теж не був шляхом до Майї. Я сказав йому, що відмовляюся від його мети. Частина мене, виявилося, вже встигла перетворити цю відмову на щось, про що Майя мала дізнатися й після чого відкрити хоча б один рядок."
+        }
+      ],
+      "observation": "Довгий ланцюг підрядних сповільнює прочитання, але передає раціоналізацію.",
+      "reader_effect": "Clarity, voice and cumulative narrative rhythm.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Зберегти або спростити останній зв’язок; граматична помилка не підтверджена."
+      ],
+      "dependencies": [
+        "CH18 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "18",
+          "anchor": "P0008",
+          "quote": "Я вимкнув повтор і попередження, але не сам датчик. Клієнт пройшов двері в обидва боки, потім ще раз із сумкою в руці. Підказка прозвучала один раз. Він не зупинився."
+        }
+      ],
+      "observation": "«Пройшов двері» — стислий фаховий вислів або незручна сполучуваність.",
+      "reader_effect": "Clarity, voice and cumulative narrative rhythm.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Розглянути «крізь двері»; не оголошувати професійний регістр нормативною помилкою."
+      ],
+      "dependencies": [
+        "CH18 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "18",
+          "anchor": "P0011",
+          "quote": "Повідомлення Майї чекало в маршруті через її супровід."
+        }
+      ],
+      "observation": "Маршрут як канал може вимагати контексту для ізольованого читача.",
+      "reader_effect": "Clarity, voice and cumulative narrative rhythm.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Вживання вже є17P8; оцінити наскрізно, не додавати повторне пояснення автоматично."
+      ],
+      "dependencies": [
+        "CH18 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "18",
+          "anchor": "P0010",
+          "quote": "Я зберіг його налаштування, закрив доступ і надіслав короткий підсумок. Робота зайняла менше часу, ніж було відведено. У розкладі лишилося двадцять дві вільні хвилини."
+        }
+      ],
+      "observation": "Об’єкт «закрив доступ» не названий безпосередньо.",
+      "reader_effect": "Clarity, voice and cumulative narrative rhythm.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Контекст завершення робочого сеансу підтримує доступДаля; за потреби уточнити."
+      ],
+      "dependencies": [
+        "CH18 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "18",
+          "anchor": "P0019",
+          "quote": "Архівна копія лишалася в моєму списку закритою. Я не відкрив її знову. Чотири записи не містили відповіді на сьогоднішнє повідомлення й не давали права створити запит в іншому місці."
+        }
+      ],
+      "observation": "Мова архіву й прав у внутрішній думці наближається до юридичної довідки.",
+      "reader_effect": "Clarity, voice and cumulative narrative rhythm.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Зберегти функцію перевірки власної лазівки або зробити одне заперечення дієвим."
+      ],
+      "dependencies": [
+        "CH18 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-012",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "18",
+          "anchor": "P0037",
+          "quote": "До наступної перевірки лишалося одинадцять хвилин. Я відкрив її план, прочитав мету й підготував чистий сеанс. Коли надійшла відповідь Тихона, не згорнув роботу посеред дії. Дочекався, доки підготовка буде завершена, й тільки тоді прочитав."
+        }
+      ],
+      "observation": "Ритмічна пропозиція «тоді й прочитав» має помилкове обґрунтування про наголошений складй.",
+      "reader_effect": "Clarity, voice and cumulative narrative rhythm.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Відокремити смак читання вголос від недостовірного фонетичного пояснення."
+      ],
+      "dependencies": [
+        "CH18 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

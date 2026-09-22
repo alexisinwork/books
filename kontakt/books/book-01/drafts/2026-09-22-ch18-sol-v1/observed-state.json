@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "status": "observed_candidate_not_canonical",
+  "chapter": 18,
+  "source": {
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch18-sol-v1/chapter-18.md",
+    "sha256": "dcb75546b175bd3030fb703e9f2e9dddef1209df5dbd34f94d47dc56a4e4598a"
+  },
+  "coverage": "P0001-P0043, full source",
+  "time": {
+    "day": "D8",
+    "basis": "Next day after17",
+    "morning_intervals": "22min free then17 then11 before next work;5and6 elapsed; exact clock unknown",
+    "next_agreement": "D8 18:30 Tikhon work channel, accepted, not yet occurred"
+  },
+  "events": [
+    {
+      "anchors": [
+        "P0002",
+        "P0007",
+        "P0008",
+        "P0010"
+      ],
+      "fact": "Navigation client asks one direction cue, remove repeats/warning. Dal changes cues, keeps sensor, tests both directions and with bag; successful normal work, saves/closes access."
+    },
+    {
+      "anchors": [
+        "P0012",
+        "P0013",
+        "P0014"
+      ],
+      "fact": "Maya personally confirms new message: archive last material for now; no new requests for further work via support, she will initiate if wanting continuation; no reply needed, she marks completed, reply field absent."
+    },
+    {
+      "anchors": [
+        "P0015",
+        "P0016",
+        "P0017",
+        "P0018",
+        "P0019"
+      ],
+      "fact": "Dal stops finger, cannot put correct words into absent field; does not reopen retained closed archive or create alternative request."
+    },
+    {
+      "anchors": [
+        "P0020",
+        "P0021",
+        "P0022",
+        "P0023",
+        "P0024"
+      ],
+      "fact": "Recognizes wish Maya would know his rejection of Gor and reward it with a response; explicitly does not know whether she heard. Feels affronted; watches service cart, calls own analogy stupid."
+    },
+    {
+      "anchors": [
+        "P0026",
+        "P0027"
+      ],
+      "fact": "Ballast card remains closed; Dal only imagines useful support and moves card away, no actual activation."
+    },
+    {
+      "anchors": [
+        "P0028",
+        "P0031",
+        "P0033",
+        "P0034",
+        "P0035",
+        "P0036"
+      ],
+      "fact": "Dal had not written Tikhon since shared conversation8; sent him no breach/archive/yesterday correspondence. Replaces unsent assessment request with own admission: breached a boundary, that work stopped, wants talk about own work without others materials. Sends no attachments."
+    },
+    {
+      "anchors": [
+        "P0037",
+        "P0038",
+        "P0039",
+        "P0040",
+        "P0041",
+        "P0042",
+        "P0043"
+      ],
+      "fact": "Prepares next clean work session before reading Tikhon response. Tikhon offers today18:30ownworkchannel,no materials,tell ownactions;2participant invitation accepted. Calendar suggested complex-case consultation replaced with My work."
+    }
+  ],
+  "knowledge": {
+    "Dal": "Own boundary breach, retained archive17, Maya closes further requests18. Does not know whether Maya heard Gor conversation. Does not assert no one else informed Tikhon.",
+    "Maya": "Her own new boundary and decision; no proof of receiving Dal-Gor exchange; no future window grant.",
+    "Tikhon_new": "Dal own message34 admits boundary breach and stopped work, asks help returning to other work without pretending nothing happened. No attachments, exact parameter values, Maya messages or archive supplied. Contextual inference possible, not omniscience.",
+    "Gor": "No new interaction18; prior knowledge17 unchanged.",
+    "Ballast": "No active new access; capabilities imagined conditionally."
+  },
+  "access": {
+    "Maya": "No live profile/window/direct talk; even new further-work requests via chosen support closed until her initiative",
+    "archive": "Retained closed copy, not reopened; no expiry/delete/revocation established",
+    "Tikhon": "Own professional channel and accepted2person futuremeeting; no Maya case/data access",
+    "client": "Ordinary navigation grant used and closed"
+  },
+  "resources": {
+    "work_permissions": "still active; successful job and next preparation",
+    "resonance": "R1 unchanged",
+    "M05": "unresolved, not introduced"
+  },
+  "future_dependencies": [
+    {
+      "id": "CH18-MAYA-REOPEN",
+      "status": "unresolved_for_future_prose",
+      "depends_on": "CH21 and later windows",
+      "rule": "New Maya initiative/permission required before Dal asks continuation conditions; cannot use closed route by default."
+    },
+    {
+      "id": "CH19-MEETING",
+      "status": "accepted_future_appointment",
+      "when": "D8 18:30",
+      "where": "Tikhon work channel",
+      "participants": [
+        "Dal",
+        "Tikhon"
+      ],
+      "topic": "Dal own actions/work, no others materials"
+    }
+  ],
+  "not_yet_events": [
+    "Tikhon consultation19",
+    "Gor care complaint20",
+    "Mandatory recalibration deadline",
+    "Maya continuation conditions21",
+    "Nina/S08",
+    "Global audit"
+  ],
+  "new_draft_local_details": [
+    "Navigation client/cues/sensor/test",
+    "22-17-11minutes sequence",
+    "Personally confirmed closure with absent replyfield",
+    "Servicecart at crossing",
+    "Tikhon18:30invite and calendar title"
+  ],
+  "remaining": [
+    "Author decisions pending",
+    "M05 setup before later payoff",
+    "Whole volume incomplete"
+  ]
+}
