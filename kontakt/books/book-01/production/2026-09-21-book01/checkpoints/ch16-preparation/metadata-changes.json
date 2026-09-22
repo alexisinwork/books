@@ -1,0 +1,16 @@
+[
+  {
+    "path": "kontakt/books/book-01/audit/issues.json",
+    "before_path": "kontakt/books/book-01/production/2026-09-21-book01/checkpoints/ch16-preparation/before/kontakt/books/book-01/audit/issues.json",
+    "before_sha256": "79d0822a36510f60c18b75853fe3c971ab886387ecf047cea4e58a38bf094da4",
+    "after_sha256": "d4be659b7018ff72f7e504237bd0aeebd89c3c6966c4fad493b7d51e087060e5",
+    "diff": "--- HEAD/kontakt/books/book-01/audit/issues.json\n+++ kontakt/books/book-01/audit/issues.json\n@@ -4738,6 +4738,21 @@\n         \"whole-volume audit\"\n       ],\n       \"evidence\": \"production/2026-09-21-book01/block-audits/chapters-11-15/REPORT.md\"\n+    },\n+    {\n+      \"id\": \"CH16-PLANNED-PROXY-SCOPE\",\n+      \"category\": \"canon\",\n+      \"severity\": \"moderate\",\n+      \"certainty\": \"hypothesis\",\n+      \"observation\": \"Exact historical delegation wording and record IDs are not established; CH16 may propose bounded draft-local realization of S06/K04, never current broad access. Exact dates and full informed understanding remain unknown.\",\n+      \"decision\": \"proposed\",\n+      \"resolution_status\": \"unresolved\",\n+      \"dependencies\": [\n+        \"execution/HANDOFF-CH16.md\",\n+        \"CH16 document\",\n+        \"CH17 lawful access\"\n+      ],\n+      \"evidence\": \"BOOK-01-ARCHITECTURE-LOCK.md S06; knowledge.planned.json K04\"\n     }\n   ]\n }\n"
+  },
+  {
+    "path": "kontakt/books/book-01/production/2026-09-21-book01/progress.json",
+    "before_path": "kontakt/books/book-01/production/2026-09-21-book01/checkpoints/ch16-preparation/before/kontakt/books/book-01/production/2026-09-21-book01/progress.json",
+    "before_sha256": "d637d3658eebd4fdd80c1c0d94df7333f8830e2f6745393834dcf79de7883a9b",
+    "after_sha256": "18a3e624211943bc9f0be9eda4cda5778e56d5243aeb297b4c1c805d1286e83f",
+    "diff": "--- HEAD/kontakt/books/book-01/production/2026-09-21-book01/progress.json\n+++ kontakt/books/book-01/production/2026-09-21-book01/progress.json\n@@ -125,7 +125,7 @@\n     }\n   ],\n   \"current_chapter\": 16,\n-  \"current_stage\": \"prepare_ch16_handoff_and_reader_01_15\",\n+  \"current_stage\": \"chapter_16_writer_running_reader_01_15_delivery_pending\",\n   \"future_chapters\": \"macro architecture; progressively detailed before writing\",\n   \"global_audit\": \"not_run\",\n   \"last_block_review\": {\n"
+  }
+]
