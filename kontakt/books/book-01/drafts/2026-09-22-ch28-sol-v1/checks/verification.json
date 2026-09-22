@@ -1,0 +1,70 @@
+{
+  "source_sha256": "3958ef4b640508b7dd5750ca531278d80ccf1013f028b1e4440bb9bd9567d689",
+  "status": "required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "All81blocks;163physical/83nonemptylines;729lexicaltokens; not globalaudit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "a6070f0cf2d5d10f1cbe9dc14bc747315830e17f9bd3bc21b4197b706a2b6b74",
+    "terra": "4f963027f2d34df69a663e1ff64e0ecda88d2ad61e7e59e8245f892cbfebd1eb",
+    "gemini_flash": "043058230c585ad1aedaaa7236b8987afd996376a174d176622035a50e06b4ec",
+    "gemini": "9fe6a1dd015d72a06b1073737efbaccf39a64acce76c3867649d81df2d5c3c6f"
+  },
+  "optional_opus": "Not attempted28 during known quota26 under explicit user skip",
+  "reconciliation": "8b3ce95cfd1cf28cde80f156fbaedff43a3f9e42f654e839bffbfad42cd01baf",
+  "missing_required": [],
+  "verdicts": {
+    "astra": "Coherent S09closure; six proposals",
+    "terra": "Four local claims, semantic/idiomatic certainty qualified",
+    "gemini_flash": "PASS; punctuation suggestion; shared-terminal inference disproved by27",
+    "gemini": "Positive diary; irreversibility/unprotected future/acceptance are reactions"
+  },
+  "language_scans": "No configured signals; LanguageToolnotrun; native readingcomplete",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "433cf5ccf6cf27b2078b60d7acfcffa70ae38de4954bb2440f4fa8630c4cd95a",
+    "pages": 3,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 327,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 331,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 3,
+        "words": 131,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 3
+      }
+    ],
+    "visual_review": "All3 pages inspected in contact sheet; third is short131words, not blank. No clipping, consistent readable typography. Not native Word."
+  },
+  "preflight_diff": "Exact git diff --no-index ABSOLUTE Windows path reconstruction PASS; initial relative-path assumption failed, originaldiffpreserved",
+  "preflight_diff_sha256": "ebee338d0900395eb694cb8e54051b2f8369206433f7d9cf9612f4a3c10afe00",
+  "schema_instances": "run and ledger Draft202012Validator PASS",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selectedmasters expected"
+  },
+  "supporting_reread": "checks/s09-window-closure.json: all158blocks27–28 currentcycle",
+  "remaining": [
+    "12 pending author decisions",
+    "CH29 onward and full-volume audit"
+  ],
+  "independence": "Astra developer/preflight participation disclosed, locked first; freshTerra, targetonlyagypeers"
+}

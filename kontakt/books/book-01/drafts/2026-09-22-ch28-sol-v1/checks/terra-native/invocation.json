@@ -1,0 +1,68 @@
+{
+  "run_id": "ch28-20260922-sol-v1",
+  "role": "terra",
+  "status": "final",
+  "model": "gpt-5.6-terra native",
+  "source": {
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch28-sol-v1/chapter-28.md",
+    "sha256": "3958ef4b640508b7dd5750ca531278d80ccf1013f028b1e4440bb9bd9567d689"
+  },
+  "reader_sha256": "3958ef4b640508b7dd5750ca531278d80ccf1013f028b1e4440bb9bd9567d689",
+  "scope": {
+    "mode": "scoped_target_plus_guidance",
+    "target_blocks": {
+      "read": 81,
+      "total": 81,
+      "anchors": "P00001-P00081",
+      "unit": "non-empty blank-line-separated blocks"
+    },
+    "last_paragraph": "Я вийшов у коридор. Двері зачинилися за мною. У сумці більше не було жодного керування її сеансом."
+  },
+  "allowed_inputs_read": [
+    {
+      "path": ".agents/skills/book-language-review/SKILL.md",
+      "sha256": "472df890365cabebc652b868ca62ef90f66f1c8a9fcf7475947038ab4f9294cc"
+    },
+    {
+      "path": "kontakt/books/book-01/execution/HANDOFF-CH28.md",
+      "sha256": "cbea92bf8d16c72d3aa9b671d9f10f7168b2dad3379b6775ed4db859559fa433"
+    },
+    {
+      "path": "kontakt/books/book-01/voice.json",
+      "sha256": "0daed170751ea9d5c8a7f8fd4bfc06309feb62e0cb0cbb057d0f2e2202c424d7"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "sha256": "a22dce300a430f1fef40358476aa436620d234cafb8ced1082e8e901e3dd14e5"
+    }
+  ],
+  "excluded_inputs": [
+    "other chapter prose",
+    "writer notes",
+    "checks",
+    "ledgers",
+    "peer reports",
+    "canon",
+    "source-language prose"
+  ],
+  "methods": [
+    "full manual literary reading",
+    "full manual Ukrainian naturalness reading"
+  ],
+  "automated_language_scan": {
+    "run": false,
+    "reason": "No scan was needed for the scoped manual review."
+  },
+  "limitations": "This is not strict target-only: permitted handoff, voice profile, and Ukrainian guidance were read alongside the target. It does not decide authorial acceptance or assess material outside those inputs.",
+  "findings": {
+    "confirmed_defect": 4,
+    "contextual_style_choice": 1,
+    "already_correct": 1,
+    "preserve_for_function": 3,
+    "unresolved": 0
+  }
+}

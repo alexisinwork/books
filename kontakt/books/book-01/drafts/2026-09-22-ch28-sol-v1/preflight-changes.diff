@@ -1,0 +1,80 @@
+diff --git "a/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch28-sol-v1\\chapter-28.preflight.md" "b/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch28-sol-v1\\chapter-28.md"
+index c1dc05a..dc341c9 100644
+--- "a/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch28-sol-v1\\chapter-28.preflight.md"
++++ "b/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch28-sol-v1\\chapter-28.md"
+@@ -30,7 +30,7 @@
+ 
+ — Навіть тепер.
+ 
+-Майя кивнула один раз. Не на знак згоди — вона просто перестала чекати продовження.
++Майя кивнула один раз. Я не прийняв це за згоду. Вона нічого не додала.
+ 
+ Я міг додати, що не натисну замість неї. Уже сказав це дією й не мав перетворювати невикористане порушення на свою чесноту.
+ 
+@@ -112,7 +112,7 @@
+ 
+ — Завершити вікно, — сказала вона.
+ 
+-Її голосова зупинка спрацювала на 04:52. До жорсткої межі лишалося три хвилини й вісім секунд.
++Її голосова зупинка спрацювала на 05:42. До жорсткої межі лишалося дві хвилини й вісімнадцять секунд.
+ 
+ Прямий канал закрився. Лічильник зупинився. Старий стан повернення не застосувався.
+ 
+diff --git "a/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch28-sol-v1\\writer-notes.preflight.md" "b/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch28-sol-v1\\writer-notes.md"
+index c5288aa..5c3e2ac 100644
+--- "a/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch28-sol-v1\\writer-notes.preflight.md"
++++ "b/C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-01\\drafts\\2026-09-22-ch28-sol-v1\\writer-notes.md"
+@@ -2,7 +2,7 @@
+ 
+ ## Status
+ 
+-- First-save working source before writer self-check and coordinator factual preflight.
++- Draft-local source prepared for freeze after writer self-check and coordinator factual preflight.
+ - Language/POV: Ukrainian, Dal first person, past tense.
+ - Scope: CH28 only; CH29 not started.
+ - Input manifest: 68/68 files verified by SHA-256 and byte size before drafting.
+@@ -22,7 +22,7 @@
+ - Same D10 kitchen window from CH27; no second launch and no timer reset.
+ - Entry state: 18:31:47, elapsed `01:47` / 107 seconds, remaining `06:13` / 373 seconds, hard end 18:38.
+ - At elapsed `04:36` (18:34:36), Maya begins her separate persistent-off confirmation; remaining `03:24`.
+-- Maya independently ends the window by the already-confirmed voice stop at elapsed `04:52` (18:34:52); remaining unused time `03:08`.
++- Maya independently ends the window by the already-confirmed voice stop at elapsed `05:42` (18:35:42); remaining unused time `02:18`.
+ - Service verification and conversation continue after the direct window is closed. Exact apartment-departure time is not specified.
+ 
+ ## Maya's separate action
+@@ -43,7 +43,7 @@
+ ## Closure and final service state
+ 
+ - Maya's own confirmation changes the final state for this session to emotional mediation off + utility active.
+-- The old fresh baseline remains in session history but no longer governs closure; Maya's voice stop at `04:52` does not restore active mediation.
++- The old fresh baseline remains in session history but no longer governs closure; Maya's voice stop at `05:42` does not restore active mediation.
+ - The direct channel and timer close. Manual return, manual final-write, and both service confirmations disappear; the one-session operator contour closes completely.
+ - Final visible verification: `Emotional mediation: disabled by user`; `Utility functions: active`.
+ - Read-only access stays closed. Dal has no message, addressee, history, rules, or persistent-control access after closure.
+@@ -66,14 +66,22 @@
+ ## Draft-local details
+ 
+ - Exact wording of Maya's persistent-off confirmation and service-result rows.
+-- Exact early stop at elapsed `04:52` and service behavior after her selected final state.
++- Exact early stop at elapsed `05:42` and service behavior after her selected final state.
+ - The manual final-write deactivates after Maya's own confirmed state; all one-session operator controls close on voice stop.
+ 
+ ## Preflight history
+ 
+-- First save to be preserved before self-check.
+-- Exact post-first-save changes: pending.
++- First save preserved as `chapter-28.preflight.md`, SHA-256 `a32028fb89d9c3616ad06ad018821e241d543fcc48c0f86d045774a7c7fc00f7`, and `writer-notes.preflight.md`, SHA-256 `0ddc77dee2f203b9b2ef1df9a1b33bee60c2dccd148e7f634a6ccc7f6b439d6d`.
++- Coordinator factual preflight and writer self-check changes: expanded the interval between Maya opening persistent control at `04:36` and voice-stop closure to `05:42`, leaving time for the shown reading and confirmations; narrowed Dal's reading of Maya's nod to his own refusal to treat it as consent plus the observable fact that she adds nothing.
++- The draft-local service rule is explicit: Dal's unauthorized final-write remains active and untouched until Maya's own confirmation; her confirmation then deactivates it before she closes the window.
++- Exact unified diff saved as `preflight-changes.diff`.
+ 
+ ## Self-check
+ 
+-- Pending after first save.
++- Timer arithmetic: entry `01:47` / 107 seconds; persistent-control marker `04:36` / 276 seconds; voice stop `05:42` / 342 seconds; remaining `02:18` / 138 seconds; `342 + 138 = 480`.
++- One continuous window only; no new launch, no reset, and hard end remains 18:38.
++- Permission/action: Maya speaks and touches her own persistent-off confirmation; Dal never infers consent from silence or gesture and never uses final-write.
++- Closure: Maya's independent voice stop ends the window; old baseline is not restored; one-session controls close; visible final state is relational-off + utility-active.
++- Access/knowledge: read-only remains closed; no message/addressee/history is exposed; no data reaches Gor, Tikhon, care, or Ballast.
++- Human limits: no healing, awakening, future meeting, housing choice, care outcome, professional-rights loss, R2, or Nina/S12 advance.
++- Final location: meeting closed; Dal is outside Maya's apartment in the building corridor.

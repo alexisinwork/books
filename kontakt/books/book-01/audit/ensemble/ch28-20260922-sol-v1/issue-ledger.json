@@ -1,0 +1,599 @@
+{
+  "schema_version": 1,
+  "run_id": "ch28-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "3958ef4b640508b7dd5750ca531278d80ccf1013f028b1e4440bb9bd9567d689",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "28",
+          "anchor": "P00020",
+          "quote": "— Якщо я вимкну посередництво й одразу завершу вікно, що буде постійним? — спитала Майя."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00025",
+          "quote": "— Бо не закінчиться разом із цим вікном і не відкотиться сама. Не тому, що ви втрачаєте право змінити її пізніше."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00030",
+          "quote": "— Хочу. Але дія може означати тільки те, що написано: посередництво не повернеться автоматично. Вашого майбутнього вона не визначає."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00064",
+          "quote": "— Воно вже не повернеться о 18:38? — спитала вона."
+        }
+      ],
+      "observation": "Astra/Pro бачать сповільнення через повтор пояснень; Terra/Flash функціональну напругу.",
+      "reader_effect": "Clarity, scene force, voice or pacing as stated; not author intent.",
+      "evidence": "Four locked diagnoses and checks/review-claims-validation.json; exact source28 and permitted coordinator comparison27.",
+      "proposed_actions": [
+        "Оцінити весь25–28 FAQ, зберігши різницю persistent/irreversible."
+      ],
+      "dependencies": [
+        "Future author-authorized CH28 revision",
+        "S09 closure / S10 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra",
+        "gemini"
+      ],
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "28",
+          "anchor": "P00014",
+          "quote": "— Бо я прийшов сюди за цим результатом, — сказав я."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00028",
+          "quote": "— Тоді не обирайте назавжди."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00030",
+          "quote": "— Хочу. Але дія може означати тільки те, що написано: посередництво не повернеться автоматично. Вашого майбутнього вона не визначає."
+        }
+      ],
+      "observation": "Визнання бажаного результату й не обирайте назавжди можуть читатися як чесність або м’який тиск.",
+      "reader_effect": "Clarity, scene force, voice or pacing as stated; not author intent.",
+      "evidence": "Four locked diagnoses and checks/review-claims-validation.json; exact source28 and permitted coordinator comparison27.",
+      "proposed_actions": [
+        "Зберегти суперечністьДаля для S11; не вважати бажання здійсненим примусом."
+      ],
+      "dependencies": [
+        "Future author-authorized CH28 revision",
+        "S09 closure / S10 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "convergent",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "28",
+          "anchor": "P00018",
+          "quote": "Я міг додати, що не натисну замість неї. Уже сказав це дією й не мав перетворювати невикористане порушення на свою чесноту."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00040",
+          "quote": "— Я можу втримати вікно. Повтор можете вимкнути ви."
+        }
+      ],
+      "observation": "Відшліфовані етичні формули сильні локально, можуть накопичуватись у голосі.",
+      "reader_effect": "Clarity, scene force, voice or pacing as stated; not author intent.",
+      "evidence": "Four locked diagnoses and checks/review-claims-validation.json; exact source28 and permitted coordinator comparison27.",
+      "proposed_actions": [
+        "Оцінити серійність таких висновків у повному томі."
+      ],
+      "dependencies": [
+        "Future author-authorized CH28 revision",
+        "S09 closure / S10 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "28",
+          "anchor": "P00041",
+          "quote": "— А решта лишиться моєю."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00042",
+          "quote": "Я не знав, чи йшлося про мовчання, страх або людину з іншого боку."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00043",
+          "quote": "— Так, — сказав я."
+        }
+      ],
+      "observation": "Даль не знає точного значення решти, але відповідає Так; відкритість може бути людською або професійно неоднозначною.",
+      "reader_effect": "Clarity, scene force, voice or pacing as stated; not author intent.",
+      "evidence": "Four locked diagnoses and checks/review-claims-validation.json; exact source28 and permitted coordinator comparison27.",
+      "proposed_actions": [
+        "Оцінити значення згоди; факультативний чи…чи ритм не є обов’язковою граматикою."
+      ],
+      "dependencies": [
+        "Future author-authorized CH28 revision",
+        "S09 closure / S10 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "28",
+          "anchor": "P00068",
+          "quote": "Майя взяла одне яблуко з миски й поклала перед собою. Не відкусила."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00073",
+          "quote": "Вона подивилася на яблуко."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00074",
+          "quote": "— Добре."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00075",
+          "quote": "Я не знав, що саме вона цим прийняла. Не питав."
+        }
+      ],
+      "observation": "Яблуко й невідкушування читаються сильним післяефектом, але повторюють попередні мотиви затримки.",
+      "reader_effect": "Clarity, scene force, voice or pacing as stated; not author intent.",
+      "evidence": "Four locked diagnoses and checks/review-claims-validation.json; exact source28 and permitted coordinator comparison27.",
+      "proposed_actions": [
+        "На суцільному читанні відрізнити мотив від шаблону; не приписувати зцілення."
+      ],
+      "dependencies": [
+        "Future author-authorized CH28 revision",
+        "S09 closure / S10 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "28",
+          "anchor": "P00052",
+          "quote": "На моєму екрані ручний кінцевий запис згас. Замість нього з’явився службовий рядок:"
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00053",
+          "quote": "> Кінцевий стан обрано користувачкою: емоційне посередництво вимкнене; побутові функції активні."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00054",
+          "quote": "Контур повернення змінився. Збережений до запуску стан лишився в історії цього сеансу, але більше не був станом завершення. Новим став той, який щойно підтвердила Майя."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00060",
+          "quote": "На моєму пристрої зникли ручне повернення, кінцевий запис і обидва службові підтвердження. Одноразовий операторський контур закрився повністю."
+        }
+      ],
+      "observation": "Кінцевий запис згас після її підтвердження, потім зник із контролями; selected state і закриття різні моменти.",
+      "reader_effect": "Clarity, scene force, voice or pacing as stated; not author intent.",
+      "evidence": "Four locked diagnoses and checks/review-claims-validation.json; exact source28 and permitted coordinator comparison27.",
+      "proposed_actions": [
+        "Оцінити ясність disabled→removed і обраного стану до закриття; не вигадувати нові права."
+      ],
+      "dependencies": [
+        "Future author-authorized CH28 revision",
+        "S09 closure / S10 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "terra",
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "28",
+          "anchor": "P00005",
+          "quote": "— І повідомлення знову зможе повернутися в схожій ситуації."
+        }
+      ],
+      "observation": "Повернення повідомлення означає контекстний повтор, не другу доставку. Terra пропонує заміну, що змінює механіку; Flash зберігає стверджувальну інтонацію.",
+      "reader_effect": "Clarity, scene force, voice or pacing as stated; not author intent.",
+      "evidence": "Four locked diagnoses and checks/review-claims-validation.json; exact source28 and permitted coordinator comparison27.",
+      "proposed_actions": [
+        "За потреби уточнити re-offering; не підміняти його повторенням самого посередництва. Знак питання факультативний."
+      ],
+      "dependencies": [
+        "Future author-authorized CH28 revision",
+        "S09 closure / S10 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "terra"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "28",
+          "anchor": "P00026",
+          "quote": "Майя подивилася на світлу смугу. Потім провела пальцем до керування постійним станом, але не торкнулася його."
+        }
+      ],
+      "observation": "Провела пальцем до керування може недостатньо ясно показати рух без натискання.",
+      "reader_effect": "Clarity, scene force, voice or pacing as stated; not author intent.",
+      "evidence": "Four locked diagnoses and checks/review-claims-validation.json; exact source28 and permitted coordinator comparison27.",
+      "proposed_actions": [
+        "Розглянути природніше формулювання спрямованого жесту."
+      ],
+      "dependencies": [
+        "Future author-authorized CH28 revision",
+        "S09 closure / S10 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "terra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "28",
+          "anchor": "P00058",
+          "quote": "Її голосова зупинка спрацювала на 05:42. До жорсткої межі лишалося дві хвилини й вісімнадцять секунд."
+        }
+      ],
+      "observation": "На05:42 стисло означає позначку лічильника, залишок знімає clock-time неоднозначність.",
+      "reader_effect": "Clarity, scene force, voice or pacing as stated; not author intent.",
+      "evidence": "Four locked diagnoses and checks/review-claims-validation.json; exact source28 and permitted coordinator comparison27.",
+      "proposed_actions": [
+        "Розглянути явне на позначці як локальну ясність, не виправляти на о05:42."
+      ],
+      "dependencies": [
+        "Future author-authorized CH28 revision",
+        "S09 closure / S10 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "terra",
+        "gemini_flash"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "28",
+          "anchor": "P00081",
+          "quote": "Я вийшов у коридор. Двері зачинилися за мною. У сумці більше не було жодного керування її сеансом."
+        }
+      ],
+      "observation": "Керування в сумці — зрозуміла метонімія; Terra вважає неідіоматичною, Flash цінує симетрію фіналу.",
+      "reader_effect": "Clarity, scene force, voice or pacing as stated; not author intent.",
+      "evidence": "Four locked diagnoses and checks/review-claims-validation.json; exact source28 and permitted coordinator comparison27.",
+      "proposed_actions": [
+        "Оцінити фінальний образ без буквального зникнення пристрою."
+      ],
+      "dependencies": [
+        "Future author-authorized CH28 revision",
+        "S09 closure / S10 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "28",
+          "anchor": "P00007",
+          "quote": "Її долоня лежала між кнопкою завершення й постійним вимкненням. Я бачив обидві дії на службовому контурі, але не бачив того, що вона могла читати поруч із ними."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00019",
+          "quote": "На моєму екрані прямий канал і повернення лишалися стабільними. Заборонений ручний запис був активний. Я тримав руку біля повернення."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00031",
+          "quote": "Майя відсунула пристрій на ширину долоні."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00044",
+          "quote": "Майя підтягнула пристрій назад. Лічильник показував 04:36. До межі лишалося три хвилини й двадцять чотири секунди."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00047",
+          "quote": "Майя відкрила постійне вимкнення на своєму боці."
+        },
+        {
+          "chapter": "28",
+          "anchor": "P00076",
+          "quote": "Майя посунула мій пристрій до мене."
+        }
+      ],
+      "observation": "Flash помилково вивів один спільний термінал із рухів різних пристроїв. Два пристрої встановлені27.",
+      "reader_effect": "Clarity, scene force, voice or pacing as stated; not author intent.",
+      "evidence": "Four locked diagnoses and checks/review-claims-validation.json; exact source28 and permitted coordinator comparison27.",
+      "proposed_actions": [
+        "Оцінити локальні референти пристрою; не переписувати канон на спільну консоль."
+      ],
+      "dependencies": [
+        "Future author-authorized CH28 revision",
+        "S09 closure / S10 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-012",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "28",
+          "anchor": "P00034",
+          "quote": "— Людина з іншого боку може вирішити, що завгодно."
+        }
+      ],
+      "observation": "Кома перед що завгодно відділяє нерозкладний додаток, а не підрядне речення.",
+      "reader_effect": "Clarity, scene force, voice or pacing as stated; not author intent.",
+      "evidence": "Four locked diagnoses and checks/review-claims-validation.json; exact source28 and permitted coordinator comparison27.",
+      "proposed_actions": [
+        "Після авторського рішення прибрати кому. Frozenтекст зараз не змінюється."
+      ],
+      "dependencies": [
+        "Future author-authorized CH28 revision",
+        "S09 closure / S10 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}
