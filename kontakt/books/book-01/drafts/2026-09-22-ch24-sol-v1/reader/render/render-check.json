@@ -1,0 +1,28 @@
+{
+  "renderer": "docx-preview/Chromium; not native Word",
+  "pdf_sha256": "cc6596daef1610c5740b5c42f7be7db4e6f00315eb6ffdff9f6de23c9a2ddea6",
+  "pages": 2,
+  "text_matches_docx_ignoring_layout_whitespace": true,
+  "page_checks": [
+    {
+      "page": 1,
+      "words": 401,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 2,
+      "words": 208,
+      "out_of_bounds": 0,
+      "blank": false
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "contact.png",
+      "first_page": 1,
+      "last_page": 2
+    }
+  ],
+  "visual_review": "Both pages inspected in contact and full page images; readable, no clipping/blank page; P00032 begins intact on second page."
+}

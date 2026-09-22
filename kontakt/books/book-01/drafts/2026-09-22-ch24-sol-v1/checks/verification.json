@@ -1,0 +1,64 @@
+{
+  "source_sha256": "4bf4d5db43a064596bf4c583783a726d3a657053af3b505afbc9c86861675396",
+  "status": "required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "All46blocks,91physical/46nonemptylines,582lexicaltokens; notglobal audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "53cf3817eb993fea73abeba0df0f62faa77d508bce724bbac196c572440338a5",
+    "terra": "f92c6b118d4d36b7e139f11317bb0a09c546c3d07a4b3315acc3ebdf6416c648",
+    "gemini_flash": "6f1f6f2fc888344c161d2799336556e6f774a3d0ffbe0206513c305db7e590c8",
+    "gemini": "2344bb61b5690a9aa32bc09bcb37276d3f734986c9344cd5913149374f207ce9"
+  },
+  "additional_opus": "96e45ae6e814b37c3e5c04673d65496703e8279f54ffa4fc4a0681790cd4de8e",
+  "reconciliation": "dd8698fdef24364f9a45e337620a06504b5fed839c34d0cd78b133be2a939446",
+  "missing": [],
+  "verdicts": {
+    "astra": "Structurallycoherent,6literary concerns",
+    "terra": "Two localnaturalness defects alleged,1optional clarityquestion; claimsqualified",
+    "gemini_flash": "PASS with3language notes",
+    "gemini": "Positive diary; marriage/authority/VR inferences notfacts",
+    "claude_optional": "PASS, localtaste and voice notes"
+  },
+  "language_scans": "No configured signals; LanguageTool notrun; naturalness choices and negationcasequestion pending",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "cc6596daef1610c5740b5c42f7be7db4e6f00315eb6ffdff9f6de23c9a2ddea6",
+    "pages": 2,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 401,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 208,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 2
+      }
+    ],
+    "visual_review": "Both pages inspected in contact and full page images; readable, no clipping/blank page; P00032 begins intact on second page."
+  },
+  "cross_chapter_check": "checks/s08-window-closure.json:159blocks22–24 reviewed in current writing cycle, exact one720secondwindow/closure/knowledge bridge; notnewblind literaryaudit",
+  "preflight_diff": "Exact firstsave-to-final reconstruction PASS",
+  "schema_instances": "run andledger Draft202012Validator PASS",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selectedmasters expected"
+  },
+  "remaining": [
+    "14pending author decisions",
+    "S09–S12 andglobal audit"
+  ],
+  "independence": "Astra development/preflight disclosed; locked before freshTerra/currentpeer reading"
+}
