@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "title": "Контакт",
+  "book_type": "fiction",
+  "stage": "drafting",
+  "master": null,
+  "voice": "voice.json",
+  "canon": "../../series/canon.json",
+  "audit_status": "chapter_22_reviewed_volume_in_progress",
+  "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
+  "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
+  "language": "uk",
+  "outline_source": "../../sources/originals/КОСТЯК-КНИГА-1-Контакт(1).md",
+  "outline_sha256": "42d750f48e8cc98028ebbc2f8fa1e86465cdf090f13121a6b53e96a37107ed2d",
+  "original_language": "uk",
+  "planning_baseline": "../../series/preparation/2026-09-21/baseline.json",
+  "active_outline": {
+    "path": "BOOK-01-ARCHITECTURE-LOCK.md",
+    "sha256": "338cba44392162efecc20fa738a946473e22652e73e427e20b242da365a74510"
+  },
+  "planning_state": "planned_not_observed",
+  "execution_entry": "production/2026-09-21-book01/progress.json",
+  "draft_scope": {
+    "chapter": 22,
+    "whole_book_ready": false,
+    "whole_series_ready": false,
+    "prose_started": true,
+    "execution": "execution/HANDOFF-CH22.md"
+  },
+  "working_revision": {
+    "path": "drafts/2026-09-22-ch22-sol-v1/chapter-22.md",
+    "sha256": "8cba862bb2bd235b8e1db6159ef7dbe52aa4c0dc00451d771c1a441e7da3949d",
+    "format": "md",
+    "language": "uk",
+    "status": "draft_not_author_selected",
+    "scope": "chapter 22; complete collection in working_volume",
+    "observed_state": "drafts/2026-09-22-ch22-sol-v1/observed-state.json",
+    "review_run": "audit/ensemble/ch22-20260922-sol-v1"
+  },
+  "working_volume": {
+    "manifest": "production/2026-09-21-book01/working-volume.json",
+    "chapters": 22,
+    "status": "in_progress_not_master"
+  }
+}

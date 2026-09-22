@@ -1,0 +1,53 @@
+--- chapter-23.preflight.md
++++ chapter-23.md
+@@ -108,7 +108,7 @@
+ 
+ — Так.
+ 
+-Цього разу згода нічого не закрила. Майя дивилася на мене так само, як до неї. Мені довелося лишитися всередині власного слова.
++Цього разу згода нічого не закрила. Майя дивилася на мене так само, як до моєї відповіді. Мені довелося лишитися всередині власного слова.
+ 
+ Коли я нарешті глянув на лічильник, він показував 06:04. До автоматичного повернення лишалося трохи менше шести хвилин.
+ 
+--- writer-notes.preflight.md
++++ writer-notes.md
+@@ -12,6 +12,7 @@
+ - Previous prose: `../2026-09-22-ch22-sol-v1/chapter-22.md`, SHA-256 `8cba862bb2bd235b8e1db6159ef7dbe52aa4c0dc00451d771c1a441e7da3949d` (verified).
+ - Previous observed state: `../2026-09-22-ch22-sol-v1/observed-state.json`, SHA-256 `d8aeadfba4bdd60ecc9c48c607c72b8fb4d8a9260895da82ebe419e8faa29cec` (verified).
+ - Chapter handoff: `../../execution/HANDOFF-CH23.md`, SHA-256 `824831d4ade4204646b7548807975378348c09bde01997bcdb6b1e07a9ab01ec` (verified).
++- Prior Maya/Dal basis: `../2026-09-21-ch03-sol-v1/chapter-03.md`, SHA-256 `1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86` (verified); P00127 Dal identifies a derivative of an old construction he worked with, P00129 Maya calls it partly his work, and P00130 Dal narrows that to its technical consequence.
+ - Nina source map: `../../production/2026-09-21-book01/S08-NINA-SOURCE-MAP.json`, SHA-256 `a6abe19148180141fe8d96b329355d793a5818f0be82775ad9e702449ac0a956` (verified; source map, not new canon).
+ - Input inventory: `input-manifest.json`; all 54 listed files matched their recorded SHA-256 and byte size before drafting.
+ - No peer diagnosis, reconciliation ledger or check report was read or applied.
+@@ -33,7 +34,7 @@
+ - Dal tells Maya directly that he built the old safe-presence line to remain available without demanding an answer, taking offense at silence, calling a person back or tiring of them.
+ - He says it could be turned off but could not be disappointed while active.
+ - He clarifies that Maya's present support is a later derivative, not his exact template. His template stayed available; later development added refusal deferral/answer substitution.
+-- This is Maya's first direct personal explanation from Dal of the logic he authored. It does not grant her his archive, source files or profile access.
++- Maya already knew from CH03 that Dal recognized a derivative of old work connected to him. New here is his explicit authorship and spoken explanation of that original logic, not her first awareness of any professional connection. It does not grant her his archive, source files or profile access.
+ 
+ ### B01-S08-C23-S03 — avoidance and Nina name
+ 
+@@ -78,8 +79,20 @@
+ 
+ ## Self-check
+ 
+-- Pending after first-save preservation.
++- Ukrainian first-person past tense and the distinct Dal/Maya registers checked.
++- Immediate entry checked: CH22 final question is answered without recap, new consent, launch or timer reset.
++- Timing checked: same `S08-D9-2000` window; 06:04 marker equals 20:06:04, then a short exchange; chapter end is later by unknown seconds with less than 5:56 remaining; hard end remains 20:12.
++- Maya knowledge checked against CH03 P00127/P00129/P00130: prior professional connection is preserved; explicit authorship/logic, avoidance and Nina facts are newly spoken here.
++- Nina boundary checked: Maya hears only the name, past partnership, the need for Dal's answer and his retreat into support. Illness, death, duration, physical presence, spoon and full emotional absence remain undisclosed for CH24.
++- Access checked: stop available but unused, utility active, mediation paused, no profile/history/private text/permanent setting, no Ballast/Gor/care/Tikhon channel.
++- Literary boundary checked: Maya refuses Dal's requested guarantee and does not become his therapist; no forgiveness, healing, mutual-love claim, full confession or S09 exit.
++- One ambiguous pronoun in the final reflection was replaced with `до моєї відповіді`; no event or knowledge changed.
++- UTF-8/LF and one terminal LF checked before freeze.
+ 
+ ## Preflight revision history
+ 
+-- Pending first-save preservation and exact diff.
++- First prose save preserved as `chapter-23.preflight.md`, SHA-256 `1b9da4b281aebd7bfe2c8f1bb45b8dff38efb0a4d9780e86135018c80117b987`.
++- First notes save preserved as `writer-notes.preflight.md`, SHA-256 `6602d8490e7ba00e097096f095628f6024f4e86ecde636806136fee25d5b5182f`.
++- Writer self-check clarified one pronoun referent in prose.
++- Coordinator factual preflight before peer review found no continuity blocker and required the exact CH03 prior-knowledge basis in notes; added with source/hash/anchors without changing scene events.
++- Exact first-save-to-final changes are recorded in `preflight-changes.diff`.

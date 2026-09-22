@@ -1,0 +1,28 @@
+{
+  "renderer": "docx-preview/Chromium; not native Word",
+  "pdf_sha256": "f1d3248e7422515ce60b996152349319536ab6776e66c3e02a9e127da29592b6",
+  "pages": 2,
+  "text_matches_docx_ignoring_layout_whitespace": true,
+  "page_checks": [
+    {
+      "page": 1,
+      "words": 317,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 2,
+      "words": 286,
+      "out_of_bounds": 0,
+      "blank": false
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "contact.png",
+      "first_page": 1,
+      "last_page": 2
+    }
+  ],
+  "visual_review": "Both pages inspected in contact image: complete readable layout, no clipping or blank pages."
+}

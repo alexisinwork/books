@@ -1,0 +1,64 @@
+{
+  "source_sha256": "3884441f3890b1003e18f5104766dc42bec030c04b4bf94e908c54de7ea9c329",
+  "status": "required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "All62blocks,123physical lines,62nonempty; languageQA546lexicaltokens; notglobal audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "d495579dc1dff5e1436b8db82be30df89846a5cea57be69d4f5b60e9b4736118",
+    "terra": "499681a76155517469220c4ca28c7d59221083e19577847147adde93f8e39f7d",
+    "gemini_flash": "8dea4ffd8fd6659cf28271ded5c0f3023c70f6fe5f2cb3c88a720ddc3ac0074b",
+    "gemini": "33514507fbfd672795302ad3b1db63098f6fa98349cce2afce67458e7b7ee9c7"
+  },
+  "additional_opus": "34420e40e85762e4dbb230d21ffb26f7f1a44d0ceb2eac64cdf57e7402018750",
+  "reconciliation": "a1b9cbf67ce0629475b88f586751f638a2312f133653ba6a5e52a00022d02a15",
+  "missing": [],
+  "verdicts": {
+    "astra": "Functionally sound,6pending literary questions",
+    "terra": "Positive prose; claimed countdown defect refuted for elapsedtimer",
+    "gemini_flash": "REQUIRES REVISION; two causal/time objections qualified against22, rawverdict retained",
+    "gemini": "Positive diary with isolatedquestions and unprovenrelief interpretation",
+    "claude_optional": "PASS; clarity and taste notes"
+  },
+  "language_scans": "No configured signals; LanguageTool notrun; naturalness remains manual judgment",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "f1d3248e7422515ce60b996152349319536ab6776e66c3e02a9e127da29592b6",
+    "pages": 2,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 317,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 286,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 2
+      }
+    ],
+    "visual_review": "Both pages inspected in contact image: complete readable layout, no clipping or blank pages."
+  },
+  "preflight_diff": "Exact first-save-to-final reconstruction passed",
+  "schema_instances": "run andledger Draft202012Validator PASS",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  },
+  "remaining": [
+    "13pending author decisions",
+    "Active same-window CH24",
+    "Remainingvolume and global audit"
+  ],
+  "independence": "Astra development/preflight disclosed; locked before currentpeers read and freshTerra spawn"
+}
