@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "status": "observed_candidate_not_canonical",
+  "chapter": 19,
+  "source": {
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch19-sol-v1/chapter-19.md",
+    "sha256": "e184be6d53b19b2fd0dcc07215e81ff9962a0d3a4797eaed8c552d1b37b6e526"
+  },
+  "coverage": "P0001-P0087, full source",
+  "time": {
+    "day": "D8",
+    "start": "18:30 accepted appointment18",
+    "end": null,
+    "fifteen_minutes": "proposed initial support interval, not measured whole scene duration"
+  },
+  "events": [
+    {
+      "anchors": [
+        "P0002",
+        "P0003",
+        "P0004"
+      ],
+      "fact": "Dal joins from own workplace,2person audiovisual Tikhon channel,no attachments; mic only call, Ballastcardclosed. Tikhon glass/lamp visible; old trainingpage absent."
+    },
+    {
+      "anchors": [
+        "P0009",
+        "P0012",
+        "P0014",
+        "P0016"
+      ],
+      "fact": "Dal tells own deliberate one-delay change against explicit ban, not needed for user request; she saidstop and pressed own button, sessionclosed/value restored before he did it himself."
+    },
+    {
+      "anchors": [
+        "P0019",
+        "P0021",
+        "P0022",
+        "P0024",
+        "P0026",
+        "P0044"
+      ],
+      "fact": "Dal tells later sought and received one readonly archivecopy, no contents; told thirdparty he would not work toward its desired result, did not write that to user; she closed furtherapproaches. Tikhon now knows these facts from Dal, not omniscient."
+    },
+    {
+      "anchors": [
+        "P0035",
+        "P0039",
+        "P0043",
+        "P0045"
+      ],
+      "fact": "Dal capable of ordinary work; Tikhon advises stop this intervention, no procedural workaround; possible new work requires new userdecision. No new permission obtained."
+    },
+    {
+      "anchors": [
+        "P0050",
+        "P0053",
+        "P0055",
+        "P0056",
+        "P0058",
+        "P0059",
+        "P0060",
+        "P0061"
+      ],
+      "fact": "Morningreport18 alreadysent;2laterD8reports unfinished. Tikhon stays quietly while Dal finishes firstofthose2; screen not shared, no supervisiongrant/readinessassessment. Report senttocase; otherreport postponedtomorrowmorning."
+    },
+    {
+      "anchors": [
+        "P0065",
+        "P0066",
+        "P0069",
+        "P0072",
+        "P0074",
+        "P0075",
+        "P0079",
+        "P0081",
+        "P0087"
+      ],
+      "fact": "2acceptedordinarychecksD9 remain. Dal can but does not want to leave complexslotsclosed; chooses closes intakeofnewcomplexinterventions through endD9workday. Generalpermissionsunchanged. Repeats commitment, exactendclockunknown, leaves emptyspace."
+    }
+  ],
+  "knowledge": {
+    "Tikhon_new": "Own breach/delay motive/userstop first; later authorizedarchiveexists not contents; rejectionofthirdpartygoal withoutnamedGor; userclosedfurtherapproaches; Dal routineability and commitments. All from visible conversation.",
+    "Dal": "Tikhon offers concrete help not surveillance; accepts temporary schedulingboundary.",
+    "Maya": "No new contact or grant; closure18 unchanged.",
+    "Gor": "No new interaction; cannot know19 automatically.",
+    "Ballast": "Cardclosed; no call listening or archiveaccess."
+  },
+  "access": {
+    "Maya": "No new access, retained closedarchive no contentsforwarded",
+    "Tikhon": "Call only, no screen/data/supervisiongrant",
+    "professional": "Generalpermissions unchanged; voluntarynewcomplexintake closed untilendD9workday",
+    "Ballast": "Closedcard; micbelongs only call"
+  },
+  "commitments": [
+    {
+      "id": "CH19-REPORT-D9",
+      "status": "promised_not_yet_done",
+      "due": "D9morning",
+      "action": "Secondof2laterD8reports"
+    },
+    {
+      "id": "CH19-ROUTINE-D9",
+      "status": "accepted_not_yet_done",
+      "when": "D9,2routinechecks,clocktimesunknown"
+    },
+    {
+      "id": "CH19-COMPLEX-PAUSE",
+      "status": "applied_by_Dal",
+      "until": "endD9workingday,clockunknown",
+      "scope": "intakeofnewcomplexinterventions; generalrightsunchanged",
+      "dependency": "S08newcomplexwindow must respect decision, not silently resume middayD9"
+    }
+  ],
+  "resources": {
+    "R": "R1unchanged",
+    "M05": "unresolved, not introduced",
+    "Nina": "no new revelation"
+  },
+  "future_dependencies": [
+    "NewMaya initiative beforeCH21request",
+    "D9report and2routinechecks need payoff",
+    "Carecomplaint/deadlineCH20 not yet",
+    "NextTikhonmeeting not scheduled"
+  ],
+  "new_draft_local_details": [
+    "D8two later uncompletedreports",
+    "Quietpresencewhileonecompleted",
+    "D9twoordinarychecks",
+    "VoluntarycomplexintakepauseuntilendD9workday"
+  ],
+  "remaining": [
+    "Editorialchoicespending",
+    "Wholevolume/global audit incomplete"
+  ]
+}

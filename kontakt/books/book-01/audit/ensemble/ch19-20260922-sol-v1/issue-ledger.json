@@ -1,0 +1,764 @@
+{
+  "schema_version": 1,
+  "run_id": "ch19-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "e184be6d53b19b2fd0dcc07215e81ff9962a0d3a4797eaed8c552d1b37b6e526",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0028",
+          "quote": "— Ти зараз просиш мене знайти інший шлях до неї?"
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0031",
+          "quote": "— Просиш сказати, коли можна спробувати знову?"
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0039",
+          "quote": "— Сьогодні — ні. Завтра — теж ні. Ти прийшов по посильний наступний крок, а не по вирок на все життя."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0041",
+          "quote": "— Ти написав, що не знаєш, як повернутися до іншої роботи. Це він і є."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0043",
+          "quote": "— Роботу з цією користувачкою припини, — сказав він. — Не став на паузу до кращого формулювання. Не шукай процедуру, яка зробить продовження правильним. Якщо колись виникне нова робота, вона почнеться з нового рішення користувачки, а не з твого способу дістатися до неї."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0074",
+          "quote": "— Це не заважає тобі обрати."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0082",
+          "quote": "— Далі й вирішиш."
+        }
+      ],
+      "observation": "Тихон майже завжди має ідеально точну коротку відповідь; Astra бачить ризик авторського рупора, peers захищають живу допомогу.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Перевірити неповноту/незручність людської розмови, не робити його агресором."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0046",
+          "quote": "Слова були простими. Саме тому сперечатися з ними довелося б про мене."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0056",
+          "quote": "Я міг відмовитися. Пропозиція не змінювала моїх дозволів, не визначала готовність і не робила Тихона відповідальним за наступну помилку."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0057",
+          "quote": "Саме тому вона була важчою за нагляд."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0067",
+          "quote": "Порожнє місце після другої перевірки одразу стало видимим. Без нового випадку, без чужого голосу, який треба відокремити від системи, без можливості довести, що я все ще потрібен саме там, де небезпечно."
+        }
+      ],
+      "observation": "Точні пояснення внутрішньої мотивації можуть надто рано вичерпувати арку; інші вважають ці місця сильними.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Оцінити накопичення саморозпізнання в блоці, не видаляти визнання власного небезпечного бажання."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0003",
+          "quote": "Я прийняв його зі свого робочого місця. У каналі було двоє учасників, вкладень не було. Картка Баласта лишалася закритою; мікрофон відкрився тільки для цієї розмови."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0050",
+          "quote": "— Два підсумки з перевірок після ранкової. Ранковий я вже надіслав. Дані закриті, треба записати виконані дії й результат."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0056",
+          "quote": "Я міг відмовитися. Пропозиція не змінювала моїх дозволів, не визначала готовність і не робила Тихона відповідальним за наступну помилку."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0059",
+          "quote": "Я відкрив першу з двох денних перевірок, підсумки яких лишилися незавершеними. Ім’я клієнта лишилося в закритій частині; у робочому полі були тільки погоджені дії й результат."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0075",
+          "quote": "Я закрив приймання нових складних втручань до кінця наступного робочого дня. Дві планові перевірки лишилися на місці. Загальні робочі дозволи не змінилися."
+        }
+      ],
+      "observation": "Сукупність уточнень доступів/звітів/дозволів може нагадувати перевірку неперервності.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Зберігши факти, оцінити мінімально потрібний читачеві обсяг."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "continuity",
+      "severity": "moderate",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0039",
+          "quote": "— Сьогодні — ні. Завтра — теж ні. Ти прийшов по посильний наступний крок, а не по вирок на все життя."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0066",
+          "quote": "— Можеш лишити так до кінця дня?"
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0075",
+          "quote": "Я закрив приймання нових складних втручань до кінця наступного робочого дня. Дві планові перевірки лишилися на місці. Загальні робочі дозволи не змінилися."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0081",
+          "quote": "— До кінця завтрашнього робочого дня межу не знімаю. Далі вирішу сам."
+        }
+      ],
+      "observation": "Усне «Завтра тежні»ширше за підсумкову межу до кінцяробочогодня; майбутнє втручання має врахувати явний вибір.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Не відновлювати складну роботу посередD9мовчки; точний кінецьдняще не встановлено."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "astra",
+        "claude",
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0018",
+          "quote": "Я провів великим пальцем по краю стола. Цього руху не було в підготовленій версії."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0025",
+          "quote": "Я прибрав руку від краю стола."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0034",
+          "quote": "Я подивився на порожнє місце праворуч від його зображення. Канал не пропонував варіантів відповіді."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0042",
+          "quote": "Тихон поклав долоню на стіл. У склі за ним друга долоня лягла на темну поверхню."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0067",
+          "quote": "Порожнє місце після другої перевірки одразу стало видимим. Без нового випадку, без чужого голосу, який треба відокремити від системи, без можливості довести, що я все ще потрібен саме там, де небезпечно."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0087",
+          "quote": "На екрані лишилися дві завтрашні перевірки й порожнє місце після них. Я не заповнив його."
+        }
+      ],
+      "observation": "Руки/стіл/порожнє місце мають функцію, але можуть повторювати опори17–18.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Оцінити різницю функцій у наскрізному читанні, без квот."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "terra"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0060",
+          "quote": "Написав, що погоджені дії виконано, контрольний прохід завершено, додаткових змін не внесено. Перечитав один раз. Надіслав підсумок у справу й закрив її."
+        }
+      ],
+      "observation": "Terra пропонує «до справи»замість«у справу», називаючи це нормативним дефектом без джерела.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Розглянути локальну сполучуваність цифрової дії; не застосовувати як автоматичну норму."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "terra",
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0050",
+          "quote": "— Два підсумки з перевірок після ранкової. Ранковий я вже надіслав. Дані закриті, треба записати виконані дії й результат."
+        }
+      ],
+      "observation": "«Після ранкової / Ранковий»перемикає пропущені іменники перевірка/підсумок.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Можна уточнити одиніменник або зберегти стисле робоче мовлення."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "convergent",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0059",
+          "quote": "Я відкрив першу з двох денних перевірок, підсумки яких лишилися незавершеними. Ім’я клієнта лишилося в закритій частині; у робочому полі були тільки погоджені дії й результат."
+        }
+      ],
+      "observation": "Поруч повторено«лишилися / лишилося».",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "За авторським рішенням змінити один дієслівний повтор, без глобальної заміни мотиву."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0074",
+          "quote": "— Це не заважає тобі обрати."
+        }
+      ],
+      "observation": "«Обрати»без додатка звучить уривчасто; контекст дає об’єкт вибору.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Перевірити еліпсис уголос, не оголошувати його автоматично граматичною помилкою."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0035",
+          "quote": "— Я можу виконувати звичайну роботу, — сказав я. — Сьогодні виконував. Але не знаю, чи маю братися за складне втручання, якщо здатен перетворити чужу межу на перешкоду до точнішого результату."
+        }
+      ],
+      "observation": "«Перешкода до»менш звична за«для / на шляху до», але вписується в стиск.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Авторський вибір звичнішої сполучуваності або голосової компресії."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "convergent",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0019",
+          "quote": "— Вийшов. Потім намагався зрозуміти, хто створив правила, які ми перевіряли."
+        }
+      ],
+      "observation": "Займенник«ми»може ковзати для ізольованого читача.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Наскрізний контекст14підтримуєДаля/Майю; за потреби локально уточнити."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-012",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0034",
+          "quote": "Я подивився на порожнє місце праворуч від його зображення. Канал не пропонував варіантів відповіді."
+        }
+      ],
+      "observation": "Відсутність варіантів відповіді очікує знайомства з інтерфейсним світом.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Звірити з8, не вивести новий обов’язковий режим із заперечення."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-013",
+      "origin_reports": [
+        "claude",
+        "gemini"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0018",
+          "quote": "Я провів великим пальцем по краю стола. Цього руху не було в підготовленій версії."
+        }
+      ],
+      "observation": "Коментар про непідготовлений рух дляOpusможе пояснювати очевидне; Proцінує як злам фасаду.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Зберегти самоспостереження або скоротити пояснення після жесту."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-014",
+      "origin_reports": [
+        "claude",
+        "terra"
+      ],
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0029",
+          "quote": "— Ні."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0030",
+          "quote": "Відповідь вийшла швидше, ніж я очікував."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0032",
+          "quote": "— Ні."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0071",
+          "quote": "Я не відповів одразу."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0072",
+          "quote": "— Ні."
+        }
+      ],
+      "observation": "Перші дваНімають схожу інтонацію, пізнєНізпаузоюіншу; Terraзахищаєфункціїповтору.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "Не варіювати механічно; перевірити живе звучання діалогу."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-015",
+      "origin_reports": [
+        "gemini"
+      ],
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "19",
+          "anchor": "P0009",
+          "quote": "— Я отримав тимчасовий технічний доступ для спостереження, — сказав я. — Користувачка прямо заборонила змінювати параметри. Інструмент дозволяв більше, ніж мета сеансу. Я свідомо змінив одну затримку."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0012",
+          "quote": "— Хотів почути її відповідь до того, як поруч з’явиться нейтральне перефразування."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0014",
+          "quote": "— Ні."
+        },
+        {
+          "chapter": "19",
+          "anchor": "P0016",
+          "quote": "— Так. Сказала «стоп» і натиснула свою кнопку. Сеанс закрився, тимчасове значення повернулося до початкового. Я не встиг зробити це сам."
+        }
+      ],
+      "observation": "Proспівчуває порушенню як подоланню системи, хоча текстназиваєпрямузаборону користувачки.",
+      "reader_effect": "Voice, clarity, rhythm and ethical reading of established actions.",
+      "evidence": "Locked reports and checks/claim-validation.md; exact source.",
+      "proposed_actions": [
+        "У глобальному читанні перевірити, чи не героїзується порушенняМайїноїволі; не змінювати факти голосуванням."
+      ],
+      "dependencies": [
+        "CH19 future author-authorized revision",
+        "CH16–20 integrated reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

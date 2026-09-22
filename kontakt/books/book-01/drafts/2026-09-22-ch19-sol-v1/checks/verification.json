@@ -1,0 +1,67 @@
+{
+  "source_sha256": "e184be6d53b19b2fd0dcc07215e81ff9962a0d3a4797eaed8c552d1b37b6e526",
+  "status": "required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "FullCH19,87blocks,802lexical tokens; not global audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "258e7bbf352051e07bd0385ecba405a23addb049b49bf38a5ee0afbb2275a4ea",
+    "terra": "a8883a0bfdb863de00469594237461ee78a6d253f2a1428e2abf90957a9e3200",
+    "gemini_flash": "1ab012e768172d652475346186d109313a15caee0a66ee8ea44b9a9f1c929c1c",
+    "gemini": "382c7957a9520a84a83bd576722cedd806d24f6ab6d80074d6e1f0e7ebdb0419"
+  },
+  "additional_opus": "21de077e3a6c3a938ae4a23f73ab0149fab0cd5ea1e621cf1dbffe55931931f4",
+  "reconciliation": "d98d9ea1a51d2203c5e814348130737e8378ce0dd11e7da55ac01a1455eed0cd",
+  "missing": [],
+  "verdicts": {
+    "astra": "Structurally functional;5pending concerns",
+    "terra": "Ready for reconciliation; one local collocation concern, normative basis unverified",
+    "gemini_flash": "PASS",
+    "gemini": "Positive diary; sympathy for breach qualified",
+    "claude_optional": "PASS"
+  },
+  "language_scans": "No configured signals; independent grammar checker not run",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "cd74aa17f44501a3928ed01a7542de22c5129630cedbfb2e2ec6135c09abcea8",
+    "pages": 3,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 294,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 392,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 3,
+        "words": 190,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 3
+      }
+    ],
+    "visual_review": "All3pages inspected; complete dialogue, no clipping or blank pages, stable readable layout."
+  },
+  "schema_instances": "Draft202012Validator run and ledger PASS",
+  "remaining": [
+    "15pending author decisions",
+    "CH20 onward, integrated16-20 and full-volume audit"
+  ],
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  }
+}
