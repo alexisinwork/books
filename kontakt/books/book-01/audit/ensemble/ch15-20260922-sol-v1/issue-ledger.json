@@ -1,0 +1,755 @@
+{
+  "schema_version": 1,
+  "run_id": "ch15-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "f89df074a4cedb8b24b3e6ef937eb73a2d3f223ec2c9c222299ceefd1a867fce",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0015",
+          "quote": "Під текстом стояло її особисте підтвердження. Не запис кухні. Не витяг із профілю. Не оцінка її стану."
+        },
+        {
+          "chapter": "15",
+          "anchor": "P0019",
+          "quote": "За кілька хвилин пристрій показав окреме аудіозвернення від Гора. Він не міг увійти в канал сам. Кнопки були прості: відхилити або прийняти."
+        },
+        {
+          "chapter": "15",
+          "anchor": "P0071",
+          "quote": "Позначка мікрофона згасла. Я перевірив, що картка Баласта так і не відкривалася, й повернувся до пластин."
+        }
+      ],
+      "observation": "Накопичення пояснень дозволів і закритої картки може звучати як контрольний список.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Оцінити блок 11–15; скоротити лише за рішенням автора зі збереженням причинності."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "convergent",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra",
+        "gemini",
+        "terra",
+        "claude"
+      ],
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0045",
+          "quote": "— Показаний результат не створює згоди заднім числом, — сказав я."
+        },
+        {
+          "chapter": "15",
+          "anchor": "P0047",
+          "quote": "— Я побачив причину, через яку мені не можна довірити ще одну спробу без її окремого рішення."
+        },
+        {
+          "chapter": "15",
+          "anchor": "P0058",
+          "quote": "— Я ризикнув не тому, що мав доказ, — сказав я. — Я хотів його отримати."
+        }
+      ],
+      "observation": "Даль уже ясно формулює етику згоди; позитивне читання може створити враження завершеної зміни.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "У S07–S11 розділити розуміння і дію; не повторювати як перше прозріння."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0057",
+          "quote": "Я відкрив очі. На столі середня контактна пластина лежала окремо від двох інших. Я знав її опір, форму й місце. Це не робило її крайньою."
+        },
+        {
+          "chapter": "15",
+          "anchor": "P0072",
+          "quote": "Цього разу розклав їх правильно. Кришку не закривав, доки не звірив кожне маркування. Робота все ще займала хвилину. Те, що я нарешті виконав її без помилки, не виправляло попередньої."
+        }
+      ],
+      "observation": "Предметна рамка працює; Astra вважає дві моральні розшифровки надмірними, інші захищають.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Авторський вибір, не голосування."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "clarity",
+      "severity": "moderate",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0060",
+          "quote": "Він говорив про систему так, наче за кожним правилом уже стояв один винуватець. Я не знав, чи це так. Не знав, хто змінював межі перефразування, хто дозволяв proxy підтверджувати такі зміни й чиїм рішенням був теперішній ланцюг відмови. Сьогоднішній сеанс історії не відкривав."
+        }
+      ],
+      "observation": "Питання про proxy не доводить конкретної минулої авторизації.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Зберегти розрізнення професійної можливості та ще невідомих фактів у S06."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0059",
+          "quote": "— Тоді отримайте правильно. Сама затримка теж не виникла з повітря. Хтось вирішив, скільки часу лишати між її словами й безпечним варіантом. Хтось визначив, коли відмова ще рахується відкладенням. Ви можете перевірити, хто це зробив."
+        }
+      ],
+      "observation": "Гор сам пропонує перевірити історію, яка надалі відкриє його запити.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Не робити його автоматично здивованим самим існуванням аудиту; зберегти його уявлення про виправданість власних дій."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "terra"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0021",
+          "quote": "Відкрився мікрофон цього дзвінка. Картка Баласта лишилася закритою; у заголовку каналу були тільки два імені — моє й Гора."
+        }
+      ],
+      "observation": "Відкрився мікрофон менш природне для рецензента; нормативна заборона не доведена.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Розглянути увімкнувся або відкриття доступу з урахуванням точної технічної дії."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "terra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0017",
+          "quote": "Майя не зникла за супроводженням. Вона сама поставила його між нами й назвала відстань. Я знав рівно те, що вона вирішила повідомити: прямого контакту не буде, нових сеансів не буде, звернення — через обраний нею шар."
+        },
+        {
+          "chapter": "15",
+          "anchor": "P0078",
+          "quote": "Форма вимагала підтвердження Майї до надсилання. У мене його не було. Просити можна було тільки через обраний нею шар. Перетворювати щойно встановлену межу на негайний запит про новий доступ я не став."
+        }
+      ],
+      "observation": "Шар, канал і супроводження потребують співвіднесення читачем.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Узгодити термін за авторським вибором."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "terra",
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0038",
+          "quote": "Його голос був рівним. У ньому не було радості від того, що Майя закрила мені контакт. Була увага людини, яка після довгого чекання побачила інструмент і боялася, що його відкладуть через неправильне застосування."
+        }
+      ],
+      "observation": "Певність щодо мотиву Гора може виходити за обмежений погляд; Opus бачить точне спостереження Даля.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "За потреби позначити інтерпретаційність, не змінюючи мотив як канон."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0003",
+          "quote": "Пряжка билася об бік на кожному кроці. Я зупинився біля порожньої зупинки, застебнув її й перевірив двічі. Потім ще раз потягнув за ремінь, хоча він уже тримав."
+        },
+        {
+          "chapter": "15",
+          "anchor": "P0004",
+          "quote": "Над входом до майстерні світилося моє ім’я й звичайний робочий статус. Двері відчинилися. Чинні дозволи нікуди не зникли."
+        }
+      ],
+      "observation": "Різкий монтаж зупинка–майстерня; транспорт пропущено, суперечність не доведена.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Додавати перехід тільки якщо потрібний ритму."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0057",
+          "quote": "Я відкрив очі. На столі середня контактна пластина лежала окремо від двох інших. Я знав її опір, форму й місце. Це не робило її крайньою."
+        }
+      ],
+      "observation": "Flash називає відкрив очі ненормативним; словникова стаття має буквальне значення.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Розплющив може бути стилістичним вибором, не підтвердженим обов’язковим виправленням."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0059",
+          "quote": "— Тоді отримайте правильно. Сама затримка теж не виникла з повітря. Хтось вирішив, скільки часу лишати між її словами й безпечним варіантом. Хтось визначив, коли відмова ще рахується відкладенням. Ви можете перевірити, хто це зробив."
+        }
+      ],
+      "observation": "Рахується у значенні вважається словниково зафіксовано; Flash категорично заперечує, Opus допускає.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Розглянути точніше фіксується як; не називати однозначною калькою без урахування словника."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-012",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0054",
+          "quote": "— Вона щойно побачила, що ви порушили умову. Звісно, вона закрила двері. Це не означає, що двері треба лишити закритими, якщо метод працює."
+        }
+      ],
+      "observation": "Закрила двері — метафора в репліці; словник фіксує розмовне/переносне вживання.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Зачинила — можливий авторський вибір."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-013",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "format",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0060",
+          "quote": "Він говорив про систему так, наче за кожним правилом уже стояв один винуватець. Я не знав, чи це так. Не знав, хто змінював межі перефразування, хто дозволяв proxy підтверджувати такі зміни й чиїм рішенням був теперішній ланцюг відмови. Сьогоднішній сеанс історії не відкривав."
+        },
+        {
+          "chapter": "15",
+          "anchor": "P0075",
+          "quote": "> Історія службових змін правил proxy та меж нейтрального перефразування: час, роль ініціатора, підстава й джерело авторизації."
+        }
+      ],
+      "observation": "Латинське proxy може заважати читанню; назва Баласт не доводить вимоги однакової транслітерації.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Вирішити послідовний термін для видання."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-014",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0043",
+          "quote": "Одна зміна. Один синтетичний приклад. Початковий стан повернувся. Її слова прозвучали без пом’якшення."
+        },
+        {
+          "chapter": "15",
+          "anchor": "P0044",
+          "quote": "Я встиг скласти собі ті самі речення ще в її кухні. Не вимовив їх лише тому, що Майя сказала точніше."
+        }
+      ],
+      "observation": "Opus плутає основний антецедент ті самі речення; P0043 прямо відлунює CH14P0059.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Перевіряти у наскрізному читанні, не переставляти автоматично."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-015",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0008",
+          "quote": "У Майї я теж бачив правильний рядок. Статус відмови переходив у відкладення. Правило повтору відкривало те, що мало лишитися закритим. Виправлення було переді мною, і я не торкнувся його."
+        }
+      ],
+      "observation": "Стисла згадка невиправленого статусу може потребувати перечитування після перерви.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "У зв’язці CH14–15 референт ясний; авторський вибір обсягу нагадування."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-016",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0023",
+          "quote": "— Затримав нейтральне перефразування. Один раз. Всупереч прямій забороні Майї."
+        },
+        {
+          "chapter": "15",
+          "anchor": "P0029",
+          "quote": "— Отже, ви на якийсь час прибрали готове тлумачення між нею й відповіддю."
+        }
+      ],
+      "observation": "Тлумачення у Гора і перефразування у Даля можуть бути різною оптикою, а не помилкою термінів.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Зберегти відмінність або узгодити за авторським рішенням."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-017",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "15",
+          "anchor": "P0042",
+          "quote": "Я заплющив очі."
+        },
+        {
+          "chapter": "15",
+          "anchor": "P0057",
+          "quote": "Я відкрив очі. На столі середня контактна пластина лежала окремо від двох інших. Я знав її опір, форму й місце. Це не робило її крайньою."
+        }
+      ],
+      "observation": "Даль говорить із заплющеними очима до P0057; Opus не вважає це помилкою.",
+      "reader_effect": "Local clarity, voice or rhythm; not a new canonical fact.",
+      "evidence": "Locked reports and checks/claim-validation.md",
+      "proposed_actions": [
+        "Не додавати рухи лише за кількістю абзаців."
+      ],
+      "dependencies": [
+        "CH15 future authorized revision",
+        "CH11-15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

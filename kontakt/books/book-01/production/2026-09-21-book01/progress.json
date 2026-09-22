@@ -114,18 +114,25 @@
       "observed_state": "drafts/2026-09-22-ch14-sol-v1/observed-state.json",
       "review_run": "audit/ensemble/ch14-20260922-sol-v1",
       "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 15,
+      "source": "drafts/2026-09-22-ch15-sol-v1/chapter-15.md",
+      "sha256": "f89df074a4cedb8b24b3e6ef937eb73a2d3f223ec2c9c222299ceefd1a867fce",
+      "observed_state": "drafts/2026-09-22-ch15-sol-v1/observed-state.json",
+      "review_run": "audit/ensemble/ch15-20260922-sol-v1",
+      "status": "reviewed_working_draft_not_canonical"
     }
   ],
-  "current_chapter": 15,
-  "current_stage": "chapter_15_writer_running",
+  "current_chapter": 16,
+  "current_stage": "prepare_ch16_handoff_and_reader_01_15",
   "future_chapters": "macro architecture; progressively detailed before writing",
   "global_audit": "not_run",
   "last_block_review": {
-    "through_chapter": 5,
-    "report": "block-audits/chapters-01-05/REPORT.md",
-    "source_sha256": "cbe75e630f841f3e7a3ba01a6b0c5cef35f138dad36ff1208b0e4adc8ca6fca9",
+    "through_chapter": 15,
+    "report": "block-audits/chapters-11-15/REPORT.md",
     "status": "architect_review_completed_not_global_audit"
   },
-  "latest_block_audit": "block-audits/chapters-06-10/verification.json",
+  "latest_block_audit": "block-audits/chapters-11-15/verification.json",
   "review_policy": "REVIEW-POLICY-2026-09-22.md"
 }

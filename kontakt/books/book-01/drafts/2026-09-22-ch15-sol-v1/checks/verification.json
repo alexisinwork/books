@@ -1,0 +1,69 @@
+{
+  "source_sha256": "f89df074a4cedb8b24b3e6ef937eb73a2d3f223ec2c9c222299ceefd1a867fce",
+  "status": "required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "Full CH15 81 blocks,1038 lexical tokens; not volume audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "d798f721ccb0f7c20595ff638cebde349105f9d9b191873fccd2144461b588d5",
+    "terra": "ecabb8975c5f9ddffd1e7a929248ddcf0486f87d694f900a75e44b28b2c27808",
+    "gemini_flash": "c942b048bb93ee09536d95fd2eb987f8fd7cc87e04b0424470991599141c4532",
+    "gemini": "63dce6c10af09942e8d2c3410881211eb3b2d7b08de84e015532e195f93fecee"
+  },
+  "additional_opus": "43108ea7d1deb176931e2cddab5ff71f17a18d260904359e767376b7d41a3a32",
+  "reconciliation": "2d3f91e51b2359196f59d9d6e401353df7ee220e60b614374cd683cfe5e50461",
+  "missing": [],
+  "verdicts": {
+    "astra": "No structural blocker;5 pending concerns",
+    "terra": "One local naturalness concern; no full rewrite",
+    "gemini_flash": "REQUIRES REVISION; categorical norm claims qualified in claim-validation",
+    "gemini": "Positive full sequential reader diary",
+    "claude_optional": "PASS"
+  },
+  "language_scans": "No configured signals; grammar checker not run",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "8d21c243a9d4bedc179e3248f5e45189769d8776bf480f899868ae53128b2a70",
+    "pages": 3,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 386,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 414,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 3,
+        "words": 287,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 3
+      }
+    ],
+    "visual_review": "All three pages visually inspected in contact sheet; no clipping or blank pages"
+  },
+  "schema_instances": "Draft202012Validator run and ledger PASS",
+  "remaining": [
+    "17 pending editorial choices",
+    "CH16 onward and full-volume audit"
+  ],
+  "preflight_exposure": "Writer disclosed accidental old CH11 report search result after first save; no current peer reports read",
+  "review_policy": "production/2026-09-21-book01/REVIEW-POLICY-2026-09-22.md",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  }
+}
