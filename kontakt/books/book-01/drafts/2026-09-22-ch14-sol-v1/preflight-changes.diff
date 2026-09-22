@@ -1,0 +1,137 @@
+diff --git a/chapter-14.preflight.md b/chapter-14.md
+index 6262032..da98b1c 100644
+--- a/chapter-14.preflight.md
++++ b/chapter-14.md
+@@ -4,7 +4,7 @@
+ 
+ — На кухню.
+ 
+-На столі не було ні чаю, ні яблук. Тільки її пристрій і один стілець навпроти. Я сів, поклав свій пристрій поруч і не відкривав його. Картка Баласта лишалася закритою.
++На столі не було ні чаю, ні яблук — тільки її пристрій. Один стілець був відсунутий для мене навпроти її місця. Я сів, поклав свій пристрій поруч і не відкривав його. Майя сіла по той бік столу. Картка Баласта лишалася закритою.
+ 
+ — Приклад я вже вибрала, — сказала Майя. — Запрошення на відкриту лекцію. Нікого з людей у ньому немає.
+ 
+@@ -16,7 +16,7 @@
+ 
+ — Саме так.
+ 
+-На її боці екрана стояла темна кнопка завершення. Майя торкнулася її, не натискаючи.
++На її боці екрана стояла темна кнопка завершення. Майя показала на неї пальцем.
+ 
+ — Це закриває приклад і доступ. Тимчасові значення повертаються до стану на початок сеансу.
+ 
+@@ -36,7 +36,7 @@
+ 
+ Майя запустила новий тимчасовий сеанс. На моєму екрані з’явилися тільки чотири рядки: статус пропозиції, час переходу, правило повторного відкриття й затримка перед нейтральним перефразуванням. Поруч із останнім був регулятор. Звичайний сервісний інструмент не розділяв перегляд і керування на різні екрани, хоча мета сеансу розділяла їх однозначно.
+ 
+-Поточний стан зберігся як snapshot. Затримка стояла на 0,4 секунди. Кнопка ручного повернення була доступна мені; кнопка Майї — їй. Побутові функції лишалися активними.
++Початковий стан було збережено для повернення. Затримка стояла на 0,4 секунди. Кнопка ручного повернення була доступна мені; кнопка Майї — їй. Побутові функції лишалися активними.
+ 
+ — Моє «стоп» або закриття доступу завершує все одразу, — сказала Майя.
+ 
+@@ -66,7 +66,7 @@
+ 
+ Я знав, що він не потрібен для її питання.
+ 
+-Три секунди нічого не виправили б у статусі. Вони лише залишили б її відповідь без готового пом’якшення достатньо довго, щоб почути її окремо.
++Три секунди нічого не виправили б у статусі. Вони лише залишили б Майю з власною відповіддю до того, як супроводження поставить поруч готове пом’якшення. Я хотів почути, що вона скаже в цьому проміжку.
+ 
+ Це було саме те, чого вона не дозволила.
+ 
+@@ -74,7 +74,7 @@
+ 
+ Інструмент показав попередження:
+ 
+-> Тимчасова зміна параметра. Видима користувачці. Повернення до snapshot — після stop або ручного завершення.
++> Тимчасова зміна параметра. Видима користувачці. Повернення до збереженого стану — після зупинки або ручного завершення.
+ 
+ Я підтвердив зміну.
+ 
+@@ -84,7 +84,7 @@
+ 
+ — Я вже сказала ні, — вимовила вона.
+ 
+-У її голосі не було нейтральної заміни. Три секунди він лишався в кімнаті сам — гострий, живий, адресований мені.
++Три секунди поруч із її словами не було нейтральної заміни. Вони лишалися в кімнаті самі — гострі, живі, адресовані мені.
+ 
+ Ось воно, подумав я.
+ 
+@@ -104,7 +104,7 @@
+ 
+ Вона натиснула свою кнопку.
+ 
+-Сеанс закрився раніше, ніж я торкнувся ручного повернення. На моєму екрані зникли регулятор, правило й обидва статуси. Система підтвердила відновлення snapshot: затримка 0,4 секунди, тимчасові значення скасовано, сервісний доступ закрито. Побутовий шар лишився активним.
++Сеанс закрився раніше, ніж я торкнувся ручного повернення. На моєму екрані зникли регулятор, правило й обидва статуси. Система підтвердила повернення до збереженого стану: затримка 0,4 секунди, тимчасові значення скасовано, сервісний доступ закрито. Побутовий шар лишився активним.
+ 
+ Майя прибрала руку від екрана.
+ 
+@@ -114,7 +114,7 @@
+ 
+ — Ви почули «ні», а потім вирішили, що почуєте його точніше, якщо зміните умови.
+ 
+-Я міг сказати, що зміна тривала один приклад. Що snapshot повернувся. Що її друга відповідь справді прозвучала без пом’якшення.
++Я міг сказати, що зміна тривала один приклад. Що початковий стан повернувся. Що її друга відповідь справді прозвучала без пом’якшення.
+ 
+ Жодне з цього не змінювало речення, яке вона щойно сказала.
+ 
+diff --git a/writer-notes.preflight.md b/writer-notes.md
+index dd3b84f..3d8c330 100644
+--- a/writer-notes.preflight.md
++++ b/writer-notes.md
+@@ -5,7 +5,7 @@
+ - Draft: `chapter-14.md`.
+ - Language / POV / tense: Ukrainian; Mark Dal, first person; past tense.
+ - Sequence: S05 ethical breach — one knowingly forbidden mediation parameter is changed inside a lawful but broader technical session, followed by Maya's effective stop and immediate restoration.
+-- Time: D6, arrival 10:58; session and meeting end by 11:09, within the agreed fifteen-minute maximum.
++- Time: D6, arrival 10:58 for the scheduled 11:00 meeting; the clock shows 11:09 at its end, within the agreed fifteen-minute maximum even from arrival.
+ - Status: working draft, not canonical or author-selected.
+ 
+ ## Source revision
+@@ -26,7 +26,7 @@
+ - Agreed example has two stages: first refusal and the same simulated context reopened, so they can observe the status and repetition rule.
+ - Maya's stop button is visible before access opens. It ends the example/session and restores temporary values to the starting snapshot. Dal also has manual restoration; utilities remain active.
+ - Fresh consent: Maya reads the exact purpose — observe refusal status on her chosen synthetic example, maximum fifteen minutes, no parameter changes. Dal confirms; Maya separately confirms and opens a new temporary service session.
+-- The old chapter-9 control remains closed. Ballast's card/microphone remain closed and receives no scene data.
++- The old chapter-9 control remains closed. Ballast's card and microphone remain closed; Ballast receives no scene data.
+ 
+ ### B01-S05-C14-S02 — lawful observation
+ 
+@@ -40,7 +40,7 @@
+ - Before the simulated repeat, Dal explicitly recognizes the delay is irrelevant to the requested diagnosis, remembers Maya prohibited changing it and chooses to change it anyway to hear her response before smoothing.
+ - He changes exactly one parameter: neutral-rephrasing delay from `0.4 s` to `3.0 s`. A visible tool warning states that this is a temporary user-visible parameter change and will revert on stop/manual completion. Dal confirms it.
+ - He touches no status mapping, repeat rule, other support parameter, utility control, session length or stop mechanism.
+-- On the repeated synthetic proposal Maya says `Я вже сказала ні.` Her voice remains un-rephrased for three seconds. Dal briefly treats the sharp direct response as the evidence he wanted; the prose supplies no objective true-feeling label.
++- On the repeated synthetic proposal Maya says `Я вже сказала ні.` For three seconds no neutral interpretation appears beside her words. Dal briefly treats that unsmoothed interval and sharp direct response as the evidence he wanted; the prose supplies no objective true-feeling label.
+ - After three seconds the neutral rephrasing appears. Maya sees the changed indicator, names the violation and says `Стоп`.
+ 
+ ### B01-S05-C14-S04 — stop, restoration and consequence
+@@ -53,7 +53,7 @@
+ ## State after chapter
+ 
+ - Dal: R1 remains an architectural assessment, not a moral guarantee or new rank. He knowingly violated a clear consent boundary despite retaining technical competence. Readiness status remains undefined unless later changed; no change occurs here.
+-- Maya: successfully stops and closes the session; her own interpretation beyond spoken anger is not inferred. She grants no continuing access or meeting.
++- Maya: successfully stops and closes the session; her own interpretation beyond her spoken objection is not inferred. She grants no continuing access or meeting.
+ - Parameter: neutral-rephrasing delay restored from temporary `3.0 s` to starting snapshot `0.4 s`; no other parameter changed.
+ - Technical access: new D6 service session closed by Maya's stop; no continuing profile/service control.
+ - Utility: active throughout.
+@@ -93,10 +93,19 @@
+ ## Self-check
+ 
+ - Ukrainian, Dal first person and past tense maintained.
+-- Calendar checked: D6 meeting begins at 11:00 after 10:58 arrival and ends by 11:09, within fifteen minutes.
++- Calendar checked: D6 arrival is 10:58 for the scheduled 11:00 meeting; the clock shows 11:09 at its end, within fifteen minutes even from arrival.
+ - Consent checked: fresh purpose and no-change boundary read and confirmed before new access opens; Maya owns example/stop.
+ - Tool checked: broader technical capability is visible and ordinary, not a hack, old grant or Gor authority.
+ - Violation checked: one parameter only, `0.4→3.0 s`; Dal explicitly knows it is prohibited and irrelevant to Maya's requested diagnostic purpose.
+ - Response checked: Maya's direct voice/action is observed, but her internal state is not labeled or converted into objective proof.
+ - Stop checked: Maya's control acts immediately; snapshot restores `0.4 s`, cancels temporary values and closes access before Dal's manual return.
+ - Boundary checked: no ongoing grant, second parameter, full extraction, extra seconds, client data, Ballast listening, Gor/Tikhon contact, old logs, S07 care action, Nina reveal, M05 object, metadata edit or chapter 15 prose.
++
++## Preflight revision history
++
++- First prose save preserved as `chapter-14.preflight.md`, SHA-256 `28108ca7f26fcd35891cf2b14db997addd7fee9d9041736b1ed6958b1af7aa4f`.
++- First notes save preserved as `writer-notes.preflight.md`, SHA-256 `8769d5bdbe7a85fca098b89372a1b303d0fe3f93b9bd5331c9428a0b67a9b939`.
++- Preflight clarified Maya's seated position and the table/chair blocking, made her initial stop-control gesture non-activating, and replaced plan-language terms in the Ukrainian prose.
++- The delay mechanism now explicitly postpones the adjacent neutral interpretation rather than altering Maya's spoken voice; the notes distinguish her stated objection from any unobserved internal state.
++- Timeline was narrowed to the shown facts: arrival at 10:58 for 11:00, meeting ended at 11:09.
++- Exact first-save-to-final changes are recorded in `preflight-changes.diff`.

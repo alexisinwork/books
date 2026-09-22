@@ -1,0 +1,590 @@
+{
+  "schema_version": 1,
+  "run_id": "ch14-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "45dc268af069a6a334526b0bd6b5d7c0cb107a43e69e583370da2840a88a50e1",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "claude"
+      ],
+      "category": "character",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "14",
+          "anchor": "P0034",
+          "quote": "Я знав, що він не потрібен для її питання."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0035",
+          "quote": "Три секунди нічого не виправили б у статусі. Вони лише залишили б Майю з власною відповіддю до того, як супроводження поставить поруч готове пом’якшення. Я хотів почути, що вона скаже в цьому проміжку."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0036",
+          "quote": "Це було саме те, чого вона не дозволила."
+        }
+      ],
+      "observation": "Повтор явного знання заборони потрібний для відповідальності, але може надто пояснювати мотивацію.",
+      "reader_effect": "Локальна ясність, природність або ритм; не новий факт.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Оцінити CH11–15, не перетворювати свідомий вчинок на випадок."
+      ],
+      "dependencies": [
+        "CH14 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "14",
+          "anchor": "P0019",
+          "quote": "Майя запустила новий тимчасовий сеанс. На моєму екрані з’явилися тільки чотири рядки: статус пропозиції, час переходу, правило повторного відкриття й затримка перед нейтральним перефразуванням. Поруч із останнім був регулятор. Звичайний сервісний інструмент не розділяв перегляд і керування на різні екрани, хоча мета сеансу розділяла їх однозначно."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0024",
+          "quote": "На спільній частині екрана з’явилося синтетичне запрошення:"
+        }
+      ],
+      "observation": "Спільна частина екрана не уточнює зв’язку з двома пристроями.",
+      "reader_effect": "Локальна ясність, природність або ритм; не новий факт.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "За потреби мінімально уточнити носій прикладу."
+      ],
+      "dependencies": [
+        "CH14 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "14",
+          "anchor": "P0005",
+          "quote": "— Приклад я вже вибрала, — сказала Майя. — Запрошення на відкриту лекцію. Нікого з людей у ньому немає."
+        }
+      ],
+      "observation": "Нікого з людей у синтетичному запрошенні — можливо неприродна фраза.",
+      "reader_effect": "Локальна ясність, природність або ритм; не новий факт.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Уточнення відсутності реальних учасників/даних за авторським вибором."
+      ],
+      "dependencies": [
+        "CH14 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra",
+        "terra"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "14",
+          "anchor": "P0056",
+          "quote": "— Я заборонила саме це."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0057",
+          "quote": "— Так."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0058",
+          "quote": "— Ви почули «ні», а потім вирішили, що почуєте його точніше, якщо зміните умови."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0059",
+          "quote": "Я міг сказати, що зміна тривала один приклад. Що початковий стан повернувся. Що її друга відповідь справді прозвучала без пом’якшення."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0060",
+          "quote": "Жодне з цього не змінювало речення, яке вона щойно сказала."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0061",
+          "quote": "— Так, — повторив я."
+        }
+      ],
+      "observation": "Ряд Так оголює визнання, але може створити враження вже повного саморозуміння Даля.",
+      "reader_effect": "Локальна ясність, природність або ритм; не новий факт.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Зберегти дію; CH15 показує незручний наслідок, не готову мораль."
+      ],
+      "dependencies": [
+        "CH14 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "14",
+          "anchor": "P0004",
+          "quote": "На столі не було ні чаю, ні яблук — тільки її пристрій. Один стілець був відсунутий для мене навпроти її місця. Я сів, поклав свій пристрій поруч і не відкривав його. Майя сіла по той бік столу. Картка Баласта лишалася закритою."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0013",
+          "quote": "Я відкрив чисте запрошення до сервісної діагностики. Воно ще не давало доступу. Майя прочитала мету вголос:"
+        }
+      ],
+      "observation": "Flash припускає пропущене фізичне відкриття пристрою; кришка не встановлена.",
+      "reader_effect": "Локальна ясність, природність або ритм; не новий факт.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Не додавати кришку за припущенням, лише можливе уточнення інтерфейсу."
+      ],
+      "dependencies": [
+        "CH14 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "14",
+          "anchor": "P0020",
+          "quote": "Початковий стан було збережено для повернення. Затримка стояла на 0,4 секунди. Кнопка ручного повернення була доступна мені; кнопка Майї — їй. Побутові функції лишалися активними."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0054",
+          "quote": "Сеанс закрився раніше, ніж я торкнувся ручного повернення. На моєму екрані зникли регулятор, правило й обидва статуси. Система підтвердила повернення до збереженого стану: затримка 0,4 секунди, тимчасові значення скасовано, сервісний доступ закрито. Побутовий шар лишився активним."
+        }
+      ],
+      "observation": "Побутові функції/шар варіюються без зміни режиму.",
+      "reader_effect": "Локальна ясність, природність або ритм; не новий факт.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Уніфікація необов’язкова."
+      ],
+      "dependencies": [
+        "CH14 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "14",
+          "anchor": "P0059",
+          "quote": "Я міг сказати, що зміна тривала один приклад. Що початковий стан повернувся. Що її друга відповідь справді прозвучала без пом’якшення."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0060",
+          "quote": "Жодне з цього не змінювало речення, яке вона щойно сказала."
+        }
+      ],
+      "observation": "Ніщо з цього запропоновано замість Жодне з цього; категоричну кальку не доведено.",
+      "reader_effect": "Локальна ясність, природність або ритм; не новий факт.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Розглянути природніший варіант без перебільшення нормативної заборони."
+      ],
+      "dependencies": [
+        "CH14 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "14",
+          "anchor": "P0020",
+          "quote": "Початковий стан було збережено для повернення. Затримка стояла на 0,4 секунди. Кнопка ручного повернення була доступна мені; кнопка Майї — їй. Побутові функції лишалися активними."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0033",
+          "quote": "Сеанс підготував другий крок — той самий контекст із повторно відкритою пропозицією. На екрані лишалося 0,4 секунди. Поруч — регулятор, про який Майя сказала вчора й сьогодні."
+        }
+      ],
+      "observation": "Лишалося0,4секунди може на мить читатися як відлік.",
+      "reader_effect": "Локальна ясність, природність або ритм; не новий факт.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Можна явно назвати значення затримки."
+      ],
+      "dependencies": [
+        "CH14 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "14",
+          "anchor": "P0019",
+          "quote": "Майя запустила новий тимчасовий сеанс. На моєму екрані з’явилися тільки чотири рядки: статус пропозиції, час переходу, правило повторного відкриття й затримка перед нейтральним перефразуванням. Поруч із останнім був регулятор. Звичайний сервісний інструмент не розділяв перегляд і керування на різні екрани, хоча мета сеансу розділяла їх однозначно."
+        }
+      ],
+      "observation": "Повтор розділяв/розділяла з різними підметами ущільнює пояснення.",
+      "reader_effect": "Локальна ясність, природність або ритм; не новий факт.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Мінімальна перебудова зі збереженням можливості проти дозволу."
+      ],
+      "dependencies": [
+        "CH14 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "claude",
+        "terra",
+        "gemini"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "14",
+          "anchor": "P0044",
+          "quote": "Три секунди поруч із її словами не було нейтральної заміни. Вони лишалися в кімнаті самі — гострі, живі, адресовані мені."
+        }
+      ],
+      "observation": "Трійка означень — ліричний сплеск; для інших точний пік, займенник має коротку можливу двозначність.",
+      "reader_effect": "Локальна ясність, природність або ритм; не новий факт.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Вибір голосу автора, без загальної заборони образності."
+      ],
+      "dependencies": [
+        "CH14 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "14",
+          "anchor": "P0004",
+          "quote": "На столі не було ні чаю, ні яблук — тільки її пристрій. Один стілець був відсунутий для мене навпроти її місця. Я сів, поклав свій пристрій поруч і не відкривав його. Майя сіла по той бік столу. Картка Баласта лишалася закритою."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0020",
+          "quote": "Початковий стан було збережено для повернення. Затримка стояла на 0,4 секунди. Кнопка ручного повернення була доступна мені; кнопка Майї — їй. Побутові функції лишалися активними."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0033",
+          "quote": "Сеанс підготував другий крок — той самий контекст із повторно відкритою пропозицією. На екрані лишалося 0,4 секунди. Поруч — регулятор, про який Майя сказала вчора й сьогодні."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0044",
+          "quote": "Три секунди поруч із її словами не було нейтральної заміни. Вони лишалися в кімнаті самі — гострі, живі, адресовані мені."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0054",
+          "quote": "Сеанс закрився раніше, ніж я торкнувся ручного повернення. На моєму екрані зникли регулятор, правило й обидва статуси. Система підтвердила повернення до збереженого стану: затримка 0,4 секунди, тимчасові значення скасовано, сервісний доступ закрито. Побутовий шар лишився активним."
+        }
+      ],
+      "observation": "П’ять форм лишатися; частина функціональна.",
+      "reader_effect": "Локальна ясність, природність або ритм; не новий факт.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Перевірити функцію, не редагувати за частотною квотою."
+      ],
+      "dependencies": [
+        "CH14 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-012",
+      "origin_reports": [
+        "astra",
+        "claude"
+      ],
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "14",
+          "anchor": "P0004",
+          "quote": "На столі не було ні чаю, ні яблук — тільки її пристрій. Один стілець був відсунутий для мене навпроти її місця. Я сів, поклав свій пристрій поруч і не відкривав його. Майя сіла по той бік столу. Картка Баласта лишалася закритою."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0014",
+          "quote": "— «Спостереження за статусом відмови на обраному користувачкою синтетичному прикладі. До п’ятнадцяти хвилин. Без змін параметрів»."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0019",
+          "quote": "Майя запустила новий тимчасовий сеанс. На моєму екрані з’явилися тільки чотири рядки: статус пропозиції, час переходу, правило повторного відкриття й затримка перед нейтральним перефразуванням. Поруч із останнім був регулятор. Звичайний сервісний інструмент не розділяв перегляд і керування на різні екрани, хоча мета сеансу розділяла їх однозначно."
+        },
+        {
+          "chapter": "14",
+          "anchor": "P0021",
+          "quote": "— Моє «стоп» або закриття доступу завершує все одразу, — сказала Майя."
+        }
+      ],
+      "observation": "Процедурна підготовка значна для короткої глави.",
+      "reader_effect": "Локальна ясність, природність або ритм; не новий факт.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Оцінити кумулятивний ритм11–15, зберегти згоду й дієвий stop."
+      ],
+      "dependencies": [
+        "CH14 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "convergent",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

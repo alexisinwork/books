@@ -1,0 +1,74 @@
+{
+  "source_sha256": "45dc268af069a6a334526b0bd6b5d7c0cb107a43e69e583370da2840a88a50e1",
+  "status": "scheme3_required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "Full CH14 68blocks,668lexical tokens; not volume audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "68fcef9cec5d7d721e8667a453ad2d3beaba871d06c95cd263a436c95ad32a95",
+    "terra": "2892098157f8946bb5787b7e05e625c778ab986d49092d0d0a469ce3d4b7210a",
+    "gemini_flash": "53f91ec17286d4de609d5ba37257ceb685b23dcaf61f47d2c8109a94da498ee8",
+    "gemini": "1750b34b0c042bd486abd06196f3cb09522ff4e0cf6558ac289bbec0ea92c946"
+  },
+  "additional_opus": "169c249c60a83ef500b3130bdedd6924691bc826e5e056473cdc077e691e1014",
+  "reconciliation": "ee908798318279782ff77600fa85a13b64a52c9d8b7e21a2cff15da5ce975c88",
+  "missing": [],
+  "verdicts": {
+    "astra": "PASS",
+    "terra": "Fresh fork-none reading: no mandatory revisions",
+    "gemini_flash": "PASS with local proposals",
+    "gemini": "positive full cold-reader diary",
+    "claude_optional": "PASS"
+  },
+  "terra_replacement": "checks/terra-report-replacement.json; first raw report preserved, not used as mandatory diagnosis",
+  "language_scans": "Both clean; independent grammar checker not run",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "13afb021424f1f2d7ed528346509a72f27f82d840813b2576b264624e51aa78f",
+    "pages": 3,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 308,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 312,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 3,
+        "words": 79,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 3
+      }
+    ],
+    "visual_review": "All three pages inspected; no clipping/blanks, short79-word final page retained"
+  },
+  "versions": {
+    "chapter-14.preflight.md": "28108ca7f26fcd35891cf2b14db997addd7fee9d9041736b1ed6958b1af7aa4f",
+    "writer-notes.preflight.md": "8769d5bdbe7a85fca098b89372a1b303d0fe3f93b9bd5331c9428a0b67a9b939",
+    "preflight-changes.diff": "5b30677fdb7f20a0e660262d1725041d6a2cdaa4ecf599177cf267f3b8e543da"
+  },
+  "schema_instances": "Draft202012Validator run and ledger passed",
+  "remaining": [
+    "12 pending choices; no post-review prose edits",
+    "CH15 onward and full-volume audit"
+  ],
+  "review_policy": "production/2026-09-21-book01/REVIEW-POLICY-2026-09-22.md",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  }
+}
