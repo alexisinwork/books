@@ -1,0 +1,936 @@
+--- kontakt/books/book-01/production/2026-09-21-book01/checks/ledger-schema-normalization/ch11-issue-ledger.before.json
++++ kontakt/books/book-01/audit/ensemble/ch11-20260922-sol-v1/issue-ledger.json
+@@ -48,7 +48,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "multiple_or_differing_reactions",
++      "agreement": "conflicted",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -103,7 +103,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "single_reader_observation",
++      "agreement": "single",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -155,7 +155,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "multiple_or_differing_reactions",
++      "agreement": "conflicted",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -206,7 +206,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "multiple_or_differing_reactions",
++      "agreement": "conflicted",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -248,7 +248,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "multiple_or_differing_reactions",
++      "agreement": "conflicted",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -288,7 +288,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "single_reader_observation",
++      "agreement": "single",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -328,7 +328,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "single_reader_observation",
++      "agreement": "single",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -368,7 +368,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "single_reader_observation",
++      "agreement": "single",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -413,7 +413,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "single_reader_observation",
++      "agreement": "single",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -468,7 +468,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "single_reader_observation",
++      "agreement": "single",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -513,7 +513,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "single_reader_observation",
++      "agreement": "single",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -553,7 +553,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "single_reader_observation",
++      "agreement": "single",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -603,7 +603,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "single_reader_observation",
++      "agreement": "single",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -643,7 +643,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "single_reader_observation",
++      "agreement": "single",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+@@ -683,7 +683,7 @@
+         "CH11–15 block audit",
+         "whole-volume audit"
+       ],
+-      "agreement": "single_reader_observation",
++      "agreement": "single",
+       "author_decision": {
+         "status": "pending",
+         "basis": null
+--- kontakt/books/book-01/production/2026-09-21-book01/checks/ledger-schema-normalization/ch12-issue-ledger.before.json
++++ kontakt/books/book-01/audit/ensemble/ch12-20260922-sol-v1/issue-ledger.json
+@@ -1,398 +1,398 @@
+-{
+-  "schema_version": 1,
+-  "run_id": "ch12-20260922-sol-v1",
+-  "project_id": "kontakt-razlad",
+-  "book_id": "book-01",
+-  "source_sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
+-  "status": "reconciled",
+-  "items": [
+-    {
+-      "id": "ENS-001",
+-      "origin_reports": [
+-        "astra"
+-      ],
+-      "category": "prose",
+-      "severity": "minor",
+-      "certainty": "reader_reaction",
+-      "locations": [
+-        {
+-          "chapter": "12",
+-          "anchor": "P0011",
+-          "quote": "Допомога спрацювала саме тому, що Баласт нічого більше не зробив. Не перепитав причину. Не запропонував коротше формулювання. Не відступив із позначеною образою, яку потім довелося б виправляти."
+-        },
+-        {
+-          "chapter": "12",
+-          "anchor": "P0012",
+-          "quote": "У грудях відпустило настільки мало, що це можна було не помітити. Я помітив."
+-        }
+-      ],
+-      "observation": "Пояснення користі перед тілесним полегшенням може дублювати вже показану дію.",
+-      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
+-      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+-      "proposed_actions": [
+-        "Оцінити скорочення пояснювальної серії у контексті CH11–15; зберегти реальну користь."
+-      ],
+-      "dependencies": [
+-        "CH12 future authorized revision",
+-        "CH11–15 block audit",
+-        "whole-volume audit"
+-      ],
+-      "agreement": "recorded_without_majority_decision",
+-      "author_decision": {
+-        "status": "pending",
+-        "basis": null
+-      },
+-      "implementation": {
+-        "status": "not_started",
+-        "targets": []
+-      },
+-      "verification": {
+-        "status": "not_run",
+-        "evidence": null
+-      }
+-    },
+-    {
+-      "id": "ENS-002",
+-      "origin_reports": [
+-        "astra"
+-      ],
+-      "category": "pacing",
+-      "severity": "minor",
+-      "certainty": "reader_reaction",
+-      "locations": [
+-        {
+-          "chapter": "12",
+-          "anchor": "P0019",
+-          "quote": "Вільна можливість минула без призначення. У кімнату ніхто не мав прийти о цій годині, ніхто не скасовував зустріч і не чекав моєї відповіді. Сірий слот просто перестав бути майбутнім."
+-        }
+-      ],
+-      "observation": "Пояснення відсутності скасованого клієнта захищає факт, але може гальмувати сцену.",
+-      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
+-      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+-      "proposed_actions": [
+-        "Перевірити щільність у цілому блоці, зберігши різницю вільного слота і запису."
+-      ],
+-      "dependencies": [
+-        "CH12 future authorized revision",
+-        "CH11–15 block audit",
+-        "whole-volume audit"
+-      ],
+-      "agreement": "recorded_without_majority_decision",
+-      "author_decision": {
+-        "status": "pending",
+-        "basis": null
+-      },
+-      "implementation": {
+-        "status": "not_started",
+-        "targets": []
+-      },
+-      "verification": {
+-        "status": "not_run",
+-        "evidence": null
+-      }
+-    },
+-    {
+-      "id": "ENS-003",
+-      "origin_reports": [
+-        "astra",
+-        "terra",
+-        "gemini"
+-      ],
+-      "category": "prose",
+-      "severity": "minor",
+-      "certainty": "reader_reaction",
+-      "locations": [
+-        {
+-          "chapter": "12",
+-          "anchor": "P0013",
+-          "quote": "Ритм був знайомий: лишитися доступним, не покликати назад, не перетворити мовчання на відмову від підтримки. Колись я зібрав цю послідовність для безпечної присутності. Зібрав добре."
+-        },
+-        {
+-          "chapter": "12",
+-          "anchor": "P0026",
+-          "quote": "Це було правильно."
+-        },
+-        {
+-          "chapter": "12",
+-          "anchor": "P0027",
+-          "quote": "Так само правильно я колись учив систему не робити чужу втому боргом. Не вимагати подяки за присутність. Лишати шлях назад відкритим і не стояти в ньому, наче у дверях."
+-        }
+-      ],
+-      "observation": "Друге впізнавання власної логіки повторює раннє; Terra бачить функціональний ритм, Pro — емоційний пік.",
+-      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
+-      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+-      "proposed_actions": [
+-        "Не видаляти за підрахунком повторів; оцінити наростання особистої незручності."
+-      ],
+-      "dependencies": [
+-        "CH12 future authorized revision",
+-        "CH11–15 block audit",
+-        "whole-volume audit"
+-      ],
+-      "agreement": "recorded_without_majority_decision",
+-      "author_decision": {
+-        "status": "pending",
+-        "basis": null
+-      },
+-      "implementation": {
+-        "status": "not_started",
+-        "targets": []
+-      },
+-      "verification": {
+-        "status": "not_run",
+-        "evidence": null
+-      }
+-    },
+-    {
+-      "id": "ENS-004",
+-      "origin_reports": [
+-        "astra",
+-        "gemini"
+-      ],
+-      "category": "voice",
+-      "severity": "minor",
+-      "certainty": "reader_reaction",
+-      "locations": [
+-        {
+-          "chapter": "12",
+-          "anchor": "P0031",
+-          "quote": "> Сьогодні о 16:30 можу відкрити короткий аудіоканал. Хочу зрозуміти, як у супроводженні позначити відмову без пояснення, щоб її не перетворювали на паузу до наступної пропозиції. Сьогодні — без тестів і змін. Якщо погоджуєтеся, підтвердьте тільки час."
+-        }
+-      ],
+-      "observation": "Довге формальне повідомлення Майї може бути захисною мовою; Pro бачить особистий підтекст, який не є фактом.",
+-      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
+-      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+-      "proposed_actions": [
+-        "Зберегти її власну практичну мету; звірити регістр з CH13."
+-      ],
+-      "dependencies": [
+-        "CH12 future authorized revision",
+-        "CH11–15 block audit",
+-        "whole-volume audit"
+-      ],
+-      "agreement": "recorded_without_majority_decision",
+-      "author_decision": {
+-        "status": "pending",
+-        "basis": null
+-      },
+-      "implementation": {
+-        "status": "not_started",
+-        "targets": []
+-      },
+-      "verification": {
+-        "status": "not_run",
+-        "evidence": null
+-      }
+-    },
+-    {
+-      "id": "ENS-005",
+-      "origin_reports": [
+-        "gemini_flash"
+-      ],
+-      "category": "clarity",
+-      "severity": "minor",
+-      "certainty": "reader_reaction",
+-      "locations": [
+-        {
+-          "chapter": "12",
+-          "anchor": "P0002",
+-          "quote": "О 09:31 я відкрив робочу кімнату й поставив на стіл еталонний модуль."
+-        },
+-        {
+-          "chapter": "12",
+-          "anchor": "P0020",
+-          "quote": "Я перевірив пломбу модуля й записав три результати в його локальний журнал."
+-        },
+-        {
+-          "chapter": "12",
+-          "anchor": "P0040",
+-          "quote": "Повідомлення закрилося. Я повернув контрольну пластину у футляр, але засувку з першого разу не защепнув."
+-        }
+-      ],
+-      "observation": "Фінальна контрольна пластина не отримала явного зв’язку з еталонним модулем.",
+-      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
+-      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+-      "proposed_actions": [
+-        "За авторським вибором уточнити частину комплекту або уніфікувати назву, не підмінюючи прилад мовчки."
+-      ],
+-      "dependencies": [
+-        "CH12 future authorized revision",
+-        "CH11–15 block audit",
+-        "whole-volume audit"
+-      ],
+-      "agreement": "recorded_without_majority_decision",
+-      "author_decision": {
+-        "status": "pending",
+-        "basis": null
+-      },
+-      "implementation": {
+-        "status": "not_started",
+-        "targets": []
+-      },
+-      "verification": {
+-        "status": "not_run",
+-        "evidence": null
+-      }
+-    },
+-    {
+-      "id": "ENS-006",
+-      "origin_reports": [
+-        "gemini_flash"
+-      ],
+-      "category": "prose",
+-      "severity": "minor",
+-      "certainty": "reader_reaction",
+-      "locations": [
+-        {
+-          "chapter": "12",
+-          "anchor": "P0002",
+-          "quote": "О 09:31 я відкрив робочу кімнату й поставив на стіл еталонний модуль."
+-        }
+-      ],
+-      "observation": "Flash пропонує відчинив/відімкнув замість відкрив кімнату; категоричну кальку не доведено.",
+-      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
+-      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+-      "proposed_actions": [
+-        "Можливе предметне уточнення дії, нормативну заборону не вважати підтвердженою."
+-      ],
+-      "dependencies": [
+-        "CH12 future authorized revision",
+-        "CH11–15 block audit",
+-        "whole-volume audit"
+-      ],
+-      "agreement": "recorded_without_majority_decision",
+-      "author_decision": {
+-        "status": "pending",
+-        "basis": null
+-      },
+-      "implementation": {
+-        "status": "not_started",
+-        "targets": []
+-      },
+-      "verification": {
+-        "status": "not_run",
+-        "evidence": null
+-      }
+-    },
+-    {
+-      "id": "ENS-007",
+-      "origin_reports": [
+-        "gemini_flash"
+-      ],
+-      "category": "prose",
+-      "severity": "minor",
+-      "certainty": "reader_reaction",
+-      "locations": [
+-        {
+-          "chapter": "12",
+-          "anchor": "P0005",
+-          "quote": "— Добрий ранок, Марку Далю, — сказав Баласт. — Готовність лишається невизначеною. До вільного слота о 09:40 дев’ять хвилин."
+-        }
+-      ],
+-      "observation": "Flash наполягає на Доброго ранку; університетське джерело допускає також Добрий ранок.",
+-      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
+-      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+-      "proposed_actions": [
+-        "Не застосовувати автоматичну заміну; допустимий авторський вибір вітання."
+-      ],
+-      "dependencies": [
+-        "CH12 future authorized revision",
+-        "CH11–15 block audit",
+-        "whole-volume audit"
+-      ],
+-      "agreement": "recorded_without_majority_decision",
+-      "author_decision": {
+-        "status": "pending",
+-        "basis": null
+-      },
+-      "implementation": {
+-        "status": "not_started",
+-        "targets": []
+-      },
+-      "verification": {
+-        "status": "not_run",
+-        "evidence": null
+-      }
+-    },
+-    {
+-      "id": "ENS-008",
+-      "origin_reports": [
+-        "gemini_flash"
+-      ],
+-      "category": "prose",
+-      "severity": "minor",
+-      "certainty": "reader_reaction",
+-      "locations": [
+-        {
+-          "chapter": "12",
+-          "anchor": "P0025",
+-          "quote": "Я сам відкрив розклад. Між 09:40 і наступною призначеною зустріччю лишався порожній проміжок. Статус готовності стояв окремо: «не визначено користувачем». Баласт не перетворив мовчання на нову відповідь і не повернув слот заднім числом."
+-        }
+-      ],
+-      "observation": "Flash називає заднім числом калькою без джерела; заборону не підтверджено.",
+-      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
+-      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+-      "proposed_actions": [
+-        "Зберегти як необов’язковий варіант регістру, не замінювати механічно на ретроактивно."
+-      ],
+-      "dependencies": [
+-        "CH12 future authorized revision",
+-        "CH11–15 block audit",
+-        "whole-volume audit"
+-      ],
+-      "agreement": "recorded_without_majority_decision",
+-      "author_decision": {
+-        "status": "pending",
+-        "basis": null
+-      },
+-      "implementation": {
+-        "status": "not_started",
+-        "targets": []
+-      },
+-      "verification": {
+-        "status": "not_run",
+-        "evidence": null
+-      }
+-    },
+-    {
+-      "id": "ENS-009",
+-      "origin_reports": [
+-        "gemini_flash"
+-      ],
+-      "category": "voice",
+-      "severity": "minor",
+-      "certainty": "reader_reaction",
+-      "locations": [
+-        {
+-          "chapter": "12",
+-          "anchor": "P0031",
+-          "quote": "> Сьогодні о 16:30 можу відкрити короткий аудіоканал. Хочу зрозуміти, як у супроводженні позначити відмову без пояснення, щоб її не перетворювали на паузу до наступної пропозиції. Сьогодні — без тестів і змін. Якщо погоджуєтеся, підтвердьте тільки час."
+-        }
+-      ],
+-      "observation": "Супроводження може бути важчим за супровід у повідомленні Майї.",
+-      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
+-      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+-      "proposed_actions": [
+-        "Звірити термін і голос; обирати тільки за авторським рішенням."
+-      ],
+-      "dependencies": [
+-        "CH12 future authorized revision",
+-        "CH11–15 block audit",
+-        "whole-volume audit"
+-      ],
+-      "agreement": "recorded_without_majority_decision",
+-      "author_decision": {
+-        "status": "pending",
+-        "basis": null
+-      },
+-      "implementation": {
+-        "status": "not_started",
+-        "targets": []
+-      },
+-      "verification": {
+-        "status": "not_run",
+-        "evidence": null
+-      }
+-    }
+-  ]
+-}
++{
++  "schema_version": 1,
++  "run_id": "ch12-20260922-sol-v1",
++  "project_id": "kontakt-razlad",
++  "book_id": "book-01",
++  "source_sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
++  "status": "reconciled",
++  "items": [
++    {
++      "id": "ENS-001",
++      "origin_reports": [
++        "astra"
++      ],
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "locations": [
++        {
++          "chapter": "12",
++          "anchor": "P0011",
++          "quote": "Допомога спрацювала саме тому, що Баласт нічого більше не зробив. Не перепитав причину. Не запропонував коротше формулювання. Не відступив із позначеною образою, яку потім довелося б виправляти."
++        },
++        {
++          "chapter": "12",
++          "anchor": "P0012",
++          "quote": "У грудях відпустило настільки мало, що це можна було не помітити. Я помітив."
++        }
++      ],
++      "observation": "Пояснення користі перед тілесним полегшенням може дублювати вже показану дію.",
++      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
++      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
++      "proposed_actions": [
++        "Оцінити скорочення пояснювальної серії у контексті CH11–15; зберегти реальну користь."
++      ],
++      "dependencies": [
++        "CH12 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "agreement": "single",
++      "author_decision": {
++        "status": "pending",
++        "basis": null
++      },
++      "implementation": {
++        "status": "not_started",
++        "targets": []
++      },
++      "verification": {
++        "status": "not_run",
++        "evidence": null
++      }
++    },
++    {
++      "id": "ENS-002",
++      "origin_reports": [
++        "astra"
++      ],
++      "category": "pacing",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "locations": [
++        {
++          "chapter": "12",
++          "anchor": "P0019",
++          "quote": "Вільна можливість минула без призначення. У кімнату ніхто не мав прийти о цій годині, ніхто не скасовував зустріч і не чекав моєї відповіді. Сірий слот просто перестав бути майбутнім."
++        }
++      ],
++      "observation": "Пояснення відсутності скасованого клієнта захищає факт, але може гальмувати сцену.",
++      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
++      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
++      "proposed_actions": [
++        "Перевірити щільність у цілому блоці, зберігши різницю вільного слота і запису."
++      ],
++      "dependencies": [
++        "CH12 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "agreement": "single",
++      "author_decision": {
++        "status": "pending",
++        "basis": null
++      },
++      "implementation": {
++        "status": "not_started",
++        "targets": []
++      },
++      "verification": {
++        "status": "not_run",
++        "evidence": null
++      }
++    },
++    {
++      "id": "ENS-003",
++      "origin_reports": [
++        "astra",
++        "terra",
++        "gemini"
++      ],
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "locations": [
++        {
++          "chapter": "12",
++          "anchor": "P0013",
++          "quote": "Ритм був знайомий: лишитися доступним, не покликати назад, не перетворити мовчання на відмову від підтримки. Колись я зібрав цю послідовність для безпечної присутності. Зібрав добре."
++        },
++        {
++          "chapter": "12",
++          "anchor": "P0026",
++          "quote": "Це було правильно."
++        },
++        {
++          "chapter": "12",
++          "anchor": "P0027",
++          "quote": "Так само правильно я колись учив систему не робити чужу втому боргом. Не вимагати подяки за присутність. Лишати шлях назад відкритим і не стояти в ньому, наче у дверях."
++        }
++      ],
++      "observation": "Друге впізнавання власної логіки повторює раннє; Terra бачить функціональний ритм, Pro — емоційний пік.",
++      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
++      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
++      "proposed_actions": [
++        "Не видаляти за підрахунком повторів; оцінити наростання особистої незручності."
++      ],
++      "dependencies": [
++        "CH12 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "agreement": "conflicted",
++      "author_decision": {
++        "status": "pending",
++        "basis": null
++      },
++      "implementation": {
++        "status": "not_started",
++        "targets": []
++      },
++      "verification": {
++        "status": "not_run",
++        "evidence": null
++      }
++    },
++    {
++      "id": "ENS-004",
++      "origin_reports": [
++        "astra",
++        "gemini"
++      ],
++      "category": "voice",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "locations": [
++        {
++          "chapter": "12",
++          "anchor": "P0031",
++          "quote": "> Сьогодні о 16:30 можу відкрити короткий аудіоканал. Хочу зрозуміти, як у супроводженні позначити відмову без пояснення, щоб її не перетворювали на паузу до наступної пропозиції. Сьогодні — без тестів і змін. Якщо погоджуєтеся, підтвердьте тільки час."
++        }
++      ],
++      "observation": "Довге формальне повідомлення Майї може бути захисною мовою; Pro бачить особистий підтекст, який не є фактом.",
++      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
++      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
++      "proposed_actions": [
++        "Зберегти її власну практичну мету; звірити регістр з CH13."
++      ],
++      "dependencies": [
++        "CH12 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "agreement": "conflicted",
++      "author_decision": {
++        "status": "pending",
++        "basis": null
++      },
++      "implementation": {
++        "status": "not_started",
++        "targets": []
++      },
++      "verification": {
++        "status": "not_run",
++        "evidence": null
++      }
++    },
++    {
++      "id": "ENS-005",
++      "origin_reports": [
++        "gemini_flash"
++      ],
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "locations": [
++        {
++          "chapter": "12",
++          "anchor": "P0002",
++          "quote": "О 09:31 я відкрив робочу кімнату й поставив на стіл еталонний модуль."
++        },
++        {
++          "chapter": "12",
++          "anchor": "P0020",
++          "quote": "Я перевірив пломбу модуля й записав три результати в його локальний журнал."
++        },
++        {
++          "chapter": "12",
++          "anchor": "P0040",
++          "quote": "Повідомлення закрилося. Я повернув контрольну пластину у футляр, але засувку з першого разу не защепнув."
++        }
++      ],
++      "observation": "Фінальна контрольна пластина не отримала явного зв’язку з еталонним модулем.",
++      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
++      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
++      "proposed_actions": [
++        "За авторським вибором уточнити частину комплекту або уніфікувати назву, не підмінюючи прилад мовчки."
++      ],
++      "dependencies": [
++        "CH12 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "agreement": "single",
++      "author_decision": {
++        "status": "pending",
++        "basis": null
++      },
++      "implementation": {
++        "status": "not_started",
++        "targets": []
++      },
++      "verification": {
++        "status": "not_run",
++        "evidence": null
++      }
++    },
++    {
++      "id": "ENS-006",
++      "origin_reports": [
++        "gemini_flash"
++      ],
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "locations": [
++        {
++          "chapter": "12",
++          "anchor": "P0002",
++          "quote": "О 09:31 я відкрив робочу кімнату й поставив на стіл еталонний модуль."
++        }
++      ],
++      "observation": "Flash пропонує відчинив/відімкнув замість відкрив кімнату; категоричну кальку не доведено.",
++      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
++      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
++      "proposed_actions": [
++        "Можливе предметне уточнення дії, нормативну заборону не вважати підтвердженою."
++      ],
++      "dependencies": [
++        "CH12 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "agreement": "single",
++      "author_decision": {
++        "status": "pending",
++        "basis": null
++      },
++      "implementation": {
++        "status": "not_started",
++        "targets": []
++      },
++      "verification": {
++        "status": "not_run",
++        "evidence": null
++      }
++    },
++    {
++      "id": "ENS-007",
++      "origin_reports": [
++        "gemini_flash"
++      ],
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "locations": [
++        {
++          "chapter": "12",
++          "anchor": "P0005",
++          "quote": "— Добрий ранок, Марку Далю, — сказав Баласт. — Готовність лишається невизначеною. До вільного слота о 09:40 дев’ять хвилин."
++        }
++      ],
++      "observation": "Flash наполягає на Доброго ранку; університетське джерело допускає також Добрий ранок.",
++      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
++      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
++      "proposed_actions": [
++        "Не застосовувати автоматичну заміну; допустимий авторський вибір вітання."
++      ],
++      "dependencies": [
++        "CH12 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "agreement": "single",
++      "author_decision": {
++        "status": "pending",
++        "basis": null
++      },
++      "implementation": {
++        "status": "not_started",
++        "targets": []
++      },
++      "verification": {
++        "status": "not_run",
++        "evidence": null
++      }
++    },
++    {
++      "id": "ENS-008",
++      "origin_reports": [
++        "gemini_flash"
++      ],
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "locations": [
++        {
++          "chapter": "12",
++          "anchor": "P0025",
++          "quote": "Я сам відкрив розклад. Між 09:40 і наступною призначеною зустріччю лишався порожній проміжок. Статус готовності стояв окремо: «не визначено користувачем». Баласт не перетворив мовчання на нову відповідь і не повернув слот заднім числом."
++        }
++      ],
++      "observation": "Flash називає заднім числом калькою без джерела; заборону не підтверджено.",
++      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
++      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
++      "proposed_actions": [
++        "Зберегти як необов’язковий варіант регістру, не замінювати механічно на ретроактивно."
++      ],
++      "dependencies": [
++        "CH12 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "agreement": "single",
++      "author_decision": {
++        "status": "pending",
++        "basis": null
++      },
++      "implementation": {
++        "status": "not_started",
++        "targets": []
++      },
++      "verification": {
++        "status": "not_run",
++        "evidence": null
++      }
++    },
++    {
++      "id": "ENS-009",
++      "origin_reports": [
++        "gemini_flash"
++      ],
++      "category": "voice",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "locations": [
++        {
++          "chapter": "12",
++          "anchor": "P0031",
++          "quote": "> Сьогодні о 16:30 можу відкрити короткий аудіоканал. Хочу зрозуміти, як у супроводженні позначити відмову без пояснення, щоб її не перетворювали на паузу до наступної пропозиції. Сьогодні — без тестів і змін. Якщо погоджуєтеся, підтвердьте тільки час."
++        }
++      ],
++      "observation": "Супроводження може бути важчим за супровід у повідомленні Майї.",
++      "reader_effect": "Можлива локальна неясність або надмірна пояснювальність; редакторське прочитання не тотожне фактичній помилці.",
++      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
++      "proposed_actions": [
++        "Звірити термін і голос; обирати тільки за авторським рішенням."
++      ],
++      "dependencies": [
++        "CH12 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "agreement": "single",
++      "author_decision": {
++        "status": "pending",
++        "basis": null
++      },
++      "implementation": {
++        "status": "not_started",
++        "targets": []
++      },
++      "verification": {
++        "status": "not_run",
++        "evidence": null
++      }
++    }
++  ]
++}

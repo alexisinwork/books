@@ -1,0 +1,43 @@
+diff --git a/chapter-13.preflight.md b/chapter-13.md
+index 4548067..be4fa65 100644
+--- a/chapter-13.preflight.md
++++ b/chapter-13.md
+@@ -118,7 +118,7 @@
+ 
+ Вона закрила канал.
+ 
+-Я створив запис на D6: 11:00, адреса Майї, не довше п’ятнадцяти хвилин. У меті написав: «спостереження за статусом відмови на прикладі користувачки».
++Я створив запис на завтра: 11:00, адреса Майї, не довше п’ятнадцяти хвилин. У меті написав: «спостереження за статусом відмови на прикладі користувачки».
+ 
+ Нижче додав межі:
+ 
+diff --git a/writer-notes.preflight.md b/writer-notes.md
+index 43078bd..0f2a238 100644
+--- a/writer-notes.preflight.md
++++ b/writer-notes.md
+@@ -10,8 +10,9 @@
+ 
+ ## Source revision
+ 
+-- First saved prose preserved as `chapter-13.preflight.md`, SHA-256 `580a70fccbb29ba6dd49cf258cb3c66771afafe5ba6ba916c0925a468118a7c5`.
+-- First saved notes preserved as `writer-notes.preflight.md`, SHA-256 `596b19d2b29f5da924b9979993654445063075d1522ebd1ce4345be1022d45f7`.
++- Frozen v1 prose preserved as `chapter-13.preflight.md`, SHA-256 `580a70fccbb29ba6dd49cf258cb3c66771afafe5ba6ba916c0925a468118a7c5`.
++- Frozen v1 notes preserved as `writer-notes.preflight.md`, SHA-256 `9bdb0b8c2a1bb17f7dd0598a74cb7a1ac1242b6b6071f91d18414eef9c70a8ab`.
++- Previous frozen draft directory: `../2026-09-22-ch13-sol-v1/`; independent review target is v2 after coordinator factual preflight.
+ - Exact preflight patch: `preflight-changes.diff`.
+ - Previous prose: `../2026-09-22-ch12-sol-v1/chapter-12.md`.
+ - Previous prose SHA-256: `0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279` (verified).
+@@ -80,9 +81,10 @@
+ 
+ ## Preflight revisions
+ 
+-- Preserved the first source and notes as `chapter-13.preflight.md` and `writer-notes.preflight.md`.
+-- Full source self-check found no factual correction to apply; the final prose remains byte-identical to the first saved source.
+-- Exact notes-only provenance patch: `preflight-changes.diff`.
++- Preserved the complete frozen v1 source and notes as `chapter-13.preflight.md` and `writer-notes.preflight.md`; the v1 directory and Desktop copy remain unchanged.
++- Coordinator factual preflight before peer reports removed one leaked planning label from the prose: `Я створив запис на D6` became `Я створив запис на завтра`.
++- No other prose changed. Story time, appointment conditions, access state and all dialogue remain identical to v1.
++- Exact v1-to-v2 source-and-notes patch: `preflight-changes.diff`.
+ 
+ ## Forward dependencies
+ 

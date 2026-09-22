@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "run_id": "ch13-20260922-sol-v2",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "8803fdbd2735391b2374ad3fa90958f45400353e0bc5091e477eb7abc4c78728",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "terra"
+      ],
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "13",
+          "anchor": "P0013",
+          "quote": "> Доступність підтримки не зобов’язує поновлювати відхилену пропозицію.\n>\n> Відмова має закривати конкретну дію без пояснення причини."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0047",
+          "quote": "— Діагностичний інструмент покаже статус пропозиції, момент повторного відкриття й пов’язані правила. У ньому є й керування. Зокрема затримкою перед нейтральним перефразуванням."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0050",
+          "quote": "— Тоді затримку перефразування не змінюєте. Інших параметрів підтримки теж не змінюєте. Дивитеся тільки на мій приклад."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0062",
+          "quote": "> Нове підтвердження й тимчасовий доступ тільки на місці.\n>\n> Тільки спостереження. Зміни підтримки заборонені.\n>\n> Затримку нейтрального перефразування не змінювати.\n>\n> Стоп або закриття доступу — негайне завершення."
+        }
+      ],
+      "observation": "Обрамлення виписаними правилами і повтор заборон може ущільнювати протокольність; Terra вважає фіксацію функціональною.",
+      "reader_effect": "Локальна неоднозначність або питання ритму; реакція не встановлює нового канону.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Оцінити ритм CH11–15, не вилучаючи однозначну заборону параметра."
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH14 action from actual grant",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra",
+        "gemini"
+      ],
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "13",
+          "anchor": "P0008",
+          "quote": "Один рядок мав ім’я Ніни й дату з часу її хвороби."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0009",
+          "quote": "> Моя примітка: «Ні» не стає паузою тільки тому, що минула година."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0010",
+          "quote": "Я знав, коли це написав. Знав, про яку кімнату йшлося і чому тоді рахував години. Відкривати сусідні записи не було потрібно."
+        }
+      ],
+      "observation": "Особиста примітка дуже точно повторює поточну тему; для Pro це емоційний пік, для Astra можливий надто зручний зв’язок.",
+      "reader_effect": "Локальна неоднозначність або питання ритму; реакція не встановлює нового канону.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Зберегти стриманий натяк, розглянути природність збігу у блоці; не додавати повне S08-зізнання."
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH14 action from actual grant",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "13",
+          "anchor": "P0040",
+          "quote": "— Мене цікавить, як закрити відмову. Не що ви побачили в паузі."
+        }
+      ],
+      "observation": "Фраза закрити відмову може здаватися зміною самої відмови замість завершення відхиленої пропозиції.",
+      "reader_effect": "Локальна неоднозначність або питання ритму; реакція не встановлює нового канону.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "За авторським вибором уточнити об’єкт закриття без зміни мети Майї."
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH14 action from actual grant",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra",
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "character",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "13",
+          "anchor": "P0063",
+          "quote": "Я перечитав список. Усі рядки були однаково чіткими."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0064",
+          "quote": "Погляд повернувся до третього."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0065",
+          "quote": "Я пересунув його на початок і закрив запис."
+        }
+      ],
+      "observation": "Фінальний рух правила допускає етичне самонагадування і фіксацію на забороненій можливості.",
+      "reader_effect": "Локальна неоднозначність або питання ритму; реакція не встановлює нового канону.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Зберегти неоднозначність, сам майбутній активний вибір показати в CH14, не приписувати його вже тут."
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH14 action from actual grant",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "gemini"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "13",
+          "anchor": "P0003",
+          "quote": "Не робочий реєстр Ладу й не чийсь профіль. Локальні копії моїх схем, примітки до ранніх версій, таблиці переходів, які я зберігав для себе. Картка Баласта лишалася закритою. Позначки мікрофона не було."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0028",
+          "quote": "— Відповідь. Підтримка може лишатися доступною. Але саме цю пропозицію треба завершити зі статусом відмови, а не відкласти. Причина для цього не потрібна."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0030",
+          "quote": "— Без вашого профілю я не знаю. Повтор може створювати правило незавершеної теми, модуль відповіді або перефразування, яке не розпізнає відмову як остаточну. Загальний маршрут покаже, де статус змінюється. Я не бачу, який компонент робить це у вас."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0042",
+          "quote": "Це була відмова. Повна, без причини. Я міг виконати її без додаткових даних."
+        }
+      ],
+      "observation": "Ізольований читач припустив, що технічний оповідач може бути алгоритмом, і почув вимогу доступу в умовній діагностичній відповіді.",
+      "reader_effect": "Локальна неоднозначність або питання ритму; реакція не встановлює нового канону.",
+      "evidence": "Locked reports and checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Перевірити сукупний людський голос на цілому блоці; не додавати зайве роз’яснення лише через читання з середини книги."
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH14 action from actual grant",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

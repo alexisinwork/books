@@ -3482,6 +3482,331 @@
       "review_run": "audit/ensemble/ch12-20260922-sol-v1",
       "author_decision": "pending",
       "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH13-SOL-V1-ENS-001",
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Обрамлення виписаними правилами і повтор заборон може ущільнювати протокольність; Terra вважає фіксацію функціональною.",
+      "anchors": [
+        {
+          "chapter": "13",
+          "anchor": "P0013",
+          "quote": "> Доступність підтримки не зобов’язує поновлювати відхилену пропозицію.\n>\n> Відмова має закривати конкретну дію без пояснення причини."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0047",
+          "quote": "— Діагностичний інструмент покаже статус пропозиції, момент повторного відкриття й пов’язані правила. У ньому є й керування. Зокрема затримкою перед нейтральним перефразуванням."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0050",
+          "quote": "— Тоді затримку перефразування не змінюєте. Інших параметрів підтримки теж не змінюєте. Дивитеся тільки на мій приклад."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0062",
+          "quote": "> Нове підтвердження й тимчасовий доступ тільки на місці.\n>\n> Тільки спостереження. Зміни підтримки заборонені.\n>\n> Затримку нейтрального перефразування не змінювати.\n>\n> Стоп або закриття доступу — негайне завершення."
+        }
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH14 action from actual grant",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8803fdbd2735391b2374ad3fa90958f45400353e0bc5091e477eb7abc4c78728",
+      "review_run": "audit/ensemble/ch13-20260922-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH13-SOL-V1-ENS-002",
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Особиста примітка дуже точно повторює поточну тему; для Pro це емоційний пік, для Astra можливий надто зручний зв’язок.",
+      "anchors": [
+        {
+          "chapter": "13",
+          "anchor": "P0008",
+          "quote": "Один рядок мав ім’я Ніни й дату з часу її хвороби."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0009",
+          "quote": "> Моя примітка: «Ні» не стає паузою тільки тому, що минула година."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0010",
+          "quote": "Я знав, коли це написав. Знав, про яку кімнату йшлося і чому тоді рахував години. Відкривати сусідні записи не було потрібно."
+        }
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH14 action from actual grant",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8803fdbd2735391b2374ad3fa90958f45400353e0bc5091e477eb7abc4c78728",
+      "review_run": "audit/ensemble/ch13-20260922-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH13-SOL-V1-ENS-003",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Фраза закрити відмову може здаватися зміною самої відмови замість завершення відхиленої пропозиції.",
+      "anchors": [
+        {
+          "chapter": "13",
+          "anchor": "P0040",
+          "quote": "— Мене цікавить, як закрити відмову. Не що ви побачили в паузі."
+        }
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH14 action from actual grant",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8803fdbd2735391b2374ad3fa90958f45400353e0bc5091e477eb7abc4c78728",
+      "review_run": "audit/ensemble/ch13-20260922-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH13-SOL-V1-ENS-004",
+      "category": "character",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Фінальний рух правила допускає етичне самонагадування і фіксацію на забороненій можливості.",
+      "anchors": [
+        {
+          "chapter": "13",
+          "anchor": "P0063",
+          "quote": "Я перечитав список. Усі рядки були однаково чіткими."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0064",
+          "quote": "Погляд повернувся до третього."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0065",
+          "quote": "Я пересунув його на початок і закрив запис."
+        }
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH14 action from actual grant",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8803fdbd2735391b2374ad3fa90958f45400353e0bc5091e477eb7abc4c78728",
+      "review_run": "audit/ensemble/ch13-20260922-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH13-SOL-V1-ENS-005",
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Ізольований читач припустив, що технічний оповідач може бути алгоритмом, і почув вимогу доступу в умовній діагностичній відповіді.",
+      "anchors": [
+        {
+          "chapter": "13",
+          "anchor": "P0003",
+          "quote": "Не робочий реєстр Ладу й не чийсь профіль. Локальні копії моїх схем, примітки до ранніх версій, таблиці переходів, які я зберігав для себе. Картка Баласта лишалася закритою. Позначки мікрофона не було."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0028",
+          "quote": "— Відповідь. Підтримка може лишатися доступною. Але саме цю пропозицію треба завершити зі статусом відмови, а не відкласти. Причина для цього не потрібна."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0030",
+          "quote": "— Без вашого профілю я не знаю. Повтор може створювати правило незавершеної теми, модуль відповіді або перефразування, яке не розпізнає відмову як остаточну. Загальний маршрут покаже, де статус змінюється. Я не бачу, який компонент робить це у вас."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0042",
+          "quote": "Це була відмова. Повна, без причини. Я міг виконати її без додаткових даних."
+        }
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH14 action from actual grant",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8803fdbd2735391b2374ad3fa90958f45400353e0bc5091e477eb7abc4c78728",
+      "review_run": "audit/ensemble/ch13-20260922-sol-v2",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH13-SOL-V2-ENS-006",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Триплет можливих компонентів повторений у підготовці та діалозі; Opus пропонує скорочення раннього переліку.",
+      "anchors": [
+        {
+          "chapter": "13",
+          "anchor": "P0014",
+          "quote": "Потім відкрив загальний маршрут перевірки. Без профілю Майї я не міг знати, чи повтор створює модуль відповіді, нейтральне перефразування або правило повернення до незавершеної теми. Міг лише назвати різницю й показати, де її шукати."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0030",
+          "quote": "— Без вашого профілю я не знаю. Повтор може створювати правило незавершеної теми, модуль відповіді або перефразування, яке не розпізнає відмову як остаточну. Загальний маршрут покаже, де статус змінюється. Я не бачу, який компонент робить це у вас."
+        }
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8803fdbd2735391b2374ad3fa90958f45400353e0bc5091e477eb7abc4c78728",
+      "review_run": "audit/ensemble/ch13-20260922-sol-v2",
+      "author_decision": "pending",
+      "scope": "additional optional Opus, draft only; proposal not applied"
+    },
+    {
+      "id": "CH13-SOL-V2-ENS-007",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Дві вона у P0043 стосуються відмови й нової технічної думки; Opus відзначає можливий короткий збій, але контекст достатній.",
+      "anchors": [
+        {
+          "chapter": "13",
+          "anchor": "P0043",
+          "quote": "І все ж подумав, що в прямому голосі вона прозвучала різкіше й точніше, ніж прозвучала б після нейтрального перефразування. Технічна думка прийшла раніше, ніж я встиг вирішити, чи вона мені потрібна."
+        }
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8803fdbd2735391b2374ad3fa90958f45400353e0bc5091e477eb7abc4c78728",
+      "review_run": "audit/ensemble/ch13-20260922-sol-v2",
+      "author_decision": "pending",
+      "scope": "additional optional Opus, draft only; proposal not applied"
+    },
+    {
+      "id": "CH13-SOL-V2-ENS-008",
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Репліку про вчора Даль може помилково почути як запрошення; Opus радить зберегти функціональну неоднозначність.",
+      "anchors": [
+        {
+          "chapter": "13",
+          "anchor": "P0034",
+          "quote": "— Учора ви теж хотіли з’ясувати конкретне."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0036",
+          "quote": "— Учора, коли ви мовчали…"
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0037",
+          "quote": "— Ні, — сказала Майя. — Про вчора я зараз не говорю."
+        },
+        {
+          "chapter": "13",
+          "anchor": "P0040",
+          "quote": "— Мене цікавить, як закрити відмову. Не що ви побачили в паузі."
+        }
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8803fdbd2735391b2374ad3fa90958f45400353e0bc5091e477eb7abc4c78728",
+      "review_run": "audit/ensemble/ch13-20260922-sol-v2",
+      "author_decision": "pending",
+      "scope": "additional optional Opus, draft only; proposal not applied"
+    },
+    {
+      "id": "CH13-SOL-V2-ENS-009",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Opus визнає керування затримкою правильним, але факультативно пропонує називний затримка. Така заміна без перебудови руйнує явний зв’язок керування чим.",
+      "anchors": [
+        {
+          "chapter": "13",
+          "anchor": "P0047",
+          "quote": "— Діагностичний інструмент покаже статус пропозиції, момент повторного відкриття й пов’язані правила. У ньому є й керування. Зокрема затримкою перед нейтральним перефразуванням."
+        }
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8803fdbd2735391b2374ad3fa90958f45400353e0bc5091e477eb7abc4c78728",
+      "review_run": "audit/ensemble/ch13-20260922-sol-v2",
+      "author_decision": "pending",
+      "scope": "additional optional Opus, draft only; proposal not applied"
+    },
+    {
+      "id": "CH13-SOL-V2-ENS-010",
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "У меті написав — технічна назва поля запису, для частини читачів можлива канцелярська щільність.",
+      "anchors": [
+        {
+          "chapter": "13",
+          "anchor": "P0060",
+          "quote": "Я створив запис на завтра: 11:00, адреса Майї, не довше п’ятнадцяти хвилин. У меті написав: «спостереження за статусом відмови на прикладі користувачки»."
+        }
+      ],
+      "dependencies": [
+        "CH13 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "8803fdbd2735391b2374ad3fa90958f45400353e0bc5091e477eb7abc4c78728",
+      "review_run": "audit/ensemble/ch13-20260922-sol-v2",
+      "author_decision": "pending",
+      "scope": "additional optional Opus, draft only; proposal not applied"
     }
   ]
 }

@@ -1,0 +1,133 @@
+{
+  "checkout_result": "failed: Git mode 120000 .claude/skills materialized as regular text file ../.agents/skills on Windows; preexisting checkout condition, not changed",
+  "temporary_exact_snapshot": "C:\\Users\\alexi\\AppData\\Local\\Temp\\kontakt-schema-validation-8fenuzs8",
+  "junction": "Created only within temporary snapshot; live checkout unchanged",
+  "validation": {
+    "result": "passed",
+    "schemas": [
+      "editorial/schemas/issue-ledger.schema.json",
+      "editorial/schemas/run.schema.json"
+    ],
+    "skills": [
+      "book-language-review",
+      "book-showrunner",
+      "literary-adaptation",
+      "ru-approved-revision",
+      "ru-chief-editor",
+      "ru-cold-reader",
+      "ru-editorial-reconciler",
+      "ru-literary-editor"
+    ]
+  },
+  "scope": "Repository validate-schemas parses schemas/templates and checks skill frontmatter and alias; not full jsonschema validation of instances",
+  "source_hashes": [
+    {
+      "path": "editorial/schemas/issue-ledger.schema.json",
+      "sha256": "44a3787e5f7ce4f2f800458c3c399e05b4439a3a2ca8c1cab76d5a6151f2d57f"
+    },
+    {
+      "path": "editorial/schemas/run.schema.json",
+      "sha256": "a3cf6fa1ab0876e4fbd0e9583e4d369755684ecdc8d8bfbe2412de1f50161a5f"
+    },
+    {
+      "path": "editorial/templates/astra-diagnosis.md",
+      "sha256": "7ad77edac72ce6dd08310e0df2ff3928f3c79a214dd610d4b8cac9a446b89190"
+    },
+    {
+      "path": "editorial/templates/author-decisions.md",
+      "sha256": "eb89a343e58c31939efc4fa56cd24172285fe16f336b5c4bea3333198253260a"
+    },
+    {
+      "path": "editorial/templates/claude-diagnosis.md",
+      "sha256": "d2a62be1048a382bbf8ef62a4c9b6860db9493013cbfa07da459f369a2ce9184"
+    },
+    {
+      "path": "editorial/templates/gemini-blind-read.md",
+      "sha256": "42b77bcb516b1a770123dfb32b05f3b88df8f7d7f4babd3501a6c4f3bb5a6178"
+    },
+    {
+      "path": "editorial/templates/gemini-flash-diagnosis.md",
+      "sha256": "f506fc7c1ad96d566abde5dcd6776681f209761571ba9493ab82606c9ac26f46"
+    },
+    {
+      "path": "editorial/templates/issue-ledger.json",
+      "sha256": "ab0b3ac450166389a934ef2273157b9374ac90e641160d5db101e6116a5e96a3"
+    },
+    {
+      "path": "editorial/templates/reconciliation.md",
+      "sha256": "0f3f2e2649b97934f35545db123f578414e0c69cfad3cb6f6de8b9c1a33bc248"
+    },
+    {
+      "path": "editorial/templates/terra-diagnosis.md",
+      "sha256": "f461801dcea9d296384655571f175cbcd43f3baf601885b9df1f63dcd24a5107"
+    },
+    {
+      "path": "editorial/templates/verification.md",
+      "sha256": "1e5a416eb241b43ced20fd39a14ac09a02ed58e04be58d2ac9378dc5036ffdf3"
+    },
+    {
+      "path": ".agents/skills/book-language-review/SKILL.md",
+      "sha256": "472df890365cabebc652b868ca62ef90f66f1c8a9fcf7475947038ab4f9294cc"
+    },
+    {
+      "path": ".agents/skills/book-showrunner/SKILL.md",
+      "sha256": "33983997aa137282e44d9003b9afd90430813227c977da952d162fe2c60e785e"
+    },
+    {
+      "path": ".agents/skills/literary-adaptation/SKILL.md",
+      "sha256": "1927b1f4fb665f909a2401a5be49687d2b37f1cea40b05899df29e0ed6bf8776"
+    },
+    {
+      "path": ".agents/skills/ru-approved-revision/SKILL.md",
+      "sha256": "49fd69ec4067b4134d4935c07858992ca4c710580e6c8fb518e9a9aae4eb6681"
+    },
+    {
+      "path": ".agents/skills/ru-chief-editor/SKILL.md",
+      "sha256": "9179a7e131757008a81463add58118cc7c1c3df775b527ae09bd38a0854eb0a0"
+    },
+    {
+      "path": ".agents/skills/ru-cold-reader/SKILL.md",
+      "sha256": "2c9e06828ca2995935de0ff27fe1fd97a35b8a713038c8bfbbddfd664d41a0c9"
+    },
+    {
+      "path": ".agents/skills/ru-editorial-reconciler/SKILL.md",
+      "sha256": "07f75d5a059e3b14f3477d07089ac26fd5b33b1fe97d406a650ba51bf58a55f1"
+    },
+    {
+      "path": ".agents/skills/ru-literary-editor/SKILL.md",
+      "sha256": "c1c8e2ea5dd517f04a0004b6b5d6eb75a02f42cc8f0c4fdf443eca5fd6ff5ef9"
+    },
+    {
+      "path": ".agents/skills/ru-literary-editor/agents/openai.yaml",
+      "sha256": "2f55de5a170e0f1f5d757e8ba1353e09957ab0515835155b227d2ee41e156782"
+    },
+    {
+      "path": ".agents/skills/ru-editorial-reconciler/agents/openai.yaml",
+      "sha256": "4cd9c20678cebbdfdc09e738d1c33f4f398808f53dfe7304d3b389b833f2619f"
+    },
+    {
+      "path": ".agents/skills/ru-cold-reader/agents/openai.yaml",
+      "sha256": "c26460c175578eb29820367e0bb65fa17e36ab496f7a00b21378a10bbae4d197"
+    },
+    {
+      "path": ".agents/skills/ru-chief-editor/agents/openai.yaml",
+      "sha256": "2d4c9a32658e7e90842e74e229bde3859e755cbbd75b1c8321818e56c9049a24"
+    },
+    {
+      "path": ".agents/skills/ru-approved-revision/agents/openai.yaml",
+      "sha256": "d473b7ec8484152a15d0a84cf11d99ac54f01f17892426c26b1297acb049456f"
+    },
+    {
+      "path": ".agents/skills/literary-adaptation/agents/openai.yaml",
+      "sha256": "4472f26767792196b72197c86061e075b1d22e5c216bcbd2dea3fb989c7ab64c"
+    },
+    {
+      "path": ".agents/skills/book-showrunner/agents/openai.yaml",
+      "sha256": "fc9746bd09fe10ca4402e35d253be874751050e49519be788e77cc1b652cd6f3"
+    },
+    {
+      "path": ".agents/skills/book-language-review/agents/openai.yaml",
+      "sha256": "86f43e28b4f76536cf924396bee21c269eddf16985d5df2916f71af6c03e9a2f"
+    }
+  ]
+}

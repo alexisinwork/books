@@ -1,0 +1,27 @@
+diff --git a/writer-notes.preflight.md b/writer-notes.md
+index 9aeade8..43078bd 100644
+--- a/writer-notes.preflight.md
++++ b/writer-notes.md
+@@ -10,6 +10,9 @@
+ 
+ ## Source revision
+ 
++- First saved prose preserved as `chapter-13.preflight.md`, SHA-256 `580a70fccbb29ba6dd49cf258cb3c66771afafe5ba6ba916c0925a468118a7c5`.
++- First saved notes preserved as `writer-notes.preflight.md`, SHA-256 `596b19d2b29f5da924b9979993654445063075d1522ebd1ce4345be1022d45f7`.
++- Exact preflight patch: `preflight-changes.diff`.
+ - Previous prose: `../2026-09-22-ch12-sol-v1/chapter-12.md`.
+ - Previous prose SHA-256: `0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279` (verified).
+ - Previous observed state: `../2026-09-22-ch12-sol-v1/observed-state.json`, SHA-256 `6f08916e9823b6a1265bdad56f43cc38ce281d20799e854f75f0b9a9a0d18abf` (verified).
+@@ -75,6 +78,12 @@
+ - D6 11:00 at Maya's home, fifteen-minute maximum, safe example chosen by Maya, new on-site confirmation and temporary service session.
+ - Future diagnostic tool can technically control neutral-rephrasing delay, but that capability is explicitly outside agreed purpose and prohibited.
+ 
++## Preflight revisions
++
++- Preserved the first source and notes as `chapter-13.preflight.md` and `writer-notes.preflight.md`.
++- Full source self-check found no factual correction to apply; the final prose remains byte-identical to the first saved source.
++- Exact notes-only provenance patch: `preflight-changes.diff`.
++
+ ## Forward dependencies
+ 
+ - Chapter 14 may begin only after its own scoped handoff. It must start before access exists and show Maya's fresh D6 confirmation plus the exact temporary service grant.

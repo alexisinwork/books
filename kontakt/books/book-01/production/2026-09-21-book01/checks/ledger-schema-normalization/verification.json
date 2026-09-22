@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "path": "kontakt/books/book-01/audit/ensemble/ch11-20260922-sol-v1/issue-ledger.json",
+      "before_sha256": "96006104d3cc728688a2d59b1ade96ed7c915e9e428b385522ce62d74ec44743",
+      "after_sha256": "607073a99117ad8923379b2bd4a872de76f15abc295e89e858d368f8df18695c",
+      "validation": "Draft202012Validator run + issue ledger passed; only agreement enum normalized; locked reports/source and author decisions unchanged"
+    },
+    {
+      "path": "kontakt/books/book-01/audit/ensemble/ch12-20260922-sol-v1/issue-ledger.json",
+      "before_sha256": "2339de79eecd76369eada370bc3765abb15bbd7e2fab45ee7a7195a065be1f95",
+      "after_sha256": "9273581ec73d4c55d63ce3293a8676a748547aebabedc50e687e0857d991a401",
+      "validation": "Draft202012Validator run + issue ledger passed; only agreement enum normalized; locked reports/source and author decisions unchanged"
+    }
+  ],
+  "reason": "Repository verify checks stage invariants but does not enforce all JSON schema enums; additional full instance validation found invalid agreement labels",
+  "review_decisions": "All pending, observations and actions unchanged"
+}
