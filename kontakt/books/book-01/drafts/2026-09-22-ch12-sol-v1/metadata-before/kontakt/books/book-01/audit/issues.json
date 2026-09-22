@@ -2890,7 +2890,7 @@
     },
     {
       "id": "CH11-SOL-V1-ENS-004",
-      "category": "prose",
+      "category": "repetition",
       "severity": "minor",
       "certainty": "reader_reaction",
       "observation": "Варіанти відключення й межі доступу переказано повторно; Flash позитивно оцінив підсумкову фразу.",
@@ -2950,7 +2950,7 @@
     },
     {
       "id": "CH11-SOL-V1-ENS-006",
-      "category": "prose",
+      "category": "language",
       "severity": "minor",
       "certainty": "reader_reaction",
       "observation": "«Повернув нагрів» — стисле позначення повторного ввімкнення, можливе спотикання.",
@@ -3055,7 +3055,7 @@
     },
     {
       "id": "CH11-SOL-V1-ENS-010",
-      "category": "prose",
+      "category": "repetition",
       "severity": "minor",
       "certainty": "reader_reaction",
       "observation": "Чотири вживання «стояти» для UI/станів підтверджені.",
@@ -3095,7 +3095,7 @@
     },
     {
       "id": "CH11-SOL-V1-ENS-011",
-      "category": "prose",
+      "category": "repetition",
       "severity": "minor",
       "certainty": "reader_reaction",
       "observation": "«Сім кроків / сім екранів» у сусідніх абзацах.",
@@ -3150,7 +3150,7 @@
     },
     {
       "id": "CH11-SOL-V1-ENS-013",
-      "category": "prose",
+      "category": "repetition",
       "severity": "minor",
       "certainty": "reader_reaction",
       "observation": "Три послідовні абзаци починаються з «Я».",
@@ -3210,7 +3210,7 @@
     },
     {
       "id": "CH11-SOL-V1-ENS-015",
-      "category": "prose",
+      "category": "punctuation",
       "severity": "minor",
       "certainty": "reader_reaction",
       "observation": "Можлива інтонаційна пауза перед «сорок дві секунди».",
@@ -3230,256 +3230,6 @@
       "resolution_status": "unresolved",
       "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
       "review_run": "audit/ensemble/ch11-20260922-sol-v1",
-      "author_decision": "pending",
-      "scope": "draft only; editorial proposal not applied"
-    },
-    {
-      "id": "CH12-SOL-V1-ENS-001",
-      "category": "prose",
-      "severity": "minor",
-      "certainty": "reader_reaction",
-      "observation": "Пояснення користі перед тілесним полегшенням може дублювати вже показану дію.",
-      "anchors": [
-        {
-          "chapter": "12",
-          "anchor": "P0011",
-          "quote": "Допомога спрацювала саме тому, що Баласт нічого більше не зробив. Не перепитав причину. Не запропонував коротше формулювання. Не відступив із позначеною образою, яку потім довелося б виправляти."
-        },
-        {
-          "chapter": "12",
-          "anchor": "P0012",
-          "quote": "У грудях відпустило настільки мало, що це можна було не помітити. Я помітив."
-        }
-      ],
-      "dependencies": [
-        "CH12 future authorized revision",
-        "CH11–15 block audit",
-        "whole-volume audit"
-      ],
-      "decision": "proposed",
-      "resolution_status": "unresolved",
-      "source_sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
-      "review_run": "audit/ensemble/ch12-20260922-sol-v1",
-      "author_decision": "pending",
-      "scope": "draft only; editorial proposal not applied"
-    },
-    {
-      "id": "CH12-SOL-V1-ENS-002",
-      "category": "pacing",
-      "severity": "minor",
-      "certainty": "reader_reaction",
-      "observation": "Пояснення відсутності скасованого клієнта захищає факт, але може гальмувати сцену.",
-      "anchors": [
-        {
-          "chapter": "12",
-          "anchor": "P0019",
-          "quote": "Вільна можливість минула без призначення. У кімнату ніхто не мав прийти о цій годині, ніхто не скасовував зустріч і не чекав моєї відповіді. Сірий слот просто перестав бути майбутнім."
-        }
-      ],
-      "dependencies": [
-        "CH12 future authorized revision",
-        "CH11–15 block audit",
-        "whole-volume audit"
-      ],
-      "decision": "proposed",
-      "resolution_status": "unresolved",
-      "source_sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
-      "review_run": "audit/ensemble/ch12-20260922-sol-v1",
-      "author_decision": "pending",
-      "scope": "draft only; editorial proposal not applied"
-    },
-    {
-      "id": "CH12-SOL-V1-ENS-003",
-      "category": "prose",
-      "severity": "minor",
-      "certainty": "reader_reaction",
-      "observation": "Друге впізнавання власної логіки повторює раннє; Terra бачить функціональний ритм, Pro — емоційний пік.",
-      "anchors": [
-        {
-          "chapter": "12",
-          "anchor": "P0013",
-          "quote": "Ритм був знайомий: лишитися доступним, не покликати назад, не перетворити мовчання на відмову від підтримки. Колись я зібрав цю послідовність для безпечної присутності. Зібрав добре."
-        },
-        {
-          "chapter": "12",
-          "anchor": "P0026",
-          "quote": "Це було правильно."
-        },
-        {
-          "chapter": "12",
-          "anchor": "P0027",
-          "quote": "Так само правильно я колись учив систему не робити чужу втому боргом. Не вимагати подяки за присутність. Лишати шлях назад відкритим і не стояти в ньому, наче у дверях."
-        }
-      ],
-      "dependencies": [
-        "CH12 future authorized revision",
-        "CH11–15 block audit",
-        "whole-volume audit"
-      ],
-      "decision": "proposed",
-      "resolution_status": "unresolved",
-      "source_sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
-      "review_run": "audit/ensemble/ch12-20260922-sol-v1",
-      "author_decision": "pending",
-      "scope": "draft only; editorial proposal not applied"
-    },
-    {
-      "id": "CH12-SOL-V1-ENS-004",
-      "category": "voice",
-      "severity": "minor",
-      "certainty": "reader_reaction",
-      "observation": "Довге формальне повідомлення Майї може бути захисною мовою; Pro бачить особистий підтекст, який не є фактом.",
-      "anchors": [
-        {
-          "chapter": "12",
-          "anchor": "P0031",
-          "quote": "> Сьогодні о 16:30 можу відкрити короткий аудіоканал. Хочу зрозуміти, як у супроводженні позначити відмову без пояснення, щоб її не перетворювали на паузу до наступної пропозиції. Сьогодні — без тестів і змін. Якщо погоджуєтеся, підтвердьте тільки час."
-        }
-      ],
-      "dependencies": [
-        "CH12 future authorized revision",
-        "CH11–15 block audit",
-        "whole-volume audit"
-      ],
-      "decision": "proposed",
-      "resolution_status": "unresolved",
-      "source_sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
-      "review_run": "audit/ensemble/ch12-20260922-sol-v1",
-      "author_decision": "pending",
-      "scope": "draft only; editorial proposal not applied"
-    },
-    {
-      "id": "CH12-SOL-V1-ENS-005",
-      "category": "clarity",
-      "severity": "minor",
-      "certainty": "reader_reaction",
-      "observation": "Фінальна контрольна пластина не отримала явного зв’язку з еталонним модулем.",
-      "anchors": [
-        {
-          "chapter": "12",
-          "anchor": "P0002",
-          "quote": "О 09:31 я відкрив робочу кімнату й поставив на стіл еталонний модуль."
-        },
-        {
-          "chapter": "12",
-          "anchor": "P0020",
-          "quote": "Я перевірив пломбу модуля й записав три результати в його локальний журнал."
-        },
-        {
-          "chapter": "12",
-          "anchor": "P0040",
-          "quote": "Повідомлення закрилося. Я повернув контрольну пластину у футляр, але засувку з першого разу не защепнув."
-        }
-      ],
-      "dependencies": [
-        "CH12 future authorized revision",
-        "CH11–15 block audit",
-        "whole-volume audit"
-      ],
-      "decision": "proposed",
-      "resolution_status": "unresolved",
-      "source_sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
-      "review_run": "audit/ensemble/ch12-20260922-sol-v1",
-      "author_decision": "pending",
-      "scope": "draft only; editorial proposal not applied"
-    },
-    {
-      "id": "CH12-SOL-V1-ENS-006",
-      "category": "prose",
-      "severity": "minor",
-      "certainty": "reader_reaction",
-      "observation": "Flash пропонує відчинив/відімкнув замість відкрив кімнату; категоричну кальку не доведено.",
-      "anchors": [
-        {
-          "chapter": "12",
-          "anchor": "P0002",
-          "quote": "О 09:31 я відкрив робочу кімнату й поставив на стіл еталонний модуль."
-        }
-      ],
-      "dependencies": [
-        "CH12 future authorized revision",
-        "CH11–15 block audit",
-        "whole-volume audit"
-      ],
-      "decision": "proposed",
-      "resolution_status": "unresolved",
-      "source_sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
-      "review_run": "audit/ensemble/ch12-20260922-sol-v1",
-      "author_decision": "pending",
-      "scope": "draft only; editorial proposal not applied"
-    },
-    {
-      "id": "CH12-SOL-V1-ENS-007",
-      "category": "prose",
-      "severity": "minor",
-      "certainty": "reader_reaction",
-      "observation": "Flash наполягає на Доброго ранку; університетське джерело допускає також Добрий ранок.",
-      "anchors": [
-        {
-          "chapter": "12",
-          "anchor": "P0005",
-          "quote": "— Добрий ранок, Марку Далю, — сказав Баласт. — Готовність лишається невизначеною. До вільного слота о 09:40 дев’ять хвилин."
-        }
-      ],
-      "dependencies": [
-        "CH12 future authorized revision",
-        "CH11–15 block audit",
-        "whole-volume audit"
-      ],
-      "decision": "proposed",
-      "resolution_status": "unresolved",
-      "source_sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
-      "review_run": "audit/ensemble/ch12-20260922-sol-v1",
-      "author_decision": "pending",
-      "scope": "draft only; editorial proposal not applied"
-    },
-    {
-      "id": "CH12-SOL-V1-ENS-008",
-      "category": "prose",
-      "severity": "minor",
-      "certainty": "reader_reaction",
-      "observation": "Flash називає заднім числом калькою без джерела; заборону не підтверджено.",
-      "anchors": [
-        {
-          "chapter": "12",
-          "anchor": "P0025",
-          "quote": "Я сам відкрив розклад. Між 09:40 і наступною призначеною зустріччю лишався порожній проміжок. Статус готовності стояв окремо: «не визначено користувачем». Баласт не перетворив мовчання на нову відповідь і не повернув слот заднім числом."
-        }
-      ],
-      "dependencies": [
-        "CH12 future authorized revision",
-        "CH11–15 block audit",
-        "whole-volume audit"
-      ],
-      "decision": "proposed",
-      "resolution_status": "unresolved",
-      "source_sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
-      "review_run": "audit/ensemble/ch12-20260922-sol-v1",
-      "author_decision": "pending",
-      "scope": "draft only; editorial proposal not applied"
-    },
-    {
-      "id": "CH12-SOL-V1-ENS-009",
-      "category": "voice",
-      "severity": "minor",
-      "certainty": "reader_reaction",
-      "observation": "Супроводження може бути важчим за супровід у повідомленні Майї.",
-      "anchors": [
-        {
-          "chapter": "12",
-          "anchor": "P0031",
-          "quote": "> Сьогодні о 16:30 можу відкрити короткий аудіоканал. Хочу зрозуміти, як у супроводженні позначити відмову без пояснення, щоб її не перетворювали на паузу до наступної пропозиції. Сьогодні — без тестів і змін. Якщо погоджуєтеся, підтвердьте тільки час."
-        }
-      ],
-      "dependencies": [
-        "CH12 future authorized revision",
-        "CH11–15 block audit",
-        "whole-volume audit"
-      ],
-      "decision": "proposed",
-      "resolution_status": "unresolved",
-      "source_sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
-      "review_run": "audit/ensemble/ch12-20260922-sol-v1",
       "author_decision": "pending",
       "scope": "draft only; editorial proposal not applied"
     }

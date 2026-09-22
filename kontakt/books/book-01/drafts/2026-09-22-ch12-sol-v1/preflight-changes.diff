@@ -1,0 +1,73 @@
+diff --git a/chapter-12.preflight.md b/chapter-12.md
+index a85d706..983ffda 100644
+--- a/chapter-12.preflight.md
++++ b/chapter-12.md
+@@ -56,7 +56,7 @@
+ 
+ На пристрої засвітився приватний сигнал. Я закрив картку Баласта й побачив, як згасла позначка мікрофона. Лише після цього відкрив повідомлення.
+ 
+-Відправницею була Майя. Її особистий контур підтвердив джерело; жодного нового доступу повідомлення не давало.
++Відправницею була Майя. Система підтвердила, що повідомлення надійшло з її особистого контуру; жодного нового доступу воно не давало.
+ 
+ > Сьогодні о 16:30 можу відкрити короткий аудіоканал. Хочу зрозуміти, як у супроводженні позначити відмову без пояснення, щоб її не перетворювали на паузу до наступної пропозиції. Сьогодні — без тестів і змін. Якщо погоджуєтеся, підтвердьте тільки час.
+ 
+diff --git a/writer-notes.preflight.md b/writer-notes.md
+index 942c5e1..e9e277f 100644
+--- a/writer-notes.preflight.md
++++ b/writer-notes.md
+@@ -5,11 +5,14 @@
+ - Draft: `chapter-12.md`.
+ - Language / POV / tense: Ukrainian; Mark Dal, first person; past tense.
+ - Sequence: opening of S05 — Ballast's useful care mirrors Dal's old safe-presence method; Maya creates the next human scene on her own terms.
+-- Time: D5, 09:31 through shortly after 09:43 in Dal's ordinary workroom; Maya proposes a separate D5 16:30 audio conversation.
++- Time: D5, starting at 09:31 and ending after 09:43 at an unspecified exact minute in Dal's ordinary workroom; Maya proposes a separate D5 16:30 audio conversation.
+ - Status: working draft, not canonical or author-selected.
+ 
+ ## Source revision
+ 
++- First saved prose preserved as `chapter-12.preflight.md`, SHA-256 `6ec873ab44b38a2c18474f052274b7d355a42f8b927b9c21bd5ae5a86cd513e4`.
++- First saved notes preserved as `writer-notes.preflight.md`, SHA-256 `a356fe8315cc51fb305e8bcdd662c71249b9c798f4befefcbdf8f04391ceaf74`.
++- Exact preflight patch: `preflight-changes.diff`.
+ - Previous prose: `../2026-09-22-ch11-sol-v1/chapter-11.md`.
+ - Previous prose SHA-256: `73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319` (verified).
+ - Previous observed state: `../2026-09-22-ch11-sol-v1/observed-state.json`, SHA-256 `6f90926d8415e9ba586c57bbb79a6d9df5c4360439f239468332d0cb776697c3` (verified).
+@@ -33,7 +36,7 @@
+ - Dal recognizes the familiar structure of his own safe-presence work: remain available, do not call a silent person back, do not treat silence as refusal of support. He does not tell Ballast the personal association and does not introduce Nina.
+ - Dal completes the named technical task competently. Ballast receives no module, client-profile, hand-movement or room-observation access; it knows only the requested timer and Dal's spoken task boundary.
+ - At 09:40 the free opportunity passes unused. It was not a booked client, cancelled appointment or lost payment. Existing work remains; Dal's readiness stays `не визначено користувачем`.
+-- At 09:43 Ballast announces only the requested timer end. Dal removes the timer and later opens the schedule himself.
++- After 09:43 Ballast announces only the requested timer end. Dal removes the timer and later opens the schedule himself.
+ 
+ ### B01-S05-C12-S03 — Maya's new request
+ 
+@@ -62,13 +65,20 @@
+ 
+ ## Draft-local proposals
+ 
+-- D5 09:31 workroom start and a twelve-minute device timer ending shortly after 09:43.
++- D5 09:31 workroom start and a twelve-minute device timer ending after 09:43 at an unspecified exact minute.
+ - Client-free reference-module check: three signals, manual cycle ends, zero return, local log and case latch.
+ - Free 09:40 opportunity expires unused without a booking or payment event.
+ - Ballast can honor a user rule to keep readiness available but not reopen it until requested; this uses only its own topic and timer.
+ - Maya's exact D5 message, short audio-channel format and 16:30 time.
+ - Dal's exact reply confirming only the requested time.
+ 
++## Preflight revisions
++
++- Preserved the first source and notes as `chapter-12.preflight.md` and `writer-notes.preflight.md`.
++- Clarified that the messaging system verifies Maya's personal contour as the source; the contour does not verify itself.
++- Corrected the timer chronology: it starts after the 09:31 entry and therefore ends after 09:43 at an unspecified exact minute.
++- Exact patch: `preflight-changes.diff`.
++
+ ## Forward dependencies
+ 
+ - Chapter 13 begins from the agreed D5 16:30 audio conversation but must receive its own scoped handoff; no chapter 13 prose was started here.
+@@ -81,7 +91,7 @@
+ ## Self-check
+ 
+ - Ukrainian, Dal first person and past tense maintained.
+-- Chronology checked: 09:31 plus twelve minutes crosses 09:40 and ends shortly after 09:43; 16:30 remains future.
++- Chronology checked: the timer starts after the 09:31 entry, crosses 09:40 and ends after 09:43 at an unspecified exact minute; 16:30 remains future.
+ - Work checked: reference task contains no client story or profile; active booked work remains; free 09:40 passes unused without invented cancellation or payment loss.
+ - Ballast access checked: card/microphone explicitly opened and closed; kitchen grant remains expired; no camera, module or private-message access.
+ - Mirror checked: Dal recognizes a principle and his own old craftsmanship, not literal shared code, a Resonance rank or Nina's voice/history.

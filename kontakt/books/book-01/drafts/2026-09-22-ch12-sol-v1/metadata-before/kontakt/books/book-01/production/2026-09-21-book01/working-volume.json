@@ -1,8 +1,8 @@
 {
   "book_id": "book-01",
-  "status": "in_progress",
-  "authorization": "authorization.md",
-  "completed_chapters": [
+  "status": "working_draft_collection_not_master",
+  "chapter_count": 11,
+  "chapters": [
     {
       "chapter": 1,
       "source": "drafts/2026-09-21-ch01-sol-v1/chapter-01.md",
@@ -90,26 +90,8 @@
       "observed_state": "drafts/2026-09-22-ch11-sol-v1/observed-state.json",
       "review_run": "audit/ensemble/ch11-20260922-sol-v1",
       "status": "reviewed_working_draft_not_canonical"
-    },
-    {
-      "chapter": 12,
-      "source": "drafts/2026-09-22-ch12-sol-v1/chapter-12.md",
-      "sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
-      "observed_state": "drafts/2026-09-22-ch12-sol-v1/observed-state.json",
-      "review_run": "audit/ensemble/ch12-20260922-sol-v1",
-      "status": "reviewed_working_draft_not_canonical"
     }
   ],
-  "current_chapter": 13,
-  "current_stage": "chapter_13_writer_running",
-  "future_chapters": "macro architecture; progressively detailed before writing",
   "global_audit": "not_run",
-  "last_block_review": {
-    "through_chapter": 5,
-    "report": "block-audits/chapters-01-05/REPORT.md",
-    "source_sha256": "cbe75e630f841f3e7a3ba01a6b0c5cef35f138dad36ff1208b0e4adc8ca6fca9",
-    "status": "architect_review_completed_not_global_audit"
-  },
-  "latest_block_audit": "block-audits/chapters-06-10/verification.json",
-  "review_policy": "REVIEW-POLICY-2026-09-22.md"
+  "assembly_rule": "join exact chapter source files in ascending chapter order; verify each hash first"
 }

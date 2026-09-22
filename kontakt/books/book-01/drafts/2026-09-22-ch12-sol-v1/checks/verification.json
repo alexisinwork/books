@@ -1,0 +1,66 @@
+{
+  "source_sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
+  "status": "scheme3_required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "CH12 full 40 blocks, 532 lexical tokens; not volume audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "5c1ce4490043115241a17d8b9e55affc27e6031915442b16e43cd2340ac073fb",
+    "terra": "4832d3ea361b18487d14a56cf45104555525ee45be37fc8c82aa05b684a517d8",
+    "gemini_flash": "cc6d4a9f16cbfe7ee0ebcd03ff08dbc6d6d3a6f24fc32f3c9f52ec4e2292d96d",
+    "gemini": "b1893825f5b7dacba06c4a26e75f91ec6b4bc7fb64b8c4b903ffb97ebb173a15"
+  },
+  "reconciliation": "e1d3f3bb7f188bcbbba424d1e2c2a1eafcfe8a37a0cb7d863c115f203a7c6a7d",
+  "missing": [],
+  "verdicts": {
+    "astra": "PASS with density questions",
+    "terra": "PASS",
+    "gemini_flash": "PASS with local proposals; unsupported language prohibitions qualified",
+    "gemini": "positive full cold-reader diary; one speaker misattribution qualified"
+  },
+  "opus": "not run; optional per author policy after historical client unavailability",
+  "language_scan": "no configured signals; independent grammar checker not run",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "7c6e5d2884dd8e110fc9affcd3b8454f101ec819c97302857343a139bf77f75d",
+    "pages": 2,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 350,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 189,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 2
+      }
+    ],
+    "visual_review": "Both pages inspected by coordinator; clean layout, no clipping or blank pages"
+  },
+  "versions": {
+    "chapter-12.preflight.md": "6ec873ab44b38a2c18474f052274b7d355a42f8b927b9c21bd5ae5a86cd513e4",
+    "writer-notes.preflight.md": "a356fe8315cc51fb305e8bcdd662c71249b9c798f4befefcbdf8f04391ceaf74",
+    "preflight-changes.diff": "c59d5ad8959b91d0d1bc649666be085de773ddcc41d6304de0126979a75ead12"
+  },
+  "remaining": [
+    "9 pending author choices, no post-review prose edits",
+    "CH13 onward",
+    "Full-volume audit"
+  ],
+  "review_policy": "production/2026-09-21-book01/REVIEW-POLICY-2026-09-22.md",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  }
+}
