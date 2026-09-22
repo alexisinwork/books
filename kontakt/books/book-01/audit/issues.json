@@ -194,11 +194,16 @@
       "certainty": "missing_link",
       "decision": "proposed",
       "resolution_status": "unresolved",
-      "observation": "Specific Nina keepsake M05 not selected. Chapter 1 explicitly excludes it; select and record before a later scene uses it.",
+      "observation": "Draft-local M05 selected and first setup observed in CH21 P00002–P00003: small Nina spoon with flat handle, used/rinsed/returned to home cutlery drawer. Not author-approved canon; S12 payoff still unresolved.",
       "dependencies": [
-        "book-01 M05 / later S05-S12"
+        "CH21 M05 setup",
+        "S08 no premature catharsis",
+        "S12 payoff",
+        "Author canonical selection"
       ],
-      "blocks_current_chapter": false
+      "blocks_current_chapter": false,
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "setup_status": "observed_candidate"
     },
     {
       "id": "CH01-SOL-V1-ENS-001",
@@ -7035,6 +7040,366 @@
       "resolution_status": "unresolved",
       "source_sha256": "d85552384d19bb9431f3b6424ad16d83f8720171eaba033fca858191c0af4a68",
       "review_run": "audit/ensemble/ch20-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-001",
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "observation": "Рутинна композиція: Pro помічає спад уваги; Astra ризик виконання плану; інші захищають конкретність. Opus пропонує додати текстури другій перевірці.",
+      "anchors": [
+        {
+          "chapter": "21",
+          "anchor": "P00005",
+          "quote": "Другий підсумок учорашньої перевірки я дописав за кухонним столом. Звірив погоджені дії, результат і час закриття доступу. У справі вже були дані самої перевірки; нічого нового від клієнта я не запитував. Надіслав підсумок до того, як допив чай."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00007",
+          "quote": "У клієнтки збивався рядок під час читання. Коли вона поверталася поглядом до попереднього речення, підсвітка встигала перейти далі й тягнула голосову підказку за собою. Звичайна перевірка мала визначити, чи правильно працює вже вибраний нею жест повернення."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00019",
+          "quote": "Я закрив тимчасовий доступ, завершив перевірку й надіслав підсумок."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00028",
+          "quote": "Вона стосувалася вже погодженої заміни двох звукових сигналів одним. Клієнт прослухав один сигнал на трьох рівнях гучності поверх звичного фонового шуму й вибрав середній. Верхній був різким, нижній губився. Я зберіг його вибір, повернув тестовий контур у звичайний стан і закрив доступ."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00030",
+          "quote": "Кінець робочого дня настав без окремого сигналу. Я закрив останню справу й прибрав робочий навушник у футляр."
+        }
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "review_run": "audit/ensemble/ch21-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-002",
+      "category": "prose",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "observation": "Процедурні розрізнення підтримують причинність, але можуть дублювати пояснення меж; Terra просить зберегти.",
+      "anchors": [
+        {
+          "chapter": "21",
+          "anchor": "P00021",
+          "quote": "Маршрут через супровід, який вона закрила, не відкрився знову сам. Це було нове повідомлення з її особисто підтвердженого контуру, і цього разу під ним було поле для відповіді."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00023",
+          "quote": "Ні часу, ні запрошення до сеансу в повідомленні не було. Воно не відкривало профіль чи технічний доступ."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00025",
+          "quote": "До другої перевірки лишалося дванадцять хвилин. Відповісти можна було швидше. Поле не вимагало прийняти нову роботу, але розмова мала стосуватися саме її можливості."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00026",
+          "quote": "Моє обмеження діяло до кінця робочого дня."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00032",
+          "quote": "Замість цього повернувся до повідомлення Майї. Поле відповіді було тим самим, яке вона відкрила сама. Я не додавав до нього розклад, мету сеансу чи перелік можливих доступів."
+        }
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "review_run": "audit/ensemble/ch21-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-003",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Другий підсумок учорашньої перевірки може звучати як два підсумки однієї роботи; за19 це другий із двох різних пізніших перевірок.",
+      "anchors": [
+        {
+          "chapter": "21",
+          "anchor": "P00005",
+          "quote": "Другий підсумок учорашньої перевірки я дописав за кухонним столом. Звірив погоджені дії, результат і час закриття доступу. У справі вже були дані самої перевірки; нічого нового від клієнта я не запитував. Надіслав підсумок до того, як допив чай."
+        }
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "review_run": "audit/ensemble/ch21-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-004",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Жест наступного дотику після повернення вгору може читатися неоднозначно; тест у тексті успішний.",
+      "anchors": [
+        {
+          "chapter": "21",
+          "anchor": "P00013",
+          "quote": "Я відкрив одну тимчасову зміну: дотик до попереднього рядка ставив маркер на паузу, наступний дотик поновлював рух. Клієнтка прочитала короткий уривок, повернулася на два рядки й затрималась там, скільки їй було потрібно."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00015",
+          "quote": "Вона торкнулася поля. Маркер рушив із вибраного місця."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00017",
+          "quote": "Я попросив підтвердити саме цю дію в картці зміни. Після її підтвердження зберіг налаштування. Клієнтка запустила на своєму боці контрольний уривок. Пауза виникла тільки під час повернення вгору."
+        }
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "review_run": "audit/ensemble/ch21-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-005",
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "hypothesis",
+      "observation": "Порожній екран повторює кілька попередніх завершень; peers вважають фінал сильним.",
+      "anchors": [
+        {
+          "chapter": "21",
+          "anchor": "P00037",
+          "quote": "Я прибрав руки від клавіатури, але пристрій не перевернув. Екран лишився переді мною з одним надісланим питанням і порожнім місцем під ним."
+        }
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "review_run": "audit/ensemble/ch21-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-006",
+      "category": "promise",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "observation": "Майя дала тільки можливість розмови; наступне вікно й умови ще не існують.",
+      "anchors": [
+        {
+          "chapter": "21",
+          "anchor": "P00022",
+          "quote": "> Моє питання з відмовою лишилося незавершеним. Вона досі стає відкладенням, і я хочу це змінити.\n>\n> Я готова обговорити, чи можемо ми взагалі продовжувати роботу і за яких умов. Це поки що тільки розмова про умови."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00034",
+          "quote": "> За яких умов ви взагалі готові працювати зі мною далі?"
+        }
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "review_run": "audit/ensemble/ch21-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-007",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Порожнє…порожнім Flash пропонує згладити, Opus захищає емфазу.",
+      "anchors": [
+        {
+          "chapter": "21",
+          "anchor": "P00029",
+          "quote": "Після підсумку нових справ у мене не лишилося. Порожнє місце після двох перевірок так і стояло порожнім. Жодного складного втручання я не прийняв."
+        }
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "review_run": "audit/ensemble/ch21-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-008",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Її можливості може граматично відсилати до роботи чи розмови, контекст визначає роботу.",
+      "anchors": [
+        {
+          "chapter": "21",
+          "anchor": "P00025",
+          "quote": "До другої перевірки лишалося дванадцять хвилин. Відповісти можна було швидше. Поле не вимагало прийняти нову роботу, але розмова мала стосуватися саме її можливості."
+        }
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "review_run": "audit/ensemble/ch21-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-009",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Вона відсилає до відмови всередині питання з відмовою; Opus бачить паузу, Terra захищає її мовлення.",
+      "anchors": [
+        {
+          "chapter": "21",
+          "anchor": "P00022",
+          "quote": "> Моє питання з відмовою лишилося незавершеним. Вона досі стає відкладенням, і я хочу це змінити.\n>\n> Я готова обговорити, чи можемо ми взагалі продовжувати роботу і за яких умов. Це поки що тільки розмова про умови."
+        }
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "review_run": "audit/ensemble/ch21-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-010",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Прибрав навушник у футляр: низьковпевнене сполучувальне побажання Opus, не нормативна помилка.",
+      "anchors": [
+        {
+          "chapter": "21",
+          "anchor": "P00030",
+          "quote": "Кінець робочого дня настав без окремого сигналу. Я закрив останню справу й прибрав робочий навушник у футляр."
+        }
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "review_run": "audit/ensemble/ch21-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-011",
+      "category": "voice",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "observation": "Абстрактність Майїного повідомлення: Pro читає холодність, Opus просить контролювати накопичення регістру, Terra захищає функцію.",
+      "anchors": [
+        {
+          "chapter": "21",
+          "anchor": "P00022",
+          "quote": "> Моє питання з відмовою лишилося незавершеним. Вона досі стає відкладенням, і я хочу це змінити.\n>\n> Я готова обговорити, чи можемо ми взагалі продовжувати роботу і за яких умов. Це поки що тільки розмова про умови."
+        }
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "review_run": "audit/ensemble/ch21-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-012",
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "observation": "Pro читає маленьку ложку як дитячу/забуту, сніданок як недбалий; текст не встановлює цього.",
+      "anchors": [
+        {
+          "chapter": "21",
+          "anchor": "P00002",
+          "quote": "Уранці я дістав із шухляди ложку й тільки тоді помітив плаский держак."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00003",
+          "quote": "Маленька Нінина ложка лежала серед звичайного столового приладдя. Я розмішав нею цукор у чаї, сполоснув під краном і повернув на місце. Поруч лягла більша, якою я їв сир із миски."
+        }
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "review_run": "audit/ensemble/ch21-20260922-sol-v1",
       "author_decision": "pending",
       "scope": "draft only; editorial proposal not applied"
     }

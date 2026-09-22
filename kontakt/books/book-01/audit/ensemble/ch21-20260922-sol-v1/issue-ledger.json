@@ -1,0 +1,565 @@
+{
+  "schema_version": 1,
+  "run_id": "ch21-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "gemini",
+        "claude",
+        "gemini_flash",
+        "terra"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "21",
+          "anchor": "P00005",
+          "quote": "Другий підсумок учорашньої перевірки я дописав за кухонним столом. Звірив погоджені дії, результат і час закриття доступу. У справі вже були дані самої перевірки; нічого нового від клієнта я не запитував. Надіслав підсумок до того, як допив чай."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00007",
+          "quote": "У клієнтки збивався рядок під час читання. Коли вона поверталася поглядом до попереднього речення, підсвітка встигала перейти далі й тягнула голосову підказку за собою. Звичайна перевірка мала визначити, чи правильно працює вже вибраний нею жест повернення."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00019",
+          "quote": "Я закрив тимчасовий доступ, завершив перевірку й надіслав підсумок."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00028",
+          "quote": "Вона стосувалася вже погодженої заміни двох звукових сигналів одним. Клієнт прослухав один сигнал на трьох рівнях гучності поверх звичного фонового шуму й вибрав середній. Верхній був різким, нижній губився. Я зберіг його вибір, повернув тестовий контур у звичайний стан і закрив доступ."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00030",
+          "quote": "Кінець робочого дня настав без окремого сигналу. Я закрив останню справу й прибрав робочий навушник у футляр."
+        }
+      ],
+      "observation": "Рутинна композиція: Pro помічає спад уваги; Astra ризик виконання плану; інші захищають конкретність. Opus пропонує додати текстури другій перевірці.",
+      "reader_effect": "Pacing, voice, clarity and continuity of future scenes.",
+      "evidence": "Exact source and locked reports; checks/claim-validation.md",
+      "proposed_actions": [
+        "Оцінити пропорції у томі; не одночасно скорочувати й розширювати той самий фрагмент."
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "21",
+          "anchor": "P00021",
+          "quote": "Маршрут через супровід, який вона закрила, не відкрився знову сам. Це було нове повідомлення з її особисто підтвердженого контуру, і цього разу під ним було поле для відповіді."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00023",
+          "quote": "Ні часу, ні запрошення до сеансу в повідомленні не було. Воно не відкривало профіль чи технічний доступ."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00025",
+          "quote": "До другої перевірки лишалося дванадцять хвилин. Відповісти можна було швидше. Поле не вимагало прийняти нову роботу, але розмова мала стосуватися саме її можливості."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00026",
+          "quote": "Моє обмеження діяло до кінця робочого дня."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00032",
+          "quote": "Замість цього повернувся до повідомлення Майї. Поле відповіді було тим самим, яке вона відкрила сама. Я не додавав до нього розклад, мету сеансу чи перелік можливих доступів."
+        }
+      ],
+      "observation": "Процедурні розрізнення підтримують причинність, але можуть дублювати пояснення меж; Terra просить зберегти.",
+      "reader_effect": "Pacing, voice, clarity and continuity of future scenes.",
+      "evidence": "Exact source and locked reports; checks/claim-validation.md",
+      "proposed_actions": [
+        "Перевірити21–22 поспіль, зберегти джерело нової ініціативи."
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "21",
+          "anchor": "P00005",
+          "quote": "Другий підсумок учорашньої перевірки я дописав за кухонним столом. Звірив погоджені дії, результат і час закриття доступу. У справі вже були дані самої перевірки; нічого нового від клієнта я не запитував. Надіслав підсумок до того, як допив чай."
+        }
+      ],
+      "observation": "Другий підсумок учорашньої перевірки може звучати як два підсумки однієї роботи; за19 це другий із двох різних пізніших перевірок.",
+      "reader_effect": "Pacing, voice, clarity and continuity of future scenes.",
+      "evidence": "Exact source and locked reports; checks/claim-validation.md",
+      "proposed_actions": [
+        "Можливе точкове уточнення, не реткон."
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "21",
+          "anchor": "P00013",
+          "quote": "Я відкрив одну тимчасову зміну: дотик до попереднього рядка ставив маркер на паузу, наступний дотик поновлював рух. Клієнтка прочитала короткий уривок, повернулася на два рядки й затрималась там, скільки їй було потрібно."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00015",
+          "quote": "Вона торкнулася поля. Маркер рушив із вибраного місця."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00017",
+          "quote": "Я попросив підтвердити саме цю дію в картці зміни. Після її підтвердження зберіг налаштування. Клієнтка запустила на своєму боці контрольний уривок. Пауза виникла тільки під час повернення вгору."
+        }
+      ],
+      "observation": "Жест наступного дотику після повернення вгору може читатися неоднозначно; тест у тексті успішний.",
+      "reader_effect": "Pacing, voice, clarity and continuity of future scenes.",
+      "evidence": "Exact source and locked reports; checks/claim-validation.md",
+      "proposed_actions": [
+        "Перевірити зрозумілість, не додавати зайвий мануал."
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "astra",
+        "gemini",
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "21",
+          "anchor": "P00037",
+          "quote": "Я прибрав руки від клавіатури, але пристрій не перевернув. Екран лишився переді мною з одним надісланим питанням і порожнім місцем під ним."
+        }
+      ],
+      "observation": "Порожній екран повторює кілька попередніх завершень; peers вважають фінал сильним.",
+      "reader_effect": "Pacing, voice, clarity and continuity of future scenes.",
+      "evidence": "Exact source and locked reports; checks/claim-validation.md",
+      "proposed_actions": [
+        "Оцінити накопичення фіналів і нову функцію очікування."
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "promise",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "21",
+          "anchor": "P00022",
+          "quote": "> Моє питання з відмовою лишилося незавершеним. Вона досі стає відкладенням, і я хочу це змінити.\n>\n> Я готова обговорити, чи можемо ми взагалі продовжувати роботу і за яких умов. Це поки що тільки розмова про умови."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00034",
+          "quote": "> За яких умов ви взагалі готові працювати зі мною далі?"
+        }
+      ],
+      "observation": "Майя дала тільки можливість розмови; наступне вікно й умови ще не існують.",
+      "reader_effect": "Pacing, voice, clarity and continuity of future scenes.",
+      "evidence": "Exact source and locked reports; checks/claim-validation.md",
+      "proposed_actions": [
+        "У22 нова відповідь, окремий grant, свіжа згода; не імпортувати12хв як факт21."
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "21",
+          "anchor": "P00029",
+          "quote": "Після підсумку нових справ у мене не лишилося. Порожнє місце після двох перевірок так і стояло порожнім. Жодного складного втручання я не прийняв."
+        }
+      ],
+      "observation": "Порожнє…порожнім Flash пропонує згладити, Opus захищає емфазу.",
+      "reader_effect": "Pacing, voice, clarity and continuity of future scenes.",
+      "evidence": "Exact source and locked reports; checks/claim-validation.md",
+      "proposed_actions": [
+        "Автор обирає повтор як наголос або локальне згладження."
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "21",
+          "anchor": "P00025",
+          "quote": "До другої перевірки лишалося дванадцять хвилин. Відповісти можна було швидше. Поле не вимагало прийняти нову роботу, але розмова мала стосуватися саме її можливості."
+        }
+      ],
+      "observation": "Її можливості може граматично відсилати до роботи чи розмови, контекст визначає роботу.",
+      "reader_effect": "Pacing, voice, clarity and continuity of future scenes.",
+      "evidence": "Exact source and locked reports; checks/claim-validation.md",
+      "proposed_actions": [
+        "За потреби назвати роботу прямо."
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "claude",
+        "terra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "21",
+          "anchor": "P00022",
+          "quote": "> Моє питання з відмовою лишилося незавершеним. Вона досі стає відкладенням, і я хочу це змінити.\n>\n> Я готова обговорити, чи можемо ми взагалі продовжувати роботу і за яких умов. Це поки що тільки розмова про умови."
+        }
+      ],
+      "observation": "Вона відсилає до відмови всередині питання з відмовою; Opus бачить паузу, Terra захищає її мовлення.",
+      "reader_effect": "Pacing, voice, clarity and continuity of future scenes.",
+      "evidence": "Exact source and locked reports; checks/claim-validation.md",
+      "proposed_actions": [
+        "Перевірити без механічної заборони займенника."
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "21",
+          "anchor": "P00030",
+          "quote": "Кінець робочого дня настав без окремого сигналу. Я закрив останню справу й прибрав робочий навушник у футляр."
+        }
+      ],
+      "observation": "Прибрав навушник у футляр: низьковпевнене сполучувальне побажання Opus, не нормативна помилка.",
+      "reader_effect": "Pacing, voice, clarity and continuity of future scenes.",
+      "evidence": "Exact source and locked reports; checks/claim-validation.md",
+      "proposed_actions": [
+        "Лишити або оцінити поклав у при авторському читанні."
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "claude",
+        "gemini",
+        "terra"
+      ],
+      "category": "voice",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "21",
+          "anchor": "P00022",
+          "quote": "> Моє питання з відмовою лишилося незавершеним. Вона досі стає відкладенням, і я хочу це змінити.\n>\n> Я готова обговорити, чи можемо ми взагалі продовжувати роботу і за яких умов. Це поки що тільки розмова про умови."
+        }
+      ],
+      "observation": "Абстрактність Майїного повідомлення: Pro читає холодність, Opus просить контролювати накопичення регістру, Terra захищає функцію.",
+      "reader_effect": "Pacing, voice, clarity and continuity of future scenes.",
+      "evidence": "Exact source and locked reports; checks/claim-validation.md",
+      "proposed_actions": [
+        "Перевірити її голос у живому22–24, не приписувати приховану емоційну неспроможність."
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-012",
+      "origin_reports": [
+        "gemini",
+        "astra"
+      ],
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "21",
+          "anchor": "P00002",
+          "quote": "Уранці я дістав із шухляди ложку й тільки тоді помітив плаский держак."
+        },
+        {
+          "chapter": "21",
+          "anchor": "P00003",
+          "quote": "Маленька Нінина ложка лежала серед звичайного столового приладдя. Я розмішав нею цукор у чаї, сполоснув під краном і повернув на місце. Поруч лягла більша, якою я їв сир із миски."
+        }
+      ],
+      "observation": "Pro читає маленьку ложку як дитячу/забуту, сніданок як недбалий; текст не встановлює цього.",
+      "reader_effect": "Pacing, voice, clarity and continuity of future scenes.",
+      "evidence": "Exact source and locked reports; checks/claim-validation.md",
+      "proposed_actions": [
+        "Зберегти буквальні риси M05, перевірити читательське очікування у повному томі."
+      ],
+      "dependencies": [
+        "CH21 future author-authorized revision",
+        "CH22–25",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

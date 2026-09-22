@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "status": "observed_candidate_not_canonical",
+  "chapter": 21,
+  "source": {
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch21-sol-v1/chapter-21.md",
+    "sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b"
+  },
+  "coverage": "P00001-P00037, all37 nonempty paragraph blocks;39 nonempty physical lines,75 total lines",
+  "time": {
+    "day": "D9",
+    "start": "Morning at home",
+    "end": "After end of working day; exact hour unstated",
+    "interval": "12 minutes before second routine check; not S08 window duration"
+  },
+  "events": [
+    {
+      "anchors": [
+        "P00002",
+        "P00003",
+        "P00004"
+      ],
+      "fact": "At home Dal uses small Nina spoon with flat handle to stir sugar in tea, rinses and returns it to cutlery drawer. Bigger spoon used for curd/cheese from bowl is distinct. Ballast card closed."
+    },
+    {
+      "anchors": [
+        "P00005"
+      ],
+      "fact": "Completes and sends remaining summary of prior-day check using existing records before finishing tea; no new client query."
+    },
+    {
+      "anchors": [
+        "P00006",
+        "P00007",
+        "P00008",
+        "P00010",
+        "P00011",
+        "P00012",
+        "P00013",
+        "P00015",
+        "P00016",
+        "P00017",
+        "P00018",
+        "P00019"
+      ],
+      "fact": "First of2accepted routine checks at workplace: only marker movement/touch timing visible, not client text. Client chooses pause when returning upward; tests, confirms saving, runs control on her side before Dal closes access and sends summary. Initial observed drift after half second."
+    },
+    {
+      "anchors": [
+        "P00020",
+        "P00021",
+        "P00022",
+        "P00023"
+      ],
+      "fact": "Between jobs Maya herself sends new personally confirmed message with reply field. Says own refusal still becomes deferral and she wants change; willing only to discuss possible work conditions. No time, session, profile or technical access granted."
+    },
+    {
+      "anchors": [
+        "P00024",
+        "P00025",
+        "P00026",
+        "P00027"
+      ],
+      "fact": "Dal reads, closes, waits to answer until after his chosen restriction; prepares second job12minaway."
+    },
+    {
+      "anchors": [
+        "P00028",
+        "P00029"
+      ],
+      "fact": "Second routine check: prior agreed2sound cues replaced with1; client chooses medium of3SIGNALvolume levels over ordinary background noise. Dal saves, restores normal test contour, closes access and summarizes. No new complex work accepted."
+    },
+    {
+      "anchors": [
+        "P00030",
+        "P00031",
+        "P00032",
+        "P00034",
+        "P00035",
+        "P00036",
+        "P00037"
+      ],
+      "fact": "Workday ends, last case closed, earpiece put in case. Does not open work queue. Via Maya reply field asks whole conditions question, no proposed protocol/schedule/access; delivery shown, no answer. Device remains facing him at work."
+    }
+  ],
+  "knowledge": {
+    "Dal": "Knows Nina spoon ownership already. Learns continuing refusal/deferral issue and willingness to discuss directly from Maya message.",
+    "Maya": "No source for care deadline/Gor exchange/Tikhon conversation; own message grants discussion only. Dal question delivered, not proof she read it.",
+    "Gor_Tikhon_care": "No new interaction, knowledge or access shown.",
+    "Ballast": "Card remains closed; no new Ballast listening granted. Work conversations occur; global microphone state not specified."
+  },
+  "access": {
+    "Maya": "New reply field for conditions discussion only; no window/profile/home/access grant",
+    "work": "Each routine temporary access closed after completion; general professional rights remain from20; new queue not opened",
+    "Ballast": "Closed; do not infer all devices microphone disabled during client conversations"
+  },
+  "commitments": [
+    {
+      "id": "CH19-REPORT-D9",
+      "status": "completed",
+      "anchor": "P00005"
+    },
+    {
+      "id": "CH19-ROUTINE-D9",
+      "status": "completed",
+      "count": 2,
+      "anchors": [
+        "P00019",
+        "P00028",
+        "P00029"
+      ]
+    },
+    {
+      "id": "CH19-COMPLEX-PAUSE",
+      "status": "honored_through_end_of_D9_workday",
+      "anchor": "P00030",
+      "new_intake_after": "No complex case accepted yet"
+    },
+    {
+      "id": "CH20-CARE-D11",
+      "status": "unchanged_future_receipt_only",
+      "due": "D11 18:00"
+    }
+  ],
+  "resources": {
+    "R": "R1 unchanged",
+    "M05": {
+      "status": "first_setup_observed_candidate_not_canonical",
+      "object": "small Nina-owned spoon with flat handle",
+      "location": "home cutlery drawer after use/rinse/return",
+      "anchors": [
+        "P00002",
+        "P00003"
+      ],
+      "not_established": [
+        "child ownership",
+        "rediscovery of forgotten object",
+        "medical cause",
+        "sudden grief",
+        "digital function",
+        "transport to Maya"
+      ]
+    },
+    "Nina": "Name and object ownership shown; no new biographical fact beyond object"
+  },
+  "future_dependencies": [
+    "Maya conditions response22 not yet received",
+    "Any new window needs her separate conditions and fresh temporary grant",
+    "No midnight/day change yet; planned22D9evening needs actual schedule",
+    "One D11 18:00 appointment unchanged",
+    "M05 payoff33 not yet"
+  ],
+  "new_draft_local_details": [
+    "Spoon appearance/use/location",
+    "Routine reading marker and sound cue checks",
+    "Maya exact initiative and reply field",
+    "Workday end with earpiece stored"
+  ],
+  "remaining": [
+    "Editorial decisions pending",
+    "M05 payoff not done",
+    "Whole volume/global audit incomplete"
+  ]
+}
