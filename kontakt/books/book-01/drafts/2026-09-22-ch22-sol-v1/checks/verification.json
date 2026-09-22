@@ -1,0 +1,63 @@
+{
+  "source_sha256": "8cba862bb2bd235b8e1db6159ef7dbe52aa4c0dc00451d771c1a441e7da3949d",
+  "status": "required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "All51blocks,55nonempty physical lines,105total,628lexical tokens; not global audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "7fec996a4024d691286c43d44c26df3ca7a66785661fb89fdd8f10c8902099b2",
+    "terra": "6a486cb3c952baf4657adf2fc8ef479bf1fc3ff61eaf22356648a91edd58c1c7",
+    "gemini_flash": "e971cc057f00e8d2a788e87925b201c43ba4977a0e841e911b2dde7b9a9c36be",
+    "gemini": "9a66991b68b4d2efa6ae899991fe1f2680a6cd9fed4aa296eb4b43fe33c77e8c"
+  },
+  "additional_opus": "bb988a9b9a62f379eecce3254cdc86d48540789005deb622d43999dd9ddd26b3",
+  "reconciliation": "1004bb31e950f4f12ee517c52135453a8b7f56bc3a6a749deace512c14fe2736",
+  "missing": [],
+  "verdicts": {
+    "astra": "Structurally functional,6pending concerns",
+    "terra": "Two identified language defects,1interfaceclarity concern; retained pending",
+    "gemini_flash": "PASS with language notes",
+    "gemini": "Positive diary; inferred mutualchange qualified",
+    "claude_optional": "PASS; arithmetic objection refuted by exact wording"
+  },
+  "language_scans": "No configured signals; LanguageTool not run",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "301979add699f5ce4f37461a3fc4b83329a7f1a8a2a844ebf9235e5cc9940f09",
+    "pages": 2,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 389,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 267,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 2
+      }
+    ],
+    "visual_review": "Both pages inspected; complete readable layout, no clipping or blank pages."
+  },
+  "schema_instances": "Draft202012Validator run and ledger PASS",
+  "remaining": [
+    "14pending author decisions including language concerns",
+    "Active same-window CH23–24",
+    "Wholevolume/global audit"
+  ],
+  "independence": "Astra coordinator preflight disclosed; locked before Terra spawn and current peers read",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  }
+}

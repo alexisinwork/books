@@ -1,0 +1,86 @@
+--- chapter-22.preflight.md
++++ chapter-22.md
+@@ -20,7 +20,7 @@
+ 
+ > Так.
+ 
+-До восьмої лишалося досить часу, щоб не їхати просто від робочого столу з відкритою справою. Я закрив професійну панель, поклав пристрій у сумку й вимкнув лампу.
++До восьмої лишалося досить часу, щоб не їхати просто від робочого столу. Я закрив професійну панель, поклав пристрій у сумку й вимкнув лампу.
+ 
+ На вулиці вже працювало вечірнє освітлення. Дорогою до зупинки я двічі торкнувся кишені, перевіряючи, чи взяв пристрій, хоча його вага відчувалася через ремінь сумки. У транспорті не відкривав ані запрошення, ані стару архівну копію.
+ 
+@@ -48,7 +48,7 @@
+ 
+ — Зараз повернеться саме це? — Майя вказала на активне посередництво.
+ 
+-— Так. Те, що працює у вас зараз. Не режим із нашої попередньої зустрічі. На ваш «стоп», кнопку або на дванадцятій хвилині пряме вікно закриється, і цей стан повернеться.
++— Так. Те, що працює у вас зараз. Не режим із нашої попередньої зустрічі. На ваш «стоп», кнопку або коли минуть дванадцять хвилин пряме вікно закриється, і цей стан повернеться.
+ 
+ — Побутові функції не зупиняться?
+ 
+@@ -98,7 +98,7 @@
+ 
+ — Мені теж не подобається, що я мушу це казати.
+ 
+-Лічильник перейшов через першу хвилину. До межі лишалося одинадцять. Її долоня все ще лежала біля кнопки.
++Лічильник перейшов через першу хвилину. До межі лишалося трохи менше одинадцяти. Її долоня все ще лежала біля кнопки.
+ 
+ Майя знову подивилася на мене.
+ 
+--- writer-notes.preflight.md
++++ writer-notes.md
+@@ -10,9 +10,9 @@
+ ## Source revision
+ 
+ - Previous prose: `../2026-09-22-ch21-sol-v1/chapter-21.md`, SHA-256 `d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b` (verified).
+-- Previous observed state: `../2026-09-22-ch21-sol-v1/observed-state.json`, SHA-256 `c0681f6476e6c3ce6b3c64dfd7815102bf03434a3a1c53c6ec13fd6f083fa71` (verified through manifest).
+-- Chapter handoff: `../../execution/HANDOFF-CH22.md`, SHA-256 `7429a5607fd85a34ad391f51f205f35752a7f2e2cd7e47504685582862da9c65` (verified through manifest).
+-- Window preparation: `../../production/2026-09-21-book01/S08-WINDOW-PREPARATION.md` (verified through manifest; planning input superseded by the concrete handoff where needed).
++- Previous observed state: `../2026-09-22-ch21-sol-v1/observed-state.json`, SHA-256 `edfa74b8398f61f0110f072a8afe05d05d30801b4b3baa1c504ac0f549d2e991` (verified through manifest).
++- Chapter handoff: `../../execution/HANDOFF-CH22.md`, SHA-256 `267126a9a7889107dc8e6feb53663f6c34e81ccafc7f408de41acb5837100436` (verified through manifest).
++- Window preparation: `../../production/2026-09-21-book01/S08-WINDOW-PREPARATION.md`, SHA-256 `76f8d8e21ccd84308b030f09e32b1c65a80d08a4e0eea99bf291da8f0a94c730` (verified through manifest; planning input superseded by the concrete handoff where needed).
+ - Input inventory: `input-manifest.json`; all 52 listed files matched their recorded SHA-256 and byte size before drafting.
+ - No peer diagnosis, reconciliation ledger or check report was read or applied.
+ 
+@@ -52,7 +52,7 @@
+ - Maya opens with a refusal to explain why she invited him again. Dal first says `Добре`; she rejects his conversion of refusal into a correct/approved act.
+ - Dal does not answer with procedural validation. When she asks what remains, he gives an uncomfortable personal answer: he dislikes that she will not explain.
+ - Maya states that she also dislikes having to say so, then asks what he wants from her if not an explanation. This changes the conversation without diagnosing either person or completing CH23–24.
+-- At chapter end, just over one minute has elapsed; eleven minutes remain at the displayed whole-minute boundary. Maya's stop remains immediately available. The window is still active and must continue as the same timer in CH23.
++- At chapter end, it is slightly after 20:01: a little over one minute has elapsed and a little under eleven minutes remain. Maya's stop remains immediately available. The window is still active and must continue as the same timer in CH23.
+ 
+ ## State after chapter
+ 
+@@ -72,17 +72,28 @@
+ 
+ ## Forward dependencies
+ 
+-- CH23 continues the same window after the first minute; no new launch, timer or consent reset.
++- CH23 continues the same window slightly after 20:01; no new launch, timer or consent reset.
+ - Total combined elapsed time across CH22–24 may not exceed twelve minutes and may end earlier by Maya's stop.
+-- If uninterrupted, hard end is 20:12 with return to the current pre-launch support. CH22 ends with eleven minutes remaining.
++- If uninterrupted, hard end is 20:12 with return to the current pre-launch support. CH22 ends with a little under eleven minutes remaining.
+ - Maya's last question awaits Dal's answer. Full Nina/self-companion recognition belongs later in the same window and is not completed here.
+ - No permanent mediation/profile change or S09 exit has occurred.
+ - CH23 not drafted.
+ 
+ ## Self-check
+ 
+-- Pending after first-save preservation.
++- Ukrainian first-person past tense, Dal's technical restraint and Maya's direct register checked.
++- D9 sequence checked: response after completed workday; explicit 19:54 arrival; fresh admission; consent and one launch exactly at 20:00.
++- Window arithmetic checked: one twelve-minute maximum, hard end 20:12 if uninterrupted; source ends slightly after 20:01 with a little under eleven minutes remaining; CH23 must continue the same timer.
++- Consent/access checked: Maya authors conditions and invitation, can still refuse on site, then freshly confirms; Dal sees only four temporary status/control rows and no profile/history/private text.
++- Stop/return checked: Maya's button and voice command work independently; Dal has backup return; current pre-launch mediation is the return state; utility remains active.
++- Knowledge/privacy checked: Gor absent by Maya's own statement, care/Tikhon/archive not disclosed, Ballast closed, M05 spoon remains home.
++- Literary boundary checked: first exchange produces mutual discomfort and Maya's new question; no full Nina disclosure, S09 exit, relief claim, healing or R1 increase.
++- UTF-8/LF and one terminal LF checked before freeze.
+ 
+ ## Preflight revision history
+ 
+-- Pending first-save preservation and exact diff.
++- First prose save preserved as `chapter-22.preflight.md`, SHA-256 `f8e2920f009ea33fb2a071ad73ac59fb27f4fba1a2caeb96353bf4f46249ae34`.
++- First notes save preserved as `writer-notes.preflight.md`, SHA-256 `ce0493cfab10cfea9035e73bac0cd734d34163a023601932dc65f42c72dcff85`.
++- Self-check corrected notes source-provenance hashes against the verified 52-input manifest.
++- Coordinator factual preflight before peer review clarified that the automatic boundary fires after twelve full minutes, set the chapter end slightly after 20:01 with slightly under eleven minutes remaining, and removed wording that could imply a real work case remained open after CH21.
++- Exact first-save-to-final changes are recorded in `preflight-changes.diff`.

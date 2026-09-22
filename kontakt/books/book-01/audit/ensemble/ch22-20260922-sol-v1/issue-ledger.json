@@ -1,0 +1,704 @@
+{
+  "schema_version": 1,
+  "run_id": "ch22-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "8cba862bb2bd235b8e1db6159ef7dbe52aa4c0dc00451d771c1a441e7da3949d",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "claude",
+        "terra",
+        "gemini_flash"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00003",
+          "quote": "> Сьогодні о 20:00 у мене, якщо ви можете.\n>\n> Я готова на одне пряме вікно, не довше дванадцяти хвилин. Зупинка весь час у мене. Гор не приходить. Профіль ви не відкриваєте й нічого в ньому не змінюєте. Побутові функції залишаються. Після зупинки або на межі повертається те супроводження, яке діятиме перед початком.\n>\n> Я не обіцяю відмовлятися від підтримки. Мені треба спробувати відповісти так, щоб моя відмова завершувала конкретне питання, а не чекала наступної нагоди."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00021",
+          "quote": "Вона сіла й торкнулася світлої смуги. На ній з’явилося нове одноразове керування. На моєму екрані відкрилися тільки чотири рядки: побутові функції активні, емоційне посередництво активне, повернення до поточного режиму готове, межа — дванадцять хвилин. Нижче стояв один дозволений запуск і моє ручне повернення."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00024",
+          "quote": "— Так. Те, що працює у вас зараз. Не режим із нашої попередньої зустрічі. На ваш «стоп», кнопку або коли минуть дванадцять хвилин пряме вікно закриється, і цей стан повернеться."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00031",
+          "quote": "До восьмої лишалася хвилина. Я не запускав перевірку кнопки: керування вже підтвердило доступність, не змінюючи стану. У квартирі клацнув терморегулятор. Побутовий шар на екрані лишився зеленим."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00033",
+          "quote": "— Можу. Але зараз підтверджую одне вікно на названих мною умовах. Дванадцять хвилин максимум. Починайте о восьмій."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00038",
+          "quote": "— Я не пояснюватиму, чому запросила вас знову, — сказала вона."
+        }
+      ],
+      "observation": "Процедура передує живому конфлікту й переважає за обсягом; Astra/Opus бачать ризик темпу, Terra/Flash захищають.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "Перечитати22–24 разом; скорочення можливе без втрати свіжої згоди."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini"
+      ],
+      "category": "voice",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00003",
+          "quote": "> Сьогодні о 20:00 у мене, якщо ви можете.\n>\n> Я готова на одне пряме вікно, не довше дванадцяти хвилин. Зупинка весь час у мене. Гор не приходить. Профіль ви не відкриваєте й нічого в ньому не змінюєте. Побутові функції залишаються. Після зупинки або на межі повертається те супроводження, яке діятиме перед початком.\n>\n> Я не обіцяю відмовлятися від підтримки. Мені треба спробувати відповісти так, щоб моя відмова завершувала конкретне питання, а не чекала наступної нагоди."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00038",
+          "quote": "— Я не пояснюватиму, чому запросила вас знову, — сказала вона."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00042",
+          "quote": "— Ви одразу зробили з моєї відмови правильну дію. Я не просила її схвалювати."
+        }
+      ],
+      "observation": "Майїна мова умов близька до фахового протоколу; живі репліки відрізняють її голос.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "Оцінити розподіл технічної компетентності й індивідуальних реплік."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra",
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00017",
+          "quote": "— Гора тут немає, — сказала Майя. — І він не приєднається."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00018",
+          "quote": "— Добре."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00019",
+          "quote": "— Це не запитання."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00020",
+          "quote": "— Зрозумів."
+        }
+      ],
+      "observation": "Це не запитання після Добре: Astra бачить локальну паузу, інші — підготовку відмови від схвалення.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "Зберегти функцію або уточнити за авторським рішенням."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra",
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00043",
+          "quote": "У першій відповіді, що прийшла мені, були слова про її право й про прийняті умови. У другій — уточнення, що саме я назвав добрим. Обидві лишали мене в знайомому місці."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00044",
+          "quote": "Я не сказав жодної."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00046",
+          "quote": "— Мені не подобається, що ви не поясните."
+        }
+      ],
+      "observation": "Два відкинуті правильні варіанти працюють тут, але повторюють саморедагування попередніх глав.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "Перевірити накопичення прийому в томі, не підміняти ним нове особисте відкриття."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00024",
+          "quote": "— Так. Те, що працює у вас зараз. Не режим із нашої попередньої зустрічі. На ваш «стоп», кнопку або коли минуть дванадцять хвилин пряме вікно закриється, і цей стан повернеться."
+        }
+      ],
+      "observation": "Непаралельний ряд stop/кнопку/коли минуть12хв; Terra/Flash називають дефектом, Astra нерівністю усної фрази.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "Назвати натискання й вирівняти всі три умови, зберігши механіку. Часткові запропоновані моделі перебудови не обов’язково вирішують весь ряд."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "convergent",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "promise",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00035",
+          "quote": "Я натиснув запуск."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00036",
+          "quote": "Позначка емоційного посередництва стала сірою. Побутові функції лишилися зеленими. Поруч із готовим поверненням пішов один лічильник."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00049",
+          "quote": "Лічильник перейшов через першу хвилину. До межі лишалося трохи менше одинадцяти. Її долоня все ще лежала біля кнопки."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00051",
+          "quote": "— Тоді скажіть, чого вам від мене треба, якщо не пояснення."
+        }
+      ],
+      "observation": "Активне єдине вікно після20:01; жорсткий кінець20:12, відповідь на останнє питання ще попереду.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "CH23–24 той самий timer, свіже особисте знання тільки зі слів/дій; завершити з поверненням."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "terra",
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00043",
+          "quote": "У першій відповіді, що прийшла мені, були слова про її право й про прийняті умови. У другій — уточнення, що саме я назвав добрим. Обидві лишали мене в знайомому місці."
+        }
+      ],
+      "observation": "Відповіді, що прийшла мені: три незалежні читачі бачать неповноту/хибну інерцію до отриманого повідомлення. Flash називає калькою без словникового доказу.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "Уточнити внутрішнє виникнення відповіді; не оголошувати походження кальки доведеним."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "convergent",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "terra",
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00021",
+          "quote": "Вона сіла й торкнулася світлої смуги. На ній з’явилося нове одноразове керування. На моєму екрані відкрилися тільки чотири рядки: побутові функції активні, емоційне посередництво активне, повернення до поточного режиму готове, межа — дванадцять хвилин. Нижче стояв один дозволений запуск і моє ручне повернення."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00027",
+          "quote": "Вона відкрила на своєму боці кнопку завершення. Смуга коротко засвітилася білим і повернула звичайний колір."
+        }
+      ],
+      "observation": "Одноразове керування/відкрила кнопку: стислі назви інтерфейсу можуть приховувати конкретну дію.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "Назвати показ/активацію/панель точніше за потреби без нового доступу."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "convergent",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "gemini_flash",
+        "astra",
+        "claude"
+      ],
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00010",
+          "quote": "До восьмої лишалося досить часу, щоб не їхати просто від робочого столу. Я закрив професійну панель, поклав пристрій у сумку й вимкнув лампу."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00011",
+          "quote": "На вулиці вже працювало вечірнє освітлення. Дорогою до зупинки я двічі торкнувся кишені, перевіряючи, чи взяв пристрій, хоча його вага відчувалася через ремінь сумки. У транспорті не відкривав ані запрошення, ані стару архівну копію."
+        }
+      ],
+      "observation": "Рух до кишені при пристрої в сумці: Flash бачить неоднозначність, Astra/Opus нервову звичку.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "Зберегти фізичну суперечність жесту або коротко назвати звичку, не вводити другий пристрій."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00027",
+          "quote": "Вона відкрила на своєму боці кнопку завершення. Смуга коротко засвітилася білим і повернула звичайний колір."
+        }
+      ],
+      "observation": "Повернула звичайний колір може читатися як передача кольору; це сполучувальна ясність, не відсутній прямий додаток.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "За потреби відновила/повернула собі; авторський вибір."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "gemini_flash",
+        "terra"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00007",
+          "quote": "> Умови здійсненні. Приймаю сьогодні о 20:00. Почну тільки після вашого підтвердження на місці."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00046",
+          "quote": "— Мені не подобається, що ви не поясните."
+        }
+      ],
+      "observation": "Телеграфне Приймаю сьогодні… і не поясните: Flash пропонує варіанти, Terra захищає функціональну прямоту.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "Не згладжувати професійний голос автоматично."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-012",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00003",
+          "quote": "> Сьогодні о 20:00 у мене, якщо ви можете.\n>\n> Я готова на одне пряме вікно, не довше дванадцяти хвилин. Зупинка весь час у мене. Гор не приходить. Профіль ви не відкриваєте й нічого в ньому не змінюєте. Побутові функції залишаються. Після зупинки або на межі повертається те супроводження, яке діятиме перед початком.\n>\n> Я не обіцяю відмовлятися від підтримки. Мені треба спробувати відповісти так, щоб моя відмова завершувала конкретне питання, а не чекала наступної нагоди."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00005",
+          "quote": "Я перевірив, чи може тимчасове вікно повернути саме поточний на момент запуску режим, а не один із попередніх. Може. Для цього не треба було бачити профіль."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00024",
+          "quote": "— Так. Те, що працює у вас зараз. Не режим із нашої попередньої зустрічі. На ваш «стоп», кнопку або коли минуть дванадцять хвилин пряме вікно закриється, і цей стан повернеться."
+        }
+      ],
+      "observation": "Поточний на момент запуску режим і діятиме перед початком: точне, але складне часово-синтаксичне формулювання.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "Можливе спрощення без заміни майбутнього передстартового режиму на нинішній під час листа."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-013",
+      "origin_reports": [
+        "claude",
+        "astra",
+        "gemini_flash"
+      ],
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00049",
+          "quote": "Лічильник перейшов через першу хвилину. До межі лишалося трохи менше одинадцяти. Її долоня все ще лежала біля кнопки."
+        }
+      ],
+      "observation": "Opus припускає арифметичну помилку12−1; source каже лічильник ПЕРЕЙШОВ через першу хвилину, тому залишок<11 правильний.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "Не додавати затримку старту й не виправляти правильний timer. Зберегти як спростовану фактичну підставу відгуку, авторський статус pending."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-014",
+      "origin_reports": [
+        "gemini"
+      ],
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "22",
+          "anchor": "P00021",
+          "quote": "Вона сіла й торкнулася світлої смуги. На ній з’явилося нове одноразове керування. На моєму екрані відкрилися тільки чотири рядки: побутові функції активні, емоційне посередництво активне, повернення до поточного режиму готове, межа — дванадцять хвилин. Нижче стояв один дозволений запуск і моє ручне повернення."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00036",
+          "quote": "Позначка емоційного посередництва стала сірою. Побутові функції лишилися зеленими. Поруч із готовим поверненням пішов один лічильник."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00042",
+          "quote": "— Ви одразу зробили з моєї відмови правильну дію. Я не просила її схвалювати."
+        },
+        {
+          "chapter": "22",
+          "anchor": "P00048",
+          "quote": "— Мені теж не подобається, що я мушу це казати."
+        }
+      ],
+      "observation": "Pro читає взаємне зближення й систему, що спотворює комунікацію; це не доказ почуттів Майї чи mediation на обох героях.",
+      "reader_effect": "Language clarity, pacing, voice and active-window continuity.",
+      "evidence": "Locked reports; exact source; checks/claim-validation.md",
+      "proposed_actions": [
+        "Перевірити емоційну дугу в повному томі, не приписувати прихованого зцілення."
+      ],
+      "dependencies": [
+        "CH22 future author-authorized revision",
+        "CH23–24 same window",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}
