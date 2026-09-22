@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "run_id": "ch26-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "b1af585700f95c30d6f1792bf7fd2f3a38bf1e05de92c6ae324b836af3679be8",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "26",
+          "anchor": "P00005",
+          "quote": "> **Загальні наслідки розділення побутових функцій і емоційного посередництва**\n>\n> «Не доставлено» означає стан доставки.\n>\n> Після доставки «не прочитано» і «прочитано без відповіді» лишаються різними станами: у першому повідомлення не відкривали, у другому відкрили без відповіді. Без емоційного посередництва жоден із них не перетлумачується як «не готова зараз», а та сама пропозиція не повертається через подібність наступної розмови чи ситуації.\n>\n> Звичайне технічне нагадування можливе лише тоді, коли його ввімкнено окремо. Воно спрацьовує за визначеним часом або умовою, а не за припущенням про емоційну готовність.\n>\n> Точні правила конкретного профілю потребують окремого дозволеного перегляду. Для цього опису профіль не відкривався.\n>\n> Це загальна інформація, а не рекомендація змінити налаштування і не підтвердження згоди на таку зміну."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00006",
+          "quote": "Останній рядок був потрібний. Але я перечитав його вдруге, перш ніж прикріпити документ до відкритої відповіді Майї."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00009",
+          "quote": "Спершу з’явилася позначка доставки. Позначки прочитання не було."
+        }
+      ],
+      "observation": "Довідка повторює25; Astra бачить вагу повтору, Terra/Flash функціональність, Pro початкову термінологічну плутанину й подальший інтерес.",
+      "reader_effect": "Scene force, voice, clarity or pacing as specified in observation.",
+      "evidence": "Locked required reports, exact source and checks/review-claims-validation.json; no optional Opus report.",
+      "proposed_actions": [
+        "Перевірити обсяг25–26, зберігши доставку й точне розрізнення станів."
+      ],
+      "dependencies": [
+        "Future author-authorized CH26 revision",
+        "S09 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "scene",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "26",
+          "anchor": "P00012",
+          "quote": "> Старе делегування досі діє для мого конфліктного каналу. Ви відмовилися від мети, але не можете залишити звернення без професійного маршруту.\n>\n> Проведіть наступну дію через мій proxy. Якщо не готові працювати самі, передайте її фахівцю, який готовий."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00015",
+          "quote": "> Описане вами старе делегування стосувалося запитів щодо вашого каналу. Воно не давало права діяти від її імені для всього профілю, скасовувати її рішення зупинити контакт або передавати це право іншому фахівцю.\n>\n> Нову proxy-вимогу без її чинного підтвердження я не прийму. Її листування не передаватиму."
+        }
+      ],
+      "observation": "Наступна дія Гора не конкретизована, конфлікт ризикує повторити позиції17.",
+      "reader_effect": "Scene force, voice, clarity or pacing as specified in observation.",
+      "evidence": "Locked required reports, exact source and checks/review-claims-validation.json; no optional Opus report.",
+      "proposed_actions": [
+        "Оцінити предмет його актуальної вимоги без знання приватних22–25 подій."
+      ],
+      "dependencies": [
+        "Future author-authorized CH26 revision",
+        "S09 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra",
+        "gemini",
+        "terra",
+        "gemini_flash"
+      ],
+      "category": "character",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "26",
+          "anchor": "P00017",
+          "quote": "> Якщо людина не може безпечно попросити сама, відмова від proxy теж є рішенням за неї."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00018",
+          "quote": "Я прочитав це двічі. У другому читанні речення не стало менш зручним."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00019",
+          "quote": "> Ваш запит отримано й відхилено."
+        }
+      ],
+      "observation": "АргументГора сильний, але Даль швидко закриває його адміністративноювідмовою; Pro відчуває істотний сумнів, Astra ризик гладкості.",
+      "reader_effect": "Scene force, voice, clarity or pacing as specified in observation.",
+      "evidence": "Locked required reports, exact source and checks/review-claims-validation.json; no optional Opus report.",
+      "proposed_actions": [
+        "Перевірити реальну ціну відмови й майбутню спокусу без повторного насильства."
+      ],
+      "dependencies": [
+        "Future author-authorized CH26 revision",
+        "S09 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "voice",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "26",
+          "anchor": "P00031",
+          "quote": "— Це спосіб не зробити його неминучим власною неявкою."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00034",
+          "quote": "— Я цього не сказав. Ти почуєш точні умови й збережеш можливість їх виконати. Порушення не зникне, і ніхто не зобов’язаний залишити тобі всі права."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00035",
+          "quote": "— Тоді це шлях до оцінювання, а не до допуску."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00043",
+          "quote": "— Участь означатиме, що ти прийшов і почув їх. Погоджуватися чи заперечувати будеш після цього."
+        }
+      ],
+      "observation": "Тихон розділяє оцінювання/допуск/участь; можлива повчальна класифікація, інші читання захищають розумну конкретність.",
+      "reader_effect": "Scene force, voice, clarity or pacing as specified in observation.",
+      "evidence": "Locked required reports, exact source and checks/review-claims-validation.json; no optional Opus report.",
+      "proposed_actions": [
+        "Оцінити живий професійний ризик і густотуP34, не додавати гарантій."
+      ],
+      "dependencies": [
+        "Future author-authorized CH26 revision",
+        "S09 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "26",
+          "anchor": "P00044",
+          "quote": "На каналі лишалося трохи більше хвилини."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00045",
+          "quote": "— Прийдеш? — спитав Тихон."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00046",
+          "quote": "— Ще не знаю."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00047",
+          "quote": "— Тоді не називай це відмовою."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00048",
+          "quote": "П’ять хвилин скінчилися. Я закрив камеру й мікрофон і завершив канал."
+        }
+      ],
+      "observation": "Показаний короткий обмін перед завершенням може стиснути відчуття п’ятихвилинного дзвінка.",
+      "reader_effect": "Scene force, voice, clarity or pacing as specified in observation.",
+      "evidence": "Locked required reports, exact source and checks/review-claims-validation.json; no optional Opus report.",
+      "proposed_actions": [
+        "Перевірити ритм/еліпсис; не оголошувати арифметичну помилку за числом слів."
+      ],
+      "dependencies": [
+        "Future author-authorized CH26 revision",
+        "S09 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini"
+      ],
+      "category": "structure",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "26",
+          "anchor": "P00049",
+          "quote": "Нагадування лишилося над панеллю. Нижче була активна кнопка нової черги. Я не натиснув її й не прибирав нагадування з очей."
+        }
+      ],
+      "observation": "Повтор фіналу біля активноїчерги/нагадування25 може нівелювати поступ; інші відчувають утриману напругу.",
+      "reader_effect": "Scene force, voice, clarity or pacing as specified in observation.",
+      "evidence": "Locked required reports, exact source and checks/review-claims-validation.json; no optional Opus report.",
+      "proposed_actions": [
+        "Порівняти суцільний25–27 без дострокового рішенняS11."
+      ],
+      "dependencies": [
+        "Future author-authorized CH26 revision",
+        "S09 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "terra"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "26",
+          "anchor": "P00024",
+          "quote": "> Завтра о 18:00 в мене обов’язкове професійне перекалібрування. Якщо не з’явлюся, буде призупинено ручні калібрування, доступ до нової черги й пов’язану з підтвердженою готовністю службову підтримку. Отримання я підтвердив. Участь — ні.\n>\n> Чи є професійний шлях не довести до призупинення і не вдавати, що порушення не було?"
+        }
+      ],
+      "observation": "Шлях не довести до призупинення названо синтаксичним дефектом без нормативного доказу; можливе локальне спотикання.",
+      "reader_effect": "Scene force, voice, clarity or pacing as specified in observation.",
+      "evidence": "Locked required reports, exact source and checks/review-claims-validation.json; no optional Opus report.",
+      "proposed_actions": [
+        "Оцінити природність варіанта зі щоб, не вводити загальну заборону інфінітива після іменника."
+      ],
+      "dependencies": [
+        "Future author-authorized CH26 revision",
+        "S09 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "gemini_flash",
+        "terra",
+        "astra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "26",
+          "anchor": "P00017",
+          "quote": "> Якщо людина не може безпечно попросити сама, відмова від proxy теж є рішенням за неї."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00018",
+          "quote": "Я прочитав це двічі. У другому читанні речення не стало менш зручним."
+        }
+      ],
+      "observation": "Flash припускає інверсію зручним/незручним; Terra та Astra читають зручність аргументуГора. Намір автора не встановлено.",
+      "reader_effect": "Scene force, voice, clarity or pacing as specified in observation.",
+      "evidence": "Locked required reports, exact source and checks/review-claims-validation.json; no optional Opus report.",
+      "proposed_actions": [
+        "Уточнювати носія зручності лише якщо потрібно; не інвертувати смисл автоматично."
+      ],
+      "dependencies": [
+        "Future author-authorized CH26 revision",
+        "S09 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "26",
+          "anchor": "P00041",
+          "quote": "Я відвів погляд від кнопки."
+        },
+        {
+          "chapter": "26",
+          "anchor": "P00049",
+          "quote": "Нагадування лишилося над панеллю. Нижче була активна кнопка нової черги. Я не натиснув її й не прибирав нагадування з очей."
+        }
+      ],
+      "observation": "Від якої кнопки відводиться поглядP41, остаточно названо тількиP49.",
+      "reader_effect": "Scene force, voice, clarity or pacing as specified in observation.",
+      "evidence": "Locked required reports, exact source and checks/review-claims-validation.json; no optional Opus report.",
+      "proposed_actions": [
+        "Перевірити орієнтир у найближчому контексті."
+      ],
+      "dependencies": [
+        "Future author-authorized CH26 revision",
+        "S09 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "26",
+          "anchor": "P00006",
+          "quote": "Останній рядок був потрібний. Але я перечитав його вдруге, перш ніж прикріпити документ до відкритої відповіді Майї."
+        }
+      ],
+      "observation": "Потрібний/потрібен/потрібним — запропоноване необов’язкове стилістичне варіювання.",
+      "reader_effect": "Scene force, voice, clarity or pacing as specified in observation.",
+      "evidence": "Locked required reports, exact source and checks/review-claims-validation.json; no optional Opus report.",
+      "proposed_actions": [
+        "Залишити на вибір голосу, не називати підтвердженою помилкою."
+      ],
+      "dependencies": [
+        "Future author-authorized CH26 revision",
+        "S09 continuation",
+        "Whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}

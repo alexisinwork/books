@@ -1,0 +1,337 @@
+{
+  "scope": "CH27 prerequisites: selected prose1–26, observed22–26, scoped handoff and S09 window proposal; no peer reports. Hash verification is not reading coverage.",
+  "writer_requested_selector": "gpt-5.6-sol",
+  "writer_agent": "/root/write_ch03",
+  "inputs": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "46e90d9cf2534e16bede15e648f5b58713fd0b82903acb078855d9ec21c834d3",
+      "bytes": 11658
+    },
+    {
+      "path": "STYLE.md",
+      "sha256": "75ae6b24770075cd7da6947728f89e06ffa731a3d9a2587472b339e97a2f04d0",
+      "bytes": 2413
+    },
+    {
+      "path": "BOOK_SYSTEM/CORE.md",
+      "sha256": "e65010a13d397daab2273b93c85ec82ed98e8a25062f54bf18371018e6d9734a",
+      "bytes": 4776
+    },
+    {
+      "path": "BOOK_SYSTEM/WRITING.md",
+      "sha256": "24ccf3865bb77d932cc3027bb8f530124c61b86dd70f9ac12765447e4ca69794",
+      "bytes": 5694
+    },
+    {
+      "path": "BOOK_SYSTEM/REVIEW.md",
+      "sha256": "69cedf253369637607bf8ad37c5baa4a6f98d894a1a1c1ce11ea541942194920",
+      "bytes": 5002
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+      "bytes": 6485
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "sha256": "a22dce300a430f1fef40358476aa436620d234cafb8ced1082e8e901e3dd14e5",
+      "bytes": 33775
+    },
+    {
+      "path": "kontakt/AGENTS.md",
+      "sha256": "a6c25a508994dc52fbae32c0778754a8da2a586c07aae2da9524c90e78e76011",
+      "bytes": 9675
+    },
+    {
+      "path": "kontakt/START_HERE.md",
+      "sha256": "c12186957789023925d921780605515932114d692dbbeb782cfcf272c061347a",
+      "bytes": 915
+    },
+    {
+      "path": "kontakt/project.json",
+      "sha256": "48499a8a6cac733964937016458f4fd674a470338fe3ef3f700e611448e39676",
+      "bytes": 1533
+    },
+    {
+      "path": "kontakt/STYLE.md",
+      "sha256": "c13147cb68a55640feca196a30680e19a924abf22c3c245bdd6b166046b19a40",
+      "bytes": 4410
+    },
+    {
+      "path": "kontakt/series/PRE-DRAFT-LOCK-2026-09-19.md",
+      "sha256": "984c1142fbbd56c119723daf0d9dc536ecdc67ff07eed07a356bea39a3986174",
+      "bytes": 17198
+    },
+    {
+      "path": "kontakt/series/CANON-POLICY.md",
+      "sha256": "26f9e4924ce88723d95ba744661cc0aeaf9d9751461bfcb972c2b4c952caed96",
+      "bytes": 1500
+    },
+    {
+      "path": "kontakt/series/canon.json",
+      "sha256": "8a670c3e11631fecac1b292c9da37f0e304cf5da252ed5892193a57d6cd5051e",
+      "bytes": 1949
+    },
+    {
+      "path": "kontakt/series/glossary.json",
+      "sha256": "993343103e6f79fda263fb9b346ddead35ee5b061bd8e30680bcc9179706c95c",
+      "bytes": 3652
+    },
+    {
+      "path": "kontakt/books/book-01/book.json",
+      "sha256": "34743a2658a9c43ee4f2a2800c0f53ad3713c660b2d64fc1cd9a45973013aa43",
+      "bytes": 1785
+    },
+    {
+      "path": "kontakt/books/book-01/voice.json",
+      "sha256": "0daed170751ea9d5c8a7f8fd4bfc06309feb62e0cb0cbb057d0f2e2202c424d7",
+      "bytes": 2149
+    },
+    {
+      "path": "kontakt/books/book-01/BOOK-01-ARCHITECTURE-LOCK.md",
+      "sha256": "338cba44392162efecc20fa738a946473e22652e73e427e20b242da365a74510",
+      "bytes": 10583
+    },
+    {
+      "path": "kontakt/books/book-01/characters.planned.json",
+      "sha256": "33920bb704a150592448525b5a4840a7d607d8454280f470275267dc70498576",
+      "bytes": 3825
+    },
+    {
+      "path": "kontakt/books/book-01/knowledge.planned.json",
+      "sha256": "c8e571728ceafef89f6d76eeafdafa3efb3634ba182a7c0ff68e0656a12233c7",
+      "bytes": 2715
+    },
+    {
+      "path": "kontakt/books/book-01/timeline.planned.json",
+      "sha256": "3cd9ebe89b264717abb35c092dacdd61c037604528510c2ab991a15841381727",
+      "bytes": 1687
+    },
+    {
+      "path": "kontakt/books/book-01/promises.planned.json",
+      "sha256": "7f73f86873cce79440f4514a56e124a4078ed308fe17aa10f1e95752bd195c3b",
+      "bytes": 2958
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-21-ch01-sol-v1/chapter-01.md",
+      "sha256": "4253619c9c769ddc3e1475755148967b25794587b03b1a81245600555f145f31",
+      "bytes": 18456
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-21-ch02-sol-v1/chapter-02.md",
+      "sha256": "99e7b812deaae4a41db7ff8096164369e564385d824498119e450e299a22f6da",
+      "bytes": 23621
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-21-ch03-sol-v1/chapter-03.md",
+      "sha256": "1e5dcefdac57a9ae74671bdef9cbcf9983469988861cf3b5c83a04d946c7ec86",
+      "bytes": 19219
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-21-ch04-sol-v2/chapter-04.md",
+      "sha256": "e957f06d188b80ddd0d5567e34b0c10a74828b06b611b15eda4ac97e82e7ca96",
+      "bytes": 13618
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-21-ch05-sol-v2/chapter-05.md",
+      "sha256": "8ff977f8fd05eab274001689e7174562be93dd61c1d9292da3fe928b24bd3d01",
+      "bytes": 14558
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-21-ch06-sol-v2/chapter-06.md",
+      "sha256": "368e292202c330d9498b91521071bbe6532a686d86f6bd659d715a82003ba7ac",
+      "bytes": 10439
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-21-ch07-sol-v1/chapter-07.md",
+      "sha256": "8fde472151c5c74cf58388f98980016f10875750bee9ee163b405125bf55490a",
+      "bytes": 11846
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch08-sol-v1/chapter-08.md",
+      "sha256": "ab47878a64ca69a60bc750bf244a886c984b217adc3e7df41545208314853986",
+      "bytes": 12807
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch09-sol-v1/chapter-09.md",
+      "sha256": "a3f03652d81583b7c03e654cd4fd2791257390759a2201f1bc39ec65f23a76ed",
+      "bytes": 7604
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch10-sol-v1/chapter-10.md",
+      "sha256": "8fb300b16e4e27a75be7e1d2899d28b1b2d2e0a75ff7d049e1c53f23cc14ab46",
+      "bytes": 6798
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/REVIEW-POLICY-2026-09-22.md",
+      "sha256": "cdb845e36b849ca16e603a758e74be36f3345b3b4837ffbf4256ced9db54f8d8",
+      "bytes": 1928
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/chapter-11.md",
+      "sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
+      "bytes": 8564
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch12-sol-v1/chapter-12.md",
+      "sha256": "0ff37e597f82f257ae8f347fdac2f78fa28bd7ca8bcb2521e4787272fce73279",
+      "bytes": 6520
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch13-sol-v2/chapter-13.md",
+      "sha256": "8803fdbd2735391b2374ad3fa90958f45400353e0bc5091e477eb7abc4c78728",
+      "bytes": 9294
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch14-sol-v1/chapter-14.md",
+      "sha256": "45dc268af069a6a334526b0bd6b5d7c0cb107a43e69e583370da2840a88a50e1",
+      "bytes": 8361
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch15-sol-v1/chapter-15.md",
+      "sha256": "f89df074a4cedb8b24b3e6ef937eb73a2d3f223ec2c9c222299ceefd1a867fce",
+      "bytes": 12267
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/NEXT-BLOCK-16-20.md",
+      "sha256": "f3a00533e5463227aa5af4f95f1f1265367647046d514958b11c6a305e3d942d",
+      "bytes": 5070
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/chapter-16.md",
+      "sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
+      "bytes": 8396
+    },
+    {
+      "path": "kontakt/books/book-01/execution/VOICE-CALIBRATION.md",
+      "sha256": "b7ed50a17d2dc0965c265abe79ab0ced2f845aa9b1d78c7e168e3d08051765f8",
+      "bytes": 2344
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch17-sol-v1/chapter-17.md",
+      "sha256": "4756085c6c0bf2f43181dced31125b963b218836709218725cdefbda032821c8",
+      "bytes": 10984
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch18-sol-v1/chapter-18.md",
+      "sha256": "dcb75546b175bd3030fb703e9f2e9dddef1209df5dbd34f94d47dc56a4e4598a",
+      "bytes": 7062
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch19-sol-v1/chapter-19.md",
+      "sha256": "e184be6d53b19b2fd0dcc07215e81ff9962a0d3a4797eaed8c552d1b37b6e526",
+      "bytes": 9565
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch22-sol-v1/observed-state.json",
+      "sha256": "d8aeadfba4bdd60ecc9c48c607c72b8fb4d8a9260895da82ebe419e8faa29cec",
+      "bytes": 5477
+    },
+    {
+      "path": "kontakt/books/book-01/execution/HANDOFF-CH27.md",
+      "sha256": "7d60708313825511aed997d65a9b175c78597881fd05229e34365877c375e6a6",
+      "bytes": 6041
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/CARE-DEADLINE-S07-S11-PROPOSAL.md",
+      "sha256": "9cbbcba81662401bd70df71ceb5c3c259ddf594775c214f88657537592d56166",
+      "bytes": 7760
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch20-sol-v1/chapter-20.md",
+      "sha256": "d85552384d19bb9431f3b6424ad16d83f8720171eaba033fca858191c0af4a68",
+      "bytes": 8686
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/NEXT-BLOCK-21-25.md",
+      "sha256": "6815bc1aec9fba1435aa37032042daf113ae0a5fc231d8c4a91f0c710352e9da",
+      "bytes": 5852
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/M05-LOCAL-SETUP-PROPOSAL.md",
+      "sha256": "9056e3e9d4a020a905e61ec4c9833a79321f173032a780b04307b2fe68628fac",
+      "bytes": 4352
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch21-sol-v1/chapter-21.md",
+      "sha256": "d857d2734b0314dc41d47af8ff893ef4cf52c245e9c4fc200d61487f5cf93d6b",
+      "bytes": 6858
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/S08-WINDOW-PREPARATION.md",
+      "sha256": "76f8d8e21ccd84308b030f09e32b1c65a80d08a4e0eea99bf291da8f0a94c730",
+      "bytes": 5771
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch22-sol-v1/chapter-22.md",
+      "sha256": "8cba862bb2bd235b8e1db6159ef7dbe52aa4c0dc00451d771c1a441e7da3949d",
+      "bytes": 7570
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/S08-NINA-SOURCE-MAP.json",
+      "sha256": "a6abe19148180141fe8d96b329355d793a5818f0be82775ad9e702449ac0a956",
+      "bytes": 5658
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch23-sol-v1/chapter-23.md",
+      "sha256": "3884441f3890b1003e18f5104766dc42bec030c04b4bf94e908c54de7ea9c329",
+      "bytes": 6307
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch23-sol-v1/observed-state.json",
+      "sha256": "15b7eb4bbacdc75070c27dc7412bcc363b36acba3fc33f28617f231b40577b02",
+      "bytes": 5407
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch24-sol-v1/chapter-24.md",
+      "sha256": "4bf4d5db43a064596bf4c583783a726d3a657053af3b505afbc9c86861675396",
+      "bytes": 6422
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch24-sol-v1/observed-state.json",
+      "sha256": "db09d8ce6a6322094f2383fe856d462f4f714f64804f883aa4d7e9d976279cab",
+      "bytes": 5376
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/S09-CARE-ENTRY-PREPARATION.md",
+      "sha256": "6ef65f33d8ea3f561e30458e218680f37152f2ebc47cb41f5f34783512635ee1",
+      "bytes": 6335
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch25-sol-v1/chapter-25.md",
+      "sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "bytes": 7451
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch25-sol-v1/observed-state.json",
+      "sha256": "25e1f40a6beadb7059110f29a94b510bee310fbf583ff85afca69bc20bf662e5",
+      "bytes": 4558
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/NEXT-BLOCK-26-30.md",
+      "sha256": "ede16a4d0a5116f3146b88f1e06646991026e0a760d26a48b8613e06fc5452a3",
+      "bytes": 9620
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch26-sol-v1/chapter-26.md",
+      "sha256": "b1af585700f95c30d6f1792bf7fd2f3a38bf1e05de92c6ae324b836af3679be8",
+      "bytes": 8870
+    },
+    {
+      "path": "kontakt/books/book-01/drafts/2026-09-22-ch26-sol-v1/observed-state.json",
+      "sha256": "0b38b61c2c30b735929169722461220e38b92aa3deab33c53a25674aac7b05d5",
+      "bytes": 5971
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/S09-WINDOW-PREPARATION.md",
+      "sha256": "c772611e462e047bd8e486f5b442f1006cb656803e422c0c1e4be575b54aea03",
+      "bytes": 6276
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/S09-WINDOW-27-28-PROPOSAL.md",
+      "sha256": "c8ecbc31e6b4cbe9931366afc123e4da46f7c8a44e2f30ed5bf7d1991798d514",
+      "bytes": 7411
+    }
+  ]
+}

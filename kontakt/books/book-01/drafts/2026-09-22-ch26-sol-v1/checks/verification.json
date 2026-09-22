@@ -1,0 +1,64 @@
+{
+  "source_sha256": "b1af585700f95c30d6f1792bf7fd2f3a38bf1e05de92c6ae324b836af3679be8",
+  "status": "required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "All49blocks,113physical/65nonemptylines,723lexicaltokens; not global audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "442921b114edcc41fa085cde35e34946275cae014f1984fc6e2124a9ef173bfe",
+    "terra": "dfb415797938678f4f2d6d5099c4fb238b9e4a244f6acadc7c4d287aa5ae973c",
+    "gemini_flash": "76ec0e5634e05616a0cb6ec9f2d1cf276ab2f6ca222ac32ef303b9c7d1976d56",
+    "gemini": "589eb9b34464d23e2f5acf9c59c31a91fe4fce5db483363a14eb89f31a0db03c"
+  },
+  "optional_opus": "Skipped under explicit user instruction after terminalagyquota429exit3; checks/opus-unavailable.json",
+  "reconciliation": "a7bb0692c45857d6e6d52d341c9c810b25bc46734332e7d1065e76987ce69c64",
+  "missing_required": [],
+  "verdicts": {
+    "astra": "Six literary risks, coherent continuity",
+    "terra": "One syntax/naturalness proposal; normative claim qualified",
+    "gemini_flash": "PASS with clarity/taste notes",
+    "gemini": "Positive diary; commission/full-work-loss inferences qualified"
+  },
+  "language_scans": "No configured signals; independent grammar checker/LanguageTool not run; native reading complete",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "ad50994cc51b562fa19d7ac87db80811e18668a42557ed5ddcb9e6aa83879771",
+    "pages": 2,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 373,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 369,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 2
+      }
+    ],
+    "visual_review": "Both pages inspected in contact sheet; consistent readable typography, no clipping or blank page. Not native Word."
+  },
+  "preflight_diff": "Exact git diff --no-index source+notes reconstruction PASS; initial difflib-format assumption failed, actual Git format preserved unchanged",
+  "preflight_diff_sha256": "758fddf4bafdd76cf6f1b131c8b8a410bfb6c00259afefc8c4c851682e37de19",
+  "schema_instances": "run and ledger Draft202012Validator PASS",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  },
+  "supporting_reread": "checks/continuity-input-reread.json:17/19/20fully reread183blocks",
+  "remaining": [
+    "10pending author decisions",
+    "CH27 onward and full-volume audit"
+  ],
+  "independence": "Astra development/preflight disclosed, locked before freshTerra/peer reading"
+}

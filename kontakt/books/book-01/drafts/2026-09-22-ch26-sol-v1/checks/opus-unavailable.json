@@ -1,0 +1,14 @@
+{
+  "status": "optional_opus_skipped_unavailable",
+  "reason": "agy terminal exit3; RESOURCE_EXHAUSTED429 Individual quota reached; reported reset51m36s, not an observation timeout",
+  "model": "claude-opus-4-6-thinking",
+  "client": "agy",
+  "target_sha256": "b1af585700f95c30d6f1792bf7fd2f3a38bf1e05de92c6ae324b836af3679be8",
+  "invocation": "opus-agy/invocation.json",
+  "author_basis": "Explicit user: if Opus does not work, skip; required Terra+Gemini3.8Flash+Gemini3.1Pro",
+  "substitute_report_created": false,
+  "retry": "No retry needed for26. Quota evidence may inform next optional attempt; required Gemini results are already terminal success.",
+  "evidence_observed_at_utc": "2026-09-22 17:39:34 UTC",
+  "conservative_optional_retry_not_before_utc": "2026-09-22 18:31:10 UTC",
+  "retry_time_basis": "Observation time + reported51m36s; conservative estimate, not provider guarantee"
+}

@@ -1,0 +1,47 @@
+{
+  "review": "independent_target_only_ukrainian_literary_language_review",
+  "native_model_override": "gpt-5.6-terra",
+  "target": "kontakt/books/book-01/drafts/2026-09-22-ch26-sol-v1/chapter-26.md",
+  "target_sha256": "b1af585700f95c30d6f1792bf7fd2f3a38bf1e05de92c6ae324b836af3679be8",
+  "input_hashes": {
+    ".agents/skills/book-language-review/SKILL.md": "472df890365cabebc652b868ca62ef90f66f1c8a9fcf7475947038ab4f9294cc",
+    "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+    "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md": "a22dce300a430f1fef40358476aa436620d234cafb8ced1082e8e901e3dd14e5",
+    "kontakt/books/book-01/execution/VOICE-CALIBRATION.md": "b7ed50a17d2dc0965c265abe79ab0ced2f845aa9b1d78c7e168e3d08051765f8",
+    "kontakt/books/book-01/execution/HANDOFF-CH26.md": "846cf1660f89d8514b1a18372ded45636f54287a321649e30782d6d014a5a388",
+    "kontakt/books/book-01/drafts/2026-09-22-ch26-sol-v1/chapter-26.md": "b1af585700f95c30d6f1792bf7fd2f3a38bf1e05de92c6ae324b836af3679be8"
+  },
+  "scope": {
+    "target_only": true,
+    "permitted_context": [
+      "book-language-review skill",
+      "Ukrainian STYLE",
+      "Ukrainian NATURALNESS",
+      "VOICE-CALIBRATION",
+      "HANDOFF-CH26"
+    ],
+    "excluded": [
+      "prior chapters",
+      "canon",
+      "plans beyond supplied handoff",
+      "audits",
+      "ledgers",
+      "checks",
+      "peer reports",
+      "source texts"
+    ]
+  },
+  "reading_coverage": {
+    "unit_definition": "blank-separated target blocks",
+    "total_blocks": 49,
+    "read_blocks": "P00001-P00049",
+    "last_block": "P00049",
+    "unread": []
+  },
+  "automated_search": {
+    "run": false,
+    "reason": "not run for this independent close-reading pass"
+  },
+  "source_modified": false,
+  "report": "kontakt/books/book-01/drafts/2026-09-22-ch26-sol-v1/checks/terra-native/REPORT.md"
+}
