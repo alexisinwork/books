@@ -1,0 +1,669 @@
+--- kontakt/books/book-01/drafts/2026-09-22-ch27-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/progress.json
++++ kontakt/books/book-01/production/2026-09-21-book01/progress.json
+@@ -210,10 +210,18 @@
+       "observed_state": "drafts/2026-09-22-ch26-sol-v1/observed-state.json",
+       "review_run": "audit/ensemble/ch26-20260922-sol-v1",
+       "status": "reviewed_working_draft_not_canonical"
++    },
++    {
++      "chapter": 27,
++      "source": "drafts/2026-09-22-ch27-sol-v1/chapter-27.md",
++      "sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "observed_state": "drafts/2026-09-22-ch27-sol-v1/observed-state.json",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "status": "reviewed_working_draft_not_canonical"
+     }
+   ],
+-  "current_chapter": 27,
+-  "current_stage": "chapter_27_writer_ready",
++  "current_chapter": 28,
++  "current_stage": "chapter_28_writer_ready",
+   "future_chapters": "macro architecture; progressively detailed before writing",
+   "global_audit": "not_run",
+   "last_block_review": {
+@@ -227,5 +235,6 @@
+     "through_chapter": 25,
+     "path": "readers/chapters-01-25",
+     "status": "exact_sources_and_75page_render_verified_not_global_audit"
+-  }
++  },
++  "next_handoff": "execution/HANDOFF-CH28.md"
+ }
+--- kontakt/books/book-01/drafts/2026-09-22-ch27-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json
++++ kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json
+@@ -195,7 +195,7 @@
+       "sequence": "S09",
+       "day": "D10",
+       "function": "Даль утримує вікно й залишає Майї можливість відмовитися",
+-      "status": "planned"
++      "status": "reviewed_draft_with_open_editorial_ledger"
+     },
+     {
+       "chapter": 28,
+--- kontakt/books/book-01/drafts/2026-09-22-ch27-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
++++ kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
+@@ -1,7 +1,7 @@
+ {
+   "book_id": "book-01",
+   "status": "working_draft_collection_not_master",
+-  "chapter_count": 26,
++  "chapter_count": 27,
+   "chapters": [
+     {
+       "chapter": 1,
+@@ -210,6 +210,14 @@
+       "observed_state": "drafts/2026-09-22-ch26-sol-v1/observed-state.json",
+       "review_run": "audit/ensemble/ch26-20260922-sol-v1",
+       "status": "reviewed_working_draft_not_canonical"
++    },
++    {
++      "chapter": 27,
++      "source": "drafts/2026-09-22-ch27-sol-v1/chapter-27.md",
++      "sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "observed_state": "drafts/2026-09-22-ch27-sol-v1/observed-state.json",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "status": "reviewed_working_draft_not_canonical"
+     }
+   ],
+   "global_audit": "not_run",
+--- kontakt/books/book-01/drafts/2026-09-22-ch27-sol-v1/metadata-before/kontakt/books/book-01/book.json
++++ kontakt/books/book-01/book.json
+@@ -8,7 +8,7 @@
+   "master": null,
+   "voice": "voice.json",
+   "canon": "../../series/canon.json",
+-  "audit_status": "chapter_26_reviewed_volume_in_progress",
++  "audit_status": "chapter_27_reviewed_volume_in_progress",
+   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
+   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
+   "language": "uk",
+@@ -23,25 +23,25 @@
+   "planning_state": "planned_not_observed",
+   "execution_entry": "production/2026-09-21-book01/progress.json",
+   "draft_scope": {
+-    "chapter": 26,
++    "chapter": 27,
+     "whole_book_ready": false,
+     "whole_series_ready": false,
+     "prose_started": true,
+-    "execution": "execution/HANDOFF-CH26.md"
++    "execution": "execution/HANDOFF-CH27.md"
+   },
+   "working_revision": {
+-    "path": "drafts/2026-09-22-ch26-sol-v1/chapter-26.md",
+-    "sha256": "b1af585700f95c30d6f1792bf7fd2f3a38bf1e05de92c6ae324b836af3679be8",
++    "path": "drafts/2026-09-22-ch27-sol-v1/chapter-27.md",
++    "sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
+     "format": "md",
+     "language": "uk",
+     "status": "draft_not_author_selected",
+-    "scope": "chapter 26; complete collection in working_volume",
+-    "observed_state": "drafts/2026-09-22-ch26-sol-v1/observed-state.json",
+-    "review_run": "audit/ensemble/ch26-20260922-sol-v1"
++    "scope": "chapter 27; complete collection in working_volume",
++    "observed_state": "drafts/2026-09-22-ch27-sol-v1/observed-state.json",
++    "review_run": "audit/ensemble/ch27-20260922-sol-v1"
+   },
+   "working_volume": {
+     "manifest": "production/2026-09-21-book01/working-volume.json",
+-    "chapters": 26,
++    "chapters": 27,
+     "status": "in_progress_not_master"
+   }
+ }
+--- kontakt/books/book-01/drafts/2026-09-22-ch27-sol-v1/metadata-before/kontakt/books/book-01/session.md
++++ kontakt/books/book-01/session.md
+@@ -2,6 +2,6 @@
+ 
+ Поточне доручення: завершити том 1 з перевірками кожної глави, потім повний аудит. Див. production/2026-09-21-book01/authorization.md.
+ 
+-Глави 1–26 написані й мають чотири діагнози та зведення. Остання: [chapter-26.md](drafts/2026-09-22-ch26-sol-v1/chapter-26.md), SHA-256 `b1af585700f95c30d6f1792bf7fd2f3a38bf1e05de92c6ae324b836af3679be8`. Фактичний стан: [2026-09-22-ch26-sol-v1](drafts/2026-09-22-ch26-sol-v1/observed-state.json). Планові реєстри збережені; master=null.
++Глави 1–27 написані й мають чотири діагнози та зведення. Остання: [chapter-27.md](drafts/2026-09-22-ch27-sol-v1/chapter-27.md), SHA-256 `a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48`. Фактичний стан: [2026-09-22-ch27-sol-v1](drafts/2026-09-22-ch27-sol-v1/observed-state.json). Планові реєстри збережені; master=null.
+ 
+-Далі: глава 27, перед письмом окрема звірка стану й handoff. Точний прогрес і версії: [реєстр](production/2026-09-21-book01/progress.json). Відкриті редакторські пропозиції не визнані авторськими рішеннями. Повного аудиту тому ще немає.
++Далі: глава 28, перед письмом окрема звірка стану й handoff. Точний прогрес і версії: [реєстр](production/2026-09-21-book01/progress.json). Відкриті редакторські пропозиції не визнані авторськими рішеннями. Повного аудиту тому ще немає.
+--- kontakt/books/book-01/drafts/2026-09-22-ch27-sol-v1/metadata-before/kontakt/START_HERE.md
++++ kontakt/START_HERE.md
+@@ -2,6 +2,6 @@
+ 
+ Автор доручив завершити український том 1 по главі з усіма перевірками, потім виконати повний аудит.
+ 
+-Готові чернетки глав 1–26; далі глава 27. [Поточний прогрес](books/book-01/production/2026-09-21-book01/progress.json). [Робочий маршрут](books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md). [Остання глава й перевірки](books/book-01/drafts/2026-09-22-ch26-sol-v1/README.md).
++Готові чернетки глав 1–27; далі глава 28. [Поточний прогрес](books/book-01/production/2026-09-21-book01/progress.json). [Робочий маршрут](books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md). [Остання глава й перевірки](books/book-01/drafts/2026-09-22-ch27-sol-v1/README.md).
+ 
+ Master не призначено. Для продовження спочатку читати фактичний observed-state останньої глави, потім scoped handoff. Макроархітектура восьми книг збережена; плани не стали подіями рукопису.
+--- kontakt/books/book-01/drafts/2026-09-22-ch27-sol-v1/metadata-before/kontakt/books/book-01/plan.md
++++ kontakt/books/book-01/plan.md
+@@ -111,3 +111,7 @@
+ ## Поступ після глави 26
+ 
+ Чернетки 1–26: production/2026-09-21-book01/working-volume.json. Наступна глава 27; факт і план розділені.
++
++## Поступ після глави 27
++
++Чернетки 1–27: production/2026-09-21-book01/working-volume.json. Наступна глава 28; факт і план розділені.
+--- kontakt/books/book-01/drafts/2026-09-22-ch27-sol-v1/metadata-before/kontakt/books/book-01/brief.md
++++ kontakt/books/book-01/brief.md
+@@ -111,3 +111,7 @@
+ ## Поступ після глави 26
+ 
+ Чернетки 1–26: production/2026-09-21-book01/working-volume.json. Наступна глава 27; факт і план розділені.
++
++## Поступ після глави 27
++
++Чернетки 1–27: production/2026-09-21-book01/working-volume.json. Наступна глава 28; факт і план розділені.
+--- kontakt/books/book-01/drafts/2026-09-22-ch27-sol-v1/metadata-before/kontakt/books/book-01/audit/issues.json
++++ kontakt/books/book-01/audit/issues.json
+@@ -9644,7 +9644,457 @@
+       "verification": {
+         "status": "not_run",
+         "scope": "Future prose27–28 not yet written; no event asserted"
++      },
++      "observed_implementation_ch27": {
++        "source": "drafts/2026-09-22-ch27-sol-v1/chapter-27.md",
++        "sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++        "evidence": "P18–31 current permitted four rules;P45–55 active forbidden manual final write;P56–62 ready baseline before18:30 launch, stable after; P77 window LIVE18:31:47. No author canon decision."
+       }
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-001",
++      "category": "pacing",
++      "severity": "moderate",
++      "certainty": "reader_reaction",
++      "observation": "Повторені умови гальмують початок за Astra; Terra бачить потрібну процедуру, Flash/Pro напругу.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00018",
++          "quote": "— «Разовий перегляд чинних правил доставки, повторення й повернення для підготовки одного прямого вікна. Без змісту повідомлень, адресатів, історії та інших налаштувань. Без змін»."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00036",
++          "quote": "— Вісім хвилин максимум. Мій голос і моя кнопка завершують раніше. Побутові функції працюють. Якщо я не зроблю окремої постійної зміни, повертається те, що працює зараз."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00069",
++          "quote": "— У вашому описі мовчання було просто станом, — сказала вона. — Тут воно відчувається як робота, яку я ще не зробила."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-002",
++      "category": "character",
++      "severity": "moderate",
++      "certainty": "reader_reaction",
++      "observation": "Astra бачить ризик Майї-екзаменаторки; Terra/Pro читають самостійну потребу контролю.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00029",
++          "quote": "— Це висновок із цих правил, а не ваша порада?"
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00069",
++          "quote": "— У вашому описі мовчання було просто станом, — сказала вона. — Тут воно відчувається як робота, яку я ще не зробила."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00071",
++          "quote": "— І ви не збираєтеся пояснити, що це нормально?"
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-003",
++      "category": "canon",
++      "severity": "moderate",
++      "certainty": "hypothesis",
++      "observation": "Активний запис оператора посилює конфлікт; межі цієї нової draft-local механіки потребують авторської оцінки.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00045",
++          "quote": "На моєму боці з’явився одноразовий операторський контур. У ньому були підтвердження прямого каналу й повернення, ручне повернення до збереженого стану — і ще одна активна дія: записати стан завершення вручну."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00046",
++          "quote": "Вона могла б залишити емоційне посередництво вимкненим після вікна. Інструмент дозволяв записати це й мені. Окремого дозволу Майї для натискання він не вимагав."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00053",
++          "quote": "— Я її не дозволяю."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-004",
++      "category": "scene",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Astra бачить гладкість утримання й повтор рук; Flash/Pro сильну напругу через ненатискання.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00055",
++          "quote": "Я прибрав руку від правого краю пристрою й поклав її на стіл поруч із ручним поверненням. Дія запису лишилася активною, але я її не торкнувся."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00056",
++          "quote": "Прямий канал підтвердив готовність першим. Контур повернення ще звіряв збережений стан. Я не підтверджував готовність до запуску, доки не отримав другий сигнал."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00062",
++          "quote": "Обидва службові підтвердження перейшли з підготовки в робочий стан. Я дочекався ще одного циклу зв’язку: прямий канал лишався активним, повернення лишалося зв’язаним із Майїною зупинкою. Після цього позначив вікно стабільним."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00076",
++          "quote": "Постійне вимкнення лишалося доступним на її боці. Вона його не торкнулася. Моя ручна дія теж лишалася активною, і я тримав руку біля повернення."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-005",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Вона на початку P46 може на мить означати дію або Майю.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00045",
++          "quote": "На моєму боці з’явився одноразовий операторський контур. У ньому були підтвердження прямого каналу й повернення, ручне повернення до збереженого стану — і ще одна активна дія: записати стан завершення вручну."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00046",
++          "quote": "Вона могла б залишити емоційне посередництво вимкненим після вікна. Інструмент дозволяв записати це й мені. Окремого дозволу Майї для натискання він не вимагав."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-006",
++      "category": "voice",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Astra відзначає надто чисту етичну формулу; Terra назвав пропущене доповнення дефектом, хоча дозвіл названо P46; Pro цінує стриманість.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00046",
++          "quote": "Вона могла б залишити емоційне посередництво вимкненим після вікна. Інструмент дозволяв записати це й мені. Окремого дозволу Майї для натискання він не вимагав."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00047",
++          "quote": "Мета сеансу вимагала."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00072",
++          "quote": "Готова відповідь була поруч. Я міг сказати, що незавершеність не є помилкою, а відмова не потребує виправдання. Усе це було б правильним і знову додало б до її мовчання мій текст."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-007",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Інфінітив правила після двокрапки може на мить прилучитися до рішення; обов’язковість особової форми не доведена.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00022",
++          "quote": "Четвертий рядок стосувався тільки тимчасового вікна: без нового постійного рішення повернути емоційне посередництво, чинне перед запуском."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-008",
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "Сьогоднішній час стисло позначає timestamp.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00038",
++          "quote": "Вона відкрила поточний стан повернення. Емоційне посередництво було активне. Побутові функції — активні. Підтвердження мало сьогоднішній час і ще не було прив’язане до запуску."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-009",
++      "category": "voice",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "Лічильник пішов до18:38 — виразний технічний ідіолект.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00061",
++          "quote": "Позначка емоційного посередництва стала сірою. Побутові функції лишилися зеленими. Її кнопка завершення була активна. Один лічильник пішов до 18:38."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-010",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "Зупините має зрозумілий із контексту пропущений об’єкт.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00065",
++          "quote": "— Так. Якщо ви зупините або нічого не оберете до межі, повернеться зафіксований стан."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-011",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Рука на столі поруч із ручним поверненням може звучати як окрема фізична кнопка; не торкнувся дії — метонімія.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00045",
++          "quote": "На моєму боці з’явився одноразовий операторський контур. У ньому були підтвердження прямого каналу й повернення, ручне повернення до збереженого стану — і ще одна активна дія: записати стан завершення вручну."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00055",
++          "quote": "Я прибрав руку від правого краю пристрою й поклав її на стіл поруч із ручним поверненням. Дія запису лишилася активною, але я її не торкнувся."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-012",
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "На зупинці може зчитуватися як місце; твердження про англійське походження не доведене.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00008",
++          "quote": "> Умови здійсненні. Приймаю сьогодні о 18:30.\n>\n> Вузький перегляд і запуск потребуватимуть двох окремих підтверджень на місці. Якщо ви не оберете постійної зміни, на зупинці або о 18:38 повернеться стан, який діятиме перед початком."
++        },
++        {
++          "chapter": "27",
++          "anchor": "P00040",
++          "quote": "— Підтвердити готовність прямого каналу, втримувати його в межах одного сеансу й повернути цей стан на вашій зупинці або о 18:38. Постійний стан ви обираєте окремо."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-013",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Порядок повтор…дозволяло…посередництво на мить ускладнює розпізнавання підмета.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00021",
++          "quote": "Приватне повідомлення доставлялося один раз і лишалося непрочитаним, доки Майя сама його не відкривала. Після прочитання без відповіді повтор у подібному контексті дозволяло емоційне посередництво. Окреме технічне нагадування для приватних повідомлень не було ввімкнене."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-014",
++      "category": "voice",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "Додаткове тире після Гор може посилити категоричність.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00033",
++          "quote": "— Гор не учасник цього каналу, — сказала вона. — Ви й я. Більше нікого."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH27-SOL-V1-ENS-015",
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "Закрив панель нормативно за самим Flash; згорнув запропоновано як варіант.",
++      "anchors": [
++        {
++          "chapter": "27",
++          "anchor": "P00010",
++          "quote": "До зустрічі лишалося досить часу, щоб не перетворювати дорогу на частину її рішення. Я закрив робочу панель, залишив нагадування про завтрашнє перекалібрування на своєму місці й поклав пристрій у сумку."
++        }
++      ],
++      "dependencies": [
++        "Future author-authorized CH27 revision",
++        "S09 continuation27–28",
++        "Whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
++      "review_run": "audit/ensemble/ch27-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
+     }
+   ]
+ }
+--- kontakt/books/book-01/drafts/2026-09-22-ch27-sol-v1/metadata-before/kontakt/books/book-01/revision-log.json
++++ kontakt/books/book-01/revision-log.json
+@@ -608,6 +608,28 @@
+         "record": "drafts/2026-09-22-ch26-sol-v1/checks/verification.json",
+         "release_ready": false
+       }
++    },
++    {
++      "id": "ch27-20260922-sol-v1",
++      "reason": "Author authorized completion of volume one chapter at a time with checks",
++      "decision": "applied_to_draft_only",
++      "old_source": null,
++      "new_source": {
++        "path": "drafts/2026-09-22-ch27-sol-v1/chapter-27.md",
++        "sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48"
++      },
++      "preflight_history": "drafts/2026-09-22-ch27-sol-v1/preflight-changes.diff",
++      "observed_state": "drafts/2026-09-22-ch27-sol-v1/observed-state.json",
++      "dependencies": {
++        "planned_registers": "unchanged; actual candidate states separate",
++        "master_snapshot": "not applicable, master null",
++        "next_chapter": 28
++      },
++      "verification": {
++        "run": "audit/ensemble/ch27-20260922-sol-v1",
++        "record": "drafts/2026-09-22-ch27-sol-v1/checks/verification.json",
++        "release_ready": false
++      }
+     }
+   ]
+ }
+--- kontakt/books/book-01/drafts/2026-09-22-ch27-sol-v1/metadata-before/kontakt/series/architecture-pass-01-status.json
++++ kontakt/series/architecture-pass-01-status.json
+@@ -6,7 +6,7 @@
+   "books": [
+     {
+       "book_id": "book-01",
+-      "status": "chapters_01_26_drafted_reviewed",
++      "status": "chapters_01_27_drafted_reviewed",
+       "architecture_pass": "macro_reviewed",
+       "scene_gate": "chapter_01_only",
+       "master": null
+@@ -70,9 +70,9 @@
+   },
+   "current_draft": {
+     "book_id": "book-01",
+-    "chapter": 26,
+-    "path": "kontakt/books/book-01/drafts/2026-09-22-ch26-sol-v1/chapter-26.md",
+-    "sha256": "b1af585700f95c30d6f1792bf7fd2f3a38bf1e05de92c6ae324b836af3679be8",
++    "chapter": 27,
++    "path": "kontakt/books/book-01/drafts/2026-09-22-ch27-sol-v1/chapter-27.md",
++    "sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
+     "status": "reviewed_working_draft",
+     "whole_book_written": false,
+     "volume_progress": "books/book-01/production/2026-09-21-book01/progress.json"

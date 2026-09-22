@@ -1,0 +1,34 @@
+{
+  "renderer": "docx-preview/Chromium; not native Word",
+  "pdf_sha256": "99bc55a91c19889e2c272515675aec31cce8a8631bce373bcc6a57b2c6d9bbc8",
+  "pages": 3,
+  "text_matches_docx_ignoring_layout_whitespace": true,
+  "page_checks": [
+    {
+      "page": 1,
+      "words": 366,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 2,
+      "words": 371,
+      "out_of_bounds": 0,
+      "blank": false
+    },
+    {
+      "page": 3,
+      "words": 337,
+      "out_of_bounds": 0,
+      "blank": false
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "contact.png",
+      "first_page": 1,
+      "last_page": 3
+    }
+  ],
+  "visual_review": "All three pages inspected in contact sheet: complete text, consistent typography, no clipping or blank page. docx-preview/Chromium, not native Word."
+}

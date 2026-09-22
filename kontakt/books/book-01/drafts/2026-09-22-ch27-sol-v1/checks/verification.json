@@ -1,0 +1,70 @@
+{
+  "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
+  "status": "required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "All77 blocks;161physical/85nonempty lines;1033lexical tokens; not global audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "4e7d3d07fedfc47faadece982df9b65a1a0ec95e1243d3e12150615352d01ad9",
+    "terra": "3556ba6abea9bb21e44c3ea9bc57c4660074036e66bda4fbf678a79bab29ec4a",
+    "gemini_flash": "228da4611459afc19490bdabd656d621df7b3c139e5f5d799070330ed7d7329c",
+    "gemini": "302f6ba26192cbb154b455bacf6affb4b21c1321443cbdd6922e781169d924f5"
+  },
+  "optional_opus": "Not attempted27 under known quota26; explicit user skip. checks/opus-unavailable.json",
+  "reconciliation": "ba077a4e8caae3202f42af55145c145bc5a67132cc2855b01dbe576528906816",
+  "missing_required": [],
+  "verdicts": {
+    "astra": "Coherent local transitions; six literary risks",
+    "terra": "Two asserted language defects qualified against context; three style suggestions",
+    "gemini_flash": "PASS; clarity/naturalness/taste suggestions",
+    "gemini": "Positive full diary; absolute ethics and expected message inferences qualified"
+  },
+  "language_scans": "No configured signals; LanguageTool/independent grammar engine not run; manual native reading complete",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "99bc55a91c19889e2c272515675aec31cce8a8631bce373bcc6a57b2c6d9bbc8",
+    "pages": 3,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 366,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 371,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 3,
+        "words": 337,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 3
+      }
+    ],
+    "visual_review": "All three pages inspected in contact sheet: complete text, consistent typography, no clipping or blank page. docx-preview/Chromium, not native Word."
+  },
+  "preflight_diff": "Exact git diff --no-index source+notes reconstruction PASS",
+  "preflight_diff_sha256": "d9266e034100bdcbc79da59ad1c77d161a5e0400a677fd6292943d08adaacceb",
+  "schema_instances": "run and ledger Draft202012Validator PASS",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  },
+  "supporting_reread": "checks/continuity-input-reread.json:14/22/24 fully reread165blocks",
+  "remaining": [
+    "15 pending author choices",
+    "CH28 onward and full-volume audit"
+  ],
+  "transport": "Initial cp1252 failure and terminated failed-input clients preserved; UTF8 agy retries both exit0 valid reports"
+}

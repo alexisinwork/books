@@ -1,0 +1,33 @@
+{
+  "source_sha256": "a5b1d355daaacb81f22755eec5085bb5f66bc43fb37f5364c2bb7ffb7b1b7b48",
+  "first_attempts": [
+    "flash-agy",
+    "pro-agy"
+  ],
+  "failure": "Python subprocess stdin writer thread cp1252 UnicodeEncodeError; Ukrainian NDJSON not delivered successfully",
+  "first_sessions": [
+    82938,
+    10045
+  ],
+  "failed_input_clients_stopped": {
+    "agy_pids": [
+      6480,
+      8456
+    ],
+    "runner_parents_retained": [
+      17444,
+      13776
+    ],
+    "terminal_exit_codes": [
+      4294967295,
+      4294967295
+    ],
+    "reason": "Known unrecoverable local encoding failure, not merely tool wait timeout"
+  },
+  "successful_attempts": [
+    "flash-agy-utf8",
+    "pro-agy-utf8"
+  ],
+  "recovery": "python -X utf8, same agy client and same target/prompts; fresh immutable output folders",
+  "no_failed_report_imported": true
+}
