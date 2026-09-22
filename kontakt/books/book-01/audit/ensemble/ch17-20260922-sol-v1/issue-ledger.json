@@ -1,0 +1,883 @@
+{
+  "schema_version": 1,
+  "run_id": "ch17-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "4756085c6c0bf2f43181dced31125b963b218836709218725cdefbda032821c8",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0010",
+          "quote": "> Чи погодитеся ви особисто надати мені копію історії службових правил у межах мого вчорашнього запиту: джерело авторизації, ініціатор, обсяг, рішення, статус і наслідок? Тільки читання. Без профілю, повідомлень і поточних налаштувань.\n>\n> Ви можете звузити склад або відмовити без пояснення. Нової зустрічі чи сеансу я не прошу."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0011",
+          "quote": "Перечитав перший рядок і прибрав слова «мій вчорашній запит». Майя не бачила чернетки й не мала знати про неї, щоб зрозуміти прохання."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0012",
+          "quote": "> Чи погодитеся ви особисто надати мені вузьку копію історії службових правил: джерело авторизації, ініціатор, обсяг, рішення, статус і наслідок? Тільки читання. Без профілю, повідомлень і поточних налаштувань.\n>\n> Ви можете звузити склад або відмовити без пояснення. Нової зустрічі чи сеансу я не прошу."
+        }
+      ],
+      "observation": "Повтор двох майже однакових запитів: Astra бачить зупинку темпу, інші цінують видиме редагування.",
+      "reader_effect": "Tempo, distinct voices and precise interpretation of a consequential choice.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Порівняти короткий перший уривок із повним дублем; зберегти виправлення до надсилання."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "CH16–17 combined reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "claude"
+      ],
+      "category": "pacing",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0023",
+          "quote": "Історичне делегування називало Майю користувачкою, Гора — уповноваженим заявником. Він міг подавати й погоджувати запити щодо ризикових звернень від себе й зменшення конфліктного навантаження в цьому каналі. Не міг читати інші приватні повідомлення, скасовувати її зупинку, забороняти їй припинити контакт, керувати всім профілем або передавати ці права комусь іще."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0025",
+          "quote": "Я прочитав перший запис від ініціатора до зафіксованого наслідку."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0026",
+          "quote": "Гор просив не показувати одночасно кілька суперечливих рекомендацій і першою давати нейтральну дію. Сервіс погодив запит і застосував його. Інші дії лишилися доступними; статус прямої відмови не змінився."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0029",
+          "quote": "У третьому Гор просив не закривати пропозицію відповісти, якщо Майя відмовлялася без причини. Відсутність пояснення не давала йому відрізнити остаточну відмову від потреби в часі. Сервіс погодив зміну класифікації й застосував її:"
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0036",
+          "quote": "Точних календарних дат не було. Не було мотивів Майї, частоти застосування чи авторства змін поза цими чотирма записами. Чотири записи були всім, що вона дозволила передати, але не доказом, що інших звернень не існувало."
+        }
+      ],
+      "observation": "Майже повний переказ документа16: користь для знання Даля проти повтору для читача.",
+      "reader_effect": "Tempo, distinct voices and precise interpretation of a consequential choice.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Оцінити разом16–17; не втратити межі чотирьох записів при можливому скороченні."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "CH16–17 combined reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0005",
+          "quote": "Руки працювали так само, як до кухні Майї. Це нічого не доводило про те, для чого я їх використаю далі."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0020",
+          "quote": "Захист, який звужував вибір. Обидві частини належали Майї. Якщо лишити тільки другу, я знову зробив би її рішення доказом своєї правоти."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0034",
+          "quote": "Це був той самий механізм, який ми побачили на синтетичному запрошенні. Але архів говорив тільки про канал Гора. Він не доводив, що Гор визначив правило для лекції, весь профіль Майї або затримку, яку я змінив."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0048",
+          "quote": "У мене була відповідь про межі, метод і право вибору. Вона була правильною й надто повною."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0050",
+          "quote": "> Я відмовляюся від вашої мети."
+        }
+      ],
+      "observation": "Astra бачить ризик пояснювальної етичної завершеності; інші схвалюють дисципліну, Pro переживає тріумф і гіперемпатію.",
+      "reader_effect": "Tempo, distinct voices and precise interpretation of a consequential choice.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "У глобальному читанні перевірити незавершеність внутрішньої арки та майбутню ціну без реткону цього рішення."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "CH16–17 combined reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini",
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0018",
+          "quote": "> Я погодилася на той канал, бо хотіла менше болю й суперечок. Коли мою незгоду знову виправляли, супровід став місцем, де не треба було доводити, що я маю право не продовжувати. Він теж звужував мій вибір. Але це був мій захист, а не прохання повернути мене Гору."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0020",
+          "quote": "Захист, який звужував вибір. Обидві частини належали Майї. Якщо лишити тільки другу, я знову зробив би її рішення доказом своєї правоти."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0041",
+          "quote": "> Я не пропонуватиму повернення Майї до прямого контакту з вами або припинення її супроводження як потрібний результат. Такого замовлення я не приймав і не прийму. Якщо моя робота триватиме, її метою буде можливість Майї обирати, зокрема залишитися в підтримці."
+        }
+      ],
+      "observation": "Майїне формулювання про звуження вибору близьке до аналітичної мови Даля; інші чують різні голоси.",
+      "reader_effect": "Tempo, distinct voices and precise interpretation of a consequential choice.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Авторський вибір ступеня відмінності її особистого повідомлення; не вимагати біографічної сповіді."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "CH16–17 combined reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0029",
+          "quote": "У третьому Гор просив не закривати пропозицію відповісти, якщо Майя відмовлялася без причини. Відсутність пояснення не давала йому відрізнити остаточну відмову від потреби в часі. Сервіс погодив зміну класифікації й застосував її:"
+        }
+      ],
+      "observation": "Заявлена підстава Гора може звучати як об’єктивна неможливість прийняти відмову без пояснення.",
+      "reader_effect": "Tempo, distinct voices and precise interpretation of a consequential choice.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "За потреби виразніше атрибутувати мотив запису, не встановлювати справжній внутрішній мотив Гора."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "CH16–17 combined reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0027",
+          "quote": "Другий запис стосувався відповідей Майї на ризикові звернення Гора. Перед завершенням система мала показувати нейтральне перефразування різких або конфліктних формулювань. Прямий варіант лишався доступним, автоматичного надсилання не було, користувацьке підтвердження й зупинка зберігалися."
+        }
+      ],
+      "observation": "«Перед завершенням» має неявний об’єкт, хоч наступні слова підтримують читання як підтвердження відповіді.",
+      "reader_effect": "Tempo, distinct voices and precise interpretation of a consequential choice.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Перевірити точність формулювання стосовно документа16."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "CH16–17 combined reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "terra"
+      ],
+      "category": "clarity",
+      "severity": "moderate",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0003",
+          "quote": "Вісім контактів треба було посадити в пази, затягнути рамку й перевірити навантаження на кожен край. Я не поспішав і не зупинявся. Після третього циклу прилад показав рівну опору без пропусків."
+        }
+      ],
+      "observation": "Terra вимагає опір замість опори, але електричний характер вимірювання не встановлений; накладка й навантаження допускають механічний референт.",
+      "reader_effect": "Tempo, distinct voices and precise interpretation of a consequential choice.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Спершу визначити, що показує прилад; не вносити заміну як доведену граматичну помилку."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "CH16–17 combined reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "terra"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0026",
+          "quote": "Гор просив не показувати одночасно кілька суперечливих рекомендацій і першою давати нейтральну дію. Сервіс погодив запит і застосував його. Інші дії лишилися доступними; статус прямої відмови не змінився."
+        }
+      ],
+      "observation": "«Першою давати нейтральну дію» менш точне за пропонування дії у сервісі.",
+      "reader_effect": "Tempo, distinct voices and precise interpretation of a consequential choice.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Розглянути «пропонувати»; походження кальки не доведене."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "CH16–17 combined reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0008",
+          "quote": "Замість цього обрав маршрут, який назвала Майя: особисте звернення через її супровід. Він не відкривав прямої розмови. Текст можна було прийняти, відхилити або лишити без відповіді."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0018",
+          "quote": "> Я погодилася на той канал, бо хотіла менше болю й суперечок. Коли мою незгоду знову виправляли, супровід став місцем, де не треба було доводити, що я маю право не продовжувати. Він теж звужував мій вибір. Але це був мій захист, а не прохання повернути мене Гору."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0041",
+          "quote": "> Я не пропонуватиму повернення Майї до прямого контакту з вами або припинення її супроводження як потрібний результат. Такого замовлення я не приймав і не прийму. Якщо моя робота триватиме, її метою буде можливість Майї обирати, зокрема залишитися в підтримці."
+        }
+      ],
+      "observation": "Коливання супровід/супроводження/підтримка: чи синоніми, чи різні статуси?",
+      "reader_effect": "Tempo, distinct voices and precise interpretation of a consequential choice.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Перевірити словник книги та формальність професійного повідомлення; не уніфікувати всі голоси механічно."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "CH16–17 combined reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0016",
+          "quote": "> Дозволяю передати одну архівну копію тільки для читання. Джерело старого дозволу й чотири записи: хто подав, про що просив, що сервіс вирішив, що застосував і який наслідок зафіксував. Без профілю, поточних налаштувань і інших матеріалів. Копія не відкриває сеанс."
+        }
+      ],
+      "observation": "«І інших» сприйнято Flash як немилозвучність; незалежного нормативного доказу немає.",
+      "reader_effect": "Tempo, distinct voices and precise interpretation of a consequential choice.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Прочитати вголос у контексті, розглянути «та інших», без глобальної заміни і/й."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "CH16–17 combined reading",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0010",
+          "quote": "> Чи погодитеся ви особисто надати мені копію історії службових правил у межах мого вчорашнього запиту: джерело авторизації, ініціатор, обсяг, рішення, статус і наслідок? Тільки читання. Без профілю, повідомлень і поточних налаштувань.\n>\n> Ви можете звузити склад або відмовити без пояснення. Нової зустрічі чи сеансу я не прошу."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0012",
+          "quote": "> Чи погодитеся ви особисто надати мені вузьку копію історії службових правил: джерело авторизації, ініціатор, обсяг, рішення, статус і наслідок? Тільки читання. Без профілю, повідомлень і поточних налаштувань.\n>\n> Ви можете звузити склад або відмовити без пояснення. Нової зустрічі чи сеансу я не прошу."
+        }
+      ],
+      "observation": "«Звузити склад» без названого об’єкта уривчасте, але попередній перелік дозволяє зрозуміти.",
+      "reader_effect": "Tempo, distinct voices and precise interpretation of a consequential choice.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "За авторським рішенням уточнити обсяг/склад відомостей."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "CH16–17 combined reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-012",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0038",
+          "quote": "Я не попросив ширшу."
+        }
+      ],
+      "observation": "Еліпсис «Я не попросив ширшу» коливається між точним мінімалізмом і нечіткою копією.",
+      "reader_effect": "Tempo, distinct voices and precise interpretation of a consequential choice.",
+      "evidence": "Locked reports; checks/claim-validation.md; exact source anchors.",
+      "proposed_actions": [
+        "Можна залишити або уточнити іменник; Flash сам допускає збереження."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "CH16–17 combined reading",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-013",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0010",
+          "quote": "> Чи погодитеся ви особисто надати мені копію історії службових правил у межах мого вчорашнього запиту: джерело авторизації, ініціатор, обсяг, рішення, статус і наслідок? Тільки читання. Без профілю, повідомлень і поточних налаштувань.\n>\n> Ви можете звузити склад або відмовити без пояснення. Нової зустрічі чи сеансу я не прошу."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0011",
+          "quote": "Перечитав перший рядок і прибрав слова «мій вчорашній запит». Майя не бачила чернетки й не мала знати про неї, щоб зрозуміти прохання."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0012",
+          "quote": "> Чи погодитеся ви особисто надати мені вузьку копію історії службових правил: джерело авторизації, ініціатор, обсяг, рішення, статус і наслідок? Тільки читання. Без профілю, повідомлень і поточних налаштувань.\n>\n> Ви можете звузити склад або відмовити без пояснення. Нової зустрічі чи сеансу я не прошу."
+        }
+      ],
+      "observation": "Opus помічає, що опис видалення слів не є повним diff двох варіантів.",
+      "reader_effect": "Precision, voice and rhythm.",
+      "evidence": "Locked optional Opus report and exact source.",
+      "proposed_actions": [
+        "Можна «переписав перший рядок»; наратор не зобов’язаний перелічувати всі редакторські зміни."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-014",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0005",
+          "quote": "Руки працювали так само, як до кухні Майї. Це нічого не доводило про те, для чого я їх використаю далі."
+        }
+      ],
+      "observation": "«Нічого не доводило про те» має незвичне керування, Opus радить розглянути зміну.",
+      "reader_effect": "Precision, voice and rhythm.",
+      "evidence": "Locked optional Opus report and exact source.",
+      "proposed_actions": [
+        "Перевірити «нічого не казало про те» або перебудову; не застосовувати без рішення."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-015",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0041",
+          "quote": "> Я не пропонуватиму повернення Майї до прямого контакту з вами або припинення її супроводження як потрібний результат. Такого замовлення я не приймав і не прийму. Якщо моя робота триватиме, її метою буде можливість Майї обирати, зокрема залишитися в підтримці."
+        }
+      ],
+      "observation": "«Як потрібний результат» може тяжіти лише до другого елемента переліку.",
+      "reader_effect": "Precision, voice and rhythm.",
+      "evidence": "Locked optional Opus report and exact source.",
+      "proposed_actions": [
+        "За потреби розширити явну дію конструкції на обидва результати; контекст уже допомагає."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-016",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0004",
+          "quote": "Я записав результат і повернув калібратор на місце."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0007",
+          "quote": "Я її не відкрив."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0009",
+          "quote": "Я написав:"
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0013",
+          "quote": "Я надіслав звернення через супровід і закрив канал."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0019",
+          "quote": "Я прочитав останнє речення двічі."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0022",
+          "quote": "Я відкрив копію."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0025",
+          "quote": "Я прочитав перший запис від ініціатора до зафіксованого наслідку."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0035",
+          "quote": "Я дочитав витяг до кінця."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0038",
+          "quote": "Я не попросив ширшу."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0039",
+          "quote": "Я закрив копію. Профіль не відкрився, новий сеанс не з’явився."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0043",
+          "quote": "Я надіслав."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0047",
+          "quote": "Я лишив руки на краю столу."
+        },
+        {
+          "chapter": "17",
+          "anchor": "P0049",
+          "quote": "Я стер її."
+        }
+      ],
+      "observation": "Повтор початкового «Я» створює процедурний ритм; можливе відчуття монотонності.",
+      "reader_effect": "Precision, voice and rhythm.",
+      "evidence": "Locked optional Opus report and exact source.",
+      "proposed_actions": [
+        "Оцінювати в контексті голосу, без квоти займенників."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-017",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0017",
+          "quote": "Нижче був ще один абзац, теж під її підтвердженням."
+        }
+      ],
+      "observation": "Перехід про другий підтверджений абзац має суто технічну функцію.",
+      "reader_effect": "Precision, voice and rhythm.",
+      "evidence": "Locked optional Opus report and exact source.",
+      "proposed_actions": [
+        "Авторський вибір живості переходу, не втратити власне авторство пояснення Майї."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-018",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "17",
+          "anchor": "P0012",
+          "quote": "> Чи погодитеся ви особисто надати мені вузьку копію історії службових правил: джерело авторизації, ініціатор, обсяг, рішення, статус і наслідок? Тільки читання. Без профілю, повідомлень і поточних налаштувань.\n>\n> Ви можете звузити склад або відмовити без пояснення. Нової зустрічі чи сеансу я не прошу."
+        }
+      ],
+      "observation": "«Вузька копія» незвичне побутове сполучення, але органічне для технічного регістру.",
+      "reader_effect": "Precision, voice and rhythm.",
+      "evidence": "Locked optional Opus report and exact source.",
+      "proposed_actions": [
+        "Можна зберегти; перевірити разом із «звузити склад», без тотальної заміни."
+      ],
+      "dependencies": [
+        "CH17 future author-authorized revision",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}
