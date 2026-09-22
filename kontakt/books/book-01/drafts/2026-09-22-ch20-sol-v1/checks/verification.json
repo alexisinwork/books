@@ -1,0 +1,62 @@
+{
+  "source_sha256": "d85552384d19bb9431f3b6424ad16d83f8720171eaba033fca858191c0af4a68",
+  "status": "required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "Full CH20,44blocks,687lexical tokens; not global audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "2f0da12e059c6c49d9f19d663ce183187fb0ea44c79faa96287d29998270e099",
+    "terra": "4066a1c4919b69473d5836a27bdea8dfa45841bb0a9aa0eb418213c7da1e924b",
+    "gemini_flash": "04a66bdd3ef4574d35453bfb231cb4e51b9b3c118017e8ad13a8574294346155",
+    "gemini": "f35598a2c1b53bbe3deee20304f84bb8d342e410fd8c5ac85e8df6b4101f4c1a"
+  },
+  "additional_opus": "4798d241b2724e04cef40f49c2dfb73d84098aff671354bb3657633562f13432",
+  "reconciliation": "f86fbb87af3b3eeb2a88858cb23976d08927cefa112d3e1c4c7910e5922c35ad",
+  "missing": [],
+  "verdicts": {
+    "astra": "Structurally functional; pending density/character/clarity concerns",
+    "terra": "One claimed defect; conflation of distinct actions qualified in reconciliation",
+    "gemini_flash": "PASS",
+    "gemini": "Positive full diary; inferred empathy qualified",
+    "claude_optional": "PASS; repetition location qualified"
+  },
+  "language_scans": "No configured signals; LanguageTool not run",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "cdddfbd75b9e292ed9cfcc199434a5e21702152d62e525b481b286000eae601d",
+    "pages": 2,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 359,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 327,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 2
+      }
+    ],
+    "visual_review": "Both pages inspected in contact sheet: readable layout, complete content, no clipping or blank page."
+  },
+  "schema_instances": "Draft202012Validator run and ledger PASS",
+  "remaining": [
+    "11 pending author decisions",
+    "CH21 onward and full-volume audit"
+  ],
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  },
+  "independence_note": "Astra body saved before unsolicited Terra summary; metadata-only repair/lock afterward. Details in claim-validation."
+}

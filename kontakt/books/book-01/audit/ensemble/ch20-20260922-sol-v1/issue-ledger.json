@@ -1,0 +1,563 @@
+{
+  "schema_version": 1,
+  "run_id": "ch20-20260922-sol-v1",
+  "project_id": "kontakt-razlad",
+  "book_id": "book-01",
+  "source_sha256": "d85552384d19bb9431f3b6424ad16d83f8720171eaba033fca858191c0af4a68",
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "astra",
+        "terra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "20",
+          "anchor": "P00012",
+          "quote": "Цей рядок мав іншу позначку — «джерело підтверджено». Я відкрив пояснення. Підтвердженим було тільки те, що відповідь надійшла з мого каналу Гору. Служба окремо вказувала: відмова працювати на заявлений ним результат не вважалася порушенням і не доводила змісту волі користувачки."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00027",
+          "quote": "Нижче відкрилася підстава для наступної дії. Служба поєднала моє підтвердження з невизначеною оцінкою професійної готовності, яка досі лишалася в особистій панелі. Вільний слот о 09:40 згадувався як непідтверджена можливість, а не пропущена зустріч. Мої виконані перевірки теж були в переліку. Вони підтверджували, що я міг вести звичайну роботу, але не відповідали на питання про межі у складному контакті."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00036",
+          "quote": "Моя власна межа теж лишалася: нових складних втручань до кінця завтрашнього робочого дня я не приймав. Служба не видавала її за свій наказ і не продовжувала замість мене."
+        }
+      ],
+      "observation": "Щільність службових пояснень: Astra бачить ризик тексту-аудиту, інші захищають точність і темп.",
+      "reader_effect": "Clarity, pacing, character and future causal continuity.",
+      "evidence": "Locked diagnoses; exact source; checks/claim-validation.md.",
+      "proposed_actions": [
+        "Перечитати блок; скорочувати лише за авторським рішенням."
+      ],
+      "dependencies": [
+        "CH20 future author-authorized revision",
+        "CH21–25 planning",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "20",
+          "anchor": "P00017",
+          "quote": "Можна було написати, що запису немає. Що Гор не бачив сеансу. Що зупинка спрацювала й початкове значення повернулося раніше, ніж я встиг торкнутися керування. Усі ці речення були правдою. Разом вони майже утворювали невинність."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00022",
+          "quote": "Перед надсиланням я прибрав слово «одразу». Воно стосувалося справності зупинки, але поруч із моїм порушенням звучало як прохання зменшити вагу зробленого."
+        }
+      ],
+      "observation": "Самодіагностика Даля може випереджати S08; peers читають її як гідність і сильну дію.",
+      "reader_effect": "Clarity, pacing, character and future causal continuity.",
+      "evidence": "Locked diagnoses; exact source; checks/claim-validation.md.",
+      "proposed_actions": [
+        "Глобально перевірити різницю між етичним висновком і особистою присутністю."
+      ],
+      "dependencies": [
+        "CH20 future author-authorized revision",
+        "CH21–25 planning",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra",
+        "gemini_flash",
+        "gemini",
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "20",
+          "anchor": "P00020",
+          "quote": "> Підтверджую: за наявності прямої заборони змінювати параметри я свідомо змінив одну затримку. Користувачка скористалася власною зупинкою; сеанс закрився і значення відновилося до моєї ручної дії."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00022",
+          "quote": "Перед надсиланням я прибрав слово «одразу». Воно стосувалося справності зупинки, але поруч із моїм порушенням звучало як прохання зменшити вагу зробленого."
+        }
+      ],
+      "observation": "Видиме остаточне повідомлення не містить слова одразу, про видалення якого йдеться після цитати.",
+      "reader_effect": "Clarity, pacing, character and future causal continuity.",
+      "evidence": "Locked diagnoses; exact source; checks/claim-validation.md.",
+      "proposed_actions": [
+        "Перевірити порядок ретроспективного пояснення; не вважати доведеним пропуском."
+      ],
+      "dependencies": [
+        "CH20 future author-authorized revision",
+        "CH21–25 planning",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra",
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "20",
+          "anchor": "P00042",
+          "quote": "Я підвівся надто різко. Край стола вдарив у стегно, стілець відкотився й зупинився біля стіни. Я не відчув болю відразу. Тільки побачив, що долоня досі лежить на пристрої, наче могла втримати повідомлення в межах екрана."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00044",
+          "quote": "Я забрав руку. Потім наздогнав стілець, підкотив його назад і затиснув коліном біля столу."
+        }
+      ],
+      "observation": "Наздогнав стілець після його зупинки: невелика лексична затримка для Astra, peers захищають фінальний жест.",
+      "reader_effect": "Clarity, pacing, character and future causal continuity.",
+      "evidence": "Locked diagnoses; exact source; checks/claim-validation.md.",
+      "proposed_actions": [
+        "Оцінити дієслово, зберігши незручний фізичний рух."
+      ],
+      "dependencies": [
+        "CH20 future author-authorized revision",
+        "CH21–25 planning",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "promise",
+      "severity": "moderate",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": "20",
+          "anchor": "P00003",
+          "quote": "Я не вимкнув робочу лампу. На столі лишався пристрій, а на екрані — дві завтрашні перевірки й порожнє місце після них. Другий підсумок я переніс на ранок. Приймання нових складних втручань було закрите до кінця наступного робочого дня."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00029",
+          "quote": "> Обов’язкове професійне перекалібрування призначено через три дні о 18:00."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00035",
+          "quote": "До призначеного часу чинні дозволи зберігалися. Дві прийняті звичайні перевірки наступного дня лишалися в розкладі."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00036",
+          "quote": "Моя власна межа теж лишалася: нових складних втручань до кінця завтрашнього робочого дня я не приймав. Служба не видавала її за свій наказ і не продовжувала замість мене."
+        }
+      ],
+      "observation": "Строк D11 18:00 і обіцянки D9 тепер конкретні; наступні сцени мусять їх зберегти.",
+      "reader_effect": "Clarity, pacing, character and future causal continuity.",
+      "evidence": "Locked diagnoses; exact source; checks/claim-validation.md.",
+      "proposed_actions": [
+        "Звіт і дві роботи до нового складного приймання після кінця D9 робочого дня; нова ініціатива Майї окремо."
+      ],
+      "dependencies": [
+        "CH20 future author-authorized revision",
+        "CH21–25 planning",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "terra",
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "20",
+          "anchor": "P00032",
+          "quote": "Фраза про передбачувану готовність була точною. Натиснути «підтверджую» перед наступним контактом. Не чекати, що мовчання раптом стане чужим простором, у якому я знову вирішу допомогти без дозволу. Не перевіряти себе щоразу від початку."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00038",
+          "quote": "> Підтвердити отримання"
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00039",
+          "quote": "Не «погодитися». Не «відмовитися». Повідомлення вже було вручено; кнопка фіксувала, що я прочитав строк і наслідки."
+        }
+      ],
+      "observation": "Terra вважає різні назви кнопки підтвердженим дефектом; текст P32 говорить про наступний контакт, P38 про нинішнє отримання. Opus бачить лише неоднозначність переходу до внутрішньої мови.",
+      "reader_effect": "Clarity, pacing, character and future causal continuity.",
+      "evidence": "Locked diagnoses; exact source; checks/claim-validation.md.",
+      "proposed_actions": [
+        "Можна уточнити перехід; не замінювати майбутнє підтвердження контакту отриманням нинішнього повідомлення."
+      ],
+      "dependencies": [
+        "CH20 future author-authorized revision",
+        "CH21–25 planning",
+        "whole-volume audit"
+      ],
+      "agreement": "conflicted",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "20",
+          "anchor": "P00017",
+          "quote": "Можна було написати, що запису немає. Що Гор не бачив сеансу. Що зупинка спрацювала й початкове значення повернулося раніше, ніж я встиг торкнутися керування. Усі ці речення були правдою. Разом вони майже утворювали невинність."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00020",
+          "quote": "> Підтверджую: за наявності прямої заборони змінювати параметри я свідомо змінив одну затримку. Користувачка скористалася власною зупинкою; сеанс закрився і значення відновилося до моєї ручної дії."
+        }
+      ],
+      "observation": "До моєї ручної дії Flash читає двояко, хоча P17 вже задає часовий зміст.",
+      "reader_effect": "Clarity, pacing, character and future causal continuity.",
+      "evidence": "Locked diagnoses; exact source; checks/claim-validation.md.",
+      "proposed_actions": [
+        "За потреби додати часовий маркер; не міняти факт користувацької зупинки."
+      ],
+      "dependencies": [
+        "CH20 future author-authorized revision",
+        "CH21–25 planning",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "20",
+          "anchor": "P00042",
+          "quote": "Я підвівся надто різко. Край стола вдарив у стегно, стілець відкотився й зупинився біля стіни. Я не відчув болю відразу. Тільки побачив, що долоня досі лежить на пристрої, наче могла втримати повідомлення в межах екрана."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00044",
+          "quote": "Я забрав руку. Потім наздогнав стілець, підкотив його назад і затиснув коліном біля столу."
+        }
+      ],
+      "observation": "Flash пропонує уніфікувати стола/столу; нормативного джерела в пакеті немає, категоричної помилки не доведено.",
+      "reader_effect": "Clarity, pacing, character and future causal continuity.",
+      "evidence": "Locked diagnoses; exact source; checks/claim-validation.md.",
+      "proposed_actions": [
+        "Залишити варіативність або точково уніфікувати як редакторський вибір."
+      ],
+      "dependencies": [
+        "CH20 future author-authorized revision",
+        "CH21–25 planning",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "gemini"
+      ],
+      "category": "character",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "20",
+          "anchor": "P00020",
+          "quote": "> Підтверджую: за наявності прямої заборони змінювати параметри я свідомо змінив одну затримку. Користувачка скористалася власною зупинкою; сеанс закрився і значення відновилося до моєї ручної дії."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00032",
+          "quote": "Фраза про передбачувану готовність була точною. Натиснути «підтверджую» перед наступним контактом. Не чекати, що мовчання раптом стане чужим простором, у якому я знову вирішу допомогти без дозволу. Не перевіряти себе щоразу від початку."
+        }
+      ],
+      "observation": "Pro читає порушення як емпатію та непохитну гідність: це реакція, не встановлений мотив і не виправдання порушення14.",
+      "reader_effect": "Clarity, pacing, character and future causal continuity.",
+      "evidence": "Locked diagnoses; exact source; checks/claim-validation.md.",
+      "proposed_actions": [
+        "Перевірити глобально, чи не стає ціна для Майї виправданням доброго героя."
+      ],
+      "dependencies": [
+        "CH20 future author-authorized revision",
+        "CH21–25 planning",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": "20",
+          "anchor": "P00012",
+          "quote": "Цей рядок мав іншу позначку — «джерело підтверджено». Я відкрив пояснення. Підтвердженим було тільки те, що відповідь надійшла з мого каналу Гору. Служба окремо вказувала: відмова працювати на заявлений ним результат не вважалася порушенням і не доводила змісту волі користувачки."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00020",
+          "quote": "> Підтверджую: за наявності прямої заборони змінювати параметри я свідомо змінив одну затримку. Користувачка скористалася власною зупинкою; сеанс закрився і значення відновилося до моєї ручної дії."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00026",
+          "quote": "> Підтверджено фахівцем у зазначеному обсязі."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00027",
+          "quote": "Нижче відкрилася підстава для наступної дії. Служба поєднала моє підтвердження з невизначеною оцінкою професійної готовності, яка досі лишалася в особистій панелі. Вільний слот о 09:40 згадувався як непідтверджена можливість, а не пропущена зустріч. Мої виконані перевірки теж були в переліку. Вони підтверджували, що я міг вести звичайну роботу, але не відповідали на питання про межі у складному контакті."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00032",
+          "quote": "Фраза про передбачувану готовність була точною. Натиснути «підтверджую» перед наступним контактом. Не чекати, що мовчання раптом стане чужим простором, у якому я знову вирішу допомогти без дозволу. Не перевіряти себе щоразу від початку."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00034",
+          "quote": "Там так само точно була названа ціна неявки: професійний допуск до ручних калібрувань призупинять. Разом із ним закриють доступ до нової робочої черги та службової підтримки, для якої потрібна підтверджена готовність."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00038",
+          "quote": "> Підтвердити отримання"
+        }
+      ],
+      "observation": "Повтор підтверд- функціональний; твердження Opus про два сусідні повтори у P27 неточне: підтверджена готовність міститься P34.",
+      "reader_effect": "Clarity, pacing, character and future causal continuity.",
+      "evidence": "Locked diagnoses; exact source; checks/claim-validation.md.",
+      "proposed_actions": [
+        "Перевірити реальну концентрацію в усій сцені; не правити вигадане сусідство."
+      ],
+      "dependencies": [
+        "CH20 future author-authorized revision",
+        "CH21–25 planning",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "locations": [
+        {
+          "chapter": "20",
+          "anchor": "P00022",
+          "quote": "Перед надсиланням я прибрав слово «одразу». Воно стосувалося справності зупинки, але поруч із моїм порушенням звучало як прохання зменшити вагу зробленого."
+        },
+        {
+          "chapter": "20",
+          "anchor": "P00042",
+          "quote": "Я підвівся надто різко. Край стола вдарив у стегно, стілець відкотився й зупинився біля стіни. Я не відчув болю відразу. Тільки побачив, що долоня досі лежить на пристрої, наче могла втримати повідомлення в межах екрана."
+        }
+      ],
+      "observation": "Ехо одразу/відразу між редагуванням відповіді й тілесним ударом — можлива читацька асоціація, не доказ авторського задуму.",
+      "reader_effect": "Clarity, pacing, character and future causal continuity.",
+      "evidence": "Locked diagnoses; exact source; checks/claim-validation.md.",
+      "proposed_actions": [
+        "Зберегти або окремо оцінити при авторському читанні."
+      ],
+      "dependencies": [
+        "CH20 future author-authorized revision",
+        "CH21–25 planning",
+        "whole-volume audit"
+      ],
+      "agreement": "single",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
+}
