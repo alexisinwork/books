@@ -1,0 +1,71 @@
+--- chapter-25.preflight.md
++++ chapter-25.md
+@@ -42,7 +42,7 @@
+ 
+ > І відповіді за мене не готуватиме?
+ 
+-> Relational mediation — ні. Це не означає, що кожна розмова стане легкою або що ви будете готові на неї відповідати.
++> Емоційне посередництво — ні. Це не означає, що кожна розмова стане легкою або що ви будете готові на неї відповідати.
+ 
+ Три крапки з’явилися, зникли й повернулися.
+ 
+@@ -64,7 +64,7 @@
+ 
+ > Загальний опис можу дати без доступу. Для точного плану знадобиться окремий дозволений перегляд чинних правил, без зміни налаштувань.
+ >
+-> Зараз мій професійний допуск діє. Завтра о 18:00 у мене обов’язкове перекалібрування. Якщо я не з’явлюся, доступ до ручних калібрувань може бути призупинений. Це не строк для вашого рішення. Я не пропоную зустріч до вашої окремої згоди й не можу обіцяти роботу після цього часу, не знаючи стану допуску.
++> Зараз мій професійний допуск діє. Завтра о 18:00 у мене обов’язкове перекалібрування. Якщо я не з’явлюся, доступ до ручних калібрувань буде призупинено. Це не строк для вашого рішення. Я не пропоную зустріч до вашої окремої згоди й не можу обіцяти роботу після цього часу, не знаючи стану допуску.
+ 
+ Надіслав.
+ 
+@@ -86,4 +86,4 @@
+ 
+ Я створив чистий документ без дати й без прив’язки до робочої справи. У заголовку написав: «Стале розділення побутових функцій і емоційного посередництва: загальні наслідки».
+ 
+-Нагадування про завтрашню перекалібровку лишалося над панеллю. Я посунув його вбік, щоб бачити весь аркуш, і почав із Майїного питання про непрочитане повідомлення.
++Нагадування про завтрашнє перекалібрування лишалося над панеллю. Я посунув його вбік, щоб бачити весь аркуш, і почав із Майїного питання про непрочитане повідомлення.
+--- writer-notes.preflight.md
++++ writer-notes.md
+@@ -23,7 +23,7 @@
+ - Dal left Maya on D9 evening after the completed window. D10 morning he is at his own workplace. No departure hour, travel detail, sleep duration or home arrival is invented.
+ - Dal himself opens the professional panel. It shows an ordinary reminder for the same mandatory recalibration already delivered in CH20: tomorrow/D11 at 18:00.
+ - Receipt remains confirmed; voluntary consent is not asserted and no second agreement is requested.
+-- Reminder says current access remains active until the appointed time. Existing no-show consequences are unchanged: manual-calibration authorization, new-work queue access and readiness-dependent professional support may be suspended.
++- Reminder says current access remains active until the appointed time. Existing no-show consequences are unchanged: if Dal does not attend, manual-calibration authorization, new-work queue access and readiness-dependent professional support will be suspended.
+ - New-work queue button remains active, demonstrating no early rights removal. Dal does not accept a new case.
+ - Care receives no Nina/Maya/window/R1 information and takes no new action in this chapter. Ballast remains closed.
+ 
+@@ -47,7 +47,7 @@
+ 
+ - Maya asks what Dal needs to describe such a change for her case without making it.
+ - Dal distinguishes a general description, requiring no access, from an exact plan, which would require a separate narrow view of current delivery/return rules without changes.
+-- Because exact planning is possible future work, Dal discloses his current professional availability before any consent: current authorization active; mandatory recalibration D11 18:00; manual-calibration access may be suspended if he does not attend.
++- Because exact planning is possible future work, Dal discloses his current professional availability before any consent: current authorization active; mandatory recalibration D11 18:00; manual-calibration access will be suspended if he does not attend.
+ - He explicitly says this is not Maya's decision deadline, proposes no meeting before her separate consent, and makes no promise of post-deadline work while authorization is uncertain.
+ - Maya says not to add his deadline to her decision. Dal agrees.
+ - Maya requests only a separate general description: no meeting time, access request or conclusion that she will make the change.
+@@ -80,8 +80,22 @@
+ 
+ ## Self-check
+ 
+-- Pending after first-save preservation.
++- Ukrainian first-person past tense, Dal's restrained professional register and Maya's practical direct voice checked.
++- Transition checked: Dal left Maya D9 evening; D10 begins at his own workplace without invented departure/sleep hours.
++- Care continuity checked: same D11 18:00 appointment, receipt-only status, existing grounds/consequences, current rights and active queue; no private CH22–24 knowledge or early suspension.
++- Maya channel checked: new personally confirmed D10 message; old one-use grant remains closed; no profile/settings/control access.
++- Scope checked: Maya asks about possible permanent separation but grants no consent, session, meeting or change. Her observed motive is closure of one topic without recurrence, not gratitude or forgiveness.
++- Technical answer checked: general knowledge only, with exact-profile uncertainty retained; utility separation is possible, ordinary delivery/rejection/repetition choices are distinguished, and no ease/readiness promise is made.
++- Availability disclosure checked: exact existing care deadline is disclosed only when possible exact future work appears; Dal says it is not Maya's deadline and makes no post-deadline authorization promise.
++- Outcome checked: only a bounded general description is requested/promised; no appointment, new work acceptance, profile review, permanent change, S09 completion or CH26 scene.
++- Nina topic remains closed; no marriage/cohabitation/years/diagnosis/date/last-words claim. Ballast/Gor/Tikhon absent; R1 unchanged; M05 remains home.
++- One English mechanism label in dialogue was normalized to `емоційне посередництво` during self-check.
++- UTF-8/LF and one terminal LF checked before freeze.
+ 
+ ## Preflight revision history
+ 
+-- Pending first-save preservation and exact diff.
++- First prose save preserved as `chapter-25.preflight.md`, SHA-256 `ffc67fa0decc0e89042cd3606ebbdfe1fd103aa732b7278843ae7eb7f824269e`.
++- First notes save preserved as `writer-notes.preflight.md`, SHA-256 `6e553d2bbf39c7bbc15d16e8db147c422974684d45eaf6a070607d3c47484712`.
++- Writer self-check changed only the mechanism label in one response; scene facts and permissions are unchanged.
++- Coordinator factual preflight before peer review restored the definite conditional consequence from CH20 (`if no-show, access will be suspended`) and normalized the final procedure noun to `перекалібрування`.
++- Exact first-save-to-final changes are recorded in `preflight-changes.diff`.

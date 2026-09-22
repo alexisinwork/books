@@ -194,17 +194,30 @@
       "observed_state": "drafts/2026-09-22-ch24-sol-v1/observed-state.json",
       "review_run": "audit/ensemble/ch24-20260922-sol-v1",
       "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 25,
+      "source": "drafts/2026-09-22-ch25-sol-v1/chapter-25.md",
+      "sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "observed_state": "drafts/2026-09-22-ch25-sol-v1/observed-state.json",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "status": "reviewed_working_draft_not_canonical"
     }
   ],
-  "current_chapter": 25,
-  "current_stage": "chapter_25_writer_ready",
+  "current_chapter": 26,
+  "current_stage": "chapter_26_writer_ready",
   "future_chapters": "macro architecture; progressively detailed before writing",
   "global_audit": "not_run",
   "last_block_review": {
-    "through_chapter": 15,
-    "report": "block-audits/chapters-11-15/REPORT.md",
+    "through_chapter": 25,
+    "report": "BLOCK-21-25-AUDIT.md",
     "status": "architect_review_completed_not_global_audit"
   },
-  "latest_block_audit": "block-audits/chapters-11-15/verification.json",
-  "review_policy": "REVIEW-POLICY-2026-09-22.md"
+  "latest_block_audit": "block-audits/chapters-21-25/reading-progress.json",
+  "review_policy": "REVIEW-POLICY-2026-09-22.md",
+  "latest_reader": {
+    "through_chapter": 25,
+    "path": "readers/chapters-01-25",
+    "status": "exact_sources_and_75page_render_verified_not_global_audit"
+  }
 }

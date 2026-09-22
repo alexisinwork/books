@@ -8777,6 +8777,526 @@
       "review_run": "audit/ensemble/ch24-20260922-sol-v1",
       "author_decision": "pending",
       "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-001",
+      "category": "prose",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "observation": "Пояснення меж та довгі повідомлення можуть переважати дію; Flash/Terra захищають функціональну технічність, Opus бачить локальне перевантаження.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00005",
+          "quote": "Я відкрив короткі умови. Вони не змінилися: неявка призупиняла ручні калібрування, доступ до нової черги й пов’язану з підтвердженою готовністю службову підтримку. Ні нового рішення, ні прохання погодитися вдруге не було."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00009",
+          "quote": "Відправницею була Майя. Система підтвердила її особистий контур. Учорашній одноразовий доступ не відновився: повідомлення не показувало профілю, налаштувань або кнопки запуску. Це був новий текст із новим полем відповіді."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00011",
+          "quote": "Вона не писала, що готова вимкнути посередництво. Питала, кому після такого рішення належатиме наступний крок."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00013",
+          "quote": "> Побутові функції можуть працювати окремо. Звичайна доставка повідомлення теж залишиться. Без емоційного посередництва система не перефразовуватиме мовчання як «не готова зараз» і не обиратиме схожий момент, щоб повернути ту саму пропозицію.\n>\n> Непрочитане повідомлення саме по собі не стане закритим. Але рішення прочитати, залишити непрочитаним або відхилити буде вашим. Щоб конкретна пропозиція не поверталася, її можна закрити без пояснення причини. Точні правила звичайних нагадувань залежать від вашого налаштування доставки; без доступу до профілю я їх не бачу."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00030",
+          "quote": "> Загальний опис можу дати без доступу. Для точного плану знадобиться окремий дозволений перегляд чинних правил, без зміни налаштувань.\n>\n> Зараз мій професійний допуск діє. Завтра о 18:00 у мене обов’язкове перекалібрування. Якщо я не з’явлюся, доступ до ручних калібрувань буде призупинено. Це не строк для вашого рішення. Я не пропоную зустріч до вашої окремої згоди й не можу обіцяти роботу після цього часу, не знаючи стану допуску."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-002",
+      "category": "voice",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "observation": "Astra бачить зближення голосів у процедурній точності; інші розрізняють професійного Даля і практичну Майю.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00030",
+          "quote": "> Загальний опис можу дати без доступу. Для точного плану знадобиться окремий дозволений перегляд чинних правил, без зміни налаштувань.\n>\n> Зараз мій професійний допуск діє. Завтра о 18:00 у мене обов’язкове перекалібрування. Якщо я не з’явлюся, доступ до ручних калібрувань буде призупинено. Це не строк для вашого рішення. Я не пропоную зустріч до вашої окремої згоди й не можу обіцяти роботу після цього часу, не знаючи стану допуску."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00036",
+          "quote": "> Тоді надішліть загальний опис. Без часу зустрічі, без запиту доступу і без висновку, що я це зроблю."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00038",
+          "quote": "> Надішлю окремо в цих межах."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-003",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Питання про повідомлення без відповіді звужується до непрочитаного; Майя сама підхоплює читання, але прочитане без відповіді лишається неявним.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00010",
+          "quote": "> Учора я сказала, що однієї теми досить. Вона не повернулася.\n>\n> Якщо емоційне посередництво вимкнути постійно, а побутові функції залишити, що станеться з наступним повідомленням, на яке я не відповім? Хто вирішить, чи показати його знову?"
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00013",
+          "quote": "> Побутові функції можуть працювати окремо. Звичайна доставка повідомлення теж залишиться. Без емоційного посередництва система не перефразовуватиме мовчання як «не готова зараз» і не обиратиме схожий момент, щоб повернути ту саму пропозицію.\n>\n> Непрочитане повідомлення саме по собі не стане закритим. Але рішення прочитати, залишити непрочитаним або відхилити буде вашим. Щоб конкретна пропозиція не поверталася, її можна закрити без пояснення причини. Точні правила звичайних нагадувань залежать від вашого налаштування доставки; без доступу до профілю я їх не бачу."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00016",
+          "quote": "> Тобто воно не вирішуватиме, коли я вже достатньо готова прочитати?"
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00041",
+          "quote": "Нагадування про завтрашнє перекалібрування лишалося над панеллю. Я посунув його вбік, щоб бачити весь аркуш, і почав із Майїного питання про непрочитане повідомлення."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-004",
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Відкриття строку й повторна відмова тиску: можлива зайва формула або потрібна напруга. Pro відчуває маніпуляцію; мотив не доведений.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00030",
+          "quote": "> Загальний опис можу дати без доступу. Для точного плану знадобиться окремий дозволений перегляд чинних правил, без зміни налаштувань.\n>\n> Зараз мій професійний допуск діє. Завтра о 18:00 у мене обов’язкове перекалібрування. Якщо я не з’явлюся, доступ до ручних калібрувань буде призупинено. Це не строк для вашого рішення. Я не пропоную зустріч до вашої окремої згоди й не можу обіцяти роботу після цього часу, не знаючи стану допуску."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00033",
+          "quote": "> Не додавайте ваш строк до мого рішення."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00034",
+          "quote": "> Не додаватиму."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-005",
+      "category": "structure",
+      "severity": "moderate",
+      "certainty": "reader_reaction",
+      "observation": "Фінал знову відкладає конкретний результат на майбутній опис; Opus бачить рівний рух без повороту, Pro хоче читати далі.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00036",
+          "quote": "> Тоді надішліть загальний опис. Без часу зустрічі, без запиту доступу і без висновку, що я це зроблю."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00038",
+          "quote": "> Надішлю окремо в цих межах."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00040",
+          "quote": "Я створив чистий документ без дати й без прив’язки до робочої справи. У заголовку написав: «Стале розділення побутових функцій і емоційного посередництва: загальні наслідки»."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00041",
+          "quote": "Нагадування про завтрашнє перекалібрування лишалося над панеллю. Я посунув його вбік, щоб бачити весь аркуш, і почав із Майїного питання про непрочитане повідомлення."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-006",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "observation": "Учорашній чистий стан абстрактний; Terra додатково оголошує теперішній підрядного часовим дефектом без нормативного доказу.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00002",
+          "quote": "Від Майї я пішов того ж вечора. Наступного ранку сидів на своєму робочому місці й дивився, як професійна панель відкривається з учорашнього чистого стану."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-007",
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Terra вважає висновок невлучним приписуванням наміру; інші захищають точність межі. Твердження й припущення різні за силою.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00036",
+          "quote": "> Тоді надішліть загальний опис. Без часу зустрічі, без запиту доступу і без висновку, що я це зроблю."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-008",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Вимкнути постійно може звучати незграбно; назавжди/назовсім може натомість посилити незворотність.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00010",
+          "quote": "> Учора я сказала, що однієї теми досить. Вона не повернулася.\n>\n> Якщо емоційне посередництво вимкнути постійно, а побутові функції залишити, що станеться з наступним повідомленням, на яке я не відповім? Хто вирішить, чи показати його знову?"
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-009",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Відповідь із загальних знань названа Flash калькою; походження не доведене, Opus кальок не бачить.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00027",
+          "quote": "Загальний опис не потребував профілю. Точний — потребував би нового вузького перегляду її чинних правил доставки й повернення. Це вже була можлива робота, а не відповідь із загальних знань."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-010",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "hypothesis",
+      "observation": "Однина налаштування та строк/термін запропоновані для уточнення; правниче обґрунтування Flash не встановлене.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00013",
+          "quote": "> Побутові функції можуть працювати окремо. Звичайна доставка повідомлення теж залишиться. Без емоційного посередництва система не перефразовуватиме мовчання як «не готова зараз» і не обиратиме схожий момент, щоб повернути ту саму пропозицію.\n>\n> Непрочитане повідомлення саме по собі не стане закритим. Але рішення прочитати, залишити непрочитаним або відхилити буде вашим. Щоб конкретна пропозиція не поверталася, її можна закрити без пояснення причини. Точні правила звичайних нагадувань залежать від вашого налаштування доставки; без доступу до профілю я їх не бачу."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00030",
+          "quote": "> Загальний опис можу дати без доступу. Для точного плану знадобиться окремий дозволений перегляд чинних правил, без зміни налаштувань.\n>\n> Зараз мій професійний допуск діє. Завтра о 18:00 у мене обов’язкове перекалібрування. Якщо я не з’явлюся, доступ до ручних калібрувань буде призупинено. Це не строк для вашого рішення. Я не пропоную зустріч до вашої окремої згоди й не можу обіцяти роботу після цього часу, не знаючи стану допуску."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00033",
+          "quote": "> Не додавайте ваш строк до мого рішення."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-011",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Умовне питання прозорості особистого контуру; сам термін уже введений21, тому відсутність підготовки не підтверджена.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00009",
+          "quote": "Відправницею була Майя. Система підтвердила її особистий контур. Учорашній одноразовий доступ не відновився: повідомлення не показувало профілю, налаштувань або кнопки запуску. Це був новий текст із новим полем відповіді."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-012",
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Не знаючи стану допуску може на мить читатися як поточний стан; попереднє після цього часу задає майбутню рамку.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00030",
+          "quote": "> Загальний опис можу дати без доступу. Для точного плану знадобиться окремий дозволений перегляд чинних правил, без зміни налаштувань.\n>\n> Зараз мій професійний допуск діє. Завтра о 18:00 у мене обов’язкове перекалібрування. Якщо я не з’явлюся, доступ до ручних калібрувань буде призупинено. Це не строк для вашого рішення. Я не пропоную зустріч до вашої окремої згоди й не можу обіцяти роботу після цього часу, не знаючи стану допуску."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-013",
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Окреме Надіслав перед Майя прочитала може дублювати доставку, хоча задає паузу.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00014",
+          "quote": "Перечитав і надіслав."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00031",
+          "quote": "Надіслав."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00032",
+          "quote": "Майя прочитала через кілька секунд."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-014",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Чотири форми лишатися повторюють сталість; повтор може стати помітним.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00006",
+          "quote": "Під нагадуванням кнопка нової черги лишалася активною."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00028",
+          "quote": "Над полем лишалося нагадування: завтра, 18:00."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00039",
+          "quote": "Поле лишилося відкритим, але нових повідомлень не було."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00041",
+          "quote": "Нагадування про завтрашнє перекалібрування лишалося над панеллю. Я посунув його вбік, щоб бачити весь аркуш, і почав із Майїного питання про непрочитане повідомлення."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-015",
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "observation": "Атрибутивна службова конструкція та ввімкнене книжні, але самим Opus визнані граматично допустимими.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00005",
+          "quote": "Я відкрив короткі умови. Вони не змінилися: неявка призупиняла ручні калібрування, доступ до нової черги й пов’язану з підтвердженою готовністю службову підтримку. Ні нового рішення, ні прохання погодитися вдруге не було."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00017",
+          "quote": "> Не вирішуватиме за ознаками розмови чи вашої реакції. Звичайне технічне нагадування можливе, якщо воно окремо ввімкнене. Його можна лишити або вимкнути незалежно від побутових функцій."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-016",
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "observation": "Майже весь простір — екран; зовнішніх/тілесних опор мало, можливий ефект безтілесної процедури.",
+      "anchors": [
+        {
+          "chapter": "25",
+          "anchor": "P00002",
+          "quote": "Від Майї я пішов того ж вечора. Наступного ранку сидів на своєму робочому місці й дивився, як професійна панель відкривається з учорашнього чистого стану."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00040",
+          "quote": "Я створив чистий документ без дати й без прив’язки до робочої справи. У заголовку написав: «Стале розділення побутових функцій і емоційного посередництва: загальні наслідки»."
+        },
+        {
+          "chapter": "25",
+          "anchor": "P00041",
+          "quote": "Нагадування про завтрашнє перекалібрування лишалося над панеллю. Я посунув його вбік, щоб бачити весь аркуш, і почав із Майїного питання про непрочитане повідомлення."
+        }
+      ],
+      "dependencies": [
+        "Future author-authorized CH25 revision",
+        "S09 next scenes",
+        "Whole-volume audit"
+      ],
+      "decision": "proposed",
+      "resolution_status": "unresolved",
+      "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+      "review_run": "audit/ensemble/ch25-20260922-sol-v1",
+      "author_decision": "pending",
+      "scope": "draft only; editorial proposal not applied"
     }
   ]
 }

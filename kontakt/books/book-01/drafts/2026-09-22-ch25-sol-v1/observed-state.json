@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "status": "observed_candidate_not_canonical",
+  "chapter": 25,
+  "source": {
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch25-sol-v1/chapter-25.md",
+    "sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e"
+  },
+  "coverage": "All 41 blocks; 89 physical lines, 49 nonempty; 583 lexical tokens by languageQA",
+  "time": {
+    "day": "D10",
+    "entry": "Morning at own workplace; left Maya on D9 evening",
+    "clock": "No exact current time; existing care appointment tomorrow/D11 18:00"
+  },
+  "events": [
+    {
+      "anchors": [
+        "P00002",
+        "P00004",
+        "P00005",
+        "P00006",
+        "P00007"
+      ],
+      "fact": "Dal opens professional panel and sees same care appointment reminder, receipt confirmed. Current authorization/new queue active; no-show suspends manual work, new queue, readiness-dependent support. He takes no new case."
+    },
+    {
+      "anchors": [
+        "P00009",
+        "P00010"
+      ],
+      "fact": "Maya independently sends new personally confirmed message, old one-use grant stays closed. Yesterday topic did not return; asks about permanent relational-off keeping utility and recurrence of unanswered messages. This is information request, not consent."
+    },
+    {
+      "anchors": [
+        "P00013",
+        "P00016",
+        "P00017",
+        "P00019",
+        "P00020",
+        "P00022"
+      ],
+      "fact": "General professional reply separates utility, ordinary delivery/reminders and emotional re-offering/rephrasing. Exact current delivery settings unknown without access. Maya rejects unsolicited reassurance about ease."
+    },
+    {
+      "anchors": [
+        "P00026",
+        "P00027",
+        "P00030",
+        "P00033",
+        "P00034"
+      ],
+      "fact": "Maya asks what describing her particular case would require. Dal distinguishes general description from narrow authorized read for exact plan. Discloses current authorization, mandatory D11 18:00 recalibration and definite suspension if no-show, no promise after deadline. Maya rejects using his deadline for her decision."
+    },
+    {
+      "anchors": [
+        "P00036",
+        "P00038",
+        "P00040",
+        "P00041"
+      ],
+      "fact": "Maya requests only general description without appointment time/access request/assumption of future consent. Dal promises delivery and begins undated document, not yet sent. Moves reminder aside, does not cancel it."
+    }
+  ],
+  "knowledge": {
+    "Maya_new": "Current Dal authorization; mandatory recalibration D11 18:00; manual authorization will be suspended if he does not attend. General separation explanation, not inspected profile facts.",
+    "Maya_not_told": "Gor complaint, care evidence, Tikhon conversation, readiness details; no new Nina biography.",
+    "Dal": "Only Maya explicit requests/replies; no access to private profile/history or inference as confirmed thoughts.",
+    "Others": "No new interaction or private knowledge shown."
+  },
+  "access": {
+    "Maya": "Relational mediation active as restored24; utility active. New messaging reply field, not technical grant.",
+    "Dal": "No profile view/settings/launch/meeting; current professional rights active; no new case accepted.",
+    "future_authorized": "Only send general description within P00036 bounds; no delivery deadline stated."
+  },
+  "resources": {
+    "location": "Own workplace; ordinary D9 departure established, exact travel/home/sleep unknown",
+    "document": "New undated general description, started not sent, no work-case link",
+    "Ballast": "Closed, no new interaction",
+    "M05": "Nina spoon remains home, absent scene",
+    "R": "R1 unchanged"
+  },
+  "new_draft_local_details": [
+    "D10 morning reminder presentation",
+    "Maya message-recurrence question",
+    "General delivery/reminder separation explanation, exact profile unverified",
+    "Bounded general description promise/title"
+  ],
+  "future_dependencies": [
+    "Deliver promised general description before treating it as read",
+    "Exact plan requires fresh narrow read permission, change requires own Maya decision and new technical grant",
+    "No-show consequence definite conditional; attendance/future status still unknown",
+    "Maya knows deadline now but explicitly refuses pressure",
+    "S09 permanent relational-off and S10 utility/neutral lodging still ahead",
+    "Block21–25 and reader1–25 due; global audit not run"
+  ],
+  "remaining": [
+    "16pending author decisions",
+    "CH26 onward and full-volume audit"
+  ]
+}

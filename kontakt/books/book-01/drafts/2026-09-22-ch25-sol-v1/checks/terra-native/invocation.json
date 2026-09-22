@@ -1,0 +1,44 @@
+{
+  "run_type": "independent_target_only_native_language_literary_review",
+  "model": "gpt-5.6-terra",
+  "model_mode": "fresh_native_terra",
+  "source": {
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch25-sol-v1/chapter-25.md",
+    "sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+    "source_unit_kind": "blank-separated blocks",
+    "reviewed_blocks": "P00001-P00041",
+    "last_reviewed_block": "P00041"
+  },
+  "permitted_inputs": [
+    {
+      "path": ".agents/skills/book-language-review/SKILL.md",
+      "sha256": "472df890365cabebc652b868ca62ef90f66f1c8a9fcf7475947038ab4f9294cc"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "sha256": "a22dce300a430f1fef40358476aa436620d234cafb8ced1082e8e901e3dd14e5"
+    },
+    {
+      "path": "kontakt/books/book-01/execution/VOICE-CALIBRATION.md",
+      "sha256": "b7ed50a17d2dc0965c265abe79ab0ced2f845aa9b1d78c7e168e3d08051765f8"
+    },
+    {
+      "path": "kontakt/books/book-01/execution/HANDOFF-CH25.md",
+      "sha256": "3dc5a380c57789d83e230c367323a0c657b33741cabb075f3be75ffb3e1a3660"
+    }
+  ],
+  "excluded_material": [
+    "prior chapters",
+    "notes",
+    "audits",
+    "reports",
+    "ledgers",
+    "checks",
+    "root diagnosis"
+  ],
+  "source_modified": false
+}

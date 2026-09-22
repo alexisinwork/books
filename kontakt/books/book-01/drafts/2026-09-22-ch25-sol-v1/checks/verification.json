@@ -1,0 +1,64 @@
+{
+  "source_sha256": "da3642cd6afc70766551dc45fb76cf1ef5eea277f3cf18253d569d16fa24a82e",
+  "status": "required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "All41blocks,89physical/49nonemptylines,583lexicaltokens; not global audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "daa281b500bdb6428f7b3827cd3d46b55ca8ca3ed87a4423c2fe43441fbbdcde",
+    "terra": "9ed9b83a851136ccec6f59f7d8bb8ee414be22dede26603cf803ab20bb45ba6b",
+    "gemini_flash": "38b486575098281df48ceecf3d6592b2c04a27e422332dd0324d5d94a84dd78d",
+    "gemini": "60cc63587537f6565a39dca0ffe7a15819efd1ec4d2c39c4f0bcaa0d30b9bed1"
+  },
+  "additional_opus": "e591362de2bf343e935cd6e3834dba4743930b6a9772dce1bad294efed32e96e",
+  "reconciliation": "c1f89bed5148633d2163d48abe7c869e1a5bfc8fe38fab976ddfbc385c322f99",
+  "missing": [],
+  "verdicts": {
+    "astra": "Six literary risks, coherent continuity",
+    "terra": "Two alleged language defects, claims qualified",
+    "gemini_flash": "PASS with naturalness notes",
+    "gemini": "Positive diary, pressure interpretation qualified",
+    "claude_optional": "PASS with local clarity/rhythm/taste notes"
+  },
+  "language_scans": "No configured signals; LanguageTool/independent grammar checker not run; naturalness choices pending",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "9e7fb8fb51696f773bd39aff06a16766e264ee0fea49779723757f50da626e76",
+    "pages": 2,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 353,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 230,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 2
+      }
+    ],
+    "visual_review": "All two pages inspected in contact sheet; readable consistent typography, no clipping or blank page. Renderer not native Word."
+  },
+  "preflight_diff": "Exact first-save-to-final source+notes reconstruction PASS",
+  "schema_instances": "run and ledger Draft202012Validator PASS",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  },
+  "block_audit": "BLOCK-21-25-AUDIT.md;237blocks full sequential architectural review, not blind",
+  "remaining": [
+    "16pending author decisions",
+    "CH26 onward, final-volume audit"
+  ],
+  "independence": "Astra development/preflight disclosed, locked before freshTerra and peer reading"
+}
