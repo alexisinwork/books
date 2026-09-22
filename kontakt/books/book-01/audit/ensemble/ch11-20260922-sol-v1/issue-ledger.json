@@ -4,6 +4,698 @@
   "project_id": "kontakt-razlad",
   "book_id": "book-01",
   "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
-  "status": "collecting",
-  "items": []
+  "status": "reconciled",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "terra",
+        "astra"
+      ],
+      "category": "knowledge",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0013",
+          "quote": "Я вибрав зі списку одноразовий кухонний сеанс. Він дозволяв голос сервісу тільки через цей пристрій, поточний таймер та стан однієї конфорки. Мікрофон працював, лише поки картка сервісу була відкрита. Решта домашніх каналів лишалася закритою."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0025",
+          "quote": "— Таймер бачу, — сказав сервіс. — Моє втручання не потрібне, поки ви лишаєтеся біля плити."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0027",
+          "quote": "— А якщо не лишаюся?"
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0028",
+          "quote": "— Нагадаю до того, як спрацює таймер. Моя функція — зменшувати побутове навантаження, поки професійна готовність не визначена."
+        }
+      ],
+      "observation": "Terra читає «поки ви лишаєтеся біля плити» як непоказане знання про місце Даля. Astra читає як умовне правило; P0027 прямо розвиває альтернативу.",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "За бажання зробити умовність явною («якщо...»), зберігши логіку наступної репліки; не додавати камеру чи геолокацію. Обов’язкову наявність прихованого спостереження не встановлено."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "multiple_or_differing_reactions",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "astra"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0040",
+          "quote": "— Автоматичний аварійний допуск служби будинку до вашої квартири. Локальні датчики диму й витоку працюватимуть, але виклик служби та відкриття дверей доведеться підтверджувати вручну."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0041",
+          "quote": "— Навіть якщо я не зможу підтвердити?"
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0042",
+          "quote": "— Тоді двері автоматично не відкриються. Можна заздалегідь оформити окремий аварійний ключ поза особистим контуром."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0043",
+          "quote": "Це не було забороною. На екрані стояла кнопка виходу, а під нею — маршрут оформлення окремого ключа. Два відвідування будинкової служби й фізичний носій, який треба було забирати особисто."
+        }
+      ],
+      "observation": "Окремий ключ явно вирішує допуск; чи відновлює він автоматичний виклик, не сказано.",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Розділити дві функції за потреби; до рішення не приписувати ключу автоматичний виклик у наступних главах."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "astra",
+        "gemini_flash",
+        "claude"
+      ],
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0024",
+          "quote": "Я дочекався кипіння, висипав макарони й запустив таймер на вісім хвилин."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0044",
+          "quote": "Я торкнувся маршруту, відкрив перший із семи кроків."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0045",
+          "quote": "— До завершення таймера сорок дві секунди, — сказав Баласт. — Умови окремого ключа займають сім екранів."
+        }
+      ],
+      "observation": "Перехід від восьми хвилин до 42 секунд може відчуватися швидким. Інші читачі часової проблеми не відчули.",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Залишити неназваний час читання або додати один дієвий проміжок; арифметичної суперечності немає."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "multiple_or_differing_reactions",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "astra",
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0036",
+          "quote": "На екрані відкрилися три окремі дії. Голос можна було вимкнути без втрати сервісу. Кухонний сеанс можна було завершити негайно; разом із ним закривалися таймер і стан конфорки. Мікрофон вимикався окремим закриттям картки. Повний вихід із пов’язаного особистого контуру стояв третім."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0052",
+          "quote": "Я повернувся до сторінки виходу. Кнопка лишалася доступною. Окремий аварійний ключ нікуди не зник. Я міг вимкнути голос одним дотиком, закрити кухонний доступ іншим або вийти повністю й заплатити часом та частиною безпеки за незалежний маршрут."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0054",
+          "quote": "Кухонний сеанс завершився сам разом із таймером. Позначки конфорки й таймера згасли. Баласт лишився призначеним: голос — тільки через пристрій, доступ — тільки до професійного статусу й вільного слота, відкритих під час призначення. Картка ще була відкрита, тому мікрофон чекав на мою дію."
+        }
+      ],
+      "observation": "Варіанти відключення й межі доступу переказано повторно; Flash позитивно оцінив підсумкову фразу.",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "За потреби ущільнити резюме, не змішуючи строки мікрофона, таймера й голосу."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "multiple_or_differing_reactions",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "astra",
+        "claude",
+        "gemini"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0059",
+          "quote": "Це було зайве, доки не стало корисним."
+        }
+      ],
+      "observation": "Фінальний висновок може пояснювати вже показане; Opus вважає його сильним, Pro вбачає майбутній план використати сервіс.",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Залишити двозначність або завершити предметною дією. Прогноз Pro не оголошувати подією чи новим планом героя."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "multiple_or_differing_reactions",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0020",
+          "quote": "Я повернув нагрів."
+        }
+      ],
+      "observation": "«Повернув нагрів» — стисле позначення повторного ввімкнення, можливе спотикання.",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "За бажання уточнити «знову ввімкнув»; не вигадувати фізичну ручку регулятора."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0023",
+          "quote": "Принаймні не приписував собі знання про каструлю."
+        }
+      ],
+      "observation": "Пропущений підмет чоловічого роду відсилає до сервісу, попри жіночу форму імені Ладушка.",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Можна назвати сервіс явно заради легкості; граматичної помилки через ім’я не встановлено."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0036",
+          "quote": "На екрані відкрилися три окремі дії. Голос можна було вимкнути без втрати сервісу. Кухонний сеанс можна було завершити негайно; разом із ним закривалися таймер і стан конфорки. Мікрофон вимикався окремим закриттям картки. Повний вихід із пов’язаного особистого контуру стояв третім."
+        }
+      ],
+      "observation": "«Закривалися таймер і стан конфорки» стискає закриття доступів до назви самих об’єктів.",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Уточнити доступ/відстеження, якщо потрібно; це не встановлене вимкнення фізичної плити."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0029",
+          "quote": "— Щоб я не перекинувся?"
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0031",
+          "quote": "— Баласт, — сказав я."
+        }
+      ],
+      "observation": "«Перекинувся» різкіше за діловий регістр; у зв’язці з Баластом працює метафора стійкості.",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Зберегти іронію або пом’якшити регістр. Значення смерті чи хвороби зі звіту не призначати фактом."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0005",
+          "quote": "На екрані стояло повідомлення:"
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0010",
+          "quote": "Професійний статус і стан вільного слота вже входили до призначення. Побутові канали стояли вимкнені: домашній звук, кухонні прилади, освітлення, замки. Навпроти кожного був окремий перемикач."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0036",
+          "quote": "На екрані відкрилися три окремі дії. Голос можна було вимкнути без втрати сервісу. Кухонний сеанс можна було завершити негайно; разом із ним закривалися таймер і стан конфорки. Мікрофон вимикався окремим закриттям картки. Повний вихід із пов’язаного особистого контуру стояв третім."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0043",
+          "quote": "Це не було забороною. На екрані стояла кнопка виходу, а під нею — маршрут оформлення окремого ключа. Два відвідування будинкової служби й фізичний носій, який треба було забирати особисто."
+        }
+      ],
+      "observation": "Чотири вживання «стояти» для UI/станів підтверджені.",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "За бажання урізноманітнити дієслова; нормативної помилки немає."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0044",
+          "quote": "Я торкнувся маршруту, відкрив перший із семи кроків."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0045",
+          "quote": "— До завершення таймера сорок дві секунди, — сказав Баласт. — Умови окремого ключа займають сім екранів."
+        }
+      ],
+      "observation": "«Сім кроків / сім екранів» у сусідніх абзацах.",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Зберегти відлуння бюрократичного маршруту або прибрати один числівник."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-012",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0036",
+          "quote": "На екрані відкрилися три окремі дії. Голос можна було вимкнути без втрати сервісу. Кухонний сеанс можна було завершити негайно; разом із ним закривалися таймер і стан конфорки. Мікрофон вимикався окремим закриттям картки. Повний вихід із пов’язаного особистого контуру стояв третім."
+        }
+      ],
+      "observation": "Пояснення про окреме закриття мікрофона може сприйматися як четвертий пункт після «трьох дій».",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Синтаксично відділити пояснення від переліку; три екранні варіанти й закриття картки не тотожні."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-013",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0012",
+          "quote": "Я повернувся на кухню з пристроєм у руці. Вода підняла кришку й виплеснулася на край каструлі. Я вимкнув нагрів, витер плиту й повернув каструлю на конфорку."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0013",
+          "quote": "Я вибрав зі списку одноразовий кухонний сеанс. Він дозволяв голос сервісу тільки через цей пристрій, поточний таймер та стан однієї конфорки. Мікрофон працював, лише поки картка сервісу була відкрита. Решта домашніх каналів лишалася закритою."
+        },
+        {
+          "chapter": "11",
+          "anchor": "P0014",
+          "quote": "Я перечитав межі й дозволив."
+        }
+      ],
+      "observation": "Три послідовні абзаци починаються з «Я».",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "За бажання змінити один початок; не прибирати рису інженерного першоособового голосу глобально."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-014",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "pacing",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0012",
+          "quote": "Я повернувся на кухню з пристроєм у руці. Вода підняла кришку й виплеснулася на край каструлі. Я вимкнув нагрів, витер плиту й повернув каструлю на конфорку."
+        }
+      ],
+      "observation": "Повернення каструлі після витирання може здаватися надмірною фізичною деталлю.",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "Залишити предметність або скоротити очевидну ланку; лише смак."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    },
+    {
+      "id": "ENS-015",
+      "origin_reports": [
+        "claude"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": "11",
+          "anchor": "P0045",
+          "quote": "— До завершення таймера сорок дві секунди, — сказав Баласт. — Умови окремого ключа займають сім екранів."
+        }
+      ],
+      "observation": "Можлива інтонаційна пауза перед «сорок дві секунди».",
+      "reader_effect": "Можлива локальна двозначність, ритмічна нерівність або інший відтінок читання; межі висновків перевірені окремо.",
+      "evidence": "Full source, locked independent reports, checks/reviewer-claim-validation.md",
+      "proposed_actions": [
+        "За бажання додати тире; це не доведена пунктуаційна помилка."
+      ],
+      "dependencies": [
+        "CH11 future authorized revision",
+        "CH11–15 block audit",
+        "whole-volume audit"
+      ],
+      "agreement": "single_reader_observation",
+      "author_decision": {
+        "status": "pending",
+        "basis": null
+      },
+      "implementation": {
+        "status": "not_started",
+        "targets": []
+      },
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      }
+    }
+  ]
 }

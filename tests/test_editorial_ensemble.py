@@ -23,7 +23,16 @@ class EditorialEnsembleTest(unittest.TestCase):
         shutil.copytree(REPO / "editorial", self.root / "editorial")
         shutil.copytree(REPO / ".agents", self.root / ".agents")
         (self.root / ".claude").mkdir()
-        (self.root / ".claude" / "skills").symlink_to("../.agents/skills")
+        link = self.root / ".claude" / "skills"
+        try:
+            link.symlink_to("../.agents/skills", target_is_directory=True)
+        except OSError as exc:
+            if sys.platform != "win32" or getattr(exc, "winerror", None) != 1314:
+                raise
+            subprocess.run(
+                ["cmd", "/c", "mklink", "/J", str(link), str(self.root / ".agents" / "skills")],
+                check=True, capture_output=True,
+            )
 
         project = self.root / "sample"
         tric = project / "books" / "book-01"
@@ -161,6 +170,27 @@ class EditorialEnsembleTest(unittest.TestCase):
         )
         self.assertNotEqual(failed.returncode, 0)
         self.assertIn("Source hash mismatch", failed.stdout)
+
+    def test_terra_requires_explicit_basis_and_cannot_be_replaced_by_other_reports(self):
+        args = ("init", "--project", "sample", "--book", "book-01", "--run-id", "test-run", "--review-policy", "terra")
+        self.assertNotEqual(self.call(*args, check=False).returncode, 0)
+        self.assertFalse(self.run_dir.exists())
+        self.call(*args, "--review-policy-basis", "Explicit author choice in test")
+        run = json.loads((self.run_dir / "run.json").read_text(encoding="utf-8"))
+        self.assertEqual(run["schema_version"], 3)
+        self.assertNotIn("claude", run["reports"])
+        for role in ("astra", "gemini_flash", "gemini"):
+            self.final_report(role)
+            self.call("record", "--run", self.run_rel, "--role", role)
+        self.final_report("reconciliation")
+        self.assertNotEqual(self.call("record", "--run", self.run_rel, "--role", "reconciliation", check=False).returncode, 0)
+        self.final_report("terra")
+        self.call("record", "--run", self.run_rel, "--role", "terra")
+        self.call("record", "--run", self.run_rel, "--role", "reconciliation")
+        self.assertEqual(json.loads(self.call("verify", "--run", self.run_rel).stdout)["result"], "passed")
+        target = self.run_dir / "terra-diagnosis.md"
+        target.write_text(target.read_text(encoding="utf-8") + "tampered", encoding="utf-8")
+        self.assertNotEqual(self.call("verify", "--run", self.run_rel, check=False).returncode, 0)
 
     def test_flash_is_required_for_new_runs_and_old_schema_keeps_three_roles(self):
         self.call("init", "--project", "sample", "--book", "book-01", "--run-id", "test-run", "--language", "uk")

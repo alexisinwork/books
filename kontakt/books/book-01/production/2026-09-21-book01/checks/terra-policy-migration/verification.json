@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "scope": "Explicit opt-in schema 3, historical schemes 1/2 unchanged, mandatory Terra gate and report tamper detection",
+  "tests": {
+    "command": "PYTHONUTF8=1 python -X utf8 -m unittest discover -s tests -p test_editorial_ensemble.py",
+    "passed": 4,
+    "initial_environment_failure": "Windows symlink privilege 1314; fixture now uses directory junction fallback only for that error"
+  },
+  "live_runs_verified": [
+    "ch10-20260922-sol-v1 schema2",
+    "ch11-20260922-sol-v1 schema3"
+  ],
+  "locked_preexisting_reports_unchanged": true,
+  "files": [
+    {
+      "path": "kontakt/AGENTS.md",
+      "before": "6a6b1c9e2c93ca568e823bb9835ef72e3eea58546d017d2ec1afbf241578b313",
+      "after": "a6c25a508994dc52fbae32c0778754a8da2a586c07aae2da9524c90e78e76011"
+    },
+    {
+      "path": "tests/test_editorial_ensemble.py",
+      "before": "d8e8765da68986fad7927d219c21a147ea5ba4a8599af1350d541b38cf75a800",
+      "after": "5a24a5264825259f0f33af77f818d61407a1f55035d0bbf32f2e966024f74402"
+    },
+    {
+      "path": "tools/editorial_ensemble.py",
+      "before": "174b20be5461204230067d7a0adb15000df99c4c75b9e06444b4483da0d35204",
+      "after": "8c92e05978a40b11add3beaecacd82ba07a7fc9f94d94af7cfd7e463b042eedd"
+    },
+    {
+      "path": "kontakt/books/book-01/production/2026-09-21-book01/FULL-VOLUME-AUDIT-PLAN.md",
+      "before": "4afa66d37b9fbd7e811811636dea82cac5f02e0eb2aef2fdb541973cd78bfcfe",
+      "after": "1f46e5db9302caad6a3f149f06f3639aad556c4424fc2f3cebea19e613f633da"
+    },
+    {
+      "path": "kontakt/books/book-01/audit/ensemble/ch11-20260922-sol-v1/run.json",
+      "before": "11a71d08821c7d1b998997543a7d0c020d89853146f2ee291c7d62793c8b88f4",
+      "after": "e9ec364846790ddeaa4f05cd800c3fe32f1aee83d2efdd7242a44b483e3315fc"
+    },
+    {
+      "path": "editorial/schemas/issue-ledger.schema.json",
+      "before": "23b77533cd72c7b0977c26ccae1f4cecbc4ec88befb2d14e4fdc5b87b327589d",
+      "after": "44a3787e5f7ce4f2f800458c3c399e05b4439a3a2ca8c1cab76d5a6151f2d57f"
+    },
+    {
+      "path": "editorial/schemas/run.schema.json",
+      "before": "c8699ae570e9f4d82083bba74362b2e79093c3e2c6177bf9db547f00a62d3046",
+      "after": "a3cf6fa1ab0876e4fbd0e9583e4d369755684ecdc8d8bfbe2412de1f50161a5f"
+    }
+  ]
+}

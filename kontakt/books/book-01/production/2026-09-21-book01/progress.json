@@ -82,10 +82,18 @@
       "observed_state": "drafts/2026-09-22-ch10-sol-v1/observed-state.json",
       "review_run": "audit/ensemble/ch10-20260922-sol-v1",
       "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 11,
+      "source": "drafts/2026-09-22-ch11-sol-v1/chapter-11.md",
+      "sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
+      "observed_state": "drafts/2026-09-22-ch11-sol-v1/observed-state.json",
+      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
+      "status": "reviewed_working_draft_not_canonical"
     }
   ],
-  "current_chapter": 11,
-  "current_stage": "chapter_11_waiting_opus_quota_reset",
+  "current_chapter": 12,
+  "current_stage": "chapter_12_writer_running",
   "future_chapters": "macro architecture; progressively detailed before writing",
   "global_audit": "not_run",
   "last_block_review": {
@@ -95,11 +103,5 @@
     "status": "architect_review_completed_not_global_audit"
   },
   "latest_block_audit": "block-audits/chapters-06-10/verification.json",
-  "pending_chapter_review": {
-    "chapter": 11,
-    "source": "kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/chapter-11.md",
-    "sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
-    "record": "kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/checks/opus-retry-status.json",
-    "retry_not_before_utc": "2026-09-22T00:09:00Z"
-  }
+  "review_policy": "REVIEW-POLICY-2026-09-22.md"
 }

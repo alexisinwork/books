@@ -1,0 +1,787 @@
+--- kontakt\books\book-01\production\2026-09-21-book01\checks\terra-policy-migration\before\kontakt\AGENTS.md
++++ kontakt/AGENTS.md
+@@ -36,3 +36,7 @@
+ ## Языковая политика с 14 сентября 2026
+ 
+ Новые книги и новая проза по умолчанию — украинские; английский оригинал возможен по прямому выбору автора. Старые русские тексты сохраняются с прежними хешами и статусами. Общая архитектура и языковые правила: `project.json.book_system`, в этом репозитории [BOOK_SYSTEM](../BOOK_SYSTEM/README.md). До письма прочитайте CORE и целевой LANGUAGES; до адаптации — ADAPTATION/WORKFLOW. Для литературной проверки обязательны Opus, Gemini 3.8 Flash и Gemini 3.1 Pro. Исторический префикс навыков `ru-` сохранён для совместимости, язык определяется изданием.
++
++## Поточне доручення автора — Контакт, том 1, 22 вересня 2026
++
++Для продовження тому 1 від CH11 та фінального аудиту застосовувати [нову політику](books/book-01/production/2026-09-21-book01/REVIEW-POLICY-2026-09-22.md): Terra + Gemini 3.8 Flash + Gemini 3.1 Pro обов’язкові; недоступний Opus пропускати. Astra зберігає архітектуру й зведення, Sol пише. Ця явна пізніша вказівка має пріоритет над історичною вимогою Opus вище. Завершені прогони не переписувати.
+--- kontakt\books\book-01\production\2026-09-21-book01\checks\terra-policy-migration\before\tests\test_editorial_ensemble.py
++++ tests/test_editorial_ensemble.py
+@@ -23,7 +23,16 @@
+         shutil.copytree(REPO / "editorial", self.root / "editorial")
+         shutil.copytree(REPO / ".agents", self.root / ".agents")
+         (self.root / ".claude").mkdir()
+-        (self.root / ".claude" / "skills").symlink_to("../.agents/skills")
++        link = self.root / ".claude" / "skills"
++        try:
++            link.symlink_to("../.agents/skills", target_is_directory=True)
++        except OSError as exc:
++            if sys.platform != "win32" or getattr(exc, "winerror", None) != 1314:
++                raise
++            subprocess.run(
++                ["cmd", "/c", "mklink", "/J", str(link), str(self.root / ".agents" / "skills")],
++                check=True, capture_output=True,
++            )
+ 
+         project = self.root / "sample"
+         tric = project / "books" / "book-01"
+@@ -161,6 +170,27 @@
+         )
+         self.assertNotEqual(failed.returncode, 0)
+         self.assertIn("Source hash mismatch", failed.stdout)
++
++    def test_terra_requires_explicit_basis_and_cannot_be_replaced_by_other_reports(self):
++        args = ("init", "--project", "sample", "--book", "book-01", "--run-id", "test-run", "--review-policy", "terra")
++        self.assertNotEqual(self.call(*args, check=False).returncode, 0)
++        self.assertFalse(self.run_dir.exists())
++        self.call(*args, "--review-policy-basis", "Explicit author choice in test")
++        run = json.loads((self.run_dir / "run.json").read_text(encoding="utf-8"))
++        self.assertEqual(run["schema_version"], 3)
++        self.assertNotIn("claude", run["reports"])
++        for role in ("astra", "gemini_flash", "gemini"):
++            self.final_report(role)
++            self.call("record", "--run", self.run_rel, "--role", role)
++        self.final_report("reconciliation")
++        self.assertNotEqual(self.call("record", "--run", self.run_rel, "--role", "reconciliation", check=False).returncode, 0)
++        self.final_report("terra")
++        self.call("record", "--run", self.run_rel, "--role", "terra")
++        self.call("record", "--run", self.run_rel, "--role", "reconciliation")
++        self.assertEqual(json.loads(self.call("verify", "--run", self.run_rel).stdout)["result"], "passed")
++        target = self.run_dir / "terra-diagnosis.md"
++        target.write_text(target.read_text(encoding="utf-8") + "tampered", encoding="utf-8")
++        self.assertNotEqual(self.call("verify", "--run", self.run_rel, check=False).returncode, 0)
+ 
+     def test_flash_is_required_for_new_runs_and_old_schema_keeps_three_roles(self):
+         self.call("init", "--project", "sample", "--book", "book-01", "--run-id", "test-run", "--language", "uk")
+--- kontakt\books\book-01\production\2026-09-21-book01\checks\terra-policy-migration\before\tools\editorial_ensemble.py
++++ tools/editorial_ensemble.py
+@@ -24,6 +24,7 @@
+ REPORTS = {
+     "astra": "astra-diagnosis.md",
+     "claude": "claude-diagnosis.md",
++    "terra": "terra-diagnosis.md",
+     "gemini_flash": "gemini-flash-diagnosis.md",
+     "gemini": "gemini-blind-read.md",
+     "reconciliation": "reconciliation.md",
+@@ -227,6 +228,7 @@
+     if not item["origin_reports"] or not set(item["origin_reports"]) <= {
+         "astra",
+         "claude",
++        "terra",
+         "gemini",
+         "gemini_flash",
+     }:
+@@ -296,6 +298,13 @@
+ 
+ 
+ def diagnosis_roles(run: dict) -> tuple:
++    if run.get("schema_version") == 3:
++        required = ("astra", "terra", "gemini_flash", "gemini")
++        if run.get("required_diagnoses") != list(required):
++            raise EnsembleError("Schema 3 requires Astra, Terra, Gemini Flash and Gemini Pro")
++        if not run.get("review_policy_basis"):
++            raise EnsembleError("Schema 3 requires an explicit review-policy basis")
++        return required
+     if run.get("schema_version") == 2:
+         required = ("astra", "claude", "gemini_flash", "gemini")
+         if run.get("required_diagnoses") != list(required):
+@@ -326,6 +335,10 @@
+     if not RUN_ID_RE.fullmatch(args.run_id):
+         raise EnsembleError("run-id must contain lowercase letters, digits and hyphens")
+     source, reader = choose_source(root, book, book_dir, args.source, args.reader_file)
++    terra_policy = getattr(args, "review_policy", "opus") == "terra"
++    basis = getattr(args, "review_policy_basis", None)
++    if terra_policy and not basis:
++        raise EnsembleError("Terra policy requires --review-policy-basis")
+     run_dir = book_dir / "audit" / "ensemble" / args.run_id
+     if run_dir.exists():
+         raise EnsembleError(f"Run already exists: {run_dir}")
+@@ -338,7 +351,8 @@
+         "READER_SHA256": reader["sha256"],
+     }
+     template_dir = root / "editorial" / "templates"
+-    for filename in REPORTS.values():
++    active_reports = {k: v for k, v in REPORTS.items() if k != ("claude" if terra_policy else "terra")}
++    for filename in active_reports.values():
+         (run_dir / filename).write_text(
+             render(template_dir / filename, values), encoding="utf-8"
+         )
+@@ -350,25 +364,27 @@
+         render(template_dir / "issue-ledger.json", values), encoding="utf-8"
+     )
+     run = {
+-        "schema_version": 2,
++        "schema_version": 3 if terra_policy else 2,
+         "run_id": args.run_id,
+         "project_id": project["project_id"],
+         "book_id": args.book,
+         "created_at": now(),
+         "status": "prepared",
+         "language": getattr(args, "language", None) or book.get("canonical_language") or project.get("language_policy", {}).get("legacy_existing_source", "ru"),
+-        "required_diagnoses": ["astra", "claude", "gemini_flash", "gemini"],
++        "required_diagnoses": ["astra", "terra" if terra_policy else "claude", "gemini_flash", "gemini"],
++        **({"review_policy_basis": basis} if terra_policy else {}),
+         "source": source,
+         "reader": reader,
+         "independence": {
+             "astra": "must not read current Claude or Gemini reports before lock",
+             "claude": "must not read current Astra or Gemini reports before lock",
++            "terra": "independent literary diagnosis; no current peer reports before lock",
+             "gemini_flash": "independent full-text literary/continuity analysis; no current peer reports",
+             "gemini": "isolated packet only; no repository canon, audits or change hints",
+         },
+         "reports": {
+             role: {"file": filename, "status": "draft", "sha256": None}
+-            for role, filename in REPORTS.items()
++            for role, filename in active_reports.items()
+         },
+         "author_decisions": {
+             "file": decisions_file,
+@@ -542,7 +558,7 @@
+ def verify_run(root: Path, run_dir: Path, run: dict, require_complete: bool) -> dict:
+     errors = []
+     try:
+-        if run.get("schema_version") not in {1, 2} or not RUN_ID_RE.fullmatch(run.get("run_id", "")):
++        if run.get("schema_version") not in {1, 2, 3} or not RUN_ID_RE.fullmatch(run.get("run_id", "")):
+             errors.append("invalid run identity")
+         required = diagnosis_roles(run)
+         if not set(required).issubset(run["reports"]):
+@@ -568,7 +584,8 @@
+         if require_complete:
+             if run.get("status") != "verified":
+                 errors.append("run is not verified")
+-            if any(entry["status"] != "locked" for entry in run["reports"].values()):
++            completion_roles = (*required, "reconciliation", "verification")
++            if any(run["reports"][role]["status"] != "locked" for role in completion_roles):
+                 errors.append("not all reports are locked")
+             if decision_entry["status"] != "locked":
+                 errors.append("author decisions are not locked")
+@@ -656,6 +673,8 @@
+     init.add_argument("--source", help="explicit source path")
+     init.add_argument("--reader-file", help="verified UTF-8 reading projection")
+     init.add_argument("--language", choices=["uk", "en", "ru"], help="Actual source language, not the future edition language")
++    init.add_argument("--review-policy", choices=["opus", "terra"], default="opus", help="Explicit per-run policy; historical default unchanged")
++    init.add_argument("--review-policy-basis", help="Author instruction record required for Terra policy")
+     init.set_defaults(func=cmd_init)
+ 
+     record = commands.add_parser("record", help="lock a completed report")
+--- kontakt\books\book-01\production\2026-09-21-book01\checks\terra-policy-migration\before\kontakt\books\book-01\production\2026-09-21-book01\FULL-VOLUME-AUDIT-PLAN.md
++++ kontakt/books/book-01/production/2026-09-21-book01/FULL-VOLUME-AUDIT-PLAN.md
+@@ -29,7 +29,7 @@
+ 
+ ## Незалежний ансамбль
+ 
+-Astra спочатку фіксує свій повний структурний діагноз, не читаючи нові звіти інших. Opus перевіряє прозу/сцени/голоси з дозволеними джерелами. Flash читає весь текст і зв'язки, Pro отримує лише текст та нейтральну інструкцію. Після чотирьох зафіксованих діагнозів — окреме зведення. Похвала, більшість голосів і успішний хеш не приймають рішень за автора.
++Astra спочатку фіксує свій повний структурний діагноз, не читаючи нові звіти інших. Terra перевіряє прозу/сцени/голоси з дозволеними джерелами. Opus додатковий, якщо доступний; його відсутність не блокує за прямою вказівкою автора 22.09.2026 (REVIEW-POLICY-2026-09-22.md). Flash читає весь текст і зв'язки, Pro отримує лише текст та нейтральну інструкцію. Після чотирьох зафіксованих діагнозів — окреме зведення. Похвала, більшість голосів і успішний хеш не приймають рішень за автора.
+ 
+ Для довгого тексту допускається послідовна передача повних частин в одну нову сесію кожного рецензента з подальшим загальним діагнозом. Можливість перевірена лише довідкою `agy --help` 21.09.2026: stream-json приймає один NDJSON user event на рядок і виконує окремий turn для кожного. Сам багаточастинний літературний прогін ще не запускався. Gemini викликаються лише через agy CLI. Не замінювати непрочитаний текст резюме від іншої моделі.
+ 
+--- kontakt\books\book-01\production\2026-09-21-book01\checks\terra-policy-migration\before\kontakt\books\book-01\audit\ensemble\ch11-20260922-sol-v1\run.json
++++ kontakt/books/book-01/audit/ensemble/ch11-20260922-sol-v1/run.json
+@@ -1,14 +1,14 @@
+ {
+-  "schema_version": 2,
++  "schema_version": 3,
+   "run_id": "ch11-20260922-sol-v1",
+   "project_id": "kontakt-razlad",
+   "book_id": "book-01",
+   "created_at": "2026-09-21T23:36:15+00:00",
+-  "status": "diagnosis_in_progress",
++  "status": "reconciled",
+   "language": "uk",
+   "required_diagnoses": [
+     "astra",
+-    "claude",
++    "terra",
+     "gemini_flash",
+     "gemini"
+   ],
+@@ -27,7 +27,8 @@
+     "astra": "must not read current Claude or Gemini reports before lock",
+     "claude": "must not read current Astra or Gemini reports before lock",
+     "gemini_flash": "independent full-text literary/continuity analysis; no current peer reports",
+-    "gemini": "isolated packet only; no repository canon, audits or change hints"
++    "gemini": "isolated packet only; no repository canon, audits or change hints",
++    "terra": "Fresh isolated native Terra agent, no peer reports or writer notes"
+   },
+   "reports": {
+     "astra": {
+@@ -38,8 +39,9 @@
+     },
+     "claude": {
+       "file": "claude-diagnosis.md",
+-      "status": "draft",
+-      "sha256": null
++      "status": "locked",
++      "sha256": "1f7f0292aec8de1ae1023f25714eb7afcae7380678afe3d96a589ea4216f45fe",
++      "locked_at": "2026-09-22T06:52:54+00:00"
+     },
+     "gemini_flash": {
+       "file": "gemini-flash-diagnosis.md",
+@@ -55,13 +57,20 @@
+     },
+     "reconciliation": {
+       "file": "reconciliation.md",
+-      "status": "draft",
+-      "sha256": null
++      "status": "locked",
++      "sha256": "e2302cf4001d1419de5da82d0617f79f45b898c826106b346415201cda33c59f",
++      "locked_at": "2026-09-22T06:55:55+00:00"
+     },
+     "verification": {
+       "file": "verification.md",
+       "status": "draft",
+       "sha256": null
++    },
++    "terra": {
++      "file": "terra-diagnosis.md",
++      "status": "locked",
++      "sha256": "4148d3c7c75b43133843f35792309e996d454b8954779691e6a1113c84403927",
++      "locked_at": "2026-09-22T06:52:54+00:00"
+     }
+   },
+   "author_decisions": {
+@@ -69,5 +78,6 @@
+     "status": "draft",
+     "sha256": null
+   },
+-  "issue_ledger": "issue-ledger.json"
++  "issue_ledger": "issue-ledger.json",
++  "review_policy_basis": "kontakt/books/book-01/production/2026-09-21-book01/REVIEW-POLICY-2026-09-22.md"
+ }
+--- kontakt\books\book-01\production\2026-09-21-book01\checks\terra-policy-migration\before\editorial\schemas\issue-ledger.schema.json
++++ editorial/schemas/issue-ledger.schema.json
+@@ -3,14 +3,44 @@
+   "$id": "https://github.com/alexisinwork/books/editorial/schemas/issue-ledger.schema.json",
+   "title": "Editorial ensemble issue ledger",
+   "type": "object",
+-  "required": ["schema_version", "run_id", "project_id", "book_id", "source_sha256", "status", "items"],
++  "required": [
++    "schema_version",
++    "run_id",
++    "project_id",
++    "book_id",
++    "source_sha256",
++    "status",
++    "items"
++  ],
+   "properties": {
+-    "schema_version": {"const": 1},
+-    "run_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+-    "project_id": {"type": "string", "minLength": 1},
+-    "book_id": {"type": "string", "minLength": 1},
+-    "source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+-    "status": {"enum": ["collecting", "reconciled", "author_decided", "implemented", "verified"]},
++    "schema_version": {
++      "const": 1
++    },
++    "run_id": {
++      "type": "string",
++      "pattern": "^[a-z0-9][a-z0-9-]*$"
++    },
++    "project_id": {
++      "type": "string",
++      "minLength": 1
++    },
++    "book_id": {
++      "type": "string",
++      "minLength": 1
++    },
++    "source_sha256": {
++      "type": "string",
++      "pattern": "^[0-9a-f]{64}$"
++    },
++    "status": {
++      "enum": [
++        "collecting",
++        "reconciled",
++        "author_decided",
++        "implemented",
++        "verified"
++      ]
++    },
+     "items": {
+       "type": "array",
+       "items": {
+@@ -32,12 +62,23 @@
+           "verification"
+         ],
+         "properties": {
+-          "id": {"type": "string", "pattern": "^ENS-[0-9]{3,}$"},
++          "id": {
++            "type": "string",
++            "pattern": "^ENS-[0-9]{3,}$"
++          },
+           "origin_reports": {
+             "type": "array",
+             "minItems": 1,
+             "uniqueItems": true,
+-            "items": {"enum": ["astra", "claude", "gemini_flash", "gemini"]}
++            "items": {
++              "enum": [
++                "astra",
++                "claude",
++                "gemini_flash",
++                "gemini",
++                "terra"
++              ]
++            }
+           },
+           "category": {
+             "enum": [
+@@ -58,50 +99,162 @@
+               "other"
+             ]
+           },
+-          "severity": {"enum": ["critical", "major", "moderate", "minor"]},
+-          "certainty": {"enum": ["confirmed_conflict", "strong_inference", "reader_reaction", "hypothesis", "taste"]},
++          "severity": {
++            "enum": [
++              "critical",
++              "major",
++              "moderate",
++              "minor"
++            ]
++          },
++          "certainty": {
++            "enum": [
++              "confirmed_conflict",
++              "strong_inference",
++              "reader_reaction",
++              "hypothesis",
++              "taste"
++            ]
++          },
+           "locations": {
+             "type": "array",
+             "items": {
+               "type": "object",
+-              "required": ["anchor"],
++              "required": [
++                "anchor"
++              ],
+               "properties": {
+-                "chapter": {"type": ["integer", "string", "null"]},
+-                "anchor": {"type": "string", "minLength": 1},
+-                "quote": {"type": ["string", "null"]}
+-              }
+-            }
+-          },
+-          "observation": {"type": "string", "minLength": 1},
+-          "reader_effect": {"type": "string", "minLength": 1},
+-          "evidence": {"type": "string", "minLength": 1},
+-          "agreement": {"enum": ["single", "convergent", "conflicted"]},
+-          "proposed_actions": {"type": "array", "items": {"type": "string"}},
+-          "dependencies": {"type": "array", "items": {"type": "string"}},
++                "chapter": {
++                  "type": [
++                    "integer",
++                    "string",
++                    "null"
++                  ]
++                },
++                "anchor": {
++                  "type": "string",
++                  "minLength": 1
++                },
++                "quote": {
++                  "type": [
++                    "string",
++                    "null"
++                  ]
++                }
++              }
++            }
++          },
++          "observation": {
++            "type": "string",
++            "minLength": 1
++          },
++          "reader_effect": {
++            "type": "string",
++            "minLength": 1
++          },
++          "evidence": {
++            "type": "string",
++            "minLength": 1
++          },
++          "agreement": {
++            "enum": [
++              "single",
++              "convergent",
++              "conflicted"
++            ]
++          },
++          "proposed_actions": {
++            "type": "array",
++            "items": {
++              "type": "string"
++            }
++          },
++          "dependencies": {
++            "type": "array",
++            "items": {
++              "type": "string"
++            }
++          },
+           "author_decision": {
+             "type": "object",
+-            "required": ["status", "basis"],
++            "required": [
++              "status",
++              "basis"
++            ],
+             "properties": {
+-              "status": {"enum": ["pending", "accepted", "rejected", "modified", "deferred"]},
+-              "basis": {"type": ["string", "null"]},
+-              "decided_at": {"type": ["string", "null"]}
++              "status": {
++                "enum": [
++                  "pending",
++                  "accepted",
++                  "rejected",
++                  "modified",
++                  "deferred"
++                ]
++              },
++              "basis": {
++                "type": [
++                  "string",
++                  "null"
++                ]
++              },
++              "decided_at": {
++                "type": [
++                  "string",
++                  "null"
++                ]
++              }
+             }
+           },
+           "implementation": {
+             "type": "object",
+-            "required": ["status", "targets"],
++            "required": [
++              "status",
++              "targets"
++            ],
+             "properties": {
+-              "status": {"enum": ["not_started", "not_applicable", "applied", "partial"]},
+-              "targets": {"type": "array", "items": {"type": "string"}},
+-              "revision_sha256": {"type": ["string", "null"]}
++              "status": {
++                "enum": [
++                  "not_started",
++                  "not_applicable",
++                  "applied",
++                  "partial"
++                ]
++              },
++              "targets": {
++                "type": "array",
++                "items": {
++                  "type": "string"
++                }
++              },
++              "revision_sha256": {
++                "type": [
++                  "string",
++                  "null"
++                ]
++              }
+             }
+           },
+           "verification": {
+             "type": "object",
+-            "required": ["status", "evidence"],
++            "required": [
++              "status",
++              "evidence"
++            ],
+             "properties": {
+-                           "status": {"enum": ["not_run", "passed", "failed", "stale"]},
+-              "evidence": {"type": ["string", "null"]}
++              "status": {
++                "enum": [
++                  "not_run",
++                  "passed",
++                  "failed",
++                  "stale"
++                ]
++              },
++              "evidence": {
++                "type": [
++                  "string",
++                  "null"
++                ]
++              }
+             }
+           }
+         }
+--- kontakt\books\book-01\production\2026-09-21-book01\checks\terra-policy-migration\before\editorial\schemas\run.schema.json
++++ editorial/schemas/run.schema.json
+@@ -16,12 +16,52 @@
+     "issue_ledger"
+   ],
+   "properties": {
+-    "schema_version": {"enum": [1, 2]},
+-    "language": {"enum": ["uk", "en", "ru"]},
+-    "required_diagnoses": {"const": ["astra", "claude", "gemini_flash", "gemini"]},
+-    "run_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+-    "project_id": {"type": "string", "minLength": 1},
+-    "book_id": {"type": "string", "minLength": 1},
++    "schema_version": {
++      "enum": [
++        1,
++        2,
++        3
++      ]
++    },
++    "language": {
++      "enum": [
++        "uk",
++        "en",
++        "ru"
++      ]
++    },
++    "required_diagnoses": {
++      "oneOf": [
++        {
++          "const": [
++            "astra",
++            "claude",
++            "gemini_flash",
++            "gemini"
++          ]
++        },
++        {
++          "const": [
++            "astra",
++            "terra",
++            "gemini_flash",
++            "gemini"
++          ]
++        }
++      ]
++    },
++    "run_id": {
++      "type": "string",
++      "pattern": "^[a-z0-9][a-z0-9-]*$"
++    },
++    "project_id": {
++      "type": "string",
++      "minLength": 1
++    },
++    "book_id": {
++      "type": "string",
++      "minLength": 1
++    },
+     "status": {
+       "enum": [
+         "prepared",
+@@ -32,42 +72,180 @@
+         "verified"
+       ]
+     },
+-    "source": {"$ref": "#/$defs/artifact"},
+-    "reader": {"$ref": "#/$defs/artifact"},
++    "source": {
++      "$ref": "#/$defs/artifact"
++    },
++    "reader": {
++      "$ref": "#/$defs/artifact"
++    },
+     "reports": {
+       "type": "object",
+-      "required": ["astra", "claude", "gemini", "reconciliation", "verification"],
+-      "additionalProperties": {"$ref": "#/$defs/report"}
+-    },
+-    "author_decisions": {"$ref": "#/$defs/report"},
+-    "issue_ledger": {"type": "string", "const": "issue-ledger.json"}
++      "required": [
++        "astra",
++        "gemini",
++        "reconciliation",
++        "verification"
++      ],
++      "additionalProperties": {
++        "$ref": "#/$defs/report"
++      }
++    },
++    "author_decisions": {
++      "$ref": "#/$defs/report"
++    },
++    "issue_ledger": {
++      "type": "string",
++      "const": "issue-ledger.json"
++    },
++    "review_policy_basis": {
++      "type": "string",
++      "minLength": 1
++    }
+   },
+-  "allOf": [{"if": {"properties": {"schema_version": {"const": 2}}}, "then": {"required": ["language", "required_diagnoses"], "properties": {"reports": {"required": ["gemini_flash"]}}}}],
++  "allOf": [
++    {
++      "if": {
++        "properties": {
++          "schema_version": {
++            "enum": [
++              1,
++              2
++            ]
++          }
++        }
++      },
++      "then": {
++        "properties": {
++          "reports": {
++            "required": [
++              "claude"
++            ]
++          }
++        }
++      }
++    },
++    {
++      "if": {
++        "properties": {
++          "schema_version": {
++            "const": 2
++          }
++        }
++      },
++      "then": {
++        "required": [
++          "language",
++          "required_diagnoses"
++        ],
++        "properties": {
++          "required_diagnoses": {
++            "const": [
++              "astra",
++              "claude",
++              "gemini_flash",
++              "gemini"
++            ]
++          },
++          "reports": {
++            "required": [
++              "gemini_flash"
++            ]
++          }
++        }
++      }
++    },
++    {
++      "if": {
++        "properties": {
++          "schema_version": {
++            "const": 3
++          }
++        }
++      },
++      "then": {
++        "required": [
++          "language",
++          "required_diagnoses",
++          "review_policy_basis"
++        ],
++        "properties": {
++          "required_diagnoses": {
++            "const": [
++              "astra",
++              "terra",
++              "gemini_flash",
++              "gemini"
++            ]
++          },
++          "reports": {
++            "required": [
++              "terra",
++              "gemini_flash"
++            ]
++          }
++        }
++      }
++    }
++  ],
+   "$defs": {
+     "artifact": {
+       "type": "object",
+-           "required": ["path", "sha256"],
++      "required": [
++        "path",
++        "sha256"
++      ],
+       "properties": {
+-        "path": {"type": "string", "minLength": 1},
+-        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+-        "status": {"type": "string"},
+-        "authority": {"type": "string"},
+-        "relation": {"type": "string"}
++        "path": {
++          "type": "string",
++          "minLength": 1
++        },
++        "sha256": {
++          "type": "string",
++          "pattern": "^[0-9a-f]{64}$"
++        },
++        "status": {
++          "type": "string"
++        },
++        "authority": {
++          "type": "string"
++        },
++        "relation": {
++          "type": "string"
++        }
+       }
+     },
+     "report": {
+       "type": "object",
+-      "required": ["file", "status", "sha256"],
++      "required": [
++        "file",
++        "status",
++        "sha256"
++      ],
+       "properties": {
+-        "file": {"type": "string", "minLength": 1},
+-        "status": {"enum": ["draft", "locked"]},
++        "file": {
++          "type": "string",
++          "minLength": 1
++        },
++        "status": {
++          "enum": [
++            "draft",
++            "locked"
++          ]
++        },
+         "sha256": {
+           "oneOf": [
+-            {"type": "null"},
+-            {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+-          ]
+-        },
+-        "locked_at": {"type": "string"}
++            {
++              "type": "null"
++            },
++            {
++              "type": "string",
++              "pattern": "^[0-9a-f]{64}$"
++            }
++          ]
++        },
++        "locked_at": {
++          "type": "string"
++        }
+       }
+     }
+   }

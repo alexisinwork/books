@@ -16,12 +16,52 @@
     "issue_ledger"
   ],
   "properties": {
-    "schema_version": {"enum": [1, 2]},
-    "language": {"enum": ["uk", "en", "ru"]},
-    "required_diagnoses": {"const": ["astra", "claude", "gemini_flash", "gemini"]},
-    "run_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
-    "project_id": {"type": "string", "minLength": 1},
-    "book_id": {"type": "string", "minLength": 1},
+    "schema_version": {
+      "enum": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": {
+      "enum": [
+        "uk",
+        "en",
+        "ru"
+      ]
+    },
+    "required_diagnoses": {
+      "oneOf": [
+        {
+          "const": [
+            "astra",
+            "claude",
+            "gemini_flash",
+            "gemini"
+          ]
+        },
+        {
+          "const": [
+            "astra",
+            "terra",
+            "gemini_flash",
+            "gemini"
+          ]
+        }
+      ]
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "book_id": {
+      "type": "string",
+      "minLength": 1
+    },
     "status": {
       "enum": [
         "prepared",
@@ -32,42 +72,180 @@
         "verified"
       ]
     },
-    "source": {"$ref": "#/$defs/artifact"},
-    "reader": {"$ref": "#/$defs/artifact"},
+    "source": {
+      "$ref": "#/$defs/artifact"
+    },
+    "reader": {
+      "$ref": "#/$defs/artifact"
+    },
     "reports": {
       "type": "object",
-      "required": ["astra", "claude", "gemini", "reconciliation", "verification"],
-      "additionalProperties": {"$ref": "#/$defs/report"}
+      "required": [
+        "astra",
+        "gemini",
+        "reconciliation",
+        "verification"
+      ],
+      "additionalProperties": {
+        "$ref": "#/$defs/report"
+      }
     },
-    "author_decisions": {"$ref": "#/$defs/report"},
-    "issue_ledger": {"type": "string", "const": "issue-ledger.json"}
+    "author_decisions": {
+      "$ref": "#/$defs/report"
+    },
+    "issue_ledger": {
+      "type": "string",
+      "const": "issue-ledger.json"
+    },
+    "review_policy_basis": {
+      "type": "string",
+      "minLength": 1
+    }
   },
-  "allOf": [{"if": {"properties": {"schema_version": {"const": 2}}}, "then": {"required": ["language", "required_diagnoses"], "properties": {"reports": {"required": ["gemini_flash"]}}}}],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "schema_version": {
+            "enum": [
+              1,
+              2
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "reports": {
+            "required": [
+              "claude"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "schema_version": {
+            "const": 2
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "language",
+          "required_diagnoses"
+        ],
+        "properties": {
+          "required_diagnoses": {
+            "const": [
+              "astra",
+              "claude",
+              "gemini_flash",
+              "gemini"
+            ]
+          },
+          "reports": {
+            "required": [
+              "gemini_flash"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "schema_version": {
+            "const": 3
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "language",
+          "required_diagnoses",
+          "review_policy_basis"
+        ],
+        "properties": {
+          "required_diagnoses": {
+            "const": [
+              "astra",
+              "terra",
+              "gemini_flash",
+              "gemini"
+            ]
+          },
+          "reports": {
+            "required": [
+              "terra",
+              "gemini_flash"
+            ]
+          }
+        }
+      }
+    }
+  ],
   "$defs": {
     "artifact": {
       "type": "object",
-           "required": ["path", "sha256"],
+      "required": [
+        "path",
+        "sha256"
+      ],
       "properties": {
-        "path": {"type": "string", "minLength": 1},
-        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
-        "status": {"type": "string"},
-        "authority": {"type": "string"},
-        "relation": {"type": "string"}
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "status": {
+          "type": "string"
+        },
+        "authority": {
+          "type": "string"
+        },
+        "relation": {
+          "type": "string"
+        }
       }
     },
     "report": {
       "type": "object",
-      "required": ["file", "status", "sha256"],
+      "required": [
+        "file",
+        "status",
+        "sha256"
+      ],
       "properties": {
-        "file": {"type": "string", "minLength": 1},
-        "status": {"enum": ["draft", "locked"]},
-        "sha256": {
-          "oneOf": [
-            {"type": "null"},
-            {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "locked"
           ]
         },
-        "locked_at": {"type": "string"}
+        "sha256": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          ]
+        },
+        "locked_at": {
+          "type": "string"
+        }
       }
     }
   }

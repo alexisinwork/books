@@ -1,14 +1,14 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "run_id": "ch11-20260922-sol-v1",
   "project_id": "kontakt-razlad",
   "book_id": "book-01",
   "created_at": "2026-09-21T23:36:15+00:00",
-  "status": "diagnosis_in_progress",
+  "status": "reconciled",
   "language": "uk",
   "required_diagnoses": [
     "astra",
-    "claude",
+    "terra",
     "gemini_flash",
     "gemini"
   ],
@@ -27,7 +27,8 @@
     "astra": "must not read current Claude or Gemini reports before lock",
     "claude": "must not read current Astra or Gemini reports before lock",
     "gemini_flash": "independent full-text literary/continuity analysis; no current peer reports",
-    "gemini": "isolated packet only; no repository canon, audits or change hints"
+    "gemini": "isolated packet only; no repository canon, audits or change hints",
+    "terra": "Fresh isolated native Terra agent, no peer reports or writer notes"
   },
   "reports": {
     "astra": {
@@ -38,8 +39,9 @@
     },
     "claude": {
       "file": "claude-diagnosis.md",
-      "status": "draft",
-      "sha256": null
+      "status": "locked",
+      "sha256": "1f7f0292aec8de1ae1023f25714eb7afcae7380678afe3d96a589ea4216f45fe",
+      "locked_at": "2026-09-22T06:52:54+00:00"
     },
     "gemini_flash": {
       "file": "gemini-flash-diagnosis.md",
@@ -55,13 +57,20 @@
     },
     "reconciliation": {
       "file": "reconciliation.md",
-      "status": "draft",
-      "sha256": null
+      "status": "locked",
+      "sha256": "e2302cf4001d1419de5da82d0617f79f45b898c826106b346415201cda33c59f",
+      "locked_at": "2026-09-22T06:55:55+00:00"
     },
     "verification": {
       "file": "verification.md",
       "status": "draft",
       "sha256": null
+    },
+    "terra": {
+      "file": "terra-diagnosis.md",
+      "status": "locked",
+      "sha256": "4148d3c7c75b43133843f35792309e996d454b8954779691e6a1113c84403927",
+      "locked_at": "2026-09-22T06:52:54+00:00"
     }
   },
   "author_decisions": {
@@ -69,5 +78,6 @@
     "status": "draft",
     "sha256": null
   },
-  "issue_ledger": "issue-ledger.json"
+  "issue_ledger": "issue-ledger.json",
+  "review_policy_basis": "kontakt/books/book-01/production/2026-09-21-book01/REVIEW-POLICY-2026-09-22.md"
 }

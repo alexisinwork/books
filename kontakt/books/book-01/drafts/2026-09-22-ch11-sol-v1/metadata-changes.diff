@@ -1,0 +1,683 @@
+--- kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/progress.json
++++ kontakt/books/book-01/production/2026-09-21-book01/progress.json
+@@ -82,10 +82,18 @@
+       "observed_state": "drafts/2026-09-22-ch10-sol-v1/observed-state.json",
+       "review_run": "audit/ensemble/ch10-20260922-sol-v1",
+       "status": "reviewed_working_draft_not_canonical"
++    },
++    {
++      "chapter": 11,
++      "source": "drafts/2026-09-22-ch11-sol-v1/chapter-11.md",
++      "sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "observed_state": "drafts/2026-09-22-ch11-sol-v1/observed-state.json",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "status": "reviewed_working_draft_not_canonical"
+     }
+   ],
+-  "current_chapter": 11,
+-  "current_stage": "chapter_11_waiting_opus_quota_reset",
++  "current_chapter": 12,
++  "current_stage": "chapter_12_writer_running",
+   "future_chapters": "macro architecture; progressively detailed before writing",
+   "global_audit": "not_run",
+   "last_block_review": {
+@@ -95,11 +103,5 @@
+     "status": "architect_review_completed_not_global_audit"
+   },
+   "latest_block_audit": "block-audits/chapters-06-10/verification.json",
+-  "pending_chapter_review": {
+-    "chapter": 11,
+-    "source": "kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/chapter-11.md",
+-    "sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
+-    "record": "kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/checks/opus-retry-status.json",
+-    "retry_not_before_utc": "2026-09-22T00:09:00Z"
+-  }
++  "review_policy": "REVIEW-POLICY-2026-09-22.md"
+ }
+--- kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json
++++ kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json
+@@ -82,7 +82,7 @@
+       "sequence": "S04",
+       "day": "D4",
+       "function": "Призначення Ладушки, ім’я Баласт, ціна відключення",
+-      "status": "planned"
++      "status": "reviewed_draft_with_open_editorial_ledger"
+     },
+     {
+       "chapter": 12,
+--- kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
++++ kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
+@@ -1,7 +1,7 @@
+ {
+   "book_id": "book-01",
+   "status": "working_draft_collection_not_master",
+-  "chapter_count": 10,
++  "chapter_count": 11,
+   "chapters": [
+     {
+       "chapter": 1,
+@@ -82,6 +82,14 @@
+       "observed_state": "drafts/2026-09-22-ch10-sol-v1/observed-state.json",
+       "review_run": "audit/ensemble/ch10-20260922-sol-v1",
+       "status": "reviewed_working_draft_not_canonical"
++    },
++    {
++      "chapter": 11,
++      "source": "drafts/2026-09-22-ch11-sol-v1/chapter-11.md",
++      "sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "observed_state": "drafts/2026-09-22-ch11-sol-v1/observed-state.json",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "status": "reviewed_working_draft_not_canonical"
+     }
+   ],
+   "global_audit": "not_run",
+--- kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/metadata-before/kontakt/books/book-01/book.json
++++ kontakt/books/book-01/book.json
+@@ -8,7 +8,7 @@
+   "master": null,
+   "voice": "voice.json",
+   "canon": "../../series/canon.json",
+-  "audit_status": "chapter_10_reviewed_volume_in_progress",
++  "audit_status": "chapter_11_reviewed_volume_in_progress",
+   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
+   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
+   "language": "uk",
+@@ -23,25 +23,25 @@
+   "planning_state": "planned_not_observed",
+   "execution_entry": "production/2026-09-21-book01/progress.json",
+   "draft_scope": {
+-    "chapter": 10,
++    "chapter": 11,
+     "whole_book_ready": false,
+     "whole_series_ready": false,
+     "prose_started": true,
+-    "execution": "execution/HANDOFF-CH10.md"
++    "execution": "execution/HANDOFF-CH11.md"
+   },
+   "working_revision": {
+-    "path": "drafts/2026-09-22-ch10-sol-v1/chapter-10.md",
+-    "sha256": "8fb300b16e4e27a75be7e1d2899d28b1b2d2e0a75ff7d049e1c53f23cc14ab46",
++    "path": "drafts/2026-09-22-ch11-sol-v1/chapter-11.md",
++    "sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
+     "format": "md",
+     "language": "uk",
+     "status": "draft_not_author_selected",
+-    "scope": "chapter 10; complete collection in working_volume",
+-    "observed_state": "drafts/2026-09-22-ch10-sol-v1/observed-state.json",
+-    "review_run": "audit/ensemble/ch10-20260922-sol-v1"
++    "scope": "chapter 11; complete collection in working_volume",
++    "observed_state": "drafts/2026-09-22-ch11-sol-v1/observed-state.json",
++    "review_run": "audit/ensemble/ch11-20260922-sol-v1"
+   },
+   "working_volume": {
+     "manifest": "production/2026-09-21-book01/working-volume.json",
+-    "chapters": 10,
++    "chapters": 11,
+     "status": "in_progress_not_master"
+   }
+ }
+--- kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/metadata-before/kontakt/books/book-01/session.md
++++ kontakt/books/book-01/session.md
+@@ -2,6 +2,6 @@
+ 
+ Поточне доручення: завершити том 1 з перевірками кожної глави, потім повний аудит. Див. production/2026-09-21-book01/authorization.md.
+ 
+-Глави 1–10 написані й мають чотири діагнози та зведення. Остання: [chapter-10.md](drafts/2026-09-22-ch10-sol-v1/chapter-10.md), SHA-256 `8fb300b16e4e27a75be7e1d2899d28b1b2d2e0a75ff7d049e1c53f23cc14ab46`. Фактичний стан: [2026-09-22-ch10-sol-v1](drafts/2026-09-22-ch10-sol-v1/observed-state.json). Планові реєстри збережені; master=null.
++Глави 1–11 написані й мають чотири діагнози та зведення. Остання: [chapter-11.md](drafts/2026-09-22-ch11-sol-v1/chapter-11.md), SHA-256 `73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319`. Фактичний стан: [2026-09-22-ch11-sol-v1](drafts/2026-09-22-ch11-sol-v1/observed-state.json). Планові реєстри збережені; master=null.
+ 
+-Далі: глава 11, перед письмом окрема звірка стану й handoff. Точний прогрес і версії: [реєстр](production/2026-09-21-book01/progress.json). Відкриті редакторські пропозиції не визнані авторськими рішеннями. Повного аудиту тому ще немає.
++Далі: глава 12, перед письмом окрема звірка стану й handoff. Точний прогрес і версії: [реєстр](production/2026-09-21-book01/progress.json). Відкриті редакторські пропозиції не визнані авторськими рішеннями. Повного аудиту тому ще немає.
+--- kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/metadata-before/kontakt/START_HERE.md
++++ kontakt/START_HERE.md
+@@ -2,6 +2,6 @@
+ 
+ Автор доручив завершити український том 1 по главі з усіма перевірками, потім виконати повний аудит.
+ 
+-Готові чернетки глав 1–10; далі глава 11. [Поточний прогрес](books/book-01/production/2026-09-21-book01/progress.json). [Робочий маршрут](books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md). [Остання глава й перевірки](books/book-01/drafts/2026-09-22-ch10-sol-v1/README.md).
++Готові чернетки глав 1–11; далі глава 12. [Поточний прогрес](books/book-01/production/2026-09-21-book01/progress.json). [Робочий маршрут](books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md). [Остання глава й перевірки](books/book-01/drafts/2026-09-22-ch11-sol-v1/README.md).
+ 
+ Master не призначено. Для продовження спочатку читати фактичний observed-state останньої глави, потім scoped handoff. Макроархітектура восьми книг збережена; плани не стали подіями рукопису.
+--- kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/metadata-before/kontakt/books/book-01/plan.md
++++ kontakt/books/book-01/plan.md
+@@ -47,3 +47,7 @@
+ ## Поступ після глави 10
+ 
+ Чернетки 1–10: production/2026-09-21-book01/working-volume.json. Наступна глава 11; факт і план розділені.
++
++## Поступ після глави 11
++
++Чернетки 1–11: production/2026-09-21-book01/working-volume.json. Наступна глава 12; факт і план розділені.
+--- kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/metadata-before/kontakt/books/book-01/brief.md
++++ kontakt/books/book-01/brief.md
+@@ -47,3 +47,7 @@
+ ## Поступ після глави 10
+ 
+ Чернетки 1–10: production/2026-09-21-book01/working-volume.json. Наступна глава 11; факт і план розділені.
++
++## Поступ після глави 11
++
++Чернетки 1–11: production/2026-09-21-book01/working-volume.json. Наступна глава 12; факт і план розділені.
+--- kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/metadata-before/kontakt/books/book-01/audit/issues.json
++++ kontakt/books/book-01/audit/issues.json
+@@ -2772,6 +2772,466 @@
+       "author_decision": "pending",
+       "scope": "architect block audit; no prose edits",
+       "evidence": "production/2026-09-21-book01/block-audits/chapters-06-10/REPORT.md"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-001",
++      "category": "knowledge",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Terra читає «поки ви лишаєтеся біля плити» як непоказане знання про місце Даля. Astra читає як умовне правило; P0027 прямо розвиває альтернативу.",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0013",
++          "quote": "Я вибрав зі списку одноразовий кухонний сеанс. Він дозволяв голос сервісу тільки через цей пристрій, поточний таймер та стан однієї конфорки. Мікрофон працював, лише поки картка сервісу була відкрита. Решта домашніх каналів лишалася закритою."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0025",
++          "quote": "— Таймер бачу, — сказав сервіс. — Моє втручання не потрібне, поки ви лишаєтеся біля плити."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0027",
++          "quote": "— А якщо не лишаюся?"
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0028",
++          "quote": "— Нагадаю до того, як спрацює таймер. Моя функція — зменшувати побутове навантаження, поки професійна готовність не визначена."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-002",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Окремий ключ явно вирішує допуск; чи відновлює він автоматичний виклик, не сказано.",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0040",
++          "quote": "— Автоматичний аварійний допуск служби будинку до вашої квартири. Локальні датчики диму й витоку працюватимуть, але виклик служби та відкриття дверей доведеться підтверджувати вручну."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0041",
++          "quote": "— Навіть якщо я не зможу підтвердити?"
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0042",
++          "quote": "— Тоді двері автоматично не відкриються. Можна заздалегідь оформити окремий аварійний ключ поза особистим контуром."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0043",
++          "quote": "Це не було забороною. На екрані стояла кнопка виходу, а під нею — маршрут оформлення окремого ключа. Два відвідування будинкової служби й фізичний носій, який треба було забирати особисто."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-003",
++      "category": "pacing",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Перехід від восьми хвилин до 42 секунд може відчуватися швидким. Інші читачі часової проблеми не відчули.",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0024",
++          "quote": "Я дочекався кипіння, висипав макарони й запустив таймер на вісім хвилин."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0044",
++          "quote": "Я торкнувся маршруту, відкрив перший із семи кроків."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0045",
++          "quote": "— До завершення таймера сорок дві секунди, — сказав Баласт. — Умови окремого ключа займають сім екранів."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-004",
++      "category": "repetition",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Варіанти відключення й межі доступу переказано повторно; Flash позитивно оцінив підсумкову фразу.",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0036",
++          "quote": "На екрані відкрилися три окремі дії. Голос можна було вимкнути без втрати сервісу. Кухонний сеанс можна було завершити негайно; разом із ним закривалися таймер і стан конфорки. Мікрофон вимикався окремим закриттям картки. Повний вихід із пов’язаного особистого контуру стояв третім."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0052",
++          "quote": "Я повернувся до сторінки виходу. Кнопка лишалася доступною. Окремий аварійний ключ нікуди не зник. Я міг вимкнути голос одним дотиком, закрити кухонний доступ іншим або вийти повністю й заплатити часом та частиною безпеки за незалежний маршрут."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0054",
++          "quote": "Кухонний сеанс завершився сам разом із таймером. Позначки конфорки й таймера згасли. Баласт лишився призначеним: голос — тільки через пристрій, доступ — тільки до професійного статусу й вільного слота, відкритих під час призначення. Картка ще була відкрита, тому мікрофон чекав на мою дію."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-005",
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Фінальний висновок може пояснювати вже показане; Opus вважає його сильним, Pro вбачає майбутній план використати сервіс.",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0059",
++          "quote": "Це було зайве, доки не стало корисним."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-006",
++      "category": "language",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "«Повернув нагрів» — стисле позначення повторного ввімкнення, можливе спотикання.",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0020",
++          "quote": "Я повернув нагрів."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-007",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Пропущений підмет чоловічого роду відсилає до сервісу, попри жіночу форму імені Ладушка.",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0023",
++          "quote": "Принаймні не приписував собі знання про каструлю."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-008",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "«Закривалися таймер і стан конфорки» стискає закриття доступів до назви самих об’єктів.",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0036",
++          "quote": "На екрані відкрилися три окремі дії. Голос можна було вимкнути без втрати сервісу. Кухонний сеанс можна було завершити негайно; разом із ним закривалися таймер і стан конфорки. Мікрофон вимикався окремим закриттям картки. Повний вихід із пов’язаного особистого контуру стояв третім."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-009",
++      "category": "voice",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "«Перекинувся» різкіше за діловий регістр; у зв’язці з Баластом працює метафора стійкості.",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0029",
++          "quote": "— Щоб я не перекинувся?"
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0031",
++          "quote": "— Баласт, — сказав я."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-010",
++      "category": "repetition",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Чотири вживання «стояти» для UI/станів підтверджені.",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0005",
++          "quote": "На екрані стояло повідомлення:"
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0010",
++          "quote": "Професійний статус і стан вільного слота вже входили до призначення. Побутові канали стояли вимкнені: домашній звук, кухонні прилади, освітлення, замки. Навпроти кожного був окремий перемикач."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0036",
++          "quote": "На екрані відкрилися три окремі дії. Голос можна було вимкнути без втрати сервісу. Кухонний сеанс можна було завершити негайно; разом із ним закривалися таймер і стан конфорки. Мікрофон вимикався окремим закриттям картки. Повний вихід із пов’язаного особистого контуру стояв третім."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0043",
++          "quote": "Це не було забороною. На екрані стояла кнопка виходу, а під нею — маршрут оформлення окремого ключа. Два відвідування будинкової служби й фізичний носій, який треба було забирати особисто."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-011",
++      "category": "repetition",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "«Сім кроків / сім екранів» у сусідніх абзацах.",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0044",
++          "quote": "Я торкнувся маршруту, відкрив перший із семи кроків."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0045",
++          "quote": "— До завершення таймера сорок дві секунди, — сказав Баласт. — Умови окремого ключа займають сім екранів."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-012",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Пояснення про окреме закриття мікрофона може сприйматися як четвертий пункт після «трьох дій».",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0036",
++          "quote": "На екрані відкрилися три окремі дії. Голос можна було вимкнути без втрати сервісу. Кухонний сеанс можна було завершити негайно; разом із ним закривалися таймер і стан конфорки. Мікрофон вимикався окремим закриттям картки. Повний вихід із пов’язаного особистого контуру стояв третім."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-013",
++      "category": "repetition",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Три послідовні абзаци починаються з «Я».",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0012",
++          "quote": "Я повернувся на кухню з пристроєм у руці. Вода підняла кришку й виплеснулася на край каструлі. Я вимкнув нагрів, витер плиту й повернув каструлю на конфорку."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0013",
++          "quote": "Я вибрав зі списку одноразовий кухонний сеанс. Він дозволяв голос сервісу тільки через цей пристрій, поточний таймер та стан однієї конфорки. Мікрофон працював, лише поки картка сервісу була відкрита. Решта домашніх каналів лишалася закритою."
++        },
++        {
++          "chapter": "11",
++          "anchor": "P0014",
++          "quote": "Я перечитав межі й дозволив."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-014",
++      "category": "pacing",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Повернення каструлі після витирання може здаватися надмірною фізичною деталлю.",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0012",
++          "quote": "Я повернувся на кухню з пристроєм у руці. Вода підняла кришку й виплеснулася на край каструлі. Я вимкнув нагрів, витер плиту й повернув каструлю на конфорку."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH11-SOL-V1-ENS-015",
++      "category": "punctuation",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Можлива інтонаційна пауза перед «сорок дві секунди».",
++      "anchors": [
++        {
++          "chapter": "11",
++          "anchor": "P0045",
++          "quote": "— До завершення таймера сорок дві секунди, — сказав Баласт. — Умови окремого ключа займають сім екранів."
++        }
++      ],
++      "dependencies": [
++        "CH11 future authorized revision",
++        "CH11–15 block audit",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
++      "review_run": "audit/ensemble/ch11-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
+     }
+   ]
+ }
+--- kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/metadata-before/kontakt/books/book-01/revision-log.json
++++ kontakt/books/book-01/revision-log.json
+@@ -256,6 +256,28 @@
+         "record": "drafts/2026-09-22-ch10-sol-v1/checks/verification.json",
+         "release_ready": false
+       }
++    },
++    {
++      "id": "ch11-20260922-sol-v1",
++      "reason": "Author authorized completion of volume one chapter at a time with checks",
++      "decision": "applied_to_draft_only",
++      "old_source": null,
++      "new_source": {
++        "path": "drafts/2026-09-22-ch11-sol-v1/chapter-11.md",
++        "sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319"
++      },
++      "preflight_history": "drafts/2026-09-22-ch11-sol-v1/preflight-changes.diff",
++      "observed_state": "drafts/2026-09-22-ch11-sol-v1/observed-state.json",
++      "dependencies": {
++        "planned_registers": "unchanged; actual candidate states separate",
++        "master_snapshot": "not applicable, master null",
++        "next_chapter": 12
++      },
++      "verification": {
++        "run": "audit/ensemble/ch11-20260922-sol-v1",
++        "record": "drafts/2026-09-22-ch11-sol-v1/checks/verification.json",
++        "release_ready": false
++      }
+     }
+   ]
+ }
+--- kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/metadata-before/kontakt/series/architecture-pass-01-status.json
++++ kontakt/series/architecture-pass-01-status.json
+@@ -6,7 +6,7 @@
+   "books": [
+     {
+       "book_id": "book-01",
+-      "status": "chapters_01_10_drafted_reviewed",
++      "status": "chapters_01_11_drafted_reviewed",
+       "architecture_pass": "macro_reviewed",
+       "scene_gate": "chapter_01_only",
+       "master": null
+@@ -70,9 +70,9 @@
+   },
+   "current_draft": {
+     "book_id": "book-01",
+-    "chapter": 10,
+-    "path": "kontakt/books/book-01/drafts/2026-09-22-ch10-sol-v1/chapter-10.md",
+-    "sha256": "8fb300b16e4e27a75be7e1d2899d28b1b2d2e0a75ff7d049e1c53f23cc14ab46",
++    "chapter": 11,
++    "path": "kontakt/books/book-01/drafts/2026-09-22-ch11-sol-v1/chapter-11.md",
++    "sha256": "73576e800293e0184210e055aec9e9c9a5f46762f60f95aff23fa9ac669e0319",
+     "status": "reviewed_working_draft",
+     "whole_book_written": false,
+     "volume_progress": "books/book-01/production/2026-09-21-book01/progress.json"

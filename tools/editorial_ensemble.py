@@ -24,6 +24,7 @@ SHA_RE = re.compile(r"^[0-9a-f]{64}$")
 REPORTS = {
     "astra": "astra-diagnosis.md",
     "claude": "claude-diagnosis.md",
+    "terra": "terra-diagnosis.md",
     "gemini_flash": "gemini-flash-diagnosis.md",
     "gemini": "gemini-blind-read.md",
     "reconciliation": "reconciliation.md",
@@ -227,6 +228,7 @@ def validate_issue(item: dict) -> None:
     if not item["origin_reports"] or not set(item["origin_reports"]) <= {
         "astra",
         "claude",
+        "terra",
         "gemini",
         "gemini_flash",
     }:
@@ -296,6 +298,13 @@ def validate_report(text: str, run: dict, role: str) -> None:
 
 
 def diagnosis_roles(run: dict) -> tuple:
+    if run.get("schema_version") == 3:
+        required = ("astra", "terra", "gemini_flash", "gemini")
+        if run.get("required_diagnoses") != list(required):
+            raise EnsembleError("Schema 3 requires Astra, Terra, Gemini Flash and Gemini Pro")
+        if not run.get("review_policy_basis"):
+            raise EnsembleError("Schema 3 requires an explicit review-policy basis")
+        return required
     if run.get("schema_version") == 2:
         required = ("astra", "claude", "gemini_flash", "gemini")
         if run.get("required_diagnoses") != list(required):
@@ -326,6 +335,10 @@ def cmd_init(args: argparse.Namespace) -> dict:
     if not RUN_ID_RE.fullmatch(args.run_id):
         raise EnsembleError("run-id must contain lowercase letters, digits and hyphens")
     source, reader = choose_source(root, book, book_dir, args.source, args.reader_file)
+    terra_policy = getattr(args, "review_policy", "opus") == "terra"
+    basis = getattr(args, "review_policy_basis", None)
+    if terra_policy and not basis:
+        raise EnsembleError("Terra policy requires --review-policy-basis")
     run_dir = book_dir / "audit" / "ensemble" / args.run_id
     if run_dir.exists():
         raise EnsembleError(f"Run already exists: {run_dir}")
@@ -338,7 +351,8 @@ def cmd_init(args: argparse.Namespace) -> dict:
         "READER_SHA256": reader["sha256"],
     }
     template_dir = root / "editorial" / "templates"
-    for filename in REPORTS.values():
+    active_reports = {k: v for k, v in REPORTS.items() if k != ("claude" if terra_policy else "terra")}
+    for filename in active_reports.values():
         (run_dir / filename).write_text(
             render(template_dir / filename, values), encoding="utf-8"
         )
@@ -350,25 +364,27 @@ def cmd_init(args: argparse.Namespace) -> dict:
         render(template_dir / "issue-ledger.json", values), encoding="utf-8"
     )
     run = {
-        "schema_version": 2,
+        "schema_version": 3 if terra_policy else 2,
         "run_id": args.run_id,
         "project_id": project["project_id"],
         "book_id": args.book,
         "created_at": now(),
         "status": "prepared",
         "language": getattr(args, "language", None) or book.get("canonical_language") or project.get("language_policy", {}).get("legacy_existing_source", "ru"),
-        "required_diagnoses": ["astra", "claude", "gemini_flash", "gemini"],
+        "required_diagnoses": ["astra", "terra" if terra_policy else "claude", "gemini_flash", "gemini"],
+        **({"review_policy_basis": basis} if terra_policy else {}),
         "source": source,
         "reader": reader,
         "independence": {
             "astra": "must not read current Claude or Gemini reports before lock",
             "claude": "must not read current Astra or Gemini reports before lock",
+            "terra": "independent literary diagnosis; no current peer reports before lock",
             "gemini_flash": "independent full-text literary/continuity analysis; no current peer reports",
             "gemini": "isolated packet only; no repository canon, audits or change hints",
         },
         "reports": {
             role: {"file": filename, "status": "draft", "sha256": None}
-            for role, filename in REPORTS.items()
+            for role, filename in active_reports.items()
         },
         "author_decisions": {
             "file": decisions_file,
@@ -542,7 +558,7 @@ def cmd_blind_pack(args: argparse.Namespace) -> dict:
 def verify_run(root: Path, run_dir: Path, run: dict, require_complete: bool) -> dict:
     errors = []
     try:
-        if run.get("schema_version") not in {1, 2} or not RUN_ID_RE.fullmatch(run.get("run_id", "")):
+        if run.get("schema_version") not in {1, 2, 3} or not RUN_ID_RE.fullmatch(run.get("run_id", "")):
             errors.append("invalid run identity")
         required = diagnosis_roles(run)
         if not set(required).issubset(run["reports"]):
@@ -568,7 +584,8 @@ def verify_run(root: Path, run_dir: Path, run: dict, require_complete: bool) -> 
         if require_complete:
             if run.get("status") != "verified":
                 errors.append("run is not verified")
-            if any(entry["status"] != "locked" for entry in run["reports"].values()):
+            completion_roles = (*required, "reconciliation", "verification")
+            if any(run["reports"][role]["status"] != "locked" for role in completion_roles):
                 errors.append("not all reports are locked")
             if decision_entry["status"] != "locked":
                 errors.append("author decisions are not locked")
@@ -656,6 +673,8 @@ def parser() -> argparse.ArgumentParser:
     init.add_argument("--source", help="explicit source path")
     init.add_argument("--reader-file", help="verified UTF-8 reading projection")
     init.add_argument("--language", choices=["uk", "en", "ru"], help="Actual source language, not the future edition language")
+    init.add_argument("--review-policy", choices=["opus", "terra"], default="opus", help="Explicit per-run policy; historical default unchanged")
+    init.add_argument("--review-policy-basis", help="Author instruction record required for Terra policy")
     init.set_defaults(func=cmd_init)
 
     record = commands.add_parser("record", help="lock a completed report")
