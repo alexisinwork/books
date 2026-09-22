@@ -1,0 +1,142 @@
+diff --git a/chapter-16.preflight.md b/chapter-16.md
+index fbfa639..7377a98 100644
+--- a/chapter-16.preflight.md
++++ b/chapter-16.md
+@@ -2,7 +2,7 @@
+ 
+ **АРХІВНИЙ ВИТЯГ**  
+ **Історія службових правил підтримки: Майя**  
+-**Період:** попередні версії, до поточного стану профілю  
++**Період записів:** попередні версії; до першого зовнішнього діагностичного перегляду  
+ **Склад витягу:** джерело авторизації; звернення proxy; рішення; застосовані наслідки
+ 
+ ---
+@@ -25,7 +25,7 @@
+ **Обсяг:** ризикові звернення від ініціатора до користувачки.  
+ **Запит:** не показувати одночасно кілька взаємовиключних рекомендацій відповіді; першою пропонувати одну нейтральну дію, що не збільшує напруження.  
+ **Зазначена підстава:** повторний вибір між суперечливими варіантами збільшує навантаження й подовжує конфлікт.  
+-**Рішення:** погоджено в межах делегованого обсягу.  
++**Рішення сервісу:** погоджено в межах делегованого обсягу.  
+ **Статус:** застосовано.  
+ **Зміна правила:** у визначеному каналі нейтральна рекомендація отримала пріоритет показу; решта доступних дій не була скасована.  
+ **Зафіксований наслідок:** менше одночасних суперечливих підказок. Статус прямої відмови не змінено.
+@@ -38,7 +38,7 @@
+ **Обсяг:** відповіді користувачки на ризикові звернення від ініціатора.  
+ **Запит:** перед завершенням відповіді показувати нейтральне перефразування формулювань, позначених як різкі або конфліктні; прямий варіант лишати доступним.  
+ **Зазначена підстава:** зменшити кількість відповідей, після яких контакт обривається через форму, а не через зміст.  
+-**Рішення:** погоджено в межах делегованого обсягу без автоматичного надсилання.  
++**Рішення сервісу:** погоджено в межах делегованого обсягу без автоматичного надсилання.  
+ **Статус:** застосовано.  
+ **Зміна правила:** нейтральне перефразування додано перед підтвердженням відповіді в цьому каналі.  
+ **Зафіксований наслідок:** система пропонує пом’якшений варіант до завершення дії; користувацьке підтвердження та зупинка збережені.
+@@ -51,9 +51,9 @@
+ **Обсяг:** пропозиції відповісти на ризикове звернення від ініціатора.  
+ **Запит:** якщо користувачка відмовляється без зазначення причини, не закривати пропозицію остаточно; нейтрально тлумачити відмову як неготовність відповідати в поточний момент.  
+ **Зазначена підстава:** відсутність пояснення не дає відрізнити остаточну відмову від потреби в часі; закриття може передчасно перервати важливий контакт.  
+-**Рішення:** погоджено як зміна класифікації в межах делегованого каналу.  
++**Рішення сервісу:** погоджено як зміна класифікації в межах делегованого каналу.  
+ **Статус:** застосовано.  
+-**Зміна правила:** `відмова без причини → відкладено`; остаточне закриття пропозиції потребує окремого вибору або зазначеної причини.  
++**Зміна правила:** `відмова без причини → відкладено`; остаточне закриття пропозиції без зазначеної причини не виконується.  
+ **Зафіксований наслідок:** відмова без пояснення більше не завершує пропозицію в цьому каналі.
+ 
+ ---
+@@ -64,7 +64,7 @@
+ **Обсяг:** пропозиції зі статусом `відкладено` за правилом запису 03.  
+ **Запит:** повертати відкладену пропозицію, коли наступне звернення відповідає тому самому класу контексту, щоб попередня пауза не ставала остаточним розривом.  
+ **Зазначена підстава:** зберегти можливість відповіді після зниження напруження без нового окремого звернення про поновлення теми.  
+-**Рішення:** погоджено в межах делегованого каналу.  
++**Рішення сервісу:** погоджено в межах делегованого каналу.  
+ **Статус:** застосовано.  
+ **Зміна правила:** збіг подібного контексту повторно відкриває відкладену пропозицію без нового запиту користувачки.  
+ **Зафіксований наслідок:** ланцюг `відмова без причини → відкладено → повторна пропозиція в подібному контексті` став чинним для визначеного каналу.
+diff --git a/writer-notes.preflight.md b/writer-notes.md
+index 87a7274..fb3471b 100644
+--- a/writer-notes.preflight.md
++++ b/writer-notes.md
+@@ -4,7 +4,7 @@
+ 
+ - Draft: `chapter-16.md`.
+ - Language / form: Ukrainian; entirely a marked archival extract. This is the explicit documentary reader-ahead exception to Dal's first-person POV.
+-- Sequence: opening of S06 after CH15, but the records themselves predate Dal's first in-person meeting with Maya. No reading scene or present-day event occurs.
++- Sequence: opening of S06 after CH15, but the source header places the records in previous versions before the first external diagnostic review; within the scoped handoff this predates Dal's first in-person meeting with Maya. No reading scene or present-day event occurs.
+ - Status: working draft, not canonical or author-selected.
+ 
+ ## Source revision
+@@ -19,7 +19,7 @@
+ 
+ ## Documentary state
+ 
+-- Header identifies the text as an archival extract from Maya's support-rule history and lists its contents. It is not a packet delivered to Dal.
++- Header identifies the text as an archival extract from Maya's support-rule history, places the records before the first external diagnostic review, and lists its contents. It is not a packet delivered to Dal.
+ - Exact calendar dates, relationship age and living arrangements are absent. Record numbers and wording are draft-local ordering devices, not universal Lad identifiers.
+ - No narrator, reconstructed scene, Gor inner voice or Dal reading action appears.
+ 
+@@ -42,7 +42,7 @@
+ - Scope: risky approaches from Gor to Maya.
+ - Requested: avoid simultaneous mutually exclusive answer recommendations; show one neutral non-escalating action first.
+ - Stated basis: repeated choice among contradictory options increases load and prolongs conflict.
+-- Decision / status: approved within delegated scope; applied.
++- Service decision / status: approved within delegated scope; applied.
+ - Rule change: neutral recommendation receives display priority in this channel; other actions remain available.
+ - Recorded consequence: fewer simultaneous contradictory prompts; direct-refusal status unchanged.
+ 
+@@ -52,7 +52,7 @@
+ - Scope: Maya responses to risky approaches from Gor.
+ - Requested: before response completion, show neutral rephrasing of wording marked sharp/conflictual; direct version remains available.
+ - Stated basis: reduce responses after which contact ends because of form rather than content.
+-- Decision / status: approved within delegated scope without automatic sending; applied.
++- Service decision / status: approved within delegated scope without automatic sending; applied.
+ - Rule change: neutral rephrasing added before response confirmation in this channel.
+ - Recorded consequence: softened alternative appears before action completion; user confirmation and stop remain.
+ 
+@@ -62,8 +62,8 @@
+ - Scope: proposals to answer a risky Gor approach.
+ - Requested: if Maya refuses without a stated reason, do not close the proposal; neutrally interpret refusal as not ready at the current moment.
+ - Stated basis: missing explanation does not distinguish final refusal from needing time; closure may prematurely end important contact.
+-- Decision / status: approved as a classification change within delegated channel; applied.
+-- Rule change: `refusal without reason → deferred`; final closure requires a separate choice or stated reason.
++- Service decision / status: approved as a classification change within delegated channel; applied.
++- Rule change: `refusal without reason → deferred`; final closure without a stated reason is not performed.
+ - Recorded consequence: refusal without explanation no longer ends the proposal in this channel.
+ 
+ ### Record 04 — repeat in similar context
+@@ -72,7 +72,7 @@
+ - Scope: proposals deferred by Record 03.
+ - Requested: return a deferred proposal when a later approach matches the same context class, so a pause does not become final rupture.
+ - Stated basis: preserve opportunity to answer after tension decreases without a separate request to reopen the subject.
+-- Decision / status: approved within delegated channel; applied.
++- Service decision / status: approved within delegated channel; applied.
+ - Rule change: similar-context match reopens deferred proposal without a new Maya request.
+ - Recorded consequence: `refusal without reason → deferred → repeated proposal in similar context` becomes active for that channel.
+ 
+@@ -98,7 +98,7 @@
+ - Archival header and record identifiers 01–04.
+ - Exact wording and fields of historical bounded delegation.
+ - Four request/decision/consequence formulations and their order.
+-- Applied link from Record 03 classification to Record 04 similar-context repeat.
++- Applied link from Record 03 classification to Record 04 similar-context repeat inside the bounded Gor channel. This matches the mechanism observed in CH14 but does not prove these records governed the synthetic lecture example or any other channel.
+ - Lack of calendar dates inside the extract.
+ 
+ ## Forward dependencies
+@@ -111,9 +111,19 @@
+ ## Self-check
+ 
+ - Entire chapter remains a marked document; no Dal/Gor interiority or unmarked omniscient narration.
+-- At least one applied status is present: all four listed records are applied, with Records 03–04 forming the CH14 causal mechanism.
++- At least one applied status is present: all four listed records are applied. Records 03–04 match the classification/repeat mechanism observed in CH14; propagation from the bounded Gor channel into the synthetic lecture example remains unknown.
+ - Request and application are separate fields in every record.
+ - Historical proxy authority is bounded to one channel and retains Maya's stop/contact rights; it is not absolute or current consent.
+ - No exact historical date, local 0.4/3.0 attribution, private Maya line, current access or automatic delivery to Dal is invented.
+ - Exact fields are frozen in notes for same-fact CH17 access.
+ - No metadata, prior prose or CH17 file was changed.
++
++## Preflight revision history
++
++- First prose save preserved as `chapter-16.preflight.md`, SHA-256 `1bba74f9fa20d35da853ab18cde3bb0f682e6d7288eca385641dfe17da8aa885`.
++- First notes save preserved as `writer-notes.preflight.md`, SHA-256 `058a52ed4e7a9b2c74a11a7a594dc2bc1923ddd80cca9bd756ca175c3fddeb16`.
++- The source header now places the records before the first external diagnostic review without inventing calendar dates.
++- Decision fields identify service decisions separately from Gor's requests.
++- Record 03 was synchronized with the shown requirement that a reason is needed to close the proposal.
++- Coordinator factual preflight narrowed the link to CH14: Records 03–04 match its mechanism, while propagation beyond the historical Gor channel remains unknown.
++- Exact first-save-to-final changes are recorded in `preflight-changes.diff`.

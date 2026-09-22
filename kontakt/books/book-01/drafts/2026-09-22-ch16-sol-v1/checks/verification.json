@@ -1,0 +1,62 @@
+{
+  "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
+  "status": "required_reviews_and_reconciliation_complete_with_pending_editorial_choices",
+  "scope": "Full CH16 23blocks,521lexical tokens; documentary insert, not volume audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "45f9c040f00bfeb3739bbbcd8c4cddffe862def8214b2048dd50579ab4343b0f",
+    "terra": "8d5bc3f833887bc84332396858c221d3e3e8d5962ebdf01cfe3b0c654cef0995",
+    "gemini_flash": "8abe599814edab4097d3245c3f95be29e695a7e9c18bc571aa64f78b537d7118",
+    "gemini": "ecb533efe68496d4db563db69f3acd2488deda26b5f4e55e9f80ef2ffadadace"
+  },
+  "additional_opus": "21d9d01c3fbccf8688d874dc252458b345cf11652d88478611656658fac3b814",
+  "reconciliation": "436adda1a957754de8ddc9ad538f57341df255108ec146ff82f018f322a8ec36",
+  "missing": [],
+  "verdicts": {
+    "astra": "No structural blocker,4pending concerns",
+    "terra": "5local precision concerns, no complete rewrite",
+    "gemini_flash": "PASS",
+    "gemini": "Positive diary with inference beyond source qualified",
+    "claude_optional": "PASS"
+  },
+  "language_scans": "No configured signals; independent grammar checker not run",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "b7f9f1b193a0011163319ca3256ad0788ce4e2e48aadb5dfc0b25325c1114942",
+    "pages": 2,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 251,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 283,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 2
+      }
+    ],
+    "visual_review": "All2pages inspected; record02 continues on page2, no clipping or blank pages; document fields readable"
+  },
+  "schema_instances": "Draft202012Validator run and ledger PASS",
+  "remaining": [
+    "16pending editorial choices",
+    "CH17 onward and full-volume audit"
+  ],
+  "review_policy": "production/2026-09-21-book01/REVIEW-POLICY-2026-09-22.md",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  }
+}

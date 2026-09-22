@@ -1,0 +1,119 @@
+{
+  "book_id": "book-01",
+  "status": "observed_in_working_draft_not_canonical",
+  "source": {
+    "path": "chapter-16.md",
+    "sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121"
+  },
+  "previous": {
+    "path": "../2026-09-22-ch15-sol-v1/observed-state.json",
+    "prose_sha256": "f89df074a4cedb8b24b3e6ef937eb73a2d3f223ec2c9c222299ceefd1a867fce"
+  },
+  "form": "Explicit documentary reader-ahead exception; no narrator or present-day reading scene",
+  "time": "Historical records before first external diagnostic review; exact dates absent. Placement afterD6 does not date old records.",
+  "scenes": [
+    {
+      "id": "B01-S06-C16-DOC01",
+      "anchors": "P0001-P0023",
+      "events": [
+        "Reader receives archival extract; no present character receives it on page.",
+        "Maya historical personal delegation to Gor, bounded service requests in his risky-approach channel; stop/contact-ending rights retained.",
+        "Four Gor requests approved by service and applied: neutral display priority; suggested rephrasing before confirmation; unexplained refusal reclassified deferred; matching context reopens without new user request.",
+        "Archive omits exact dates, text of original confirmation, proof of reviewing every consequence, frequency and authorship outside these records."
+      ]
+    }
+  ],
+  "exact_archive_fields_for_later_access": [
+    {
+      "anchor": "P0002",
+      "text": "**АРХІВНИЙ ВИТЯГ**  \n**Історія службових правил підтримки: Майя**  \n**Період записів:** попередні версії; до першого зовнішнього діагностичного перегляду  \n**Склад витягу:** джерело авторизації; звернення proxy; рішення; застосовані наслідки",
+      "text_sha256": "616c7d271469babce156507a1fe55720f91c8936c4f02020980175dd2f189300"
+    },
+    {
+      "anchor": "P0005",
+      "text": "**Тип:** історичне делегування користувачкою.  \n**Користувачка:** Майя.  \n**Уповноважений заявник:** Гор.  \n**Дозволений обсяг:** подавати й погоджувати сервісні запити щодо обробки ризикових звернень від уповноваженого заявника та зменшення конфліктного навантаження в цьому каналі.  \n**Не включено:** доступ до приватних повідомлень поза каналом; скасування користувацької зупинки; заборона припинити контакт; загальне керування профілем; передоручення третім особам.  \n**Форма підтвердження:** особисте підтвердження користувачки в попередній версії сервісу.  \n**У витягу відсутні:** текст підтвердження; пояснення користувачки; точна календарна дата; підтвердження того, що користувачка окремо переглядала наслідок кожної подальшої зміни.",
+      "text_sha256": "4fdf3a825d0c49dde2a934c0fba6253c460db7235456cb4806d1f70971936644"
+    },
+    {
+      "anchor": "P0008",
+      "text": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** ризикові звернення від ініціатора до користувачки.  \n**Запит:** не показувати одночасно кілька взаємовиключних рекомендацій відповіді; першою пропонувати одну нейтральну дію, що не збільшує напруження.  \n**Зазначена підстава:** повторний вибір між суперечливими варіантами збільшує навантаження й подовжує конфлікт.  \n**Рішення сервісу:** погоджено в межах делегованого обсягу.  \n**Статус:** застосовано.  \n**Зміна правила:** у визначеному каналі нейтральна рекомендація отримала пріоритет показу; решта доступних дій не була скасована.  \n**Зафіксований наслідок:** менше одночасних суперечливих підказок. Статус прямої відмови не змінено.",
+      "text_sha256": "618136176eaa7039d49f2f0979e3fafc1777dd4bdf62a79b6c11f7af7d733936"
+    },
+    {
+      "anchor": "P0011",
+      "text": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** відповіді користувачки на ризикові звернення від ініціатора.  \n**Запит:** перед завершенням відповіді показувати нейтральне перефразування формулювань, позначених як різкі або конфліктні; прямий варіант лишати доступним.  \n**Зазначена підстава:** зменшити кількість відповідей, після яких контакт обривається через форму, а не через зміст.  \n**Рішення сервісу:** погоджено в межах делегованого обсягу без автоматичного надсилання.  \n**Статус:** застосовано.  \n**Зміна правила:** нейтральне перефразування додано перед підтвердженням відповіді в цьому каналі.  \n**Зафіксований наслідок:** система пропонує пом’якшений варіант до завершення дії; користувацьке підтвердження та зупинка збережені.",
+      "text_sha256": "4c657d1a0751fea251a13d1a2351ac674efe86ab46802778944a60ed3523da8a"
+    },
+    {
+      "anchor": "P0014",
+      "text": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** пропозиції відповісти на ризикове звернення від ініціатора.  \n**Запит:** якщо користувачка відмовляється без зазначення причини, не закривати пропозицію остаточно; нейтрально тлумачити відмову як неготовність відповідати в поточний момент.  \n**Зазначена підстава:** відсутність пояснення не дає відрізнити остаточну відмову від потреби в часі; закриття може передчасно перервати важливий контакт.  \n**Рішення сервісу:** погоджено як зміна класифікації в межах делегованого каналу.  \n**Статус:** застосовано.  \n**Зміна правила:** `відмова без причини → відкладено`; остаточне закриття пропозиції без зазначеної причини не виконується.  \n**Зафіксований наслідок:** відмова без пояснення більше не завершує пропозицію в цьому каналі.",
+      "text_sha256": "8117300ffa6657d8bfba5fd99ecf0f2c74cffd8895c236d6aad58e02fc37c437"
+    },
+    {
+      "anchor": "P0017",
+      "text": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** пропозиції зі статусом `відкладено` за правилом запису 03.  \n**Запит:** повертати відкладену пропозицію, коли наступне звернення відповідає тому самому класу контексту, щоб попередня пауза не ставала остаточним розривом.  \n**Зазначена підстава:** зберегти можливість відповіді після зниження напруження без нового окремого звернення про поновлення теми.  \n**Рішення сервісу:** погоджено в межах делегованого каналу.  \n**Статус:** застосовано.  \n**Зміна правила:** збіг подібного контексту повторно відкриває відкладену пропозицію без нового запиту користувачки.  \n**Зафіксований наслідок:** ланцюг `відмова без причини → відкладено → повторна пропозиція в подібному контексті` став чинним для визначеного каналу.",
+      "text_sha256": "d27a62a169c63802da9677370cc0711e0c5efdd01d7fee13e83d477e393cd9c0"
+    },
+    {
+      "anchor": "P0020",
+      "text": "Витяг не містить текстів повідомлень, аудіо, відео, домашніх адрес, діагнозів або даних інших адресатів.",
+      "text_sha256": "6c205da445452524b662bcd2ba85034b14d68e6b9d5a0c31382695b701f2687b"
+    },
+    {
+      "anchor": "P0021",
+      "text": "Витяг не встановлює мотивів користувачки під час первинного делегування, міри її ознайомлення з кожним наслідком, частоти застосування правил або авторства змін поза наведеними записами.",
+      "text_sha256": "ddc44b8826671f68fd2455002eed2d344e0dce86c2fa1582b26d20fa6f41ad88"
+    },
+    {
+      "anchor": "P0022",
+      "text": "Точні календарні дати записів у цьому витягу не наведено.",
+      "text_sha256": "80dec3bfc2c9c4074e82e2434d740012fa1b376713a5b53bca5e661501ba3c5e"
+    },
+    {
+      "anchor": "P0023",
+      "text": "Історичне делегування не є чинним доступом до профілю й не відкриває новий сервісний сеанс.",
+      "text_sha256": "cf38790b10eaf5fcfa4b70c7fa5bf8b20fb0d310cc8937e9fb8232e5e9efc741"
+    }
+  ],
+  "knowledge": {
+    "reader": [
+      "Historical authorization scope and four specific applied requests from Gor, including refusal/repeat mechanism."
+    ],
+    "dal": [
+      "Unchanged fromCH15: request draft unsent, archive unread, no Maya grant."
+    ],
+    "maya": [
+      "Historical delegation shown, but no new present decision; motives and full understanding of downstream effects unknown."
+    ],
+    "gor": [
+      "Historical requester; no new current information/access shown."
+    ],
+    "ballast_tikhon": [
+      "No new information shown."
+    ]
+  },
+  "access_after": {
+    "maya": "No current profile access or service session created by archival extract.",
+    "dal": "No current Maya grant; CH15 personal contact limits remain.",
+    "gor": "Archive alone establishes no current access; present status of all old delegations not established.",
+    "applied_rules": "No rollback shown; current active rules cannot be inferred solely from archive."
+  },
+  "limits": [
+    "Only specified Gor channel; not global profile authority",
+    "Similarity to CH14 synthetic example does not prove causal provenance of that test or local0.4s",
+    "Four records are complete supplied extract, not proven exhaustive history of all requests",
+    "Record01 retains other actions; record02 no autosending; user stop retained",
+    "Absence of dates in extract is not absence of dates in platform"
+  ],
+  "draft_local": [
+    "Header/numbering/exact authorization and request wording",
+    "Bounded historical delegation realizes plannedS06/K04, not author-selected canon"
+  ],
+  "forward": [
+    "CH17 new personal Maya consent via chosen channel, exact same archive facts",
+    "Do not invent date/expanded logs/full informed consent or lack thereof",
+    "Maya own explanation must be new authorized statement",
+    "R1 unchanged; M05 unresolved; S07/Nina/emergency future"
+  ],
+  "review": "Four required reports plus optional Opus, reconciliation locked;16pending; source unchanged"
+}

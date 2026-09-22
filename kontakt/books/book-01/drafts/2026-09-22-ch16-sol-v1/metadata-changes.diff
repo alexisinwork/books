@@ -1,0 +1,660 @@
+--- kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/progress.json
++++ kontakt/books/book-01/production/2026-09-21-book01/progress.json
+@@ -122,10 +122,18 @@
+       "observed_state": "drafts/2026-09-22-ch15-sol-v1/observed-state.json",
+       "review_run": "audit/ensemble/ch15-20260922-sol-v1",
+       "status": "reviewed_working_draft_not_canonical"
++    },
++    {
++      "chapter": 16,
++      "source": "drafts/2026-09-22-ch16-sol-v1/chapter-16.md",
++      "sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "observed_state": "drafts/2026-09-22-ch16-sol-v1/observed-state.json",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "status": "reviewed_working_draft_not_canonical"
+     }
+   ],
+-  "current_chapter": 16,
+-  "current_stage": "chapter_16_writer_running_reader_01_15_delivery_pending",
++  "current_chapter": 17,
++  "current_stage": "chapter_17_writer_running",
+   "future_chapters": "macro architecture; progressively detailed before writing",
+   "global_audit": "not_run",
+   "last_block_review": {
+--- kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json
++++ kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json
+@@ -117,7 +117,7 @@
+       "sequence": "S06",
+       "day": "D7",
+       "function": "Документальний insert старих запитів Гора; читач випереджає Даля",
+-      "status": "planned"
++      "status": "reviewed_draft_with_open_editorial_ledger"
+     },
+     {
+       "chapter": 17,
+--- kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/metadata-before/kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
++++ kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
+@@ -1,7 +1,7 @@
+ {
+   "book_id": "book-01",
+   "status": "working_draft_collection_not_master",
+-  "chapter_count": 15,
++  "chapter_count": 16,
+   "chapters": [
+     {
+       "chapter": 1,
+@@ -122,6 +122,14 @@
+       "observed_state": "drafts/2026-09-22-ch15-sol-v1/observed-state.json",
+       "review_run": "audit/ensemble/ch15-20260922-sol-v1",
+       "status": "reviewed_working_draft_not_canonical"
++    },
++    {
++      "chapter": 16,
++      "source": "drafts/2026-09-22-ch16-sol-v1/chapter-16.md",
++      "sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "observed_state": "drafts/2026-09-22-ch16-sol-v1/observed-state.json",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "status": "reviewed_working_draft_not_canonical"
+     }
+   ],
+   "global_audit": "not_run",
+--- kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/metadata-before/kontakt/books/book-01/book.json
++++ kontakt/books/book-01/book.json
+@@ -8,7 +8,7 @@
+   "master": null,
+   "voice": "voice.json",
+   "canon": "../../series/canon.json",
+-  "audit_status": "chapter_15_reviewed_volume_in_progress",
++  "audit_status": "chapter_16_reviewed_volume_in_progress",
+   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
+   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
+   "language": "uk",
+@@ -23,25 +23,25 @@
+   "planning_state": "planned_not_observed",
+   "execution_entry": "production/2026-09-21-book01/progress.json",
+   "draft_scope": {
+-    "chapter": 15,
++    "chapter": 16,
+     "whole_book_ready": false,
+     "whole_series_ready": false,
+     "prose_started": true,
+-    "execution": "execution/HANDOFF-CH15.md"
++    "execution": "execution/HANDOFF-CH16.md"
+   },
+   "working_revision": {
+-    "path": "drafts/2026-09-22-ch15-sol-v1/chapter-15.md",
+-    "sha256": "f89df074a4cedb8b24b3e6ef937eb73a2d3f223ec2c9c222299ceefd1a867fce",
++    "path": "drafts/2026-09-22-ch16-sol-v1/chapter-16.md",
++    "sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
+     "format": "md",
+     "language": "uk",
+     "status": "draft_not_author_selected",
+-    "scope": "chapter 15; complete collection in working_volume",
+-    "observed_state": "drafts/2026-09-22-ch15-sol-v1/observed-state.json",
+-    "review_run": "audit/ensemble/ch15-20260922-sol-v1"
++    "scope": "chapter 16; complete collection in working_volume",
++    "observed_state": "drafts/2026-09-22-ch16-sol-v1/observed-state.json",
++    "review_run": "audit/ensemble/ch16-20260922-sol-v1"
+   },
+   "working_volume": {
+     "manifest": "production/2026-09-21-book01/working-volume.json",
+-    "chapters": 15,
++    "chapters": 16,
+     "status": "in_progress_not_master"
+   }
+ }
+--- kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/metadata-before/kontakt/books/book-01/session.md
++++ kontakt/books/book-01/session.md
+@@ -2,6 +2,6 @@
+ 
+ Поточне доручення: завершити том 1 з перевірками кожної глави, потім повний аудит. Див. production/2026-09-21-book01/authorization.md.
+ 
+-Глави 1–15 написані й мають чотири діагнози та зведення. Остання: [chapter-15.md](drafts/2026-09-22-ch15-sol-v1/chapter-15.md), SHA-256 `f89df074a4cedb8b24b3e6ef937eb73a2d3f223ec2c9c222299ceefd1a867fce`. Фактичний стан: [2026-09-22-ch15-sol-v1](drafts/2026-09-22-ch15-sol-v1/observed-state.json). Планові реєстри збережені; master=null.
++Глави 1–16 написані й мають чотири діагнози та зведення. Остання: [chapter-16.md](drafts/2026-09-22-ch16-sol-v1/chapter-16.md), SHA-256 `74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121`. Фактичний стан: [2026-09-22-ch16-sol-v1](drafts/2026-09-22-ch16-sol-v1/observed-state.json). Планові реєстри збережені; master=null.
+ 
+-Далі: глава 16, перед письмом окрема звірка стану й handoff. Точний прогрес і версії: [реєстр](production/2026-09-21-book01/progress.json). Відкриті редакторські пропозиції не визнані авторськими рішеннями. Повного аудиту тому ще немає.
++Далі: глава 17, перед письмом окрема звірка стану й handoff. Точний прогрес і версії: [реєстр](production/2026-09-21-book01/progress.json). Відкриті редакторські пропозиції не визнані авторськими рішеннями. Повного аудиту тому ще немає.
+--- kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/metadata-before/kontakt/START_HERE.md
++++ kontakt/START_HERE.md
+@@ -2,6 +2,6 @@
+ 
+ Автор доручив завершити український том 1 по главі з усіма перевірками, потім виконати повний аудит.
+ 
+-Готові чернетки глав 1–15; далі глава 16. [Поточний прогрес](books/book-01/production/2026-09-21-book01/progress.json). [Робочий маршрут](books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md). [Остання глава й перевірки](books/book-01/drafts/2026-09-22-ch15-sol-v1/README.md).
++Готові чернетки глав 1–16; далі глава 17. [Поточний прогрес](books/book-01/production/2026-09-21-book01/progress.json). [Робочий маршрут](books/book-01/production/2026-09-21-book01/CHAPTER-ROUTE.md). [Остання глава й перевірки](books/book-01/drafts/2026-09-22-ch16-sol-v1/README.md).
+ 
+ Master не призначено. Для продовження спочатку читати фактичний observed-state останньої глави, потім scoped handoff. Макроархітектура восьми книг збережена; плани не стали подіями рукопису.
+--- kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/metadata-before/kontakt/books/book-01/plan.md
++++ kontakt/books/book-01/plan.md
+@@ -67,3 +67,7 @@
+ ## Поступ після глави 15
+ 
+ Чернетки 1–15: production/2026-09-21-book01/working-volume.json. Наступна глава 16; факт і план розділені.
++
++## Поступ після глави 16
++
++Чернетки 1–16: production/2026-09-21-book01/working-volume.json. Наступна глава 17; факт і план розділені.
+--- kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/metadata-before/kontakt/books/book-01/brief.md
++++ kontakt/books/book-01/brief.md
+@@ -67,3 +67,7 @@
+ ## Поступ після глави 15
+ 
+ Чернетки 1–15: production/2026-09-21-book01/working-volume.json. Наступна глава 16; факт і план розділені.
++
++## Поступ після глави 16
++
++Чернетки 1–16: production/2026-09-21-book01/working-volume.json. Наступна глава 17; факт і план розділені.
+--- kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/metadata-before/kontakt/books/book-01/audit/issues.json
++++ kontakt/books/book-01/audit/issues.json
+@@ -4753,6 +4753,456 @@
+         "CH17 lawful access"
+       ],
+       "evidence": "BOOK-01-ARCHITECTURE-LOCK.md S06; knowledge.planned.json K04"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-001",
++      "category": "causality",
++      "severity": "moderate",
++      "certainty": "strong_inference",
++      "observation": "Обсяг делегування може допускати різне тлумачення переходу від звернень Гора до обробки відповідей Майї.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0005",
++          "quote": "**Тип:** історичне делегування користувачкою.  \n**Користувачка:** Майя.  \n**Уповноважений заявник:** Гор.  \n**Дозволений обсяг:** подавати й погоджувати сервісні запити щодо обробки ризикових звернень від уповноваженого заявника та зменшення конфліктного навантаження в цьому каналі.  \n**Не включено:** доступ до приватних повідомлень поза каналом; скасування користувацької зупинки; заборона припинити контакт; загальне керування профілем; передоручення третім особам.  \n**Форма підтвердження:** особисте підтвердження користувачки в попередній версії сервісу.  \n**У витягу відсутні:** текст підтвердження; пояснення користувачки; точна календарна дата; підтвердження того, що користувачка окремо переглядала наслідок кожної подальшої зміни."
++        },
++        {
++          "chapter": "16",
++          "anchor": "P0011",
++          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** відповіді користувачки на ризикові звернення від ініціатора.  \n**Запит:** перед завершенням відповіді показувати нейтральне перефразування формулювань, позначених як різкі або конфліктні; прямий варіант лишати доступним.  \n**Зазначена підстава:** зменшити кількість відповідей, після яких контакт обривається через форму, а не через зміст.  \n**Рішення сервісу:** погоджено в межах делегованого обсягу без автоматичного надсилання.  \n**Статус:** застосовано.  \n**Зміна правила:** нейтральне перефразування додано перед підтвердженням відповіді в цьому каналі.  \n**Зафіксований наслідок:** система пропонує пом’якшений варіант до завершення дії; користувацьке підтвердження та зупинка збережені."
++        },
++        {
++          "chapter": "16",
++          "anchor": "P0014",
++          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** пропозиції відповісти на ризикове звернення від ініціатора.  \n**Запит:** якщо користувачка відмовляється без зазначення причини, не закривати пропозицію остаточно; нейтрально тлумачити відмову як неготовність відповідати в поточний момент.  \n**Зазначена підстава:** відсутність пояснення не дає відрізнити остаточну відмову від потреби в часі; закриття може передчасно перервати важливий контакт.  \n**Рішення сервісу:** погоджено як зміна класифікації в межах делегованого каналу.  \n**Статус:** застосовано.  \n**Зміна правила:** `відмова без причини → відкладено`; остаточне закриття пропозиції без зазначеної причини не виконується.  \n**Зафіксований наслідок:** відмова без пояснення більше не завершує пропозицію в цьому каналі."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-002",
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "Повтори полів створюють форму, але Astra допускає надмірність; Terra/Opus захищають.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0008",
++          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** ризикові звернення від ініціатора до користувачки.  \n**Запит:** не показувати одночасно кілька взаємовиключних рекомендацій відповіді; першою пропонувати одну нейтральну дію, що не збільшує напруження.  \n**Зазначена підстава:** повторний вибір між суперечливими варіантами збільшує навантаження й подовжує конфлікт.  \n**Рішення сервісу:** погоджено в межах делегованого обсягу.  \n**Статус:** застосовано.  \n**Зміна правила:** у визначеному каналі нейтральна рекомендація отримала пріоритет показу; решта доступних дій не була скасована.  \n**Зафіксований наслідок:** менше одночасних суперечливих підказок. Статус прямої відмови не змінено."
++        },
++        {
++          "chapter": "16",
++          "anchor": "P0011",
++          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** відповіді користувачки на ризикові звернення від ініціатора.  \n**Запит:** перед завершенням відповіді показувати нейтральне перефразування формулювань, позначених як різкі або конфліктні; прямий варіант лишати доступним.  \n**Зазначена підстава:** зменшити кількість відповідей, після яких контакт обривається через форму, а не через зміст.  \n**Рішення сервісу:** погоджено в межах делегованого обсягу без автоматичного надсилання.  \n**Статус:** застосовано.  \n**Зміна правила:** нейтральне перефразування додано перед підтвердженням відповіді в цьому каналі.  \n**Зафіксований наслідок:** система пропонує пом’якшений варіант до завершення дії; користувацьке підтвердження та зупинка збережені."
++        },
++        {
++          "chapter": "16",
++          "anchor": "P0014",
++          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** пропозиції відповісти на ризикове звернення від ініціатора.  \n**Запит:** якщо користувачка відмовляється без зазначення причини, не закривати пропозицію остаточно; нейтрально тлумачити відмову як неготовність відповідати в поточний момент.  \n**Зазначена підстава:** відсутність пояснення не дає відрізнити остаточну відмову від потреби в часі; закриття може передчасно перервати важливий контакт.  \n**Рішення сервісу:** погоджено як зміна класифікації в межах делегованого каналу.  \n**Статус:** застосовано.  \n**Зміна правила:** `відмова без причини → відкладено`; остаточне закриття пропозиції без зазначеної причини не виконується.  \n**Зафіксований наслідок:** відмова без пояснення більше не завершує пропозицію в цьому каналі."
++        },
++        {
++          "chapter": "16",
++          "anchor": "P0017",
++          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** пропозиції зі статусом `відкладено` за правилом запису 03.  \n**Запит:** повертати відкладену пропозицію, коли наступне звернення відповідає тому самому класу контексту, щоб попередня пауза не ставала остаточним розривом.  \n**Зазначена підстава:** зберегти можливість відповіді після зниження напруження без нового окремого звернення про поновлення теми.  \n**Рішення сервісу:** погоджено в межах делегованого каналу.  \n**Статус:** застосовано.  \n**Зміна правила:** збіг подібного контексту повторно відкриває відкладену пропозицію без нового запиту користувачки.  \n**Зафіксований наслідок:** ланцюг `відмова без причини → відкладено → повторна пропозиція в подібному контексті` став чинним для визначеного каналу."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-003",
++      "category": "ending",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Фінальна рамка може послабити удар запису04; інші читання цінують її сухість.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0021",
++          "quote": "Витяг не встановлює мотивів користувачки під час первинного делегування, міри її ознайомлення з кожним наслідком, частоти застосування правил або авторства змін поза наведеними записами."
++        },
++        {
++          "chapter": "16",
++          "anchor": "P0023",
++          "quote": "Історичне делегування не є чинним доступом до профілю й не відкриває новий сервісний сеанс."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-004",
++      "category": "voice",
++      "severity": "minor",
++      "certainty": "hypothesis",
++      "observation": "Поле відсутнього підтвердження кожного наслідку може звучати як авторська підказка; Pro читає підозру.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0005",
++          "quote": "**Тип:** історичне делегування користувачкою.  \n**Користувачка:** Майя.  \n**Уповноважений заявник:** Гор.  \n**Дозволений обсяг:** подавати й погоджувати сервісні запити щодо обробки ризикових звернень від уповноваженого заявника та зменшення конфліктного навантаження в цьому каналі.  \n**Не включено:** доступ до приватних повідомлень поза каналом; скасування користувацької зупинки; заборона припинити контакт; загальне керування профілем; передоручення третім особам.  \n**Форма підтвердження:** особисте підтвердження користувачки в попередній версії сервісу.  \n**У витягу відсутні:** текст підтвердження; пояснення користувачки; точна календарна дата; підтвердження того, що користувачка окремо переглядала наслідок кожної подальшої зміни."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-005",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Proxy і proxy-заявник: роль, скорочення чи несталість; латинка допустима для службового ідентифікатора.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0002",
++          "quote": "**АРХІВНИЙ ВИТЯГ**  \n**Історія службових правил підтримки: Майя**  \n**Період записів:** попередні версії; до першого зовнішнього діагностичного перегляду  \n**Склад витягу:** джерело авторизації; звернення proxy; рішення; застосовані наслідки"
++        },
++        {
++          "chapter": "16",
++          "anchor": "P0008",
++          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** ризикові звернення від ініціатора до користувачки.  \n**Запит:** не показувати одночасно кілька взаємовиключних рекомендацій відповіді; першою пропонувати одну нейтральну дію, що не збільшує напруження.  \n**Зазначена підстава:** повторний вибір між суперечливими варіантами збільшує навантаження й подовжує конфлікт.  \n**Рішення сервісу:** погоджено в межах делегованого обсягу.  \n**Статус:** застосовано.  \n**Зміна правила:** у визначеному каналі нейтральна рекомендація отримала пріоритет показу; решта доступних дій не була скасована.  \n**Зафіксований наслідок:** менше одночасних суперечливих підказок. Статус прямої відмови не змінено."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-006",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "До завершення дії менш точно за сусіднє перед підтвердженням відповіді.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0011",
++          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** відповіді користувачки на ризикові звернення від ініціатора.  \n**Запит:** перед завершенням відповіді показувати нейтральне перефразування формулювань, позначених як різкі або конфліктні; прямий варіант лишати доступним.  \n**Зазначена підстава:** зменшити кількість відповідей, після яких контакт обривається через форму, а не через зміст.  \n**Рішення сервісу:** погоджено в межах делегованого обсягу без автоматичного надсилання.  \n**Статус:** застосовано.  \n**Зміна правила:** нейтральне перефразування додано перед підтвердженням відповіді в цьому каналі.  \n**Зафіксований наслідок:** система пропонує пом’якшений варіант до завершення дії; користувацьке підтвердження та зупинка збережені."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-007",
++      "category": "knowledge",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Без причини може читатися ширше за без зазначення причини.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0014",
++          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** пропозиції відповісти на ризикове звернення від ініціатора.  \n**Запит:** якщо користувачка відмовляється без зазначення причини, не закривати пропозицію остаточно; нейтрально тлумачити відмову як неготовність відповідати в поточний момент.  \n**Зазначена підстава:** відсутність пояснення не дає відрізнити остаточну відмову від потреби в часі; закриття може передчасно перервати важливий контакт.  \n**Рішення сервісу:** погоджено як зміна класифікації в межах делегованого каналу.  \n**Статус:** застосовано.  \n**Зміна правила:** `відмова без причини → відкладено`; остаточне закриття пропозиції без зазначеної причини не виконується.  \n**Зафіксований наслідок:** відмова без пояснення більше не завершує пропозицію в цьому каналі."
++        },
++        {
++          "chapter": "16",
++          "anchor": "P0017",
++          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** пропозиції зі статусом `відкладено` за правилом запису 03.  \n**Запит:** повертати відкладену пропозицію, коли наступне звернення відповідає тому самому класу контексту, щоб попередня пауза не ставала остаточним розривом.  \n**Зазначена підстава:** зберегти можливість відповіді після зниження напруження без нового окремого звернення про поновлення теми.  \n**Рішення сервісу:** погоджено в межах делегованого каналу.  \n**Статус:** застосовано.  \n**Зміна правила:** збіг подібного контексту повторно відкриває відкладену пропозицію без нового запиту користувачки.  \n**Зафіксований наслідок:** ланцюг `відмова без причини → відкладено → повторна пропозиція в подібному контексті` став чинним для визначеного каналу."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-008",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Той самий клас і подібний контекст можуть бути тим самим правилом, але відповідність не пояснена.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0017",
++          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** пропозиції зі статусом `відкладено` за правилом запису 03.  \n**Запит:** повертати відкладену пропозицію, коли наступне звернення відповідає тому самому класу контексту, щоб попередня пауза не ставала остаточним розривом.  \n**Зазначена підстава:** зберегти можливість відповіді після зниження напруження без нового окремого звернення про поновлення теми.  \n**Рішення сервісу:** погоджено в межах делегованого каналу.  \n**Статус:** застосовано.  \n**Зміна правила:** збіг подібного контексту повторно відкриває відкладену пропозицію без нового запиту користувачки.  \n**Зафіксований наслідок:** ланцюг `відмова без причини → відкладено → повторна пропозиція в подібному контексті` став чинним для визначеного каналу."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-009",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Не включено: заборона припинити контакт може бути ясніше як відсутність права забороняти.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0005",
++          "quote": "**Тип:** історичне делегування користувачкою.  \n**Користувачка:** Майя.  \n**Уповноважений заявник:** Гор.  \n**Дозволений обсяг:** подавати й погоджувати сервісні запити щодо обробки ризикових звернень від уповноваженого заявника та зменшення конфліктного навантаження в цьому каналі.  \n**Не включено:** доступ до приватних повідомлень поза каналом; скасування користувацької зупинки; заборона припинити контакт; загальне керування профілем; передоручення третім особам.  \n**Форма підтвердження:** особисте підтвердження користувачки в попередній версії сервісу.  \n**У витягу відсутні:** текст підтвердження; пояснення користувачки; точна календарна дата; підтвердження того, що користувачка окремо переглядала наслідок кожної подальшої зміни."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-010",
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "hypothesis",
++      "observation": "Рекомендація витязі не підтверджена перевіреною словозміною; витягу підтримано.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0005",
++          "quote": "**Тип:** історичне делегування користувачкою.  \n**Користувачка:** Майя.  \n**Уповноважений заявник:** Гор.  \n**Дозволений обсяг:** подавати й погоджувати сервісні запити щодо обробки ризикових звернень від уповноваженого заявника та зменшення конфліктного навантаження в цьому каналі.  \n**Не включено:** доступ до приватних повідомлень поза каналом; скасування користувацької зупинки; заборона припинити контакт; загальне керування профілем; передоручення третім особам.  \n**Форма підтвердження:** особисте підтвердження користувачки в попередній версії сервісу.  \n**У витягу відсутні:** текст підтвердження; пояснення користувачки; точна календарна дата; підтвердження того, що користувачка окремо переглядала наслідок кожної подальшої зміни."
++        },
++        {
++          "chapter": "16",
++          "anchor": "P0022",
++          "quote": "Точні календарні дати записів у цьому витягу не наведено."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-011",
++      "category": "prose",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "Повтор відсутності дат стосується різних речей: підтвердження і записів.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0005",
++          "quote": "**Тип:** історичне делегування користувачкою.  \n**Користувачка:** Майя.  \n**Уповноважений заявник:** Гор.  \n**Дозволений обсяг:** подавати й погоджувати сервісні запити щодо обробки ризикових звернень від уповноваженого заявника та зменшення конфліктного навантаження в цьому каналі.  \n**Не включено:** доступ до приватних повідомлень поза каналом; скасування користувацької зупинки; заборона припинити контакт; загальне керування профілем; передоручення третім особам.  \n**Форма підтвердження:** особисте підтвердження користувачки в попередній версії сервісу.  \n**У витягу відсутні:** текст підтвердження; пояснення користувачки; точна календарна дата; підтвердження того, що користувачка окремо переглядала наслідок кожної подальшої зміни."
++        },
++        {
++          "chapter": "16",
++          "anchor": "P0022",
++          "quote": "Точні календарні дати записів у цьому витягу не наведено."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-012",
++      "category": "knowledge",
++      "severity": "moderate",
++      "certainty": "reader_reaction",
++      "observation": "Архів без чинного доступу прочитаний як доказ скасування налаштувань/відкликання всього делегування.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0023",
++          "quote": "Історичне делегування не є чинним доступом до профілю й не відкриває новий сервісний сеанс."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-013",
++      "category": "clarity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Статус прямої відмови може означати механізм або окрему відповідь.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0008",
++          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** ризикові звернення від ініціатора до користувачки.  \n**Запит:** не показувати одночасно кілька взаємовиключних рекомендацій відповіді; першою пропонувати одну нейтральну дію, що не збільшує напруження.  \n**Зазначена підстава:** повторний вибір між суперечливими варіантами збільшує навантаження й подовжує конфлікт.  \n**Рішення сервісу:** погоджено в межах делегованого обсягу.  \n**Статус:** застосовано.  \n**Зміна правила:** у визначеному каналі нейтральна рекомендація отримала пріоритет показу; решта доступних дій не була скасована.  \n**Зафіксований наслідок:** менше одночасних суперечливих підказок. Статус прямої відмови не змінено."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-014",
++      "category": "continuity",
++      "severity": "minor",
++      "certainty": "hypothesis",
++      "observation": "Чотири записи не доводять вичерпності всіх запитів Гора.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0021",
++          "quote": "Витяг не встановлює мотивів користувачки під час первинного делегування, міри її ознайомлення з кожним наслідком, частоти застосування правил або авторства змін поза наведеними записами."
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-015",
++      "category": "format",
++      "severity": "minor",
++      "certainty": "taste",
++      "observation": "Витяг з історії — необов’язкова альтернатива заголовка.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0002",
++          "quote": "**АРХІВНИЙ ВИТЯГ**  \n**Історія службових правил підтримки: Майя**  \n**Період записів:** попередні версії; до першого зовнішнього діагностичного перегляду  \n**Склад витягу:** джерело авторизації; звернення proxy; рішення; застосовані наслідки"
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
++    },
++    {
++      "id": "CH16-SOL-V1-ENS-016",
++      "category": "continuity",
++      "severity": "minor",
++      "certainty": "reader_reaction",
++      "observation": "Попередні версії відносні; до першої зовнішньої діагностики задає межу, не точну дату.",
++      "anchors": [
++        {
++          "chapter": "16",
++          "anchor": "P0002",
++          "quote": "**АРХІВНИЙ ВИТЯГ**  \n**Історія службових правил підтримки: Майя**  \n**Період записів:** попередні версії; до першого зовнішнього діагностичного перегляду  \n**Склад витягу:** джерело авторизації; звернення proxy; рішення; застосовані наслідки"
++        }
++      ],
++      "dependencies": [
++        "CH16 future authorized revision",
++        "CH17 same-fact access",
++        "whole-volume audit"
++      ],
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "source_sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
++      "review_run": "audit/ensemble/ch16-20260922-sol-v1",
++      "author_decision": "pending",
++      "scope": "draft only; editorial proposal not applied"
+     }
+   ]
+ }
+--- kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/metadata-before/kontakt/books/book-01/revision-log.json
++++ kontakt/books/book-01/revision-log.json
+@@ -366,6 +366,28 @@
+         "record": "drafts/2026-09-22-ch15-sol-v1/checks/verification.json",
+         "release_ready": false
+       }
++    },
++    {
++      "id": "ch16-20260922-sol-v1",
++      "reason": "Author authorized completion of volume one chapter at a time with checks",
++      "decision": "applied_to_draft_only",
++      "old_source": null,
++      "new_source": {
++        "path": "drafts/2026-09-22-ch16-sol-v1/chapter-16.md",
++        "sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121"
++      },
++      "preflight_history": "drafts/2026-09-22-ch16-sol-v1/preflight-changes.diff",
++      "observed_state": "drafts/2026-09-22-ch16-sol-v1/observed-state.json",
++      "dependencies": {
++        "planned_registers": "unchanged; actual candidate states separate",
++        "master_snapshot": "not applicable, master null",
++        "next_chapter": 17
++      },
++      "verification": {
++        "run": "audit/ensemble/ch16-20260922-sol-v1",
++        "record": "drafts/2026-09-22-ch16-sol-v1/checks/verification.json",
++        "release_ready": false
++      }
+     }
+   ]
+ }
+--- kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/metadata-before/kontakt/series/architecture-pass-01-status.json
++++ kontakt/series/architecture-pass-01-status.json
+@@ -6,7 +6,7 @@
+   "books": [
+     {
+       "book_id": "book-01",
+-      "status": "chapters_01_15_drafted_reviewed",
++      "status": "chapters_01_16_drafted_reviewed",
+       "architecture_pass": "macro_reviewed",
+       "scene_gate": "chapter_01_only",
+       "master": null
+@@ -70,9 +70,9 @@
+   },
+   "current_draft": {
+     "book_id": "book-01",
+-    "chapter": 15,
+-    "path": "kontakt/books/book-01/drafts/2026-09-22-ch15-sol-v1/chapter-15.md",
+-    "sha256": "f89df074a4cedb8b24b3e6ef937eb73a2d3f223ec2c9c222299ceefd1a867fce",
++    "chapter": 16,
++    "path": "kontakt/books/book-01/drafts/2026-09-22-ch16-sol-v1/chapter-16.md",
++    "sha256": "74a6fc2bfb2a02cb74af197e706373a411d824a5a87796696ed44d19e164c121",
+     "status": "reviewed_working_draft",
+     "whole_book_written": false,
+     "volume_progress": "books/book-01/production/2026-09-21-book01/progress.json"
