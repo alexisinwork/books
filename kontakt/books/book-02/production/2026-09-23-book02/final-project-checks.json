@@ -1,0 +1,36 @@
+{
+  "status": "passed_with_expected_unselected_master_warnings",
+  "commands": [
+    {
+      "command": "python -X utf8 tools/studio.py doctor",
+      "cwd": "kontakt",
+      "exit_code": 0,
+      "result": {
+        "books": 8,
+        "errors": [],
+        "warnings": [
+          "book-01: no selected master",
+          "book-02: no selected master",
+          "book-03: no selected master",
+          "book-04: no selected master",
+          "book-05: no selected master",
+          "book-06: no selected master",
+          "book-07: no selected master",
+          "book-08: no selected master"
+        ],
+        "scope": "File integrity, IDs and selected version; not prose quality, full canon or layout."
+      }
+    },
+    {
+      "command": "python -X utf8 tools/verify_sources.py",
+      "cwd": "kontakt",
+      "exit_code": 0,
+      "result": {
+        "checked": 15,
+        "errors": [],
+        "omnibus_reconstructed": false,
+        "scope": "Original bytes only; not proof of literary quality or full reading."
+      }
+    }
+  ]
+}

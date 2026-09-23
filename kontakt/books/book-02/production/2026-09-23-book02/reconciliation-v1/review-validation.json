@@ -1,0 +1,224 @@
+{
+  "status": "complete_with_explicit_limits",
+  "source_sha256": "e641f3b639f0c03578c51916c0434156c584ce8022f556d94e522bf7c653679d",
+  "reviews": [
+    {
+      "role": "terra",
+      "status": "locked_with_validation_limits",
+      "requested_model": "gpt-5.6-terra",
+      "actual_backend": "not_independently_attested",
+      "report_sha256": "5b642a6f700b2edead4b65b69ca23258e6525c09ef60aa9d2865396800555326",
+      "report": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/terra/REPORT.md",
+      "invocation_sha256": "2847147a8805c2cf4c74a4ec87759a1ca3477be7cb367936ad60e7c219203c09",
+      "input_coverage": {
+        "all1894_exact_source_blocks_verified": true,
+        "ranges": [
+          [
+            1,
+            1894
+          ]
+        ]
+      },
+      "reading_claim": "Reports claim sequential reading throughP01894 with no unread text; delivery validation is not cognitive attestation.",
+      "context": "Single full inline input. Report claims no compression; no tool item or checkpoint in native trace. Model self-description GPT5 contradicts requested gpt-5.6-terra and is not backend attestation.",
+      "checkpoint_events": 0,
+      "observed_step_or_item_types": [
+        "agent_message"
+      ],
+      "tools_observed": false,
+      "interim_reports": [],
+      "quote_validation": "Every actionable/facultative finding is mapped to an actual source paragraph in issue-ledger; final-table and praise prose not exhaustively quote-certified."
+    },
+    {
+      "role": "gemini_flash",
+      "status": "locked_with_validation_limits",
+      "requested_model": "gemini-3.8-flash-high",
+      "actual_backend": "not_independently_attested",
+      "report_sha256": "8f7c057bd3cc747ebeb0e9362d202e7daeb951064808c4238636b36329aeb2e3",
+      "report": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/gemini_flash/REPORT.md",
+      "invocation_sha256": "f28ad26b357c509161104544c692d6e57b942fc18dd13dec76efdf99afb1b4bd",
+      "input_coverage": {
+        "all1894_exact_source_blocks_verified": true,
+        "ranges": [
+          [
+            1,
+            576
+          ],
+          [
+            577,
+            1122
+          ],
+          [
+            1123,
+            1668
+          ],
+          [
+            1669,
+            1894
+          ]
+        ]
+      },
+      "reading_claim": "Reports claim sequential reading throughP01894 with no unread text; delivery validation is not cognitive attestation.",
+      "context": "No checkpoint observed; final report claims no lost/compacted context. This is a model claim, not proof of perfect retention.",
+      "checkpoint_events": 0,
+      "observed_step_or_item_types": [
+        "agent_response",
+        "user_input"
+      ],
+      "tools_observed": false,
+      "interim_reports": [
+        {
+          "file": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/gemini_flash/turn-001.md",
+          "sha256": "7ee968b2264779fa6ee9b5b7afd94bc80d1e5c7dd4e3a0a5efb565d9a5593ffc"
+        },
+        {
+          "file": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/gemini_flash/turn-002.md",
+          "sha256": "dac965d7d8dcf26a01cbc9d824a502839c452b0adf163cfc7f52fd8c5a2c0b31"
+        },
+        {
+          "file": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/gemini_flash/turn-003.md",
+          "sha256": "63e1447115c786b4872d3f50f003bfabd49b87f52033e4166ed07e8817b4b58c"
+        },
+        {
+          "file": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/gemini_flash/turn-004.md",
+          "sha256": "a6876e647723e2cde5fe7ca4b55c89b313a2b5038e7aec8ce774d22825df9106"
+        },
+        {
+          "file": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/gemini_flash/turn-005.md",
+          "sha256": "8f7c057bd3cc747ebeb0e9362d202e7daeb951064808c4238636b36329aeb2e3"
+        }
+      ],
+      "quote_validation": "Every actionable/facultative finding is mapped to an actual source paragraph in issue-ledger; final-table and praise prose not exhaustively quote-certified."
+    },
+    {
+      "role": "gemini_pro",
+      "status": "locked_with_validation_limits",
+      "requested_model": "gemini-3.1-pro-high",
+      "actual_backend": "not_independently_attested",
+      "report_sha256": "aa003569083d61eb0ede4ff5591cc5d0892f53f6c98ae0fdfb4a728bb1a31e53",
+      "report": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/gemini_pro/REPORT.md",
+      "invocation_sha256": "8b9209bad22c1767349dd59b14d0c37af85cd85cf26a4e0213708093cfc990e7",
+      "input_coverage": {
+        "all1894_exact_source_blocks_verified": true,
+        "ranges": [
+          [
+            1,
+            576
+          ],
+          [
+            577,
+            1122
+          ],
+          [
+            1123,
+            1668
+          ],
+          [
+            1669,
+            1894
+          ]
+        ]
+      },
+      "reading_claim": "Reports claim sequential reading throughP01894 with no unread text; delivery validation is not cognitive attestation.",
+      "context": "Checkpoint events observed; turn4 and final disclose compression of parts1–3. Final synthesis therefore did not retain all earlier verbatim context. Never label uncompacted full-context review.",
+      "checkpoint_events": 2,
+      "observed_step_or_item_types": [
+        "agent_response",
+        "checkpoint",
+        "user_input"
+      ],
+      "tools_observed": false,
+      "interim_reports": [
+        {
+          "file": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/gemini_pro/turn-001.md",
+          "sha256": "c4e3e9dd662b20a39a63f37e6d382f10fcfdd53caecef2ae51f98a3f9103b4f1"
+        },
+        {
+          "file": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/gemini_pro/turn-002.md",
+          "sha256": "d88b84e32ed1fdb0e82c18773df5eee50545fa786915c8a5409d0746963c18dc"
+        },
+        {
+          "file": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/gemini_pro/turn-003.md",
+          "sha256": "8d4aa01f890fcb1093596bc3dbbcb0d8a0cc210ff8d33005e7999c7b7206c03f"
+        },
+        {
+          "file": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/gemini_pro/turn-004.md",
+          "sha256": "3be5579a3c1980e6798bde3b0b04ca06d9ba1180c63d8756d21e5e78788c3350"
+        },
+        {
+          "file": "kontakt/books/book-02/production/2026-09-23-book02/literary-v1/results/gemini_pro/turn-005.md",
+          "sha256": "aa003569083d61eb0ede4ff5591cc5d0892f53f6c98ae0fdfb4a728bb1a31e53"
+        }
+      ],
+      "quote_validation": "Every actionable/facultative finding is mapped to an actual source paragraph in issue-ledger; final-table and praise prose not exhaustively quote-certified."
+    }
+  ],
+  "opus": {
+    "role": "opus",
+    "status": "unavailable_author_exception",
+    "requested_model": "claude-opus-4-6-thinking",
+    "client": "agy",
+    "evidence_files": [
+      {
+        "path": "kontakt\\books\\book-02\\production\\2026-09-23-book02\\literary-v1\\results\\opus\\invocation.json",
+        "sha256": "61de5ec30dc5ba9d86b8ff4521130a6bb59626d2cdbde4237a3dbfb1b4057941"
+      },
+      {
+        "path": "kontakt\\books\\book-02\\production\\2026-09-23-book02\\literary-v1\\results\\opus\\stderr.txt",
+        "sha256": "d7cd898df40192043e3bf70bd5ae351afdf120e53b326726d89cf6c4ce7128d5"
+      },
+      {
+        "path": "kontakt\\books\\book-02\\production\\2026-09-23-book02\\literary-v1\\results\\opus\\stdout.ndjson",
+        "sha256": "1f7312d07400a7636cbdd79c092b8685af4f849983b9be8957332b9ba1c55b23"
+      },
+      {
+        "path": "kontakt\\books\\book-02\\production\\2026-09-23-book02\\literary-v1\\results\\opus\\turn-001.md",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      }
+    ],
+    "actual_reading_established": false,
+    "actual_input_tokens": 0,
+    "actual_turns": 0,
+    "reason": "Execution rejected invalid model selection; empty result, no report. Root separately reports same identifier advertised by model list; this does not make failed invocation available.",
+    "policy_basis": "series/WORKFLOW-2026-09-23-REVISION-AND-BOOK02.md preserves explicit author permission to skip unavailable Opus; no substitute client/model silently used."
+  },
+  "known_report_errors": [
+    {
+      "role": "gemini_flash",
+      "claim": "Seven days from Thursday to next Wednesday/Friday; chronology flawless",
+      "finding": "Incorrect: narrative prep D0Monday–D6Sunday, operationD7Monday→D8Tuesday, aftermathD9Wednesday; Friday is futuremeeting. Missed relative-dayerrorsCH12/18/19/30."
+    },
+    {
+      "role": "gemini_flash",
+      "claim": "Chapter range table exact",
+      "finding": "Approximate e.g CH17 claimsP943–985, actualP943–984; CH18 starts985not986; prose quoted findings must use actual map."
+    },
+    {
+      "role": "terra",
+      "claim": "Only typo; no causality/timeissues",
+      "finding": "Scopeclaimdoesnotestablishfindingcompleteness; actual duplicateCH9 and calendarerrorsconfirmed."
+    },
+    {
+      "role": "gemini_pro",
+      "claim": "Tableowner returns to confirm completedtable",
+      "finding": "False payoff: CH33 P01743 says iffinished; onlyreceiptconfirmed. Do notimport invented completion."
+    },
+    {
+      "role": "gemini_pro",
+      "claim": "Leakedvideo / immediatelyremoved / Ira simplyworking",
+      "finding": "Source shows authorizedoldoutsidecopy and renewedrepost; Vectorfirstasksdelaythencomplies; Iraexplicitlydisablednotificationsafterrecognition. Flattened summaries notcanon."
+    },
+    {
+      "role": "gemini_flash",
+      "claim": "Тарас ends in vowel; threeц; mandatory genitive or dative ending",
+      "finding": "Overconfident descriptions not source-supported. DispositionsENS021/022/025 preserve contextualvariants."
+    },
+    {
+      "role": "all",
+      "claim": "Perfect/ready for publication/PASS approved",
+      "finding": "Model opinion only; no authorapproval, publicationauthorization or factualqualitycertificate. Reportsfrozen, correctiveassessmenthere."
+    }
+  ],
+  "coverage_table_limit": "Actual chapter ranges in actual-paragraph-map.json supersede approximate reviewer tables; no exhaustive audit of every praise sentence claimed.",
+  "tooling_limit": "Initial editorial_ensemble.py verify failed: run.json did not exist. Current author-specific 4attempts/3reports+Opus exception/Astra reconciliation policy cannot be represented faithfully by fixed legacy schema2 or3; separate custom validation rather than invented independent Astra/Opus report."
+}

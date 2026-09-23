@@ -1,0 +1,151 @@
+{
+  "status": "complete_report_validated_with_separate_metadata_accounting",
+  "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+  "report_sha256": "d11ab84e79d43db148720a5987b4ac05d9be389b5d2cb83e5ed7aef323b34261",
+  "native_invocation_sha256": "61b00ebf90c3572c1878fd583a48dd6adc89a499f64bb5004aa84c6fcf61e80f",
+  "requested_model": "gpt-6-astra",
+  "actual_backend": "not independently attested",
+  "actual_reported_coverage": "All36 chapters P00001–P01894; no unread or compressed ranges reported.",
+  "coordinator_report_reading": "Entire returned report read, including limitations,22 patch rows,16 state checks and final verdict.",
+  "verified_patch_anchors": [
+    {
+      "id": "B02-FINAL-002",
+      "chapter": 2,
+      "final_anchor": "P00133",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-020",
+      "chapter": 8,
+      "final_anchor": "P00475",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-005",
+      "chapter": 9,
+      "final_anchor": "P00544",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-006",
+      "chapter": 12,
+      "final_anchor": "P00715",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-011",
+      "chapter": 13,
+      "final_anchor": "P00774",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-010",
+      "chapter": 14,
+      "final_anchor": "P00786",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-016",
+      "chapter": 14,
+      "final_anchor": "P00802",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-021",
+      "chapter": 16,
+      "final_anchor": "P00917",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-007",
+      "chapter": 18,
+      "final_anchor": "P01003",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-001",
+      "chapter": 19,
+      "final_anchor": "P01026",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-003",
+      "chapter": 19,
+      "final_anchor": "P01041",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-008",
+      "chapter": 19,
+      "final_anchor": "P01047",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-004",
+      "chapter": 20,
+      "final_anchor": "P01119",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-018",
+      "chapter": 25,
+      "final_anchor": "P01358",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-017",
+      "chapter": 26,
+      "final_anchor": "P01420",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-013",
+      "chapter": 29,
+      "final_anchor": "P01545",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-022",
+      "chapter": 29,
+      "final_anchor": "P01571",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-009",
+      "chapter": 30,
+      "final_anchor": "P01612",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-012",
+      "chapter": 30,
+      "final_anchor": "P01615",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-015",
+      "chapter": 31,
+      "final_anchor": "P01660",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-019",
+      "chapter": 32,
+      "final_anchor": "P01667",
+      "after_verified": true
+    },
+    {
+      "id": "B02-FINAL-014",
+      "chapter": 33,
+      "final_anchor": "P01717",
+      "after_verified": true
+    }
+  ],
+  "remaining_prose_defects_reported": 0,
+  "limits": [
+    "No independent complete Book1 reread in this run.",
+    "Full old/new byte comparison performed separately by root, not by native Astra.",
+    "20metadata instruction accounting supplied separately by root; original report preserved.",
+    "No publication approval, dictionary/audio/human-beta/nativeWord verification claimed."
+  ]
+}

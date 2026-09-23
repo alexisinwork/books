@@ -1,0 +1,2603 @@
+{
+  "schema_version": 1,
+  "run_id": "book02-literary-v1",
+  "project_id": "kontakt",
+  "book_id": "book-02",
+  "source_sha256": "e641f3b639f0c03578c51916c0434156c584ce8022f556d94e522bf7c653679d",
+  "status": "implemented_and_verified_working_revision",
+  "author_decisions": "All pending; do not infer votes from editor dispositions",
+  "items": [
+    {
+      "id": "ENS-001",
+      "origin_reports": [
+        "terra",
+        "gemini_flash",
+        "gemini",
+        "astra"
+      ],
+      "provenance": [
+        "terra:final:1",
+        "gemini_flash:final:4.1",
+        "gemini_pro:final:2",
+        "root:ROOT-TERRA-07"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 19,
+          "anchor": "P01026",
+          "quote": "За двадццять хвилин до півночі хтось на площі вже почав відлік."
+        }
+      ],
+      "observation": "Зайва ц у двадццять",
+      "reader_effect": "Точний одрук є в джерелі; Flash помилково описує три ц, насправді дві.",
+      "evidence": "P01026 CH19",
+      "proposed_actions": [
+        "Виправити тільки двадццять → двадцять."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-001"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Точний одрук є в джерелі; Flash помилково описує три ц, насправді дві."
+      },
+      "agreement": "convergent"
+    },
+    {
+      "id": "ENS-002",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:final:4.2:1"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 2,
+          "anchor": "P00133",
+          "quote": "Вона попросила Тараса допомогти з планкою до входу в майстерню. Мені не попросила нічого. Я встав, щоб пропустити їх, і залишився біля столу, поки вони обережно розвертали довге дерево у вузьких дверях."
+        }
+      ],
+      "observation": "Мені не попросила нічого",
+      "reader_effect": "Адресат попередньої просьби Тарас; Даль не отримав просьби. Давальний тут ламає саме цю синтаксичну будову.",
+      "evidence": "P00133 CH2",
+      "proposed_actions": [
+        "Природно передати, що Іра ні про що не попросила Даля; не додавати образи чи іншого доручення."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-002"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Адресат попередньої просьби Тарас; Даль не отримав просьби. Давальний тут ламає саме цю синтаксичну будову."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-003",
+      "origin_reports": [
+        "gemini"
+      ],
+      "provenance": [
+        "gemini_pro:final:1"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 19,
+          "anchor": "P01041",
+          "quote": "За п’ять хвилин до нуля натовп надворі спробував відлік удруге. Цього разу хтось із людей біля сцени перебив їх точним часом. Голоси стихли нерівно, як вода, що ще хвилину рухається після того, як перестали заважати ложкою."
+        }
+      ],
+      "observation": "Заважати ложкою",
+      "reader_effect": "Контекст — обертання води після помішування, не створення перешкоди. Образ придатний, дієслово неточне.",
+      "evidence": "P01041 CH19",
+      "proposed_actions": [
+        "Зберегти образ води, яку перестали мішати ложкою; змінити тільки невдале дієслово/його зв’язок."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-003"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Контекст — обертання води після помішування, не створення перешкоди. Образ придатний, дієслово неточне."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-004",
+      "origin_reports": [
+        "gemini",
+        "astra"
+      ],
+      "provenance": [
+        "gemini_pro:final:3",
+        "gemini_pro:turn-002:1",
+        "root:ROOT-TERRA-10"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 20,
+          "anchor": "P01119",
+          "quote": "Після другої ночі свято почало скидати зовнішню шкіру. Музика стала тихішою. Люди, які приходили на сам запуск, ішли додому. Зате до пункту підходили ті, хто тримав у руках конкретні речі, питання й запізнення."
+        }
+      ],
+      "observation": "Друга година ночі й спостережений час",
+      "reader_effect": "Контекст однієї доби визначає02:00, але еліпсис допускає миттєве читання другої ночі. Метадані помилково кажуть без точного годинника і закінчують план о02.",
+      "evidence": "P01119 CH20",
+      "proposed_actions": [
+        "Додати години в після другої години ночі. У нових станах явно записати, що частина сцени після02:00; плановий інтервал не видавати за фактичну межу."
+      ],
+      "dependencies": [
+        "CH20 time_basis",
+        "CH21 sleep then arrival after07"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-004"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Контекст однієї доби визначає02:00, але еліпсис допускає миттєве читання другої ночі. Метадані помилково кажуть без точного годинника і закінчують план о02."
+      },
+      "agreement": "convergent"
+    },
+    {
+      "id": "ENS-005",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "root:ROOT-TERRA-02",
+        "astra:full_read"
+      ],
+      "category": "continuity",
+      "severity": "moderate",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 9,
+          "anchor": "P00544",
+          "quote": "Вектор відкрив командний розклад. Один ефір зник із плану: людина, яка мала його вести, перейшла на зміну. Він написав їй, дочекався відповіді й викреслив ім’я — та працювала вночі й не могла прийти."
+        },
+        {
+          "chapter": 9,
+          "anchor": "P00561",
+          "quote": "Ми вийшли майже останніми. Вектор стояв у коридорі й дзвонив людині, яку щойно переніс із ефіру на чергування. Після розмови викреслив її ім’я."
+        },
+        {
+          "chapter": 9,
+          "anchor": "P00563",
+          "quote": "— Працює вночі. Я не знав."
+        },
+        {
+          "chapter": 9,
+          "anchor": "P00564",
+          "quote": "Тарас дістав свій аркуш. Порожніх місць знову стало два."
+        }
+      ],
+      "observation": "Та сама чергова відмовляє двічі",
+      "reader_effect": "На засіданні Вектор уже дочекався відмови через нічну роботу, потім у коридорі дізнається її вперше й знову викреслює.",
+      "evidence": "P00544 CH9; P00561 CH9; P00563 CH9; P00564 CH9",
+      "proposed_actions": [
+        "У ранньому абзаці лишити спробу перенести людину/надіслане питання з відповіддю ще pending. Пізнішу розмову й викреслення зберегти як єдине отримання відмови. Не вигадувати другої людини."
+      ],
+      "dependencies": [
+        "CH10 one gap remains",
+        "staffing stateCH09"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-005"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "На засіданні Вектор уже дочекався відмови через нічну роботу, потім у коридорі дізнається її вперше й знову викреслює."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-006",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "root:ROOT-TERRA-03"
+      ],
+      "category": "continuity",
+      "severity": "moderate",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 12,
+          "anchor": "P00715",
+          "quote": "Повернувшись до монтажної, я побачив на екрані вчорашню суперечку з Ланою. Дівчина спитала:"
+        },
+        {
+          "chapter": 8,
+          "anchor": "P00499",
+          "quote": "Увечері зала була повніша, ніж я очікував. Під стіною залишили місце для тих, хто не хотів потрапити в запис. Вектор перевірив кут камери й почав із того, що остаточного вузла ще немає."
+        },
+        {
+          "chapter": 14,
+          "anchor": "P00785",
+          "quote": "У суботу вранці на столі Ренати лежали два варіанти маршруту. Вона не квапила нас обирати той, що на схемі виглядав коротшим."
+        }
+      ],
+      "observation": "Учорашня суперечка",
+      "reader_effect": "СуперечкаCH08D2, монтажнаCH12D4. У суботуCH14 попередній день прямо пов’язано з Ірою.",
+      "evidence": "P00715 CH12; P00499 CH8; P00785 CH14",
+      "proposed_actions": [
+        "Назвати попередню записану суперечку без хибного вчора або правильно позавчора. Не переносити монтаж на інший день."
+      ],
+      "dependencies": [
+        "D2 debate",
+        "D4 withdrawal",
+        "D5 privatechoice"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-006"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "СуперечкаCH08D2, монтажнаCH12D4. У суботуCH14 попередній день прямо пов’язано з Ірою."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-007",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "root:ROOT-TERRA-04",
+        "root:ROOT-TERRA-08"
+      ],
+      "category": "continuity",
+      "severity": "moderate",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 18,
+          "anchor": "P01003",
+          "quote": "— Початок о 00:00. Повернення завтра о 00:00. Локальний режим L1, зовнішній маршрут B. Точні звернення, ідентифікація, невідкладні та окремі службові канали поза зміною."
+        },
+        {
+          "chapter": 19,
+          "anchor": "P01047",
+          "quote": "— Завтра, нуль нуль."
+        },
+        {
+          "chapter": 18,
+          "anchor": "P01013",
+          "quote": "О 20:10 Вектор натиснув публікацію."
+        },
+        {
+          "chapter": 30,
+          "anchor": "P01596",
+          "quote": "О нуль нуль поле стану змінилося. Поруч виник запис про повернення конфігурації. Нічого не клацнуло, тож чоловік позаду мене спитав, чи вже сталося."
+        }
+      ],
+      "observation": "Два передстартові завтра означають неправильний день повернення",
+      "reader_effect": "Обидві репліки перед недільною північчю. Завтра00:00 — понеділковий запуск, а не вівторкове повернення через24год.",
+      "evidence": "P01003 CH18; P01047 CH19; P01013 CH18; P01596 CH30",
+      "proposed_actions": [
+        "У CH18 прямо понеділок00:00 старт і вівторок00:00 повернення; у CH19 відповідь про повернення прямо вівторок00:00. Зберегти рівно24год і таймер."
+      ],
+      "dependencies": [
+        "CH18/19/30 time states",
+        "D6→D7→D8"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-007",
+          "B02-FINAL-008"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Обидві репліки перед недільною північчю. Завтра00:00 — понеділковий запуск, а не вівторкове повернення через24год."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-008",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "root:ROOT-TERRA-11"
+      ],
+      "category": "continuity",
+      "severity": "moderate",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 30,
+          "anchor": "P01612",
+          "quote": "— Завтра о дванадцятій. Зводимо підсумок, — сказав він. — Прийдете?"
+        },
+        {
+          "chapter": 30,
+          "anchor": "P01610",
+          "quote": "За пів години черговий зачинив пункт. Перед тим ми разом звірили записані на середу справи. Я сфотографував тільки свої два рядки, дочекався, поки він вимкне світло, й підняв торбу."
+        },
+        {
+          "chapter": 31,
+          "anchor": "P01641",
+          "quote": "Це теж було не ухилянням. Я вже двічі загубив потрібний рядок у наших сумлінних поясненнях. Вектор не просив прибрати невдачі; просив не зробити їх єдиною річчю, яку побачить людина, котра просто хотіла зрозуміти, що сталося вчора."
+        },
+        {
+          "chapter": 32,
+          "anchor": "P01707",
+          "quote": "Потім написав Тарасові, що завтра буду на дві обіцяні перевірки."
+        }
+      ],
+      "observation": "Запрошення після півночі",
+      "reader_effect": "CH30 вже вівторок00:30; звітCH31того самого вівторка, потімCH32обіцяє середу. Завтра зсуває весь фінал.",
+      "evidence": "P01612 CH30; P01610 CH30; P01641 CH31; P01707 CH32",
+      "proposed_actions": [
+        "Запрошення на сьогодні/удень о дванадцятій, не завтра. Решту репліки лишити."
+      ],
+      "dependencies": [
+        "CH30/31/32 chronology"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-009"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "CH30 вже вівторок00:30; звітCH31того самого вівторка, потімCH32обіцяє середу. Завтра зсуває весь фінал."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-009",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "root:ROOT-TERRA-05"
+      ],
+      "category": "format",
+      "severity": "minor",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 14,
+          "anchor": "P00786",
+          "quote": "— По А остаточного підтвердження ще немає, — сказала вона. — По B воно прийшло сьогодні. У межах дозволеного обидва. Але я не підпишу те, чого не можу підтвердити."
+        },
+        {
+          "chapter": 14,
+          "anchor": "P00793",
+          "quote": "Я звірив це з нашим протоколом. Ізольований стенд не обирав для нас зовнішнього маршруту. Він узагалі не виходив на A чи B. Сьогодні ми обирали B не тому, що лінія гарно лягала на карті, а тому, що Рената могла підтвердити його готовність зараз."
+        },
+        {
+          "chapter": 36,
+          "anchor": "P01854",
+          "quote": "У публічному технічному листі, внутрішньому записі й поясненні витягу це був той самий маршрут, з тими самими кінцевими точками й версією. Не інша лінія, випадково позначена тією самою буквою."
+        }
+      ],
+      "observation": "Кириличний А у службовій назві",
+      "reader_effect": "Параметри маршруту мають зіставлятися буквально. У По А стоїть U+0410, далі LatinA.",
+      "evidence": "P00786 CH14; P00793 CH14; P01854 CH36",
+      "proposed_actions": [
+        "Замінити тільки літеру службового маршруту А на латинську A. Українські літери поза ідентифікаторами не чіпати."
+      ],
+      "dependencies": [
+        "CH07/10/14/17DOC/35/36 identifiers"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-010"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Параметри маршруту мають зіставлятися буквально. У По А стоїть U+0410, далі LatinA."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-010",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "root:ROOT-TERRA-06"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 13,
+          "anchor": "P00774",
+          "quote": "Я лишився з монтажеркою. Ми двічі скоротили текст під схемою, а потім повернули речення, без якого виходило, ніби завтра вимкнуть усі повідомлення. До кінця роботи я вже не міг дивитися на слово «ранжування»."
+        }
+      ],
+      "observation": "Ніби завтра вимкнуть повідомлення",
+      "reader_effect": "Це опис хибного враження від чернетки, не твердження про фактичне вимкнення. Однак завтра в п’ятничній сцені без потреби збиває графік понеділка.",
+      "evidence": "P00774 CH13",
+      "proposed_actions": [
+        "Прибрати хибну відносну дату, назвати час досліду/експериментальну добу. Зберегти ніби й факт виправлення оманливого тексту."
+      ],
+      "dependencies": [
+        "D4→D7",
+        "display vs delivery"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-011"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Це опис хибного враження від чернетки, не твердження про фактичне вимкнення. Однак завтра в п’ятничній сцені без потреби збиває графік понеділка."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-011",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "root:ROOT-TERRA-12"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 30,
+          "anchor": "P01612",
+          "quote": "— Завтра о дванадцятій. Зводимо підсумок, — сказав він. — Прийдете?"
+        },
+        {
+          "chapter": 30,
+          "anchor": "P01615",
+          "quote": "— Бачив оплески?"
+        }
+      ],
+      "observation": "Вектор: Прийдете → Бачив",
+      "reader_effect": "У межах однієї розмови й надалі Вектор тримає ви; немає сценічного переходу, на відміну від Тараса.",
+      "evidence": "P01612 CH30; P01615 CH30",
+      "proposed_actions": [
+        "Зберегти формальне звертання в короткому питанні Вектора про оплески. Не додавати пояснювального абзацу."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-012"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "У межах однієї розмови й надалі Вектор тримає ви; немає сценічного переходу, на відміну від Тараса."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-012",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "root:ROOT-TERRA-13"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 11,
+          "anchor": "P00612",
+          "quote": "Іра сама написала Тарасу, що готова один раз сказати про свій запит. Він переслав мені тільки це речення й додав: «Не роби з неї зразкову невидиму»."
+        },
+        {
+          "chapter": 25,
+          "anchor": "P01373",
+          "quote": "— Якщо сам хочеш. Вона пустила тільки у двір. За тебе відповідати не буду."
+        },
+        {
+          "chapter": 25,
+          "anchor": "P01375",
+          "quote": "— Тоді можеш пройти поруч. Якщо скаже піти — підеш."
+        },
+        {
+          "chapter": 26,
+          "anchor": "P01422",
+          "quote": "— Вийшли? — спитав він."
+        },
+        {
+          "chapter": 34,
+          "anchor": "P01757",
+          "quote": "— Тут тільки хліб і сир. Якщо хочеш гаряче, в сусідньому дворі ще відчинено."
+        }
+      ],
+      "observation": "Тарасове ти в приватній домовленості",
+      "reader_effect": "Приватне Не роби вжеCH11. Повернення до формального звертання в робочих сценах можливе; CH25і34 особистіші. Це не механічна помилка узгодження.",
+      "evidence": "P00612 CH11; P01373 CH25; P01375 CH25; P01422 CH26; P01757 CH34",
+      "proposed_actions": [
+        "Не уніфікувати весь зв’язок на ви. Зберегти поступове особисте зближення."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Приватне Не роби вжеCH11. Повернення до формального звертання в робочих сценах можливе; CH25і34 особистіші. Це не механічна помилка узгодження."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-013",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "root:ROOT-TERRA-09",
+        "astra:full_read"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 23,
+          "anchor": "P01272",
+          "quote": "За деталями до столу прийшла інша людина. Ми розгорнули пакунок, розклали кріплення на чистому папері, звірили розмір. Дві деталі не підійшли. Решту вона забрала. Непотрібні залишилися на окремій полиці з позначкою, без нового одержувача, вигаданого з бажання закрити рядок."
+        },
+        {
+          "chapter": 29,
+          "anchor": "P01545",
+          "quote": "Я подзвонив за погодженим номером щодо решти деталей для столу. Власник міг прийти в середу. Не у вівторок, як ми переписали з його першого повідомлення: у наступному він виправив день."
+        },
+        {
+          "chapter": 33,
+          "anchor": "P01717",
+          "quote": "Перший стосувався деталей для столу. Власник підтвердив середу, але за ніч попросив перенести видачу на пів години. Повідомлення прийшло на адресу пункту, а я дивився у вчорашній знімок."
+        },
+        {
+          "chapter": 33,
+          "anchor": "P01738",
+          "quote": "За деталями для столу прийшли пізніше. Власник спершу почав складати в сумку й те, що не підходило. Ми розгорнули його стару схему, відклали два зайвих кріплення й відмітили, куди їх повернути."
+        }
+      ],
+      "observation": "Дві передачі деталей столу недостатньо розрізнені",
+      "reader_effect": "У понеділок одержувачка забрала придатне у Лани; у середу чоловік отримує деталі у Тараса. Це можуть бути різні справи, не доведена повторна видача. Проте решти та повтор двох зайвих кріплень склеюють їх у пам’яті.",
+      "evidence": "P01272 CH23; P01545 CH29; P01717 CH33; P01738 CH33",
+      "proposed_actions": [
+        "Мінімально розрізнити середовий запит як інший стіл/інший погоджений пакунок у CH29 і підтримати цей референтCH33. Не скасовувати понеділкову передачу й не оголошувати встановленою помилку подвійної видачі. Не вводити нові імена чи сцени."
+      ],
+      "dependencies": [
+        "CH23/29/31/33 resources",
+        "working implementation not authorfact"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-013",
+          "B02-FINAL-014"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_clarification",
+        "rationale": "У понеділок одержувачка забрала придатне у Лани; у середу чоловік отримує деталі у Тараса. Це можуть бути різні справи, не доведена повторна видача. Проте решти та повтор двох зайвих кріплень склеюють їх у пам’яті."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-014",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "root:ROOT-TERRA-14",
+        "astra:full_read"
+      ],
+      "category": "continuity",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 31,
+          "anchor": "P01660",
+          "quote": "— Нам потрібна людина, яка витримає незручне запитання й не втече в гасло, — сказав він. — Ви вже пішли посеред включення. Гірше знайомство важко придумати."
+        },
+        {
+          "chapter": 26,
+          "anchor": "P01390",
+          "quote": "— Тоді сідайте. До включення кілька хвилин."
+        },
+        {
+          "chapter": 26,
+          "anchor": "P01412",
+          "quote": "— Передам це ведучій, — сказав я. — І прямо відмовлюся від ефіру. Не придумуйте мені технічної несправності."
+        },
+        {
+          "chapter": 26,
+          "anchor": "P01419",
+          "quote": "Вона переписала порядок. Там, де було моє ім’я, поставила коротке читання уточнень. Вектор повернувся до камери, попросив пересунути другий стілець і почав проговорювати початок."
+        }
+      ],
+      "observation": "Посеред включення замість перед початком",
+      "reader_effect": "Вектор може риторично перебільшувати, але буквальний час сприймається як пам’ять проCH26; там Даль відмовляється до старту. Перебільшення не потрібне для його аргументу.",
+      "evidence": "P01660 CH31; P01390 CH26; P01412 CH26; P01419 CH26",
+      "proposed_actions": [
+        "Зберегти образу/суху іронію Вектора й реальну ціну відмови, уточнивши перед самим включенням/в останню мить. Не робити Даля учасником уже розпочатого ефіру."
+      ],
+      "dependencies": [
+        "CH26 source knowledge",
+        "CH31 state"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-015"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Вектор може риторично перебільшувати, але буквальний час сприймається як пам’ять проCH26; там Даль відмовляється до старту. Перебільшення не потрібне для його аргументу."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-015",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:final:4.3:decision"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 14,
+          "anchor": "P00802",
+          "quote": "До обіду я встиг повернутися додому, переодягнути сорочку й тричі відкрити Векторове питання про власний виступ. Відповідь щоразу була та сама. Я просто не надсилав її, поки це дозволяло вважати рішення не зробленим."
+        }
+      ],
+      "observation": "Рішення не зробленим",
+      "reader_effect": "Незручна сполучуваність у відкладеній відповіді. Потрібна локальна природність, не переписування моральної сцени.",
+      "evidence": "P00802 CH14",
+      "proposed_actions": [
+        "Передати, що ненадіслана відповідь дозволяє вважати рішення ще не ухваленим/не остаточним; зберегти самообман Даля."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-016"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Незручна сполучуваність у відкладеній відповіді. Потрібна локальна природність, не переписування моральної сцени."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-016",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:final:4.3:guise"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 26,
+          "anchor": "P01420",
+          "quote": "Я вийшов, поки ще міг повернутися під виглядом того, що щось забув."
+        }
+      ],
+      "observation": "Під виглядом того що",
+      "reader_effect": "Важка конструкція біля сильного виходу. Можна компактно назвати удавання забутої речі без нормативного ярлика калька.",
+      "evidence": "P01420 CH26",
+      "proposed_actions": [
+        "Локально природно передати можливість повернутися, удаючи, ніби щось забув. Не змінювати факт виходу до ефіру."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-017"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Важка конструкція біля сильного виходу. Можна компактно назвати удавання забутої речі без нормативного ярлика калька."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-017",
+      "origin_reports": [
+        "gemini"
+      ],
+      "provenance": [
+        "gemini_pro:final:5"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 25,
+          "anchor": "P01358",
+          "quote": "Я відкрив відомості. Автором був сторонній канал. Первинна дата стояла п’ятницею, ще до Іриного відкликання. Сьогодні запис підхопили новим поширенням. Наше старе посилання не відкривалося; я перевірив його окремо, хоча й без того пам’ятав, як дівчина за монтажним столом прибирала його з усіх наших чернеток."
+        }
+      ],
+      "observation": "Дата стояла п’ятницею",
+      "reader_effect": "Дата/дія названі важко. Треба зберегти стару зовнішню публікацію до відкликання і новий понеділковий репост.",
+      "evidence": "P01358 CH25",
+      "proposed_actions": [
+        "Природно назвати первинну п’ятничну дату старої копії без зміни її походження й двох моментів поширення."
+      ],
+      "dependencies": [
+        "Ira oldcopy not Vectorbreach"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-018"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Дата/дія названі важко. Треба зберегти стару зовнішню публікацію до відкликання і новий понеділковий репост."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-018",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:final:4.4"
+      ],
+      "category": "format",
+      "severity": "minor",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 32,
+          "anchor": "P01667",
+          "quote": "Залишити ім'я"
+        }
+      ],
+      "observation": "Апостроф у назвіCH32",
+      "reader_effect": "Прямий ASCIIапостроф відрізняється від загального типографічного стилю назв. Цитата Flash включає маркер заголовка неточно, потрібний рядок є.",
+      "evidence": "P01667 CH32",
+      "proposed_actions": [
+        "У назві Залишити ім’я уніфікувати типографічний апостроф. Не змінювати текст назви."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-019"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Прямий ASCIIапостроф відрізняється від загального типографічного стилю назв. Цитата Flash включає маркер заголовка неточно, потрібний рядок є."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-019",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:final:4.3:pretend"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 12,
+          "anchor": "P00720",
+          "quote": "Хотілося хоча б на секунду зробити вигляд, що не бачу цього."
+        },
+        {
+          "chapter": 13,
+          "anchor": "P00740",
+          "quote": "Я теж її бачив. Уявляв, як люди гортатимуть технічну схему, не дочитавши до рядка про прямі звернення. Як наш вечірній матеріал стане схожий на інструкцію до меблів, які ніхто не купував. Мені хотілося, щоб Вектор сам знайшов спосіб не втратити її й водночас не зробити вигляд, що її вимога не надійшла."
+        }
+      ],
+      "observation": "Зробити вигляд",
+      "reader_effect": "Зрозуміла поширена конструкція; походження від іншої мови не доводить дефект. Компактне вдати може поліпшити два внутрішні речення, але не потрібна обов’язкова пуристична заміна.",
+      "evidence": "P00720 CH12; P00740 CH13",
+      "proposed_actions": [
+        "Залишити у фінальному мінімальному пакеті; Terra не мусить застосовувати несумісні нормативні ярлики."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Зрозуміла поширена конструкція; походження від іншої мови не доводить дефект. Компактне вдати може поліпшити два внутрішні речення, але не потрібна обов’язкова пуристична заміна."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-020",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:final:4.2:lean"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 32,
+          "anchor": "P01674",
+          "quote": "Ми спустили стійку сходами разом. Унизу Вектор спер її об стіну й подивився на аркуш у моїй руці."
+        }
+      ],
+      "observation": "Спер її об стіну",
+      "reader_effect": "Фізична дія зрозуміла. Висока впевненість рецензента не доводить ненормативності; словникової заборони не встановлено.",
+      "evidence": "P01674 CH32",
+      "proposed_actions": [
+        "Не виправляти як підтверджену кальку; прихилив до стіни лише можлива необов’язкова редакторська альтернатива."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Фізична дія зрозуміла. Висока впевненість рецензента не доводить ненормативності; словникової заборони не встановлено."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-021",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:final:4.2:drop"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 34,
+          "anchor": "P01752",
+          "quote": "Я вже торкнувся дверної ручки, коли Тарас упустив ніж."
+        }
+      ],
+      "observation": "Тарас упустив ніж",
+      "reader_effect": "Рецензент описує попередній голосний, але Тарас закінчується приголосним. Дія падіння ножа однозначна в наступному абзаці.",
+      "evidence": "P01752 CH34",
+      "proposed_actions": [
+        "Зберегти. Не вигадувати порушення милозвучності й не замінювати всі упустив."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "reviewer_noise",
+        "rationale": "Рецензент описує попередній голосний, але Тарас закінчується приголосним. Дія падіння ножа однозначна в наступному абзаці."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-022",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:final:4.3:acceptdecision"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 9,
+          "anchor": "P00529",
+          "quote": "— Я пояснюю межі. Рішення не приймаю одноосібно."
+        }
+      ],
+      "observation": "Приймати рішення і заперечення",
+      "reader_effect": "Не підтверджено заборону приймати рішення. Рішення в однині має ту саму форму родового; загальна вимога рецензента змінити ще й число необґрунтована.",
+      "evidence": "P00529 CH9",
+      "proposed_actions": [
+        "Зберегти технічний голос Ренати, не робити глобальної заміни."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "reviewer_noise",
+        "rationale": "Не підтверджено заборону приймати рішення. Рішення в однині має ту саму форму родового; загальна вимога рецензента змінити ще й число необґрунтована."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-023",
+      "origin_reports": [
+        "gemini"
+      ],
+      "provenance": [
+        "gemini_pro:final:4"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 22,
+          "anchor": "P01229",
+          "quote": "Жінка чекала біля проходу. Я прибрав пристрій і пішов із нею до Лани, поки наша суперечка не витратила її день остаточно."
+        }
+      ],
+      "observation": "Суперечка витратила день",
+      "reader_effect": "Зрозуміле уособлення: чужий спір забирає ресурс жінки. Подібна предметність належить голосу Даля; буквальний агент не обов’язковий для метафори.",
+      "evidence": "P01229 CH22",
+      "proposed_actions": [
+        "Зберегти; забрала — необов’язковий смак, не фактичне виправлення."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Зрозуміле уособлення: чужий спір забирає ресурс жінки. Подібна предметність належить голосу Даля; буквальний агент не обов’язковий для метафори."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-024",
+      "origin_reports": [
+        "gemini"
+      ],
+      "provenance": [
+        "gemini_pro:final:6"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 35,
+          "anchor": "P01821",
+          "quote": "— Перше наше замовлення на L1 з маршрутом B — після суботнього вибору. Раніше в нашому журналі немає. Я перевірила й чернетки відправлення: у четвер такого замовлення не було."
+        },
+        {
+          "chapter": 35,
+          "anchor": "P01829",
+          "quote": "— Я сказала «могли». Ви попросили перевірити наше замовлення. Його раніше не було. Решту я не перевірила."
+        }
+      ],
+      "observation": "Еліпсис Ренати: раніше немає",
+      "reader_effect": "Об’єкт прямо названо в попередньому реченні і наступному. Стисла усна відповідь не губить межі перевіреного журналу.",
+      "evidence": "P01821 CH35; P01829 CH35",
+      "proposed_actions": [
+        "Зберегти живий еліпсис. Не додавати значення про відсутність усіх резервів."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Об’єкт прямо названо в попередньому реченні і наступному. Стисла усна відповідь не губить межі перевіреного журналу."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-025",
+      "origin_reports": [
+        "gemini"
+      ],
+      "provenance": [
+        "gemini_pro:final:7"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 35,
+          "anchor": "P01824",
+          "quote": "Я був там. Пам’ятав, як хотів покласти позитивний результат перевірки на стіл Вектору й сказати, що можна рухатися."
+        }
+      ],
+      "observation": "Вектору / Векторові",
+      "reader_effect": "Рецензент сам визнає форму допустимою. Варіант закінчення не змінює адресата, голос чи зміст.",
+      "evidence": "P01824 CH35",
+      "proposed_actions": [
+        "Не вводити механічну уніфікацію давального."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Рецензент сам визнає форму допустимою. Варіант закінчення не змінює адресата, голос чи зміст."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-026",
+      "origin_reports": [
+        "gemini_flash",
+        "gemini",
+        "astra"
+      ],
+      "provenance": [
+        "gemini_flash:final:4.5:1",
+        "gemini_pro:turn-001:3",
+        "root:native01-06:remaining"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 1,
+          "anchor": "P00005",
+          "quote": "За дев’ять проміжних днів після професійного виходу я навчився робити побут без підказок: вимикати світло, не забувати про воду в чайнику, замовляти дрібниці за точною адресою. Найважче було не починати ранок із чужої черги. Рука все одно тягнулася до місця на панелі, де раніше відкривалося робоче поле."
+        }
+      ],
+      "observation": "Робити побут і дев’ять проміжних днів",
+      "reader_effect": "Процедурність відображає героя після виходу. Календарна фраза трохи службова, але утримує явний пропуск часу; не руйнує сцену.",
+      "evidence": "P00005 CH1",
+      "proposed_actions": [
+        "Зберегти як голос/місток; не оголошувати новим канонічним датуванням."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Процедурність відображає героя після виходу. Календарна фраза трохи службова, але утримує явний пропуск часу; не руйнує сцену."
+      },
+      "agreement": "convergent"
+    },
+    {
+      "id": "ENS-027",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:final:4.5:2"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 2,
+          "anchor": "P00105",
+          "quote": "— От так я й проводжу тут час замість робити своє."
+        }
+      ],
+      "observation": "Замість робити своє",
+      "reader_effect": "Еліпсис Іри природний для роздратованої короткої репліки, розгортання послабить удар.",
+      "evidence": "P00105 CH2",
+      "proposed_actions": [
+        "Зберегти."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Еліпсис Іри природний для роздратованої короткої репліки, розгортання послабить удар."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-028",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:final:4.5:3"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 27,
+          "anchor": "P01464",
+          "quote": "Я закрив рота."
+        }
+      ],
+      "observation": "Закрив рота",
+      "reader_effect": "Конкретна зупинка власного виправдання працює; пуристичного виправлення сцена не потребує.",
+      "evidence": "P01464 CH27",
+      "proposed_actions": [
+        "Зберегти."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Конкретна зупинка власного виправдання працює; пуристичного виправлення сцена не потребує."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-029",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:final:4.5:4"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 19,
+          "anchor": "P01052",
+          "quote": "За вікном працював кіоск. Продавець передав комусь стаканчик із парою."
+        }
+      ],
+      "observation": "Стаканчик",
+      "reader_effect": "Звичайна міська предметність; паперове горнятко не є обов’язковим поліпшенням.",
+      "evidence": "P01052 CH19",
+      "proposed_actions": [
+        "Зберегти."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Звичайна міська предметність; паперове горнятко не є обов’язковим поліпшенням."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-030",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:turn-001:leaf"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 1,
+          "anchor": "P00048",
+          "quote": "— Поки тримаєте стіл зайнятим, звірте. Тут видано, тут повернуто. Мені треба знати, кому дзвонити. Адреси лишіть під нижнім листком."
+        }
+      ],
+      "observation": "Листок і аркуш",
+      "reader_effect": "Ремарка оповідача й репліка Тараса не зобов’язані однаковому словнику; референт очевидний.",
+      "evidence": "P00048 CH1",
+      "proposed_actions": [
+        "Зберегти."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Ремарка оповідача й репліка Тараса не зобов’язані однаковому словнику; референт очевидний."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-031",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:turn-001:need"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 6,
+          "anchor": "P00388",
+          "quote": "Це було справедливо. Я не мав відповіді, яка забирала б у нього потребу пояснити мою присутність."
+        }
+      ],
+      "observation": "Забирала б потребу",
+      "reader_effect": "Потреба Вектора зберігається всупереч точній перевірці; метафорична дієслівність читається без фактичної двозначності.",
+      "evidence": "P00388 CH6",
+      "proposed_actions": [
+        "Зберегти; це не доведений дефект."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Потреба Вектора зберігається всупереч точній перевірці; метафорична дієслівність читається без фактичної двозначності."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-032",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:turn-002:jacket"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 16,
+          "anchor": "P00942",
+          "quote": "Я закрив картку. Мікрофон згас. Чашку лишив біля мийки, надів куртку й уже в дверях повернувся по пристрій. Не перевіряв, чи за цю хвилину написав хтось новий. Просто взяв його зі столу й вийшов."
+        }
+      ],
+      "observation": "Надів куртку",
+      "reader_effect": "Не доведено потреби міняти звичайний міський словник. Немає зміни того, що герой одягнувся перед виходом.",
+      "evidence": "P00942 CH16",
+      "proposed_actions": [
+        "Зберегти без глобального словникового правила."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Не доведено потреби міняти звичайний міський словник. Немає зміни того, що герой одягнувся перед виходом."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-033",
+      "origin_reports": [
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_flash:turn-003:eleven"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 29,
+          "anchor": "P01539",
+          "quote": "За столом лежало одинадцять незавершених рядків. Біля трьох стояло «завтра» — без часу й без імені."
+        }
+      ],
+      "observation": "Лежало одинадцять рядків",
+      "reader_effect": "Рецензент сам визнає узгодження допустимим; сухий підрахунок доречний.",
+      "evidence": "P01539 CH29",
+      "proposed_actions": [
+        "Зберегти."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Рецензент сам визнає узгодження допустимим; сухий підрахунок доречний."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-034",
+      "origin_reports": [
+        "gemini"
+      ],
+      "provenance": [
+        "gemini_pro:turn-001:1"
+      ],
+      "category": "prose",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 1,
+          "anchor": "P00007",
+          "quote": "Сьогодні я пропонував перевіряти кабелі. Не людей. Переноски, роз’єми, живлення дрібного устаткування. Робота такого рівня не вимагала пояснити, чому я колись не прийшов на розгляд, а потім власноруч закрив професійну участь. Вона вимагала, щоб у мене не тремтіли руки над оголеним контактом."
+        }
+      ],
+      "observation": "Не вимагала пояснити",
+      "reader_effect": "Вказує на конкретне пояснення, якого робота не потребувала; рецензент обговорює перевагу конструкції, не встановлює втрату змісту.",
+      "evidence": "P00007 CH1",
+      "proposed_actions": [
+        "Не робити обов’язковим перехід на віддієслівний іменник."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Вказує на конкретне пояснення, якого робота не потребувала; рецензент обговорює перевагу конструкції, не встановлює втрату змісту."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-035",
+      "origin_reports": [
+        "gemini"
+      ],
+      "provenance": [
+        "gemini_pro:turn-001:2"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 8,
+          "anchor": "P00475",
+          "quote": "На другій адресі жінка не хотіла давати домашню адресу взагалі. Я вже почав питати про запасне місце — як звик робити, коли бачив порожнє поле."
+        },
+        {
+          "chapter": 8,
+          "anchor": "P00476",
+          "quote": "— Я до вас приходжу, — сказала вона Тарасові. — Хай так і буде."
+        },
+        {
+          "chapter": 8,
+          "anchor": "P00478",
+          "quote": "— Значить, того дня не прийду."
+        }
+      ],
+      "observation": "Адреса зустрічі й домашня адреса для обходу",
+      "reader_effect": "Відмова дати адресу не означає, що вони ніколи не бачили жінку. Але формула на другій адресі легко створює саме домашній поріг. Потрібно розвести фізичну зустріч та дозвіл записувати місце для майбутнього обходу.",
+      "evidence": "P00475 CH8; P00476 CH8; P00478 CH8",
+      "proposed_actions": [
+        "Мінімально назвати наступну зустріч за маршрутом і відмову давати домашню адресу для обходу/запису. Не вигадувати нової домівки чи розширеного доступу."
+      ],
+      "dependencies": [
+        "CH08 contactscope",
+        "Taras manualroute"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-020"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_clarification",
+        "rationale": "Відмова дати адресу не означає, що вони ніколи не бачили жінку. Але формула на другій адресі легко створює саме домашній поріг. Потрібно розвести фізичну зустріч та дозвіл записувати місце для майбутнього обходу."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-036",
+      "origin_reports": [
+        "gemini"
+      ],
+      "provenance": [
+        "gemini_pro:turn-001:4"
+      ],
+      "category": "voice",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 3,
+          "anchor": "P00185",
+          "quote": "За кілька хвилин у шафи було двоє носіїв і одна людина при дверях. Мене ніхто не записав. Я відчув несподіване полегшення й одразу трохи образився на нього."
+        }
+      ],
+      "observation": "Образився на полегшення",
+      "reader_effect": "Уособлення власної реакції — точний сухий гумор Даля; займенник має ясний найближчий референт.",
+      "evidence": "P00185 CH3",
+      "proposed_actions": [
+        "Зберегти."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Уособлення власної реакції — точний сухий гумор Даля; займенник має ясний найближчий референт."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-037",
+      "origin_reports": [
+        "gemini"
+      ],
+      "provenance": [
+        "gemini_pro:turn-002:3"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 16,
+          "anchor": "P00917",
+          "quote": "Я засміявся. Вода вже кипіла. Довелося відкласти пристрій, підняти чайник і згадати, що чашка стоїть не там, де я звик її знаходити. Я налив повз край, витер стіл рукавом, а тоді вже взяв серветку. Це був не найкращий мій технічний ранок."
+        }
+      ],
+      "observation": "Налив повз край",
+      "reader_effect": "Чашка стоїть не там, де звик; герой схибив, а не переповнив її. Локальна точність руху сильніша за загальний нормативний ярлик.",
+      "evidence": "P00917 CH16",
+      "proposed_actions": [
+        "Природно показати, що частину води налив повз чашку; зберегти помилку, рукав перед серветкою й гумор технічного ранку."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-021"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_clarification",
+        "rationale": "Чашка стоїть не там, де звик; герой схибив, а не переповнив її. Локальна точність руху сильніша за загальний нормативний ярлик."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-038",
+      "origin_reports": [
+        "terra"
+      ],
+      "provenance": [
+        "terra:final:2"
+      ],
+      "category": "knowledge",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": 17,
+          "anchor": "P00944",
+          "quote": "> **Журнал зовнішнього транспорту. Тижневий витяг.**\n>\n> Створення запису: четвер, 16:10, місцевий час.  \n> Об’єкт: L1.  \n> Маршрут: B.  \n> Дія: резерв ємності кешу.  \n> Стан запису: чинний.  \n> Поле підстави до витягу не включене."
+        },
+        {
+          "chapter": 17,
+          "anchor": "P00978",
+          "quote": "Рената роздрукувала короткий протокол готовності. У ньому були поточні значення й час перевірки. Я прочитав уважно. Первинних дат створення резервів там не було. Розподілу між маршрутами теж. Ми й не просили їх у цьому пакеті."
+        },
+        {
+          "chapter": 35,
+          "anchor": "P01804",
+          "quote": "Одне мало сьогоднішню дату. Інше — четвер попереднього тижня."
+        },
+        {
+          "chapter": 36,
+          "anchor": "P01850",
+          "quote": "Резерв передував обом останнім подіям."
+        }
+      ],
+      "observation": "Пізній початок розслідування / раніше нагадати Далю дату",
+      "reader_effect": "Читацьке відчуття допустиме, але Даль не знає дату доCH35. Перенесення його знання раніше порушить архітектуру. Читач може зіставити DOC01іCH14.",
+      "evidence": "P00944 CH17; P00978 CH17; P01804 CH35; P01850 CH36",
+      "proposed_actions": [
+        "Не нагадувати Далю невідомий факт раніше. Не підсилювати доказом змови; лишити поступове отримання витягів."
+      ],
+      "dependencies": [
+        "reader ahead vs Dal",
+        "R1→R2"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Читацьке відчуття допустиме, але Даль не знає дату доCH35. Перенесення його знання раніше порушить архітектуру. Читач може зіставити DOC01іCH14."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-039",
+      "origin_reports": [
+        "terra"
+      ],
+      "provenance": [
+        "terra:final:3"
+      ],
+      "category": "ending",
+      "severity": "minor",
+      "certainty": "taste",
+      "locations": [
+        {
+          "chapter": 34,
+          "anchor": "P01794",
+          "quote": "У п’ятницю ми мали зустрітися без справи, яку треба було б виправдати."
+        },
+        {
+          "chapter": 36,
+          "anchor": "P01838",
+          "quote": "# Розділ 36"
+        },
+        {
+          "chapter": 36,
+          "anchor": "P01884",
+          "quote": "Я не додав."
+        },
+        {
+          "chapter": 36,
+          "anchor": "P01894",
+          "quote": "П’ятницю я вже не залишив порожньою."
+        }
+      ],
+      "observation": "Пропозиція окремої післямови",
+      "reader_effect": "CH35–36 дають окреме запитання після завершеної дружньої дії, а остання сцена знову підтверджує зустріч. Це свідомий відкритий фінал серії, не поломка.",
+      "evidence": "P01794 CH34; P01838 CH36; P01884 CH36; P01894 CH36",
+      "proposed_actions": [
+        "Не виносити глави в післямову і не скорочувати людський фінал заради загадки."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "CH35–36 дають окреме запитання після завершеної дружньої дії, а остання сцена знову підтверджує зустріч. Це свідомий відкритий фінал серії, не поломка."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-040",
+      "origin_reports": [
+        "gemini_flash",
+        "gemini"
+      ],
+      "provenance": [
+        "gemini_flash:turn-001:questions",
+        "gemini_flash:turn-002:questions",
+        "gemini_flash:turn-003:questions",
+        "gemini_pro:interim_questions"
+      ],
+      "category": "promise",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": 1,
+          "anchor": "P00007",
+          "quote": "Сьогодні я пропонував перевіряти кабелі. Не людей. Переноски, роз’єми, живлення дрібного устаткування. Робота такого рівня не вимагала пояснити, чому я колись не прийшов на розгляд, а потім власноруч закрив професійну участь. Вона вимагала, щоб у мене не тремтіли руки над оголеним контактом."
+        },
+        {
+          "chapter": 14,
+          "anchor": "P00820",
+          "quote": "Він не просив імені Майї. Я все одно подумав про її останнє повідомлення, про одну оплачену ніч, про спокусу зробити з її вибору зручний доказ. Не сказав нічого."
+        },
+        {
+          "chapter": 14,
+          "anchor": "P00821",
+          "quote": "Про Ніну теж не сказав. Її смерть не мала бути входом до моєї теперішньої правильності."
+        },
+        {
+          "chapter": 24,
+          "anchor": "P01304",
+          "quote": "— Сьогодні ні, — сказав він нарешті. — Можемо прийняти заявку на іншу дату. З окремим тестом, повідомленням користувачам і чергуваннями. Сьогодні запуску не буде."
+        },
+        {
+          "chapter": 34,
+          "anchor": "P01774",
+          "quote": "Мені пригадалася Ніна, яка завжди спершу питала, де лежить ганчірка, коли я обіцяв «на хвилину щось переставити». Я не розповів цього. Посидів із пам’яттю, доїв сир."
+        },
+        {
+          "chapter": 36,
+          "anchor": "P01864",
+          "quote": "Жоден варіант не вимагав, щоб хтось прочитав наше ще не ухвалене рішення."
+        }
+      ],
+      "observation": "Проміжні питання про минуле, резерв, L2 та майбутнє руху",
+      "reader_effect": "Питання сліпого читача не встановлюють травму рук, таємну змову чи нерозкриту смерть Ніни. Лінія тому закінчує домовленість/дружбу; U01–U05 і майбутня заявка не отримують вигаданих відповідей.",
+      "evidence": "P00007 CH1; P00820 CH14; P00821 CH14; P01304 CH24; P01774 CH34; P01864 CH36",
+      "proposed_actions": [
+        "Залишити гіпотезами/відкритими залежностями. Не писати повернення професії, зцілення Ніни, пояснення Майї або таємного куратора."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_context",
+        "rationale": "Питання сліпого читача не встановлюють травму рук, таємну змову чи нерозкриту смерть Ніни. Лінія тому закінчує домовленість/дружбу; U01–U05 і майбутня заявка не отримують вигаданих відповідей."
+      },
+      "agreement": "convergent"
+    },
+    {
+      "id": "ENS-041",
+      "origin_reports": [
+        "gemini",
+        "terra",
+        "gemini_flash"
+      ],
+      "provenance": [
+        "gemini_pro:turn-002:4",
+        "gemini_pro:turn-003:3",
+        "gemini_pro:turn-004:3",
+        "terra:strengths",
+        "gemini_flash:strengths"
+      ],
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": 15,
+          "anchor": "P00879",
+          "quote": "— Мені підсумок не потрібен."
+        },
+        {
+          "chapter": 15,
+          "anchor": "P00881",
+          "quote": "— Не впевнений."
+        },
+        {
+          "chapter": 21,
+          "anchor": "P01169",
+          "quote": "Повернувшись, я не стирав старий номер так, щоб не залишилося сліду. Перекреслив, підписав правильний, поставив час. Помилка не стала катастрофою. Вона просто забрала кілька хвилин у людини, яка не записувалася в наш дослід."
+        },
+        {
+          "chapter": 36,
+          "anchor": "P01871",
+          "quote": "Прибрав речення «звідки ви знали»."
+        },
+        {
+          "chapter": 36,
+          "anchor": "P01872",
+          "quote": "Воно вже містило відповідь, якої я не мав."
+        }
+      ],
+      "observation": "Позитивні локальні спостереження",
+      "reader_effect": "Незгода торговця, ціна помилки і відмова від навантаженого питання підтверджені. Похвала не доводить бездоганності всього тому.",
+      "evidence": "P00879 CH15; P00881 CH15; P01169 CH21; P01871 CH36; P01872 CH36",
+      "proposed_actions": [
+        "Зберегти ці функції, не додавати примирення чи глобального успіху."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "preserve_function",
+        "rationale": "Незгода торговця, ціна помилки і відмова від навантаженого питання підтверджені. Похвала не доводить бездоганності всього тому."
+      },
+      "agreement": "convergent"
+    },
+    {
+      "id": "ENS-042",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "astra:full_read"
+      ],
+      "category": "clarity",
+      "severity": "minor",
+      "certainty": "strong_inference",
+      "locations": [
+        {
+          "chapter": 29,
+          "anchor": "P01571",
+          "quote": "Я вписав своє ім’я біля двох перевірок на середу. Тарас подивився, чи я справді буду, і тільки тоді відсунув аркуш до завершених передач."
+        }
+      ],
+      "observation": "Подивився, чи я справді буду",
+      "reader_effect": "Погляд не підтверджує майбутню явку; фраза випадково замінює погодження в сцені передачі. Не телепатична система, а неточний дієслівний місток.",
+      "evidence": "P01571 CH29",
+      "proposed_actions": [
+        "Локально зробити підтвердження явки питанням/звіркою з Далем перед передачею. Не обіцяти гарантованої майбутньої поведінки."
+      ],
+      "dependencies": [
+        "CH29 twoWednesdaytasks",
+        "CH33 payoff"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "applied",
+        "patches": [
+          "B02-FINAL-022"
+        ],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_correction",
+        "rationale": "Погляд не підтверджує майбутню явку; фраза випадково замінює погодження в сцені передачі. Не телепатична система, а неточний дієслівний місток."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-043",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "root:initialCH01-04",
+        "root:native01-06:observations"
+      ],
+      "category": "scene",
+      "severity": "minor",
+      "certainty": "reader_reaction",
+      "locations": [
+        {
+          "chapter": 1,
+          "anchor": "P00048",
+          "quote": "— Поки тримаєте стіл зайнятим, звірте. Тут видано, тут повернуто. Мені треба знати, кому дзвонити. Адреси лишіть під нижнім листком."
+        },
+        {
+          "chapter": 1,
+          "anchor": "P00050",
+          "quote": "У першому записі було шість контейнерів. Повернули п’ять. Я вже потягнувся записати нестачу, коли побачив збоку приписку: один забрав власник."
+        },
+        {
+          "chapter": 1,
+          "anchor": "P00058",
+          "quote": "Він перекинув мені олівець. Я не зловив; олівець ударився об край столу й упав до ніг жінки. Вона підняла його з виразом людини, яка готова обговорити мою кваліфікацію, якщо ми раптом матимемо на це вільний ранок."
+        },
+        {
+          "chapter": 3,
+          "anchor": "P00148",
+          "quote": "Прийшло семеро. Я порахував двічі, бо чоловік у куртці виходив і повертався з чашкою, а жінка біля вікна сказала, що вона тільки забирає зарядний пристрій. Зрештою лишилося шестеро, не рахуючи нас."
+        },
+        {
+          "chapter": 3,
+          "anchor": "P00174",
+          "quote": "Коли ми шукали точну фразу Остапового допису, вона знаходилася у всіх, хто перевіряв. Коли відкривали загальний огляд, порядок різнився. У двох людей допису не було на перших екранах. Одна людина бачила його раніше й не могла допомогти. Ще одна вирішила, що шафу вже винесли, бо під повідомленням хтось лишив піднятий палець."
+        },
+        {
+          "chapter": 3,
+          "anchor": "P00185",
+          "quote": "За кілька хвилин у шафи було двоє носіїв і одна людина при дверях. Мене ніхто не записав. Я відчув несподіване полегшення й одразу трохи образився на нього."
+        },
+        {
+          "chapter": 4,
+          "anchor": "P00213",
+          "quote": "— Шість добровільних прикладів. Це не…"
+        }
+      ],
+      "observation": "Історичні зауваження до Terra v1",
+      "reader_effect": "Поточнийv2 розігрує звірку/олівець/пакунки, шість прикладів означають екрани добровольців, не шість окремих запитів; три запити не суперечать цьому. relayзамінено контекстним українським ретранслятором.",
+      "evidence": "P00048 CH1; P00050 CH1; P00058 CH1; P00148 CH3; P00174 CH3; P00185 CH3; P00213 CH4",
+      "proposed_actions": [
+        "Не переносити вимогу шести нових мікросцен; старі хеші належатьv1. Не заявляти, що весь текст став довгим: v2 лишається стислим повним романом."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "already_addressed",
+        "rationale": "Поточнийv2 розігрує звірку/олівець/пакунки, шість прикладів означають екрани добровольців, не шість окремих запитів; три запити не суперечать цьому. relayзамінено контекстним українським ретранслятором."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-044",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "root:metadata-dependencies",
+        "astra:state_crosscheck"
+      ],
+      "category": "other",
+      "severity": "minor",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 2,
+          "anchor": "P00133",
+          "quote": "Вона попросила Тараса допомогти з планкою до входу в майстерню. Мені не попросила нічого. Я встав, щоб пропустити їх, і залишився біля столу, поки вони обережно розвертали довге дерево у вузьких дверях."
+        },
+        {
+          "chapter": 11,
+          "anchor": "P00612",
+          "quote": "Іра сама написала Тарасу, що готова один раз сказати про свій запит. Він переслав мені тільки це речення й додав: «Не роби з неї зразкову невидиму»."
+        },
+        {
+          "chapter": 13,
+          "anchor": "P00761",
+          "quote": "Вектор повернувся до Іриної розмови. Прочитав уголос текст, який склав: власний фрагмент прибрано з каналів Одноденок, заплановані публікації скасовано, монтажні копії вилучаються, двом зовнішнім поширювачам надіслано звернення. Далі — точні посилання."
+        },
+        {
+          "chapter": 25,
+          "anchor": "P01373",
+          "quote": "— Якщо сам хочеш. Вона пустила тільки у двір. За тебе відповідати не буду."
+        },
+        {
+          "chapter": 34,
+          "anchor": "P01776",
+          "quote": "Пізніше я вручну відкрив картку Баласта. Мікрофон залишив вимкненим; набрав коротке прохання додати до власного списку покупок дешеві харчові контейнери. Розмову з лави йому не передавав."
+        }
+      ],
+      "observation": "Неправильні успадковані U-ID у станах",
+      "reader_effect": "U05 означає подальші обставини Майї, не години Іри; U01 — ключ/автоматичне відновлення виклику, не будь-який доступ; U03 — причина зовнішнього резерву, не вся невизначеність. Деякі стани використовують їх як загальні мітки.",
+      "evidence": "P00133 CH2; P00612 CH11; P00761 CH13; P01373 CH25; P01776 CH34",
+      "proposed_actions": [
+        "Вилучити тільки нерелевантні зв’язки згідно metadata_updates. Самі U01–U05 лишити unresolved в загальному реєстрі. Не перепризначати ID Ірі."
+      ],
+      "dependencies": [],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_metadata",
+        "rationale": "U05 означає подальші обставини Майї, не години Іри; U01 — ключ/автоматичне відновлення виклику, не будь-який доступ; U03 — причина зовнішнього резерву, не вся невизначеність. Деякі стани використовують їх як загальні мітки."
+      },
+      "agreement": "single"
+    },
+    {
+      "id": "ENS-045",
+      "origin_reports": [
+        "astra"
+      ],
+      "provenance": [
+        "astra:state_crosscheck"
+      ],
+      "category": "knowledge",
+      "severity": "minor",
+      "certainty": "confirmed_conflict",
+      "locations": [
+        {
+          "chapter": 13,
+          "anchor": "P00748",
+          "quote": "Потім відкрили монтажну папку. Вихідний матеріал позначили на видалення, задачі з можливими продовженнями — скасували. Монтажерка звірила, чи не лишився фрагмент у чернетці коротких роликів. Не лишився."
+        },
+        {
+          "chapter": 13,
+          "anchor": "P00761",
+          "quote": "Вектор повернувся до Іриної розмови. Прочитав уголос текст, який склав: власний фрагмент прибрано з каналів Одноденок, заплановані публікації скасовано, монтажні копії вилучаються, двом зовнішнім поширювачам надіслано звернення. Далі — точні посилання."
+        },
+        {
+          "chapter": 25,
+          "anchor": "P01361",
+          "quote": "Я написав монтажерці. Відповідь прийшла швидко: усі робочі копії команди прибрано, перевірку завершено; стороння копія лишалася на місці, на прохання про видалення власник досі не відреагував. Вона додала час останнього звернення, наче точність могла зробити безсилля менш безсилим."
+        }
+      ],
+      "observation": "СтанCH13 передчасно завершує всі власні копії",
+      "reader_effect": "У прозіCH13 монтажні копії вилучаються; фінальна перевірка всіх робочих копій підтверджена лишеCH25. knowledgeCH13 каже власні копії прибрано без обмеження.",
+      "evidence": "P00748 CH13; P00761 CH13; P01361 CH25",
+      "proposed_actions": [
+        "Відділити прибрані публікації/локальну папку від pendingперевірки інших робочих копій. Не міняти прозу чи дату повідомлення редакторки."
+      ],
+      "dependencies": [
+        "CH13→CH25 copiesknowledge"
+      ],
+      "author_decision": {
+        "status": "pending",
+        "basis": "No individual author vote invented. Compatible corrections separately within explicit bulk author instruction."
+      },
+      "implementation": {
+        "status": "context_preserved_or_metadata_checked",
+        "patches": [],
+        "basis": "Explicit bulk author instruction; no individual author vote inferred."
+      },
+      "verification": {
+        "status": "verified_with_recorded_limits",
+        "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+        "evidence": [
+          "kontakt/books/book-02/production/2026-09-23-book02/final-astra-native-v1/REPORT.md",
+          "kontakt/books/book-02/production/2026-09-23-book02/final-acceptance.json"
+        ],
+        "scope": "Final full reading plus exact patch/state/quote checks; original evidence remains bound to v2."
+      },
+      "adjudication": {
+        "disposition": "compatible_metadata",
+        "rationale": "У прозіCH13 монтажні копії вилучаються; фінальна перевірка всіх робочих копій підтверджена лишеCH25. knowledgeCH13 каже власні копії прибрано без обмеження."
+      },
+      "agreement": "single"
+    }
+  ],
+  "final_source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+  "original_ledger_sha256": "7696297110e550a76b3fd997978c616a01c6bea60a90cf34951715e669c8c362"
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "author-workflow-2026-09-23",
+  "run_id": "book02-literary-v1",
+  "project_id": "kontakt",
+  "book_id": "book-02",
+  "language": "uk",
+  "status": "reconciled_awaiting_terra_final",
+  "source": {
+    "path": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/assembled/manuscript.md",
+    "sha256": "e641f3b639f0c03578c51916c0434156c584ce8022f556d94e522bf7c653679d",
+    "chapters": 36,
+    "blocks": 1894
+  },
+  "required_diagnoses": [
+    "terra",
+    "gemini_flash",
+    "gemini_pro",
+    "opus"
+  ],
+  "effective_locked_diagnoses": [
+    "terra",
+    "gemini_flash",
+    "gemini_pro"
+  ],
+  "review_policy_basis": "Explicit author workflow: isolated Terra +Flash+Pro+Opus attempt, author exception for unavailableOpus; Astra full reconciliation is nonblind and not an invented fourth independent diagnosis.",
+  "reports": {
+    "terra": {
+      "role": "terra",
+      "file": "results/terra/REPORT.md",
+      "status": "locked",
+      "sha256": "5b642a6f700b2edead4b65b69ca23258e6525c09ef60aa9d2865396800555326",
+      "validation_status": "accepted_as_editorial_input_with_limits"
+    },
+    "gemini_flash": {
+      "role": "gemini_flash",
+      "file": "results/gemini_flash/REPORT.md",
+      "status": "locked",
+      "sha256": "8f7c057bd3cc747ebeb0e9362d202e7daeb951064808c4238636b36329aeb2e3",
+      "validation_status": "accepted_as_editorial_input_with_limits"
+    },
+    "gemini_pro": {
+      "role": "gemini_pro",
+      "file": "results/gemini_pro/REPORT.md",
+      "status": "locked",
+      "sha256": "aa003569083d61eb0ede4ff5591cc5d0892f53f6c98ae0fdfb4a728bb1a31e53",
+      "validation_status": "accepted_as_editorial_input_with_limits"
+    }
+  },
+  "exceptions": [
+    {
+      "role": "opus",
+      "status": "unavailable_author_exception",
+      "requested_model": "claude-opus-4-6-thinking",
+      "client": "agy",
+      "evidence_files": [
+        {
+          "path": "kontakt\\books\\book-02\\production\\2026-09-23-book02\\literary-v1\\results\\opus\\invocation.json",
+          "sha256": "61de5ec30dc5ba9d86b8ff4521130a6bb59626d2cdbde4237a3dbfb1b4057941"
+        },
+        {
+          "path": "kontakt\\books\\book-02\\production\\2026-09-23-book02\\literary-v1\\results\\opus\\stderr.txt",
+          "sha256": "d7cd898df40192043e3bf70bd5ae351afdf120e53b326726d89cf6c4ce7128d5"
+        },
+        {
+          "path": "kontakt\\books\\book-02\\production\\2026-09-23-book02\\literary-v1\\results\\opus\\stdout.ndjson",
+          "sha256": "1f7312d07400a7636cbdd79c092b8685af4f849983b9be8957332b9ba1c55b23"
+        },
+        {
+          "path": "kontakt\\books\\book-02\\production\\2026-09-23-book02\\literary-v1\\results\\opus\\turn-001.md",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        }
+      ],
+      "actual_reading_established": false,
+      "actual_input_tokens": 0,
+      "actual_turns": 0,
+      "reason": "Execution rejected invalid model selection; empty result, no report. Root separately reports same identifier advertised by model list; this does not make failed invocation available.",
+      "policy_basis": "series/WORKFLOW-2026-09-23-REVISION-AND-BOOK02.md preserves explicit author permission to skip unavailable Opus; no substitute client/model silently used."
+    }
+  ],
+  "reconciliation": {
+    "path": "../reconciliation-v1/reconciliation.md",
+    "status": "locked",
+    "sha256": "78f758ab02a8c46f16cf36698d546263eb7c129f082d52cb1ed53960d05f6dfa",
+    "scope": "All36/1894 actual nonblind reading;45items;22unique paragraph patchdirections;20metadata updates",
+    "validation": "../reconciliation-v1/validation.json"
+  },
+  "issue_ledger": "../reconciliation-v1/issue-ledger.json",
+  "patch_plan": "../reconciliation-v1/PATCH-PLAN.json",
+  "individual_author_decisions": "pending; separate bulk compatible implementation authorized",
+  "legacy_cli_compatible": false,
+  "issue_ledger_sha256": "7696297110e550a76b3fd997978c616a01c6bea60a90cf34951715e669c8c362",
+  "patch_plan_sha256": "323d7733ed759b1b09e9ab1520a1901182af0ff7adef14deafa46deb790b82c7"
+}

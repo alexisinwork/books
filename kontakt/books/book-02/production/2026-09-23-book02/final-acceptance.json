@@ -1,0 +1,40 @@
+{
+  "status": "complete_corrected_working_volume",
+  "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-final-v3/assembled/manuscript.md",
+  "source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+  "chapters": 36,
+  "scenes": 41,
+  "paragraphs": 1894,
+  "words": 24544,
+  "prose_patches": 22,
+  "changed_chapters": 17,
+  "unchanged_chapters": 19,
+  "actual_state_updates": 16,
+  "metadata_instructions_accounted": 20,
+  "astra_report_sha256": "d11ab84e79d43db148720a5987b4ac05d9be389b5d2cb83e5ed7aef323b34261",
+  "checks": {
+    "phase_integrity": "final-phase-technical-verification.json",
+    "exact_patch_application": "final-patch-verification.json",
+    "final_full_reading": "final-astra-validation.json",
+    "metadata_plan_accounting": "final-metadata-plan-accounting.json",
+    "language_patterns": "final-language-qa.json",
+    "naturalness_patterns": "final-naturalness.json",
+    "reader": "terra-final-v3/assembled/visual-review.json",
+    "repository_and_sources": "final-project-checks.json"
+  },
+  "reader_pages": 77,
+  "review_limitations": [
+    "Opus invocation unavailable; explicitly authorized skip.",
+    "Gemini Pro declared compressed parts1–3.",
+    "Requested model provenance recorded, backend not independently attested."
+  ],
+  "unresolved_nonblocking_boundaries": [
+    "KONTAKT-B02-20260923-U01",
+    "KONTAKT-B02-20260923-U02",
+    "KONTAKT-B02-20260923-U03",
+    "KONTAKT-B02-20260923-U04",
+    "KONTAKT-B02-20260923-U05"
+  ],
+  "canon_promoted": false,
+  "publication_approved": false
+}

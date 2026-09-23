@@ -37,21 +37,25 @@
         "Gemini3.1Pro",
         "Terra fresh context"
       ],
-      "status": "reports_returned_pending_validation"
+      "status": "complete_with_recorded_opus_exception"
     },
     {
       "phase": "reconciliation_and_full_check",
       "actor": "Astra",
-      "status": "in_progress"
+      "status": "complete"
     },
     {
       "phase": "final_compatible_revision",
       "actor": "Terra",
-      "status": "not_started"
+      "status": "complete"
     }
   ],
   "opus_exception": "Skip if unavailable per explicit earlier authorinstruction; record actualcoverage.",
   "active_structure": "structure-v2",
   "structure_checkpoint_commit": "0590e06b890230cf4b17f6ea87419cd6ae84bc19",
-  "rough_checkpoint_commit": "aa7aff2d8699050c543eea45b8f8b13e8beb5d77"
+  "rough_checkpoint_commit": "aa7aff2d8699050c543eea45b8f8b13e8beb5d77",
+  "final_source_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+  "final_acceptance": "final-acceptance.json",
+  "full_text_checkpoint_commit": "31a393c",
+  "canonical_master_assigned": false
 }
