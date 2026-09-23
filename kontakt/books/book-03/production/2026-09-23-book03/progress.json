@@ -34,19 +34,22 @@
     {
       "phase": "reconciliation_and_full_check",
       "actor": "Astra",
-      "status": "in_progress"
+      "status": "complete"
     },
     {
       "phase": "final_compatible_revision",
       "actor": "Terra",
-      "status": "not_started"
+      "status": "complete"
     },
     {
       "phase": "final_full_reading_and_delivery",
       "actor": "Astra and coordinator",
-      "status": "not_started"
+      "status": "complete"
     }
   ],
   "canonical_master_assigned": false,
-  "active_structure": "structure-v1"
+  "active_structure": "structure-v1",
+  "final_source_sha256": "fa99f3a2667e4ad316ad4239e39c3f4887af09d5d45a5eeb2b1c04b385ad91a6",
+  "final_acceptance": "final-acceptance.json",
+  "full_text_checkpoint_commit": "cf35452e86c8d7f7bce7cb1d8e9d76682820a9ff"
 }

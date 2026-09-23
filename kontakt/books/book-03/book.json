@@ -4,11 +4,11 @@
   "book_id": "book-03",
   "title": "Predictariat",
   "book_type": "fiction",
-  "stage": "independent_literary_review",
+  "stage": "working_revision_complete",
   "master": null,
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "full_terra_text_frozen_reviews_pending",
+  "audit_status": "compatible_revision_verified_opus_availability_exception",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -23,12 +23,15 @@
   "planning_state": "planned_not_observed",
   "execution_entry": "production/2026-09-23-book03/progress.json",
   "active_workflow": "../../series/WORKFLOW-2026-09-23-BOOK03.md",
-  "current_writer": "Astra structure and all rough; Terra full prose and final revision",
+  "current_writer": "Terra; structure, rough and final reading Astra",
   "draft_scope": {
     "prose_started": true,
     "whole_book_written": true,
-    "whole_book_ready": false,
-    "whole_series_ready": false
+    "whole_book_ready": true,
+    "whole_series_ready": false,
+    "current_prose_phase": "terra_revised",
+    "readiness_scope": "Complete corrected working volume, not publication or author canonical approval",
+    "phase_progress": "production/2026-09-23-book03/final-acceptance.json"
   },
   "continuation_source": {
     "book_id": "book-02",
@@ -47,9 +50,30 @@
     "scenes": 41
   },
   "active_full_text": {
+    "path": "production/2026-09-23-book03/terra-final-v2/assembled/manuscript.md",
+    "sha256": "fa99f3a2667e4ad316ad4239e39c3f4887af09d5d45a5eeb2b1c04b385ad91a6",
+    "chapters": 32,
+    "canonical_status": "working_not_author_approved"
+  },
+  "preserved_full_text_before_revision": {
     "path": "production/2026-09-23-book03/terra-full-v1/assembled/manuscript.md",
     "sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
     "chapters": 32,
     "canonical_status": "working_not_author_approved"
+  },
+  "working_revision": {
+    "path": "production/2026-09-23-book03/terra-final-v2/assembled/manuscript.md",
+    "sha256": "fa99f3a2667e4ad316ad4239e39c3f4887af09d5d45a5eeb2b1c04b385ad91a6",
+    "chapters": 32,
+    "canonical_status": "working_not_author_approved",
+    "format": "md",
+    "language": "uk",
+    "status": "complete_corrected_working_volume",
+    "observed_state": "production/2026-09-23-book03/terra-final-v2/observed-state.json"
+  },
+  "working_volume": {
+    "manifest": "production/2026-09-23-book03/terra-final-v2/assembled/assembly.json",
+    "chapters": 32,
+    "status": "complete_corrected_working_volume"
   }
 }

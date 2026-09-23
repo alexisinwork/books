@@ -1,0 +1,61 @@
+"""Publish a verified working-volume package locally; never promote it to canon."""
+from pathlib import Path
+import json,hashlib,shutil
+root=Path(__file__).resolve().parents[6];run=Path(__file__).resolve().parent.parent;book=run.parents[1]
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def read(p):return json.loads(p.read_text(encoding='utf-8'))
+def write(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+def rel(p):return p.relative_to(root).as_posix()
+def md(p,t):p.write_text(t,encoding='utf-8',newline='\n')
+gate=read(run/'final-acceptance.json');assert gate['status']=='complete_corrected_working_volume'
+source=root/gate['source'];phase=source.parent.parent;h=sha(source);assert h==gate['source_sha256']
+report=root/gate['astra_report'];assert sha(report)==gate['astra_report_sha256']
+changes=read(phase/'changes.json');state=read(phase/'observed-state.json');assert len(state['chapters'])==32
+ledger=read(run/'reconciliation-v1/issue-ledger.json');patch_count=len(changes['patches'])
+assert (phase/'implementation-ledger.json').exists(),'Source-based implementation accounting required before packaging'
+count=len(read(phase/'implementation-ledger.json')['issues'])
+reader=list((source.parent/'reader').glob('*.docx'));assert len(reader)==1
+visual=read(source.parent/'visual-review.json');assert visual['source_sha256']==h
+prior=run/'final-package-before';assert not prior.exists();prior.mkdir()
+central=[book/'book.json',book/'revision-log.json',book/'audit/issues.json',book/'session.md',book/'NEXT-STEP.md',root/'kontakt/START_HERE.md',root/'kontakt/series/continuity-queue.json',run/'progress.json']
+for f in central:
+ d=prior/f.relative_to(root);d.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(f,d)
+write(phase/'end-state.observed.json',{'status':'observed_working_continuation_basis_not_canonical_promotion','source':rel(source),'source_sha256':h,'final_scene_records':[c for c in state['chapters'] if c['chapter']>=28],'boundaries':['R3: own future pages closed unread; ordinary tools and past records remain available.','Osya completed first trial work; further employment is not guaranteed.','Old temporary excerpt revoked; own copy deleted; only narrow anonymous budget comparison retained.','Comparable metadata shows different allocation limits, not expenditure or a human-worth formula.','External field lineage established; registered question unanswered.','Taras remains an autonomous friend; ordinary plans do not guarantee future attendance.'],'next_volume_limit':'Do not infer private model inputs, the external budget formula, Relay, Overload, R4 or secret professional restoration.'})
+write(phase/'dependency-sync.json',{'source_sha256':h,'predecessor_sha256':changes['predecessor_sha256'],'working_revision_only':True,'synchronized':['32 chapter files and complete byte assembly','41 observed scenes and literal evidence','time, events, resources, knowledge and unresolved dependencies','all reconciliation instructions and implementation accounting','paragraph anchors and reader extraction','before/after and revision history','global working unknown registry','book pointers, session and delivery'],'planned_registers':'Central planned projections remain planned; actual observations belong to this separate working revision.','canon':'Master remains null; no originals, accepted biography or future-volume facts overwritten.','literary_verification':{'report':rel(report),'sha256':sha(report),'scope':'Entire revised volume and complete architecture/patch package.'}})
+lines=['# Було — стало: третій том','',f'Попередній SHA: `{changes["predecessor_sha256"]}`.',f'Поточний SHA: `{h}`.','','Текст правок написала Terra після зведення Astra. Підстава — загальне авторське доручення; окремі авторські рішення не вигадані.','']
+for p in changes['patches']:lines.extend([f'## {p["id"]} — глава {p["chapter"]}','','**Було**','',p['before'],'','**Стало**','',p['after'],'',p['reason'],''])
+md(phase/'BEFORE-AFTER.md','\n'.join(lines)+'\n')
+issues=read(book/'audit/issues.json');unknown=[x for x in issues['items'] if x['id'].startswith('KONTAKT-B03-20260923-') and x['resolution_status']=='unresolved']
+q=run/'QUESTIONS-AND-LIMITS-BOOK03.md'
+qlines=['# Контакт 3 — межі знання й необов’язкові питання автору','','Повна робоча редакція завершена. Наведені невідомі не підмінено вигаданими відповідями; вони не блокують цей том.','']
+for i,item in enumerate(unknown,1):qlines.append(f'{i}. {item["observation"]} (`{item["id"]}`)')
+qlines+=['','Ранній резерв отримав обмежене документальне пояснення у главі 4. Це нове знання в робочому тексті, не підтвердження всіх приватних входів або формули зовнішнього бюджету.','','Ваші доповнення, якщо потрібні:','','','Межі перевірок: Terra та обидві Gemini повернули звіти. Opus після повторних повідомлень про помилку не повернув тексту; пропущений за прямим дозволом автора. У Gemini Pro зафіксоване стиснення контексту; проміжні звіти збережено й враховано у зведенні. Запитані моделі записані; backend незалежно не атестований. Фінальне повне читання Astra виконано на виправленому джерелі. Не заявляються словникова, аудіо- чи людська бета-перевірки.','','Копія Desktop не стає джерелом правди без явного імпорту. Master і дозвіл на публікацію не призначені.','']
+md(q,'\n'.join(qlines))
+meta=read(book/'book.json');meta.update(stage='working_revision_complete',audit_status='compatible_revision_verified_opus_availability_exception',current_writer='Terra; structure, rough and final reading Astra')
+meta['draft_scope'].update(whole_book_written=True,whole_book_ready=True,current_prose_phase='terra_revised',readiness_scope='Complete corrected working volume, not publication or author canonical approval',phase_progress='production/2026-09-23-book03/final-acceptance.json')
+meta.setdefault('preserved_full_text_before_revision',meta['active_full_text'])
+meta['active_full_text']={'path':source.relative_to(book).as_posix(),'sha256':h,'chapters':32,'canonical_status':'working_not_author_approved'}
+meta['working_revision']={**meta['active_full_text'],'format':'md','language':'uk','status':'complete_corrected_working_volume','observed_state':(phase/'observed-state.json').relative_to(book).as_posix()}
+meta['working_volume']={'manifest':(source.parent/'assembly.json').relative_to(book).as_posix(),'chapters':32,'status':'complete_corrected_working_volume'};assert meta['master'] is None;write(book/'book.json',meta)
+progress=read(run/'progress.json')
+for p in progress['phases']:p['status']='complete_with_documented_opus_exception' if p['phase']=='independent_literary_reviews' else 'complete'
+progress.update(final_source_sha256=h,final_acceptance='final-acceptance.json',full_text_checkpoint_commit='cf35452e86c8d7f7bce7cb1d8e9d76682820a9ff',canonical_master_assigned=False);write(run/'progress.json',progress)
+log=read(book/'revision-log.json');assert not any(x['id']=='kontakt-book03-final-20260923' for x in log['items'])
+log['items'].append({'id':'kontakt-book03-final-20260923','reason':'Full author workflow completed: Astra architecture/rough; Terra prose; independent reviews; Astra reconciliation; Terra corrections; fresh complete Astra reading.','old_source':{'path':rel(run/'terra-full-v1/assembled/manuscript.md'),'sha256':changes['predecessor_sha256']},'new_source':{'path':rel(source),'sha256':h},'decision':'author_bulk_instruction_implemented_no_individual_votes','changes':rel(phase/'BEFORE-AFTER.md'),'issue_ledger':rel(phase/'implementation-ledger.json'),'affected_checks':rel(run/'final-acceptance.json'),'observed_state':rel(phase/'observed-state.json')});write(book/'revision-log.json',log)
+issues['current_working_review']={'ledger':rel(phase/'implementation-ledger.json'),'source_sha256':h,'status':'completed_with_recorded_limits','verification':rel(report)};write(book/'audit/issues.json',issues)
+queue_path=root/'kontakt/series/continuity-queue.json';queue=read(queue_path)
+for item in [x for x in issues['items'] if x['id'].startswith('KONTAKT-B03-20260923-')]:
+ assert not any(x['id']==item['id'] for x in queue['items'])
+ queue['items'].append({'id':item['id'],'status':'working_continuity_boundary_not_canon','resolution_status':item['resolution_status'],'issue_file':rel(book/'audit/issues.json'),'source_sha256':h,'dependencies':item.get('dependencies',[]),'scope':'Current book3 working edition; preserve source limits when planning book4.'})
+write(queue_path,queue)
+words=len(source.read_text(encoding='utf-8').split());pn=phase.name
+md(book/'session.md',f'# Том 3 — завершена робоча редакція\n\nВиконано авторський порядок: вся структура Astra → всі первинні глави Astra → повний текст Terra → незалежні діагнози → зведення Astra → правки Terra → нове повне читання Astra.\n\n32 глави / 41 сцена; {words} слів. SHA: `{h}`. {patch_count} точних правок; {count} пунктів зведення з окремим обліком реалізації. [Передача](production/2026-09-23-book03/DELIVERY.md). [Перевірки](production/2026-09-23-book03/final-acceptance.json).\n\nTerra, Gemini 3.8 Flash і Gemini 3.1 Pro повернули незалежні звіти. Pro мав стиснення контексту; враховано також усі проміжні звіти. Opus не повернув діагнозу після повторних помилок; застосовано авторський виняток. Оригінали, всі попередники й незмінні звіти збережені.\n\nПланові карти не стали каноном. Поточні сцени, знання, час, ресурси та докази зберігаються у власному каталозі редакції. Master не призначений. Ранній резерв пояснений у межах нового витягу глави 4; зовнішня формула бюджету й інші обмежені невідомі залишаються відкритими. [Питання та межі](production/2026-09-23-book03/QUESTIONS-AND-LIMITS-BOOK03.md).\n')
+md(book/'NEXT-STEP.md','# Том 3 — робочу редакцію завершено\n\n[Читати книгу й перевірки](production/2026-09-23-book03/DELIVERY.md). Наступний том починати за окремим дорученням автора, від фактичного кінцевого стану цієї редакції та архітектури тому 4. Повний авторський цикл цього тому завершено; master не призначений.\n')
+md(run/'DELIVERY.md',f'# Контакт 3 — Predictariat\n\nЗавершена повна робоча редакція: 32 глави, 41 сцена, {words} слів. SHA-256: `{h}`.\n\n- [Рукопис]({pn}/assembled/manuscript.md).\n- [DOCX для читання]({pn}/assembled/reader/{reader[0].name.replace(" ","%20")}).\n- [Було — стало]({pn}/BEFORE-AFTER.md), [усі {count} пунктів]({pn}/implementation-ledger.json).\n- [Зведення Astra](reconciliation-v1/reconciliation.md), [заключне читання]({report.relative_to(run).as_posix()}), [перевірки](final-acceptance.json).\n- [Межі й питання](QUESTIONS-AND-LIMITS-BOOK03.md).\n\nАрхітектуру й усі первинні глави створила Astra; повну прозу та підсумкові виправлення — Terra. Три незалежні діагнози отримано; Opus пропущений за вашим дозволом після фактичних помилок без відповіді. У Pro було стиснення контексту; проміжні звіти також враховано. Після правок Astra заново прочитала весь том.\n\nDOCX перевірено вилученням тексту й переглядом усіх {visual["pages"]} сторінок Chromium-прев’ю; це не native Word. Завершена робоча редакція не означає авторського затвердження канону чи дозволу на публікацію.\n')
+start=root/'kontakt/START_HERE.md';old=start.read_text(encoding='utf-8');md(start,'# Контакт — завершені робочі редакції томів 1–3\n\n[Том 3: Predictariat, книга й перевірки](books/book-03/production/2026-09-23-book03/DELIVERY.md). Повний підтверджений цикл Astra → Terra → незалежна редактура → Astra → Terra → заключне читання завершено.\n\n[Том 1](books/book-01/revisions/2026-09-23-integration/DELIVERY.md) · [Том 2](books/book-02/production/2026-09-23-book02/DELIVERY.md). DOCX та всі матеріали передані на Desktop. Master не призначений.\n\n## Історія контрольних точок\n\n'+old)
+desktop=Path('C:/Users/alexi/OneDrive/Desktop/KONTAKT-BOOK03-2026-09-23')
+for f in [*central,*[p for p in run.rglob('*') if p.is_file() and '__pycache__' not in p.parts]]:
+ d=desktop/f.relative_to(root);d.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(f,d);assert sha(f)==sha(d)
+for dest in [Path('C:/Users/alexi/Desktop'),Path('C:/Users/alexi/OneDrive/Desktop')]:
+ for f in [reader[0],q]:shutil.copy2(f,dest/f.name);assert sha(f)==sha(dest/f.name)
+print(json.dumps({'status':'working_volume_synchronized_and_mirrored','source_sha256':h,'words':words,'patches':patch_count}))

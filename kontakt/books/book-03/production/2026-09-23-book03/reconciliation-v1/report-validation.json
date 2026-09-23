@@ -1,0 +1,141 @@
+{
+  "status": "final",
+  "source_sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
+  "successful_locked_diagnoses": 3,
+  "independent_opus_success": false,
+  "reports": [
+    {
+      "role": "terra",
+      "requested_model": "gpt-5.6-terra",
+      "actual_backend": "not independently attested",
+      "invocation_sha256": "1e62eda851e26743a32423c198580951e39cec37821bbb77904724bc9df17fff",
+      "trace_sha256": "5ccb2bccf61fb25f53e2cee643516a4bd7fcb0ffc24500e15b56a196963ff0ba",
+      "reports": [
+        {
+          "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/terra/REPORT.md",
+          "sha256": "97775d67db3286691e24deaa03dec4fed4a5f9c373f12af139caf90ad5de8bd8"
+        }
+      ],
+      "result_events": 0,
+      "step_types": [],
+      "error_step_indices": [],
+      "checkpoint_step_indices": [],
+      "report_texts_read": "full REPORT read",
+      "item_types": [
+        "agent_message"
+      ],
+      "coverage_limit": "Full1540 supplied; no observed tools/compaction; claimed reading not independently proven. Group ranges approximate; finding2 cited416 actually417."
+    },
+    {
+      "role": "gemini_flash",
+      "requested_model": "gemini-3.8-flash-high",
+      "actual_backend": "not independently attested",
+      "invocation_sha256": "efdca7613b26a7c87c3d738f71d191916951d4b452dc8c0ddc89198764fb863d",
+      "trace_sha256": "1ff5890081ad1dd84f25109724216bb7501b533d9534bb9505b58602f4589473",
+      "reports": [
+        {
+          "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/REPORT.md",
+          "sha256": "e8da3404a5dcd6e81b0424e2b41c13bead511ebaa5b64edb15e1ba7a4be7c4a2"
+        },
+        {
+          "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/turn-001.md",
+          "sha256": "537ee34e87a9a929d30948a52b74cf35b32dd687e6d31b834fbf912b624c78e3"
+        },
+        {
+          "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/turn-002.md",
+          "sha256": "5fb8babd8984437bfa30b31239264d1ceb3b6fb014158c4477a86d9c5c8c9a73"
+        },
+        {
+          "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/turn-003.md",
+          "sha256": "7d8142e1ed65e41da46cffdf4262553c1e85ad857c240a4570b5832373060540"
+        },
+        {
+          "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/turn-004.md",
+          "sha256": "e8da3404a5dcd6e81b0424e2b41c13bead511ebaa5b64edb15e1ba7a4be7c4a2"
+        }
+      ],
+      "result_events": 4,
+      "step_types": [
+        "agent_response",
+        "user_input"
+      ],
+      "error_step_indices": [],
+      "checkpoint_step_indices": [],
+      "report_texts_read": "REPORT and all turn001–003 read; turn004 hash-identical to REPORT",
+      "coverage_limit": "Three source parts supplied, four reports, no checkpoint observed. Ranges approximate, chronology and travel/budget interpretations false; praise not proof. Ballast provisional human inference superseded."
+    },
+    {
+      "role": "gemini_pro",
+      "requested_model": "gemini-3.1-pro-high",
+      "actual_backend": "not independently attested",
+      "invocation_sha256": "3175100b95f187fb67c375f7e2cbd58ee5a0e428554ae6c4fc520ffbca9efbdd",
+      "trace_sha256": "9f7dbab3ccf4e7545974275c91b0e67f40cfd6f06048b3461bc90384d2b78acc",
+      "reports": [
+        {
+          "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/REPORT.md",
+          "sha256": "5845da1d48ff7852d38f38afad1c53900643854c3e7520234a9c74f99eb2108d"
+        },
+        {
+          "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/turn-001.md",
+          "sha256": "48ecc1d0938919fdc1f6e93460b215906148ec22d50262f82a1359f4817a112a"
+        },
+        {
+          "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/turn-002.md",
+          "sha256": "b2d9a89e708fdcb08aec994ea7f002a07efd642459c90013a6b48df323913364"
+        },
+        {
+          "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/turn-003.md",
+          "sha256": "42410a33b163ee953f258a8ebb27cd5b1ac3384865f3f0aa88a7ec5f70b8552a"
+        },
+        {
+          "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/turn-004.md",
+          "sha256": "5845da1d48ff7852d38f38afad1c53900643854c3e7520234a9c74f99eb2108d"
+        }
+      ],
+      "result_events": 4,
+      "step_types": [
+        "agent_response",
+        "checkpoint",
+        "user_input"
+      ],
+      "error_step_indices": [],
+      "checkpoint_step_indices": [
+        3
+      ],
+      "report_texts_read": "REPORT and all turn001–003 read; turn004 hash-identical to REPORT",
+      "coverage_limit": "Three source parts supplied, four reports returned. Checkpointstep3 after first completed result; final fails to disclose adequately. NOT an uncompacted full-context review. Claims verified individually against full source."
+    },
+    {
+      "role": "opus",
+      "requested_model": "claude-opus-4-6-thinking",
+      "actual_backend": "not independently attested",
+      "invocation_sha256": "21cfb717ba25c9ef297a8040328c70f601038bb2f1ea6aff5145ecffee1ce246",
+      "trace_sha256": "88f55f73840861eaae9c1b5e37d5f7c605f4edb2d8898b9ddfc59ae084742be9",
+      "reports": [],
+      "result_events": 0,
+      "step_types": [
+        "error_message",
+        "user_input"
+      ],
+      "error_step_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "checkpoint_step_indices": [],
+      "report_texts_read": "no report",
+      "coverage_limit": "No reading established; author explicitly permits unavailableOpus skip. Four errors noted at stop-decision snapshot, seven in final preservedstream;0reports. Exact backend reason unknown; no inherited quota/invalid-model explanation."
+    }
+  ],
+  "legacy_verify": {
+    "command": "python -X utf8 tools/editorial_ensemble.py verify --run kontakt/books/book-03/production/2026-09-23-book03/literary-v1",
+    "exit_code": 1,
+    "error": "invalid run identity; required diagnosis report is missing; 'reader'",
+    "disposition": "Legacy schema mismatch already disclosed by locked run; author whole-book workflow and unavailableOpus exception govern. No retrofit/no invented fourth report."
+  },
+  "quote_scope": "Exact manuscript evidence for every ledger item and patch mechanically checked. Prose reports contain approximate ranges/ellipsis; not claiming every decorative quotation was exact. All actionable claims independently adjudicated, including superseded intermediate findings."
+}

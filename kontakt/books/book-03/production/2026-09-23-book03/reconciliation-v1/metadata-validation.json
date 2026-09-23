@@ -1,0 +1,152 @@
+{
+  "status": "passed",
+  "source_state_sha256": "10a0a2a1f4be84712b7958ca9e967ecf0de8acef87506e1ecd28f367d3f93fe3",
+  "scene_updates": [
+    {
+      "id": "B03-M001",
+      "scene_id": "B03-CH01-SC02",
+      "field": "events",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M002",
+      "scene_id": "B03-CH11-SC02",
+      "field": "events",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M003",
+      "scene_id": "B03-CH11-SC02",
+      "field": "resources",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M004",
+      "scene_id": "B03-CH11-SC02",
+      "field": "knowledge",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M005",
+      "scene_id": "B03-CH12-SC01",
+      "field": "resources",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M006",
+      "scene_id": "B03-CH14-SC02",
+      "field": "time_basis",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M007",
+      "scene_id": "B03-CH15-SC01",
+      "field": "time_basis",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M008",
+      "scene_id": "B03-CH15-SC01",
+      "field": "events",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M009",
+      "scene_id": "B03-CH15-SC01",
+      "field": "knowledge",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M010",
+      "scene_id": "B03-CH16-SC01",
+      "field": "time_basis",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M011",
+      "scene_id": "B03-CH17-SC01",
+      "field": "time_basis",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M012",
+      "scene_id": "B03-CH18-SC01",
+      "field": "time_basis",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M013",
+      "scene_id": "B03-CH18-SC02",
+      "field": "time_basis",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M014",
+      "scene_id": "B03-CH20-SC01",
+      "field": "resources",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M015",
+      "scene_id": "B03-CH21-SC01",
+      "field": "knowledge",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M016",
+      "scene_id": "B03-CH22-SC01",
+      "field": "knowledge",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M017",
+      "scene_id": "B03-CH23-SC01",
+      "field": "knowledge",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M018",
+      "scene_id": "B03-CH25-SC01",
+      "field": "events",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M019",
+      "scene_id": "B03-CH29-SC01",
+      "field": "time_basis",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M020",
+      "scene_id": "B03-CH29-SC02",
+      "field": "time_basis",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M021",
+      "scene_id": "B03-CH29-SC02",
+      "field": "events",
+      "exact_before": true
+    },
+    {
+      "id": "B03-M022",
+      "scene_id": "B03-CH29-SC02",
+      "field": "resources",
+      "exact_before": true
+    }
+  ],
+  "global_updates": [
+    {
+      "id": "B03-M023",
+      "exact_before": true,
+      "executed_here": false
+    }
+  ],
+  "conditional_after_requires_new_prose": [
+    "B03-M016",
+    "B03-M017",
+    "B03-M020",
+    "B03-M021",
+    "B03-M022"
+  ]
+}

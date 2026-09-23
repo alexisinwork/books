@@ -1,0 +1,24 @@
+{
+  "status": "technical_phase_integrity_passed_not_literary_verdict",
+  "source": "kontakt/books/book-03/production/2026-09-23-book03/terra-final-v2/assembled/manuscript.md",
+  "source_sha256": "fa99f3a2667e4ad316ad4239e39c3f4887af09d5d45a5eeb2b1c04b385ad91a6",
+  "phase": "terra_revised",
+  "chapters": 32,
+  "scenes": 41,
+  "paragraphs": 1550,
+  "matched_state_quotes": 82,
+  "structure_cards_sha256": "ce1337fbc75adcc9b8a0893eb07aaf73fb353757a19d7df30967baca05a5613a",
+  "checks": [
+    "Complete ordered UTF-8/LF source.",
+    "All chapter byte slices match the assembly.",
+    "State hashes and quotes match their chapters.",
+    "All planned scene IDs retained in order.",
+    "Every chapter differs from its rough predecessor."
+  ],
+  "limits": [
+    "Different bytes do not establish literary development.",
+    "Quotes and hashes do not establish a complete prose reading.",
+    "Independent source-bound reviews and architecture reconciliation remain separate.",
+    "No canonical promotion or author approval is inferred."
+  ]
+}

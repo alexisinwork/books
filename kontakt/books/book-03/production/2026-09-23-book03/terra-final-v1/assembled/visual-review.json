@@ -1,0 +1,84 @@
+{
+  "status": "final_reader_complete_actual_visual_review",
+  "source_sha256": "25d931e47f9863e12d7bed035679141489f251aa9cab7874b997af4167591db9",
+  "docx_sha256": "f1acb1e24b22a9c6ebe987d9356e31306ebb573b0bc10dc4c6c811bd47c01afc",
+  "pdf_sha256": "5f2a5df3a80002f095cd667f158e8862351c975c5c4db7a46bb694e0bef2d80d",
+  "pages": 64,
+  "actual_visual_coverage": "Coordinator viewed all11 current contact sheets, every page1-64, after final v4 layout adjustment.",
+  "observations": [
+    "No blank page, clipped text, damaged character or isolated one-paragraph chapter tail found in current preview.",
+    "Consistent headings, paragraph structure and readable body; chapter-ending whitespace is retained where natural.",
+    "CH14 uses an explicit break before a complete final reaction, avoiding a19-word tail without compressing body spacing further."
+  ],
+  "format_history": "Initial71-page preview had a blank58 and short tails.67- and64-page intermediate layouts preserved. Current64-page layout passed a new text comparison and complete visual inspection.",
+  "text_identity": "All formatting passes asserted identical decoded DOCX paragraph text; current DOCX extraction and PDF text match source ignoring layout markup/whitespace.",
+  "renderer": "docx-preview/Chromium, not native Word",
+  "contact_sheets": [
+    {
+      "path": "contact-001.png",
+      "first_page": 1,
+      "last_page": 6,
+      "sha256": "03f78c7c402b6c7a619126800661e399560cb58816423b836ecbebabfd1bb1ab"
+    },
+    {
+      "path": "contact-002.png",
+      "first_page": 7,
+      "last_page": 12,
+      "sha256": "d600508975a6888608040de98509808ac3e95838f600431f5491ae2283335213"
+    },
+    {
+      "path": "contact-003.png",
+      "first_page": 13,
+      "last_page": 18,
+      "sha256": "45a5e3b0329a9044f29156cc456af10301ad03dc29a88ac9400b6b6e41dd2a25"
+    },
+    {
+      "path": "contact-004.png",
+      "first_page": 19,
+      "last_page": 24,
+      "sha256": "bd8f7cab9ab95ca1f6ef387495f5d6d27c4b6b37f3135ab05aeaf86c7c1e596a"
+    },
+    {
+      "path": "contact-005.png",
+      "first_page": 25,
+      "last_page": 30,
+      "sha256": "f649b97ab571e5a76fdb1017c561d4c63be39a8aeeab2f6b3e8b334cc4664425"
+    },
+    {
+      "path": "contact-006.png",
+      "first_page": 31,
+      "last_page": 36,
+      "sha256": "9c2f2071f92063c1cd27d2f72cc1bd0ce61e15b4cecea6a2b430baaebe1a4bf8"
+    },
+    {
+      "path": "contact-007.png",
+      "first_page": 37,
+      "last_page": 42,
+      "sha256": "4e953b5315ce2ca3c82145222ca2915ac6e6dbfc7dfb7ff92f2fe85bde2ad390"
+    },
+    {
+      "path": "contact-008.png",
+      "first_page": 43,
+      "last_page": 48,
+      "sha256": "903dbf244a08ab0ef0f5acab72ac8d5a19e5b0423bd924e59ccbee963b3cc2f8"
+    },
+    {
+      "path": "contact-009.png",
+      "first_page": 49,
+      "last_page": 54,
+      "sha256": "2b7a6b435402b25405f80a71fb9d4317cd6cbd0262132909693b7bbcec8cb8ad"
+    },
+    {
+      "path": "contact-010.png",
+      "first_page": 55,
+      "last_page": 60,
+      "sha256": "fbb81b8436bfe26ae567147231c884bacf509886ce8af6de2a5d767b2b30ae01"
+    },
+    {
+      "path": "contact-011.png",
+      "first_page": 61,
+      "last_page": 64,
+      "sha256": "aa515a1b8ab9d5035ea1ed39777bedb8ac3ed6ac11b51b952a0c09cd3bf97f84"
+    }
+  ]
+}

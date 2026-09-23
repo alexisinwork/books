@@ -1,0 +1,26 @@
+{
+  "status": "final",
+  "subject": "Opus unavailable attempt; decision snapshot versus final preserved stream",
+  "decision_snapshot": {
+    "error_message_steps": 4,
+    "reports": 0,
+    "basis": "locked stop-decision record"
+  },
+  "final_preserved_stream": {
+    "error_message_steps": 7,
+    "indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "reports": 0,
+    "trace_sha256": "88f55f73840861eaae9c1b5e37d5f7c605f4edb2d8898b9ddfc59ae084742be9"
+  },
+  "explanation": "Different observation times; do not overwrite locked run or infer backend reason. Repeated errors, no successful fourth diagnosis. Author unavailable-model exception applies.",
+  "backend_cause": "unknown",
+  "locked_reports_modified": false
+}

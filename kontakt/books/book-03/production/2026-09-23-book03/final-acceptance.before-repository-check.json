@@ -1,0 +1,47 @@
+{
+  "status": "complete_corrected_working_volume",
+  "source": "kontakt/books/book-03/production/2026-09-23-book03/terra-final-v2/assembled/manuscript.md",
+  "source_sha256": "fa99f3a2667e4ad316ad4239e39c3f4887af09d5d45a5eeb2b1c04b385ad91a6",
+  "chapters": 32,
+  "scenes": 41,
+  "paragraphs": 1550,
+  "words": 19029,
+  "prose_patches": 28,
+  "changed_chapters": 18,
+  "unchanged_chapters": 14,
+  "base_reconciliation_issues": 81,
+  "final_additional_issue": 1,
+  "implemented_or_accounted_issues": 82,
+  "scene_state_updates": 22,
+  "global_registry_updates": 1,
+  "preservation_checks": 12,
+  "astra_report": "kontakt/books/book-03/production/2026-09-23-book03/final-astra-native-v2/REPORT.md",
+  "astra_report_sha256": "f5c2fcd5bfde5b71e059e05c93695bd48f168a54c024f82bcf806e6e3cabba00",
+  "checks": {
+    "phase_integrity": "final-v2-phase-technical-verification.json",
+    "exact_patch_application": "terra-final-v2/patch-verification.json",
+    "final_full_reading": "final-astra-validation.json",
+    "metadata_plan_accounting": "terra-final-v2/metadata-plan-accounting.json",
+    "language_patterns": "final-v2-language-qa.json",
+    "naturalness_patterns": "final-v2-naturalness-reviewed.json",
+    "reader": "terra-final-v2/assembled/visual-review.json",
+    "repository_and_sources": "pending_after_metadata_sync"
+  },
+  "reader_pages": 64,
+  "review_limitations": [
+    "Opus unavailable: no report, repeated error events; explicit author exception.",
+    "Gemini Pro checkpoint after first part; all intermediate reports reconciled.",
+    "Requested models recorded; backend not independently attested."
+  ],
+  "unresolved_nonblocking_boundaries": [
+    "KONTAKT-B03-20260923-U01",
+    "KONTAKT-B03-20260923-U02",
+    "KONTAKT-B03-20260923-U04",
+    "KONTAKT-B03-20260923-U05",
+    "KONTAKT-B03-20260923-B03-U01",
+    "KONTAKT-B03-20260923-B03-U02",
+    "KONTAKT-B03-20260923-B03-U03"
+  ],
+  "canon_promoted": false,
+  "publication_approved": false
+}

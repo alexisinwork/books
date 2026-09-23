@@ -1,0 +1,256 @@
+{
+  "mode": "check",
+  "model_requested": "gpt-6-astra",
+  "source_sha256": "fa99f3a2667e4ad316ad4239e39c3f4887af09d5d45a5eeb2b1c04b385ad91a6",
+  "chapters": 32,
+  "paragraphs": 1550,
+  "prompt_bytes": 1081540,
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "source_sha256": "46e90d9cf2534e16bede15e648f5b58713fd0b82903acb078855d9ec21c834d3",
+      "supplied_text_sha256": "46e90d9cf2534e16bede15e648f5b58713fd0b82903acb078855d9ec21c834d3",
+      "representation": "complete source"
+    },
+    {
+      "path": "STYLE.md",
+      "source_sha256": "75ae6b24770075cd7da6947728f89e06ffa731a3d9a2587472b339e97a2f04d0",
+      "supplied_text_sha256": "75ae6b24770075cd7da6947728f89e06ffa731a3d9a2587472b339e97a2f04d0",
+      "representation": "complete source"
+    },
+    {
+      "path": "BOOK_SYSTEM/CORE.md",
+      "source_sha256": "e65010a13d397daab2273b93c85ec82ed98e8a25062f54bf18371018e6d9734a",
+      "supplied_text_sha256": "e65010a13d397daab2273b93c85ec82ed98e8a25062f54bf18371018e6d9734a",
+      "representation": "complete source"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "source_sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+      "supplied_text_sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+      "representation": "complete source"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "source_sha256": "a22dce300a430f1fef40358476aa436620d234cafb8ced1082e8e901e3dd14e5",
+      "supplied_text_sha256": "a22dce300a430f1fef40358476aa436620d234cafb8ced1082e8e901e3dd14e5",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/AGENTS.md",
+      "source_sha256": "a6c25a508994dc52fbae32c0778754a8da2a586c07aae2da9524c90e78e76011",
+      "supplied_text_sha256": "a6c25a508994dc52fbae32c0778754a8da2a586c07aae2da9524c90e78e76011",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/STYLE.md",
+      "source_sha256": "c13147cb68a55640feca196a30680e19a924abf22c3c245bdd6b166046b19a40",
+      "supplied_text_sha256": "c13147cb68a55640feca196a30680e19a924abf22c3c245bdd6b166046b19a40",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/book.json",
+      "source_sha256": "25f5305f6170d52d509cb6707caf017b30734d29682ad9f244562fa19553a3f6",
+      "supplied_text_sha256": "43c0ae2bb6a7771f2915de82890a17fcd92279f8606a366ffdd2913168b030f2",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/voice.json",
+      "source_sha256": "412f1e46ca2d09262a25e8f99e8010d554212f8106491263c193ad7b0bb17f47",
+      "supplied_text_sha256": "12b30e1193790047bd0d9a2d03621d2706ff0682aff4e22f6ac750ad855dc328",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/characters.planned.json",
+      "source_sha256": "99ed62db2eb6bb95a02452c023828208eb70965f983d9577e6e2d7e5795b6472",
+      "supplied_text_sha256": "67d43676a1dad92dd3927e3d399d5a606a5a18da3a9536baba1b5d9dc04fc388",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/PREDICTARIAT-MECHANICS.md",
+      "source_sha256": "9eda66141400682d5b9ef8435b49f58a73b0b33ca5e494969086e24f7abbcacb",
+      "supplied_text_sha256": "9eda66141400682d5b9ef8435b49f58a73b0b33ca5e494969086e24f7abbcacb",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/audit/issues.json",
+      "source_sha256": "dd2c276b9cac9c84e97eaa12d706e168f74bd0b2435a539c7029d4ee1e42b2e0",
+      "supplied_text_sha256": "285ef7a298822bfa86c6df77a70cf233f12cd715e4e651762c7e4f1d8076e2f3",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/series/CANON-POLICY.md",
+      "source_sha256": "26f9e4924ce88723d95ba744661cc0aeaf9d9751461bfcb972c2b4c952caed96",
+      "supplied_text_sha256": "26f9e4924ce88723d95ba744661cc0aeaf9d9751461bfcb972c2b4c952caed96",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/series/glossary.json",
+      "source_sha256": "993343103e6f79fda263fb9b346ddead35ee5b061bd8e30680bcc9179706c95c",
+      "supplied_text_sha256": "1adbd5b11403f2214c36e3ab2fa2a094cb33a189446d3bd6c7b9fcaef75e0be2",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/series/WORKFLOW-2026-09-23-BOOK03.md",
+      "source_sha256": "df0d26f6bd8efed1600959ec557749616a258f51618d1a0847e867b06ea66bb1",
+      "supplied_text_sha256": "df0d26f6bd8efed1600959ec557749616a258f51618d1a0847e867b06ea66bb1",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/guides/SCENE-EDITING.md",
+      "source_sha256": "0142261480bc6d28cea2a99daa81555d828de72740e9144018e97c5304be8362",
+      "supplied_text_sha256": "0142261480bc6d28cea2a99daa81555d828de72740e9144018e97c5304be8362",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/skills/ru-book-revision/SKILL.md",
+      "source_sha256": "6faa5cd2fb12ef6518fd7cd6847a947e660e1610e6986fc2bd06824766b6d72d",
+      "supplied_text_sha256": "6faa5cd2fb12ef6518fd7cd6847a947e660e1610e6986fc2bd06824766b6d72d",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/skills/ru-kontakt-series/SKILL.md",
+      "source_sha256": "7c6b38520a52896607e77f97bc437242074f669132678ee2b70d3d0f53aa7f8f",
+      "supplied_text_sha256": "7c6b38520a52896607e77f97bc437242074f669132678ee2b70d3d0f53aa7f8f",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/chapter-scene-cards.json",
+      "source_sha256": "ce1337fbc75adcc9b8a0893eb07aaf73fb353757a19d7df30967baca05a5613a",
+      "supplied_text_sha256": "883167fd2261c3235255c131807be3b2994121d90cd0aabe1bd09d6fb1de287a",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/full-outline.md",
+      "source_sha256": "ccddca57e4aef05788526b5d5cb9cad31eaf077b25701011c35f2b4ac700190c",
+      "supplied_text_sha256": "fe0ea242a2ba492d786f15e0e835df9022038cb8227f6d825a64a1d8444c5b2b",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/carry-in-source-lock.json",
+      "source_sha256": "9d386aad1240856f5871c5fba97f5d9dbf6a4dcba8904184116f21383b3d8e2b",
+      "supplied_text_sha256": "3b6f7136ff98b4a1c9a7888663409279c274640d62b737252dc67164be0429ba",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/decisions-and-questions.json",
+      "source_sha256": "0a9de13a80a7665b9e7bdcbce6d8798a496c75684a8864e32e5cd818bdd00808",
+      "supplied_text_sha256": "03015d24ebdbe0c018c2456ef7c176b4d80fc657f6760c42be890fa74c65374d",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/end-state.planned.json",
+      "source_sha256": "fb73cc77e3b6b32568a1b3b48b962edfa9a658051514ffabe213e278870e3284",
+      "supplied_text_sha256": "c8285c1b51c108f793d3e4e54a3c9a10c5a5d57903f1ffa31f3454350352b0b6",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/prediction-evidence-plan.json",
+      "source_sha256": "91f1fee01a3928521c02bf1f1b479276c6b4a01b9d47f5398a63852b42a5b43f",
+      "supplied_text_sha256": "4ffa368bcb5b13fedca83b839c66996b066efb566a74a1af863a35ca5969964f",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/promises.planned.json",
+      "source_sha256": "852fdf0924dab8293d89dd9241b165820ed3414dab732f87a5f3e1f914b35faf",
+      "supplied_text_sha256": "6be873c159196e2906a2ecccaaa77e5c0eaa651ceb8d4f0ef4133d3cf5311c27",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/structure-gates.json",
+      "source_sha256": "84edbd3fd6573560aa4d56badb5ca3cc200c63a67f639780375ab554d7397f24",
+      "supplied_text_sha256": "888d11b8aa7941e8c29a30a36d73fbb21d2a7990334e81734fe7172d33287909",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/voices-and-glossary.md",
+      "source_sha256": "7aec41834794f8453ef785f513526dd6ce4a0e3f9a451e5087a171a3c4734686",
+      "supplied_text_sha256": "7aec41834794f8453ef785f513526dd6ce4a0e3f9a451e5087a171a3c4734686",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/knowledge.planned.json",
+      "source_sha256": "07d495b2523b6a321a1ee8915e8d2be7bb9e0d9b56ea62289ddb9e91bdd49d12",
+      "supplied_text_sha256": "efcbff6654d6450e30a273571d0002c666229a49a9b8a60cda1ed3b24fc23329",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/resources.planned.json",
+      "source_sha256": "4b5d56e91681831a16d11a3ba3d0393a2ebf2f34112e21404ba54b648817161b",
+      "supplied_text_sha256": "809fb426a4d7f28ce208814e01405c23cd4479a4241968d1a76c95819567ff08",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/timeline.planned.json",
+      "source_sha256": "8451ae78e64e31dd90f6e9f12ba3d061e5b41dde3c991e7bcbb7b2ae2a67cde0",
+      "supplied_text_sha256": "302b2797c29fc53b723b0f52ca4114d4a2df229c4643c3b3132db1896db108ec",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-structure-gate.json",
+      "source_sha256": "d636928bd3a0975343bfdea2a6caabf06067f8f29823e2d658bdbbbdb7ae72f5",
+      "supplied_text_sha256": "5cb315fa419a4740a7e19f466c5c1ed49a617a8cafb555858f307065ad30e89c",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/run.json",
+      "source_sha256": "fd3367f3a1c652b9098a43b2c510070c504abab7d416268005dcf6d9e476ffa4",
+      "supplied_text_sha256": "85d8cc3c8221373ba04d06b9d706903ae7ccd00fff0f497c8a570cb0bac6d068",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/reconciliation-v1/reconciliation.md",
+      "source_sha256": "f9fbb94aadd6f094f0705d2bd29f034f298cc517c39163fc26516a1ce6b0c1b6",
+      "supplied_text_sha256": "f9fbb94aadd6f094f0705d2bd29f034f298cc517c39163fc26516a1ce6b0c1b6",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/reconciliation-v1/issue-ledger.json",
+      "source_sha256": "96b5501f57bbcc6644dc9ecd9a793bcda1de418aee53c38bbf57fbec29e6c56b",
+      "supplied_text_sha256": "d49b04d3f35aae850e855f0f0a5d8110e6230ee69423c62e031c6071cf6a5f59",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/reconciliation-v1/PATCH-PLAN.json",
+      "source_sha256": "e437d7a8ce2075e3c55b7fa697c771fbff225c6224316cc33b58db84039dd50b",
+      "supplied_text_sha256": "fcb0ddfdc344884a646b5b1acd1ec4d886fed532f9892ad59f35e5060847f333",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-final-v2/observed-state.json",
+      "source_sha256": "765326718d30d96a2082044561ecc167cbb5a79088ac0699c0ca07c1c1530c13",
+      "supplied_text_sha256": "6c41478e886aae628acab921608ef6d578011eacecc7506fc97b67e56ccbc900",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-final-v2/changes.json",
+      "source_sha256": "d07eda66bf5aaa0b3433df867fce5039f4a9e6e8daa9d9e23f73476c03237e24",
+      "supplied_text_sha256": "516885bc76e55c26947ed5689d4e8df0aa1eee9079c56ebf63d34ebc3ce00ed3",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-final-v2/metadata-plan-accounting.json",
+      "source_sha256": "4b0a8d8f76446313106ca662456fcad2d2eba319d31f0de3ddc6f6a2d553cae5",
+      "supplied_text_sha256": "4920dfd8f8598c66bf1c4701c98939354bd3059a0bb433d234de857bda73cc8f",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-final-v2/patch-verification.json",
+      "source_sha256": "ebf87baff413f9afc0f84f2ec8dae50ed774ffa43f322ff61949ef35f9ee7741",
+      "supplied_text_sha256": "372c6a4276a6abdd31a0c30510e7d1cfb18c6acb83ff56022ed74974aa5c76ae",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-final-corrigendum-validation.json",
+      "source_sha256": "facd92d77c6fc2e1116366fbdd88126cebe0c6fedc461679968eafef40e1574d",
+      "supplied_text_sha256": "15ca8df7c8992ad75a636f427cb81ced0f2f9c8f8a265c26839f18688b8ce152",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-final-v2/assembled/manuscript.md",
+      "source_sha256": "fa99f3a2667e4ad316ad4239e39c3f4887af09d5d45a5eeb2b1c04b385ad91a6",
+      "supplied_text_sha256": "4ec8f109912d3ddd57d38b0872375f5c67679d4abbee8214b86d4153d3359969",
+      "representation": "explicit projection or paragraph-numbered complete source"
+    }
+  ]
+}

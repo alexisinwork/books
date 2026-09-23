@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "ruleset": "uk-naturalness-1.2",
+  "source": "kontakt\\books\\book-03\\production\\2026-09-23-book03\\terra-final-v2\\assembled\\manuscript.md",
+  "source_sha256": "fa99f3a2667e4ad316ad4239e39c3f4887af09d5d45a5eeb2b1c04b385ad91a6",
+  "language": "uk",
+  "format": "text",
+  "source_units": 3099,
+  "source_units_including_blank": 3099,
+  "nonempty_source_units": 1550,
+  "blank_source_units": 1549,
+  "source_unit_kind": "physical_text_line",
+  "anchor_numbering": "p is 1-based and includes blank units; existing offsets are unchanged",
+  "mechanical_coverage": {
+    "scope": "configured_patterns_in_extracted_body_only",
+    "scanned_source_units": 3099,
+    "scanned_nonempty_source_units": 1550
+  },
+  "reading_coverage": {
+    "status": "not_assessed_by_this_tool",
+    "reviewed_nonempty_source_units": null
+  },
+  "extraction_flags": {},
+  "scope": "All extracted body units; selected contextual patterns only, no semantic proof or layout review.",
+  "findings": [
+    {
+      "rule": "back_redundancy",
+      "category": "repetition",
+      "p": 827,
+      "start": 23,
+      "end": 37,
+      "quote": "повернув назад",
+      "context": "Він усміхнувся, але не повернув назад. Ми підтягнули ремінь і пішли далі.",
+      "note": "Перевірити функцію назад: зайве дублювання, просторовий напрям чи навмисне посилення.",
+      "decision": "unresolved"
+    }
+  ],
+  "unresolved_signals": 1,
+  "result": "signals_require_review",
+  "grammar_check": "not_run",
+  "literary_quality": "not_established",
+  "automatic_rewriting": false
+}

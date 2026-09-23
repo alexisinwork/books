@@ -1,0 +1,32 @@
+{
+  "status": "structural_and_original_source_checks_passed",
+  "source_sha256": "fa99f3a2667e4ad316ad4239e39c3f4887af09d5d45a5eeb2b1c04b385ad91a6",
+  "checks": [
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/studio.py",
+        "doctor"
+      ],
+      "cwd": "kontakt",
+      "exit_code": 0,
+      "stdout": "{\n  \"books\": 8,\n  \"errors\": [],\n  \"warnings\": [\n    \"book-01: no selected master\",\n    \"book-02: no selected master\",\n    \"book-03: no selected master\",\n    \"book-04: no selected master\",\n    \"book-05: no selected master\",\n    \"book-06: no selected master\",\n    \"book-07: no selected master\",\n    \"book-08: no selected master\"\n  ],\n  \"scope\": \"File integrity, IDs and selected version; not prose quality, full canon or layout.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/verify_sources.py"
+      ],
+      "cwd": "kontakt",
+      "exit_code": 0,
+      "stdout": "{\n  \"checked\": 15,\n  \"errors\": [],\n  \"omnibus_reconstructed\": false,\n  \"scope\": \"Original bytes only; not proof of literary quality or full reading.\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "limits": "Doctor is not prose verification; intentional null masters remain warnings. Originals verification does not promote the working text."
+}

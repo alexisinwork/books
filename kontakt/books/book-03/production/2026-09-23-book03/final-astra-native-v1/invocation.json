@@ -1,0 +1,42 @@
+{
+  "model_requested": "gpt-6-astra",
+  "client": "codex exec",
+  "actual_backend": "not independently attested",
+  "context": "fresh; isolated temporary cwd; no project files unless included verbatim in prompt",
+  "command": [
+    "codex",
+    "exec",
+    "--ignore-user-config",
+    "--skip-git-repo-check",
+    "--ephemeral",
+    "--sandbox",
+    "read-only",
+    "--model",
+    "gpt-6-astra",
+    "--json",
+    "--output-last-message",
+    "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-03\\production\\2026-09-23-book03\\final-astra-native-v1\\REPORT.md",
+    "-"
+  ],
+  "prompt_sha256": "21ca1633377630d6588fa5bc903ecf04907024896635dc9ccd460270f072ec16",
+  "status": "returned_pending_manual_validation",
+  "exit_code": 0,
+  "seconds": 405.03,
+  "thread_ids": [
+    "01a0d00b-8a17-75e2-903c-f31ec57534cf"
+  ],
+  "item_types": [
+    "agent_message"
+  ],
+  "usage": [
+    {
+      "input_tokens": 257516,
+      "cached_input_tokens": 254720,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 8963,
+      "reasoning_output_tokens": 0
+    }
+  ],
+  "report_sha256": "8d2bf86c9fbbb20c8a4dfd21ba465e23696a581c3f79ba2d2ad355529ed420b8",
+  "limitation": "Transport/model request does not establish backend identity or actual complete reading; inspect report and trace."
+}

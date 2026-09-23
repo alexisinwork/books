@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "source_sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
+  "actual_reading": {
+    "chapters": 32,
+    "scenes": 41,
+    "blocks": 1540
+  },
+  "issues": 81,
+  "text_patches": 27,
+  "scene_metadata_updates": 22,
+  "global_registry_updates": 1,
+  "no_change_checks": 12,
+  "all_individual_author_decisions": "pending",
+  "source_unchanged": true,
+  "checks": [
+    "Unique source-bound full-paragraph patches.",
+    "Exact current scene fields before all metadata updates.",
+    "82 state quotes matched in their source chapters.",
+    "29 carry quotes matched in correct prior-book chapters.",
+    "All three final reports plus provisional Gemini findings adjudicated."
+  ],
+  "mirror_policy": "Every owned file including this package manifest is copied and SHA-verified by this finalizer; console result records completed comparison."
+}

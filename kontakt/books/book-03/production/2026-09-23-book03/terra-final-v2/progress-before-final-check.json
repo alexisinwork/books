@@ -1,0 +1,52 @@
+{
+  "author_request": "том 3 погнали",
+  "workflow": "../../../../series/WORKFLOW-2026-09-23-BOOK03.md",
+  "predecessor_sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+  "predecessor_commit": "a95bdf4068f795cdaac92294ea22473efc328c78",
+  "phases": [
+    {
+      "phase": "full_structure",
+      "actor": "Astra",
+      "status": "complete",
+      "gate": "root-structure-gate.json"
+    },
+    {
+      "phase": "all_rough_chapters",
+      "actor": "Astra",
+      "status": "complete",
+      "gate": "rough-handoff-verification.json",
+      "source_sha256": "eabf64d0421e741d67ad770f5c831e98f55ff1a30e87c76b28fba43f3390a579"
+    },
+    {
+      "phase": "all_full_chapters",
+      "actor": "Terra",
+      "status": "complete",
+      "path": "terra-full-v1/progress.json",
+      "source_sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
+      "gate": "terra-full-v1-technical-verification.json"
+    },
+    {
+      "phase": "independent_literary_reviews",
+      "actor": "Fresh Terra; agy Gemini3.8Flash, Gemini3.1Pro, Opus if available",
+      "status": "complete_with_documented_opus_exception",
+      "run": "literary-v1/run.json"
+    },
+    {
+      "phase": "reconciliation_and_full_check",
+      "actor": "Astra",
+      "status": "in_progress"
+    },
+    {
+      "phase": "final_compatible_revision",
+      "actor": "Terra",
+      "status": "not_started"
+    },
+    {
+      "phase": "final_full_reading_and_delivery",
+      "actor": "Astra and coordinator",
+      "status": "not_started"
+    }
+  ],
+  "canonical_master_assigned": false,
+  "active_structure": "structure-v1"
+}
