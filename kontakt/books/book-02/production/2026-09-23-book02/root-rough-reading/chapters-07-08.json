@@ -1,0 +1,36 @@
+{
+  "status": "nonblind_coordinator_reading",
+  "items": [
+    {
+      "chapter": 7,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-07.md",
+      "sha256": "d14918f76bf28af9e13ce30968e82b490e7a5eb54d9e041daa2334b2f3ae239d",
+      "actual_root_reading": "complete text; for CH07 additionally verified sole identifier clarification against fully read preserved predecessor",
+      "blocks": 53,
+      "pre_normalization_sha256": "c91c1a7aa1f2d45fa741ad6a719444f1bdf356b2e1432a0202d2b58d57be3965",
+      "normalization_check": "Exact ordered paragraph texts equal after line-ending/empty-line normalization; predecessor fully read."
+    },
+    {
+      "chapter": 8,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-08.md",
+      "sha256": "7c153afc5738e3714d953587ae2a5d638b1f9d0bd7935a8cc5dbe7b21b5c309c",
+      "actual_root_reading": "complete text; for CH07 additionally verified sole identifier clarification against fully read preserved predecessor",
+      "blocks": 67
+    }
+  ],
+  "findings": [
+    {
+      "id": "ROOT-ROUGH-03",
+      "chapter": 7,
+      "observation": "Cyrillic A/Б was inconsistent with exact technical pair L1+B.",
+      "resolution": "Fixed locally to explicit Latin A and B; prior text preserved; exact single-change replay passed.",
+      "status": "resolved_in_rough"
+    }
+  ],
+  "observations": [
+    "CH07 restricts demonstrated results to isolated stand; operator retains controls; actual event permission is still absent.",
+    "CH08 records different check-in conditions. Ira requests 15:30, retry fifteen minutes later, courtyard only after 17:00; no forced entry and no group rescue. Her agreement is with Taras. Later Dal accompaniment must respect that limit and her on-scene choice.",
+    "Public debate admits incomplete coverage; edited publicity is not represented as Lana endorsement."
+  ],
+  "limits": "Rough-phase reading only; full Terra prose and independent literary reviews remain pending."
+}

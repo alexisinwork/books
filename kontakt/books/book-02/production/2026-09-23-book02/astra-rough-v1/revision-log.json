@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "chapter": 7,
+      "reason": "Root requested exact route identifier consistency; no plot change",
+      "before_sha256": "623f636ef3c7ccb2c65dd2c7e16d5542e22bf1177de828c68a61b26aa333bce5",
+      "after_sha256": "c91c1a7aa1f2d45fa741ad6a719444f1bdf356b2e1432a0202d2b58d57be3965",
+      "before": "літерами А і Б",
+      "after": "латинськими літерами A і B",
+      "history": "history/chapter-07-before-route-id",
+      "dependents": [
+        "CH14",
+        "DOC01/CH17",
+        "CH35",
+        "CH36"
+      ]
+    },
+    {
+      "chapter": 13,
+      "reason": "Own continuity check: preserve one authorized video, clarify announcement only linked preview, no unauthorized second excerpt",
+      "before_sha256": "de05dca0b33b0108fb3cc16028194f391e1249d85d7ff24e5dad304e8c36967a",
+      "after_sha256": "c5fe4ba6fdbaee7f072ff5d309ce7130c548680a84f3d8a5191faa3bb97858bf",
+      "history": "history/chapter-13-before-single-publication-clarity",
+      "dependents": [
+        "CH11 one version permission",
+        "CH25 external copies"
+      ]
+    },
+    {
+      "chapter": 14,
+      "reason": "Root caught relative-day mismatch: playback CH12 D4, current D5",
+      "before": "де позавчора сиділа Іра",
+      "after": "де вчора сиділа Іра",
+      "before_sha256": "2c16459bcb029199c12f6c9a802becd3f7d2b31eaf85e91e571bb45e0c892457",
+      "after_sha256": "3fdb1960a66f7b6f7b2fe8e8e7cf7050bdedafc99e82f8d65228b579be61376b",
+      "history": "history/chapter-14-before-relative-day-fix"
+    },
+    {
+      "chapter": 16,
+      "reason": "Root caught gender continuity: pay off woman shown at end CH15, not new offstage man",
+      "before_sha256": "8bdfb9d7f176a0e9e731c51b4bcb23db42b12837bc9e84fb83356428bc801d94",
+      "after_sha256": "4deb70e187eb2e611b62bd73c4ce1b767adad40f26c444286fbf7b5120f792ec",
+      "history": "history/chapter-16-before-addressee-continuity",
+      "dependents": [
+        "CH15 closing encounter",
+        "observations/chapter-16.json"
+      ]
+    },
+    {
+      "chapter": 17,
+      "reason": "Root caught shift-owner confusion: fifteen-minute gap belongs to Vector; Dal confirms his separate existing task without invented identical duration",
+      "before_sha256": "9990a5f792dac559e31a0e0dbcb62af1f5a41c0c19656f16463c1819e049cfc1",
+      "after_sha256": "1077f53973b975d0688aee63af43a5f8806a05dfa9b71e1ec8d555e0de2f55fd",
+      "history": "history/chapter-17-before-shift-owner-fix"
+    },
+    {
+      "chapter": 25,
+      "reason": "Root requested arrival-after17 distinct from departure; briefing distinct from actual shift transfer after16",
+      "before_sha256": "6cc480c19750ac5a3172e830454855dbcc77d918b4983edd720afa5652781a5b",
+      "after_sha256": "6376468c30f9507a32cc6ddf02f7a51357c6f0c735a187b42b6ae70bacfef8bc",
+      "history": "history/chapter-25-before-arrival-and-handoff-clarity",
+      "dependents": [
+        "CH26 departure",
+        "CH27 arrival after17"
+      ]
+    },
+    {
+      "chapter": 30,
+      "reason": "Calendar invitation after midnight means same Tuesday noon; retain established formal Vector/Dal address",
+      "before_sha256": "8f59d158e3abc4380916711b889fc8f41239720066937c91f95e90c77ea97063",
+      "after_sha256": "31c18f76195786c4c1c86ea06d70d0693e8b19ac00f98fa2ac7be3c4cb027b1c",
+      "history": "history\\chapter-30-before-calendar-register-clarity"
+    },
+    {
+      "chapter": 31,
+      "reason": "Calendar invitation after midnight means same Tuesday noon; retain established formal Vector/Dal address",
+      "before_sha256": "d4c10cf8e719d05fa2b9f1a3f14b66331062616cd977ad52ae7e88bfeb2620c5",
+      "after_sha256": "d9338b4567fe9207ab3e13a76f1a1014af9e73dde35ae7092d286138806b288c",
+      "history": "history\\chapter-31-before-calendar-register-clarity"
+    },
+    {
+      "chapter": 31,
+      "reason": "Root caught request/offer reversal against CH23; retain old post as request for hardware",
+      "before_sha256": "d9338b4567fe9207ab3e13a76f1a1014af9e73dde35ae7092d286138806b288c",
+      "after_sha256": "5d51d323321f7597691a1b5e8fcb787d4f8be3489023116d97582331f27f8acd",
+      "history": "history\\chapter-31-before-request-role-fix"
+    },
+    {
+      "chapter": 34,
+      "reason": "Own continuity check: CH17 hypothesis never verified or included in report",
+      "before_sha256": "61959c7c84f1249be5b3f22b786540264a8908a6c28fe6af02c6f318d4124a26",
+      "after_sha256": "ae771245971b7d652794c486542e525835c0299e5524d6dc5ecad8fb8dafc14f",
+      "history": "kontakt\\books\\book-02\\production\\2026-09-23-book02\\astra-rough-v1\\history\\chapter-34-before-hypothesis-status-fix"
+    }
+  ]
+}

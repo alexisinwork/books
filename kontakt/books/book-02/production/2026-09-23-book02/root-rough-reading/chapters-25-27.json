@@ -1,0 +1,42 @@
+{
+  "status": "nonblind_coordinator_reading",
+  "items": [
+    {
+      "chapter": 25,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-25.md",
+      "sha256": "b7c5bd6ef639c00ed97c23b5151e506a046f41efb38fc0fd31fabd521b46dd77",
+      "actual_root_reading": "complete text; CH25 corrected source additionally checked by full contextual diff against fully read preserved predecessor",
+      "blocks": 47,
+      "pre_normalization_sha256": "6376468c30f9507a32cc6ddf02f7a51357c6f0c735a187b42b6ae70bacfef8bc",
+      "normalization_check": "Exact ordered paragraph texts equal after line-ending/empty-line normalization; predecessor fully read."
+    },
+    {
+      "chapter": 26,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-26.md",
+      "sha256": "c0a66bd2ce6af450490f6f2cf9c35e9303368b2351b130bec0f1014cf1726499",
+      "actual_root_reading": "complete text; CH25 corrected source additionally checked by full contextual diff against fully read preserved predecessor",
+      "blocks": 43
+    },
+    {
+      "chapter": 27,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-27.md",
+      "sha256": "e26c6590c8bd53ff008a0b96bc47912e1a05bb198acd4ae44da9b62628e561d9",
+      "actual_root_reading": "complete text; CH25 corrected source additionally checked by full contextual diff against fully read preserved predecessor",
+      "blocks": 54
+    }
+  ],
+  "findings": [
+    {
+      "id": "ROOT-ROUGH-09",
+      "chapter": 25,
+      "observation": "Arrival after17 must not become a conflicting departure time; replacement briefing is not yet her actual shift.",
+      "status": "Clarified in three local changes with preserved predecessor; contextual diff checked."
+    }
+  ],
+  "observations": [
+    "CH25 15:30 missed contact and actual15:45 retry are separate. Known Friday external copy is resurfaced; editor message newly confirms staff working copies removed. Ira cause remains unknown. Dal accompaniment limited to her on-scene acceptance.",
+    "CH26 Dal owns cost of breaking public commitment, transfers permitted notes rather than operator control, and leaves. Presenter message supplies bounded broadcast outcome. Taras returns an ordinary borrowed cabinet key; no apartment/emergency access.",
+    "CH27 arrival after17; Ira accepts Dal without camera, explains her own silence and independently achieved two morning shifts. Taras enters workshop only after she opens it; Dal stays outside. No rescue, medical danger or assumption of her motives before disclosure."
+  ],
+  "limits": "Rough-phase reading only; full Terra prose and independent literary reviews remain pending."
+}

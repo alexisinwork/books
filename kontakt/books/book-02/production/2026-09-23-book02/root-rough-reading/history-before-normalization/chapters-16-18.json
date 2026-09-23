@@ -1,0 +1,46 @@
+{
+  "status": "nonblind_coordinator_reading",
+  "items": [
+    {
+      "chapter": 16,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-16.md",
+      "sha256": "4deb70e187eb2e611b62bd73c4ce1b767adad40f26c444286fbf7b5120f792ec",
+      "actual_root_reading": "complete text; CH16-17 corrected source additionally checked by full contextual diff against fully read preserved predecessor",
+      "blocks": 46
+    },
+    {
+      "chapter": 17,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-17.md",
+      "sha256": "1077f53973b975d0688aee63af43a5f8806a05dfa9b71e1ec8d555e0de2f55fd",
+      "actual_root_reading": "complete text; CH16-17 corrected source additionally checked by full contextual diff against fully read preserved predecessor",
+      "blocks": 1
+    },
+    {
+      "chapter": 18,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-18.md",
+      "sha256": "eb599d2059083c42175fb64d699492527f4198061cdb5fb2d8b42b5847f384fa",
+      "actual_root_reading": "complete text; CH16-17 corrected source additionally checked by full contextual diff against fully read preserved predecessor",
+      "blocks": 40
+    }
+  ],
+  "findings": [
+    {
+      "id": "ROOT-ROUGH-07",
+      "chapter": 16,
+      "observation": "Person asking for the map in CH15 is a woman; the CH16 callback had become a man.",
+      "status": "All referring gender forms corrected with history; root reviewed entire contextual diff."
+    },
+    {
+      "id": "ROOT-ROUGH-08",
+      "chapter": 17,
+      "observation": "Vector takes the fifteen-minute gap but ending had assigned identical duration to Dal without source.",
+      "status": "Vector retains gap; Dal confirms his separate existing task without invented identical duration. Contextual diff checked."
+    }
+  ],
+  "observations": [
+    "CH16 Dal uses Ballast only on supplied public questions; private help remains his own action and costs campaign time. Card closes afterward.",
+    "CH17 DOC01 early Thursday16:10 L1+B precedes known Saturday09:40 selection. Reader has clue; Dal sees only current aggregate and qualifies his hypothesis. Source creation timestamp is not yet available to him.",
+    "CH18 actual public final-pair announcement at Sunday20:10; Monday00:00 launch and Tuesday00:00 return are explicit. Two current operators sign readiness; direct, emergency and identity services excluded. Vector retains the fifteen-minute duty."
+  ],
+  "limits": "Rough-phase reading only; full Terra prose and independent literary reviews remain pending."
+}

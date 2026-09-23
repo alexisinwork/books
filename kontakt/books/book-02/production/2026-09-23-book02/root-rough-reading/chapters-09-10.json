@@ -1,0 +1,34 @@
+{
+  "status": "nonblind_coordinator_reading",
+  "items": [
+    {
+      "chapter": 9,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-09.md",
+      "sha256": "2c5dc53c281298495f4fc772e707ea24fe441c5dce0b33a8d5a7afe748153687",
+      "actual_root_reading": "all paragraph blocks in full tool output",
+      "blocks": 50
+    },
+    {
+      "chapter": 10,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-10.md",
+      "sha256": "5a180433128ae8f6b9c692c7ec9ae5f0e11496e259c8383c349f441ea83ef2c8",
+      "actual_root_reading": "all paragraph blocks in full tool output",
+      "blocks": 50
+    }
+  ],
+  "findings": [
+    {
+      "id": "ROOT-ROUGH-04",
+      "chapter": 9,
+      "quote": "А що з тими, хто не хоче ваших суток?",
+      "category": "language",
+      "proposal": "Use вашої доби unless a deliberate mixed-language voice has an established reason.",
+      "status": "Terra_handoff_pending"
+    }
+  ],
+  "observations": [
+    "CH09 conditional L1 permission does not equal community endorsement; a recruited shift remains unfilled when actual availability is checked. No L2 permission.",
+    "CH10 A/B externally disconnected; isolated stand error and rerun retained in protocol. Dal signs observation, not authorization. Short test timer does not silently shorten the real 24-hour event. No route selection or external capacity order shown."
+  ],
+  "limits": "Rough-phase reading only; full Terra prose and independent literary reviews remain pending."
+}

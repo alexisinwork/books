@@ -13,12 +13,17 @@
     {
       "phase": "all_rough_chapters",
       "actor": "Astra",
-      "status": "in_progress"
+      "status": "complete",
+      "progress_file": "astra-rough-v1/progress.json",
+      "coordinator_reading": "root-rough-reading",
+      "gate": "rough-handoff-verification.json",
+      "source_sha256": "a0e9936025cfd786299c8a62f929a706982a22a1cff9576aad7934e548029c13"
     },
     {
       "phase": "all_full_chapters",
       "actor": "Terra",
-      "status": "not_started"
+      "status": "in_progress",
+      "progress_file": "terra-full-v1/progress.json"
     },
     {
       "phase": "independent_literary_reviews",
@@ -42,5 +47,6 @@
     }
   ],
   "opus_exception": "Skip if unavailable per explicit earlier authorinstruction; record actualcoverage.",
-  "active_structure": "structure-v2"
+  "active_structure": "structure-v2",
+  "structure_checkpoint_commit": "0590e06b890230cf4b17f6ea87419cd6ae84bc19"
 }

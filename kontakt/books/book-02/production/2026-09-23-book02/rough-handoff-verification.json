@@ -1,0 +1,82 @@
+{
+  "status": "technical_handoff_passed_with_separate_actual_reading_records",
+  "target": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/assembled/manuscript.md",
+  "target_sha256": "a0e9936025cfd786299c8a62f929a706982a22a1cff9576aad7934e548029c13",
+  "chapters": 36,
+  "scenes": 41,
+  "paragraphs": 1728,
+  "observed_quotes_matched": 121,
+  "reading_records": [
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-01-02.md",
+      "sha256": "3c228ce59f551e2ddd3f22c44d7cd84b691d3f8258cd651abc4aed2d67e307cb"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-03-04.json",
+      "sha256": "394adfedbc7a6f5cf3d6d20c717a412ae323baff30c2445d704eb6ff345ec2e1"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-05-06.json",
+      "sha256": "08cbca57404c9048d7ce1fcbf7bf1b46d4232487a3cfdfb2eab1255cd1e598f2"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-07-08.json",
+      "sha256": "eaaa83259813c0dfab14ac4df372e547dd7c4549f933ba3b072bd69a5437f6b8"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-09-10.json",
+      "sha256": "4631493343fc36873fad1f1baa83884634a66feef5f80779d3b854c45bf70fdb"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-11-12.json",
+      "sha256": "bd1a94f5cd7cffb84b9a40ad60ad63279fcf3ac4afd8fac0c4008c6eadfb7e72"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-13-15.json",
+      "sha256": "d7a3cac3683b608df53742231fa96def12465b34e34c250b628856278d4a967a"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-16-18.json",
+      "sha256": "31dcd7ec1c9db21c56b83c321e47f5df22b06ba3fef7e1e2ca7f8dd6a39d413a"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-19-21.json",
+      "sha256": "6849cf1b975005ee2628a572245ae58f338cd38621899a73a40ca44972448623"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-22-24.json",
+      "sha256": "0c85cb56dd2d6a4e1145ca7521a7a29fdc72b3a388b69245004fb75966e69cd9"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-25-27.json",
+      "sha256": "7bfb77a1b5676d37b564c39140957b4f9f6d6fdbc6b246e930d158220a60c138"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-28-30.json",
+      "sha256": "e689117e090a584f2d8771bf90552b032f0e23a74d9d1a66a361c24edce974fd"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-31-33.json",
+      "sha256": "6e232141f91dbe639e2c4a8c0a9dab54e56ee3b1af2ea46046b3f9dde61e46a2"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/root-rough-reading/chapters-34-36.json",
+      "sha256": "387485954b23ac04cd1a73cd22ab015c7c71290d6723f4b350be042effd7c613"
+    }
+  ],
+  "checks": [
+    "All chapter files exactly included in frozen assembly.",
+    "Current chapter hashes match the coordinator actual-reading records.",
+    "Observed quotes match their chapter sources.",
+    "All planned scene IDs are accounted for in order.",
+    "Planned clock placement has an explicit basis.",
+    "Frozen rough artifact manifest matches files."
+  ],
+  "limits": [
+    "This script verifies recorded coverage, not literary quality.",
+    "Astra rough prose is not the complete Terra literary text.",
+    "Known local language and precision notes remain in the Terra handoff.",
+    "Independent ensemble has not yet reviewed a full Terra manuscript.",
+    "No author canonical promotion or publication approval is inferred."
+  ]
+}

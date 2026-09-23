@@ -1,0 +1,35 @@
+{
+  "phase": "astra_rough_frozen",
+  "checks": [
+    {
+      "name": "studio_doctor",
+      "exit_code": 0,
+      "result": {
+        "books": 8,
+        "errors": [],
+        "warnings": [
+          "book-01: no selected master",
+          "book-02: no selected master",
+          "book-03: no selected master",
+          "book-04: no selected master",
+          "book-05: no selected master",
+          "book-06: no selected master",
+          "book-07: no selected master",
+          "book-08: no selected master"
+        ],
+        "scope": "File integrity, IDs and selected version; not prose quality, full canon or layout."
+      }
+    },
+    {
+      "name": "original_sources",
+      "exit_code": 0,
+      "result": {
+        "checked": 15,
+        "errors": [],
+        "omnibus_reconstructed": false,
+        "scope": "Original bytes only; not proof of literary quality or full reading."
+      }
+    }
+  ],
+  "limits": "Technical integrity only; Terra full writing and independent literary reviews pending."
+}

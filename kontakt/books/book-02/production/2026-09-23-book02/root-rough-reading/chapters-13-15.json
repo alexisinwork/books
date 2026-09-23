@@ -1,0 +1,50 @@
+{
+  "status": "nonblind_coordinator_reading",
+  "items": [
+    {
+      "chapter": 13,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-13.md",
+      "sha256": "c5fe4ba6fdbaee7f072ff5d309ce7130c548680a84f3d8a5191faa3bb97858bf",
+      "actual_root_reading": "complete text; for CH14 additionally verified sole relative-day correction against fully read preserved predecessor",
+      "blocks": 53
+    },
+    {
+      "chapter": 14,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-14.md",
+      "sha256": "ca81ef404e7e8011559eeecd380e7d6509747d71061c49503193e90fe17fa6f7",
+      "actual_root_reading": "complete text; for CH14 additionally verified sole relative-day correction against fully read preserved predecessor",
+      "blocks": 57,
+      "pre_normalization_sha256": "3fdb1960a66f7b6f7b2fe8e8e7cf7050bdedafc99e82f8d65228b579be61376b",
+      "normalization_check": "Exact ordered paragraph texts equal after line-ending/empty-line normalization; predecessor fully read."
+    },
+    {
+      "chapter": 15,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/astra-rough-v1/chapters/chapter-15.md",
+      "sha256": "cf4915bcec16600d78605536c01889f267a6952f9b5fe769380976ab6abaa027",
+      "actual_root_reading": "complete text; for CH14 additionally verified sole relative-day correction against fully read preserved predecessor",
+      "blocks": 57
+    }
+  ],
+  "findings": [
+    {
+      "id": "ROOT-ROUGH-05",
+      "chapter": 13,
+      "category": "observed_state_accuracy",
+      "observation": "Planned clock intervals need a separate basis; cleanup of other staff working copies is pending, not completed.",
+      "status": "Agent corrected metadata; prose itself distinguishes completion and ongoing cleanup."
+    },
+    {
+      "id": "ROOT-ROUGH-06",
+      "chapter": 14,
+      "quote": "де позавчора сиділа Іра",
+      "observation": "CH12 is D4 and CH14 D5, so yesterday.",
+      "status": "Corrected to вчора with preserved predecessor; exact replay passed."
+    }
+  ],
+  "observations": [
+    "CH13 own public removal and canceled scheduled use occur; identified third-party copies are requested to be removed without impossible guarantees or publication of Ira motives.",
+    "CH14 L1+B selected privately at Saturday09:40; proposed weekday grid is new working detail, not an earlier author date. Search of Book1v4 weekday terms found no explicit conflicting weekday assignment. Public story correctly orders suspension then voluntary closure; Maya/Nina details remain private.",
+    "CH15 merchant loss is not rhetorically erased; Lana public disagreement is not presented as endorsement. Dal receives attention and overlooks Taras message, enacting the conflict."
+  ],
+  "limits": "Rough-phase reading only; full Terra prose and independent literary reviews remain pending."
+}
