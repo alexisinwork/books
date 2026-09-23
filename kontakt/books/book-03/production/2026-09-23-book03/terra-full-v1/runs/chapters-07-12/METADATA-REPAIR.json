@@ -1,0 +1,28 @@
+{
+  "source_response_sha256": "e441ac21e45ecdcfc38fe66cb8c995964063fbb8bf1849a66f88d22982d3aeb7",
+  "scope": "Metadata only; raw response and prose unchanged",
+  "repairs": [
+    {
+      "kind": "syntax",
+      "before": "}]}}}",
+      "after": "}]}}",
+      "occurrences": 6,
+      "reason": "Extraneous chapter-object closing brace. Original response unchanged."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH09-SC01",
+      "before": "На суботу є один пробний.",
+      "after": "На суботу є один пробний",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH10-SC01",
+      "before": "Я хотів, щоб вони знали: якщо щось не так, писати мені.",
+      "after": "Хотів, щоб вони знали: якщо щось не так, писати мені.",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    }
+  ],
+  "output_sha256": "6317d5bdb40eee47ccdab965ad3d6b00392de3b89ff4591dac2b9f7f8ecec88d"
+}

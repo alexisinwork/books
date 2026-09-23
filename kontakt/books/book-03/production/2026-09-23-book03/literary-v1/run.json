@@ -1,0 +1,72 @@
+{
+  "schema_version": "author-workflow-2026-09-23",
+  "run_id": "book03-literary-v1",
+  "project_id": "kontakt",
+  "book_id": "book-03",
+  "language": "uk",
+  "status": "diagnoses_locked_ready_for_astra_reconciliation",
+  "source": {
+    "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/assembled/manuscript.md",
+    "sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
+    "chapters": 32,
+    "blocks": 1540
+  },
+  "required_diagnoses": [
+    "terra",
+    "gemini_flash",
+    "gemini_pro",
+    "opus"
+  ],
+  "effective_locked_diagnoses": [
+    "terra",
+    "gemini_flash",
+    "gemini_pro"
+  ],
+  "review_policy_basis": "Explicit author workflow: isolated Terra + agy Flash + agy Pro + Opus attempt. Author permits unavailable Opus to be skipped with actual evidence. Astra later reconciliation is nonblind, not a fabricated fourth independent diagnosis.",
+  "reports": {
+    "terra": {
+      "role": "terra",
+      "file": "results/terra/REPORT.md",
+      "status": "locked",
+      "sha256": "97775d67db3286691e24deaa03dec4fed4a5f9c373f12af139caf90ad5de8bd8",
+      "validation_status": "accepted_as_editorial_input_with_limits"
+    },
+    "gemini_flash": {
+      "role": "gemini_flash",
+      "file": "results/gemini_flash/REPORT.md",
+      "status": "locked",
+      "sha256": "e8da3404a5dcd6e81b0424e2b41c13bead511ebaa5b64edb15e1ba7a4be7c4a2",
+      "validation_status": "accepted_as_editorial_input_with_limits"
+    },
+    "gemini_pro": {
+      "role": "gemini_pro",
+      "file": "results/gemini_pro/REPORT.md",
+      "status": "locked",
+      "sha256": "5845da1d48ff7852d38f38afad1c53900643854c3e7520234a9c74f99eb2108d",
+      "validation_status": "accepted_as_editorial_input_with_limits"
+    },
+    "opus": {
+      "role": "opus",
+      "file": "results/opus/REPORT.md",
+      "status": "unavailable_author_exception"
+    }
+  },
+  "exceptions": [
+    {
+      "role": "opus",
+      "status": "unavailable_author_exception",
+      "reading_established": false,
+      "reason": "Four error_message steps, zero returned reports; process stopped by coordinator after repeated errors. Exact backend cause not exposed.",
+      "evidence": "results/opus/coordinator-stop-record.json",
+      "evidence_sha256": "5424dfab6995d8c5acef6a338c72554ccb05d5deeba6293c58e442282f1ab575"
+    }
+  ],
+  "reconciliation": {
+    "path": "../reconciliation-v1/reconciliation.md",
+    "status": "not_started"
+  },
+  "issue_ledger": "../reconciliation-v1/issue-ledger.json",
+  "patch_plan": "../reconciliation-v1/PATCH-PLAN.json",
+  "individual_author_decisions": "pending; separate bulk compatible implementation authorized",
+  "legacy_cli_compatible": false
+}

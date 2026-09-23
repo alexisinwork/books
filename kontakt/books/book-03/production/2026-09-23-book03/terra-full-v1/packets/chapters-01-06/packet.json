@@ -1,0 +1,406 @@
+{
+  "role": "authoring",
+  "model_requested": "gpt-5.6-terra",
+  "first": 1,
+  "last": 6,
+  "chapters_expected": 32,
+  "prompt_bytes": 868740,
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "46e90d9cf2534e16bede15e648f5b58713fd0b82903acb078855d9ec21c834d3",
+      "supplied_text_sha256": "46e90d9cf2534e16bede15e648f5b58713fd0b82903acb078855d9ec21c834d3",
+      "representation": "complete source"
+    },
+    {
+      "path": "STYLE.md",
+      "sha256": "75ae6b24770075cd7da6947728f89e06ffa731a3d9a2587472b339e97a2f04d0",
+      "supplied_text_sha256": "75ae6b24770075cd7da6947728f89e06ffa731a3d9a2587472b339e97a2f04d0",
+      "representation": "complete source"
+    },
+    {
+      "path": "BOOK_SYSTEM/CORE.md",
+      "sha256": "e65010a13d397daab2273b93c85ec82ed98e8a25062f54bf18371018e6d9734a",
+      "supplied_text_sha256": "e65010a13d397daab2273b93c85ec82ed98e8a25062f54bf18371018e6d9734a",
+      "representation": "complete source"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+      "supplied_text_sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd",
+      "representation": "complete source"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "sha256": "a22dce300a430f1fef40358476aa436620d234cafb8ced1082e8e901e3dd14e5",
+      "supplied_text_sha256": "a22dce300a430f1fef40358476aa436620d234cafb8ced1082e8e901e3dd14e5",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/AGENTS.md",
+      "sha256": "a6c25a508994dc52fbae32c0778754a8da2a586c07aae2da9524c90e78e76011",
+      "supplied_text_sha256": "a6c25a508994dc52fbae32c0778754a8da2a586c07aae2da9524c90e78e76011",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/STYLE.md",
+      "sha256": "c13147cb68a55640feca196a30680e19a924abf22c3c245bdd6b166046b19a40",
+      "supplied_text_sha256": "c13147cb68a55640feca196a30680e19a924abf22c3c245bdd6b166046b19a40",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/project.json",
+      "sha256": "48499a8a6cac733964937016458f4fd674a470338fe3ef3f700e611448e39676",
+      "supplied_text_sha256": "48499a8a6cac733964937016458f4fd674a470338fe3ef3f700e611448e39676",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/book.json",
+      "sha256": "022b72e04f7b5cac6f0a28db23ce0aef553bf3abd53e8a4d22fe25303095b461",
+      "supplied_text_sha256": "022b72e04f7b5cac6f0a28db23ce0aef553bf3abd53e8a4d22fe25303095b461",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/brief.md",
+      "sha256": "744edcbaedb05e82a3d9880f55dcc535da8dc041d31af2e5aa1c7e73ee599e85",
+      "supplied_text_sha256": "744edcbaedb05e82a3d9880f55dcc535da8dc041d31af2e5aa1c7e73ee599e85",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/voice.json",
+      "sha256": "412f1e46ca2d09262a25e8f99e8010d554212f8106491263c193ad7b0bb17f47",
+      "supplied_text_sha256": "412f1e46ca2d09262a25e8f99e8010d554212f8106491263c193ad7b0bb17f47",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/characters.planned.json",
+      "sha256": "99ed62db2eb6bb95a02452c023828208eb70965f983d9577e6e2d7e5795b6472",
+      "supplied_text_sha256": "99ed62db2eb6bb95a02452c023828208eb70965f983d9577e6e2d7e5795b6472",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/PREDICTARIAT-MECHANICS.md",
+      "sha256": "9eda66141400682d5b9ef8435b49f58a73b0b33ca5e494969086e24f7abbcacb",
+      "supplied_text_sha256": "9eda66141400682d5b9ef8435b49f58a73b0b33ca5e494969086e24f7abbcacb",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/series/CANON-POLICY.md",
+      "sha256": "26f9e4924ce88723d95ba744661cc0aeaf9d9751461bfcb972c2b4c952caed96",
+      "supplied_text_sha256": "26f9e4924ce88723d95ba744661cc0aeaf9d9751461bfcb972c2b4c952caed96",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/series/glossary.json",
+      "sha256": "993343103e6f79fda263fb9b346ddead35ee5b061bd8e30680bcc9179706c95c",
+      "supplied_text_sha256": "993343103e6f79fda263fb9b346ddead35ee5b061bd8e30680bcc9179706c95c",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/skills/ru-book-writer/SKILL.md",
+      "sha256": "a6d1a7adbe041d13705206ea948f63d15a3644c6cab957ca9d576dee55231926",
+      "supplied_text_sha256": "a6d1a7adbe041d13705206ea948f63d15a3644c6cab957ca9d576dee55231926",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/skills/ru-book-writer/references/drafting-contract.md",
+      "sha256": "1b06fbb3722c1207890d9414020862697ae42f3f27e53f50bcb9206180b84852",
+      "supplied_text_sha256": "1b06fbb3722c1207890d9414020862697ae42f3f27e53f50bcb9206180b84852",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/skills/ru-kontakt-series/SKILL.md",
+      "sha256": "7c6b38520a52896607e77f97bc437242074f669132678ee2b70d3d0f53aa7f8f",
+      "supplied_text_sha256": "7c6b38520a52896607e77f97bc437242074f669132678ee2b70d3d0f53aa7f8f",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/skills/ru-kontakt-series/references/series-guide.md",
+      "sha256": "68a153f38a404bedc8fa9243cc71581afb81e3b207edab8933cf82a3b609fe2a",
+      "supplied_text_sha256": "68a153f38a404bedc8fa9243cc71581afb81e3b207edab8933cf82a3b609fe2a",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/series/WORKFLOW-2026-09-23-BOOK03.md",
+      "sha256": "df0d26f6bd8efed1600959ec557749616a258f51618d1a0847e867b06ea66bb1",
+      "supplied_text_sha256": "df0d26f6bd8efed1600959ec557749616a258f51618d1a0847e867b06ea66bb1",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/carry-in-source-lock.json",
+      "sha256": "9d386aad1240856f5871c5fba97f5d9dbf6a4dcba8904184116f21383b3d8e2b",
+      "supplied_text_sha256": "9d386aad1240856f5871c5fba97f5d9dbf6a4dcba8904184116f21383b3d8e2b",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/chapter-scene-cards.json",
+      "sha256": "ce1337fbc75adcc9b8a0893eb07aaf73fb353757a19d7df30967baca05a5613a",
+      "supplied_text_sha256": "ce1337fbc75adcc9b8a0893eb07aaf73fb353757a19d7df30967baca05a5613a",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/decisions-and-questions.json",
+      "sha256": "0a9de13a80a7665b9e7bdcbce6d8798a496c75684a8864e32e5cd818bdd00808",
+      "supplied_text_sha256": "0a9de13a80a7665b9e7bdcbce6d8798a496c75684a8864e32e5cd818bdd00808",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/end-state.planned.json",
+      "sha256": "fb73cc77e3b6b32568a1b3b48b962edfa9a658051514ffabe213e278870e3284",
+      "supplied_text_sha256": "fb73cc77e3b6b32568a1b3b48b962edfa9a658051514ffabe213e278870e3284",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/full-outline.md",
+      "sha256": "ccddca57e4aef05788526b5d5cb9cad31eaf077b25701011c35f2b4ac700190c",
+      "supplied_text_sha256": "a581ebb83432051a1e39d722c218f41c42df95d888caeb3dcbdb500fa73077d1",
+      "representation": "explicit source excerpt or verified duplicate-field projection"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/knowledge.planned.json",
+      "sha256": "07d495b2523b6a321a1ee8915e8d2be7bb9e0d9b56ea62289ddb9e91bdd49d12",
+      "supplied_text_sha256": "6b0b98e07c3d7d10b307ee0336d895c2e36ca25325c98c38b45bc9aa715ca97c",
+      "representation": "explicit source excerpt or verified duplicate-field projection"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/prediction-evidence-plan.json",
+      "sha256": "91f1fee01a3928521c02bf1f1b479276c6b4a01b9d47f5398a63852b42a5b43f",
+      "supplied_text_sha256": "91f1fee01a3928521c02bf1f1b479276c6b4a01b9d47f5398a63852b42a5b43f",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/promises.planned.json",
+      "sha256": "852fdf0924dab8293d89dd9241b165820ed3414dab732f87a5f3e1f914b35faf",
+      "supplied_text_sha256": "852fdf0924dab8293d89dd9241b165820ed3414dab732f87a5f3e1f914b35faf",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/resources.planned.json",
+      "sha256": "4b5d56e91681831a16d11a3ba3d0393a2ebf2f34112e21404ba54b648817161b",
+      "supplied_text_sha256": "1ef5d3e14361b2b1cb5d4f8c313c127700a6207ba8e2ee08be8712e6bc53a9bb",
+      "representation": "explicit source excerpt or verified duplicate-field projection"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/structure-gates.json",
+      "sha256": "84edbd3fd6573560aa4d56badb5ca3cc200c63a67f639780375ab554d7397f24",
+      "supplied_text_sha256": "84edbd3fd6573560aa4d56badb5ca3cc200c63a67f639780375ab554d7397f24",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/timeline.planned.json",
+      "sha256": "8451ae78e64e31dd90f6e9f12ba3d061e5b41dde3c991e7bcbb7b2ae2a67cde0",
+      "supplied_text_sha256": "9b08a3f63a70c0753675f7f9ca9a3f6cd3d9aacc08312c1a4fdb6dedb50a51ea",
+      "representation": "explicit source excerpt or verified duplicate-field projection"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/validation.json",
+      "sha256": "4f803ab37f63bf987238d49200faf0780adacce57a0832414d1220642c1f18f0",
+      "supplied_text_sha256": "4f803ab37f63bf987238d49200faf0780adacce57a0832414d1220642c1f18f0",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/voices-and-glossary.md",
+      "sha256": "7aec41834794f8453ef785f513526dd6ce4a0e3f9a451e5087a171a3c4734686",
+      "supplied_text_sha256": "7aec41834794f8453ef785f513526dd6ce4a0e3f9a451e5087a171a3c4734686",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/astra-rough-v1/assembled/manuscript.md",
+      "sha256": "eabf64d0421e741d67ad770f5c831e98f55ff1a30e87c76b28fba43f3390a579",
+      "supplied_text_sha256": "eabf64d0421e741d67ad770f5c831e98f55ff1a30e87c76b28fba43f3390a579",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/astra-rough-v1/observed-state.json",
+      "sha256": "9da52029b5bcd3bd19661f1acb69d76d42dbb670b7befdde2520c95db3cdff98",
+      "supplied_text_sha256": "9da52029b5bcd3bd19661f1acb69d76d42dbb670b7befdde2520c95db3cdff98",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/astra-rough-v1/proposals.json",
+      "sha256": "5504622ba54a36c35acdb765f940d4adee70ecbfb04daf32a0e49a12cdad5cd3",
+      "supplied_text_sha256": "5504622ba54a36c35acdb765f940d4adee70ecbfb04daf32a0e49a12cdad5cd3",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/astra-rough-v1/handoff-for-terra.md",
+      "sha256": "123091ed1f51c89fcc1ff365d49472ff621a8c2faf13d7b46ea1d5ae8781e02a",
+      "supplied_text_sha256": "123091ed1f51c89fcc1ff365d49472ff621a8c2faf13d7b46ea1d5ae8781e02a",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/astra-rough-v1/self-review.md",
+      "sha256": "935ec5b31ce0c26c3564ce81f8d38848abb87836ee4cb19689d9244c92c01cc3",
+      "supplied_text_sha256": "935ec5b31ce0c26c3564ce81f8d38848abb87836ee4cb19689d9244c92c01cc3",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-structure-gate.json",
+      "sha256": "d636928bd3a0975343bfdea2a6caabf06067f8f29823e2d658bdbbbdb7ae72f5",
+      "supplied_text_sha256": "d636928bd3a0975343bfdea2a6caabf06067f8f29823e2d658bdbbbdb7ae72f5",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/rough-handoff-verification.json",
+      "sha256": "a079d8d01f845a627e84b4c6bb1ce680ed7a9cca27b69fbb46784874c9655f97",
+      "supplied_text_sha256": "a079d8d01f845a627e84b4c6bb1ce680ed7a9cca27b69fbb46784874c9655f97",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-01-02.json",
+      "sha256": "c10acd5bf330ce84680e0c6ec4a485aedd560074b2b4306c5e9297a1844d9b52",
+      "supplied_text_sha256": "c10acd5bf330ce84680e0c6ec4a485aedd560074b2b4306c5e9297a1844d9b52",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-03-03.json",
+      "sha256": "f392e39dda50008a2ec3e44bbc0b583cf6f904b26f6869a87c7be76b9e835c07",
+      "supplied_text_sha256": "f392e39dda50008a2ec3e44bbc0b583cf6f904b26f6869a87c7be76b9e835c07",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-04-04.json",
+      "sha256": "84a398fb7601977887372c320ecbe2db1311aa8de8c9d3853636ef80394d075a",
+      "supplied_text_sha256": "84a398fb7601977887372c320ecbe2db1311aa8de8c9d3853636ef80394d075a",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-05-05.json",
+      "sha256": "02f0d13bffcac88e125195cad8266a4afd0d862f6443ae8b150626980beb08ab",
+      "supplied_text_sha256": "02f0d13bffcac88e125195cad8266a4afd0d862f6443ae8b150626980beb08ab",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-06-06.json",
+      "sha256": "3894e7d08140bd7a2456b174be6b1ad0261abf683b67dd54ffa9f18071647ee2",
+      "supplied_text_sha256": "3894e7d08140bd7a2456b174be6b1ad0261abf683b67dd54ffa9f18071647ee2",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-07-07.json",
+      "sha256": "955fe598c4d4d74661f3de5bb9ddcded55afaedab83201984691b1b0c4dcb247",
+      "supplied_text_sha256": "955fe598c4d4d74661f3de5bb9ddcded55afaedab83201984691b1b0c4dcb247",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-08-08.json",
+      "sha256": "d1e85b0ce6623fb457db96c229de8d220f0b21c606b4d9410e5424400ded90c1",
+      "supplied_text_sha256": "d1e85b0ce6623fb457db96c229de8d220f0b21c606b4d9410e5424400ded90c1",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-09-09.json",
+      "sha256": "9fcdc0c7107591a75ea171bc9e67333289edee4219d8ba0744e96e2b3fc60fb8",
+      "supplied_text_sha256": "9fcdc0c7107591a75ea171bc9e67333289edee4219d8ba0744e96e2b3fc60fb8",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-10-10.json",
+      "sha256": "6a89220bdb2311ab237009581010f26fde883c3ac876eada09848d75a281a3c6",
+      "supplied_text_sha256": "6a89220bdb2311ab237009581010f26fde883c3ac876eada09848d75a281a3c6",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-11-12.json",
+      "sha256": "b857da3e30a27acb63676cce3bea343bdef3be7a30cab9533ef1c91f43e96ade",
+      "supplied_text_sha256": "b857da3e30a27acb63676cce3bea343bdef3be7a30cab9533ef1c91f43e96ade",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-13-13.json",
+      "sha256": "a45b3628d5469e929a9edf07b96b0f55e0c5527c612330fd9a19210a0f1e5bb3",
+      "supplied_text_sha256": "a45b3628d5469e929a9edf07b96b0f55e0c5527c612330fd9a19210a0f1e5bb3",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-14-14.json",
+      "sha256": "518c8e8d7747e6497b3fefbe848750357db93f78d0e118bcef0096f8858de508",
+      "supplied_text_sha256": "518c8e8d7747e6497b3fefbe848750357db93f78d0e118bcef0096f8858de508",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-15-15.json",
+      "sha256": "daabf5ab8079c587b395187b1112cc9f58b20feb90da859734fbbedd0c6debb5",
+      "supplied_text_sha256": "daabf5ab8079c587b395187b1112cc9f58b20feb90da859734fbbedd0c6debb5",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-16-16.json",
+      "sha256": "163bd2a8c76133d7046ca250fc4d46737711f47f23717c4d3be0a792bf16a74c",
+      "supplied_text_sha256": "163bd2a8c76133d7046ca250fc4d46737711f47f23717c4d3be0a792bf16a74c",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-17-17.json",
+      "sha256": "4c579beab1a4331acc644c392a7528772227a5651160ab9df6110de38f932d9c",
+      "supplied_text_sha256": "4c579beab1a4331acc644c392a7528772227a5651160ab9df6110de38f932d9c",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-18-20.json",
+      "sha256": "36ff96c894beb0add4dab5e3212fb014654cf7ee98777e95d8a873c947352d4e",
+      "supplied_text_sha256": "36ff96c894beb0add4dab5e3212fb014654cf7ee98777e95d8a873c947352d4e",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-21-21.json",
+      "sha256": "87684f4cbd6d35234baf8fa888ede121a634606809038184a0b39ba7993d631c",
+      "supplied_text_sha256": "87684f4cbd6d35234baf8fa888ede121a634606809038184a0b39ba7993d631c",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-22-24.json",
+      "sha256": "ce54f5854359f78b042eed8e22282a3e34bea44205efd0371ec2f68cfa0d92de",
+      "supplied_text_sha256": "ce54f5854359f78b042eed8e22282a3e34bea44205efd0371ec2f68cfa0d92de",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-25-26.json",
+      "sha256": "1461c1a3bdcc1f89842b16a3eb92eca87e0812065e27b6ff58918c9e17fdf38f",
+      "supplied_text_sha256": "1461c1a3bdcc1f89842b16a3eb92eca87e0812065e27b6ff58918c9e17fdf38f",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-27-27.json",
+      "sha256": "7ddc452c3b6d83a5180a2eb9c15940f12f9bd9dfeb0694f07c0e7047cf74f428",
+      "supplied_text_sha256": "7ddc452c3b6d83a5180a2eb9c15940f12f9bd9dfeb0694f07c0e7047cf74f428",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-28-28.json",
+      "sha256": "709ca8c53871450b65988bf8f355f4d2f9f5b9908a04c94dcc1ab0acd6009e0b",
+      "supplied_text_sha256": "709ca8c53871450b65988bf8f355f4d2f9f5b9908a04c94dcc1ab0acd6009e0b",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-29-29.json",
+      "sha256": "90a41e6d0b7e07d94b83e4432d61b1fb79df34b89b217ae156ed5bc88932e46c",
+      "supplied_text_sha256": "90a41e6d0b7e07d94b83e4432d61b1fb79df34b89b217ae156ed5bc88932e46c",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-30-30.json",
+      "sha256": "94ef4a49e67026ae8e6112def6ebf59224047ebbf81e23e725db648d74a3e702",
+      "supplied_text_sha256": "94ef4a49e67026ae8e6112def6ebf59224047ebbf81e23e725db648d74a3e702",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-31-31.json",
+      "sha256": "588c9d41bb10abf305b593a979fa2c698de0c64cc37ca313876a59a7e164b9d3",
+      "supplied_text_sha256": "588c9d41bb10abf305b593a979fa2c698de0c64cc37ca313876a59a7e164b9d3",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-rough-reading/chapters-32-32.json",
+      "sha256": "d7cf286d9bb1893d290db6f761e49caa52b94bf710a79330d83de1e5df5ae011",
+      "supplied_text_sha256": "d7cf286d9bb1893d290db6f761e49caa52b94bf710a79330d83de1e5df5ae011",
+      "representation": "complete source"
+    },
+    {
+      "path": "kontakt/books/book-02/production/2026-09-23-book02/terra-final-v3/assembled/manuscript.md",
+      "sha256": "07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4",
+      "supplied_text_sha256": "41e440c0226227d4680b1b28225337c9672642bb7644e7df87206db40227d140",
+      "representation": "explicit source excerpt or verified duplicate-field projection"
+    }
+  ]
+}

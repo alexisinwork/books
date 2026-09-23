@@ -1,0 +1,63 @@
+{
+  "source_response_sha256": "9ed56c93a7bcf5e0800863a6e0eab7183590c5c9ff1fd4d1b9a9d66858d15c32",
+  "scope": "Metadata only; raw response and prose unchanged",
+  "repairs": [
+    {
+      "kind": "syntax",
+      "before": "}]}}}",
+      "after": "}]}}",
+      "occurrences": 6,
+      "reason": "Extraneous chapter-object closing brace. Original response unchanged."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH01-SC02",
+      "before": "Файл покажу сам. Копію поки не надсилаю.",
+      "after": "Файл покажу сам. Копію поки не надсилаю",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH02-SC01",
+      "before": "Джерело сценарного рішення: Predictariat.",
+      "after": "Джерело сценарного рішення: Predictariat",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH02-SC01",
+      "before": "Саме їх і хочу розрізнити.",
+      "after": "Саме їх і хочу розрізнити",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH03-SC01",
+      "before": "Той день був мій.",
+      "after": "Той день був мій",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH03-SC01",
+      "before": "Тут не написано, чому саме ти пішов.",
+      "after": "Тут не написано, чому саме ти пішов",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH04-SC01",
+      "before": "Наш приватний вибір не був єдиним підготовленим варіантом.",
+      "after": "Наш приватний вибір не був єдиним підготовленим варіантом",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH05-SC02",
+      "before": "Поки не треба.",
+      "after": "Поки не треба",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    }
+  ],
+  "output_sha256": "bfcc91c87fbfe96b250a226377547d6a9beb5795b67c2d7ee48b291ca7cfab4c"
+}

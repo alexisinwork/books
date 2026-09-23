@@ -1,5 +1,5 @@
 {
-  "count_excluding_this_index": 8385,
+  "count_excluding_this_index": 8652,
   "scope": "Git-index delivery snapshot; unrelated unstaged and untracked work excluded.",
   "files": [
     {
@@ -1916,7 +1916,7 @@
     },
     {
       "path": "kontakt/START_HERE.md",
-      "bytes": 5187
+      "bytes": 5202
     },
     {
       "path": "kontakt/STYLE.md",
@@ -20072,7 +20072,7 @@
     },
     {
       "path": "kontakt/books/book-03/NEXT-STEP.md",
-      "bytes": 808
+      "bytes": 909
     },
     {
       "path": "kontakt/books/book-03/PRE-DRAFT-LOCK.md",
@@ -20136,7 +20136,7 @@
     },
     {
       "path": "kontakt/books/book-03/book.json",
-      "bytes": 2069
+      "bytes": 2327
     },
     {
       "path": "kontakt/books/book-03/brief.md",
@@ -20559,12 +20559,216 @@
       "bytes": 942
     },
     {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/full-checkpoint-delivery.json",
+      "bytes": 61992
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/full-gate-before/NEXT-STEP.md",
+      "bytes": 808
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/full-gate-before/START_HERE.md",
+      "bytes": 5187
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/full-gate-before/book.json",
+      "bytes": 2069
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/full-gate-before/progress.json",
+      "bytes": 1430
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/full-gate-before/session.md",
+      "bytes": 808
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/coverage-validation.json",
+      "bytes": 4394
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/packets/gemini_flash/input.ndjson",
+      "bytes": 244507
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/packets/gemini_flash/packet.json",
+      "bytes": 1531
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/packets/gemini_pro/input.ndjson",
+      "bytes": 244499
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/packets/gemini_pro/packet.json",
+      "bytes": 1527
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/packets/opus/input.ndjson",
+      "bytes": 244519
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/packets/opus/packet.json",
+      "bytes": 1526
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/packets/terra/packet.json",
+      "bytes": 3514
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/packets/terra/prompt.md",
+      "bytes": 228479
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/REPORT.md",
+      "bytes": 29391
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/input.ndjson",
+      "bytes": 244507
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/invocation.json",
+      "bytes": 4966
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/packet.json",
+      "bytes": 1531
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/runner.py",
+      "bytes": 5096
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/stdout.ndjson",
+      "bytes": 633737
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/turn-001.md",
+      "bytes": 19412
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/turn-002.md",
+      "bytes": 19378
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/turn-003.md",
+      "bytes": 16885
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_flash/turn-004.md",
+      "bytes": 29391
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/REPORT.md",
+      "bytes": 11870
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/input.ndjson",
+      "bytes": 244499
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/invocation.json",
+      "bytes": 4972
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/packet.json",
+      "bytes": 1527
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/runner.py",
+      "bytes": 5096
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/stdout.ndjson",
+      "bytes": 435772
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/turn-001.md",
+      "bytes": 9637
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/turn-002.md",
+      "bytes": 9085
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/turn-003.md",
+      "bytes": 8537
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/gemini_pro/turn-004.md",
+      "bytes": 11870
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/opus/coordinator-stop-record.json",
+      "bytes": 805
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/opus/input.ndjson",
+      "bytes": 244519
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/opus/invocation.json",
+      "bytes": 3109
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/opus/packet.json",
+      "bytes": 1526
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/opus/runner.py",
+      "bytes": 5096
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/opus/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/opus/stdout.ndjson",
+      "bytes": 2723
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/terra/REPORT.md",
+      "bytes": 10990
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/terra/invocation.json",
+      "bytes": 1308
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/terra/prompt.md",
+      "bytes": 228479
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/terra/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/results/terra/stdout.jsonl",
+      "bytes": 11382
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/run-before-lock.json",
+      "bytes": 1847
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/literary-v1/run.json",
+      "bytes": 2695
+    },
+    {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/preflight-checks.json",
       "bytes": 1363
     },
     {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/progress.json",
-      "bytes": 1430
+      "bytes": 1642
     },
     {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/review-prompts/literary-neutral.md",
@@ -20673,6 +20877,54 @@
     {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/root-structure-gate.json",
       "bytes": 5855
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-terra-reading/chapters-01-02.json",
+      "bytes": 1454
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-terra-reading/chapters-03-04.json",
+      "bytes": 1533
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-terra-reading/chapters-05-06.json",
+      "bytes": 1474
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-terra-reading/chapters-07-09.json",
+      "bytes": 1872
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-terra-reading/chapters-10-12.json",
+      "bytes": 1965
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-terra-reading/chapters-13-15.json",
+      "bytes": 1872
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-terra-reading/chapters-16-18.json",
+      "bytes": 1976
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-terra-reading/chapters-19-21.json",
+      "bytes": 1835
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-terra-reading/chapters-22-24.json",
+      "bytes": 2051
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-terra-reading/chapters-25-27.json",
+      "bytes": 2028
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-terra-reading/chapters-28-30.json",
+      "bytes": 2123
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/root-terra-reading/chapters-31-32.json",
+      "bytes": 1578
     },
     {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/rough-checkpoint-delivery.json",
@@ -20799,12 +21051,816 @@
       "bytes": 7421
     },
     {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-language-qa.json",
+      "bytes": 1104
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-naturalness-resolutions.json",
+      "bytes": 689
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-naturalness-reviewed.json",
+      "bytes": 2186
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-naturalness.json",
+      "bytes": 1751
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1-technical-verification.json",
+      "bytes": 1037
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/assembled/assembly.json",
+      "bytes": 14152
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/assembled/manuscript.md",
+      "bytes": 209445
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/authoring-completion.json",
+      "bytes": 774
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-01.md",
+      "bytes": 13279
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-02.md",
+      "bytes": 8585
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-03.md",
+      "bytes": 12559
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-04.md",
+      "bytes": 8743
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-05.md",
+      "bytes": 13948
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-06.md",
+      "bytes": 8290
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-07.md",
+      "bytes": 8742
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-08.md",
+      "bytes": 7140
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-09.md",
+      "bytes": 5702
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-10.md",
+      "bytes": 5968
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-11.md",
+      "bytes": 7527
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-12.md",
+      "bytes": 5684
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-13.md",
+      "bytes": 5845
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-14.md",
+      "bytes": 4927
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-15.md",
+      "bytes": 3188
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-16.md",
+      "bytes": 5158
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-17.md",
+      "bytes": 3731
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-18.md",
+      "bytes": 5269
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-19.md",
+      "bytes": 5564
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-20.md",
+      "bytes": 5059
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-21.md",
+      "bytes": 7838
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-22.md",
+      "bytes": 3985
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-23.md",
+      "bytes": 4741
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-24.md",
+      "bytes": 4435
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-25.md",
+      "bytes": 4306
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-26.md",
+      "bytes": 3768
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-27.md",
+      "bytes": 3960
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-28.md",
+      "bytes": 3483
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-29.md",
+      "bytes": 5389
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-30.md",
+      "bytes": 4364
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-31.md",
+      "bytes": 8539
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/chapters/chapter-32.md",
+      "bytes": 9698
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/manifest.json",
+      "bytes": 14552
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/observed-state.json",
+      "bytes": 66522
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/packets/chapters-01-06/packet.json",
+      "bytes": 21884
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/packets/chapters-01-06/prompt.md",
+      "bytes": 868740
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/packets/chapters-07-12/packet.json",
+      "bytes": 22915
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/packets/chapters-07-12/prompt.md",
+      "bytes": 907719
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/packets/chapters-13-18/packet.json",
+      "bytes": 23262
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/packets/chapters-13-18/prompt.md",
+      "bytes": 914411
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/packets/chapters-19-24/packet.json",
+      "bytes": 25328
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/packets/chapters-19-24/prompt.md",
+      "bytes": 936602
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/packets/chapters-25-30/packet.json",
+      "bytes": 26362
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/packets/chapters-25-30/prompt.md",
+      "bytes": 955108
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/packets/chapters-31-32/packet.json",
+      "bytes": 27396
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/packets/chapters-31-32/prompt.md",
+      "bytes": 973024
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/progress.json",
+      "bytes": 347
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/proposals.json",
+      "bytes": 6919
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/rough-to-full.diff",
+      "bytes": 407052
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-01-06/METADATA-REPAIR.json",
+      "bytes": 2602
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-01-06/RESPONSE.md",
+      "bytes": 77189
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-01-06/STATE-REPAIRED.json",
+      "bytes": 14169
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-01-06/invocation.json",
+      "bytes": 1285
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-01-06/prompt.md",
+      "bytes": 868740
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-01-06/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-01-06/stdout.jsonl",
+      "bytes": 78812
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-07-12/METADATA-REPAIR.json",
+      "bytes": 1120
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-07-12/QUOTE-MAP.json",
+      "bytes": 202
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-07-12/RESPONSE.md",
+      "bytes": 52672
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-07-12/STATE-REPAIRED.json",
+      "bytes": 13782
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-07-12/invocation.json",
+      "bytes": 1285
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-07-12/prompt.md",
+      "bytes": 907719
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-07-12/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-07-12/stdout.jsonl",
+      "bytes": 53945
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-13-18/METADATA-REPAIR.json",
+      "bytes": 1002
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-13-18/RESPONSE.md",
+      "bytes": 40194
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-13-18/STATE-REPAIRED.json",
+      "bytes": 14195
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-13-18/invocation.json",
+      "bytes": 1284
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-13-18/prompt.md",
+      "bytes": 914411
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-13-18/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-13-18/stdout.jsonl",
+      "bytes": 41268
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-19-24/METADATA-REPAIR.json",
+      "bytes": 848
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-19-24/RESPONSE.md",
+      "bytes": 41739
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-19-24/STATE-REPAIRED.json",
+      "bytes": 11909
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-19-24/invocation.json",
+      "bytes": 1284
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-19-24/prompt.md",
+      "bytes": 936602
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-19-24/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-19-24/stdout.jsonl",
+      "bytes": 42933
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-25-30/METADATA-REPAIR.json",
+      "bytes": 1376
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-25-30/QUOTE-MAP.json",
+      "bytes": 166
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-25-30/RESPONSE.md",
+      "bytes": 34386
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-25-30/STATE-REPAIRED.json",
+      "bytes": 10880
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-25-30/invocation.json",
+      "bytes": 1284
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-25-30/prompt.md",
+      "bytes": 955108
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-25-30/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-25-30/stdout.jsonl",
+      "bytes": 35434
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-31-32/METADATA-REPAIR.json",
+      "bytes": 595
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-31-32/RESPONSE.md",
+      "bytes": 23973
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-31-32/STATE-REPAIRED.json",
+      "bytes": 6360
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-31-32/invocation.json",
+      "bytes": 1283
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-31-32/prompt.md",
+      "bytes": 973024
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-31-32/stderr.txt",
+      "bytes": 0
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/runs/chapters-31-32/stdout.jsonl",
+      "bytes": 24681
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/states/chapters-01-06.json",
+      "bytes": 15789
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/states/chapters-07-12.json",
+      "bytes": 15399
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/states/chapters-13-18.json",
+      "bytes": 15812
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/states/chapters-19-24.json",
+      "bytes": 13526
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/states/chapters-25-30.json",
+      "bytes": 12497
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/states/chapters-31-32.json",
+      "bytes": 7141
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/anchors.json",
+      "bytes": 471820
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/manuscript.md",
+      "bytes": 209445
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/docx-check.json",
+      "bytes": 332
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/docx-extracted.txt",
+      "bytes": 209381
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/contact-001.png",
+      "bytes": 243105
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/contact-002.png",
+      "bytes": 271814
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/contact-003.png",
+      "bytes": 208028
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/contact-004.png",
+      "bytes": 226508
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/contact-005.png",
+      "bytes": 219332
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/contact-006.png",
+      "bytes": 187285
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/contact-007.png",
+      "bytes": 210429
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/contact-008.png",
+      "bytes": 170677
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/contact-009.png",
+      "bytes": 162471
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/contact-010.png",
+      "bytes": 182117
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/contact-011.png",
+      "bytes": 206517
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/contact-012.png",
+      "bytes": 122206
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-01.png",
+      "bytes": 81403
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-02.png",
+      "bytes": 80912
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-03.png",
+      "bytes": 90741
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-04.png",
+      "bytes": 47405
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-05.png",
+      "bytes": 97523
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-06.png",
+      "bytes": 77644
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-07.png",
+      "bytes": 87257
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-08.png",
+      "bytes": 91377
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-09.png",
+      "bytes": 89859
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-10.png",
+      "bytes": 96532
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-11.png",
+      "bytes": 80564
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-12.png",
+      "bytes": 86179
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-13.png",
+      "bytes": 96638
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-14.png",
+      "bytes": 96264
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-15.png",
+      "bytes": 21421
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-16.png",
+      "bytes": 73661
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-17.png",
+      "bytes": 95084
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-18.png",
+      "bytes": 13662
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-19.png",
+      "bytes": 87554
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-20.png",
+      "bytes": 86726
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-21.png",
+      "bytes": 23096
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-22.png",
+      "bytes": 85400
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-23.png",
+      "bytes": 70603
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-24.png",
+      "bytes": 85354
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-25.png",
+      "bytes": 39540
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-26.png",
+      "bytes": 83012
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-27.png",
+      "bytes": 53408
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-28.png",
+      "bytes": 90993
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-29.png",
+      "bytes": 71101
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-30.png",
+      "bytes": 84196
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-31.png",
+      "bytes": 44697
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-32.png",
+      "bytes": 81462
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-33.png",
+      "bytes": 48316
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-34.png",
+      "bytes": 92578
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-35.png",
+      "bytes": 14584
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-36.png",
+      "bytes": 69219
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-37.png",
+      "bytes": 72870
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-38.png",
+      "bytes": 46395
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-39.png",
+      "bytes": 78042
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-40.png",
+      "bytes": 95593
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-41.png",
+      "bytes": 15272
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-42.png",
+      "bytes": 90406
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-43.png",
+      "bytes": 30578
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-44.png",
+      "bytes": 90381
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-45.png",
+      "bytes": 20966
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-46.png",
+      "bytes": 85654
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-47.png",
+      "bytes": 78597
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-48.png",
+      "bytes": 11158
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-49.png",
+      "bytes": 76115
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-50.png",
+      "bytes": 23026
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-51.png",
+      "bytes": 79089
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-52.png",
+      "bytes": 35106
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-53.png",
+      "bytes": 68333
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-54.png",
+      "bytes": 41368
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-55.png",
+      "bytes": 84546
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-56.png",
+      "bytes": 12238
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-57.png",
+      "bytes": 84063
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-58.png",
+      "bytes": 85902
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-59.png",
+      "bytes": 71408
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-60.png",
+      "bytes": 14528
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-61.png",
+      "bytes": 87831
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-62.png",
+      "bytes": 32514
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-63.png",
+      "bytes": 78662
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-64.png",
+      "bytes": 25293
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-65.png",
+      "bytes": 84009
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-66.png",
+      "bytes": 87301
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-67.png",
+      "bytes": 13979
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-68.png",
+      "bytes": 90758
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-69.png",
+      "bytes": 80060
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/page-70.png",
+      "bytes": 39484
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/pdf-extracted.txt",
+      "bytes": 208561
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/preview-text.txt",
+      "bytes": 209380
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/preview.pdf",
+      "bytes": 344321
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/render-check.json",
+      "bytes": 8233
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/render/renderer.json",
+      "bytes": 196
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/reader/Контакт — том 3 — робочий текст Terra 2026-09-23.docx",
+      "bytes": 94972
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/render-check-output.json",
+      "bytes": 10990
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-reader/visual-review.json",
+      "bytes": 626
+    },
+    {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/tool-provenance.json",
       "bytes": 3821
     },
     {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/tools-syntax-check.json",
-      "bytes": 3178
+      "bytes": 3754
     },
     {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/tools/assemble-working-volume.py",
@@ -20815,12 +21871,24 @@
       "bytes": 4203
     },
     {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/tools/freeze-terra-full.py",
+      "bytes": 5824
+    },
+    {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/tools/import-final-revision.py",
       "bytes": 4657
     },
     {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/tools/import-terra-block.py",
       "bytes": 4721
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/tools/init-literary-run.py",
+      "bytes": 2411
+    },
+    {
+      "path": "kontakt/books/book-03/production/2026-09-23-book03/tools/lock-literary-inputs.py",
+      "bytes": 7608
     },
     {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/tools/prepare-final-packet.py",
@@ -20832,7 +21900,7 @@
     },
     {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/tools/prepare-terra-writing.py",
-      "bytes": 10644
+      "bytes": 11092
     },
     {
       "path": "kontakt/books/book-03/production/2026-09-23-book03/tools/record-reading.py",
@@ -20904,7 +21972,7 @@
     },
     {
       "path": "kontakt/books/book-03/session.md",
-      "bytes": 808
+      "bytes": 909
     },
     {
       "path": "kontakt/books/book-03/timeline.json",

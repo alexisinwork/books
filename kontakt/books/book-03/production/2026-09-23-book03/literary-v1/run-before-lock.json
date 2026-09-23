@@ -1,0 +1,53 @@
+{
+  "schema_version": "author-workflow-2026-09-23",
+  "run_id": "book03-literary-v1",
+  "project_id": "kontakt",
+  "book_id": "book-03",
+  "language": "uk",
+  "status": "independent_reviews_running",
+  "source": {
+    "path": "kontakt/books/book-03/production/2026-09-23-book03/terra-full-v1/assembled/manuscript.md",
+    "sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
+    "chapters": 32,
+    "blocks": 1540
+  },
+  "required_diagnoses": [
+    "terra",
+    "gemini_flash",
+    "gemini_pro",
+    "opus"
+  ],
+  "effective_locked_diagnoses": [],
+  "review_policy_basis": "Explicit author workflow: isolated Terra + agy Flash + agy Pro + Opus attempt. Author permits unavailable Opus to be skipped with actual evidence. Astra later reconciliation is nonblind, not a fabricated fourth independent diagnosis.",
+  "reports": {
+    "terra": {
+      "role": "terra",
+      "file": "results/terra/REPORT.md",
+      "status": "pending_execution_and_coverage_validation"
+    },
+    "gemini_flash": {
+      "role": "gemini_flash",
+      "file": "results/gemini_flash/REPORT.md",
+      "status": "pending_execution_and_coverage_validation"
+    },
+    "gemini_pro": {
+      "role": "gemini_pro",
+      "file": "results/gemini_pro/REPORT.md",
+      "status": "pending_execution_and_coverage_validation"
+    },
+    "opus": {
+      "role": "opus",
+      "file": "results/opus/REPORT.md",
+      "status": "pending_execution_and_coverage_validation"
+    }
+  },
+  "exceptions": [],
+  "reconciliation": {
+    "path": "../reconciliation-v1/reconciliation.md",
+    "status": "not_started"
+  },
+  "issue_ledger": "../reconciliation-v1/issue-ledger.json",
+  "patch_plan": "../reconciliation-v1/PATCH-PLAN.json",
+  "individual_author_decisions": "pending; separate bulk compatible implementation authorized",
+  "legacy_cli_compatible": false
+}

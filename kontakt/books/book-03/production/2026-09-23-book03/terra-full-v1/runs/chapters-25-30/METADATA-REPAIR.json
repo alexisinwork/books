@@ -1,0 +1,35 @@
+{
+  "source_response_sha256": "54f2b1805589a4d6bec83cc641a7f520dbfc9dadb550b70adfeb14c6eda09d70",
+  "scope": "Metadata only; raw response and prose unchanged",
+  "repairs": [
+    {
+      "kind": "syntax",
+      "before": "}]}}}",
+      "after": "}]}}",
+      "occurrences": 6,
+      "reason": "Extraneous chapter-object closing brace. Original response unchanged."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH27-SC01",
+      "before": "Я не знаю, що було далі.",
+      "after": "Я не знаю, що було далі",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH28-SC01",
+      "before": "Хочу ще раз почути умови рейсу.",
+      "after": "Хочу ще раз почути умови рейсу",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH29-SC01",
+      "before": "Сумку потримай, я затягну ремінь.",
+      "after": "— Сумку потримай, — сказав він. — Я затягну ремінь.",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    }
+  ],
+  "output_sha256": "58fcdfe663150bb64675aeccfa8fda37f5ad5f6cde495bd9d81608d173833366"
+}

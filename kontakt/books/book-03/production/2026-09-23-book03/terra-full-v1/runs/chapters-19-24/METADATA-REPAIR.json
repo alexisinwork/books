@@ -1,0 +1,21 @@
+{
+  "source_response_sha256": "3c4dc02f21691076df15437e02d7301d2b04d7e71e7e7e560f13277c6339df90",
+  "scope": "Metadata only; raw response and prose unchanged",
+  "repairs": [
+    {
+      "kind": "syntax",
+      "before": "}]}}}",
+      "after": "}]}}",
+      "occurrences": 6,
+      "reason": "Extraneous chapter-object closing brace. Original response unchanged."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH20-SC01",
+      "before": "На завтра не продовжувати. Збереженого списку досить.",
+      "after": "На завтра не продовжувати. Збереженого списку досить",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    }
+  ],
+  "output_sha256": "136f06bafca728085ff1b3b6b0830badc5775392ef0bb6a12aae27d051463a28"
+}

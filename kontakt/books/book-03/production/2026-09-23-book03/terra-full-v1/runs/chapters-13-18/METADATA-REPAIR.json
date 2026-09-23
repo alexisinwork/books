@@ -1,0 +1,28 @@
+{
+  "source_response_sha256": "489322f48981bd3cf74fa0bcda1b044ac29008cfa2812667e2cb6bcf2bc02e2f",
+  "scope": "Metadata only; raw response and prose unchanged",
+  "repairs": [
+    {
+      "kind": "syntax",
+      "before": "}]}}}",
+      "after": "}]}}",
+      "occurrences": 6,
+      "reason": "Extraneous chapter-object closing brace. Original response unchanged."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH14-SC01",
+      "before": "Я підтвердив.",
+      "after": "Я підтвердив",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    },
+    {
+      "kind": "quote",
+      "scene": "B03-CH14-SC02",
+      "before": "Вони весь час починають заново.",
+      "after": "Вони весь час починають заново",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    }
+  ],
+  "output_sha256": "d710780f936ebaf0ad319339a37deb4e74506a59c9b082f1927c6abaf73eaae0"
+}

@@ -1,0 +1,57 @@
+{
+  "source_sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
+  "reports": {
+    "terra": {
+      "source_sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
+      "report_sha256": "97775d67db3286691e24deaa03dec4fed4a5f9c373f12af139caf90ad5de8bd8",
+      "coordinator_reading": "Complete final report read; for both Gemini all three part reports also read.",
+      "status": "accepted_as_editorial_input_with_limits",
+      "actual_backend": "not independently attested",
+      "coverage": "Report claims all P00001-P01540 with exact last paragraph; grouped chapter table has off-by-one chapter boundaries. Full source supplied; no tool use or compaction event observed.",
+      "anchor_limits": "Quote Nabraw vidmovu attributed to P00416 is in P00417; source text must be rebound, not report mutated.",
+      "interpretation_limits": "Claim that less support is not established conflates proved allocation difference with unproved human value. Earlier professional-status foreshadow suggestion is not an established cause."
+    },
+    "gemini_flash": {
+      "source_sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
+      "report_sha256": "e8da3404a5dcd6e81b0424e2b41c13bead511ebaa5b64edb15e1ba7a4be7c4a2",
+      "coordinator_reading": "Complete final report read; for both Gemini all three part reports also read.",
+      "status": "accepted_as_editorial_input_with_limits",
+      "actual_backend": "not independently attested",
+      "coverage": "All three full target ranges delivered and separately reported read, plus final report through P01540. Chapter labels and some anchor boundaries drift; source anchors take precedence.",
+      "context_checkpoints": [],
+      "compaction_limit": "No checkpoint event observed; final report claims no lost or compressed text.",
+      "interpretation_limits": [
+        "CH13 is Monday, not Tuesday. Nine calendar dates are not nine elapsed24h days.",
+        "No onward freight ride was taken; no fixed19 return or forced overnight established.",
+        "Ballast does not sever all human ties; ordinary exchanges and deliberate optional choices remain.",
+        "Municipality/class causation and human-value formula are not established by budget difference. Osya is adult.",
+        "Renata is inherited Book2 figure, not proved draft relic. Part1 guess that Ballast is human is superseded.",
+        "Do not claim normative dictionary verification; quoted replacements can alter meaning, especially final unopened pages."
+      ]
+    },
+    "gemini_pro": {
+      "source_sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
+      "report_sha256": "5845da1d48ff7852d38f38afad1c53900643854c3e7520234a9c74f99eb2108d",
+      "coordinator_reading": "Complete final report read; for both Gemini all three part reports also read.",
+      "status": "accepted_as_editorial_input_with_limits",
+      "actual_backend": "not independently attested",
+      "coverage": "All three full target ranges delivered and separately reported read, plus final report through P01540. Chapter labels and some anchor boundaries drift; source anchors take precedence.",
+      "context_checkpoints": [
+        {
+          "step_index": 3,
+          "completed_result_events_before_checkpoint": 1
+        }
+      ],
+      "compaction_limit": "Checkpoint observed; final report does not adequately disclose compressed earlier context. Per-part reports are preserved and must also be reconciled.",
+      "interpretation_limits": [
+        "Whole plot is Friday to following Saturday, not Thursday to Monday; historical timestamp windows are separate.",
+        "Cart17 return and morning container acceptance are different deadlines; do not merge them.",
+        "Absolute lexical claims about peresadnyi, vidkhylyvsia, shchabli lack dictionary verification; evaluate context.",
+        "Do not turn intentional verbal humour into invented Russian-source calque.",
+        "Return-container task scope is not automatically an established extra pay or time promise.",
+        "Dal chosen reading limit is not factual capitulation to an omniscient machine."
+      ]
+    }
+  },
+  "limits": "Input delivery and model assertions are not independent proof of perfect reading or literary quality. Reports immutable; all proposed changes require source-bound reconciliation."
+}

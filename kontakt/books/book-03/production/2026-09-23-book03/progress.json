@@ -20,18 +20,21 @@
     {
       "phase": "all_full_chapters",
       "actor": "Terra",
-      "status": "in_progress",
-      "path": "terra-full-v1/progress.json"
+      "status": "complete",
+      "path": "terra-full-v1/progress.json",
+      "source_sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
+      "gate": "terra-full-v1-technical-verification.json"
     },
     {
       "phase": "independent_literary_reviews",
       "actor": "Fresh Terra; agy Gemini3.8Flash, Gemini3.1Pro, Opus if available",
-      "status": "not_started"
+      "status": "complete_with_documented_opus_exception",
+      "run": "literary-v1/run.json"
     },
     {
       "phase": "reconciliation_and_full_check",
       "actor": "Astra",
-      "status": "not_started"
+      "status": "in_progress"
     },
     {
       "phase": "final_compatible_revision",

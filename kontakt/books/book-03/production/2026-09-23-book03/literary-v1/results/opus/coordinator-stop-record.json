@@ -1,0 +1,13 @@
+{
+  "status": "stopped_after_repeated_error_events_without_report",
+  "source_sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
+  "requested_model": "claude-opus-4-6-thinking",
+  "client": "agy",
+  "observed_error_steps": 4,
+  "result_events": 0,
+  "reading_established": false,
+  "token_use": "not established by returned stream",
+  "action": "After inspecting process12792 and its only agy child5116 with exact requested model, stopped only child5116. Runner finalized preserved stdout, stderr and invocation.",
+  "reason_limit": "Stream exposes error_message step types but no diagnostic reason; do not invent quota or invalid-selection cause from a prior run.",
+  "author_basis": "Explicit permission to skip unavailable Opus, preserved in WORKFLOW-2026-09-23-BOOK03.md."
+}

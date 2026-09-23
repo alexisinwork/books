@@ -1,0 +1,44 @@
+{
+  "status": "prepared_not_executed",
+  "client": "agy",
+  "role": "gemini_flash",
+  "requested_model": "gemini-3.8-flash-high",
+  "review_mode": "literary_editor",
+  "scope": "volume",
+  "through_chapter": 32,
+  "target": "kontakt\\books\\book-03\\production\\2026-09-23-book03\\terra-full-v1\\assembled\\manuscript.md",
+  "target_sha256": "ab11580a6c9adcaa9a3af4696a4466979e38f6e138633e5230f802d675ff1c6b",
+  "paragraphs": 1540,
+  "parts": [
+    {
+      "part": 1,
+      "first_paragraph": 1,
+      "last_paragraph": 556,
+      "paragraphs": 556,
+      "message_sha256": "c1facd11c864c1a269eb76628919fc4ffaa270aaedc6829fbfcd3f1901d716a3",
+      "message_bytes": 88686
+    },
+    {
+      "part": 2,
+      "first_paragraph": 557,
+      "last_paragraph": 1140,
+      "paragraphs": 584,
+      "message_sha256": "466396328c4c1e133fe25349642a1f71855c377fce9211a84607c9576d22244a",
+      "message_bytes": 88877
+    },
+    {
+      "part": 3,
+      "first_paragraph": 1141,
+      "last_paragraph": 1540,
+      "paragraphs": 400,
+      "message_sha256": "fb5572730053bf0ef0f7d8be167cd4a56f38ceb12341620ba28f5289a636cd39",
+      "message_bytes": 57413
+    }
+  ],
+  "input_events": 4,
+  "expected_result_events": 4,
+  "input_sha256": "ec720c65311e53aa806df00a086110832f541f7e1a0512879d3be50b927d5b8a",
+  "prompt_sha256": "84eb8c46500ab8168ceca585b208953f188ff74ef61fd3b089c9ca7f1723d948",
+  "references": [],
+  "validation": "All paragraphs included once in original order; each text part below125000bytes; not evidence of model reading"
+}
