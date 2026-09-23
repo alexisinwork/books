@@ -1,23 +1,5 @@
-# NEXT STEP — book 03
+# Наступна дія — том 3
 
-Сейчас том 3 не chapterized и не написан.
+Поточна фаза: Astra пише всі 32 первинні глави у production/2026-09-23-book03/astra-rough-v1. Повна архітектура 32 глав / 41 сцена пройшла root-structure-gate.json. Після завершення й перевірки всіх rough-глав — повний текст Terra, незалежна редактура, звірка Astra, остаточна правка Terra та заключна перевірка.
 
-Готово:
-- S01–S12 macro architecture;
-- Predictariat mechanics;
-- bounded deviation;
-- Osya independent arc;
-- Lotz opponent logic;
-- Taras boundaries;
-- Ballast backslide;
-- R2→R3;
-- knowledge/promises/timeline/motifs/end-state;
-- prompts 00–08.
-
-Следующий исполнитель:
-1. начинает только с S01;
-2. COMMAND 01;
-3. COMMAND 02;
-4. COMMAND 03;
-5. после PASS — одна глава;
-6. завершить S01 полностью и только затем S02.
+Старе обмеження лише S01 збережене в bootstrap-before і замінене підтвердженим авторським порядком. Вісім обмежених невідомих зареєстровано в audit/issues.json без вигаданих відповідей.

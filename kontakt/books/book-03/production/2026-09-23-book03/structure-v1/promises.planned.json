@@ -1,0 +1,157 @@
+{
+  "status": "planned_not_observed",
+  "items": [
+    {
+      "id": "P01",
+      "promise": "Как Лад подготовился к Нулевым суткам заранее?",
+      "setup_chapters": [
+        1,
+        2,
+        3
+      ],
+      "payoff_chapters": [
+        4,
+        5
+      ],
+      "meaning": "вероятностное multi-node contingency",
+      "cost": "вопрос смещается к тому, насколько широко моделируют людей",
+      "closure": "planned_book3",
+      "guard": "P06 question is Osya interpretation, not established stagedrebellion."
+    },
+    {
+      "id": "P02",
+      "promise": "Можно ли Осе сделать непредсказуемый выбор?",
+      "setup_chapters": [
+        3,
+        6,
+        8,
+        10
+      ],
+      "payoff_chapters": [
+        28,
+        29,
+        30
+      ],
+      "meaning": "свобода не требует непредсказуемости",
+      "cost": "Ося теряет identity 'я = отклонение'",
+      "closure": "planned_book3",
+      "guard": "P06 question is Osya interpretation, not established stagedrebellion."
+    },
+    {
+      "id": "P03",
+      "promise": "Predictariat действительно знает будущее?",
+      "setup_chapters": [
+        3,
+        5
+      ],
+      "payoff_chapters": [
+        6,
+        7,
+        11,
+        12,
+        13
+      ],
+      "meaning": "вероятности + interventions + limits",
+      "cost": "контроль становится менее магическим и более повседневным",
+      "closure": "planned_book3",
+      "guard": "P06 question is Osya interpretation, not established stagedrebellion."
+    },
+    {
+      "id": "P04",
+      "promise": "Что в файле Даля?",
+      "setup_chapters": [
+        5
+      ],
+      "payoff_chapters": [
+        14,
+        15,
+        26,
+        27
+      ],
+      "meaning": "ветки, а не судьба; отказ тоже вероятен",
+      "cost": "он теряет комфортную идентичность исключения",
+      "closure": "planned_book3",
+      "guard": "P06 question is Osya interpretation, not established stagedrebellion."
+    },
+    {
+      "id": "P05",
+      "promise": "Балласт способен сделать жизнь реально легче?",
+      "setup_chapters": [
+        15,
+        16
+      ],
+      "payoff_chapters": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "meaning": "да, оптимальный день действительно лучше по многим метрикам",
+      "cost": "покой становится настоящим соблазном",
+      "closure": "planned_book3",
+      "guard": "P06 question is Osya interpretation, not established stagedrebellion."
+    },
+    {
+      "id": "P06",
+      "promise": "Кто инсценировал Осин бунт?",
+      "setup_chapters": [
+        3,
+        10,
+        11
+      ],
+      "payoff_chapters": [
+        21,
+        22
+      ],
+      "meaning": "никто; bounded deviation — choice architecture",
+      "cost": "нет удобного злодея, против которого можно вернуть себе невиновность",
+      "closure": "planned_book3",
+      "guard": "P06 question is Osya interpretation, not established stagedrebellion."
+    },
+    {
+      "id": "P07",
+      "promise": "Что такое R3 Авторство?",
+      "setup_chapters": [
+        8,
+        10,
+        24
+      ],
+      "payoff_chapters": [
+        27,
+        28,
+        29
+      ],
+      "meaning": "присвоить решение, даже если оно predicted",
+      "cost": "нести последствия без метафизической гарантии свободы",
+      "closure": "planned_book3",
+      "guard": "P06 question is Osya interpretation, not established stagedrebellion."
+    },
+    {
+      "id": "P08",
+      "promise": "Почему одним людям система помогает удержаться сильнее, чем другим?",
+      "setup_chapters": [
+        31,
+        32
+      ],
+      "payoff_chapters": [],
+      "meaning": "book4",
+      "cost": "новый вопрос ценности/полезности",
+      "closure": "unresolvedBook4",
+      "guard": "P06 question is Osya interpretation, not established stagedrebellion."
+    }
+  ],
+  "additional": [
+    {
+      "id": "C02",
+      "setup": "Book2CH34/36",
+      "payoff": "Book3CH01 walkactuallyhappens beforecase",
+      "later": "CH16boundary/CH30ordinaryfriendship"
+    },
+    {
+      "id": "WORK",
+      "setup": "CH09 actualoffer,CH16Dalshortjob",
+      "payoff": "CH18onepaidtask,CH28–29Osyaowncourierwork",
+      "limit": "no permanentjob guarantee forDal orOsya"
+    }
+  ]
+}

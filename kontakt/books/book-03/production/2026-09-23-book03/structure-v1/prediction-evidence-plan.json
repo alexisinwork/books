@@ -1,0 +1,103 @@
+{
+  "status": "proposedimplementation_notnewcanon",
+  "required_file_fields": [
+    "branch",
+    "probability_range",
+    "confidence",
+    "timestamp",
+    "version",
+    "known_interventions",
+    "uncertainty_drivers"
+  ],
+  "examples": [
+    {
+      "id": "F01",
+      "scene": "CH04",
+      "created": "Book2D3Thu16:10",
+      "target": "capacityBook2D7Mon00",
+      "horizon": "79h50 conditional<=30days",
+      "inputs": "publiccandidateoptions,technicalreadiness,loadhistory",
+      "interventions": "reserve multiplecandidatepairs",
+      "control": "operatororiginalrows,unusedreservescancelledafterchoice",
+      "limit": "notprivatechoiceforeknowledge; rankexperimentnotstaged"
+    },
+    {
+      "id": "F02",
+      "scene": "CH06–07",
+      "created": "D1Sat12",
+      "target": "D2Sun09–18",
+      "horizon": "21–30h",
+      "inputs": "Osya voluntarily disclosed recurrentroute andknownappointment",
+      "interventions": "noneaddedforthiscontrolledtest",
+      "control": "savedoldversion;coinchooseslowerbranch;place/timedetailmissretained",
+      "limit": "newversionaftermanualrouteupdate markednew"
+    },
+    {
+      "id": "F03",
+      "scene": "CH14",
+      "created": "separatehistoricalversionsbeforeeachperiod",
+      "target": "professionalexit /groupsearch /publicrole /request",
+      "horizon": "eachspecificactionlocal<=72h; broadergroupsearchconditional<=30days",
+      "inputs": "availableprofessionalstatus/actions/publicevents,notprivateNinathoughts",
+      "interventions": "onlyloggedactions;plannednotexecuted labeled",
+      "control": "versionreceipts vs actualeventtimes,failedbranchesalsoseen",
+      "limit": "notoneexactlongrangechain; professionalclosureafter18:01suspension"
+    },
+    {
+      "id": "F04",
+      "scene": "CH15→17",
+      "created": "D4Tuebeforeview",
+      "target": "delegationbyD7",
+      "horizon": "<=72hconditionalonfatigue/tests",
+      "inputs": "recentrequests,disclosedactions,existingcompanionservice",
+      "interventions": "no silentactivation",
+      "control": "visiblebeforeDalrequestsmandate; contentofdaynotforetold",
+      "limit": "probabilitynotcommand;Ballastdoesnotreadfile"
+    },
+    {
+      "id": "F05",
+      "scene": "CH21",
+      "created": "beforeOsyaearlierdeviation",
+      "target": "classoflowharmselforganizedpickup",
+      "horizon": "local<=72h,exacthistoricaldaynotinheritedfact",
+      "inputs": "stateddissatisfaction,existingopenyards",
+      "interventions": "raisedavailabilityoftwoexistingoptions",
+      "control": "executedlog+oldpublictimetable+Osyatestimony",
+      "limit": "notactors/exactspeech/createdrebelliouswish"
+    },
+    {
+      "id": "F06",
+      "scene": "CH22→28–29",
+      "created": "D6Thu12:00",
+      "target": "D8Satcourierreturn",
+      "horizon": "44hfromversiontoshift",
+      "inputs": "currentoffer,formerroute,appealactions",
+      "interventions": "existingrecommendationsdisclosed;jobnotcreatedforproof",
+      "control": "storedrowbeforejobconfirmationD7",
+      "limit": "conditionalbranch;confirmationownchoice,noguaranteeperfectshift"
+    },
+    {
+      "id": "F07",
+      "scene": "CH26→27",
+      "created": "D7Fri08:00",
+      "target": "D7Fri09–11limitedview/close",
+      "horizon": "1–3h",
+      "inputs": "D6registeredrequest andknownreadhistory",
+      "interventions": "exposuretostandardwarningitselfdisclosed",
+      "control": "receiptbeforefirstexposure;frozenoriginalnotregenerated",
+      "limit": "predictsreactiontoknownrequest,notrequestbeforeitexisted"
+    },
+    {
+      "id": "F08",
+      "scene": "CH31–32",
+      "created": "D7Fri08:00metadata",
+      "target": "D7Fri08→D10Mon08",
+      "horizon": "same72hcomparison",
+      "inputs": "sameunitdictionary,uncertaintyclass,riskclass,knowninterventionslisted",
+      "interventions": "budgetceilingversusactualspendseparate",
+      "control": "twoownerconsents,fieldlineageconfirmedbyLotz",
+      "limit": "confoundersnoteliminated;nohumanworthformula"
+    }
+  ],
+  "numeric_policy": "Use ranges with explicit target/conditions; do not confuse probability with confidence. Exact optional numbers may be proposed during rough with arithmeticcheck; no unsupported universalaccuracyclaim."
+}

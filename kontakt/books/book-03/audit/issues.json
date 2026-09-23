@@ -231,7 +231,171 @@
         "text": "Progressive sequence work; selected scoped scene cards govern opening; global macro review does not equal all chapters draft-ready.",
         "record": "../../series/preparation/2026-09-21/resolutions.json"
       },
-      "implementation_status": "source_routing_applied"
+      "implementation_status": "source_routing_applied",
+      "current_execution_override": {
+        "basis": "Explicit continuing author workflow 2026-09-23",
+        "workflow": "../../series/WORKFLOW-2026-09-23-BOOK03.md",
+        "text": "Complete structure, ALL Astra rough, then Terra full prose; historical resolution preserved."
+      }
+    },
+    {
+      "id": "KONTAKT-B03-20260923-U01",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Аварійний ключ/автоматичне відновлення виклику після давнього наміру?",
+      "evidence_limit": "У workingпрозі не встановлено отримання;CH01Book2 досі не оформлено.",
+      "proposed_change": "Не використовувати як ресурс; Ballastday не активує це.",
+      "dependencies": [
+        "B03-CH16-SC02",
+        "B03-CH17-SC01"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/decisions-and-questions.json",
+      "verification": {
+        "scope": "architecture only; no prose yet"
+      }
+    },
+    {
+      "id": "KONTAKT-B03-20260923-U02",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Неповний службовий архів згоди Майї?",
+      "evidence_limit": "Успадковане обмеженняBook1, не архів Ніни.",
+      "proposed_change": "Не дописувати відсутню згоду/причину. Не залежить від Осиного нового окремого дозволу.",
+      "dependencies": [],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/decisions-and-questions.json",
+      "verification": {
+        "scope": "architecture only; no prose yet"
+      }
+    },
+    {
+      "id": "KONTAKT-B03-20260923-U03",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Причина раннього резервуBook2?",
+      "evidence_limit": "На вході є факт і запит, не відповідь.",
+      "proposed_change": "PlannedresolutionCH04–05 через нові записи; статус не переводиться вobserved до прози.",
+      "dependencies": [
+        "B03-CH02-SC01",
+        "B03-CH04-SC01",
+        "B03-CH05-SC01"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/decisions-and-questions.json",
+      "verification": {
+        "scope": "architecture only; no prose yet"
+      }
+    },
+    {
+      "id": "KONTAKT-B03-20260923-U04",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Точний залишок грошей/постійна робота Даля?",
+      "evidence_limit": "Book2не гарантує дохід; точної суми немає.",
+      "proposed_change": "Дешеві звичайні витрати, разовий новий заробіток явно показати; не купувати дорогі права/житло/подорожі.",
+      "dependencies": [
+        "B03-CH01-SC01",
+        "B03-CH16-SC02",
+        "B03-CH18-SC01",
+        "B03-CH32-SC01"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/decisions-and-questions.json",
+      "verification": {
+        "scope": "architecture only; no prose yet"
+      }
+    },
+    {
+      "id": "KONTAKT-B03-20260923-U05",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Подальший вибір/адреса/життя Майї після однієї оплаченої ночі?",
+      "evidence_limit": "Відомі межіBook1;Book2не дав нового продовження.",
+      "proposed_change": "Немає камео заради закриття; не переноситиIDна Осю чи Іру.",
+      "dependencies": [],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/decisions-and-questions.json",
+      "verification": {
+        "scope": "architecture only; no prose yet"
+      }
+    },
+    {
+      "id": "KONTAKT-B03-20260923-B03-U01",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Формула зовнішнього interventionbudget і причини відмінностей?",
+      "evidence_limit": "Захищений вихідBook4.",
+      "proposed_change": "Два зіставлені випадки і lineage; запит без готової формули або тотожності людської вартості й числа.",
+      "dependencies": [
+        "B03-CH31-SC01",
+        "B03-CH32-SC01"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/decisions-and-questions.json",
+      "verification": {
+        "scope": "architecture only; no prose yet"
+      }
+    },
+    {
+      "id": "KONTAKT-B03-20260923-B03-U02",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Точний вік, родина, давній календар Оси й повні права його житла?",
+      "evidence_limit": "Макроплан задає молодого кур’єра, не повну біографію.",
+      "proposed_change": "Дорослість/звичайна кімната proposedD03; інші подробиці не потрібні. Не видавати нову робочу деталь за факт попереднього тому.",
+      "dependencies": [
+        "B03-CH03-SC01",
+        "B03-CH21-SC01",
+        "B03-CH25-SC01"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/decisions-and-questions.json",
+      "verification": {
+        "scope": "architecture only; no prose yet"
+      }
+    },
+    {
+      "id": "KONTAKT-B03-20260923-B03-U03",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Повні приватні входи моделей, інші втручання та чужі профілі?",
+      "evidence_limit": "Видача обмежена мандатом; вибірковий доказ не означає тотального доступу.",
+      "proposed_change": "Називати межі кожного висновку; не приписувати майбутнє чи відсутність усіх альтернатив.",
+      "dependencies": [
+        "B03-CH11-SC01",
+        "B03-CH14-SC02",
+        "B03-CH31-SC01"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-03/production/2026-09-23-book03/structure-v1/decisions-and-questions.json",
+      "verification": {
+        "scope": "architecture only; no prose yet"
+      }
     }
   ]
 }

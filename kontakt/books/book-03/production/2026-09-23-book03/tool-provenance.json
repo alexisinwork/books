@@ -1,0 +1,51 @@
+[
+  {
+    "source": "kontakt/books/book-02/production/2026-09-23-book02/tools/run-native-author.py",
+    "source_sha256": "4b4659ab11e785c5594016e774c2a49ce03e371b6e2a3b21c67499c4f694c2c1",
+    "copy": "kontakt/books/book-03/production/2026-09-23-book03/tools/run-native-author.py",
+    "copy_sha256": "e08f2fdde4b75da4909680ba598ee249deec5b669706ce8bb372c5746abddf9b",
+    "adaptation": "Desktop routing to Book3; execution/assembly semantics preserved."
+  },
+  {
+    "source": "kontakt/books/book-02/production/2026-09-23-book02/tools/assemble-working-volume.py",
+    "source_sha256": "02c4a6c7b9abfb098f6c4402928175f368f13b10cfc0890889c0771b660e7f85",
+    "copy": "kontakt/books/book-03/production/2026-09-23-book03/tools/assemble-working-volume.py",
+    "copy_sha256": "02c4a6c7b9abfb098f6c4402928175f368f13b10cfc0890889c0771b660e7f85",
+    "adaptation": "Desktop routing to Book3; execution/assembly semantics preserved."
+  },
+  {
+    "source": "kontakt/books/book-02/production/2026-09-23-book02/tools/repair-terra-state.py",
+    "source_sha256": "70e86efe4434cc3fe6a2ba34eba7d4841d0658d5c3d6a5f8f969880229605cd9",
+    "copy": "kontakt/books/book-03/production/2026-09-23-book03/tools/repair-terra-state.py",
+    "copy_sha256": "fe5e6adf4fb03471c63fc268e8b8d723d48c1e7576087e25830520295480e488",
+    "adaptation": "Desktop routing to Book3; execution/assembly semantics preserved."
+  },
+  {
+    "source": "kontakt/books/book-01/revisions/2026-09-23-integration/run-native-review.py",
+    "source_sha256": "ac23797b6d0246f1f06f257ea8c6c402beb35a13cfc59bfd6376fe60381b0836",
+    "copy": "kontakt/books/book-03/production/2026-09-23-book03/tools/run-native-review.py",
+    "copy_sha256": "f05eccb58481aef40c494c784e076bfad888da062a7cf2298126f9c191591d10",
+    "adaptation": "Desktop routing to Book3; execution/assembly semantics preserved."
+  },
+  {
+    "source": "kontakt/books/book-02/production/2026-09-23-book02/tools/import-terra-block.py",
+    "source_sha256": "599a84f0035ea28ed511efc227ed0fddb9c22130674168380b74f517a1864cf3",
+    "copy": "kontakt/books/book-03/production/2026-09-23-book03/tools/import-terra-block.py",
+    "copy_sha256": "cd7d6da8c79d6fb17de6b1d686074a4b6c44c2e7eb780d0a46246a6747d9c9a4",
+    "adaptation": "Book3 phase and Desktop routing; chapter count inferred from full structure where applicable."
+  },
+  {
+    "source": "kontakt/books/book-02/production/2026-09-23-book02/tools/prepare-native-literary.py",
+    "source_sha256": "84c60527725dff90b512b9d99f0b0891a88a262531e7a46d3e2ac1a0ff87329c",
+    "copy": "kontakt/books/book-03/production/2026-09-23-book03/tools/prepare-native-literary.py",
+    "copy_sha256": "14e192d0db9b4236a740d829ebf99621140233efa2e031dd34f2f0579d3ea9cd",
+    "adaptation": "Book3 phase and Desktop routing; chapter count inferred from full structure where applicable."
+  },
+  {
+    "source": "kontakt/books/book-02/production/2026-09-23-book02/tools/verify-complete-phase.py",
+    "source_sha256": "68c4985c0028a1ae037c58bb41a1d81c68c66c36aad0446049a23eee44a11e0b",
+    "copy": "kontakt/books/book-03/production/2026-09-23-book03/tools/verify-complete-phase.py",
+    "copy_sha256": "830406a8761b7842a3a54a213f2c39fa226cf7f23f8901803cb48ce5ade7ce6a",
+    "adaptation": "Book3 phase and Desktop routing; chapter count inferred from full structure where applicable."
+  }
+]
