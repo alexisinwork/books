@@ -234,23 +234,40 @@
       "observed_state": "drafts/2026-09-22-ch29-sol-v1/observed-state.json",
       "review_run": "audit/ensemble/ch29-20260922-sol-v1",
       "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 30,
+      "source": "drafts/2026-09-22-ch30-sol-v1/chapter-30.md",
+      "sha256": "5e9b9ef64de27efb9f15e5b8926017bec262f52660d6b9fe200d6d92745ba3d0",
+      "observed_state": "drafts/2026-09-22-ch30-sol-v1/observed-state.json",
+      "review_run": "audit/ensemble/ch30-20260922-sol-v1",
+      "status": "reviewed_working_draft_not_canonical"
     }
   ],
-  "current_chapter": 30,
-  "current_stage": "chapter_30_writer_ready",
+  "current_chapter": 31,
+  "current_stage": "astra_full_manuscript_drafting",
   "future_chapters": "macro architecture; progressively detailed before writing",
   "global_audit": "not_run",
   "last_block_review": {
-    "through_chapter": 25,
-    "report": "BLOCK-21-25-AUDIT.md",
+    "through_chapter": 30,
+    "report": "BLOCK-26-30-AUDIT.md",
     "status": "architect_review_completed_not_global_audit"
   },
-  "latest_block_audit": "block-audits/chapters-21-25/reading-progress.json",
-  "review_policy": "REVIEW-POLICY-2026-09-22.md",
+  "latest_block_audit": "block-audits/chapters-26-30/reading-progress.json",
+  "review_policy": "WORKFLOW-ASTRA-FULL-BOOK-2026-09-23.md",
   "latest_reader": {
-    "through_chapter": 25,
-    "path": "readers/chapters-01-25",
-    "status": "exact_sources_and_75page_render_verified_not_global_audit"
+    "through_chapter": 30,
+    "path": "readers/chapters-01-30",
+    "status": "exact_sources_and_88page_render_verified_not_global_audit"
   },
-  "next_handoff": "execution/HANDOFF-CH30.md"
+  "next_handoff": null,
+  "workflow": "WORKFLOW-ASTRA-FULL-BOOK-2026-09-23.md",
+  "writer": "Astra",
+  "per_chapter_external_reviews": false,
+  "next_actions": [
+    "Finish publication of existing30checkpoint without restarting its completed reviews",
+    "Astra complete and assess entire detailed manuscript against architecture",
+    "Freeze full source; four independent whole-volume literary passes:Opus/Gemini3.8Flash/Gemini3.1Pro/Terra",
+    "Reconcile all findings; Astra full reread again"
+  ]
 }

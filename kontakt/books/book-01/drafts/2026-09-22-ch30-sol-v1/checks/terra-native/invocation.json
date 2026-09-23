@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "review": "target-only Ukrainian literary and language review",
+  "reviewer": {
+    "model": "gpt-5.6-terra",
+    "client": "Codex native agent",
+    "external_model_client": null
+  },
+  "mode": {
+    "target_only": true,
+    "prose_edits": false,
+    "automated_scan": "not run; target-only scope did not permit reading a scanner script"
+  },
+  "target": {
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch30-sol-v1/chapter-30.md",
+    "sha256": "5e9b9ef64de27efb9f15e5b8926017bec262f52660d6b9fe200d6d92745ba3d0",
+    "coverage": {
+      "blank_separated_blocks": "P00001-P00046 (46/46)",
+      "physical_lines": 93,
+      "nonempty_lines": 48,
+      "unread": []
+    },
+    "exact_last_paragraph": "Мого робочого пристрою при мені не було. Він лишався в замкненій шухляді робочого стола."
+  },
+  "allowed_inputs_read": [
+    {
+      "path": "kontakt/books/book-01/execution/HANDOFF-CH30.md",
+      "sha256": "8a460364d571ff1159300bee188df760a078edcc3bc52d5074f4a6ed0118ae7a"
+    },
+    {
+      "path": "kontakt/books/book-01/voice.json",
+      "sha256": "0daed170751ea9d5c8a7f8fd4bfc06309feb62e0cb0cbb057d0f2e2202c424d7"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md",
+      "sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd"
+    },
+    {
+      "path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md",
+      "sha256": "a22dce300a430f1fef40358476aa436620d234cafb8ced1082e8e901e3dd14e5"
+    },
+    {
+      "path": ".agents/skills/book-language-review/SKILL.md",
+      "sha256": "472df890365cabebc652b868ca62ef90f66f1c8a9fcf7475947038ab4f9294cc"
+    }
+  ],
+  "notes": [
+    "The target hash was verified before review.",
+    "No prior or peer reports, ledgers, checks, notes, other prose, or handoff-linked prose were opened.",
+    "This manifest intentionally contains hashes only for actual allowed inputs; it does not claim a self-hash."
+  ]
+}

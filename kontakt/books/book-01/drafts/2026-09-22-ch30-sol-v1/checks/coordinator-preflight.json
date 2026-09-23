@@ -1,0 +1,26 @@
+{
+  "stage": "coordinator factual and handoff preflight before any diagnosis",
+  "source_sha256": "43e64b95001baa9282b4e5326587f44f54a32f7547d3f57251b20eb3d03a1525",
+  "notes_sha256": "ef460452622cfe5821d39632dbce3dcbf2641b25855efd8a1628f34b75da2c19",
+  "coverage": "Full first-save source and notes, no truncation",
+  "requests": [
+    {
+      "id": "PF30-1",
+      "quote": "Вона поставила позначку на своєму екрані й натиснула підтвердження.",
+      "problem": "Hidden screen means narrator cannot see functional label/action; retain visible gesture and verbally shared intent/result."
+    },
+    {
+      "id": "PF30-2",
+      "quote": "Я не хочу сьогодні ще однієї спільної кухні",
+      "problem": "Prior kitchen not established as shared. Human criterion may exclude sharing with strangers tonight without retroactive household canon."
+    },
+    {
+      "id": "PF30-3",
+      "quote": "Бронювання саме по собі не є заселенням.",
+      "problem": "Literal checking explanations and repeated lessons to Dal displace own practical action contrary to handoff. Show conditions/result once in natural action; booking distinct from later arrival without checklist dialogue."
+    }
+  ],
+  "status": "sent_to_writer_before_freeze",
+  "authorization": "Existing writing task and CH30 handoff; not applying peer proposals",
+  "first_save_preserved": true
+}

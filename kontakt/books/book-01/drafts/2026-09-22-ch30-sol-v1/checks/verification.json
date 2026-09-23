@@ -1,0 +1,66 @@
+{
+  "source_sha256": "5e9b9ef64de27efb9f15e5b8926017bec262f52660d6b9fe200d6d92745ba3d0",
+  "status": "required_and_optional_reviews_and_reconciliation_complete_with_pending_choices",
+  "scope": "All46blocks;93physical/48nonemptylines;431lexicaltokens; not global audit",
+  "source_unchanged_after_reviews": true,
+  "completed_reports": {
+    "astra": "d3967f2143f644fa3451ef70fc06b5967386283a43aacd17fb0cc2bac519577b",
+    "terra": "cd0ae6f07cca9b067e7ae08710e4d7c0ed0cbabc40fb4c803487734d3daad925",
+    "gemini_flash": "6f436132e91a1b94322d84d5d8fcb519b4d40f7d06ca8bfd1af6a9bfe1721901",
+    "gemini": "9686ac1ead4caeee3a171a8c2054d8aff02a5f219d288810c2951a2bcde6875b",
+    "claude": "67543fdc4b34a14a22425b2f0c9edb1610a30f1f5e3b365548e163df694c8531"
+  },
+  "optional_opus": "Actual agy invocation exit0/272.4seconds, PASS, locked additionalreport",
+  "reconciliation": "6ba7afc70d48cb46302d3737bf6de3a53706ca9041574a4bf466abbf7e13a5a3",
+  "missing_required": [],
+  "verdicts": {
+    "astra": "S10 practical action complete;6 proposals",
+    "terra": "0 confirmed language defects; exact input hashes",
+    "gemini_flash": "PASS; benchspace/localclarity proposals; stopgeography claim qualified",
+    "gemini": "Would read further; secrecy/trauma/guard are hypotheses",
+    "claude": "PASS;2 low-confidence choices; physicalreflection explanation not sourcefact"
+  },
+  "language_scans": "No configuredsignals; grammar engine notrun; fullnative reading complete",
+  "docx": {
+    "renderer": "docx-preview/Chromium; not native Word",
+    "pdf_sha256": "d0452dbd85803d9f5e853524b64be4a1a8c3a79b61d8a46c28bcd4c3d9240ba1",
+    "pages": 2,
+    "text_matches_docx_ignoring_layout_whitespace": true,
+    "page_checks": [
+      {
+        "page": 1,
+        "words": 350,
+        "out_of_bounds": 0,
+        "blank": false
+      },
+      {
+        "page": 2,
+        "words": 119,
+        "out_of_bounds": 0,
+        "blank": false
+      }
+    ],
+    "contact_sheets": [
+      {
+        "path": "contact.png",
+        "first_page": 1,
+        "last_page": 2
+      }
+    ],
+    "visual_review": "Both pages viewed in contact sheet; consistent readable layout, no clipping or blank page; page2 has119words. docx-preview/Chromium, not native Word."
+  },
+  "preflight_diff": "Exact git diff --no-index repo-relative forward-slash reconstruction PASS",
+  "preflight_diff_sha256": "337e183076e541bafcf29d6e49b1b5ddacbeeb5e5a2b7a2bad2da5b4734b337d",
+  "schema_instances": "run and ledger Draft202012Validator PASS",
+  "doctor": {
+    "books": 8,
+    "errors": [],
+    "warnings": "No selected masters expected"
+  },
+  "supporting_reading": "New full26–30 reread336blocks afterfreeze30; blockreport in production; not blind/global",
+  "remaining": [
+    "11 pending author choices",
+    "Reader1–30,CH31 onward and full-volume audit"
+  ],
+  "independence": "Root handoff/preflight disclosed, ownreport first; freshTerra; freshagypackets; peer findings not sent to writer"
+}
