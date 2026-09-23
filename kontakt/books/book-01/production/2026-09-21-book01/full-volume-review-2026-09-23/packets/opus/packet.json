@@ -1,0 +1,69 @@
+{
+  "status": "prepared_not_executed",
+  "client": "agy",
+  "role": "opus",
+  "requested_model": "claude-opus-4-6-thinking",
+  "review_mode": "literary_editor",
+  "scope": "volume",
+  "through_chapter": 33,
+  "target": "kontakt\\books\\book-01\\production\\2026-09-21-book01\\readers\\full-33-astra-v1\\manuscript.md",
+  "target_sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+  "paragraphs": 2331,
+  "parts": [
+    {
+      "part": 1,
+      "first_paragraph": 1,
+      "last_paragraph": 579,
+      "paragraphs": 579,
+      "message_sha256": "2757bd8f7b981a3eb2f28da704c5047cb7a156d95fc3cdaa5a33a1ab5b287bec",
+      "message_bytes": 96266
+    },
+    {
+      "part": 2,
+      "first_paragraph": 580,
+      "last_paragraph": 1129,
+      "paragraphs": 550,
+      "message_sha256": "b007d3e0b8e942b7a0f88145d4b7c3c447973d15e4889f4cbb5347e7765f89ff",
+      "message_bytes": 87665
+    },
+    {
+      "part": 3,
+      "first_paragraph": 1130,
+      "last_paragraph": 1622,
+      "paragraphs": 493,
+      "message_sha256": "8a10ec93d3a19d28d0d411948b3f810fd86d578d07038d5f653eb90c8cc5b265",
+      "message_bytes": 87569
+    },
+    {
+      "part": 4,
+      "first_paragraph": 1623,
+      "last_paragraph": 2204,
+      "paragraphs": 582,
+      "message_sha256": "2c96c102b67ef30201113e9faf60689859a39b560f027c74f95708c3b5389c56",
+      "message_bytes": 87561
+    },
+    {
+      "part": 5,
+      "first_paragraph": 2205,
+      "last_paragraph": 2331,
+      "paragraphs": 127,
+      "message_sha256": "cda67e69593fe514a73610724839a023456fddb0685892ebed412b240d47e739",
+      "message_bytes": 25156
+    }
+  ],
+  "input_events": 6,
+  "expected_result_events": 6,
+  "input_sha256": "abea64e823cd2cd8bdeccaff45f0836b966af8a22eecb3b06dfa85783c9b1beb",
+  "prompt_sha256": "1064aa3d816101cf9f75ed9022c2d9f1fbb92bba96f82049d10686a7684faf49",
+  "references": [
+    {
+      "path": "kontakt\\books\\book-01\\voice.json",
+      "sha256": "0daed170751ea9d5c8a7f8fd4bfc06309feb62e0cb0cbb057d0f2e2202c424d7"
+    },
+    {
+      "path": "BOOK_SYSTEM\\LANGUAGES\\uk\\STYLE.md",
+      "sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd"
+    }
+  ],
+  "validation": "All paragraphs included once in original order; each text part below125000bytes; not evidence of model reading"
+}

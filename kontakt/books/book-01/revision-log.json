@@ -696,6 +696,97 @@
         "record": "drafts/2026-09-22-ch30-sol-v1/checks/verification.json",
         "release_ready": false
       }
+    },
+    {
+      "id": "ch31-20260923-astra-v1",
+      "reason": "Author changedworkflow toAstra completewholebook before4literarypasses",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-23-ch31-astra-v1/chapter-31.md",
+        "sha256": "4c6987ff6f6e4556f282b4573f72d709d778198ac9545ef63711fcee481e8b76"
+      },
+      "observed_state": "drafts/2026-09-23-ch31-astra-v1/observed-state.json",
+      "dependencies": {
+        "planned_registers": "unchanged; observed candidates separate",
+        "master": "null,notselected",
+        "next": "whole-volume4reviews and Astra reread"
+      },
+      "verification": {
+        "scope": "ownfullchapter read and immediatecontinuity",
+        "external_reviews": "not_run_yet_wholevolumeonly",
+        "release_ready": false
+      }
+    },
+    {
+      "id": "ch32-20260923-astra-v1",
+      "reason": "Author changedworkflow toAstra completewholebook before4literarypasses",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-23-ch32-astra-v1/chapter-32.md",
+        "sha256": "e40ae115d6c2a17db3fb5cfeb8b14ddee14c92c9fafed790576fc84f26dee87c"
+      },
+      "observed_state": "drafts/2026-09-23-ch32-astra-v1/observed-state.json",
+      "dependencies": {
+        "planned_registers": "unchanged; observed candidates separate",
+        "master": "null,notselected",
+        "next": "whole-volume4reviews and Astra reread"
+      },
+      "verification": {
+        "scope": "ownfullchapter read and immediatecontinuity",
+        "external_reviews": "not_run_yet_wholevolumeonly",
+        "release_ready": false
+      }
+    },
+    {
+      "id": "ch33-20260923-astra-v1",
+      "reason": "Author changedworkflow toAstra completewholebook before4literarypasses",
+      "decision": "applied_to_draft_only",
+      "old_source": null,
+      "new_source": {
+        "path": "drafts/2026-09-23-ch33-astra-v1/chapter-33.md",
+        "sha256": "044be4fd6c07ab4f1f2b11c1633b327a13f77a73c721441623fba268819602a4"
+      },
+      "observed_state": "drafts/2026-09-23-ch33-astra-v1/observed-state.json",
+      "dependencies": {
+        "planned_registers": "unchanged; observed candidates separate",
+        "master": "null,notselected",
+        "next": "whole-volume4reviews and Astra reread"
+      },
+      "verification": {
+        "scope": "ownfullchapter read and immediatecontinuity",
+        "external_reviews": "not_run_yet_wholevolumeonly",
+        "release_ready": false
+      }
+    },
+    {
+      "id": "full33-20260923-astra-global",
+      "reason": "Complete book1 and global review under author workflow",
+      "decision": "diagnosis_only_no_prose_revision",
+      "old_source": null,
+      "new_source": {
+        "path": "production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
+        "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b"
+      },
+      "observed_state": "production/2026-09-21-book01/observed-full-volume-end-state.json",
+      "dependencies": {
+        "master": "null,notselected",
+        "author_decisions": "20ensemble+6Astra pending",
+        "opus": "partial due429 inagy andnativeClaude; authorized availability exception"
+      },
+      "verification": {
+        "chapters": 33,
+        "astra_blocks_read": 2331,
+        "unread": 0,
+        "full_external_reviews": [
+          "Terra",
+          "Gemini3.8Flash",
+          "Gemini3.1Pro"
+        ],
+        "docx_pages": 97,
+        "publication_ready": false
+      }
     }
   ]
 }

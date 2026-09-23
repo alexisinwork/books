@@ -1,0 +1,13 @@
+{
+  "status": "passed_with_document_whitespace_exceptions",
+  "integrity_report": "../full-volume-review-2026-09-23/validation/final-prepublication.json",
+  "standard_diff_check": "Reports CRLF, Markdown hard breaks, raw review blank lines and diff context whitespace; frozen source/reviews not normalized to silence warnings.",
+  "document_aware_diff_check": {
+    "command": "git -c core.whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof diff --cached --check",
+    "exit_code": 0
+  },
+  "desktop_initial_checkpoint": "full33-desktop-delivery.json",
+  "final_bundle": "C:/Users/alexi/OneDrive/Desktop/KONTAKT-BOOK01-COMPLETE-VERIFIED-2026-09-23",
+  "final_bundle_rule": "After index refresh copy EVERY staged Kontakt file plus FILES.json, assert disk==Gitindex==Desktop before commit. Final bundle is separate from immutable initial checkpoint.",
+  "scope": "Checks source/package integrity, not publication readiness. Astra editorial recommendations pending."
+}

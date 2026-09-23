@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "record_type": "posthoc_provenance_and_anchor_correction",
+  "does_not_modify": [
+    "REPORT.md",
+    "invocation.json",
+    "reading-progress.json"
+  ],
+  "correction": {
+    "field": "reviewer.model",
+    "recorded_in": "invocation.json",
+    "recorded_value": "GPT-6 Terra",
+    "actual_value": "gpt-5.6-terra",
+    "reason": "The recorded name was an unsupported assumption. The agent was launched with model=gpt-5.6-terra.",
+    "client": "Codex"
+  },
+  "report_addendum": {
+    "finding_id": "T-01",
+    "original_scope": "розділи 3–7",
+    "corrected_evidentiary_scope": "Розділ 3 (P00313–P00481) і розділ 6 (P00636–P00715). Розділ 7 продовжує наслідок тесту, але не є самостійною текстовою опорою для твердження про повтор цього механізму.",
+    "anchor_check": {
+      "P00691": "— Ви знову відповіли точніше.",
+      "status": "quote_and_anchor_confirmed",
+      "context": "Розділ 6; після тесту Майя прямо називає повернення Марка до процедурної точності."
+    },
+    "additional_direct_anchors": [
+      {
+        "anchor": "P00356",
+        "quote": "Поки що ви повторюєте те, на що я погодилася, замість того, щоб говорити зі мною.",
+        "function": "Перше пряме називання того, що Марк замінює контакт повтором процедури."
+      },
+      {
+        "anchor": "P00427",
+        "quote": "Ви підводили.",
+        "function": "Майя називає його діагностичне питання підготовкою до небажаного тесту."
+      },
+      {
+        "anchor": "P00445",
+        "quote": "Я запитала Марка Даля.",
+        "function": "Вона відокремлює особисту відповідь від професійної формули."
+      }
+    ],
+    "corrected_claim": "T-01 має опору в трьох послідовних репліках Майї в розділі 3 та в їхньому поверненні після тесту в розділі 6. Зауваження про повільніше наростання напруги є читацькою оцінкою цього повтору, а не встановленим мовним або сюжетним дефектом."
+  },
+  "prose_edited": false
+}

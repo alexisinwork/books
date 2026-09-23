@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "project_id": "kontakt-razlad",
+  "pass_id": "architecture-pass-01",
+  "status": "macro_reconciled_scoped_opening_prepared",
+  "books": [
+    {
+      "book_id": "book-01",
+      "status": "chapters_01_30_drafted_reviewed",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "chapter_01_only",
+      "master": null
+    },
+    {
+      "book_id": "book-02",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    },
+    {
+      "book_id": "book-03",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    },
+    {
+      "book_id": "book-04",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    },
+    {
+      "book_id": "book-05",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    },
+    {
+      "book_id": "book-06",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    },
+    {
+      "book_id": "book-07",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    },
+    {
+      "book_id": "book-08",
+      "status": "macro_reconciled",
+      "architecture_pass": "macro_reviewed",
+      "scene_gate": "pending",
+      "master": null
+    }
+  ],
+  "draft_gate": {
+    "open_for": [
+      "book-01/chapter-01"
+    ],
+    "all_other_chapters": "require_local_gate",
+    "prose_authoring_this_task": true
+  },
+  "current_draft": {
+    "book_id": "book-01",
+    "chapter": 30,
+    "path": "kontakt/books/book-01/drafts/2026-09-22-ch30-sol-v1/chapter-30.md",
+    "sha256": "5e9b9ef64de27efb9f15e5b8926017bec262f52660d6b9fe200d6d92745ba3d0",
+    "status": "reviewed_working_draft",
+    "whole_book_written": false,
+    "volume_progress": "books/book-01/production/2026-09-21-book01/progress.json"
+  }
+}

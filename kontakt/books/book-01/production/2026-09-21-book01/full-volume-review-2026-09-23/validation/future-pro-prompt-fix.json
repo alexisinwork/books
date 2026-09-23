@@ -1,0 +1,8 @@
+{
+  "status": "future_prompt_fix_only",
+  "path": "kontakt/books/book-01/production/2026-09-21-book01/tools/prepare-review-parts.py",
+  "sha256": "0a27999eb280d9b275db381be998371722bd157009a91b7398907a16a71227c0",
+  "change": "Apply --literary-pro to assessment and final instructions as well as role_intro. Historical prepared/input packets and reviews remain unchanged.",
+  "validation": "Syntax compiled; two remaining generic cold-reader branches now guarded by not a.literary_pro; default route unchanged.",
+  "actual_run_limitation": "Existing Pro packet retained custom full literary prompt plus generic reader wording; real report contains reader trace and literary diagnosis, see validation/pro-transport-adjudication.json."
+}

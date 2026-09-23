@@ -1,0 +1,190 @@
+{
+  "status": "report_returned_pending_manual_coverage_validation",
+  "role": "gemini_flash",
+  "client": "agy",
+  "requested_model": "gemini-3.8-flash-high",
+  "target_sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+  "scope": "volume",
+  "through_chapter": 33,
+  "input_sha256": "52132bc2bc22a389b557df842eee1d01633c9a37e774772778b68ffea9b28808",
+  "expected_result_events": 6,
+  "command": [
+    "agy",
+    "--new-project",
+    "--model",
+    "gemini-3.8-flash-high",
+    "--mode",
+    "plan",
+    "--sandbox",
+    "--input-format",
+    "stream-json",
+    "--output-format",
+    "stream-json",
+    "--print-timeout",
+    "3960s"
+  ],
+  "isolation": "Fresh temporary directory and new project; no tools or peer reports allowed; prepared references only",
+  "actual_backend": "not independently attested",
+  "timeout_seconds": 3960,
+  "report_sha256": "28dac4d7311e859878e5a3f7378f7d2fbce541dd48828abd666c0b834268bdb4",
+  "exit_code": 0,
+  "seconds": 222.04,
+  "result_events": 6,
+  "invalid_stdout_lines": 0,
+  "observed_step_types": [
+    "agent_response",
+    "user_input"
+  ],
+  "client_init_metadata": [
+    {
+      "model": "gemini-3.8-flash-high",
+      "cwd": "C:\\Users\\alexi\\AppData\\Local\\Temp\\kontakt-independent-volume-reader-nhq5aa6p",
+      "tools": [
+        "ask_custom_permission",
+        "ask_permission",
+        "ask_question",
+        "browser_click_element",
+        "browser_drag_pixel_to_pixel",
+        "browser_get_dom",
+        "browser_get_network_request",
+        "browser_input",
+        "browser_list_network_requests",
+        "browser_mouse_down",
+        "browser_mouse_up",
+        "browser_move_mouse",
+        "browser_press_key",
+        "browser_refresh_page",
+        "browser_resize_window",
+        "browser_scroll",
+        "browser_scroll_dom",
+        "browser_select_option",
+        "browser_subagent",
+        "call_mcp_tool",
+        "capture_browser_console_logs",
+        "capture_browser_screenshot",
+        "click_browser_pixel",
+        "command_status",
+        "define_subagent",
+        "delete_knowledge",
+        "execute_browser_javascript",
+        "find_by_name",
+        "finish",
+        "generate_image",
+        "grep_search",
+        "invoke_subagent",
+        "list_browser_pages",
+        "list_dir",
+        "list_permissions",
+        "list_resources",
+        "manage_inbox",
+        "manage_subagents",
+        "manage_task",
+        "multi_replace_file_content",
+        "notebook_edit",
+        "notebook_execution",
+        "open_browser_url",
+        "read_browser_page",
+        "read_resource",
+        "read_url_content",
+        "replace_file_content",
+        "run_command",
+        "schedule",
+        "search_web",
+        "sed_file",
+        "send_command_input",
+        "send_message",
+        "view_file",
+        "wait",
+        "wait_5_seconds",
+        "write_to_file"
+      ],
+      "permission_mode": "request-review"
+    }
+  ],
+  "responses": [
+    {
+      "turn": 1,
+      "file": "turn-001.md",
+      "sha256": "910fb9c8a8cb99ad88f644b823f38bf2d56ecf3e13f1182c9886a0d3b94a4181",
+      "characters": 11381,
+      "provided_range": {
+        "part": 1,
+        "first_paragraph": 1,
+        "last_paragraph": 579,
+        "paragraphs": 579,
+        "message_sha256": "2d52e694e014ff8beee9ee42fc178072bd3d2e4a94bdb3dca4ab2b994e1c43ab",
+        "message_bytes": 87717
+      },
+      "reported_coverage": "requires_manual_validation"
+    },
+    {
+      "turn": 2,
+      "file": "turn-002.md",
+      "sha256": "08e943880553ffce112c3a5802743c3d8635ecee83c47024011ca468e70a7f3c",
+      "characters": 12683,
+      "provided_range": {
+        "part": 2,
+        "first_paragraph": 580,
+        "last_paragraph": 1129,
+        "paragraphs": 550,
+        "message_sha256": "a907fd67af481fb87138de7c9fb34293128775b5c38aa32c9c73154ea6b4007e",
+        "message_bytes": 87804
+      },
+      "reported_coverage": "requires_manual_validation"
+    },
+    {
+      "turn": 3,
+      "file": "turn-003.md",
+      "sha256": "f4de1d1262726c790adaf28bd4663e28d1c8ef188cb884ccebb3a3c47638bffb",
+      "characters": 12355,
+      "provided_range": {
+        "part": 3,
+        "first_paragraph": 1130,
+        "last_paragraph": 1622,
+        "paragraphs": 493,
+        "message_sha256": "539ca81bb09db2426eba0d23622492d650d336660f9058b6e714e50d6a74cdd7",
+        "message_bytes": 87708
+      },
+      "reported_coverage": "requires_manual_validation"
+    },
+    {
+      "turn": 4,
+      "file": "turn-004.md",
+      "sha256": "d6d74f94805e98c6a271ee2134eb470e9d6e147c7c556e6abc5ef5e590965d67",
+      "characters": 13033,
+      "provided_range": {
+        "part": 4,
+        "first_paragraph": 1623,
+        "last_paragraph": 2204,
+        "paragraphs": 582,
+        "message_sha256": "d1532206ebdfc6a0d1b07d694c4c46724361afe789627eb0a36adad6d0a04f43",
+        "message_bytes": 87700
+      },
+      "reported_coverage": "requires_manual_validation"
+    },
+    {
+      "turn": 5,
+      "file": "turn-005.md",
+      "sha256": "08a82bc1c3bfc2b61ee92de9980fcb9a6f334f8a24057dc4c9db6a9b0579c26a",
+      "characters": 10930,
+      "provided_range": {
+        "part": 5,
+        "first_paragraph": 2205,
+        "last_paragraph": 2331,
+        "paragraphs": 127,
+        "message_sha256": "adcc3f1a4e19a81469df81cbe8cabd5ba83569569d2f362aa9501bd4f1395ed5",
+        "message_bytes": 25295
+      },
+      "reported_coverage": "requires_manual_validation"
+    },
+    {
+      "turn": 6,
+      "file": "turn-006.md",
+      "sha256": "28dac4d7311e859878e5a3f7378f7d2fbce541dd48828abd666c0b834268bdb4",
+      "characters": 13661,
+      "provided_range": "final request",
+      "reported_coverage": "requires_manual_validation"
+    }
+  ],
+  "scope_limit": "Complete input delivery and report return are not proof of full reading; inspect all turn reports, unread/compacted context and final cross-part analysis before importing."
+}

@@ -1,0 +1,28 @@
+{
+  "target_sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+  "status": "review_returned_source_bound_with_provenance_correction",
+  "report_sha256": "b0522f397bba27f33295994b283d3b0c0d5e28168a502d50a0bb33694ec03bd3",
+  "reported_coverage": [
+    1,
+    2331
+  ],
+  "unread_reported": 0,
+  "last_block_exact": true,
+  "native_requested_model": "gpt-5.6-terra",
+  "corrective_addendum": "terra-native/provenance-correction.json",
+  "quoted_anchors_verified": [
+    356,
+    427,
+    445,
+    691,
+    2280,
+    2288,
+    2295
+  ],
+  "limits": [
+    "Coverage is supported by agent reading record, not independently instrumented attention.",
+    "T-01 rhythm is reader judgement, not proven plot defect; corrected evidence chapters3,6.",
+    "T-02 anchor P02280 is chapter33; proposed administrative rhythm change concerns chapter32.",
+    "Addendum calls P00691 after test; anchor actually lies within chapter6 test before stop P00699. This wording is not imported as chronology."
+  ]
+}

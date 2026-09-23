@@ -1,7 +1,7 @@
 {
   "book_id": "book-01",
-  "status": "working_draft_collection_not_master",
-  "chapter_count": 30,
+  "status": "complete_working_draft_global_diagnosis_done_author_revision_pending",
+  "chapter_count": 33,
   "chapters": [
     {
       "chapter": 1,
@@ -242,8 +242,34 @@
       "observed_state": "drafts/2026-09-22-ch30-sol-v1/observed-state.json",
       "review_run": "audit/ensemble/ch30-20260922-sol-v1",
       "status": "reviewed_working_draft_not_canonical"
+    },
+    {
+      "chapter": 31,
+      "source": "drafts/2026-09-23-ch31-astra-v1/chapter-31.md",
+      "sha256": "4c6987ff6f6e4556f282b4573f72d709d778198ac9545ef63711fcee481e8b76",
+      "observed_state": "drafts/2026-09-23-ch31-astra-v1/observed-state.json",
+      "status": "astra_draft_full_volume_reviewed_with_limitations",
+      "writer": "Astra"
+    },
+    {
+      "chapter": 32,
+      "source": "drafts/2026-09-23-ch32-astra-v1/chapter-32.md",
+      "sha256": "e40ae115d6c2a17db3fb5cfeb8b14ddee14c92c9fafed790576fc84f26dee87c",
+      "observed_state": "drafts/2026-09-23-ch32-astra-v1/observed-state.json",
+      "status": "astra_draft_full_volume_reviewed_with_limitations",
+      "writer": "Astra"
+    },
+    {
+      "chapter": 33,
+      "source": "drafts/2026-09-23-ch33-astra-v1/chapter-33.md",
+      "sha256": "044be4fd6c07ab4f1f2b11c1633b327a13f77a73c721441623fba268819602a4",
+      "observed_state": "drafts/2026-09-23-ch33-astra-v1/observed-state.json",
+      "status": "astra_draft_full_volume_reviewed_with_limitations",
+      "writer": "Astra"
     }
   ],
-  "global_audit": "not_run",
-  "assembly_rule": "join exact chapter source files in ascending chapter order; verify each hash first"
+  "global_audit": "full-volume-review-2026-09-23/astra-final/REPORT.md",
+  "assembly_rule": "join exact chapter source files in ascending chapter order; verify each hash first",
+  "frozen_reader": "readers/full-33-astra-v1/manuscript.md",
+  "frozen_reader_sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b"
 }

@@ -1,0 +1,60 @@
+{
+  "status": "prepared_not_executed",
+  "client": "agy",
+  "role": "gemini_flash",
+  "requested_model": "gemini-3.8-flash-high",
+  "review_mode": "literary_editor",
+  "scope": "volume",
+  "through_chapter": 33,
+  "target": "kontakt\\books\\book-01\\production\\2026-09-21-book01\\readers\\full-33-astra-v1\\manuscript.md",
+  "target_sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+  "paragraphs": 2331,
+  "parts": [
+    {
+      "part": 1,
+      "first_paragraph": 1,
+      "last_paragraph": 579,
+      "paragraphs": 579,
+      "message_sha256": "2d52e694e014ff8beee9ee42fc178072bd3d2e4a94bdb3dca4ab2b994e1c43ab",
+      "message_bytes": 87717
+    },
+    {
+      "part": 2,
+      "first_paragraph": 580,
+      "last_paragraph": 1129,
+      "paragraphs": 550,
+      "message_sha256": "a907fd67af481fb87138de7c9fb34293128775b5c38aa32c9c73154ea6b4007e",
+      "message_bytes": 87804
+    },
+    {
+      "part": 3,
+      "first_paragraph": 1130,
+      "last_paragraph": 1622,
+      "paragraphs": 493,
+      "message_sha256": "539ca81bb09db2426eba0d23622492d650d336660f9058b6e714e50d6a74cdd7",
+      "message_bytes": 87708
+    },
+    {
+      "part": 4,
+      "first_paragraph": 1623,
+      "last_paragraph": 2204,
+      "paragraphs": 582,
+      "message_sha256": "d1532206ebdfc6a0d1b07d694c4c46724361afe789627eb0a36adad6d0a04f43",
+      "message_bytes": 87700
+    },
+    {
+      "part": 5,
+      "first_paragraph": 2205,
+      "last_paragraph": 2331,
+      "paragraphs": 127,
+      "message_sha256": "adcc3f1a4e19a81469df81cbe8cabd5ba83569569d2f362aa9501bd4f1395ed5",
+      "message_bytes": 25295
+    }
+  ],
+  "input_events": 6,
+  "expected_result_events": 6,
+  "input_sha256": "52132bc2bc22a389b557df842eee1d01633c9a37e774772778b68ffea9b28808",
+  "prompt_sha256": "9a6e9e37cb5811827535339a2028ea89a1e86599334f0afe61a041e147f271a1",
+  "references": [],
+  "validation": "All paragraphs included once in original order; each text part below125000bytes; not evidence of model reading"
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "review_kind": "independent_full_literary_review",
+  "mode": "target-only",
+  "reviewer": {
+    "model": "GPT-6 Terra",
+    "client": "Codex"
+  },
+  "target": {
+    "path": "kontakt/books/book-01/production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
+    "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+    "bytes": 341064,
+    "blocks": 2331,
+    "chapters": 33
+  },
+  "allowed_inputs": [
+    {"path": ".agents/skills/book-language-review/SKILL.md", "sha256": "472df890365cabebc652b868ca62ef90f66f1c8a9fcf7475947038ab4f9294cc"},
+    {"path": "BOOK_SYSTEM/LANGUAGES/uk/STYLE.md", "sha256": "c130bb180b60037a51dec0cfdbb551b3339944bd8ddcc4fe76a8df6855d91ddd"},
+    {"path": "BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md", "sha256": "a22dce300a430f1fef40358476aa436620d234cafb8ced1082e8e901e3dd14e5"},
+    {"path": "kontakt/books/book-01/voice.json", "sha256": "0daed170751ea9d5c8a7f8fd4bfc06309feb62e0cb0cbb057d0f2e2202c424d7"}
+  ],
+  "excluded": ["canon", "handoffs", "reviews", "ledgers", "notes", "checks", "other prose"],
+  "prose_edited": false
+}

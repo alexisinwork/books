@@ -1,0 +1,93 @@
+{
+  "status": "unavailable_or_incomplete",
+  "client": "Claude Code",
+  "requested_model": "claude-opus-4-6",
+  "target_sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+  "blocks": 2331,
+  "input_sha256": "f4f20ce362dbd54f3ffd40e00712b4b6da8f8149c5ac3a7fc4ef7d64157d0343",
+  "command": [
+    "C:\\Users\\alexi\\.local\\bin\\claude.EXE",
+    "-p",
+    "--safe-mode",
+    "--tools",
+    "",
+    "--model",
+    "claude-opus-4-6",
+    "--effort",
+    "high",
+    "--output-format",
+    "json",
+    "--no-session-persistence",
+    "--permission-mode",
+    "dontAsk"
+  ],
+  "isolation": "fresh temporary cwd, safe-mode disables customizations, tools empty, no peer reports",
+  "retry_basis": "agy Opus quota exhausted after3parts; this is a fresh independent full-source run, not continuation of partial opinions",
+  "exit_code": 1,
+  "seconds": 2.84,
+  "response_metadata": {
+    "duration_api_ms": 0,
+    "stop_reason": "stop_sequence",
+    "session_id": "354964ad-a6b1-4601-a6f0-870ff2a7698c",
+    "total_cost_usd": 0,
+    "usage": {
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "",
+      "iterations": [],
+      "speed": "standard"
+    },
+    "modelUsage": {},
+    "permission_denials": [],
+    "terminal_reason": "api_error",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+      "spawned": 0,
+      "requested": {
+        "background": 0,
+        "foreground": 0,
+        "unset": 0
+      },
+      "started_in_background": 0,
+      "max_depth": 0,
+      "spawned_by_subagents": 0,
+      "completed": 0,
+      "failed": 0,
+      "killed": {
+        "parent": 0,
+        "user": 0,
+        "system": 0
+      },
+      "refused": {
+        "depth_limit": 0,
+        "concurrency_limit": 0,
+        "budget": 0
+      },
+      "by_type": {}
+    },
+    "is_error": true,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": 429,
+    "type": "result",
+    "duration_ms": 1533,
+    "uuid": "beec7803-cc96-4936-a5da-39cb94c21643",
+    "queued_turn_count": 0,
+    "result_index": 0
+  }
+}

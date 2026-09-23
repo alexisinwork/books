@@ -1,0 +1,491 @@
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/START_HERE.md
++++ kontakt/START_HERE.md
+@@ -1,5 +1,7 @@
+-# Контакт: том1 написаний у робочій версії
++# Контакт — том 1 дописаний
+ 
+-33глави є в прозі;31–33 дописалаAstra. [Поточний прогрес](books/book-01/production/2026-09-21-book01/progress.json). [Точний склад](books/book-01/production/2026-09-21-book01/working-volume.json).
++33 глави, повний DOCX на 97 сторінках, глобальна діагностика й повторне читання Astra завершені. Це робоча книга з редакторськими питаннями, не затверджений master.
+ 
+-За новим дорученням23.09.2026 далі чотири літературні проходи по всьому тому, зведення й повна повторна вичиткаAstra. Ці етапи ще не завершені. Master=null, історичні звіти збережені.
++[Поточний стан](books/book-01/session.md) · [Пакет передачі](books/book-01/production/2026-09-21-book01/FULL-BOOK-DELIVERY.md) · [Глобальна вичитка](books/book-01/production/2026-09-21-book01/full-volume-review-2026-09-23/astra-final/REPORT.md) · [Рішення автора](books/book-01/production/2026-09-21-book01/AUTHOR-DECISIONS-FULL-BOOK.md).
++
++Повні зовнішні відгуки: Terra, Gemini 3.8 Flash, Gemini 3.1 Pro. Opus частковий через ліміти обох клієнтів; продовження — за попереднім прямим дозволом автора. Усі джерела, версії та обмеження збережені.
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/series/architecture-pass-01-status.json
++++ kontakt/series/architecture-pass-01-status.json
+@@ -6,9 +6,9 @@
+   "books": [
+     {
+       "book_id": "book-01",
+-      "status": "chapters_01_30_drafted_reviewed",
++      "status": "complete33chapter_working_draft_global_diagnosis_done",
+       "architecture_pass": "macro_reviewed",
+-      "scene_gate": "chapter_01_only",
++      "scene_gate": "full_working_route_written_not_canonical",
+       "master": null
+     },
+     {
+@@ -70,11 +70,11 @@
+   },
+   "current_draft": {
+     "book_id": "book-01",
+-    "chapter": 30,
+-    "path": "kontakt/books/book-01/drafts/2026-09-22-ch30-sol-v1/chapter-30.md",
+-    "sha256": "5e9b9ef64de27efb9f15e5b8926017bec262f52660d6b9fe200d6d92745ba3d0",
+-    "status": "reviewed_working_draft",
+-    "whole_book_written": false,
++    "chapter": 33,
++    "path": "kontakt/books/book-01/production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
++    "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
++    "status": "complete_working_draft_global_diagnosis_done_author_revision_pending",
++    "whole_book_written": true,
+     "volume_progress": "books/book-01/production/2026-09-21-book01/progress.json"
+   }
+ }
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/books/book-01/book.json
++++ kontakt/books/book-01/book.json
+@@ -8,7 +8,7 @@
+   "master": null,
+   "voice": "voice.json",
+   "canon": "../../series/canon.json",
+-  "audit_status": "complete_route_drafted_global_reviews_pending",
++  "audit_status": "full_diagnosis_complete_revision_required_opus_partial",
+   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
+   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
+   "language": "uk",
+@@ -27,21 +27,22 @@
+     "whole_book_ready": false,
+     "whole_series_ready": false,
+     "prose_started": true,
+-    "execution": "production/2026-09-21-book01/ASTRA-FINAL-BLOCK-31-33.md"
++    "execution": "production/2026-09-21-book01/ASTRA-FINAL-BLOCK-31-33.md",
++    "whole_book_written": true
+   },
+   "working_revision": {
+-    "path": "drafts/2026-09-23-ch33-astra-v1/chapter-33.md",
+-    "sha256": "044be4fd6c07ab4f1f2b11c1633b327a13f77a73c721441623fba268819602a4",
++    "path": "production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
++    "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+     "format": "md",
+     "language": "uk",
+-    "status": "draft_not_author_selected",
+-    "scope": "Complete33chapter collection in working_volume; latestchapter33",
+-    "observed_state": "drafts/2026-09-23-ch33-astra-v1/observed-state.json"
++    "status": "complete_working_draft_not_author_selected",
++    "scope": "whole_volume_33chapters",
++    "observed_state": "production/2026-09-21-book01/observed-full-volume-end-state.json"
+   },
+   "working_volume": {
+     "manifest": "production/2026-09-21-book01/working-volume.json",
+     "chapters": 33,
+-    "status": "complete_draft_pending_global_reviews"
++    "status": "complete_working_draft_global_diagnosis_done_author_revision_pending"
+   },
+   "active_workflow": "production/2026-09-21-book01/WORKFLOW-ASTRA-FULL-BOOK-2026-09-23.md",
+   "current_writer": "Astra"
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/books/book-01/audit/issues.json
++++ kontakt/books/book-01/audit/issues.json
+@@ -11361,6 +11361,132 @@
+         "Book2 entry/reveal ladder"
+       ],
+       "author_decision": "pending"
++    },
++    {
++      "id": "B01-FULL-ASTRA-F01",
++      "status": "proposed",
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "certainty": "high",
++      "observation": "Локальне виправлення відмови зникає з доступних читачеві альтернатив перед вимкненням усього посередництва.",
++      "anchors": [
++        {
++          "path": "kontakt/books/book-01/production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
++          "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
++          "scope": "P01193,P01581,P01599,P01768,P01853,P01972"
++        }
++      ],
++      "dependencies": [
++        "21-28; alternatives, consent, mechanism; no new plot required",
++        "Selected future revision, source derivatives and final author selection"
++      ],
++      "basis": "Full sequential Astra reread after reconciliation; details in production/2026-09-21-book01/full-volume-review-2026-09-23/astra-final/issue-adjudication.json",
++      "author_decision": "pending"
++    },
++    {
++      "id": "B01-FULL-ASTRA-F02",
++      "status": "proposed",
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "certainty": "medium_high",
++      "observation": "Неявка зрозуміла як неоднозначний вчинок, але недостатньо видимий особистий перехід від чесного розгляду до відмови навіть почути його умови.",
++      "anchors": [
++        {
++          "path": "kontakt/books/book-01/production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
++          "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
++          "scope": "P01839,P02159,P02171,P02185,P02187,P02193,P02206"
++        }
++      ],
++      "dependencies": [
++        "31-33; desertion and accountability, final future arc",
++        "Selected future revision, source derivatives and final author selection"
++      ],
++      "basis": "Full sequential Astra reread after reconciliation; details in production/2026-09-21-book01/full-volume-review-2026-09-23/astra-final/issue-adjudication.json",
++      "author_decision": "pending"
++    },
++    {
++      "id": "B01-FULL-ASTRA-F03",
++      "status": "proposed",
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "certainty": "medium_high",
++      "observation": "Негайний вихід з особистого контуру до окремого аварійного ключа має показану ціну, але слабку окрему потребу.",
++      "anchors": [
++        {
++          "path": "kontakt/books/book-01/production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
++          "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
++          "scope": "P02233,P02241,P02243,P02254,P02325"
++        }
++      ],
++      "dependencies": [
++        "11 setup,32-33 consequence; separate fromprofessional status",
++        "Selected future revision, source derivatives and final author selection"
++      ],
++      "basis": "Full sequential Astra reread after reconciliation; details in production/2026-09-21-book01/full-volume-review-2026-09-23/astra-final/issue-adjudication.json",
++      "author_decision": "pending"
++    },
++    {
++      "id": "B01-FULL-ASTRA-F04",
++      "status": "proposed",
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "certainty": "medium",
++      "observation": "Вузький дозвіл співіснує з технічно активним записом за межами згоди; пояснення спільним екраном слабше за встановлену гранулярність доступів.",
++      "anchors": [
++        {
++          "path": "kontakt/books/book-01/production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
++          "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
++          "scope": "P00030,P01180,P01437,P01890,P01891,P01892"
++        }
++      ],
++      "dependencies": [
++        "13-14,19,27-28; retained agency and noncoercive climax",
++        "Selected future revision, source derivatives and final author selection"
++      ],
++      "basis": "Full sequential Astra reread after reconciliation; details in production/2026-09-21-book01/full-volume-review-2026-09-23/astra-final/issue-adjudication.json",
++      "author_decision": "pending"
++    },
++    {
++      "id": "B01-FULL-ASTRA-F05",
++      "status": "proposed",
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "certainty": "high",
++      "observation": "Доказові застереження та повтор протоколів іноді витісняють новий рух сцени.",
++      "anchors": [
++        {
++          "path": "kontakt/books/book-01/production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
++          "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
++          "scope": "P00615,P00627,P00630,P01356,P01369,P01764,P02094,P02288"
++        }
++      ],
++      "dependencies": [
++        "extendsENS001/002/014/015; no quota-driven cutting",
++        "Selected future revision, source derivatives and final author selection"
++      ],
++      "basis": "Full sequential Astra reread after reconciliation; details in production/2026-09-21-book01/full-volume-review-2026-09-23/astra-final/issue-adjudication.json",
++      "author_decision": "pending"
++    },
++    {
++      "id": "B01-FULL-ASTRA-F06",
++      "status": "proposed",
++      "decision": "proposed",
++      "resolution_status": "unresolved",
++      "certainty": "medium_high",
++      "observation": "Майїна потреба продовжити зрозуміла краще, ніж її вибір самеДаля після порушення.",
++      "anchors": [
++        {
++          "path": "kontakt/books/book-01/production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
++          "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
++          "scope": "P01398,P01581,P01599,P01634,P01765,P02076"
++        }
++      ],
++      "dependencies": [
++        "extendsENS016;21-25,protect29-30independence",
++        "Selected future revision, source derivatives and final author selection"
++      ],
++      "basis": "Full sequential Astra reread after reconciliation; details in production/2026-09-21-book01/full-volume-review-2026-09-23/astra-final/issue-adjudication.json",
++      "author_decision": "pending"
+     }
+   ]
+ }
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/books/book-01/revision-log.json
++++ kontakt/books/book-01/revision-log.json
+@@ -759,6 +759,34 @@
+         "external_reviews": "not_run_yet_wholevolumeonly",
+         "release_ready": false
+       }
++    },
++    {
++      "id": "full33-20260923-astra-global",
++      "reason": "Complete book1 and global review under author workflow",
++      "decision": "diagnosis_only_no_prose_revision",
++      "old_source": null,
++      "new_source": {
++        "path": "production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
++        "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b"
++      },
++      "observed_state": "production/2026-09-21-book01/observed-full-volume-end-state.json",
++      "dependencies": {
++        "master": "null,notselected",
++        "author_decisions": "20ensemble+6Astra pending",
++        "opus": "partial due429 inagy andnativeClaude; authorized availability exception"
++      },
++      "verification": {
++        "chapters": 33,
++        "astra_blocks_read": 2331,
++        "unread": 0,
++        "full_external_reviews": [
++          "Terra",
++          "Gemini3.8Flash",
++          "Gemini3.1Pro"
++        ],
++        "docx_pages": 97,
++        "publication_ready": false
++      }
+     }
+   ]
+ }
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/books/book-01/session.md
++++ kontakt/books/book-01/session.md
+@@ -1,5 +1,9 @@
+-# Контакт1 — весь маршрут написаний, перевірки попереду
++# Контакт 1 — завершений робочий том і глобальна перевірка
+ 
+-Astra дописала31–33 за новим порядком23.09.2026. Наявна робоча збірка1–33, точні джерела у production/2026-09-21-book01/working-volume.json. Це не авторський master і не заява про завершення якості.
++Усі 33 глави написані українською. Astra завершила 31–33 на збереженій базі 1–30. [Пакет передачі](production/2026-09-21-book01/FULL-BOOK-DELIVERY.md) містить повний DOCX на 97 сторінках, діагнози та питання. Master не обрано.
+ 
+-Далі: цілісна звірка архітектури, один заморожений manuscript, чотири повні літературні проходи Opus/Gemini3.8Flash/Gemini3.1Pro/Terra, зведення й повторне повне читанняAstra. Старі поглавні звіти не підміняють ці проходи. Пропозиції механіки31–33 записані unresolved; версії/копії збережені.
++Завершені три повні літературні проходи (Terra, Gemini 3.8 Flash, Gemini 3.1 Pro), частковий Opus, зведення 20 груп і повторне повне читання Astra всіх 2331 блоків. Opus недоступний через 429 в обох клієнтах; застосовано прямий авторський дозвіл пропускати недоступну модель. Чотири повні проходи не заявлено.
++
++[Заключний діагноз](production/2026-09-21-book01/full-volume-review-2026-09-23/astra-final/REPORT.md): сюжетний маршрут завершений, перед публікацією потрібна адресна редактура. Шість нових питань мають статус pending; головне — повернути в поле вибору Майї локальне виправлення відмови. [Рішення для автора](production/2026-09-21-book01/AUTHOR-DECISIONS-FULL-BOOK.md).
++
++Далі застосовувати лише обраний сумісний пакет у новій версії. Перевірені джерела та звіти не переписувати заднім числом; запланований канон не підміняти спостереженим кандидатом. Поточний SHA-256: `ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b`.
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/books/book-01/brief.md
++++ kontakt/books/book-01/brief.md
+@@ -131,3 +131,8 @@
+ ## Astra,23.09.2026: фінал написаний
+ 
+ 31–33 виконують S11–S12 у кандидатній прозі; observed-state в каталогах drafts/2026-09-23-chNN-astra-v1. Повний33-главний маршрут написано, але цілісні літературні перевірки й заключна вичитка ще попереду. Master=null.
++
++
++## Підсумок виконання 23.09.2026
++
++Маршрут 33 глав написаний. Повна повторна вичитка Astra завершена після зведення: три повні зовнішні діагнози й частковий Opus. Див. session.md та production/2026-09-21-book01/full-volume-review-2026-09-23/astra-final/REPORT.md. Сюжетна закінченість підтверджена; публікаційна готовність — ні. Авторські рішення щодо 20+6 пропозицій залишаються pending.
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/books/book-01/plan.md
++++ kontakt/books/book-01/plan.md
+@@ -131,3 +131,8 @@
+ ## Astra,23.09.2026: фінал написаний
+ 
+ 31–33 виконують S11–S12 у кандидатній прозі; observed-state в каталогах drafts/2026-09-23-chNN-astra-v1. Повний33-главний маршрут написано, але цілісні літературні перевірки й заключна вичитка ще попереду. Master=null.
++
++
++## Підсумок виконання 23.09.2026
++
++Маршрут 33 глав написаний. Повна повторна вичитка Astra завершена після зведення: три повні зовнішні діагнози й частковий Opus. Див. session.md та production/2026-09-21-book01/full-volume-review-2026-09-23/astra-final/REPORT.md. Сюжетна закінченість підтверджена; публікаційна готовність — ні. Авторські рішення щодо 20+6 пропозицій залишаються pending.
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/books/book-01/production/2026-09-21-book01/progress.json
++++ kontakt/books/book-01/production/2026-09-21-book01/progress.json
+@@ -1,6 +1,6 @@
+ {
+   "book_id": "book-01",
+-  "status": "in_progress",
++  "status": "complete_working_draft_global_diagnosis_done_author_revision_pending",
+   "authorization": "authorization.md",
+   "completed_chapters": [
+     {
+@@ -269,9 +269,9 @@
+     }
+   ],
+   "current_chapter": null,
+-  "current_stage": "full_manuscript_assembled_for_author_continuity_check",
++  "current_stage": "draft_and_full_global_diagnosis_complete_with_opus_exception",
+   "future_chapters": "macro architecture; progressively detailed before writing",
+-  "global_audit": "not_run",
++  "global_audit": "completed_astra_full_reread_after_three_full_reviews_and_partial_opus",
+   "last_block_review": {
+     "through_chapter": 30,
+     "report": "BLOCK-26-30-AUDIT.md",
+@@ -280,19 +280,25 @@
+   "latest_block_audit": "block-audits/chapters-26-30/reading-progress.json",
+   "review_policy": "WORKFLOW-ASTRA-FULL-BOOK-2026-09-23.md",
+   "latest_reader": {
+-    "through_chapter": 30,
+-    "path": "readers/chapters-01-30",
+-    "status": "exact_sources_and_88page_render_verified_not_global_audit"
++    "through_chapter": 33,
++    "path": "readers/full-33-astra-v1",
++    "status": "exact33sources_docx97pages_verified"
+   },
+   "next_handoff": null,
+   "workflow": "WORKFLOW-ASTRA-FULL-BOOK-2026-09-23.md",
+   "writer": "Astra",
+   "per_chapter_external_reviews": false,
+   "next_actions": [
+-    "Freeze exact33chapter manuscript and check full architecture/continuity",
+-    "Four complete literaryreviews onone source:Opus/Gemini3.8Flash/Gemini3.1Pro/Terra",
+-    "Reconcile findings; Astra full reread ofwhole volume",
+-    "Deliver complete DOCX, audits, history and pending decisions"
++    "Author decisions on six Astra findings and selected20ensemble proposals",
++    "Apply only a compatible authorized revision package to a new version",
++    "Full Opus pending availability; not claimed completed"
+   ],
+-  "whole_route_drafted": true
++  "whole_route_drafted": true,
++  "final_diagnosis": {
++    "path": "full-volume-review-2026-09-23/astra-final/REPORT.md",
++    "sha256": "c24c8d8cb2e3c5645058152d57e21b0c14e5748b10d86a13aa98ea5298e25cc3",
++    "source_sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
++    "unread_blocks": 0
++  },
++  "availability_exception": "full-volume-review-2026-09-23/OPUS-AVAILABILITY-EXCEPTION.md"
+ }
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
++++ kontakt/books/book-01/production/2026-09-21-book01/working-volume.json
+@@ -1,6 +1,6 @@
+ {
+   "book_id": "book-01",
+-  "status": "complete_route_working_draft_pending_whole_volume_reviews",
++  "status": "complete_working_draft_global_diagnosis_done_author_revision_pending",
+   "chapter_count": 33,
+   "chapters": [
+     {
+@@ -248,7 +248,7 @@
+       "source": "drafts/2026-09-23-ch31-astra-v1/chapter-31.md",
+       "sha256": "4c6987ff6f6e4556f282b4573f72d709d778198ac9545ef63711fcee481e8b76",
+       "observed_state": "drafts/2026-09-23-ch31-astra-v1/observed-state.json",
+-      "status": "astra_draft_pending_whole_volume_literary_reviews",
++      "status": "astra_draft_full_volume_reviewed_with_limitations",
+       "writer": "Astra"
+     },
+     {
+@@ -256,7 +256,7 @@
+       "source": "drafts/2026-09-23-ch32-astra-v1/chapter-32.md",
+       "sha256": "e40ae115d6c2a17db3fb5cfeb8b14ddee14c92c9fafed790576fc84f26dee87c",
+       "observed_state": "drafts/2026-09-23-ch32-astra-v1/observed-state.json",
+-      "status": "astra_draft_pending_whole_volume_literary_reviews",
++      "status": "astra_draft_full_volume_reviewed_with_limitations",
+       "writer": "Astra"
+     },
+     {
+@@ -264,10 +264,12 @@
+       "source": "drafts/2026-09-23-ch33-astra-v1/chapter-33.md",
+       "sha256": "044be4fd6c07ab4f1f2b11c1633b327a13f77a73c721441623fba268819602a4",
+       "observed_state": "drafts/2026-09-23-ch33-astra-v1/observed-state.json",
+-      "status": "astra_draft_pending_whole_volume_literary_reviews",
++      "status": "astra_draft_full_volume_reviewed_with_limitations",
+       "writer": "Astra"
+     }
+   ],
+-  "global_audit": "not_run",
+-  "assembly_rule": "join exact chapter source files in ascending chapter order; verify each hash first"
++  "global_audit": "full-volume-review-2026-09-23/astra-final/REPORT.md",
++  "assembly_rule": "join exact chapter source files in ascending chapter order; verify each hash first",
++  "frozen_reader": "readers/full-33-astra-v1/manuscript.md",
++  "frozen_reader_sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b"
+ }
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json
++++ kontakt/books/book-01/production/2026-09-21-book01/chapter-route.json
+@@ -223,21 +223,21 @@
+       "sequence": "S11",
+       "day": "D11",
+       "function": "Останній шлях назад і рішення не з’явитися на перекалібровку",
+-      "status": "astra_draft_pending_whole_volume_literary_reviews"
++      "status": "astra_draft_full_volume_reviewed_with_limitations"
+     },
+     {
+       "chapter": 32,
+       "sequence": "S11",
+       "day": "D11",
+       "function": "Даль здає робочий доступ; втрата статусу й сервісів, Баласт залишається",
+-      "status": "astra_draft_pending_whole_volume_literary_reviews"
++      "status": "astra_draft_full_volume_reviewed_with_limitations"
+     },
+     {
+       "chapter": 33,
+       "sequence": "S12",
+       "day": "D11",
+       "function": "Маршрут Майї; вдома короткий удар горя, згадка старого emergency-протоколу",
+-      "status": "astra_draft_pending_whole_volume_literary_reviews"
++      "status": "astra_draft_full_volume_reviewed_with_limitations"
+     }
+   ],
+   "checkpoints": [
+@@ -249,7 +249,7 @@
+     30,
+     33
+   ],
+-  "global_audit": "entire frozen manuscript after final chapter; chapter checks cannot substitute",
++  "global_audit": "full-volume-review-2026-09-23/astra-final/REPORT.md",
+   "route_corrections": [
+     "R1 at S04, no new rank later.",
+     "One explicit unauthorized parameter change in S05, not premature extra violation in S04.",
+@@ -266,5 +266,6 @@
+       "record": "block-audits/chapters-01-05/REPORT.md",
+       "change": "Move immediate stop/restore to endCH06; CH07 becomes aftermath instead of splitting <=90sec session"
+     }
+-  ]
++  ],
++  "execution_status": "complete_working_draft_global_diagnosis_done_author_revision_pending"
+ }
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/books/book-01/production/2026-09-21-book01/readers/full-33-astra-v1/README.md
++++ kontakt/books/book-01/production/2026-09-21-book01/readers/full-33-astra-v1/README.md
+@@ -1,9 +1,9 @@
+-# Контакт — повна робоча версія,33глави
++# Контакт — повний робочий том, 33 глави
+ 
+-Українська рукопись доведена до кінця поточного маршруту: збережена база1–30 і нові31–33 Astra.341064байти,2331абзацнийблок,27969лексичниходиниць. SHA-256 manuscript.md: `ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b`.
++SHA-256 manuscript.md: `ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b`. 27 969 лексичних одиниць, 2331 блок. Збережена база Sol 1–30, фінал Astra 31–33. Точні джерела й позиції записані в assembly.json; реєстри на час складання — в input-snapshots.
+ 
+-assembly.json містить кожен exactsource один раз і offsets; input-snapshots — реєстри на час складання. Нова проза не підмінила старі версії. master=null.
++Поле not_run в assembly.json описує момент заморожування. Актуальна перевірка — [заключний діагноз](../../full-volume-review-2026-09-23/astra-final/REPORT.md).
+ 
+-DOCX уreader, PDF та97сторінок уreader/render. Вилучення збігається, порожніхсторінок/обрізаньнемає.1–88байт-ідентичні вжеоглянутим PNG,85–97 також переглянуті в новихконтактнихаркушах, зокрема весьновийфінал89–97. Renderer docx-preview/Chromium, неnativeWord. Це читательськаробочаверсія, не видавнича верстка.
++DOCX містить 97 сторінок; текстове вилучення збігається з рукописом. Рендер docx-preview/Chromium: перші 88 PNG збігаються з раніше оглянутими; сторінки 85–97 оглянуті в новій збірці, включно з усіма новими сторінками. Це не перевірка рідного Word. reader/docx-check.json посилається на окремий render-check.
+ 
+-Механічні мовніскани без налаштованихсигналів; це не доказ художньоїякості. Чотири незалежні повні літературніпроходи запущені за новимдорученням: ../../full-volume-review-2026-09-23. Після них потрібні зведення й повторне повне читанняAstra. Старі поглавнізвіти їх не замінюють. Завершення цихперевірок поки не заявляється.
++Три повні літературні проходи, частковий Opus через 429, зведення й повна вичитка Astra завершені. Робоча книга закінчена, але потребує адресної редактури перед публікацією. Шість нових питань і 20 груп пропозицій не застосовані автоматично. Копії DOCX — на обох робочих столах автора.
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/books/book-01/production/2026-09-21-book01/full-volume-review-2026-09-23/review-manifest.json
++++ kontakt/books/book-01/production/2026-09-21-book01/full-volume-review-2026-09-23/review-manifest.json
+@@ -56,7 +56,14 @@
+     }
+   },
+   "availability_exception": "OPUS-AVAILABILITY-EXCEPTION.md",
+-  "status": "three_full_plus_partial_reconciled_pending_astra",
++  "status": "reconciled_astra_full_reread_complete_author_decisions_pending",
+   "all_four_complete": false,
+-  "canonical_promotion": false
++  "canonical_promotion": false,
++  "astra_final": {
++    "path": "astra-final/REPORT.md",
++    "sha256": "c24c8d8cb2e3c5645058152d57e21b0c14e5748b10d86a13aa98ea5298e25cc3",
++    "coverage": 2331,
++    "unread": 0,
++    "verdict": "complete_draft_requires_author_revision_before_publication"
++  }
+ }
+--- kontakt/books/book-01/production/2026-09-21-book01/workflow-changes/2026-09-23-astra-full-book/final-metadata-before/kontakt/books/book-01/production/2026-09-21-book01/full-volume-review-2026-09-23/README.md
++++ kontakt/books/book-01/production/2026-09-21-book01/full-volume-review-2026-09-23/README.md
+@@ -1,9 +1,9 @@
+-# Чотири повні літературніпроходи
++# Глобальна ревізія Контакту 1 — 23.09.2026
+ 
+-Джерело: readers/full-33-astra-v1/manuscript.md, SHA-256 `ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b`, усі33глави й2331блок. Статус цього стартового запису: запущено, завершення ще не перевірено.
++Джерело незмінне: ../readers/full-33-astra-v1/manuscript.md. Новий авторський порядок: весь текст → редактори → зведення → повторне повне читання Astra.
+ 
+-Opus, Gemini3.8Flash, Gemini3.1Pro черезagy; fresh native gpt-5.6-terra. ОбидвіGemini отримують тількиціль і нейтральне завдання. Opus додатково voice+UKSTYLE. Terra додатково мовнийskill/UKSTYLE/NATURALNESS/voice. Жодного peer report/старихзауважень у пакетах. Pro має новий opt-in літературнийрежим із читацькимслідом, а не лише старийдіагноз сліпогочитача. Старе defaultповодження prepare-review-parts.py збережено.
++review-manifest.json фіксує три повні проходи (Terra, Flash, Pro), частковий Opus P00001–P01622 і дві відмови 429. OPUS-AVAILABILITY-EXCEPTION.md пояснює прямий авторський дозвіл продовжити. У Pro ранні частини стиснені до власних нотаток перед фінальним висновком; усі сирі відповіді збережені. Повної четвірки не було.
+ 
+-Agy отримує5послідовнихчастин усіх2331блоків і6-й фінальнийзапит у свіжійрозмові. По завершенні необхідно вручну звірити кожну відповідь/цитати/охоплення/пропуски та міжчастиннийвисновок; доставка не дорівнює читанню. Спостережний timeout не terminal.
++reconciliation.md та issue-ledger.json містять 20 груп із pending-рішеннями. astra-final/REPORT.md та issue-adjudication.json — повне послідовне читання 2331 блоку, перевірка 20 груп і шість нових питань. Закінченість робочої книги підтверджена; перед публікацією потрібна адресна редактура. Просування в канон не виконано.
+ 
+-Порядок автора23.09.2026: спочатку повнийтекстAstra, потім4редактори, зведення й повторне повне читанняAstra. Координатор є авторомфіналу й знає старі поглавнізвіт, отже заключнийпрохід не називатиметься сліпим. Зауваження не стають автоматично accepted, master=null.
++validation/ містить перевірки доставки, цитат, обмежень і транспорту. report-inventory.json фіксує незмінні сирі артефакти. [Рішення для автора](../AUTHOR-DECISIONS-FULL-BOOK.md).

@@ -8,7 +8,7 @@
   "master": null,
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "chapter_30_reviewed_volume_in_progress",
+  "audit_status": "full_diagnosis_complete_revision_required_opus_partial",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -23,26 +23,26 @@
   "planning_state": "planned_not_observed",
   "execution_entry": "production/2026-09-21-book01/progress.json",
   "draft_scope": {
-    "chapter": 30,
+    "chapter": 33,
     "whole_book_ready": false,
     "whole_series_ready": false,
     "prose_started": true,
-    "execution": "execution/HANDOFF-CH30.md"
+    "execution": "production/2026-09-21-book01/ASTRA-FINAL-BLOCK-31-33.md",
+    "whole_book_written": true
   },
   "working_revision": {
-    "path": "drafts/2026-09-22-ch30-sol-v1/chapter-30.md",
-    "sha256": "5e9b9ef64de27efb9f15e5b8926017bec262f52660d6b9fe200d6d92745ba3d0",
+    "path": "production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
+    "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
     "format": "md",
     "language": "uk",
-    "status": "draft_not_author_selected",
-    "scope": "chapter 30; complete collection in working_volume",
-    "observed_state": "drafts/2026-09-22-ch30-sol-v1/observed-state.json",
-    "review_run": "audit/ensemble/ch30-20260922-sol-v1"
+    "status": "complete_working_draft_not_author_selected",
+    "scope": "whole_volume_33chapters",
+    "observed_state": "production/2026-09-21-book01/observed-full-volume-end-state.json"
   },
   "working_volume": {
     "manifest": "production/2026-09-21-book01/working-volume.json",
-    "chapters": 30,
-    "status": "in_progress_not_master"
+    "chapters": 33,
+    "status": "complete_working_draft_global_diagnosis_done_author_revision_pending"
   },
   "active_workflow": "production/2026-09-21-book01/WORKFLOW-ASTRA-FULL-BOOK-2026-09-23.md",
   "current_writer": "Astra"

@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-23",
+  "role": "Astra final full reread",
+  "model": "gpt-6-astra",
+  "model_evidence": "agent orchestration configuration, not manuscript self-identification",
+  "source_sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+  "workflow": "WORKFLOW-ASTRA-FULL-BOOK-2026-09-23.md, explicit author order takes precedence over historical Astra-before-editors",
+  "skill": ".agents/skills/ru-chief-editor/SKILL.md",
+  "independence": "not blind; architecture and reconciliation read before manuscript",
+  "upstream": {
+    "complete": [
+      "Terra",
+      "Gemini 3.8 Flash",
+      "Gemini 3.1 Pro"
+    ],
+    "opus": "partial P1-1622; both clients 429; author availability exception recorded",
+    "pro_limit": "earlier parts 1-4 compacted to sequential notes before final response"
+  },
+  "manuscript_mutations": false,
+  "author_decisions": "pending",
+  "status": "locked_final_diagnosis",
+  "completed_at": "2026-09-23T09:35:38.615996",
+  "source_sha256_verified_after": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+  "coverage": {
+    "blocks": 2331,
+    "chapters": 33,
+    "unread": 0,
+    "chunks": 16
+  },
+  "technical_checks": {
+    "language_qa": {
+      "source": "kontakt\\books\\book-01\\production\\2026-09-21-book01\\readers\\full-33-astra-v1\\manuscript.md",
+      "source_sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+      "language": "uk",
+      "format": "text",
+      "scope": "All extracted body units; no layout or linguistic proof of naturalness",
+      "extraction_flags": {},
+      "source_units": 4758,
+      "source_units_including_blank": 4758,
+      "nonempty_source_units": 2428,
+      "blank_source_units": 2330,
+      "source_unit_kind": "physical_text_line",
+      "anchor_numbering": "p is 1-based and includes blank units; existing offsets are unchanged",
+      "mechanical_coverage": {
+        "scope": "configured_patterns_in_extracted_body_only",
+        "scanned_source_units": 4758,
+        "scanned_nonempty_source_units": 2428
+      },
+      "reading_coverage": {
+        "status": "not_assessed_by_this_tool",
+        "reviewed_nonempty_source_units": null
+      },
+      "lexical_tokens": 27969,
+      "result": "no_configured_signals",
+      "findings": [],
+      "documented_exceptions": [],
+      "literary_review": "not_run",
+      "grammar_check": "not_run"
+    },
+    "uk_naturalness": {
+      "schema_version": 1,
+      "ruleset": "uk-naturalness-1.2",
+      "source": "kontakt\\books\\book-01\\production\\2026-09-21-book01\\readers\\full-33-astra-v1\\manuscript.md",
+      "source_sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+      "language": "uk",
+      "format": "text",
+      "source_units": 4758,
+      "source_units_including_blank": 4758,
+      "nonempty_source_units": 2428,
+      "blank_source_units": 2330,
+      "source_unit_kind": "physical_text_line",
+      "anchor_numbering": "p is 1-based and includes blank units; existing offsets are unchanged",
+      "mechanical_coverage": {
+        "scope": "configured_patterns_in_extracted_body_only",
+        "scanned_source_units": 4758,
+        "scanned_nonempty_source_units": 2428
+      },
+      "reading_coverage": {
+        "status": "not_assessed_by_this_tool",
+        "reviewed_nonempty_source_units": null
+      },
+      "extraction_flags": {},
+      "scope": "All extracted body units; selected contextual patterns only, no semantic proof or layout review.",
+      "findings": [],
+      "unresolved_signals": 0,
+      "result": "no_unresolved_configured_signals",
+      "grammar_check": "not_run",
+      "literary_quality": "not_established",
+      "automatic_rewriting": false
+    },
+    "invocation_method": "Imported unchanged local check functions; no automatic edits or separate outputs outside authorized four files",
+    "reading_progress_ranges_and_last_quotes": "verified"
+  },
+  "limitations": [
+    "Three full upstream reviews plus partial Opus only",
+    "Not blind or independent",
+    "No LanguageTool or external dictionary/official orthography verification in this pass",
+    "No new DOCX render verification by this agent",
+    "Author decisions pending; no manuscript mutation or canonical promotion"
+  ],
+  "artifact_sha256": {
+    "issue-adjudication.json": "fc2de819237ee24d13c656c1c7db1abf3314e3d259b343af01ec36606586a858",
+    "reading-progress.json": "1a2e45f3ffbc4defe33f4ba226def4dccc9150e5a2e47fb5cc4da3cfdfd24eb1",
+    "REPORT.md": "c24c8d8cb2e3c5645058152d57e21b0c14e5748b10d86a13aa98ea5298e25cc3"
+  },
+  "fixed_at": "2026-09-23T09:36:43.715317"
+}

@@ -8,7 +8,9 @@ import argparse,hashlib,json
 p=argparse.ArgumentParser();p.add_argument('--assembly',type=Path,required=True);p.add_argument('--out',type=Path,required=True)
 p.add_argument('--role',choices=['opus','gemini_flash','gemini_pro'],required=True);p.add_argument('--model',required=True)
 p.add_argument('--prompt',type=Path,required=True);p.add_argument('--context',type=Path,action='append',default=[])
-p.add_argument('--part-bytes',type=int,default=85000);a=p.parse_args()
+p.add_argument('--part-bytes',type=int,default=85000)
+p.add_argument('--literary-pro',action='store_true',help='Author-requested full literary editor role for Pro, retaining target-only isolation')
+a=p.parse_args()
 def sha(v):return hashlib.sha256(v).hexdigest()
 assembly=json.loads(a.assembly.read_text(encoding='utf-8'));source=a.assembly.parent/'manuscript.md';raw=source.read_bytes();h=sha(raw)
 assert h==assembly['manuscript_sha256'],'Assembly source changed'
@@ -24,14 +26,14 @@ for i,paragraph in enumerate(paragraphs,1):
  chunk.append(block);size+=n
 if chunk:parts.append((start,len(paragraphs),'\n\n'.join(chunk)))
 assert sum(last-first+1 for first,last,_ in parts)==len(paragraphs)
-role_intro=('You are an independent cold reader, not an editor. ' if a.role=='gemini_pro'
+role_intro=('You are an independent cold reader, not an editor. ' if a.role=='gemini_pro' and not a.literary_pro
  else 'You are an independent literary reviewer. ')
 role_assessment=(
  'Report your reading experience: where attention weakened, confusion, disbelief, predictions made before reveals, '
  'remembered moments, expected payoffs, distinct voices, emotional peak, ending and remaining questions. '
  'Describe the experience first, then possible cause and confidence. Do not turn reactions into proven editorial defects '
  'or propose a rewrite. Cite short exact quotes and global paragraph labels for specific reactions. '
- if a.role=='gemini_pro' else
+ if a.role=='gemini_pro' and not a.literary_pro else
  'Assess structure, causality, time, objects, character motivation and knowledge, consent/resources, setup/payoff, '
  'voices, pacing, emotional arc, ending and Ukrainian naturalness. '
  'Distinguish facts from character interpretations and editorial taste. '
@@ -58,13 +60,13 @@ messages.append(common+'\n\nAll parts have now been supplied. Return the complet
  +role_assessment+
  ('Compare your own expectations across the parts with what you experienced by the ending. '
   'A reading verdict is your reaction, not an editorial decision or author approval. '
-  if a.role=='gemini_pro' else
+  if a.role=='gemini_pro' and not a.literary_pro else
   'Use your own independent part readings to test cross-part promises and causal chains. '
   'PASS or REQUIRES REVISION is a diagnosis, not author approval. ')
  +'Do not claim a complete global reading if any part was unread. Actual model backend not independently attested.')
 assert not a.out.exists(),'Use a new immutable packet directory';a.out.mkdir(parents=True)
 payload=''.join(json.dumps({'event':'user','message':{'role':'user','content':[{'type':'text','text':s}]}},ensure_ascii=False)+'\n' for s in messages)
 (a.out/'input.ndjson').write_bytes(payload.encode('utf-8'))
-record={'status':'prepared_not_executed','client':'agy','role':a.role,'requested_model':a.model,'scope':assembly['scope'],'through_chapter':assembly['through_chapter'],'target':str(source),'target_sha256':h,'paragraphs':len(paragraphs),'parts':ranges,'input_events':len(messages),'expected_result_events':len(messages),'input_sha256':sha(payload.encode('utf-8')),'prompt_sha256':sha(a.prompt.read_bytes()),'references':[{'path':str(f),'sha256':sha(f.read_bytes())} for f in a.context],'validation':'All paragraphs included once in original order; each text part below125000bytes; not evidence of model reading'}
+record={'status':'prepared_not_executed','client':'agy','role':a.role,'requested_model':a.model,'review_mode':'literary_editor' if a.role!='gemini_pro' or a.literary_pro else 'cold_reader','scope':assembly['scope'],'through_chapter':assembly['through_chapter'],'target':str(source),'target_sha256':h,'paragraphs':len(paragraphs),'parts':ranges,'input_events':len(messages),'expected_result_events':len(messages),'input_sha256':sha(payload.encode('utf-8')),'prompt_sha256':sha(a.prompt.read_bytes()),'references':[{'path':str(f),'sha256':sha(f.read_bytes())} for f in a.context],'validation':'All paragraphs included once in original order; each text part below125000bytes; not evidence of model reading'}
 (a.out/'packet.json').write_bytes((json.dumps(record,ensure_ascii=False,indent=2)+'\n').encode('utf-8'))
 print(json.dumps({'status':record['status'],'paragraphs':len(paragraphs),'parts':len(parts),'input_events':len(messages),'target_sha256':h}))

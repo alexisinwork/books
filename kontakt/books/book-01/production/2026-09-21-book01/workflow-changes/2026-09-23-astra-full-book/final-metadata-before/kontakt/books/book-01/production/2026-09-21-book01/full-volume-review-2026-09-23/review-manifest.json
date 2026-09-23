@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "workflow": "author_custom_astra_after_editors",
+  "source_sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+  "source": "kontakt/books/book-01/production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
+  "requested_diagnoses": [
+    "claude",
+    "gemini_flash",
+    "gemini",
+    "terra"
+  ],
+  "full_diagnoses_completed": [
+    "gemini_flash",
+    "gemini",
+    "terra"
+  ],
+  "missing_full_diagnoses": [
+    "claude"
+  ],
+  "reports": {
+    "terra": {
+      "path": "terra-native/REPORT.md",
+      "sha256": "b0522f397bba27f33295994b283d3b0c0d5e28168a502d50a0bb33694ec03bd3",
+      "reported_coverage": [
+        1,
+        2331
+      ],
+      "status": "locked_full_report"
+    },
+    "gemini_flash": {
+      "path": "flash-agy/REPORT.md",
+      "sha256": "28dac4d7311e859878e5a3f7378f7d2fbce541dd48828abd666c0b834268bdb4",
+      "reported_coverage": [
+        1,
+        2331
+      ],
+      "status": "locked_full_report_with_factual_errors"
+    },
+    "gemini": {
+      "path": "pro-agy/turn-006.md",
+      "sha256": "ab877877c6278828ab63705dae36bb06410ae3f880ce30b287ca9bca0d7ab800",
+      "reported_coverage": [
+        1,
+        2331
+      ],
+      "status": "locked_full_sequential_report_compacted_final_context"
+    },
+    "claude": {
+      "path": "opus-agy/turn-003.md",
+      "sha256": "27396a4dacfc24995c0bbf5b5993d3bcfcc34d18651386857df51d47893dbe5c",
+      "reported_coverage": [
+        1,
+        1622
+      ],
+      "status": "partial_quota_exhausted_no_full_verdict"
+    }
+  },
+  "availability_exception": "OPUS-AVAILABILITY-EXCEPTION.md",
+  "status": "three_full_plus_partial_reconciled_pending_astra",
+  "all_four_complete": false,
+  "canonical_promotion": false
+}
