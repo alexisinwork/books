@@ -1,0 +1,23 @@
+{
+  "source_sha256": "32d70ac6e9dc3c523ee7a8fcd38db28f26aa77d5cd1908fa19f8eeb51f61b89f",
+  "checks": [
+    {
+      "command": "python -X utf8 tools/studio.py doctor",
+      "cwd": "kontakt",
+      "exit_code": 0,
+      "books": 8,
+      "errors": [],
+      "warnings": "8 no selectedmaster warnings, expected; working revisions not promoted"
+    },
+    {
+      "command": "python -X utf8 tools/verify_sources.py",
+      "cwd": "kontakt",
+      "exit_code": 0,
+      "checked_originals": 15,
+      "errors": []
+    }
+  ],
+  "scope": "Observed completed command results; file integrity not literary certification",
+  "language_signals": "0 configured signals; not standalonegrammarproof",
+  "reader_pages": 96
+}

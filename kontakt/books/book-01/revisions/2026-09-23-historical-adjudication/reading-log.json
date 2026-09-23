@@ -1,0 +1,31 @@
+{
+  "reader": "Astra historical adjudication agent",
+  "date": "2026-09-23",
+  "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+  "observations_read": 374,
+  "sequential_full_novel_read": false,
+  "primary_reading": "All central issue observations/proposals and located target chapter paragraphs. Initial CH01–04 retrieval included immediately adjacent paragraphs; CH05–30 deduplicated target paragraphs. Explicit follow-up readings resolved uncertain local contexts.",
+  "followup_ranges": {
+    "CH01": ["CB0110–CB0121"],
+    "CH02": ["CB0158–CB0175"],
+    "CH03": ["CB0001–CB0010"],
+    "CH05": ["CB0070–CB0080"],
+    "CH06": ["CB0030–CB0068"],
+    "CH07": ["CB0054–CB0075"],
+    "CH08": ["CB0001–CB0020", "CB0060–CB0076"],
+    "CH11": ["CB0001–CB0058"],
+    "CH17": ["CB0020–CB0029"],
+    "CH25": ["CB0020–CB0031"],
+    "CH30": ["CB0037–CB0045"],
+    "CH31": ["CB0001–CB0074"],
+    "CH32": ["CB0009–CB0061; first eight blocks were in truncated output and are not claimed as read"],
+    "CH33": ["CB0001–CB0063"]
+  },
+  "limitations": [
+    "Some large combined tool outputs were truncated; missing CH15–16 and CH30 observations were explicitly retrieved again. No full sequential novel coverage inferred from script traversal.",
+    "Original historical report files were not all reread; central observations retain their source paths and original status.",
+    "Automated quote matching establishes location, not literary quality. Nonmatching historical quotes remain marked as such; corrected passages have explicit current references.",
+    "No model vote is treated as a language norm or author decision.",
+    "Five dependency-bound issues remain; three full-volume ones are handled by the separate full-review integration."
+  ]
+}

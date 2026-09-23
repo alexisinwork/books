@@ -40,7 +40,10 @@ for i,result in enumerate(results,1):
  name=f'turn-{i:03d}.md';(a.out/name).write_bytes((text+'\n').encode('utf-8'))
  responses.append({'turn':i,'file':name,'sha256':sha((a.out/name).read_bytes()),'characters':len(text),'provided_range':packet['parts'][i-1] if i<=len(packet['parts']) else 'final request','reported_coverage':'requires_manual_validation'})
 final=(results[-1].get('response') or results[-1].get('result') or '') if results else ''
-valid=(code==0 and len(results)==len(messages) and isinstance(final,str) and len(final.strip())>=200 and packet['target_sha256'] in final and set(steps)<={'user_input','agent_response'} and all(not r.get('is_error') and r.get('status')!='ERROR' for r in results))
+# A context checkpoint is transport compaction, not a repository/tool action.
+# Its presence remains explicit and still requires manual coverage adjudication.
+record['context_checkpoint_observed']='checkpoint' in steps
+valid=(code==0 and len(results)==len(messages) and isinstance(final,str) and len(final.strip())>=200 and packet['target_sha256'] in final and set(steps)<={'user_input','agent_response','checkpoint'} and all(not r.get('is_error') and r.get('status')!='ERROR' for r in results))
 if valid:
  (a.out/'REPORT.md').write_bytes((final+'\n').encode('utf-8'));record['report_sha256']=sha((a.out/'REPORT.md').read_bytes())
 record.update(status='report_returned_pending_manual_coverage_validation' if valid else 'unavailable_or_incomplete',exit_code=code,seconds=round(time.monotonic()-started,2),result_events=len(results),invalid_stdout_lines=invalid_lines,observed_step_types=steps,client_init_metadata=[e['init'] for e in events if isinstance(e,dict) and e.get('event')=='init' and 'init' in e],responses=responses,scope_limit='Complete input delivery and report return are not proof of full reading; inspect all turn reports, unread/compacted context and final cross-part analysis before importing.')

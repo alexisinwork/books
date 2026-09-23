@@ -4,11 +4,11 @@
   "book_id": "book-01",
   "title": "Контакт",
   "book_type": "fiction",
-  "stage": "drafting",
+  "stage": "working_revision_complete",
   "master": null,
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "full_diagnosis_complete_revision_required_opus_partial",
+  "audit_status": "compatible_revision_verified_opus_availability_exception",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -24,26 +24,27 @@
   "execution_entry": "production/2026-09-21-book01/progress.json",
   "draft_scope": {
     "chapter": 33,
-    "whole_book_ready": false,
+    "whole_book_ready": true,
     "whole_series_ready": false,
     "prose_started": true,
     "execution": "production/2026-09-21-book01/ASTRA-FINAL-BLOCK-31-33.md",
-    "whole_book_written": true
+    "whole_book_written": true,
+    "readiness_scope": "Complete corrected working volume; publication/authorcanonical approval not implied"
   },
   "working_revision": {
-    "path": "production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
-    "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b",
+    "path": "revisions/2026-09-23-author-revision-v4/manuscript.md",
+    "sha256": "32d70ac6e9dc3c523ee7a8fcd38db28f26aa77d5cd1908fa19f8eeb51f61b89f",
     "format": "md",
     "language": "uk",
-    "status": "complete_working_draft_not_author_selected",
+    "status": "revised_working_volume_author_requested_continuation_basis",
     "scope": "whole_volume_33chapters",
-    "observed_state": "production/2026-09-21-book01/observed-full-volume-end-state.json"
+    "observed_state": "revisions/2026-09-23-author-revision-v4/observed-state.json"
   },
   "working_volume": {
-    "manifest": "production/2026-09-21-book01/working-volume.json",
+    "manifest": "revisions/2026-09-23-author-revision-v4/assembly.json",
     "chapters": 33,
-    "status": "complete_working_draft_global_diagnosis_done_author_revision_pending"
+    "status": "complete_corrected_working_volume"
   },
-  "active_workflow": "production/2026-09-21-book01/WORKFLOW-ASTRA-FULL-BOOK-2026-09-23.md",
-  "current_writer": "Astra"
+  "active_workflow": "../../series/WORKFLOW-2026-09-23-REVISION-AND-BOOK02.md",
+  "current_writer": "Terra (revision); source prose Sol and Astra"
 }

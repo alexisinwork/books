@@ -1,0 +1,18 @@
+{
+  "command": [
+    "codex",
+    "exec",
+    "--ignore-user-config",
+    "--skip-git-repo-check",
+    "--ephemeral",
+    "--sandbox",
+    "read-only",
+    "--model",
+    "gpt-5.6-terra",
+    "--json",
+    "-"
+  ],
+  "exit_code": 0,
+  "purpose": "Fresh-context reviewer availability; no manuscript submitted",
+  "actual_backend": "not independently attested"
+}

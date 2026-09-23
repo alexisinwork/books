@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "revision_id": "2026-09-23-author-revision-v4",
+  "status": "final_targeted_native_astra_grammar_fix_candidate",
+  "source": {
+    "path": "../2026-09-23-author-revision-v3/manuscript.md",
+    "sha256": "11a898f30d29ef3e8fcd0284cc77851861605e3c660c0a21b298a5c68010b5dc",
+    "frozen": true
+  },
+  "output": {
+    "path": "manuscript.md",
+    "sha256": "32d70ac6e9dc3c523ee7a8fcd38db28f26aa77d5cd1908fa19f8eeb51f61b89f",
+    "encoding": "UTF-8",
+    "line_endings": "LF"
+  },
+  "authority": {
+    "report": "../2026-09-23-final-native-astra/REPORT.md",
+    "finding": "CH17P01337 grammar regression"
+  },
+  "change": {
+    "chapter": 17,
+    "anchor": "P01337",
+    "exact_before": "Це нічого не свідчило про те, для чого я їх використаю далі.",
+    "exact_after": "Це нічого не говорило про те, для чого я їх використаю далі.",
+    "occurrences_in_source": 1,
+    "occurrences_in_output": 1
+  },
+  "scope": "Only this exact sentence changed from v3."
+}

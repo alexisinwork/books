@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "revision_id": "2026-09-23-author-revision-v2",
+  "status": "intermediate_authorized_package_applied_not_final_historical_closure",
+  "execution": {
+    "model_requested": "gpt-5.6-terra",
+    "context": "fresh",
+    "review_claims": "No claim of four-review coverage. This is an authorized implementation and verification record."
+  },
+  "source": {
+    "path": "../2026-09-23-author-revision/manuscript.md",
+    "sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+    "frozen": true
+  },
+  "authorized_package": {
+    "path": "../2026-09-23-author-revision-verification/exact-replacements.json",
+    "sha256": "84a5fce3a63a0048eff2ade91ecbf7048b126a010301823c628eeb6dde66d023",
+    "changes": 11
+  },
+  "output": {
+    "path": "manuscript.md",
+    "sha256": "6f6400355be03ea05f32cb5362d3a1518313e515838b701bf4b3f439c6a11589",
+    "encoding": "UTF-8",
+    "line_endings": "LF"
+  },
+  "changes": [
+    {
+      "id": "RV-01",
+      "anchor": "P01357",
+      "exact_before": "Перші два записи лишали інші дії доступними: нейтральна дія ставилася першою, а різке звернення Гора отримувало нейтральне перефразування перед завершенням. Прямий варіант, підтвердження Майї й її зупинка зберігалися. Це можна було прочитати як зменшення навантаження; так воно й було написано.",
+      "approved_exact_after": "Перші два записи лишали інші дії доступними: нейтральна дія ставилася першою, а різкі або конфліктні відповіді Майї на звернення Гора отримували нейтральне перефразування перед завершенням. Прямий варіант, підтвердження Майї й її зупинка зберігалися. Це можна було прочитати як зменшення навантаження; так воно й було написано.",
+      "applied_exact_after": "Перші два записи лишали інші дії доступними: нейтральна дія ставилася першою, а різкі або конфліктні відповіді Майї на звернення Гора отримували нейтральне перефразування перед завершенням. Прямий варіант, підтвердження Майї й її зупинка зберігалися. Це можна було прочитати як зменшення навантаження; так воно й було написано.",
+      "rationale": "Restore record02 subject: Maya replies, not Gor messages.",
+      "dependencies": [
+        "CH16 P01321",
+        "CH17 knowledge"
+      ],
+      "necessity": "required_factual_regression"
+    },
+    {
+      "id": "RV-02a",
+      "anchor": "P01614",
+      "exact_before": "— Я запросила саме вас не за поясненням, — сказала Майя. — Ви вже бачили, що робите, коли вважаєте чуже «ні» матеріалом для своєї перевірки. Якщо знову почнете вирішувати за мене, я зупиню вікно. Мені треба побачити, чи можу сказати щось прямо в такому вузькому контакті, а не повернути вам довіру.",
+      "approved_exact_after": "— Ви вже бачили цей збій, — сказала Майя. — Я не хочу сьогодні знову починати з Гора й пояснювати все спочатку. Якщо знову почнете вирішувати за мене, я зупиню вікно. Мені треба спробувати відповісти прямо. Це не означає, що я знову вам довіряю.",
+      "applied_exact_after": "— Ви вже бачили цей збій, — сказала Майя. — Я не хочу сьогодні знову починати з Гора й пояснювати все спочатку. Якщо знову почнете вирішувати за мене, я зупиню вікно. Мені треба спробувати відповісти прямо. Це не означає, що я знову вам довіряю.",
+      "rationale": "Give Maya a practical reason for this limited contact; preserve stop and lack of renewed trust.",
+      "dependencies": [
+        "RV-02b",
+        "RV-02c",
+        "CH23-24",
+        "ASTRA-F06"
+      ],
+      "necessity": "recommended_compatible_literary_fix"
+    },
+    {
+      "id": "RV-02b",
+      "anchor": "P01627",
+      "exact_before": "— Я не пояснюватиму, чому запросила вас знову, — сказала вона.",
+      "approved_exact_after": "— Більше я не пояснюватиму, чому запросила вас знову, — сказала вона.",
+      "applied_exact_after": "— Більше я не пояснюватиму, чому запросила вас знову, — сказала вона.",
+      "rationale": "Acknowledge explanation already given while retaining her refusal to disclose more.",
+      "dependencies": [
+        "RV-02a",
+        "RV-02c"
+      ],
+      "necessity": "required_scene_stitch"
+    },
+    {
+      "id": "RV-02c",
+      "anchor": "P01635",
+      "exact_before": "— Мені не подобається, що ви не поясните.",
+      "approved_exact_after": "— Мені не подобається, що ви не поясните більше.",
+      "applied_exact_after": "— Мені не подобається, що ви не поясните більше.",
+      "rationale": "Acknowledge partial explanation; retain negative wording so Maya next reply with теж remains coherent.",
+      "dependencies": [
+        "RV-02b",
+        "P01637"
+      ],
+      "necessity": "required_scene_stitch"
+    },
+    {
+      "id": "RV-03a",
+      "anchor": "P01180",
+      "exact_before": "Майя запустила новий тимчасовий сеанс. На моєму екрані з’явилися тільки чотири рядки: статус пропозиції, час переходу, правило повторного відкриття й затримка перед нейтральним перефразуванням. Поруч із останнім був регулятор. Звичайний сервісний інструмент не розділяв перегляд і керування на різні екрани: для обслуговування його перевіряли й налаштовували з одного місця. Але мандат цього сеансу розділяв їх однозначно. Я міг бачити регулятор, не міг торкатися його.",
+      "approved_exact_after": "Майя запустила новий тимчасовий сеанс. На моєму екрані з’явилися тільки чотири рядки: статус пропозиції, час переходу, правило повторного відкриття й затримка перед нейтральним перефразуванням. Поруч із останнім був регулятор. Сервісний доступ відкривав перегляд і керування разом. Мандат сеансу записував дозволені дії, але не блокував решту регуляторів. Мій дозволяв лише перегляд. Я міг бачити регулятор, не міг торкатися його.",
+      "applied_exact_after": "Майя запустила новий тимчасовий сеанс. На моєму екрані з’явилися тільки чотири рядки: статус пропозиції, час переходу, правило повторного відкриття й затримка перед нейтральним перефразуванням. Поруч із останнім був регулятор. Сервісний доступ відкривав перегляд і керування разом. Мандат сеансу записував дозволені дії, але не блокував решту регуляторів. Мій дозволяв лише перегляд. Регулятор був активний. Торкатися його я не мав права.",
+      "rationale": "Name registered mandate versus technical action blocking, not shared screen as explanation.",
+      "dependencies": [
+        "RV-03b",
+        "CH14 violation and user stop"
+      ],
+      "necessity": "needed_causal_clarification",
+      "editorial_choice": {
+        "authorized_editorial_choice": true,
+        "replaced_package_phrase": "Я міг бачити регулятор, не міг торкатися його.",
+        "applied_phrase": "Регулятор був активний. Торкатися його я не мав права.",
+        "reason": "Clarifies technical ability versus the session mandate."
+      }
+    },
+    {
+      "id": "RV-03b",
+      "anchor": "P01889",
+      "exact_before": "Вона могла б залишити емоційне посередництво вимкненим після вікна. Інструмент дозволяв записати це й мені: сервісна дія існувала для технічного відновлення й перевірки, а не як дозвіл визначати її постійний стан. Окремого дозволу Майї для натискання він не вимагав.",
+      "approved_exact_after": "Вона могла б залишити емоційне посередництво вимкненим після вікна. Інструмент дозволяв записати це й мені. Постійний запис входив до сервісного доступу; мандат цього вікна дозволяв лише тимчасове вимкнення. Окремого дозволу Майї для натискання він не вимагав.",
+      "applied_exact_after": "Вона могла б залишити емоційне посередництво вимкненим після вікна. Інструмент дозволяв записати це й мені. Постійний запис входив до сервісного доступу; мандат цього вікна дозволяв лише тимчасове вимкнення. Окремого дозволу Майї для натискання він не вимагав.",
+      "rationale": "Apply the same technical capability principle without granting new rights.",
+      "dependencies": [
+        "RV-03a",
+        "CH27 user decision and restoration"
+      ],
+      "necessity": "needed_causal_clarification"
+    },
+    {
+      "id": "RV-04a",
+      "anchor": "P01760",
+      "exact_before": "Я міг запропонувати вужчу роботу: окремо змінити правило, за яким відмова без причини ставала відкладенням, і не торкатися посередництва. Це було видиме в архіві виправлення, не технічна неможливість. Але пропозиція мала лишитися пропозицією.",
+      "approved_exact_after": "Я міг запропонувати вужчу роботу: окремо змінити правило, за яким відмова без причини ставала відкладенням, і залишити посередництво ввімкненим. Але пропозиція мала лишитися пропозицією.",
+      "applied_exact_after": "Я міг запропонувати вужчу роботу: окремо змінити правило, за яким відмова без причини ставала відкладенням, і залишити посередництво ввімкненим. Але пропозиція мала лишитися пропозицією.",
+      "rationale": "Remove reviewer-facing aside and distinguish changing one rule from switching mediation off.",
+      "dependencies": [
+        "P01761",
+        "RV-04b",
+        "ASTRA-F01"
+      ],
+      "necessity": "recommended_compatible_literary_fix"
+    },
+    {
+      "id": "RV-04b",
+      "anchor": "P01763",
+      "exact_before": "> Не зараз. Я не хочу лагодити тільки місце, де воно мене повертає. Хочу зрозуміти, що лишиться, якщо воно взагалі перестане вирішувати, коли мені досить готовності. Це не рішення вимикати його. Це питання про ширший вибір.",
+      "approved_exact_after": "> Не зараз. Я не хочу лагодити тільки місце, де воно мене повертає. Хочу зрозуміти, що лишиться, якщо воно взагалі перестане вирішувати, коли я вже готова відповісти. Це не рішення вимикати його.",
+      "applied_exact_after": "> Не зараз. Я не хочу лагодити тільки місце, де воно мене повертає. Хочу зрозуміти, що лишиться, якщо воно взагалі перестане вирішувати, коли я вже готова відповісти. Це не рішення вимикати його.",
+      "rationale": "Naturalize readiness phrase, remove abstract wider-choice label, preserve no consent to switch off.",
+      "dependencies": [
+        "RV-04a",
+        "CH26-27"
+      ],
+      "necessity": "recommended_compatible_literary_fix"
+    },
+    {
+      "id": "RV-05",
+      "anchor": "P00615",
+      "exact_before": "— Дев’яносто секунд максимум, — сказав я. — Побутові функції активні весь час. Початок тільки після окремого підтвердження в момент сеансу. Зупинка голосом або контролем користувачки. Після «стоп» вимір припиняється, попереднє посередництво повертається без додаткових секунд. Якщо даних недостатньо, висновку немає. Повернення не означає невдачі й не створює обов’язку повторювати тест.",
+      "approved_exact_after": "— Після «стоп» повертаю посередництво одразу, без висновку з незавершеного заміру. І це не зобов’язує її повторювати тест.",
+      "applied_exact_after": "— Після «стоп» повертаю посередництво одразу, без висновку з незавершеного заміру. І це не зобов’язує її повторювати тест.",
+      "rationale": "Shorten only oral recap; preserve grammatical antecedent for Tikhon next addition.",
+      "dependencies": [
+        "P00616",
+        "P00627 unchanged full risk letter",
+        "P00630 unchanged Maya consent",
+        "ASTRA-F05"
+      ],
+      "necessity": "recommended_compatible_literary_fix"
+    },
+    {
+      "id": "RV-06a",
+      "anchor": "P00787",
+      "exact_before": "— Поки що ви записали.",
+      "approved_exact_after": "— Я подивлюся завтра.",
+      "applied_exact_after": "— Я подивлюся завтра.",
+      "rationale": "Give Maya a practical future test instead of repeating Tikhon aphorism.",
+      "dependencies": [
+        "RV-06b",
+        "P00623 unchanged Tikhon",
+        "ENS-015"
+      ],
+      "necessity": "recommended_compatible_literary_fix"
+    },
+    {
+      "id": "RV-06b",
+      "anchor": "P00788",
+      "exact_before": "Я впізнав Тихонову інтонацію й не сказав про це. Майя набрала повідомлення сама. Я не бачив тексту й не питав, чи вона його надіслала.",
+      "approved_exact_after": "Майя набрала повідомлення сама. Я не бачив тексту й не питав, чи вона його надіслала.",
+      "applied_exact_after": "Майя набрала повідомлення сама. Я не бачив тексту й не питав, чи вона його надіслала.",
+      "rationale": "Remove now unsupported recognition of Tikhon intonation; retain privacy and agency.",
+      "dependencies": [
+        "RV-06a",
+        "ENS-015"
+      ],
+      "necessity": "recommended_compatible_literary_fix"
+    }
+  ],
+  "no_change_findings": [
+    "ASTRA-F02: motivation adequate, retain new P02191",
+    "ASTRA-F03: motivation adequate, retain new P02244"
+  ],
+  "scope_boundary": "The separate adjudication of 374 historical issues remains pending. This v2 intermediate revision does not assert that those issues are closed.",
+  "continuity_observations": [
+    "CH17 direction restored through neutral paraphrasing of Maya's replies to Gor; Dal's narrower proposal belongs to CH25.",
+    "CH22 agency retained through Maya's own criterion: practical familiar context and new limits; this finding does not rest on CH7 message text.",
+    "CH14 and CH27 distinguish logged mandate from technical controls.",
+    "CH5 oral recap compressed while full consent remains in unchanged material.",
+    "CH7 dialogue gives Maya her own practical future-facing line, but is not the basis for the CH22 observation."
+  ]
+}

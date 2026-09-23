@@ -787,6 +787,30 @@
         "docx_pages": 97,
         "publication_ready": false
       }
+    },
+    {
+      "id": "book01-all-reviews-20260923-v4",
+      "reason": "Explicit author request: correct firstbookaccordingtoallreviews/questions andcontinuebook2",
+      "decision": "compatible_coordinator_package_applied_under_bulk_authorization_not_individual_author_votes",
+      "old_source": {
+        "path": "production/2026-09-21-book01/readers/full-33-astra-v1/manuscript.md",
+        "sha256": "ea8726f18d1a00625d4a262ba03c54667fb6bd98365cd59063e51e41e372f29b"
+      },
+      "new_source": {
+        "path": "revisions/2026-09-23-author-revision-v4/manuscript.md",
+        "sha256": "32d70ac6e9dc3c523ee7a8fcd38db28f26aa77d5cd1908fa19f8eeb51f61b89f",
+        "format": "md",
+        "language": "uk",
+        "status": "revised_working_volume_author_requested_continuation_basis",
+        "scope": "whole_volume_33chapters",
+        "observed_state": "revisions/2026-09-23-author-revision-v4/observed-state.json"
+      },
+      "changes": "revisions/2026-09-23-integration/complete-revision.diff",
+      "decisions": "revisions/2026-09-23-integration/full-volume-dispositions.md",
+      "historical_ids": "revisions/2026-09-23-integration/historical-final-v4-evidence.json",
+      "dependencies": "revisions/2026-09-23-author-revision-v4/dependency-sync.json",
+      "verification": "revisions/2026-09-23-author-revision-v4/final-verification.json",
+      "master_promoted": false
     }
   ]
 }

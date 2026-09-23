@@ -1,0 +1,1677 @@
+{
+  "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+  "status": "proposed_not_applied; reconcile with parallel full-review package before use",
+  "corrections": [
+    {
+      "id": "CH01-SOL-V1-ENS-001",
+      "chapter": 1,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Система запропонує нейтральну репліку, — пояснив я. — Ви введете фразу",
+      "after": "Ви введете фразу",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Тест використовує клієнтську фразу; зайва обіцянка нейтральної репліки порушує опис процедури.",
+      "current_evidence": [
+        {
+          "chapter": 1,
+          "anchor": "CB0066",
+          "quote": "— Система запропонує нейтральну репліку, — пояснив я. — Ви введете фразу, на яку вам важко відповісти. Я її не побачу. Потім пристрій відтворить фразу, а ви відповісте вголос. Компаньйон має мовчати, доки ви самі його не викличете."
+        }
+      ],
+      "issue_ids": [
+        "CH01-SOL-V1-ENS-001"
+      ]
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-003",
+      "chapter": 3,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Вона поклала долоні на стіл, не торкаючись світлої смуги.",
+      "after": "Вона поклала долоні на стіл, не торкаючись смуги.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Після згасання «світлої» може читатися як повторне світіння без сигналу; нейтральне позначення прибирає двозначність.",
+      "current_evidence": [
+        {
+          "chapter": 3,
+          "anchor": "CB0094",
+          "quote": "Майя сіла навпроти. Продукти було розкладено; між нами залишилася миска з яблуками. Вона поклала долоні на стіл, не торкаючись світлої смуги."
+        }
+      ],
+      "issue_ids": [
+        "CH03-SOL-V1-ENS-003"
+      ]
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-005",
+      "chapter": 3,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "У попередній вечір",
+      "after": "Попереднього вечора",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Природніше назвати час без зайвого прийменникового звороту.",
+      "current_evidence": [
+        {
+          "chapter": 3,
+          "anchor": "CB0037",
+          "quote": "У попередній вечір така відповідь здалася б мені відхиленням від питання. Тепер я принаймні знав, що вона бачить межу точніше, ніж Гор описував її стан."
+        }
+      ],
+      "issue_ids": [
+        "CH03-SOL-V1-ENS-005"
+      ]
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-007",
+      "chapter": 3,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": " Вона використала його, щоб відкласти чужу відповідь, позначити паузу й закінчити зустріч тоді, коли вирішила сама.",
+      "after": "",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Другий підсумок трьох щойно показаних функцій послаблює короткий висновок про хибну гіпотезу; прибрати тільки повторний перелік.",
+      "current_evidence": [
+        {
+          "chapter": 3,
+          "anchor": "CB0164",
+          "quote": "На сходах я перевірив час. Зустріч тривала сорок три хвилини. Майя жодного разу не попросила повернути її до попереднього стану, не назвала супроводження пасткою й не поводилася так, ніби не розуміла, що воно робить. Вона використала його, щоб відкласти чужу відповідь, позначити паузу й закінчити зустріч тоді, коли вирішила сама."
+        }
+      ],
+      "issue_ids": [
+        "CH03-SOL-V1-ENS-007"
+      ]
+    },
+    {
+      "id": "CH03-SOL-V1-ENS-008",
+      "chapter": 3,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Між нами з’явилася тонка риска, що повільно коротшала.",
+      "after": "На столі між нами з’явилася тонка риска, що повільно коротшала.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Технологічна риска може здаватися завислою в повітрі; стіл уже встановлений.",
+      "current_evidence": [
+        {
+          "chapter": 3,
+          "anchor": "CB0076",
+          "quote": "Світла смуга на столі спалахнула бурштиновим. Не попередження й не готова репліка — знак паузи. Майя поклала на неї два пальці. Між нами з’явилася тонка риска, що повільно коротшала."
+        }
+      ],
+      "issue_ids": [
+        "CH03-SOL-V1-ENS-008"
+      ]
+    },
+    {
+      "id": "CH04-SOL-V1-ENS-001",
+      "chapter": 4,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "кому саме воно належало",
+      "after": "кому саме він належав",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Безпосередній референт — час, чоловічий рід.",
+      "current_evidence": [
+        {
+          "chapter": 4,
+          "anchor": "CB0010",
+          "quote": "Цього разу я не став пояснювати, кому саме воно належало."
+        }
+      ],
+      "issue_ids": [
+        "CH04-SOL-V1-ENS-001"
+      ]
+    },
+    {
+      "id": "CH04-SOL-V1-ENS-002",
+      "chapter": 4,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "зворотної калібровки",
+      "after": "зворотного калібрування",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "У двох листах одна процедура має бути узгоджена з калібруванням.",
+      "current_evidence": [
+        {
+          "chapter": 4,
+          "anchor": "CB0039",
+          "quote": "> Перегляд завершено. Дані показують, що ви не лише продовжуєте режим, а й змінюєте та скасовуєте підтвердження. Вони не показують причин повернення. Якщо ви захочете перевірити саме це, я пропоную окремий короткий сеанс зворотної калібровки: обмежений час без емоційного посередництва, з вашим правом зупинити перевірку й повернути режим негайно. Це нова пропозиція, не продовження сьогоднішнього дозволу."
+        }
+      ],
+      "issue_ids": [
+        "CH04-SOL-V1-ENS-002"
+      ]
+    },
+    {
+      "id": "CH04-SOL-V1-ENS-002",
+      "chapter": 4,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "зворотну калібровку",
+      "after": "зворотне калібрування",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "У двох листах одна процедура має бути узгоджена з калібруванням.",
+      "current_evidence": [
+        {
+          "chapter": 4,
+          "anchor": "CB0048",
+          "quote": "> Узагальнене професійне запитання. Доросла користувачка свідомо підтримує глибоке емоційне посередництво. Розглядаю коротку зворотну калібровку лише за окремою згодою користувачки, з її правом зупинки. Потрібна загальна оцінка ризику до будь-якої спроби. Чи можете поговорити сьогодні?"
+        }
+      ],
+      "issue_ids": [
+        "CH04-SOL-V1-ENS-002"
+      ]
+    },
+    {
+      "id": "CH04-SOL-V1-ENS-003",
+      "chapter": 4,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Я не назвав часи,",
+      "after": "Я не назвав позначок часу,",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "У переліку приватних даних потрібні часові позначки, а не множина епох.",
+      "current_evidence": [
+        {
+          "chapter": 4,
+          "anchor": "CB0049",
+          "quote": "Імені Майї не було. Гора теж. Я не назвав часи, кількість рядків, адресу, структуру профілю або старий шаблон. Узагальнений випадок міг належати будь-кому з тих, хто обирав підтримку не вперше."
+        }
+      ],
+      "issue_ids": [
+        "CH04-SOL-V1-ENS-003"
+      ]
+    },
+    {
+      "id": "CH04-SOL-V1-ENS-006",
+      "chapter": 4,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "У межах були тільки підтвердження",
+      "after": "Доступ охоплював тільки підтвердження",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Назвати межі доступу прямо, не збільшуючи дозволу.",
+      "current_evidence": [
+        {
+          "chapter": 4,
+          "anchor": "CB0012",
+          "quote": "Джерелом був її особистий контур. Отримувачем — я. Доступ відкривався рівно о десятій і закривався о десятій двадцять. Один перегляд, без права зберігати копію або передавати результат. У межах були тільки підтвердження чинного режиму від учорашнього ранку: час і тип дії — продовжити, змінити або скасувати. Без текстів, адресатів, назв функцій і керування."
+        }
+      ],
+      "issue_ids": [
+        "CH04-SOL-V1-ENS-006"
+      ]
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-002",
+      "chapter": 5,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "— Так.\n\n— Ви цього не знаєте з мого питання, — сказав я.",
+      "after": "— Так. Ви цього не знаєте з мого питання, — сказав я.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Обидві репліки належать Далеві після доповнення Тихона; об’єднати, щоб друге тире не вводило нового мовця.",
+      "current_evidence": [
+        {
+          "chapter": 5,
+          "anchor": "CB0077",
+          "quote": "— Так."
+        }
+      ],
+      "issue_ids": [
+        "CH05-SOL-V1-ENS-002"
+      ]
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-003",
+      "chapter": 5,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "розв’язати різницю",
+      "after": "встановити цю різницю",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Сеанс може встановити різницю, але не розв’язати її.",
+      "current_evidence": [
+        {
+          "chapter": 5,
+          "anchor": "CB0069",
+          "quote": "— Якщо після прямої репліки вона просить повернути посередництво, — продовжив він, — це не доказ, що прямий контакт був фальшивим. І не провал. Можливо, підтримка допомагає їй лишитися в розмові. Можливо, допомагає уникнути її. Один короткий сеанс не зобов’язаний розв’язати різницю."
+        }
+      ],
+      "issue_ids": [
+        "CH05-SOL-V1-ENS-003"
+      ]
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-004",
+      "chapter": 5,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Моя рука вже лежала на керуванні.",
+      "after": "Моя рука вже лежала на кнопці повернення.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Рука лежить на предметному елементі, не на абстрактному керуванні; достатня одна точкова конкретизація.",
+      "current_evidence": [
+        {
+          "chapter": 5,
+          "anchor": "CB0031",
+          "quote": "Моя рука вже лежала на керуванні. Я повернув посередництво. Графік обірвався на півлінії, підсумок залишився порожнім."
+        }
+      ],
+      "issue_ids": [
+        "CH05-SOL-V1-ENS-004"
+      ]
+    },
+    {
+      "id": "CH05-SOL-V1-ENS-005",
+      "chapter": 5,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "синтетичний сигнал тільки почав давати форму",
+      "after": "синтетичний сигнал тільки почав набувати виразних обрисів",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Невідомо, що саме сигнал дає; назвати формування обрисів самого сигналу.",
+      "current_evidence": [
+        {
+          "chapter": 5,
+          "anchor": "CB0029",
+          "quote": "На дванадцятій секунді синтетичний сигнал тільки почав давати форму. Ще три-чотири секунди — і можна було б відрізнити випадковий стрибок від першої реакції."
+        }
+      ],
+      "issue_ids": [
+        "CH05-SOL-V1-ENS-005"
+      ]
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-001",
+      "chapter": 6,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "робити цю різницю самій",
+      "after": "самій вас розрізняти",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Йдеться про розрізнення людей, а не виготовлення різниці.",
+      "current_evidence": [
+        {
+          "chapter": 6,
+          "anchor": "CB0061",
+          "quote": "— Я знаю, що ви не Гор, — сказала Майя. — Зараз мені доводиться робити цю різницю самій після кожного вашого речення."
+        }
+      ],
+      "issue_ids": [
+        "CH06-SOL-V1-ENS-001"
+      ]
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-002",
+      "chapter": 6,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Її рука вже була біля власного контролю.",
+      "after": "Інша її рука вже була біля кнопки повернення.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Одночасно уточнити фізичну кнопку й іншу руку, залишивши пальці першої на банці.",
+      "current_evidence": [
+        {
+          "chapter": 6,
+          "anchor": "CB0062",
+          "quote": "Її рука вже була біля власного контролю."
+        }
+      ],
+      "issue_ids": [
+        "CH06-SOL-V1-ENS-002",
+        "CH06-SOL-V1-ENS-004"
+      ]
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-003",
+      "chapter": 6,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "хотіти залишити супроводження",
+      "after": "хотіти зберегти супроводження",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Майя хоче зберегти підтримку; прибрати можливе протилежне прочитання.",
+      "current_evidence": [
+        {
+          "chapter": 6,
+          "anchor": "CB0044",
+          "quote": "— Я питаю, чи ви повірите, що я можу хотіти залишити супроводження."
+        }
+      ],
+      "issue_ids": [
+        "CH06-SOL-V1-ENS-003"
+      ]
+    },
+    {
+      "id": "CH06-SOL-V1-ENS-010",
+      "chapter": 6,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "яку я впізнав із попередньої зустрічі",
+      "after": "яку я пам’ятав із попередньої зустрічі",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Предмет пам’ятають з попереднього візиту; природніше передати пам’ять без зайвого «впізнав із».",
+      "current_evidence": [
+        {
+          "chapter": 6,
+          "anchor": "CB0002",
+          "quote": "Майя відчинила майже одразу. В одній руці вона тримала скляну банку, у другій — паперову упаковку чаю, яку я впізнав із попередньої зустрічі."
+        }
+      ],
+      "issue_ids": [
+        "CH06-SOL-V1-ENS-010"
+      ]
+    },
+    {
+      "id": "CH08-SOL-V1-ENS-001",
+      "chapter": 8,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Ви хочете сильніше прибрати оригінал?",
+      "after": "Ви хочете приховати оригінал?",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Прибрати ступінь дії, який без потреби припускає наявне приховування оригіналу.",
+      "current_evidence": [
+        {
+          "chapter": 8,
+          "anchor": "CB0021",
+          "quote": "— Ви хочете сильніше прибрати оригінал?"
+        }
+      ],
+      "issue_ids": [
+        "CH08-SOL-V1-ENS-001"
+      ]
+    },
+    {
+      "id": "CH08-SOL-V1-ENS-005",
+      "chapter": 8,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Тихон запропонував уголос і Майя погодила вголос",
+      "after": "Тихон запропонував уголос і Майя погодила",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Обидві дії відбулися вголос; другий прислівник не додає способу чи доказу.",
+      "current_evidence": [
+        {
+          "chapter": 8,
+          "anchor": "CB0034",
+          "quote": "У каналі з’явилася тільки службова позначка: «Картку надіслано користувачці». Самого тексту я не бачив. Умови знав із того, що Тихон запропонував уголос і Майя погодила вголос. Доступу до її налаштувань картка не давала."
+        }
+      ],
+      "issue_ids": [
+        "CH08-SOL-V1-ENS-005"
+      ]
+    },
+    {
+      "id": "CH09-SOL-V1-ENS-002",
+      "chapter": 9,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Я поставив палець на ручний контроль",
+      "after": "Я поставив палець на кнопку ручного повернення",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Фізичний палець спирається на кнопку; конкретизувати першу згадку, решту технічних повернень зберегти.",
+      "current_evidence": [
+        {
+          "chapter": 9,
+          "anchor": "CB0015",
+          "quote": "Позначка емоційного посередництва згасла. Побутовий шар лишився зеленим. На моєму екрані не було графіка — тільки активне вікно, готове повернення й автоматичне завершення на межі. Я поставив палець на ручний контроль і більше на екран не дивився."
+        }
+      ],
+      "issue_ids": [
+        "CH09-SOL-V1-ENS-002"
+      ]
+    },
+    {
+      "id": "CH09-SOL-V1-ENS-004",
+      "chapter": 9,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Вона прочитала щось на своєму боці.",
+      "after": "Майя прочитала щось на своєму боці.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Смуга та Майя жіночого роду, тому назвати читачку прямо.",
+      "current_evidence": [
+        {
+          "chapter": 9,
+          "anchor": "CB0039",
+          "quote": "Світла смуга перед Майєю засвітилася білим, потім повернула звичайний колір. Вона прочитала щось на своєму боці. Я не бачив тексту."
+        }
+      ],
+      "issue_ids": [
+        "CH09-SOL-V1-ENS-004"
+      ]
+    },
+    {
+      "id": "CH10-SOL-V1-ENS-001",
+      "chapter": 10,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "нові доступи не надано",
+      "after": "нових доступів не надано",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Безособове заперечення надання потребує природнішого родового.",
+      "current_evidence": [
+        {
+          "chapter": 10,
+          "anchor": "CB0027",
+          "quote": "> Готується додатковий особистий супровід оператора. До підключення нові доступи не надано."
+        }
+      ],
+      "issue_ids": [
+        "CH10-SOL-V1-ENS-001"
+      ]
+    },
+    {
+      "id": "CH10-SOL-V1-ENS-002",
+      "chapter": 10,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "У цьому розрахунку не було місця, звідки я повернувся. Не було запитання Майї, моєї відповіді чи її обличчя. ",
+      "after": "",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Після системного переліку джерел повтор місця, питання й обличчя зайвий; лишити фактичну підставу розрахунку.",
+      "current_evidence": [
+        {
+          "chapter": 10,
+          "anchor": "CB0029",
+          "quote": "У цьому розрахунку не було місця, звідки я повернувся. Не було запитання Майї, моєї відповіді чи її обличчя. Для підготовки допомоги панель використала тільки те, що я сам не підтвердив звичну готовність і відмовився від пояснення, яке зробило б відповідь завершеною."
+        }
+      ],
+      "issue_ids": [
+        "CH10-SOL-V1-ENS-002",
+        "CH10-SOL-V1-ENS-011"
+      ]
+    },
+    {
+      "id": "CH10-SOL-V1-ENS-008",
+      "chapter": 10,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "на нижній яскравості",
+      "after": "на мінімальній яскравості",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Нижня яскравість звучить як просторовий рівень; потрібен ступінь освітлення.",
+      "current_evidence": [
+        {
+          "chapter": 10,
+          "anchor": "CB0004",
+          "quote": "До квартири я дістався ще до шостої. Світло в передпокої ввімкнулося на нижній яскравості. Температура була тією самою, що завжди. Я повісив куртку, вимив руки й тільки тоді поклав пристрій на кухонний стіл."
+        }
+      ],
+      "issue_ids": [
+        "CH10-SOL-V1-ENS-008"
+      ]
+    },
+    {
+      "id": "CH10-SOL-V1-ENS-013",
+      "chapter": 10,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Один дотик закрив би день і зберіг звичайне автоматичне підтвердження вільного робочого слота.",
+      "after": "Один дотик закрив би день, і вільний робочий слот знову підтверджувався б автоматично.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Довгий іменниковий ланцюг можна замінити дієсловом без зміни наслідку.",
+      "current_evidence": [
+        {
+          "chapter": 10,
+          "anchor": "CB0018",
+          "quote": "Можна було натиснути «підтверджую» без тексту. Система не вимагала доказів. Один дотик закрив би день і зберіг звичайне автоматичне підтвердження вільного робочого слота."
+        }
+      ],
+      "issue_ids": [
+        "CH10-SOL-V1-ENS-013"
+      ]
+    },
+    {
+      "id": "CH11-SOL-V1-ENS-006",
+      "chapter": 11,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Я повернув нагрів.",
+      "after": "Я знову ввімкнув нагрів.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Повторне ввімкнення приладу точніше за повернення стану.",
+      "current_evidence": [
+        {
+          "chapter": 11,
+          "anchor": "CB0019",
+          "quote": "Я повернув нагрів."
+        }
+      ],
+      "issue_ids": [
+        "CH11-SOL-V1-ENS-006"
+      ]
+    },
+    {
+      "id": "CH11-SOL-V1-ENS-008",
+      "chapter": 11,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "разом із ним закривалися таймер і стан конфорки",
+      "after": "разом із ним закривався доступ до таймера й стану конфорки",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Закривається доступ до стану, не сам таймер чи конфорка.",
+      "current_evidence": [
+        {
+          "chapter": 11,
+          "anchor": "CB0035",
+          "quote": "На екрані відкрилися три окремі дії. Голос можна було вимкнути без втрати сервісу. Кухонний сеанс можна було завершити негайно; разом із ним закривалися таймер і стан конфорки. Мікрофон вимикався окремим закриттям картки. Повний вихід із пов’язаного особистого контуру стояв третім."
+        }
+      ],
+      "issue_ids": [
+        "CH11-SOL-V1-ENS-008"
+      ]
+    },
+    {
+      "id": "CH12-SOL-V1-ENS-002",
+      "chapter": 12,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": " У кімнату ніхто не мав прийти о цій годині, ніхто не скасовував зустріч і не чекав моєї відповіді.",
+      "after": "",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Надлишкові три заперечення можна зняти, зберігши факт відсутності призначення.",
+      "current_evidence": [
+        {
+          "chapter": 12,
+          "anchor": "CB0018",
+          "quote": "Вільна можливість минула без призначення. У кімнату ніхто не мав прийти о цій годині, ніхто не скасовував зустріч і не чекав моєї відповіді. Сірий слот просто перестав бути майбутнім."
+        }
+      ],
+      "issue_ids": [
+        "CH12-SOL-V1-ENS-002"
+      ]
+    },
+    {
+      "id": "CH12-SOL-V1-ENS-005",
+      "chapter": 12,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Я повернув контрольну пластину у футляр",
+      "after": "Я повернув контрольну пластину модуля у футляр",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Пластина з’являється без зв’язку з уже показаним модулем; назвати належність предмета.",
+      "current_evidence": [
+        {
+          "chapter": 12,
+          "anchor": "CB0039",
+          "quote": "Повідомлення закрилося. Я повернув контрольну пластину у футляр, але засувку з першого разу не защепнув."
+        }
+      ],
+      "issue_ids": [
+        "CH12-SOL-V1-ENS-005"
+      ]
+    },
+    {
+      "id": "CH13-SOL-V1-ENS-003",
+      "chapter": 13,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Мене цікавить, як закрити відмову.",
+      "after": "Мене цікавить, як зробити відмову остаточною.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Закривати потрібно відхилену пропозицію, а не відмову; уточнення захищає саму згоду.",
+      "current_evidence": [
+        {
+          "chapter": 13,
+          "anchor": "CB0039",
+          "quote": "— Мене цікавить, як закрити відмову. Не що ви побачили в паузі."
+        }
+      ],
+      "issue_ids": [
+        "CH13-SOL-V1-ENS-003"
+      ]
+    },
+    {
+      "id": "CH13-SOL-V2-ENS-006",
+      "chapter": 13,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Без профілю Майї я не міг знати, чи повтор створює модуль відповіді, нейтральне перефразування або правило повернення до незавершеної теми.",
+      "after": "Без профілю Майї я не міг знати, який компонент створює повтор.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Повний перелік компонентів краще лишити у відповіді Майї; ранню підготовку стиснути.",
+      "current_evidence": [
+        {
+          "chapter": 13,
+          "anchor": "CB0013",
+          "quote": "Потім відкрив загальний маршрут перевірки. Без профілю Майї я не міг знати, чи повтор створює модуль відповіді, нейтральне перефразування або правило повернення до незавершеної теми. Міг лише назвати різницю й показати, де її шукати."
+        }
+      ],
+      "issue_ids": [
+        "CH13-SOL-V2-ENS-006"
+      ]
+    },
+    {
+      "id": "CH13-SOL-V2-ENS-010",
+      "chapter": 13,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "У меті написав:",
+      "after": "У полі мети написав:",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Назвати поле мети як елемент запису, прибрати канцелярський еліпсис.",
+      "current_evidence": [
+        {
+          "chapter": 13,
+          "anchor": "CB0059",
+          "quote": "Я створив запис на завтра: 11:00, адреса Майї, не довше п’ятнадцяти хвилин. У меті написав: «спостереження за статусом відмови на прикладі користувачки»."
+        }
+      ],
+      "issue_ids": [
+        "CH13-SOL-V2-ENS-010"
+      ]
+    },
+    {
+      "id": "CH14-SOL-V1-ENS-002",
+      "chapter": 14,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "На спільній частині екрана з’явилося синтетичне запрошення:",
+      "after": "На обох екранах з’явилося синтетичне запрошення:",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Спільна частина одного екрана не узгоджена з двома пристроями; показати однакове відображення.",
+      "current_evidence": [
+        {
+          "chapter": 14,
+          "anchor": "CB0023",
+          "quote": "На спільній частині екрана з’явилося синтетичне запрошення:"
+        }
+      ],
+      "issue_ids": [
+        "CH14-SOL-V1-ENS-002"
+      ]
+    },
+    {
+      "id": "CH14-SOL-V1-ENS-003",
+      "chapter": 14,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Нікого з людей у ньому немає.",
+      "after": "Воно не стосується нікого з моїх знайомих.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Нікого з людей двозначне; синтетичний приклад не пов’язаний з особистим контактом.",
+      "current_evidence": [
+        {
+          "chapter": 14,
+          "anchor": "CB0004",
+          "quote": "— Приклад я вже вибрала, — сказала Майя. — Запрошення на відкриту лекцію. Нікого з людей у ньому немає."
+        }
+      ],
+      "issue_ids": [
+        "CH14-SOL-V1-ENS-003"
+      ]
+    },
+    {
+      "id": "CH14-SOL-V1-ENS-008",
+      "chapter": 14,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "На екрані лишалося 0,4 секунди.",
+      "after": "На екрані затримка лишалася 0,4 секунди.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "0,4 — параметр затримки, не залишок відліку.",
+      "current_evidence": [
+        {
+          "chapter": 14,
+          "anchor": "CB0032",
+          "quote": "Сеанс підготував другий крок — той самий контекст із повторно відкритою пропозицією. На екрані лишалося 0,4 секунди. Поруч — регулятор, про який Майя сказала вчора й сьогодні."
+        }
+      ],
+      "issue_ids": [
+        "CH14-SOL-V1-ENS-008"
+      ]
+    },
+    {
+      "id": "CH15-SOL-V1-ENS-003",
+      "chapter": 15,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": " Те, що я нарешті виконав її без помилки, не виправляло попередньої.",
+      "after": "",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Фінальна мораль прямо розшифровує вже зіграну помилку пластин; зняти другу розшифровку.",
+      "current_evidence": [
+        {
+          "chapter": 15,
+          "anchor": "CB0071",
+          "quote": "Цього разу розклав їх правильно. Кришку не закривав, доки не звірив кожне маркування. Робота все ще займала хвилину. Те, що я нарешті виконав її без помилки, не виправляло попередньої."
+        }
+      ],
+      "issue_ids": [
+        "CH15-SOL-V1-ENS-003"
+      ]
+    },
+    {
+      "id": "CH15-SOL-V1-ENS-008",
+      "chapter": 15,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Була увага людини, яка після довгого чекання побачила інструмент і боялася, що його відкладуть через неправильне застосування.",
+      "after": "Мені почулася увага людини, яка після довгого чекання побачила інструмент і боялася, що його відкладуть через неправильне застосування.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Чужий страх слід маркувати як сприйняття Даля, а не доступ до внутрішнього стану.",
+      "current_evidence": [
+        {
+          "chapter": 15,
+          "anchor": "CB0037",
+          "quote": "Його голос був рівним. У ньому не було радості від того, що Майя закрила мені контакт. Була увага людини, яка після довгого чекання побачила інструмент і боялася, що його відкладуть через неправильне застосування."
+        }
+      ],
+      "issue_ids": [
+        "CH15-SOL-V1-ENS-008"
+      ]
+    },
+    {
+      "id": "CH16-SOL-V1-ENS-006",
+      "chapter": 16,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "система пропонує пом’якшений варіант до завершення дії",
+      "after": "система пропонує пом’якшений варіант до підтвердження відповіді",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "В офіційному записі уточнити, яка саме дія завершується.",
+      "current_evidence": [
+        {
+          "chapter": 16,
+          "anchor": "CB0010",
+          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** відповіді користувачки на ризикові звернення від ініціатора.  \n**Запит:** перед завершенням відповіді показувати нейтральне перефразування формулювань, позначених як різкі або конфліктні; прямий варіант лишати доступним.  \n**Зазначена підстава:** зменшити кількість відповідей, після яких контакт обривається через форму, а не через зміст.  \n**Рішення сервісу:** погоджено в межах делегованого обсягу без автоматичного надсилання.  \n**Статус:** застосовано.  \n**Зміна правила:** нейтральне перефразування додано перед підтвердженням відповіді в цьому каналі.  \n**Зафіксований наслідок:** система пропонує пом’якшений варіант до завершення дії; користувацьке підтвердження та зупинка збережені."
+        }
+      ],
+      "issue_ids": [
+        "CH16-SOL-V1-ENS-006"
+      ]
+    },
+    {
+      "id": "CH16-SOL-V1-ENS-007",
+      "chapter": 16,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "відмова без причини → відкладено",
+      "after": "відмова без зазначення причини → відкладено",
+      "occurrences_in_chapter": 2,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Без причини може безпідставно оцінювати мотив; правило стосується ненаданого пояснення.",
+      "current_evidence": [
+        {
+          "chapter": 16,
+          "anchor": "CB0013",
+          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** пропозиції відповісти на ризикове звернення від ініціатора.  \n**Запит:** якщо користувачка відмовляється без зазначення причини, не закривати пропозицію остаточно; нейтрально тлумачити відмову як неготовність відповідати в поточний момент.  \n**Зазначена підстава:** відсутність пояснення не дає відрізнити остаточну відмову від потреби в часі; закриття може передчасно перервати важливий контакт.  \n**Рішення сервісу:** погоджено як зміна класифікації в межах делегованого каналу.  \n**Статус:** застосовано.  \n**Зміна правила:** `відмова без причини → відкладено`; остаточне закриття пропозиції без зазначеної причини не виконується.  \n**Зафіксований наслідок:** відмова без пояснення більше не завершує пропозицію в цьому каналі."
+        },
+        {
+          "chapter": 16,
+          "anchor": "CB0016",
+          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** пропозиції зі статусом `відкладено` за правилом запису 03.  \n**Запит:** повертати відкладену пропозицію, коли наступне звернення відповідає тому самому класу контексту, щоб попередня пауза не ставала остаточним розривом.  \n**Зазначена підстава:** зберегти можливість відповіді після зниження напруження без нового окремого звернення про поновлення теми.  \n**Рішення сервісу:** погоджено в межах делегованого каналу.  \n**Статус:** застосовано.  \n**Зміна правила:** збіг подібного контексту повторно відкриває відкладену пропозицію без нового запиту користувачки.  \n**Зафіксований наслідок:** ланцюг `відмова без причини → відкладено → повторна пропозиція в подібному контексті` став чинним для визначеного каналу."
+        }
+      ],
+      "issue_ids": [
+        "CH16-SOL-V1-ENS-007"
+      ]
+    },
+    {
+      "id": "CH16-SOL-V1-ENS-008",
+      "chapter": 16,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "збіг подібного контексту повторно відкриває",
+      "after": "звернення того самого класу контексту повторно відкриває",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Запит визначає той самий клас, а правило називає подібність; узгодити службову умову.",
+      "current_evidence": [
+        {
+          "chapter": 16,
+          "anchor": "CB0016",
+          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** пропозиції зі статусом `відкладено` за правилом запису 03.  \n**Запит:** повертати відкладену пропозицію, коли наступне звернення відповідає тому самому класу контексту, щоб попередня пауза не ставала остаточним розривом.  \n**Зазначена підстава:** зберегти можливість відповіді після зниження напруження без нового окремого звернення про поновлення теми.  \n**Рішення сервісу:** погоджено в межах делегованого каналу.  \n**Статус:** застосовано.  \n**Зміна правила:** збіг подібного контексту повторно відкриває відкладену пропозицію без нового запиту користувачки.  \n**Зафіксований наслідок:** ланцюг `відмова без причини → відкладено → повторна пропозиція в подібному контексті` став чинним для визначеного каналу."
+        }
+      ],
+      "issue_ids": [
+        "CH16-SOL-V1-ENS-008"
+      ]
+    },
+    {
+      "id": "CH16-SOL-V1-ENS-009",
+      "chapter": 16,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "скасування користувацької зупинки; заборона припинити контакт;",
+      "after": "скасування користувацької зупинки; право забороняти припинення контакту;",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "У переліку прав назвати саме відсутнє право забороняти.",
+      "current_evidence": [
+        {
+          "chapter": 16,
+          "anchor": "CB0004",
+          "quote": "**Тип:** історичне делегування користувачкою.  \n**Користувачка:** Майя.  \n**Уповноважений заявник:** Гор.  \n**Дозволений обсяг:** подавати й погоджувати сервісні запити щодо обробки ризикових звернень від уповноваженого заявника та зменшення конфліктного навантаження в цьому каналі.  \n**Не включено:** доступ до приватних повідомлень поза каналом; скасування користувацької зупинки; заборона припинити контакт; загальне керування профілем; передоручення третім особам.  \n**Форма підтвердження:** особисте підтвердження користувачки в попередній версії сервісу.  \n**У витягу відсутні:** текст підтвердження; пояснення користувачки; точна календарна дата; підтвердження того, що користувачка окремо переглядала наслідок кожної подальшої зміни."
+        }
+      ],
+      "issue_ids": [
+        "CH16-SOL-V1-ENS-009"
+      ]
+    },
+    {
+      "id": "CH16-SOL-V1-ENS-013",
+      "chapter": 16,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Статус прямої відмови не змінено.",
+      "after": "Класифікацію прямої відмови не змінено.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Йдеться про класифікацію відмов загалом, не статус однієї репліки.",
+      "current_evidence": [
+        {
+          "chapter": 16,
+          "anchor": "CB0007",
+          "quote": "**Ініціатор:** Гор, уповноважений proxy-заявник.  \n**Обсяг:** ризикові звернення від ініціатора до користувачки.  \n**Запит:** не показувати одночасно кілька взаємовиключних рекомендацій відповіді; першою пропонувати одну нейтральну дію, що не збільшує напруження.  \n**Зазначена підстава:** повторний вибір між суперечливими варіантами збільшує навантаження й подовжує конфлікт.  \n**Рішення сервісу:** погоджено в межах делегованого обсягу.  \n**Статус:** застосовано.  \n**Зміна правила:** у визначеному каналі нейтральна рекомендація отримала пріоритет показу; решта доступних дій не була скасована.  \n**Зафіксований наслідок:** менше одночасних суперечливих підказок. Статус прямої відмови не змінено."
+        }
+      ],
+      "issue_ids": [
+        "CH16-SOL-V1-ENS-013"
+      ]
+    },
+    {
+      "id": "CH17-SOL-V1-ENS-001",
+      "chapter": 17,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Чи погодитеся ви особисто надати мені копію історії службових правил у межах мого вчорашнього запиту: джерело авторизації, ініціатор, обсяг, рішення, статус і наслідок? Тільки читання. Без профілю, повідомлень і поточних налаштувань.\n>\n> Ви можете звузити склад або відмовити без пояснення. Нової зустрічі чи сеансу я не прошу.",
+      "after": "Чи погодитеся ви особисто надати мені копію історії службових правил у межах мого вчорашнього запиту…",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Видиме саморедагування зберегти, але не друкувати двічі весь лист: перша цитата може містити тільки змінюваний початок.",
+      "current_evidence": [
+        {
+          "chapter": 17,
+          "anchor": "CB0009",
+          "quote": "> Чи погодитеся ви особисто надати мені копію історії службових правил у межах мого вчорашнього запиту: джерело авторизації, ініціатор, обсяг, рішення, статус і наслідок? Тільки читання. Без профілю, повідомлень і поточних налаштувань.\n>\n> Ви можете звузити склад або відмовити без пояснення. Нової зустрічі чи сеансу я не прошу."
+        }
+      ],
+      "issue_ids": [
+        "CH17-SOL-V1-ENS-001"
+      ]
+    },
+    {
+      "id": "CH17-SOL-V1-ENS-006",
+      "chapter": 17,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "а різке звернення Гора отримувало нейтральне перефразування перед завершенням",
+      "after": "а різка відповідь Майї на звернення Гора отримувала нейтральне перефразування перед підтвердженням",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "У скороченій редакції змінено напрям: CH16 перефразовує відповіді Майї, а CH17 тепер звернення Гора. Відновити відповідність архіву.",
+      "current_evidence": [
+        {
+          "chapter": 17,
+          "anchor": "CB0023",
+          "quote": "Перші два записи лишали інші дії доступними: нейтральна дія ставилася першою, а різке звернення Гора отримувало нейтральне перефразування перед завершенням. Прямий варіант, підтвердження Майї й її зупинка зберігалися. Це можна було прочитати як зменшення навантаження; так воно й було написано."
+        }
+      ],
+      "issue_ids": [
+        "CH17-SOL-V1-ENS-006"
+      ]
+    },
+    {
+      "id": "CH17-SOL-V1-ENS-011",
+      "chapter": 17,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Ви можете звузити склад або відмовити без пояснення.",
+      "after": "Ви можете звузити склад копії або відмовити без пояснення.",
+      "occurrences_in_chapter": 2,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Назвати склад копії, зберігши право звузити доступ.",
+      "current_evidence": [
+        {
+          "chapter": 17,
+          "anchor": "CB0009",
+          "quote": "> Чи погодитеся ви особисто надати мені копію історії службових правил у межах мого вчорашнього запиту: джерело авторизації, ініціатор, обсяг, рішення, статус і наслідок? Тільки читання. Без профілю, повідомлень і поточних налаштувань.\n>\n> Ви можете звузити склад або відмовити без пояснення. Нової зустрічі чи сеансу я не прошу."
+        },
+        {
+          "chapter": 17,
+          "anchor": "CB0011",
+          "quote": "> Чи погодитеся ви особисто надати мені вузьку копію історії службових правил: джерело авторизації, ініціатор, обсяг, рішення, статус і наслідок? Тільки читання. Без профілю, повідомлень і поточних налаштувань.\n>\n> Ви можете звузити склад або відмовити без пояснення. Нової зустрічі чи сеансу я не прошу."
+        }
+      ],
+      "issue_ids": [
+        "CH17-SOL-V1-ENS-011"
+      ]
+    },
+    {
+      "id": "CH17-SOL-V1-ENS-013",
+      "chapter": 17,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Перечитав перший рядок і прибрав слова «мій вчорашній запит».",
+      "after": "Перечитав і переписав перший рядок без згадки про мій учорашній запит.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Опис редагування не повинен удавати повний diff; назвати переписування першого рядка.",
+      "current_evidence": [
+        {
+          "chapter": 17,
+          "anchor": "CB0010",
+          "quote": "Перечитав перший рядок і прибрав слова «мій вчорашній запит». Майя не бачила чернетки й не мала знати про неї, щоб зрозуміти прохання."
+        }
+      ],
+      "issue_ids": [
+        "CH17-SOL-V1-ENS-013"
+      ]
+    },
+    {
+      "id": "CH17-SOL-V1-ENS-014",
+      "chapter": 17,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Це нічого не доводило про те, для чого я їх використаю далі.",
+      "after": "Це нічого не свідчило про те, для чого я їх використаю далі.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Неприродне керування доводити про; замінити на свідчити.",
+      "current_evidence": [
+        {
+          "chapter": 17,
+          "anchor": "CB0004",
+          "quote": "Руки працювали так само, як до кухні Майї. Це нічого не доводило про те, для чого я їх використаю далі."
+        }
+      ],
+      "issue_ids": [
+        "CH17-SOL-V1-ENS-014"
+      ]
+    },
+    {
+      "id": "CH18-SOL-V1-ENS-006",
+      "chapter": 18,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Відправницю було підтверджено особисто.",
+      "after": "Повідомлення мало особисте підтвердження Майї.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Особистість відправниці й спосіб підтвердження краще назвати прямо.",
+      "current_evidence": [
+        {
+          "chapter": 18,
+          "anchor": "CB0011",
+          "quote": "Відправницю було підтверджено особисто. Вона не відповідала на вчорашній запит — той уже завершився архівною копією. Це було нове повідомлення."
+        }
+      ],
+      "issue_ids": [
+        "CH18-SOL-V1-ENS-006"
+      ]
+    },
+    {
+      "id": "CH18-SOL-V1-ENS-008",
+      "chapter": 18,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Клієнт пройшов двері в обидва боки",
+      "after": "Клієнт пройшов крізь двері в обидва боки",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Пройти крізь двері називає маршрут точніше за пройти двері.",
+      "current_evidence": [
+        {
+          "chapter": 18,
+          "anchor": "CB0007",
+          "quote": "Я вимкнув повтор і попередження, але не сам датчик. Клієнт пройшов двері в обидва боки, потім ще раз із сумкою в руці. Підказка прозвучала один раз. Він не зупинився."
+        }
+      ],
+      "issue_ids": [
+        "CH18-SOL-V1-ENS-008"
+      ]
+    },
+    {
+      "id": "CH19-SOL-V1-ENS-007",
+      "chapter": 19,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Ранковий я вже надіслав.",
+      "after": "Ранковий підсумок я вже надіслав.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Родовий стрибок можна усунути точним іменником.",
+      "current_evidence": [
+        {
+          "chapter": 19,
+          "anchor": "CB0049",
+          "quote": "— Два підсумки з перевірок після ранкової. Ранковий я вже надіслав. Дані закриті, треба записати виконані дії й результат."
+        }
+      ],
+      "issue_ids": [
+        "CH19-SOL-V1-ENS-007"
+      ]
+    },
+    {
+      "id": "CH19-SOL-V1-ENS-010",
+      "chapter": 19,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "перешкоду до точнішого результату",
+      "after": "перешкоду на шляху до точнішого результату",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Керування перешкода на шляху до природніше.",
+      "current_evidence": [
+        {
+          "chapter": 19,
+          "anchor": "CB0034",
+          "quote": "— Я можу виконувати звичайну роботу, — сказав я. — Сьогодні виконував. Але не знаю, чи маю братися за складне втручання, якщо здатен перетворити чужу межу на перешкоду до точнішого результату."
+        }
+      ],
+      "issue_ids": [
+        "CH19-SOL-V1-ENS-010"
+      ]
+    },
+    {
+      "id": "CH20-SOL-V1-ENS-003",
+      "chapter": 20,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Перед надсиланням я прибрав слово «одразу».",
+      "after": "У чернетці було слово «одразу». Перед надсиланням я прибрав його.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Показано вже надісланий варіант без одразу; уточнити, що слово було у чернетці.",
+      "current_evidence": [
+        {
+          "chapter": 20,
+          "anchor": "CB0021",
+          "quote": "Перед надсиланням я прибрав слово «одразу». Воно стосувалося справності зупинки, але поруч із моїм порушенням звучало як прохання зменшити вагу зробленого."
+        }
+      ],
+      "issue_ids": [
+        "CH20-SOL-V1-ENS-003"
+      ]
+    },
+    {
+      "id": "CH20-SOL-V1-ENS-004",
+      "chapter": 20,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Потім наздогнав стілець, підкотив його назад",
+      "after": "Потім підійшов до стільця, підкотив його назад",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Стілець уже зупинився; підійшов точніше за наздогнав.",
+      "current_evidence": [
+        {
+          "chapter": 20,
+          "anchor": "CB0043",
+          "quote": "Я забрав руку. Потім наздогнав стілець, підкотив його назад і затиснув коліном біля столу."
+        }
+      ],
+      "issue_ids": [
+        "CH20-SOL-V1-ENS-004"
+      ]
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-003",
+      "chapter": 21,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Другий підсумок учорашньої перевірки я дописав",
+      "after": "Другий невідправлений підсумок учорашніх перевірок я дописав",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Йдеться про другий із двох невідправлених підсумків після ранкового, а не обов’язково другу перевірку всього дня. Уточнити множину без нової нумерації.",
+      "current_evidence": [
+        {
+          "chapter": 21,
+          "anchor": "CB0004",
+          "quote": "Другий підсумок учорашньої перевірки я дописав за кухонним столом. Звірив погоджені дії, результат і час закриття доступу. У справі вже були дані самої перевірки; нічого нового від клієнта я не запитував. Надіслав підсумок до того, як допив чай."
+        }
+      ],
+      "issue_ids": [
+        "CH21-SOL-V1-ENS-003"
+      ]
+    },
+    {
+      "id": "CH21-SOL-V1-ENS-008",
+      "chapter": 21,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "розмова мала стосуватися саме її можливості",
+      "after": "розмова мала стосуватися саме можливості нової роботи",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Ясніше назвати предмет майбутньої розмови.",
+      "current_evidence": [
+        {
+          "chapter": 21,
+          "anchor": "CB0024",
+          "quote": "До другої перевірки лишалося дванадцять хвилин. Відповісти можна було швидше. Поле не вимагало прийняти нову роботу, але розмова мала стосуватися саме її можливості."
+        }
+      ],
+      "issue_ids": [
+        "CH21-SOL-V1-ENS-008"
+      ]
+    },
+    {
+      "id": "CH22-SOL-V1-ENS-005",
+      "chapter": 22,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "На ваш «стоп», кнопку або коли минуть дванадцять хвилин пряме вікно закриється",
+      "after": "Після вашого «стоп», натискання кнопки або завершення дванадцяти хвилин пряме вікно закриється",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Умови різнорідні, можна назвати три однорідні події.",
+      "current_evidence": [
+        {
+          "chapter": 22,
+          "anchor": "CB0023",
+          "quote": "— Так. Те, що працює у вас зараз. Не режим із нашої попередньої зустрічі. На ваш «стоп», кнопку або коли минуть дванадцять хвилин пряме вікно закриється, і цей стан повернеться."
+        }
+      ],
+      "issue_ids": [
+        "CH22-SOL-V1-ENS-005"
+      ]
+    },
+    {
+      "id": "CH22-SOL-V1-ENS-007",
+      "chapter": 22,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "У першій відповіді, що прийшла мені,",
+      "after": "У першій відповіді, що спала мені на думку,",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Думка спадає на думку; прийшла мені може читатися як доставлене повідомлення.",
+      "current_evidence": [
+        {
+          "chapter": 22,
+          "anchor": "CB0044",
+          "quote": "У першій відповіді, що прийшла мені, були слова про її право й про прийняті умови. У другій — уточнення, що саме я назвав добрим. Обидві лишали мене в знайомому місці."
+        }
+      ],
+      "issue_ids": [
+        "CH22-SOL-V1-ENS-007"
+      ]
+    },
+    {
+      "id": "CH22-SOL-V1-ENS-010",
+      "chapter": 22,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Смуга коротко засвітилася білим і повернула звичайний колір.",
+      "after": "Смуга коротко засвітилася білим і знову набула звичайного кольору.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Смуга повертається до кольору, а не віддає його.",
+      "current_evidence": [
+        {
+          "chapter": 22,
+          "anchor": "CB0028",
+          "quote": "Вона відкрила на своєму боці кнопку завершення. Смуга коротко засвітилася білим і повернула звичайний колір."
+        }
+      ],
+      "issue_ids": [
+        "CH22-SOL-V1-ENS-010"
+      ]
+    },
+    {
+      "id": "CH23-SOL-V1-ENS-003",
+      "chapter": 23,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Майя не торкнулася кнопки.\n\n",
+      "after": "",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Окреме повторення ненатискання перед наступним питанням не додає нового стану; прибрати одну надлишкову фразу.",
+      "current_evidence": [
+        {
+          "chapter": 23,
+          "anchor": "CB0050",
+          "quote": "Майя не торкнулася кнопки."
+        }
+      ],
+      "issue_ids": [
+        "CH23-SOL-V1-ENS-003"
+      ]
+    },
+    {
+      "id": "CH23-SOL-V1-ENS-005",
+      "chapter": 23,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "я прибирав обов’язок відповідати з людини, якій важко",
+      "after": "я знімав обов’язок відповідати з людини, якій важко",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Обов’язок знімають, не прибирають з людини.",
+      "current_evidence": [
+        {
+          "chapter": 23,
+          "anchor": "CB0049",
+          "quote": "— Спочатку я прибирав обов’язок відповідати з людини, якій важко. Потім навчився сам іти туди, де відповіді не потребували від мене."
+        }
+      ],
+      "issue_ids": [
+        "CH23-SOL-V1-ENS-005"
+      ]
+    },
+    {
+      "id": "CH23-SOL-V1-ENS-006",
+      "chapter": 23,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Ім’я не змінило станів на екрані. Побутові функції працювали, посередництво лишалося призупиненим, її кнопка була поруч.",
+      "after": "Її кнопка лишалася поруч.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Після імені Ніни технічний перелік вдруге страхує стани; лишити коротке спостереження без повного реєстру.",
+      "current_evidence": [
+        {
+          "chapter": 23,
+          "anchor": "CB0059",
+          "quote": "Ім’я не змінило станів на екрані. Побутові функції працювали, посередництво лишалося призупиненим, її кнопка була поруч."
+        }
+      ],
+      "issue_ids": [
+        "CH23-SOL-V1-ENS-006"
+      ]
+    },
+    {
+      "id": "CH23-SOL-V1-ENS-010",
+      "chapter": 23,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Між нею і краєм столу звільнилося місце",
+      "after": "Між мискою і краєм столу звільнилося місце",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Позначити миску прямо, щоб нею не відсилало до Майї.",
+      "current_evidence": [
+        {
+          "chapter": 23,
+          "anchor": "CB0014",
+          "quote": "Майя трохи відсунула миску з яблуками. Між нею і краєм столу звільнилося місце, але руку до кнопки вона не наблизила."
+        }
+      ],
+      "issue_ids": [
+        "CH23-SOL-V1-ENS-010"
+      ]
+    },
+    {
+      "id": "CH24-SOL-V1-ENS-003",
+      "chapter": 24,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Не тілом. Там я майже не відходив.",
+      "after": "Тілом я був поруч — майже не відходив.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Не тілом на мить заперечує присутність тіла; пряма побудова прибере зворотне прочитання.",
+      "current_evidence": [
+        {
+          "chapter": 24,
+          "anchor": "CB0020",
+          "quote": "— Коли Ніна померла, я знав, що був поруч не весь. Не тілом. Там я майже не відходив. Я зник із тієї частини, де вона могла зустріти мою відповідь, а я — її."
+        }
+      ],
+      "issue_ids": [
+        "CH24-SOL-V1-ENS-003"
+      ]
+    },
+    {
+      "id": "CH25-SOL-V1-ENS-006",
+      "chapter": 25,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "як професійна панель відкривається з учорашнього чистого стану",
+      "after": "як професійна панель відкривається без незавершених сеансів",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Чистий стан панелі абстрактний; назвати відсутність відкритих сеансів без зміни часу.",
+      "current_evidence": [
+        {
+          "chapter": 25,
+          "anchor": "CB0001",
+          "quote": "Від Майї я пішов того ж вечора. Наступного ранку сидів на своєму робочому місці й дивився, як професійна панель відкривається з учорашнього чистого стану."
+        }
+      ],
+      "issue_ids": [
+        "CH25-SOL-V1-ENS-006"
+      ]
+    },
+    {
+      "id": "CH26-SOL-V1-ENS-002",
+      "chapter": 26,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Проведіть наступну дію через мій proxy.",
+      "after": "Продовжте роботу з правилом відмови через мій proxy.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Наступна дія Гора розпливчаста; назвати запитувану сервісну роботу, не надавши йому права визначати її.",
+      "current_evidence": [
+        {
+          "chapter": 26,
+          "anchor": "CB0011",
+          "quote": "> Старе делегування досі діє для мого конфліктного каналу. Ви відмовилися від мети, але не можете залишити звернення без професійного маршруту.\n>\n> Проведіть наступну дію через мій proxy. Якщо не готові працювати самі, передайте її фахівцю, який готовий."
+        }
+      ],
+      "issue_ids": [
+        "CH26-SOL-V1-ENS-002"
+      ]
+    },
+    {
+      "id": "CH26-SOL-V1-ENS-005",
+      "chapter": 26,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "П’ять хвилин скінчилися. Я закрив камеру й мікрофон і завершив канал.",
+      "after": "Коли п’ять хвилин скінчилися, я закрив камеру й мікрофон і завершив канал.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Після лишку хвилини завершення дзвінка може здаватися миттєвим; часовий підрядний явно залишає проміжок, не вигадує нової репліки чи виміряної паузи.",
+      "current_evidence": [
+        {
+          "chapter": 26,
+          "anchor": "CB0047",
+          "quote": "П’ять хвилин скінчилися. Я закрив камеру й мікрофон і завершив канал."
+        }
+      ],
+      "issue_ids": [
+        "CH26-SOL-V1-ENS-005"
+      ]
+    },
+    {
+      "id": "CH26-SOL-V1-ENS-007",
+      "chapter": 26,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "професійний шлях не довести до призупинення",
+      "after": "професійний спосіб уникнути призупинення",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Не довести до призупинення потребує об’єкта або простішого дієслова.",
+      "current_evidence": [
+        {
+          "chapter": 26,
+          "anchor": "CB0023",
+          "quote": "> Завтра о 18:00 в мене обов’язкове професійне перекалібрування. Якщо не з’явлюся, буде призупинено ручні калібрування, доступ до нової черги й пов’язану з підтвердженою готовністю службову підтримку. Отримання я підтвердив. Участь — ні.\n>\n> Чи є професійний шлях не довести до призупинення і не вдавати, що порушення не було?"
+        }
+      ],
+      "issue_ids": [
+        "CH26-SOL-V1-ENS-007"
+      ]
+    },
+    {
+      "id": "CH26-SOL-V1-ENS-009",
+      "chapter": 26,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Я відвів погляд від кнопки.",
+      "after": "Я відвів погляд від кнопки нової черги.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Назвати кнопку під час погляду, не примушувати читача чекати кінця.",
+      "current_evidence": [
+        {
+          "chapter": 26,
+          "anchor": "CB0040",
+          "quote": "Я відвів погляд від кнопки."
+        }
+      ],
+      "issue_ids": [
+        "CH26-SOL-V1-ENS-009"
+      ]
+    },
+    {
+      "id": "CH27-SOL-V1-ENS-005",
+      "chapter": 27,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Вона могла б залишити емоційне посередництво вимкненим після вікна.",
+      "after": "Майя могла б залишити емоційне посередництво вимкненим після вікна.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Найближчий антецедент — дія, тож перше вона може стосуватися операції. Назвати Майю.",
+      "current_evidence": [
+        {
+          "chapter": 27,
+          "anchor": "CB0045",
+          "quote": "Вона могла б залишити емоційне посередництво вимкненим після вікна. Інструмент дозволяв записати це й мені: сервісна дія існувала для технічного відновлення й перевірки, а не як дозвіл визначати її постійний стан. Окремого дозволу Майї для натискання він не вимагав."
+        }
+      ],
+      "issue_ids": [
+        "CH27-SOL-V1-ENS-005"
+      ]
+    },
+    {
+      "id": "CH27-SOL-V1-ENS-008",
+      "chapter": 27,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Підтвердження мало сьогоднішній час",
+      "after": "Підтвердження мало сьогоднішню дату й час",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Позначка має дату і час, не сьогоднішній час як абстракцію.",
+      "current_evidence": [
+        {
+          "chapter": 27,
+          "anchor": "CB0037",
+          "quote": "Вона відкрила поточний стан повернення. Емоційне посередництво було активне. Побутові функції — активні. Підтвердження мало сьогоднішній час і ще не було прив’язане до запуску."
+        }
+      ],
+      "issue_ids": [
+        "CH27-SOL-V1-ENS-008"
+      ]
+    },
+    {
+      "id": "CH27-SOL-V1-ENS-012",
+      "chapter": 27,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "на зупинці або о 18:38",
+      "after": "після зупинки або о 18:38",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "На зупинці може читатися як транспортне місце; після зупинки точніше називає подію.",
+      "current_evidence": [
+        {
+          "chapter": 27,
+          "anchor": "CB0007",
+          "quote": "> Умови здійсненні. Приймаю сьогодні о 18:30.\n>\n> Вузький перегляд і запуск потребуватимуть двох окремих підтверджень на місці. Якщо ви не оберете постійної зміни, на зупинці або о 18:38 повернеться стан, який діятиме перед початком."
+        }
+      ],
+      "issue_ids": [
+        "CH27-SOL-V1-ENS-012"
+      ]
+    },
+    {
+      "id": "CH27-SOL-V1-ENS-012",
+      "chapter": 27,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "на вашій зупинці або о 18:38",
+      "after": "після вашої зупинки або о 18:38",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "На зупинці може читатися як транспортне місце; після зупинки точніше називає подію.",
+      "current_evidence": [
+        {
+          "chapter": 27,
+          "anchor": "CB0039",
+          "quote": "— Підтвердити готовність прямого каналу, втримувати його в межах одного сеансу й повернути цей стан на вашій зупинці або о 18:38. Постійний стан ви обираєте окремо."
+        }
+      ],
+      "issue_ids": [
+        "CH27-SOL-V1-ENS-012"
+      ]
+    },
+    {
+      "id": "CH28-SOL-V1-ENS-012",
+      "chapter": 28,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "може вирішити, що завгодно",
+      "after": "може вирішити що завгодно",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Що завгодно — нерозкладний додаток, не підрядне речення.",
+      "current_evidence": [
+        {
+          "chapter": 28,
+          "anchor": "CB0033",
+          "quote": "— Людина з іншого боку може вирішити, що завгодно."
+        }
+      ],
+      "issue_ids": [
+        "CH28-SOL-V1-ENS-012"
+      ]
+    },
+    {
+      "id": "CH29-SOL-V1-ENS-008",
+      "chapter": 29,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Майя прийшла о 11:10",
+      "after": "Майя прийшла об 11:10",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Перед одинадцятою природніше об, уже так написано у двох повідомленнях.",
+      "current_evidence": [
+        {
+          "chapter": 29,
+          "anchor": "CB0011",
+          "quote": "Майя прийшла о 11:10 з боку пішохідного переходу. Я бачив тільки останні кілька кроків її дороги."
+        }
+      ],
+      "issue_ids": [
+        "CH29-SOL-V1-ENS-008"
+      ]
+    },
+    {
+      "id": "CH29-SOL-V1-ENS-011",
+      "chapter": 29,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Чинні допуски були активні, кнопка нової черги — теж.",
+      "after": "Допуски й кнопка нової черги були активні.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Чинні допуски вже означає актуальні; прибрати тавтологічний опис стану.",
+      "current_evidence": [
+        {
+          "chapter": 29,
+          "anchor": "CB0003",
+          "quote": "До шостої лишався робочий день. Чинні допуски були активні, кнопка нової черги — теж. Я не натиснув її."
+        }
+      ],
+      "issue_ids": [
+        "CH29-SOL-V1-ENS-011"
+      ]
+    },
+    {
+      "id": "CH29-SOL-V1-ENS-012",
+      "chapter": 29,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Вона сказала це без прохання врятувати її від квартири.\n\n",
+      "after": "",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Непрохання врятувати повторно тлумачить її пряму відмову від втечі; прибрати пояснення після сильнішої репліки.",
+      "current_evidence": [
+        {
+          "chapter": 29,
+          "anchor": "CB0071",
+          "quote": "Вона сказала це без прохання врятувати її від квартири."
+        }
+      ],
+      "issue_ids": [
+        "CH29-SOL-V1-ENS-012"
+      ]
+    },
+    {
+      "id": "CH30-SOL-V1-ENS-001",
+      "chapter": 30,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Я знав це тільки з її слів.\n\n",
+      "after": "",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Перше уточнення тільки з її слів дублює явний діалог і прихований екран; можна зняти одну довідкову фразу.",
+      "current_evidence": [
+        {
+          "chapter": 30,
+          "anchor": "CB0007",
+          "quote": "Я знав це тільки з її слів."
+        }
+      ],
+      "issue_ids": [
+        "CH30-SOL-V1-ENS-001"
+      ]
+    },
+    {
+      "id": "CH30-SOL-V1-ENS-002",
+      "chapter": 30,
+      "source_sha256": "9c373211ae0ce40d7992efaf65b6b770cca8c837ef35f0736f25e08489dad0b3",
+      "before": "Я почув ще один дотик. Дивився на табло.",
+      "after": "Я дивився на табло.",
+      "occurrences_in_chapter": 1,
+      "apply_scope": "only named chapter; all listed occurrences",
+      "status": "proposed_compatible_not_applied",
+      "rationale": "Три чутні дотики поспіль роблять сенсорний облік механічним; середню згадку можна прибрати, зберігши погляд на табло.",
+      "current_evidence": [
+        {
+          "chapter": 30,
+          "anchor": "CB0019",
+          "quote": "Я почув ще один дотик. Дивився на табло. До наступного транспорту лишалося кілька хвилин, але Майя не збиралася йти до нього."
+        }
+      ],
+      "issue_ids": [
+        "CH30-SOL-V1-ENS-002"
+      ]
+    }
+  ]
+}

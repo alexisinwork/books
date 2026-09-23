@@ -8,6 +8,7 @@ from docx.oxml.ns import qn
 
 import argparse
 p=argparse.ArgumentParser(); p.add_argument('--source',type=Path,required=True)
+p.add_argument('--author', default='Sol — робоча чернетка', help='Actual authoring/revision provenance for this reader copy')
 group=p.add_mutually_exclusive_group(required=True);group.add_argument('--chapter',type=int);group.add_argument('--title')
 args=p.parse_args()
 source=args.source.resolve(); base=source.parent
@@ -52,7 +53,7 @@ for i, block in enumerate(blocks, 1):
     anchors.append({'id':anchor_id, 'source_sha256':sha, 'text':block, 'docx_paragraph':i})
 doc.core_properties.title = args.title or f'Контакт — глава {chapter} — чернетка'
 doc.core_properties.subject = 'Український оригінал; робоча версія для читання автором'
-doc.core_properties.author = 'Sol — робоча чернетка'
+doc.core_properties.author = args.author
 dest = reader / (doc.core_properties.title+'.docx')
 doc.save(dest)
 actual = [p.text for p in Document(dest).paragraphs]
