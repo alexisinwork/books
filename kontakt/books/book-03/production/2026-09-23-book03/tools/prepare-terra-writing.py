@@ -10,14 +10,47 @@ rough=run/'astra-rough-v1/assembled/manuscript.md';rough_sha=hashlib.sha256(roug
 out=phase/'packets'/f'chapters-{a.first:02d}-{a.last:02d}';assert not out.exists();refs=[]
 def add(path,body=None):
     path=Path(path);path=path if path.is_absolute() else root/path;raw=path.read_bytes()
-    refs.append({'path':path.relative_to(root).as_posix(),'sha256':hashlib.sha256(raw).hexdigest(),'text':raw.decode('utf-8') if body is None else body})
+    supplied=raw.decode('utf-8') if body is None else body
+    refs.append({'path':path.relative_to(root).as_posix(),'sha256':hashlib.sha256(raw).hexdigest(),'supplied_text_sha256':hashlib.sha256(supplied.encode()).hexdigest(),'representation':'complete source' if body is None else 'explicit source excerpt or verified duplicate-field projection','text':supplied})
 for f in ['AGENTS.md','STYLE.md','BOOK_SYSTEM/CORE.md','BOOK_SYSTEM/LANGUAGES/uk/STYLE.md','BOOK_SYSTEM/LANGUAGES/uk/NATURALNESS.md','kontakt/AGENTS.md','kontakt/STYLE.md','kontakt/project.json','kontakt/books/book-03/book.json','kontakt/books/book-03/brief.md','kontakt/books/book-03/voice.json','kontakt/books/book-03/characters.planned.json','kontakt/books/book-03/PREDICTARIAT-MECHANICS.md','kontakt/series/CANON-POLICY.md','kontakt/series/glossary.json','kontakt/skills/ru-book-writer/SKILL.md','kontakt/skills/ru-book-writer/references/drafting-contract.md','kontakt/skills/ru-kontakt-series/SKILL.md','kontakt/skills/ru-kontakt-series/references/series-guide.md','kontakt/series/WORKFLOW-2026-09-23-BOOK03.md']:
     add(f)
 for f in sorted((run/'structure-v1').iterdir()):
-    if f.suffix in ('.json','.md') and not any(t in f.name for t in ['manifest','source-inventory','reading','self-review']):add(f)
+    if f.suffix not in ('.json','.md') or any(t in f.name for t in ['manifest','source-inventory','reading','self-review']):continue
+    # Every scene card is supplied in full. Remove only fields proven identical
+    # to those cards from derived maps; this preserves space for the whole novel.
+    raw=f.read_text(encoding='utf-8');body=None;byid={s['id']:s for s in cards['scenes']}
+    if f.name=='full-outline.md':
+        for s in cards['scenes']:
+            for key in ['state_before','goal','obstacle','decision','events','cost','next_cause','resources_permissions','setup_payoff','execution_guard']:
+                assert s[key] in raw,(s['id'],key)
+        body=raw.split('## Повна послідовність сцен')[0]+'\n[All subsequent scene fields are supplied verbatim in the complete chapter-scene-cards.json; no scene or chapter is omitted.]\n'
+    elif f.name=='knowledge.planned.json':
+        value=json.loads(raw)
+        for item in value['items']:
+            assert item['basis']==byid[item['first_scene']]['events'];del item['basis']
+        body=json.dumps(value,ensure_ascii=False)+'\n[Only duplicate basis fields omitted; each equals events of its first_scene in the complete cards.]\n'
+    elif f.name=='resources.planned.json':
+        value=json.loads(raw)
+        for item in value['scene_transitions']:
+            s=byid[item['scene']]
+            for x,y in [('before','state_before'),('resource_delta','resources_permissions'),('cost','cost')]:assert item[x]==s[y]
+        value['scene_transitions']=[{'scene':x['scene'],'fields':'before=card.state_before; resource_delta=card.resources_permissions; cost=card.cost'} for x in value['scene_transitions']]
+        body=json.dumps(value,ensure_ascii=False)+'\n[Only proven duplicate resource fields replaced by exact references to complete scene cards.]\n'
+    elif f.name=='timeline.planned.json':
+        value=json.loads(raw)
+        for day in value['days']:
+            for item in day['events']:
+                assert item['event']==byid[item['scene']]['events'];del item['event']
+        body=json.dumps(value,ensure_ascii=False)+'\n[Only duplicate event prose omitted; equals complete scene card events. All dates, times, places and deadlines remain.]\n'
+    add(f,body)
 add(rough)
+for name in ['observed-state.json','proposals.json']:
+    add(run/'astra-rough-v1'/name)
 for name in ['handoff-for-terra.md','self-review.md']:
     if (run/'astra-rough-v1'/name).exists():add(run/'astra-rough-v1'/name)
+add(run/'root-structure-gate.json')
+add(run/'rough-handoff-verification.json')
+for f in sorted((run/'root-rough-reading').glob('*.json')):add(f)
 previous=root/'kontakt/books/book-02/production/2026-09-23-book02/terra-final-v3/assembled/manuscript.md';raw=previous.read_bytes()
 assert hashlib.sha256(raw).hexdigest()=='07a68dad4276cd81e98f077796d17f56f3b21cdcef64f8231a71524d054a78f4'
 text=raw.decode('utf-8');match=re.search(r'(?m)^# Розділ 29$',text);assert match;add(previous,text[match.start():])
@@ -40,7 +73,7 @@ State schema: {{"reading_scope":"truthful scope and limitations","chapters":[{{"
 Include every planned scene in the block exactly once, in order. Quotes must be literal in your own prose: no moved dialogue punctuation, no wrapper quote marks, no joining across narrator tags. Validate braces mentally. Finish ALL assigned chapters before metadata. Use character names and uncertainty boundaries consistently. Now read sources then write the entire requested block.
 
 '''
-prompt=intro+'\n\n'.join('<SOURCE path='+json.dumps(r['path'],ensure_ascii=False)+' sha256='+r['sha256']+'>\n'+r['text']+'\n</SOURCE>' for r in refs)
+prompt=intro+'\n\n'.join('<SOURCE path='+json.dumps(r['path'],ensure_ascii=False)+' original_sha256='+r['sha256']+' supplied_text_sha256='+r['supplied_text_sha256']+' representation='+json.dumps(r['representation'])+'>\n'+r['text']+'\n</SOURCE>' for r in refs)
 out.mkdir(parents=True);(out/'prompt.md').write_text(prompt,encoding='utf-8',newline='\n')
 (out/'packet.json').write_text(json.dumps({'role':'authoring','model_requested':'gpt-5.6-terra','first':a.first,'last':a.last,'chapters_expected':expected,'prompt_bytes':len(prompt.encode()),'sources':[{k:v for k,v in r.items() if k!='text'} for r in refs]},ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 desktop=Path('C:/Users/alexi/OneDrive/Desktop/KONTAKT-BOOK03-2026-09-23')
