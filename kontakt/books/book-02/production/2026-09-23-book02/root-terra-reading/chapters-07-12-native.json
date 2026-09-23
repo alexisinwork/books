@@ -1,0 +1,77 @@
+{
+  "status": "nonblind_coordinator_reading",
+  "items": [
+    {
+      "chapter": 7,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-07.md",
+      "sha256": "eaf6f804edd0b42e8f3cd86871ba30f7548a035ee274fc256254f9eb24fea8fa",
+      "actual_reading": "Complete native-delivered prose before import; prose retained unchanged."
+    },
+    {
+      "chapter": 8,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-08.md",
+      "sha256": "1f1c506ec355885967fd73f84e91b8a9882f2cb3d839f7c50ee2d8e6047ab830",
+      "actual_reading": "Complete native-delivered prose before import; prose retained unchanged."
+    },
+    {
+      "chapter": 9,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-09.md",
+      "sha256": "fdbf6e738beb6b798680a7c95da10f693ba8d444f7c397521f52e6e7dba61436",
+      "actual_reading": "Complete native-delivered prose before import; prose retained unchanged."
+    },
+    {
+      "chapter": 10,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-10.md",
+      "sha256": "f5db9a37567ee194db0d9c65a137df6575cc9cacc8aa81a63683e9e7ca861199",
+      "actual_reading": "Complete native-delivered prose before import; prose retained unchanged."
+    },
+    {
+      "chapter": 11,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-11.md",
+      "sha256": "34c9855d2d5541b344afc15f3849e0861b9d9fb33254642cd54029400c9e3d47",
+      "actual_reading": "Complete native-delivered prose before import; prose retained unchanged."
+    },
+    {
+      "chapter": 12,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-12.md",
+      "sha256": "612844f90f296906f579742a61df17dd0586e8cef17cf833cd30190cd0a85b23",
+      "actual_reading": "Complete native-delivered prose before import; prose retained unchanged."
+    }
+  ],
+  "findings": [
+    {
+      "id": "ROOT-TERRA-02",
+      "chapter": 9,
+      "category": "continuity/repeated event",
+      "confidence": "high",
+      "evidence": [
+        "Він написав їй, дочекався відповіді й викреслив ім’я — та працювала вночі й не могла прийти.",
+        "Вектор стояв у коридорі й дзвонив людині, яку щойно переніс із ефіру на чергування. Після розмови викреслив її ім’я."
+      ],
+      "finding": "Same reassigned person is removed and her night-work conflict learned twice without a reason for repeating it.",
+      "compatible_direction": "Keep one discovery/withdrawal; earlier contact can remain awaiting response.",
+      "status": "to_reconcile_after_independent_reports"
+    },
+    {
+      "id": "ROOT-TERRA-03",
+      "chapter": 12,
+      "category": "architecture-relative chronology",
+      "confidence": "high",
+      "evidence": [
+        "Повернувшись до монтажної, я побачив на екрані вчорашню суперечку з Ланою."
+      ],
+      "finding": "Lana debate is CH08/D2; current CH12 is D4. Yesterday shifts it by one day.",
+      "compatible_direction": "Correct the relative day or use neutral reference to the recorded debate.",
+      "status": "to_reconcile_after_independent_reports"
+    }
+  ],
+  "observations": [
+    "CH07 guest read-only permissions and stand isolation remain bounded.",
+    "CH08 Ira specifies15:30/15:45 and arrival after17; Dal is not automatically a party.",
+    "CH09 conditional L1 permit distinct from L2 talks; one volunteer event duplicated as noted.",
+    "CH10 failed pointer and successful repeat both kept in log; stand return does not activate live external route.",
+    "CH11 three takes lead to one approved published version, no promise of guaranteed hours.",
+    "CH12 same-day playback, unrecorded plans canceled, Ira explicitly withdraws both published clip and continuations; response atCH13 still pending."
+  ],
+  "limits": "Coordination only. These notes are not sent to independent reviewers."
+}

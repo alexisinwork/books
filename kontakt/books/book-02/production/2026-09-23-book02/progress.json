@@ -23,7 +23,9 @@
       "phase": "all_full_chapters",
       "actor": "Terra",
       "status": "in_progress",
-      "progress_file": "terra-full-v1/progress.json"
+      "progress_file": "terra-full-v2/progress.json",
+      "execution": "Fresh native Terra authoring sessions; complete source inline; sequential blocks with prior full text states.",
+      "preserved_incomplete_attempt": "terra-full-v1/ATTEMPT-STATUS.json"
     },
     {
       "phase": "independent_literary_reviews",
@@ -48,5 +50,6 @@
   ],
   "opus_exception": "Skip if unavailable per explicit earlier authorinstruction; record actualcoverage.",
   "active_structure": "structure-v2",
-  "structure_checkpoint_commit": "0590e06b890230cf4b17f6ea87419cd6ae84bc19"
+  "structure_checkpoint_commit": "0590e06b890230cf4b17f6ea87419cd6ae84bc19",
+  "rough_checkpoint_commit": "aa7aff2d8699050c543eea45b8f8b13e8beb5d77"
 }
