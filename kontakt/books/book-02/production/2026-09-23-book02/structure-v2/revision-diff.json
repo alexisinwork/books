@@ -1,0 +1,71 @@
+{
+  "status": "structure_v2_pending_final_root_gate",
+  "predecessor": "kontakt/books/book-02/production/2026-09-23-book02/structure",
+  "frozen_predecessor_verified": {
+    "full-outline.md": "bcf9d57c5cd1ee1866ce84204d6a47e79dd534be8415d5489e0c2abed52d49e6",
+    "chapter-scene-cards.json": "fc8ed9ea9fd8a2d6a571f0daf8c18f55a8ba72bb499b7eecb2b8b5df3a2743c9",
+    "structure-gates.json": "d25c3da041e551867240d0f6f988ccbe5a6578fad4852a53dd9658d222e02fc5",
+    "artifact-manifest.json": "ced9409debe39a4163d28a794e31c4fa24b8f251de5a3a37d8dc82826be84646"
+  },
+  "whole_predecessor_manifest_verified": true,
+  "changes": [
+    {
+      "id": "V2-01",
+      "change": "Reader knows L1+B/D5 from CH14; DOC01 gives D3 and creates real reader-ahead comparison. CH35 adds new access for Dal plus no-local-order verification. Causes and complete reserve distribution remain unknown.",
+      "dependents": [
+        "chapter-scene-cards.json",
+        "knowledge.planned.json",
+        "full-outline.md",
+        "structure-gates.json"
+      ]
+    },
+    {
+      "id": "V2-02",
+      "change": "Ukrainian agreement/word fixes; sentence boundaries in CH07/09/10/27; double full stops removed from generated outline.",
+      "dependents": [
+        "build_structure.py",
+        "chapter-scene-cards.json",
+        "full-outline.md",
+        "voices-and-glossary.md",
+        "knowledge.planned.json"
+      ]
+    },
+    {
+      "id": "V2-03",
+      "change": "U02 dependency correctly names Maya/service archive; no change to unknown original consent facts.",
+      "dependents": [
+        "decisions-and-questions.json"
+      ]
+    },
+    {
+      "id": "V2-04",
+      "change": "CH19/20 old records found by manual chronology scrolling; CH26 broadcast outcome reaches Dal in a direct message from the presenter after he leaves.",
+      "dependents": [
+        "chapter-scene-cards.json",
+        "knowledge.planned.json",
+        "full-outline.md"
+      ]
+    },
+    {
+      "id": "V2-05",
+      "change": "L1 conditional authorization D3 distinct from L2 preliminary talks without permission; L2 rejected CH24.",
+      "dependents": [
+        "chapter-scene-cards.json",
+        "resources.planned.json",
+        "knowledge.planned.json",
+        "full-outline.md"
+      ]
+    },
+    {
+      "id": "V2-06",
+      "change": "Final verified temporal precedence includes private selection D5 and public announcement D6; no proof of prediction.",
+      "dependents": [
+        "timeline.planned.json",
+        "end-state.planned.json",
+        "knowledge.planned.json",
+        "full-outline.md"
+      ]
+    }
+  ],
+  "scope": "Same 36 chapters and 41 scenes; no new prose, no macro expansion; original structure unchanged."
+}

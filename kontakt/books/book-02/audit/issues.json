@@ -225,7 +225,112 @@
         "text": "Progressive sequence work; selected scoped scene cards govern opening; global macro review does not equal all chapters draft-ready.",
         "record": "../../series/preparation/2026-09-21/resolutions.json"
       },
-      "implementation_status": "source_routing_applied"
+      "implementation_status": "source_routing_applied",
+      "current_execution_override": {
+        "basis": "Explicit author request 2026-09-23",
+        "workflow": "../../series/WORKFLOW-2026-09-23-REVISION-AND-BOOK02.md",
+        "text": "Historical progressive-sequence resolution preserved; current execution requires entire structure and all rough chapters before Terra full prose."
+      }
+    },
+    {
+      "id": "KONTAKT-B02-20260923-U01",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Чи і за яких умов окремий аварійний ключ відновлює автоматичний виклик?",
+      "evidence_limit": "Цього не доводить Book1.",
+      "proposed_change": "Не використовувати таке відновлення; ключ не потрібен сюжету Book2.",
+      "dependencies": [
+        "R02",
+        "можливі майбутні сцени оформлення ключа"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/structure-v2/decisions-and-questions.json",
+      "verification": {
+        "scope": "structure and source boundary; prose not yet written"
+      }
+    },
+    {
+      "id": "KONTAKT-B02-20260923-U02",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Повний зміст первісної згоди у давньому архіві Book1 CH16",
+      "evidence_limit": "Збережений витяг не встановлює всі умови поінформованої згоди.",
+      "proposed_change": "Не будувати нових тверджень про первісну згоду чи виправдання калібрування.",
+      "dependencies": [
+        "можливе повернення до службового архіву Майї; у цьому плані такого немає"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/structure-v2/decisions-and-questions.json",
+      "verification": {
+        "scope": "structure and source boundary; prose not yet written"
+      }
+    },
+    {
+      "id": "KONTAKT-B02-20260923-U03",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Причина резерву і розподіл резервів серед інших кандидатів",
+      "evidence_limit": "Немає повного зовнішнього журналу; сам часовий порядок не розрізняє гіпотез.",
+      "proposed_change": "Навмисно відкрите питання фіналу; зберегти пересторогу, витік, статистичне очікування.",
+      "dependencies": [
+        "CH35–36",
+        "Book3"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/structure-v2/decisions-and-questions.json",
+      "verification": {
+        "scope": "structure and source boundary; prose not yet written"
+      }
+    },
+    {
+      "id": "KONTAKT-B02-20260923-U04",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Точний запас грошей Даля після професійного виходу",
+      "evidence_limit": "Book1 не дає точного балансу.",
+      "proposed_change": "Не називати суму, раптове банкрутство чи безмежну забезпеченість; звичайні витрати, пошук роботи, відсутність гарантованої платні мають лишатися видимими.",
+      "dependencies": [
+        "CH01",
+        "CH14–16",
+        "CH32",
+        "побутові переходи"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/structure-v2/decisions-and-questions.json",
+      "verification": {
+        "scope": "structure and source boundary; prose not yet written"
+      }
+    },
+    {
+      "id": "KONTAKT-B02-20260923-U05",
+      "category": "continuity_boundary",
+      "severity": "bounded_limit",
+      "certainty": "source_limit",
+      "observation": "Подальші обставини Майї після однієї оплаченої ночі",
+      "evidence_limit": "Останнє пряме повідомлення встановлює тільки той вечір.",
+      "proposed_change": "Майя не з’являється в цьому плані як ресурс, послідовниця чи доказ успіху Даля.",
+      "dependencies": [
+        "будь-яка майбутня поява Майї"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false,
+      "decision": "not_individually_adjudicated_by_author",
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/structure-v2/decisions-and-questions.json",
+      "verification": {
+        "scope": "structure and source boundary; prose not yet written"
+      }
     }
   ]
 }

@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "status": "proposed_implementation_pending_root_structure_gate",
+  "authority_note": "Автор дозволив весь цикл роботи. Наведені реалізації — рішення планувальника у межах доручення, не індивідуальні авторські accepted/rejected і не цитати автора.",
+  "implementations": [
+    {
+      "id": "I01",
+      "decision": "36 глав / 41 сцен із різною кількістю сцен у главі",
+      "rationale": "Розділення за зміною задачі, знання або незворотного вибору; число не квота й може змінитися після повного чернеткового тексту.",
+      "dependents": "Усі глави",
+      "resolution_status": "proposed_implementation",
+      "blocking": false,
+      "origin": "Astra planning implementation"
+    },
+    {
+      "id": "I02",
+      "decision": "Явна пауза до Book1 D21",
+      "rationale": "Дев’ять проміжних днів потрібні для згасання регулярної видимості; жодних великих змін за кадром.",
+      "dependents": "CH01; timeline",
+      "resolution_status": "proposed_implementation",
+      "blocking": false,
+      "origin": "Astra planning implementation"
+    },
+    {
+      "id": "I03",
+      "decision": "Обмежений місцевий утримувач relay",
+      "rationale": "Утримувач може дозволити зміни лише власного локального шару ранжування; оператори виконують, Даль перевіряє. Це не універсальний root-доступ і не професійне поновлення.",
+      "dependents": "CH07–10,CH14,CH18–19",
+      "resolution_status": "proposed_implementation",
+      "blocking": false,
+      "origin": "Astra planning implementation"
+    },
+    {
+      "id": "I04",
+      "decision": "Справжня ціна дозволеної операції",
+      "rationale": "Підпільність тут — поза великими інституціями, на позичених майданчиках і власних ресурсах; не кримінальна погоня. Немає загальної згоди, спонсора чи безкоштовної гарантованої сцени. Строк оренди, устаткування, чергування, поіменна відповідальність операторів, недовіра користувачів і ризик відкликання дозволу роблять подію крихкою. Даль потрібен для відділення контурів, Тарас — для конкретної неперервності, Лана — незалежна, її мережу рух не може привласнити.",
+      "dependents": "CH05–10,CH18,CH21–24,CH29–31",
+      "resolution_status": "proposed_implementation",
+      "blocking": false,
+      "origin": "Astra planning implementation"
+    },
+    {
+      "id": "I05",
+      "decision": "Рівно 24 години; повернення без імпровізованого бекдора",
+      "rationale": "Збережена підписана конфігурація й таймер; достроковий відкат у межах локальної компетенції; медичні, правові, екстрені й ідентифікаційні канали поза перемиканням.",
+      "dependents": "CH09–10,CH18–19,CH29–30",
+      "resolution_status": "proposed_implementation",
+      "blocking": false,
+      "origin": "Astra planning implementation"
+    },
+    {
+      "id": "I06",
+      "decision": "Другий вузол сьогодні відхилено",
+      "rationale": "Інший утримувач не схвалює запуск без ручної готовності й тесту. Вектор не обходить відмову; пропонує майбутню заявку й втрачає кульмінаційне розширення.",
+      "dependents": "CH14,CH24,CH26,CH31",
+      "resolution_status": "proposed_implementation",
+      "blocking": false,
+      "origin": "Astra planning implementation"
+    },
+    {
+      "id": "I07",
+      "decision": "Відкликання Іри дійсне, огласка лишається зовні",
+      "rationale": "Іра погоджує один матеріал, потім відкликає; Вектор прибирає контрольовані копії. У CH25 відновлена видимість походить від ідентифікованої старої сторонньої копії, не нового використання рухом.",
+      "dependents": "CH11–13,CH25–28",
+      "resolution_status": "proposed_implementation",
+      "blocking": false,
+      "origin": "Astra planning implementation"
+    },
+    {
+      "id": "I08",
+      "decision": "Ірина практична задача і пропуск",
+      "rationale": "Робочий розклад дає власну мету; добровільний check-in має обмежений fallback. Її вимкнення інтерфейсів — власне рішення, не суїцидальна/медична небезпека.",
+      "dependents": "CH02,CH08,CH11,CH25–28",
+      "resolution_status": "proposed_implementation",
+      "blocking": false,
+      "origin": "Astra planning implementation"
+    },
+    {
+      "id": "I09",
+      "decision": "Резерв точної пари, не просто реакція на стенд",
+      "rationale": "D3 16:10 резерв L1+B; D3 стенд ізольований, допускає обидва зовнішні маршрути і не використовує їх. D5 09:40 приватний вибір L1+B за готовністю; D6 20:10 публічний анонс. CH17 Даль бачить загальний запас без часу/розбивки; CH35 отримує первинну пару та звірку місцевих замовлень. Кампанія відкрита D2; зовнішній оператор міг резервувати всі пари — вибірки немає. Збіг не доводить прогнозу приватного вибору; причина невідома.",
+      "dependents": "CH07,CH10,CH14,DOC01,CH17–18,CH35–36",
+      "resolution_status": "proposed_implementation",
+      "blocking": false,
+      "origin": "Astra planning implementation"
+    },
+    {
+      "id": "I10",
+      "decision": "R2 як прийнята відповідь",
+      "rationale": "Даль помічає різницю між кадром і поза ним, питає Іру й приймає її слова; повторює це без привласнення у CH27–28. Немає індикатора рангу чи нового сервісного права.",
+      "dependents": "CH12–13,CH27–28",
+      "resolution_status": "proposed_implementation",
+      "blocking": false,
+      "origin": "Astra planning implementation"
+    },
+    {
+      "id": "I11",
+      "decision": "Тарас стає другом після кінця роботи",
+      "rationale": "Даль повертається закривати нудні передачі, потім лишається на просту їжу. Це не вербування, заснування мережі чи спільне розслідування за замовчуванням.",
+      "dependents": "CH33–34,CH36",
+      "resolution_status": "proposed_implementation",
+      "blocking": false,
+      "origin": "Astra planning implementation"
+    },
+    {
+      "id": "I12",
+      "decision": "Робочі українські назви",
+      "rationale": "Розфокус. Одноденки; Вітрина, Розлад, Якір. Баласт з одним л зберігає наявний текст. Це українська робоча реалізація плану, не реткон і не нова цитата автора.",
+      "dependents": "voices-and-glossary.md",
+      "resolution_status": "proposed_implementation",
+      "blocking": false,
+      "origin": "Astra planning implementation"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "U01",
+      "question": "Чи і за яких умов окремий аварійний ключ відновлює автоматичний виклик?",
+      "evidence_limit": "Цього не доводить Book1.",
+      "handling": "Не використовувати таке відновлення; ключ не потрібен сюжету Book2.",
+      "dependent_places": [
+        "R02",
+        "можливі майбутні сцени оформлення ключа"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false
+    },
+    {
+      "id": "U02",
+      "question": "Повний зміст первісної згоди у давньому архіві Book1 CH16",
+      "evidence_limit": "Збережений витяг не встановлює всі умови поінформованої згоди.",
+      "handling": "Не будувати нових тверджень про первісну згоду чи виправдання калібрування.",
+      "dependent_places": [
+        "можливе повернення до службового архіву Майї; у цьому плані такого немає"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false
+    },
+    {
+      "id": "U03",
+      "question": "Причина резерву і розподіл резервів серед інших кандидатів",
+      "evidence_limit": "Немає повного зовнішнього журналу; сам часовий порядок не розрізняє гіпотез.",
+      "handling": "Навмисно відкрите питання фіналу; зберегти пересторогу, витік, статистичне очікування.",
+      "dependent_places": [
+        "CH35–36",
+        "Book3"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false
+    },
+    {
+      "id": "U04",
+      "question": "Точний запас грошей Даля після професійного виходу",
+      "evidence_limit": "Book1 не дає точного балансу.",
+      "handling": "Не називати суму, раптове банкрутство чи безмежну забезпеченість; звичайні витрати, пошук роботи, відсутність гарантованої платні мають лишатися видимими.",
+      "dependent_places": [
+        "CH01",
+        "CH14–16",
+        "CH32",
+        "побутові переходи"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false
+    },
+    {
+      "id": "U05",
+      "question": "Подальші обставини Майї після однієї оплаченої ночі",
+      "evidence_limit": "Останнє пряме повідомлення встановлює тільки той вечір.",
+      "handling": "Майя не з’являється в цьому плані як ресурс, послідовниця чи доказ успіху Даля.",
+      "dependent_places": [
+        "будь-яка майбутня поява Майї"
+      ],
+      "resolution_status": "unresolved",
+      "blocking": false
+    }
+  ],
+  "central_registry_note": "Цей scoped реєстр містить справжні невідомі й залежності для координатора. Центральний audit/issues.json не змінено: він поза ownership цієї задачі.",
+  "gate": {
+    "status": "pending_root_structure_gate",
+    "prose_started": false,
+    "author_confirmation_required_for_these_reversible_details": false,
+    "next_stage": "Після структурного gate Astra пише фактичні чернетки всіх глав; тільки після всіх чернеток Terra створює повний літературний текст."
+  }
+}

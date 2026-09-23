@@ -1,0 +1,46 @@
+{
+  "workflow": "../../../../series/WORKFLOW-2026-09-23-REVISION-AND-BOOK02.md",
+  "author_confirmation": "Да, полный текст пишет Terra",
+  "book01_working_source_sha256": "32d70ac6e9dc3c523ee7a8fcd38db28f26aa77d5cd1908fa19f8eeb51f61b89f",
+  "book01_checkpoint_commit": "5728141",
+  "phases": [
+    {
+      "phase": "full_structure",
+      "actor": "Astra",
+      "status": "complete",
+      "gate": "root-structure-gate.json"
+    },
+    {
+      "phase": "all_rough_chapters",
+      "actor": "Astra",
+      "status": "in_progress"
+    },
+    {
+      "phase": "all_full_chapters",
+      "actor": "Terra",
+      "status": "not_started"
+    },
+    {
+      "phase": "independent_literary_reviews",
+      "actors": [
+        "Opus",
+        "Gemini3.8Flash",
+        "Gemini3.1Pro",
+        "Terra fresh context"
+      ],
+      "status": "not_started"
+    },
+    {
+      "phase": "reconciliation_and_full_check",
+      "actor": "Astra",
+      "status": "not_started"
+    },
+    {
+      "phase": "final_compatible_revision",
+      "actor": "Terra",
+      "status": "not_started"
+    }
+  ],
+  "opus_exception": "Skip if unavailable per explicit earlier authorinstruction; record actualcoverage.",
+  "active_structure": "structure-v2"
+}

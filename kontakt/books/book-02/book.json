@@ -4,11 +4,11 @@
   "book_id": "book-02",
   "title": "Расфокус / Однодневки",
   "book_type": "fiction",
-  "stage": "macro_reconciled",
+  "stage": "astra_full_book_rough_drafting",
   "master": null,
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "macro_reviewed_scene_gates_pending",
+  "audit_status": "whole_structure_gate_passed_prose_pending",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -21,5 +21,17 @@
     "sha256": "ed3272dddef0c5b393daa7cd6daf2648d187fec12a791d07b141992fd6f06fd6"
   },
   "planning_state": "planned_not_observed",
-  "execution_entry": "plan.md"
+  "execution_entry": "production/2026-09-23-book02/progress.json",
+  "active_workflow": "../../series/WORKFLOW-2026-09-23-REVISION-AND-BOOK02.md",
+  "current_writer": "Astra (structure and all rough chapters); Terra (subsequent full text)",
+  "draft_scope": {
+    "prose_started": false,
+    "whole_book_written": false,
+    "whole_book_ready": false,
+    "whole_series_ready": false
+  },
+  "active_structure": {
+    "path": "production/2026-09-23-book02/structure-v2/full-outline.md",
+    "sha256": "f693fef061959126447c320d6a7b1d1a642f33d523d3f82afb130921fa8f57c9"
+  }
 }
