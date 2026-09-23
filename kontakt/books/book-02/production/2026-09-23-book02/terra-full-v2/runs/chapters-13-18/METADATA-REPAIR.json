@@ -1,0 +1,21 @@
+{
+  "source_response_sha256": "279fbee3c17594ce0fd8a6ded1fba47be5ce6999b5febb543d65a1690ad3c605",
+  "scope": "Metadata only; raw response and prose unchanged",
+  "repairs": [
+    {
+      "kind": "syntax",
+      "before": "}]}}}",
+      "after": "}]}}",
+      "occurrences": 6,
+      "reason": "Extraneous chapter-object closing brace. Original response unchanged."
+    },
+    {
+      "kind": "quote",
+      "scene": "B02-CH14-SC01",
+      "before": "Дев’ята сорок, субота.",
+      "after": "Дев’ята сорок, субота",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    }
+  ],
+  "output_sha256": "365c2dbb133cba653ba367a4be23386bbbe8cd900a7acf0c82d9d3a7d0ff061f"
+}

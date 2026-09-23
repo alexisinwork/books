@@ -1,0 +1,52 @@
+{
+  "status": "prepared_not_executed",
+  "client": "agy",
+  "role": "opus",
+  "requested_model": "claude-opus-4-6-thinking",
+  "review_mode": "literary_editor",
+  "scope": "volume",
+  "through_chapter": 36,
+  "target": "kontakt\\books\\book-02\\production\\2026-09-23-book02\\terra-full-v2\\assembled\\manuscript.md",
+  "target_sha256": "e641f3b639f0c03578c51916c0434156c584ce8022f556d94e522bf7c653679d",
+  "paragraphs": 1894,
+  "parts": [
+    {
+      "part": 1,
+      "first_paragraph": 1,
+      "last_paragraph": 576,
+      "paragraphs": 576,
+      "message_sha256": "f326ccd70dbda5a9c064066f291af53a3b905824f4d7c2fde1b84cba3916beaf",
+      "message_bytes": 88847
+    },
+    {
+      "part": 2,
+      "first_paragraph": 577,
+      "last_paragraph": 1122,
+      "paragraphs": 546,
+      "message_sha256": "f5ad5014f9f19a5053e8c66a81d44f6d85d68a433acf572e63f7c82ccb01f45f",
+      "message_bytes": 88872
+    },
+    {
+      "part": 3,
+      "first_paragraph": 1123,
+      "last_paragraph": 1668,
+      "paragraphs": 546,
+      "message_sha256": "768850fb4dc444634a132943407c44a746bfbc17b0ec2c352ad3d84eaa7fbcdb",
+      "message_bytes": 88778
+    },
+    {
+      "part": 4,
+      "first_paragraph": 1669,
+      "last_paragraph": 1894,
+      "paragraphs": 226,
+      "message_sha256": "ef51ee19ad52d0dd4fdddad6a3d270feef7d04d698e614c365d7c96ee79d269a",
+      "message_bytes": 40383
+    }
+  ],
+  "input_events": 5,
+  "expected_result_events": 5,
+  "input_sha256": "b6c86affae0369255a7079b1ceaef4211fe226b9234aacedd83a50ccb5cb1319",
+  "prompt_sha256": "84eb8c46500ab8168ceca585b208953f188ff74ef61fd3b089c9ca7f1723d948",
+  "references": [],
+  "validation": "All paragraphs included once in original order; each text part below125000bytes; not evidence of model reading"
+}

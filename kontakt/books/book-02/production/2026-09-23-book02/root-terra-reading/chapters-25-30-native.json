@@ -1,0 +1,79 @@
+{
+  "status": "nonblind_coordinator_reading",
+  "items": [
+    {
+      "chapter": 25,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-25.md",
+      "sha256": "1067e0a0c111585966d3d05961a246e03f3b1650539fb4d1cff7d69e223d672e",
+      "actual_reading": "Complete current chapter text."
+    },
+    {
+      "chapter": 26,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-26.md",
+      "sha256": "c17b00bef7a83e80255296901142125c67b37b1f8e5b2e93aab515afbb945826",
+      "actual_reading": "Complete current chapter text."
+    },
+    {
+      "chapter": 27,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-27.md",
+      "sha256": "320feb1fc4719b9fbbebb892b4912140402e67e0de63998504c71c66722a04f0",
+      "actual_reading": "Complete current chapter text."
+    },
+    {
+      "chapter": 28,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-28.md",
+      "sha256": "0467abe103979584fa8f03407d2041edcab3f31ec6aa549612ab7c8e6a8fba3c",
+      "actual_reading": "Complete current chapter text."
+    },
+    {
+      "chapter": 29,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-29.md",
+      "sha256": "004efdf87029eafdb6cc3a0dc0874c6cbea03111f52eca88486e3f2d6362250e",
+      "actual_reading": "Complete current chapter text."
+    },
+    {
+      "chapter": 30,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-30.md",
+      "sha256": "bda1649347541d02229bd3dfd3266d3cfd06b19b440daef454a121ca56a7ab6f",
+      "actual_reading": "Complete current chapter text."
+    }
+  ],
+  "findings": [
+    {
+      "id": "ROOT-TERRA-11",
+      "chapter": 30,
+      "category": "chronology",
+      "confidence": "high",
+      "quote": "Завтра о дванадцятій. Зводимо підсумок",
+      "finding": "Invitation spoken after Tuesday00:30; next planned report is same Tuesday12, not Wednesday. Rough already corrected this; Terra reintroduced it.",
+      "compatible_direction": "Сьогодні о дванадцятій; checkCH31 chronology after full source complete."
+    },
+    {
+      "id": "ROOT-TERRA-12",
+      "chapter": 30,
+      "category": "address register",
+      "confidence": "medium",
+      "quote": "Бачив оплески?",
+      "finding": "Vector uses formal Прийдете in preceding speech, then informal Бачив without clear transition.",
+      "compatible_direction": "Check intended shift versus consistent formal Бачили; keep distinct character relation."
+    },
+    {
+      "id": "ROOT-TERRA-13",
+      "chapter": 25,
+      "category": "address register / optional interpretation",
+      "confidence": "medium",
+      "quote": "Якщо сам хочеш.",
+      "finding": "Taras moves from formal to informal in a private agreement before later friendship scene; may be intentional rapport, not necessarily a defect.",
+      "compatible_direction": "Assess whole arc, avoid mechanical uniformity."
+    }
+  ],
+  "observations": [
+    "CH25 exact15:30/15:45, old Friday external repost, staff deletion newly confirmed. Briefing before shift distinct from actual replacement inCH26.",
+    "CH26 Dal owns cost of leaving, passes only permitted notes; broadcast result comes through presenter message. Ordinary cabinet key returned.",
+    "CH27 after17 arrival and Ira permission; she herself achieved two morning shifts on Sunday, Dal no rescuer.",
+    "CH28 Ira initiates Tuesday19 contact, one followup, no Dal enrollment; sauce joke distinguishes mistaken memory from her actual order.",
+    "CH29 remaining table parts deferred Wednesday; compare with completedMonday delivery inCH23 and laterCH33 before declaring any contradiction. Extension explicitly refused; voluntary desk continuation only30minutes.",
+    "CH30 automatic return and local checks, no emergency simulation; mixed reception; invitation day incorrect as noted."
+  ],
+  "limits": "Not an independent literary diagnosis. Findings held until ensemble reports fixed."
+}

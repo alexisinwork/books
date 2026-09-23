@@ -1,0 +1,79 @@
+{
+  "status": "nonblind_coordinator_reading",
+  "items": [
+    {
+      "chapter": 13,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-13.md",
+      "sha256": "fe7f1264eeb77cea3aa4c37778c5b2ecc83fa5691d80a3f3a3e07643a43bbdf6",
+      "actual_reading": "Complete current chapter text."
+    },
+    {
+      "chapter": 14,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-14.md",
+      "sha256": "c578fd5a80d80a387c7d7e60b67c6212c7231e0b7a56ea40f5c6b0fbd58bf252",
+      "actual_reading": "Complete current chapter text."
+    },
+    {
+      "chapter": 15,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-15.md",
+      "sha256": "d5c45e7157a6209b403fb8f974d041582cca28954c8723c739bb53084c794548",
+      "actual_reading": "Complete current chapter text."
+    },
+    {
+      "chapter": 16,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-16.md",
+      "sha256": "cfe66824b30d8d8fe40238713bf7414d9cec7293dbf53f3751135d77a5601816",
+      "actual_reading": "Complete current chapter text."
+    },
+    {
+      "chapter": 17,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-17.md",
+      "sha256": "fdba622a2ae4519c72a9b0fee3d7dc2f56d8cc748c4c7315b73a007e9e620d37",
+      "actual_reading": "Complete current chapter text."
+    },
+    {
+      "chapter": 18,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-18.md",
+      "sha256": "3bff9140fcc95d77e45d637a2f1d0481eb01bf33fa73b30454da57de1de50a8a",
+      "actual_reading": "Complete current chapter text."
+    }
+  ],
+  "findings": [
+    {
+      "id": "ROOT-TERRA-04",
+      "chapter": 18,
+      "category": "chronology",
+      "confidence": "high",
+      "quote": "Початок о 00:00. Повернення завтра о 00:00.",
+      "finding": "Spoken Sunday evening before20:10. Tomorrow00:00 is Monday launch, not Tuesday return; exact24h must be explicit.",
+      "compatible_direction": "Name Monday00:00 and Tuesday00:00; preserve24h."
+    },
+    {
+      "id": "ROOT-TERRA-05",
+      "chapter": 14,
+      "category": "technical identifier typography",
+      "confidence": "high",
+      "quote": "По А остаточного підтвердження ще немає",
+      "finding": "Cyrillic А in a literal technical route identifier; route A elsewhere Latin.",
+      "compatible_direction": "Use Latin A for this exact route label, not global replacement of Ukrainian letters."
+    },
+    {
+      "id": "ROOT-TERRA-06",
+      "chapter": 13,
+      "category": "temporal phrasing ambiguity",
+      "confidence": "medium",
+      "quote": "ніби завтра вимкнуть усі повідомлення",
+      "finding": "Current scene Friday, launch Monday. This describes a misleading text implication, not necessarily a factual assertion, but tomorrow may confuse the schedule.",
+      "compatible_direction": "Use during the experimental day if no intended false-date effect."
+    }
+  ],
+  "observations": [
+    "CH13 own publication and pending working-copy removal distinguished from two external copies.",
+    "CH14 exact Saturday09:40 private L1+B choice; public self-story preserves suspension then voluntary closure, excludes Maya/Nina disclosures.",
+    "CH15 Lana criticism remains criticism; merchant cost unresolved, same woman carries intoCH16.",
+    "CH16 private practical help costs morning appearance; Ballast receives public questions only.",
+    "CH17 DOC01 reader ahead; Dal sees current aggregates without creation time and retains hypothesis, Vector owns fifteen-minute shift.",
+    "CH18 public Sunday20:10 pair; two operator signatures and one local mode; relative return wording needs correction."
+  ],
+  "limits": "These nonblind notes are held for reconciliation after independent reports, not supplied to those reviewers."
+}

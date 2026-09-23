@@ -22,10 +22,12 @@
     {
       "phase": "all_full_chapters",
       "actor": "Terra",
-      "status": "in_progress",
+      "status": "complete",
       "progress_file": "terra-full-v2/progress.json",
       "execution": "Fresh native Terra authoring sessions; complete source inline; sequential blocks with prior full text states.",
-      "preserved_incomplete_attempt": "terra-full-v1/ATTEMPT-STATUS.json"
+      "preserved_incomplete_attempt": "terra-full-v1/ATTEMPT-STATUS.json",
+      "source_sha256": "e641f3b639f0c03578c51916c0434156c584ce8022f556d94e522bf7c653679d",
+      "gate": "terra-full-v2-technical-verification.json"
     },
     {
       "phase": "independent_literary_reviews",
@@ -35,12 +37,12 @@
         "Gemini3.1Pro",
         "Terra fresh context"
       ],
-      "status": "not_started"
+      "status": "reports_returned_pending_validation"
     },
     {
       "phase": "reconciliation_and_full_check",
       "actor": "Astra",
-      "status": "not_started"
+      "status": "in_progress"
     },
     {
       "phase": "final_compatible_revision",

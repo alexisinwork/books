@@ -1,0 +1,88 @@
+{
+  "status": "nonblind_coordinator_reading",
+  "items": [
+    {
+      "chapter": 19,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-19.md",
+      "sha256": "cf86d18e568aea710cec85c768b7f46c07e2cdd5623d74f87d086f72f07afd1b",
+      "actual_reading": "Complete source text before import, retained unchanged."
+    },
+    {
+      "chapter": 20,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-20.md",
+      "sha256": "e2af2b2498ee98e1da4294e92d7b9df600e2b62228fb3f18e76482f99729bd1f",
+      "actual_reading": "Complete source text before import, retained unchanged."
+    },
+    {
+      "chapter": 21,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-21.md",
+      "sha256": "22cee1539eac641c07b8719daf63a67e6b752c7e7e6dd2467743bb4a3b2dc093",
+      "actual_reading": "Complete source text before import, retained unchanged."
+    },
+    {
+      "chapter": 22,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-22.md",
+      "sha256": "b868cab768041667cb73df01ee617f3e2a2d24669b3eb820cc274db19cd24f3e",
+      "actual_reading": "Complete source text before import, retained unchanged."
+    },
+    {
+      "chapter": 23,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-23.md",
+      "sha256": "d5cd49358f0cad69420ccbf8e97cea746219ab41e05cd73eadfd38daceb76337",
+      "actual_reading": "Complete source text before import, retained unchanged."
+    },
+    {
+      "chapter": 24,
+      "source": "kontakt/books/book-02/production/2026-09-23-book02/terra-full-v2/chapters/chapter-24.md",
+      "sha256": "29860ebadde6b3881c0e791f022f23a520c2be58cad912fda6584224073aabb9",
+      "actual_reading": "Complete source text before import, retained unchanged."
+    }
+  ],
+  "findings": [
+    {
+      "id": "ROOT-TERRA-07",
+      "chapter": 19,
+      "category": "language/typo",
+      "confidence": "high",
+      "quote": "За двадццять хвилин до півночі",
+      "finding": "Double ц typo in twenty.",
+      "compatible_direction": "двадцять"
+    },
+    {
+      "id": "ROOT-TERRA-08",
+      "chapter": 19,
+      "category": "chronology",
+      "confidence": "high",
+      "quote": "Завтра, нуль нуль.",
+      "finding": "Operator answers before Sunday midnight; same relative-return-day problem asROOT-TERRA-04.",
+      "compatible_direction": "Explicit Tuesday00:00 after Monday00:00 launch; group withCH18."
+    },
+    {
+      "id": "ROOT-TERRA-09",
+      "chapter": 23,
+      "category": "referent continuity to check",
+      "confidence": "medium",
+      "quote": "Решту вона забрала.",
+      "finding": "Table hardware delivered Monday; roughCH33 also mentions Wednesday table hardware. Could be separate cases, not automatically contradiction. Full ending must make separation/remaining obligation clear.",
+      "compatible_direction": "CheckCH29/33 before deciding; distinguish recipient or remaining obligation only if needed."
+    },
+    {
+      "id": "ROOT-TERRA-10",
+      "chapter": 20,
+      "category": "state metadata",
+      "confidence": "high",
+      "quote": "Після другої ночі",
+      "finding": "Observed prose has after02:00 bound; metadata time_basis says planned00:30–02 with no exact clock and omits this actual boundary.",
+      "compatible_direction": "Record actual after02:00 separately from planned interval; do not change prose just to obey planned clock."
+    }
+  ],
+  "observations": [
+    "CH19 actual operators launch; Dal has guest checks; Vector present on fifteen-minute shift.",
+    "CH20 late chair returns home; fabric transfer completed; manual search rather than new magic ranking.",
+    "CH21 number transposition corrected against original before parcel handover; missed broadcast known via presenter message.",
+    "CH22 strong groups retain repetition advantage; substitute opportunity lost before response.",
+    "CH23 old fastener post is a request; donor and recipient distinct; substitute hours only agreed not yet executed.",
+    "CH24 L2 rejected after explicit options; no bypass, future application not permission."
+  ],
+  "limits": "Nonblind coordination; all issues await reconciliation with independent reports and final Terra revision."
+}

@@ -1,0 +1,43 @@
+{
+  "role": "authoring",
+  "model_requested": "gpt-5.6-terra",
+  "client": "codex exec",
+  "actual_backend": "not independently attested",
+  "context": "fresh isolated cwd; only inline source material",
+  "command": [
+    "codex",
+    "exec",
+    "--ignore-user-config",
+    "--skip-git-repo-check",
+    "--ephemeral",
+    "--sandbox",
+    "read-only",
+    "--model",
+    "gpt-5.6-terra",
+    "--json",
+    "--output-last-message",
+    "C:\\Users\\alexi\\OneDrive\\Projects\\books\\kontakt\\books\\book-02\\production\\2026-09-23-book02\\terra-full-v2\\runs\\chapters-19-24\\RESPONSE.md",
+    "-"
+  ],
+  "prompt_sha256": "bd5bb22bece637bc70316457972340e3a3eb2216ad2ab6e34e8d42700752a983",
+  "status": "returned_pending_manual_validation",
+  "exit_code": 0,
+  "seconds": 194.39,
+  "thread_ids": [
+    "01a0cf5d-24db-78c3-b1a5-ffbd91b1a0fa"
+  ],
+  "item_types": [
+    "agent_message"
+  ],
+  "usage": [
+    {
+      "input_tokens": 172200,
+      "cached_input_tokens": 11008,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 10518,
+      "reasoning_output_tokens": 46
+    }
+  ],
+  "response_sha256": "36c3adbb8793dbf73231fa2190f386ca38cd50020f720de89e2442c7296fbfda",
+  "limitation": "Transport/model request does not establish reading, literary quality or backend identity."
+}

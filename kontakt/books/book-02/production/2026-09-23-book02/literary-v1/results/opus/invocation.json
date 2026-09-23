@@ -1,0 +1,54 @@
+{
+  "status": "unavailable_or_incomplete",
+  "role": "opus",
+  "client": "agy",
+  "requested_model": "claude-opus-4-6-thinking",
+  "target_sha256": "e641f3b639f0c03578c51916c0434156c584ce8022f556d94e522bf7c653679d",
+  "scope": "volume",
+  "through_chapter": 36,
+  "input_sha256": "b6c86affae0369255a7079b1ceaef4211fe226b9234aacedd83a50ccb5cb1319",
+  "expected_result_events": 5,
+  "command": [
+    "agy",
+    "--new-project",
+    "--model",
+    "claude-opus-4-6-thinking",
+    "--mode",
+    "plan",
+    "--sandbox",
+    "--input-format",
+    "stream-json",
+    "--output-format",
+    "stream-json",
+    "--print-timeout",
+    "3300s"
+  ],
+  "isolation": "Fresh temporary directory and new project; no tools or peer reports allowed; prepared references only",
+  "actual_backend": "not independently attested",
+  "timeout_seconds": 3300,
+  "context_checkpoint_observed": false,
+  "exit_code": 1,
+  "seconds": 147.25,
+  "result_events": 1,
+  "invalid_stdout_lines": 0,
+  "observed_step_types": [],
+  "client_init_metadata": [],
+  "responses": [
+    {
+      "turn": 1,
+      "file": "turn-001.md",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "characters": 0,
+      "provided_range": {
+        "part": 1,
+        "first_paragraph": 1,
+        "last_paragraph": 576,
+        "paragraphs": 576,
+        "message_sha256": "f326ccd70dbda5a9c064066f291af53a3b905824f4d7c2fde1b84cba3916beaf",
+        "message_bytes": 88847
+      },
+      "reported_coverage": "requires_manual_validation"
+    }
+  ],
+  "scope_limit": "Complete input delivery and report return are not proof of full reading; inspect all turn reports, unread/compacted context and final cross-part analysis before importing."
+}

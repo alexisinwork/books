@@ -1,0 +1,28 @@
+{
+  "source_response_sha256": "5262cece0b092670c848554a0c0192e760ba439636a47c870def5758d2427311",
+  "scope": "Metadata only; raw response and prose unchanged",
+  "repairs": [
+    {
+      "kind": "syntax",
+      "before": "}]}}}",
+      "after": "}]}}",
+      "occurrences": 6,
+      "reason": "Extraneous chapter-object closing brace. Original response unchanged."
+    },
+    {
+      "kind": "quote",
+      "scene": "B02-CH31-SC01",
+      "before": "У наступній заявці це буде окремим розділом.",
+      "after": "У наступній заявці це буде окремим розділом",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    },
+    {
+      "kind": "quote",
+      "scene": "B02-CH35-SC01",
+      "before": "Мені потрібен первинний час створення.",
+      "after": "Мені потрібен первинний час створення",
+      "reason": "Coordinator documented literal source excerpt; no prose change."
+    }
+  ],
+  "output_sha256": "458866c4604aca5f8b777e286127ad4ab9ce451d2929fc0571ec38cc597f12bc"
+}
