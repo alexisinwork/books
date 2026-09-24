@@ -13,5 +13,23 @@
     "affected_checks",
     "decision"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "rev-2026-09-20-literary-02",
+      "reason": "Верифікація редакції 01 проти decisions.md; знайдено одне невиправлене перейменування.",
+      "old_source": "manuscript/uk-drafts/BURO_02_ZA_ROZKLADOM_UK_DRAFT_01.md",
+      "new_source": "revisions/2026-09-20-literary-02/BURO_02_ZA_ROZKLADOM_UK_LITERARY_02.md",
+      "changes": [
+        "розд. 2: «транспортної диспетчерки Соломії» → «Злати» (§5, D10)",
+        "нормалізовано розмітку до однієї порожньої лінії між блоками (як у т. 1 і т. 3)",
+        "DOCX перезібрано з виправленого MD"
+      ],
+      "affected_checks": [
+        "kb/decisions.md §5",
+        "kb/EDIT-READY.md критерії готовності"
+      ],
+      "decision": "D10, §5",
+      "date": "2026-09-20"
+    }
+  ]
 }
