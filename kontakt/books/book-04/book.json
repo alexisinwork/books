@@ -4,11 +4,19 @@
   "book_id": "book-04",
   "title": "Лишний человек",
   "book_type": "fiction",
-  "stage": "detailed_structure_in_progress",
-  "master": null,
+  "stage": "canonical_master_assigned",
+  "master": {
+    "path": "manuscript/master.docx",
+    "format": "docx",
+    "sha256": "8f02e3cac26d327f8048df615e86925627d41a23c7b2e7e35d75cadf1171aa7d",
+    "status": "author_selected",
+    "language": "uk",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "source_file": "Kontakt_04_Zaiva_liudyna_UK_Expanded.docx"
+  },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "book04_full_workflow_in_progress",
+  "audit_status": "author_master_assigned_2026-09-26",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -29,5 +37,19 @@
   },
   "planning_state": "planned_not_observed",
   "execution_entry": "plan.md",
-  "active_workflow": "../../series/WORKFLOW-2026-09-23-BOOK04.md"
+  "active_workflow": "../../series/WORKFLOW-2026-09-23-BOOK04.md",
+  "previous_master": null,
+  "previous_canonical_ua_master": null,
+  "canonical_ua_master": {
+    "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+    "format": "text",
+    "sha256": "f116c78cde4b218bd521632c8ddf8de3c233c5a0d582dea21f068cc21fee6e13",
+    "status": "final_canonical_master",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
+    "docx_sha256": "8f02e3cac26d327f8048df615e86925627d41a23c7b2e7e35d75cadf1171aa7d",
+    "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+    "nonempty_lines": 1781,
+    "publication_clearance": false
+  }
 }

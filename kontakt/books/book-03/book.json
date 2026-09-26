@@ -4,11 +4,19 @@
   "book_id": "book-03",
   "title": "Predictariat",
   "book_type": "fiction",
-  "stage": "working_revision_complete",
-  "master": null,
+  "stage": "canonical_master_assigned",
+  "master": {
+    "path": "manuscript/master.docx",
+    "format": "docx",
+    "sha256": "77f2419455771e0abd83521aab0294add9c9b8f4222dfe05ebecca0f0b95b10e",
+    "status": "author_selected",
+    "language": "uk",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "source_file": "Kontakt_Tom_3_Predictariat_rozshyrena_versiya.docx"
+  },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "compatible_revision_verified_opus_availability_exception",
+  "audit_status": "author_master_assigned_2026-09-26",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -75,5 +83,19 @@
     "manifest": "production/2026-09-23-book03/terra-final-v2/assembled/assembly.json",
     "chapters": 32,
     "status": "complete_corrected_working_volume"
+  },
+  "previous_master": null,
+  "previous_canonical_ua_master": null,
+  "canonical_ua_master": {
+    "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+    "format": "text",
+    "sha256": "0f569fdba39181b42c1e5ad316d8c35475982f64b80213b86b7e9df4bd05d310",
+    "status": "final_canonical_master",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
+    "docx_sha256": "77f2419455771e0abd83521aab0294add9c9b8f4222dfe05ebecca0f0b95b10e",
+    "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+    "nonempty_lines": 7236,
+    "publication_clearance": false
   }
 }

@@ -1,22 +1,10 @@
-# Основной текст
+# Основний текст
 
-**Авторитетный текст тома с 17.09.2026:** Автор назначил каноническим мастером украинскую редакцию 07 (`Riokka_4_UK_literary_07.docx`):
+**Авторитетний текст тому з 2026-09-26:** автор призначив фінальним майстром `Ріокка_4_Почерк_без_імені.docx` (з Downloads).
 
-- `manuscript/master.docx` (дубликат: `Riokka_4_UK_literary_07.docx`) — SHA-256 `e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234`
-- `manuscript/Riokka_4_UK_literary_07.txt` — текстовая проекция
-- `editions/uk/canonical-2026-09-17/manuscript.txt` — SHA-256 `d2701ec40f2c4c4b9942e4e1039c35c6627e8db4d8fa588e267c7c2a8ee49fe0`
-- `editions/uk/canonical-2026-09-17/manuscript.docx` — то же для чтения
-- указатель и счётчики — в `book.json`, поля `master` и `canonical_ua_master`
+- `master.docx` (дублікат: `Ріокка_4_Почерк_без_імені.docx`) — SHA-256 `c6e927f2b2e79a1dae5db5ae2901897c9943b322e8623698d79c332ee856aa23`
+- `../editions/uk/canonical-2026-09-26/manuscript.docx` / `manuscript.txt` (SHA-256 `65efcd81c4b50cf952bdc0f42837fde950528d2db10828554e1492ec5c1da2ef`) — канонічна редакція й текстова проєкція
+- вказівник — `book.json`, поля `master` і `canonical_ua_master`; попередні значення — `previous_master`, `previous_canonical_ua_master`
+- попередній майстер збережено в `../archive/master-prev-2026-09-26-*`
 
-Что лежит в этой папке:
-
-| Файл | Статус |
-|---|---|
-| `master.docx` | **Канонический рабочий мастер** тома (редакция 07). |
-| `Riokka_4_UK_literary_07.docx` | Исходный файл мастера от автора. |
-| `Riokka_4_UK_literary_07.txt` | Текстовая проекция мастера. |
-| `master.md` | Русский найденный исходник. Хеш неизменен. Legacy-источник, **не** рабочий мастер. |
-| `UK_draft_01.md` | Первая украинская черновая редакция. История. |
-| `UK_final_03.md` | Редакция 03. История. |
-
-Не редактируйте файлы этой папки напрямую как рукопись без фиксации версий. Мастер указан в `book.json`.
+Інші файли в цій папці (`master.md`, `UK_*`, `Riokka_*_literary_*`) — історія й legacy-джерела, не робочий майстер. Не редагуйте напряму без фіксації версій.

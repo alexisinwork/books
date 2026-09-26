@@ -9,12 +9,69 @@
   "master": {
     "path": "manuscript/master.docx",
     "format": "docx",
+    "sha256": "9c3d0ec8d327d4b5c0d4eb93d8fd8c611788975d7e6d6de1d5bf04fbcfafbbae",
+    "status": "author_selected",
+    "language": "uk",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "source_file": "Ріокка_5_Той_кого_читають.docx"
+  },
+  "canonical_ua_master": {
+    "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+    "format": "text",
+    "sha256": "8ec88eb4515d50ea9b540e939cea8a14e673baa246933039dba6bf38990ecf9e",
+    "status": "final_canonical_master",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
+    "docx_sha256": "9c3d0ec8d327d4b5c0d4eb93d8fd8c611788975d7e6d6de1d5bf04fbcfafbbae",
+    "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+    "nonempty_lines": 3645,
+    "publication_clearance": false
+  },
+  "legacy_source": {
+    "path": "manuscript/master.md",
+    "format": "text",
+    "sha256": "07d5cfcb5f9b1e74c139ef00a2bc15b579631cc33cba8c536f2b651325234fda",
+    "status": "ru_source_master_legacy",
+    "authority": "Автор 16.09.2026: «том 5 не каноничен, то была рабочая версия». Файл зберігається як legacy-джерело."
+  },
+  "voice": "voice.json",
+  "canon": "../../series/canon.json",
+  "original": "../../sources/originals/КОНТРАКТНИК-5-Тот-кого-читают.md",
+  "continuation_basis": {
+    "previous_book": "book-04",
+    "file": "../book-04/editions/uk/canonical-2026-09-18/manuscript.txt",
+    "sha256": "8b3d6e5d976ef138b0a7bbac79839c0f82f6abfc819ef2e40146f29bf52f27b5",
+    "language": "uk",
+    "status": "author_assigned_canonical_master",
+    "authority": "Автор 18.09.2026 доручив оновити канонічні майстри томів 4 і 5 (literary_08 / literary_07).",
+    "end_state": "../book-04/end-state.json",
+    "promises": "../book-04/promises.json",
+    "motifs": "../book-04/motifs.json",
+    "series_facts": "../../series/canon.json",
+    "must_not_contradict": [
+      "RIOKKA-LAD-SVITLOYAR",
+      "RIOKKA-WILD-SPREAD-SCALE",
+      "RIOKKA-WILD-TRANSMISSION-LIMITS",
+      "RIOKKA-POLYA-IS-TEIS-DAUGHTER"
+    ]
+  },
+  "authoritative_text": "canonical_ua_master",
+  "derived": {
+    "manuscript": "derived/manuscript.txt",
+    "snapshot": "derived/snapshot.json",
+    "regenerated_from": "master",
+    "sha256": "0918d8f48652f19b356fb4b8c43c5674013f65c87edf058ed81dc9e25ada5b52"
+  },
+  "audit_status": "author_master_assigned_2026-09-26",
+  "previous_master": {
+    "path": "manuscript/master.docx",
+    "format": "docx",
     "sha256": "0918d8f48652f19b356fb4b8c43c5674013f65c87edf058ed81dc9e25ada5b52",
     "status": "author_selected",
     "language": "uk",
     "authority": "Доручення автора 18.09.2026: «согласно замечаниям из папки Лор вселенных обнови конкретные файлы в нужных романах»; виправлення за riokka/series/audit/LORE-FIXES-2026-09-18.md."
   },
-  "canonical_ua_master": {
+  "previous_canonical_ua_master": {
     "path": "editions/uk/canonical-2026-09-18b/manuscript.txt",
     "format": "text",
     "sha256": "303b7363fa0c7fecc728befd04fa444817d4754f108994a9b9df4a0cac10d32f",
@@ -53,41 +110,5 @@
       "sha256": "79dfd767c6fdbfa2bb1071a3afe966e32555ffd57714bfe8e26aae8fae545655",
       "note": "Попередня редакція збережена без змін."
     }
-  },
-  "legacy_source": {
-    "path": "manuscript/master.md",
-    "format": "text",
-    "sha256": "07d5cfcb5f9b1e74c139ef00a2bc15b579631cc33cba8c536f2b651325234fda",
-    "status": "ru_source_master_legacy",
-    "authority": "Автор 16.09.2026: «том 5 не каноничен, то была рабочая версия». Файл зберігається як legacy-джерело."
-  },
-  "voice": "voice.json",
-  "canon": "../../series/canon.json",
-  "original": "../../sources/originals/КОНТРАКТНИК-5-Тот-кого-читают.md",
-  "continuation_basis": {
-    "previous_book": "book-04",
-    "file": "../book-04/editions/uk/canonical-2026-09-18/manuscript.txt",
-    "sha256": "8b3d6e5d976ef138b0a7bbac79839c0f82f6abfc819ef2e40146f29bf52f27b5",
-    "language": "uk",
-    "status": "author_assigned_canonical_master",
-    "authority": "Автор 18.09.2026 доручив оновити канонічні майстри томів 4 і 5 (literary_08 / literary_07).",
-    "end_state": "../book-04/end-state.json",
-    "promises": "../book-04/promises.json",
-    "motifs": "../book-04/motifs.json",
-    "series_facts": "../../series/canon.json",
-    "must_not_contradict": [
-      "RIOKKA-LAD-SVITLOYAR",
-      "RIOKKA-WILD-SPREAD-SCALE",
-      "RIOKKA-WILD-TRANSMISSION-LIMITS",
-      "RIOKKA-POLYA-IS-TEIS-DAUGHTER"
-    ]
-  },
-  "authoritative_text": "canonical_ua_master",
-  "derived": {
-    "manuscript": "derived/manuscript.txt",
-    "snapshot": "derived/snapshot.json",
-    "regenerated_from": "master",
-    "sha256": "0918d8f48652f19b356fb4b8c43c5674013f65c87edf058ed81dc9e25ada5b52"
-  },
-  "audit_status": "author_master_assigned_2026-09-18"
+  }
 }

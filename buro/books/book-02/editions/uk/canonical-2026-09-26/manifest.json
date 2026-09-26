@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "book_id": "book-02",
+  "edition_id": "uk-canonical-2026-09-26",
+  "language": "uk",
+  "title": "По раскладу",
+  "supersedes": {
+    "master": {
+      "path": "manuscript/master.md",
+      "format": "text",
+      "sha256": "16aedb2f212cf8e8f208cbd75fad39a985e7ed0e078a60e295af17cd4f01e4f5",
+      "status": "candidate",
+      "authority": "Exact byte range of the supplied omnibus; author has not confirmed this as the final manuscript"
+    },
+    "canonical_ua_master": null
+  },
+  "sources": [
+    {
+      "name": "BURO_02_ZA_ROZKLADOM_UK_EDITORIAL_03.docx",
+      "sha256": "9569f0da4d62bea1c973c3c2430f399151753952f4c0d633a2778bade6b89a79",
+      "role": "author_selected_final_master",
+      "path": "../../../manuscript/BURO_02_ZA_ROZKLADOM_UK_EDITORIAL_03.docx"
+    }
+  ],
+  "target_txt_file": "manuscript.txt",
+  "target_txt_sha256": "99e55c8bfa3d660cf5a80667ba8c3df3e8107eb68b443fa6a28ef7113be84210",
+  "target_docx_file": "manuscript.docx",
+  "target_docx_sha256": "9569f0da4d62bea1c973c3c2430f399151753952f4c0d633a2778bade6b89a79",
+  "nonempty_lines": 11538,
+  "chapter_headings_detected": 44,
+  "status": "final_canonical_edition",
+  "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+  "note": "Текстова проєкція — параграфи docx через порожній рядок; прозу не змінено. Попередній майстер збережено в archive/.",
+  "publication_clearance": false
+}

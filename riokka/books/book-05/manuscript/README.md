@@ -1,20 +1,10 @@
-# Основной текст
+# Основний текст
 
-**Авторитетный текст тома с 17.09.2026:** Автор назначил каноническим мастером украинскую редакцию 06 (`Riokka_5_UK_literary_06.docx`):
+**Авторитетний текст тому з 2026-09-26:** автор призначив фінальним майстром `Ріокка_5_Той_кого_читають.docx` (з Downloads).
 
-- `manuscript/master.docx` (дубликат: `Riokka_5_UK_literary_06.docx`) — SHA-256 `2288c57f66bd28a2cf282d2fea0be22e1f15411c9d8f32b96faf0dfd13e05f2e`
-- `manuscript/Riokka_5_UK_literary_06.txt` — текстовая проекция
-- `editions/uk/canonical-2026-09-17/manuscript.txt` — SHA-256 `838a424268fa7c044bc5eb3adc30118dbe208f0ce48c90f6ea78e0debe9acd28`
-- `editions/uk/canonical-2026-09-17/manuscript.docx` — то же для чтения
-- указатель и счётчики — в `book.json`, поля `master` и `canonical_ua_master`
+- `master.docx` (дублікат: `Ріокка_5_Той_кого_читають.docx`) — SHA-256 `9c3d0ec8d327d4b5c0d4eb93d8fd8c611788975d7e6d6de1d5bf04fbcfafbbae`
+- `../editions/uk/canonical-2026-09-26/manuscript.docx` / `manuscript.txt` (SHA-256 `8ec88eb4515d50ea9b540e939cea8a14e673baa246933039dba6bf38990ecf9e`) — канонічна редакція й текстова проєкція
+- вказівник — `book.json`, поля `master` і `canonical_ua_master`; попередні значення — `previous_master`, `previous_canonical_ua_master`
+- попередній майстер збережено в `../archive/master-prev-2026-09-26-*`
 
-Что лежит в этой папке:
-
-| Файл | Статус |
-|---|---|
-| `master.docx` | **Канонический рабочий мастер** тома (редакция 06). |
-| `Riokka_5_UK_literary_06.docx` | Исходный файл мастера от автора. |
-| `Riokka_5_UK_literary_06.txt` | Текстовая проекция мастера. |
-| `master.md` | Русский исходник рабочей версии. Хеш неизменен. Legacy-источник, **не** рабочий мастер. |
-
-Не редактируйте файлы этой папки напрямую как рукопись без фиксации версий. Мастер указан в `book.json`.
+Інші файли в цій папці (`master.md`, `UK_*`, `Riokka_*_literary_*`) — історія й legacy-джерела, не робочий майстер. Не редагуйте напряму без фіксації версій.

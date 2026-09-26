@@ -4,11 +4,19 @@
   "book_id": "book-08",
   "title": "Поимённо",
   "book_type": "fiction",
-  "stage": "macro_reconciled",
-  "master": null,
+  "stage": "canonical_master_assigned",
+  "master": {
+    "path": "manuscript/master.docx",
+    "format": "docx",
+    "sha256": "2b2e45aaee3ae60eb6590190ff05c429b57c7fac186a4f6d3cce3f6785102b09",
+    "status": "author_selected",
+    "language": "uk",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "source_file": "Kontakt_08_Poimenno_UK_Expanded.docx"
+  },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "macro_reviewed_scene_gates_pending",
+  "audit_status": "author_master_assigned_2026-09-26",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -20,5 +28,19 @@
     "sha256": "c782b692fe8bda75f5864780133c88ba233d6092a4421ee090093691cd9167e7"
   },
   "planning_state": "planned_not_observed",
-  "execution_entry": "plan.md"
+  "execution_entry": "plan.md",
+  "previous_master": null,
+  "previous_canonical_ua_master": null,
+  "canonical_ua_master": {
+    "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+    "format": "text",
+    "sha256": "b433cd0325d4fbd548666a85d6b73ff2e4f5260a5f2fb01bda2220b559ab3bb3",
+    "status": "final_canonical_master",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
+    "docx_sha256": "2b2e45aaee3ae60eb6590190ff05c429b57c7fac186a4f6d3cce3f6785102b09",
+    "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+    "nonempty_lines": 2757,
+    "publication_clearance": false
+  }
 }

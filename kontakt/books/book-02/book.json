@@ -4,11 +4,19 @@
   "book_id": "book-02",
   "title": "Расфокус / Однодневки",
   "book_type": "fiction",
-  "stage": "working_revision_complete",
-  "master": null,
+  "stage": "canonical_master_assigned",
+  "master": {
+    "path": "manuscript/master.docx",
+    "format": "docx",
+    "sha256": "9ad9231cdfd247decbc471cff76ef3b0ad669dc92ff0207952fbd4423baadfe6",
+    "status": "author_selected",
+    "language": "uk",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "source_file": "Kontakt_Tom_2_Rozfokus_Odnodenky_FULL.docx"
+  },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "compatible_revision_verified_opus_availability_exception",
+  "audit_status": "author_master_assigned_2026-09-26",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -66,5 +74,19 @@
     "sha256": "e641f3b639f0c03578c51916c0434156c584ce8022f556d94e522bf7c653679d",
     "chapters": 36,
     "canonical_status": "working_not_author_approved"
+  },
+  "previous_master": null,
+  "previous_canonical_ua_master": null,
+  "canonical_ua_master": {
+    "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+    "format": "text",
+    "sha256": "6b14a9b275458438face79640171ea6766573ea7a68f03c439c26ad7a5658ece",
+    "status": "final_canonical_master",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
+    "docx_sha256": "9ad9231cdfd247decbc471cff76ef3b0ad669dc92ff0207952fbd4423baadfe6",
+    "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+    "nonempty_lines": 6450,
+    "publication_clearance": false
   }
 }

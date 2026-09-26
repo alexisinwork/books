@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "book_id": "book-01",
+  "edition_id": "uk-canonical-2026-09-26",
+  "language": "uk",
+  "title": "Чистый лист",
+  "supersedes": {
+    "master": {
+      "path": "manuscript/master.md",
+      "format": "text",
+      "sha256": "a9653b8100bfdbc6d6ef77bbd2453e7d058aa45aa536c1f6a82d60339fb20159",
+      "status": "candidate",
+      "authority": "Exact byte range of the supplied omnibus; author has not confirmed this as the final manuscript"
+    },
+    "canonical_ua_master": null
+  },
+  "sources": [
+    {
+      "name": "BURO_01_CHYSTYI_ARKUSH_UK_EDITORIAL_03.docx",
+      "sha256": "4ed31d33002d4ac5497015d035abd9be269038d6cce6df5cecc2e66c6e6c1838",
+      "role": "author_selected_final_master",
+      "path": "../../../manuscript/BURO_01_CHYSTYI_ARKUSH_UK_EDITORIAL_03.docx"
+    }
+  ],
+  "target_txt_file": "manuscript.txt",
+  "target_txt_sha256": "c65948162d8cdcb482648dc13fd3a5c531e1a52412f900689ee5b4a7cadb45fd",
+  "target_docx_file": "manuscript.docx",
+  "target_docx_sha256": "4ed31d33002d4ac5497015d035abd9be269038d6cce6df5cecc2e66c6e6c1838",
+  "nonempty_lines": 8148,
+  "chapter_headings_detected": 45,
+  "status": "final_canonical_edition",
+  "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+  "note": "Текстова проєкція — параграфи docx через порожній рядок; прозу не змінено. Попередній майстер збережено в archive/.",
+  "publication_clearance": false
+}

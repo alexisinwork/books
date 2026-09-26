@@ -5,42 +5,31 @@
   "title": "Прочие убытки",
   "title_uk": "Інші збитки",
   "book_type": "fiction",
-  "stage": "proofreading_ready",
+  "stage": "canonical_master_assigned",
   "master": {
-    "path": "manuscript/master.md",
-    "format": "text",
-    "sha256": "81641a85ee25e78bc1e57348b279e7a88317551b166cfa831f33bd8f99431d32",
-    "status": "candidate",
-    "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена"
+    "path": "manuscript/master.docx",
+    "format": "docx",
+    "sha256": "3c5795ae9b7c30cd8552b2a082ed2cbbfcb6c21660372dd7c957101291b9f88e",
+    "status": "author_selected",
+    "language": "uk",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "source_file": "Ріокка_2_Інші_збитки.docx"
   },
   "canonical_ua_master": {
-    "path": "editions/uk/canonical-2026-09-18/manuscript.txt",
+    "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
     "format": "text",
-    "sha256": "a426915b90b18116d4756caa67c7ce92e620f7462f8539016ef89be1b14f029a",
+    "sha256": "0e4bc46e1839393d3036b4c94a6fc0e54816e1ac76fff4135678bb93aff20423",
     "status": "final_canonical_master",
-    "authority": "Доручення автора 18.09.2026: «согласно замечаниям из папки Лор вселенных обнови конкретные файлы в нужных романах»; виправлення за riokka/series/audit/LORE-FIXES-2026-09-18.md.",
-    "docx": "editions/uk/canonical-2026-09-18/manuscript.docx",
-    "docx_sha256": "03d39e7894842d6df498ad960dfa0789009871f59b08cdb3f926f93a38574750",
-    "total_chapters": 51,
-    "paragraphs": 2648,
-    "lines": 5297,
-    "lexical_tokens": 64761,
-    "edition_manifest": "editions/uk/canonical-2026-09-18/manifest.json",
-    "supersedes": [
-      {
-        "file": "editions/uk/final-2026-09-16/manuscript.txt",
-        "sha256": "a7750dd570a739225b74c129dbf3d506248c164bbc09e23bd10d4564e5c30834"
-      }
-    ],
-    "supersedes_edition": {
-      "path": "editions/uk/final-2026-09-16",
-      "sha256": "a7750dd570a739225b74c129dbf3d506248c164bbc09e23bd10d4564e5c30834",
-      "note": "Попередня редакція збережена без змін."
-    }
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
+    "docx_sha256": "3c5795ae9b7c30cd8552b2a082ed2cbbfcb6c21660372dd7c957101291b9f88e",
+    "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+    "nonempty_lines": 2646,
+    "publication_clearance": false
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "targeted_gemini_followup_verified_for_author_review",
+  "audit_status": "author_master_assigned_2026-09-26",
   "original": "../../sources/originals/КОНТРАКТНИК-2-Прочие-убытки.md",
   "working_revision": {
     "path": "revisions/2026-09-13-gemini-revisit/revised.md",
@@ -88,5 +77,37 @@
       "docx": "revisions/2026-09-13-gemini-revisit/source/before.docx",
       "status": "preserved_source_of_author_followup"
     }
-  ]
+  ],
+  "previous_master": {
+    "path": "manuscript/master.md",
+    "format": "text",
+    "sha256": "81641a85ee25e78bc1e57348b279e7a88317551b166cfa831f33bd8f99431d32",
+    "status": "candidate",
+    "authority": "Найденный файл этого тома; окончательность отдельно автором не подтверждена"
+  },
+  "previous_canonical_ua_master": {
+    "path": "editions/uk/canonical-2026-09-18/manuscript.txt",
+    "format": "text",
+    "sha256": "a426915b90b18116d4756caa67c7ce92e620f7462f8539016ef89be1b14f029a",
+    "status": "final_canonical_master",
+    "authority": "Доручення автора 18.09.2026: «согласно замечаниям из папки Лор вселенных обнови конкретные файлы в нужных романах»; виправлення за riokka/series/audit/LORE-FIXES-2026-09-18.md.",
+    "docx": "editions/uk/canonical-2026-09-18/manuscript.docx",
+    "docx_sha256": "03d39e7894842d6df498ad960dfa0789009871f59b08cdb3f926f93a38574750",
+    "total_chapters": 51,
+    "paragraphs": 2648,
+    "lines": 5297,
+    "lexical_tokens": 64761,
+    "edition_manifest": "editions/uk/canonical-2026-09-18/manifest.json",
+    "supersedes": [
+      {
+        "file": "editions/uk/final-2026-09-16/manuscript.txt",
+        "sha256": "a7750dd570a739225b74c129dbf3d506248c164bbc09e23bd10d4564e5c30834"
+      }
+    ],
+    "supersedes_edition": {
+      "path": "editions/uk/final-2026-09-16",
+      "sha256": "a7750dd570a739225b74c129dbf3d506248c164bbc09e23bd10d4564e5c30834",
+      "note": "Попередня редакція збережена без змін."
+    }
+  }
 }

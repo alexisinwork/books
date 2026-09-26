@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "book_id": "book-03",
+  "edition_id": "uk-canonical-2026-09-26",
+  "language": "uk",
+  "title": "Перо без руки",
+  "supersedes": {
+    "master": {
+      "path": "manuscript/master.md",
+      "format": "text",
+      "sha256": "385de89a47b602d694d68698ee3bb6fcc89a42a7487cc6caa3f294221a156797",
+      "status": "candidate",
+      "authority": "Exact byte range of the supplied omnibus; author has not confirmed this as the final manuscript"
+    },
+    "canonical_ua_master": null
+  },
+  "sources": [
+    {
+      "name": "BURO_03_PERO_BEZ_RUKY_UK_EDITORIAL_03.docx",
+      "sha256": "395006fb65559437a2c4e93e2df40746d074fa98eb06fb837b117bca39f7755e",
+      "role": "author_selected_final_master",
+      "path": "../../../manuscript/BURO_03_PERO_BEZ_RUKY_UK_EDITORIAL_03.docx"
+    }
+  ],
+  "target_txt_file": "manuscript.txt",
+  "target_txt_sha256": "cf1974f62c6346a003794f9816ab28baf739082c4b61d3bff3fb9f04a9805d64",
+  "target_docx_file": "manuscript.docx",
+  "target_docx_sha256": "395006fb65559437a2c4e93e2df40746d074fa98eb06fb837b117bca39f7755e",
+  "nonempty_lines": 9322,
+  "chapter_headings_detected": 46,
+  "status": "final_canonical_edition",
+  "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+  "note": "Текстова проєкція — параграфи docx через порожній рядок; прозу не змінено. Попередній майстер збережено в archive/.",
+  "publication_clearance": false
+}

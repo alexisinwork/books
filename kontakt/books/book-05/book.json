@@ -4,11 +4,19 @@
   "book_id": "book-05",
   "title": "Экономика чувств",
   "book_type": "fiction",
-  "stage": "macro_reconciled",
-  "master": null,
+  "stage": "canonical_master_assigned",
+  "master": {
+    "path": "manuscript/master.docx",
+    "format": "docx",
+    "sha256": "0064c5e9cf4ec55e54f00f25a1d5c0ac220c5121384ec6eb278cfcb8a1f095d3",
+    "status": "author_selected",
+    "language": "uk",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "source_file": "Kontakt_05_Ekonomika_pochuttiv_UK_Expanded.docx"
+  },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "macro_reviewed_scene_gates_pending",
+  "audit_status": "author_master_assigned_2026-09-26",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -21,5 +29,19 @@
     "sha256": "9b952172b34fc92a541884f5137b617ce468a9981ad199c1109b3e208fe71387"
   },
   "planning_state": "planned_not_observed",
-  "execution_entry": "plan.md"
+  "execution_entry": "plan.md",
+  "previous_master": null,
+  "previous_canonical_ua_master": null,
+  "canonical_ua_master": {
+    "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+    "format": "text",
+    "sha256": "60bd498096b3bed127dcadd34ddecae781e7405edd5ab261c9df816bff451596",
+    "status": "final_canonical_master",
+    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+    "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
+    "docx_sha256": "0064c5e9cf4ec55e54f00f25a1d5c0ac220c5121384ec6eb278cfcb8a1f095d3",
+    "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+    "nonempty_lines": 2113,
+    "publication_clearance": false
+  }
 }
