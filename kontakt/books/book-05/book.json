@@ -8,15 +8,15 @@
   "master": {
     "path": "manuscript/master.docx",
     "format": "docx",
-    "sha256": "0064c5e9cf4ec55e54f00f25a1d5c0ac220c5121384ec6eb278cfcb8a1f095d3",
+    "sha256": "e39316c50b8cd913466cef0428d0246b8bfbd4453656a37a3665c90c3f471d4b",
     "status": "author_selected",
     "language": "uk",
-    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
-    "source_file": "Kontakt_05_Ekonomika_pochuttiv_UK_Expanded.docx"
+    "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
+    "based_on_sha256": "0064c5e9cf4ec55e54f00f25a1d5c0ac220c5121384ec6eb278cfcb8a1f095d3"
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "author_master_assigned_2026-09-26",
+  "audit_status": "author_master_fix1_2026-09-26",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -33,15 +33,41 @@
   "previous_master": null,
   "previous_canonical_ua_master": null,
   "canonical_ua_master": {
-    "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+    "path": "editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
     "format": "text",
-    "sha256": "60bd498096b3bed127dcadd34ddecae781e7405edd5ab261c9df816bff451596",
+    "sha256": "0633e871ece6c78a06a6aa0ed2ea8cdb517d560d3b677943190aaed976c40246",
     "status": "final_canonical_master",
-    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
-    "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
-    "docx_sha256": "0064c5e9cf4ec55e54f00f25a1d5c0ac220c5121384ec6eb278cfcb8a1f095d3",
-    "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+    "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
+    "docx": "editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
+    "docx_sha256": "e39316c50b8cd913466cef0428d0246b8bfbd4453656a37a3665c90c3f471d4b",
+    "edition_manifest": "editions/uk/canonical-2026-09-26-fix1/manifest.json",
     "nonempty_lines": 2113,
-    "publication_clearance": false
-  }
+    "publication_clearance": false,
+    "revision": "revisions/2026-09-26-claude-fixes"
+  },
+  "master_history": [
+    {
+      "path": "manuscript/master.docx",
+      "format": "docx",
+      "sha256": "0064c5e9cf4ec55e54f00f25a1d5c0ac220c5121384ec6eb278cfcb8a1f095d3",
+      "status": "author_selected",
+      "language": "uk",
+      "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+      "source_file": "Kontakt_05_Ekonomika_pochuttiv_UK_Expanded.docx"
+    }
+  ],
+  "canonical_ua_master_history": [
+    {
+      "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+      "format": "text",
+      "sha256": "60bd498096b3bed127dcadd34ddecae781e7405edd5ab261c9df816bff451596",
+      "status": "final_canonical_master",
+      "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+      "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
+      "docx_sha256": "0064c5e9cf4ec55e54f00f25a1d5c0ac220c5121384ec6eb278cfcb8a1f095d3",
+      "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+      "nonempty_lines": 2113,
+      "publication_clearance": false
+    }
+  ]
 }

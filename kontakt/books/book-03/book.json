@@ -8,15 +8,15 @@
   "master": {
     "path": "manuscript/master.docx",
     "format": "docx",
-    "sha256": "77f2419455771e0abd83521aab0294add9c9b8f4222dfe05ebecca0f0b95b10e",
+    "sha256": "33387d2306808abcb67330c2633252bc5bb8e19e0e6e76d84909a6266cc7db87",
     "status": "author_selected",
     "language": "uk",
-    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
-    "source_file": "Kontakt_Tom_3_Predictariat_rozshyrena_versiya.docx"
+    "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
+    "based_on_sha256": "77f2419455771e0abd83521aab0294add9c9b8f4222dfe05ebecca0f0b95b10e"
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "author_master_assigned_2026-09-26",
+  "audit_status": "author_master_fix1_2026-09-26",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -87,15 +87,41 @@
   "previous_master": null,
   "previous_canonical_ua_master": null,
   "canonical_ua_master": {
-    "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+    "path": "editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
     "format": "text",
-    "sha256": "0f569fdba39181b42c1e5ad316d8c35475982f64b80213b86b7e9df4bd05d310",
+    "sha256": "a9baf2a00c7cc0b952dd271f1b8214b9a324152cad5484d5dba93e9e337aed01",
     "status": "final_canonical_master",
-    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
-    "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
-    "docx_sha256": "77f2419455771e0abd83521aab0294add9c9b8f4222dfe05ebecca0f0b95b10e",
-    "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
-    "nonempty_lines": 7236,
-    "publication_clearance": false
-  }
+    "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
+    "docx": "editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
+    "docx_sha256": "33387d2306808abcb67330c2633252bc5bb8e19e0e6e76d84909a6266cc7db87",
+    "edition_manifest": "editions/uk/canonical-2026-09-26-fix1/manifest.json",
+    "nonempty_lines": 7233,
+    "publication_clearance": false,
+    "revision": "revisions/2026-09-26-claude-fixes"
+  },
+  "master_history": [
+    {
+      "path": "manuscript/master.docx",
+      "format": "docx",
+      "sha256": "77f2419455771e0abd83521aab0294add9c9b8f4222dfe05ebecca0f0b95b10e",
+      "status": "author_selected",
+      "language": "uk",
+      "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+      "source_file": "Kontakt_Tom_3_Predictariat_rozshyrena_versiya.docx"
+    }
+  ],
+  "canonical_ua_master_history": [
+    {
+      "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+      "format": "text",
+      "sha256": "0f569fdba39181b42c1e5ad316d8c35475982f64b80213b86b7e9df4bd05d310",
+      "status": "final_canonical_master",
+      "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+      "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
+      "docx_sha256": "77f2419455771e0abd83521aab0294add9c9b8f4222dfe05ebecca0f0b95b10e",
+      "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+      "nonempty_lines": 7236,
+      "publication_clearance": false
+    }
+  ]
 }

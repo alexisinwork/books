@@ -19,13 +19,13 @@
         "status": "candidate"
       },
       "ua_canonical_master": {
-        "path": "books/book-00/editions/uk/canonical-2026-09-26/manuscript.txt",
+        "path": "books/book-00/editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
         "sha256": "b36992633392a0bfc386c1934bc9e6e48a072b6a93ace0361bf3619f43c40d28",
         "format": "text",
         "status": "final_canonical_master",
-        "docx": "books/book-00/editions/uk/canonical-2026-09-26/manuscript.docx",
-        "docx_sha256": "35580cdca9d01e6491d1eca92a568c976a1ddcaecd1178b2ada2891192501d08",
-        "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому."
+        "docx": "books/book-00/editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
+        "docx_sha256": "aa8811cf1aa3073954fc3ab3ae41f5f00f8f69d986a3303c2c206b3013a33107",
+        "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8»."
       },
       "canonical_promotion": "performed_2026-09-26",
       "legacy_migration_prepared": true,
@@ -38,7 +38,18 @@
         "docx": "books/book-00/editions/uk/canonical-2026-09-18/manuscript.docx",
         "docx_sha256": "37b1716adc6525814d933cebd2155681a0b0b7af1b47f0ada796a4cf1254d037",
         "authority": "Пряме рішення автора 18.09.2026: додати Riokka_0_UK_Esquire_final.docx як майстер тома 0."
-      }
+      },
+      "ua_canonical_master_history": [
+        {
+          "path": "books/book-00/editions/uk/canonical-2026-09-26/manuscript.txt",
+          "sha256": "b36992633392a0bfc386c1934bc9e6e48a072b6a93ace0361bf3619f43c40d28",
+          "format": "text",
+          "status": "final_canonical_master",
+          "docx": "books/book-00/editions/uk/canonical-2026-09-26/manuscript.docx",
+          "docx_sha256": "35580cdca9d01e6491d1eca92a568c976a1ddcaecd1178b2ada2891192501d08",
+          "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому."
+        }
+      ]
     },
     {
       "book_id": "book-01",
@@ -51,13 +62,13 @@
         "status": "author_selected"
       },
       "ua_canonical_master": {
-        "path": "books/book-01/editions/uk/canonical-2026-09-26/manuscript.txt",
+        "path": "books/book-01/editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
         "sha256": "49ea39d385a3c3afdf92607622e52d604d4dff3f68b920a11c8d53e06dc82283",
         "format": "text",
         "status": "final_canonical_master",
-        "docx": "books/book-01/editions/uk/canonical-2026-09-26/manuscript.docx",
-        "docx_sha256": "4cfbb5bf5486877fbd91060a91bd8db56bd9a9db1d5aa20cf870e25d4f914b94",
-        "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому."
+        "docx": "books/book-01/editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
+        "docx_sha256": "a41ca009d17885eaf501decfe40af25d7ef540ffe2fd8e05f0a185feb86a2b9c",
+        "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8»."
       },
       "canonical_promotion": "performed_2026-09-26",
       "canonical_promotion_note": "Синхронізовано з books/book-01/book.json 18.09.2026 (LORE-FIXES-2026-09-18): UA-канон імпортовано з завантажень автора (01 — Антидот із Семарі.docx) комітом ecfefeb від 16.09.2026. Блок adaptation_source_selection нижче — історичний (підготовка RU→UA до появи авторського UA-тексту); статус prose_translation не означає, що UA-тексту немає.",
@@ -86,7 +97,18 @@
         "docx": "books/book-01/editions/uk/final-2026-09-16/manuscript.docx",
         "docx_sha256": "901eb1392acb1fd3a39536a32415f7ae838b3ed20d1b2d7b8afb4153e47033f6",
         "authority": "Канонічний український рукопис автора з завантажень (01 — Антидот із Семарі.docx)"
-      }
+      },
+      "ua_canonical_master_history": [
+        {
+          "path": "books/book-01/editions/uk/canonical-2026-09-26/manuscript.txt",
+          "sha256": "49ea39d385a3c3afdf92607622e52d604d4dff3f68b920a11c8d53e06dc82283",
+          "format": "text",
+          "status": "final_canonical_master",
+          "docx": "books/book-01/editions/uk/canonical-2026-09-26/manuscript.docx",
+          "docx_sha256": "4cfbb5bf5486877fbd91060a91bd8db56bd9a9db1d5aa20cf870e25d4f914b94",
+          "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому."
+        }
+      ]
     },
     {
       "book_id": "book-02",
@@ -99,13 +121,13 @@
         "status": "candidate"
       },
       "ua_canonical_master": {
-        "path": "books/book-02/editions/uk/canonical-2026-09-26/manuscript.txt",
-        "sha256": "0e4bc46e1839393d3036b4c94a6fc0e54816e1ac76fff4135678bb93aff20423",
+        "path": "books/book-02/editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
+        "sha256": "dc1a9b086bfdd7747d9af57ee369624a8b8c325fcf87cfd27437d8f6bb87448f",
         "format": "text",
         "status": "final_canonical_master",
-        "docx": "books/book-02/editions/uk/canonical-2026-09-26/manuscript.docx",
-        "docx_sha256": "3c5795ae9b7c30cd8552b2a082ed2cbbfcb6c21660372dd7c957101291b9f88e",
-        "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому."
+        "docx": "books/book-02/editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
+        "docx_sha256": "602aa89e080537442d918aa34361427d75c50e26739ac9b87c7c89690f11a152",
+        "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8»."
       },
       "canonical_promotion": "performed_2026-09-26",
       "canonical_promotion_note": "Синхронізовано з books/book-02/book.json 18.09.2026 (LORE-FIXES-2026-09-18): UA-канон імпортовано з завантажень автора (02 — Інші збитки.docx) комітом ecfefeb від 16.09.2026. Блок adaptation_source_selection нижче — історичний (підготовка RU→UA до появи авторського UA-тексту); статус prose_translation не означає, що UA-тексту немає.",
@@ -134,7 +156,18 @@
         "docx": "books/book-02/editions/uk/final-2026-09-16/manuscript.docx",
         "docx_sha256": "d5451c0e2b6629fdfb2ae5dc48deedea3c6efd7df4d24894541e2b9aec96c608",
         "authority": "Канонічний український рукопис автора з завантажень (02 — Інші збитки.docx)"
-      }
+      },
+      "ua_canonical_master_history": [
+        {
+          "path": "books/book-02/editions/uk/canonical-2026-09-26/manuscript.txt",
+          "sha256": "0e4bc46e1839393d3036b4c94a6fc0e54816e1ac76fff4135678bb93aff20423",
+          "format": "text",
+          "status": "final_canonical_master",
+          "docx": "books/book-02/editions/uk/canonical-2026-09-26/manuscript.docx",
+          "docx_sha256": "3c5795ae9b7c30cd8552b2a082ed2cbbfcb6c21660372dd7c957101291b9f88e",
+          "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому."
+        }
+      ]
     },
     {
       "book_id": "book-03",
@@ -147,13 +180,13 @@
         "status": "candidate"
       },
       "ua_canonical_master": {
-        "path": "books/book-03/editions/uk/canonical-2026-09-26/manuscript.txt",
-        "sha256": "afabca5c3671ee06fca50cc57cbb95fd182476efb2d534d1b1567c6a0bfb33b3",
+        "path": "books/book-03/editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
+        "sha256": "4ac536d1b98a3efaf2d31b30980ce30fcf631caf728a128fd1c7783e89703d0a",
         "format": "text",
         "status": "final_canonical_master",
-        "docx": "books/book-03/editions/uk/canonical-2026-09-26/manuscript.docx",
-        "docx_sha256": "5c8b405b17ed7bcbda317b30e9fc54c679e5380c25708746be452fbba353d1fe",
-        "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому."
+        "docx": "books/book-03/editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
+        "docx_sha256": "bd69b64d637b3282d1a4b141960b5da81c3624104ae74fc99078c7be7517b26d",
+        "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8»."
       },
       "canonical_promotion": "performed_2026-09-26",
       "canonical_promotion_note": "Синхронізовано з books/book-03/book.json 18.09.2026 (LORE-FIXES-2026-09-18): UA-канон імпортовано з завантажень автора (03 — Пагорб Розмарі.docx) комітом ecfefeb від 16.09.2026. Блок adaptation_source_selection нижче — історичний (підготовка RU→UA до появи авторського UA-тексту); статус prose_translation не означає, що UA-тексту немає.",
@@ -182,7 +215,18 @@
         "docx": "books/book-03/editions/uk/final-2026-09-16/manuscript.docx",
         "docx_sha256": "cae2126e81bb0995e57e7e9406f90873f12a938d791f489278c9f360784ea533",
         "authority": "Канонічний український рукопис автора з завантажень (03 — Пагорб Розмарі.docx)"
-      }
+      },
+      "ua_canonical_master_history": [
+        {
+          "path": "books/book-03/editions/uk/canonical-2026-09-26/manuscript.txt",
+          "sha256": "afabca5c3671ee06fca50cc57cbb95fd182476efb2d534d1b1567c6a0bfb33b3",
+          "format": "text",
+          "status": "final_canonical_master",
+          "docx": "books/book-03/editions/uk/canonical-2026-09-26/manuscript.docx",
+          "docx_sha256": "5c8b405b17ed7bcbda317b30e9fc54c679e5380c25708746be452fbba353d1fe",
+          "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому."
+        }
+      ]
     },
     {
       "book_id": "book-04",
@@ -195,13 +239,13 @@
         "status": "candidate"
       },
       "ua_canonical_master": {
-        "path": "books/book-04/editions/uk/canonical-2026-09-26/manuscript.txt",
-        "sha256": "65efcd81c4b50cf952bdc0f42837fde950528d2db10828554e1492ec5c1da2ef",
+        "path": "books/book-04/editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
+        "sha256": "9c946644d05f35be801d5e0b253651260b99513aa210b711eb261655a0910bf5",
         "format": "text",
         "status": "final_canonical_master",
-        "docx": "books/book-04/editions/uk/canonical-2026-09-26/manuscript.docx",
-        "docx_sha256": "c6e927f2b2e79a1dae5db5ae2901897c9943b322e8623698d79c332ee856aa23",
-        "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому."
+        "docx": "books/book-04/editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
+        "docx_sha256": "7f623e07c6b015c84c5b1a021e7123da2b9e2151a5759210c330e43fc10189f7",
+        "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8»."
       },
       "canonical_promotion": "performed_2026-09-26",
       "legacy_migration_prepared": true,
@@ -214,7 +258,18 @@
         "docx": "books/book-04/editions/uk/canonical-2026-09-17/manuscript.docx",
         "docx_sha256": "e593c5c20db82300db2f9a420ef6d28067a42661f33dc6ddc0f981d8eb65a234",
         "authority": "Пряме рішення автора 17.09.2026: додати Riokka_4_UK_literary_07.docx як майстер тома 4."
-      }
+      },
+      "ua_canonical_master_history": [
+        {
+          "path": "books/book-04/editions/uk/canonical-2026-09-26/manuscript.txt",
+          "sha256": "65efcd81c4b50cf952bdc0f42837fde950528d2db10828554e1492ec5c1da2ef",
+          "format": "text",
+          "status": "final_canonical_master",
+          "docx": "books/book-04/editions/uk/canonical-2026-09-26/manuscript.docx",
+          "docx_sha256": "c6e927f2b2e79a1dae5db5ae2901897c9943b322e8623698d79c332ee856aa23",
+          "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому."
+        }
+      ]
     },
     {
       "book_id": "book-05",
@@ -227,13 +282,13 @@
         "status": "candidate"
       },
       "ua_canonical_master": {
-        "path": "books/book-05/editions/uk/canonical-2026-09-26/manuscript.txt",
-        "sha256": "8ec88eb4515d50ea9b540e939cea8a14e673baa246933039dba6bf38990ecf9e",
+        "path": "books/book-05/editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
+        "sha256": "4f6083641399e18306493ec2756b4c130230a28ab3b99abb6ce86e446210fddb",
         "format": "text",
         "status": "final_canonical_master",
-        "docx": "books/book-05/editions/uk/canonical-2026-09-26/manuscript.docx",
-        "docx_sha256": "9c3d0ec8d327d4b5c0d4eb93d8fd8c611788975d7e6d6de1d5bf04fbcfafbbae",
-        "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому."
+        "docx": "books/book-05/editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
+        "docx_sha256": "3c3f25ad88eea5b87f78bd04ba6eca8781f66e3458dc5620577d438d3fc230eb",
+        "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8»."
       },
       "canonical_promotion": "performed_2026-09-26",
       "legacy_migration_prepared": true,
@@ -246,7 +301,18 @@
         "docx": "books/book-05/editions/uk/canonical-2026-09-17/manuscript.docx",
         "docx_sha256": "2288c57f66bd28a2cf282d2fea0be22e1f15411c9d8f32b96faf0dfd13e05f2e",
         "authority": "Пряме рішення автора 17.09.2026: додати Riokka_5_UK_literary_06.docx як майстер тома 5."
-      }
+      },
+      "ua_canonical_master_history": [
+        {
+          "path": "books/book-05/editions/uk/canonical-2026-09-26/manuscript.txt",
+          "sha256": "8ec88eb4515d50ea9b540e939cea8a14e673baa246933039dba6bf38990ecf9e",
+          "format": "text",
+          "status": "final_canonical_master",
+          "docx": "books/book-05/editions/uk/canonical-2026-09-26/manuscript.docx",
+          "docx_sha256": "9c3d0ec8d327d4b5c0d4eb93d8fd8c611788975d7e6d6de1d5bf04fbcfafbbae",
+          "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому."
+        }
+      ]
     }
   ],
   "current_adaptation_preparation": "translation/active-preparation.json",

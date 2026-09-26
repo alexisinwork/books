@@ -9,23 +9,24 @@
   "master": {
     "path": "manuscript/master.docx",
     "format": "docx",
-    "sha256": "35580cdca9d01e6491d1eca92a568c976a1ddcaecd1178b2ada2891192501d08",
+    "sha256": "aa8811cf1aa3073954fc3ab3ae41f5f00f8f69d986a3303c2c206b3013a33107",
     "status": "author_selected",
     "language": "uk",
-    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
-    "source_file": "Ріокка_0_Есквайр.docx"
+    "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
+    "based_on_sha256": "35580cdca9d01e6491d1eca92a568c976a1ddcaecd1178b2ada2891192501d08"
   },
   "canonical_ua_master": {
-    "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+    "path": "editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
     "format": "text",
     "sha256": "b36992633392a0bfc386c1934bc9e6e48a072b6a93ace0361bf3619f43c40d28",
     "status": "final_canonical_master",
-    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
-    "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
-    "docx_sha256": "35580cdca9d01e6491d1eca92a568c976a1ddcaecd1178b2ada2891192501d08",
-    "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+    "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
+    "docx": "editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
+    "docx_sha256": "aa8811cf1aa3073954fc3ab3ae41f5f00f8f69d986a3303c2c206b3013a33107",
+    "edition_manifest": "editions/uk/canonical-2026-09-26-fix1/manifest.json",
     "nonempty_lines": 10232,
-    "publication_clearance": false
+    "publication_clearance": false,
+    "revision": "revisions/2026-09-26-claude-fixes"
   },
   "legacy_source": {
     "path": "archive/master-ru-candidate-2026-09-14.docx",
@@ -36,7 +37,7 @@
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "author_master_assigned_2026-09-26",
+  "audit_status": "author_master_fix1_2026-09-26",
   "original": "../../sources/originals/ЭСКВАЙР-Книга-0.docx",
   "authoritative_text": "canonical_ua_master",
   "derived": {
@@ -78,5 +79,30 @@
       "sha256": "0db25fda5d8f39b10ce7cbcf3a468975e52cbad307de3e0f500e1bda4e470cb1",
       "note": "Попередня канонічна редакція збережена без змін."
     }
-  }
+  },
+  "master_history": [
+    {
+      "path": "manuscript/master.docx",
+      "format": "docx",
+      "sha256": "35580cdca9d01e6491d1eca92a568c976a1ddcaecd1178b2ada2891192501d08",
+      "status": "author_selected",
+      "language": "uk",
+      "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+      "source_file": "Ріокка_0_Есквайр.docx"
+    }
+  ],
+  "canonical_ua_master_history": [
+    {
+      "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+      "format": "text",
+      "sha256": "b36992633392a0bfc386c1934bc9e6e48a072b6a93ace0361bf3619f43c40d28",
+      "status": "final_canonical_master",
+      "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+      "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
+      "docx_sha256": "35580cdca9d01e6491d1eca92a568c976a1ddcaecd1178b2ada2891192501d08",
+      "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+      "nonempty_lines": 10232,
+      "publication_clearance": false
+    }
+  ]
 }

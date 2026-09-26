@@ -9,27 +9,28 @@
   "master": {
     "path": "manuscript/master.docx",
     "format": "docx",
-    "sha256": "3c5795ae9b7c30cd8552b2a082ed2cbbfcb6c21660372dd7c957101291b9f88e",
+    "sha256": "602aa89e080537442d918aa34361427d75c50e26739ac9b87c7c89690f11a152",
     "status": "author_selected",
     "language": "uk",
-    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
-    "source_file": "Ріокка_2_Інші_збитки.docx"
+    "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
+    "based_on_sha256": "3c5795ae9b7c30cd8552b2a082ed2cbbfcb6c21660372dd7c957101291b9f88e"
   },
   "canonical_ua_master": {
-    "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+    "path": "editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
     "format": "text",
-    "sha256": "0e4bc46e1839393d3036b4c94a6fc0e54816e1ac76fff4135678bb93aff20423",
+    "sha256": "dc1a9b086bfdd7747d9af57ee369624a8b8c325fcf87cfd27437d8f6bb87448f",
     "status": "final_canonical_master",
-    "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
-    "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
-    "docx_sha256": "3c5795ae9b7c30cd8552b2a082ed2cbbfcb6c21660372dd7c957101291b9f88e",
-    "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+    "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
+    "docx": "editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
+    "docx_sha256": "602aa89e080537442d918aa34361427d75c50e26739ac9b87c7c89690f11a152",
+    "edition_manifest": "editions/uk/canonical-2026-09-26-fix1/manifest.json",
     "nonempty_lines": 2646,
-    "publication_clearance": false
+    "publication_clearance": false,
+    "revision": "revisions/2026-09-26-claude-fixes"
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "author_master_assigned_2026-09-26",
+  "audit_status": "author_master_fix1_2026-09-26",
   "original": "../../sources/originals/КОНТРАКТНИК-2-Прочие-убытки.md",
   "working_revision": {
     "path": "revisions/2026-09-13-gemini-revisit/revised.md",
@@ -109,5 +110,30 @@
       "sha256": "a7750dd570a739225b74c129dbf3d506248c164bbc09e23bd10d4564e5c30834",
       "note": "Попередня редакція збережена без змін."
     }
-  }
+  },
+  "master_history": [
+    {
+      "path": "manuscript/master.docx",
+      "format": "docx",
+      "sha256": "3c5795ae9b7c30cd8552b2a082ed2cbbfcb6c21660372dd7c957101291b9f88e",
+      "status": "author_selected",
+      "language": "uk",
+      "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+      "source_file": "Ріокка_2_Інші_збитки.docx"
+    }
+  ],
+  "canonical_ua_master_history": [
+    {
+      "path": "editions/uk/canonical-2026-09-26/manuscript.txt",
+      "format": "text",
+      "sha256": "0e4bc46e1839393d3036b4c94a6fc0e54816e1ac76fff4135678bb93aff20423",
+      "status": "final_canonical_master",
+      "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
+      "docx": "editions/uk/canonical-2026-09-26/manuscript.docx",
+      "docx_sha256": "3c5795ae9b7c30cd8552b2a082ed2cbbfcb6c21660372dd7c957101291b9f88e",
+      "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
+      "nonempty_lines": 2646,
+      "publication_clearance": false
+    }
+  ]
 }
