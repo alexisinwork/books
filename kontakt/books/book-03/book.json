@@ -8,15 +8,15 @@
   "master": {
     "path": "manuscript/master.docx",
     "format": "docx",
-    "sha256": "33387d2306808abcb67330c2633252bc5bb8e19e0e6e76d84909a6266cc7db87",
+    "sha256": "a402baf75ffd346bf07c5eef43bbbed8b38bd258a3493eb7e9076bf349fdd244",
     "status": "author_selected",
     "language": "uk",
-    "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
-    "based_on_sha256": "77f2419455771e0abd83521aab0294add9c9b8f4222dfe05ebecca0f0b95b10e"
+    "authority": "Пряме доручення автора 27.09.2026: «поправить все согласно логике» — спірні пункти з попереднього раунду (DECISIONS.md) вирішено самостійно, з протоколом обґрунтування (RESOLUTIONS.md) для кожного пункту.",
+    "based_on_sha256": "33387d2306808abcb67330c2633252bc5bb8e19e0e6e76d84909a6266cc7db87"
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "author_master_fix1_2026-09-26",
+  "audit_status": "author_master_fix2_2026-09-27",
   "authority": "../../series/PRE-DRAFT-LOCK-2026-09-19.md",
   "architecture_contract": "../../series/ARCHITECTURE-PASS-01.md",
   "language": "uk",
@@ -87,17 +87,17 @@
   "previous_master": null,
   "previous_canonical_ua_master": null,
   "canonical_ua_master": {
-    "path": "editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
+    "path": "editions/uk/canonical-2026-09-27-fix2/manuscript.txt",
     "format": "text",
-    "sha256": "a9baf2a00c7cc0b952dd271f1b8214b9a324152cad5484d5dba93e9e337aed01",
+    "sha256": "99e950be4f73cb3a07103aeaca413d29ff57e9d0126cbf436423fa24d9be958e",
     "status": "final_canonical_master",
-    "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
-    "docx": "editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
-    "docx_sha256": "33387d2306808abcb67330c2633252bc5bb8e19e0e6e76d84909a6266cc7db87",
-    "edition_manifest": "editions/uk/canonical-2026-09-26-fix1/manifest.json",
-    "nonempty_lines": 7233,
+    "authority": "Пряме доручення автора 27.09.2026: «поправить все согласно логике» — спірні пункти з попереднього раунду (DECISIONS.md) вирішено самостійно, з протоколом обґрунтування (RESOLUTIONS.md) для кожного пункту.",
+    "docx": "editions/uk/canonical-2026-09-27-fix2/manuscript.docx",
+    "docx_sha256": "a402baf75ffd346bf07c5eef43bbbed8b38bd258a3493eb7e9076bf349fdd244",
+    "edition_manifest": "editions/uk/canonical-2026-09-27-fix2/manifest.json",
+    "nonempty_lines": 7157,
     "publication_clearance": false,
-    "revision": "revisions/2026-09-26-claude-fixes"
+    "revision": "revisions/2026-09-27-claude-fixes2"
   },
   "master_history": [
     {
@@ -108,6 +108,15 @@
       "language": "uk",
       "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
       "source_file": "Kontakt_Tom_3_Predictariat_rozshyrena_versiya.docx"
+    },
+    {
+      "path": "manuscript/master.docx",
+      "format": "docx",
+      "sha256": "33387d2306808abcb67330c2633252bc5bb8e19e0e6e76d84909a6266cc7db87",
+      "status": "author_selected",
+      "language": "uk",
+      "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
+      "based_on_sha256": "77f2419455771e0abd83521aab0294add9c9b8f4222dfe05ebecca0f0b95b10e"
     }
   ],
   "canonical_ua_master_history": [
@@ -122,6 +131,19 @@
       "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
       "nonempty_lines": 7236,
       "publication_clearance": false
+    },
+    {
+      "path": "editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
+      "format": "text",
+      "sha256": "a9baf2a00c7cc0b952dd271f1b8214b9a324152cad5484d5dba93e9e337aed01",
+      "status": "final_canonical_master",
+      "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
+      "docx": "editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
+      "docx_sha256": "33387d2306808abcb67330c2633252bc5bb8e19e0e6e76d84909a6266cc7db87",
+      "edition_manifest": "editions/uk/canonical-2026-09-26-fix1/manifest.json",
+      "nonempty_lines": 7233,
+      "publication_clearance": false,
+      "revision": "revisions/2026-09-26-claude-fixes"
     }
   ]
 }

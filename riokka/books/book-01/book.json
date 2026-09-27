@@ -9,28 +9,28 @@
   "master": {
     "path": "manuscript/master.docx",
     "format": "docx",
-    "sha256": "a41ca009d17885eaf501decfe40af25d7ef540ffe2fd8e05f0a185feb86a2b9c",
+    "sha256": "bf4ba14d495372d9837a056c742f5f600b0479185f645d0888accf1989c258d4",
     "status": "author_selected",
     "language": "uk",
-    "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
-    "based_on_sha256": "4cfbb5bf5486877fbd91060a91bd8db56bd9a9db1d5aa20cf870e25d4f914b94"
+    "authority": "Пряме доручення автора 27.09.2026: «поправить все согласно логике» — спірні пункти з попереднього раунду (DECISIONS.md) вирішено самостійно, з протоколом обґрунтування (RESOLUTIONS.md) для кожного пункту.",
+    "based_on_sha256": "a41ca009d17885eaf501decfe40af25d7ef540ffe2fd8e05f0a185feb86a2b9c"
   },
   "canonical_ua_master": {
-    "path": "editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
+    "path": "editions/uk/canonical-2026-09-27-fix2/manuscript.txt",
     "format": "text",
-    "sha256": "49ea39d385a3c3afdf92607622e52d604d4dff3f68b920a11c8d53e06dc82283",
+    "sha256": "f820035c7cb666394f1e889678a5c9d9a0755c69e2ded905b19977cfb8b9cc5b",
     "status": "final_canonical_master",
-    "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
-    "docx": "editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
-    "docx_sha256": "a41ca009d17885eaf501decfe40af25d7ef540ffe2fd8e05f0a185feb86a2b9c",
-    "edition_manifest": "editions/uk/canonical-2026-09-26-fix1/manifest.json",
-    "nonempty_lines": 1240,
+    "authority": "Пряме доручення автора 27.09.2026: «поправить все согласно логике» — спірні пункти з попереднього раунду (DECISIONS.md) вирішено самостійно, з протоколом обґрунтування (RESOLUTIONS.md) для кожного пункту.",
+    "docx": "editions/uk/canonical-2026-09-27-fix2/manuscript.docx",
+    "docx_sha256": "bf4ba14d495372d9837a056c742f5f600b0479185f645d0888accf1989c258d4",
+    "edition_manifest": "editions/uk/canonical-2026-09-27-fix2/manifest.json",
+    "nonempty_lines": 1239,
     "publication_clearance": false,
-    "revision": "revisions/2026-09-26-claude-fixes"
+    "revision": "revisions/2026-09-27-claude-fixes2"
   },
   "voice": "voice.json",
   "canon": "../../series/canon.json",
-  "audit_status": "author_master_fix1_2026-09-26",
+  "audit_status": "author_master_fix2_2026-09-27",
   "original": "../../sources/originals/Контрактник Риокка — Книга 1 — Антидот с Семари.docx",
   "working_revision": {
     "path": "revisions/2026-09-13-ensemble-r1/revised.docx",
@@ -91,6 +91,15 @@
       "language": "uk",
       "authority": "Пряме доручення автора 26.09.2026: файл з Downloads назначено фінальним майстром тому.",
       "source_file": "Ріокка_1_Антидот_із_Семарі.docx"
+    },
+    {
+      "path": "manuscript/master.docx",
+      "format": "docx",
+      "sha256": "a41ca009d17885eaf501decfe40af25d7ef540ffe2fd8e05f0a185feb86a2b9c",
+      "status": "author_selected",
+      "language": "uk",
+      "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
+      "based_on_sha256": "4cfbb5bf5486877fbd91060a91bd8db56bd9a9db1d5aa20cf870e25d4f914b94"
     }
   ],
   "canonical_ua_master_history": [
@@ -105,6 +114,19 @@
       "edition_manifest": "editions/uk/canonical-2026-09-26/manifest.json",
       "nonempty_lines": 1240,
       "publication_clearance": false
+    },
+    {
+      "path": "editions/uk/canonical-2026-09-26-fix1/manuscript.txt",
+      "format": "text",
+      "sha256": "49ea39d385a3c3afdf92607622e52d604d4dff3f68b920a11c8d53e06dc82283",
+      "status": "final_canonical_master",
+      "authority": "Пряме доручення автора 26–27.09.2026: «пофикси во всех романах нужные вещи, что ты подметил» (однозначні правки; спірне — у DECISIONS.md) і «разберись с русскими блоками в Kontakt 8».",
+      "docx": "editions/uk/canonical-2026-09-26-fix1/manuscript.docx",
+      "docx_sha256": "a41ca009d17885eaf501decfe40af25d7ef540ffe2fd8e05f0a185feb86a2b9c",
+      "edition_manifest": "editions/uk/canonical-2026-09-26-fix1/manifest.json",
+      "nonempty_lines": 1240,
+      "publication_clearance": false,
+      "revision": "revisions/2026-09-26-claude-fixes"
     }
   ]
 }
